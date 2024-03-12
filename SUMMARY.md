@@ -14,6 +14,8 @@
   * [LN Configuration](setup/ln-configuration.md)
   * [M3 Configuration](setup/m3-configuration.md)
   * [Exporting in DocBits](setup/exporting-in-docbits.md)
+  * [Document Training](setup/document-training/README.md)
+    * [Table Training](setup/document-training/table-training.md)
 * [API reference](api-reference/README.md)
   * [/](api-reference/undefined.md)
   * [Document](api-reference/document/README.md)
