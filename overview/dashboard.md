@@ -2,7 +2,7 @@
 
 ### Dashboard <a href="#sv8cm79y58br" id="sv8cm79y58br"></a>
 
-After logging in with your credentials, you will be redirected to the DocBits Dashboard homepage. This is the main page where you can manage all your imported documents.
+Upon successfully logging in with your credentials, you'll be directed to the DocBits Dashboard homepage. This central page allows you to manage all your imported documents efficiently.
 
 ![](<../.gitbook/assets/1 (13).png>)
 
