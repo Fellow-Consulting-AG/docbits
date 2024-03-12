@@ -462,3 +462,4 @@
         * [Get document type regexes](api-reference/fellowkv/post-data/preferences/get-document-type-regexes.md)
         * [Update document type regexes](api-reference/fellowkv/post-data/preferences/update-document-type-regexes.md)
 * [Specification](https://api.docbits.com/openapi.json)
+* [Setup](setup.md)
