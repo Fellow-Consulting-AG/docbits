@@ -8,11 +8,11 @@ The export module is located, on the Dashboard, under Settings → Document Proc
 
 ![Ein Bild, das Screenshot, Text, Zahl, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/0 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/0 (6).png>)
 
 ![Ein Bild, das Text, Software, Zahl, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/1 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/1 (6).png>)
 
 **New Export**
 
@@ -20,13 +20,13 @@ To add a new export configuration, select “+ New”
 
 ![Ein Bild, das Screenshot, Text, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/2 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/2 (6).png>)
 
 Select the method you would like to use for your export configuration.
 
 ![Ein Bild, das Text, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/3 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/3 (6).png>)
 
 Once you have selected the method you would like to use, you will need to upload the various information and files required for that method of exporting.
 
@@ -36,11 +36,11 @@ Once you have one or many export configurations in your DocBits, you have the op
 
 The configuration below is activated, indicated by the green dot to the left of the configuration name.
 
-![](<../.gitbook/assets/4 (6).png>)
+![](<../../.gitbook/assets/4 (6).png>)
 
 To deactivate the export configuration, select the options button to the right of the configuration as shown below.
 
-![](<../.gitbook/assets/5 (6).png>)
+![](<../../.gitbook/assets/5 (6).png>)
 
 You are given three options
 
@@ -52,7 +52,7 @@ You are given three options
 
 ![Ein Bild, das Reihe, Diagramm, Screenshot, weiß enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/6 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/6 (6).png>)
 
 4.2.1 **Creating an ION API Endpoint**
 
@@ -62,29 +62,29 @@ Once at the home screen, click on the burger menu and select ION API
 
 ![Ein Bild, das Text, Screenshot, Schrift, Logo enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/7 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/7 (6).png>)
 
 After opening ION API, click on Available APIs in the left menu
 
-![](<../.gitbook/assets/8 (6).png>)
+![](<../../.gitbook/assets/8 (6).png>)
 
 Click on “+ADD” block
 
 ![Ein Bild, das Screenshot, Software, Multimedia-Software, Computersymbol enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/9 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/9 (6).png>)
 
 Then “+ Create New”
 
 ![Ein Bild, das Screenshot, Text, Software, Webseite enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/10 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/10 (6).png>)
 
 The information you insert should look like this
 
 ![Ein Bild, das Text, Schrift, Zahl, Diagramm enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/11 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/11 (5).png>)
 
 FYI: The description has multiple environments as this will be used for multiple environments and the icon and its color always remain the same.
 
@@ -92,41 +92,41 @@ Next, select the + at the bottom of the screen
 
 ![Ein Bild, das Screenshot, Text, Reihe, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/12 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/12 (5).png>)
 
 This Target Endpoint URL can be found at doc2api.cloudintegration.eu
 
 ![Ein Bild, das Text, Schrift, Screenshot, Reihe enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/13 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/13 (5).png>)
 
 The information underneath this field should look as follows.
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/14 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/14 (5).png>)
 
 Once you have filled in this information, to the right of these fields there is a “Target Endpoint Security” field with a drop down. Select API Key from this drop down.
 
-![](<../.gitbook/assets/15 (5).png>)
+![](<../../.gitbook/assets/15 (5).png>)
 
 A table will then appear underneath this drop down, fill in the following information. The key value is specific to the customer and environment, it can be found within DocBits.
 
 From the Dashboard → Settings → Integration → API Key
 
-![](<../.gitbook/assets/16 (5).png>)
+![](<../../.gitbook/assets/16 (5).png>)
 
-![](<../.gitbook/assets/17 (4).png>)
+![](<../../.gitbook/assets/17 (4).png>)
 
 Copy and paste this into the Key Value field in InforOS
 
-![](<../.gitbook/assets/18 (4).png>)
+![](<../../.gitbook/assets/18 (4).png>)
 
 Once this is complete, press the following icon to save the configuration
 
 ![Ein Bild, das Text, Schrift, Screenshot, Logo enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/19 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/19 (3).png>)
 
 You are not yet completely done with the configuration.
 
@@ -134,7 +134,7 @@ Go back into the API you just configured and enter the details like below
 
 ![Ein Bild, das Screenshot, Software, Multimedia-Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/20 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/20 (3).png>)
 
 Go to the Documentation tab at the bottom and click on the +
 

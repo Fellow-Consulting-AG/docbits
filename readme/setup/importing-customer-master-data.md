@@ -10,13 +10,13 @@ You will need to create the DocBits API connection point in order to create the 
 
 First, in InforOS, navigate to ION Desk → Connect → Connection Points
 
-![](<../.gitbook/assets/0 (2).png>)
+![](<../../.gitbook/assets/0 (2).png>)
 
 Once here, you will need to create a new connection point.
 
 ![Ein Bild, das Text, Screenshot, Software, Multimedia-Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/1 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/1 (2).png>)
 
 **Select API**
 
@@ -24,13 +24,13 @@ Give the connection point a name and description that describes its nature and i
 
 ![Ein Bild, das Text, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/2 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/2 (2).png>)
 
 Next, switch to the Documents tab. You will need to add the following BODs to the connection point.
 
 ![Ein Bild, das Text, Reihe, Quittung, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/3 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/3 (2).png>)
 
 * Ack-SupplierInvoice
 
@@ -38,7 +38,7 @@ This BOD is used to signal on DocBits that an error has occurred within Infor. T
 
 ![Ein Bild, das Text, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/4 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/4 (2).png>)
 
 * Sync.PurchaseOrder
 
@@ -46,7 +46,7 @@ The configuration for this BOD should look similar to the following
 
 ![Ein Bild, das Text, Schrift, Zahl, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/5 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/5 (2).png>)
 
 * Sync.ReceiveDelivery
 
@@ -54,7 +54,7 @@ The configuration for this BOD should look similar to the following
 
 ![Ein Bild, das Text, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/6 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/6 (2).png>)
 
 Once these BODs are configured, you can save the connection point by pressing the icon located right to the back button.
 
@@ -64,7 +64,7 @@ The data flow will look similar to the following
 
 ![Ein Bild, das Text, Diagramm, Screenshot, Plan enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/7 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/7 (2).png>)
 
 (The reason for multiple DocBits APIs is due to each connection representing a different environment meaning, depending on the amount of environments you have, your data flow could differ slightly)
 
@@ -84,7 +84,7 @@ The configuration should look as follows
 
 ![Ein Bild, das Diagramm, Reihe, Screenshot, Text enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/8 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/8 (2).png>)
 
 **LN BOD Triggering**
 
@@ -92,7 +92,7 @@ Automatisch generierte Beschreibung](<../.gitbook/assets/8 (2).png>)
 
 ![Ein Bild, das Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/9 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/9 (2).png>)
 
 **PurchaseOrder**
 
@@ -100,7 +100,7 @@ From the above menu, in the left menu tab, select Common → BOD-Messaging → P
 
 Select the PurchaseOrder tab and check the box.
 
-![](<../.gitbook/assets/10 (2).png>)
+![](<../../.gitbook/assets/10 (2).png>)
 
 **Suppliers**
 
@@ -108,7 +108,7 @@ From the LN homepage, in the left menu tab, navigate to Common → BOD-Messaging
 
 Select the PartyMaster tab and check the Supplier → Buy-from or SupplierPartyMaster box.
 
-![](<../.gitbook/assets/11 (2).png>)
+![](<../../.gitbook/assets/11 (2).png>)
 
 **BOD Triggering**
 
@@ -116,13 +116,13 @@ Once all the correct BODs have been checked for publication, select the Options 
 
 The following options should be selected.
 
-![](<../.gitbook/assets/12 (2).png>)
+![](<../../.gitbook/assets/12 (2).png>)
 
 Once this is complete, press the PROCESS button and the BODs will be triggered. A message will appear on screen to notify you that the BODs have been triggered.
 
 ![Ein Bild, das Screenshot, Text, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/13 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/13 (2).png>)
 
 If done successfully, the Supplier and Purchase Order tables should now be available under Settings → Master Data Lookup.
 
@@ -141,7 +141,7 @@ In Infor, open the ION Desk application. In the left tab, go to Connect → Conn
 
 ![Ein Bild, das Text, Screenshot, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/14 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/14 (2).png>)
 
 This is where you will create the two connection points needed to import your data from LN that is required for Auto Accounting.
 
@@ -149,7 +149,7 @@ Click on “+ADD” to create a new connection point, select the API option like
 
 ![Ein Bild, das Text, Screenshot, Zahl, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/15 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/15 (2).png>)
 
 You will need to configure two separate API connection points, namely:
 
@@ -160,11 +160,11 @@ You will need to configure two separate API connection points, namely:
 
 The connection tab for your ChartOfAccounts connection point should look similar to what is illustrated below. Give the connection point an appropriate name and description, as well as import the Service Account you created.
 
-![](<../.gitbook/assets/16 (2).png>)
+![](<../../.gitbook/assets/16 (2).png>)
 
 ![Ein Bild, das Text, Reihe, Schrift, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/17 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/17 (2).png>)
 
 You will need to add two BODs in this section for this connection point. These being Sync.ChartOfAccounts and Sync.CodeDefinition, to add these BODs do the following:
 
@@ -174,19 +174,19 @@ You will need to add two BODs in this section for this connection point. These b
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/18 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/18 (2).png>)
 
 * Select “Send to API”
 
 ![Ein Bild, das Text, Schrift, Grafiken, Logo enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/19 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/19 (2).png>)
 
 * Search for the Sync.ChartOfAccounts BOD
 
 ![Ein Bild, das Text, Screenshot, Reihe, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/20 (2).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/20 (2).png>)
 
 * Switch to the ION API tab, copy the API name and search for the API Call by pressing the SELECT button
 * At product, select the API Endpoint that you created for the environment you are working with, which you created in ION API. Search for the following API call, select the API call and press OK.

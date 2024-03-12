@@ -8,17 +8,17 @@ First of all, ensure that the Layout Builder feature is activated. This can be d
 
 ![Ein Bild, das Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/0 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/0 (3).png>)
 
 After this is done you can access the Layout Builder via Settings → Document Types, once on this page, you can select from the various document types you have created and either select “Edit Layout” as shown below
 
-![](<../.gitbook/assets/1 (3).png>)
+![](<../../.gitbook/assets/1 (3).png>)
 
 or if you have sub-document types within a created document type you can select “Document Sub Types” and select “Edit Layout” for the sub document type layout you wish to edit as shown below.
 
 ![Ein Bild, das Text, Quittung, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/2 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/2 (3).png>)
 
 **Basics of the Layout Manager**
 
@@ -30,13 +30,13 @@ In order to upload a document to the layout builder, simply navigate to the righ
 
 ![Ein Bild, das Screenshot, Software, Computersymbol, Multimedia-Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/3 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/3 (3).png>)
 
 Click on the “Upload Documents” button or drag and drop your desired document into the provided area
 
 ![Ein Bild, das Screenshot, Software, Computersymbol, Multimedia-Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/4 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/4 (3).png>)
 
 **Groups**
 
@@ -44,19 +44,19 @@ Groups can be created by selecting the following icon.
 
 ![Ein Bild, das Screenshot, Software, Computersymbol, Multimedia-Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/5 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/5 (3).png>)
 
 Groups allow you to create different sections on a layout, this makes it easier to separate different groups of data or information to make a layout easier to follow. You can create a title for each group so that a user can know what information they will find in that group.
 
 ![Ein Bild, das Screenshot, Software, Multimedia-Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/6 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/6 (3).png>)
 
 **Form Elements**
 
 ![Ein Bild, das Text, Screenshot, Zahl, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/7 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/7 (3).png>)
 
 These are a set of default fields that can be dragged and dropped into the layout builder and are available to you to create your desired layout. These include:
 
@@ -69,7 +69,7 @@ These are a set of default fields that can be dragged and dropped into the layou
 
 ![Ein Bild, das Text, Schrift, Reihe, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/8 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/8 (3).png>)
 
 * **Button** – This creates a clickable button on the validation screen within the layout that can be set to one of three functions, including: Export, Export mit Sonderwunsch or Reject.
 * **Extracted Tables** -This allows you to place an area on the document layout that illustrates the table that gets extracted from the document. For information click here.
@@ -77,7 +77,7 @@ Automatisch generierte Beschreibung](<../.gitbook/assets/8 (3).png>)
 
 ![Ein Bild, das Text, Screenshot, Schrift, Reihe enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/9 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/9 (3).png>)
 
 * **QR Code Fields** – This element allows you to drag and drop a block that will display all the extracted information from a document when a QR code is present.
 
@@ -85,7 +85,7 @@ Automatisch generierte Beschreibung](<../.gitbook/assets/9 (3).png>)
 
 The user is able to create their own custom groups and fields for a document type, this can be done when originally creating a document type but also by selecting “Fields” when on the Document Types page in Settings.
 
-![](<../.gitbook/assets/10 (3).png>)
+![](<../../.gitbook/assets/10 (3).png>)
 
 **Blank spaces**
 
@@ -93,25 +93,25 @@ The user is able to create their own custom groups and fields for a document typ
 
 ![Ein Bild, das Screenshot, Text, Reihe, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/11 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/11 (3).png>)
 
 In order to create the above space on the layout, a “Label” from the Form Elements must be used in a special way. The reason for this is that the Layout Manager operates according to a 100 space per line system in that 1 space represents 1 percent of a line, this means that fields can only take up 100 spaces per line as show below.
 
 ![Ein Bild, das Text, Reihe, Zahl, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/12 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/12 (3).png>)
 
 This means that the user must build the layout line by line according to this rule. For example let's say you would like to add the fields “Name” and “Date” in the same line but would like the “Name” field to be larger. This can be done by dragging and dropping the “Text” field from the Field Elements drop down and naming each field “Name” and “Date” as shown.
 
 ![Ein Bild, das Text, Reihe, Schrift, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/13 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/13 (3).png>)
 
 The problem now exists that they are both the same size of 33 (this is the default size of all dragged and dropped fields) but you would like the “Name” field to be larger than the “Date” field and both fields should take up the entire line on the layout. Therefore, by following the 100 percent rule, you can set the “Name” and “Date” fields to any combination of 100 that you would desire. This of course depends on how large you would like each individual field but for the purpose of this example we will set the “Name” field to 70 and the “Date” field to 30, the results are:
 
 ![Ein Bild, das Text, Reihe, Zahl, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/14 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/14 (3).png>)
 
 This same rule applies to all fields in the Layout Builder.
 
@@ -123,19 +123,19 @@ For example, let’s say that you would like to create a blank space between the
 
 ![Ein Bild, das Text, Reihe, Schrift, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/15 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/15 (3).png>)
 
 Step one is to drag and drop a “Label” between these two fields, once added you can click on the “Label” field you just added and on the left you will be presented with the properties of the field. Now, in the same way you would create or change the name of a field as shown previously, you will remove any name from the “Label” property like so
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/16 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/16 (3).png>)
 
 The result from doing this will then be
 
 ![Ein Bild, das Text, Reihe, Schrift, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/17 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/17 (3).png>)
 
 There is now a gap between the two fields. This gap can be extended or shortened according to the 100 percent rule discussed earlier, and with these functions you can create any desired layout.
 
@@ -145,7 +145,7 @@ DocBits excels in adapting document layouts according to their geographical orig
 
 ![Ein Bild, das Text, Screenshot, Schrift, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/18 (3).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/18 (3).png>)
 
 Understanding Origin-Based Customization
 

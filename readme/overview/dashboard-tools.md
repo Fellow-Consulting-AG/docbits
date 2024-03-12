@@ -4,7 +4,7 @@
 
 To the right of the search bar, you will find other dashboard tools.
 
-![](<../.gitbook/assets/4 (13).png>)
+![](<../../.gitbook/assets/4 (13).png>)
 
 * **Refresh List**: This is used to update the dashboard without having to refresh your browser tab.
 * **Advanced Settings**: More information on this topic is available further down this page.

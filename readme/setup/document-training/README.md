@@ -10,7 +10,7 @@ You will notice some fields are already extracted, this is due to DocBits swarm 
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/0 (13).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/0 (13).png>)
 
 However, with your help, you can train DocBits to know where to search for this data on that specific type of document. Do keep in mind that some fields may be empty due to the required information not being present on the document you uploaded, but if the information is present on your document then it can be trained by doing the following.
 

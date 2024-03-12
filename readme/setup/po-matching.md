@@ -8,7 +8,7 @@ Once you have created your purchase order, go to Settings → Master Data Lookup
 
 ![Ein Bild, das Screenshot, Text enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/0 (11).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/0 (11).png>)
 
 You should see your unique PO number here, this means that DocBits and INFOR are correctly synced.
 

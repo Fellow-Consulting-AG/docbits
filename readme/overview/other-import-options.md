@@ -6,25 +6,25 @@
 
 Go to the Settings menu and select “Import”.
 
-![](<../.gitbook/assets/13 (12).png>)
+![](<../../.gitbook/assets/13 (12).png>)
 
 Scroll to the bottom of the page and select the NEW button to create a new email import.
 
-![](<../.gitbook/assets/14 (12).png>)
+![](<../../.gitbook/assets/14 (12).png>)
 
 After pressing NEW, the following menu will be shown to you
 
-![](<../.gitbook/assets/15 (12).png>)
+![](<../../.gitbook/assets/15 (12).png>)
 
 Here you can select which Protocol you would like
 
-![](<../.gitbook/assets/16 (12).png>)
+![](<../../.gitbook/assets/16 (12).png>)
 
 #### IMAP <a href="#rutixicnxq9x" id="rutixicnxq9x"></a>
 
 Here you just need to enter the required information for your email provider, encryption, server name, port, username, email address, password as well as the email folder.
 
-![](<../.gitbook/assets/17 (10).png>)
+![](<../../.gitbook/assets/17 (10).png>)
 
 **Things to Note**
 
@@ -40,15 +40,15 @@ Here you just need to enter the required information for your email provider, en
 
 Here you just need to enter your desired sub-organization and press ‘Authenticate’
 
-![](<../.gitbook/assets/18 (9).png>)
+![](<../../.gitbook/assets/18 (9).png>)
 
 You will be taken to this Microsoft page and you will need to enter a code.
 
-![](<../.gitbook/assets/19 (8).png>)
+![](<../../.gitbook/assets/19 (8).png>)
 
 This code can be found by clicking back to DocBits and the code will be displayed there like below, simply copy the code and enter it into the Microsoft page. Thereafter you will need to enter your own Microsoft credentials.
 
-![](<../.gitbook/assets/20 (8).png>)
+![](<../../.gitbook/assets/20 (8).png>)
 
 #### Press the FINISH AUTHENTICATION button and you will be taken to this menu <a href="#ze89a68qq2xy" id="ze89a68qq2xy"></a>
 

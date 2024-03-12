@@ -11,7 +11,7 @@ Once you have configured auto accounting for your DocBits environment, it is ver
 
 ![Ein Bild, das Screenshot, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/0 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/0 (10).png>)
 
 ### Accessing Auto Accounting
 
@@ -19,13 +19,13 @@ After you have uploaded your document and entered the validation screen, select 
 
 ![Ein Bild, das Screenshot, Text, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/1 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/1 (10).png>)
 
 You will then be taken to this screen, this will only occur if the table has been properly trained in [order](https://docbits.com/de/use-cases/bestellung/) to distinguish between the various line items correctly.
 
 ![Ein Bild, das Screenshot, Software, Text, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/2 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/2 (10).png>)
 
 From here, you have two choices:
 
@@ -36,7 +36,7 @@ This selection is done by clicking on which option you prefer
 
 ![Ein Bild, das Screenshot, Text, Software, Webseite enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/3 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/3 (10).png>)
 
 **Prerequisites**
 
@@ -44,7 +44,7 @@ In order for the [Auto Accounting](https://docbits.com/de/kostenrechnung-auto-ac
 
 ![Ein Bild, das Screenshot, Software, Text, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/4 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/4 (10).png>)
 
 Once pressed, DocBits will run a check of your environment to see if everything is correctly configured.
 
@@ -52,7 +52,7 @@ A menu that will look as follows will appear
 
 ![Ein Bild, das Text, Screenshot, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/5 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/5 (10).png>)
 
 All items with the green check mark in front of them mean that they are configured and working, the above image should only be used as an example and should not be followed item by item for your environment. This is due to each user having their own set of accounts, dimensions, and dimension options as categorized above.
 
@@ -62,13 +62,13 @@ This is done by clicking on the following icon next to the total amount or speci
 
 ![Ein Bild, das Reihe, Screenshot, Diagramm, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/6 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/6 (10).png>)
 
 Once you select the splitting icon, a new menu will appear underneath the selected item
 
 ![Ein Bild, das Text, Screenshot, Reihe enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/7 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/7 (10).png>)
 
 **Accounts**
 
@@ -92,7 +92,7 @@ A plus icon next to the splitting icon, this can be used in situations where an 
 
 ![Ein Bild, das Text, Reihe, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/8 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/8 (10).png>)
 
 **Delete Row**
 
@@ -100,7 +100,7 @@ A trash can icon that is used to delete unwanted or incorrect rows
 
 ![Ein Bild, das Text, Reihe, Screenshot, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/9 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/9 (10).png>)
 
 **Unsettled Amount**
 
@@ -108,7 +108,7 @@ An “Unsettled amount” indicator at the bottom in case of any unaccounted val
 
 ![Ein Bild, das Text, Screenshot, Reihe, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/10 (10).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/10 (10).png>)
 
 7.1.1 **M3**
 
@@ -116,23 +116,23 @@ Once you have validated and exported a document, sign in to INFOR and type in th
 
 ![Ein Bild, das Screenshot, Software, Text enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/11 (9).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/11 (9).png>)
 
 You will be taken to the following page where you will see the document you have just exported.
 
 ![Ein Bild, das Screenshot, Text, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/12 (9).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/12 (9).png>)
 
 Once you find your document, right-click on the document and select “Related” and then the “Lines” option.
 
 ![Ein Bild, das Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/13 (9).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/13 (9).png>)
 
 You will be taken to the menu that displays all the line items from the invoice you exported, ensuring all the line items are there and are correct. Lastly ensure that all these line items are classified as **Type 8**, this can be seen by looking at the following column in the table.
 
-![](<../.gitbook/assets/14 (9).png>)
+![](<../../.gitbook/assets/14 (9).png>)
 
 7.1.2 **LN**
 
@@ -140,12 +140,12 @@ Once you have validated and exported a document, sign in to INFOR. From the Home
 
 ![Ein Bild, das Text, Screenshot, Software, Multimedia-Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/15 (9).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/15 (9).png>)
 
 Press the following icon to view the individual line items of the invoice.
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/16 (9).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/16 (9).png>)
 
 Here you can confirm the line items with what you exported using auto accounting.

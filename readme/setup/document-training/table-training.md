@@ -12,7 +12,7 @@ In training mode, mapped columns are read-only, and you cannot manually change t
 
 ![Ein Bild, das Text, Screenshot, Software, Diagramm enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/0 (12).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/0 (12).png>)
 
 **Correction Mode**
 
@@ -20,11 +20,11 @@ In correction mode, you can delete and add rows, and you can manually change the
 
 ![Ein Bild, das Screenshot, Text enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/1 (11).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/1 (11).png>)
 
 Here’s an example of a table in correction mode, with the first row deleted and a new row added:
 
-![correction mode](<../../.gitbook/assets/2 (11).png>)
+![correction mode](<../../../.gitbook/assets/2 (11).png>)
 
 3.2.1 **Define Table and Columns**
 
@@ -34,21 +34,21 @@ To define tables and columns on a document please import a document, open it and
 
 ![Ein Bild, das Screenshot, Text, Software, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/3 (11).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/3 (11).png>)
 
 You will end up in following screen where you can activate the Training Mode:
 
-![training](<../../.gitbook/assets/4 (11).png>)
+![training](<../../../.gitbook/assets/4 (11).png>)
 
 Via the “Edit” button table selection mode will be activated and you will be able to edit the document shown on the left side:
 
-![edit-button](<../../.gitbook/assets/5 (11).png>)
+![edit-button](<../../../.gitbook/assets/5 (11).png>)
 
 In general your are now able to use the autodetect tables functionality and the system will automatically define the tables on the document:
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/6 (11).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/6 (11).png>)
 
 If the system is not able to find the tables automatically you can manually define the tables on the document like shown in the video below:
 
@@ -56,19 +56,19 @@ If the system is not able to find the tables automatically you can manually defi
 
 Once the tables are defined you can manually define the columns via the following button:
 
-![add-column](<../../.gitbook/assets/7 (11).png>)
+![add-column](<../../../.gitbook/assets/7 (11).png>)
 
 Define and sort the columns via drag and drop on the document. Repeat this for the tables on the other pages as well. As an alternative if the tables are equal on each page you can use the following button to use the same column for all tables defined in the document. This functionality copies the columns that you have defined to all other pages as well:
 
-![restore-extracted-tables](<../../.gitbook/assets/8 (11).png>)
+![restore-extracted-tables](<../../../.gitbook/assets/8 (11).png>)
 
 If the document is very confusing, it can be zoomed in and out using the “Zoom in” and “Zoom out” functionality. This is helpful, for example, when a lot of information is close together and this makes it difficult to define the columns:
 
-![zoom](<../../.gitbook/assets/9 (11).png>)
+![zoom](<../../../.gitbook/assets/9 (11).png>)
 
 If you defined a column by mistake it can be selected by clicking it and deleted via the following button:
 
-![delete-column](<../../.gitbook/assets/10 (11).png>)
+![delete-column](<../../../.gitbook/assets/10 (11).png>)
 
 Note: The button is only visible if the column is selected.
 
@@ -76,11 +76,11 @@ If you are done defining all tables and all columns on your document use the “
 
 ![Ein Bild, das Text, Schrift, Screenshot, Software enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/11 (10).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/11 (10).png>)
 
 The data of all defined areas will be extracted and shown on the right side:
 
-![extracted columns](<../../.gitbook/assets/12 (10).png>)
+![extracted columns](<../../../.gitbook/assets/12 (10).png>)
 
 In the next section you will learn how to adjust the data that has been extracted.
 
@@ -92,7 +92,7 @@ If you need to manually map columns to rows (fields) on an extracted document, y
 
 To get started, import your document into DocBits and open it. Then, navigate to the table extraction view by clicking on the “LINE ITEMS” button.
 
-![table extraction](<../../.gitbook/assets/13 (10).png>)
+![table extraction](<../../../.gitbook/assets/13 (10).png>)
 
 * Activate Training Mode
 
@@ -100,7 +100,7 @@ To add a new column to your table, you’ll need to activate training mode. Clic
 
 ![Ein Bild, das Text, Screenshot, Schrift, Marke enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/14 (10).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/14 (10).png>)
 
 * Create a New Column
 
@@ -108,7 +108,7 @@ Once you’re in training mode, you can create a new column by clicking on the �
 
 ![Ein Bild, das Text, Screenshot, Software, Multimedia-Software enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/15 (10).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/15 (10).png>)
 
 * Use the New Column for Manual Mappings
 
@@ -116,13 +116,13 @@ After you’ve created your new column, you can use it for manual mappings by fo
 
 ![Ein Bild, das Text, Screenshot, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/16 (10).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/16 (10).png>)
 
 3.2.3 **Mapping Columns**
 
 Mapping columns is a crucial step in accurate table extraction using DocBits. Once you’ve extracted data from a document, you can map the extracted columns with the columns given by DocBits. This ensures that the extracted data is correctly placed in the corresponding columns.
 
-![mapping-columns](<../../.gitbook/assets/17 (8).png>)
+![mapping-columns](<../../../.gitbook/assets/17 (8).png>)
 
 To map columns, simply select the header of a column in the extraction view. A dropdown menu will appear, allowing you to select the column you want to map. If you’ve mapped a column incorrectly, you can easily remap it by clicking the dropdown menu again.
 
@@ -138,13 +138,13 @@ As an example, you can see the German invoice below, where the information in co
 
 ![Ein Bild, das Text, Schrift, Reihe, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/18 (7).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/18 (7).png>)
 
 At this point, another advantage of DocBits comes into play. It extracts the data in the first step 1 to 1. The result looks like this:
 
 ![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/19 (6).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/19 (6).png>)
 
 **BUT** now there is the possibility to group data based on a specific column. That means in this case it can be grouped by the column “Position” as shown in the following video. This in turn groups the rows of the “Description” column into one row. So that at the end you get a structured overall picture of the export and the data can now be processed further.
 
@@ -152,7 +152,7 @@ The result of grouping looks like this:
 
 ![Ein Bild, das Text, Screenshot, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../../.gitbook/assets/20 (6).png>)
+Automatisch generierte Beschreibung](<../../../.gitbook/assets/20 (6).png>)
 
 3.2.5 **Manual Row Selection**
 

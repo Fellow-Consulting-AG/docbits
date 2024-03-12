@@ -18,14 +18,14 @@ Before you can create your HTTP requests, you need to enter your API key from Do
 
 ![Ein Bild, das Text, Software, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/0 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/0 (7).png>)
 
 * Fill in the values. Enter “X-API-key” in the \`Key\` field and your API Key as value (found in DocBits Settings menu under Integration) Select Add to \`Header\`.
 * It should look like this:
 
 ![Ein Bild, das Text, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/1 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/1 (7).png>)
 
 ### DocBits API
 
@@ -35,13 +35,13 @@ Available at https://api.polydocs.io
 
 ![Ein Bild, das Text, Schrift, Logo, Rechteck enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/2 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/2 (7).png>)
 
 * Enter your API Key and confirm by clicking \`Authorize\`
 
 ![Ein Bild, das Text, Screenshot, Display, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/3 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/3 (7).png>)
 
 Create a new Workspace in Postman
 
@@ -49,25 +49,25 @@ Create a new Workspace in Postman
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/4 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/4 (7).png>)
 
 * You have to select the visibility which determines who can access this workspace.
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/5 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/5 (7).png>)
 
 * After making your selection and clicking \`Create Workspace\` select Collections on the left side of the application and create a new collection for your HTTP requests by clicking \`+\`.
 
 ![Ein Bild, das Text, Screenshot, Software, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/6 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/6 (7).png>)
 
 In this collection, you can add multiple HTTP requests. To do this, click on the 3 points of the collection and select \`Add request\`.
 
 ![Ein Bild, das Text, Screenshot, Zahl, Diagramm enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/7 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/7 (7).png>)
 
 "GET" Method example
 
@@ -79,7 +79,7 @@ The GET method is very useful for getting information about users, sub-organizat
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/8 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/8 (7).png>)
 
 * Now paste this link in the text box next to the GET method in Postman.
 
@@ -97,7 +97,7 @@ The POST method is usually used to create users or organizations, for example. T
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/9 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/9 (7).png>)
 
 * Now paste this link into the text box next to the POST method in Postman.
 * Select the \`Body\` tab in your HTTP request and enter the keys and the values ​​for each credential that has a red asterisk next to its name.
@@ -106,7 +106,7 @@ When you’re done, it should look like this:
 
 ![Ein Bild, das Text, Schrift, Zahl, Reihe enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/10 (7).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/10 (7).png>)
 
 If you want to create an admin account, set the \`is\_admin\` value to true.
 
@@ -124,18 +124,18 @@ In this case:
 
 ![Ein Bild, das Text, Software, Screenshot, Computersymbol enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/11 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/11 (6).png>)
 
 * Now paste this link into the text box next to the POST method in Postman.
 * Select the \`Body\` tab in your HTTP request and choose \`form-data\`
 
 ![Ein Bild, das Text, Screenshot, Reihe, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/12 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/12 (6).png>)
 
 ![Ein Bild, das Text, Screenshot, Schrift, Reihe enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/13 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/13 (6).png>)
 
 Enter file into the \`KEY\` field where you will find the hidden File dropdown. Select \`File\` and move to the \`VALUE\` field where you are able to select your file by clicking \`Select Files\`.
 
@@ -145,7 +145,7 @@ It should look like this:
 
 ![Ein Bild, das Text, Screenshot, Software enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/14 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/14 (6).png>)
 
 ### "DELETE" Method example
 
@@ -159,7 +159,7 @@ For example:
 
 ![Ein Bild, das Text, Zahl, Schrift, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/15 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/15 (6).png>)
 
 * Now paste this link in the text box next to the DELETE method in Postman.
 * Replace the {user\_id} at the end of the URL with the actual user ID you want to delete. (You can get the user\_id using the GET method).
@@ -170,7 +170,7 @@ It should look like this:
 
 ![Ein Bild, das Screenshot, Text enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/16 (6).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/16 (6).png>)
 
 ### "PUT" Method example
 
@@ -184,7 +184,7 @@ For example:
 
 ![Ein Bild, das Text, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/17 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/17 (5).png>)
 
 * Now paste this link in the text box next to the PUT method in Postman.
 * Replace the {user\_id} at the end of the URL with the actual user ID you want to delete. (You can get the user\_id using the GET method).

@@ -16,23 +16,23 @@ URL starts with https://mingle-portal.eu1.inforcloudsuite.com/\<TENANT\_NAME> fo
 
 ![Ein Bild, das Text, Screenshot, Marke, Logo enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/0 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/0 (5).png>)
 
 * Choose the option Cloud Identities and use your login details
 
 ![Ein Bild, das Text, Software, Multimedia-Software, Webseite enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/1 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/1 (5).png>)
 
 * After login you will have access to the Infor Cloud. In this case we enter this page, but on the burger menu you will find access to all applications.
 
 ![Ein Bild, das Screenshot, Text enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/2 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/2 (5).png>)
 
 ![Ein Bild, das Software, Multimedia-Software, Screenshot, Computersymbol enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/3 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/3 (5).png>)
 
 **Open User Management for adding new Service Provider**
 
@@ -40,25 +40,25 @@ On the right hand side of the bar menu, you will find the user menu and there yo
 
 ![Ein Bild, das Text, Software, Multimedia-Software, Grafiksoftware enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/4 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/4 (5).png>)
 
 * Then you need to select in the left hand side menu the option Security Administration and Service Provider.
 
 ![Ein Bild, das Screenshot, Software, Text enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/5 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/5 (5).png>)
 
 * You will see this window with the Service Providers.
 
 ![Ein Bild, das Screenshot, Text enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/6 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/6 (5).png>)
 
 * Now click on the “+” sign and add our DocBits as Service Provider.
 
 ![Ein Bild, das Text, Screenshot, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/7 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/7 (5).png>)
 
 **Access the SSO SERVICE PROVIDER SETTINGS in DocBits**
 
@@ -68,13 +68,13 @@ Automatisch generierte Beschreibung](<../.gitbook/assets/7 (5).png>)
 
 ![Ein Bild, das Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/8 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/8 (5).png>)
 
 Filling the Service Provider with the help of SSO Service Provider Settings in DocBits
 
 ![Ein Bild, das Text, Software, Computersymbol, Webseite enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/9 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/9 (5).png>)
 
 | **Field**                  | **Value**                                                                                  |
 | -------------------------- | ------------------------------------------------------------------------------------------ |
@@ -87,7 +87,7 @@ Automatisch generierte Beschreibung](<../.gitbook/assets/9 (5).png>)
 
 ![Ein Bild, das Text, Screenshot, Software, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/10 (5).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/10 (5).png>)
 
 * When you have filled out everything remember to save it with the disk icon above Application Type
 * Enter the service provider DocBits again.
@@ -95,11 +95,11 @@ Automatisch generierte Beschreibung](<../.gitbook/assets/10 (5).png>)
 
 ![Ein Bild, das Screenshot, Text, Reihe enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/11 (4).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/11 (4).png>)
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/12 (4).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/12 (4).png>)
 
 * Export the SAML METADATA.
 
@@ -114,7 +114,7 @@ Go to IDENTITY SERVICE PROVIDER SETTINGS, which is located under INTEGRATIONS in
 
 ![Ein Bild, das Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/13 (4).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/13 (4).png>)
 
 **Add New Application in INFOR Ming.le**
 
@@ -122,19 +122,19 @@ Automatisch generierte Beschreibung](<../.gitbook/assets/13 (4).png>)
 
 ![Ein Bild, das Software, Multimedia-Software, Text, Screenshot enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/14 (4).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/14 (4).png>)
 
 * Click on ADD APPLICATION in the top right corner
 
 ![Ein Bild, das Text, Schrift, Screenshot, Design enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/15 (4).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/15 (4).png>)
 
 * Fill out all fields like on the following image but with your own SSO Url, don’t forget to choose an icon and click on **SAVE.**
 
 ![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält.
 
-Automatisch generierte Beschreibung](<../.gitbook/assets/16 (4).png>)
+Automatisch generierte Beschreibung](<../../.gitbook/assets/16 (4).png>)
 
 **Final Step**
 
