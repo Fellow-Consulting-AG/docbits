@@ -1,6 +1,8 @@
 # Table of contents
 
 * [DocBits](README.md)
+* [Overview](overview/README.md)
+  * [Key Features of DocBits](overview/key-features-of-docbits.md)
 * [About](about.md)
 * [API reference](api-reference/README.md)
   * [/](api-reference/undefined.md)
