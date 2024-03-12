@@ -21,7 +21,7 @@ To retrieve the validation rules for document tables, a GET request should be se
 GET /field/get_document_table_validation_rules HTTP/1.1
 Host: api.docbits.com
 Authorization: Bearer <your_access_token>
-
+```
 
 {% swagger src="https://api.docbits.com/openapi.json" path="/field/get_document_table_validation_rules" method="get" %}
 [https://api.docbits.com/openapi.json](https://api.docbits.com/openapi.json)
