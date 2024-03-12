@@ -124,8 +124,6 @@ Create a Ticket 89
 
 ### &#x20;<a href="#ch8sdrvbc8je" id="ch8sdrvbc8je"></a>
 
-### Key Features of DocBits <a href="#id-8tjcczh6xhx9" id="id-8tjcczh6xhx9"></a>
-
 
 
 ### &#x20;<a href="#id-7suxd98f5wv1" id="id-7suxd98f5wv1"></a>
