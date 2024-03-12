@@ -1,0 +1,5 @@
+# Get document status alerts
+
+{% swagger src="https://api.docbits.com/openapi.json" path="/document_status_alert/get_document_status_alerts" method="get" %}
+[https://api.docbits.com/openapi.json](https://api.docbits.com/openapi.json)
+{% endswagger %}
