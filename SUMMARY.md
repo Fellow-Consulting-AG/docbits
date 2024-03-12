@@ -462,4 +462,7 @@
         * [Get document type regexes](api-reference/fellowkv/post-data/preferences/get-document-type-regexes.md)
         * [Update document type regexes](api-reference/fellowkv/post-data/preferences/update-document-type-regexes.md)
 * [Specification](https://api.docbits.com/openapi.json)
-* [Setup](setup.md)
+* [Setup](setup/README.md)
+  * [Layout Builder](setup/layout-builder.md)
+  * [Importing Customer Master Data](setup/importing-customer-master-data.md)
+  * [Tax Codes](setup/tax-codes.md)
