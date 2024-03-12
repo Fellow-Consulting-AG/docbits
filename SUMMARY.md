@@ -52,6 +52,8 @@
           * [Sub-Organizations](readme/overview/settings-1/global-settings/groups-users-and-permissions/sub-organizations.md)
           * [Groups and Permissions](readme/overview/settings-1/global-settings/groups-users-and-permissions/groups-and-permissions.md)
         * [Page 1](readme/overview/settings-1/global-settings/page-1.md)
+    * [Workflow](readme/overview/workflow/README.md)
+      * [In Order Confirmation Purchase Order](readme/overview/workflow/in-order-confirmation-purchase-order.md)
   * [Setup](setup.md)
     * [Layout Builder](readme/setup/layout-builder.md)
     * [Importing Customer Master Data](readme/setup/importing-customer-master-data.md)
