@@ -1,3 +1,3 @@
 # Table of contents
 
-* [docbits](README.md)
+* [DocBits](README.md)
