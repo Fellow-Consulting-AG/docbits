@@ -1,3 +1,7 @@
+---
+description: With this Post you generate a Service Ticket
+---
+
 # Create support ticket
 
 {% swagger src="https://api.docbits.com/openapi.json" path="/support/create_support_ticket" method="post" %}
