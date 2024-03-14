@@ -200,7 +200,7 @@
     * [/](api-reference/logs/undefined.md)
     * [Next](api-reference/logs/next.md)
     * [Create](api-reference/logs/create.md)
-  * [Users](api-reference/users/README.md)
+  * [User Management APIs Overview](api-reference/users/README.md)
     * [Get users](api-reference/users/get-users.md)
     * [Create](api-reference/users/create.md)
     * [Delete](api-reference/users/delete.md)
