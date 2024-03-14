@@ -66,6 +66,7 @@
           * [Swiss QR Code](readme/overview/settings-1/document-processing/module/swiss-qr-code.md)
           * [Annotation](readme/overview/settings-1/document-processing/module/annotation.md)
     * [Workflow](readme/overview/workflow/README.md)
+      * [Workflow Description: Conditional Export Trigger](readme/overview/workflow/workflow-description-conditional-export-trigger.md)
       * [In Order Confirmation Purchase Order](readme/overview/workflow/in-order-confirmation-purchase-order.md)
     * [Material Ordering and Processing Workflow](readme/overview/material-ordering-and-processing-workflow.md)
   * [Setup](setup.md)
