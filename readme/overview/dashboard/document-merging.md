@@ -8,6 +8,6 @@ First, you need to select the documents you would like to merge. This can be don
 
 A menu will then be displayed, select the “Merge” option which can be found at the bottom.
 
-![](<../../.gitbook/assets/11 (12).png>)
+![](<../../../.gitbook/assets/11 (12).png>)
 
 ### &#x20;<a href="#id-33vzlodaf7j8" id="id-33vzlodaf7j8"></a>

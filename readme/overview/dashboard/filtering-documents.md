@@ -11,10 +11,10 @@ coverY: 0
 
 To locate a specific document or set of documents, utilize the tools available in the search bar. Click the icon indicated below to access these tools.
 
-![](<../../.gitbook/assets/2 (13).png>)
+![](<../../../.gitbook/assets/2 (13).png>)
 
 The following filter options will become available to you.
 
-![Filter](<../../.gitbook/assets/3 (13).png>)
+![Filter](<../../../.gitbook/assets/3 (13).png>)
 
 We provide you with the option to filter by document type, status of the document, the assignee of the document and by the date.
