@@ -206,7 +206,7 @@
     * [Delete](api-reference/users/delete.md)
     * [Update](api-reference/users/update.md)
     * [Get users who can approve](api-reference/users/get-users-who-can-approve.md)
-  * [Groups](api-reference/groups/README.md)
+  * [Group Management APIs Overview](api-reference/groups/README.md)
     * [Get groups](api-reference/groups/get-groups.md)
     * [Create](api-reference/groups/create.md)
     * [Delete](api-reference/groups/delete.md)
