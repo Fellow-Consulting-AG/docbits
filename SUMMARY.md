@@ -183,7 +183,7 @@
     * [Test script document](api-reference/document-script/test-script-document.md)
   * [Healthz](api-reference/healthz.md)
   * [Version](api-reference/version.md)
-  * [Email import](api-reference/email-import/README.md)
+  * [Email Import APIs Overview](api-reference/email-import/README.md)
     * [Import log](api-reference/email-import/import-log.md)
     * [List](api-reference/email-import/list.md)
     * [Fetch emails](api-reference/email-import/fetch-emails.md)
