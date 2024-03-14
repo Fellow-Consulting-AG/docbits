@@ -67,7 +67,7 @@
           * [Annotation](readme/overview/settings-1/document-processing/module/annotation.md)
     * [Workflow](readme/overview/workflow/README.md)
       * [In Order Confirmation Purchase Order](readme/overview/workflow/in-order-confirmation-purchase-order.md)
-  * [Material Ordering and Processing Workflow](readme/material-ordering-and-processing-workflow.md)
+    * [Material Ordering and Processing Workflow](readme/overview/material-ordering-and-processing-workflow.md)
   * [Setup](setup.md)
     * [Document Types](readme/setup/document-types/README.md)
       * [Regex Manager](readme/setup/document-types/regex-manager.md)
