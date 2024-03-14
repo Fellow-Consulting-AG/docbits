@@ -106,6 +106,7 @@
     * [SSO Configuration](readme/setup/sso-configuration.md)
     * [Postman for DocBits](readme/setup/postman-for-docbits.md)
     * [Scripting in DocBits](readme/setup/scripting-in-docbits/README.md)
+      * [Functions](readme/setup/scripting-in-docbits/functions.md)
       * [Calculating Total Charges Script for Docbits](readme/setup/scripting-in-docbits/calculating-total-charges-script-for-docbits.md)
       * [Generating Extended Invoice Numbers Script for Docbits](readme/setup/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits.md)
       * [Formatting Export Certificate Reference Numbers Script for Docbits](readme/setup/scripting-in-docbits/formatting-export-certificate-reference-numbers-script-for-docbits.md)
