@@ -57,6 +57,7 @@
       * [Regex Manager](readme/setup/document-types/regex-manager.md)
       * [Layout Builder](readme/setup/document-types/layout-builder.md)
       * [Origin Layouts](readme/setup/document-types/origin-layouts.md)
+      * [EDI Data Transformation Process](readme/setup/document-types/edi-data-transformation-process.md)
     * [Importing Master Data](readme/setup/importing-customer-master-data/README.md)
       * [LN](readme/setup/importing-customer-master-data/ln/README.md)
         * [Suppliers and Purchase Orders](readme/setup/importing-customer-master-data/ln/suppliers-and-purchase-orders.md)
