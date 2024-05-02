@@ -53,7 +53,7 @@
       * [Workflow Documentation](readme/overview/workflow/workflow-documentation.md)
       * [Card description](readme/overview/workflow/card-description.md)
       * [And.... Cards](readme/overview/workflow/and....-cards/README.md)
-        * [Compare with purchase Order](readme/overview/workflow/and....-cards/compare-with-purchase-order.md)
+        * [Compare with Purchase Order](readme/overview/workflow/and....-cards/compare-with-purchase-order.md)
         * [Document Field](readme/overview/workflow/and....-cards/document-field.md)
         * [Checkbox](readme/overview/workflow/and....-cards/checkbox.md)
         * [Compare two fields](readme/overview/workflow/and....-cards/compare-two-fields.md)
