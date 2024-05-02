@@ -1,8 +1,10 @@
 # In Order Confirmation Purchase Order
 
-### Logic: In Order Confirmation Purchase Order
+### Compare with Purchase Order:&#x20;
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.50.53.png" alt=""><figcaption></figcaption></figure>
+**In Order Confirmation Purchase Order**
+
+<figure><img src="https://lh7-us.googleusercontent.com/glQHETatKah-1YugeLqBb7Jim6lNJxuarRv-KEMv4NPzFfcjSm6mVhTMdI30nxdJ0SHXZ55Oup6KH7K-J6IxjUOiG0wxUX8toAaCopgBJwPyr94CPjoKuauNTmoHGGhg6f3gwHD39W7gpvijg4LQVJ4" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Logic Card: Quantity or Unit Price or Discount Match
 
@@ -27,7 +29,7 @@ The logic is activated when any of the following conditions are met in an order 
 * **Efficiency**: Automates the verification process, reducing the need for manual checks and speeding up order processing.
 * **Cost Control**: Helps prevent overpayments or incorrect deliveries by catching discrepancies early in the process.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.59.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-us.googleusercontent.com/DRTMJxJ9XLeC5zWSU8QuZwPLkqHzmCUm9RwiUZIkcc8pVxMZsxLv56dX9spzqr7KeDkTigbeBX2DvAZRe-6MdqOgAnrO-QPnCbi4e6hP4--P_O0A0DSoQJxjGeefOS1p6GuXHs1YXv-A73DXYaE8qlI" alt="" width="563"><figcaption></figcaption></figure>
 
 1. **Define Comparison Parameters**: Set up the specific fields (quantity, unit price, discount) that the logic card will check for a match.
 2. **Automate Verification**: Configure the system to automatically compare these details upon receipt of an order confirmation.
