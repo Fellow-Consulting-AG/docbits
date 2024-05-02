@@ -115,11 +115,41 @@ The information you fill in should look like the following
 
 Switch to the document tab and add the following configuration
 
-![](https://lh7-us.googleusercontent.com/y0ddxv\_gR1XTdqNNkecJvbA78f5jWzUOJ5uPqxzP9w68VWVaQfxu-KtmfpRkSWellcmBZ4JQlUgKNG1yyABbMSaQ3UX6QfsLN5FzR\_h0ORmu2DBTTY0IZ6tTY4xWbI-FQMbHgqWB7hMYxcSMrw6yc-M)
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_api\_docs1-1024x279.png)
 
-The DocBits API node should look as follows
+**Acknowledge.SupplierInvoice**
 
-![](https://lh7-us.googleusercontent.com/Pab06DuPhnQakK3MutCAUeuVsUtnXEI1zjKR-tWplT52HPss8ILK0ptg70VKTOly6ynF7\_NtusT4OSdBfBmyCMzMmscaK0\_24741zQfIfV8Yo23sdnDqO9Slhnr9u0tDzTacuA-ANMJcn9oXxI3OeRo)
+The configuration for this BOD is as follows
+
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_ack\_11.png)
+
+Make sure you have selected the “Send to API” option in the above menu.
+
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_ack\_2-1024x338.png)
+
+Lastly ensure that you alter the request body as well to look like this.
+
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_ack\_3-1024x260.png)
+
+Repeat this process for the rest of the BODs, each configuration is shown below.
+
+**Sync.PurchaseOrder**
+
+The configuration for this BOD is as follows
+
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_po\_1.png)![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_po\_2-1024x359.png)![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_po\_3-1024x297.png)
+
+**Sync.RemitToPartyMaster**
+
+The configuration for this BOD is as follows
+
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_remit\_1-1.png)![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_remit\_2-1024x351.png)![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_remit\_3-1024x299.png)
+
+**Sync.SupplierPartyMaster**
+
+The configuration for this BOD is as follows
+
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_sup\_1.png)![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_sup\_2.png)![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Exp\_M3\_sup\_3-1024x295.png)
 
 ### BODs
 
