@@ -1,4 +1,4 @@
-# Document Status Condition
+# Document Status Condition List
 
 <figure><img src="../../../.gitbook/assets/userlmn_e9d6da331deceed4f330358635d6b605.png" alt=""><figcaption></figcaption></figure>
 
@@ -13,7 +13,7 @@ This card is designed to control workflow actions based on the current status of
    * **Options**:
      * **is**: Triggers the associated actions if the document’s current status matches one of the specified statuses.
      * **is not**: Triggers the actions if the document’s status does not match any of the specified statuses.
-2. **Status**
+2. **Status ( List )**&#x20;
    * **Description**: Lists the specific statuses against which the document’s current status will be compared.
    * **Examples**: "Error", "Export Error", "Ready in Validation", "Ready in Review", "Pending Approval", "Pending Second Approval". These represent different stages or conditions a document might be in within a workflow process.
 
