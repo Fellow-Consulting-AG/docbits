@@ -1,4 +1,7 @@
 ---
+title: "Key Features of DocBits"
+description: "Explore the innovative features of DocBits, including AI-driven document recognition and machine learning capabilities for efficient data extraction."
+keywords: "document capture, AI, machine learning, DocBits, document processing, data extraction"
 cover: >-
   https://images.unsplash.com/photo-1522794338816-ee3a17a00ae8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxLZXklMjBGZWF0dXJlfGVufDB8fHx8MTcxMDI1NjcyNHww&ixlib=rb-4.0.3&q=85
 coverY: 0
