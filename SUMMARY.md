@@ -64,6 +64,7 @@
         * [Text in field](readme/overview/workflow/and....-cards/text-in-field.md)
         * [Docfield is](readme/overview/workflow/and....-cards/docfield-is.md)
         * [Page 1](readme/overview/workflow/and....-cards/page-1.md)
+      * [Assigned User Condition](readme/overview/workflow/assigned-user-condition.md)
       * [Document Status Condition List](readme/overview/workflow/document-status-condition-list.md)
       * [Single Document Status Condition](readme/overview/workflow/single-document-status-condition.md)
       * [Document Type Operation one of](readme/overview/workflow/document-type-operation-one-of.md)
