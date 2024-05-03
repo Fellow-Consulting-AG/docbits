@@ -48,6 +48,7 @@
       * [Help Icons](readme/overview/technical-support-in-docbits/help-icons.md)
       * [Create a ticket](readme/overview/technical-support-in-docbits/create-a-ticket.md)
     * [Workflow](readme/overview/workflow/README.md)
+      * [Example Workflow](readme/overview/workflow/example-workflow.md)
       * [Workflow Description: Conditional Export Trigger](readme/overview/workflow/workflow-description-conditional-export-trigger.md)
       * [In Order Confirmation Purchase Order](readme/overview/workflow/in-order-confirmation-purchase-order.md)
       * [Workflow Documentation](readme/overview/workflow/workflow-documentation.md)
