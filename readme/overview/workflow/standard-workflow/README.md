@@ -25,7 +25,7 @@
 5. **Final Decisions**:
    * Invoices that pass all checks are approved and integrated into financial systems for record-keeping.
    * Rejected invoices trigger notifications, and a new invoice may be requested by the buyer.
-6. **Integration with Infor IDM & LN**:
+6. **Integration with Infor IDM & LN+M3**:
    * Approved invoices are likely sent to Infor's IDM for document management and LN for ledger noting.
    * This integration ensures that all financial records are up-to-date and that the workflow seamlessly feeds into the broader ERP system.
 
