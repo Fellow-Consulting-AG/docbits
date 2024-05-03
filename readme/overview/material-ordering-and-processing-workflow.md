@@ -1,3 +1,9 @@
+---
+title: "Material Ordering and Processing Workflow - INFOR and DocBits Integration"
+description: "Explore the step-by-step workflow for material ordering, goods receipt, and invoice processing with INFOR ERP and DocBits integration. Effective supplier and document management in one."
+keywords: "material ordering, INFOR ERP, DocBits, supplier management, invoice processing, goods receipt, ERP integration"
+---
+
 # Material Ordering and Processing Workflow
 
 This document outlines the workflow for ordering materials from suppliers, receiving goods, and processing invoices with integration between suppliers, INFOR ERP system, and DocBits for document management.
