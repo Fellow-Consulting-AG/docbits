@@ -64,6 +64,7 @@
         * [Text in field](readme/overview/workflow/and....-cards/text-in-field.md)
         * [Docfield is](readme/overview/workflow/and....-cards/docfield-is.md)
         * [Page 1](readme/overview/workflow/and....-cards/page-1.md)
+      * [Checkbox Field Condition](readme/overview/workflow/checkbox-field-condition.md)
       * [Single Assigned User Condition](readme/overview/workflow/single-assigned-user-condition.md)
       * [Assigned User Condition](readme/overview/workflow/assigned-user-condition.md)
       * [Document Status Condition List](readme/overview/workflow/document-status-condition-list.md)
