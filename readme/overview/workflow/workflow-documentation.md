@@ -14,7 +14,7 @@ You can use these workflows (Test 1,2,3) to automatically assign various documen
 
 If an invoice or other document exceeds a certain total amount that requires prior review and approval, these documents can be immediately assigned to the correct person.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Test 1:              Logic Card**
 
@@ -70,7 +70,7 @@ For an easier overview of what should happen to a document, you can set the stat
 
 **Then:**              **Change Status to:**         Pending Approval
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../../.gitbook/assets/8 (1).png>)
 
