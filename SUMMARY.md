@@ -64,7 +64,7 @@
         * [Text in field](readme/overview/workflow/and....-cards/text-in-field.md)
         * [Docfield is](readme/overview/workflow/and....-cards/docfield-is.md)
         * [Page 1](readme/overview/workflow/and....-cards/page-1.md)
-      * [Document Type Operation](readme/overview/workflow/document-type-operation.md)
+      * [Document Type Operation one of](readme/overview/workflow/document-type-operation-one-of.md)
       * [Document Type Operation](readme/overview/workflow/page.md)
       * [Document Operator for Sub-Organizations](readme/overview/workflow/document-operator-for-sub-organizations.md)
     * [Material Ordering and Processing Workflow](readme/overview/material-ordering-and-processing-workflow.md)
