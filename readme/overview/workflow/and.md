@@ -1,8 +1,8 @@
 # And
 
-Understanding "And" Cards
+## Understanding "And" Cards
 
-**Purpose of 'And' Cards:**
+### **Purpose of 'And' Cards:**
 
 * **And** cards serve as condition cards that specify criteria that must be met for the workflow to continue. They effectively act as logical "AND" operators, meaning all conditions specified in these cards must be satisfied for the subsequent action to be triggered.
 
