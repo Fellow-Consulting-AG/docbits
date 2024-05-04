@@ -81,6 +81,7 @@
         * [Assigned User Condition](readme/overview/workflow/and/assigned-user-condition.md)
         * [Document Status Condition List](readme/overview/workflow/and/document-status-condition-list.md)
         * [Single Document Status Condition](readme/overview/workflow/and/single-document-status-condition.md)
+      * [Then](readme/overview/workflow/then.md)
     * [Material Ordering and Processing Workflow](readme/overview/material-ordering-and-processing-workflow.md)
   * [Setup](setup.md)
     * [Document Types](readme/setup/document-types/README.md)
