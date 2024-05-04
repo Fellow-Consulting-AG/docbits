@@ -16,7 +16,7 @@ From the screenshots, it's clear that these cards cover a wide range of conditio
 
 
 
-<figure><img src="../../../.gitbook/assets/And1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/And1.png" alt=""><figcaption></figcaption></figure>
 
 *   **Document Field**:
 
@@ -24,17 +24,17 @@ From the screenshots, it's clear that these cards cover a wide range of conditio
 
 
 
-<figure><img src="../../../.gitbook/assets/And2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/And2.png" alt=""><figcaption></figcaption></figure>
 
 * **Document**:
   * Conditions based on document characteristics, such as type or association with a particular sub-organization. These conditions can direct workflows based on document categorization or departmental involvement.
 
-<figure><img src="../../../.gitbook/assets/And3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/And3.png" alt=""><figcaption></figcaption></figure>
 
 * **Logic**:
   * Logical conditions that might involve evaluations like "Continue with a chance of X%" or executing HTTPS requests, which are vital for integrations and probabilistic decision-making within workflows.
 
-<figure><img src="../../../.gitbook/assets/And4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/And4.png" alt=""><figcaption></figcaption></figure>
 
 *   **Status**:
 
@@ -42,12 +42,12 @@ From the screenshots, it's clear that these cards cover a wide range of conditio
 
 
 
-<figure><img src="../../../.gitbook/assets/And5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/And5.png" alt=""><figcaption></figcaption></figure>
 
 * **Table**:
   * These involve conditions based on table data, such as matching regex patterns or comparing values within a table. Such conditions are essential for validating and manipulating large data sets.
 
-<figure><img src="../../../.gitbook/assets/And6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/And6.png" alt=""><figcaption></figcaption></figure>
 
 *   **Assignee**:
 
@@ -55,7 +55,7 @@ From the screenshots, it's clear that these cards cover a wide range of conditio
 
 
 
-<figure><img src="../../../.gitbook/assets/And7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/And7.png" alt=""><figcaption></figcaption></figure>
 
 #### Practical Application
 
