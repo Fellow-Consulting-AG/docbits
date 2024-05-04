@@ -3,7 +3,7 @@
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.42.png" alt=""><figcaption></figcaption></figure>
 
 * **Auto Accounting**: DocBits offers automated accounting functionality, streamlining the process of handling financial transactions associated with purchase orders (POs) and other documents.
-* **M3 Integration**: Integration with M3, an ERP software solution, allowing seamless interaction between DocBitsGBT and M3 for enhanced document management and processing.
+* **M3 Integration**: Integration with M3, an ERP software solution, allowing seamless interaction between DocBits and M3 for enhanced document management and processing.
 * **PO Dashboard**: A centralized dashboard within DocBits specifically designed to manage and monitor purchase orders, providing insights and analytics for efficient tracking and decision-making.
 * **Shipment Order Dashboard**: Similar to the PO Dashboard, this feature focuses on managing and monitoring shipment orders, facilitating smooth logistics operations.
 
