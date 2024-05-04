@@ -57,6 +57,8 @@
         * [Cost Invoice - Export](readme/overview/workflow/standard-workflow/cost-invoice-export.md)
         * [Above Max Amount](readme/overview/workflow/standard-workflow/above-max-amount.md)
       * [Workflow Description: Conditional Export Trigger](readme/overview/workflow/workflow-description-conditional-export-trigger.md)
+      * [When](readme/overview/workflow/when.md)
+      * [And](readme/overview/workflow/and.md)
       * [In Order Confirmation Purchase Order](readme/overview/workflow/in-order-confirmation-purchase-order.md)
       * [Workflow Documentation](readme/overview/workflow/workflow-documentation.md)
       * [Card description](readme/overview/workflow/card-description.md)
