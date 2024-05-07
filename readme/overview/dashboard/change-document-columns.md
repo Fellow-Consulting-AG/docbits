@@ -1,22 +1,27 @@
 ---
 description: >-
-  This guide provides step-by-step instructions on how to change document
-  columns from the dashboard in your organization's settings. Learn how to
-  customize your dashboard view by adding or removing col
+Ovaj vodič pruža korak-po-korak uputstva o tome kako promeniti kolone dokumenata sa kontrolne table u postavkama vaše organizacije. Naučite kako da prilagodite prikaz kontrolne table dodavanjem ili uklanjanjem kolona.
+
 ---
 
-# Change Document Columns
+# Promena Kolona Dokumenata
 
-From the Dashboard, click on the Advanced Settings icon as shown below
+Sa Kontrolne table, kliknite na ikonu Napredne postavke kao što je prikazano ispod
 
-![Advanced Settings Icon](https://lh7-us.googleusercontent.com/CY-xfFsc1bAlrKrer0gTR1UtUU670FeSFcqmLe-3fiumI7K7rAi8JHxZQhhPKHKIkGl6YmnBGjbL\_x8LYkY6URYq4g57Rgn2CSfN4KIjmuvezamJg0gvhApUuS-AwN4sY-G3VNDzDQbsCMDa5-Dj69M)
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-The following menu will then be displayed
+Zatim će biti prikazan sledeći meni
 
-![Advanced Settings Menu](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog\_m2xtnty6X73pFlhfdM9aglx89\_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ\_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F\_ftw)
+![Meni Naprednih Postavki](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog_m2xtnty6X73pFlhfdM9aglx89_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F_ftw)
 
-Select the button labeled “Set dashboard columns for organization” and a list of all the column names will be shown.
+Izaberite dugme označeno kao "Postavi kolone kontrolne table za organizaciju" i biće prikazan spisak svih imena kolona.
 
-From this menu, you can select the column names and use the arrows to add and remove the columns you desire.
+Iz ovog menija, možete izabrati imena kolona i koristiti strelice da dodate i uklonite željene kolone.
 
-![Dashboard Column Settings](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-\_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
+![Podešavanja Kolona Kontrolne Table](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
