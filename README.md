@@ -1,12 +1,5 @@
----
-cover: >-
-  https://images.unsplash.com/photo-1468779036391-52341f60b55d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw4fHxEb2N1bWVudHN8ZW58MHx8fHwxNzEwMzIxNTkyfDA&ixlib=rb-4.0.3&q=85
-coverY: 0
----
-
 # DocBits
 
-## Welcome to DocBits
+## Bem-vindo ao DocBits
 
-Welcome to **DocBits**, your comprehensive source for documentation strategies and insights. At DocBits, we are dedicated to providing clear, concise, and up-to-date documentation resources for developers, technical writers, and anyone involved in the creation or management of technical documentation.
-
+Bem-vindo ao **DocBits**, a sua fonte abrangente de estratégias e insights de documentação. No DocBits, estamos dedicados a fornecer recursos de documentação claros, concisos e atualizados para desenvolvedores, escritores técnicos e qualquer pessoa envolvida na criação ou gestão de documentação técnica.
