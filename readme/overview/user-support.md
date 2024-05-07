@@ -1,20 +1,13 @@
----
-description: Support DocBits
-cover: >-
-  https://images.unsplash.com/photo-1527525443983-6e60c75fff46?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw2fHxTdXBwb3J0fGVufDB8fHx8MTcxMDI1Njc2Mnww&ixlib=rb-4.0.3&q=85
-coverY: 0
----
+# Support Utilisateur
 
-# User Support
+### Support Utilisateur <a href="#ikpwh4qbrq82" id="ikpwh4qbrq82"></a>
 
-### User Support <a href="#ikpwh4qbrq82" id="ikpwh4qbrq82"></a>
-
-Should you face any challenges or have inquiries when using DocBits, please consult this user manual or reach out to our support team for help. Our commitment lies in providing a seamless experience for all users. Simply click on the support button in your DocBits app and you can create a support ticket. Simply click on the support button in your DocBits app and you can create a support ticket.
+Si vous rencontrez des difficultés ou si vous avez des questions lors de l'utilisation de DocBits, veuillez consulter ce manuel de l'utilisateur ou contacter notre équipe de support pour obtenir de l'aide. Notre engagement est de fournir une expérience fluide pour tous les utilisateurs. Il vous suffit de cliquer sur le bouton de support dans votre application DocBits et vous pourrez créer un ticket de support.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-You can also contact us via our FELLOPRO page:
+Vous pouvez également nous contacter via notre page FELLOPRO :
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}

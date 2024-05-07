@@ -1,11 +1,5 @@
----
-cover: >-
-https://images.unsplash.com/photo-1468779036391-52341f60b55d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw4fHxEb2N1bWVudHN8ZW58MHx8fHwxNzEwMzIxNTkyfDA&ixlib=rb-4.0.3&q=85
-coverY: 0
----
-
 # DocBits
 
 ## Bienvenue sur DocBits
 
-Bienvenue sur **DocBits**, votre source complète pour les stratégies et les idées de documentation. Chez DocBits, nous nous engageons à fournir des ressources de documentation claires, concises et à jour pour les [utilisateurs finaux](<README (1).md>), les [administrateurs](admin-section/) et les [partenaires](partner-section.md).
+Bienvenue sur **DocBits**, votre source complète de stratégies et d'informations en matière de documentation. Chez DocBits, nous nous engageons à fournir des ressources de documentation claires, concises et à jour pour les [utilisateurs finaux](<README (1).md>), les [administrateurs](admin-section/) et les [partenaires](partner-section.md).

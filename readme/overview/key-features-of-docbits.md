@@ -1,15 +1,9 @@
----
-cover: >-
-  https://images.unsplash.com/photo-1522794338816-ee3a17a00ae8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxLZXklMjBGZWF0dXJlfGVufDB8fHx8MTcxMDI1NjcyNHww&ixlib=rb-4.0.3&q=85
-coverY: 0
----
+# Principales fonctionnalités de DocBits
 
-# Key Features of DocBits
+DocBits est une solution de capture de documents basée sur le cloud qui exploite la puissance de l'Intelligence Artificielle (IA) et de l'Apprentissage Automatique (ML) pour reconnaître, classer, analyser et extraire efficacement des informations à partir de divers types de documents, quel que soit leur format. Voici un aperçu de ses principales fonctionnalités :
 
-DocBits is a cloud-based document capture solution that harnesses the power of Artificial Intelligence (AI) and Machine Learning (ML) to effectively recognize, classify, analyze, and extract information from various types of documents, regardless of their format. Here’s a closer look at its key features:
-
-* Document Recognition_:_ DocBits employs AI algorithms to accurately identify and recognize documents, whether they are in paper form or electronic files.
-* Document Classification: It classifies documents into relevant categories, facilitating easy organization and retrieval.
-* Data Extraction: DocBits extracts critical data from documents, transforming unstructured information into structured data that can be integrated into your workflow.
-* Machine Learning: The system continually learns and improves its recognition accuracy with each processed document, making it more proficient over time.
-* Swarm Intelligence: DocBits utilizes swarm intelligence to enhance its learning capabilities, creating a self-improving system.
+* Reconnaissance de documents : DocBits utilise des algorithmes d'IA pour identifier et reconnaître avec précision les documents, qu'ils soient sous forme papier ou sous forme de fichiers électroniques.
+* Classification de documents : Il classe les documents dans des catégories pertinentes, facilitant ainsi l'organisation et la récupération facile.
+* Extraction de données : DocBits extrait des données critiques des documents, transformant des informations non structurées en données structurées pouvant être intégrées à votre flux de travail.
+* Apprentissage automatique : Le système apprend continuellement et améliore sa précision de reconnaissance avec chaque document traité, le rendant plus performant au fil du temps.
+* Intelligence de groupe : DocBits utilise l'intelligence de groupe pour améliorer ses capacités d'apprentissage, créant ainsi un système auto-améliorant.
