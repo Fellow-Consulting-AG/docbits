@@ -6,5 +6,7 @@
 
 * Atualizar Lista: Isso é usado para atualizar o painel sem precisar atualizar a aba do seu navegador.
 * Configurações Avançadas: Mais informações sobre este tópico estão disponíveis mais adiante nesta página.
-* Análises: Isso fornece mais informações sobre os documentos que você enviou para o DocBits.
-* Enviar: Mais informações sobre este tópico na próxima seção.
+* Análises: Isso fornece mais informações sobre os documentos que você carregou no DocBits.
+* Carregar: Mais informações sobre este tópico na próxima seção.
+
+<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption></figcaption></figure>
