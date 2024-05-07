@@ -1,22 +1,25 @@
 ---
 description: >-
-  This guide provides step-by-step instructions on how to change document
-  columns from the dashboard in your organization's settings. Learn how to
-  customize your dashboard view by adding or removing col
----
+  Esta guía proporciona instrucciones paso a paso sobre cómo cambiar las columnas del documento desde el panel de control en la configuración de su organización. Aprenda cómo personalizar la vista de su panel de control agregando o eliminando columnas.
 
-# Change Document Columns
+# Cambiar las Columnas del Documento
 
-From the Dashboard, click on the Advanced Settings icon as shown below
+Desde el panel de control, haga clic en el icono de Configuración Avanzada como se muestra a continuación
 
-![Advanced Settings Icon](https://lh7-us.googleusercontent.com/CY-xfFsc1bAlrKrer0gTR1UtUU670FeSFcqmLe-3fiumI7K7rAi8JHxZQhhPKHKIkGl6YmnBGjbL\_x8LYkY6URYq4g57Rgn2CSfN4KIjmuvezamJg0gvhApUuS-AwN4sY-G3VNDzDQbsCMDa5-Dj69M)
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-The following menu will then be displayed
+A continuación, se mostrará el siguiente menú
 
-![Advanced Settings Menu](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog\_m2xtnty6X73pFlhfdM9aglx89\_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ\_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F\_ftw)
+![Menú de Configuración Avanzada](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog_m2xtnty6X73pFlhfdM9aglx89_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F_ftw)
 
-Select the button labeled “Set dashboard columns for organization” and a list of all the column names will be shown.
+Seleccione el botón etiquetado como "Establecer columnas del panel de control para la organización" y se mostrará una lista con todos los nombres de las columnas.
 
-From this menu, you can select the column names and use the arrows to add and remove the columns you desire.
+Desde este menú, puede seleccionar los nombres de las columnas y utilizar las flechas para agregar y eliminar las columnas que desee.
 
-![Dashboard Column Settings](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-\_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
+![Configuración de Columnas del Panel de Control](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
