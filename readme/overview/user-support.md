@@ -11,3 +11,7 @@ Should you face any challenges or have inquiries when using DocBits, please cons
 You can also contact us via our FELLOPRO page:
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
+
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-07 um 16.50.45.png" alt=""><figcaption></figcaption></figure>
+
+Inside the Validation Screen you can create direct a Ticket and include a Screenshot of the issue.&#x20;
