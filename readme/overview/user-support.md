@@ -11,3 +11,7 @@ Ukoliko se suočite sa bilo kakvim izazovima ili imate pitanja prilikom korišć
 Takođe nas možete kontaktirati putem naše FELLOPRO stranice:
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
+
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-07 um 16.50.45.png" alt=""><figcaption></figcaption></figure>
+
+Unutar ekrana za validaciju možete direktno kreirati zahtev i uključiti snimak ekrana problema.
