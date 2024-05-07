@@ -1,7 +1,3 @@
----
-title: DocBits Guide: How to Create a Ticket for Document Validation Issues
-description: Learn how to use the ticketing tool in DocBits for reporting issues during document validation. This guide provides step-by-step instructions to access the feature, fill in your details, describe the error, and attach relevant files or screenshots.
----
 
 # Create a ticket
 
