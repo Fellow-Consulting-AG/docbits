@@ -1,10 +1,3 @@
----
-description: >-
-  This guide provides step-by-step instructions on how to change document
-  columns from the dashboard in your organization's settings. Learn how to
-  customize your dashboard view by adding or removing col
----
-
 # Change Document Columns
 
 From the Dashboard, click on the Advanced Settings icon as shown below

@@ -13,3 +13,4 @@ After the Advanced Settings bar appears, select the Import Log button.
 A table will then appear with all recently imported documents as well as other relevant information regarding them.
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
