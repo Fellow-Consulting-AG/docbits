@@ -9,7 +9,7 @@ description: >-
 
 From the Dashboard, click on the Advanced Settings icon as shown below
 
-![Advanced Settings Icon](https://lh7-us.googleusercontent.com/CY-xfFsc1bAlrKrer0gTR1UtUU670FeSFcqmLe-3fiumI7K7rAi8JHxZQhhPKHKIkGl6YmnBGjbL\_x8LYkY6URYq4g57Rgn2CSfN4KIjmuvezamJg0gvhApUuS-AwN4sY-G3VNDzDQbsCMDa5-Dj69M)
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 The following menu will then be displayed
 
@@ -20,3 +20,9 @@ Select the button labeled “Set dashboard columns for organization” and a lis
 From this menu, you can select the column names and use the arrows to add and remove the columns you desire.
 
 ![Dashboard Column Settings](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-\_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
