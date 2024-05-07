@@ -8,4 +8,4 @@ coverY: 0
 
 ## Dobrodošli u DocBits
 
-Dobrodošli u **DocBits**, vaš sveobuhvatni izvor strategija i uvida u dokumentaciju. U DocBits-u smo posvećeni pružanju jasnih, sažetih i ažuriranih resursa dokumentacije za krajnje korisnike, administratore i partnere.
+Dobrodošli na **DocBits**, vašem sveobuhvatnom izvoru strategija i uvida u dokumentaciju. U DocBits-u smo posvećeni pružanju jasnih, sažetih i ažuriranih resursa dokumentacije za [krajnje korisnike](<README (1).md>), [administrator](admin-section/) i [partnere](partner-section.md).
