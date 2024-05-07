@@ -53,7 +53,6 @@
         * [LN](readme/setup/testing/auto-accounting/ln.md)
         * [M3](readme/setup/testing/auto-accounting/m3.md)
 * [Overview](<README (1).md>)
-  * [Key Features of DocBits](overview/1-key-features-of-docbits.md)
   * [Key Features of DocBits](overview/key-features-of-docbits.md)
   * [Material Ordering and Processing Workflow](overview/material-ordering-and-processing-workflow.md)
   * [User Support](overview/user-support.md)
