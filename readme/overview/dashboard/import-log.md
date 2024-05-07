@@ -1,7 +1,4 @@
----
-title: DocBits Guide: Accessing the Import Log
-description: Learn how to access the Import Log in your DocBits environment. This guide provides step-by-step instructions to view a detailed log of all recently imported documents, along with other relevant information.
----
+
 
 # Import Log
 
