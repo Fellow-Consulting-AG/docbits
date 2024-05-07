@@ -1,22 +1,28 @@
 ---
 description: >-
-  This guide provides step-by-step instructions on how to change document
-  columns from the dashboard in your organization's settings. Learn how to
-  customize your dashboard view by adding or removing col
----
+  Questa guida fornisce istruzioni passo-passo su come modificare le colonne del
+  documento dal dashboard nelle impostazioni dell'organizzazione. Scopri come
+  personalizzare la visualizzazione del tuo dashboard aggiungendo o rimuovendo
+  colonne.
 
-# Change Document Columns
+# Modifica delle colonne del documento
 
-From the Dashboard, click on the Advanced Settings icon as shown below
+Dal Dashboard, fai clic sull'icona Impostazioni avanzate come mostrato di seguito
 
-![Advanced Settings Icon](https://lh7-us.googleusercontent.com/CY-xfFsc1bAlrKrer0gTR1UtUU670FeSFcqmLe-3fiumI7K7rAi8JHxZQhhPKHKIkGl6YmnBGjbL\_x8LYkY6URYq4g57Rgn2CSfN4KIjmuvezamJg0gvhApUuS-AwN4sY-G3VNDzDQbsCMDa5-Dj69M)
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-The following menu will then be displayed
+Verrà quindi visualizzato il seguente menu
 
-![Advanced Settings Menu](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog\_m2xtnty6X73pFlhfdM9aglx89\_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ\_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F\_ftw)
+![Menu Impostazioni Avanzate](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog_m2xtnty6X73pFlhfdM9aglx89_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F_ftw)
 
-Select the button labeled “Set dashboard columns for organization” and a list of all the column names will be shown.
+Seleziona il pulsante "Imposta colonne del dashboard per l'organizzazione" e verrà mostrato un elenco di tutti i nomi delle colonne.
 
-From this menu, you can select the column names and use the arrows to add and remove the columns you desire.
+Da questo menu, puoi selezionare i nomi delle colonne e utilizzare le frecce per aggiungere e rimuovere le colonne desiderate.
 
-![Dashboard Column Settings](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-\_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
+![Impostazioni Colonne Dashboard](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
