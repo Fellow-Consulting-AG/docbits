@@ -8,3 +8,5 @@ A la derecha de la barra de búsqueda, encontrarás otras herramientas del panel
 * Configuración Avanzada: Más información sobre este tema está disponible más adelante en esta página.
 * Análisis: Esto te proporciona más información sobre los documentos que has subido a DocBits.
 * Subir: Más información sobre este tema en la siguiente sección.
+
+<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption></figcaption></figure>
