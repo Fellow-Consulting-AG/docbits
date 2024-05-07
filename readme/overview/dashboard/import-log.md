@@ -1,6 +1,6 @@
 # Import-Protokoll
 
-Wenn Sie eine detaillierte Protokollierung aller in Ihre DocBits-Umgebung importierten Dokumente einsehen möchten, befolgen Sie diese Schritte.
+Wenn Sie einen detaillierten Protokoll aller in Ihre DocBits-Umgebung importierten Dokumente anzeigen möchten, befolgen Sie diese Schritte.
 
 Wählen Sie im DocBits-Dashboard die Option Erweiterte Einstellungen.
 
