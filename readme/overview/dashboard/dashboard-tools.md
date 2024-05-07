@@ -8,3 +8,5 @@ Desno od trake za pretragu, pronaći ćete druge alatke kontrolne table.
 * Napredne postavke: Više informacija o ovoj temi dostupno je dalje na ovoj stranici.
 * Analitika: Pruža vam dodatne uvide o dokumentima koje ste otpremili na DocBits.
 * Otpremi: Više informacija o ovoj temi u sledećem odeljku.
+
+<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption></figcaption></figure>
