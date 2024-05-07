@@ -1,3 +1,8 @@
+---
+title: DocBits User Guide: Understanding Dashboard Tools
+description: Explore the various tools available on the DocBits dashboard. Learn how to refresh the list, access advanced settings, scan documents, analyze data, and upload new documents to enhance your DocBits experience.
+---
+
 # Dashboard Tools
 
 To the right of the search bar, you will find other dashboard tools.
