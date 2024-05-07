@@ -20,4 +20,4 @@
 ### Rešavanje problema
 
 * **Uobičajeni problemi:** Rešenja za česte probleme sa kojima se korisnici susreću.
-* **Kontakt za podršku:** Kako kontaktirati podršku za pomoć.
+* [**Kontakt za podršku**](overview/user-support.md)**:** Kako stupiti u kontakt sa podrškom radi pomoći.
