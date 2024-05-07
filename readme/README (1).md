@@ -3,7 +3,7 @@
 ### Per Iniziare
 
 * **Accesso e Navigazione:** Come accedere a Docbits e navigare attraverso l'interfaccia.
-* **Configurazione Iniziale:** Impostare Docbits per l'uso la prima volta.
+* **Configurazione Iniziale:** Configurare Docbits per l'uso la prima volta.
 
 ### Utilizzo Quotidiano
 
@@ -20,4 +20,4 @@
 ### Risoluzione dei Problemi
 
 * **Problemi Comuni:** Soluzioni ai problemi frequenti riscontrati dagli utenti.
-* **Contatto di Supporto:** Come contattare il supporto per assistenza.
+* [**Contatto di Supporto**](overview/user-support.md)**:** Come contattare il supporto per assistenza.
