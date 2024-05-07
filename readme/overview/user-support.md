@@ -11,3 +11,7 @@ Si vous rencontrez des difficultés ou si vous avez des questions lors de l'util
 Vous pouvez également nous contacter via notre page FELLOPRO :
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
+
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-07 um 16.50.45.png" alt=""><figcaption></figcaption></figure>
+
+Sur l'écran de validation, vous pouvez créer directement un ticket et inclure une capture d'écran du problème.
