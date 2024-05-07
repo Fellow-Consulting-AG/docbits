@@ -1,8 +1,8 @@
 # Dnevnik uvoza
 
-Ako želite da vidite detaljan dnevnik svih dokumenata uvezenih u vaše DocBits okruženje, pratite ove korake.
+Ako želite da vidite detaljan dnevnik svih dokumenata koji su uvezeni u vaše DocBits okruženje, pratite ove korake.
 
-Sa vaše DocBits kontrolne table, izaberite opciju Napredne postavke.
+Sa svog DocBits kontrolnog panela, izaberite opciju Napredne postavke.
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 

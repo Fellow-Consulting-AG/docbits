@@ -1,12 +1,10 @@
-# Dashboard Tools
+# Alatke kontrolne table
 
-To the right of the search bar, you will find other dashboard tools.
+Desno od trake za pretragu, pronaći ćete druge alatke kontrolne table.
 
 <figure><img src="https://lh7-us.googleusercontent.com/QJpUDLYSPYvsgwyxSkaOZr5w4mdqYbWeRSckuLSbJXkgPccyFzvVK9q5p-bjXlR-q69KVZ2o--XZQGH_nCU90Sj7RNuyC1g-hJYWZRpxxILYeaTpw4afrjbdM8iatt2plPde_QtFuz7JSV1NtunRSiw" alt="" width="375"><figcaption></figcaption></figure>
 
-* Refresh List: This is used to update the dashboard without having to refresh your browser tab.
-* Advanced Settings: More information on this topic is available further down this page.
-* Analytics: This provides you with further insight about the documents you have uploaded to DocBits.
-* Upload: More information on this topic in the next section.
-
-
+* Osveži listu: Koristi se za ažuriranje kontrolne table bez potrebe da osvežite karticu pregledača.
+* Napredne postavke: Više informacija o ovoj temi dostupno je dalje na ovoj stranici.
+* Analitika: Pruža vam dodatne uvide o dokumentima koje ste otpremili na DocBits.
+* Otpremi: Više informacija o ovoj temi u sledećem odeljku.
