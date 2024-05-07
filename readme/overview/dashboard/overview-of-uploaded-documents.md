@@ -1,7 +1,4 @@
----
-title: Mastering DocBits: An Overview of Uploaded Documents
-description: Get a comprehensive understanding of the DocBits dashboard, focusing on the overview of uploaded documents. Learn how to view, search, and validate documents, enhancing your productivity and user experience.
----
+
 
 # Overview of Uploaded Documents
 
