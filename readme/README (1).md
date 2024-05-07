@@ -1,3 +1,23 @@
-# Pregled
+# Sekcija za krajnjeg korisnika
 
-### &#x20;<a href="#id-2mb0mw2kxioz" id="id-2mb0mw2kxioz"></a>
+### Početak
+
+* **Prijava i navigacija:** Kako pristupiti DocBits-u i kretati se kroz interfejs.
+* **Početna konfiguracija:** Postavljanje DocBits-a za prvo korišćenje.
+
+### Dnevna upotreba
+
+* **Slanje dokumenata:** Uputstva za slanje dokumenata u DocBits.
+* **Pregled i odobravanje dokumenata:**
+* **Odobravanje narudžbi:** Koraci za pregledanje i odobravanje obrazaca za narudžbu.
+* **Obrada faktura:** Vodič o tome kako obraditi dolazne fakture za plaćanje.
+
+### Upravljanje dokumentima
+
+* **Pretraga i povlačenje:** Kako pronaći i pristupiti dokumentima unutar DocBits-a.
+* **Uređivanje i ažuriranje:** Uređivanje dokumenata i ažuriranje njihovog statusa.
+
+### Rešavanje problema
+
+* **Uobičajeni problemi:** Rešenja za česte probleme sa kojima se korisnici susreću.
+* **Kontakt za podršku:** Kako kontaktirati podršku za pomoć.
