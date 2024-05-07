@@ -8,8 +8,8 @@
 ### Tägliche Verwendung
 
 * **Dokumenteneinreichung:** Anweisungen zur Einreichung von Dokumenten in Docbits.
-* **Dokumentenprüfung und Genehmigung:**
-* **Bestellungen genehmigen:** Schritte zur Überprüfung und Genehmigung von Bestellformularen.
+* **Dokumentüberprüfung und Genehmigung:**
+* **Aufträge genehmigen:** Schritte zur Überprüfung und Genehmigung von Bestellformularen.
 * **Rechnungen bearbeiten:** Anleitung zur Bearbeitung eingehender Rechnungen zur Zahlung.
 
 ### Dokumentenverwaltung
@@ -20,4 +20,4 @@
 ### Fehlerbehebung
 
 * **Häufige Probleme:** Lösungen für häufige Probleme, auf die Benutzer stoßen.
-* **Support kontaktieren:** Wie man den Support für Unterstützung erreicht.
+* [**Support-Kontakt**](overview/user-support.md)**:** Wie man den Support für Hilfe erreicht.
