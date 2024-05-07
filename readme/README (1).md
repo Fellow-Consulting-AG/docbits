@@ -20,4 +20,4 @@
 ### Troubleshooting
 
 * **Common Issues:** Solutions to frequent problems encountered by users.
-* **Support Contact:** How to reach support for assistance.
+* [**Support Contact**](overview/user-support.md)**:** How to reach support for assistance.
