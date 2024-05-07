@@ -138,3 +138,4 @@
         * [LN](setup/testing/auto-accounting/ln.md)
         * [M3](setup/testing/auto-accounting/m3.md)
 * [Partner Section](partner-section.md)
+* [Ressources and Support](ressources-and-support.md)
