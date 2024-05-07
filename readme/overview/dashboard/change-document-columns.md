@@ -1,22 +1,25 @@
 ---
 description: >-
-  This guide provides step-by-step instructions on how to change document
-  columns from the dashboard in your organization's settings. Learn how to
-  customize your dashboard view by adding or removing col
----
+  Ten przewodnik zawiera instrukcje krok po kroku dotyczące zmiany kolumn dokumentów z pulpitu nawigacyjnego w ustawieniach Twojej organizacji. Dowiedz się, jak dostosować widok swojego pulpitu nawigacyjnego, dodając lub usuwając kolumny.
 
-# Change Document Columns
+# Zmiana Kolumn Dokumentów
 
-From the Dashboard, click on the Advanced Settings icon as shown below
+Z pulpitu nawigacyjnego kliknij ikonę Ustawienia Zaawansowane, jak pokazano poniżej
 
-![Advanced Settings Icon](https://lh7-us.googleusercontent.com/CY-xfFsc1bAlrKrer0gTR1UtUU670FeSFcqmLe-3fiumI7K7rAi8JHxZQhhPKHKIkGl6YmnBGjbL\_x8LYkY6URYq4g57Rgn2CSfN4KIjmuvezamJg0gvhApUuS-AwN4sY-G3VNDzDQbsCMDa5-Dj69M)
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-The following menu will then be displayed
+Następnie zostanie wyświetlone następujące menu
 
-![Advanced Settings Menu](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog\_m2xtnty6X73pFlhfdM9aglx89\_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ\_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F\_ftw)
+![Menu Ustawień Zaawansowanych](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog_m2xtnty6X73pFlhfdM9aglx89_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F_ftw)
 
-Select the button labeled “Set dashboard columns for organization” and a list of all the column names will be shown.
+Wybierz przycisk oznaczony jako "Ustaw kolumny pulpitu nawigacyjnego dla organizacji", a zostanie wyświetlona lista wszystkich nazw kolumn.
 
-From this menu, you can select the column names and use the arrows to add and remove the columns you desire.
+Z tego menu możesz wybrać nazwy kolumn i użyć strzałek, aby dodać lub usunąć wybrane kolumny.
 
-![Dashboard Column Settings](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-\_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
+![Ustawienia Kolumn Pulpitu Nawigacyjnego](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
+
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
