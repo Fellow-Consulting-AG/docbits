@@ -9,8 +9,8 @@
 
 * **Belge Gönderimi:** Belgelerin Docbits'e nasıl gönderileceği hakkında talimatlar.
 * **Belge İnceleme ve Onaylama:**
-* **Sipariş Onaylama:** Sipariş formlarını inceleme ve onaylama adımları.
-* **Fatura İşleme:** Ödeme için gelen faturaların nasıl işleneceği konusunda rehber.
+* **Siparişleri Onaylama:** Sipariş formlarını inceleme ve onaylama adımları.
+* **Faturaları İşleme:** Ödeme için gelen faturaların nasıl işleneceği hakkında rehber.
 
 ### Belgeleri Yönetme
 
@@ -20,4 +20,4 @@
 ### Sorun Giderme
 
 * **Sık Karşılaşılan Sorunlar:** Kullanıcılar tarafından sık karşılaşılan sorunlara yönelik çözümler.
-* **Destek İletişimi:** Yardım almak için destekle nasıl iletişime geçileceği.
+* [**Destek İletişimi**](overview/user-support.md)**:** Yardım almak için destekle iletişime geçme yöntemleri.
