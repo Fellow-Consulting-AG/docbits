@@ -13,3 +13,5 @@ After the Advanced Settings bar appears, select the Import Log button.
 ![](https://lh7-us.googleusercontent.com/LbX5F\_G8jyHPFGmH2BnhyGPmNZ-pH92qwHuqyP0Optbf7ZlJM8c3E7qrf4telRjrc2X4i3zYagoLhH3FuY\_V9Qewg4J3O3AL3G4W6s89YmQQCueHnTYBejJhzcsUF\_\_q1SaA\_WWrxdyQHATVIi2f1mk)
 
 A table will then appear with all recently imported documents as well as other relevant information regarding them.
+
+
