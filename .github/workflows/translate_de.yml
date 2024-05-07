@@ -23,7 +23,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0 #Needed to download everything to be able to access the master & language branches
+          fetch-depth: 0 #Needed to download everything to be able to access the main & language branches
 
       - name: Set up Python
         uses: actions/setup-python@v2
