@@ -39,10 +39,10 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install wget -y
-          cd scripts
+          
           rm -f translator.py
           wget https://raw.githubusercontent.com/carlospolop/hacktricks-cloud/master/scripts/translator.py
-          cd ..
+          
 
       - name: Download language branch #Make sure we have last version
         run: |
@@ -70,7 +70,7 @@ jobs:
           done
 
           echo "Translating $(cat /tmp/file_paths.txt)"
-          python scripts/translator.py --language "$LANGUAGE" --branch "$BRANCH" --api-key "$OPENAI_API_KEY" -f "$(cat /tmp/file_paths.txt)" -t 3
+          python translator.py --language "$LANGUAGE" --branch "$BRANCH" --api-key "$OPENAI_API_KEY" -f "$(cat /tmp/file_paths.txt)" -t 3
 
       - name: Commit and push changes
         run: |
