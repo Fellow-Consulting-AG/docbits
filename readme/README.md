@@ -8,4 +8,4 @@ coverY: 0
 
 ## Bienvenido a DocBits
 
-Bienvenido a **DocBits**, tu fuente completa de estrategias e ideas de documentación. En DocBits, estamos dedicados a proporcionar recursos de documentación claros, concisos y actualizados para usuarios finales, administradores y socios.
+Bienvenido a **DocBits**, tu fuente completa de estrategias e ideas de documentación. En DocBits, estamos dedicados a proporcionar recursos de documentación claros, concisos y actualizados para [usuarios finales](<README (1).md>), [administradores](admin-section/), y [socios](partner-section.md).
