@@ -1,23 +1,23 @@
-# Section de l'utilisateur final
+# Section des Utilisateurs Finaux
 
-### Pour commencer
+### Pour Commencer
 
-* **Connexion et navigation :** Comment accéder à Docbits et naviguer dans l'interface.
-* **Configuration initiale :** Configuration initiale de Docbits pour une première utilisation.
+* **Connexion et Navigation :** Comment accéder à Docbits et naviguer dans l'interface.
+* **Configuration Initiale :** Configuration initiale de Docbits pour une première utilisation.
 
-### Utilisation quotidienne
+### Utilisation Quotidienne
 
-* **Soumission de documents :** Instructions pour soumettre des documents dans Docbits.
-* **Examen et approbation des documents :**
-* **Approbation des commandes :** Étapes pour examiner et approuver les formulaires de commande.
-* **Traitement des factures :** Guide sur la façon de traiter les factures entrantes pour paiement.
+* **Soumission de Documents :** Instructions pour soumettre des documents dans Docbits.
+* **Révision et Approbation de Documents :**
+* **Approbation des Commandes :** Étapes pour examiner et approuver les formulaires de commande.
+* **Traitement des Factures :** Guide sur comment traiter les factures entrantes pour paiement.
 
-### Gestion des documents
+### Gestion des Documents
 
-* **Recherche et récupération :** Comment trouver et accéder aux documents dans Docbits.
-* **Édition et mise à jour :** Modification des documents et mise à jour de leur statut.
+* **Recherche et Récupération :** Comment trouver et accéder aux documents dans Docbits.
+* **Édition et Mise à Jour :** Modification des documents et mise à jour de leur statut.
 
 ### Dépannage
 
-* **Problèmes courants :** Solutions aux problèmes fréquemment rencontrés par les utilisateurs.
-* **Contact de support :** Comment contacter le support pour obtenir de l'aide.
+* **Problèmes Courants :** Solutions aux problèmes fréquemment rencontrés par les utilisateurs.
+* [**Contact de Support**](overview/user-support.md)** :** Comment contacter le support pour obtenir de l'aide.
