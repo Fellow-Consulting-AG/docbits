@@ -8,3 +8,5 @@ Arama çubuğunun sağındaki, diğer kontrol paneli araçlarını bulacaksını
 * Gelişmiş Ayarlar: Bu konu hakkında daha fazla bilgi sayfanın daha aşağısında mevcuttur.
 * Analiz: Bu, DocBits'e yüklediğiniz belgeler hakkında daha fazla içgörü sağlar.
 * Yükle: Bu konu hakkında daha fazla bilgi bir sonraki bölümde bulunmaktadır.
+
+<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption></figcaption></figure>
