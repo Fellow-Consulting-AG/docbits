@@ -1,15 +1,9 @@
----
-cover: >-
-  https://images.unsplash.com/photo-1522794338816-ee3a17a00ae8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxLZXklMjBGZWF0dXJlfGVufDB8fHx8MTcxMDI1NjcyNHww&ixlib=rb-4.0.3&q=85
-coverY: 0
----
+# Kluczowe funkcje DocBits
 
-# Key Features of DocBits
+DocBits to rozwiązanie do przechwytywania dokumentów w chmurze, które wykorzystuje moc Sztucznej Inteligencji (AI) i Machine Learningu (ML) do skutecznego rozpoznawania, klasyfikowania, analizowania i wyodrębniania informacji z różnych rodzajów dokumentów, niezależnie od ich formatu. Oto bliższy przegląd jego kluczowych funkcji:
 
-DocBits is a cloud-based document capture solution that harnesses the power of Artificial Intelligence (AI) and Machine Learning (ML) to effectively recognize, classify, analyze, and extract information from various types of documents, regardless of their format. Here’s a closer look at its key features:
-
-* Document Recognition_:_ DocBits employs AI algorithms to accurately identify and recognize documents, whether they are in paper form or electronic files.
-* Document Classification: It classifies documents into relevant categories, facilitating easy organization and retrieval.
-* Data Extraction: DocBits extracts critical data from documents, transforming unstructured information into structured data that can be integrated into your workflow.
-* Machine Learning: The system continually learns and improves its recognition accuracy with each processed document, making it more proficient over time.
-* Swarm Intelligence: DocBits utilizes swarm intelligence to enhance its learning capabilities, creating a self-improving system.
+* Rozpoznawanie dokumentów: DocBits wykorzystuje algorytmy AI do dokładnego identyfikowania i rozpoznawania dokumentów, bez względu na to, czy są w formie papierowej czy plików elektronicznych.
+* Klasyfikacja dokumentów: Klasyfikuje dokumenty na odpowiednie kategorie, ułatwiając łatwą organizację i odzyskiwanie.
+* Wyodrębnianie danych: DocBits wyodrębnia istotne dane z dokumentów, przekształcając informacje nieustrukturyzowane w dane zorganizowane, które można zintegrować z Twoim przepływem pracy.
+* Machine Learning: System ciągle się uczy i poprawia swoją dokładność rozpoznawania przy każdym przetworzonym dokumencie, stając się bardziej sprawny z czasem.
+* Swarm Intelligence: DocBits wykorzystuje swarm intelligence do wzmocnienia swoich zdolności uczenia się, tworząc system samodoskonalący się.
