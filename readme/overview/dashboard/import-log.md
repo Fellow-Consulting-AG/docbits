@@ -1,6 +1,6 @@
 # İçe Aktarma Günlüğü
 
-Eğer DocBits ortamınıza aktarılan tüm belgelerin detaylı bir günlük kaydını görmek istiyorsanız, aşağıdaki adımları izleyin.
+Eğer DocBits ortamınıza aktarılan tüm belgelerin detaylı bir günlük görüntülemek istiyorsanız, aşağıdaki adımları izleyin.
 
 DocBits Kontrol Panelinizden, Gelişmiş Ayarlar seçeneğini seçin.
 
