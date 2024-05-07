@@ -1,15 +1,9 @@
----
-cover: >-
-  https://images.unsplash.com/photo-1522794338816-ee3a17a00ae8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxLZXklMjBGZWF0dXJlfGVufDB8fHx8MTcxMDI1NjcyNHww&ixlib=rb-4.0.3&q=85
-coverY: 0
----
+# Ključne funkcije DocBits-a
 
-# Key Features of DocBits
+DocBits je rešenje za snimanje dokumenata zasnovano na oblaku koje koristi snagu veštačke inteligencije (AI) i mašinskog učenja (ML) kako bi efikasno prepoznalo, klasifikovalo, analiziralo i izvuklo informacije iz različitih vrsta dokumenata, bez obzira na njihov format. Evo detaljnijeg pregleda njegovih ključnih funkcija:
 
-DocBits is a cloud-based document capture solution that harnesses the power of Artificial Intelligence (AI) and Machine Learning (ML) to effectively recognize, classify, analyze, and extract information from various types of documents, regardless of their format. Here’s a closer look at its key features:
-
-* Document Recognition_:_ DocBits employs AI algorithms to accurately identify and recognize documents, whether they are in paper form or electronic files.
-* Document Classification: It classifies documents into relevant categories, facilitating easy organization and retrieval.
-* Data Extraction: DocBits extracts critical data from documents, transforming unstructured information into structured data that can be integrated into your workflow.
-* Machine Learning: The system continually learns and improves its recognition accuracy with each processed document, making it more proficient over time.
-* Swarm Intelligence: DocBits utilizes swarm intelligence to enhance its learning capabilities, creating a self-improving system.
+* Prepoznavanje dokumenata: DocBits koristi AI algoritme za precizno identifikovanje i prepoznavanje dokumenata, bez obzira da li su u papirnom obliku ili elektronskim fajlovima.
+* Klasifikacija dokumenata: Klasifikuje dokumente u relevantne kategorije, olakšavajući njihovu organizaciju i pronalaženje.
+* Izdvajanje podataka: DocBits izdvaja ključne podatke iz dokumenata, transformišući neuredne informacije u strukturirane podatke koji se mogu integrisati u vaš radni proces.
+* Mašinsko učenje: Sistem kontinuirano uči i poboljšava svoju tačnost prepoznavanja sa svakim obrađenim dokumentom, čineći ga efikasnijim tokom vremena.
+* Rojna inteligencija: DocBits koristi rojnu inteligenciju za unapređenje svojih sposobnosti učenja, stvarajući samopoboljšavajući sistem.
