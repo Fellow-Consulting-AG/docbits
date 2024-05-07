@@ -1,22 +1,21 @@
----
-description: >-
-  This guide provides step-by-step instructions on how to change document
-  columns from the dashboard in your organization's settings. Learn how to
-  customize your dashboard view by adding or removing col
----
+# Ändern der Dokumentspalten
 
-# Change Document Columns
+Vom Dashboard aus klicken Sie auf das Symbol für erweiterte Einstellungen, wie unten dargestellt
 
-From the Dashboard, click on the Advanced Settings icon as shown below
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-![Advanced Settings Icon](https://lh7-us.googleusercontent.com/CY-xfFsc1bAlrKrer0gTR1UtUU670FeSFcqmLe-3fiumI7K7rAi8JHxZQhhPKHKIkGl6YmnBGjbL\_x8LYkY6URYq4g57Rgn2CSfN4KIjmuvezamJg0gvhApUuS-AwN4sY-G3VNDzDQbsCMDa5-Dj69M)
+Es wird dann das folgende Menü angezeigt
 
-The following menu will then be displayed
+![Erweitertes Einstellungsmenü](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog\_m2xtnty6X73pFlhfdM9aglx89\_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ\_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F\_ftw)
 
-![Advanced Settings Menu](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog\_m2xtnty6X73pFlhfdM9aglx89\_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ\_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F\_ftw)
+Wählen Sie die Schaltfläche "Dashboard-Spalten für Organisation festlegen" aus, und es wird eine Liste aller Spaltennamen angezeigt.
 
-Select the button labeled “Set dashboard columns for organization” and a list of all the column names will be shown.
+Aus diesem Menü können Sie die Spaltennamen auswählen und die Pfeile verwenden, um die gewünschten Spalten hinzuzufügen oder zu entfernen.
 
-From this menu, you can select the column names and use the arrows to add and remove the columns you desire.
+![Dashboard-Spalten-Einstellungen](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-\_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
 
-![Dashboard Column Settings](https://lh7-us.googleusercontent.com/cXnnrIR-y4TRDnRE9irGvvjnmkN-HSGEQTh7FiwsjRHzXF7FNjd-\_gLO-m55fLlv6lVjk-VvThgdW5JWgqIVZSm5tfk3hC7xrj68uRE5OgIPMtYIrpxOhhYzk4OMibyDBqvHQ0VZaDAysZohlH8dxm8)
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
