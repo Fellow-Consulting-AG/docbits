@@ -1,7 +1,7 @@
 # Table of contents
 
 * [DocBits](README.md)
-* [Overview](<README (1).md>)
+* [End User](<README (1).md>)
   * [Key Features of DocBits](overview/key-features-of-docbits.md)
   * [User Support](overview/user-support.md)
   * [Dashboard](overview/dashboard/README.md)
