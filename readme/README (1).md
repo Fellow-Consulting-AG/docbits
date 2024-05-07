@@ -15,9 +15,9 @@
 ### Gestión de Documentos
 
 * **Búsqueda y Recuperación:** Cómo encontrar y acceder a documentos dentro de Docbits.
-* **Editar y Actualizar:** Edición de documentos y actualización de su estado.
+* **Edición y Actualización:** Edición de documentos y actualización de su estado.
 
 ### Solución de Problemas
 
 * **Problemas Comunes:** Soluciones a problemas frecuentes encontrados por los usuarios.
-* **Contacto de Soporte:** Cómo contactar al soporte para obtener asistencia.
+* [**Contacto de Soporte**](overview/user-support.md)**:** Cómo contactar al soporte para obtener asistencia.
