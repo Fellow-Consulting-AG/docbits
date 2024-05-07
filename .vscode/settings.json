@@ -1,5 +1,6 @@
 {
     "circleci.persistedProjectSelection": [
         "gh/Fellow-Consulting-AG/docbits"
-    ]
+    ],
+    "shiftleft-core.slHomePath": "/Users/daniel/.shiftleft"
 }

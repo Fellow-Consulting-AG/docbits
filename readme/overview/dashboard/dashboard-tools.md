@@ -8,3 +8,5 @@ To the right of the search bar, you will find other dashboard tools.
 * Advanced Settings: More information on this topic is available further down this page.
 * Analytics: This provides you with further insight about the documents you have uploaded to DocBits.
 * Upload: More information on this topic in the next section.
+
+
