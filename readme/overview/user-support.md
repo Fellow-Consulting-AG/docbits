@@ -10,3 +10,6 @@ coverY: 0
 ### User Support <a href="#ikpwh4qbrq82" id="ikpwh4qbrq82"></a>
 
 Should you face any challenges or have inquiries when using DocBits, please consult this user manual or reach out to our support team for help. Our commitment lies in providing a seamless experience for all users.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
