@@ -1,15 +1,9 @@
----
-cover: >-
-  https://images.unsplash.com/photo-1522794338816-ee3a17a00ae8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxLZXklMjBGZWF0dXJlfGVufDB8fHx8MTcxMDI1NjcyNHww&ixlib=rb-4.0.3&q=85
-coverY: 0
----
+# DocBits'ın Temel Özellikleri
 
-# Key Features of DocBits
+DocBits, yapısından bağımsız olarak çeşitli belge türlerinden bilgiyi etkili bir şekilde tanımlamak, sınıflandırmak, analiz etmek ve çıkarmak için Yapay Zeka (AI) ve Makine Öğrenimi (ML) gücünden faydalanan bulut tabanlı bir belge yakalama çözümüdür. İşte temel özelliklerine daha yakından bakalım:
 
-DocBits is a cloud-based document capture solution that harnesses the power of Artificial Intelligence (AI) and Machine Learning (ML) to effectively recognize, classify, analyze, and extract information from various types of documents, regardless of their format. Here’s a closer look at its key features:
-
-* Document Recognition_:_ DocBits employs AI algorithms to accurately identify and recognize documents, whether they are in paper form or electronic files.
-* Document Classification: It classifies documents into relevant categories, facilitating easy organization and retrieval.
-* Data Extraction: DocBits extracts critical data from documents, transforming unstructured information into structured data that can be integrated into your workflow.
-* Machine Learning: The system continually learns and improves its recognition accuracy with each processed document, making it more proficient over time.
-* Swarm Intelligence: DocBits utilizes swarm intelligence to enhance its learning capabilities, creating a self-improving system.
+* Belge Tanıma: DocBits, kağıt formunda veya elektronik dosyalarda olsun belgeleri doğru bir şekilde tanımlamak ve tanımak için AI algoritmalarını kullanır.
+* Belge Sınıflandırma: Belgeyi ilgili kategorilere ayırarak kolay bir şekilde düzenleme ve geri alma imkanı sağlar.
+* Veri Çıkarma: DocBits, belgelerden önemli verileri çıkararak yapılandırılmamış bilgiyi iş akışınıza entegre edilebilecek yapılandırılmış veriye dönüştürür.
+* Makine Öğrenimi: Sistem, her işlenen belgeyle tanıma doğruluğunu sürekli olarak öğrenir ve geliştirir, böylece zamanla daha yetkin hale gelir.
+* Sürü Zekası: DocBits, öğrenme yeteneklerini geliştirmek için sürü zekasını kullanır ve kendini geliştiren bir sistem oluşturur.
