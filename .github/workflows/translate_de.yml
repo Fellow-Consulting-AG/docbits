@@ -3,7 +3,7 @@ name: Translator to DE (German)
 on:
   push:
     branches:
-      - master
+      - main
     paths-ignore:
       - 'scripts/**'
       - '.gitignore'
@@ -15,7 +15,6 @@ concurrency: de
 jobs:
   run-translation:
     runs-on: ubuntu-latest
-    environment: prod
     env:
       LANGUAGE: German
       BRANCH: de
@@ -51,7 +50,7 @@ jobs:
           git config --global user.email 'daniel.jordan@fellowpro.com'
           git checkout "$BRANCH"
           git pull
-          git checkout master
+          git checkout main
       
       - name: Run translation script on changed files
         run: |
