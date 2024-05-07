@@ -1,3 +1,7 @@
+---
+description: Document merge documents
+---
+
 # Document Merging
 
 Document merging allows you to combine multiple documents.
