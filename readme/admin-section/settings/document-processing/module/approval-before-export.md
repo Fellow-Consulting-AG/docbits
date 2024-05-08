@@ -1,0 +1,1 @@
+# Zatwierdzenie Przed Eksportem

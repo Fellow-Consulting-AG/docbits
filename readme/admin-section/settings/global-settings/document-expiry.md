@@ -1,0 +1,1 @@
+# Wygaśnięcie dokumentu
