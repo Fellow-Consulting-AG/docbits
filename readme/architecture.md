@@ -6,8 +6,12 @@ Doc**Bits** integriert nahtlos mit Infor LN/M3 über ION API, ION Desk und Infor
 
 ## Datenexport nach Infor
 
-Wir verwenden die ION API, um das PDF mit Attributen an IDM zu senden und das BOD Sync.CaptureDocument an ION Desk. In ION Desk transformieren wir das Sync.CaptureDocument in die gewünschten Ziel-BODs basierend auf dem verarbeiteten Dokumententyp. Diese transformierten Infor BODs werden dann automatisch in LN oder M3 importiert.
+Wir verwenden die ION API, um das PDF mit Attributen an IDM zu senden und das BOD Sync.CaptureDocument an ION Desk. In ION Desk transformieren wir das [Sync.CaptureDocument](admin-section/setup/exporting-in-docbits/) in die gewünschten Ziel-BODs basierend auf dem verarbeiteten Dokumententyp. Diese transformierten Infor BODs werden dann automatisch in LN oder M3 importiert.
+
+{% hint style="info" %}
+Export nach [Infor](admin-section/setup/exporting-in-docbits/exporting-to-infor/)&#x20;
+{% endhint %}
 
 ## Validierung der Stammdateien in DocBits
 
-Um den Lieferanten zu identifizieren oder Bestellpositionen zu vergleichen/abzugleichen, aktivieren wir einen Trigger in LN/M3, der die Sync.RemitToPartyMaster, Sync.SupplierPartyMaster und Sync.PurchaseOrder BODs an Doc**Bits** sendet. Wir konfigurieren diesen Prozess in ION Desk, indem wir den Datenfluss zu einem spezifischen Verbindungspunkt zu Doc**Bits** definieren.
+Um den Lieferanten zu identifizieren oder Bestellposten zu vergleichen/abzugleichen, aktivieren wir einen Trigger in LN/M3, der die Sync.RemitToPartyMaster, Sync.SupplierPartyMaster und Sync.PurchaseOrder BODs an Doc**Bits** sendet. Diesen Prozess konfigurieren wir in ION Desk, indem wir den Datenfluss zu einem spezifischen Verbindungspunkt zu Doc**Bits** definieren.
