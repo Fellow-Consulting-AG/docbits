@@ -1,34 +1,34 @@
-# When
+# Ne Zaman
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 16.25.45.png" alt=""><figcaption></figcaption></figure>
 
-#### Understanding the "When" in Workflow Configurations
+#### İş Akışı Yapılandırmalarındaki "Ne Zaman"ın Anlaşılması
 
-**Purpose of "When"**
+**"Ne Zaman"ın Amacı**
 
-* The "When" section in a workflow configuration defines the trigger conditions that initiate a particular workflow action. These conditions are based on specified criteria related to document attributes or user activities within the ERP system.
+* Bir iş akışı yapılandırmasındaki "Ne Zaman" bölümü, belirli bir iş akışı eylemini başlatan tetikleme koşullarını tanımlar. Bu koşullar, ERP sistemi içinde belirtilen belge özellikleri veya kullanıcı etkinlikleri ile ilgili belirli kriterlere dayanmaktadır.
 
-**How It Works**
+**Nasıl Çalışır**
 
-* In your interface, "When" appears to be a starting point where users can select different trigger cards. Each card specifies conditions under which subsequent actions (defined in another section of the workflow configuration, likely labeled "Action") will be executed.
+* Arayüzünüzde, "Ne Zaman" kullanıcıların farklı tetikleyici kartlar seçebileceği bir başlangıç noktası gibi görünmektedir. Her kart, ardışık eylemlerin (muhtemelen "Eylem" olarak etiketlenmiş başka bir bölümde tanımlanan) hangi koşullar altında yürütüleceğini belirtir.
 
-**Document Type Condition Cards**
+**Belge Türü Koşul Kartları**
 
-* The cards displayed in the screenshot are variations of "Document Type" conditions, which are used to trigger workflows based on the type of document being processed. Here’s a breakdown of each type of condition card shown:
-  * **Document type (Operator) one of (Type)**: This card triggers an action when the type of a document matches one of the specified types in a list. The operator might include options like "is" or "is not," allowing for inclusive or exclusive conditions.
-  * **Document type (Operator) (Type)**: This simpler variant triggers based on a single document type condition. It would typically check if the document type "is" or "is not" a specific type, without the option to select from multiple types.
+* Ekran görüntüsünde görünen kartlar, işlenen belgenin türüne bağlı olarak iş akışlarını tetiklemek için kullanılan "Belge Türü" koşullarının çeşitleridir. Gösterilen her tür koşul kartının ayrıntıları şöyle:
+* **Belge türü (Operatör) biri (Tür)**: Bu kart, bir belgenin türünün belirtilen listedeki türlerden biriyle eşleştiğinde bir eylemi tetikler. Operatör, "şu türdür" veya "şu türde değildir" gibi seçenekler içerebilir, kapsayıcı veya dışlayıcı koşullara izin verir.
+* **Belge türü (Operatör) (Tür)**: Bu daha basit varyant, tek bir belge türü koşuluna dayalı olarak tetiklenir. Genellikle belge türünün belirli bir tür olup olmadığını kontrol eder, birden fazla tür arasından seçim yapma seçeneği olmadan.
 
-#### Setting Up a "When" Trigger Card
+#### Bir "Ne Zaman" Tetik Kartı Kurma
 
-1. **Selection of Condition Type**: Users begin by selecting a condition type that is relevant to the workflow they want to automate. In this case, document types are the focus.
-2. **Defining the Operator**: Users must decide the logical operator—such as "is" or "is not"—which sets the basis for comparing actual document types against the defined conditions.
-3. **Specifying Document Types**: Depending on the card, users may select one or multiple document types that will trigger the workflow when documents of those types are processed.
-4. **Finalizing the Trigger**: Once the condition is set up, it becomes the basis for triggering specific actions defined in the workflow. If a document meets the set condition, the defined actions will automatically be initiated.
+1. **Koşul Türünün Seçimi**: Kullanıcılar, otomatikleştirmek istedikleri iş akışıyla ilgili olan bir koşul türünü seçerek başlarlar. Bu durumda, belge türleri odak noktasıdır.
+2. **Operatörün Tanımlanması**: Kullanıcılar, gerçek belge türlerini tanımlanan koşullara karşı karşılaştırmak için temel oluşturan "şu türdedir" veya "şu türde değildir" gibi mantıksal operatörü belirlemelidir.
+3. **Belge Türlerinin Belirtilmesi**: Kartın türüne bağlı olarak, kullanıcılar işlenen belgelerin bu türlerden birini veya birkaçını seçebilir ve iş akışının bu belge türlerini işlediğinde tetiklenecektir.
+4. **Tetikleyiciyi Tamamlama**: Koşul kurulduğunda, bu, iş akışında tanımlanan belirli eylemleri tetiklemek için temel olur. Bir belge belirli bir koşulu karşılarsa, tanımlanan eylemler otomatik olarak başlatılacaktır.
 
-#### Practical Application
+#### Pratik Uygulama
 
-In practice, these trigger cards are crucial for automating processes like approvals, notifications, or any procedure that depends on the type of document being handled. For example, if a document type "is" an "Invoice," and it matches the conditions set in the "When" card, the workflow might automatically route the document for payment processing.
+Uygulamada, bu tetik kartları onayları, bildirimleri veya ele alınan belgenin türüne bağlı olan herhangi bir prosedürü otomatikleştirmek için hayati öneme sahiptir. Örneğin, bir belge türü "Fatura" ise ve "Ne Zaman" kartında belirlenen koşullara uyuşuyorsa, iş akışı belgeyi ödeme işlemi için otomatik olarak yönlendirebilir.
 
-This setup ensures that workflows are not only efficient but also tailored to the specific operational needs of the organization, reducing manual oversight and speeding up document handling processes.
+Bu kurulum, iş akışlarının sadece verimli olmasını değil, aynı zamanda organizasyonun belirli işletme ihtiyaçlarına uygun olmasını sağlayarak manuel denetimi azaltır ve belge işleme süreçlerini hızlandırır.
 
-In summary, the "When" part of your workflow configuration is about setting the stage for automated actions based on specific, predefined conditions. It’s a powerful tool for ensuring that your ERP system reacts dynamically to the needs of the business, enhancing both productivity and accuracy in document management.
+Özetle, iş akışı yapılandırmanızdaki "Ne Zaman" kısmı, belirli, önceden tanımlanmış koşullara dayalı olarak otomatik eylemler için sahneyi ayarlamakla ilgilidir. Bu, ERP sisteminizin işletmenin ihtiyaçlarına dinamik olarak tepki vermesini sağlayan güçlü bir araçtır, belge yönetiminde hem verimliliği hem de doğruluğu artırır.
