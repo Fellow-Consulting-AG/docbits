@@ -1,34 +1,34 @@
-# When
+# Wann
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 16.25.45.png" alt=""><figcaption></figcaption></figure>
 
-#### Understanding the "When" in Workflow Configurations
+#### Verständnis des "Wann" in Workflow-Konfigurationen
 
-**Purpose of "When"**
+**Zweck von "Wann"**
 
-* The "When" section in a workflow configuration defines the trigger conditions that initiate a particular workflow action. These conditions are based on specified criteria related to document attributes or user activities within the ERP system.
+* Der Abschnitt "Wann" in einer Workflow-Konfiguration definiert die Auslösebedingungen, die eine bestimmte Workflow-Aktion initiieren. Diese Bedingungen basieren auf festgelegten Kriterien in Bezug auf Dokumentattribute oder Benutzeraktivitäten innerhalb des ERP-Systems.
 
-**How It Works**
+**Wie es funktioniert**
 
-* In your interface, "When" appears to be a starting point where users can select different trigger cards. Each card specifies conditions under which subsequent actions (defined in another section of the workflow configuration, likely labeled "Action") will be executed.
+* In Ihrer Benutzeroberfläche erscheint "Wann" als Ausgangspunkt, an dem Benutzer verschiedene Trigger-Karten auswählen können. Jede Karte legt Bedingungen fest, unter denen nachfolgende Aktionen (definiert in einem anderen Abschnitt der Workflow-Konfiguration, wahrscheinlich mit der Bezeichnung "Aktion") ausgeführt werden.
 
-**Document Type Condition Cards**
+**Bedingungskarten für Dokumententypen**
 
-* The cards displayed in the screenshot are variations of "Document Type" conditions, which are used to trigger workflows based on the type of document being processed. Here’s a breakdown of each type of condition card shown:
-  * **Document type (Operator) one of (Type)**: This card triggers an action when the type of a document matches one of the specified types in a list. The operator might include options like "is" or "is not," allowing for inclusive or exclusive conditions.
-  * **Document type (Operator) (Type)**: This simpler variant triggers based on a single document type condition. It would typically check if the document type "is" or "is not" a specific type, without the option to select from multiple types.
+* Die in der Abbildung angezeigten Karten sind Varianten von "Dokumententyp"-Bedingungen, die verwendet werden, um Workflows basierend auf dem Typ des zu verarbeitenden Dokuments auszulösen. Hier ist eine Aufschlüsselung jeder Art von Bedingungskarte:
+* **Dokumententyp (Operator) einer von (Typ)**: Diese Karte löst eine Aktion aus, wenn der Typ eines Dokuments mit einem der angegebenen Typen in einer Liste übereinstimmt. Der Operator könnte Optionen wie "ist" oder "ist nicht" enthalten, was inclusive oder exklusive Bedingungen ermöglicht.
+* **Dokumententyp (Operator) (Typ)**: Diese einfachere Variante wird basierend auf einer einzelnen Dokumententyp-Bedingung ausgelöst. Es würde typischerweise überprüfen, ob der Dokumententyp "ist" oder "ist nicht" ein bestimmter Typ ist, ohne die Möglichkeit, aus mehreren Typen auszuwählen.
 
-#### Setting Up a "When" Trigger Card
+#### Einrichten einer "Wann"-Triggerkarte
 
-1. **Selection of Condition Type**: Users begin by selecting a condition type that is relevant to the workflow they want to automate. In this case, document types are the focus.
-2. **Defining the Operator**: Users must decide the logical operator—such as "is" or "is not"—which sets the basis for comparing actual document types against the defined conditions.
-3. **Specifying Document Types**: Depending on the card, users may select one or multiple document types that will trigger the workflow when documents of those types are processed.
-4. **Finalizing the Trigger**: Once the condition is set up, it becomes the basis for triggering specific actions defined in the workflow. If a document meets the set condition, the defined actions will automatically be initiated.
+1. **Auswahl des Bedingungstyps**: Benutzer beginnen mit der Auswahl eines für den zu automatisierenden Workflow relevanten Bedingungstyps. In diesem Fall stehen Dokumententypen im Mittelpunkt.
+2. **Definition des Operators**: Benutzer müssen den logischen Operator festlegen – wie "ist" oder "ist nicht" – der die Grundlage für den Vergleich der tatsächlichen Dokumententypen mit den definierten Bedingungen bildet.
+3. **Spezifizierung der Dokumententypen**: Abhängig von der Karte können Benutzer einen oder mehrere Dokumententypen auswählen, die den Workflow auslösen, wenn Dokumente dieser Typen verarbeitet werden.
+4. **Abschließen des Triggers**: Sobald die Bedingung eingerichtet ist, bildet sie die Grundlage für das Auslösen spezifischer Aktionen, die im Workflow definiert sind. Wenn ein Dokument die festgelegte Bedingung erfüllt, werden die definierten Aktionen automatisch initiiert.
 
-#### Practical Application
+#### Praktische Anwendung
 
-In practice, these trigger cards are crucial for automating processes like approvals, notifications, or any procedure that depends on the type of document being handled. For example, if a document type "is" an "Invoice," and it matches the conditions set in the "When" card, the workflow might automatically route the document for payment processing.
+In der Praxis sind diese Triggerkarten entscheidend für die Automatisierung von Prozessen wie Genehmigungen, Benachrichtigungen oder jedem Verfahren, das vom Typ des behandelten Dokuments abhängt. Wenn beispielsweise ein Dokumententyp "Rechnung" ist und er den in der "Wann"-Karte festgelegten Bedingungen entspricht, könnte der Workflow das Dokument automatisch zur Zahlungsabwicklung weiterleiten.
 
-This setup ensures that workflows are not only efficient but also tailored to the specific operational needs of the organization, reducing manual oversight and speeding up document handling processes.
+Diese Einrichtung gewährleistet, dass Workflows nicht nur effizient, sondern auch auf die spezifischen betrieblichen Anforderungen der Organisation zugeschnitten sind, was die manuelle Überwachung reduziert und die Bearbeitung von Dokumenten beschleunigt.
 
-In summary, the "When" part of your workflow configuration is about setting the stage for automated actions based on specific, predefined conditions. It’s a powerful tool for ensuring that your ERP system reacts dynamically to the needs of the business, enhancing both productivity and accuracy in document management.
+Zusammenfassend geht es bei dem "Wann"-Teil Ihrer Workflow-Konfiguration darum, die Bühne für automatisierte Aktionen basierend auf spezifischen, vordefinierten Bedingungen zu setzen. Es ist ein leistungsstarkes Werkzeug, um sicherzustellen, dass Ihr ERP-System dynamisch auf die Bedürfnisse des Unternehmens reagiert und sowohl die Produktivität als auch die Genauigkeit im Dokumentenmanagement verbessert.
