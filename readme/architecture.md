@@ -15,3 +15,9 @@ Export nach [Infor](admin-section/setup/exporting-in-docbits/exporting-to-infor/
 ## Validierung der Stammdateien in DocBits
 
 Um den Lieferanten zu identifizieren oder Bestellposten zu vergleichen/abzugleichen, aktivieren wir einen Trigger in LN/M3, der die Sync.RemitToPartyMaster, Sync.SupplierPartyMaster und Sync.PurchaseOrder BODs an Doc**Bits** sendet. Diesen Prozess konfigurieren wir in ION Desk, indem wir den Datenfluss zu einem spezifischen Verbindungspunkt zu Doc**Bits** definieren.
+
+\
+
+{% hint style="info" %}
+[Validierung der Stammdateien](admin-section/setup/importing-customer-master-data/)
+{% endhint %}
