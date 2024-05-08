@@ -158,3 +158,4 @@
         * [M3](admin-section/setup/testing/auto-accounting/m3.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
+* [Architecture](architecture.md)
