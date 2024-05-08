@@ -69,6 +69,7 @@
         * [Swiss QR Code](admin-section/settings/document-processing/module/swiss-qr-code.md)
     * [Supplier Setting](admin-section/settings/supplier-setting.md)
   * [Workflow](admin-section/workflow/README.md)
+    * [Release](admin-section/workflow/release.md)
     * [When](admin-section/workflow/when/README.md)
       * [Card description](admin-section/workflow/when/card-description.md)
       * [Document Operator for Sub-Organizations](admin-section/workflow/when/document-operator-for-sub-organizations.md)
