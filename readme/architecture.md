@@ -15,3 +15,9 @@ Exportar para [Infor](admin-section/setup/exporting-in-docbits/exporting-to-info
 ## Validação de Dados Mestres no DocBits
 
 Para identificar o fornecedor ou comparar/corresponder linhas de pedidos de compra, ativamos um gatilho no LN/M3 que envia os BODs Sync.RemitToPartyMaster, Sync.SupplierPartyMaster e Sync.PurchaseOrder para o Doc**Bits**. Configuramos esse processo no ION Desk definindo o fluxo de dados para um ponto de conexão específico para o Doc**Bits**.
+
+\
+
+{% hint style="info" %}
+[Validação de Dados Mestres](admin-section/setup/importing-customer-master-data/)
+{% endhint %}
