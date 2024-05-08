@@ -1,0 +1,1 @@
+# Schweizer QR-Code
