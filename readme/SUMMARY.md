@@ -173,3 +173,4 @@
 * [Ressources and Support](ressources-and-support.md)
 * [Architecture](architecture.md)
 * [Infor Infrastructure](infor-infrastructure.md)
+* [Release](release.md)
