@@ -6,7 +6,7 @@ Doc**Bits** se besprekorno integriše sa Infor LN/M3 putem ION API-ja, ION Desk-
 
 ## Izvoz podataka u Infor
 
-Koristimo ION API da pošaljemo PDF sa atributima u IDM i BOD Sync.CaptureDocument u ION Desk. U ION Desk-u, transformišemo [Sync.CaptureDocument](admin-section/setup/exporting-in-docbits/) u željene ciljne BOD-ove na osnovu tipa dokumenta koji se obrađuje. Ovi transformisani Infor BOD-ovi zatim automatski uvoze u LN ili M3.
+Koristimo ION API da pošaljemo PDF sa atributima u IDM i BOD Sync.CaptureDocument u ION Desk. U ION Desk-u, transformišemo [Sync.CaptureDocument](admin-section/setup/exporting-in-docbits/) u željene ciljne BOD-ove na osnovu tipa dokumenta koji se obrađuje. Ovi transformisani Infor BOD-ovi zatim automatski se uvoze u LN ili M3.
 
 {% hint style="info" %}
 Izvoz u [Infor](admin-section/setup/exporting-in-docbits/exporting-to-infor/)&#x20;
@@ -14,4 +14,10 @@ Izvoz u [Infor](admin-section/setup/exporting-in-docbits/exporting-to-infor/)&#x
 
 ## Validacija osnovnih podataka u DocBits-u
 
-Da bismo identifikovali dobavljača ili uporedili/poklopili redove narudžbenica, aktiviramo okidač u LN/M3 koji šalje Sync.RemitToPartyMaster, Sync.SupplierPartyMaster i Sync.PurchaseOrder BOD-ove u Doc**Bits**. Ovaj proces konfigurišemo u ION Desk-u definisanjem protoka podataka ka određenoj tački povezivanja sa Doc**Bits**-om.
+Da bismo identifikovali dobavljača ili uporedili/poklopili linije porudžbine, aktiviramo okidač u LN/M3 koji šalje Sync.RemitToPartyMaster, Sync.SupplierPartyMaster i Sync.PurchaseOrder BOD-ove u Doc**Bits**. Ovaj proces konfigurišemo u ION Desk-u definisanjem protoka podataka ka određenoj tački povezivanja sa Doc**Bits**-om.
+
+\
+
+{% hint style="info" %}
+[Validacija osnovnih podataka](admin-section/setup/importing-customer-master-data/)
+{% endhint %}
