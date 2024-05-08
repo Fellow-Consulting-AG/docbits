@@ -1,34 +1,34 @@
-# When
+# Quando
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 16.25.45.png" alt=""><figcaption></figcaption></figure>
 
-#### Understanding the "When" in Workflow Configurations
+#### Compreendendo o "Quando" nas Configurações de Fluxo de Trabalho
 
-**Purpose of "When"**
+**Propósito do "Quando"**
 
-* The "When" section in a workflow configuration defines the trigger conditions that initiate a particular workflow action. These conditions are based on specified criteria related to document attributes or user activities within the ERP system.
+* A seção "Quando" em uma configuração de fluxo de trabalho define as condições de acionamento que iniciam uma ação de fluxo de trabalho específica. Essas condições são baseadas em critérios especificados relacionados aos atributos do documento ou atividades do usuário dentro do sistema ERP.
 
-**How It Works**
+**Como Funciona**
 
-* In your interface, "When" appears to be a starting point where users can select different trigger cards. Each card specifies conditions under which subsequent actions (defined in another section of the workflow configuration, likely labeled "Action") will be executed.
+* Na sua interface, o "Quando" parece ser um ponto de partida onde os usuários podem selecionar diferentes cartões de acionamento. Cada cartão especifica condições sob as quais ações subsequentes (definidas em outra seção da configuração do fluxo de trabalho, provavelmente rotulada como "Ação") serão executadas.
 
-**Document Type Condition Cards**
+**Cartões de Condição de Tipo de Documento**
 
-* The cards displayed in the screenshot are variations of "Document Type" conditions, which are used to trigger workflows based on the type of document being processed. Here’s a breakdown of each type of condition card shown:
-  * **Document type (Operator) one of (Type)**: This card triggers an action when the type of a document matches one of the specified types in a list. The operator might include options like "is" or "is not," allowing for inclusive or exclusive conditions.
-  * **Document type (Operator) (Type)**: This simpler variant triggers based on a single document type condition. It would typically check if the document type "is" or "is not" a specific type, without the option to select from multiple types.
+* Os cartões exibidos na captura de tela são variações das condições de "Tipo de Documento", que são usadas para acionar fluxos de trabalho com base no tipo de documento em processamento. Aqui está uma análise de cada tipo de cartão de condição mostrado:
+* **Tipo de documento (Operador) um de (Tipo)**: Este cartão aciona uma ação quando o tipo de um documento corresponde a um dos tipos especificados em uma lista. O operador pode incluir opções como "é" ou "não é", permitindo condições inclusivas ou exclusivas.
+* **Tipo de documento (Operador) (Tipo)**: Esta variante mais simples é acionada com base em uma única condição de tipo de documento. Normalmente, verifica se o tipo de documento "é" ou "não é" um tipo específico, sem a opção de selecionar vários tipos.
 
-#### Setting Up a "When" Trigger Card
+#### Configurando um Cartão de Acionamento "Quando"
 
-1. **Selection of Condition Type**: Users begin by selecting a condition type that is relevant to the workflow they want to automate. In this case, document types are the focus.
-2. **Defining the Operator**: Users must decide the logical operator—such as "is" or "is not"—which sets the basis for comparing actual document types against the defined conditions.
-3. **Specifying Document Types**: Depending on the card, users may select one or multiple document types that will trigger the workflow when documents of those types are processed.
-4. **Finalizing the Trigger**: Once the condition is set up, it becomes the basis for triggering specific actions defined in the workflow. If a document meets the set condition, the defined actions will automatically be initiated.
+1. **Seleção do Tipo de Condição**: Os usuários começam selecionando um tipo de condição relevante para o fluxo de trabalho que desejam automatizar. Neste caso, os tipos de documento são o foco.
+2. **Definindo o Operador**: Os usuários devem decidir o operador lógico — como "é" ou "não é" — que estabelece a base para comparar os tipos de documento reais em relação às condições definidas.
+3. **Especificar Tipos de Documento**: Dependendo do cartão, os usuários podem selecionar um ou vários tipos de documento que acionarão o fluxo de trabalho quando documentos desses tipos forem processados.
+4. **Finalizando o Acionamento**: Uma vez que a condição é configurada, ela se torna a base para acionar ações específicas definidas no fluxo de trabalho. Se um documento atender à condição definida, as ações definidas serão iniciadas automaticamente.
 
-#### Practical Application
+#### Aplicação Prática
 
-In practice, these trigger cards are crucial for automating processes like approvals, notifications, or any procedure that depends on the type of document being handled. For example, if a document type "is" an "Invoice," and it matches the conditions set in the "When" card, the workflow might automatically route the document for payment processing.
+Na prática, esses cartões de acionamento são cruciais para automatizar processos como aprovações, notificações ou qualquer procedimento que dependa do tipo de documento em questão. Por exemplo, se um tipo de documento "é" uma "Fatura" e corresponder às condições definidas no cartão "Quando", o fluxo de trabalho pode encaminhar automaticamente o documento para processamento de pagamento.
 
-This setup ensures that workflows are not only efficient but also tailored to the specific operational needs of the organization, reducing manual oversight and speeding up document handling processes.
+Essa configuração garante que os fluxos de trabalho sejam não apenas eficientes, mas também adaptados às necessidades operacionais específicas da organização, reduzindo a supervisão manual e acelerando os processos de manipulação de documentos.
 
-In summary, the "When" part of your workflow configuration is about setting the stage for automated actions based on specific, predefined conditions. It’s a powerful tool for ensuring that your ERP system reacts dynamically to the needs of the business, enhancing both productivity and accuracy in document management.
+Em resumo, a parte "Quando" da configuração do seu fluxo de trabalho trata de preparar o terreno para ações automatizadas com base em condições específicas e predefinidas. É uma ferramenta poderosa para garantir que seu sistema ERP reaja dinamicamente às necessidades do negócio, aprimorando tanto a produtividade quanto a precisão na gestão de documentos.
