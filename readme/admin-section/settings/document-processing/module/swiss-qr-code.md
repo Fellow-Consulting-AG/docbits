@@ -1,0 +1,1 @@
+# İsviçre QR Kodu

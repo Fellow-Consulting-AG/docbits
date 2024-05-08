@@ -1,0 +1,106 @@
+# SSO Yapılandırması
+
+## Ön Koşullar
+
+| Gerekli Bilgi                 | Açıklama                                                                                                                                         |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bulut Hesabı Giriş Bilgileri   | Infor Bulut ortamına erişim için kimlik bilgileri zorunludur. Kullanıcının "Infor-SystemAdministrator" ve "UserAdmin" rollerine sahip olması gerekir. |
+| Yapılandırma Yönetici Bilgileri (DocBits) | DocBits SSO Ayarlar sayfasına erişim için FellowPro AG'den e-posta ile giriş bilgilerini almış olmanız gerekir. Bir giriş ve şifre gerekecektir. |
+| Sertifika                      | Sertifikayı DocBits'ten SSO Hizmet Sağlayıcı Ayarları altında indirebilirsiniz                                                                      |
+
+## Buluta erişim sağlayın ve erişiminizi kontrol edin
+
+URL, https://mingle-portal.eu1.inforcloudsuite.com/\<TENANT\_NAME> ile başlar ve kişisel uzantınızla devam eder
+
+![](https://lh7-us.googleusercontent.com/bLBEM2KCtSiztzy3htdtA8hpnR9J616ecGXPVYZIn-r\_m1tHkLeC8SJZJobl8Hu-Xju4WR7BanVq6NClf9hvbp5qXpjLVHaO9thfmE6-2ITJrlIZzv6OyG93KVhmOsdt6xiEoNrfJO8PwUFRDBblMT4)
+
+Bulut Kimlikleri seçeneğini seçin ve giriş bilgilerinizi kullanın
+
+![](https://lh7-us.googleusercontent.com/aF9VyjY-cuTx5NZ9GdnyOQjZmegW9Hp5r7-8AY8SJb1Lj-\_saFTwju49KKqltxXt3ZevQ1Yr47MRQA0UdXkXeb2TnactKpxC5YV3eqkyZiYJVx-cVkolYfwuJElPEgiYMrRQSeSb5fALoUQehxQUh\_0)
+
+Giriş yaptıktan sonra Infor Bulut'a erişiminiz olacak. Bu durumda bu sayfaya giriyoruz, ancak burger menüde tüm uygulamalara erişim bulacaksınız.
+
+![](https://lh7-us.googleusercontent.com/rUfjNI7DIYDw\_sm-KWcGaU\_xGWRZesRkyoYB\_00gOe6OUVAeFXL4UvlKWdtuz771fElXi4fC9NWahRQVLGAxAL6alR5K8edHcOdpdxu-PPfGO7O9exx61NyL4KTqNrt2AofIcnkbWyjf2EGeytPKTdA)
+
+![](https://lh7-us.googleusercontent.com/low1Mq1NxL-Fzo72m-Wy8RPaooMuuQHBdA7rMFVcl7Ps\_G284L2Ze-BjEGy2bM7gcbeWBNeMm6yU8taNCUXgSzb9OcRWRFhQACzsg90XxmxhIfXanKz\_y8tqB4qv8I3W6HIj7SB84NzqK0IJ6UAcYbs)
+
+## Yeni Hizmet Sağlayıcı Ekleme için Kullanıcı Yönetimini Açın
+
+Sağ taraftaki çubuk menüsünde kullanıcı menüsünü bulacaksınız ve buradan kullanıcı yönetimine erişebilirsiniz
+
+![](https://lh7-us.googleusercontent.com/4SvG9pBCyZxBc-kUzwGarIdJkL4S-3bbFnxdfEQoAczOY7abTN72-MYDZ7TtIMqpvAkgsrpM\_Fz2sud5M84r8PrAXkEZHJuhIAAHCCpxqKwkmmfFVnCxiU-iLLBeAlEANp05j\_3kznyOGYqOgs1e1fo)
+
+Ardından, sol taraftaki menüde Güvenlik Yönetimi ve Hizmet Sağlayıcı seçeneğini seçmelisiniz.
+
+![](https://lh7-us.googleusercontent.com/F2dwiMbEqSF8XkZz5JvuOOOjs6MoxIqUAyj3gU6QasaGEUPuPiR\_ANQuJ6wrZjnl1LWNRh2aBBvLvXNp85yfpTjnJP6cLbNoEfcjTbbDyrGfEciYu39jXwcBral6Q70IKkIvzANbJN1WjIonpDzPZQ0)
+
+Hizmet Sağlayıcılar ile ilgili bu pencereyi göreceksiniz.
+
+![](https://lh7-us.googleusercontent.com/BBANp\_qDLF8qBKXErAc65893Ya954hqNzg2U8xK-oZCXiSqr\_pboGzuLLW7cCeDjjpCzJn1Zkzc5B4IAI-NOCA\_E5EVW47AWixVGRDUkJ4NGuqAAXYM2UDmIWgi2DggfPkE2CaX0Da7CPGBNrDbe9Yo)
+
+Şimdi "+" işaretine tıklayın ve DocBits'i Hizmet Sağlayıcı olarak ekleyin.&#x20;
+
+![](https://lh7-us.googleusercontent.com/Ksq7zDLEy0AZ3CfobBG8ua2QXsec10nJ3UAed-LXsziZs4VVzxdydmWzP4lBgIOkfQmiCSQo4Q-773wRbsGLyvk2UG4Mj34HeyiSyRAAET7Ojr8mJFZENfAszSViM-QPpcC3AIEFOQuKWYfN0-jOsHY)
+
+## DocBits'te SSO HİZMET SAĞLAYICI AYARLARINA Erişin
+
+* Bize tarafımızdan aldığınız giriş bilgileriyle URL https://app.docbits.com/ adresine giriş yapın.
+* AYARLAR'a (üst çubukta) gidin ve entegrasyonu seçin, SSO Hizmet Sağlayıcı Ayarları altında ihtiyacınız olan tüm bilgileri bulacaksınız.
+* Sertifikayı indirin
+
+![](https://lh7-us.googleusercontent.com/R9VSArrCuGWySeSTYBCLHXybVdvbx37TiviLKFvgNZVfaGXITpxoNkIY4JUMuaROZ1f9BYmqfhhq5YYdRbIz5aJaLGAt7oOxZ5m47MAzgUacP-STjdEHzcy1zjgq22YUh4UrqiTrzC969upxt1qDFxs)
+
+DocBits'te SSO Hizmet Sağlayıcı Ayarları ile Hizmet Sağlayıcıyı doldurma&#x20;
+
+![](https://lh7-us.googleusercontent.com/ATCza1efYWKWr7MfDZfa3WbK1r88L9U91fKs319lTh\_QZxyJEp5WLjjCuOqwqnA6Li-h3\_KmRzaxVujbhqTn4Xq6eHAaeAt3K5Whg4KuLPlgTHAuCU02YXaOqhPNBAWSERRwCCmuXQDknoTPosNlDgA)
+
+| Alan                       | Değer                                                                                      |
+| -------------------------- | ------------------------------------------------------------------------------------------ |
+| Uygulama Türü              | DEFAULT\_SAML                                                                              |
+| Görüntülenen Ad            | DocBits                                                                                    |
+| Varlık Kimliği             | SSO HİZMET AYARLARI altında Varlık Kimliği'ni görün                                      |
+| SSO Uç Noktası             | SSO HİZMET AYARLARI'ndan SSO URL'sini kopyalayın ve SSO Uç Noktası alanına yapıştırın    |
+| İmzalama Sertifikası       | Adım 3c) 'de indirdiğiniz uygun .cer dosyasını yükleyin                                  |
+| Ad Kimlik Biçimi ve Eşleme | e-posta adresi                                                                             |
+
+![](https://lh7-us.googleusercontent.com/YfEUu3X34cjKrPKTLybMvRn-6rKS5aSWGoJLria08yYFZYyidnnVQKRJgzVgudPVPk8k9xWwUpzQyGi2peHFxY8UsQvXV-2twH9G-8IiFSRfoCk5eQUnoplNrttNYNYKUDjs7ckFw0BVYpzGz26Htxs)
+
+* Her şeyi doldurduğunuzda, uygulama türünün üstündeki disk simgesi ile kaydetmeyi unutmayın
+* Hizmet sağlayıcı DocBits'e tekrar girin.
+* Kimlik Sağlayıcı Bilgilerini görüntülemek için altındaki Kimlik Sağlayıcı Bilgilerini görüntüle'ye tıklayın.
+
+![](https://lh7-us.googleusercontent.com/ajA6zmOcJCNOHJM\_2fUMaObnOGzTLmjUHhOm5QfR7inIfhavc0YywcyUHalVY22ay5rG\_JtcTbUVUX7ZIn7GOPecylljFLdhrQg-JzOZ3Vcav8FM0ZdjT82otfdNYMFyPT3W3ZZuXpKJ1gUcvyx70jU)
+![](https://lh7-us.googleusercontent.com/7VPP4izI8E5idcQOA3zRhCOCB5L9uZuylVcMhToiHUI3qk_fCE4n30D-ccYO3OAvAjIrrhJ-AApNMJ7tQO3DmtP3TS5n5r15YUgf_FzBCdL77a_wcAIE0zS2VjKLPB2iPaxOokPHk9G5NW86MV6sZUI)
+
+## SAML METADATA'YI Dışa Aktarın.
+
+Dosya şuna benzer: ServiceProviderSAMLMetadata_10_20_2021.xml
+
+SSO Ayarlarında SAML METADATA'yı içe aktarın.
+
+AYARLAR altında bulunan ENTAGRASYONLARın altında bulunan KİMLİK HİZMET SAĞLAYICI AYARLARI'na gidin. Kiracı Kimliği'nizi (örneğin FELLOWPRO_DEV) girin ve o satırın altında, önceden dışa aktardığınız SAML METADATA dosyasını yüklemeniz gereken Yükleme dosyası ve İÇE AKTAR düğmesini göreceksiniz.
+
+* İÇE AKTAR'a tıklayın ve daha önceden SSO HİZMET SAĞLAYICI AYARLARINDAN indirdiğiniz METADATA dosyasını seçin
+* YAPILANDIR'a tıklayın
+
+![](https://lh7-us.googleusercontent.com/7-v_YNgl_29WrK2lE62nEfIRQ3R5KVmOL_PeR8_ZxS8LNxHSVpHuKcNwDAmaSGTNepi0Izg64T3l3FY6XUSMZCVB-kyV3cbf0DtI-9GnspkrSibmRW3Dx2ESxZeyrkseRYRKdnmUn-GR4fmh8gUx_Rg)
+
+## INFOR Ming.le'de Yeni Uygulama Ekle
+
+Yönetici ayarlarına gidin
+
+![](https://lh7-us.googleusercontent.com/D5shQ6CN5YAbGM_0Gr6Hf7-nOlAkTXMyOSr1DntZv8NMSg-mxT5ckp2uIxpHkt4WRQGwCcpIBip9D4Q7_Z590oRQOlg36lu9Y_gq0VxHojNu8ma_3tvtYzrBlZVJJdrXPoib9cvizawCBxGaQlvZ4x8)
+
+Sağ üst köşede UYGULAMA EKLE'ye tıklayın
+
+![](https://lh7-us.googleusercontent.com/l1JjP7c7Y9Echd_xx9gEoG7zD-U9wLv-0DNpHtdycXco--1urpcmObRhW4mYngaS8U0OcSv3vA_wSvg3diSMmsC50BcSTbcMD47hsS7q3QwssdS7cY8rpNQHF7v_20_tBpZRuUhTLZ5bY6QnD53T0Lw)
+
+Kendi SSO Url'nizle birlikte aşağıdaki resimdeki gibi tüm alanları doldurun, bir simge seçmeyi unutmayın ve KAYDET'e tıklayın.
+
+![](https://lh7-us.googleusercontent.com/_ToZv0_KzrnCJtTprJU7FJirxGC9Vn7c632BaLbIQH8aSJCAeOaw6XxpJ3nzUKs4yI4MtEX5QxuLwf_ywjiAP_cEdVEV8fIueOGh10A46pBIEnK5cDu4PS-q2La8tbqOWQb3nkKPyfgfEYxRDlWf7bI)
+
+**Son Adım**
+
+* DocBits'ten çıkış yapın.
+* Infor'da burger menüsüne geri dönün ve oluşturduğunuz simgeyi seçin.
+* Ve DocBits'in Ana Paneline götürüleceksiniz.
