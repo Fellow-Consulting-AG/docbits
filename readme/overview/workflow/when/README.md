@@ -1,34 +1,35 @@
-# When
+# Kiedy
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 16.25.45.png" alt=""><figcaption></figcaption></figure>
 
-#### Understanding the "When" in Workflow Configurations
+#### Zrozumienie sekcji "Kiedy" w Konfiguracjach Przepływu Pracy
 
-**Purpose of "When"**
+**Cel sekcji "Kiedy"**
 
-* The "When" section in a workflow configuration defines the trigger conditions that initiate a particular workflow action. These conditions are based on specified criteria related to document attributes or user activities within the ERP system.
+* Sekcja "Kiedy" w konfiguracji przepływu pracy definiuje warunki wyzwalające określoną akcję w przepływie pracy. Warunki te opierają się na określonych kryteriach dotyczących atrybutów dokumentu lub aktywności użytkownika w systemie ERP.
 
-**How It Works**
+**Jak to działa**
 
-* In your interface, "When" appears to be a starting point where users can select different trigger cards. Each card specifies conditions under which subsequent actions (defined in another section of the workflow configuration, likely labeled "Action") will be executed.
+* W interfejsie "Kiedy" wydaje się być punktem wyjścia, w którym użytkownicy mogą wybrać różne karty wyzwalaczy. Każda karta określa warunki, na podstawie których następne akcje (zdefiniowane w innej sekcji konfiguracji przepływu pracy, najprawdopodobniej oznaczonej jako "Akcja") zostaną wykonane.
 
-**Document Type Condition Cards**
+**Karty Warunków Typu Dokumentu**
 
-* The cards displayed in the screenshot are variations of "Document Type" conditions, which are used to trigger workflows based on the type of document being processed. Here’s a breakdown of each type of condition card shown:
-  * **Document type (Operator) one of (Type)**: This card triggers an action when the type of a document matches one of the specified types in a list. The operator might include options like "is" or "is not," allowing for inclusive or exclusive conditions.
-  * **Document type (Operator) (Type)**: This simpler variant triggers based on a single document type condition. It would typically check if the document type "is" or "is not" a specific type, without the option to select from multiple types.
+* Karty wyświetlone na zrzucie ekranu są wariantami warunków "Typ Dokumentu", które służą do wyzwalania przepływów pracy na podstawie typu przetwarzanego dokumentu. Oto analiza każdej karty warunków typu:
 
-#### Setting Up a "When" Trigger Card
+* **Typ dokumentu (Operator) jeden z (Typ)**: Ta karta wyzwalająca akcję, gdy typ dokumentu pasuje do jednego z określonych typów na liście. Operator może zawierać opcje takie jak "jest" lub "nie jest", pozwalając na warunki włączające lub wyłączające.
+* **Typ dokumentu (Operator) (Typ)**: Ten prostszy wariant wyzwalacz działa na podstawie pojedynczego warunku typu dokumentu. Zazwyczaj sprawdza, czy typ dokumentu "jest" lub "nie jest" określonym typem, bez możliwości wyboru spośród wielu typów.
 
-1. **Selection of Condition Type**: Users begin by selecting a condition type that is relevant to the workflow they want to automate. In this case, document types are the focus.
-2. **Defining the Operator**: Users must decide the logical operator—such as "is" or "is not"—which sets the basis for comparing actual document types against the defined conditions.
-3. **Specifying Document Types**: Depending on the card, users may select one or multiple document types that will trigger the workflow when documents of those types are processed.
-4. **Finalizing the Trigger**: Once the condition is set up, it becomes the basis for triggering specific actions defined in the workflow. If a document meets the set condition, the defined actions will automatically be initiated.
+#### Konfiguracja Karty Wyzwalacza "Kiedy"
 
-#### Practical Application
+1. **Wybór Typu Warunku**: Użytkownicy rozpoczynają od wybrania typu warunku, który jest istotny dla przepływu pracy, który chcą zautomatyzować. W tym przypadku skupiamy się na typach dokumentów.
+2. **Określenie Operatora**: Użytkownicy muszą zdecydować o operatorze logicznym, takim jak "jest" lub "nie jest", który stanowi podstawę porównywania rzeczywistych typów dokumentów z zdefiniowanymi warunkami.
+3. **Określenie Typów Dokumentów**: W zależności od karty, użytkownicy mogą wybrać jeden lub wiele typów dokumentów, które wywołają przepływ pracy, gdy dokumenty tych typów zostaną przetworzone.
+4. **Finalizacja Wyzwalacza**: Po skonfigurowaniu warunku staje się on podstawą do wyzwalania określonych akcji zdefiniowanych w przepływie pracy. Jeśli dokument spełnia ustawiony warunek, zdefiniowane akcje zostaną automatycznie uruchomione.
 
-In practice, these trigger cards are crucial for automating processes like approvals, notifications, or any procedure that depends on the type of document being handled. For example, if a document type "is" an "Invoice," and it matches the conditions set in the "When" card, the workflow might automatically route the document for payment processing.
+#### Praktyczne Zastosowanie
 
-This setup ensures that workflows are not only efficient but also tailored to the specific operational needs of the organization, reducing manual oversight and speeding up document handling processes.
+W praktyce te karty wyzwalaczy są kluczowe do automatyzacji procesów, takich jak zatwierdzanie, powiadomienia lub dowolna procedura zależna od typu dokumentu. Na przykład, jeśli typ dokumentu "jest" "Fakturą" i spełnia warunki ustawione na karcie "Kiedy", przepływ pracy może automatycznie przekierować dokument do przetwarzania płatności.
 
-In summary, the "When" part of your workflow configuration is about setting the stage for automated actions based on specific, predefined conditions. It’s a powerful tool for ensuring that your ERP system reacts dynamically to the needs of the business, enhancing both productivity and accuracy in document management.
+Ta konfiguracja zapewnia, że przepływy pracy są nie tylko wydajne, ale także dostosowane do konkretnych potrzeb operacyjnych organizacji, zmniejszając ręczne nadzorowanie i przyspieszając procesy obsługi dokumentów.
+
+Podsumowując, część "Kiedy" w konfiguracji przepływu pracy służy do ustawiania sceny dla automatycznych działań na podstawie określonych, wstępnie zdefiniowanych warunków. Jest to potężne narzędzie zapewniające, że system ERP reaguje dynamicznie na potrzeby biznesu, poprawiając zarówno produktywność, jak i dokładność zarządzania dokumentami.
