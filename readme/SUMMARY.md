@@ -127,6 +127,7 @@
       * [M3](admin-section/setup/importing-customer-master-data/m3/README.md)
         * [Auto Accounting](admin-section/setup/importing-customer-master-data/m3/auto-accounting.md)
         * [Suppliers and Purchase Orders](admin-section/setup/importing-customer-master-data/m3/suppliers-and-purchase-orders.md)
+        * [How to import all suppliers](admin-section/setup/importing-customer-master-data/m3/how-to-import-all-suppliers.md)
     * [Exporting in DocBits](admin-section/setup/exporting-in-docbits/README.md)
       * [Export Module](admin-section/setup/exporting-in-docbits/export-module.md)
       * [Exporting to INFOR](admin-section/setup/exporting-in-docbits/exporting-to-infor/README.md)
