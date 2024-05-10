@@ -6,19 +6,21 @@ Bu belge, ERP platformunuz içinde Satın Alma Sipariş Eşleme sisteminin nası
 
 ## Başlarken
 
-PO Eşleme sistemi kullanmaya başlamak için, sistem yöneticiniz tarafından gerekli izinlerin ayarlandığından emin olun. Sistemin içinde hem satın alma siparişi verilerine hem de ilgili fatura verilerine erişiminizin olması gerekecektir.
+PO Eşleme sistemi kullanmaya başlamak için, sistem yöneticiniz tarafından gerekli izinlerin yapılandırıldığından emin olun. Sistemin içinde hem satın alma siparişi verilerine hem de ilgili fatura verilerine erişiminiz olması gerekecektir.
 
 ## Sistem Gereksinimleri
 
 * ERP sistemi içinde satın alma siparişi ve fatura modüllerine erişim.
 * Finansal belgeleri görüntüleme ve eşleme için uygun kullanıcı izinleri.
 
+<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 23.08.00.png" alt=""><figcaption></figcaption></figure>
+
 ## Ana Özellikler
 
 * **Otomatik Veri Çıkarma:** Dijital faturalardan verileri otomatik olarak çıkarır ve yorumlar.
 * **Veri Karşılaştırma:** Çıkarılan fatura verilerini mevcut satın alma siparişi verileriyle karşılaştırır.
-* **Eşleme Doğrulama:** Önceden tanımlanmış kurallar ve toleranslara göre eşleştirmeleri doğrular.
-* **Uyuşmazlık Raporlama:** Faturalar ile satın alma siparişleri arasındaki herhangi bir uyuşmazlığı tanımlar ve raporlar.
+* **Eşleme Doğrulaması:** Önceden tanımlanmış kurallar ve toleranslara göre eşleştirmeleri doğrular.
+* **Uyuşmazlık Raporlama:** Faturalar ile satın alma siparişleri arasındaki herhangi bir uyuşmazlığı belirler ve raporlar.
 * **Denetim İzlemesi:** Uyumluluk ve gözden geçirme için tüm işlemlerin bir günlüğünü tutar.
 
 ## Kullanıcı Arayüzü
@@ -31,7 +33,7 @@ PO Eşleme sistemi arayüzü genellikle aşağıdaki bileşenleri içerir:
 * **Uyuşmazlıklar:** İncelenmesi veya işlem yapılması gereken uyuşmazlıkları gösteren bölüm.
 * **Raporlar:** Detaylı raporlara ve dışa aktarma seçeneklerine erişim.
 
-### PO Eşleme Kullanımına Adım Adım Kılavuzu
+### PO Eşleme Kullanımına Adım Adım Kılavuz
 
 #### 1. PO Eşleme Modülüne Erişim
 
@@ -39,15 +41,15 @@ ERP sisteminizin ana menüsünden PO Eşleme modülüne gidin.
 
 #### 2. Faturaları İçe Aktarın veya Erişin
 
-* **Otomatik İçe Aktarım:** Sisteminiz otomatik veri yakalama için ayarlandıysa, faturalar otomatik olarak sisteme aktarılacaktır.
-* **Manüel Yükleme:** Gerekirse, sağlanan arayüzü kullanarak fatura dosyalarını manuel olarak sisteme yükleyin.
+* **Otomatik İçe Aktarım:** Sisteminiz otomatik veri yakalama için yapılandırılmışsa, faturalar otomatik olarak sisteme aktarılacaktır.
+* **Manüel Yükleme:** Gerekirse, fatura dosyalarını sağlanan arayüzü kullanarak manuel olarak sisteme yükleyin.
 
-#### 3. Otomatik Olarak Eşleşen Faturaları İnceleyin
+#### 3. Otomatik Eşleşen Faturaları İnceleyin
 
-* Otomatik olarak satın alma siparişleri ile eşleşen faturaları inceleyin.
+* Otomatik olarak eşleşen satın alma siparişleriyle faturaları inceleyin.
 * Eşleşmenin detaylarını, öğe numaralarını, miktarları ve fiyatları doğrulayın.
 
-#### 4. Uyuşmazlıkları İşleyin
+#### 4. Uyuşmazlıkları Ele Alın
 
 * Otomatik olarak eşleşmeyen faturaları incelemek için Uyuşmazlıklar bölümüne erişin.
 * Gerekirse miktarları veya fiyatları manuel olarak ayarlayın veya faturayı daha fazla inceleme için işaretleyin.
