@@ -2,21 +2,23 @@
 
 ## Introdução
 
-Este documento fornece um guia abrangente sobre como usar o sistema de Correspondência de Ordem de Compra dentro da sua plataforma ERP. O sistema de Correspondência de OC automatiza a reconciliação de ordens de compra com faturas recebidas, garantindo que as transações financeiras sejam precisas e que as discrepâncias sejam tratadas prontamente.
+Este documento fornece um guia abrangente sobre como usar o sistema de Correspondência de Ordem de Compra dentro da sua plataforma ERP. O sistema de Correspondência de OC automatiza a reconciliação de ordens de compra com faturas recebidas, garantindo que as transações financeiras sejam precisas e que discrepâncias sejam tratadas prontamente.
 
 ## Começando
 
-Para começar a usar o sistema de Correspondência de OC, certifique-se de que possui as permissões necessárias configuradas pelo seu administrador do sistema. Você precisará de acesso aos dados da ordem de compra e aos dados da fatura correspondente dentro do sistema.
+Para começar a usar o sistema de Correspondência de OC, certifique-se de que as permissões necessárias foram configuradas pelo seu administrador de sistema. Você precisará de acesso aos dados de ordens de compra e aos dados de faturas correspondentes dentro do sistema.
 
 ## Requisitos do Sistema
 
 * Acesso aos módulos de ordem de compra e fatura dentro do sistema ERP.
 * Permissões de usuário apropriadas para visualizar e corresponder documentos financeiros.
 
-## Recursos Principais
+<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 23.08.00.png" alt=""><figcaption></figcaption></figure>
+
+## Principais Recursos
 
 * **Extração Automática de Dados:** Extrai e interpreta automaticamente dados de faturas digitais.
-* **Comparação de Dados:** Compara os dados da fatura extraídos com os dados da ordem de compra existentes.
+* **Comparação de Dados:** Compara os dados da fatura extraídos com os dados existentes da ordem de compra.
 * **Verificação de Correspondência:** Verifica correspondências com base em regras e tolerâncias predefinidas.
 * **Relatório de Discrepâncias:** Identifica e relata quaisquer discrepâncias entre faturas e ordens de compra.
 * **Trilha de Auditoria:** Mantém um registro de todas as ações para conformidade e revisão.
