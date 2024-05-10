@@ -1,4 +1,6 @@
-# Page
+# Validation Screen
+
+## Overview
 
 <div data-full-width="false">
 
@@ -6,33 +8,39 @@
 
 </div>
 
-**Save Button:**
+## **Save Button:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (2).png" alt=""><figcaption></figcaption></figure>
 
-**Add special Rules:**
+### **Add special Rules:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.41.01.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.42.13.png" alt=""><figcaption></figcaption></figure>
 
-**Fuzzy Fields:**
+
+
+{% hint style="info" %}
+See here add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
+{% endhint %}
+
+### **Fuzzy Fields:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
 
-**Magnify Glass:**
+### **Magnify Glass:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
 
-**Open new window:**
+### **Open new window:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.26.png" alt="" width="130"><figcaption></figcaption></figure>
 
-**Keyboard shortcuts:**
+### **Keyboard shortcuts:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.42.png" alt="" width="145"><figcaption></figcaption></figure>
 
-**Tasks:**
+### **Tasks:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.00.png" alt="" width="55"><figcaption></figcaption></figure>
 
@@ -40,7 +48,7 @@ To share internal information, you can create tasks and assign them to a specifi
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.21.27.png" alt="" width="218"><figcaption></figcaption></figure>
 
-**Annotation mode:**
+### **Annotation mode:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.21.png" alt="" width="187"><figcaption></figcaption></figure>
 
@@ -50,7 +58,7 @@ You can leave annotations on a document. This can be helpful to leave informatio
 
 
 
-**Merge:**
+### **Merge:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
 
@@ -58,7 +66,7 @@ Documents can be merged here, for example if a page of an invoice was missing, t
 
 
 
-**OCR view:**
+### **OCR view:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.00.png" alt="" width="77"><figcaption></figcaption></figure>
 
@@ -66,7 +74,7 @@ In the OCR view, the text is automatically filtered from the document. This is u
 
 
 
-**Create ticket:**
+### **Create ticket:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
 
@@ -74,7 +82,7 @@ Unlike tasks that are passed on internally within the company, this support tick
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
 
-**Document skript Logs:**
+### **Document skript Logs:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
 
@@ -84,29 +92,29 @@ Scripts can be created in the settings under Document Types; this information wi
 
 
 
-**More settings:**
+### **More settings:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.04.13.png" alt="" width="239"><figcaption></figcaption></figure>
 
-**Split document:**
+### **Split document:**
 
 * Here you can split the document and cut or delete pages that are not needed
 
-**Improve document:**
+### **Improve document:**
 
 * The document will be restarted
 
-**Document Flow:**
+### **Document Flow:**
 
 * There you will find the flow of the document
 
-**Go to layout Template:**
+### **Go to layout Template:**
 
 * With this option you will be redirected and can edit your layout or use the default template
 
 
 
-**Required fields:**
+### **Required fields:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
 
@@ -121,7 +129,7 @@ Use the tool tip to find out if:&#x20;
 
 
 
-**Go table extraction view:**
+### **Go table extraction view:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.37.png" alt=""><figcaption></figcaption></figure>
 
@@ -129,7 +137,7 @@ Here you come to the table extraction view and have further options to continue.
 
 
 
-**Add non mapped columns:**
+### **Add non mapped columns:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.49.png" alt=""><figcaption></figcaption></figure>
 
@@ -137,23 +145,23 @@ To add unassigned columns click here and select columns you want in the table or
 
 <figure><img src="../.gitbook/assets/image (37).png" alt="" width="375"><figcaption></figcaption></figure>
 
-**Show non mapped columns / Hide non mapped columns:**
+### **Show non mapped columns / Hide non mapped columns:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.58.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-**Block table extraction for this supplier:**
+### **Block table extraction for this supplier:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.06.png" alt=""><figcaption></figcaption></figure>
 
-**Delete table:**
+### **Delete table:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.14.png" alt=""><figcaption></figcaption></figure>
 
 
 
-**Add new table column:**
+### **Add new table column:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.21.png" alt=""><figcaption></figcaption></figure>
 
@@ -163,10 +171,10 @@ If a column is missing, you can create a new column here. Specify the title, dec
 
 
 
-**Ignore table validation:**
+### **Ignore table validation:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.29.png" alt=""><figcaption></figcaption></figure>
 
-**Restore table column:**
+### **Restore table column:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.37.png" alt=""><figcaption></figcaption></figure>
