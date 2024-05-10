@@ -6,14 +6,12 @@ Este documento fornece um guia abrangente sobre como usar o sistema de Correspon
 
 ## Começando
 
-Para começar a usar o sistema de Correspondência de OC, certifique-se de que as permissões necessárias foram configuradas pelo seu administrador de sistema. Você precisará de acesso aos dados de ordens de compra e aos dados de faturas correspondentes dentro do sistema.
+Para começar a usar o sistema de Correspondência de OC, certifique-se de que possui as permissões necessárias configuradas pelo seu administrador de sistema. Você precisará de acesso aos dados de ordens de compra e às faturas correspondentes dentro do sistema.
 
 ## Requisitos do Sistema
 
 * Acesso aos módulos de ordem de compra e fatura dentro do sistema ERP.
-* Permissões de usuário apropriadas para visualizar e corresponder documentos financeiros.
-
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 23.08.00.png" alt=""><figcaption></figcaption></figure>
+* Permissões de usuário apropriadas para visualização e correspondência de documentos financeiros.
 
 ## Principais Recursos
 
@@ -23,13 +21,15 @@ Para começar a usar o sistema de Correspondência de OC, certifique-se de que a
 * **Relatório de Discrepâncias:** Identifica e relata quaisquer discrepâncias entre faturas e ordens de compra.
 * **Trilha de Auditoria:** Mantém um registro de todas as ações para conformidade e revisão.
 
+<figure><img src="../../.gitbook/assets/PO1.png" alt=""><figcaption></figcaption></figure>
+
 ## Interface do Usuário
 
 A interface do sistema de Correspondência de OC geralmente inclui os seguintes componentes:
 
-* **Painel:** Visão geral do status de correspondência e atividades recentes.
+* **Painel:** Visão geral do status de correspondência e atividade recente.
 * **Ferramentas de Busca e Filtro:** Capacidades para buscar e filtrar ordens de compra e faturas.
-* **Registros Correspondidos:** Seção exibindo registros correspondidos com sucesso.
+* **Registros Correspondentes:** Seção exibindo registros correspondentes com sucesso.
 * **Discrepâncias:** Seção mostrando registros com discrepâncias que precisam de revisão ou ação.
 * **Relatórios:** Acesso a relatórios detalhados e opções de exportação.
 
@@ -44,9 +44,9 @@ Navegue até o módulo de Correspondência de OC no menu principal do seu sistem
 * **Importação Automática:** Se o seu sistema estiver configurado para captura automática de dados, as faturas serão importadas automaticamente para o sistema.
 * **Upload Manual:** Se necessário, faça o upload manual de arquivos de fatura no sistema usando a interface fornecida.
 
-#### 3. Revise Faturas Correspondidas Automaticamente
+#### 3. Revise Faturas Correspondentes Automaticamente
 
-* Revise as faturas que foram correspondidas automaticamente com as ordens de compra.
+* Revise as faturas que foram correspondidas automaticamente com ordens de compra.
 * Verifique os detalhes da correspondência, incluindo números de item, quantidades e preços.
 
 #### 4. Lidar com Discrepâncias
