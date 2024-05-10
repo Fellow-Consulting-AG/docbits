@@ -13,6 +13,8 @@ Para comenzar a utilizar el sistema de Coincidencia de Órdenes de Compra, aseg�
 * Acceso a los módulos de órdenes de compra y facturas dentro del sistema ERP.
 * Permisos de usuario adecuados para ver y coincidir documentos financieros.
 
+<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 23.08.00.png" alt=""><figcaption></figcaption></figure>
+
 ## Funciones Clave
 
 * **Extracción Automática de Datos:** Extrae e interpreta automáticamente datos de facturas digitales.
@@ -49,7 +51,7 @@ Navegue al módulo de Coincidencia de Órdenes de Compra desde el menú principa
 
 #### 4. Manejar Discrepancias
 
-* Acceda a la sección de Discrepancias para revisar las facturas que no pudieron coincidirse automáticamente.
+* Acceda a la sección de Discrepancias para revisar las facturas que no pudieron coincidir automáticamente.
 * Ajuste manualmente las cantidades o precios según sea necesario, o marque la factura para una revisión adicional.
 
 #### 5. Coincidencia Manual
