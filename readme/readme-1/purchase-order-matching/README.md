@@ -10,25 +10,25 @@ Aby zacząć korzystać z systemu dopasowywania zamówień zakupu, upewnij się,
 
 ## Wymagania systemowe
 
-* Dostęp do modułów zamówień zakupu i faktur w ramach systemu ERP.
+* Dostęp do modułów zamówień zakupu i faktur w systemie ERP.
 * Odpowiednie uprawnienia użytkownika do przeglądania i dopasowywania dokumentów finansowych.
-
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 23.08.00.png" alt=""><figcaption></figcaption></figure>
 
 ## Główne funkcje
 
 * **Automatyczne wyodrębnianie danych:** Automatycznie wyodrębnia i interpretuje dane z cyfrowych faktur.
 * **Porównywanie danych:** Porównuje wyodrębnione dane z faktur z istniejącymi danymi zamówień zakupu.
-* **Weryfikacja dopasowania:** Weryfikuje dopasowania na podstawie zdefiniowanych reguł i tolerancji.
+* **Weryfikacja dopasowania:** Weryfikuje dopasowania na podstawie z góry określonych reguł i tolerancji.
 * **Raportowanie niezgodności:** Identyfikuje i raportuje wszelkie niezgodności między fakturami a zamówieniami zakupu.
 * **Ślad audytowy:** Utrzymuje rejestr wszystkich działań w celu zapewnienia zgodności i przeglądu.
 
+<figure><img src="../../.gitbook/assets/PO1.png" alt=""><figcaption></figcaption></figure>
+
 ## Interfejs użytkownika
 
-Interfejs systemu dopasowywania zamówień zakupu zazwyczaj obejmuje następujące elementy:
+Interfejs systemu dopasowywania zamówień zakupu zazwyczaj zawiera następujące komponenty:
 
 * **Pulpit nawigacyjny:** Przegląd statusu dopasowania i ostatnich działań.
-* **Narzędzia wyszukiwania i filtrowania:** Możliwości wyszukiwania i filtrowania zamówień zakupu i faktur.
+* **Narzędzia wyszukiwania i filtrowania:** Możliwość wyszukiwania i filtrowania zamówień zakupu i faktur.
 * **Dopasowane rekordy:** Sekcja wyświetlająca pomyślnie dopasowane rekordy.
 * **Niezgodności:** Sekcja pokazująca rekordy z niezgodnościami wymagającymi przeglądu lub działania.
 * **Raporty:** Dostęp do szczegółowych raportów i opcji eksportu.
@@ -42,7 +42,7 @@ Przejdź do modułu dopasowywania zamówień zakupu z głównego menu systemu ER
 #### 2. Importuj lub uzyskaj dostęp do faktur
 
 * **Import automatyczny:** Jeśli twój system jest skonfigurowany do automatycznego przechwytywania danych, faktury zostaną automatycznie zaimportowane do systemu.
-* **Ręczne przesłanie:** W razie potrzeby ręcznie przesłać pliki faktur do systemu za pomocą dostarczonego interfejsu.
+* **Ręczne przesłanie:** W razie potrzeby ręcznie załaduj pliki faktur do systemu za pomocą dostarczonego interfejsu.
 
 #### 3. Przeglądaj automatycznie dopasowane faktury
 
