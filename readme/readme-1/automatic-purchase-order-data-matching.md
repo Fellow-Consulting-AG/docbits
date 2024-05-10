@@ -4,13 +4,13 @@ Docbits to zaawansowany system zaprojektowany do automatyzacji dopasowywania dan
 
 ## **Podstawowe Zasady Automatycznego Dopasowywania w Docbits**
 
-**Ekstrakcja Danych:** Docbits rozpoczyna proces poprzez ekstrakcję istotnych danych z zedytowanych dokumentów faktur. Zazwyczaj dane te obejmują numery pozycji, ilości i ceny jednostkowe każdej linii faktury. Precyzja tej ekstrakcji jest kluczowa, ponieważ stanowi podstawę dla następnego procesu dopasowywania.
+**Ekstrakcja Danych:** Docbits rozpoczyna proces poprzez wyodrębnienie istotnych danych z zedytowanych dokumentów faktur. Zazwyczaj dane te obejmują numery pozycji, ilości i ceny jednostkowe każdej pozycji faktury. Precyzja tej ekstrakcji jest kluczowa, ponieważ stanowi podstawę dla kolejnego procesu dopasowywania.
 
-**Porównanie z Danymi PO:** Wyekstrahowane dane są porównywane z odpowiadającymi informacjami w przechowywanych zamówieniach zakupu. Docbits sprawdza, czy numery pozycji, ilości i ceny odpowiadają tym w POs. Dla udanego dopasowania dane na fakturach muszą odpowiadać danym w zamówieniach zakupu, biorąc pod uwagę zdefiniowane progi tolerancji.
+**Porównanie z Danymi PO:** Wyodrębnione dane są porównywane z odpowiadającymi informacjami w przechowywanych zamówieniach zakupu. Docbits sprawdza, czy numery pozycji, ilości i ceny odpowiadają tym w POs. Dla udanego dopasowania dane na fakturach muszą odpowiadać danym w zamówieniach zakupu, biorąc pod uwagę zdefiniowane progi tolerancji.
 
 **Automatyczne Dopasowywanie:** Na podstawie wyników porównania Docbits wykonuje dopasowanie. System weryfikuje, czy kryteria dopasowania mieszczą się w ustalonych limitach tolerancji. Jeśli te kryteria są spełnione, dopasowanie jest uważane za udane.
 
-**Raportowanie:** Po zakończeniu procesu dopasowywania, Docbits generuje raporty, które pokazują stan dopasowań. Te raporty informują o fakturach, które zostały pomyślnie dopasowane i identyfikują te z niezgodnościami.
+**Raportowanie:** Po zakończeniu procesu dopasowywania, Docbits generuje raporty, które pokazują stan dopasowań. Te raporty informują o udanych dopasowaniach faktur i identyfikują te z niezgodnościami.
 
 ## **Definicja Zasad Dopasowywania**
 
