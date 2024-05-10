@@ -14,7 +14,7 @@
 
 * **Przycisk Zapisz:**
 * **Cel:** Zapisuje bieżący stan dokumentu lub skryptu, nad którym się pracuje.
-* **Przypadek użycia:** Po wprowadzeniu zmian lub adnotacji do dokumentu użyj tego przycisku, aby zapewnić zapisanie wszystkich modyfikacji.
+* **Przypadek użycia:** Po wprowadzeniu zmian lub adnotacji w dokumencie, użyj tego przycisku, aby zapewnić zapisanie wszystkich modyfikacji.
 
 ### **Dodaj specjalne reguły:**
 
@@ -24,7 +24,7 @@
 
 * **Dodaj specjalne reguły / Dodaj skrypt w DocBits:**
 * **Cel:** Umożliwia użytkownikom implementację konkretnych reguł lub skryptów dostosowujących sposób przetwarzania dokumentów.
-* **Przypadek użycia:** Użyj tej funkcji do automatyzacji zadań, takich jak ekstrakcja danych czy walidacja formatu, zwiększając efektywność pracy.
+* **Przypadek użycia:** Użyj tej funkcji do automatyzacji zadań, takich jak ekstrakcja danych lub walidacja formatu, zwiększając efektywność pracy.
 
 {% hint style="info" %}
 Zobacz tutaj dodaj[ Skrypt w DocBits](../admin-section/setup/scripting-in-docbits/)
@@ -36,14 +36,14 @@ Zobacz tutaj dodaj[ Skrypt w DocBits](../admin-section/setup/scripting-in-docbit
 
 *   **Pola rozmyte:**
 
-* **Cel:** Pomaga zidentyfikować i poprawić pola, w których dane mogą nie być idealnym dopasowaniem, ale są wystarczająco bliskie.
+* **Cel:** Pomaga zidentyfikować i poprawić pola, w których dane mogą nie być idealnie dopasowane, ale są wystarczająco bliskie.
 * **Przypadek użycia:** Przydatne w procesach walidacji danych, gdzie dokładne dopasowania nie zawsze są możliwe, na przykład w przypadku lekko błędnie napisanych nazw czy adresów.
 
 ### **Lupa:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
 
-* **Lupa (Lupa powiększająca):**
+* **Lupa (Powiększ lupa):**
 * **Cel:** Zapewnia powiększone widoki wybranego obszaru dokumentu.
 * **Przypadek użycia:** Pomaga w badaniu drobnych szczegółów lub małego tekstu w dokumentach, zapewniając dokładność wprowadzanych danych lub ich przegląd.
 
@@ -63,7 +63,7 @@ Zobacz tutaj dodaj[ Skrypt w DocBits](../admin-section/setup/scripting-in-docbit
 
 1. **Skróty klawiszowe:**
 * **Cel:** Umożliwia użytkownikom szybkie wykonywanie działań za pomocą kombinacji klawiszy.
-* **Przypadek użycia:** Zwiększa szybkość i efektywność nawigacji po dokumencie oraz jego przetwarzania, minimalizując poleganie na nawigacji za pomocą myszy.
+* **Przypadek użycia:** Zwiększa szybkość i efektywność nawigacji po dokumencie oraz przetwarzania, minimalizując poleganie na nawigacji za pomocą myszy.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption></figcaption></figure>
 
@@ -109,7 +109,7 @@ W widoku OCR tekst jest automatycznie filtrowany z dokumentu. Służy to do rozp
 
 * **Widok OCR:**
 * **Cel:** Automatycznie rozpoznaje tekst w dokumentach za pomocą technologii rozpoznawania znaków optycznych.
-* **Przypadek użycia:** Ułatwia proces cyfryzacji tekstów drukowanych lub pisanych ręcznie, umożliwiając ich wyszukiwanie i edycję.
+* **Przypadek użycia:** Ułatwia proces cyfryzacji tekstów drukowanych lub pisanych, umożliwiając ich wyszukiwanie i edycję.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption></figcaption></figure>
 
@@ -128,7 +128,11 @@ W przeciwieństwie do zadań, które są przekazywane wewnętrznie w firmie, to 
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
 
-Skrypty można tworzyć w ustawieniach w sekcji Typy dokumentów; informacje te będą następnie wyświetlane tutaj.
+Skrypty można tworzyć w ustawieniach w sekcji Typy dokumentów; informacje te będą wyświetlane tutaj.
+
+* **Dzienniki skryptów dokumentów:**
+* **Cel:** Wyświetla dzienniki związane ze skryptami zaimplementowanymi dla różnych typów dokumentów.
+* **Przypadek użycia:** Przydatne do śledzenia i debugowania działań skryptów na dokumentach, pomagając użytkownikom zrozumieć zautomatyzowane procesy i poprawić ewentualne problemy.
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
@@ -141,26 +145,36 @@ Skrypty można tworzyć w ustawieniach w sekcji Typy dokumentów; informacje te 
 ### **Podziel dokument:**
 
 * Tutaj możesz podzielić dokument i wyciąć lub usunąć niepotrzebne strony
+* **Podziel dokument:**
+* **Cel:** Umożliwia użytkownikom podzielenie dokumentu na osobne części, usuwając lub izolując strony, które nie są potrzebne.
+* **Przypadek użycia:** Idealne przy pracy z dokumentami wielostronicowymi, gdzie wymagane są tylko określone sekcje do przetwarzania lub przeglądu.
 
-### **Ulepsz dokument:**
+### **Popraw dokument:**
 
 * Dokument zostanie zrestartowany
+* **Popraw dokument:**
+* **Cel:** Przywraca dokument do stanu początkowego w celu ponownej oceny lub dalszych modyfikacji.
+* **Przypadek użycia:** Przydatne, gdy początkowe modyfikacje trzeba cofnąć lub gdy dokument trzeba odświeżyć przed kolejną rundą edycji. Tutaj potrzebujemy dodatkowej wizji ML do poprawy jakości dokumentu.&#x20;
 
 ### **Przepływ dokumentu:**
 
-* Tutaj znajdziesz przepływ dokumentu
+Tutaj znajdziesz przepływ dokumentu
+
+* **Cel:** Pokazuje sekwencję i postęp przetwarzania dokumentu w systemie.
+* **Przypadek użycia:** Pomaga w śledzeniu statusu dokumentu przez różne etapy, zapewniając, że wszystkie niezbędne kroki przetwarzania są realizowane.
 
 ### **Przejdź do szablonu układu:**
 
 * Dzięki tej opcji zostaniesz przekierowany i będziesz mógł edytować swój układ lub użyć domyślnego szablonu
-
-
+* **Przejdź do szablonu układu:**
+* **Cel:** Przekierowuje użytkowników do edytora układu, gdzie mogą modyfikować istniejące szablony lub zastosować domyślny.
+* **Przypadek użycia:** Umożliwia dostosowanie układów dokumentów do konkretnych potrzeb biznesowych lub preferencji, poprawiając wizualne i funkcjonalne dopasowanie dokumentu do standardów firmy.
 
 ### **Wymagane pola:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
 
-Istnieją pola wymagane do dalszej edycji, które można edytować w ustawieniach.
+Istnieją pola, które są wymagane do dalszej edycji, można je edytować w ustawieniach.
 
 Użyj podpowiedzi, aby dowiedzieć się, czy:&#x20;
 
@@ -168,28 +182,35 @@ Użyj podpowiedzi, aby dowiedzieć się, czy:&#x20;
 * Wymagana walidacja&#x20;
 * Niska pewność
 * Brak dopasowania pełnej kwoty podatku
-
-
+* **Wymagane pola:**
+* **Cel:** Identyfikuje obowiązkowe pola w dokumentach, które muszą zostać wypełnione lub poprawione przed dalszym przetwarzaniem.
+* **Przypadek użycia:** Zapewnia, że istotne dane są przechwytywane dokładnie, zachowując integralność danych i zgodność z zasadami biznesowymi.
 
 ### **Przejdź do widoku ekstrakcji tabeli:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.37.png" alt=""><figcaption></figcaption></figure>
 
-Tutaj znajdziesz widok ekstrakcji tabeli i będziesz miał dalsze opcje kontynuacji. Na przykład, w trybie szkolenia, ucząc się tabeli.
+Tutaj znajdziesz widok ekstrakcji tabeli i dodatkowe opcje kontynuacji. Na przykład, w trybie szkolenia, ucząc się tabeli.
 
-
+* **Przejdź do widoku ekstrakcji tabeli:**
+* **Cel:** Nawiguje do interfejsu, w którym użytkownicy mogą ekstrahować i manipulować danymi tabelarycznymi z dokumentów.
+* **Przypadek użycia:** Przydatne dla złożonych dokumentów zawierających tabele, umożliwiające precyzyjną ekstrakcję danych i naukę w celu poprawy rozpoznawania w czasie.
 
 ### **Dodaj nieprzypisane kolumny:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.49.png" alt=""><figcaption></figcaption></figure>
 
-Aby dodać nieprzypisane kolumny, kliknij tutaj i wybierz kolumny, które chcesz umieścić w tabeli lub usuń te, których nie potrzebujesz.
+Aby dodać nieprzypisane kolumny, kliknij tutaj i wybierz kolumny, które chcesz w tabeli lub usuń te, których nie potrzebujesz.
 
 <figure><img src="../.gitbook/assets/image (37).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### **Pokaż nieprzypisane kolumny / Ukryj nieprzypisane kolumny:**
+### **Pokaż/nie pokazuj nieprzypisanych kolumn:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.58.png" alt=""><figcaption></figcaption></figure>
+
+* **Pokaż/Nie pokazuj nieprzypisanych kolumn:**
+* **Cel:** Przełącza widoczność kolumn w tabeli, które nie są automatycznie przypisane do znanych pól.
+* **Przypadek użycia:** Umożliwia użytkownikom skupienie się na istotnych danych poprzez ukrywanie zbędnych kolumn lub ich przeglądanie pod kątem ewentualnego uwzględnienia.
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
@@ -197,11 +218,17 @@ Aby dodać nieprzypisane kolumny, kliknij tutaj i wybierz kolumny, które chcesz
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.06.png" alt=""><figcaption></figcaption></figure>
 
+* **Zablokuj ekstrakcję tabeli dla tego dostawcy:**
+* **Cel:** Zapobiega procesom ekstrakcji tabel dla dokumentów od konkretnych dostawców.
+* **Przypadek użycia:** Przydatne w sytuacjach, gdy dokumenty dostawców systematycznie nie są poprawnie ekstrahowane lub nie wymagają ekstrakcji.
+
 ### **Usuń tabelę:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.14.png" alt=""><figcaption></figcaption></figure>
 
-
+* **Usuń tabelę:**
+* **Cel:** Usuwa całą tabelę z dokumentu.
+* **Przypadek użycia:** Przydatne, gdy tabela została błędnie dołączona lub nie jest już potrzebna dla celów dokumentu.
 
 ### **Dodaj nową kolumnę tabeli:**
 
@@ -209,7 +236,11 @@ Aby dodać nieprzypisane kolumny, kliknij tutaj i wybierz kolumny, które chcesz
 
 <figure><img src="../.gitbook/assets/image (36).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Jeśli brakuje kolumny, możesz tutaj utworzyć nową kolumnę. Określ tytuł, zdecyduj, czy powinno to być pole wymagane, oraz typ kolumny (to jest ważne dla poprawnego formatu)
+Jeśli brakuje kolumny, możesz utworzyć tutaj nową kolumnę. Określ tytuł, zdecyduj, czy powinno to być pole wymagane, oraz typ kolumny (to jest ważne dla poprawnego formatu)
+
+* **Dodaj nową kolumnę tabeli:**
+* **Cel:** Tworzy nową kolumnę w istniejącej tabeli, z określeniem tytułu, konieczności i typu.
+* **Przypadek użycia:** Zwiększa elastyczność i dokładność przechwytywania danych, umożliwiając tworzenie niestandardowych kolumn dostosowanych do konkretnych wymagań dotyczących danych.
 
 
 
@@ -217,6 +248,14 @@ Jeśli brakuje kolumny, możesz tutaj utworzyć nową kolumnę. Określ tytuł, 
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.29.png" alt=""><figcaption></figcaption></figure>
 
+* **Ignoruj walidację tabeli:**
+* **Cel:** Umożliwia użytkownikom pominięcie reguł walidacji dla konkretnych tabel.
+* **Przypadek użycia:** Przydatne, gdy znane anomalie w danych nie wpływają na ogólne przetwarzanie i naleganie na walidację utrudniałoby pracę.
+
 ### **Przywróć kolumnę tabeli:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.37.png" alt=""><figcaption></figcaption></figure>
+
+* **Przywróć kolumnę tabeli:**
+* **Cel:** Przywraca wcześniej usuniętą lub zmienioną kolumnę w tabeli.
+* **Przypadek użycia:** Pomocne przy odzyskiwaniu danych, które zostały błędnie usunięte lub zmienione, zapewniając kompletność danych.
