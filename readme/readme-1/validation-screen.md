@@ -14,7 +14,7 @@
 
 * **Dugme Sačuvaj:**
 * **Svrha:** Čuva trenutno stanje dokumenta ili skripte na kojoj se radi.
-* **Upotreba:** Nakon izmene ili dodavanja napomena u dokument, koristite ovo dugme da biste osigurali da su sve izmene sačuvane.
+* **Upotreba:** Nakon izvršenih promena ili anotacija na dokumentu, koristite ovo dugme da biste osigurali da su sve modifikacije sačuvane.
 
 ### **Dodaj specijalna pravila:**
 
@@ -34,9 +34,9 @@ Pogledajte ovde dodaj[ Skriptu u DocBits](../admin-section/setup/scripting-in-do
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
 
-*   **Mutna Polja:**
+*   **Mutna polja:**
 
-* **Svrha:** Pomaže u identifikaciji i ispravljanju polja gde podaci možda nisu savršeno podudarni, ali su dovoljno blizu.
+* **Svrha:** Pomaže u identifikaciji i ispravljanju polja gde podaci možda nisu savršeno podudarni, ali su dovoljno bliski.
 * **Upotreba:** Korisno u procesima validacije podataka gde tačna podudaranja nisu uvek moguća, kao što su blago pogrešno napisana imena ili adrese.
 
 
@@ -87,11 +87,11 @@ Da biste podelili internu informaciju, možete kreirati zadatke i dodeliti ih od
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
-Možete ostaviti napomene na dokumentu. Ovo može biti korisno kako biste ostavili informacije za druge korisnike koji će dalje uređivati ovaj dokument.
+Možete ostaviti anotacije na dokumentu. Ovo može biti korisno kako biste ostavili informacije za druge korisnike koji će dalje uređivati ovaj dokument.
 
 * **Režim Anotacija:**
 * **Svrha:** Omogućava korisnicima da ostave beleške ili anotacije direktno na dokumentu.
-* **Upotreba:** Korisno za pružanje povratnih informacija, uputstava ili važnih napomena drugim članovima tima koji će kasnije raditi na dokumentu.
+* **Upotreba:** Korisno za pružanje povratnih informacija, uputstava ili važnih beleški drugim članovima tima koji će kasnije raditi na dokumentu.
 
 ### **Spajanje:**
 
@@ -119,18 +119,22 @@ U OCR prikazu, tekst se automatski filtrira iz dokumenta. Ovo se koristi za prep
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
 
-Za razliku od zadataka koji se prenose interno unutar kompanije, ovaj podršni tiket je važan kako bi nas obavestili i odmah kreirali tiket u slučaju grešaka i/ili neslaganja. Ovo olakšava proces jer možete odmah poslati bag sa odgovarajućim dokumentom. Takođe postoji opcija postavljanja prioriteta, pravljenja snimka ekrana dokumenta ili otpremanja jednog.
+Za razliku od zadataka koji se prenose interno unutar kompanije, ovaj podršni tiket je važan kako bi nas obavestio i odmah kreirao tiket u slučaju grešaka i/ili neslaganja. Ovo olakšava proces jer možete odmah poslati bag sa odgovarajućim dokumentom. Takođe postoji opcija postavljanja prioriteta, pravljenja snimka ekrana dokumenta ili otpremanja jednog.
 
 * **Kreiraj Tiket:**
 * **Svrha:** Omogućava korisnicima da prijave probleme ili neslaganja kreiranjem podršnog tiketa.
 * **Upotreba:** Ključno za brzo rešavanje problema i bagova, pomažući održavanju integriteta i glatkog funkcionisanja sistema.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
-### **Dnevnik skripti dokumenta:**
+### **Dnevnički skriptova dokumenta:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
 
-Skripte se mogu kreirati u postavkama pod Tipovi dokumenata; ove informacije će biti prikazane ovde.
+Skripte se mogu kreirati u postavkama pod Tipovi dokumenata; ove informacije će se zatim prikazati ovde.
+
+* **Dnevnički skriptova dokumenata:**
+* **Svrha:** Prikazuje dnevnike povezane sa skriptovima koji su implementirani za različite tipove dokumenata.
+* **Upotreba:** Korisno za praćenje i otklanjanje grešaka u skript akcijama na dokumentima, pomažući korisnicima da razumeju automatizovane procese i isprave bilo kakve probleme.
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
@@ -143,35 +147,46 @@ Skripte se mogu kreirati u postavkama pod Tipovi dokumenata; ove informacije će
 ### **Podeli dokument:**
 
 * Ovde možete podeliti dokument i iseći ili obrisati stranice koje nisu potrebne
+* **Podeli dokument:**
+* **Svrha:** Omogućava korisnicima da podele dokument na odvojene delove, uklanjajući ili izolujući stranice koje nisu potrebne.
+* **Upotreba:** Idealno kada se radi sa više-straničnim dokumentima gde su potrebni samo određeni delovi za obradu ili pregled.
 
 ### **Unapredi dokument:**
 
 * Dokument će biti restartovan
+* **Unapredi dokument:**
+* **Svrha:** Resetuje dokument na njegovo početno stanje radi ponovne evaluacije ili daljih modifikacija.
+* **Upotreba:** Korisno kada je potrebno poništiti početne modifikacije ili osvežiti dokument za još jedan krug izmena. Ovde nam je potrebna dodatna ML vizija da unapredimo kvalitet dokumenta.&#x20;
 
 ### **Tok dokumenta:**
 
-* Tu ćete pronaći tok dokumenta
+Tu ćete pronaći tok dokumenta
 
-### **Idi na predložak rasporeda:**
+* **Svrha:** Prikazuje sekvencu i napredovanje obrade dokumenata unutar sistema.
+* **Upotreba:** Pomaže u praćenju statusa dokumenata kroz različite faze, osiguravajući da su sve neophodne obradne korake ispoštovane.
 
-* Sa ovom opcijom bićete preusmereni i moći ćete da uređujete svoj raspored ili koristite podrazumevani predložak
+### **Idi na šablon rasporeda:**
 
-
+* Sa ovom opcijom bićete preusmereni i moći ćete da uređujete svoj raspored ili koristite podrazumevani šablon
+* **Idi na Šablon Rasporeda:**
+* **Svrha:** Preusmerava korisnike na uređivač rasporeda gde mogu modifikovati postojeće šablone ili primeniti podrazumevani.
+* **Upotreba:** Omogućava prilagođavanje rasporeda dokumenata kako bi se ispunile specifične poslovne potrebe ili preferencije, poboljšavajući vizuelni i funkcionalni sklad dokumenata sa standardima kompanije.
 
 ### **Obavezna polja:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
 
-Postoje polja koja su obavezna za dalje uređivanje, ova polja se mogu urediti u postavkama.
+Postoje polja koja su obavezna za dalje uređivanje, ova se mogu urediti u postavkama.
 
-Koristite alatnu savetku da biste saznali da li:&#x20;
+Koristite tooltip da saznate da li:&#x20;
 
 * Da li je polje obavezno (required)
 * Potrebna validacija&#x20;
-* Niska pouzdanost
-* Neusaglašenost ukupnog iznosa poreza
-
-
+* Niska sigurnost
+* Neusklađenost sa punim iznosom poreza
+* **Obavezna polja:**
+* **Svrha:** Identifikuje obavezna polja unutar dokumenata koja moraju biti popunjena ili ispravljena pre dalje obrade.
+* **Upotreba:** Osigurava da se bitni podaci tačno unose, održavajući integritet podataka i usklađenost sa poslovnim pravilima.
 
 ### **Idi na prikaz ekstrakcije tabele:**
 
@@ -179,19 +194,25 @@ Koristite alatnu savetku da biste saznali da li:&#x20;
 
 Ovde dolazite do prikaza ekstrakcije tabele i imate dalje opcije za nastavak. Na primer, u režimu obuke, učenje tabele.
 
-
+* **Idi na Prikaz Ekstrakcije Tabele:**
+* **Svrha:** Navigira korisnike ka interfejsu gde mogu ekstrahovati i manipulisati podacima tabele iz dokumenata.
+* **Upotreba:** Korisno za kompleksne dokumente koji sadrže tabele, omogućavajući preciznu ekstrakciju podataka i učenje za poboljšanje prepoznavanja tokom vremena.
 
 ### **Dodaj nepridružene kolone:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.49.png" alt=""><figcaption></figcaption></figure>
 
-Da biste dodali nepridružene kolone kliknite ovde i izaberite kolone koje želite u tabeli ili uklonite one koje vam nisu potrebne.
+Da biste dodali nepridružene kolone kliknite ovde i izaberite kolone koje želite u tabeli ili uklonite one koje ne trebate.
 
 <figure><img src="../.gitbook/assets/image (37).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### **Prikaži nepridružene kolone / Sakrij nepridružene kolone:**
+### **Prikaži/ne prikazuj nepridružene kolone:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.58.png" alt=""><figcaption></figcaption></figure>
+
+* **Prikaži/Sakrij Nepridružene Kolone:**
+* **Svrha:** Menja vidljivost kolona u tabeli koje nisu automatski povezane sa poznatim poljima.
+* **Upotreba:** Omogućava korisnicima da se fokusiraju na relevantne podatke sakrivanjem nepotrebnih kolona ili pregledom radi potencijalnog uključivanja.
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
@@ -199,11 +220,17 @@ Da biste dodali nepridružene kolone kliknite ovde i izaberite kolone koje želi
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.06.png" alt=""><figcaption></figcaption></figure>
 
+* **Blokiraj Ekstrakciju Tabele za Ovog Dobavljača:**
+* **Svrha:** Onemogućava procese ekstrakcije tabele za dokumente određenih dobavljača.
+* **Upotreba:** Korisno u scenarijima gde dokumenti dobavljača konstantno ne uspevaju da se ispravno ekstraktuju ili ne zahtevaju ekstrakciju.
+
 ### **Obriši tabelu:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.14.png" alt=""><figcaption></figcaption></figure>
 
-
+* **Obriši Tabelu:**
+* **Svrha:** Uklanja celu tabelu iz dokumenta.
+* **Upotreba:** Korisno kada je tabela pogrešno uključena ili više nije potrebna za svrhu dokumenta.
 
 ### **Dodaj novu kolonu tabele:**
 
@@ -213,12 +240,24 @@ Da biste dodali nepridružene kolone kliknite ovde i izaberite kolone koje želi
 
 Ako nedostaje kolona, možete kreirati novu kolonu ovde. Navedite naslov, odlučite da li treba da bude obavezno polje i tip kolone (ovo je važno za ispravan format)
 
+* **Dodaj Novu Kolonu Tabele:**
+* **Svrha:** Kreira novu kolonu u postojećoj tabeli, sa specifikacijama za naslov, neophodnost i tip.
+* **Upotreba:** Poboljšava fleksibilnost i tačnost prikupljanja podataka omogućavajući kreiranje prilagođenih kolona prilagođenih specifičnim zahtevima podataka.
+
 
 
 ### **Ignoriši validaciju tabele:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.29.png" alt=""><figcaption></figcaption></figure>
 
-### **Vrati kolonu tabele:**
+* **Ignoriši Validaciju Tabele:**
+* **Svrha:** Omogućava korisnicima da zaobiđu pravila validacije za određene tabele.
+* **Upotreba:** Korisno kada poznate anomalije u podacima ne utiču na celokupnu obradu i insistiranje na validaciji bi ometalo radni tok.
+
+### **Obnovi kolonu tabele:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.37.png" alt=""><figcaption></figcaption></figure>
+
+* **Obnovi Kolonu Tabele:**
+* **Svrha:** Vraća prethodno obrisane ili izmenjene kolone u tabeli.
+* **Upotreba:** Korisno za povratak podataka koji su greškom uklonjeni ili izmenjeni, osiguravajući potpunost podataka.
