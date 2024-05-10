@@ -6,7 +6,7 @@ Docbits je napredni sistem dizajniran za automatizaciju uparivanja podataka o na
 
 **Ekstrakcija podataka:** Docbits započinje proces ekstrakcijom relevantnih podataka iz digitalizovanih faktura. Tipično, ovi podaci uključuju brojeve stavki, količine i jedinične cene svake stavke fakture. Preciznost ove ekstrakcije je ključna, jer predstavlja osnovu za naredni proces uparivanja.
 
-**Poređenje sa PO podacima:** Ekstrahovani podaci se porede sa odgovarajućim informacijama u sačuvanim narudžbenicama. Docbits proverava da li se brojevi stavki, količine i cene podudaraju sa onima u narudžbenicama. Za uspešno uparivanje, podaci na fakturama moraju odgovarati podacima u narudžbenicama, uzimajući u obzir definisane granice tolerancije.
+**Poređenje sa PO podacima:** Ekstrahovani podaci se porede sa odgovarajućim informacijama u sačuvanim narudžbenicama. Docbits proverava da li se brojevi stavki, količine i cene podudaraju sa onima u PO-ima. Za uspešno uparivanje, podaci na fakturama moraju odgovarati podacima u narudžbenicama, uzimajući u obzir definisane granice tolerancije.
 
 **Automatsko uparivanje:** Na osnovu rezultata poređenja, Docbits vrši uparivanje. Sistem proverava da li kriterijumi uparivanja padaju unutar postavljenih granica tolerancije. Ako su ovi kriterijumi ispunjeni, uparivanje se smatra uspešnim.
 
@@ -14,7 +14,7 @@ Docbits je napredni sistem dizajniran za automatizaciju uparivanja podataka o na
 
 ## **Definicija pravila uparivanja**
 
-**Broj stavke:** Broj stavke na fakturi mora tačno odgovarati broju stavke u narudžbenici. Nema tolerancije za odstupanja u brojevima stavki.
+**Broj stavke:** Broj stavke na fakturi mora tačno odgovarati broju stavke u narudžbenici. Ne postoji tolerancija za odstupanja u brojevima stavki.
 
 **Količine:** Količina isporučenih proizvoda na fakturi može varirati unutar unapred definisanog opsega tolerancije. Tipično, tolerancija od ±5% može biti prihvatljiva kako bi se uzeli u obzir manji različiti u količinama isporuke.
 
