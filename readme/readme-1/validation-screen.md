@@ -12,13 +12,19 @@
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (2).png" alt=""><figcaption></figcaption></figure>
 
+* **Save Button:**
+  * **Purpose:** Saves the current state of the document or script being worked on.
+  * **Use Case:** After making changes or annotations to a document, use this button to ensure all modifications are saved.
+
 ### **Add special Rules:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.41.01.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.42.13.png" alt=""><figcaption></figcaption></figure>
 
-
+* **Add Special Rules / Add Script in DocBits:**
+  * **Purpose:** Allows users to implement specific rules or scripts that customize how documents are processed.
+  * **Use Case:** Use this feature to automate tasks like data extraction or format validation, enhancing workflow efficiency.
 
 {% hint style="info" %}
 See here add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
@@ -28,23 +34,50 @@ See here add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
 
+*   **Fuzzy Fields:**
+
+    * **Purpose:** Helps in identifying and correcting fields where the data may not be a perfect match but is close enough.
+    * **Use Case:** Useful in data validation processes where exact matches are not always possible, such as slightly misspelled names or addresses.
+
+
+
 ### **Magnify Glass:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
+
+* **Magnifying Glass (Magnify Glass):**
+  * **Purpose:** Provides a zoomed-in view of a selected area of the document.
+  * **Use Case:** Helps in examining fine details or small text in documents, ensuring accuracy in data entry or review.
+
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.03.46.png" alt=""><figcaption></figcaption></figure>
 
 ### **Open new window:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.26.png" alt="" width="130"><figcaption></figcaption></figure>
 
+* **Open New Window:**
+  * **Purpose:** Opens a new window for side-by-side document comparison or multitasking.
+  * **Use Case:** Useful when comparing two documents or when referencing additional information without leaving the current document.
+
 ### **Keyboard shortcuts:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.42.png" alt="" width="145"><figcaption></figcaption></figure>
+
+1. **Keyboard Shortcuts:**
+   * **Purpose:** Allows users to perform actions quickly using keyboard combinations.
+   * **Use Case:** Enhances speed and efficiency in document navigation and processing by minimizing reliance on mouse navigation.
+
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption></figcaption></figure>
 
 ### **Tasks:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.00.png" alt="" width="55"><figcaption></figcaption></figure>
 
 To share internal information, you can create tasks and assign them to a specific employee or group within the company.
+
+* **Tasks:**
+  * **Purpose:** Enables users to create tasks related to documents and assign them to team members.
+  * **Use Case:** Facilitates collaboration and task management within teams, ensuring everyone knows their responsibilities.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.21.27.png" alt="" width="218"><figcaption></figcaption></figure>
 
@@ -56,7 +89,9 @@ To share internal information, you can create tasks and assign them to a specifi
 
 You can leave annotations on a document. This can be helpful to leave information for other users who further edit this document.
 
-
+* **Annotation Mode:**
+  * **Purpose:** Lets users leave notes or annotations directly on the document.
+  * **Use Case:** Useful for providing feedback, instructions, or important notes to other team members who will work on the document later.
 
 ### **Merge:**
 
@@ -64,7 +99,9 @@ You can leave annotations on a document. This can be helpful to leave informatio
 
 Documents can be merged here, for example if a page of an invoice was missing, these pages can be merged later in this way without the entire document having to be deleted or re-uploaded.
 
-
+* **Merge Documents:**
+  * **Purpose:** Combines multiple documents into a single file.
+  * **Use Case:** Handy in scenarios where parts of a document are scanned separately and need to be consolidated.
 
 ### **OCR view:**
 
@@ -72,13 +109,21 @@ Documents can be merged here, for example if a page of an invoice was missing, t
 
 In the OCR view, the text is automatically filtered from the document. This is used to recognize relevant features, such as the postal code, contract number, invoice number and the sorting of a document.
 
+* **OCR View:**
+  * **Purpose:** Automatically recognizes text within documents using Optical Character Recognition technology.
+  * **Use Case:** Streamlines the process of digitizing printed or handwritten texts, making them searchable and editable.
 
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption></figcaption></figure>
 
 ### **Create ticket:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
 
 Unlike tasks that are passed on internally within the company, this support ticket is important to notify us and to immediately create a ticket in the event of errors and/or discrepancies. This makes the process much easier because you can immediately send the bug with the appropriate document. There is also the option to set priority, take a screenshot of the document or upload one.
+
+* **Create Ticket:**
+  * **Purpose:** Allows users to report issues or discrepancies by creating a support ticket.
+  * **Use Case:** Essential for quick resolution of problems and bugs, helping maintain the integrity and smooth functioning of the system.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
 
