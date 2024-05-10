@@ -27,7 +27,7 @@
 * **Caso d'uso:** Utilizzare questa funzionalità per automatizzare compiti come l'estrazione di dati o la convalida del formato, migliorando l'efficienza del flusso di lavoro.
 
 {% hint style="info" %}
-Vedi qui add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
+Vedi qui [Aggiungi Script in DocBits](../admin-section/setup/scripting-in-docbits/)
 {% endhint %}
 
 ### **Campi Fuzzy:**
@@ -43,7 +43,7 @@ Vedi qui add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
 
-* **Lente d'Ingrandimento (Magnify Glass):**
+* **Lente d'Ingrandimento:**
 * **Scopo:** Fornisce una vista ingrandita di un'area selezionata del documento.
 * **Caso d'uso:** Aiuta nell'esaminare dettagli o testi piccoli nei documenti, garantendo precisione nell'inserimento o revisione dei dati.
 
@@ -54,7 +54,7 @@ Vedi qui add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.26.png" alt="" width="130"><figcaption></figcaption></figure>
 
 * **Apri Nuova Finestra:**
-* **Scopo:** Apre una nuova finestra per confrontare i documenti affiancati o per multitasking.
+* **Scopo:** Apre una nuova finestra per confrontare i documenti affiancati o multitasking.
 * **Caso d'uso:** Utile nel confrontare due documenti o nel fare riferimento a informazioni aggiuntive senza lasciare il documento corrente.
 
 ### **Scorciatoie da tastiera:**
@@ -95,7 +95,7 @@ Per condividere informazioni interne, è possibile creare compiti e assegnarli a
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
 
-I documenti possono essere uniti qui, ad esempio se mancava una pagina di una fattura, queste pagine possono essere unite successivamente in questo modo senza che l'intero documento debba essere eliminato o ricaricato.
+I documenti possono essere uniti qui, ad esempio se mancava una pagina di una fattura, queste pagine possono essere unite successivamente in questo modo senza dover eliminare o ricaricare l'intero documento.
 
 * **Unisci Documenti:**
 * **Scopo:** Combina più documenti in un unico file.
@@ -121,14 +121,18 @@ A differenza dei compiti che vengono passati internamente all'azienda, questo ti
 
 * **Crea Ticket:**
 * **Scopo:** Consente agli utenti di segnalare problemi o discrepanze creando un ticket di supporto.
-* **Caso d'uso:** Essenziale per una rapida risoluzione dei problemi e dei bug, contribuendo a mantenere l'integrità e il corretto funzionamento del sistema.
+* **Caso d'uso:** Essenziale per la rapida risoluzione di problemi e bug, contribuendo a mantenere l'integrità e il corretto funzionamento del sistema.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
-### **Registri di script del documento:**
+### **Registri skript del documento:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
 
-Gli script possono essere creati nelle impostazioni sotto Tipi di documento; queste informazioni verranno poi visualizzate qui.
+Gli script possono essere creati nelle impostazioni sotto Tipi di Documento; queste informazioni verranno poi visualizzate qui.
+
+* **Registri skript del documento:**
+* **Scopo:** Mostra i registri relativi agli script implementati per diversi tipi di documenti.
+* **Caso d'uso:** Utile per tracciare e risolvere problemi legati alle azioni degli script sui documenti, aiutando gli utenti a comprendere i processi automatizzati e correggere eventuali problemi.
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
@@ -141,20 +145,30 @@ Gli script possono essere creati nelle impostazioni sotto Tipi di documento; que
 ### **Dividi documento:**
 
 * Qui puoi dividere il documento e tagliare o eliminare pagine non necessarie
+* **Dividi Documento:**
+* **Scopo:** Consente agli utenti di dividere un documento in parti separate, rimuovendo o isolando pagine non necessarie.
+* **Caso d'uso:** Ideale quando si tratta di documenti multi-pagina in cui sono necessarie solo determinate sezioni per l'elaborazione o la revisione.
 
 ### **Migliora documento:**
 
 * Il documento verrà riavviato
+* **Migliora Documento:**
+* **Scopo:** Reimposta il documento al suo stato iniziale per una rivalutazione o ulteriori modifiche.
+* **Caso d'uso:** Utile quando le modifiche iniziali devono essere annullate o il documento deve essere aggiornato per un'altra serie di modifiche. Qui abbiamo bisogno di un'ulteriore Visione ML per migliorare la qualità del documento.&#x20;
 
 ### **Flusso del documento:**
 
-* Qui troverai il flusso del documento
+Qui troverai il flusso del documento
+
+* **Scopo:** Mostra la sequenza e la progressione dell'elaborazione del documento all'interno del sistema.
+* **Caso d'uso:** Aiuta nel tracciare lo stato del documento attraverso diverse fasi, garantendo che tutti i passaggi di elaborazione necessari siano seguiti.
 
 ### **Vai al modello di layout:**
 
 * Con questa opzione verrai reindirizzato e potrai modificare il tuo layout o utilizzare il modello predefinito
-
-
+* **Vai al Modello di Layout:**
+* **Scopo:** Reindirizza gli utenti a un editor di layout dove possono modificare i modelli esistenti o applicarne uno predefinito.
+* **Caso d'uso:** Consente la personalizzazione dei layout dei documenti per soddisfare specifiche esigenze aziendali o preferenze, migliorando l'allineamento visivo e funzionale del documento con gli standard aziendali.
 
 ### **Campi obbligatori:**
 
@@ -165,11 +179,12 @@ Ci sono campi che sono necessari per ulteriori modifiche, questi possono essere 
 Usa il suggerimento per scoprire se:&#x20;
 
 * È un campo obbligatorio (richiesto)
-* Validazione richiesta&#x20;
+* Richiesta di convalida&#x20;
 * Bassa confidenza
 * Discrepanza totale dell'importo fiscale
-
-
+* **Campi Obbligatori:**
+* **Scopo:** Identifica i campi obbligatori all'interno dei documenti che devono essere compilati o corretti prima di ulteriori elaborazioni.
+* **Caso d'uso:** Garantisce che i dati essenziali siano catturati con precisione, mantenendo l'integrità dei dati e la conformità alle regole aziendali.
 
 ### **Vai alla visualizzazione dell'estrazione tabella:**
 
@@ -177,7 +192,9 @@ Usa il suggerimento per scoprire se:&#x20;
 
 Qui arrivi alla visualizzazione dell'estrazione tabella e hai ulteriori opzioni per continuare. Ad esempio, in modalità di addestramento, imparando la tabella.
 
-
+* **Vai alla Visualizzazione dell'Estrazione Tabella:**
+* **Scopo:** Naviga verso un'interfaccia in cui gli utenti possono estrarre e manipolare i dati tabellari dai documenti.
+* **Caso d'uso:** Utile per documenti complessi contenenti tabelle, consentendo un'estrazione dati precisa e l'apprendimento per migliorare il riconoscimento nel tempo.
 
 ### **Aggiungi colonne non mappate:**
 
@@ -191,17 +208,27 @@ Per aggiungere colonne non assegnate clicca qui e seleziona le colonne che desid
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.58.png" alt=""><figcaption></figcaption></figure>
 
+* **Mostra/Nascondi Colonne Non Mappate:**
+* **Scopo:** Alterna la visibilità delle colonne in una tabella che non sono automaticamente mappate a campi conosciuti.
+* **Caso d'uso:** Consente agli utenti di concentrarsi sui dati rilevanti nascondendo colonne non necessarie o esaminandole per un'eventuale inclusione.
+
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ### **Blocca l'estrazione tabella per questo fornitore:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.06.png" alt=""><figcaption></figcaption></figure>
 
+* **Blocca l'Estrazione Tabella per Questo Fornitore:**
+* **Scopo:** Impedisce i processi di estrazione tabella per documenti da fornitori specifici.
+* **Caso d'uso:** Utile in scenari in cui i documenti dei fornitori non riescono costantemente ad estrarre correttamente o non richiedono l'estrazione.
+
 ### **Elimina tabella:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.14.png" alt=""><figcaption></figcaption></figure>
 
-
+* **Elimina Tabella:**
+* **Scopo:** Rimuove un'intera tabella da un documento.
+* **Caso d'uso:** Utile quando una tabella è inclusa erroneamente o non è più necessaria per lo scopo del documento.
 
 ### **Aggiungi nuova colonna tabella:**
 
@@ -211,12 +238,24 @@ Per aggiungere colonne non assegnate clicca qui e seleziona le colonne che desid
 
 Se manca una colonna, puoi creare una nuova colonna qui. Specifica il titolo, decidi se deve essere un campo obbligatorio e il tipo di colonna (questo è importante per il formato corretto)
 
+* **Aggiungi Nuova Colonna Tabella:**
+* **Scopo:** Crea una nuova colonna in una tabella esistente, con specifiche per titolo, necessità e tipo.
+* **Caso d'uso:** Migliora la flessibilità e l'accuratezza della cattura dei dati consentendo la creazione di colonne personalizzate adatte ai requisiti specifici dei dati.
 
 
-### **Ignora la validazione tabella:**
+
+### **Ignora convalida tabella:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.29.png" alt=""><figcaption></figcaption></figure>
+
+* **Ignora Convalida Tabella:**
+* **Scopo:** Consente agli utenti di ignorare le regole di convalida per tabelle specifiche.
+* **Caso d'uso:** Utile quando anomalie conosciute nei dati non influenzano l'elaborazione complessiva e l'insistenza sulla convalida ostacolerebbe il flusso di lavoro.
 
 ### **Ripristina colonna tabella:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.37.png" alt=""><figcaption></figcaption></figure>
+
+* **Ripristina Colonna Tabella:**
+* **Scopo:** Ripristina una colonna precedentemente eliminata o modificata in una tabella.
+* **Caso d'uso:** Utile per recuperare dati rimossi o modificati per errore, garantendo la completezza dei dati.
