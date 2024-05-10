@@ -4,7 +4,7 @@ Docbits est un système avancé conçu pour automatiser la correspondance des do
 
 ## **Principes fondamentaux de la correspondance automatique dans Docbits**
 
-**Extraction des données :** Docbits commence le processus en extrayant les données pertinentes des documents de facturation numérisés. Typiquement, ces données incluent les numéros d'article, les quantités et les prix unitaires de chaque ligne de facture. La précision de cette extraction est cruciale, car elle constitue la base du processus de correspondance ultérieur.
+**Extraction des données :** Docbits commence le processus en extrayant les données pertinentes des documents de facturation numérisés. Typiquement, ces données comprennent les numéros d'article, les quantités et les prix unitaires de chaque ligne de facture. La précision de cette extraction est cruciale, car elle constitue la base du processus de correspondance ultérieur.
 
 **Comparaison avec les données des BC :** Les données extraites sont comparées aux informations correspondantes dans les bons de commande stockés. Docbits vérifie si les numéros d'article, les quantités et les prix correspondent à ceux des BC. Pour une correspondance réussie, les données des factures doivent correspondre aux données des bons de commande, en tenant compte des seuils de tolérance définis.
 
@@ -23,7 +23,7 @@ Docbits est un système avancé conçu pour automatiser la correspondance des do
 ## **État de la correspondance :**
 
 * **Correspondance complète :** Tous les points de données (numéro d'article, quantité et prix) se situent dans les limites de tolérance définies.
-* **Correspondance partielle :** Un ou plusieurs points de données dévient en dehors des limites de tolérance, mais les écarts sont minimes et nécessitent une révision manuelle.
-* **Aucune correspondance :** Des écarts significatifs dans un ou plusieurs points de données nécessitant une correction immédiate ou une enquête plus approfondie.
+* **Correspondance partielle :** Un ou plusieurs points de données dévient en dehors des limites de tolérance, mais les écarts sont minimes et nécessitent un examen manuel.
+* **Aucune correspondance :** Des écarts significatifs dans un ou plusieurs points de données nécessitant une correction immédiate ou une enquête approfondie.
 
-La définition précise de ces règles et le paramétrage des limites de tolérance sont cruciaux pour l'efficacité de la correspondance automatique et la réduction des interventions manuelles. Docbits permet une configuration flexible de ces paramètres pour répondre aux besoins des différentes entreprises et industries.
+La définition précise de ces règles et le réglage des limites de tolérance sont cruciaux pour l'efficacité de la correspondance automatique et la réduction des interventions manuelles. Docbits permet une configuration flexible de ces paramètres pour répondre aux besoins des différentes entreprises et industries.
