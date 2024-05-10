@@ -1,6 +1,6 @@
 # Coincidencia Automática de Datos de Órdenes de Compra
 
-Docbits es un sistema avanzado diseñado para automatizar la coincidencia de datos de órdenes de compra (POs) con documentos de facturas entrantes. Esta herramienta está específicamente diseñada para la gestión eficiente y el procesamiento de datos de facturas dentro de los sistemas ERP. Esta documentación explica los conceptos básicos de la coincidencia automática a través de Docbits y define las reglas específicas necesarias para una coincidencia exitosa.
+Docbits es un sistema avanzado diseñado para automatizar la coincidencia de datos de órdenes de compra (POs) con documentos de facturas entrantes. Esta herramienta está específicamente diseñada para la gestión eficiente y procesamiento de datos de facturas dentro de sistemas ERP. Esta documentación explica los conceptos básicos de la coincidencia automática a través de Docbits y define las reglas específicas necesarias para una coincidencia exitosa.
 
 ## **Principios Fundamentales de la Coincidencia Automática en Docbits**
 
@@ -14,9 +14,9 @@ Docbits es un sistema avanzado diseñado para automatizar la coincidencia de dat
 
 ## **Definición de Reglas de Coincidencia**
 
-**Número de Ítem:** El número de ítem en la factura debe coincidir exactamente con el número de ítem en la orden de compra. No se toleran desviaciones en los números de ítems.
+**Número de Ítem:** El número de ítem en la factura debe coincidir exactamente con el número de ítem en la orden de compra. No se toleran desviaciones en los números de ítem.
 
-**Cantidades:** La cantidad de bienes entregados en la factura puede variar dentro de un rango de tolerancia predefinido. Típicamente, una tolerancia de ±5% podría ser aceptable para tener en cuenta las diferencias menores en las cantidades de entrega.
+**Cantidades:** La cantidad de bienes entregados en la factura puede variar dentro de un rango de tolerancia predefinido. Típicamente, una tolerancia de ±5% podría ser aceptable para tener en cuenta diferencias menores en las cantidades de entrega.
 
 **Precios:** Las desviaciones de precios son tolerables hasta un umbral establecido. Una tolerancia común podría ser de ±2% del precio para aceptar diferencias ligeras en las declaraciones de precios que surgen de diferencias de redondeo o fluctuaciones de divisas.
 
