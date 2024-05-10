@@ -13,8 +13,6 @@ To begin using the PO Matching system, ensure that you have the necessary permis
 * Access to purchase order and invoice modules within the ERP system.
 * Appropriate user permissions for viewing and matching financial documents.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 23.08.00.png" alt=""><figcaption></figcaption></figure>
-
 ## Key Features
 
 * **Automatic Data Extraction:** Automatically extracts and interprets data from digital invoices.
@@ -22,6 +20,8 @@ To begin using the PO Matching system, ensure that you have the necessary permis
 * **Match Verification:** Verifies matches based on predefined rules and tolerances.
 * **Discrepancy Reporting:** Identifies and reports any discrepancies between invoices and purchase orders.
 * **Audit Trail:** Maintains a log of all actions for compliance and review.
+
+<figure><img src="../../.gitbook/assets/PO1.png" alt=""><figcaption></figcaption></figure>
 
 ## User Interface
 
