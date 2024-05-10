@@ -1,8 +1,8 @@
-# Bestellabgleich
+# Bestellungsabgleich
 
 ## Einführung
 
-Dieses Dokument bietet einen umfassenden Leitfaden zur Verwendung des Bestellabgleichsystems innerhalb Ihrer ERP-Plattform. Das PO-Abgleichsystem automatisiert die Abstimmung von Bestellungen mit eingehenden Rechnungen, um sicherzustellen, dass finanzielle Transaktionen korrekt sind und Unstimmigkeiten schnell behoben werden.
+Dieses Dokument bietet einen umfassenden Leitfaden zur Verwendung des Bestellungsabgleichsystems innerhalb Ihrer ERP-Plattform. Das PO-Abgleichsystem automatisiert die Abstimmung von Bestellungen mit eingehenden Rechnungen, um sicherzustellen, dass finanzielle Transaktionen korrekt sind und Unstimmigkeiten zeitnah behoben werden.
 
 ## Erste Schritte
 
@@ -13,9 +13,11 @@ Um mit dem PO-Abgleichsystem zu beginnen, stellen Sie sicher, dass die erforderl
 * Zugriff auf die Bestell- und Rechnungsmodule innerhalb des ERP-Systems.
 * Geeignete Benutzerberechtigungen zum Anzeigen und Abgleichen von Finanzdokumenten.
 
+<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 23.08.00.png" alt=""><figcaption></figcaption></figure>
+
 ## Hauptfunktionen
 
-* **Automatische Datenerfassung:** Extrahiert und interpretiert automatisch Daten aus digitalen Rechnungen.
+* **Automatische Datenauslese:** Extrahiert und interpretiert automatisch Daten aus digitalen Rechnungen.
 * **Datenvergleich:** Vergleicht extrahierte Rechnungsdaten mit vorhandenen Bestelldaten.
 * **Abgleichüberprüfung:** Überprüft Übereinstimmungen anhand vordefinierter Regeln und Toleranzen.
 * **Unstimmigkeitsberichterstattung:** Identifiziert und meldet Unstimmigkeiten zwischen Rechnungen und Bestellungen.
@@ -27,8 +29,8 @@ Die Benutzeroberfläche des PO-Abgleichsystems umfasst in der Regel die folgende
 
 * **Dashboard:** Übersicht über den Abgleichstatus und die letzten Aktivitäten.
 * **Such- und Filtertools:** Funktionen zum Suchen und Filtern von Bestellungen und Rechnungen.
-* **Übereinstimmende Datensätze:** Bereich, der erfolgreich abgeglichene Datensätze anzeigt.
-* **Unstimmigkeiten:** Bereich, der Datensätze mit Unstimmigkeiten anzeigt, die einer Überprüfung oder Aktion bedürfen.
+* **Abgeglichene Datensätze:** Bereich, der erfolgreich abgeglichene Datensätze anzeigt.
+* **Unstimmigkeiten:** Bereich, der Datensätze mit Unstimmigkeiten anzeigt, die überprüft oder bearbeitet werden müssen.
 * **Berichte:** Zugriff auf detaillierte Berichte und Exportoptionen.
 
 ### Schritt-für-Schritt-Anleitung zur Verwendung des PO-Abgleichs
@@ -40,14 +42,14 @@ Navigieren Sie vom Hauptmenü Ihres ERP-Systems zum PO-Abgleichmodul.
 #### 2. Importieren oder Zugriff auf Rechnungen
 
 * **Automatischer Import:** Wenn Ihr System für die automatische Datenerfassung eingerichtet ist, werden Rechnungen automatisch in das System importiert.
-* **Manuelles Hochladen:** Laden Sie bei Bedarf Rechnungsdateien manuell über die bereitgestellte Benutzeroberfläche hoch.
+* **Manuelles Hochladen:** Falls erforderlich, laden Sie Rechnungsdateien manuell über die bereitgestellte Benutzeroberfläche hoch.
 
 #### 3. Überprüfen automatisch abgeglichener Rechnungen
 
 * Überprüfen Sie Rechnungen, die automatisch mit Bestellungen abgeglichen wurden.
 * Überprüfen Sie die Details des Abgleichs, einschließlich Artikelnummern, Mengen und Preise.
 
-#### 4. Behandlung von Unstimmigkeiten
+#### 4. Behandeln von Unstimmigkeiten
 
 * Greifen Sie auf den Bereich "Unstimmigkeiten" zu, um Rechnungen zu überprüfen, die nicht automatisch abgeglichen werden konnten.
 * Passen Sie Mengen oder Preise bei Bedarf manuell an oder markieren Sie die Rechnung für eine weitere Überprüfung.
