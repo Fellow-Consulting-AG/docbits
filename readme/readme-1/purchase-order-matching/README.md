@@ -6,12 +6,14 @@ Questo documento fornisce una guida completa su come utilizzare il sistema di Co
 
 ## Per Iniziare
 
-Per iniziare a utilizzare il sistema di Corrispondenza dell'Ordine di Acquisto, assicurati di avere i permessi necessari impostati dal tuo amministratore di sistema. Avrai bisogno di accesso sia ai dati dell'ordine di acquisto che ai dati della fattura corrispondente all'interno del sistema.
+Per iniziare a utilizzare il sistema di Corrispondenza dell'Ordine di Acquisto, assicurati di avere i permessi necessari impostati dal tuo amministratore di sistema. Avrai bisogno di accedere sia ai dati dell'ordine di acquisto che ai dati della fattura corrispondente all'interno del sistema.
 
 ## Requisiti di Sistema
 
-* Accesso ai moduli di ordine di acquisto e fattura all'interno del sistema ERP.
+* Accesso ai moduli dell'ordine di acquisto e della fattura all'interno del sistema ERP.
 * Autorizzazioni utente appropriate per visualizzare e abbinare documenti finanziari.
+
+<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 23.08.00.png" alt=""><figcaption></figcaption></figure>
 
 ## Funzionalità Principali
 
