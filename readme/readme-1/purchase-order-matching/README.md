@@ -13,8 +13,6 @@ Per iniziare a utilizzare il sistema di Corrispondenza dell'Ordine di Acquisto, 
 * Accesso ai moduli dell'ordine di acquisto e della fattura all'interno del sistema ERP.
 * Autorizzazioni utente appropriate per visualizzare e abbinare documenti finanziari.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 23.08.00.png" alt=""><figcaption></figcaption></figure>
-
 ## Funzionalità Principali
 
 * **Estrazione Automatica dei Dati:** Estrae e interpreta automaticamente i dati dalle fatture digitali.
@@ -22,6 +20,8 @@ Per iniziare a utilizzare il sistema di Corrispondenza dell'Ordine di Acquisto, 
 * **Verifica dell'Abbinamento:** Verifica gli abbinamenti in base a regole e tolleranze predefinite.
 * **Segnalazione delle Discrepanze:** Identifica e segnala eventuali discrepanze tra fatture e ordini di acquisto.
 * **Registro delle Verifiche:** Mantiene un registro di tutte le azioni per conformità e revisione.
+
+<figure><img src="../../.gitbook/assets/PO1.png" alt=""><figcaption></figcaption></figure>
 
 ## Interfaccia Utente
 
