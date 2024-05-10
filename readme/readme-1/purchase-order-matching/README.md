@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Ce document fournit un guide complet sur l'utilisation du système de Correspondance des bons de commande au sein de votre plateforme ERP. Le système de correspondance des bons de commande automatise la réconciliation des bons de commande avec les factures entrantes, garantissant que les transactions financières sont précises et que les écarts sont traités rapidement.
+Ce document fournit un guide complet sur la façon d'utiliser le système de Correspondance des bons de commande au sein de votre plateforme ERP. Le système de correspondance des bons de commande automatise la réconciliation des bons de commande avec les factures entrantes, garantissant que les transactions financières sont précises et que les écarts sont traités rapidement.
 
 ## Pour commencer
 
@@ -11,37 +11,37 @@ Pour commencer à utiliser le système de Correspondance des bons de commande, a
 ## Exigences du système
 
 * Accès aux modules des bons de commande et des factures dans le système ERP.
-* Autorisations utilisateur appropriées pour visualiser et mettre en correspondance des documents financiers.
-
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 23.08.00.png" alt=""><figcaption></figcaption></figure>
+* Autorisations utilisateur appropriées pour visualiser et faire correspondre des documents financiers.
 
 ## Fonctionnalités clés
 
 * **Extraction automatique des données :** Extrait et interprète automatiquement les données des factures numériques.
 * **Comparaison des données :** Compare les données extraites des factures avec les données des bons de commande existants.
-* **Vérification de la correspondance :** Vérifie les correspondances en fonction de règles et de tolérances prédéfinies.
+* **Vérification des correspondances :** Vérifie les correspondances en fonction de règles prédéfinies et de tolérances.
 * **Signalement des écarts :** Identifie et signale les écarts entre les factures et les bons de commande.
 * **Journal d'audit :** Conserve un journal de toutes les actions à des fins de conformité et de révision.
+
+<figure><img src="../../.gitbook/assets/PO1.png" alt=""><figcaption></figcaption></figure>
 
 ## Interface utilisateur
 
 L'interface du système de Correspondance des bons de commande comprend généralement les composants suivants :
 
-* **Tableau de bord :** Aperçu de l'état de la correspondance et des activités récentes.
+* **Tableau de bord :** Aperçu de l'état des correspondances et des activités récentes.
 * **Outils de recherche et de filtrage :** Capacités de recherche et de filtrage des bons de commande et des factures.
 * **Enregistrements correspondants :** Section affichant les enregistrements correspondants avec succès.
 * **Écarts :** Section montrant les enregistrements avec des écarts nécessitant une révision ou une action.
-* **Rapports :** Accès aux rapports détaillés et aux options d'exportation.
+* **Rapports :** Accès à des rapports détaillés et des options d'exportation.
 
 ### Guide étape par étape pour utiliser la Correspondance des bons de commande
 
 #### 1. Accéder au module de Correspondance des bons de commande
 
-Accédez au module de Correspondance des bons de commande depuis le menu principal de votre système ERP.
+Accédez au module de Correspondance des bons de commande à partir du menu principal de votre système ERP.
 
 #### 2. Importer ou Accéder aux Factures
 
-* **Importation automatique :** Si votre système est configuré pour la capture automatique des données, les factures seront importées automatiquement dans le système.
+* **Importation automatisée :** Si votre système est configuré pour la capture automatique des données, les factures seront importées automatiquement dans le système.
 * **Téléchargement manuel :** Si nécessaire, téléchargez manuellement les fichiers de factures dans le système en utilisant l'interface fournie.
 
 #### 3. Examiner les factures automatiquement appariées
