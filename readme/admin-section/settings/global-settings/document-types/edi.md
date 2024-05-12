@@ -9,8 +9,8 @@ No Docbits, as configurações de EDI fornecem ferramentas para definir e gerenc
 #### Recursos e Opções Principais
 
 1. **Elementos de Configuração EDI**:
-* **Descritor de Estrutura**: Define a estrutura básica do documento EDI, incluindo a ordem dos segmentos, campos obrigatórios e qualificadores necessários para que o documento EDI seja válido.
-* **Transformação**: Especifica as transformações aplicadas para converter os dados do documento em uma mensagem formatada em EDI. Isso geralmente envolve especificar mapeamentos dos campos do documento para segmentos e elementos EDI.
+* **Descritor de Estrutura**: Define a estrutura básica do documento EDI, incluindo a ordenação de segmentos, campos obrigatórios e qualificadores necessários para que o documento EDI seja válido.
+* **Transformação**: Especifica as transformações aplicadas para converter os dados do documento em uma mensagem formatada em EDI. Isso geralmente envolve a especificação de mapeamentos de campos do documento para segmentos e elementos EDI.
 * **Visualização**: Permite que os administradores vejam como a mensagem EDI ficará após a transformação, ajudando a garantir a precisão antes da transmissão.
 * **Caminhos de Extração**: Mostra os caminhos usados para extrair valores do documento, que são então usados para preencher a mensagem EDI.
 2. **Editor XSLT**:
