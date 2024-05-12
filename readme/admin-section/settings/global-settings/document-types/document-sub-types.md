@@ -4,13 +4,13 @@
 
 #### Przegląd
 
-Typy Dokumentów to w zasadzie specjalizowane wersje głównych typów dokumentów. Na przykład, pod głównym typem dokumentu "Faktura", mogą istnieć podtypy takie jak "Standardowa Faktura", "Faktura Pro-forma" i "Faktura Kredytowa", z różnymi wymaganiami dotyczącymi danych lub regułami przetwarzania.
+Typy Dokumentów to w zasadzie specjalizowane wersje głównych typów dokumentów. Na przykład, pod głównym typem dokumentu "Faktura" mogą istnieć podtypy takie jak "Standardowa Faktura," "Faktura Pro-forma," i "Faktura Kredytowa," każda z nieco innymi wymaganiami dotyczącymi danych lub regułami przetwarzania.
 
 #### Główne Funkcje i Opcje
 
 1. **Lista Podtypów**:
 * Każdy wiersz reprezentuje podtyp głównego typu dokumentu.
-* Zawiera nazwę podtypu i zestaw działań, które można na nim wykonać.
+* Zawiera nazwę podtypu oraz zestaw działań, które można na nim wykonać.
 2. **Działania**:
 * **Pola**: Konfiguruj, które pola danych są zawarte w podtypie i jak są nimi zarządzane.
 * **Edytuj Układ**: Modyfikuj wizualny układ, w jaki sposób informacje są wyświetlane i wprowadzane dla tego podtypu.

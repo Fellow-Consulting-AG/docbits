@@ -9,13 +9,13 @@ Obszar Więcej ustawień umożliwia administratorom konfigurowanie różnych asp
 #### Główne funkcje i opcje
 
 1. **Ekstrakcja tabel**:
-* **Pomiń walidację tabeli**: Umożliwia pominięcie procesu walidacji danych tabelarycznych, co może być przydatne w sytuacjach, gdzie walidacja danych musi być elastyczna.
+* **Pomiń walidację tabel**: Umożliwia pominięcie procesu walidacji danych tabelarycznych, co może być przydatne w sytuacjach, gdzie walidacja danych musi być elastyczna.
 2. **W przeglądzie**:
 * **Projektuj formularz w przeglądzie**: Konfiguruje układ i pola, które pojawiają się w formularzach przeglądowych używanych podczas procesu przeglądu dokumentów.
 3. **Generowanie plików PDF**:
 * **Projektuj szablon**: Określa szablon używany do generowania wersji PDF dokumentów, co może być kluczowe dla archiwizacji lub komunikacji zewnętrznej.
-4. **Zatwierdzanie**:
-* **Zatwierdź przed wyeksportowaniem**: Zapewnia, że dokumenty muszą zostać zatwierdzone przed ich wyeksportowaniem z systemu.
+4. **Zatwierdzenie**:
+* **Zatwierdź przed wyeksportowaniem**: Zapewnia, że dokumenty muszą zostać zatwierdzone przed wyeksportowaniem z systemu.
 * **Drugie zatwierdzenie**: Dodaje dodatkową warstwę zatwierdzenia dla dalszej walidacji, zwiększając kontrolę nad przetwarzaniem dokumentów.
 5. **Zamówienie zakupu / Automatyczna księgowość**:
 * **Tabela PO w kreatorze układu**: Umożliwia dodanie tabel zamówień zakupu do kreatora układu w celu dostosowania układów dokumentów.

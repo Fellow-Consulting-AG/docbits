@@ -4,7 +4,7 @@
 
 #### Przegląd
 
-Ustawienie Pola zapewnia interfejs użytkownika, w którym administratorzy mogą zarządzać właściwościami i zachowaniem poszczególnych pól danych związanych z typem dokumentu. Każde pole można dostosować, aby zoptymalizować dokładność i wydajność przechwytywania danych oraz walidacji.
+Ustawienie Pola zapewnia interfejs użytkownika, w którym administratorzy mogą zarządzać właściwościami i zachowaniem poszczególnych pól danych powiązanych z typem dokumentu. Każde pole można dostosować, aby zoptymalizować dokładność i wydajność przechwytywania danych oraz walidacji.
 
 #### Główne funkcje i opcje
 
