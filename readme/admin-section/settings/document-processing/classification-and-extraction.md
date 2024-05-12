@@ -2,7 +2,7 @@
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.10.49.png" alt=""><figcaption></figcaption></figure>
 
-As configurações de "Classificação e Extração" no seu sistema de processamento de documentos fornecem opções para configurar como os documentos são manipulados automaticamente ao serem inseridos:
+As configurações de "Classificação e Extração" no seu sistema de processamento de documentos fornecem opções para configurar como os documentos são tratados automaticamente ao serem inseridos:
 
 1. **Divisão de Documentos**: Essa configuração permite que você escolha se deseja dividir os documentos com base em critérios específicos ou mantê-los como um único documento. Isso pode ser útil ao processar documentos que possuem várias seções distintas, mas são carregados como um único arquivo.
 2. **Formatação de Quantidade**: Aqui, você pode habilitar opções como arredondamento dos valores totais em pedidos. Isso garante que os dados extraídos estejam alinhados com os formatos e regras financeiras esperadas, reduzindo erros no processamento financeiro.

@@ -7,7 +7,7 @@ As configurações de "Importação" no seu sistema de processamento de document
 1. **Configurações do Documento**:
    - **Restringir a páginas**: Isso permite limitar o processamento a um certo número de páginas de cada documento.
    - **Dias de Termos de Pagamento**: Define os termos de pagamento padrão (em dias) que podem ser aplicados aos documentos.
-   - **Padrão de Data**: Define o padrão de como as datas devem ser reconhecidas e formatadas dentro dos documentos importados.
+   - **Padrão de Data**: Define o padrão para como as datas devem ser reconhecidas e formatadas dentro dos documentos importados.
    
 2. **Importação FTP**:
    - **Tipo**: Define o tipo de protocolo FTP a ser usado (por exemplo, SFTP).
@@ -24,9 +24,9 @@ A opção adicional de adicionar novos dados inclui campos como:
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.45.png" alt=""><figcaption></figcaption></figure>
 
 1. **Importação por E-mail**:
-   - **Endereço de E-mail**: Configurar uma conta de e-mail para onde os documentos podem ser enviados para importação.
+   - **Endereço de E-mail**: Configure uma conta de e-mail para onde os documentos podem ser enviados para importação.
    - **Nome de Usuário e Senha**: Credenciais para acessar a conta de e-mail.
-   - **Protocolo e Criptografia**: Especificar o protocolo (IMAP, POP3) e o tipo de criptografia.
+   - **Protocolo e Criptografia**: Especifique o protocolo (IMAP, POP3) e o tipo de criptografia.
    - **Mesclar documentos anexados**: Opção para combinar todos os documentos anexados em um único documento durante a importação.
 
 Isso também permite especificar sub-organizações para um controle mais preciso sobre para onde os e-mails são direcionados dentro da estrutura organizacional.
