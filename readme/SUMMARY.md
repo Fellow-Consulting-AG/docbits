@@ -14,6 +14,7 @@
     * [Import Log](overview/dashboard/import-log.md)
     * [Leave with ESC](overview/dashboard/leave-with-esc.md)
     * [Overview of Uploaded Documents](overview/dashboard/overview-of-uploaded-documents.md)
+    * [AI Table](readme-1/ai-table.md)
     * [Task Counter](overview/dashboard/task-counter.md)
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
