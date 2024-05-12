@@ -9,7 +9,7 @@
 5. **Estado**: O estado ou região onde a empresa está sediada.
 6. **País**: O país de operação da empresa.
 7. **ID da Empresa**: Um identificador único para a empresa, que pode ser usado internamente ou para integrações com outros sistemas.
-8. **ID de Imposto**: O número de identificação fiscal da empresa, importante para operações financeiras e relatórios.
+8. **ID Fiscal**: O número de identificação fiscal da empresa, importante para operações financeiras e relatórios.
 9. **ID do Registro Comercial**: O número de registro da empresa no registro comercial, que pode ser importante para documentação legal e oficial.
 10. **Número de Telefone Oficial da Empresa**: O número de contato principal da empresa.
 11. **E-mail Oficial da Empresa**: O endereço de e-mail principal que será usado para comunicações oficiais.
