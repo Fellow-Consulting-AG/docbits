@@ -8,6 +8,7 @@ Belge işleme sisteminizdeki "İçe Aktar" ayarları, belgelerin çeşitli kayna
    * **Sayfalara Sınırla**: Bu, her belgeden belirli bir sayıda sayfaya işlem yapmanıza olanak tanır.
    * **Ödeme Koşulları Günleri**: Belgelere uygulanabilecek varsayılan ödeme koşullarını (gün cinsinden) tanımlar.
    * **Tarih Deseni**: İçe aktarılan belgelerde tarihlerin nasıl tanınacağını ve biçimlendirileceğini belirler.
+   
 2. **FTP İçe Aktar**:
 
    * **Tür**: Kullanılacak FTP protokol türünü tanımlar (örneğin, SFTP).
@@ -15,7 +16,7 @@ Belge işleme sisteminizdeki "İçe Aktar" ayarları, belgelerin çeşitli kayna
    * **Kullanıcı Adı ve Port**: FTP sunucusuna erişim için kimlik bilgileri ve port numarası.
    * **Varsayılan Dizin**: Dosyaların içe aktarılacağı FTP sunucusundaki dizini belirtir.
 
-Yeni veri eklemek için ek seçenekler şunları içerir:
+Yeni veri eklemek için ek seçenekler arasında şunlar bulunur:
 
    * **Şifre**: Kimlik doğrulama için.
    * **Dosya adı eşleme desenleri**: İsimlerine göre hangi dosyaların içe aktarılacağını belirtmek için.
@@ -28,8 +29,8 @@ Yeni veri eklemek için ek seçenekler şunları içerir:
    * **E-posta Adresi**: İçe aktarma için belgelerin gönderilebileceği bir e-posta hesabı kurun.
    * **Kullanıcı Adı ve Şifre**: E-posta hesabına erişim için kimlik bilgileri.
    * **Protokol ve Şifreleme**: Protokolü (IMAP, POP3) ve şifreleme türünü belirtin.
-   * **Ekli belgeleri birleştir**: İçe aktarma sırasında tüm ekli belgeleri tek bir belge haline getirme seçeneği.
+   * **Ekli belgeleri birleştir**: İçe aktarma sırasında tüm ekli belgeleri tek bir belge halinde birleştirme seçeneği.
 
-Bu ayrıca, e-postaların kuruluş yapınız içinde nereye yönlendirileceği konusunda daha hassas kontrol sağlamak için alt-organizasyonları belirtmeyi de mümkün kılar.
+Bu ayrıca, e-postaların kuruluş yapınız içinde nereye yönlendirileceği konusunda daha hassas kontrol sağlamak için alt-organizasyonları belirtmeye olanak tanır.
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.56.png" alt=""><figcaption></figcaption></figure>

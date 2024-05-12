@@ -8,9 +8,9 @@ Belge İşleme ayarlarının "Dışa Aktarma Ayarları" bölümünde, belgelerin
 2. **Yapılandırma Detayları**:
    * SFTP için genellikle sunucu URL'si, kullanıcı adı, şifre ve belgelerin yükleneceği hedef klasörü belirtmeniz gerekir.
    * Infor entegrasyonları için, belgelerin doğru şekilde işlenmesini ve Infor ekosistemine gönderilmesini sağlamak için belirli eşlemeleri yapılandırmanız veya API anahtarları sağlamanız gerekebilir, mevcut veri yapısı ve akışlarıyla uyumlu olacak şekilde.
-3. **Özelleştirme**: Belge türüne (örneğin, faturalar, sipariş onayları) ve alt kuruluşa bağlı olarak, farklı dışa aktarma ayarları, değişen iş kurallarını veya uyumluluk gereksinimlerini karşılamak üzere yapılandırılabilir.
-4. **Entegrasyon Esnekliği**: Arayüz, kullanıcıların çeşitli belge türlerini ve hedefleri verimli bir şekilde işlemelerine olanak tanıyan birden fazla entegrasyon kurulumunun aynı anda etkin olmasına izin verir. Bu modüler yapı, işletmenin farklı bölümlerinin birbirlerini etkilemeden özelleştirilmiş iş akışlarını kullanmasını sağlar.
-5. **Yapılandırmalar Ekleme ve Düzenleme**: Kullanıcılar, belge türü, dışa aktarma yöntemi ve seçilen dışa aktarma yöntemine özgü kimlik bilgileri veya ayarlar gibi ayrıntıları belirterek yeni yapılandırmalar ekleyebilir veya mevcut olanları düzenleyebilir.
+3. **Özelleştirme**: Belge türüne (örneğin, faturalar, sipariş onayları) ve alt örgütüne bağlı olarak, farklı dışa aktarma ayarları, değişen iş kurallarını veya uyumluluk gereksinimlerini karşılamak üzere yapılandırılabilir.
+4. **Entegrasyon Esnekliği**: Arayüz, birden fazla entegrasyon kurulumunun aynı anda etkin olmasına izin verir, kullanıcıların çeşitli belge türleri ve hedeflere etkin bir şekilde işlemesine olanak tanır. Bu modüler yapı, işletmenin farklı bölümlerinin birbirlerini etkilemeden özelleştirilmiş iş akışlarını kullanmasını sağlar.
+5. **Yapılandırmalar Ekleme ve Düzenleme**: Kullanıcılar, belge türü, dışa aktarma yöntemi ve seçilen dışa aktarma yöntemine özgü kimlik bilgileri veya ayarları gibi ayrıntıları belirterek yeni yapılandırmalar ekleyebilir veya mevcut olanları düzenleyebilir.
 
 \
 
