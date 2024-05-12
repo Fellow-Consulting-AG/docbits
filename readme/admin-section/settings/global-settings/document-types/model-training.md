@@ -20,3 +20,5 @@ Obuka modela omogućava administratorima da nadgledaju i upravljaju obukom model
 3. **Dugmad za akcije**:
 * **Kreiraj polje**: Dodajte nova polja podataka koja model treba prepoznati i izvući.
 * **Akcije**: Ovaj padajući meni može sadržati opcije poput pregleda detalja, uređivanja konfiguracija ili brisanja podataka za obuku.
+
+{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2496" %}
