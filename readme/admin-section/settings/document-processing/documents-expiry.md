@@ -2,7 +2,7 @@
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.17.png" alt=""><figcaption></figcaption></figure>
 
-En la configuración de "Vencimiento de Documentos" dentro de la sección de "PROCESAMIENTO DE DOCUMENTOS", puedes configurar los horarios de eliminación automática para tus documentos dentro del sistema. Esta función es particularmente útil para gestionar políticas de retención de datos y garantizar el cumplimiento de normas legales u organizativas con respecto al almacenamiento de documentos.
+En la configuración de "Vencimiento de Documentos" dentro de la sección "PROCESAMIENTO DE DOCUMENTOS", puedes configurar los horarios de eliminación automática para tus documentos dentro del sistema. Esta función es particularmente útil para gestionar políticas de retención de datos y garantizar el cumplimiento de normas legales u organizativas con respecto al almacenamiento de documentos.
 
 Esto es lo que hace cada configuración:
 
