@@ -4,7 +4,7 @@
 
 #### Übersicht
 
-Die Felder-Einstellung bietet eine Benutzeroberfläche, über die Administratoren die Eigenschaften und das Verhalten einzelner Datenfelder verwalten können, die mit einem Dokumententyp verbunden sind. Jedes Feld kann angepasst werden, um die Genauigkeit und Effizienz der Datenerfassung und -validierung zu optimieren.
+Die Felder-Einstellung bietet eine Benutzeroberfläche, über die Administratoren die Eigenschaften und das Verhalten einzelner Datenfelder verwalten können, die mit einem Dokumententyp verknüpft sind. Jedes Feld kann angepasst werden, um die Genauigkeit und Effizienz der Datenerfassung und -validierung zu optimieren.
 
 #### Hauptfunktionen und Optionen
 
@@ -12,7 +12,7 @@ Die Felder-Einstellung bietet eine Benutzeroberfläche, über die Administratore
 * **Feldnamen**: Listet die Namen der Felder auf, die in der Regel den Datenelementen im Dokument entsprechen, wie z.B. "Rechnungsnummer" oder "Bestelldatum".
 * **Erforderlich**: Administratoren können Felder als erforderlich markieren, um sicherzustellen, dass Daten für diese Felder eingegeben oder erfasst werden müssen, um die Dokumentenverarbeitung abzuschließen.
 * **Schreibgeschützt**: Felder können auf schreibgeschützt gesetzt werden, um Änderungen nach der Datenerfassung oder während bestimmter Phasen der Dokumentenverarbeitung zu verhindern.
-* **Versteckt**: Felder können in der Benutzeroberfläche ausgeblendet werden, was für sensible Informationen oder zur Vereinfachung der Benutzerabläufe nützlich ist.
+* **Versteckt**: Felder können in der Benutzeroberfläche ausgeblendet werden, was für sensible Informationen oder zur Vereinfachung der Benutzerworkflows nützlich ist.
 2. **Erweiterte Einstellungen**:
 * **Validierung erzwingen**: Stellt sicher, dass die in ein Feld eingegebenen Daten bestimmte Validierungsregeln bestehen, bevor sie akzeptiert werden.
 * **OCR (Optische Zeichenerkennung)**: Dieser Schalter kann aktiviert werden, um die OCR-Verarbeitung für ein bestimmtes Feld zu ermöglichen, was für die automatisierte Datenauslese aus gescannten oder digitalen Dokumenten nützlich ist.

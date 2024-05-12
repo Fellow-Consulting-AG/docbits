@@ -15,10 +15,10 @@ Dokumentenuntertypen sind im Wesentlichen spezialisierte Versionen der Hauptdoku
 * **Felder**: Konfigurieren, welche Datenfelder im Untertyp enthalten sind und wie sie verwaltet werden.
 * **Layout bearbeiten**: Ändern Sie das visuelle Layout, wie Informationen für diesen Untertyp angezeigt und eingegeben werden.
 * **Skripte**: Anhängen oder bearbeiten Sie Skripte, die spezifische Operationen ausführen, wenn Dokumente dieses Untertyps verarbeitet werden.
-* **Kopieren**: Duplizieren Sie eine vorhandene Untertypkonfiguration, um sie als Basis für eine neue zu verwenden.
+* **Kopieren**: Duplizieren Sie eine vorhandene Untertypkonfiguration, um sie als Grundlage für eine neue zu verwenden.
 * **Löschen**: Entfernen Sie den Untertyp, wenn er nicht mehr benötigt wird.
 3. **Hinzufügen neuer Untertypen**:
-* Die Schaltfläche "+ Neu" ermöglicht es Administratoren, neue Untertypen zu erstellen, indem sie nach Bedarf eindeutige Eigenschaften und Regeln definieren.
+* Die Schaltfläche "+ Neu" ermöglicht es Administratoren, neue Untertypen zu erstellen, indem sie bei Bedarf eindeutige Eigenschaften und Regeln definieren.
 
 Dokumentenuntertypen in DocBits bieten eine flexible und leistungsstarke Möglichkeit, eine Vielzahl von Dokumenten innerhalb eines einzigen Systems zu verarbeiten, um sicherzustellen, dass jeder Typ und Untertyp gemäß seinen einzigartigen Spezifikationen genau und effizient verarbeitet wird.
 

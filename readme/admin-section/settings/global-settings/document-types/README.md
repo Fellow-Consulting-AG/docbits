@@ -11,7 +11,7 @@ Der Abschnitt Dokumententypen listet alle von Docbits erkannten und verarbeitete
 1. **Liste der Dokumententypen**:
 * Jede Zeile repräsentiert einen Dokumententyp wie Rechnung, Gutschrift, Lieferschein usw.
 * Dokumententypen können Standard- oder benutzerdefiniert sein, wie durch Bezeichnungen wie "Standard" angezeigt.
-2. **Layout bearbeiten**: Diese Option ermöglicht es Administratoren, die Einstellungen des Dokumentenlayouts zu ändern, einschließlich der Definition, wie das Dokument angezeigt wird und wo sich Datenfelder befinden.
+2. **Layout bearbeiten**: Diese Option ermöglicht es Administratoren, die Einstellungen des Dokumentenlayouts zu ändern, einschließlich der Definition, wie das Dokument erscheint und wo sich Datenfelder befinden.
 3. **Dokumentenuntertypen**: Wenn Dokumententypen Unterkategorien haben, können Administratoren mit dieser Option Einstellungen konfigurieren, die spezifisch für jeden Untertyp sind.
 4. **Tabellenspalten**: Passen Sie an, welche Datenspalten angezeigt werden sollen, wenn der Dokumententyp in Listen oder Berichten angezeigt wird.
 5. **Felder**: Verwalten Sie die mit dem Dokumententyp verbundenen Datenfelder, einschließlich Hinzufügen neuer Felder oder Ändern vorhandener.
