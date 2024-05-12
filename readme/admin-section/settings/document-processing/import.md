@@ -2,7 +2,7 @@
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.36.png" alt=""><figcaption></figcaption></figure>
 
-Les paramètres "Import" de votre système de traitement de documents vous permettent de configurer comment les documents sont importés dans le système à partir de différentes sources, y compris les paramètres pour le FTP (File Transfer Protocol) et les e-mails. Voici un aperçu de ces paramètres :
+Les paramètres "Import" de votre système de traitement de documents vous permettent de configurer comment les documents sont importés dans le système à partir de différentes sources, y compris les paramètres pour le FTP (protocole de transfert de fichiers) et les e-mails. Voici un aperçu de ces paramètres :
 
 1. **Paramètres du document** :
 * **Restreindre aux pages** : Cela vous permet de limiter le traitement à un certain nombre de pages de chaque document.

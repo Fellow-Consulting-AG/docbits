@@ -10,5 +10,5 @@
 3. **Paramètres OCR pour les tables**:
 * **Utiliser les données AI pour les tables si disponibles** : Ce paramètre permet d'utiliser les technologies de l'IA pour mieux reconnaître et extraire les tables des documents numérisés, en exploitant des modèles d'apprentissage automatique pour identifier et structurer avec précision les données tabulaires.
 4. **Paramètres OCR pour les champs d'en-tête**:
-* **Utiliser l'extraction de règles** : Lorsqu'il est activé, ce paramètre permet au système d'appliquer des règles prédéfinies pour extraire des données des champs d'en-tête, ce qui peut être crucial pour identifier correctement les sections du document telles que les numéros de facture, les dates, etc.
-* **Utiliser l'extraction AI** : Cette option utilise des modèles d'IA pour extraire intelligemment les champs d'en-tête, ce qui peut être plus adaptable aux variations dans les mises en page et les styles des documents.
+* **Utiliser l'extraction de règles** : Lorsqu'il est activé, ce paramètre permet au système d'appliquer des règles prédéfinies pour extraire des données des champs d'en-tête, ce qui peut être crucial pour identifier correctement des sections de documents telles que les numéros de facture, les dates, etc.
+* **Utiliser l'extraction AI** : Cette option utilise des modèles d'IA pour extraire intelligemment les champs d'en-tête, ce qui peut être plus adaptable aux variations dans les mises en page et les styles de documents.

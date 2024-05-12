@@ -2,7 +2,7 @@
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.51.28.png" alt=""><figcaption></figcaption></figure>
 
-Dans la section "Paramètres d'exportation" des paramètres de traitement de document, vous gérez la manière dont les documents sont exportés après traitement. Cela inclut la configuration de diverses méthodes d'exportation adaptées à des besoins spécifiques, telles que les transferts de fichiers directs ou l'intégration avec des systèmes d'entreprise comme Infor. Voici un aperçu des options et fonctionnalités de ce paramètre :
+Dans la section "Paramètres d'exportation" des paramètres de traitement de document, vous gérez la manière dont les documents sont exportés après traitement. Cela inclut la configuration de diverses méthodes d'exportation adaptées à des besoins spécifiques, tels que les transferts de fichiers directs ou l'intégration avec des systèmes d'entreprise comme Infor. Voici un aperçu des options et fonctionnalités de ce paramètre :
 
 1. **Sélection de la méthode d'exportation** : Vous pouvez choisir comment les documents doivent être exportés. Les méthodes courantes incluent SFTP, les webhooks et l'intégration directe avec des systèmes comme Infor IDM (Infor Document Management), Infor ION (Intelligent Open Network) et d'autres options liées à Infor. Chaque méthode prend en charge différents types de flux de travail et exigences d'intégration.
 2. **Détails de configuration** :
