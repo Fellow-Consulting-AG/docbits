@@ -4,7 +4,7 @@
 
 #### Przegląd
 
-W DocBits, ustawienia EDI zapewniają narzędzia do definiowania i zarządzania strukturą oraz formatem komunikatów EDI odpowiadających różnym typom dokumentów, takim jak faktury czy zamówienia zakupu. Ustawienia umożliwiają dostosowanie komunikatów EDI do standardów i wymagań określonych dla różnych partnerów handlowych i branż.
+W DocBits ustawienia EDI zapewniają narzędzia do definiowania i zarządzania strukturą oraz formatem komunikatów EDI odpowiadających różnym typom dokumentów, takim jak faktury czy zamówienia zakupu. Ustawienia umożliwiają dostosowanie komunikatów EDI do standardów i wymagań określonych dla różnych partnerów handlowych i branż.
 
 #### Główne funkcje i opcje
 
