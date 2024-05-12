@@ -19,13 +19,13 @@
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.17.png" alt=""><figcaption></figcaption></figure>
 
 * **Workflow-Builder**: Ein Tool zum Erstellen und Anpassen von Workflows innerhalb von DocBits, das es Benutzern ermöglicht, spezifische Prozesse zu definieren und die Dokumentenverarbeitung gemäß ihren individuellen Geschäftsanforderungen zu automatisieren.
-* **Layout-Builder**: Ermöglicht es Benutzern, das Layout von Dokumenten innerhalb von DocBits zu entwerfen und anzupassen, um die Einhaltung von Branding- und Benutzerfreundlichkeitsstandards sicherzustellen.
-* **Annotation-Modus**: Eine Funktion, die es Benutzern ermöglicht, Dokumente direkt innerhalb der DocBits-Benutzeroberfläche zu annotieren und zu markieren, um die Zusammenarbeit und das Feedback zu erleichtern.
+* **Layout-Builder**: Ermöglicht es Benutzern, das Layout von Dokumenten innerhalb von DocBits zu entwerfen und anzupassen, um die Einhaltung von Branding- und Usability-Standards sicherzustellen.
+* **Annotation-Modus**: Ein Feature, das es Benutzern ermöglicht, Dokumente direkt innerhalb der DocBits-Benutzeroberfläche zu annotieren und zu markieren, um die Zusammenarbeit und das Feedback zu erleichtern.
 * **Bericht anzeigen**: Funktionalität zum Generieren und Anzeigen von Berichten innerhalb von DocBits, die Einblicke und Analysen zu verschiedenen Aspekten der Dokumentenverarbeitung und -verwaltung bieten.
 * **Modelle & Labels**: Tools zur Definition und Konfiguration von Dokumentenerkennungsmodellen und -labels innerhalb von DocBits, um die Genauigkeit und Effizienz bei der Dokumentenverarbeitung zu verbessern.
-* **Dokumentskript**: Wahrscheinlich eine Funktion zum Skripten und Automatisieren spezifischer Aktionen oder Prozesse im Zusammenhang mit der Dokumentenverarbeitung innerhalb von DocBits.
+* **Dokumentskript**: Wahrscheinlich ein Feature zum Skripten und Automatisieren spezifischer Aktionen oder Prozesse im Zusammenhang mit der Dokumentenverarbeitung innerhalb von DocBits.
 * **Dokumentscan**: Fähigkeit zum Scannen physischer Dokumente und Importieren in DocBits zur digitalen Verarbeitung und Verwaltung.
-* **QR-Code-Extraktion**: Eine Funktion zum Extrahieren von Informationen aus in Dokumenten eingebetteten QR-Codes, um die automatisierte Datenerfassung und -verarbeitung zu ermöglichen.
-* **Benutzerdefinierte Stammdateien**: Ermöglicht es Benutzern, benutzerdefinierte Stammdateifelder und -attribute innerhalb von DocBits zu definieren und zu verwalten, um das System an ihre spezifischen Geschäftsanforderungen anzupassen.
+* **QR-Code-Extraktion**: Ein Feature zur Extraktion von Informationen aus in Dokumenten eingebetteten QR-Codes, um die automatisierte Datenerfassung und -verarbeitung zu ermöglichen.
+* **Benutzerdefinierte Stammdaten**: Ermöglicht es Benutzern, benutzerdefinierte Stammdatenfelder und Attribute innerhalb von DocBits zu definieren und zu verwalten, um das System an ihre spezifischen Geschäftsanforderungen anzupassen.
 * **Aufgaben & Benachrichtigungen**: Funktionalität zur Verwaltung von Aufgaben und zum Empfangen von Benachrichtigungen innerhalb von DocBits, um eine rechtzeitige Aktion und Kommunikation in Bezug auf Dokumentenverarbeitungsaktivitäten sicherzustellen.
-* **IDM ACL-Updater**: Dieses Modul befasst sich wahrscheinlich mit der Aktualisierung und Verwaltung von Zugriffskontrollisten (ACLs) innerhalb von DocBits, um angemessene Berechtigungen und Sicherheit für den Dokumentenzugriff und -handling zu gewährleisten.
+* **IDM ACL Updater**: Dieses Modul befasst sich wahrscheinlich mit der Aktualisierung und Verwaltung von Zugriffskontrollisten (ACLs) innerhalb von DocBits, um angemessene Berechtigungen und Sicherheit für den Dokumentenzugriff und -handling zu gewährleisten.
