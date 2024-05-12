@@ -38,7 +38,7 @@
         * [IDM ACL Updater](overview/settings/document-processing/module/idm-acl-updater.md)
         * [Swiss QR Code](overview/settings/document-processing/module/swiss-qr-code.md)
     * [Global Settings](overview/settings/global-settings/README.md)
-      * [Company Information](overview/settings/global-settings/company-information.md)
+      * [Firmeninformationen](overview/settings/global-settings/company-information.md)
       * [Custom Filters](overview/settings/global-settings/custom-filters.md)
       * [Document Expiry](overview/settings/global-settings/document-expiry.md)
       * [Document Types](overview/settings/global-settings/document-types.md)
