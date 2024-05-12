@@ -14,6 +14,6 @@
 10. **Resmi Şirket Telefon Numarası**: Şirket için birincil iletişim numarası.
 11. **Resmi Şirket E-posta**: Resmi iletişimlerde kullanılacak ana e-posta adresi.
 
-Buraya girilen bilgiler, faturalar, resmi yazışmalar ve raporların doğru şekilde şirket detaylarıyla biçimlendirilmesini sağlamak için kritik olabilir. Ayrıca, şirketin çeşitli dış iletişimlerde ve belgelerde nasıl temsil edildiğini tutarlı bir şekilde sürdürmeye yardımcı olur. Bilgileri girdikten veya güncelledikten sonra yönetici, tüm değişikliklerin sistem genelinde uygulandığından emin olmak için "Kaydet" düğmesine tıklayarak değişiklikleri kaydetmelidir.
+Buraya girilen bilgiler, faturalar, resmi yazışmalar ve raporların doğru şekilde şirket detaylarıyla biçimlendirilmesini sağlamak için kritik olabilir. Ayrıca, şirketin çeşitli dış iletişimlerde ve belgelerde nasıl temsil edildiğinin tutarlılığını sağlamaya yardımcı olur. Bilgileri girdikten veya güncelledikten sonra, yöneticinin tüm değişikliklerin sistem genelinde uygulandığından emin olmak için "Kaydet" düğmesine tıklaması gerekir.
 
 Ek olarak, bölüm, abonelik planının ne kadar süre kaldığını, başlangıç ve bitiş tarihlerini ve hizmet jetonlarının tahsis edilen miktarına karşı tüketimini izleyen bir abonelik kullanım ölçerini gösterir. Bu, yöneticilerin abonelik yenilemelerini veya yükseltmelerini kullanım trendlerine göre izlemelerine ve planlamalarına yardımcı olabilir.
