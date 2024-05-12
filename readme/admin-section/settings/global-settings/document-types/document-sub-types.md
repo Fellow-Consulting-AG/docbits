@@ -20,6 +20,6 @@ I Tipi di Documenti Secondari sono essenzialmente versioni specializzate dei pri
 3. **Aggiunta di Nuovi Tipi Secondari**:
 * Il pulsante "+ Nuovo" consente agli amministratori di creare nuovi tipi secondari, definendo proprietà e regole uniche secondo necessità.
 
-I Tipi di Documenti Secondari in DocBits forniscono un modo flessibile e potente per gestire una varietà di documenti all'interno di un unico sistema, garantendo che ciascun tipo e tipo secondario venga elaborato in modo accurato ed efficiente secondo le sue specifiche uniche.
+I Tipi di Documenti Secondari in Docbits forniscono un modo flessibile e potente per gestire una varietà di documenti all'interno di un singolo sistema, garantendo che ciascun tipo e tipo secondario venga elaborato in modo accurato ed efficiente secondo le sue specifiche uniche.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2492" %}

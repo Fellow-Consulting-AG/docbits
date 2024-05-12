@@ -4,7 +4,7 @@
 
 #### Panoramica
 
-La sezione Tipi di Documenti elenca tutti i tipi di documenti riconosciuti e elaborati da Docbits. Gli amministratori possono gestire vari aspetti come il layout, le definizioni dei campi, le regole di estrazione e altro ancora per ciascun tipo di documento. Questa personalizzazione è fondamentale per garantire una gestione accurata dei dati e la conformità agli standard organizzativi.
+La sezione Tipi di Documenti elenca tutti i tipi di documenti riconosciuti e elaborati da Docbits. Gli amministratori possono gestire vari aspetti come il layout, le definizioni dei campi, le regole di estrazione e altro ancora per ciascun tipo di documento. Questa personalizzazione è fondamentale per garantire un'accurata gestione dei dati e la conformità agli standard organizzativi.
 
 #### Funzionalità Chiave e Opzioni
 
