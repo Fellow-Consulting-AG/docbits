@@ -16,7 +16,6 @@
     * [Overview of Uploaded Documents](overview/dashboard/overview-of-uploaded-documents.md)
     * [Task Counter](overview/dashboard/task-counter.md)
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
-  * [AI Table](readme-1/ai-table.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
     * [Manual Import](overview/how-to-import-documents/manual-import.md)
