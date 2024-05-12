@@ -51,7 +51,7 @@
         * [Regex](admin-section/settings/global-settings/document-types/regex.md)
         * [Script](admin-section/settings/global-settings/document-types/script.md)
         * [EDI](admin-section/settings/global-settings/document-types/edi.md)
-        * [More Settings](admin-section/settings/global-settings/document-types/
+        * [More Settings](admin-section/settings/global-settings/document-types/)
       * [Email Notification](overview/settings/global-settings/email-notification.md)
       * [Custom Filters](overview/settings/global-settings/page-1.md)
       * [Groups, Users and Permissions](overview/settings/global-settings/groups-users-and-permissions/README.md)
