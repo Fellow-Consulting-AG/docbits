@@ -1,1 +1,1 @@
-# Dok Skripta
+# Doc Skripta
