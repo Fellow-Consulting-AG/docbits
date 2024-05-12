@@ -2,7 +2,7 @@
 
 * [DocBits](README.md)
 * [Erste Schritte](<README (1).md>)
-  * [Key Features of DocBits](overview/key-features-of-docbits.md)
+  * [Wesentliche Merkmale von DocBits](overview/key-features-of-docbits.md)
   * [User Support](overview/user-support.md)
   * [Dashboard](overview/dashboard/README.md)
     * [Dashboard Tools](overview/dashboard/dashboard-tools.md)
