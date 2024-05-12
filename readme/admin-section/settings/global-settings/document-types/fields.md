@@ -6,7 +6,7 @@
 
 Le paramètre Champs fournit une interface utilisateur où les administrateurs peuvent gérer les propriétés et le comportement des champs de données individuels associés à un type de document. Chaque champ peut être ajusté pour optimiser la précision et l'efficacité de la capture et de la validation des données.
 
-#### Fonctionnalités clés et options
+#### Fonctionnalités clés et Options
 
 1. **Configuration des Champs**:
 * **Noms des Champs**: Liste les noms des champs, correspondant généralement aux éléments de données dans le document, tels que "Numéro de Facture" ou "Date de Commande".
