@@ -14,7 +14,7 @@
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02.png" alt=""><figcaption></figcaption></figure>
 
-* **Portal dostawcy**: Portal w DocBits dedykowany dostawcom, umożliwiający im interakcję i współpracę z systemem, poprawiając komunikację i efektywność w łańcuchu dostaw.
+* **Portal dostawcy**: Portal w DocBits dedykowany dostawcom, umożliwiający im interakcję i współpracę z systemem, zwiększając komunikację i efektywność w łańcuchu dostaw.
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.17.png" alt=""><figcaption></figcaption></figure>
 
@@ -25,7 +25,7 @@
 * **Modele i etykiety**: Narzędzia do definiowania i konfigurowania modeli rozpoznawania dokumentów i etykiet w DocBits, zwiększające dokładność i efektywność w przetwarzaniu dokumentów.
 * **Skrypt dokumentu**: Prawdopodobnie funkcja do skryptowania i automatyzacji określonych działań lub procesów związanych z obsługą dokumentów w DocBits.
 * **Skanowanie dokumentów**: Możliwość skanowania dokumentów fizycznych i importowania ich do DocBits w celu cyfrowego przetwarzania i zarządzania nimi.
-* **Ekstrakcja kodów QR**: Funkcja do wyodrębniania informacji z kodów QR osadzonych w dokumentach, umożliwiająca automatyczne przechwytywanie danych i ich przetwarzanie.
-* **Niestandardowe dane główne**: Umożliwia użytkownikom definiowanie i zarządzanie niestandardowymi polami i atrybutami danych głównych w DocBits, dostosowując system do konkretnych potrzeb biznesowych.
+* **Ekstrakcja kodów QR**: Funkcja do wyodrębniania informacji z kodów QR osadzonych w dokumentach, umożliwiająca automatyczne przechwytywanie i przetwarzanie danych.
+* **Niestandardowe dane podstawowe**: Umożliwia użytkownikom definiowanie i zarządzanie niestandardowymi polami i atrybutami danych podstawowych w DocBits, dostosowując system do konkretnych potrzeb biznesowych.
 * **Zadania i powiadomienia**: Funkcjonalność do zarządzania zadaniami i otrzymywania powiadomień w DocBits, zapewniająca terminowe działania i komunikację dotyczącą działań związanych z przetwarzaniem dokumentów.
 * **IDM ACL Updater**: Ten moduł prawdopodobnie zajmuje się aktualizacją i zarządzaniem listami kontroli dostępu (ACL) w DocBits, zapewniając odpowiednie uprawnienia i bezpieczeństwo dostępu do dokumentów.
