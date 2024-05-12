@@ -4,7 +4,7 @@
 
 #### Panoramica
 
-In Docbits, le impostazioni EDI forniscono strumenti per definire e gestire la struttura e il formato dei messaggi EDI che corrispondono a vari tipi di documenti, come fatture o ordini di acquisto. Le impostazioni consentono la personalizzazione dei messaggi EDI per conformarsi agli standard e ai requisiti specifici dei diversi partner commerciali e settori industriali.
+In DocBits, le impostazioni EDI forniscono strumenti per definire e gestire la struttura e il formato dei messaggi EDI che corrispondono a vari tipi di documenti, come fatture o ordini di acquisto. Le impostazioni consentono la personalizzazione dei messaggi EDI per conformarsi agli standard e ai requisiti specifici dei diversi partner commerciali e settori.
 
 #### Funzionalità Chiave e Opzioni
 
