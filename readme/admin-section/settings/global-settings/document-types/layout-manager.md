@@ -10,7 +10,7 @@ O Gestor de Layout permite aos administradores configurar e modificar visualment
 
 1. **Grupos e Campos**:
 * **Grupos**: Unidades organizacionais dentro de um tipo de documento que categorizam campos relacionados (por exemplo, Detalhes da Fatura, Detalhes de Pagamento). Estes podem ser expandidos ou recolhidos e organizados para refletir o agrupamento lógico no documento real.
-* **Campos**: Pontos de dados individuais dentro de cada grupo (por exemplo, Número da Fatura, Termos de Pagamento). Cada campo pode ser personalizado para a forma como os dados são capturados, exibidos e processados.
+* **Campos**: Pontos de dados individuais dentro de cada grupo (por exemplo, Número da Fatura, Termos de Pagamento). Cada campo pode ser personalizado quanto à forma como os dados são capturados, exibidos e processados.
 2. **Painel de Propriedades**:
 * Este painel exibe as propriedades do campo ou grupo selecionado, permitindo uma configuração detalhada, como:
 * **Rótulo**: O rótulo visível para o campo na interface do usuário.

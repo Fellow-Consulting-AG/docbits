@@ -14,7 +14,7 @@ O Treinamento do Modelo permite aos administradores supervisionar e gerenciar o 
 * **Empresa Σ**: Número total de documentos específicos da empresa processados.
 * **Total Σ**: Número total de documentos processados em todas as categorias.
 2. **Opções de Treinamento e Teste**:
-* **Importar**: Permite aos administradores importar novos conjuntos de dados de treinamento, que são geralmente amostras estruturadas de documentos que devem ser reconhecidos pelo sistema.
+* **Importar**: Permite aos administradores importar novos conjuntos de dados de treinamento, que são tipicamente amostras estruturadas de documentos que devem ser reconhecidos pelo sistema.
 * **Treinar Modelo**: Inicia o processo de treinamento usando os dados importados para aprimorar as capacidades de reconhecimento e extração do sistema.
 * **Testar Classificação**: Permite testar o modelo para avaliar seu desempenho na classificação e extração de dados de documentos novos ou não vistos.
 3. **Botões de Ação**:

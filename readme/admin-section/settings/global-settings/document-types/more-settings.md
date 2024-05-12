@@ -9,9 +9,9 @@ A área de Mais Configurações permite aos administradores configurar vários a
 #### Recursos e Opções Principais
 
 1. **Extração de Tabelas**:
-* **Pular validação de tabela**: Permite ignorar o processo de validação de dados de tabela, o que pode ser útil em cenários onde a validação de dados precisa ser flexível.
+* **Pular validação de tabela**: Permite ignorar o processo de validação de dados da tabela, o que pode ser útil em cenários onde a validação de dados precisa ser flexível.
 2. **Em Revisão**:
-* **Design no Formulário de Revisão**: Configura o layout e os campos que aparecem nos formulários de revisão usados durante o processo de revisão de documentos.
+* **Design no Formulário de Revisão**: Configura o layout e os campos que aparecem nos formulários de revisão usados durante o processo de revisão do documento.
 3. **Geração de PDF**:
 * **Modelo de Design**: Especifica o modelo usado para gerar versões em PDF dos documentos, o que pode ser crucial para arquivamento ou comunicação externa.
 4. **Aprovação**:
@@ -24,6 +24,6 @@ A área de Mais Configurações permite aos administradores configurar vários a
 6. **Exportação Alternativa de Documentos**:
 * **Desativar status de PO**: Permite desativar certos status para pedidos de compra durante o processo de exportação, fornecendo flexibilidade na forma como os pedidos são tratados.
 7. **Mapeamento de Número de Item do Fornecedor**:
-* Uma configuração de utilitário que mapeia números de item do fornecedor para números de item internos, garantindo precisão no gerenciamento de inventário e pedidos de compra.
+* Uma configuração de utilitário que mapeia os números de item do fornecedor para os números de item internos, garantindo precisão na gestão de inventário e pedidos de compra.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2500" %}
