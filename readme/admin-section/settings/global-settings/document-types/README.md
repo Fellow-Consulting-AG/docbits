@@ -6,7 +6,7 @@
 
 Belge Türleri bölümü, Docbits tarafından tanınan ve işlenen tüm belge türlerini listeler. Yöneticiler, her belge türü için düzen, alan tanımları, çıkarma kuralları ve daha fazlasını yönetebilir. Bu özelleştirme, doğru veri işleme ve kurumsal standartlara uyumluluğun sağlanmasında önemlidir.
 
-#### Ana Özellikler ve Seçenekler
+#### Temel Özellikler ve Seçenekler
 
 1. **Belge Türü Listesi**:
 * Her satır, Fatura, Kredi Notu, Teslimat Bildirimi vb. gibi bir belge türünü temsil eder.
@@ -21,7 +21,7 @@ Belge Türleri bölümü, Docbits tarafından tanınan ve işlenen tüm belge t�
 9. **EDI (Elektronik Veri Değişimi)**: Standartlaştırılmış elektronik formatlarda belgelerin değişimine ilişkin ayarları yapılandırın.
 
 {% hint style="info" %}
-[Belge Türü Kurulumu'na](../../../setup/document-types/) bakın
+[Belge Türü Kurulumu'na](../../../setup/document-types/) bakın.
 {% endhint %}
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2489" %}

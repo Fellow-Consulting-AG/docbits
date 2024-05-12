@@ -4,7 +4,7 @@
 
 #### Genel Bakış
 
-Belge Alt Türleri, temel belge türlerinin özelleşmiş versiyonlarıdır. Örneğin, ana belge türü "Fatura" altında, "Standart Fatura," "Proforma Fatura" ve "Kredi Faturası" gibi alt türler olabilir, her biri biraz farklı veri gereksinimlerine veya işlem kurallarına sahip.
+Belge Alt Türleri, temel belge türlerinin özelleşmiş versiyonlarıdır. Örneğin, ana belge türü "Fatura" altında, "Standart Fatura," "Proforma Fatura" ve "Kredi Faturası" gibi alt tipler olabilir, her biri biraz farklı veri gereksinimlerine veya işleme kurallarına sahip.
 
 #### Ana Özellikler ve Seçenekler
 
@@ -14,7 +14,7 @@ Belge Alt Türleri, temel belge türlerinin özelleşmiş versiyonlarıdır. Ör
 2. **İşlemler**:
 * **Alanlar**: Alt türde hangi veri alanlarının dahil edileceğini ve nasıl yönetileceğini yapılandırın.
 * **Düzeni Düzenle**: Bilgilerin bu alt tür için nasıl görüntülendiği ve girildiği için görsel düzenlemeler yapın.
-* **Komut Dosyaları**: Bu alt tür belgeleri işlendiğinde belirli işlemleri yürüten komut dosyalarını ekleyin veya düzenleyin.
+* **Komut Dosyaları**: Bu alt tür belgeleri işlendiğinde belirli işlemleri gerçekleştiren komut dosyalarını ekleyin veya düzenleyin.
 * **Kopyala**: Yeni bir alt tür yapılandırması için temel olarak kullanılmak üzere mevcut bir alt tür yapılandırmasını çoğaltın.
 * **Sil**: Artık gerekli değilse alt türü kaldırın.
 3. **Yeni Alt Türler Ekleme**:

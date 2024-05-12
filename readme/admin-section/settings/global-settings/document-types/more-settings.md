@@ -9,19 +9,21 @@ Daha Fazla Ayarlar alanı, belge işlemeyle ilgili temel ayarlar kapsamına girm
 #### Temel Özellikler ve Seçenekler
 
 1. **Tablo Çıkarma**:
-* **Tablo doğrulamasını atla**: Tablo verileri için doğrulama sürecini atlamayı sağlar, veri doğrulamasının esnek olması gereken senaryolarda faydalı olabilir.
+* **Tablo doğrulamasını atla**: Tablo verileri için doğrulama sürecini atlamayı sağlar, bu da veri doğrulamasının esnek olması gereken senaryolarda faydalı olabilir.
 2. **İncelemede**:
 * **İnceleme Formunda Tasarım**: Belge inceleme sürecinde kullanılan inceleme formlarında görünen düzeni ve alanları yapılandırır.
 3. **PDF Oluşturma**:
-* **Tasarım Şablonu**: Belgelerin PDF sürümlerini oluşturmak için kullanılan şablonu belirtir, arşivleme veya harici iletişim için hayati önem taşıyabilir.
+* **Tasarım Şablonu**: Belgelerin PDF sürümlerini oluşturmak için kullanılan şablonu belirtir, bu arşivleme veya harici iletişim için hayati önem taşıyabilir.
 4. **Onay**:
 * **Dışa aktarmadan önce onayla**: Belgelerin sistemden dışa aktarılabilmesi için onaylanması gerektiğini sağlar.
-* **İkinci Onay**: Daha fazla doğrulama için ek bir onay katmanı ekler, belge işleme üzerinde kontrolü artırır.
+* **İkinci Onay**: Daha fazla doğrulama için ek bir onay katmanı ekler ve belge işleme üzerinde kontrolü artırır.
 5. **Satın Alma Siparişi / Otomatik Muhasebe**:
-* **Düzen oluşturucuda PO tablosu**: Özelleştirilmiş belge düzenleri için düzen oluşturucuda satın alma siparişi tablolarının dahil edilmesini sağlar.
+* **Düzen oluşturucuda PO tablosu**: Özelleştirilmiş belge düzenleri için satın alma siparişi tablolarının düzen oluşturucuda dahil edilmesini sağlar.
 * **Satın Alma Siparişi**: Sistem içinde satın alma siparişi belgelerinin işlenmesini açıp kapatır.
-* **PO Tolerans Ayarı**: Satın alma siparişi miktarları için tolerans seviyelerini belirler, küçük farklılıkları hata olarak işaretlemeden karşılamaya yardımcı olur.
+* **PO Tolerans Ayarı**: Satın alma siparişi miktarları için tolerans seviyelerini belirler, bu da hatalar olarak işaretlenmeden küçük uyumsuzluklara yer açar.
 6. **Belge Alternatif Dışa Aktarımı**:
-* **PO durumlarını devre dışı bırak**: Satın alma siparişlerinin dışa aktarım sürecinde belirli durumların devre dışı bırakılmasına izin verir, siparişlerin nasıl işleneceğinde esneklik sağlar.
+* **PO durumlarını devre dışı bırak**: Satın alma siparişlerinin dışa aktarım sürecinde belirli durumların devre dışı bırakılmasına izin verir, siparişlerin nasıl işlendiğinde esneklik sağlar.
 7. **Tedarikçi Ürün Numarası Haritası**:
-* Tedarikçi ürün numaralarını iç ürün numaralarına eşleyen doğruluk sağlayan bir yardımcı ayar.
+* Tedarikçi ürün numaralarını iç ürün numaralarına eşleyen doğruluk sağlayan bir yardımcı ayar. Bu, envanter ve satın alma siparişi yönetiminde doğruluğu sağlar.
+
+{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2500" %}
