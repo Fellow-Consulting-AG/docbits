@@ -10,3 +10,4 @@ The "Classification and Extraction" settings in your document processing system 
 4. **Configure Classification Rule**: This option allows you to define specific patterns and criteria that help the system automatically classify and categorize documents as they are processed. This could be based on text patterns, document types, or other metadata associated with the documents.
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.11.10.png" alt=""><figcaption></figcaption></figure>
+

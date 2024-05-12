@@ -31,3 +31,4 @@
 * **Custom Master Data**: Allows users to define and manage custom master data fields and attributes within DocBits, tailoring the system to their specific business needs.
 * **Tasks & Notifications**: Functionality for managing tasks and receiving notifications within DocBitsGBT, ensuring timely action and communication regarding document processing activities.
 * **IDM ACL Updater**: This module likely deals with updating and managing access control lists (ACLs) within DocBits, ensuring proper permissions and security for document access and handling.
+
