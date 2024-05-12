@@ -25,3 +25,4 @@ See [Setup Document Type ](../../../setup/document-types/)
 {% endhint %}
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2489" %}
+

@@ -23,3 +23,4 @@ Document Sub Types are essentially specialized versions of the main document typ
 Document Sub Types in Docbits provide a flexible and powerful way to handle a variety of documents within a single system, ensuring that each type and sub-type is processed accurately and efficiently according to its unique specifications.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2492" %}
+
