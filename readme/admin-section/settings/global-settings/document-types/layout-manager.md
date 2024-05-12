@@ -4,7 +4,7 @@
 
 #### Visión general
 
-El Gestor de Diseño permite a los administradores configurar y modificar visualmente el diseño de los tipos de documento al establecer propiedades para varios campos de datos y grupos dentro de un documento. Esta interfaz ayuda a garantizar que los modelos de extracción y los puntos de entrada de datos manuales se alineen precisamente con la estructura del documento escaneado o cargado en Docbits.
+El Gestor de Diseño permite a los administradores configurar y modificar visualmente el diseño de los tipos de documento al establecer propiedades para varios campos de datos y grupos dentro de un documento. Esta interfaz ayuda a garantizar que los modelos de extracción y los puntos de entrada de datos manuales se alineen precisamente con la estructura del documento escaneado o cargado en DocBits.
 
 #### Componentes clave
 

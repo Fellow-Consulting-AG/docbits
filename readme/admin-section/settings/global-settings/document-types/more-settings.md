@@ -16,9 +16,9 @@ El área de Más ajustes permite a los administradores configurar varios aspecto
 * **Diseño de plantilla**: Especifica la plantilla utilizada para generar versiones en PDF de los documentos, lo cual puede ser crucial para archivar o comunicación externa.
 4. **Aprobación**:
 * **Aprobar antes de exportar**: Asegura que los documentos deben ser aprobados antes de poder ser exportados del sistema.
-* **Segunda aprobación**: Agrega una capa adicional de aprobación para una validación más profunda, mejorando el control sobre el procesamiento de documentos.
+* **Segunda aprobación**: Agrega una capa adicional de aprobación para una validación más exhaustiva, mejorando el control sobre el procesamiento de documentos.
 5. **Orden de compra / Contabilidad automática**:
-* **Tabla de OC en constructor de diseño**: Habilita la inclusión de tablas de órdenes de compra en el constructor de diseño para diseños de documentos personalizados.
+* **Tabla de OC en constructor de diseño**: Permite la inclusión de tablas de órdenes de compra en el constructor de diseño para diseños de documentos personalizados.
 * **Orden de compra**: Activa el procesamiento de documentos de órdenes de compra dentro del sistema.
 * **Configuración de tolerancia de OC**: Establece niveles de tolerancia para las cantidades de órdenes de compra, lo cual ayuda a acomodar discrepancias menores sin marcarlas como errores.
 6. **Exportación alternativa de documentos**:

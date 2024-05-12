@@ -16,10 +16,8 @@ La configuración de Campos proporciona una interfaz de usuario donde los admini
 2. **Configuraciones Avanzadas**:
 * **Forzar Validación**: Asegura que los datos ingresados en un campo cumplan ciertas reglas de validación antes de ser aceptados.
 * **OCR (Reconocimiento Óptico de Caracteres)**: Este interruptor se puede activar para habilitar el procesamiento OCR para un campo específico, útil para la extracción automatizada de datos de documentos escaneados o digitales.
-* **Puntuación de Coincidencia**: Los administradores pueden definir una puntuación de coincidencia, un umbral utilizado para determinar el nivel de confianza de reconocimiento o coincidencia de datos, lo que afecta cómo se realizan las validaciones de datos y controles de calidad.
+* **Puntuación de Coincidencia**: Los administradores pueden definir una puntuación de coincidencia, un umbral utilizado para determinar el nivel de confianza en el reconocimiento o coincidencia de datos, lo que afecta cómo se realizan las validaciones de datos y controles de calidad.
 3. **Botones de Acción**:
 * **Crear Nuevo Campo**: Permite agregar nuevos campos al tipo de documento.
 * **Iconos de Edición**: Cada campo tiene un icono de edición que permite a los administradores configurar aún más ajustes específicos del campo, como tipo de datos, valores predeterminados o lógica empresarial conectada.
 * **Guardar Configuraciones**: Guarda los cambios realizados en las configuraciones de campo.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2494" %}
