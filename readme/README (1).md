@@ -1,6 +1,4 @@
-# Endbenutzerbereich
-
-### Erste Schritte
+# Erste Schritte
 
 * **Anmeldung und Navigation:** Wie man auf Docbits zugreift und durch die Benutzeroberfläche navigiert.
 * **Erstkonfiguration:** Einrichten von Docbits für die erstmalige Verwendung.
