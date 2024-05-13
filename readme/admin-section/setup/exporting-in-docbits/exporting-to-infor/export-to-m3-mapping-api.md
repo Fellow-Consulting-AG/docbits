@@ -24,10 +24,10 @@ O arquivo de mapeamento de exportação M3 é dividido em 5 seções e cada seç
 
 Adicionar Novo Campo:
 
-* Primeiro, precisamos adicionar o **nome do campo da API M3** à lista de campos da seção relevante (por exemplo, CamposEstáticos, CamposCabeçalho, CamposImpostoFatura)
+* Primeiro, precisamos adicionar o **nome do campo da API M3** à lista de campos da seção relevante (por exemplo, CamposEstáticos, Campos do Cabeçalho, Campos de Imposto da Fatura)
 * Definir o valor estático ou nome do campo do documento para o campo da API com o prefixo apropriado para a seção
 * Exemplo 1: Para definir um valor estático de **AAA** para o campo da API M3 **DIVI.** Primeiro adicionamos DIVI à propriedade **CamposEstáticos**. Em seguida, adicionamos uma linha **SF\_DIVI = AAA** pois SF\_ é o prefixo para campos estáticos
-* Exemplo 2: Para mapear o campo do cabeçalho **IVDT (data da fatura)** para o campo invoice\_date do DocBits. Primeiro adicionamos IVDT à propriedade **CamposCabeçalho**. Em seguida, adicionamos uma linha HF\_IVDT = invoice\_date pois HF\_ é o prefixo para campos do cabeçalho
+* Exemplo 2: Para mapear o campo do cabeçalho **IVDT (data da fatura)** para o campo invoice\_date do DocBits. Primeiro adicionamos IVDT à propriedade **Campos do Cabeçalho**. Em seguida, adicionamos uma linha HF\_IVDT = invoice\_date pois HF\_ é o prefixo para campos do cabeçalho
 
 Remover Campo:
 
@@ -35,7 +35,7 @@ Remover Campo:
 
 #### **Campos da API M3 Disponíveis:**
 
-* Os campos disponíveis do M3 podem ser verificados abrindo a tela apropriada no M3.
+* Os campos da M3 disponíveis podem ser verificados abrindo a tela apropriada na M3.
 
 <figure><img src="../../../../.gitbook/assets/aef99180-f060-497c-bd98-02d44fdd9274.png" alt=""><figcaption></figcaption></figure>
 
@@ -55,7 +55,7 @@ Campos Disponíveis: Você pode mapear qualquer campo da API M3 com qualquer val
 
 #### **Campos do Cabeçalho**
 
-Propriedade da Lista de Campos: CamposCabeçalho
+Propriedade da Lista de Campos: Campos do Cabeçalho
 
 Prefixo dos Campos da Seção: HF\_
 
@@ -65,97 +65,97 @@ Campos Disponíveis: Você pode mapear qualquer campo do DocBits com qualquer ca
 
 #### Campos Estáticos da Linha de Imposto:
 
-Propriedade da Lista de Campos: CamposEstáticosImpostoFatura
+Propriedade da Lista de Campos: CamposEstáticos do Imposto da Fatura
 
 Prefixo dos Campos da Seção: IT\_SF\_
 
-Campos M3 Disponíveis: Por favor, verifique a API ou UI do M3
+Campos da M3 Disponíveis: Por favor, verifique a API ou UI da M3
 
-Campos DocBits Disponíveis: Você pode colocar qualquer valor, pois são campos estáticos
+Campos do DocBits Disponíveis: Você pode colocar qualquer valor, pois são campos estáticos
 
 #### Campos da Linha de Imposto:
 
-Propriedade da Lista de Campos: CamposImpostoFatura
+Propriedade da Lista de Campos: Campos do Imposto da Fatura
 
-Prefixo dos Campos M3: ITF\_
+Prefixo da M3: ITF\_
 
 Prefixo do Campo da Tabela DocBits: TF\_
 
-Campos M3 Disponíveis: Por favor, verifique a API ou UI do M3
+Campos da M3 Disponíveis: Por favor, verifique a API ou UI da M3
 
-Campos DocBits Disponíveis: line\_number, tax\_amount, tax\_rate, net\_amount, gross\_amount, tax\_code\_full, tax\_code, tax\_country
+Campos do DocBits Disponíveis: line\_number, tax\_amount, tax\_rate, net\_amount, gross\_amount, tax\_code\_full, tax\_code, tax\_country
 
 ### Linha de Recibo:
 
 #### Campos Estáticos da Linha de Recibo:
 
-Propriedade da Lista de Campos: CamposEstáticosReciboFatura
+Propriedade da Lista de Campos: CamposEstáticos do Recibo da Fatura
 
 Prefixo dos Campos da Seção: IR\_SF\_
 
-Campos M3 Disponíveis: Por favor, verifique a API ou UI do M3
+Campos da M3 Disponíveis: Por favor, verifique a API ou UI da M3
 
-Campos DocBits Disponíveis: Você pode colocar qualquer valor, pois são campos estáticos
+Campos do DocBits Disponíveis: Você pode colocar qualquer valor, pois são campos estáticos
 
 #### Campos da Linha de Recibo:
 
-Propriedade da Lista de Campos: CamposReciboFatura
+Propriedade da Lista de Campos: Campos do Recibo da Fatura
 
-Prefixo dos Campos M3: IRF\_
+Prefixo da M3: IRF\_
 
 Prefixo do Campo da Tabela DocBits: TF\_
 
-Campos M3 Disponíveis: Por favor, verifique a API ou UI do M3
+Campos da M3 Disponíveis: Por favor, verifique a API ou UI da M3
 
-Campos DocBits Disponíveis: packing\_slip, purchase\_order, line\_number, line\_sequence, delivery\_number, delivery\_line, amount, quantity, total\_net\_amount
+Campos do DocBits Disponíveis: packing\_slip, purchase\_order, line\_number, line\_sequence, delivery\_number, delivery\_line, amount, quantity, total\_net\_amount
 
 ### Linha de Cobrança do Pedido:
 
 #### Campos Estáticos da Cobrança do Pedido:
 
-Propriedade da Lista de Campos: CamposEstáticosCobrançaPedido
+Propriedade da Lista de Campos: CamposEstáticos da Cobrança do Pedido
 
 Prefixo dos Campos da Seção: OC\_SF\_
 
-Campos M3 Disponíveis: Por favor, verifique a API ou UI do M3
+Campos da M3 Disponíveis: Por favor, verifique a API ou UI da M3
 
-Campos DocBits Disponíveis: Você pode colocar qualquer valor, pois são campos estáticos
+Campos do DocBits Disponíveis: Você pode colocar qualquer valor, pois são campos estáticos
 
 #### Campos da Cobrança do Pedido:
 
-Propriedade da Lista de Campos: CamposCobrançaPedido
+Propriedade da Lista de Campos: Campos da Cobrança do Pedido
 
-Prefixo dos Campos M3: OCF\_
+Prefixo da M3: OCF\_
 
 Prefixo do Campo da Tabela DocBits: TF\_
 
-Campos M3 Disponíveis: Por favor, verifique a API ou UI do M3
+Campos da M3 Disponíveis: Por favor, verifique a API ou UI da M3
 
-Campos DocBits Disponíveis: ledger\_account, dimension\_2-7, amount, quantity, quantity2, position
+Campos do DocBits Disponíveis: ledger\_account, dimension\_2-7, amount, quantity, quantity2, position
 
 ### Linha de Custo:
 
 #### Campos Estáticos da Linha de Custo:
 
-Propriedade da Lista de Campos: CamposEstáticosCustoFatura
+Propriedade da Lista de Campos: CamposEstáticos do Custo da Fatura
 
 Prefixo dos Campos da Seção: IC\_SF\_
 
-Campos M3 Disponíveis: Por favor, verifique a API ou UI do M3
+Campos da M3 Disponíveis: Por favor, verifique a API ou UI da M3
 
-Campos DocBits Disponíveis: Você pode colocar qualquer valor, pois são campos estáticos
+Campos do DocBits Disponíveis: Você pode colocar qualquer valor, pois são campos estáticos
 
 #### Campos da Linha de Custo:
 
-Propriedade da Lista de Campos: CamposCustoFatura
+Propriedade da Lista de Campos: Campos do Custo da Fatura
 
-Prefixo dos Campos M3: ICF\_
+Prefixo da M3: ICF\_
 
 Prefixo do Campo da Tabela DocBits: TF\_
 
-Campos M3 Disponíveis: Por favor, verifique a API ou UI do M3
+Campos da M3 Disponíveis: Por favor, verifique a API ou UI da M3
 
-Campos DocBits Disponíveis: ledger\_account, dimension\_1-12, amount, quantity, quantity2, position
+Campos do DocBits Disponíveis: ledger\_account, dimension\_1-12, amount, quantity, quantity2, position
 
 Nova atualização
 ```
@@ -292,4 +292,94 @@ ICF_AO05=TF_accounting_object_5
 ICF_AO06=TF_accounting_object_6
 ICF_AO07=TF_accounting_object_7
 ```
+Para o Cliente dos EUA, atualizamos este mapeamento para V3.
+````
+```properties
+# Alterações da Versão 2 para a Versão 3: 
+- StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,GEOC,BKID
+- SF_DIVI=PJA
++ StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
++ SF_DIVI=RFP
++ SF_CONO=001
+- SF_TEPY=J30
+- SF_PYME=PTR
++ SF_TEPY=N00
++ SF_PYME=CSH
++ SF_APCD=MHIDALGO
+- SF_BKID=001
++ SF_GEOC=999999999
++ SF_BKID=DJ1
+- HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN
++ HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
+- HF_CUAM=total_net_amount
++ HF_CUAM=total_net_amount_us
+- HF_ACDT=invoice_date
++ HF_ACDT=invoice_date
+- HF_CORI = correlation_id
+- HF_PAIN = sqr_field_esr_reference
++
++ HF_CORI=correlation_id
++ HF_PAIN=sqr_field_esr_reference
++ HF_TCHG=additional_amount
++ HF_CDC1=negative_amount
++ HF_APCD=buyer_id
++ HF_TEPY=payment_terms
++ HF_PYME=payment_method
++ HF_BKID=bank_id
++ HF_GEOC=supplier_geoc
+- ## Campos Estáticos da Linha de Imposto
+- InvoiceTaxStaticFields=RDTP,DIVI,VTCD
+- IT_SF_RDTP=3
+- IT_SF_DIVI=PJA
++# ## Campos Estáticos da Linha de Imposto
++# InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
++# IT_SF_RDTP=3
++# IT_SF_DIVI=AAA
++# IT_SF_CONO=780
+- ## Campos da Linha de Imposto
+- InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
+- ITF_VTCD=TF_tax_code
+- ITF_VTA1=TF_tax_amount
+- ITF_VTP1=TF_tax_rate
+- ITF_CLAM=TF_gross_amount
++# ## Campos da Linha de Imposto
++# InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
++# ITF_VTCD=TF_tax_code
++# ITF_VTA1=TF_tax_amount
++# ITF_VTP1=TF_tax_rate
++# ITF_CLAM=TF_gross_amount
+- InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD
++ InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
+- IR_SF_DIVI=PJA
++ IR_SF_DIVI=RFP
+- IR_SF_SERS=0
++ IR_SF_CONO=001
+- IR_SF_VTCD=52
++ IR_SF_VTCD=52
+- InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM
++ InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
+- #IRF_PUNO = TF_purchase_order
+- #IRF_PNLI = TF_line_number
++ IRF_PUNO = TF_purchase_order
++ IRF_PNLI = TF_line_number
+- #IRF_NEPR = TF_net_unit_price
++ IRF_NEPR = TF_net_unit_price
+- IRF_PPUN = TF_unit
+- #IRF_NLAM = TF_net_amount
++ IRF_PPUN = TF_unit_code_price
++ IRF_NLAM = TF_net_amount
++ IRF_TCHG = TF_charges
++ IRF_CDC1 = TF_discount
+- OrderChargeStaticFields=RDTP,DIVI
++ OrderChargeStaticFields=RDTP,DIVI,CONO
+- OC_SF_DIVI=PJA
++ OC_SF_DIVI=RFP
++ OC_SF_CONO=001
+- InvoiceCostStaticFields=RDTP,DIVI
++ InvoiceCostStaticFields=RDTP,DIVI,CONO
+- IC_SF_DIVI=PJA
++ IC_SF_DIVI=RFP
++ IC_SF_CONO=001
+```
+````
 
