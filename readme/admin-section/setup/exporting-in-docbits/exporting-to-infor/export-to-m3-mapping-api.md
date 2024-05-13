@@ -13,7 +13,7 @@ Le fichier de mapping d'exportation M3 est divisé en 5 sections et chaque secti
 * Lignes de reçu
 * Champs statiques de la ligne de reçu
 * Champs de la ligne de reçu
-* Lignes de frais de commande (Montants supplémentaires)
+* Lignes de frais de commande (Montants supplémentaires de commande)
 * Champs statiques de frais de commande
 * Champs de frais de commande
 * Lignes de coût
@@ -24,10 +24,10 @@ Le fichier de mapping d'exportation M3 est divisé en 5 sections et chaque secti
 
 Ajout d'un nouveau champ :
 
-* Tout d'abord, nous devons ajouter le **nom du champ de l'API M3** à la liste des champs de la section pertinente (par exemple, ChampsStatiques, ChampsEn-tête, ChampsTaxeDeFacture)
+* Tout d'abord, nous devons ajouter le **nom du champ de l'API M3** à la liste des champs de la section pertinente (par exemple, ChampsStatiques, ChampsEn-tête, Champs de taxe de facture)
 * Définir la valeur statique ou le nom du champ de document pour le champ de l'API avec le préfixe approprié pour la section
 * Exemple 1 : Pour définir une valeur statique de **AAA** pour le champ de l'API M3 **DIVI.** Tout d'abord, nous avons ajouté DIVI à la propriété **ChampsStatiques**. Ensuite, nous ajoutons une ligne **SF\_DIVI = AAA** car SF\_ est le préfixe pour les champs statiques
-* Exemple 2 : Pour mapper le champ d'en-tête **IVDT (données de facture)** au champ invoice\_date de DocBits. Tout d'abord, nous ajoutons IVDT à la propriété **ChampsEn-tête**. Ensuite, nous ajoutons une ligne HF\_IVDT = invoice\_date car HF\_ est le préfixe pour les champs d'en-tête
+* Exemple 2 : Pour mapper le champ d'en-tête **IVDT (données de facture)** au champ date\_de\_facture de DocBits. Tout d'abord, nous ajoutons IVDT à la propriété **ChampsEn-tête**. Ensuite, nous ajoutons une ligne HF\_IVDT = date\_de\_facture car HF\_ est le préfixe pour les champs d'en-tête
 
 Suppression d'un champ :
 
@@ -59,13 +59,13 @@ Propriété de la liste des champs : ChampsEn-tête
 
 Préfixe des champs de section : HF\_
 
-Champs disponibles : Vous pouvez mapper n'importe quel champ DocBits avec n'importe quel champ d'API M3
+Champs disponibles : Vous pouvez mapper n'importe quel champ de DocBits avec n'importe quel champ d'API M3
 
 ### Ligne de taxe :
 
 #### Champs statiques de la ligne de taxe :
 
-Propriété de la liste des champs : ChampsStatiquesTaxeDeFacture
+Propriété de la liste des champs : ChampsStatiquesTaxeFacture
 
 Préfixe des champs de section : IT\_SF\_
 
@@ -75,7 +75,7 @@ Champs DocBits disponibles : Vous pouvez mettre n'importe quelle valeur car ce s
 
 #### Champs de la ligne de taxe :
 
-Propriété de la liste des champs : ChampsTaxeDeFacture
+Propriété de la liste des champs : ChampsTaxeFacture
 
 Préfixe M3 : ITF\_
 
@@ -89,7 +89,7 @@ Champs DocBits disponibles : numéro_de_ligne, montant_de_taxe, taux_de_taxe, mo
 
 #### Champs statiques de la ligne de reçu :
 
-Propriété de la liste des champs : ChampsStatiquesReçuDeFacture
+Propriété de la liste des champs : ChampsStatiquesReçuFacture
 
 Préfixe des champs de section : IR\_SF\_
 
@@ -99,7 +99,7 @@ Champs DocBits disponibles : Vous pouvez mettre n'importe quelle valeur car ce s
 
 #### Champs de la ligne de reçu :
 
-Propriété de la liste des champs : ChampsReçuDeFacture
+Propriété de la liste des champs : ChampsReçuFacture
 
 Préfixe M3 : IRF\_
 
@@ -113,7 +113,7 @@ Champs DocBits disponibles : bon_de_livraison, bon_de_commande, numéro_de_ligne
 
 #### Champs statiques de frais de commande :
 
-Propriété de la liste des champs : ChampsStatiquesFraisDeCommande
+Propriété de la liste des champs : ChampsStatiquesFraisCommande
 
 Préfixe des champs de section : OC\_SF\_
 
@@ -123,7 +123,7 @@ Champs DocBits disponibles : Vous pouvez mettre n'importe quelle valeur car ce s
 
 #### Champs de frais de commande :
 
-Propriété de la liste des champs : ChampsFraisDeCommande
+Propriété de la liste des champs : ChampsFraisCommande
 
 Préfixe M3 : OCF\_
 
@@ -137,7 +137,7 @@ Champs DocBits disponibles : compte_de_grand_livre, dimension_2-7, montant, quan
 
 #### Champs statiques de la ligne de coût :
 
-Propriété de la liste des champs : ChampsStatiquesCoûtDeFacture
+Propriété de la liste des champs : ChampsStatiquesCoûtFacture
 
 Préfixe des champs de section : IC\_SF\_
 
@@ -147,7 +147,7 @@ Champs DocBits disponibles : Vous pouvez mettre n'importe quelle valeur car ce s
 
 #### Champs de la ligne de coût :
 
-Propriété de la liste des champs : ChampsCoûtDeFacture
+Propriété de la liste des champs : ChampsCoûtFacture
 
 Préfixe M3 : ICF\_
 
@@ -292,4 +292,103 @@ ICF_AO05=TF_accounting_object_5
 ICF_AO06=TF_accounting_object_6
 ICF_AO07=TF_accounting_object_7
 ```
+Pour les clients américains, nous mettons à jour ce mappage en V3.
+````
+```properties
+# Changements de la version 2 à la version 3 : 
+- StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,GEOC,BKID
+- SF_DIVI=PJA
++ StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
++ SF_DIVI=RFP
++ SF_CONO=001
+- SF_TEPY=J30
+- SF_PYME=PTR
++ SF_TEPY=N00
++ SF_PYME=CSH
++ SF_APCD=MHIDALGO
+- SF_BKID=001
++ SF_GEOC=999999999
++ SF_BKID=DJ1
+- HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN
++ HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
+- HF_CUAM=total_net_amount
++ HF_CUAM=total_net_amount_us
+- HF_ACDT=invoice_date
++ HF_ACDT=invoice_date
+- HF_CORI = correlation_id
+- HF_PAIN = sqr_field_esr_reference
++
++ HF_CORI=correlation_id
++ HF_PAIN=sqr_field_esr_reference
++ HF_TCHG=additional_amount
++ HF_CDC1=negative_amount
++ HF_APCD=buyer_id
++ HF_TEPY=payment_terms
++ HF_PYME=payment_method
++ HF_BKID=bank_id
++ HF_GEOC=supplier_geoc
+- ## Champs statiques de ligne de taxe
+- InvoiceTaxStaticFields=RDTP,DIVI,VTCD
+- IT_SF_RDTP=3
+- IT_SF_DIVI=PJA
++
++ ## Champs statiques de ligne de taxe
++ InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
++ IT_SF_RDTP=3
++ IT_SF_DIVI=AAA
++ IT_SF_CONO=780
+- ## Champs de ligne de taxe
+- InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
+- ITF_VTCD=TF_tax_code
+- ITF_VTA1=TF_tax_amount
+- ITF_VTP1=TF_tax_rate
+- ITF_CLAM=TF_gross_amount
++
++ ## Champs de ligne de taxe
++ InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
++ ITF_VTCD=TF_tax_code
++ ITF_VTA1=TF_tax_amount
++ ITF_VTP1=TF_tax_rate
++ ITF_CLAM=TF_gross_amount
+- InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD
++ InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
+- IR_SF_DIVI=PJA
+- IR_SF_SERS=0
++
++ IR_SF_DIVI=RFP
+- IR_SF_VTCD=52
++
++ IR_SF_VTCD=52
++ IR_SF_CONO=001
+- InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM
++ InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
+- #IRF_PUNO = TF_purchase_order
+- #IRF_PNLI = TF_line_number
++
++ IRF_PUNO = TF_purchase_order
++ IRF_PNLI = TF_line_number
+- #IRF_NEPR = TF_net_unit_price
++
++ IRF_NEPR = TF_net_unit_price
+- IRF_PPUN = TF_unit
+- #IRF_NLAM = TF_net_amount
++
++ IRF_PPUN = TF_unit_code_price
++ IRF_NLAM = TF_net_amount
++ IRF_TCHG = TF_charges
++ IRF_CDC1 = TF_discount
+- OrderChargeStaticFields=RDTP,DIVI
++ OrderChargeStaticFields=RDTP,DIVI,CONO
+- OC_SF_DIVI=PJA
++
++ OC_SF_DIVI=RFP
++ OC_SF_CONO=001
+- InvoiceCostStaticFields=RDTP,DIVI
++ InvoiceCostStaticFields=RDTP,DIVI,CONO
+- IC_SF_DIVI=PJA
++
++ IC_SF_DIVI=RFP
++ IC_SF_CONO=001
+```
+````
 
