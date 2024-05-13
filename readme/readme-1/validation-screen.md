@@ -27,7 +27,7 @@
 * **Caso d'uso:** Utilizzare questa funzionalità per automatizzare compiti come l'estrazione di dati o la convalida del formato, migliorando l'efficienza del flusso di lavoro.
 
 {% hint style="info" %}
-Vedi qui [Aggiungi Script in DocBits](../admin-section/setup/scripting-in-docbits/)
+Vedi qui add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
 {% endhint %}
 
 ### **Campi Fuzzy:**
@@ -36,14 +36,14 @@ Vedi qui [Aggiungi Script in DocBits](../admin-section/setup/scripting-in-docbit
 
 *   **Campi Fuzzy:**
 
-* **Scopo:** Aiuta a identificare e correggere campi in cui i dati potrebbero non essere una corrispondenza perfetta ma sono abbastanza vicini.
+* **Scopo:** Aiuta a identificare e correggere campi in cui i dati potrebbero non essere una corrispondenza perfetta ma sono abbastanza simili.
 * **Caso d'uso:** Utile nei processi di convalida dei dati in cui le corrispondenze esatte non sono sempre possibili, come nomi o indirizzi leggermente errati.
 
 ### **Lente d'ingrandimento:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
 
-* **Lente d'Ingrandimento:**
+* **Lente d'Ingrandimento (Magnify Glass):**
 * **Scopo:** Fornisce una vista ingrandita di un'area selezionata del documento.
 * **Caso d'uso:** Aiuta nell'esaminare dettagli o testi piccoli nei documenti, garantendo precisione nell'inserimento o revisione dei dati.
 
@@ -65,13 +65,13 @@ Vedi qui [Aggiungi Script in DocBits](../admin-section/setup/scripting-in-docbit
 * **Scopo:** Consente agli utenti di eseguire azioni rapidamente utilizzando combinazioni di tasti.
 * **Caso d'uso:** Migliora la velocità e l'efficienza nella navigazione e nell'elaborazione dei documenti riducendo al minimo la dipendenza dalla navigazione del mouse.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption><p>Tastiera </p></figcaption></figure>
 
 ### **Compiti:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.00.png" alt="" width="55"><figcaption></figcaption></figure>
 
-Per condividere informazioni interne, è possibile creare compiti e assegnarli a un dipendente o gruppo specifico all'interno dell'azienda.
+Per condividere informazioni interne, è possibile creare compiti e assegnarli a un dipendente o a un gruppo specifico all'interno dell'azienda.
 
 * **Compiti:**
 * **Scopo:** Consente agli utenti di creare compiti relativi ai documenti e assegnarli ai membri del team.
@@ -95,7 +95,7 @@ Per condividere informazioni interne, è possibile creare compiti e assegnarli a
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
 
-I documenti possono essere uniti qui, ad esempio se mancava una pagina di una fattura, queste pagine possono essere unite successivamente in questo modo senza dover eliminare o ricaricare l'intero documento.
+I documenti possono essere uniti qui, ad esempio se mancava una pagina di una fattura, queste pagine possono essere unite successivamente in questo modo senza che l'intero documento debba essere eliminato o ricaricato.
 
 * **Unisci Documenti:**
 * **Scopo:** Combina più documenti in un unico file.
@@ -111,7 +111,7 @@ Nella visualizzazione OCR, il testo viene filtrato automaticamente dal documento
 * **Scopo:** Riconosce automaticamente il testo all'interno dei documenti utilizzando la tecnologia di riconoscimento ottico dei caratteri.
 * **Caso d'uso:** Ottimizza il processo di digitalizzazione di testi stampati o scritti a mano, rendendoli cercabili e modificabili.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
 
 ### **Crea ticket:**
 
@@ -121,17 +121,17 @@ A differenza dei compiti che vengono passati internamente all'azienda, questo ti
 
 * **Crea Ticket:**
 * **Scopo:** Consente agli utenti di segnalare problemi o discrepanze creando un ticket di supporto.
-* **Caso d'uso:** Essenziale per la rapida risoluzione di problemi e bug, contribuendo a mantenere l'integrità e il corretto funzionamento del sistema.
+* **Caso d'uso:** Essenziale per una rapida risoluzione dei problemi e dei bug, contribuendo a mantenere l'integrità e il corretto funzionamento del sistema.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
-### **Registri skript del documento:**
+### **Registri script documento:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
 
 Gli script possono essere creati nelle impostazioni sotto Tipi di Documento; queste informazioni verranno poi visualizzate qui.
 
-* **Registri skript del documento:**
-* **Scopo:** Mostra i registri relativi agli script implementati per diversi tipi di documenti.
+* **Registri script documento:**
+* **Scopo:** Mostra i registri relativi agli script implementati per diversi tipi di documento.
 * **Caso d'uso:** Utile per tracciare e risolvere problemi legati alle azioni degli script sui documenti, aiutando gli utenti a comprendere i processi automatizzati e correggere eventuali problemi.
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
@@ -147,7 +147,7 @@ Gli script possono essere creati nelle impostazioni sotto Tipi di Documento; que
 * Qui puoi dividere il documento e tagliare o eliminare pagine non necessarie
 * **Dividi Documento:**
 * **Scopo:** Consente agli utenti di dividere un documento in parti separate, rimuovendo o isolando pagine non necessarie.
-* **Caso d'uso:** Ideale quando si tratta di documenti multi-pagina in cui sono necessarie solo determinate sezioni per l'elaborazione o la revisione.
+* **Caso d'uso:** Ideale quando si gestiscono documenti multi-pagina in cui sono necessarie solo determinate sezioni per l'elaborazione o la revisione.
 
 ### **Migliora documento:**
 
@@ -156,7 +156,7 @@ Gli script possono essere creati nelle impostazioni sotto Tipi di Documento; que
 * **Scopo:** Reimposta il documento al suo stato iniziale per una rivalutazione o ulteriori modifiche.
 * **Caso d'uso:** Utile quando le modifiche iniziali devono essere annullate o il documento deve essere aggiornato per un'altra serie di modifiche. Qui abbiamo bisogno di un'ulteriore Visione ML per migliorare la qualità del documento.&#x20;
 
-### **Flusso del documento:**
+### **Flusso documento:**
 
 Qui troverai il flusso del documento
 
@@ -181,20 +181,20 @@ Usa il suggerimento per scoprire se:&#x20;
 * È un campo obbligatorio (richiesto)
 * Richiesta di convalida&#x20;
 * Bassa confidenza
-* Discrepanza totale dell'importo fiscale
+* Discrepanza totale importo tasse
 * **Campi Obbligatori:**
 * **Scopo:** Identifica i campi obbligatori all'interno dei documenti che devono essere compilati o corretti prima di ulteriori elaborazioni.
 * **Caso d'uso:** Garantisce che i dati essenziali siano catturati con precisione, mantenendo l'integrità dei dati e la conformità alle regole aziendali.
 
-### **Vai alla visualizzazione dell'estrazione tabella:**
+### **Vai alla visualizzazione estrazione tabella:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.37.png" alt=""><figcaption></figcaption></figure>
 
-Qui arrivi alla visualizzazione dell'estrazione tabella e hai ulteriori opzioni per continuare. Ad esempio, in modalità di addestramento, imparando la tabella.
+Qui arrivi alla visualizzazione estrazione tabella e hai ulteriori opzioni per continuare. Ad esempio, in modalità di addestramento, imparando la tabella.
 
-* **Vai alla Visualizzazione dell'Estrazione Tabella:**
+* **Vai alla Visualizzazione Estrazione Tabella:**
 * **Scopo:** Naviga verso un'interfaccia in cui gli utenti possono estrarre e manipolare i dati tabellari dai documenti.
-* **Caso d'uso:** Utile per documenti complessi contenenti tabelle, consentendo un'estrazione dati precisa e l'apprendimento per migliorare il riconoscimento nel tempo.
+* **Caso d'uso:** Utile per documenti complessi contenenti tabelle, consentendo un'estrazione precisa dei dati e l'apprendimento per migliorare il riconoscimento nel tempo.
 
 ### **Aggiungi colonne non mappate:**
 
@@ -214,11 +214,11 @@ Per aggiungere colonne non assegnate clicca qui e seleziona le colonne che desid
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-### **Blocca l'estrazione tabella per questo fornitore:**
+### **Blocca estrazione tabella per questo fornitore:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.36.06.png" alt=""><figcaption></figcaption></figure>
 
-* **Blocca l'Estrazione Tabella per Questo Fornitore:**
+* **Blocca Estrazione Tabella per Questo Fornitore:**
 * **Scopo:** Impedisce i processi di estrazione tabella per documenti da fornitori specifici.
 * **Caso d'uso:** Utile in scenari in cui i documenti dei fornitori non riescono costantemente ad estrarre correttamente o non richiedono l'estrazione.
 
