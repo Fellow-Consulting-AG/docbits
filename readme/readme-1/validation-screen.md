@@ -14,15 +14,15 @@
 
 * **Speichern-Schaltfläche:**
 * **Zweck:** Speichert den aktuellen Zustand des bearbeiteten Dokuments oder Skripts.
-* **Anwendungsfall:** Verwenden Sie diese Schaltfläche, um sicherzustellen, dass alle Änderungen am Dokument gespeichert werden, nachdem Sie Änderungen oder Anmerkungen vorgenommen haben.
+* **Anwendungsfall:** Verwenden Sie diese Schaltfläche, um sicherzustellen, dass alle Änderungen gespeichert werden, nachdem Sie Änderungen oder Anmerkungen an einem Dokument vorgenommen haben.
 
-### **Spezielle Regeln hinzufügen:**
+### **Besondere Regeln hinzufügen:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.41.01.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.42.13.png" alt=""><figcaption></figcaption></figure>
 
-* **Spezielle Regeln hinzufügen / Skript in DocBits hinzufügen:**
+* **Besondere Regeln hinzufügen / Skript in DocBits hinzufügen:**
 * **Zweck:** Ermöglicht Benutzern, spezifische Regeln oder Skripte zu implementieren, die anpassen, wie Dokumente verarbeitet werden.
 * **Anwendungsfall:** Verwenden Sie diese Funktion, um Aufgaben wie Datenextraktion oder Formatvalidierung zu automatisieren und die Effizienz des Workflows zu steigern.
 
@@ -30,11 +30,11 @@
 Hier [Skript in DocBits hinzufügen](../admin-section/setup/scripting-in-docbits/) ansehen
 {% endhint %}
 
-### **Unschärfefelder:**
+### **Unscharfe Felder:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
 
-*   **Unschärfefelder:**
+*   **Unscharfe Felder:**
 
 * **Zweck:** Hilft dabei, Felder zu identifizieren und zu korrigieren, in denen die Daten möglicherweise nicht perfekt übereinstimmen, aber nahe genug sind.
 * **Anwendungsfall:** Nützlich bei Datenvalidierungsprozessen, bei denen exakte Übereinstimmungen nicht immer möglich sind, wie bei leicht falsch geschriebenen Namen oder Adressen.
@@ -43,9 +43,9 @@ Hier [Skript in DocBits hinzufügen](../admin-section/setup/scripting-in-docbits
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
 
-* **Lupe (Magnifying Glass):**
+* **Lupe (Magnify Glass):**
 * **Zweck:** Bietet eine vergrößerte Ansicht eines ausgewählten Bereichs des Dokuments.
-* **Anwendungsfall:** Hilft bei der Untersuchung feiner Details oder kleiner Texte in Dokumenten, um die Genauigkeit bei der Dateneingabe oder -überprüfung zu gewährleisten.
+* **Anwendungsfall:** Hilft bei der Untersuchung feiner Details oder kleiner Texte in Dokumenten, um die Genauigkeit bei der Dateneingabe oder Überprüfung zu gewährleisten.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.03.46.png" alt=""><figcaption></figcaption></figure>
 
@@ -65,13 +65,13 @@ Hier [Skript in DocBits hinzufügen](../admin-section/setup/scripting-in-docbits
 * **Zweck:** Ermöglicht Benutzern, Aktionen schnell mithilfe von Tastenkombinationen auszuführen.
 * **Anwendungsfall:** Steigert Geschwindigkeit und Effizienz bei der Dokumentennavigation und -verarbeitung, indem die Abhängigkeit von der Mausnavigation minimiert wird.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption><p>Tastatur</p></figcaption></figure>
 
 ### **Aufgaben:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.00.png" alt="" width="55"><figcaption></figcaption></figure>
 
-Um interne Informationen zu teilen, können Sie Aufgaben erstellen und sie einem bestimmten Mitarbeiter oder einer Gruppe innerhalb des Unternehmens zuweisen.
+Um interne Informationen zu teilen, können Sie Aufgaben erstellen und sie einem bestimmten Mitarbeiter oder einer Gruppe im Unternehmen zuweisen.
 
 * **Aufgaben:**
 * **Zweck:** Ermöglicht Benutzern, Aufgaben im Zusammenhang mit Dokumenten zu erstellen und Teammitgliedern zuzuweisen.
@@ -88,7 +88,7 @@ Um interne Informationen zu teilen, können Sie Aufgaben erstellen und sie einem
 Sie können Anmerkungen zu einem Dokument hinterlassen. Dies kann hilfreich sein, um Informationen für andere Benutzer zu hinterlassen, die dieses Dokument später weiter bearbeiten.
 
 * **Anmerkungsmodus:**
-* **Zweck:** Ermöglicht Benutzern, Notizen oder Anmerkungen direkt auf dem Dokument zu hinterlassen.
+* **Zweck:** Ermöglicht Benutzern, direkt auf dem Dokument Notizen oder Anmerkungen zu hinterlassen.
 * **Anwendungsfall:** Nützlich, um Feedback, Anweisungen oder wichtige Hinweise für andere Teammitglieder zu hinterlassen, die später am Dokument arbeiten werden.
 
 ### **Zusammenführen:**
@@ -99,7 +99,7 @@ Dokumente können hier zusammengeführt werden, zum Beispiel wenn eine Seite ein
 
 * **Dokumente zusammenführen:**
 * **Zweck:** Kombiniert mehrere Dokumente zu einer einzigen Datei.
-* **Anwendungsfall:** Praktisch in Szenarien, in denen Teile eines Dokuments separat gescannt werden und zusammengeführt werden müssen.
+* **Anwendungsfall:** Nützlich in Szenarien, in denen Teile eines Dokuments separat gescannt werden und zusammengeführt werden müssen.
 
 ### **OCR-Ansicht:**
 
@@ -109,15 +109,15 @@ In der OCR-Ansicht wird der Text automatisch aus dem Dokument gefiltert. Dies wi
 
 * **OCR-Ansicht:**
 * **Zweck:** Erkennt automatisch Text in Dokumenten mithilfe der optischen Zeichenerkennungstechnologie.
-* **Anwendungsfall:** Vereinfacht den Prozess der Digitalisierung gedruckter oder handschriftlicher Texte, um sie durchsuchbar und bearbeitbar zu machen.
+* **Anwendungsfall:** Vereinfacht den Prozess der Digitalisierung gedruckter oder handschriftlicher Texte, macht sie durchsuchbar und bearbeitbar.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
 
 ### **Ticket erstellen:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
 
-Im Gegensatz zu Aufgaben, die intern im Unternehmen weitergeleitet werden, ist dieses Support-Ticket wichtig, um uns zu benachrichtigen und sofort ein Ticket bei Fehlern und/oder Abweichungen zu erstellen. Dies vereinfacht den Prozess erheblich, da Sie den Fehler sofort mit dem entsprechenden Dokument senden können. Es besteht auch die Möglichkeit, die Priorität festzulegen, einen Screenshot des Dokuments zu machen oder eines hochzuladen.
+Im Gegensatz zu Aufgaben, die intern im Unternehmen weitergeleitet werden, ist dieses Support-Ticket wichtig, um uns zu benachrichtigen und sofort ein Ticket bei Fehlern und/oder Abweichungen zu erstellen. Dies vereinfacht den Prozess erheblich, da Sie den Fehler sofort mit dem entsprechenden Dokument senden können. Es besteht auch die Möglichkeit, Priorität festzulegen, einen Screenshot des Dokuments zu machen oder eines hochzuladen.
 
 * **Ticket erstellen:**
 * **Zweck:** Ermöglicht Benutzern, Probleme oder Abweichungen zu melden, indem sie ein Support-Ticket erstellen.
@@ -146,7 +146,7 @@ Skripte können in den Einstellungen unter Dokumententypen erstellt werden; dies
 
 * Hier können Sie das Dokument aufteilen und Seiten ausschneiden oder löschen, die nicht benötigt werden.
 * **Dokument aufteilen:**
-* **Zweck:** Ermöglicht Benutzern, ein Dokument in separate Teile zu unterteilen, Seiten zu entfernen oder zu isolieren, die nicht benötigt werden.
+* **Zweck:** Ermöglicht Benutzern, ein Dokument in separate Teile zu teilen, Seiten zu entfernen oder zu isolieren, die nicht benötigt werden.
 * **Anwendungsfall:** Ideal bei mehrseitigen Dokumenten, bei denen nur bestimmte Abschnitte für die Verarbeitung oder Überprüfung erforderlich sind.
 
 ### **Dokument verbessern:**
@@ -158,9 +158,9 @@ Skripte können in den Einstellungen unter Dokumententypen erstellt werden; dies
 
 ### **Dokumentenfluss:**
 
-Hier finden Sie den Fluss des Dokuments
+Hier finden Sie den Ablauf des Dokuments
 
-* **Zweck:** Zeigt die Abfolge und den Fortschritt der Dokumentenverarbeitung im System an.
+* **Zweck:** Zeigt die Sequenz und den Fortschritt der Dokumentenverarbeitung im System an.
 * **Anwendungsfall:** Hilft bei der Verfolgung des Dokumentenstatus durch verschiedene Phasen, um sicherzustellen, dass alle erforderlichen Verarbeitungsschritte befolgt werden.
 
 ### **Zur Layout-Vorlage gehen:**
@@ -168,7 +168,7 @@ Hier finden Sie den Fluss des Dokuments
 * Mit dieser Option werden Sie umgeleitet und können Ihr Layout bearbeiten oder die Standardvorlage verwenden.
 * **Zur Layout-Vorlage gehen:**
 * **Zweck:** Leitet Benutzer zu einem Layout-Editor weiter, in dem sie vorhandene Vorlagen ändern oder eine Standardvorlage anwenden können.
-* **Anwendungsfall:** Ermöglicht die Anpassung von Dokumentenlayouts, um spezifische Geschäftsanforderungen oder -präferenzen zu erfüllen und die visuelle und funktionale Ausrichtung des Dokuments an die Unternehmensstandards zu verbessern.
+* **Anwendungsfall:** Ermöglicht die Anpassung von Dokumentenlayouts, um spezifische geschäftliche Anforderungen oder Präferenzen zu erfüllen und die visuelle und funktionale Ausrichtung des Dokuments an die Unternehmensstandards zu verbessern.
 
 ### **Erforderliche Felder:**
 
@@ -183,7 +183,7 @@ Verwenden Sie den Tooltip, um herauszufinden, ob:&#x20;
 * Geringes Vertrauen
 * Vollständige Steuerbetrag-Abweichung
 * **Erforderliche Felder:**
-* **Zweck:** Identifiziert obligatorische Felder in Dokumenten, die ausgefüllt oder korrigiert werden müssen, bevor sie weiterverarbeitet werden.
+* **Zweck:** Identifiziert Pflichtfelder in Dokumenten, die ausgefüllt oder korrigiert werden müssen, bevor sie weiterverarbeitet werden.
 * **Anwendungsfall:** Stellt sicher, dass wesentliche Daten genau erfasst werden, um die Datenintegrität und die Einhaltung der Geschäftsregeln zu gewährleisten.
 
 ### **Zur Tabellenauszug-Ansicht gehen:**
@@ -250,7 +250,7 @@ Wenn eine Spalte fehlt, können Sie hier eine neue Spalte erstellen. Geben Sie d
 
 * **Tabellenvalidierung ignorieren:**
 * **Zweck:** Ermöglicht es Benutzern, Validierungsregeln für bestimmte Tabellen zu umgehen.
-* **Anwendungsfall:** Nützlich, wenn bekannte Anomalien in den Daten den Gesamtverarbeitungsprozess nicht beeinträchtigen und das Beharren auf Validierung den Arbeitsablauf behindern würde.
+* **Anwendungsfall:** Nützlich, wenn bekannte Anomalien in Daten den Gesamtverarbeitungsprozess nicht beeinträchtigen und das Beharren auf Validierung den Arbeitsablauf behindern würde.
 
 ### **Tabellenspalte wiederherstellen:**
 
