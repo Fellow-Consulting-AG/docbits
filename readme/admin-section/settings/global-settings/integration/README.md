@@ -5,17 +5,17 @@
 ## Chiave API
 
 * **Chiave**: Questo è l'identificatore univoco utilizzato dalle applicazioni esterne per accedere all'API di Docbits. È cruciale per autenticare le richieste fatte a Docbits da altri software.
-* Azioni come visualizzare, rigenerare o copiare la chiave API possono essere eseguite qui, a seconda delle esigenze specifiche e dei protocolli di sicurezza.
+* Qui è possibile eseguire azioni come visualizzare, rigenerare o copiare la chiave API, a seconda delle esigenze specifiche e dei protocolli di sicurezza.
 
 ## Impostazioni del Fornitore di Servizi SSO (Single Sign-On)
 
 * **ID Entità**: Questo è l'identificatore per Docbits come fornitore di servizi nella configurazione SSO. Identifica in modo univoco Docbits all'interno del framework SSO.
 * **URL SLO (Single Logout)**: L'URL a cui le sessioni SSO vengono inviate per disconnettersi contemporaneamente da tutte le applicazioni collegate tramite SSO.
 * **URL SSO**: L'URL utilizzato per avviare il processo di accesso unico.
-* Azioni come "Scarica Certificato" e "Scarica Metadati" sono disponibili per ottenere i certificati di sicurezza necessari e le informazioni sui metadati utilizzati per configurare e mantenere l'integrazione SSO.
+* Sono disponibili azioni come "Scarica Certificato" e "Scarica Metadati" per ottenere i certificati di sicurezza necessari e le informazioni sui metadati utilizzati per configurare e mantenere l'integrazione SSO.
 
 {% hint style="info" %}
-Vedi [Configurazione SSO](../../../setup/sso-configuration.md)
+Vedi [Configurazione SSO](../../../setup/sso-configuration/)
 {% endhint %}
 
 ## Impostazioni del Fornitore di Servizi di Identità
