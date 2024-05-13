@@ -17,14 +17,14 @@ M3 fajl za mapiranje izvoza je podeljen u 5 odeljaka, pri čemu je svaki odeljak
 * Statička polja naplate
 * Polja naplate
 * Linije troškova
-* Statička polja troškova
-* Polja troškova
+* Statička polja linije troškova
+* Polja linije troškova
 
 ### Dodavanje i uklanjanje polja
 
 Dodavanje novog polja:
 
-* Prvo treba dodati **naziv polja M3 API-ja** u listu polja relevantnog odeljka (npr. Statička polja, Polja zaglavlja, Polja fakture)
+* Prvo treba dodati **naziv polja M3 API-ja** u listu polja relevantnog odeljka (npr. Statička polja, Polja zaglavlja, Polja poreza na fakturu)
 * Definišite statičku vrednost ili naziv dokumenta za polje API-ja sa odgovarajućim prefiksom za odeljak
 * Primer 1: Da biste definisali statičku vrednost **AAA** za polje M3 API-ja **DIVI.** Prvo smo dodali DIVI u **Statička polja**. Zatim dodajemo liniju **SF\_DIVI = AAA** jer je SF\_ prefiks za statička polja
 * Primer 2: Da biste mapirali polje zaglavlja **IVDT (podaci o fakturi)** na polje invoice\_date u DocBits-u. Prvo dodajemo IVDT u **Polja zaglavlja**. Zatim dodajemo liniju HF\_IVDT = invoice\_date jer je HF\_ prefiks za polja zaglavlja
@@ -65,7 +65,7 @@ Dostupna polja: Možete mapirati bilo koje polje DocBits-a sa bilo kojim poljem 
 
 #### Statička polja poreza:
 
-Svojstvo liste polja: Statička polja fakture
+Svojstvo liste polja: Statička polja poreza na fakturu
 
 Prefiks polja odeljka: IT\_SF\_
 
@@ -75,7 +75,7 @@ Dostupna DocBits polja: Možete uneti bilo koju vrednost jer su to statička pol
 
 #### Polja poreza:
 
-Svojstvo liste polja: Polja fakture
+Svojstvo liste polja: Polja poreza na fakturu
 
 Prefiks polja M3: ITF\_
 
@@ -89,7 +89,7 @@ Dostupna DocBits polja: line\_number, tax\_amount, tax\_rate, net\_amount, gross
 
 #### Statička polja linije prijema:
 
-Svojstvo liste polja: Statička polja fakture prijema
+Svojstvo liste polja: Statička polja prijema na fakturu
 
 Prefiks polja odeljka: IR\_SF\_
 
@@ -99,7 +99,7 @@ Dostupna DocBits polja: Možete uneti bilo koju vrednost jer su to statička pol
 
 #### Polja linije prijema:
 
-Svojstvo liste polja: Polja fakture prijema
+Svojstvo liste polja: Polja prijema na fakturu
 
 Prefiks polja M3: IRF\_
 
@@ -135,9 +135,9 @@ Dostupna DocBits polja: ledger\_account, dimension\_2-7, amount, quantity, quant
 
 ### Linija troškova:
 
-#### Statička polja troškova:
+#### Statička polja linije troškova:
 
-Svojstvo liste polja: Statička polja fakture troškova
+Svojstvo liste polja: Statička polja troškova na fakturu
 
 Prefiks polja odeljka: IC\_SF\_
 
@@ -145,9 +145,9 @@ Dostupna M3 polja: Molimo proverite M3 API ili UI
 
 Dostupna DocBits polja: Možete uneti bilo koju vrednost jer su to statička polja
 
-#### Polja troškova:
+#### Polja linije troškova:
 
-Svojstvo liste polja: Polja fakture troškova
+Svojstvo liste polja: Polja troškova na fakturu
 
 Prefiks polja M3: ICF\_
 
@@ -292,12 +292,12 @@ ICF_AO05=TF_accounting_object_5
 ICF_AO06=TF_accounting_object_6
 ICF_AO07=TF_accounting_object_7
 ```
-Za korisnike iz SAD-a ažuriramo ovaj mapiranje na V3.
+### Za korisnike iz SAD-a ažuriramo ovaj mapiranje na V3
 ````
-```properties
+```
 # Promene od verzije 2 do verzije 3: 
 -StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,GEOC,BKID
-- SF_DIVI=PJA
+-SF_DIVI=PJA
 +StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
 +SF_DIVI=RFP
 +SF_CONO=001
@@ -327,22 +327,22 @@ Za korisnike iz SAD-a ažuriramo ovaj mapiranje na V3.
 +HF_PYME=payment_method
 +HF_BKID=bank_id
 +#HF_GEOC=supplier_geoc
--## Porezne linije statičkih polja
+-## Static Fields za poresku liniju
 -InvoiceTaxStaticFields=RDTP,DIVI,VTCD
 -IT_SF_RDTP=3
 -IT_SF_DIVI=PJA
-+# ## Porezne linije statičkih polja
++# ## Static Fields za poresku liniju
 +# InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
 +# IT_SF_RDTP=3
 +# IT_SF_DIVI=AAA
 +# IT_SF_CONO=780
--## Porezne linije polja
+-## Polja poreske linije
 -InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
 -ITF_VTCD=TF_tax_code
 -ITF_VTA1=TF_tax_amount
 -ITF_VTP1=TF_tax_rate
 -ITF_CLAM=TF_gross_amount
-+# ## Porezne linije polja
++# ## Polja poreske linije
 +# InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
 +# ITF_VTCD=TF_tax_code
 +# ITF_VTA1=TF_tax_amount
@@ -380,6 +380,145 @@ Za korisnike iz SAD-a ažuriramo ovaj mapiranje na V3.
 -IC_SF_DIVI=PJA
 +IC_SF_DIVI=RFP
 +IC_SF_CONO=001
+
+###########################
+# Zaglavlje
+###########################
+
+## Static Fields zaglavlja
+StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
+SF_DIVI=RFP
+SF_IBTP=20
+SF_CONO=001
+#SF_BSCD=DE
+SF_IMCD=0
+#SF_TEPY=N00
+#SF_PYME=CSH
+#SF_APCD=MHIDALGO
+SF_CRTP=1
+SF_GEOC=999999999
+#SF_BKID=DJ1
+
+## Polja zaglavlja
+HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
+HF_SUNO=supplier_id
+HF_IVDT=invoice_date
+HF_SINO=invoice_id
+HF_SPYN=supplier_id
+HF_CUCD=currency
+HF_CUAM=total_net_amount_us
+#HF_VTAM=total_tax_amount
+#HF_ACDT=invoice_date
+#HF_SERS=invoice_sub_type
+HF_FTCO=supplier_country_code
+HF_PUNO=purchase_order
+HF_TXAP=tax_country_1
+HF_CORI=correlation_id
+HF_PAIN=sqr_field_esr_reference
+HF_TCHG=additional_amount
+HF_CDC1=negative_amount
+HF_APCD=buyer_id
+HF_TEPY=payment_terms
+HF_PYME=payment_method
+HF_BKID=bank_id
+#HF_GEOC=supplier_geoc
+
+###########################
+# Poreska linija
+###########################
+
+# ## Static Fields za poresku liniju
+# InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
+# IT_SF_RDTP=3
+# IT_SF_DIVI=AAA
+# IT_SF_CONO=780
+
+# ## Polja poreske linije
+# InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
+# ITF_VTCD=TF_tax_code
+# ITF_VTA1=TF_iznos_poreza
+# ITF_VTP1=TF_stopa_poreza
+# ITF_CLAM=TF_bruto_iznos
+
+###########################
+# Linija Računa
+###########################
+
+InvoiceReceipt=tabela_racuna
+
+## Statička Polja Linije Računa
+InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
+IR_SF_RDTP=1
+IR_SF_DIVI=RFP
+IR_SF_RELP=1
+#IR_SF_VTCD=52
+IR_SF_CONO=001
+
+## Polja Linije Računa
+InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
+IRF_IVQA = TF_količina
+IRF_PUUN = TF_jedinica
+IRF_PUNO = TF_narudžbenica
+IRF_PNLI = TF_broj_linije
+IRF_ITNO = TF_broj_artikla
+IRF_POPN = TF_broj_artikla
+IRF_SUDO = TF_packing_list
+IRF_NEPR = TF_neto_jedinicna_cena
+IRF_GRPR = TF_bruto_jedinicna_cena
+IRF_PPUN = TF_jedinicna_cena_koda
+IRF_NLAM = TF_neto_iznos
+IRF_GLAM = TF_ukupan_iznos
+IRF_TCHG = TF_troškovi
+IRF_CDC1 = TF_popust
+
+###########################
+# Linija Troškova Narudžbine
+###########################
+
+OrderCharge=troškovi_narudžbine
+
+## Statička Polja Linije Troškova Narudžbine
+OrderChargeStaticFields=RDTP,DIVI,CONO
+OC_SF_RDTP=2
+OC_SF_DIVI=RFP
+OC_SF_CONO=001
+
+## Polja Linije Troškova Narudžbine
+OrderChargeFields=NLAM,CHGT,CEID
+OCF_NLAM=TF_iznos
+OCF_CHGT=TF_tekst_bona
+OCF_CEID=TF_računovodstveni_nalog
+
+###########################
+# Linija Troškova
+###########################
+
+InvoiceCost=linije_troškova
+
+## Statička Polja Linije Troškova
+InvoiceCostStaticFields=RDTP,DIVI,CONO
+IC_SF_RDTP=8
+IC_SF_DIVI=RFP
+IC_SF_CONO=001
+
+## Polja Linije Troškova
+InvoiceCostFields=NLAM,VTXT,AO01,AO02,AO03,AO04,AO05,AO06,AO07,VTCD,AIT1,AIT2,AIT3,AIT4,AIT5,AIT6,AIT7,VTP1,VTP2
+ICF_NLAM=TF_iznos
+ICF_VTXT=TF_tekst_bona
+ICF_AIT1=TF_računovodstveni_nalog
+ICF_AIT2=TF_dimenzija_2
+ICF_AIT3=TF_dimenzija_3
+ICF_AIT4=TF_dimenzija_4
+ICF_AIT5=TF_dimenzija_5
+ICF_AIT6=TF_dimenzija_6
+ICF_AIT7=TF_dimenzija_7
+ICF_AO01=TF_objekat_računovodstva_1
+ICF_AO02=TF_objekat_računovodstva_2
+ICF_AO03=TF_objekat_računovodstva_3
+ICF_AO04=TF_objekat_računovodstva_4
+ICF_AO05=TF_objekat_računovodstva_5
+ICF_AO06=TF_objekat_računovodstva_6
+ICF_AO07=TF_objekat_računovodstva_7
 ```
 ````
 
