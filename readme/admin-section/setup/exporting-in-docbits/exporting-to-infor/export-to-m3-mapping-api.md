@@ -5,20 +5,20 @@
 Le fichier de mapping d'exportation M3 est divisé en 5 sections et chaque section est ensuite divisée en 2 sections
 
 * En-tête
-* Champs statiques de l'en-tête
-* Champs de l'en-tête
+* Champs statiques d'en-tête
+* Champs d'en-tête
 * Lignes de taxe
-* Champs statiques de la ligne de taxe
-* Champs de la ligne de taxe
+* Champs statiques de ligne de taxe
+* Champs de ligne de taxe
 * Lignes de reçu
-* Champs statiques de la ligne de reçu
-* Champs de la ligne de reçu
-* Lignes de frais de commande (Montants supplémentaires de commande)
+* Champs statiques de ligne de reçu
+* Champs de ligne de reçu
+* Lignes de frais de commande (Montants supplémentaires)
 * Champs statiques de frais de commande
 * Champs de frais de commande
 * Lignes de coût
-* Champs statiques de la ligne de coût
-* Champs de la ligne de coût
+* Champs statiques de ligne de coût
+* Champs de ligne de coût
 
 ### Ajout et suppression de champs
 
@@ -27,7 +27,7 @@ Ajout d'un nouveau champ :
 * Tout d'abord, nous devons ajouter le **nom du champ de l'API M3** à la liste des champs de la section pertinente (par exemple, ChampsStatiques, ChampsEn-tête, Champs de taxe de facture)
 * Définir la valeur statique ou le nom du champ de document pour le champ de l'API avec le préfixe approprié pour la section
 * Exemple 1 : Pour définir une valeur statique de **AAA** pour le champ de l'API M3 **DIVI.** Tout d'abord, nous avons ajouté DIVI à la propriété **ChampsStatiques**. Ensuite, nous ajoutons une ligne **SF\_DIVI = AAA** car SF\_ est le préfixe pour les champs statiques
-* Exemple 2 : Pour mapper le champ d'en-tête **IVDT (données de facture)** au champ date\_de\_facture de DocBits. Tout d'abord, nous ajoutons IVDT à la propriété **ChampsEn-tête**. Ensuite, nous ajoutons une ligne HF\_IVDT = date\_de\_facture car HF\_ est le préfixe pour les champs d'en-tête
+* Exemple 2 : Pour mapper le champ d'en-tête **IVDT (données de facturation)** au champ date\_de\_facturation de DocBits. Tout d'abord, nous ajoutons IVDT à la propriété **ChampsEn-tête**. Ensuite, nous ajoutons une ligne HF\_IVDT = date\_de\_facturation car HF\_ est le préfixe pour les champs d'en-tête
 
 Suppression d'un champ :
 
@@ -59,21 +59,21 @@ Propriété de la liste des champs : ChampsEn-tête
 
 Préfixe des champs de section : HF\_
 
-Champs disponibles : Vous pouvez mapper n'importe quel champ de DocBits avec n'importe quel champ d'API M3
+Champs disponibles : Vous pouvez mapper n'importe quel champ DocBits avec n'importe quel champ d'API M3
 
 ### Ligne de taxe :
 
-#### Champs statiques de la ligne de taxe :
+#### Champs statiques de ligne de taxe :
 
 Propriété de la liste des champs : ChampsStatiquesTaxeFacture
 
 Préfixe des champs de section : IT\_SF\_
 
-Champs M3 disponibles : Veuillez vérifier l'API M3 ou l'interface utilisateur
+Champs M3 disponibles : Veuillez vérifier l'API ou l'interface utilisateur de M3
 
 Champs DocBits disponibles : Vous pouvez mettre n'importe quelle valeur car ce sont des champs statiques
 
-#### Champs de la ligne de taxe :
+#### Champs de ligne de taxe :
 
 Propriété de la liste des champs : ChampsTaxeFacture
 
@@ -81,23 +81,23 @@ Préfixe M3 : ITF\_
 
 Préfixe du champ de table DocBits : TF\_
 
-Champs M3 disponibles : Veuillez vérifier l'API M3 ou l'interface utilisateur
+Champs M3 disponibles : Veuillez vérifier l'API ou l'interface utilisateur de M3
 
 Champs DocBits disponibles : numéro_de_ligne, montant_de_taxe, taux_de_taxe, montant_net, montant_brut, code_fiscal_complet, code_fiscal, pays_de_taxe
 
 ### Ligne de reçu :
 
-#### Champs statiques de la ligne de reçu :
+#### Champs statiques de ligne de reçu :
 
 Propriété de la liste des champs : ChampsStatiquesReçuFacture
 
 Préfixe des champs de section : IR\_SF\_
 
-Champs M3 disponibles : Veuillez vérifier l'API M3 ou l'interface utilisateur
+Champs M3 disponibles : Veuillez vérifier l'API ou l'interface utilisateur de M3
 
 Champs DocBits disponibles : Vous pouvez mettre n'importe quelle valeur car ce sont des champs statiques
 
-#### Champs de la ligne de reçu :
+#### Champs de ligne de reçu :
 
 Propriété de la liste des champs : ChampsReçuFacture
 
@@ -105,7 +105,7 @@ Préfixe M3 : IRF\_
 
 Préfixe du champ de table DocBits : TF\_
 
-Champs M3 disponibles : Veuillez vérifier l'API M3 ou l'interface utilisateur
+Champs M3 disponibles : Veuillez vérifier l'API ou l'interface utilisateur de M3
 
 Champs DocBits disponibles : bon_de_livraison, bon_de_commande, numéro_de_ligne, séquence_de_ligne, numéro_de_livraison, ligne_de_livraison, montant, quantité, montant_net_total
 
@@ -117,7 +117,7 @@ Propriété de la liste des champs : ChampsStatiquesFraisCommande
 
 Préfixe des champs de section : OC\_SF\_
 
-Champs M3 disponibles : Veuillez vérifier l'API M3 ou l'interface utilisateur
+Champs M3 disponibles : Veuillez vérifier l'API ou l'interface utilisateur de M3
 
 Champs DocBits disponibles : Vous pouvez mettre n'importe quelle valeur car ce sont des champs statiques
 
@@ -129,23 +129,23 @@ Préfixe M3 : OCF\_
 
 Préfixe du champ de table DocBits : TF\_
 
-Champs M3 disponibles : Veuillez vérifier l'API M3 ou l'interface utilisateur
+Champs M3 disponibles : Veuillez vérifier l'API ou l'interface utilisateur de M3
 
 Champs DocBits disponibles : compte_de_grand_livre, dimension_2-7, montant, quantité, quantité2, position
 
 ### Ligne de coût :
 
-#### Champs statiques de la ligne de coût :
+#### Champs statiques de ligne de coût :
 
 Propriété de la liste des champs : ChampsStatiquesCoûtFacture
 
 Préfixe des champs de section : IC\_SF\_
 
-Champs M3 disponibles : Veuillez vérifier l'API M3 ou l'interface utilisateur
+Champs M3 disponibles : Veuillez vérifier l'API ou l'interface utilisateur de M3
 
 Champs DocBits disponibles : Vous pouvez mettre n'importe quelle valeur car ce sont des champs statiques
 
-#### Champs de la ligne de coût :
+#### Champs de ligne de coût :
 
 Propriété de la liste des champs : ChampsCoûtFacture
 
@@ -153,7 +153,7 @@ Préfixe M3 : ICF\_
 
 Préfixe du champ de table DocBits : TF\_
 
-Champs M3 disponibles : Veuillez vérifier l'API M3 ou l'interface utilisateur
+Champs M3 disponibles : Veuillez vérifier l'API ou l'interface utilisateur de M3
 
 Champs DocBits disponibles : compte_de_grand_livre, dimension_1-12, montant, quantité, quantité2, position
 
@@ -292,9 +292,9 @@ ICF_AO05=TF_accounting_object_5
 ICF_AO06=TF_accounting_object_6
 ICF_AO07=TF_accounting_object_7
 ```
-Pour les clients américains, nous mettons à jour ce mappage en V3.
+Pour le client américain, nous mettons à jour ce mappage en V3.
 ````
-```properties
+```
 # Changements de la version 2 à la version 3 : 
 - StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,GEOC,BKID
 - SF_DIVI=PJA
@@ -327,29 +327,23 @@ Pour les clients américains, nous mettons à jour ce mappage en V3.
 + HF_PYME=payment_method
 + HF_BKID=bank_id
 + HF_GEOC=supplier_geoc
-- ## Champs statiques de ligne de taxe
+- ## Tax Line Static Fields
 - InvoiceTaxStaticFields=RDTP,DIVI,VTCD
 - IT_SF_RDTP=3
 - IT_SF_DIVI=PJA
 +
-+ ## Champs statiques de ligne de taxe
++ ## Tax Line Static Fields
 + InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
 + IT_SF_RDTP=3
 + IT_SF_DIVI=AAA
 + IT_SF_CONO=780
-- ## Champs de ligne de taxe
+- ## Tax Line Fields
 - InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
 - ITF_VTCD=TF_tax_code
-- ITF_VTA1=TF_tax_amount
-- ITF_VTP1=TF_tax_rate
-- ITF_CLAM=TF_gross_amount
 +
-+ ## Champs de ligne de taxe
++ ## Tax Line Fields
 + InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
 + ITF_VTCD=TF_tax_code
-+ ITF_VTA1=TF_tax_amount
-+ ITF_VTP1=TF_tax_rate
-+ ITF_CLAM=TF_gross_amount
 - InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD
 + InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
 - IR_SF_DIVI=PJA
@@ -378,17 +372,160 @@ Pour les clients américains, nous mettons à jour ce mappage en V3.
 + IRF_TCHG = TF_charges
 + IRF_CDC1 = TF_discount
 - OrderChargeStaticFields=RDTP,DIVI
++
 + OrderChargeStaticFields=RDTP,DIVI,CONO
 - OC_SF_DIVI=PJA
 +
 + OC_SF_DIVI=RFP
 + OC_SF_CONO=001
 - InvoiceCostStaticFields=RDTP,DIVI
++
 + InvoiceCostStaticFields=RDTP,DIVI,CONO
 - IC_SF_DIVI=PJA
 +
 + IC_SF_DIVI=RFP
 + IC_SF_CONO=001
+
+###########################
+# En-tête
+###########################
+
+## Champs statiques de l'en-tête
+StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
+SF_DIVI=RFP
+SF_IBTP=20
+SF_CONO=001
+#SF_BSCD=DE
+SF_IMCD=0
+#SF_TEPY=N00
+#SF_PYME=CSH
+#SF_APCD=MHIDALGO
+SF_CRTP=1
+SF_GEOC=999999999
+#SF_BKID=DJ1
+
+## Champs de l'en-tête
+HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
+HF_SUNO=supplier_id
+HF_IVDT=invoice_date
+HF_SINO=invoice_id
+HF_SPYN=supplier_id
+HF_CUCD=currency
+HF_CUAM=total_net_amount_us
+#HF_VTAM=total_tax_amount
+#HF_ACDT=invoice_date
+#HF_SERS=invoice_sub_type
+HF_FTCO=supplier_country_code
+HF_PUNO=purchase_order
+HF_TXAP=tax_country_1
+HF_CORI=correlation_id
+HF_PAIN=sqr_field_esr_reference
+HF_TCHG=additional_amount
+HF_CDC1=negative_amount
+HF_APCD=buyer_id
+HF_TEPY=payment_terms
+HF_PYME=payment_method
+HF_BKID=bank_id
+#HF_GEOC=supplier_geoc
+
+###########################
+# Ligne de taxe
+###########################
+
+# ## Champs statiques de la ligne de taxe
+# InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
+# IT_SF_RDTP=3
+# IT_SF_DIVI=AAA
+# IT_SF_CONO=780
+
+# ## Champs de la ligne de taxe
+# InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
+# ITF_VTCD=TF_tax_code
+```markdown
+# ITF_VTA1=Montant_taxe_TF
+# ITF_VTP1=Taux_taxe_TF
+# ITF_CLAM=Montant_brut_TF
+
+###########################
+# Ligne de reçu
+###########################
+
+InvoiceReceipt=table_facture
+
+## Champs statiques de la ligne de reçu
+InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
+IR_SF_RDTP=1
+IR_SF_DIVI=RFP
+IR_SF_RELP=1
+#IR_SF_VTCD=52
+IR_SF_CONO=001
+
+## Champs de la ligne de reçu
+InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
+IRF_IVQA = Quantité_TF
+IRF_PUUN = Unité_TF
+IRF_PUNO = Bon_de_commande_TF
+IRF_PNLI = Numéro_de_ligne_TF
+IRF_ITNO = Numéro_article_TF
+IRF_POPN = Numéro_article_TF
+IRF_SUDO = Bon_de_livraison_TF
+IRF_NEPR = Prix_unitaire_net_TF
+IRF_GRPR = Prix_unitaire_brut_TF
+IRF_PPUN = Prix_code_unité_TF
+IRF_NLAM = Montant_net_TF
+IRF_GLAM = Montant_total_TF
+IRF_TCHG = Frais_TF
+IRF_CDC1 = Remise_TF
+
+###########################
+# Ligne de charge de commande
+###########################
+
+OrderCharge=frais_commande
+
+## Champs statiques de la ligne de charge de commande
+OrderChargeStaticFields=RDTP,DIVI,CONO
+OC_SF_RDTP=2
+OC_SF_DIVI=RFP
+OC_SF_CONO=001
+
+## Champs de la ligne de charge de commande
+OrderChargeFields=NLAM,CHGT,CEID
+OCF_NLAM=Montant_TF
+OCF_CHGT=Texte_bon_TF
+OCF_CEID=Compte_général_TF
+
+###########################
+# Ligne de coût
+###########################
+
+InvoiceCost=lignes_de_coût
+
+## Champs statiques de la ligne de coût
+InvoiceCostStaticFields=RDTP,DIVI,CONO
+IC_SF_RDTP=8
+IC_SF_DIVI=RFP
+IC_SF_CONO=001
+
+## Champs de la ligne de coût
+InvoiceCostFields=NLAM,VTXT,AO01,AO02,AO03,AO04,AO05,AO06,AO07,VTCD,AIT1,AIT2,AIT3,AIT4,AIT5,AIT6,AIT7,VTP1,VTP2
+ICF_NLAM=Montant_TF
+ICF_VTXT=Texte_bon_TF
+ICF_AIT1=Compte_général_TF
+ICF_AIT2=Dimension_2_TF
+ICF_AIT3=Dimension_3_TF
+ICF_AIT4=Dimension_4_TF
+ICF_AIT5=Dimension_5_TF
+ICF_AIT6=Dimension_6_TF
+ICF_AIT7=Dimension_7_TF
+ICF_AO01=Objet_comptable_1_TF
+ICF_AO02=Objet_comptable_2_TF
+ICF_AO03=Objet_comptable_3_TF
+ICF_AO04=Objet_comptable_4_TF
+ICF_AO05=Objet_comptable_5_TF
+ICF_AO06=Objet_comptable_6_TF
+ICF_AO07=Objet_comptable_7_TF
+```
 ```
 ````
 
