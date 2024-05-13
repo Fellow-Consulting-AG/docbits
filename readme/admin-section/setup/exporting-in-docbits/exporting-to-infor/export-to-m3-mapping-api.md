@@ -35,13 +35,13 @@ Eliminar Campo:
 
 #### **Campos de API de M3 Disponibles:**
 
-* Los campos de M3 disponibles se pueden verificar abriendo la pantalla apropiada en M3.
+* Los campos de M3 disponibles se pueden verificar abriendo la pantalla adecuada en M3.
 
 <figure><img src="../../../../.gitbook/assets/aef99180-f060-497c-bd98-02d44fdd9274.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/266ad772-af8f-4aed-9cb7-c44aa8977cee.png" alt=""><figcaption></figcaption></figure>
 
-* De manera similar, se pueden obtener los nombres de los campos para las líneas
+* De manera similar, puede obtener los nombres de los campos para las líneas
 
 ### Encabezado:
 
@@ -51,7 +51,7 @@ Propiedad de Lista de Campos: StaticFields
 
 Prefijo de Campos de Sección: SF\_
 
-Campos Disponibles: Puedes mapear cualquier campo de la API de M3 con cualquier valor estático
+Campos Disponibles: Puede mapear cualquier campo de la API de M3 con cualquier valor estático
 
 #### **Campos de Encabezado**
 
@@ -59,7 +59,7 @@ Propiedad de Lista de Campos: HeaderFields
 
 Prefijo de Campos de Sección: HF\_
 
-Campos Disponibles: Puedes mapear cualquier campo de DocBits a cualquier campo de la API de M3
+Campos Disponibles: Puede mapear cualquier campo de DocBits a cualquier campo de la API de M3
 
 ### Línea de Impuestos:
 
@@ -69,9 +69,9 @@ Propiedad de Lista de Campos: InvoiceTaxStaticFields
 
 Prefijo de Campos de Sección: IT\_SF\_
 
-Campos de M3 Disponibles: Por favor, verifica la API o la interfaz de usuario de M3
+Campos de M3 Disponibles: Por favor, verifique la API o la interfaz de usuario de M3
 
-Campos de DocBits Disponibles: Puedes poner cualquier valor ya que son campos estáticos
+Campos de DocBits Disponibles: Puede poner cualquier valor ya que son campos estáticos
 
 #### Campos de Línea de Impuestos:
 
@@ -81,7 +81,7 @@ Prefijo de Campos de M3: ITF\_
 
 Prefijo de Campo de Tabla de DocBits: TF\_
 
-Campos de M3 Disponibles: Por favor, verifica la API o la interfaz de usuario de M3
+Campos de M3 Disponibles: Por favor, verifique la API o la interfaz de usuario de M3
 
 Campos de DocBits Disponibles: line\_number, tax\_amount, tax\_rate, net\_amount, gross\_amount, tax\_code\_full, tax\_code, tax\_country
 
@@ -93,9 +93,9 @@ Propiedad de Lista de Campos: InvoiceReceiptStaticFields
 
 Prefijo de Campos de Sección: IR\_SF\_
 
-Campos de M3 Disponibles: Por favor, verifica la API o la interfaz de usuario de M3
+Campos de M3 Disponibles: Por favor, verifique la API o la interfaz de usuario de M3
 
-Campos de DocBits Disponibles: Puedes poner cualquier valor ya que son campos estáticos
+Campos de DocBits Disponibles: Puede poner cualquier valor ya que son campos estáticos
 
 #### Campos de Línea de Recibo:
 
@@ -105,7 +105,7 @@ Prefijo de Campos de M3: IRF\_
 
 Prefijo de Campo de Tabla de DocBits: TF\_
 
-Campos de M3 Disponibles: Por favor, verifica la API o la interfaz de usuario de M3
+Campos de M3 Disponibles: Por favor, verifique la API o la interfaz de usuario de M3
 
 Campos de DocBits Disponibles: packing\_slip, purchase\_order, line\_number, line\_sequence, delivery\_number, delivery\_line, amount, quantity, total\_net\_amount
 
@@ -117,9 +117,9 @@ Propiedad de Lista de Campos: OrderChargeStaticFields
 
 Prefijo de Campos de Sección: OC\_SF\_
 
-Campos de M3 Disponibles: Por favor, verifica la API o la interfaz de usuario de M3
+Campos de M3 Disponibles: Por favor, verifique la API o la interfaz de usuario de M3
 
-Campos de DocBits Disponibles: Puedes poner cualquier valor ya que son campos estáticos
+Campos de DocBits Disponibles: Puede poner cualquier valor ya que son campos estáticos
 
 #### Campos de Cargos de Orden:
 
@@ -129,7 +129,7 @@ Prefijo de Campos de M3: OCF\_
 
 Prefijo de Campo de Tabla de DocBits: TF\_
 
-Campos de M3 Disponibles: Por favor, verifica la API o la interfaz de usuario de M3
+Campos de M3 Disponibles: Por favor, verifique la API o la interfaz de usuario de M3
 
 Campos de DocBits Disponibles: ledger\_account, dimension\_2-7, amount, quantity, quantity2, position
 
@@ -141,9 +141,9 @@ Propiedad de Lista de Campos: InvoiceCostStaticFields
 
 Prefijo de Campos de Sección: IC\_SF\_
 
-Campos de M3 Disponibles: Por favor, verifica la API o la interfaz de usuario de M3
+Campos de M3 Disponibles: Por favor, verifique la API o la interfaz de usuario de M3
 
-Campos de DocBits Disponibles: Puedes poner cualquier valor ya que son campos estáticos
+Campos de DocBits Disponibles: Puede poner cualquier valor ya que son campos estáticos
 
 #### Campos de Línea de Costo:
 
@@ -153,7 +153,7 @@ Prefijo de Campos de M3: ICF\_
 
 Prefijo de Campo de Tabla de DocBits: TF\_
 
-Campos de M3 Disponibles: Por favor, verifica la API o la interfaz de usuario de M3
+Campos de M3 Disponibles: Por favor, verifique la API o la interfaz de usuario de M3
 
 Campos de DocBits Disponibles: ledger\_account, dimension\_1-12, amount, quantity, quantity2, position
 
@@ -292,7 +292,7 @@ ICF_AO05=TF_accounting_object_5
 ICF_AO06=TF_accounting_object_6
 ICF_AO07=TF_accounting_object_7
 ```
-Para el cliente de EE. UU. actualizamos este mapeo a V3.
+### Para clientes de EE. UU. actualizamos este mapeo a V3
 ````
 ```
 # Cambios de la Versión 2 a la Versión 3: 
@@ -303,21 +303,21 @@ Para el cliente de EE. UU. actualizamos este mapeo a V3.
 + SF_CONO=001
 - SF_TEPY=J30
 - SF_PYME=PTR
-+ SF_TEPY=N00
-+ SF_PYME=CSH
-+ SF_APCD=MHIDALGO
++ #SF_TEPY=N00
++ #SF_PYME=CSH
++ #SF_APCD=MHIDALGO
 - SF_BKID=001
 + SF_GEOC=999999999
-+ SF_BKID=DJ1
++ #SF_BKID=DJ1
 - HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN
 + HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
 - HF_CUAM=total_net_amount
 + HF_CUAM=total_net_amount_us
 - HF_ACDT=invoice_date
-+ HF_ACDT=invoice_date
++ #HF_ACDT=invoice_date
 - HF_CORI = correlation_id
 - HF_PAIN = sqr_field_esr_reference
-+
+-
 + HF_CORI=correlation_id
 + HF_PAIN=sqr_field_esr_reference
 + HF_TCHG=additional_amount
@@ -326,122 +326,55 @@ Para el cliente de EE. UU. actualizamos este mapeo a V3.
 + HF_TEPY=payment_terms
 + HF_PYME=payment_method
 + HF_BKID=bank_id
-+ HF_GEOC=supplier_geoc
-- ## Tax Line Static Fields
++ #HF_GEOC=supplier_geoc
+- ## Campos Estáticos de Línea de Impuestos
 - InvoiceTaxStaticFields=RDTP,DIVI,VTCD
 - IT_SF_RDTP=3
 - IT_SF_DIVI=PJA
-+
-+ ## Tax Line Static Fields
++ ## Campos Estáticos de Línea de Impuestos
 + InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
 + IT_SF_RDTP=3
 + IT_SF_DIVI=AAA
 + IT_SF_CONO=780
-- ## Tax Line Fields
+- ## Campos de Línea de Impuestos
 - InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
 - ITF_VTCD=TF_tax_code
-+
-+ ## Tax Line Fields
++ ## Campos de Línea de Impuestos
 + InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
 + ITF_VTCD=TF_tax_code
 - InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD
 + InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
 - IR_SF_DIVI=PJA
 - IR_SF_SERS=0
-+
 + IR_SF_DIVI=RFP
 - IR_SF_VTCD=52
-+
-+ IR_SF_VTCD=52
++ #IR_SF_VTCD=52
 + IR_SF_CONO=001
 - InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM
-+
 + InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
 - #IRF_PUNO = TF_purchase_order
 - #IRF_PNLI = TF_line_number
-+
 + IRF_PUNO = TF_purchase_order
 + IRF_PNLI = TF_line_number
 - #IRF_NEPR = TF_net_unit_price
-+
 + IRF_NEPR = TF_net_unit_price
 - IRF_PPUN = TF_unit
 - #IRF_NLAM = TF_net_amount
-+
 + IRF_PPUN = TF_unit_code_price
 + IRF_NLAM = TF_net_amount
 + IRF_TCHG = TF_charges
 + IRF_CDC1 = TF_discount
 - OrderChargeStaticFields=RDTP,DIVI
-+
 + OrderChargeStaticFields=RDTP,DIVI,CONO
 - OC_SF_DIVI=PJA
-+
 + OC_SF_DIVI=RFP
 + OC_SF_CONO=001
 - InvoiceCostStaticFields=RDTP,DIVI
-+
 + InvoiceCostStaticFields=RDTP,DIVI,CONO
 - IC_SF_DIVI=PJA
-+
 + IC_SF_DIVI=RFP
 + IC_SF_CONO=001
-
-###########################
-# Encabezado
-###########################
-
-## Campos Estáticos del Encabezado
-StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
-SF_DIVI=RFP
-SF_IBTP=20
-SF_CONO=001
-#SF_BSCD=DE
-SF_IMCD=0
-#SF_TEPY=N00
-#SF_PYME=CSH
-#SF_APCD=MHIDALGO
-SF_CRTP=1
-SF_GEOC=999999999
-#SF_BKID=DJ1
-
-## Campos del Encabezado
-HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
-HF_SUNO=supplier_id
-HF_IVDT=invoice_date
-HF_SINO=invoice_id
-HF_SPYN=supplier_id
-HF_CUCD=currency
-HF_CUAM=total_net_amount_us
-#HF_VTAM=total_tax_amount
-#HF_ACDT=invoice_date
-#HF_SERS=invoice_sub_type
-HF_FTCO=supplier_country_code
-HF_PUNO=purchase_order
-HF_TXAP=tax_country_1
-HF_CORI=correlation_id
-HF_PAIN=sqr_field_esr_reference
-HF_TCHG=additional_amount
-HF_CDC1=negative_amount
-HF_APCD=buyer_id
-HF_TEPY=payment_terms
-HF_PYME=payment_method
-HF_BKID=bank_id
-#HF_GEOC=supplier_geoc
-
-###########################
-# Línea de Impuestos
-###########################
-
-# ## Campos Estáticos de la Línea de Impuestos
-# InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
-# IT_SF_RDTP=3
-# IT_SF_DIVI=AAA
-# IT_SF_CONO=780
-
-# ## Campos de la Línea de Impuestos
-# InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
-# ITF_VTCD=TF_tax_code
+```markdown
 # ITF_VTA1=TF_monto_impuesto
 # ITF_VTP1=TF_tasa_impuesto
 # ITF_CLAM=TF_monto_bruto
@@ -483,13 +416,13 @@ IRF_CDC1 = TF_descuento
 
 OrderCharge=cargos_orden
 
-## Campos Estáticos de la Línea de Cargo de Orden
+## Campos Estáticos de Cargo de Orden
 OrderChargeStaticFields=RDTP,DIVI,CONO
 OC_SF_RDTP=2
 OC_SF_DIVI=RFP
 OC_SF_CONO=001
 
-## Campos de la Línea de Cargo de Orden
+## Campos de Cargo de Orden
 OrderChargeFields=NLAM,CHGT,CEID
 OCF_NLAM=TF_monto
 OCF_CHGT=TF_texto_voucher
@@ -526,6 +459,7 @@ ICF_AO04=TF_objeto_contable_4
 ICF_AO05=TF_objeto_contable_5
 ICF_AO06=TF_objeto_contable_6
 ICF_AO07=TF_objeto_contable_7
+```
 ```
 ````
 
