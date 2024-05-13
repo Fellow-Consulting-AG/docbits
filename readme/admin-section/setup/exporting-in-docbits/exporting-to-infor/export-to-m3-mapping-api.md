@@ -2,7 +2,7 @@
 
 ### Bölümler
 
-M3 aktarım eşleme dosyası 5 bölüme ayrılmıştır ve her bölüm daha fazla 2 bölüme ayrılmıştır
+M3 aktarım eşleme dosyası 5 bölüme ayrılmıştır ve her bölüm daha da ikiye ayrılmıştır
 
 * Başlık
 * Başlık Statik Alanları
@@ -24,18 +24,18 @@ M3 aktarım eşleme dosyası 5 bölüme ayrılmıştır ve her bölüm daha fazl
 
 Yeni Alan Ekleme:
 
-* İlk olarak **M3 api alan adını** ilgili bölümün alan listesi özelliğine eklememiz gerekmektedir (örneğin StatikAlanlar, BaşlıkAlanları, FaturaVergiAlanları)
-* Statik değeri veya belge alan adını uygun önek ile api alanı için tanımlayın
-* Örnek 1: **DIVI** M3 api alanı için **AAA** statik değerini tanımlamak için önce DIVI'yi **StatikAlanlar** özelliğine ekledik. Sonra SF\_DIVI = AAA satırını ekledik çünkü SF\_ statik alanlar için önek olarak kullanılır
-* Örnek 2: Başlık alanı **IVDT (fatura tarihi)**'yi DocBits'in invoice\_date alanına eşlemek için IVDT'yi **BaşlıkAlanları** özelliğine ekledik. Sonra HF\_IVDT = invoice\_date satırını ekledik çünkü HF\_ başlık alanları için önek olarak kullanılır
+* İlk olarak **M3 api alan adını** ilgili bölümün alan listesi özelliğine eklememiz gerekiyor (örneğin StatikAlanlar, BaşlıkAlanları, FaturaVergiAlanları)
+* Statik değeri veya belge alan adını api alanı için uygun önek ile tanımlayın
+* Örnek 1: **DIVI** M3 api alanı için **AAA** statik bir değeri tanımlamak için önce DIVI'yi **StatikAlanlar** özelliğine ekledik. Sonra SF\_DIVI = AAA gibi bir satır ekleriz, çünkü SF\_ statik alanlar için önek olarak kullanılır
+* Örnek 2: Başlık alanı **IVDT (fatura tarihi)**'yi DocBits'in invoice\_date alanına eşlemek için IVDT'yi **BaşlıkAlanları** özelliğine ekleriz. Sonra HF\_IVDT = invoice\_date gibi bir satır ekleriz, çünkü HF\_ başlık alanları için önek olarak kullanılır
 
 Alan Kaldırma:
 
 * Sadece alanı bölümün alan listesi özelliğinden kaldırın ve alan için değeri tanımlayan satırı kaldırın.
 
-#### **Mevcut M3 Api Alanları:**
+#### **M3 Api Alanları Mevcut:**
 
-* Mevcut M3 alanları, M3'te uygun ekranı açarak kontrol edilebilir.
+* Mevcut M3 alanları M3'teki uygun ekrana bakılarak kontrol edilebilir.
 
 <figure><img src="../../../../.gitbook/assets/aef99180-f060-497c-bd98-02d44fdd9274.png" alt=""><figcaption></figcaption></figure>
 
@@ -292,4 +292,94 @@ ICF_AO05=TF_accounting_object_5
 ICF_AO06=TF_accounting_object_6
 ICF_AO07=TF_accounting_object_7
 ```
+ABD Müşterisi için bu eşlemeyi V3'e güncelliyoruz.
+````
+```properties
+# Version 2'den Version 3'e yapılan değişiklikler:
+-StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,GEOC,BKID
+-SF_DIVI=PJA
++StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
++SF_DIVI=RFP
++SF_CONO=001
+-SF_TEPY=J30
+-SF_PYME=PTR
++#SF_TEPY=N00
++#SF_PYME=CSH
++#SF_APCD=MHIDALGO
+-SF_BKID=001
++SF_GEOC=999999999
++#SF_BKID=DJ1
+-HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN
++HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
+-HF_CUAM=total_net_amount
++HF_CUAM=total_net_amount_us
+-HF_ACDT=invoice_date
++#HF_ACDT=invoice_date
+-HF_CORI = correlation_id
+-HF_PAIN = sqr_field_esr_reference
++
++HF_CORI=correlation_id
++HF_PAIN=sqr_field_esr_reference
++HF_TCHG=additional_amount
++HF_CDC1=negative_amount
++HF_APCD=buyer_id
++HF_TEPY=payment_terms
++HF_PYME=payment_method
++HF_BKID=bank_id
++#HF_GEOC=supplier_geoc
+-## Vergi Satırı Statik Alanları
+-InvoiceTaxStaticFields=RDTP,DIVI,VTCD
+-IT_SF_RDTP=3
+-IT_SF_DIVI=PJA
++# ## Vergi Satırı Statik Alanları
++# InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
++# IT_SF_RDTP=3
++# IT_SF_DIVI=AAA
++# IT_SF_CONO=780
+-## Vergi Satırı Alanları
+-InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
+-ITF_VTCD=TF_tax_code
+-ITF_VTA1=TF_tax_amount
+-ITF_VTP1=TF_tax_rate
+-ITF_CLAM=TF_gross_amount
++# ## Vergi Satırı Alanları
++# InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
++# ITF_VTCD=TF_tax_code
++# ITF_VTA1=TF_tax_amount
++# ITF_VTP1=TF_tax_rate
++# ITF_CLAM=TF_gross_amount
+-InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD
++InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
+-IR_SF_DIVI=PJA
+-IR_SF_SERS=0
++IR_SF_DIVI=RFP
+-IR_SF_VTCD=52
++#IR_SF_VTCD=52
++IR_SF_CONO=001
+-InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM
++InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
+-#IRF_PUNO = TF_purchase_order
+-#IRF_PNLI = TF_line_number
++IRF_PUNO = TF_purchase_order
++IRF_PNLI = TF_line_number
+-#IRF_NEPR = TF_net_unit_price
++IRF_NEPR = TF_net_unit_price
+-IRF_PPUN = TF_unit
+-#IRF_NLAM = TF_net_amount
++IRF_PPUN = TF_unit_code_price
++IRF_NLAM = TF_net_amount
++IRF_TCHG = TF_charges
++IRF_CDC1 = TF_discount
+-OrderChargeStaticFields=RDTP,DIVI
++OrderChargeStaticFields=RDTP,DIVI,CONO
+-OC_SF_DIVI=PJA
++OC_SF_DIVI=RFP
++OC_SF_CONO=001
+-InvoiceCostStaticFields=RDTP,DIVI
++InvoiceCostStaticFields=RDTP,DIVI,CONO
+-IC_SF_DIVI=PJA
++IC_SF_DIVI=RFP
++IC_SF_CONO=001
+```
+````
 
