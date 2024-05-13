@@ -65,7 +65,7 @@ Veja aqui adicionar [Script no DocBits](../admin-section/setup/scripting-in-docb
 * **Propósito:** Permite aos usuários realizar ações rapidamente usando combinações de teclas.
 * **Caso de Uso:** Aumenta a velocidade e eficiência na navegação e processamento de documentos, minimizando a dependência da navegação do mouse.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption><p>Teclado </p></figcaption></figure>
 
 ### **Tarefas:**
 
@@ -111,7 +111,7 @@ Na visualização OCR, o texto é filtrado automaticamente do documento. Isso é
 * **Propósito:** Reconhece automaticamente texto em documentos usando tecnologia de Reconhecimento Óptico de Caracteres.
 * **Caso de Uso:** Simplifica o processo de digitalização de textos impressos ou manuscritos, tornando-os pesquisáveis e editáveis.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
 
 ### **Criar Ticket:**
 
@@ -124,15 +124,15 @@ Ao contrário das tarefas que são repassadas internamente dentro da empresa, es
 * **Caso de Uso:** Essencial para a rápida resolução de problemas e bugs, ajudando a manter a integridade e o bom funcionamento do sistema.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
-### **Registos de script do documento:**
+### **Registos de script de documento:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
 
 Os scripts podem ser criados nas configurações em Tipos de Documento; esta informação será então exibida aqui.
 
-* **Registos de Script do Documento:**
+* **Registos de Script de Documento:**
 * **Propósito:** Mostra registos relacionados com scripts implementados para diferentes tipos de documentos.
-* **Cenário de Uso:** Útil para rastrear e depurar ações de script em documentos, ajudando os utilizadores a compreender os processos automatizados e corrigir quaisquer problemas.
+* **Caso de Uso:** Útil para rastrear e depurar ações de script em documentos, ajudando os utilizadores a compreender os processos automatizados e corrigir quaisquer problemas.
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
@@ -147,28 +147,28 @@ Os scripts podem ser criados nas configurações em Tipos de Documento; esta inf
 * Aqui pode dividir o documento e cortar ou excluir páginas que não são necessárias
 * **Dividir Documento:**
 * **Propósito:** Permite aos utilizadores dividir um documento em partes separadas, removendo ou isolando páginas que não são necessárias.
-* **Cenário de Uso:** Ideal ao lidar com documentos de várias páginas onde apenas certas secções são necessárias para processamento ou revisão.
+* **Caso de Uso:** Ideal ao lidar com documentos de várias páginas onde apenas certas secções são necessárias para processamento ou revisão.
 
 ### **Melhorar documento:**
 
 * O documento será reiniciado
 * **Melhorar Documento:**
 * **Propósito:** Reinicia o documento para o seu estado inicial para reavaliação ou modificações adicionais.
-* **Cenário de Uso:** Útil quando modificações iniciais precisam ser desfeitas ou o documento precisa ser atualizado para outra rodada de edições. Aqui precisamos de Visão ML extra para melhorar a qualidade do documento.&#x20;
+* **Caso de Uso:** Útil quando modificações iniciais precisam ser desfeitas ou o documento precisa ser atualizado para outra rodada de edições. Aqui precisamos de Visão ML adicional para melhorar a qualidade do documento.&#x20;
 
-### **Fluxo do Documento:**
+### **Fluxo de Documento:**
 
 Aqui encontrará o fluxo do documento
 
-* **Propósito:** Mostra a sequência e progressão do processamento de documentos dentro do sistema.
-* **Cenário de Uso:** Ajuda a rastrear o estado do documento através de diferentes etapas, garantindo que todos os passos de processamento necessários sejam seguidos.
+* **Propósito:** Mostra a sequência e progressão do processamento do documento dentro do sistema.
+* **Caso de Uso:** Ajuda a rastrear o estado do documento através de diferentes estágios, garantindo que todos os passos de processamento necessários sejam seguidos.
 
 ### **Ir para Modelo de Layout:**
 
 * Com esta opção será redirecionado e poderá editar o seu layout ou usar o modelo predefinido
 * **Ir para Modelo de Layout:**
-* **Propósito:** Redireciona os utilizadores para um editor de layout onde podem modificar modelos existentes ou aplicar um padrão.
-* **Cenário de Uso:** Permite a personalização de layouts de documentos para atender a necessidades ou preferências comerciais específicas, melhorando o alinhamento visual e funcional do documento com os padrões da empresa.
+* **Propósito:** Redireciona os utilizadores para um editor de layout onde podem modificar modelos existentes ou aplicar um predefinido.
+* **Caso de Uso:** Permite a personalização de layouts de documentos para atender a necessidades ou preferências comerciais específicas, melhorando o alinhamento visual e funcional do documento com os padrões da empresa.
 
 ### **Campos obrigatórios:**
 
@@ -181,20 +181,20 @@ Use a dica de ferramenta para descobrir se:&#x20;
 * É um campo obrigatório (necessário)
 * Validação necessária&#x20;
 * Baixa confiança
-* Incompatibilidade total do valor do imposto
+* Incompatibilidade total do montante de imposto
 * **Campos Obrigatórios:**
 * **Propósito:** Identifica campos obrigatórios nos documentos que devem ser preenchidos ou corrigidos antes do processamento adicional.
-* **Cenário de Uso:** Garante que os dados essenciais sejam capturados com precisão, mantendo a integridade dos dados e a conformidade com as regras comerciais.
+* **Caso de Uso:** Garante que os dados essenciais sejam capturados com precisão, mantendo a integridade dos dados e a conformidade com as regras comerciais.
 
 ### **Ir para visualização de extração de tabela:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.37.png" alt=""><figcaption></figcaption></figure>
 
-Aqui chega à visualização de extração de tabela e tem mais opções para continuar. Por exemplo, no modo de treino, aprendendo a tabela.
+Aqui chega à visualização de extração de tabela e tem mais opções para continuar. Por exemplo, em modo de treino, aprendendo a tabela.
 
 * **Ir para Visualização de Extração de Tabela:**
 * **Propósito:** Navega para uma interface onde os utilizadores podem extrair e manipular dados de tabela de documentos.
-* **Cenário de Uso:** Útil para documentos complexos contendo tabelas, permitindo a extração precisa de dados e aprendizagem para melhorar o reconhecimento ao longo do tempo.
+* **Caso de Uso:** Útil para documentos complexos contendo tabelas, permitindo a extração precisa de dados e aprendizagem para melhorar o reconhecimento ao longo do tempo.
 
 ### **Adicionar colunas não mapeadas:**
 
@@ -209,8 +209,8 @@ Para adicionar colunas não atribuídas clique aqui e selecione as colunas que d
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.58.png" alt=""><figcaption></figcaption></figure>
 
 * **Mostrar/Ocultar Colunas Não Mapeadas:**
-* **Propósito:** Alterna a visibilidade de colunas em uma tabela que não são mapeadas automaticamente para campos conhecidos.
-* **Cenário de Uso:** Permite aos utilizadores focar em dados relevantes ocultando colunas desnecessárias ou revendo-as para inclusão potencial.
+* **Propósito:** Alterna a visibilidade de colunas numa tabela que não são mapeadas automaticamente para campos conhecidos.
+* **Caso de Uso:** Permite aos utilizadores focar em dados relevantes ocultando colunas desnecessárias ou revendo-as para inclusão potencial.
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
@@ -220,7 +220,7 @@ Para adicionar colunas não atribuídas clique aqui e selecione as colunas que d
 
 * **Bloquear Extração de Tabela para Este Fornecedor:**
 * **Propósito:** Impede processos de extração de tabela para documentos de fornecedores específicos.
-* **Cenário de Uso:** Útil em cenários onde documentos de fornecedores consistentemente falham na extração correta ou não requerem extração.
+* **Caso de Uso:** Útil em cenários onde documentos de fornecedores consistentemente falham na extração correta ou não requerem extração.
 
 ### **Eliminar tabela:**
 
@@ -228,7 +228,7 @@ Para adicionar colunas não atribuídas clique aqui e selecione as colunas que d
 
 * **Eliminar Tabela:**
 * **Propósito:** Remove uma tabela inteira de um documento.
-* **Cenário de Uso:** Útil quando uma tabela é incluída incorretamente ou já não é necessária para o propósito do documento.
+* **Caso de Uso:** Útil quando uma tabela é incluída incorretamente ou já não é necessária para o propósito do documento.
 
 ### **Adicionar nova coluna de tabela:**
 
@@ -240,7 +240,7 @@ Se uma coluna estiver em falta, pode criar uma nova coluna aqui. Especifique o t
 
 * **Adicionar Nova Coluna de Tabela:**
 * **Propósito:** Cria uma nova coluna numa tabela existente, com especificações para título, necessidade e tipo.
-* **Cenário de Uso:** Melhora a flexibilidade e precisão da captura de dados, permitindo a criação de colunas personalizadas adaptadas a requisitos de dados específicos.
+* **Caso de Uso:** Melhora a flexibilidade e precisão da captura de dados, permitindo a criação de colunas personalizadas adaptadas a requisitos de dados específicos.
 
 
 
@@ -250,7 +250,7 @@ Se uma coluna estiver em falta, pode criar uma nova coluna aqui. Especifique o t
 
 * **Ignorar Validação de Tabela:**
 * **Propósito:** Permite aos utilizadores ignorar regras de validação para tabelas específicas.
-* **Cenário de Uso:** Útil quando anomalias conhecidas nos dados não afetam o processamento geral e a insistência na validação prejudicaria o fluxo de trabalho.
+* **Caso de Uso:** Útil quando anomalias conhecidas nos dados não afetam o processamento geral e a insistência na validação prejudicaria o fluxo de trabalho.
 
 ### **Restaurar coluna de tabela:**
 
@@ -258,4 +258,4 @@ Se uma coluna estiver em falta, pode criar uma nova coluna aqui. Especifique o t
 
 * **Restaurar Coluna de Tabela:**
 * **Propósito:** Restaura uma coluna previamente excluída ou alterada numa tabela.
-* **Cenário de Uso:** Útil para recuperar dados que foram removidos ou alterados por engano, garantindo a completude dos dados.
+* **Caso de Uso:** Útil para recuperar dados que foram removidos ou alterados por engano, garantindo a completude dos dados.
