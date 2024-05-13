@@ -169,6 +169,7 @@
       * [Auto Accounting](admin-section/setup/testing/auto-accounting/README.md)
         * [LN](admin-section/setup/testing/auto-accounting/ln.md)
         * [M3](admin-section/setup/testing/auto-accounting/m3.md)
+    * [SQL Access](admin-section/setup/sql-access.md)
     * [PowerBI](admin-section/setup/powerbi.md)
   * [Course](admin-section/course/README.md)
     * [A Step-by-Step Guide](admin-section/course/a-step-by-step-guide.md)
