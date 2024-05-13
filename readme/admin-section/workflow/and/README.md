@@ -4,7 +4,7 @@
 
 ### **Propósito de las Tarjetas 'Y':**
 
-* Las tarjetas **Y** sirven como tarjetas de condición que especifican criterios que deben cumplirse para que el flujo de trabajo continúe. Actúan efectivamente como operadores lógicos "Y", lo que significa que todas las condiciones especificadas en estas tarjetas deben cumplirse para que se active la acción posterior.
+* Las tarjetas **Y** sirven como tarjetas de condición que especifican los criterios que deben cumplirse para que el flujo de trabajo continúe. Actúan efectivamente como operadores lógicos "Y", lo que significa que todas las condiciones especificadas en estas tarjetas deben cumplirse para que se active la acción posterior.
 
 #### Categorías de las Tarjetas 'Y'
 
@@ -32,7 +32,7 @@ A partir de las capturas de pantalla, es evidente que estas tarjetas cubren una 
 <figure><img src="../../../.gitbook/assets/And3.png" alt=""><figcaption></figcaption></figure>
 
 * **Lógica**:
-* Condiciones lógicas que pueden implicar evaluaciones como "Continuar con una probabilidad del X%" o ejecutar solicitudes HTTPS, que son vitales para integraciones y toma de decisiones probabilística dentro de flujos de trabajo.
+* Condiciones lógicas que pueden implicar evaluaciones como "Continuar con una probabilidad del X%" o ejecutar solicitudes HTTPS, que son vitales para integraciones y toma de decisiones probabilísticas dentro de flujos de trabajo.
 
 <figure><img src="../../../.gitbook/assets/And4.png" alt=""><figcaption></figcaption></figure>
 
@@ -49,23 +49,23 @@ A partir de las capturas de pantalla, es evidente que estas tarjetas cubren una 
 
 <figure><img src="../../../.gitbook/assets/And6.png" alt=""><figcaption></figcaption></figure>
 
-*   **Asignado a**:
+*   **Asignado**:
 
-* Condiciones basadas en asignados de tareas o documentos. Esto asegura que las acciones solo se tomen cuando ciertos usuarios están involucrados, mejorando la responsabilidad y especificidad de la tarea.
+* Condiciones basadas en asignados de tareas o documentos. Esto asegura que las acciones solo se tomen cuando ciertos usuarios están involucrados, mejorando la responsabilidad y especificidad de tareas.
 
 
 
 <figure><img src="../../../.gitbook/assets/And7.png" alt=""><figcaption></figcaption></figure>
 
-#### Aplicación Práctica
+### Aplicación Práctica
 
 Estas tarjetas "Y" se configuran dentro del flujo de trabajo para realizar verificaciones y validaciones que aseguran que el proceso se adhiera estrictamente a las reglas comerciales y estándares de integridad de datos. Por ejemplo:
 
 * **Un flujo de trabajo podría usar una tarjeta 'Y' para verificar que el monto total de una factura coincida con la orden de compra antes de activar el pago.**
 * **Otro flujo de trabajo podría usar una tarjeta 'Y' para asegurar que un documento sea revisado por miembros específicos del equipo antes de avanzar a la siguiente etapa.**
 
-#### Conclusión
+### Conclusión
 
 Las tarjetas "Y" son un componente fundamental de los sistemas de flujo de trabajo que requieren un control preciso sobre la ejecución del proceso basado en múltiples condiciones. Aseguran que cada paso de un flujo de trabajo solo avance cuando se cumplan todas las condiciones necesarias, automatizando así árboles de decisiones complejos dentro de los procesos comerciales.
 
-Comprender y configurar estas tarjetas correctamente es crucial para aprovechar al máximo las capacidades de su sistema de gestión de flujo de trabajo para mejorar la eficiencia, precisión y cumplimiento dentro de los procesos organizativos.
+Comprender y configurar estas tarjetas correctamente es crucial para aprovechar al máximo las capacidades de su sistema de gestión de flujos de trabajo para mejorar la eficiencia, precisión y cumplimiento dentro de los procesos organizativos.
