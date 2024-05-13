@@ -15,7 +15,7 @@
 * Actions such as "Download Certificate" and "Download Metadata" are available for obtaining necessary security certificates and metadata information used in setting up and maintaining SSO integration.
 
 {% hint style="info" %}
-See [Setup SSO](../../../setup/sso-configuration.md)
+See [Setup SSO](../../../setup/sso-configuration/)
 {% endhint %}
 
 ## Identity Service Provider Settings
