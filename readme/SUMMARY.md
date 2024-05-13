@@ -169,6 +169,7 @@
       * [Auto Accounting](admin-section/setup/testing/auto-accounting/README.md)
         * [LN](admin-section/setup/testing/auto-accounting/ln.md)
         * [M3](admin-section/setup/testing/auto-accounting/m3.md)
+    * [PowerBI](admin-section/setup/powerbi.md)
   * [Course](admin-section/course/README.md)
     * [A Step-by-Step Guide](admin-section/course/a-step-by-step-guide.md)
     * [Connect DocBits with Infor SSO](admin-section/course/connect-docbits-with-infor-sso.md)
