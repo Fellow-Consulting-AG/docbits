@@ -27,7 +27,7 @@ Neues Feld hinzufügen:
 * Zuerst muss der **M3-API-Feldname** zur Feldliste des entsprechenden Abschnitts hinzugefügt werden (z. B. StaticFields, HeaderFields, InvoiceTaxFields)
 * Definieren Sie den statischen Wert oder den Dokumentfeldnamen für das API-Feld mit dem entsprechenden Präfix für den Abschnitt
 * Beispiel 1: Um einen statischen Wert von **AAA** für das M3-API-Feld **DIVI** zu definieren, fügen wir zuerst DIVI zur Eigenschaft **StaticFields** hinzu. Dann fügen wir eine Zeile **SF\_DIVI = AAA** hinzu, da SF\_ das Präfix für statische Felder ist
-* Beispiel 2: Um das Kopffeld **IVDT (Rechnungsdatum)** auf das Feld invoice\_date von DocBits abzubilden, fügen wir zuerst IVDT zur Eigenschaft **HeaderFields** hinzu. Dann fügen wir eine Zeile HF\_IVDT = invoice\_date hinzu, da HF\_ das Präfix für Kopffelder ist
+* Beispiel 2: Um das Kopffeld **IVDT (Rechnungsdatum)** auf das Feld invoice\_date von DocBits abzubilden. Fügen wir zuerst IVDT zur Eigenschaft **HeaderFields** hinzu. Dann fügen wir eine Zeile HF\_IVDT = invoice\_date hinzu, da HF\_ das Präfix für Kopffelder ist
 
 Feld entfernen:
 
@@ -49,7 +49,7 @@ Feld entfernen:
 
 Feldliste-Eigenschaft: StaticFields
 
-Abschnittsfeldpräfix: SF\_
+Abschnittsfeld-Präfix: SF\_
 
 Verfügbare Felder: Sie können jedes M3-API-Feld mit einem beliebigen statischen Wert zuordnen
 
@@ -57,7 +57,7 @@ Verfügbare Felder: Sie können jedes M3-API-Feld mit einem beliebigen statische
 
 Feldliste-Eigenschaft: HeaderFields
 
-Abschnittsfeldpräfix: HF\_
+Abschnittsfeld-Präfix: HF\_
 
 Verfügbare Felder: Sie können jedes DocBits-Feld einem beliebigen M3-API-Feld zuordnen
 
@@ -67,7 +67,7 @@ Verfügbare Felder: Sie können jedes DocBits-Feld einem beliebigen M3-API-Feld 
 
 Feldliste-Eigenschaft: InvoiceTaxStaticFields
 
-Abschnittsfeldpräfix: IT\_SF\_
+Abschnittsfeld-Präfix: IT\_SF\_
 
 Verfügbare M3-Felder: Bitte überprüfen Sie M3-API oder UI
 
@@ -77,9 +77,9 @@ Verfügbare DocBits-Felder: Sie können jeden Wert eingeben, da es sich um stati
 
 Feldliste-Eigenschaft: InvoiceTaxFields
 
-M3-Feldpräfix: ITF\_
+M3-Feld-Präfix: ITF\_
 
-DocBits-Tabellenfeldpräfix: TF\_
+DocBits-Tabellenfeld-Präfix: TF\_
 
 Verfügbare M3-Felder: Bitte überprüfen Sie M3-API oder UI
 
@@ -91,7 +91,7 @@ Verfügbare DocBits-Felder: line\_number, tax\_amount, tax\_rate, net\_amount, g
 
 Feldliste-Eigenschaft: InvoiceReceiptStaticFields
 
-Abschnittsfeldpräfix: IR\_SF\_
+Abschnittsfeld-Präfix: IR\_SF\_
 
 Verfügbare M3-Felder: Bitte überprüfen Sie M3-API oder UI
 
@@ -101,9 +101,9 @@ Verfügbare DocBits-Felder: Sie können jeden Wert eingeben, da es sich um stati
 
 Feldliste-Eigenschaft: InvoiceReceiptFields
 
-M3-Feldpräfix: IRF\_
+M3-Feld-Präfix: IRF\_
 
-DocBits-Tabellenfeldpräfix: TF\_
+DocBits-Tabellenfeld-Präfix: TF\_
 
 Verfügbare M3-Felder: Bitte überprüfen Sie M3-API oder UI
 
@@ -115,7 +115,7 @@ Verfügbare DocBits-Felder: packing\_slip, purchase\_order, line\_number, line\_
 
 Feldliste-Eigenschaft: OrderChargeStaticFields
 
-Abschnittsfeldpräfix: OC\_SF\_
+Abschnittsfeld-Präfix: OC\_SF\_
 
 Verfügbare M3-Felder: Bitte überprüfen Sie M3-API oder UI
 
@@ -125,9 +125,9 @@ Verfügbare DocBits-Felder: Sie können jeden Wert eingeben, da es sich um stati
 
 Feldliste-Eigenschaft: OrderChargeFields
 
-M3-Feldpräfix: OCF\_
+M3-Feld-Präfix: OCF\_
 
-DocBits-Tabellenfeldpräfix: TF\_
+DocBits-Tabellenfeld-Präfix: TF\_
 
 Verfügbare M3-Felder: Bitte überprüfen Sie M3-API oder UI
 
@@ -139,7 +139,7 @@ Verfügbare DocBits-Felder: ledger\_account, dimension\_2-7, amount, quantity, q
 
 Feldliste-Eigenschaft: InvoiceCostStaticFields
 
-Abschnittsfeldpräfix: IC\_SF\_
+Abschnittsfeld-Präfix: IC\_SF\_
 
 Verfügbare M3-Felder: Bitte überprüfen Sie M3-API oder UI
 
@@ -149,9 +149,9 @@ Verfügbare DocBits-Felder: Sie können jeden Wert eingeben, da es sich um stati
 
 Feldliste-Eigenschaft: InvoiceCostFields
 
-M3-Feldpräfix: ICF\_
+M3-Feld-Präfix: ICF\_
 
-DocBits-Tabellenfeldpräfix: TF\_
+DocBits-Tabellenfeld-Präfix: TF\_
 
 Verfügbare M3-Felder: Bitte überprüfen Sie M3-API oder UI
 
@@ -292,4 +292,94 @@ ICF_AO05=TF_accounting_object_5
 ICF_AO06=TF_accounting_object_6
 ICF_AO07=TF_accounting_object_7
 ```
+Für US-Kunden aktualisieren wir dieses Mapping auf V3.
+````
+```properties
+# Änderungen von Version 2 zu Version 3: 
+-StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,GEOC,BKID
+- SF_DIVI=PJA
++StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
++SF_DIVI=RFP
++SF_CONO=001
+-SF_TEPY=J30
+-SF_PYME=PTR
++#SF_TEPY=N00
++#SF_PYME=CSH
++#SF_APCD=MHIDALGO
+-SF_BKID=001
++SF_GEOC=999999999
++#SF_BKID=DJ1
+-HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN
++HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
+-HF_CUAM=total_net_amount
++HF_CUAM=total_net_amount_us
+-HF_ACDT=invoice_date
++#HF_ACDT=invoice_date
+-HF_CORI = correlation_id
+-HF_PAIN = sqr_field_esr_reference
++
++HF_CORI=correlation_id
++HF_PAIN=sqr_field_esr_reference
++HF_TCHG=additional_amount
++HF_CDC1=negative_amount
++HF_APCD=buyer_id
++HF_TEPY=payment_terms
++HF_PYME=payment_method
++HF_BKID=bank_id
++#HF_GEOC=supplier_geoc
+-## Steuerzeilen-Statikfelder
+-InvoiceTaxStaticFields=RDTP,DIVI,VTCD
+-IT_SF_RDTP=3
+-IT_SF_DIVI=PJA
++# ## Steuerzeilen-Statikfelder
++# InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
++# IT_SF_RDTP=3
++# IT_SF_DIVI=AAA
++# IT_SF_CONO=780
+-## Steuerzeilenfelder
+-InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
+-ITF_VTCD=TF_tax_code
+-ITF_VTA1=TF_tax_amount
+-ITF_VTP1=TF_tax_rate
+-ITF_CLAM=TF_gross_amount
++# ## Steuerzeilenfelder
++# InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
++# ITF_VTCD=TF_tax_code
++# ITF_VTA1=TF_tax_amount
++# ITF_VTP1=TF_tax_rate
++# ITF_CLAM=TF_gross_amount
+-InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD
++InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
+-IR_SF_DIVI=PJA
+-IR_SF_SERS=0
++IR_SF_DIVI=RFP
+-IR_SF_VTCD=52
++#IR_SF_VTCD=52
++IR_SF_CONO=001
+-InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM
++InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
+-#IRF_PUNO = TF_purchase_order
+-#IRF_PNLI = TF_line_number
++IRF_PUNO = TF_purchase_order
++IRF_PNLI = TF_line_number
+-#IRF_NEPR = TF_net_unit_price
++IRF_NEPR = TF_net_unit_price
+-IRF_PPUN = TF_unit
+-#IRF_NLAM = TF_net_amount
++IRF_PPUN = TF_unit_code_price
++IRF_NLAM = TF_net_amount
++IRF_TCHG = TF_charges
++IRF_CDC1 = TF_discount
+-OrderChargeStaticFields=RDTP,DIVI
++OrderChargeStaticFields=RDTP,DIVI,CONO
+-OC_SF_DIVI=PJA
++OC_SF_DIVI=RFP
++OC_SF_CONO=001
+-InvoiceCostStaticFields=RDTP,DIVI
++InvoiceCostStaticFields=RDTP,DIVI,CONO
+-IC_SF_DIVI=PJA
++IC_SF_DIVI=RFP
++IC_SF_CONO=001
+```
+````
 
