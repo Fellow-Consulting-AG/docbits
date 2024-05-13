@@ -8,7 +8,7 @@
 
 #### Kategorije 'And' Kartica
 
-Sa slika je jasno da ove kartice pokrivaju širok spektar uslova, koji uključuju:
+Iz snimaka ekrana je jasno da ove kartice pokrivaju širok spektar uslova, koji uključuju:
 
 *   **Uporedi sa Narudžbenicom**:
 
@@ -20,7 +20,7 @@ Sa slika je jasno da ove kartice pokrivaju širok spektar uslova, koji uključuj
 
 *   **Polje Dokumenta**:
 
-* Ovi uslovi se odnose na uslove zasnovane na specifičnim poljima unutar dokumenata, kao što su označavanje polja za potvrdu, upoređivanje vrednosti polja ili osiguravanje da polje dokumenta zadovoljava određenu toleranciju. Ovo je posebno važno za integritet podataka i automatske provere unutar formi ili sistema za upravljanje dokumentima.
+* Ovi uslovi se odnose na specifična polja unutar dokumenata, kao što su označavanje polja za potvrdu, upoređivanje vrednosti polja ili osiguravanje da polje dokumenta zadovoljava određenu toleranciju. Ovo je posebno važno za integritet podataka i automatske provere unutar formi ili sistema za upravljanje dokumentima.
 
 
 
@@ -45,7 +45,7 @@ Sa slika je jasno da ove kartice pokrivaju širok spektar uslova, koji uključuj
 <figure><img src="../../../.gitbook/assets/And5.png" alt=""><figcaption></figcaption></figure>
 
 * **Tabela**:
-* Ovi uslovi se odnose na podatke u tabeli, poput uparivanja regex obrazaca ili upoređivanja vrednosti unutar tabele. Takvi uslovi su esencijalni za validaciju i manipulaciju velikih skupova podataka.
+* Ovi uslovi se zasnivaju na podacima tabele, kao što su podudaranje regex obrazaca ili upoređivanje vrednosti unutar tabele. Takvi uslovi su esencijalni za validaciju i manipulaciju velikih skupova podataka.
 
 <figure><img src="../../../.gitbook/assets/And6.png" alt=""><figcaption></figcaption></figure>
 
@@ -57,14 +57,14 @@ Sa slika je jasno da ove kartice pokrivaju širok spektar uslova, koji uključuj
 
 <figure><img src="../../../.gitbook/assets/And7.png" alt=""><figcaption></figcaption></figure>
 
-#### Praktična Primena
+### Praktična Primena
 
 Ove "And" kartice se konfigurišu unutar radnog toka kako bi vršile provere i validacije koje osiguravaju da proces strogo poštuje poslovna pravila i standarde integriteta podataka. Na primer:
 
 * **Radni tok može koristiti 'And' karticu da proveri da li ukupan iznos fakture odgovara narudžbenici pre pokretanja plaćanja.**
-* **Drugi radni tok može koristiti 'And' karticu da osigura da dokument pregledaju određeni članovi tima pre nego što pređe na sledeći korak.**
+* **Drugi radni tok može koristiti 'And' karticu da osigura da dokument bude pregledan od strane određenih članova tima pre nego što pređe na sledeći korak.**
 
-#### Zaključak
+### Zaključak
 
 "And" kartice su osnovna komponenta sistema radnih tokova koji zahtevaju preciznu kontrolu nad izvršenjem procesa na osnovu više uslova. One osiguravaju da svaki korak radnog toka napreduje samo kada su svi potrebni kriterijumi temeljno ispunjeni, automatizujući kompleksna stabla odlučivanja unutar poslovnih procesa.
 
