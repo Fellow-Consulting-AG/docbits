@@ -20,7 +20,7 @@
 
 *   **Champ de document** :
 
-* Il s'agit de conditions basées sur des champs spécifiques dans les documents, comme le marquage des cases à cocher, la comparaison des valeurs des champs, ou s'assurer qu'un champ de document respecte une tolérance spécifiée. Ceci est particulièrement important pour l'intégrité des données et les vérifications automatisées dans les formulaires ou les systèmes de gestion de documents.
+* Il s'agit de conditions basées sur des champs spécifiques dans les documents, comme le marquage des cases à cocher, la comparaison des valeurs des champs, ou s'assurer qu'un champ de document respecte une tolérance spécifiée. Cela est particulièrement important pour l'intégrité des données et les vérifications automatisées dans les formulaires ou les systèmes de gestion de documents.
 
 
 
@@ -32,39 +32,39 @@
 <figure><img src="../../../.gitbook/assets/And3.png" alt=""><figcaption></figcaption></figure>
 
 * **Logique** :
-* Conditions logiques qui pourraient impliquer des évaluations comme "Continuer avec une chance de X%" ou l'exécution de requêtes HTTPS, qui sont essentielles pour les intégrations et la prise de décisions probabilistes au sein des flux de travail.
+* Conditions logiques qui pourraient impliquer des évaluations comme "Continuer avec une chance de X%" ou exécuter des requêtes HTTPS, qui sont essentielles pour les intégrations et la prise de décisions probabilistes au sein des flux de travail.
 
 <figure><img src="../../../.gitbook/assets/And4.png" alt=""><figcaption></figcaption></figure>
 
 *   **Statut** :
 
-* En se concentrant sur l'état des documents ou des tâches, ces conditions garantissent que seuls les éléments dans certains états déclenchent des flux de travail spécifiques, cruciaux pour la gestion des processus basée sur l'état.
+* En se concentrant sur l'état des documents ou des tâches, ces conditions garantissent que seuls les éléments dans certains états déclenchent des flux de travail spécifiques, ce qui est crucial pour la gestion des processus basée sur l'état.
 
 
 
 <figure><img src="../../../.gitbook/assets/And5.png" alt=""><figcaption></figcaption></figure>
 
 * **Tableau** :
-* Il s'agit de conditions basées sur les données du tableau, telles que la correspondance de motifs regex ou la comparaison de valeurs dans un tableau. De telles conditions sont essentielles pour valider et manipuler de grands ensembles de données.
+* Il s'agit de conditions basées sur des données de tableau, telles que la correspondance de motifs regex ou la comparaison de valeurs dans un tableau. De telles conditions sont essentielles pour valider et manipuler de grands ensembles de données.
 
 <figure><img src="../../../.gitbook/assets/And6.png" alt=""><figcaption></figcaption></figure>
 
 *   **Bénéficiaire** :
 
-* Conditions basées sur les bénéficiaires de tâches ou de documents. Cela garantit que des actions ne sont entreprises que lorsque certains utilisateurs sont impliqués, renforçant la responsabilité et la spécificité des tâches.
+* Conditions basées sur les bénéficiaires de tâches ou de documents. Cela garantit que des actions ne sont entreprises que lorsque certains utilisateurs sont impliqués, renforçant ainsi la responsabilité et la spécificité des tâches.
 
 
 
 <figure><img src="../../../.gitbook/assets/And7.png" alt=""><figcaption></figcaption></figure>
 
-#### Application Pratique
+### Application pratique
 
 Ces cartes "Et" sont configurées dans le flux de travail pour effectuer des vérifications et des validations qui garantissent que le processus respecte strictement les règles métier et les normes d'intégrité des données. Par exemple :
 
 * **Un flux de travail pourrait utiliser une carte "Et" pour vérifier que le montant total d'une facture correspond au bon de commande avant de déclencher le paiement.**
 * **Un autre flux de travail pourrait utiliser une carte "Et" pour s'assurer qu'un document est examiné par des membres spécifiques de l'équipe avant de passer à l'étape suivante.**
 
-#### Conclusion
+### Conclusion
 
 Les cartes "Et" sont un composant fondamental des systèmes de flux de travail qui nécessitent un contrôle précis de l'exécution du processus en fonction de plusieurs conditions. Elles garantissent que chaque étape d'un flux de travail ne se poursuit que lorsque tous les critères nécessaires sont pleinement satisfaits, automatisant ainsi des arbres de décision complexes au sein des processus métier.
 
