@@ -2,7 +2,7 @@
 
 ### Sezioni
 
-Il file di mapping dell'esportazione M3 è diviso in 5 sezioni e ogni sezione è ulteriormente divisa in 2 sezioni
+Il file di mapping dell'esportazione al M3 è diviso in 5 sezioni e ciascuna sezione è ulteriormente divisa in 2 sezioni
 
 * Intestazione
 * Campi Statici Intestazione
@@ -13,9 +13,9 @@ Il file di mapping dell'esportazione M3 è diviso in 5 sezioni e ogni sezione è
 * Righe Ricevuta
 * Campi Statici Righe Ricevuta
 * Campi Righe Ricevuta
-* Righe Costo Ordine (Importi Aggiuntivi)
-* Campi Statici Costo Ordine
-* Campi Costo Ordine
+* Righe di Addebito Ordine (Importi Aggiuntivi)
+* Campi Statici Addebito Ordine
+* Campi Addebito Ordine
 * Righe Costo
 * Campi Statici Righe Costo
 * Campi Righe Costo
@@ -24,14 +24,14 @@ Il file di mapping dell'esportazione M3 è diviso in 5 sezioni e ogni sezione è
 
 Aggiungere un Nuovo Campo:
 
-* Prima è necessario aggiungere il **nome del campo api M3** alla proprietà della lista dei campi della sezione rilevante (ad es. StaticFields, HeaderFields, InvoiceTaxFields)
+* Prima è necessario aggiungere il **nome campo api M3** alla proprietà elenco campi della sezione rilevante (ad es. CampiStatici, CampiIntestazione, CampiFiscaliFattura)
 * Definire il valore statico o il nome del campo del documento per il campo api con il prefisso appropriato per la sezione
-* Esempio 1: Per definire un valore statico di **AAA** per il campo api M3 **DIVI.** Prima abbiamo aggiunto DIVI alla proprietà **StaticFields**. Poi aggiungiamo una riga **SF\_DIVI = AAA** poiché SF\_ è il prefisso per i campi statici
-* Esempio 2: Per mappare il campo intestazione **IVDT (data fattura)** al campo invoice\_date di DocBits. Prima aggiungiamo IVDT alla proprietà **HeaderFields**. Poi aggiungiamo una riga HF\_IVDT = invoice\_date poiché HF\_ è il prefisso per i campi intestazione
+* Esempio 1: Per definire un valore statico di **AAA** per il campo api M3 **DIVI.** Prima abbiamo aggiunto DIVI alla proprietà **CampiStatici**. Poi aggiungiamo una riga **SF\_DIVI = AAA** poiché SF\_ è il prefisso per i campi statici
+* Esempio 2: Per mappare il campo intestazione **IVDT (data fattura)** al campo data_fattura di DocBits. Prima aggiungiamo IVDT alla proprietà **CampiIntestazione**. Poi aggiungiamo una riga HF\_IVDT = data_fattura poiché HF\_ è il prefisso per i campi intestazione
 
 Rimuovere Campo:
 
-* Basta rimuovere il campo dalla proprietà della lista dei campi della sezione e rimuovere la riga che definisce il valore per il campo.
+* Basta rimuovere il campo dalla proprietà elenco campi della sezione e rimuovere la riga che definisce il valore per il campo.
 
 #### **Campi Api M3 Disponibili:**
 
@@ -47,7 +47,7 @@ Rimuovere Campo:
 
 <figure><img src="../../../../.gitbook/assets/4599dd21-9d05-4a0c-8b41-1e343c063871.png" alt=""><figcaption></figcaption></figure>
 
-Proprietà della Lista dei Campi: StaticFields
+Proprietà Elenco Campi: CampiStatici
 
 Prefisso Campi Sezione: SF\_
 
@@ -55,107 +55,107 @@ Campi Disponibili: È possibile mappare qualsiasi campo api M3 con qualsiasi val
 
 #### **Campi Intestazione**
 
-Proprietà della Lista dei Campi: HeaderFields
+Proprietà Elenco Campi: CampiIntestazione
 
 Prefisso Campi Sezione: HF\_
 
 Campi Disponibili: È possibile mappare qualsiasi campo DocBits con qualsiasi campo api M3
 
-### Riga Fiscale:
+### Righe Fiscali:
 
-#### Campi Statici Riga Fiscale:
+#### Campi Statici Righe Fiscali:
 
-Proprietà della Lista dei Campi: InvoiceTaxStaticFields
+Proprietà Elenco Campi: CampiStaticiFiscaliFattura
 
 Prefisso Campi Sezione: IT\_SF\_
 
-Campi M3 Disponibili: Si prega di verificare l'API o l'interfaccia utente di M3
+Campi M3 Disponibili: Si prega di controllare M3 API o UI
 
 Campi DocBits Disponibili: È possibile inserire qualsiasi valore poiché sono campi statici
 
-#### Campi Riga Fiscale:
+#### Campi Righe Fiscali:
 
-Proprietà della Lista dei Campi: InvoiceTaxFields
+Proprietà Elenco Campi: CampiFiscaliFattura
 
 Prefisso Campi M3: ITF\_
 
 Prefisso Campo Tabella DocBits: TF\_
 
-Campi M3 Disponibili: Si prega di verificare l'API o l'interfaccia utente di M3
+Campi M3 Disponibili: Si prega di controllare M3 API o UI
 
-Campi DocBits Disponibili: line\_number, tax\_amount, tax\_rate, net\_amount, gross\_amount, tax\_code\_full, tax\_code, tax\_country
+Campi DocBits Disponibili: numero_riga, importo_imposta, aliquota_imposta, importo_netto, importo lordo, codice_imposta_completo, codice_imposta, paese_imposta
 
-### Riga Ricevuta:
+### Righe Ricevuta:
 
-#### Campi Statici Riga Ricevuta:
+#### Campi Statici Righe Ricevuta:
 
-Proprietà della Lista dei Campi: InvoiceReceiptStaticFields
+Proprietà Elenco Campi: CampiStaticiRicevutaFattura
 
 Prefisso Campi Sezione: IR\_SF\_
 
-Campi M3 Disponibili: Si prega di verificare l'API o l'interfaccia utente di M3
+Campi M3 Disponibili: Si prega di controllare M3 API o UI
 
 Campi DocBits Disponibili: È possibile inserire qualsiasi valore poiché sono campi statici
 
-#### Campi Riga Ricevuta:
+#### Campi Righe Ricevuta:
 
-Proprietà della Lista dei Campi: InvoiceReceiptFields
+Proprietà Elenco Campi: CampiRicevutaFattura
 
 Prefisso Campi M3: IRF\_
 
 Prefisso Campo Tabella DocBits: TF\_
 
-Campi M3 Disponibili: Si prega di verificare l'API o l'interfaccia utente di M3
+Campi M3 Disponibili: Si prega di controllare M3 API o UI
 
-Campi DocBits Disponibili: packing\_slip, purchase\_order, line\_number, line\_sequence, delivery\_number, delivery\_line, amount, quantity, total\_net\_amount
+Campi DocBits Disponibili: bolla_di_spedizione, ordine_di_acquisto, numero_riga, sequenza_riga, numero_consegna, linea_consegna, importo, quantità, importo_netto_totale
 
-### Riga Costo Ordine:
+### Righe Addebito Ordine:
 
-#### Campi Statici Costo Ordine:
+#### Campi Statici Addebito Ordine:
 
-Proprietà della Lista dei Campi: OrderChargeStaticFields
+Proprietà Elenco Campi: CampiStaticiAddebitoOrdine
 
 Prefisso Campi Sezione: OC\_SF\_
 
-Campi M3 Disponibili: Si prega di verificare l'API o l'interfaccia utente di M3
+Campi M3 Disponibili: Si prega di controllare M3 API o UI
 
 Campi DocBits Disponibili: È possibile inserire qualsiasi valore poiché sono campi statici
 
-#### Campi Costo Ordine:
+#### Campi Addebito Ordine:
 
-Proprietà della Lista dei Campi: OrderChargeFields
+Proprietà Elenco Campi: CampiAddebitoOrdine
 
 Prefisso Campi M3: OCF\_
 
 Prefisso Campo Tabella DocBits: TF\_
 
-Campi M3 Disponibili: Si prega di verificare l'API o l'interfaccia utente di M3
+Campi M3 Disponibili: Si prega di controllare M3 API o UI
 
-Campi DocBits Disponibili: ledger\_account, dimension\_2-7, amount, quantity, quantity2, position
+Campi DocBits Disponibili: conto_contabile, dimensione_2-7, importo, quantità, quantità2, posizione
 
-### Riga Costo:
+### Righe Costo:
 
-#### Campi Statici Riga Costo:
+#### Campi Statici Righe Costo:
 
-Proprietà della Lista dei Campi: InvoiceCostStaticFields
+Proprietà Elenco Campi: CampiStaticiCostoFattura
 
 Prefisso Campi Sezione: IC\_SF\_
 
-Campi M3 Disponibili: Si prega di verificare l'API o l'interfaccia utente di M3
+Campi M3 Disponibili: Si prega di controllare M3 API o UI
 
 Campi DocBits Disponibili: È possibile inserire qualsiasi valore poiché sono campi statici
 
-#### Campi Riga Costo:
+#### Campi Righe Costo:
 
-Proprietà della Lista dei Campi: InvoiceCostFields
+Proprietà Elenco Campi: CampiCostoFattura
 
 Prefisso Campi M3: ICF\_
 
 Prefisso Campo Tabella DocBits: TF\_
 
-Campi M3 Disponibili: Si prega di verificare l'API o l'interfaccia utente di M3
+Campi M3 Disponibili: Si prega di controllare M3 API o UI
 
-Campi DocBits Disponibili: ledger\_account, dimension\_1-12, amount, quantity, quantity2, position
+Campi DocBits Disponibili: conto_contabile, dimensione_1-12, importo, quantità, quantità2, posizione
 
 Nuovo aggiornamento
 ```
@@ -292,4 +292,94 @@ ICF_AO05=TF_accounting_object_5
 ICF_AO06=TF_accounting_object_6
 ICF_AO07=TF_accounting_object_7
 ```
+Per il cliente statunitense aggiorniamo questo mapping a V3.
+````
+```properties
+# Cambiamenti dalla Versione 2 alla Versione 3: 
+-StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,GEOC,BKID
+- SF_DIVI=PJA
++ StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
++ SF_DIVI=RFP
++ SF_CONO=001
+- SF_TEPY=J30
+- SF_PYME=PTR
++ #SF_TEPY=N00
++ #SF_PYME=CSH
++ #SF_APCD=MHIDALGO
+- SF_BKID=001
++ SF_GEOC=999999999
++ #SF_BKID=DJ1
+- HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN
++ HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
+- HF_CUAM=total_net_amount
++ HF_CUAM=total_net_amount_us
+- HF_ACDT=invoice_date
++ #HF_ACDT=invoice_date
+- HF_CORI = correlation_id
+- HF_PAIN = sqr_field_esr_reference
+-
++ HF_CORI=correlation_id
++ HF_PAIN=sqr_field_esr_reference
++ HF_TCHG=additional_amount
++ HF_CDC1=negative_amount
++ HF_APCD=buyer_id
++ HF_TEPY=payment_terms
++ HF_PYME=payment_method
++ HF_BKID=bank_id
++ #HF_GEOC=supplier_geoc
+- ## Campi Statici delle Linee Fiscali
+- InvoiceTaxStaticFields=RDTP,DIVI,VTCD
+- IT_SF_RDTP=3
+- IT_SF_DIVI=PJA
++ ## Campi Statici delle Linee Fiscali
++ InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
++ IT_SF_RDTP=3
++ IT_SF_DIVI=AAA
++ IT_SF_CONO=780
+- ## Campi delle Linee Fiscali
+- InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
+- ITF_VTCD=TF_tax_code
+- ITF_VTA1=TF_tax_amount
+- ITF_VTP1=TF_tax_rate
+- ITF_CLAM=TF_gross_amount
++ ## Campi delle Linee Fiscali
++ InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
++ ITF_VTCD=TF_tax_code
++ ITF_VTA1=TF_tax_amount
++ ITF_VTP1=TF_tax_rate
++ ITF_CLAM=TF_gross_amount
+- InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD
++ InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
+- IR_SF_DIVI=PJA
+- IR_SF_SERS=0
++ IR_SF_DIVI=RFP
+- IR_SF_VTCD=52
++ #IR_SF_VTCD=52
++ IR_SF_CONO=001
+- InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM
++ InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
+- #IRF_PUNO = TF_purchase_order
+- #IRF_PNLI = TF_line_number
++ IRF_PUNO = TF_purchase_order
++ IRF_PNLI = TF_line_number
+- #IRF_NEPR = TF_net_unit_price
++ IRF_NEPR = TF_net_unit_price
+- IRF_PPUN = TF_unit
+- #IRF_NLAM = TF_net_amount
++ IRF_PPUN = TF_unit_code_price
++ IRF_NLAM = TF_net_amount
++ IRF_TCHG = TF_charges
++ IRF_CDC1 = TF_discount
+- OrderChargeStaticFields=RDTP,DIVI
++ OrderChargeStaticFields=RDTP,DIVI,CONO
+- OC_SF_DIVI=PJA
++ OC_SF_DIVI=RFP
++ OC_SF_CONO=001
+- InvoiceCostStaticFields=RDTP,DIVI
++ InvoiceCostStaticFields=RDTP,DIVI,CONO
+- IC_SF_DIVI=PJA
++ IC_SF_DIVI=RFP
++ IC_SF_CONO=001
+```
+````
 
