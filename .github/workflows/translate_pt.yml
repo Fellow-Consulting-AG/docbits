@@ -14,7 +14,7 @@ concurrency: pt
 
 jobs:
   run-translation:
-    runs-on: ubuntu-latest
+    runs-on: local
     env:
       LANGUAGE: Portuguese
       BRANCH: pt

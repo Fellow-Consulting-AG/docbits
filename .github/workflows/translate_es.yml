@@ -14,7 +14,7 @@ concurrency: es
 
 jobs:
   run-translation:
-    runs-on: ubuntu-latest
+    runs-on: local
     env:
       LANGUAGE: Spanish
       BRANCH: es

@@ -14,7 +14,7 @@ concurrency: pl
 
 jobs:
   run-translation:
-    runs-on: ubuntu-latest
+    runs-on: local
     env:
       LANGUAGE: Polish
       BRANCH: pl
