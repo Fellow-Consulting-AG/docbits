@@ -4,18 +4,18 @@
 
 ## API Anahtarı
 
-* **Anahtar**: Bu, harici uygulamaların Docbits'in API'sine erişmek için kullandığı benzersiz tanımlayıcıdır. Diğer yazılımlardan Docbits'e yapılan istekleri doğrulamak için hayati öneme sahiptir.
+* **Anahtar**: Bu, harici uygulamaların Docbits'in API'sine erişmek için kullandığı benzersiz tanımlayıcıdır. Diğer yazılımlardan Docbits'e yapılan istekleri doğrulamak için hayati önem taşır.
 * Görüntüleme, yeniden oluşturma veya API anahtarını kopyalama gibi işlemler, belirli ihtiyaçlara ve güvenlik protokollerine bağlı olarak burada gerçekleştirilebilir.
 
 ## SSO (Tek Oturum Açma) Hizmet Sağlayıcı Ayarları
 
 * **Varlık Kimliği**: Bu, SSO yapılandırmasında Docbits'in bir hizmet sağlayıcı olarak tanımlayıcısıdır. Docbits'i SSO çerçevesi içinde benzersiz bir şekilde tanımlar.
-* **SLO (Tek Oturum Kapatma) URL'si**: SSO oturumlarının eş zamanlı olarak çıkış yapmak için gönderildiği URL.
+* **SLO (Tek Oturum Kapatma) URL'si**: SSO oturumlarının eşzamanlı olarak çıkış yapılması için gönderildiği URL.
 * **SSO URL'si**: Tek oturum açma işlemi başlatmak için kullanılan URL.
 * "Sertifika İndir" ve "Meta Veri İndir" gibi işlemler, SSO entegrasyonunu kurmak ve sürdürmek için gereken güvenlik sertifikalarını ve meta veri bilgilerini elde etmek için mevcuttur.
 
 {% hint style="info" %}
-[SSO Kurulumu](../../../setup/sso-configuration.md) bölümüne bakın.
+[SSO Kurulumu](../../../setup/sso-configuration/) bölümüne bakın.
 {% endhint %}
 
 ## Kimlik Hizmeti Sağlayıcı Ayarları
