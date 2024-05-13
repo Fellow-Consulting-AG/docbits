@@ -299,7 +299,7 @@ For US Customer we update this mapping to V3
 
 
 ````
-```properties
+```
 # Changes from Version 2 to Version 3:# -StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,GEOC,BKID
 # -SF_DIVI=PJA
 # +StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
@@ -384,6 +384,146 @@ For US Customer we update this mapping to V3
 # -IC_SF_DIVI=PJA
 # +IC_SF_DIVI=RFP
 # +IC_SF_CONO=001
+
+###########################
+# Header
+###########################
+
+## Header Static Fields
+StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
+SF_DIVI=RFP
+SF_IBTP=20
+SF_CONO=001
+#SF_BSCD=DE
+SF_IMCD=0
+#SF_TEPY=N00
+#SF_PYME=CSH
+#SF_APCD=MHIDALGO
+SF_CRTP=1
+SF_GEOC=999999999
+#SF_BKID=DJ1
+
+## Header Fields
+HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
+HF_SUNO=supplier_id
+HF_IVDT=invoice_date
+HF_SINO=invoice_id
+HF_SPYN=supplier_id
+HF_CUCD=currency
+HF_CUAM=total_net_amount_us
+#HF_VTAM=total_tax_amount
+#HF_ACDT=invoice_date
+#HF_SERS=invoice_sub_type
+HF_FTCO=supplier_country_code
+HF_PUNO=purchase_order
+HF_TXAP=tax_country_1
+HF_CORI=correlation_id
+HF_PAIN=sqr_field_esr_reference
+HF_TCHG=additional_amount
+HF_CDC1=negative_amount
+HF_APCD=buyer_id
+HF_TEPY=payment_terms
+HF_PYME=payment_method
+HF_BKID=bank_id
+#HF_GEOC=supplier_geoc
+
+###########################
+# Tax Line
+###########################
+
+# ## Tax Line Static Fields
+# InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
+# IT_SF_RDTP=3
+# IT_SF_DIVI=AAA
+# IT_SF_CONO=780
+
+# ## Tax Line Fields
+# InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
+# ITF_VTCD=TF_tax_code
+# ITF_VTA1=TF_tax_amount
+# ITF_VTP1=TF_tax_rate
+# ITF_CLAM=TF_gross_amount
+
+###########################
+# Receipt Line
+###########################
+
+InvoiceReceipt=invoice_table
+
+## Receipt Line Static Fields
+InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
+IR_SF_RDTP=1
+IR_SF_DIVI=RFP
+IR_SF_RELP=1
+#IR_SF_VTCD=52
+IR_SF_CONO=001
+
+## Receipt Line Fields
+InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
+IRF_IVQA = TF_quantity
+IRF_PUUN = TF_unit
+IRF_PUNO = TF_purchase_order
+IRF_PNLI = TF_line_number
+IRF_ITNO = TF_item_number
+IRF_POPN = TF_item_number
+IRF_SUDO = TF_packing_slip
+IRF_NEPR = TF_net_unit_price
+IRF_GRPR = TF_gross_unit_price
+IRF_PPUN = TF_unit_code_price
+IRF_NLAM = TF_net_amount
+IRF_GLAM = TF_total_amount
+IRF_TCHG = TF_charges
+IRF_CDC1 = TF_discount
+
+###########################
+# Order Charge Line
+###########################
+
+OrderCharge=order_charges
+
+## Order Charge Static Fields
+OrderChargeStaticFields=RDTP,DIVI,CONO
+OC_SF_RDTP=2
+OC_SF_DIVI=RFP
+OC_SF_CONO=001
+
+## Order Charge Fields
+OrderChargeFields=NLAM,CHGT,CEID
+OCF_NLAM=TF_amount
+OCF_CHGT=TF_voucher_text
+OCF_CEID=TF_ledger_account
+
+
+###########################
+# Cost Line
+###########################
+
+InvoiceCost=cost_lines
+
+## Cost Line Static Fields
+InvoiceCostStaticFields=RDTP,DIVI,CONO
+IC_SF_RDTP=8
+IC_SF_DIVI=RFP
+IC_SF_CONO=001
+
+## Cost Line Fields
+InvoiceCostFields=NLAM,VTXT,AO01,AO02,AO03,AO04,AO05,AO06,AO07,VTCD,AIT1,AIT2,AIT3,AIT4,AIT5,AIT6,AIT7,VTP1,VTP2
+ICF_NLAM=TF_amount
+ICF_VTXT=TF_voucher_text
+ICF_AIT1=TF_ledger_account
+ICF_AIT2=TF_dimension_2
+ICF_AIT3=TF_dimension_3
+ICF_AIT4=TF_dimension_4
+ICF_AIT5=TF_dimension_5
+ICF_AIT6=TF_dimension_6
+ICF_AIT7=TF_dimension_7
+ICF_AO01=TF_accounting_object_1
+ICF_AO02=TF_accounting_object_2
+ICF_AO03=TF_accounting_object_3
+ICF_AO04=TF_accounting_object_4
+ICF_AO05=TF_accounting_object_5
+ICF_AO06=TF_accounting_object_6
+ICF_AO07=TF_accounting_object_7
 ```
 ````
 
