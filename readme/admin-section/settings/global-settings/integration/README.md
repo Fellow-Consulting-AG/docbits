@@ -5,7 +5,7 @@
 ## API-Schlüssel
 
 * **Schlüssel**: Dies ist der eindeutige Bezeichner, den externe Anwendungen verwenden, um auf die API von Docbits zuzugreifen. Er ist entscheidend für die Authentifizierung von Anfragen, die von anderen Softwareanwendungen an Docbits gestellt werden.
-* Hier können je nach spezifischem Bedarf und Sicherheitsprotokollen Aktionen wie Anzeigen, Neugenerieren oder Kopieren des API-Schlüssels durchgeführt werden.
+* Hier können je nach spezifischen Anforderungen und Sicherheitsprotokollen Aktionen wie Anzeigen, Neugenerieren oder Kopieren des API-Schlüssels durchgeführt werden.
 
 ## SSO (Single Sign-On) Service Provider-Einstellungen
 
@@ -15,7 +15,7 @@
 * Aktionen wie "Zertifikat herunterladen" und "Metadaten herunterladen" stehen zur Verfügung, um die erforderlichen Sicherheitszertifikate und Metadateninformationen für die Einrichtung und Aufrechterhaltung der SSO-Integration zu erhalten.
 
 {% hint style="info" %}
-Siehe [SSO-Einrichtung](../../../setup/sso-configuration.md)
+Siehe [SSO-Einrichtung](../../../setup/sso-configuration/)
 {% endhint %}
 
 ## Identity Service Provider-Einstellungen
