@@ -14,7 +14,7 @@
 
 * **Dugme Sačuvaj:**
 * **Svrha:** Čuva trenutno stanje dokumenta ili skripte na kojoj se radi.
-* **Upotreba:** Nakon izvršenih promena ili anotacija na dokumentu, koristite ovo dugme da biste osigurali da su sve modifikacije sačuvane.
+* **Upotreba:** Nakon izmene ili dodavanja napomena u dokument, koristite ovo dugme da biste osigurali da su sve izmene sačuvane.
 
 ### **Dodaj specijalna pravila:**
 
@@ -27,19 +27,17 @@
 * **Upotreba:** Koristite ovu funkciju za automatizaciju zadataka poput ekstrakcije podataka ili validacije formata, poboljšavajući efikasnost radnog toka.
 
 {% hint style="info" %}
-Pogledajte ovde dodaj[ Skriptu u DocBits](../admin-section/setup/scripting-in-docbits/)
+Pogledajte ovde dodaj [Skriptu u DocBits](../admin-section/setup/scripting-in-docbits/)
 {% endhint %}
 
 ### **Mutna polja:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
 
-*   **Mutna polja:**
+*   **Mutna Polja:**
 
-* **Svrha:** Pomaže u identifikaciji i ispravljanju polja gde podaci možda nisu savršeno podudarni, ali su dovoljno bliski.
-* **Upotreba:** Korisno u procesima validacije podataka gde tačna podudaranja nisu uvek moguća, kao što su blago pogrešno napisana imena ili adrese.
-
-
+* **Svrha:** Pomaže u identifikaciji i ispravljanju polja gde podaci možda nisu savršeno podudarni, ali su dovoljno blizu.
+* **Upotreba:** Korisno u procesima validacije podataka gde tačna podudaranja nisu uvek moguća, kao što su imena ili adrese sa blagim greškama u kucanju.
 
 ### **Lupa:**
 
@@ -67,7 +65,7 @@ Pogledajte ovde dodaj[ Skriptu u DocBits](../admin-section/setup/scripting-in-do
 * **Svrha:** Omogućava korisnicima brzo izvršavanje radnji korišćenjem kombinacija na tastaturi.
 * **Upotreba:** Poboljšava brzinu i efikasnost u navigaciji i obradi dokumenata smanjujući oslanjanje na navigaciju mišem.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption><p>Tastatura</p></figcaption></figure>
 
 ### **Zadaci:**
 
@@ -91,35 +89,35 @@ Možete ostaviti anotacije na dokumentu. Ovo može biti korisno kako biste ostav
 
 * **Režim Anotacija:**
 * **Svrha:** Omogućava korisnicima da ostave beleške ili anotacije direktno na dokumentu.
-* **Upotreba:** Korisno za pružanje povratnih informacija, uputstava ili važnih beleški drugim članovima tima koji će kasnije raditi na dokumentu.
+* **Upotreba:** Korisno za pružanje povratnih informacija, uputstava ili važnih napomena drugim članovima tima koji će kasnije raditi na dokumentu.
 
 ### **Spajanje:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
 
-Dokumenti se mogu spojiti ovde, na primer ako je stranica fakture nedostajala, ove stranice se mogu kasnije spojiti na ovaj način bez potrebe da ceo dokument bude obrisan ili ponovo otpremljen.
+Dokumenti se mogu spojiti ovde, na primer ako je stranica fakture nedostajala, ove stranice se mogu kasnije spojiti na ovaj način bez potrebe da se ceo dokument obriše ili ponovo otpremi.
 
 * **Spajanje Dokumenata:**
 * **Svrha:** Spaja više dokumenata u jedan fajl.
 * **Upotreba:** Korisno u scenarijima gde delovi dokumenta se skeniraju odvojeno i treba ih konsolidovati.
 
-### **OCR prikaz:**
+### **Prikaz OCR-a:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.00.png" alt="" width="77"><figcaption></figcaption></figure>
 
-U OCR prikazu, tekst se automatski filtrira iz dokumenta. Ovo se koristi za prepoznavanje relevantnih karakteristika, kao što su poštanski broj, broj ugovora, broj fakture i sortiranje dokumenta.
+U prikazu OCR-a, tekst se automatski filtrira iz dokumenta. Ovo se koristi za prepoznavanje relevantnih karakteristika, kao što su poštanski broj, broj ugovora, broj fakture i sortiranje dokumenta.
 
-* **OCR Prikaz:**
+* **Prikaz OCR-a:**
 * **Svrha:** Automatski prepoznaje tekst unutar dokumenata koristeći tehnologiju optičkog prepoznavanja karaktera.
 * **Upotreba:** Optimizuje proces digitalizacije štampanih ili ručno pisanih tekstova, čineći ih pretraživim i izmenjivim.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
 
 ### **Kreiraj tiket:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
 
-Za razliku od zadataka koji se prenose interno unutar kompanije, ovaj podršni tiket je važan kako bi nas obavestio i odmah kreirao tiket u slučaju grešaka i/ili neslaganja. Ovo olakšava proces jer možete odmah poslati bag sa odgovarajućim dokumentom. Takođe postoji opcija postavljanja prioriteta, pravljenja snimka ekrana dokumenta ili otpremanja jednog.
+Za razliku od zadataka koji se prenose interno unutar kompanije, ovaj podršni tiket je važan kako bi nas obavestio i odmah kreirao tiket u slučaju grešaka i/ili neslaganja. Ovo olakšava proces jer možete odmah poslati bag sa odgovarajućim dokumentom. Takođe postoji opcija za postavljanje prioriteta, pravljenje snimka ekrana dokumenta ili njegovo otpremanje.
 
 * **Kreiraj Tiket:**
 * **Svrha:** Omogućava korisnicima da prijave probleme ili neslaganja kreiranjem podršnog tiketa.
@@ -130,11 +128,11 @@ Za razliku od zadataka koji se prenose interno unutar kompanije, ovaj podršni t
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
 
-Skripte se mogu kreirati u postavkama pod Tipovi dokumenata; ove informacije će se zatim prikazati ovde.
+Skripte se mogu kreirati u postavkama pod Tipovima dokumenata; ove informacije će biti prikazane ovde.
 
 * **Dnevnički skriptova dokumenata:**
 * **Svrha:** Prikazuje dnevnike povezane sa skriptovima koji su implementirani za različite tipove dokumenata.
-* **Upotreba:** Korisno za praćenje i otklanjanje grešaka u skript akcijama na dokumentima, pomažući korisnicima da razumeju automatizovane procese i isprave bilo kakve probleme.
+* **Upotreba:** Korisno za praćenje i otklanjanje grešaka u radu skriptova na dokumentima, pomažući korisnicima da razumeju automatizovane procese i isprave eventualne probleme.
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
@@ -155,15 +153,15 @@ Skripte se mogu kreirati u postavkama pod Tipovi dokumenata; ove informacije će
 
 * Dokument će biti restartovan
 * **Unapredi dokument:**
-* **Svrha:** Resetuje dokument na njegovo početno stanje radi ponovne evaluacije ili daljih modifikacija.
+* **Svrha:** Resetuje dokument na početno stanje radi ponovne evaluacije ili daljih modifikacija.
 * **Upotreba:** Korisno kada je potrebno poništiti početne modifikacije ili osvežiti dokument za još jedan krug izmena. Ovde nam je potrebna dodatna ML vizija da unapredimo kvalitet dokumenta.&#x20;
 
-### **Tok dokumenta:**
+### **Tok dokumenata:**
 
-Tu ćete pronaći tok dokumenta
+Ovde ćete pronaći tok dokumenta
 
 * **Svrha:** Prikazuje sekvencu i napredovanje obrade dokumenata unutar sistema.
-* **Upotreba:** Pomaže u praćenju statusa dokumenata kroz različite faze, osiguravajući da su sve neophodne obradne korake ispoštovane.
+* **Upotreba:** Pomaže u praćenju statusa dokumenata kroz različite faze, osiguravajući da su svi neophodni koraci obrade ispoštovani.
 
 ### **Idi na šablon rasporeda:**
 
@@ -176,7 +174,7 @@ Tu ćete pronaći tok dokumenta
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
 
-Postoje polja koja su obavezna za dalje uređivanje, ova se mogu urediti u postavkama.
+Postoje polja koja su obavezna za dalje uređivanje, ova polja se mogu urediti u postavkama.
 
 Koristite tooltip da saznate da li:&#x20;
 
@@ -202,7 +200,7 @@ Ovde dolazite do prikaza ekstrakcije tabele i imate dalje opcije za nastavak. Na
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.49.png" alt=""><figcaption></figcaption></figure>
 
-Da biste dodali nepridružene kolone kliknite ovde i izaberite kolone koje želite u tabeli ili uklonite one koje ne trebate.
+Za dodavanje nepridruženih kolona kliknite ovde i izaberite kolone koje želite u tabeli ili uklonite one koje vam nisu potrebne.
 
 <figure><img src="../.gitbook/assets/image (37).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -210,7 +208,7 @@ Da biste dodali nepridružene kolone kliknite ovde i izaberite kolone koje želi
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.35.58.png" alt=""><figcaption></figcaption></figure>
 
-* **Prikaži/Sakrij Nepridružene Kolone:**
+* **Prikaži/Ne prikazuj Nepridružene Kolone:**
 * **Svrha:** Menja vidljivost kolona u tabeli koje nisu automatski povezane sa poznatim poljima.
 * **Upotreba:** Omogućava korisnicima da se fokusiraju na relevantne podatke sakrivanjem nepotrebnih kolona ili pregledom radi potencijalnog uključivanja.
 
@@ -241,7 +239,7 @@ Da biste dodali nepridružene kolone kliknite ovde i izaberite kolone koje želi
 Ako nedostaje kolona, možete kreirati novu kolonu ovde. Navedite naslov, odlučite da li treba da bude obavezno polje i tip kolone (ovo je važno za ispravan format)
 
 * **Dodaj Novu Kolonu Tabele:**
-* **Svrha:** Kreira novu kolonu u postojećoj tabeli, sa specifikacijama za naslov, neophodnost i tip.
+* **Svrha:** Kreira novu kolonu u postojećoj tabeli, sa specifikacijama za naslov, obaveznoću i tip.
 * **Upotreba:** Poboljšava fleksibilnost i tačnost prikupljanja podataka omogućavajući kreiranje prilagođenih kolona prilagođenih specifičnim zahtevima podataka.
 
 
@@ -260,4 +258,4 @@ Ako nedostaje kolona, možete kreirati novu kolonu ovde. Navedite naslov, odluč
 
 * **Obnovi Kolonu Tabele:**
 * **Svrha:** Vraća prethodno obrisane ili izmenjene kolone u tabeli.
-* **Upotreba:** Korisno za povratak podataka koji su greškom uklonjeni ili izmenjeni, osiguravajući potpunost podataka.
+* **Upotreba:** Korisno za vraćanje podataka koji su greškom uklonjeni ili izmenjeni, osiguravajući potpunost podataka.
