@@ -14,7 +14,7 @@
 
 * **Botón de Guardar:**
 * **Propósito:** Guarda el estado actual del documento o script en el que se está trabajando.
-* **Caso de Uso:** Después de realizar cambios o anotaciones en un documento, utiliza este botón para asegurarte de que todas las modificaciones se guarden.
+* **Casos de Uso:** Después de realizar cambios o anotaciones en un documento, utiliza este botón para asegurarte de que todas las modificaciones se guarden.
 
 ### **Agregar Reglas Especiales:**
 
@@ -24,7 +24,7 @@
 
 * **Agregar Reglas Especiales / Agregar Script en DocBits:**
 * **Propósito:** Permite a los usuarios implementar reglas o scripts específicos que personalizan cómo se procesan los documentos.
-* **Caso de Uso:** Utiliza esta función para automatizar tareas como extracción de datos o validación de formato, mejorando la eficiencia del flujo de trabajo.
+* **Casos de Uso:** Utiliza esta función para automatizar tareas como extracción de datos o validación de formato, mejorando la eficiencia del flujo de trabajo.
 
 {% hint style="info" %}
 Ver aquí [Agregar Script en DocBits](../admin-section/setup/scripting-in-docbits/)
@@ -37,7 +37,7 @@ Ver aquí [Agregar Script en DocBits](../admin-section/setup/scripting-in-docbit
 *   **Campos Difusos:**
 
 * **Propósito:** Ayuda a identificar y corregir campos donde los datos pueden no ser una coincidencia perfecta pero son lo suficientemente cercanos.
-* **Caso de Uso:** Útil en procesos de validación de datos donde las coincidencias exactas no siempre son posibles, como nombres o direcciones ligeramente mal escritos.
+* **Casos de Uso:** Útil en procesos de validación de datos donde las coincidencias exactas no siempre son posibles, como nombres o direcciones ligeramente mal escritos.
 
 ### **Lupa:**
 
@@ -45,7 +45,7 @@ Ver aquí [Agregar Script en DocBits](../admin-section/setup/scripting-in-docbit
 
 * **Lupa (Magnify Glass):**
 * **Propósito:** Proporciona una vista ampliada de un área seleccionada del documento.
-* **Caso de Uso:** Ayuda a examinar detalles finos o texto pequeño en documentos, asegurando precisión en la entrada o revisión de datos.
+* **Casos de Uso:** Ayuda a examinar detalles finos o texto pequeño en documentos, asegurando precisión en la entrada o revisión de datos.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.03.46.png" alt=""><figcaption></figcaption></figure>
 
@@ -55,7 +55,7 @@ Ver aquí [Agregar Script en DocBits](../admin-section/setup/scripting-in-docbit
 
 * **Abrir Nueva Ventana:**
 * **Propósito:** Abre una nueva ventana para comparar documentos uno al lado del otro o para realizar múltiples tareas.
-* **Caso de Uso:** Útil al comparar dos documentos o al hacer referencia a información adicional sin salir del documento actual.
+* **Casos de Uso:** Útil al comparar dos documentos o al hacer referencia a información adicional sin salir del documento actual.
 
 ### **Atajos de Teclado:**
 
@@ -63,9 +63,9 @@ Ver aquí [Agregar Script en DocBits](../admin-section/setup/scripting-in-docbit
 
 1. **Atajos de Teclado:**
 * **Propósito:** Permite a los usuarios realizar acciones rápidamente utilizando combinaciones de teclas.
-* **Caso de Uso:** Mejora la velocidad y eficiencia en la navegación y procesamiento de documentos al minimizar la dependencia de la navegación con el ratón.
+* **Casos de Uso:** Mejora la velocidad y eficiencia en la navegación y procesamiento de documentos al minimizar la dependencia de la navegación con el ratón.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption><p>Teclado </p></figcaption></figure>
 
 ### **Tareas:**
 
@@ -75,7 +75,7 @@ Para compartir información interna, puedes crear tareas y asignarlas a un emple
 
 * **Tareas:**
 * **Propósito:** Permite a los usuarios crear tareas relacionadas con documentos y asignarlas a miembros del equipo.
-* **Caso de Uso:** Facilita la colaboración y gestión de tareas dentro de los equipos, asegurando que todos conozcan sus responsabilidades.
+* **Casos de Uso:** Facilita la colaboración y gestión de tareas dentro de los equipos, asegurando que todos conozcan sus responsabilidades.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.21.27.png" alt="" width="218"><figcaption></figcaption></figure>
 
@@ -89,17 +89,17 @@ Puedes dejar anotaciones en un documento. Esto puede ser útil para dejar inform
 
 * **Modo de Anotación:**
 * **Propósito:** Permite a los usuarios dejar notas o anotaciones directamente en el documento.
-* **Caso de Uso:** Útil para proporcionar retroalimentación, instrucciones o notas importantes a otros miembros del equipo que trabajarán en el documento más tarde.
+* **Casos de Uso:** Útil para proporcionar retroalimentación, instrucciones o notas importantes a otros miembros del equipo que trabajarán en el documento más tarde.
 
 ### **Combinar:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
 
-Los documentos se pueden combinar aquí, por ejemplo, si falta una página de una factura, estas páginas se pueden combinar más tarde de esta manera sin tener que eliminar o volver a cargar todo el documento.
+Los documentos se pueden combinar aquí, por ejemplo, si faltaba una página de una factura, estas páginas se pueden combinar más tarde de esta manera sin tener que eliminar o volver a cargar todo el documento.
 
 * **Combinar Documentos:**
 * **Propósito:** Combina varios documentos en un solo archivo.
-* **Caso de Uso:** Útil en escenarios donde partes de un documento se escanean por separado y necesitan ser consolidadas.
+* **Casos de Uso:** Útil en escenarios donde partes de un documento se escanean por separado y necesitan consolidarse.
 
 ### **Vista OCR:**
 
@@ -108,10 +108,10 @@ Los documentos se pueden combinar aquí, por ejemplo, si falta una página de un
 En la vista OCR, el texto se filtra automáticamente del documento. Esto se utiliza para reconocer características relevantes, como el código postal, número de contrato, número de factura y la clasificación de un documento.
 
 * **Vista OCR:**
-* **Propósito:** Reconoce automáticamente el texto dentro de los documentos utilizando tecnología de Reconocimiento Óptico de Caracteres.
-* **Caso de Uso:** Agiliza el proceso de digitalización de textos impresos o escritos a mano, haciéndolos buscables y editables.
+* **Propósito:** Reconoce automáticamente el texto dentro de los documentos utilizando la tecnología de Reconocimiento Óptico de Caracteres.
+* **Casos de Uso:** Agiliza el proceso de digitalización de textos impresos o escritos a mano, haciéndolos buscables y editables.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
 
 ### **Crear Ticket:**
 
@@ -121,7 +121,7 @@ A diferencia de las tareas que se pasan internamente dentro de la empresa, este 
 
 * **Crear Ticket:**
 * **Propósito:** Permite a los usuarios informar problemas o discrepancias creando un ticket de soporte.
-* **Caso de Uso:** Esencial para una rápida resolución de problemas y errores, ayudando a mantener la integridad y el buen funcionamiento del sistema.
+* **Casos de Uso:** Esencial para una rápida resolución de problemas y errores, ayudando a mantener la integridad y el buen funcionamiento del sistema.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
 ### **Registros de script de documento:**
@@ -132,7 +132,7 @@ Los scripts se pueden crear en la configuración bajo Tipos de Documentos; esta 
 
 * **Registros de Script de Documento:**
 * **Propósito:** Muestra registros relacionados con scripts implementados para diferentes tipos de documentos.
-* **Casos de Uso:** Útil para rastrear y depurar acciones de script en documentos, ayudando a los usuarios a entender los procesos automatizados y corregir problemas.
+* **Caso de Uso:** Útil para rastrear y depurar acciones de script en documentos, ayudando a los usuarios a comprender los procesos automatizados y corregir cualquier problema.
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
@@ -144,33 +144,33 @@ Los scripts se pueden crear en la configuración bajo Tipos de Documentos; esta 
 
 ### **Dividir documento:**
 
-* Aquí puedes dividir el documento y cortar o eliminar páginas que no son necesarias.
+* Aquí puedes dividir el documento y cortar o eliminar páginas que no sean necesarias.
 * **Dividir Documento:**
 * **Propósito:** Permite a los usuarios dividir un documento en partes separadas, eliminando o aislando páginas que no son necesarias.
-* **Casos de Uso:** Ideal al tratar con documentos de varias páginas donde solo se requieren ciertas secciones para procesamiento o revisión.
+* **Caso de Uso:** Ideal al tratar con documentos de varias páginas donde solo se requieren ciertas secciones para procesamiento o revisión.
 
 ### **Mejorar documento:**
 
 * El documento se reiniciará
 * **Mejorar Documento:**
 * **Propósito:** Restablece el documento a su estado inicial para su reevaluación o modificaciones adicionales.
-* **Casos de Uso:** Útil cuando se necesite deshacer modificaciones iniciales o refrescar el documento para otra ronda de ediciones. Aquí necesitamos algo de Visión de ML adicional para mejorar la calidad del documento.&#x20;
+* **Caso de Uso:** Útil cuando se necesite deshacer modificaciones iniciales o refrescar el documento para otra ronda de ediciones. Aquí necesitamos algo de Visión de IA adicional para mejorar la calidad del documento.&#x20;
 
 ### **Flujo de Documento:**
 
 Aquí encontrarás el flujo del documento
 
 * **Propósito:** Muestra la secuencia y progresión del procesamiento de documentos dentro del sistema.
-* **Casos de Uso:** Ayuda a rastrear el estado del documento a través de diferentes etapas, asegurando que se sigan todos los pasos de procesamiento necesarios.
+* **Caso de Uso:** Ayuda a rastrear el estado del documento a través de diferentes etapas, asegurando que se sigan todos los pasos de procesamiento necesarios.
 
-### **Ir a la Plantilla de Diseño:**
+### **Ir a Plantilla de Diseño:**
 
 * Con esta opción serás redirigido y podrás editar tu diseño o usar la plantilla predeterminada.
-* **Ir a la Plantilla de Diseño:**
+* **Ir a Plantilla de Diseño:**
 * **Propósito:** Redirige a los usuarios a un editor de diseño donde pueden modificar plantillas existentes o aplicar una predeterminada.
-* **Casos de Uso:** Permite la personalización de diseños de documentos para cumplir con necesidades o preferencias comerciales específicas, mejorando el alineamiento visual y funcional del documento con los estándares de la empresa.
+* **Caso de Uso:** Permite la personalización de diseños de documentos para cumplir con necesidades o preferencias comerciales específicas, mejorando la alineación visual y funcional del documento con los estándares de la empresa.
 
-### **Campos requeridos:**
+### **Campos Obligatorios:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
 
@@ -182,9 +182,9 @@ Utiliza la información sobre herramientas para averiguar si:&#x20;
 * Se requiere validación&#x20;
 * Baja confianza
 * Desajuste total del importe del impuesto
-* **Campos Requeridos:**
+* **Campos Obligatorios:**
 * **Propósito:** Identifica campos obligatorios dentro de documentos que deben completarse o corregirse antes de continuar con el procesamiento.
-* **Casos de Uso:** Asegura que los datos esenciales se capturen con precisión, manteniendo la integridad de los datos y el cumplimiento de las reglas comerciales.
+* **Caso de Uso:** Asegura que los datos esenciales se capturen con precisión, manteniendo la integridad de los datos y el cumplimiento de las reglas comerciales.
 
 ### **Ir a vista de extracción de tabla:**
 
@@ -194,7 +194,7 @@ Aquí llegas a la vista de extracción de tabla y tienes más opciones para cont
 
 * **Ir a Vista de Extracción de Tabla:**
 * **Propósito:** Navega a una interfaz donde los usuarios pueden extraer y manipular datos de tabla de documentos.
-* **Casos de Uso:** Útil para documentos complejos que contienen tablas, permitiendo una extracción precisa de datos y aprendizaje para mejorar el reconocimiento con el tiempo.
+* **Caso de Uso:** Útil para documentos complejos que contienen tablas, permitiendo una extracción precisa de datos y aprendizaje para mejorar el reconocimiento con el tiempo.
 
 ### **Agregar columnas no asignadas:**
 
@@ -210,7 +210,7 @@ Para agregar columnas no asignadas haz clic aquí y selecciona las columnas que 
 
 * **Mostrar/Ocultar Columnas no Asignadas:**
 * **Propósito:** Alterna la visibilidad de columnas en una tabla que no se asignan automáticamente a campos conocidos.
-* **Casos de Uso:** Permite a los usuarios centrarse en datos relevantes al ocultar columnas innecesarias o revisarlas para su inclusión potencial.
+* **Caso de Uso:** Permite a los usuarios centrarse en datos relevantes al ocultar columnas innecesarias o revisarlas para su inclusión potencial.
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
@@ -220,7 +220,7 @@ Para agregar columnas no asignadas haz clic aquí y selecciona las columnas que 
 
 * **Bloquear Extracción de Tabla para Este Proveedor:**
 * **Propósito:** Evita procesos de extracción de tablas para documentos de proveedores específicos.
-* **Casos de Uso:** Útil en escenarios donde los documentos de proveedores no se extraen correctamente de manera consistente o no requieren extracción.
+* **Caso de Uso:** Útil en escenarios donde los documentos de proveedores no se extraen correctamente de manera consistente o no requieren extracción.
 
 ### **Eliminar tabla:**
 
@@ -228,7 +228,7 @@ Para agregar columnas no asignadas haz clic aquí y selecciona las columnas que 
 
 * **Eliminar Tabla:**
 * **Propósito:** Elimina una tabla completa de un documento.
-* **Casos de Uso:** Útil cuando una tabla se incluye incorrectamente o ya no es necesaria para el propósito del documento.
+* **Caso de Uso:** Útil cuando una tabla se incluye incorrectamente o ya no es necesaria para el propósito del documento.
 
 ### **Agregar nueva columna de tabla:**
 
@@ -240,7 +240,7 @@ Si falta una columna, puedes crear una nueva columna aquí. Especifica el títul
 
 * **Agregar Nueva Columna de Tabla:**
 * **Propósito:** Crea una nueva columna en una tabla existente, con especificaciones para título, necesidad y tipo.
-* **Casos de Uso:** Mejora la flexibilidad y precisión de la captura de datos al permitir la creación de columnas personalizadas adaptadas a requisitos de datos específicos.
+* **Caso de Uso:** Mejora la flexibilidad y precisión de la captura de datos al permitir la creación de columnas personalizadas adaptadas a requisitos de datos específicos.
 
 
 
@@ -250,7 +250,7 @@ Si falta una columna, puedes crear una nueva columna aquí. Especifica el títul
 
 * **Ignorar Validación de Tabla:**
 * **Propósito:** Permite a los usuarios omitir reglas de validación para tablas específicas.
-* **Casos de Uso:** Útil cuando anomalías conocidas en los datos no afectan el procesamiento general y la insistencia en la validación obstaculizaría el flujo de trabajo.
+* **Caso de Uso:** Útil cuando anomalías conocidas en los datos no afectan el procesamiento general y la insistencia en la validación obstaculizaría el flujo de trabajo.
 
 ### **Restaurar columna de tabla:**
 
@@ -258,4 +258,4 @@ Si falta una columna, puedes crear una nueva columna aquí. Especifica el títul
 
 * **Restaurar Columna de Tabla:**
 * **Propósito:** Restablece una columna previamente eliminada o alterada en una tabla.
-* **Casos de Uso:** Útil para recuperar datos que fueron eliminados o alterados por error, asegurando la integridad de los datos.
+* **Caso de Uso:** Útil para recuperar datos que fueron eliminados o alterados por error, asegurando la integridad de los datos.
