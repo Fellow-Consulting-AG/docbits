@@ -45,7 +45,7 @@ Voir ici ajouter [Script in DocBits](../admin-section/setup/scripting-in-docbits
 
 * **Loupe (Magnify Glass) :**
 * **Objectif :** Fournit une vue agrandie d'une zone sélectionnée du document.
-* **Cas d'utilisation :** Aide à examiner les détails fins ou les petits textes dans les documents, assurant ainsi l'exactitude de la saisie ou de la révision des données.
+* **Cas d'utilisation :** Aide à examiner les détails fins ou le petit texte dans les documents, assurant ainsi l'exactitude de la saisie ou de la révision des données.
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.03.46.png" alt=""><figcaption></figcaption></figure>
 
@@ -62,10 +62,10 @@ Voir ici ajouter [Script in DocBits](../admin-section/setup/scripting-in-docbits
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.42.png" alt="" width="145"><figcaption></figcaption></figure>
 
 1. **Raccourcis clavier :**
-* **Objectif :** Permet aux utilisateurs d'effectuer rapidement des actions en utilisant des combinaisons de touches.
-* **Cas d'utilisation :** Améliore la vitesse et l'efficacité dans la navigation et le traitement des documents en réduisant la dépendance à la navigation à la souris.
+* **Objectif :** Permet aux utilisateurs d'effectuer rapidement des actions en utilisant des combinaisons de touches du clavier.
+* **Cas d'utilisation :** Améliore la vitesse et l'efficacité de la navigation et du traitement des documents en réduisant la dépendance à la navigation à la souris.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption><p>Clavier </p></figcaption></figure>
 
 ### **Tâches :**
 
@@ -89,7 +89,7 @@ Vous pouvez laisser des annotations sur un document. Cela peut être utile pour 
 
 * **Mode annotation :**
 * **Objectif :** Permet aux utilisateurs de laisser des notes ou des annotations directement sur le document.
-* **Cas d'utilisation :** Utile pour fournir des commentaires, des instructions ou des notes importantes à d'autres membres de l'équipe qui travailleront sur le document plus tard.
+* **Cas d'utilisation :** Utile pour fournir des commentaires, des instructions ou des notes importantes à d'autres membres de l'équipe qui travailleront sur le document ultérieurement.
 
 ### **Fusionner :**
 
@@ -109,9 +109,9 @@ Dans la vue OCR, le texte est automatiquement extrait du document. Cela est util
 
 * **Vue OCR :**
 * **Objectif :** Reconnaît automatiquement le texte dans les documents en utilisant la technologie de reconnaissance optique de caractères.
-* **Cas d'utilisation :** Rationalise le processus de numérisation des textes imprimés ou manuscrits, les rendant ainsi consultables et modifiables.
+* **Cas d'utilisation :** Rationalise le processus de numérisation des textes imprimés ou manuscrits, les rendant ainsi recherchables et modifiables.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
 
 ### **Créer un ticket :**
 
@@ -147,14 +147,14 @@ Les scripts peuvent être créés dans les paramètres sous Types de document ; 
 * Ici, vous pouvez diviser le document et couper ou supprimer les pages qui ne sont pas nécessaires.
 * **Diviser le document :**
 * **Objectif :** Permet aux utilisateurs de diviser un document en parties séparées, en supprimant ou en isolant les pages qui ne sont pas nécessaires.
-* **Cas d'utilisation :** Idéal lorsqu'il s'agit de documents multi-pages où seules certaines sections sont nécessaires pour le traitement ou l'examen.
+* **Cas d'utilisation :** Idéal lorsqu'il s'agit de documents multi-pages où seules certaines sections sont nécessaires pour le traitement ou la révision.
 
 ### **Améliorer le document :**
 
 * Le document sera redémarré
 * **Améliorer le document :**
 * **Objectif :** Réinitialise le document à son état initial pour une réévaluation ou des modifications ultérieures.
-* **Cas d'utilisation :** Utile lorsque les modifications initiales doivent être annulées ou que le document doit être rafraîchi pour une autre série de modifications. Ici, nous avons besoin d'une vision ML supplémentaire pour améliorer la qualité du document.
+* **Cas d'utilisation :** Utile lorsque des modifications initiales doivent être annulées ou que le document doit être rafraîchi pour une autre série de modifications. Ici, nous avons besoin d'une vision ML supplémentaire pour améliorer la qualité du document.
 
 ### **Flux de document :**
 
@@ -168,23 +168,23 @@ Vous y trouverez le flux du document
 * Avec cette option, vous serez redirigé et pourrez modifier votre mise en page ou utiliser le modèle par défaut.
 * **Aller au modèle de mise en page :**
 * **Objectif :** Redirige les utilisateurs vers un éditeur de mise en page où ils peuvent modifier les modèles existants ou appliquer un modèle par défaut.
-* **Cas d'utilisation :** Permet la personnalisation des mises en page de document pour répondre à des besoins ou préférences commerciaux spécifiques, améliorant l'alignement visuel et fonctionnel du document avec les normes de l'entreprise.
+* **Cas d'utilisation :** Permet la personnalisation des mises en page de documents pour répondre à des besoins ou préférences commerciaux spécifiques, améliorant l'alignement visuel et fonctionnel du document avec les normes de l'entreprise.
 
 ### **Champs obligatoires :**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
 
-Il y a des champs qui sont nécessaires pour une édition ultérieure, ceux-ci peuvent être modifiés dans les paramètres.
+Il y a des champs qui sont nécessaires pour une édition ultérieure, ceux-ci peuvent être édités dans les paramètres.
 
-Utilisez l'info-bulle pour savoir si :&#x20;
+Utilisez l'info-bulle pour savoir si : 
 
 * Il s'agit d'un champ obligatoire (requis)
-* Validation requise&#x20;
-* Faible confiance
+* Validation requise
+* Confiance faible
 * Mismatch total du montant de la taxe
 * **Champs obligatoires :**
 * **Objectif :** Identifie les champs obligatoires dans les documents qui doivent être remplis ou corrigés avant tout traitement ultérieur.
-* **Cas d'utilisation :** Garantit que les données essentielles sont capturées avec précision, maintenant l'intégrité des données et la conformité aux règles commerciales.
+* **Cas d'utilisation :** Garantit que les données essentielles sont capturées avec précision, maintenant l'intégrité des données et la conformité avec les règles commerciales.
 
 ### **Aller à la vue d'extraction de table :**
 
@@ -194,7 +194,7 @@ Ici, vous accédez à la vue d'extraction de table et avez d'autres options pour
 
 * **Aller à la vue d'extraction de table :**
 * **Objectif :** Navigue vers une interface où les utilisateurs peuvent extraire et manipuler les données de table à partir de documents.
-* **Cas d'utilisation :** Utile pour les documents complexes contenant des tables, permettant une extraction de données précise et un apprentissage pour améliorer la reconnaissance au fil du temps.
+* **Cas d'utilisation :** Utile pour les documents complexes contenant des tables, permettant une extraction précise des données et l'apprentissage pour améliorer la reconnaissance au fil du temps.
 
 ### **Ajouter des colonnes non mappées :**
 
@@ -248,7 +248,7 @@ Si une colonne est manquante, vous pouvez créer une nouvelle colonne ici. Spéc
 
 * **Ignorer la validation de table :**
 * **Objectif :** Permet aux utilisateurs de contourner les règles de validation pour des tables spécifiques.
-* **Cas d'utilisation :** Utile lorsque des anomalies connues dans les données n'ont pas d'impact sur le traitement global et que l'insistance sur la validation entraverait le flux de travail.
+* **Cas d'utilisation :** Utile lorsque des anomalies connues dans les données n'impactent pas le traitement global et que l'insistance sur la validation entraverait le flux de travail.
 
 ### **Restaurer la colonne de table :**
 
@@ -256,4 +256,4 @@ Si une colonne est manquante, vous pouvez créer une nouvelle colonne ici. Spéc
 
 * **Restaurer la colonne de table :**
 * **Objectif :** Rétablit une colonne précédemment supprimée ou modifiée dans une table.
-* **Cas d'utilisation :** Utile pour récupérer des données qui ont été supprimées ou modifiées par erreur, garantissant l'intégralité des données.
+* **Cas d'utilisation :** Utile pour récupérer des données qui ont été supprimées ou modifiées par erreur, assurant l'intégralité des données.
