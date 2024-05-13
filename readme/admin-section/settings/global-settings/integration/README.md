@@ -15,13 +15,13 @@
 * Ações como "Baixar Certificado" e "Baixar Metadados" estão disponíveis para obter os certificados de segurança necessários e informações de metadados usadas na configuração e manutenção da integração SSO.
 
 {% hint style="info" %}
-Veja [Configuração do SSO](../../../setup/sso-configuration.md)
+Veja [Configuração do SSO](../../../setup/sso-configuration/)
 {% endhint %}
 
 ## Configurações do Provedor de Serviços de Identidade
 
 * **ID do Locatário**: Isso pode ser usado quando o Docbits se integra com serviços em nuvem que requerem um identificador de locatário para gerenciar dados e configurações de acesso específicas da empresa que usa o Docbits.
-* **Enviar arquivo**: Permite ao administrador enviar arquivos de configuração ou outros arquivos necessários que facilitem a integração com um provedor de identidade.
+* **Enviar arquivo**: Permite ao administrador enviar arquivos de configuração ou outros arquivos necessários que facilitam a integração com um provedor de identidade.
 * **Configurar**: Um botão para aplicar ou atualizar as configurações após fazer alterações ou enviar novas configurações.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2488" %}
