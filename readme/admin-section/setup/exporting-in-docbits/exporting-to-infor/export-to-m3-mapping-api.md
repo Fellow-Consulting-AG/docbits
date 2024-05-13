@@ -1,4 +1,4 @@
-# Eksportowanie do mapowania M3 (API)
+# Eksport do mapowania M3 (API)
 
 ### Sekcje
 
@@ -13,9 +13,9 @@ Plik mapowania eksportu M3 jest podzielony na 5 sekcji, a każda sekcja jest dod
 * Linie paragonu
 * Statyczne pola linii paragonu
 * Pola linii paragonu
-* Linie opłat zlecenia (Dodatkowe kwoty)
-* Statyczne pola opłat zlecenia
-* Pola opłat zlecenia
+* Linie opłat zamówienia (Dodatkowe kwoty)
+* Statyczne pola opłat zamówienia
+* Pola opłat zamówienia
 * Linie kosztów
 * Statyczne pola linii kosztów
 * Pola linii kosztów
@@ -24,8 +24,8 @@ Plik mapowania eksportu M3 jest podzielony na 5 sekcji, a każda sekcja jest dod
 
 Dodawanie nowego pola:
 
-* Najpierw musimy dodać **nazwę pola API M3** do właściwej listy pól sekcji (np. StaticFields, HeaderFields, InvoiceTaxFields)
-* Zdefiniuj wartość statyczną lub nazwę pola dokumentu dla pola API z odpowiednim prefiksem dla sekcji
+* Najpierw dodajemy **nazwę pola API M3** do listy pól odpowiedniej sekcji (np. StaticFields, HeaderFields, InvoiceTaxFields)
+* Zdefiniuj statyczną wartość lub nazwę pola dokumentu dla pola API z odpowiednim prefiksem dla sekcji
 * Przykład 1: Aby zdefiniować statyczną wartość **AAA** dla pola API M3 **DIVI.** Najpierw dodaliśmy DIVI do właściwości **StaticFields**. Następnie dodajemy linię **SF\_DIVI = AAA** jako SF\_ to prefiks dla pól statycznych
 * Przykład 2: Aby zmapować pole nagłówka **IVDT (data faktury)** na pole invoice\_date w DocBits. Najpierw dodajemy IVDT do właściwości **HeaderFields**. Następnie dodajemy linię HF\_IVDT = invoice\_date jako HF\_ to prefiks dla pól nagłówka
 
@@ -51,7 +51,7 @@ Właściwość listy pól: StaticFields
 
 Prefiks pól sekcji: SF\_
 
-Dostępne pola: Możesz zmapować dowolne pole API M3 z dowolną wartością statyczną
+Dostępne pola: Możesz zmapować dowolne pole API M3 z dowolną statyczną wartością
 
 #### **Pola nagłówka**
 
@@ -69,7 +69,7 @@ Właściwość listy pól: InvoiceTaxStaticFields
 
 Prefiks pól sekcji: IT\_SF\_
 
-Dostępne pola M3: Proszę sprawdzić M3 API lub interfejs użytkownika
+Dostępne pola M3: Proszę sprawdzić API M3 lub interfejs użytkownika
 
 Dostępne pola DocBits: Możesz wprowadzić dowolną wartość, ponieważ są to pola statyczne
 
@@ -81,7 +81,7 @@ Prefiks pól M3: ITF\_
 
 Prefiks pola tabeli DocBits: TF\_
 
-Dostępne pola M3: Proszę sprawdzić M3 API lub interfejs użytkownika
+Dostępne pola M3: Proszę sprawdzić API M3 lub interfejs użytkownika
 
 Dostępne pola DocBits: line\_number, tax\_amount, tax\_rate, net\_amount, gross\_amount, tax\_code\_full, tax\_code, tax\_country
 
@@ -93,7 +93,7 @@ Właściwość listy pól: InvoiceReceiptStaticFields
 
 Prefiks pól sekcji: IR\_SF\_
 
-Dostępne pola M3: Proszę sprawdzić M3 API lub interfejs użytkownika
+Dostępne pola M3: Proszę sprawdzić API M3 lub interfejs użytkownika
 
 Dostępne pola DocBits: Możesz wprowadzić dowolną wartość, ponieważ są to pola statyczne
 
@@ -105,23 +105,23 @@ Prefiks pól M3: IRF\_
 
 Prefiks pola tabeli DocBits: TF\_
 
-Dostępne pola M3: Proszę sprawdzić M3 API lub interfejs użytkownika
+Dostępne pola M3: Proszę sprawdzić API M3 lub interfejs użytkownika
 
 Dostępne pola DocBits: packing\_slip, purchase\_order, line\_number, line\_sequence, delivery\_number, delivery\_line, amount, quantity, total\_net\_amount
 
-### Linia opłaty zlecenia:
+### Linia opłaty zamówienia:
 
-#### Statyczne pola opłaty zlecenia:
+#### Statyczne pola opłat zamówienia:
 
 Właściwość listy pól: OrderChargeStaticFields
 
 Prefiks pól sekcji: OC\_SF\_
 
-Dostępne pola M3: Proszę sprawdzić M3 API lub interfejs użytkownika
+Dostępne pola M3: Proszę sprawdzić API M3 lub interfejs użytkownika
 
 Dostępne pola DocBits: Możesz wprowadzić dowolną wartość, ponieważ są to pola statyczne
 
-#### Pola opłaty zlecenia:
+#### Pola opłat zamówienia:
 
 Właściwość listy pól: OrderChargeFields
 
@@ -129,7 +129,7 @@ Prefiks pól M3: OCF\_
 
 Prefiks pola tabeli DocBits: TF\_
 
-Dostępne pola M3: Proszę sprawdzić M3 API lub interfejs użytkownika
+Dostępne pola M3: Proszę sprawdzić API M3 lub interfejs użytkownika
 
 Dostępne pola DocBits: ledger\_account, dimension\_2-7, amount, quantity, quantity2, position
 
@@ -141,7 +141,7 @@ Właściwość listy pól: InvoiceCostStaticFields
 
 Prefiks pól sekcji: IC\_SF\_
 
-Dostępne pola M3: Proszę sprawdzić M3 API lub interfejs użytkownika
+Dostępne pola M3: Proszę sprawdzić API M3 lub interfejs użytkownika
 
 Dostępne pola DocBits: Możesz wprowadzić dowolną wartość, ponieważ są to pola statyczne
 
@@ -153,7 +153,7 @@ Prefiks pól M3: ICF\_
 
 Prefiks pola tabeli DocBits: TF\_
 
-Dostępne pola M3: Proszę sprawdzić M3 API lub interfejs użytkownika
+Dostępne pola M3: Proszę sprawdzić API M3 lub interfejs użytkownika
 
 Dostępne pola DocBits: ledger\_account, dimension\_1-12, amount, quantity, quantity2, position
 
@@ -292,4 +292,94 @@ ICF_AO05=TF_accounting_object_5
 ICF_AO06=TF_accounting_object_6
 ICF_AO07=TF_accounting_object_7
 ```
+Dla klienta z USA aktualizujemy to mapowanie do V3.
+````
+```properties
+# Zmiany od wersji 2 do wersji 3:
+-StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,GEOC,BKID
+-SF_DIVI=PJA
++StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
++SF_DIVI=RFP
++SF_CONO=001
+-SF_TEPY=J30
+-SF_PYME=PTR
++#SF_TEPY=N00
++#SF_PYME=CSH
++#SF_APCD=MHIDALGO
+-SF_BKID=001
++SF_GEOC=999999999
++#SF_BKID=DJ1
+-HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN
++HeaderFields=SUNO,IVDT,SINO,SPYN,CUCD,CUAM,VTAM,ACDT,SERS,FTCO,BSCD,PUNO,TXAP,CORI,PAIN,TCHG,CDC1,APCD,TEPY,PYME,BKID
+-HF_CUAM=total_net_amount
++HF_CUAM=total_net_amount_us
+-HF_ACDT=invoice_date
++#HF_ACDT=invoice_date
+-HF_CORI = correlation_id
+-HF_PAIN = sqr_field_esr_reference
++
++HF_CORI=correlation_id
++HF_PAIN=sqr_field_esr_reference
++HF_TCHG=additional_amount
++HF_CDC1=negative_amount
++HF_APCD=buyer_id
++HF_TEPY=payment_terms
++HF_PYME=payment_method
++HF_BKID=bank_id
++#HF_GEOC=supplier_geoc
+-## Statyczne pola linii podatkowej
+-InvoiceTaxStaticFields=RDTP,DIVI,VTCD
+-IT_SF_RDTP=3
+-IT_SF_DIVI=PJA
++# ## Statyczne pola linii podatkowej
++# InvoiceTaxStaticFields=RDTP,DIVI,VTCD,CONO
++# IT_SF_RDTP=3
++# IT_SF_DIVI=AAA
++# IT_SF_CONO=780
+-## Pola linii podatkowej
+-InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
+-ITF_VTCD=TF_tax_code
+-ITF_VTA1=TF_tax_amount
+-ITF_VTP1=TF_tax_rate
+-ITF_CLAM=TF_gross_amount
++# ## Pola linii podatkowej
++# InvoiceTaxFields=VTCD,VTA1,VTP1,CLAM
++# ITF_VTCD=TF_tax_code
++# ITF_VTA1=TF_tax_amount
++# ITF_VTP1=TF_tax_rate
++# ITF_CLAM=TF_gross_amount
+-InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD
++InvoiceReceiptStaticFields=RDTP,DIVI,SERS,RELP,VTCD,CONO
+-IR_SF_DIVI=PJA
+-IR_SF_SERS=0
++IR_SF_DIVI=RFP
+-IR_SF_VTCD=52
++#IR_SF_VTCD=52
++IR_SF_CONO=001
+-InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM
++InvoiceReceiptFields=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
+-#IRF_PUNO = TF_purchase_order
+-#IRF_PNLI = TF_line_number
++IRF_PUNO = TF_purchase_order
++IRF_PNLI = TF_line_number
+-#IRF_NEPR = TF_net_unit_price
++IRF_NEPR = TF_net_unit_price
+-IRF_PPUN = TF_unit
+-#IRF_NLAM = TF_net_amount
++IRF_PPUN = TF_unit_code_price
++IRF_NLAM = TF_net_amount
++IRF_TCHG = TF_charges
++IRF_CDC1 = TF_discount
+-OrderChargeStaticFields=RDTP,DIVI
++OrderChargeStaticFields=RDTP,DIVI,CONO
+-OC_SF_DIVI=PJA
++OC_SF_DIVI=RFP
++OC_SF_CONO=001
+-InvoiceCostStaticFields=RDTP,DIVI
++InvoiceCostStaticFields=RDTP,DIVI,CONO
+-IC_SF_DIVI=PJA
++IC_SF_DIVI=RFP
++IC_SF_CONO=001
+```
+````
 
