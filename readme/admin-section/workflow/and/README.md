@@ -4,11 +4,11 @@
 
 ### **Zweck von 'Und'-Karten:**
 
-* **Und**-Karten dienen als Bedingungskarten, die Kriterien festlegen, die erfüllt sein müssen, damit der Workflow fortgesetzt werden kann. Sie fungieren effektiv als logische "UND"-Operatoren, was bedeutet, dass alle in diesen Karten festgelegten Bedingungen erfüllt sein müssen, damit die nachfolgende Aktion ausgelöst wird.
+* **Und**-Karten dienen als Bedingungskarten, die Kriterien festlegen, die für die Fortsetzung des Workflows erfüllt sein müssen. Sie fungieren effektiv als logische "UND"-Operatoren, was bedeutet, dass alle in diesen Karten festgelegten Bedingungen erfüllt sein müssen, damit die nachfolgende Aktion ausgelöst wird.
 
 #### Kategorien von 'Und'-Karten
 
-Aus den Screenshots geht hervor, dass diese Karten eine Vielzahl von Bedingungen abdecken, darunter:
+Anhand der Screenshots ist klar, dass diese Karten eine Vielzahl von Bedingungen abdecken, darunter:
 
 *   **Vergleich mit Bestellung**:
 
@@ -20,7 +20,7 @@ Aus den Screenshots geht hervor, dass diese Karten eine Vielzahl von Bedingungen
 
 *   **Dokumentenfeld**:
 
-* Diese beinhalten Bedingungen, die auf bestimmten Feldern innerhalb von Dokumenten basieren, wie das Markieren von Kontrollkästchen, den Vergleich von Feldwerten oder die Sicherstellung, dass ein Dokumentenfeld eine bestimmte Toleranz erfüllt. Dies ist besonders wichtig für die Datenintegrität und automatisierte Überprüfungen innerhalb von Formularen oder Dokumentenverwaltungssystemen.
+* Diese beinhalten Bedingungen, die auf spezifischen Feldern innerhalb von Dokumenten basieren, wie das Markieren von Kontrollkästchen, den Vergleich von Feldwerten oder die Sicherstellung, dass ein Dokumentenfeld eine bestimmte Toleranz erfüllt. Dies ist besonders wichtig für die Datenintegrität und automatisierte Überprüfungen innerhalb von Formularen oder Dokumentenverwaltungssystemen.
 
 
 
@@ -57,15 +57,15 @@ Aus den Screenshots geht hervor, dass diese Karten eine Vielzahl von Bedingungen
 
 <figure><img src="../../../.gitbook/assets/And7.png" alt=""><figcaption></figcaption></figure>
 
-#### Praktische Anwendung
+### Praktische Anwendung
 
 Diese "Und"-Karten werden innerhalb des Workflows konfiguriert, um Überprüfungen und Validierungen durchzuführen, die sicherstellen, dass der Prozess strikt den Geschäftsregeln und den Standards für Datenintegrität entspricht. Zum Beispiel:
 
 * **Ein Workflow könnte eine 'Und'-Karte verwenden, um zu überprüfen, ob der Gesamtbetrag einer Rechnung mit der Bestellung übereinstimmt, bevor die Zahlung ausgelöst wird.**
 * **Ein anderer Workflow könnte eine 'Und'-Karte verwenden, um sicherzustellen, dass ein Dokument von bestimmten Teammitgliedern überprüft wird, bevor es in die nächste Phase übergeht.**
 
-#### Fazit
+### Fazit
 
-"Und"-Karten sind ein grundlegender Bestandteil von Workflowsystemen, die eine präzise Kontrolle über die Prozessausführung basierend auf mehreren Bedingungen erfordern. Sie stellen sicher, dass jeder Schritt eines Workflows nur fortgesetzt wird, wenn alle erforderlichen Kriterien gründlich erfüllt sind, und automatisieren so komplexe Entscheidungsbäume innerhalb von Geschäftsprozessen.
+"Und"-Karten sind ein grundlegender Bestandteil von Workflowsystemen, die eine präzise Kontrolle über die Prozessausführung basierend auf mehreren Bedingungen erfordern. Sie stellen sicher, dass jeder Schritt eines Workflows nur fortgesetzt wird, wenn alle notwendigen Kriterien gründlich erfüllt sind, und automatisieren so komplexe Entscheidungsbäume innerhalb von Geschäftsprozessen.
 
 Das Verständnis und die korrekte Konfiguration dieser Karten sind entscheidend, um die vollen Möglichkeiten Ihres Workflow-Management-Systems zur Steigerung von Effizienz, Genauigkeit und Einhaltung innerhalb organisatorischer Prozesse zu nutzen.
