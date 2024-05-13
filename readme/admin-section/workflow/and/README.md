@@ -57,14 +57,14 @@ From the screenshots, it's clear that these cards cover a wide range of conditio
 
 <figure><img src="../../../.gitbook/assets/And7.png" alt=""><figcaption></figcaption></figure>
 
-#### Practical Application
+### Practical Application
 
 These "And" cards are configured within the workflow to perform checks and validations that ensure the process adheres strictly to business rules and data integrity standards. For example:
 
 * **A workflow might use an 'And' card to verify that an invoice's total amount matches the purchase order before triggering payment.**
 * **Another workflow could use an 'And' card to ensure a document is reviewed by specific team members before it progresses to the next stage.**
 
-#### Conclusion
+### Conclusion
 
 "And" cards are a fundamental component of workflow systems that require precise control over process execution based on multiple conditions. They ensure that each step of a workflow only proceeds when all necessary criteria are thoroughly met, thus automating complex decision trees within business processes.
 
