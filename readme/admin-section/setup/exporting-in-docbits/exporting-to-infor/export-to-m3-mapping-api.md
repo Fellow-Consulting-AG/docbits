@@ -2,7 +2,7 @@
 
 ### Bölümler
 
-M3 aktarım eşleme dosyası 5 bölüme ayrılmıştır ve her bölüm daha da ikiye ayrılmıştır
+M3 aktarım eşleme dosyası 5 bölüme ayrılmıştır ve her bölüm daha fazla 2 bölüme ayrılmıştır
 
 * Başlık
 * Başlık Statik Alanları
@@ -26,16 +26,16 @@ Yeni Alan Ekleme:
 
 * İlk olarak **M3 api alan adını** ilgili bölümün alan listesi özelliğine eklememiz gerekiyor (örneğin StatikAlanlar, BaşlıkAlanları, FaturaVergiAlanları)
 * Statik değeri veya belge alan adını api alanı için uygun önek ile tanımlayın
-* Örnek 1: **DIVI** M3 api alanı için **AAA** statik bir değeri tanımlamak için önce DIVI'yi **StatikAlanlar** özelliğine ekledik. Sonra SF\_DIVI = AAA gibi bir satır ekleriz, çünkü SF\_ statik alanlar için önek olarak kullanılır
-* Örnek 2: Başlık alanı **IVDT (fatura tarihi)**'yi DocBits'in invoice\_date alanına eşlemek için IVDT'yi **BaşlıkAlanları** özelliğine ekleriz. Sonra HF\_IVDT = invoice\_date gibi bir satır ekleriz, çünkü HF\_ başlık alanları için önek olarak kullanılır
+* Örnek 1: **DIVI** M3 api alanı için **AAA** statik değerini tanımlamak için önce DIVI'yi **StatikAlanlar** özelliğine ekledik. Sonra SF\_DIVI = AAA satırını ekledik çünkü SF\_ statik alanlar için önek olarak kullanılır
+* Örnek 2: Başlık alanı **IVDT (fatura tarihi)**'yi DocBits'in invoice\_date alanına eşlemek için IVDT'yi **BaşlıkAlanları** özelliğine ekledik. Sonra HF\_IVDT = invoice\_date satırını ekledik çünkü HF\_ başlık alanları için önek olarak kullanılır
 
 Alan Kaldırma:
 
 * Sadece alanı bölümün alan listesi özelliğinden kaldırın ve alan için değeri tanımlayan satırı kaldırın.
 
-#### **M3 Api Alanları Mevcut:**
+#### **Mevcut M3 Api Alanları:**
 
-* Mevcut M3 alanları M3'teki uygun ekrana bakılarak kontrol edilebilir.
+* Mevcut M3 alanları M3'te ilgili ekrana girilerek kontrol edilebilir.
 
 <figure><img src="../../../../.gitbook/assets/aef99180-f060-497c-bd98-02d44fdd9274.png" alt=""><figcaption></figcaption></figure>
 
@@ -65,13 +65,13 @@ Mevcut Alanlar: Herhangi bir DocBits alanını herhangi bir M3 api alanına eşl
 
 #### Vergi Satırı Statik Alanları:
 
-Alan Listesi Özelliği: FaturaVergiStatikAlanları
+Alan Listesi Özelliği: FaturaVergiStatikAlanlar
 
 Bölüm Alanları Önek: IT\_SF\_
 
 Mevcut M3 Alanları: Lütfen M3 API veya UI'ı kontrol edin
 
-Mevcut DocBits Alanları: Statik alanlar oldukları için herhangi bir değeri girebilirsiniz
+Mevcut DocBits Alanları: Statik alanlar oldukları için herhangi bir değer girebilirsiniz
 
 #### Vergi Satırı Alanları:
 
@@ -89,13 +89,13 @@ Mevcut DocBits Alanları: line\_number, tax\_amount, tax\_rate, net\_amount, gro
 
 #### Fiş Satırı Statik Alanları:
 
-Alan Listesi Özelliği: FaturaFişStatikAlanları
+Alan Listesi Özelliği: FaturaFişStatikAlanlar
 
 Bölüm Alanları Önek: IR\_SF\_
 
 Mevcut M3 Alanları: Lütfen M3 API veya UI'ı kontrol edin
 
-Mevcut DocBits Alanları: Statik alanlar oldukları için herhangi bir değeri girebilirsiniz
+Mevcut DocBits Alanları: Statik alanlar oldukları için herhangi bir değer girebilirsiniz
 
 #### Fiş Satırı Alanları:
 
@@ -113,13 +113,13 @@ Mevcut DocBits Alanları: packing\_slip, purchase\_order, line\_number, line\_se
 
 #### Sipariş Ücret Statik Alanları:
 
-Alan Listesi Özelliği: SiparişÜcretStatikAlanları
+Alan Listesi Özelliği: SiparişÜcretStatikAlanlar
 
 Bölüm Alanları Önek: OC\_SF\_
 
 Mevcut M3 Alanları: Lütfen M3 API veya UI'ı kontrol edin
 
-Mevcut DocBits Alanları: Statik alanlar oldukları için herhangi bir değeri girebilirsiniz
+Mevcut DocBits Alanları: Statik alanlar oldukları için herhangi bir değer girebilirsiniz
 
 #### Sipariş Ücret Alanları:
 
@@ -137,13 +137,13 @@ Mevcut DocBits Alanları: ledger\_account, dimension\_2-7, amount, quantity, qua
 
 #### Maliyet Satırı Statik Alanları:
 
-Alan Listesi Özelliği: FaturaMaliyetStatikAlanları
+Alan Listesi Özelliği: FaturaMaliyetStatikAlanlar
 
 Bölüm Alanları Önek: IC\_SF\_
 
 Mevcut M3 Alanları: Lütfen M3 API veya UI'ı kontrol edin
 
-Mevcut DocBits Alanları: Statik alanlar oldukları için herhangi bir değeri girebilirsiniz
+Mevcut DocBits Alanları: Statik alanlar oldukları için herhangi bir değer girebilirsiniz
 
 #### Maliyet Satırı Alanları:
 
@@ -292,10 +292,10 @@ ICF_AO05=TF_accounting_object_5
 ICF_AO06=TF_accounting_object_6
 ICF_AO07=TF_accounting_object_7
 ```
-ABD Müşterisi için bu eşlemeyi V3'e güncelliyoruz.
+### ABD Müşterisi için bu eşlemeyi V3'e güncelliyoruz
 ````
-```properties
-# Version 2'den Version 3'e yapılan değişiklikler:
+```
+# Version 2'den Version 3'e Değişiklikler:
 -StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,GEOC,BKID
 -SF_DIVI=PJA
 +StaticFields=DIVI,IBTP,BSCD,IMCD,TEPY,PYME,APCD,CRTP,CONO,GEOC
@@ -317,7 +317,7 @@ ABD Müşterisi için bu eşlemeyi V3'e güncelliyoruz.
 +#HF_ACDT=invoice_date
 -HF_CORI = correlation_id
 -HF_PAIN = sqr_field_esr_reference
-+
+-
 +HF_CORI=correlation_id
 +HF_PAIN=sqr_field_esr_reference
 +HF_TCHG=additional_amount
@@ -380,6 +380,89 @@ ABD Müşterisi için bu eşlemeyi V3'e güncelliyoruz.
 -IC_SF_DIVI=PJA
 +IC_SF_DIVI=RFP
 +IC_SF_CONO=001
+# ITF_VTA1=TF_vergi_miktarı
+# ITF_VTP1=TF_vergi_oranı
+# ITF_CLAM=TF_brüt_miktar
+
+###########################
+# Fiş Satırı
+###########################
+
+FaturaFişi=fatura_tablosu
+
+## Fiş Satırı Sabit Alanları
+FaturaFişiSabitAlanları=RDTP,DIVI,SERS,RELP,VTCD,CONO
+FF_SA_RDTP=1
+FF_SA_DIVI=RFP
+FF_SA_RELP=1
+#FF_SA_VTCD=52
+FF_SA_CONO=001
+
+## Fiş Satırı Alanları
+FaturaFişiAlanları=IVQA,PUUN,PUNO,PNLI,ITNO,POPN,SUDO,NEPR,GRPR,PPUN,NLAM,GLAM,TCHG,CDC1
+FFA_IVQA = TF_miktar
+FFA_PUUN = TF_birim
+FFA_PUNO = TF_satın_alma_siparişi
+FFA_PNLI = TF_satır_numarası
+FFA_ITNO = TF_ürün_numarası
+FFA_POPN = TF_ürün_numarası
+FFA_SUDO = TF_paketleme_fiş
+FFA_NEPR = TF_net_birim_fiyat
+FFA_GRPR = TF_brüt_birim_fiyat
+FFA_PPUN = TF_birim_kod_fiyatı
+FFA_NLAM = TF_net_miktar
+FFA_GLAM = TF_toplam_miktar
+FFA_TCHG = TF_masraflar
+FFA_CDC1 = TF_indirim
+
+###########################
+# Sipariş Masrafı Satırı
+###########################
+
+SiparişMasrafı=sipariş_masrafları
+
+## Sipariş Masrafı Sabit Alanları
+SiparişMasrafıSabitAlanları=RDTP,DIVI,CONO
+SM_SA_RDTP=2
+SM_SA_DIVI=RFP
+SM_SA_CONO=001
+
+## Sipariş Masrafı Alanları
+SiparişMasrafıAlanları=NLAM,CHGT,CEID
+SMA_NLAM=TF_miktar
+SMA_CHGT=TF_dekont_metni
+SMA_CEID=TF_muhasebe_hesabı
+
+###########################
+# Maliyet Satırı
+###########################
+
+FaturaMaliyeti=maliyet_satırları
+
+## Maliyet Satırı Sabit Alanları
+FaturaMaliyetiSabitAlanları=RDTP,DIVI,CONO
+FM_SA_RDTP=8
+FM_SA_DIVI=RFP
+FM_SA_CONO=001
+
+## Maliyet Satırı Alanları
+FaturaMaliyetiAlanları=NLAM,VTXT,AO01,AO02,AO03,AO04,AO05,AO06,AO07,VTCD,AIT1,AIT2,AIT3,AIT4,AIT5,AIT6,AIT7,VTP1,VTP2
+FMA_NLAM=TF_miktar
+FMA_VTXT=TF_dekont_metni
+FMA_AIT1=TF_muhasebe_hesabı
+FMA_AIT2=TF_boyut_2
+FMA_AIT3=TF_boyut_3
+FMA_AIT4=TF_boyut_4
+FMA_AIT5=TF_boyut_5
+FMA_AIT6=TF_boyut_6
+FMA_AIT7=TF_boyut_7
+FMA_AO01=TF_muhasebe_nesnesi_1
+FMA_AO02=TF_muhasebe_nesnesi_2
+FMA_AO03=TF_muhasebe_nesnesi_3
+FMA_AO04=TF_muhasebe_nesnesi_4
+FMA_AO05=TF_muhasebe_nesnesi_5
+FMA_AO06=TF_muhasebe_nesnesi_6
+FMA_AO07=TF_muhasebe_nesnesi_7
 ```
 ````
 
