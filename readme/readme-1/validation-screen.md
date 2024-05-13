@@ -67,7 +67,7 @@ See here add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
    * **Purpose:** Allows users to perform actions quickly using keyboard combinations.
    * **Use Case:** Enhances speed and efficiency in document navigation and processing by minimizing reliance on mouse navigation.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption><p>Keyboard </p></figcaption></figure>
 
 ### **Tasks:**
 
@@ -113,7 +113,7 @@ In the OCR view, the text is automatically filtered from the document. This is u
   * **Purpose:** Automatically recognizes text within documents using Optical Character Recognition technology.
   * **Use Case:** Streamlines the process of digitizing printed or handwritten texts, making them searchable and editable.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
 
 ### **Create ticket:**
 
