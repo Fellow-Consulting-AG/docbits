@@ -19,6 +19,7 @@
   * [Validation Screen](readme-1/validation-screen.md)
   * [Purchase Order Matching](readme-1/purchase-order-matching/README.md)
     * [Automatic Purchase Order Data Matching](readme-1/automatic-purchase-order-data-matching.md)
+    * [Supplier Item Number Map](readme-1/purchase-order-matching/supplier-item-number-map.md)
   * [How to Import Documents](readme-1/how-to-import-documents/README.md)
     * [FTP](readme-1/how-to-import-documents/ftp.md)
     * [Manual Import](readme-1/how-to-import-documents/manual-import.md)
