@@ -22,6 +22,12 @@ This feature helps you manage and reconcile item numbers between your system and
 * **Supplier Item Number:** The corresponding item number used by the supplier.
 * **Action:** Options to manage the mappings, such as deleting incorrect mappings.
 
+
+
+{% hint style="info" %}
+See here the [Admin Section](../../admin-section/settings/global-settings/document-types/more-settings/supplier-item-number-map-admin-documentation.md) as well
+{% endhint %}
+
 ## **Benefits**
 
 * **Efficiency:** Reduces the need for repeated manual entry, making the process faster.

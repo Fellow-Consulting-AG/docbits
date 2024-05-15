@@ -56,7 +56,7 @@
         * [Regex](admin-section/settings/global-settings/document-types/regex.md)
         * [Script](admin-section/settings/global-settings/document-types/script.md)
         * [EDI](admin-section/settings/global-settings/document-types/edi.md)
-        * [More Settings](admin-section/settings/global-settings/document-types/more-settings/README.md)
+        * [More Settings](admin-section/settings/global-settings/document-types/more-settings.md)
           * [Supplier Item Number Map - Admin Documentation](admin-section/settings/global-settings/document-types/more-settings/supplier-item-number-map-admin-documentation.md)
       * [Email Notification](admin-section/settings/global-settings/email-notification.md)
       * [Configuring Notifications](admin-section/settings/global-settings/configuring-notifications.md)
