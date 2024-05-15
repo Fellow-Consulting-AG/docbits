@@ -1,6 +1,6 @@
 # Import
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.36.png" alt=""><figcaption></figcaption></figure>
 
 The "Import" settings in your document processing system allow you to configure how documents are imported into the system from various sources, including settings for both FTP (File Transfer Protocol) and email. Here’s a breakdown of these settings:
 
@@ -21,7 +21,7 @@ The "Import" settings in your document processing system allow you to configure 
     * **File name matching patterns**: To specify which files to import based on their names.
     * **Sub-Organizations**: Select which sub-organization the import settings should apply to.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.45.png" alt=""><figcaption></figcaption></figure>
 
 1.  **Email Import**:
 
@@ -32,5 +32,4 @@ The "Import" settings in your document processing system allow you to configure 
 
     This also allows specifying sub-organizations for more precise control over where emails are directed within your organizational structure.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.56.png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.56.png" alt=""><figcaption></figcaption></figure>
