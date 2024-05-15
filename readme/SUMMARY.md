@@ -66,6 +66,7 @@
       * [Documents Expiry](admin-section/settings/document-processing/documents-expiry.md)
       * [Import](admin-section/settings/document-processing/import/README.md)
         * [Test: Email Import and Handling Tests](admin-section/settings/document-processing/import/test-email-import-and-handling-tests.md)
+        * [Test: Email Import and Handling Tests](admin-section/settings/document-processing/import/test-email-import-and-handling-tests-1.md)
       * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
       * [Classification And Extraction](admin-section/settings/document-processing/classification-and-extraction.md)
       * [Master Data Lookup](admin-section/settings/document-processing/master-data-lookup.md)
