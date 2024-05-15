@@ -28,8 +28,6 @@ Overall, email notification configuration plays an important role in improving c
 
 
 
-####
-
 This setting is critical for ensuring that stakeholders are kept informed about the processing status of important documents, which aids in rapid decision-making and efficient management of document workflows.
 
 

@@ -60,6 +60,7 @@
           * [Supplier Item Number Map - Admin Documentation](admin-section/settings/global-settings/document-types/more-settings/supplier-item-number-map-admin-documentation.md)
       * [Email Notification](admin-section/settings/global-settings/email-notification.md)
       * [Configuring Notifications](admin-section/settings/global-settings/configuring-notifications.md)
+      * [Managing Notifications](admin-section/settings/global-settings/managing-notifications.md)
       * [Custom Filters](admin-section/settings/global-settings/custom-filters.md)
       * [Document Expiry](admin-section/settings/global-settings/document-expiry.md)
       * [Email Notification](admin-section/settings/global-settings/email-notification-1.md)
