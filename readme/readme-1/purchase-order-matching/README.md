@@ -33,28 +33,28 @@ The PO Matching system interface typically includes the following components:
 * **Discrepancies:** Section showing records with discrepancies needing review or action.
 * **Reports:** Access to detailed reports and export options.
 
-### Step-by-Step Guide to Using PO Matching
+## Step-by-Step Guide to Using PO Matching
 
-#### 1. Access the PO Matching Module
+### 1. Access the PO Matching Module
 
 Navigate to the PO Matching module from the main menu of your ERP system.
 
-#### 2. Import or Access Invoices
+### 2. Import or Access Invoices
 
 * **Automated Import:** If your system is set up for automated data capture, invoices will be imported automatically into the system.
 * **Manual Upload:** If necessary, manually upload invoice files into the system using the provided interface.
 
-#### 3. Review Automatically Matched Invoices
+### 3. Review Automatically Matched Invoices
 
 * Review invoices that have been automatically matched with purchase orders.
 * Verify the details of the match, including item numbers, quantities, and prices.
 
-#### 4. Handle Discrepancies
+### 4. Handle Discrepancies
 
 * Access the Discrepancies section to review any invoices that could not be automatically matched.
 * Manually adjust quantities or prices as needed, or flag the invoice for further review.
 
-#### 5. Manual Matching
+### 5. Manual Matching
 
 For invoices not automatically matched:
 
