@@ -19,7 +19,7 @@ Welcome to **DocBits**, your comprehensive source for documentation strategies a
 2. **Swarm Intelligence**
    * Leverages the power of AI swarm intelligence to deliver communal benefits across customers.
    * Enhances the training of classification and extraction models with input from a wide range of users.
-   * Provides over 90% accuracy in data extraction and classification.
+   * Provides over 96% accuracy in data extraction and classification.
 3. [**PO Matching**](readme-1/purchase-order-matching/)
    * Automates the reconciliation of purchase orders with incoming invoices.
    * Ensures accurate financial transactions and promptly addresses discrepancies.
@@ -28,12 +28,12 @@ Welcome to **DocBits**, your comprehensive source for documentation strategies a
    * Facilitates automatic booking to ledger accounts.
    * Allows splitting of amounts by department.
    * Supports the definition of ledger accounts by the accounts payable team.
-5. **Integrated Validation and Approval Processes**
+5. **Integrated Validation and** [**Approval**](admin-section/settings/document-processing/module/approval-before-export.md) **Processes**
    * Provides integrated validation processes to ensure data accuracy.
-   * Features approval workflows to streamline document handling.
+   * Features approval [workflows](admin-section/workflow/) to streamline document handling.
 6. **Seamless Integration**
-   * Integrates seamlessly with Infor IDM (Intelligent Document Management) and Infor ERP (Enterprise Resource Planning) systems, including M3 and LN.
-   * Supports data import through email or FTP connection and export to relevant ERP modules.
+   * Integrates seamlessly with Infor IDM (Intelligent Document Management) and Infor ERP (Enterprise Resource Planning) systems, including [M3](admin-section/setup/importing-customer-master-data/m3/) and [LN](admin-section/setup/importing-customer-master-data/ln/).
+   * Supports data import through [email](readme-1/how-to-import-documents/email/) or [FTP](readme-1/how-to-import-documents/ftp.md) connection and export to relevant ERP modules.
 7. **User-Friendly Interface**
    * Offers a modern and simple UI that requires no IT resources for setup and maintenance.
    * Features an interactive dashboard with unlimited document types and custom extracted columns.
