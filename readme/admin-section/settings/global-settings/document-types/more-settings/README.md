@@ -1,6 +1,6 @@
 # More Settings
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.54.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.54.48.png" alt=""><figcaption></figcaption></figure>
 
 #### Overview
 
@@ -27,4 +27,3 @@ The More Settings area allows administrators to configure various aspects of doc
    * A utility setting that maps supplier item numbers to internal item numbers, ensuring accuracy in inventory and purchase order management.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2500" %}
-
