@@ -67,6 +67,7 @@
       * [Import](admin-section/settings/document-processing/import/README.md)
         * [Test: Multi Email Import and Handling Tests](admin-section/settings/document-processing/import/test-multi-email-import-and-handling-tests.md)
         * [Test: Email Import and Handling Tests](admin-section/settings/document-processing/import/test-email-import-and-handling-tests.md)
+        * [Test: FTP Import Connection](admin-section/settings/document-processing/import/test-ftp-import-connection.md)
       * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
       * [Classification And Extraction](admin-section/settings/document-processing/classification-and-extraction.md)
       * [Master Data Lookup](admin-section/settings/document-processing/master-data-lookup.md)
