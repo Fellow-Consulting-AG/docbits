@@ -21,7 +21,7 @@ To begin using the PO Matching system, ensure that you have the necessary permis
 * **Discrepancy Reporting:** Identifies and reports any discrepancies between invoices and purchase orders.
 * **Audit Trail:** Maintains a log of all actions for compliance and review.
 
-<figure><img src="../../.gitbook/assets/PO1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## User Interface
 
