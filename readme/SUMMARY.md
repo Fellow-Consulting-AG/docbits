@@ -57,6 +57,7 @@
         * [EDI](admin-section/settings/global-settings/document-types/edi.md)
         * [More Settings](admin-section/settings/global-settings/document-types/more-settings.md)
       * [Email Notification](admin-section/settings/global-settings/email-notification.md)
+      * [Configuring Notifications](admin-section/settings/global-settings/configuring-notifications.md)
       * [Custom Filters](admin-section/settings/global-settings/custom-filters.md)
       * [Document Expiry](admin-section/settings/global-settings/document-expiry.md)
       * [Email Notification](admin-section/settings/global-settings/email-notification-1.md)
