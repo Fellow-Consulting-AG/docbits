@@ -14,4 +14,6 @@ You can also contact us via our FELLOWPRO page:
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-07 um 16.50.45.png" alt=""><figcaption></figcaption></figure>
 
-Inside the Validation Screen you can directly create tickets for the particular document and include a screenshot of the issue.&#x20;
+Inside the Validation Screen you can directly create tickets for the particular document and include a screenshot of the issue. Simply click on the "Create ticket" button, the support window opens and you can get started immediately.
+
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
