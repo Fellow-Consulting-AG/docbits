@@ -9,4 +9,17 @@ To the right of the search bar, you will find other dashboard tools.
 * Analytics: This provides you with further insight about the documents you have uploaded to DocBits.
 * Upload: More information on this topic in the next section.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption><p>Dashboard</p></figcaption></figure>
+
+The advanced settings often contain additional configuration options and functions that enable more specific adjustments and fine-tuning.
+
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Advanced Settings Menu</p></figcaption></figure>
+
+* More settings
+* Keyboard shortcuts
+* Import Log
+* Set PO Table columns for organization&#x20;
+* Set dashboard sorting by organization
+* Filter documents by day, week, month, year or all. The filtering refers to the time at which the document is imported
+
+On the next pages you will find further information about the individual settings.

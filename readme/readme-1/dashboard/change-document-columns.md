@@ -16,6 +16,6 @@ From this menu, you can select the column names and use the arrows to add and re
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 </div>
