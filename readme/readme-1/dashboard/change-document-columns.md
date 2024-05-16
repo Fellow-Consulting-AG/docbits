@@ -1,6 +1,6 @@
 # Change Document Columns
 
-From the Dashboard, click on the Advanced Settings icon as shown below
+**From the Dashboard, click on the Advanced Settings icon as shown below:**
 
 <figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
@@ -19,3 +19,23 @@ From this menu, you can select the column names and use the arrows to add and re
 <figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+You can set the order of the columns by clicking on the dots next to the column name and dragging them to the appropriate position.
+
+Another option also allows you to add fields of a document type:
+
+<figure><img src="../../.gitbook/assets/image (51).png" alt="" width="243"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (52).png" alt="" width="563"><figcaption><p>Select document type field window</p></figcaption></figure>
+
+Here you can choose from the different document types:
+
+<figure><img src="../../.gitbook/assets/image (53).png" alt="" width="254"><figcaption></figcaption></figure>
+
+For each document type there are different fields that you can add:
+
+<figure><img src="../../.gitbook/assets/image (54).png" alt="" width="518"><figcaption><p>Select document type field window</p></figcaption></figure>
+
+Select the fields you need and click "Add to visible Columns", they will then appear in the column settings.
+
+<figure><img src="../../.gitbook/assets/image (55).png" alt="" width="281"><figcaption></figcaption></figure>
