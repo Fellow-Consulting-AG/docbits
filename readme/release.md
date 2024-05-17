@@ -1,5 +1,7 @@
 # Release
 
+## Next Release
+
 <figure><img src=".gitbook/assets/Bildschirmfoto 2024-05-08 um 20.37.35.png" alt=""><figcaption></figcaption></figure>
 
 In the upcoming release, a significant enhancement to the classification and extraction capabilities will be introduced, specifically aimed at table lines within documents. This new feature allows users to define whether a line in a table represents a charge. This functionality is particularly useful in detailed financial documents, such as invoices, where distinguishing between different types of transactions—such as charges, taxes, or fees—is crucial for accurate processing and record-keeping.
@@ -7,3 +9,83 @@ In the upcoming release, a significant enhancement to the classification and ext
 **Key Points for Release Notes:**
 
 * **Enhanced Table Line Classification**: Users can now specify if a particular line in a document table is a charge, improving the accuracy and granularity of data extraction.
+
+## Maypole Release 5.55.8.10 - ( 17th May )
+
+### Release Notes - Web App&#x20;
+
+#### New Features:
+
+▪ Workflow Card Translation: Enhancements in the workflow, including card translation for better localization support.
+
+▪ Email Import Logging: Added detailed logging for email imports to enhance troubleshooting and monitoring.
+
+▪ Broken Fuzzy Screen Fix: Resolved an issue with broken fuzzy screen display across various interfaces.
+
+▪ Accounting Updates: Enhanced the accounting process by removing outdated accounting methods and integrating charges more efficiently.
+
+Improvements:
+
+▪ Ruiz Workflow Enhancements: Fixed bugs related to workflow navigation, particularly involving hidden steps.
+
+▪ User Interface Adjustments: Improved user interface elements such as cash discount terms under payment terms for better clarity and user experience.
+
+▪ Performance Enhancements: Various backend improvements to enhance system performance and stability.
+
+#### Bug Fixes:
+
+▪ Approval Stamp Issue: Fixed critical issues surrounding the approval stamp process to ensure compliance and correct functionality.
+
+▪ Key Addition: Added necessary keys back to the system to ensure data integrity and system functionality.
+
+▪ Master Data Field Adjustment: Addressed an issue in the master data field to align with user requirements.
+
+#### Technical:
+
+▪ Version Updates: Routine updates to various system components to align with current standards and technologies.
+
+▪ Merge Activities: Numerous merges to integrate features, fixes, and enhancements from multiple development branches into the main branch.
+
+### What's New - API&#x20;
+
+▪ Cache Management Enhancements: Updated the get\_receive\_delivery\_cache to improve performance and reliability.
+
+▪ New Features for Sales Orders: Introduced a preview feature for sales orders, enhancing the visualization and management of order data.
+
+▪ Document Handling Improvements: Added automated test jobs for demotesting and sandbox environments to ensure robustness.
+
+▪ Enhanced Cache Functionality: Added field\_id to further enhance the caching mechanisms.
+
+Fixes and Improvements
+
+▪ Office Email Import Adjustments: Made necessary adjustments to the Office Email Import feature to enhance functionality.
+
+▪ Development Enhancements: Multiple merges from dev to main branches ensuring synchronization and stability across environments.
+
+#### Miscellaneous
+
+▪ Configuration Updates: Various updates to the configuration files improving the system setup and parameters.
+
+### Release Notes - Workflow&#x20;
+
+#### Enhancements:
+
+▪ Implemented a new workflow test that can now be enabled during import, allowing for more flexible testing scenarios.
+
+▪ Enhanced the logging functionality for action cards, making debugging and monitoring more efficient.
+
+▪ Improved compatibility for field comparison cards with date and enum types, ensuring smoother comparisons and validations.
+
+▪ Updated the tax card RUIZ and modified the return processes for action cards to streamline operations.
+
+#### Fixes:
+
+▪ Addressed issues with the document status updates, ensuring they are accurately reflected in the system.
+
+▪ Fixed the calculation for the comparison card involving unit price and quantity to correctly handle discrepancies.
+
+▪ Resolved multiple minor bugs and made stability improvements.
+
+#### Operational Changes:
+
+▪ Merged multiple development stages into the sandbox and stage branches, reflecting a significant integration of new features and fixes.
