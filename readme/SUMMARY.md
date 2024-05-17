@@ -66,7 +66,6 @@
         * [Managing Notifications](admin-section/settings/global-settings/email-notification/managing-notifications.md)
         * [Best Practice](admin-section/settings/global-settings/email-notification/best-practice.md)
         * [Troubleshooting](admin-section/settings/global-settings/email-notification/troubleshooting.md)
-      * [Page](admin-section/settings/global-settings/page.md)
       * [Custom Filters](admin-section/settings/global-settings/custom-filters.md)
       * [Document Expiry](admin-section/settings/global-settings/document-expiry.md)
       * [Email Notification](admin-section/settings/global-settings/email-notification-1.md)
