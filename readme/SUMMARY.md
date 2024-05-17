@@ -69,7 +69,6 @@
         * [Troubleshooting](admin-section/settings/global-settings/email-notification/troubleshooting.md)
       * [Custom Filters](admin-section/settings/global-settings/custom-filters.md)
       * [Document Expiry](admin-section/settings/global-settings/document-expiry.md)
-      * [Email Notification](admin-section/settings/global-settings/email-notification-1.md)
       * [Custom Filters](admin-section/settings/global-settings/page-1.md)
       * [Dashboard](admin-section/settings/global-settings/dashboard.md)
     * [Document Processing](admin-section/settings/document-processing/README.md)
