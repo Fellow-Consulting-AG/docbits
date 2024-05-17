@@ -48,7 +48,7 @@
           * [Admin Privileges](admin-section/settings/global-settings/groups-users-and-permissions/users/admin-privileges.md)
         * [Sub-Organizations](admin-section/settings/global-settings/groups-users-and-permissions/sub-organizations/README.md)
           * [How to create a Sub-Organization](admin-section/settings/global-settings/groups-users-and-permissions/sub-organizations/how-to-create-a-sub-organization.md)
-        * [Groups and Permissions](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/README.md)
+        * [Groups and Permissions](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions.md)
           * [Adding/Editing Groups](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/adding-editing-groups.md)
       * [Integration](admin-section/settings/global-settings/integration/README.md)
         * [API Calls and Examples](admin-section/settings/global-settings/integration/api-calls-and-examples.md)

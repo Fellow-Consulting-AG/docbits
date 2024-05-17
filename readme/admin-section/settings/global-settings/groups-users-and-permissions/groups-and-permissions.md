@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.22.png" alt=""><figcaption></figcaption></figure>
 
 Setting up groups and permissions is critical to security and operational efficiency for several reasons:
 
@@ -37,6 +37,4 @@ In terms of scenarios where different groups need different levels of access, th
 
 
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.33.png" alt=""><figcaption></figcaption></figure>
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2486" %}
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.33.png" alt=""><figcaption></figcaption></figure>
