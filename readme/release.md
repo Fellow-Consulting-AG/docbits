@@ -24,7 +24,7 @@ In the upcoming release, a significant enhancement to the classification and ext
 
 ▪ Accounting Updates: Enhanced the accounting process by removing outdated accounting methods and integrating charges more efficiently.
 
-Improvements:
+#### Improvements:
 
 ▪ Ruiz Workflow Enhancements: Fixed bugs related to workflow navigation, particularly involving hidden steps.
 
@@ -56,7 +56,7 @@ Improvements:
 
 ▪ Enhanced Cache Functionality: Added field\_id to further enhance the caching mechanisms.
 
-Fixes and Improvements
+#### Fixes and Improvements
 
 ▪ Office Email Import Adjustments: Made necessary adjustments to the Office Email Import feature to enhance functionality.
 
@@ -76,7 +76,7 @@ Fixes and Improvements
 
 ▪ Improved compatibility for field comparison cards with date and enum types, ensuring smoother comparisons and validations.
 
-▪ Updated the tax card RUIZ and modified the return processes for action cards to streamline operations.
+▪ Updated the tax card and modified the return processes for action cards to streamline operations.
 
 #### Fixes:
 
