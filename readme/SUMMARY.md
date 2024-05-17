@@ -45,6 +45,7 @@
       * [Groups, Users and Permissions](admin-section/settings/global-settings/groups-users-and-permissions/README.md)
         * [Users](admin-section/settings/global-settings/groups-users-and-permissions/users/README.md)
           * [Modifying User Details](admin-section/settings/global-settings/groups-users-and-permissions/users/modifying-user-details.md)
+          * [Admin Privileges](admin-section/settings/global-settings/groups-users-and-permissions/users/admin-privileges.md)
         * [Sub-Organizations](admin-section/settings/global-settings/groups-users-and-permissions/sub-organizations/README.md)
           * [How to create a Sub-Organization](admin-section/settings/global-settings/groups-users-and-permissions/sub-organizations/how-to-create-a-sub-organization.md)
         * [Groups and Permissions](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions.md)
