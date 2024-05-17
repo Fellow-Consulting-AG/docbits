@@ -1,6 +1,8 @@
 # Release
 
-## Next Release
+## Next Release - Junebug Release 10th June 2024
+
+Sandbox Freeze - 3th June 2024
 
 <figure><img src=".gitbook/assets/Bildschirmfoto 2024-05-08 um 20.37.35.png" alt=""><figcaption></figcaption></figure>
 
