@@ -55,6 +55,7 @@
         * [API Calls and Examples](admin-section/settings/global-settings/integration/api-calls-and-examples.md)
         * [API Key Management](admin-section/settings/global-settings/integration/api-key-management.md)
         * [Configuring Single Sign-On (SSO)](admin-section/settings/global-settings/integration/configuring-single-sign-on-sso.md)
+        * [Best practices](admin-section/settings/global-settings/integration/best-practices.md)
       * [Identity Service Provider Configuration](admin-section/settings/global-settings/identity-service-provider-configuration.md)
       * [Document Types](admin-section/settings/global-settings/document-types/README.md)
         * [Layout Manager](admin-section/settings/global-settings/document-types/layout-manager.md)
