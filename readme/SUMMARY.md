@@ -55,6 +55,7 @@
       * [Document Types](admin-section/settings/global-settings/document-types/README.md)
         * [Layout Manager](admin-section/settings/global-settings/document-types/layout-manager.md)
         * [Document Sub Types](admin-section/settings/global-settings/document-types/document-sub-types.md)
+        * [Creating a new Sub Type](admin-section/settings/global-settings/document-types/creating-a-new-sub-type.md)
         * [Configure subtypes](admin-section/settings/global-settings/document-types/configure-subtypes.md)
         * [Using Actions](admin-section/settings/global-settings/document-types/using-actions.md)
         * [Best Practices](admin-section/settings/global-settings/document-types/best-practices.md)

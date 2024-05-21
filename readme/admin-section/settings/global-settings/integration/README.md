@@ -2,6 +2,8 @@
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.39.14.png" alt=""><figcaption></figcaption></figure>
 
+The integration settings play a crucial role in the efficiency and functionality of Docbits as they allow to ensure seamless interaction with other tools and services. Here are some reasons why properly configuring the integration settings is important:
+
 ## API Key
 
 * **Key**: This is the unique identifier used by external applications to access Docbits' API. It is crucial for authenticating requests made to Docbits from other software.
