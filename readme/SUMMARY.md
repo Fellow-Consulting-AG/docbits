@@ -56,6 +56,7 @@
         * [Layout Manager](admin-section/settings/global-settings/document-types/layout-manager.md)
         * [Document Sub Types](admin-section/settings/global-settings/document-types/document-sub-types.md)
         * [Configure subtypes](admin-section/settings/global-settings/document-types/configure-subtypes.md)
+        * [Using Actions](admin-section/settings/global-settings/document-types/using-actions.md)
         * [Table Columns](admin-section/settings/global-settings/document-types/table-columns.md)
         * [Fields](admin-section/settings/global-settings/document-types/fields.md)
         * [Model Training](admin-section/settings/global-settings/document-types/model-training.md)
