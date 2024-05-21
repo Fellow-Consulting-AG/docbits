@@ -53,6 +53,7 @@
       * [Integration](admin-section/settings/global-settings/integration/README.md)
         * [API Key](admin-section/settings/global-settings/integration/api-key.md)
         * [API Calls and Examples](admin-section/settings/global-settings/integration/api-calls-and-examples.md)
+        * [API Key Management](admin-section/settings/global-settings/integration/api-key-management.md)
       * [Document Types](admin-section/settings/global-settings/document-types/README.md)
         * [Layout Manager](admin-section/settings/global-settings/document-types/layout-manager.md)
         * [Document Sub Types](admin-section/settings/global-settings/document-types/document-sub-types.md)
