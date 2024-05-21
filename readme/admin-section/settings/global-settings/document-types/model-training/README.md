@@ -1,6 +1,6 @@
 # Model Training
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.07.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.07.01.png" alt=""><figcaption></figcaption></figure>
 
 #### Overview
 
@@ -22,4 +22,3 @@ Model Training allows administrators to oversee and manage the training of machi
    * **Actions**: This dropdown can include options such as view details, edit configurations, or delete training data.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2496" %}
-
