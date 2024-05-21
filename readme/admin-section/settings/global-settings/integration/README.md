@@ -1,29 +1,20 @@
 # Integration
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.39.14.png" alt=""><figcaption></figcaption></figure>
-
 The integration settings play a crucial role in the efficiency and functionality of Docbits as they allow to ensure seamless interaction with other tools and services. Here are some reasons why properly configuring the integration settings is important:
 
 ## API Key
 
-* **Key**: This is the unique identifier used by external applications to access Docbits' API. It is crucial for authenticating requests made to Docbits from other software.
-* Actions such as view, regenerate, or copy the API key can be performed here, depending on the specific needs and security protocols.
+<figure><img src="https://lh7-us.googleusercontent.com/lFBSwUxiK35KkhYh46gw35BsD10rvHK6_1_Tnf449-jd2WJleDhxPzHpUmNdbP1mst5TkLBpGj5iJyiR_Dxpbta6S9p4Rb3FWj7RIc628Kw-RgqpVvLDYggagjuFI1DdLfOJqkTWHBE0JLQRolTWvOc" alt="" width="563"><figcaption></figcaption></figure>
 
-## SSO (Single Sign-On) Service Provider Settings
+The integration settings play a crucial role in the efficiency and functionality of DocBits as they allow to ensure seamless interaction with other tools and services. Here are some reasons why properly configuring the integration settings is important:
 
-* **Entity ID**: This is the identifier for Docbits as a service provider in the SSO configuration. It uniquely identifies Docbits within the SSO framework.
-* **SLO (Single Logout) URL**: The URL to which SSO sessions are sent to log out simultaneously from all applications connected via SSO.
-* **SSO URL**: The URL used for initiating the single sign-on process.
-* Actions such as "Download Certificate" and "Download Metadata" are available for obtaining necessary security certificates and metadata information used in setting up and maintaining SSO integration.
+* **Increased efficiency:** Integration with other tools and services can streamline workflows and increase efficiency. For example, documents can be automatically exchanged between Docbits and a CRM system, reducing manual entry and increasing productivity
+* **Data consistency:** Integration allows data to be exchanged seamlessly between different systems, improving data consistency and accuracy. This avoids inconsistencies or duplicate data entry that could lead to errors.
+* **Real-time updates**: Integration enables real-time updates between different platforms so that users always have the latest information. This is especially important for critical business processes that require real-time information.
+* **Task automation:** Integration allows routine tasks to be automated, saving time and resources. For example, notifications can be triggered automatically when a certain event occurs in another system without the need for manual intervention.
+* **Improved user experience:** A well-configured integration ensures a seamless user experience as users do not have to switch between different systems to access relevant information. This improves user satisfaction and contributes to efficiency.
 
-{% hint style="info" %}
-See [Setup SSO](../../../setup/sso-configuration/)
-{% endhint %}
+To properly configure the integration settings, it is important to understand the organization's requirements and ensure that the integration is seamlessly integrated into existing workflows and processes. This requires thorough planning, configuration, and monitoring of the integration to ensure that it works smoothly and delivers the desired value.
 
-## Identity Service Provider Settings
 
-* **Tenant ID**: This might be used when Docbits integrates with cloud services that require a tenant identifier to manage data and access configurations specific to the company using Docbits.
-* **Upload file**: Allows the admin to upload configuration files or other necessary files that facilitate integration with an identity provider.
-* **Configure**: A button to apply or update the settings after making changes or uploading new configurations.
 
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2488" %}
