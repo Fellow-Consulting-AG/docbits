@@ -71,6 +71,7 @@
           * [Purpose and Use: Model Training](admin-section/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md)
           * [Import Data: Model Training](admin-section/settings/global-settings/document-types/model-training/import-data-model-training.md)
           * [Testing the model](admin-section/settings/global-settings/document-types/model-training/testing-the-model.md)
+          * [Best practices](admin-section/settings/global-settings/document-types/model-training/best-practices.md)
         * [Manage training data](admin-section/settings/global-settings/document-types/manage-training-data.md)
         * [Regex](admin-section/settings/global-settings/document-types/regex.md)
         * [Script](admin-section/settings/global-settings/document-types/script.md)
