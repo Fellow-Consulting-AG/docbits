@@ -1,6 +1,6 @@
 # Table Columns
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.57.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.57.49.png" alt=""><figcaption></figcaption></figure>
 
 #### Overview
 
@@ -20,9 +20,9 @@ The Table Columns interface in Docbits is used to specify the columns that appea
    * **Add New Table Column**: Opens a dialog where you can define a new column, including its name, whether it is required, its data type, and the table it belongs to.
    * **Create New Table**: Allows the creation of a new table, defining a unique name that will be used to store data related to a specific set of document types.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.01.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.11.png" alt=""><figcaption></figcaption></figure>
 
 This section is vital for maintaining the structural integrity and usability of data within the Docbits system, ensuring that the data extracted from documents is stored in a well-organized and accessible manner.
 
