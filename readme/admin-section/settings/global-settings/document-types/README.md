@@ -21,8 +21,5 @@ The Document Types section lists all document types recognized and processed by 
 9. **EDI (Electronic Data Interchange)**: Configure settings related to the exchange of documents in standardized electronic formats.
 
 {% hint style="info" %}
-See [Setup Document Type ](../../../setup/document-types/)
+See [Setup Document Type](../../../setup/document-types/)
 {% endhint %}
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2489" %}
-
