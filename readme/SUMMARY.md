@@ -84,6 +84,7 @@
         * [Manage training data](admin-section/settings/global-settings/document-types/manage-training-data.md)
         * [Regex](admin-section/settings/global-settings/document-types/regex.md)
           * [Purpose and use](admin-section/settings/global-settings/document-types/regex/purpose-and-use.md)
+        * [Creating a Regex Pattern](admin-section/settings/global-settings/document-types/creating-a-regex-pattern.md)
         * [Script](admin-section/settings/global-settings/document-types/script.md)
         * [EDI](admin-section/settings/global-settings/document-types/edi/README.md)
           * [Purpose and Use](admin-section/settings/global-settings/document-types/edi/purpose-and-use.md)
