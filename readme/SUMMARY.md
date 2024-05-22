@@ -86,6 +86,7 @@
         * [Script](admin-section/settings/global-settings/document-types/script.md)
         * [EDI](admin-section/settings/global-settings/document-types/edi/README.md)
           * [Purpose and Use](admin-section/settings/global-settings/document-types/edi/purpose-and-use.md)
+        * [Setting Up EDI Templates](admin-section/settings/global-settings/document-types/setting-up-edi-templates.md)
         * [More Settings](admin-section/settings/global-settings/document-types/more-settings.md)
           * [Supplier Item Number Map - Admin Documentation](admin-section/settings/global-settings/document-types/more-settings/supplier-item-number-map-admin-documentation.md)
       * [Email Notification](admin-section/settings/global-settings/email-notification/README.md)
