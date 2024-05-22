@@ -88,6 +88,7 @@
           * [Purpose and Use](admin-section/settings/global-settings/document-types/edi/purpose-and-use.md)
         * [Setting Up EDI Templates](admin-section/settings/global-settings/document-types/setting-up-edi-templates.md)
         * [Using the XSLT Editor](admin-section/settings/global-settings/document-types/using-the-xslt-editor.md)
+        * [Previewing EDI Messages](admin-section/settings/global-settings/document-types/previewing-edi-messages.md)
         * [More Settings](admin-section/settings/global-settings/document-types/more-settings.md)
           * [Supplier Item Number Map - Admin Documentation](admin-section/settings/global-settings/document-types/more-settings/supplier-item-number-map-admin-documentation.md)
       * [Email Notification](admin-section/settings/global-settings/email-notification/README.md)
