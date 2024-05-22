@@ -12,8 +12,6 @@ A menu will then be displayed, select the “Merge” option which can be found 
 
 <figure><img src="https://lh7-us.googleusercontent.com/TV2KGh2Q38KsO5Zi-O-GKp5v42Lam4WSj8I8Ia6KjVj2c4X6vce2nFt7yJYicRWmDwKOHZDxrAsfEYtMpN-9UD2mpJ9Sfs4ueb1AYAOjKngY25JKaeEBPzUwcbrylwQ4jj_v-jkGZYLey9p9i0LfL-I" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://lh7-us.googleusercontent.com/TV2KGh2Q38KsO5Zi-O-GKp5v42Lam4WSj8I8Ia6KjVj2c4X6vce2nFt7yJYicRWmDwKOHZDxrAsfEYtMpN-9UD2mpJ9Sfs4ueb1AYAOjKngY25JKaeEBPzUwcbrylwQ4jj_v-jkGZYLey9p9i0LfL-I" alt=""><figcaption></figcaption></figure>
-
 Document merging is an important feature in a document management system that allows users to combine multiple documents into a single document. Here are some reasons why document merging can be useful:
 
 * **Organizing Related Documents:** By merging multiple documents into a single document, users can organize and keep related information or files together. This can help improve efficiency in managing and accessing documents.
