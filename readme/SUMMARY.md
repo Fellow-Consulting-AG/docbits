@@ -86,6 +86,7 @@
         * [Script](admin-section/settings/global-settings/document-types/script.md)
         * [EDI](admin-section/settings/global-settings/document-types/edi/README.md)
           * [Purpose and Use](admin-section/settings/global-settings/document-types/edi/purpose-and-use.md)
+        * [Troubleshooting](admin-section/settings/global-settings/document-types/troubleshooting-1.md)
         * [Setting Up EDI Templates](admin-section/settings/global-settings/document-types/setting-up-edi-templates.md)
         * [Using the XSLT Editor](admin-section/settings/global-settings/document-types/using-the-xslt-editor.md)
         * [Previewing EDI Messages](admin-section/settings/global-settings/document-types/previewing-edi-messages.md)
