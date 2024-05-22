@@ -70,6 +70,8 @@
         * [Best Practices](admin-section/settings/global-settings/document-types/best-practices.md)
         * [Table Columns](admin-section/settings/global-settings/document-types/table-columns/README.md)
           * [Purpose and Use](admin-section/settings/global-settings/document-types/table-columns/purpose-and-use.md)
+          * [Adding a new Column](admin-section/settings/global-settings/document-types/table-columns/adding-a-new-column.md)
+        * [Editing and deleting columns](admin-section/settings/global-settings/document-types/editing-and-deleting-columns.md)
         * [Fields](admin-section/settings/global-settings/document-types/fields.md)
         * [Model Training](admin-section/settings/global-settings/document-types/model-training.md)
           * [Purpose and Use: Model Training](admin-section/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md)
