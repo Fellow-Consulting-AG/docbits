@@ -16,6 +16,7 @@
     * [Task Counter](readme-1/dashboard/task-counter.md)
     * [Validated Extracted Fields](readme-1/dashboard/validated-extracted-fields.md)
     * [Page](readme-1/dashboard/page.md)
+    * [Best Practice](readme-1/dashboard/best-practice.md)
   * [AI Table](readme-1/ai-table.md)
   * [Validation Screen](readme-1/validation-screen.md)
   * [Purchase Order Matching](readme-1/purchase-order-matching/README.md)
