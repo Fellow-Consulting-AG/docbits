@@ -1,6 +1,6 @@
 # Fields
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.02.31.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.02.31.png" alt=""><figcaption></figcaption></figure>
 
 #### Overview
 
@@ -23,4 +23,3 @@ The Fields setting provides a user interface where administrators can manage the
    * **Save Settings**: Commits the changes made to the field configurations.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2494" %}
-
