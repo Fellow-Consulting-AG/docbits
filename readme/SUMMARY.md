@@ -95,6 +95,8 @@
         * [Best practices](admin-section/settings/global-settings/document-types/best-practices-3.md)
         * [Troubleshooting](admin-section/settings/global-settings/document-types/troubleshooting-2.md)
         * [Script](admin-section/settings/global-settings/document-types/script.md)
+        * [Script Activation and Management](admin-section/settings/global-settings/document-types/script-activation-and-management.md)
+        * [Testing Scripts](admin-section/settings/global-settings/document-types/testing-scripts.md)
         * [Purpose and Use](admin-section/settings/global-settings/document-types/purpose-and-use.md)
         * [Creating and Editing Scripts](admin-section/settings/global-settings/document-types/creating-and-editing-scripts.md)
         * [EDI](admin-section/settings/global-settings/document-types/edi/README.md)
