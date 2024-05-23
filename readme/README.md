@@ -4,7 +4,11 @@ Welcome to DocBits
 
 Welcome to **DocBits**, your comprehensive source for documentation strategies and insights. At DocBits, we are dedicated to providing clear, concise, and up-to-date documentation resources for [enduser](readme-1/), [admins](admin-section/), and [partners](partner-section.md).
 
+## DocBits - Overview
 
+{% @arcade/embed flowId="ydAzu3dszNU0Fe2F2KKZ" url="https://app.arcade.software/share/ydAzu3dszNU0Fe2F2KKZ" %}
+
+## DocBits with Workflow
 
 {% @arcade/embed flowId="JqTpGV34UBKmI0iAumoX" url="https://app.arcade.software/share/JqTpGV34UBKmI0iAumoX" %}
 
