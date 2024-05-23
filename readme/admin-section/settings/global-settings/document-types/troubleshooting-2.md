@@ -1,44 +1,38 @@
 # Troubleshooting
 
-## Here is some advice on troubleshooting common problems:
+## When troubleshooting common regex problems, there are a few best practices to identify and fix the cause of the problem:
 
-**Data formatting errors:**
+**Use online regex testers:**&#x20;
 
-* Carefully review the EDI structure and format of your messages to ensure they comply with standards and specifications.
-* Validate data fields for correct syntax and formatting according to agreed standards such as ANSI X12 or EDIFACT.
-*   Make sure the transformations and templates used are correctly configured to properly format and interpret the data.
+* Online regex testers are useful tools to check your regex patterns with test data and visualize the behavior of the pattern. They allow you to step through the matching process and identify potential problems.
 
+**Check the data context:**&#x20;
 
+* Make sure you understand the context of the data your regex pattern is working with. Sometimes unexpected characters or structures in the text can cause the pattern to not work as expected.
 
-**Partner compatibility issues:**
+**Check greedy quantifiers:**&#x20;
 
-* Review your business partner's configurations and specifications to ensure they match your own.
-* Communicate with your partner to identify any discrepancies or incompatibilities and work together to find solutions.
-* Implement adjustments in your EDI configurations if necessary to improve compatibility with your partner.
+* Greedy quantifiers like \* and + can cause the pattern to capture too many characters and thus produce unexpected matches. Use greedy quantifiers with caution and check that the matching process is working as expected.
 
+**Debugging with grouping:**&#x20;
 
+* Use groupings ( ) to isolate subsections of your regex pattern and check their match separately. This allows you to understand which parts of the pattern might be causing problems.
 
-**Handling transmission errors:**
+**Watch for special characters:**&#x20;
 
-* Monitor your EDI transmissions regularly to identify potential errors or failures early.
-* Implement mechanisms for error detection and remediation, such as automated notifications of transmission errors or setting up retry mechanisms for failed transmissions.
-* Perform regular tests of your transmission processes to ensure they work reliably and without errors.
+* Some characters in regex have special meanings and need to be escaped if they are to be treated as normal characters. Make sure you use the correct escape characters to avoid unexpected results.
 
+**Test with different datasets:**&#x20;
 
+* Use a variety of test data to make sure your regex pattern works correctly in different scenarios. This includes typical datasets as well as edge cases and unexpected variations.
 
-**Documentation and logging of errors:**
+**Consult the documentation:**&#x20;
 
-* Keep detailed logging of all errors and problems in EDI transactions, including causes and actions taken.
-* Document solutions to recurring problems to resolve and prevent future errors more quickly.
+* Check the documentation of your regex implementation to make sure you understand the specific properties and peculiarities of the regex syntax used. Sometimes nuances in the syntax can lead to unexpected behavior.
 
+**Seek community support:**&#x20;
 
+* If you continue to have problems with your regex pattern, you can seek support in developer forums or Q\&A platforms. Other developers may be able to offer helpful insights or solutions.
 
-**Involve subject matter experts:**
-
-* When necessary, bring in subject matter experts or EDI consultants to solve complex problems or address specific challenges.
-* Use resources such as forums, training, or support from EDI providers for additional assistance with troubleshooting.
-
-
-
-By systematically applying these tips, you can effectively troubleshoot EDI transactions and ensure the reliability of your electronic business communications.
+By following these tips and working systematically, you can identify and fix most common regex pattern issues to ensure reliable data extraction.
 
