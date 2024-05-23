@@ -96,6 +96,7 @@
         * [Troubleshooting](admin-section/settings/global-settings/document-types/troubleshooting-2.md)
         * [Script](admin-section/settings/global-settings/document-types/script.md)
         * [Purpose and Use](admin-section/settings/global-settings/document-types/purpose-and-use.md)
+        * [Creating and Editing Scripts](admin-section/settings/global-settings/document-types/creating-and-editing-scripts.md)
         * [EDI](admin-section/settings/global-settings/document-types/edi/README.md)
           * [Purpose and Use](admin-section/settings/global-settings/document-types/edi/purpose-and-use.md)
         * [Troubleshooting](admin-section/settings/global-settings/document-types/troubleshooting-3.md)
