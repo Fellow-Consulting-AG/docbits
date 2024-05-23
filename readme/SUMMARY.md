@@ -77,6 +77,8 @@
         * [Fields](admin-section/settings/global-settings/document-types/fields/README.md)
           * [Purpose and Use](admin-section/settings/global-settings/document-types/fields/purpose-and-use.md)
         * [Configuring Field Properties](admin-section/settings/global-settings/document-types/configuring-field-properties.md)
+        * [Setting Validation and Match Score](admin-section/settings/global-settings/document-types/setting-validation-and-match-score.md)
+        * [Adding and Editing Fields](admin-section/settings/global-settings/document-types/adding-and-editing-fields.md)
         * [Model Training](admin-section/settings/global-settings/document-types/model-training.md)
           * [Purpose and Use: Model Training](admin-section/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md)
           * [Import Data: Model Training](admin-section/settings/global-settings/document-types/model-training/import-data-model-training.md)
