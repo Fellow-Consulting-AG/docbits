@@ -66,6 +66,7 @@
           * [Purpose and Use](admin-section/settings/global-settings/document-types/layout-manager/purpose-and-use.md)
         * [Navigating the Layout Manager](admin-section/settings/global-settings/document-types/navigating-the-layout-manager.md)
         * [Configuring Field Properties](admin-section/settings/global-settings/document-types/configuring-field-properties.md)
+        * [Using the Template Preview](admin-section/settings/global-settings/document-types/using-the-template-preview.md)
         * [Document Sub Types](admin-section/settings/global-settings/document-types/document-sub-types.md)
         * [Creating a new Sub Type](admin-section/settings/global-settings/document-types/creating-a-new-sub-type.md)
         * [Configure subtypes](admin-section/settings/global-settings/document-types/configure-subtypes.md)
