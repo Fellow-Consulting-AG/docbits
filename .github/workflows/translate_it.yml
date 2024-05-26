@@ -1,23 +1,23 @@
-name: Translator to PL (Polish)
+name: Translator to IT (Italian)
 
 on:
   push:
     branches:
-      - main
+      - translate
     paths-ignore:
       - 'scripts/**'
       - '.gitignore'
       - '.github/**'
   workflow_dispatch:
 
-concurrency: pl
+concurrency: it
 
 jobs:
   run-translation:
-    runs-on: local
+    runs-on: ubuntu-latest
     env:
-      LANGUAGE: Polish
-      BRANCH: pl
+      LANGUAGE: Italian
+      BRANCH: it
 
     steps:
       - name: Checkout code

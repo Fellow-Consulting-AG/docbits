@@ -1,23 +1,23 @@
-name: Translator to TR (Turkish)
+name: Translator to RS (Serbian)
 
 on:
   push:
     branches:
-      - main
+      - translate
     paths-ignore:
       - 'scripts/**'
       - '.gitignore'
       - '.github/**'
   workflow_dispatch:
 
-concurrency: tr
+concurrency: rs
 
 jobs:
   run-translation:
-    runs-on: local
+    runs-on: ubuntu-latest
     env:
-      LANGUAGE: Turkish
-      BRANCH: tr
+      LANGUAGE: Serbian
+      BRANCH: rs
 
     steps:
       - name: Checkout code
