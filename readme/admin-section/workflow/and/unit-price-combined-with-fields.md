@@ -6,7 +6,7 @@ Propósito: Este cartão DocBits facilita a comparação detalhada dos preços u
 
 Funcionalidade:
 
-* Preço Unitário Combinado com Campos: Este cartão calcula o valor total de um item específico combinando o preço unitário com campos adicionais especificados na fatura. O total combinado é então comparado com o preço unitário registrado no pedido de compra para esse item.
+* Preço Unitário Combinado com Campos: Este cartão calcula o valor total para um item específico combinando o preço unitário com campos adicionais especificados na fatura. O total combinado é então comparado com o preço unitário registrado no pedido de compra para esse item.
 * Valor do Operador: Os usuários podem definir condições específicas para comparar como o preço unitário combinado da fatura deve ser comparado com o preço unitário do pedido de compra. Os operadores disponíveis incluem:
 *
 * Igual (=): Verifica se o preço combinado da fatura corresponde ao preço no pedido de compra.

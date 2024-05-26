@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Este fluxo de trabalho descreve as condições sob as quais um processo de exportação deve ser iniciado. Ele garante que apenas documentos que atendam a todos os critérios especificados sejam processados para exportação, aprimorando a integridade dos dados e o alinhamento com as regras de negócios.
 

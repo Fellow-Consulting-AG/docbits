@@ -1,6 +1,6 @@
 ---
 description: >-
-Explore o fluxo de trabalho passo a passo para encomenda de material, receção de mercadorias e processamento de faturas com integração entre INFOR ERP e DocBits. Gestão eficaz de fornecedores e documentos num só lugar.
+  Explore o fluxo de trabalho passo a passo para encomenda de material, receção de mercadorias e processamento de faturas com integração entre INFOR ERP e DocBits. Gestão eficaz de fornecedores e documentos num só lugar.
 ---
 
 # Fluxo de Trabalho de Encomenda e Processamento de Material
@@ -41,7 +41,7 @@ Este documento descreve o fluxo de trabalho para encomendar materiais aos fornec
 
 ### Notas
 
-* Garantir que todos os documentos sejam verificados e arquivados para manter registros.
+* Garantir que todos os documentos sejam verificados e arquivados para manutenção de registos.
 * Discrepâncias nos detalhes da encomenda ou fatura devem ser resolvidas prontamente para evitar atrasos.
 
 <figure><img src="../../.gitbook/assets/embed.svg" alt=""><figcaption></figcaption></figure>

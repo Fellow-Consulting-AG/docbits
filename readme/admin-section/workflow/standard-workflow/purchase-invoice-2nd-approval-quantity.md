@@ -1,4 +1,4 @@
-# Fatura de Compra - Quantidade de 2ª Aprovação
+# Fatura de Compra - 2ª Aprovação de Quantidade
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.56.54.png" alt=""><figcaption></figcaption></figure>
 
@@ -9,7 +9,7 @@ Este título indica que a regra se refere especificamente ao tratamento de fatur
 1. **Quando…**
 * **Tipo de Documento é Fatura**: Esta condição garante que a regra seja ativada apenas para documentos classificados como faturas. Isso é essencial para manter a especificidade e relevância no fluxo de trabalho.
 2. **E…**
-* **Status do Documento é Pendente de Segunda Aprovação**: Isso especifica que a fatura está atualmente aguardando uma segunda aprovação. Esta etapa é geralmente destinada a fornecer uma supervisão adicional antes de finalizar a fatura.
+* **Status do Documento é Pendente de Segunda Aprovação**: Isso especifica que a fatura está atualmente aguardando uma segunda aprovação. Esta etapa é geralmente destinada a fornecer supervisão adicional antes de finalizar a fatura.
 * **Campo do Documento Subtipo de Fatura é Igual a Fatura de Compra**: Esta condição refina ainda mais a regra para se aplicar exclusivamente a faturas identificadas como "Faturas de Compra". Essa categorização ajuda a diferenciá-las de outros tipos de faturas.
 * **Lógica Quantidade na confirmação do pedido Não é Igual ao pedido de compra**: Esta condição crítica verifica se a quantidade declarada na confirmação do pedido corresponde à quantidade no pedido de compra original. A ação é acionada se houver uma discrepância, indicando um possível erro ou problema que precisa ser resolvido.
 

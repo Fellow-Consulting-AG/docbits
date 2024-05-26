@@ -4,7 +4,7 @@
 
 **Propósito**
 
-Este cartão de fluxo de trabalho é projetado para gerenciar operações em documentos com base em um único status de documento especificado. Ao simplificar a condição para um único status, o cartão está focado em acionadores de fluxo de trabalho muito específicos, tornando-o ideal para atividades direcionadas de processamento de documentos dentro de um sistema ERP.
+Este cartão de fluxo de trabalho é projetado para gerenciar operações em documentos com base em um único status de documento especificado. Ao simplificar a condição para um único status, o cartão é focado em acionadores de fluxo de trabalho muito específicos, tornando-o ideal para atividades direcionadas de processamento de documentos dentro de um sistema ERP.
 
 **Componentes do Cartão**
 
@@ -20,7 +20,7 @@ Este cartão de fluxo de trabalho é projetado para gerenciar operações em doc
 
 **Funcionalidade**
 
-* **Identificação de Status do Documento**: Identifica o status atual de um documento à medida que é processado pelo sistema ERP.
+* **Identificação do Status do Documento**: Identifica o status atual de um documento à medida que é processado pelo sistema ERP.
 * **Avaliação da Condição**:
 * Com base no operador selecionado (`é` ou `não é`), o cartão verifica se o status atual do documento está alinhado com o critério de status escolhido.
 * **Execução da Ação**:
@@ -36,4 +36,4 @@ Este cartão de fluxo de trabalho é projetado para gerenciar operações em doc
 
 #### Conclusão
 
-O cartão de fluxo de trabalho "Condição de Status de Documento Único" simplifica o gerenciamento de documentos ao focar em condições de status individuais. Essa especificação ajuda em casos em que é necessária um controle preciso sobre os fluxos de documentos, especialmente em ambientes com critérios de processamento rigorosos. Documentar claramente esta versão do cartão garantirá que os usuários compreendam plenamente sua aplicação e possam integrá-lo efetivamente em suas operações diárias, aprimorando tanto a conformidade quanto a eficiência no processamento de documentos.
+O cartão de fluxo de trabalho "Condição de Status de Documento Único" simplifica a gestão de documentos ao focar em condições de status individuais. Essa especificação ajuda em casos em que é necessária um controle preciso sobre os fluxos de documentos, especialmente em ambientes com critérios de processamento rigorosos. Documentar claramente esta versão do cartão garantirá que os usuários compreendam totalmente sua aplicação e possam integrá-lo efetivamente em suas operações diárias, aprimorando tanto a conformidade quanto a eficiência no processamento de documentos.

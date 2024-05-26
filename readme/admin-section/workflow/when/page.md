@@ -21,9 +21,9 @@ Este cartão de fluxo de trabalho é especificamente projetado para realizar ope
 * **Execução da Operação**: Executa a operação especificada para documentos do tipo identificado. Essa execução pode envolver:
 * **Validar**: Verificar se o documento está completo, correto e em conformidade com os padrões.
 * **Armazenar**: Salvar o documento no repositório designado com indexação adequada.
-* **Processar**: Aplicar lógica de negócios ao documento, como calcular totais em uma fatura ou atualizar registros de banco de dados.
+* **Processar**: Aplicar lógica de negócios ao documento, como calcular totais em uma fatura ou atualizar registros do banco de dados.
 * **Enviar**: Distribuir o documento para outras unidades de negócios ou parceiros externos com base nos requisitos do fluxo de trabalho.
-* **Conformidade e Segurança**: Garante que todas as operações estejam em conformidade com os protocolos de conformidade regulatória e segurança específicos do tipo de documento.
+* **Conformidade e Segurança**: Garante que todas as operações estejam em conformidade com regulamentos e protocolos de segurança específicos para o tipo de documento.
 * **Automação e Integração**: Integra-se perfeitamente com outros fluxos de trabalho no sistema ERP, facilitando transições automatizadas entre diferentes estágios operacionais.
 
 **Interações do Usuário**

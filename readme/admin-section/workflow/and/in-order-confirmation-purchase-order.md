@@ -1,20 +1,20 @@
-# Confirmação do Pedido de Compra
+# Confirmação do Pedido de Compra em Ordem
 
 ### Comparar com Pedido de Compra:&#x20;
 
-**Confirmação do Pedido de Compra**
+**Confirmação do Pedido de Compra em Ordem**
 
 <figure><img src="https://lh7-us.googleusercontent.com/glQHETatKah-1YugeLqBb7Jim6lNJxuarRv-KEMv4NPzFfcjSm6mVhTMdI30nxdJ0SHXZ55Oup6KH7K-J6IxjUOiG0wxUX8toAaCopgBJwPyr94CPjoKuauNTmoHGGhg6f3gwHD39W7gpvijg4LQVJ4" alt="" width="563"><figcaption></figcaption></figure>
 
-#### Cartão Lógico: Quantidade ou Preço Unitário ou Desconto Correspondente
+#### Cartão Lógico: Quantidade ou Preço Unitário ou Correspondência de Desconto
 
-Este cartão lógico é projetado para verificar automaticamente se a quantidade, preço unitário ou desconto detalhados em uma confirmação de pedido correspondem às cifras correspondentes no pedido de compra. Essa verificação garante consistência e precisão entre o que foi solicitado e o que o fornecedor confirma em entregar.
+Este cartão lógico é projetado para verificar automaticamente se a quantidade, preço unitário ou desconto detalhados em uma confirmação de pedido correspondem às cifras correspondentes no pedido de compra. Essa verificação garante consistência e precisão entre o que foi pedido e o que o fornecedor confirma em entregar.
 
 #### Condição de Acionamento
 
 A lógica é ativada quando qualquer uma das seguintes condições é atendida em uma confirmação de pedido em relação ao pedido de compra original:
 
-* **Quantidade**: A quantidade de itens solicitados corresponde à quantidade confirmada pelo fornecedor.
+* **Quantidade**: A quantidade de itens pedidos corresponde à quantidade confirmada pelo fornecedor.
 * **Preço Unitário**: O preço por item acordado corresponde à confirmação do fornecedor.
 * **Desconto**: Quaisquer descontos aplicados são consistentes entre o pedido de compra e a confirmação do pedido.
 
@@ -27,7 +27,7 @@ A lógica é ativada quando qualquer uma das seguintes condições é atendida e
 
 * **Precisão e Consistência**: Mantém a precisão no processo de aquisição, garantindo que os pagamentos e entregas sejam feitos com base em cifras corretas.
 * **Eficiência**: Automatiza o processo de verificação, reduzindo a necessidade de verificações manuais e acelerando o processamento de pedidos.
-* **Controle de Custos**: Ajuda a evitar pagamentos excessivos ou entregas incorretas ao detectar discrepâncias precocemente no processo.
+* **Controle de Custos**: Ajuda a evitar pagamentos em excesso ou entregas incorretas ao detectar discrepâncias no início do processo.
 
 <figure><img src="https://lh7-us.googleusercontent.com/DRTMJxJ9XLeC5zWSU8QuZwPLkqHzmCUm9RwiUZIkcc8pVxMZsxLv56dX9spzqr7KeDkTigbeBX2DvAZRe-6MdqOgAnrO-QPnCbi4e6hP4--P_O0A0DSoQJxjGeefOS1p6GuXHs1YXv-A73DXYaE8qlI" alt="" width="563"><figcaption></figcaption></figure>
 

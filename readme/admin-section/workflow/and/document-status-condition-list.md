@@ -1,10 +1,10 @@
-# Lista de Condições de Estado do Documento
+# Lista de Condições de Status do Documento
 
 <figure><img src="../../../.gitbook/assets/userlmn_e9d6da331deceed4f330358635d6b605.png" alt=""><figcaption></figcaption></figure>
 
 **Propósito**
 
-Este cartão é projetado para controlar ações de fluxo de trabalho com base no estado atual de um documento, usando lógica condicional para acionar ou restringir certos processos. Garante que os documentos avancem apenas nos fluxos de trabalho quando atenderem aos critérios de status predefinidos.
+Este cartão é projetado para controlar ações de fluxo de trabalho com base no status atual de um documento, usando lógica condicional para acionar ou restringir certos processos. Garante que os documentos avancem apenas nos fluxos de trabalho quando atenderem aos critérios de status predefinidos.
 
 **Componentes do Cartão**
 
@@ -32,7 +32,7 @@ Este cartão é projetado para controlar ações de fluxo de trabalho com base n
 
 * **Configuração e Configuração**: Os usuários configuram o cartão selecionando o operador e especificando os status relevantes. Essa configuração pode envolver menus suspensos simples ou caixas de seleção para selecionar status e operadores.
 * **Monitoramento e Gerenciamento**: Os usuários podem acompanhar a atividade do cartão por meio de um painel, que fornece insights sobre as condições de status monitoradas e as ações tomadas com base nessas condições.
-* **Tratamento de Erros e Alertas**: Suporta a configuração de alertas para falhas de processo ou divergências nos status esperados do documento, permitindo respostas rápidas a problemas operacionais.
+* **Tratamento de Erros e Alertas**: Suporta a configuração de alertas para falhas de processo ou divergências nos status esperados dos documentos, permitindo respostas rápidas a problemas operacionais.
 
 #### Conclusão
 

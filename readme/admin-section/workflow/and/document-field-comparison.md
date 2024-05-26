@@ -23,7 +23,7 @@ Este cartão de fluxo de trabalho é projetado para comparar automaticamente os 
 
 **Funcionalidade**
 
-* **Seleção de Campos**: Os usuários inserem ou selecionam os nomes dos dois campos a serem comparados. Isso é geralmente feito por meio de um formulário ou de um menu suspenso na configuração do cartão.
+* **Seleção de Campo**: Os usuários inserem ou selecionam os nomes dos dois campos a serem comparados. Isso é geralmente feito por meio de um formulário ou de um menu suspenso na configuração do cartão.
 * **Seleção de Operador**: Os usuários escolhem um operador em uma lista de opções disponíveis que definem como os campos devem ser comparados.
 * **Execução da Comparação**:
 * O sistema lê os valores dos campos especificados e aplica o operador selecionado para avaliar a relação entre eles.

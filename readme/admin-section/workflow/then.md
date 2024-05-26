@@ -34,14 +34,14 @@
 
 ### **5. Ações de Tabela:**
 
-* **Calcular na Tabela:** Realiza cálculos em dados de tabela com base em condições especificadas e armazena os resultados em uma coluna designada.
+* **Calcular na Tabela:** Realiza cálculos em dados da tabela com base em condições especificadas e armazena os resultados em uma coluna designada.
 * **Alterar Entradas:** Atualiza entradas em uma tabela com base em condições especificadas.
 
 <figure><img src="../../.gitbook/assets/then5.png" alt=""><figcaption></figcaption></figure>
 
 ### **6. Ações de Responsável:**
 
-* **Atribuir Usuário do Campo:** Atribui um usuário a uma tarefa ou documento com base em dados do usuário armazenados em um campo específico, com uma opção para um usuário substituto se o principal não estiver disponível.
+* **Atribuir Usuário do Campo:** Atribui um usuário a uma tarefa ou documento com base em dados do usuário armazenados em um campo específico, com uma opção para um usuário substituto se o principal estiver indisponível.
 * **Atribuir Documento a Usuário ou Grupo:** Atribui diretamente um documento a um usuário ou grupo, garantindo que a responsabilidade seja designada adequadamente.
 
 <figure><img src="../../.gitbook/assets/then6.png" alt=""><figcaption></figcaption></figure>

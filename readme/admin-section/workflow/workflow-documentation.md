@@ -2,7 +2,7 @@
 
 **Documentação do Fluxo de Trabalho**
 
-Para manter uma visão geral, você pode dar aos fluxos de trabalho diferentes títulos para que você possa imediatamente saber sobre qual tarefa esse fluxo de trabalho se trata.
+Para manter uma visão geral, você pode dar aos fluxos de trabalho diferentes títulos para que você possa imediatamente saber sobre qual tarefa este fluxo de trabalho se trata.
 
 Criar um novo Fluxo de Trabalho: Clique em + ADICIONAR FLUXO DE TRABALHO
 
@@ -14,7 +14,7 @@ Você pode usar esses fluxos de trabalho (Teste 1, 2, 3) para atribuir automatic
 
 Se uma fatura ou outro documento exceder um determinado valor total que requer revisão e aprovação prévia, esses documentos podem ser imediatamente atribuídos à pessoa correta.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Teste 1:              Cartão Lógico**
 
@@ -60,7 +60,7 @@ Para uma visão mais fácil do que deve acontecer com um documento, você pode d
 
 **Então:**              **Alterar Status para:**         Aprovação Pendente
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
@@ -72,7 +72,7 @@ E:                   **Responsável é:**                       Stefan Reppermun
 
 Então:                 **Alterar Status para:**           Segunda Aprovação Pendente
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/10 (1).png>)
 
@@ -84,11 +84,11 @@ Se uma fatura ou outro documento exceder um determinado valor total que requer r
 
 Quando:                   **Responsável é:**                   Amier Haider
 
-E:                      Campo do Documento        **total\_amount**     é      **Maior que       500**
+E:                      Campo do Doc        **total\_amount**     é      **Maior que       500**
 
 Então:                    **Atribuir documento para:**   Asad Usman Khan
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/13 (1).png>)
 
@@ -98,7 +98,7 @@ Também é possível inserir o status no fluxo de trabalho, para que a pessoa at
 
 **Quando:** **Responsável é:**                     Amier Haider
 
-**E:**                   Campo do Documento           **total\_amount**      é        **Maior que      500**
+**E:**                   Campo do Doc           **total\_amount**      é        **Maior que      500**
 
 **Então:**                 **Atribuir documento para:**     Asad Usman Khan
 
@@ -108,13 +108,13 @@ Também é possível inserir o status no fluxo de trabalho, para que a pessoa at
 
 <figure><img src="../../.gitbook/assets/15 (1).png" alt=""><figcaption></figcaption></figure>
 
-Por exemplo, se determinadas informações importantes estiverem faltando em um documento, mas forem importantes e devem ser incluídas para processamento adicional, você pode configurar o fluxo de trabalho para que esses documentos sejam imediatamente encaminhados ao comprador e a um substituto.
+Por exemplo, se faltar informações específicas ou importantes em um documento, mas forem importantes e devem ser incluídas para processamento adicional, você pode configurar o fluxo de trabalho para que esses documentos sejam imediatamente encaminhados ao comprador e a um substituto.
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 **Teste 9:**
 
-O Fluxo de Trabalho com esses cartões lógicos é projetado para verificar automaticamente se a quantidade, preço unitário ou desconto detalhados em uma confirmação de pedido correspondem às cifras correspondentes no pedido de compra. Essa verificação garante consistência e precisão entre o que foi solicitado e o que o fornecedor confirma para entregar.
+O Fluxo de Trabalho com esses cartões lógicos é projetado para verificar automaticamente se a quantidade, preço unitário ou desconto detalhados em uma confirmação de pedido correspondem às cifras correspondentes no pedido de compra. Essa verificação garante consistência e precisão entre o que foi pedido e o que o fornecedor confirma para entregar.
 
 Você pode atribuir a esses documentos um status específico ou atribuí-los a um funcionário específico.
 
@@ -128,13 +128,13 @@ Você pode atribuir a esses documentos um status específico ou atribuí-los a u
 
 **Cartão Lógico: Quantidade ou Preço Unitário ou Desconto Correspondente**
 
-Este cartão lógico é projetado para verificar automaticamente se a quantidade, preço unitário ou desconto detalhados em uma confirmação de pedido correspondem às cifras correspondentes no pedido de compra. Essa verificação garante consistência e precisão entre o que foi solicitado e o que o fornecedor confirma para entregar.
+Este cartão lógico é projetado para verificar automaticamente se a quantidade, preço unitário ou desconto detalhados em uma confirmação de pedido correspondem às cifras correspondentes no pedido de compra. Essa verificação garante consistência e precisão entre o que foi pedido e o que o fornecedor confirma para entregar.
 
 **Condição de Gatilho**
 
 A lógica é ativada quando qualquer uma das seguintes condições é atendida em uma confirmação de pedido em relação ao pedido de compra original:
 
-* **Quantidade**: A quantidade de itens solicitados corresponde à quantidade confirmada pelo fornecedor.
+* **Quantidade**: A quantidade de itens pedidos corresponde à quantidade confirmada pelo fornecedor.
 * **Preço Unitário**: O preço por item acordado corresponde à confirmação do fornecedor.
 * **Desconto**: Quaisquer descontos aplicados são consistentes entre o pedido de compra e a confirmação do pedido.
 
@@ -163,7 +163,7 @@ Com este cartão, você pode especificar o nome de um fluxo de trabalho que ser�
 
 <figure><img src="https://lh7-us.googleusercontent.com/XYY1xsFpp7_-Bi0WOSbotiVzspDLdaufx_xgoopMHmxdZnSDhroLpb0AE_si5PhwMq1jHfndc9FwOte9MOoCoTP5_JUYawO5cr4uIctIDHmwVjz3KacQrLJd8iBQy5KY4N-dMaWEi3IeTcc5OBRNJk4" alt=""><figcaption></figcaption></figure>
 
-Se desejar adicionar todas as sobretaxas como um desconto negativo na coluna de desconto existente, você pode usar o cartão de cálculo. Pode haver entradas nesta coluna, você pode defini-la como uma das variáveis no cartão, ter o MTZ subtraído dela e adicionar o resultado de volta a esta coluna. No caso de campos vazios (sobretaxas apenas para alguns itens), ele assumirá um 0 para seu cálculo.
+Se você deseja adicionar todas as sobretaxas como um desconto negativo na coluna de desconto existente, você pode usar o cartão de cálculo. Pode haver entradas nesta coluna, você pode defini-la como uma das variáveis no cartão, ter o MTZ subtraído dela e adicionar o resultado de volta a esta coluna. No caso de campos vazios (sobretaxas apenas para alguns itens), ele assumirá um 0 para seu cálculo.
 
 **Notificar o usuário para autorizar a confirmação do pedido no DocBits**
 

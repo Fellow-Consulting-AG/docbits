@@ -1,6 +1,6 @@
 # Fornecedor na Fatura
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Propósito**
 
@@ -17,6 +17,6 @@ Este cartão do DocBits permite uma comparação detalhada, comparando o fornece
 
 **Cenário de Exemplo:**
 
-* Um pedido é feito, então a confirmação do pedido chega e depois a fatura é emitida. Todo o processo de pedido é realizado com um único fornecedor. Se não for o caso, o cartão pode imediatamente determinar que há discrepâncias entre os fornecedores e assim garantir que nenhum pagamento incorreto seja feito e que a fatura seja feita apenas com o fornecedor que também esteve envolvido em todo o processo.
+* Um pedido é feito, em seguida a confirmação do pedido chega e então a fatura é emitida. Todo o processo de pedido é realizado com um fornecedor. Se não for o caso, o cartão pode determinar imediatamente que há discrepâncias entre os fornecedores e assim garante que nenhum pagamento incorreto seja feito e que a fatura seja feita apenas com o fornecedor que também esteve envolvido em todo o processo.
 
-Ao usar o cartão "Fornecedor na Fatura ... Fornecedor na Ordem de Compra", as empresas podem automatizar a verificação dos fornecedores que emitem faturas e as confirmações de pedidos associadas.
+Ao usar o cartão "Fornecedor na Fatura ... Fornecedor na Ordem de Compra", as empresas podem automatizar a verificação de fornecedores que emitem faturas e as confirmações de pedidos associadas.

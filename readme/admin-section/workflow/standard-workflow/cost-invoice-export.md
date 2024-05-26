@@ -2,7 +2,7 @@
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.53.28.png" alt=""><figcaption></figcaption></figure>
 
-Este título indica que a regra é especificamente configurada para gerenciar faturas de custo e envolve uma ação de exportação, possivelmente para relatórios, processamento adicional ou integração com outros sistemas.
+Este título indica que a regra é configurada especificamente para gerenciar faturas de custo e envolve uma ação de exportação, possivelmente para relatórios, processamento adicional ou integração com outros sistemas.
 
 #### Configuração da Regra:
 
@@ -18,7 +18,7 @@ Este título indica que a regra é especificamente configurada para gerenciar fa
 
 #### Objetivo Dessa Regra:
 
-* **Eficiência do Fluxo de Trabalho**: Esta regra ajuda a automatizar o processamento de faturas de custo, garantindo que sejam processadas pelas etapas de aprovação necessárias sem intervenção manual, aumentando a velocidade e precisão das operações financeiras.
+* **Eficiência do Fluxo de Trabalho**: Esta regra ajuda a automatizar o tratamento de faturas de custo, garantindo que sejam processadas pelas etapas de aprovação necessárias sem intervenção manual, aumentando a velocidade e precisão das operações financeiras.
 * **Controle e Conformidade**: Ao exigir uma segunda aprovação, o sistema aplica um mecanismo de controle que garante que as faturas de custo sejam revisadas minuciosamente, aprimorando a supervisão financeira.
 * **Integração e Relatórios**: A ação de exportação sugere que, uma vez que as faturas sejam totalmente aprovadas, elas possam ser integradas a outros sistemas para processamento ou análise adicionais, o que é fundamental para relatórios financeiros e auditorias.
 

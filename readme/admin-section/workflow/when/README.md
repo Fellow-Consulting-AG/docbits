@@ -21,13 +21,13 @@
 #### Configurando um Cartão de Acionamento "Quando"
 
 1. **Seleção do Tipo de Condição**: Os usuários começam selecionando um tipo de condição relevante para o fluxo de trabalho que desejam automatizar. Neste caso, os tipos de documento são o foco.
-2. **Definindo o Operador**: Os usuários devem decidir o operador lógico—como "é" ou "não é"—que estabelece a base para comparar os tipos de documento reais em relação às condições definidas.
+2. **Definindo o Operador**: Os usuários devem decidir o operador lógico, como "é" ou "não é", que estabelece a base para comparar os tipos de documento reais em relação às condições definidas.
 3. **Especificar Tipos de Documento**: Dependendo do cartão, os usuários podem selecionar um ou vários tipos de documento que acionarão o fluxo de trabalho quando documentos desses tipos forem processados.
 4. **Finalizando o Acionamento**: Uma vez que a condição é configurada, ela se torna a base para acionar ações específicas definidas no fluxo de trabalho. Se um documento atender à condição definida, as ações definidas serão iniciadas automaticamente.
 
 #### Aplicação Prática
 
-Na prática, esses cartões de acionamento são cruciais para automatizar processos como aprovações, notificações ou qualquer procedimento que dependa do tipo de documento em questão. Por exemplo, se um tipo de documento "é" uma "Fatura," e corresponder às condições definidas no cartão "Quando," o fluxo de trabalho pode encaminhar automaticamente o documento para processamento de pagamento.
+Na prática, esses cartões de acionamento são cruciais para automatizar processos como aprovações, notificações ou qualquer procedimento que dependa do tipo de documento em questão. Por exemplo, se um tipo de documento "é" uma "Fatura" e corresponder às condições definidas no cartão "Quando", o fluxo de trabalho pode encaminhar automaticamente o documento para processamento de pagamento.
 
 Essa configuração garante que os fluxos de trabalho sejam não apenas eficientes, mas também adaptados às necessidades operacionais específicas da organização, reduzindo a supervisão manual e acelerando os processos de manipulação de documentos.
 

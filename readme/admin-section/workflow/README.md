@@ -10,7 +10,7 @@ descrição: Motor de Fluxo de Trabalho do DocBits
 
 ### Introdução
 
-No campo da automação de processos, o Motor de Fluxo de Trabalho do DocBits destaca-se por sua abordagem direta e intuitiva. Este motor simplifica a criação e gestão de fluxos de trabalho através de uma estrutura clara e simples baseada em regras. O princípio central por trás de seu design é a regra "Fácil Quando-E-Então", que divide o processo de automação em três componentes fundamentais: Gatilho, Condição e Ação. Este guia explica como cada componente funciona dentro do sistema e como trabalham juntos para facilitar a automação sem problemas.
+No campo da automação de processos, o Motor de Fluxo de Trabalho do DocBits destaca-se por sua abordagem direta e intuitiva. Este motor simplifica a criação e gestão de fluxos de trabalho através de uma estrutura clara e simples baseada em regras. O princípio central por trás de seu design é a regra "Fácil Quando-E-Então", que divide o processo de automação em três componentes fundamentais: Gatilho, Condição e Ação. Este guia explica como cada componente funciona dentro do sistema e como trabalham juntos para facilitar a automação sem falhas.
 
 ### A Regra "Fácil Quando-E-Então" Explicada
 

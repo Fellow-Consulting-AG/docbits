@@ -9,9 +9,9 @@ Este título indica que a regra está configurada para gerenciar a segunda fase 
 1. **Quando…**
 * **Tipo de Documento é Fatura**: Esta condição garante que a regra seja ativada apenas para documentos identificados como faturas, o que é crucial para direcionar o fluxo de trabalho com precisão.
 2. **E…**
-* **Status do Documento é Pendente de 2ª Aprovação**: Isso especifica que a fatura está atualmente aguardando uma segunda aprovação. Esta etapa frequentemente fornece supervisão adicional para garantir precisão antes que a transação seja finalizada.
+* **Status do Documento é Pendente de Segunda Aprovação**: Isso especifica que a fatura está atualmente aguardando uma segunda aprovação. Esta etapa frequentemente fornece supervisão adicional para garantir precisão antes que a transação seja finalizada.
 * **Campo do Documento Subtipo de Fatura é Igual a Fatura de Compra**: Esta condição especifica ainda mais que a regra se aplica apenas a faturas categorizadas especificamente como "Faturas de Compra", diferenciando-as de outros tipos de faturas.
-* **Lógica Quantidade na confirmação do pedido é Igual ao pedido de compra**: Esta condição verifica se a quantidade listada na confirmação do pedido corresponde à quantidade no pedido de compra. Isso garante que o processamento da fatura avance apenas se as quantidades forem consistentes, o que é crucial para o gerenciamento de estoque e a precisão financeira.
+* **Lógica Quantidade na confirmação do pedido é Igual ao pedido de compra**: Esta condição verifica se a quantidade listada na confirmação do pedido corresponde à quantidade no pedido de compra. Isso garante que o processamento da fatura avance apenas se as quantidades forem consistentes, o que é crítico para a gestão de inventário e a precisão financeira.
 
 #### Ação (Então…):
 
@@ -19,7 +19,7 @@ Este título indica que a regra está configurada para gerenciar a segunda fase 
 
 #### Objetivo Dessa Regra:
 
-* **Garantir Precisão e Consistência**: Ao verificar que as quantidades correspondem entre a confirmação do pedido e o pedido de compra, o sistema ajuda a manter a precisão do inventário e evita discrepâncias que poderiam afetar relatórios financeiros ou o gerenciamento de estoque.
+* **Garantir Precisão e Consistência**: Ao verificar que as quantidades correspondem entre a confirmação do pedido e o pedido de compra, o sistema ajuda a manter a precisão do inventário e evita discrepâncias que poderiam afetar relatórios financeiros ou gestão de estoque.
 * **Otimizar o Processamento Financeiro**: Automatizar a exportação de dados uma vez que as quantidades são confirmadas reduz o manuseio manual e acelera o ciclo de processamento financeiro.
 * **Aprimorar a Conformidade e Supervisão**: Exigir uma segunda aprovação para verificação de quantidade adiciona uma camada extra de supervisão, crucial para a conformidade com políticas e controles financeiros.
 

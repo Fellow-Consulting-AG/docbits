@@ -32,7 +32,7 @@ A partir das capturas de tela, fica claro que esses cartões abrangem uma ampla 
 <figure><img src="../../../.gitbook/assets/And3.png" alt=""><figcaption></figcaption></figure>
 
 * **Lógica**:
-* Condições lógicas que podem envolver avaliações como "Continuar com uma chance de X%" ou execução de solicitações HTTPS, que são vitais para integrações e tomada de decisões probabilísticas dentro dos fluxos de trabalho.
+* Condições lógicas que podem envolver avaliações como "Continuar com uma chance de X%" ou execução de solicitações HTTPS, que são vitais para integrações e tomada de decisões probabilísticas dentro de fluxos de trabalho.
 
 <figure><img src="../../../.gitbook/assets/And4.png" alt=""><figcaption></figcaption></figure>
 
