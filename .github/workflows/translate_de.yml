@@ -14,7 +14,6 @@ concurrency: de
 
 jobs:
   run-translation:
-    #runs-on: local
     runs-on: ubuntu-latest
     env:
       LANGUAGE: German
