@@ -4,13 +4,13 @@
 
 ### **Scopo delle carte 'E':**
 
-* Le carte **E** fungono da carte condizionali che specificano i criteri che devono essere soddisfatti affinché il flusso di lavoro possa continuare. Agiscono efficacemente come operatori logici "E", il che significa che tutte le condizioni specificate in queste carte devono essere soddisfatte affinché l'azione successiva venga attivata.
+* Le carte **E** fungono da carte di condizione che specificano i criteri che devono essere soddisfatti affinché il flusso di lavoro possa continuare. Agiscono efficacemente come operatori logici "E", il che significa che tutte le condizioni specificate in queste carte devono essere soddisfatte affinché l'azione successiva venga attivata.
 
 #### Categorie delle carte 'E'
 
 Dalle schermate, è chiaro che queste carte coprono una vasta gamma di condizioni, che includono:
 
-*   **Confronto con l'Ordine d'Acquisto**:
+*   **Confronto con Ordine d'Acquisto**:
 
 * Condizioni relative alla convalida e al confronto con gli ordini d'acquisto, come il confronto delle date di consegna, dei prezzi unitari o delle differenze di quantità. Queste sono cruciali per garantire che le transazioni siano in linea con i termini concordati.
 
@@ -20,7 +20,7 @@ Dalle schermate, è chiaro che queste carte coprono una vasta gamma di condizion
 
 *   **Campo del Documento**:
 
-* Queste coinvolgono condizioni basate su campi specifici all'interno dei documenti, come il segno delle caselle di controllo, il confronto dei valori dei campi o il controllo che un campo del documento soddisfi una tolleranza specificata. Questo è particolarmente importante per l'integrità dei dati e i controlli automatizzati all'interno di moduli o sistemi di gestione documentale.
+* Queste coinvolgono condizioni basate su campi specifici all'interno dei documenti, come il segno delle caselle di controllo, il confronto dei valori dei campi o il garantire che un campo del documento soddisfi una tolleranza specificata. Questo è particolarmente importante per l'integrità dei dati e i controlli automatizzati all'interno di moduli o sistemi di gestione documentale.
 
 
 
@@ -66,6 +66,6 @@ Queste carte "E" vengono configurate all'interno del flusso di lavoro per effett
 
 ### Conclusione
 
-Le carte "E" sono un componente fondamentale dei sistemi di flusso di lavoro che richiedono un controllo preciso sull'esecuzione del processo basato su condizioni multiple. Garantiscono che ciascun passaggio di un flusso di lavoro proceda solo quando tutti i criteri necessari sono completamente soddisfatti, automatizzando così complessi alberi decisionali all'interno dei processi aziendali.
+Le carte "E" sono un componente fondamentale dei sistemi di flusso di lavoro che richiedono un controllo preciso sull'esecuzione del processo basato su condizioni multiple. Garantiscono che ogni passaggio di un flusso di lavoro proceda solo quando tutti i criteri necessari sono completamente soddisfatti, automatizzando così complessi alberi decisionali all'interno dei processi aziendali.
 
 Comprendere e configurare correttamente queste carte è cruciale per sfruttare appieno le capacità del sistema di gestione dei flussi di lavoro per migliorare l'efficienza, l'accuratezza e la conformità all'interno dei processi organizzativi.

@@ -4,13 +4,13 @@
 
 **Scopo**
 
-Questa scheda di flusso è progettata per confrontare automaticamente i valori di due campi specificati all'interno di un documento in base a un operatore definito. Viene utilizzata per garantire l'integrità dei dati e assicurare che i dati del documento siano conformi alle regole o condizioni aziendali.
+Questa scheda di flusso è progettata per confrontare automaticamente i valori di due campi specificati all'interno di un documento in base a un operatore definito. Viene utilizzata per garantire l'integrità dei dati e assicurare che i dati del documento siano conformi alle regole aziendali o alle condizioni.
 
 **Componenti della Scheda**
 
 1. **Nomi dei Campi**
 * **Descrizione**: Specifica i nomi dei due campi all'interno del documento che verranno confrontati.
-* **Dettaglio**: Gli utenti devono inserire i nomi esatti dei campi come appaiono nel sistema. Questi campi possono essere di qualsiasi tipo di dati che supporti il confronto, come campi numerici, di data o di testo.
+* **Dettaglio**: Gli utenti devono inserire i nomi esatti dei campi come appaiono nel sistema. Questi campi possono essere di qualsiasi tipo di dati che supporta il confronto, come campi numerici, di data o di testo.
 2. **Operatore**
 * **Descrizione**: L'operatore di confronto utilizzato per valutare la relazione tra i valori dei due campi.
 * **Opzioni**:
@@ -37,4 +37,4 @@ Questa scheda di flusso è progettata per confrontare automaticamente i valori d
 
 #### Conclusione
 
-La scheda di flusso "Confronto dei Campi del Documento" è fondamentale per mantenere l'accuratezza e la coerenza dei dati tra i documenti in un sistema ERP. Aiuta ad automatizzare controlli che altrimenti sarebbero manuali, soggetti ad errori e dispendiosi in termini di tempo, migliorando l'efficienza e l'affidabilità nell'elaborazione dei documenti. Documentare chiaramente questa scheda nel manuale del sistema ERP assisterà gli utenti nell'impiegare efficacemente questa funzionalità, garantendo che i dati tra i documenti rimangano consistenti e conformi alle regole aziendali.
+La scheda di flusso "Confronto dei Campi del Documento" è fondamentale per mantenere l'accuratezza e la coerenza dei dati tra i documenti in un sistema ERP. Aiuta ad automatizzare controlli che altrimenti sarebbero manuali, soggetti a errori e dispendiosi in termini di tempo, migliorando l'efficienza e l'affidabilità nell'elaborazione dei documenti. Documentare chiaramente questa scheda nel manuale del sistema ERP assisterà gli utenti nell'utilizzare efficacemente questa funzionalità, garantendo che i dati tra i documenti rimangano consistenti e conformi alle regole aziendali.

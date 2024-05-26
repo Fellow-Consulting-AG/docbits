@@ -9,7 +9,7 @@ Questo titolo indica che la regola è progettata per gestire i casi in cui l'imp
 1. **Quando…**
 * **Il tipo di documento è Fattura**: Questa condizione garantisce che la regola si applichi solo alle fatture, il che è essenziale per indirizzare correttamente il flusso di lavoro.
 2. **E…**
-* **Lo stato del documento è in attesa di approvazione**: La fattura deve trovarsi in uno stato di "In attesa di approvazione". Questo stato è cruciale per garantire che la regola si applichi alle fatture che sono ancora in fase di elaborazione e non sono ancora state finalizzate.
+* **Lo stato del documento è in attesa di approvazione**: La fattura deve trovarsi in uno stato di "In attesa di approvazione". Questo stato è cruciale per garantire che la regola venga applicata alle fatture che sono ancora in fase di elaborazione e non sono ancora state finalizzate.
 * **Confronta due campi: Importo totale maggiore dell'importo massimo dell'approvatore**: Questa condizione verifica se l'importo totale della fattura supera l'importo massimo che un approvatore è autorizzato a gestire. Questo confronto potrebbe includere anche un'impostazione di tolleranza, consentendo variazioni minori basate su criteri predefiniti.
 
 #### Azione (Quindi…):

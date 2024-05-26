@@ -4,7 +4,7 @@
 
 **Scopo**
 
-Questa scheda di flusso di lavoro è progettata per automatizzare azioni in base allo stato (selezionato o deselezionato) di una casella di controllo all'interno del tuo sistema ERP. Valutando la condizione della casella di controllo, facilita l'avvio di processi specifici o l'applicazione di determinate regole all'interno dell'applicazione.
+Questa scheda di flusso di lavoro è progettata per automatizzare azioni in base allo stato (selezionato o deselezionato) di una casella di controllo all'interno del tuo sistema ERP. Valutando la condizione della casella di controllo, facilita l'attivazione di processi specifici o l'applicazione di determinate regole all'interno dell'applicazione.
 
 **Componenti della Scheda**
 
@@ -24,7 +24,7 @@ Questa scheda di flusso di lavoro è progettata per automatizzare azioni in base
 * Il sistema verifica se la casella di controllo si trova nello stato (selezionato o deselezionato) specificato dalla condizione Booleana.
 * **Esecuzione dell'Azione**:
 * **Condizione True**: Se lo stato della casella di controllo corrisponde alla condizione Booleana specificata (vero per selezionato o falso per deselezionato), il sistema avvia le azioni associate. Queste potrebbero includere l'abilitazione o disabilitazione dei campi del modulo, l'attivazione di notifiche, l'avvio di flussi di lavoro o l'aggiornamento dei record.
-* **Condizione False**: Se lo stato della casella di controllo non corrisponde alla condizione, potrebbero essere intraprese azioni alternative o nessuna azione, a seconda della configurazione del flusso di lavoro.
+* **Condizione False**: Se lo stato della casella di controllo non corrisponde alla condizione, potrebbero essere adottate azioni alternative o nessuna azione, a seconda della configurazione del flusso di lavoro.
 
 **Interazioni con l'Utente**
 
@@ -34,4 +34,4 @@ Questa scheda di flusso di lavoro è progettata per automatizzare azioni in base
 
 #### Conclusione
 
-La scheda di flusso di lavoro "Condizione del Campo Checkbox" è uno strumento fondamentale per gestire moduli dinamici e documenti all'interno di un sistema ERP, dove gli input degli utenti possono determinare processi dati successivi. Automatizzando azioni in base allo stato di una casella di controllo, questa scheda migliora l'efficienza del flusso di lavoro e garantisce che i comportamenti del sistema siano allineati agli input degli utenti. Una documentazione chiara di questa scheda aiuterà gli utenti a implementarla efficacemente nelle loro operazioni, consentendo un migliore controllo sui comportamenti del modulo e sulle automazioni dei processi.
+La scheda di flusso di lavoro "Condizione del Campo Checkbox" è uno strumento fondamentale per gestire moduli dinamici e documenti all'interno di un sistema ERP, dove gli input degli utenti possono determinare processi dati successivi. Automatizzando azioni in base allo stato di una casella di controllo, questa scheda migliora l'efficienza del flusso di lavoro e garantisce che i comportamenti del sistema siano allineati agli input degli utenti. Una documentazione chiara di questa scheda aiuterà gli utenti a implementarla efficacemente nelle loro operazioni, consentendo un migliore controllo sui comportamenti dei moduli e sulle automazioni dei processi.

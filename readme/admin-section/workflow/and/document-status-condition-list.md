@@ -20,7 +20,7 @@ Questa scheda è progettata per controllare le azioni del flusso di lavoro in ba
 **Funzionalità**
 
 * **Identificazione dello Stato**: Identifica automaticamente lo stato attuale di un documento mentre si sposta attraverso il flusso di lavoro del sistema ERP.
-* **Valutazione della Condizione**: Applica l'operatore scelto (è o non è) allo stato del documento rispetto agli stati elencati:
+* **Valutazione della Condizione**: Applica l'operatore scelto (è o non è) allo stato del documento in confronto agli stati elencati:
 * Se **è**, controlla se lo stato del documento corrisponde a uno degli stati nell'elenco.
 * Se **non è**, controlla se lo stato del documento non appare nell'elenco.
 * **Esecuzione dell'Azione**: A seconda dell'esito della valutazione della condizione:

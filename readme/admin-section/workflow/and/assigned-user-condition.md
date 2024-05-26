@@ -15,7 +15,7 @@ Questa scheda di flusso di lavoro gestisce l'esecuzione delle operazioni in base
 * **IS NOT**: Attiva l'operazione se l'utente assegnato al documento o al compito non corrisponde a un utente nell'elenco specificato.
 2. **Elenco Utenti**
 * **Descrizione**: Un elenco o una selezione di utenti da confrontare con l'utente assegnato.
-* **Dettagli**: Questo elenco può includere uno o più utenti, consentendo alla scheda di gestire efficacemente condizioni singole e multiple degli utenti. La selezione può essere fatta tramite caselle di controllo, un menu a discesa multi-selezione o elementi UI simili.
+* **Dettaglio**: Questo elenco può includere uno o più utenti, consentendo alla scheda di gestire in modo efficace condizioni singole e multiple degli utenti. La selezione può essere effettuata tramite caselle di controllo, un menu a discesa multi-selezione o elementi UI simili.
 
 **Funzionalità**
 

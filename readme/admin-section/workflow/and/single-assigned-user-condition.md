@@ -11,7 +11,7 @@ Questa scheda di flusso di lavoro facilita le operazioni basate sull'assegnazion
 1. **Operatore**
 * **Descrizione**: Specifica la logica da applicare all'assegnazione dell'utente.
 * **Opzioni**:
-* **IS**: Attiva l'operazione se l'utente assegnato del documento o del compito corrisponde all'utente specificato.
+* **IS**: Attiva l'operazione se l'utente assegnato al documento o al compito corrisponde all'utente specificato.
 * **IS NOT**: Attiva l'operazione se l'utente assegnato non corrisponde all'utente specificato.
 2. **Utente**
 * **Descrizione**: Consente la selezione di un singolo utente rispetto al quale l'utente assegnato verrà confrontato.
@@ -25,13 +25,13 @@ Questa scheda di flusso di lavoro facilita le operazioni basate sull'assegnazion
 * Per l'operatore **IS NOT**, verifica che l'utente assegnato sia diverso dall'utente selezionato.
 * **Esecuzione dell'Azione**:
 * **Condizione Vera**: Se l'assegnazione soddisfa la condizione impostata (IS o IS NOT), attiva azioni predefinite, che potrebbero includere il proseguimento con le approvazioni, l'avvio di ulteriori compiti, l'invio di notifiche o altri flussi di lavoro correlati.
-* **Condizione Falsa**: Se la condizione non è soddisfatta, il sistema può riorientare il compito, tenerlo in sospeso per la revisione o attivare azioni predefinite alternative.
+* **Condizione Falsa**: Se la condizione non viene soddisfatta, il sistema può riorientare il compito, tenerlo in attesa per la revisione o attivare azioni predefinite alternative.
 
 **Interazioni Utente**
 
 * **Configurazione e Impostazione**: Gli utenti configurano la scheda scegliendo un operatore e selezionando un utente dal campo utente. Questa configurazione dovrebbe essere semplice, garantendo una facile selezione e configurazione dell'utente.
 * **Monitoraggio e Reporting**: Offre strumenti per monitorare le prestazioni della scheda, come il tracciamento dei compiti attivati dalle assegnazioni specifiche degli utenti e i risultati di queste attivazioni.
-* **Gestione degli Errori e Notifiche**: Fornisce meccanismi per avvisare gli utenti se i compiti sono assegnati in modo errato o se si verificano errori operativi a causa di problemi di assegnazione.
+* **Gestione degli Errori e Notifiche**: Fornisce meccanismi per avvisare gli utenti se i compiti sono assegnati in modo errato o se si verificano errori operativi dovuti a problemi di assegnazione.
 
 #### Conclusione
 

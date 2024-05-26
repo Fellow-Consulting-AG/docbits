@@ -1,6 +1,6 @@
 # Fornitore sulla Fattura
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Scopo**
 
@@ -9,7 +9,7 @@ Questa scheda di Docbits consente un confronto dettagliato tra il fornitore dell
 **Funzionalità:**
 
 * **Fornitore sulla Fattura Fornitore sull'Ordine d'Acquisto:** Questa scheda verifica se il fornitore nella fattura è lo stesso presente nella conferma d'ordine o meno.
-* **Valore Operatore:** Gli utenti possono impostare condizioni specifiche come: Il fornitore che ha emesso la fattura è lo stesso presente nell'ODA o meno. Gli operatori disponibili includono:
+* **Valore dell'Operatore:** Gli utenti possono impostare condizioni specifiche come: Il fornitore che ha emesso la fattura è lo stesso presente nel PO o meno. Gli operatori disponibili includono:
 * **Uguale (=):** Verifica se il fornitore nella fattura corrisponde al fornitore nella conferma d'ordine.
 * **Non Uguale (≠):** Assicura che il fornitore che ha emesso la fattura sia lo stesso presente nella conferma d'ordine.
 

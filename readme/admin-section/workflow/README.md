@@ -10,9 +10,9 @@ description: Motore di Workflow di DocBits
 
 ### Introduzione
 
-Nel campo dell'automazione dei processi, il Motore di Workflow di DocBits si distingue per il suo approccio diretto e intuitivo. Questo motore semplifica la creazione e la gestione dei flussi di lavoro attraverso una struttura regolata da regole chiare e semplici. Il principio fondamentale alla base del suo design è la regola "Facile Quando-E-Poi", che suddivide il processo di automazione in tre componenti fondamentali: Trigger, Condizione e Azione. Questa guida spiega come ogni componente funziona all'interno del sistema e come lavorano insieme per facilitare un'automazione senza soluzione di continuità.
+Nel campo dell'automazione dei processi, il Motore di Workflow di DocBits si distingue per il suo approccio diretto e intuitivo. Questo motore semplifica la creazione e la gestione dei flussi di lavoro attraverso una struttura chiara e semplice basata su regole. Il principio fondamentale alla base del suo design è la regola "Facile Quando-E-Poi", che suddivide il processo di automazione in tre componenti fondamentali: Trigger, Condizione e Azione. Questa guida spiega come ogni componente funzioni all'interno del sistema e come lavorano insieme per facilitare un'automazione senza soluzione di continuità.
 
-### Spiegazione della Regola "Facile Quando-E-Poi"
+### La Regola "Facile Quando-E-Poi" Spiegata
 
 Il Motore di Workflow di DocBits si basa su un principio basilare ma potente che rende l'automazione dei flussi di lavoro accessibile agli utenti di tutti i livelli di competenza. Questo principio è racchiuso nella regola "Facile Quando-E-Poi", che può essere suddivisa come segue:
 

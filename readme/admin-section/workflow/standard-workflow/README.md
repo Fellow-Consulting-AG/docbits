@@ -13,7 +13,7 @@
 1. **Revisione Iniziale**:
 * Le fatture vengono ricevute e elaborate inizialmente utilizzando DocBits.
 * Vengono quindi esaminate dal team finanziario per garantire che vengano rimosse dal flusso di lavoro se sono complete, o spinte avanti per ulteriore elaborazione.
-2. **Fatture PO vs Non-PO**:
+2. **Fatture con PO vs Senza PO**:
 * Il flusso di lavoro distingue tra fatture correlate a ordini d'acquisto e fatture non correlate a ordini d'acquisto.
 * Le fatture non correlate a ordini d'acquisto vengono instradate per ulteriore approvazione o rifiuto in base a criteri predefiniti come l'ID del fornitore, la quantità, il prezzo unitario e il numero dell'articolo.
 3. **Confronto e Non Conformità**:

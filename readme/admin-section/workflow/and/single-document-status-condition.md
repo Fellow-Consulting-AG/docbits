@@ -4,7 +4,7 @@
 
 **Scopo**
 
-Questa scheda di flusso di lavoro è progettata per gestire le operazioni sui documenti basate su uno stato di documento specifico. Semplificando la condizione a uno stato, la scheda si concentra su trigger di flusso di lavoro molto specifici, rendendola ideale per attività di elaborazione di documenti mirate all'interno di un sistema ERP.
+Questa scheda di flusso di lavoro è progettata per gestire le operazioni sui documenti basate su uno stato di documento specifico. Semplificando la condizione a uno stato, la scheda si concentra su trigger di flusso di lavoro molto specifici, rendendola ideale per attività di elaborazione documenti mirate all'interno di un sistema ERP.
 
 **Componenti della Scheda**
 
@@ -15,7 +15,7 @@ Questa scheda di flusso di lavoro è progettata per gestire le operazioni sui do
 * **non è**: Attiva l'operazione se lo stato attuale del documento non corrisponde allo stato selezionato.
 2. **Stato**
 * **Descrizione**: Consente la selezione di uno stato di documento singolo per impostare la condizione.
-* **Esempi di Stati**: "Errore", "Errore di Esportazione", "Pronto per la Convalida", "Pronto per la Revisione", "Approvazione in Attesa", "Seconda Approvazione in Attesa".
+* **Esempi di Stati**: "Errore", "Errore di Esportazione", "Pronto per la Validazione", "Pronto per la Revisione", "Approvazione in Attesa", "Seconda Approvazione in Attesa".
 * **Dettaglio**: Gli utenti scelgono uno stato da un menu a discesa o da un insieme di pulsanti radio. Questo stato funge da criterio per l'operazione della scheda.
 
 **Funzionalità**
@@ -26,7 +26,7 @@ Questa scheda di flusso di lavoro è progettata per gestire le operazioni sui do
 * **Esecuzione dell'Azione**:
 * **Condizione Vera**: Se lo stato corrisponde (o non corrisponde, in base all'operatore), viene avviata l'azione corrispondente. Questo potrebbe essere l'instradamento per ulteriore elaborazione, la generazione di notifiche o altri flussi di lavoro predefiniti.
 * **Condizione Falsa**: Se la condizione non è soddisfatta, non viene intrapresa alcuna azione o viene attivato un percorso alternativo.
-* **Integrazione con Altri Flussi di Lavoro**: Anche se è progettata per la valutazione di singoli stati, questa scheda può essere integrata efficacemente in sequenze di flussi di lavoro più ampie per garantire una gestione precisa dei documenti.
+* **Integrazione con Altri Flussi di Lavoro**: Anche se è progettata per la valutazione di uno stato singolo, questa scheda può essere integrata efficacemente in sequenze di flussi di lavoro più ampie per garantire una gestione precisa dei documenti.
 
 **Interazioni con l'Utente**
 

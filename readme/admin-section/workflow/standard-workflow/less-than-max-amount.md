@@ -1,4 +1,4 @@
-# Importo inferiore al massimo consentito
+# Importo inferiore al massimo
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.48.55.png" alt=""><figcaption></figcaption></figure>
 
@@ -14,13 +14,13 @@ Questo titolo suggerisce che la regola o la condizione in fase di configurazione
 
 #### Azione (Quindi…):
 
-* **Assegna utente dal campo Nome dell'approvatore, utilizza l'utente Utente come fallback**: Se le condizioni specificate sono soddisfatte, la fattura viene automaticamente assegnata a un approvatore il cui nome è specificato in un campo. Se questo campo è vuoto o non disponibile, viene assegnato un utente predefinito (probabilmente un amministratore o un altro membro dello staff designato) per gestire l'approvazione.
+* **Assegna utente dal campo Nome dell'approvatore, utilizza l'utente Utente come fallback**: Se le condizioni specificate sono soddisfatte, la fattura viene automaticamente assegnata a un approvatore il cui nome è specificato in un campo. Se questo campo è vuoto o non disponibile, viene assegnato un utente predefinito (probabilmente un amministratore o un altro membro dello staff designato) come fallback per gestire l'approvazione.
 
 #### Elementi dell'interfaccia:
 
-* **Aggiungi Carta**: Questo pulsante probabilmente consente agli utenti di aggiungere ulteriori condizioni o azioni alla regola, migliorando la flessibilità e la specificità del flusso di lavoro.
+* **Aggiungi carta**: Questo pulsante probabilmente consente agli utenti di aggiungere ulteriori condizioni o azioni alla regola, migliorando la flessibilità e la specificità del flusso di lavoro.
 * **Salva**: Salva la regola configurata nel sistema.
 
 #### Scopo di questa regola:
 
-Questa configurazione è progettata per ottimizzare il processo di approvazione delle fatture indirizzando automaticamente le fatture all'approvatore appropriato in base all'importo e garantendo che solo quelle entro una determinata soglia siano gestite in questo modo automatizzato. Aiuta a gestire i controlli finanziari e velocizza il flusso di lavoro riducendo i controlli manuali per ciascuna fattura.
+Questa configurazione è progettata per razionalizzare il processo di approvazione delle fatture, indirizzando automaticamente le fatture all'approvatore appropriato in base all'importo e garantendo che solo quelle entro una certa soglia siano gestite in questo modo automatizzato. Aiuta a gestire i controlli finanziari e velocizza il flusso di lavoro riducendo i controlli manuali per ciascuna fattura.

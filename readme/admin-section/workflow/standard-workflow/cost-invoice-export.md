@@ -2,7 +2,7 @@
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.53.28.png" alt=""><figcaption></figcaption></figure>
 
-Questo titolo indica che la regola è configurata specificamente per gestire le fatture di costo e coinvolge un'azione di esportazione, possibilmente per scopi di reportistica, ulteriore elaborazione o integrazione con altri sistemi.
+Questo titolo indica che la regola è configurata specificamente per gestire le fatture di costo e coinvolge un'azione di esportazione, eventualmente per scopi di reportistica, ulteriore elaborazione o integrazione con altri sistemi.
 
 #### Configurazione della Regola:
 
@@ -10,11 +10,11 @@ Questo titolo indica che la regola è configurata specificamente per gestire le 
 * **Il Tipo di Documento è Fattura**: Questa condizione garantisce che la regola venga attivata solo per i documenti categorizzati come fatture, mantenendo la specificità del flusso di lavoro per la gestione delle fatture.
 2. **E…**
 * **Il Sotto Tipo di Fattura è Uguale a Fattura di Costo**: Questo specifica che la regola si applica solo a quelle fatture contrassegnate esplicitamente come "Fatture di Costo" in un campo specifico all'interno del documento. Questo aiuta a distinguerle da altri tipi di fatture.
-* **Lo Stato del Documento è in Attesa di Seconda Approvazione**: La fattura deve trovarsi in uno stato di "Attesa di Seconda Approvazione". Questo indica che la fattura ha già superato un'approvazione iniziale ed è in attesa di una seconda, eventualmente definitiva, revisione.
+* **Lo Stato del Documento è in Attesa di Seconda Approvazione**: La fattura deve trovarsi in uno stato di "Attesa di Seconda Approvazione". Questo indica che la fattura ha già superato un'approvazione iniziale ed è in attesa di una seconda, eventualmente finale, revisione.
 
 #### Azione (Quindi…):
 
-* **Avvia Esportazione**: Una volta che la fattura soddisfa le condizioni specificate (essere una fattura di costo e in attesa di seconda approvazione), viene eseguita l'azione di "Avvia Esportazione". Questo potrebbe comportare l'invio dei dati della fattura a un altro sistema per analisi finanziarie, reportistica o scopi di conformità.
+* **Avvia Esportazione**: Una volta che la fattura soddisfa le condizioni specificate (essere una fattura di costo e in attesa di seconda approvazione), viene eseguita l'azione di "Avvio dell'Esportazione". Questo potrebbe comportare l'invio dei dati della fattura a un altro sistema per analisi finanziarie, reportistica o scopi di conformità.
 
 #### Scopo di Questa Regola:
 

@@ -15,11 +15,11 @@ Questa scheda è progettata per gestire azioni su documenti in base al loro tipo
 * **non è**: L'operazione verrà attivata se il tipo di documento non corrisponde a nessuno dei tipi elencati.
 2. **Elenco dei Tipi di Documento**
 * **Descrizione**: Specifica un elenco di tipi di documento a cui si applicherà la condizione.
-* **Dettaglio**: Questo può includere una varietà di tipi di documenti come "Fattura", "Ordine di Acquisto", "Contratto", "Registro dei Dipendenti", ecc., in base ai quali verrà valutata la condizione (è/non è).
+* **Dettaglio**: Questo può includere una varietà di tipi di documento come "Fattura", "Ordine di Acquisto", "Contratto", "Registro dei Dipendenti", ecc., in base ai quali verrà valutata la condizione (è/non è).
 
 **Funzionalità**
 
-* **Identificazione del Documento**: Il sistema identifica prima il tipo di ciascun documento in ingresso o esistente in base agli attributi predefiniti o ai metadati.
+* **Identificazione del Documento**: Il sistema identifica prima il tipo di ciascun documento in arrivo o esistente in base agli attributi predefiniti o ai metadati.
 * **Valutazione della Condizione**:
 * Se l'operatore è **è**, la scheda verifica se il tipo di documento è nell'elenco fornito.
 * Se l'operatore è **non è**, la scheda verifica se il tipo di documento non è nell'elenco.

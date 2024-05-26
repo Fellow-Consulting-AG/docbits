@@ -7,7 +7,7 @@ Scopo: Questa scheda DocBits facilita il confronto dettagliato dei prezzi unitar
 Funzionalità:
 
 * Prezzo unitario combinato con campi: Questa scheda calcola l'importo totale per un articolo specifico combinando il prezzo unitario con campi specificati aggiuntivi dalla fattura. Il totale combinato viene quindi confrontato con il prezzo unitario registrato nell'ordine di acquisto per quell'articolo.
-* Valore dell'operatore: Gli utenti possono impostare condizioni specifiche su come il prezzo unitario combinato della fattura deve essere confrontato con il prezzo unitario dell'ordine di acquisto. Gli operatori disponibili includono:
+* Valore operatore: Gli utenti possono impostare condizioni specifiche su come il prezzo unitario combinato della fattura deve essere confrontato con il prezzo unitario dell'ordine di acquisto. Gli operatori disponibili includono:
 *
 * Uguale (=): Verifica che il prezzo combinato della fattura corrisponda al prezzo sull'ordine di acquisto.
 * Non uguale (≠): Garantisce che il prezzo combinato della fattura non corrisponda al prezzo sull'ordine di acquisto.
@@ -18,6 +18,6 @@ Utilizzo: Questa scheda è particolarmente preziosa per i responsabili ERP e i c
 
 Scenario di esempio:
 
-* Una fattura presenta un prezzo unitario di $50 per un prodotto. Il campo specificato include una tassa di gestione aggiuntiva di $5 per unità. Quando combinati, l'importo totale per unità ammonta a $55. Utilizzando l'operatore "Uguale" con un valore impostato su $55, la scheda verifica che il prezzo fatturato sia in linea con l'ordine di acquisto, garantendo il rispetto dell'accordo.
+* Una fattura presenta un prezzo unitario di $50 per un prodotto. Il campo specificato include una tassa di gestione aggiuntiva di $5 per unità. Quando combinati, l'importo totale per unità ammonta a $55. Utilizzando l'operatore "Uguale" con un valore impostato su $55, la scheda verifica che il prezzo fatturato sia in linea con l'ordine di acquisto, garantendo la conformità dell'accordo.
 
-Implementando la scheda "Confronta con Ordine di Acquisto: Prezzo Unitario Combinato", le aziende possono automatizzare la verifica dell'accuratezza dei prezzi rispetto agli ordini di acquisto, ottimizzando le operazioni finanziarie e proteggendosi da sovrapprezzi.
+Implementando la scheda "Confronta con l'ordine di acquisto: Prezzo unitario combinato", le aziende possono automatizzare la verifica dell'accuratezza dei prezzi rispetto agli ordini di acquisto, ottimizzando le operazioni finanziarie e proteggendosi da sovrapprezzi.

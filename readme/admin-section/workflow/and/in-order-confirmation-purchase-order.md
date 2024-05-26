@@ -1,6 +1,6 @@
 # Conferma dell'Ordine d'Acquisto
 
-### Confronta con l'Ordine d'Acquisto:&#x20;
+### Confronto con l'Ordine d'Acquisto:&#x20;
 
 **Conferma dell'Ordine d'Acquisto**
 
@@ -12,7 +12,7 @@ Questa scheda logica è progettata per verificare automaticamente che la quantit
 
 #### Condizione di Attivazione
 
-La logica viene attivata quando una qualsiasi delle seguenti condizioni è soddisfatta in una conferma d'ordine rispetto all'ordine d'acquisto originale:
+La logica viene attivata quando una delle seguenti condizioni è soddisfatta in una conferma d'ordine rispetto all'ordine d'acquisto originale:
 
 * **Quantità**: La quantità di articoli ordinati corrisponde alla quantità confermata dal fornitore.
 * **Prezzo Unitario**: Il prezzo per articolo concordato corrisponde alla conferma del fornitore.
@@ -21,13 +21,13 @@ La logica viene attivata quando una qualsiasi delle seguenti condizioni è soddi
 #### Risultati
 
 * **Uguale**: Se la quantità, il prezzo unitario o lo sconto della conferma d'ordine corrispondono esattamente all'ordine d'acquisto, il sistema considera la conferma valida e procede con i passaggi successivi nel processo di approvvigionamento.
-* **Non Uguale**: Se vi è una discrepanza nella quantità, nel prezzo unitario o nello sconto, il sistema contrassegna la conferma d'ordine per una revisione manuale. Ciò garantisce che eventuali discrepanze siano risolte prima di procedere.
+* **Non Uguale**: Se c'è una discrepanza nella quantità, nel prezzo unitario o nello sconto, il sistema contrassegna la conferma d'ordine per una revisione manuale. Ciò garantisce che eventuali discrepanze siano risolte prima di procedere.
 
 #### Benefici
 
 * **Precisione e Coerenza**: Mantiene l'accuratezza nel processo di approvvigionamento, garantendo che i pagamenti e le consegne siano effettuati sulla base di cifre corrette.
 * **Efficienza**: Automatizza il processo di verifica, riducendo la necessità di controlli manuali e accelerando l'elaborazione degli ordini.
-* **Controllo dei Costi**: Aiuta a prevenire sovrapagamenti o consegne errate individuando tempestivamente le discrepanze nel processo.
+* **Controllo dei Costi**: Aiuta a prevenire sovrapagamenti o consegne errate individuando le discrepanze all'inizio del processo.
 
 <figure><img src="https://lh7-us.googleusercontent.com/DRTMJxJ9XLeC5zWSU8QuZwPLkqHzmCUm9RwiUZIkcc8pVxMZsxLv56dX9spzqr7KeDkTigbeBX2DvAZRe-6MdqOgAnrO-QPnCbi4e6hP4--P_O0A0DSoQJxjGeefOS1p6GuXHs1YXv-A73DXYaE8qlI" alt="" width="563"><figcaption></figcaption></figure>
 

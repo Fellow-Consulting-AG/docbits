@@ -19,19 +19,19 @@ Questa scheda di flusso è progettata per eseguire operazioni specifiche sui doc
 
 * **Identificazione del Documento**: La scheda identifica prima il/i documento/i che devono essere elaborati. Questa identificazione potrebbe basarsi sul tipo di documento, sulla fonte, sulla data o su qualsiasi altra metadati.
 * **Esecuzione dell'Operazione**: In base all'operatore specificato, la scheda esegue l'operazione designata. Questo potrebbe essere:
-* **Revisione**: Invio del documento al personale o al dipartimento appropriato per la revisione.
-* **Approvazione**: Instradamento del documento per le approvazioni necessarie all'interno della sotto-organizzazione.
+* **Revisione**: Invio del documento al personale o dipartimento appropriato per la revisione.
+* **Approvazione**: Instradamento del documento per le necessarie approvazioni all'interno della sotto-organizzazione.
 * **Archiviazione**: Spostamento del documento in un sistema di archiviazione progettato per conservare i record secondo le politiche organizzative.
 * **Distribuzione**: Diffusione del documento internamente all'interno della sotto-organizzazione o esternamente se necessario.
 * **Controlli di Conformità**: La scheda verifica che tutte le operazioni siano conformi alle politiche interne e ai requisiti legali applicabili alla sotto-organizzazione specifica.
-* **Feedback e Registrazione**: Dopo l'operazione, la scheda fornisce un feedback sull'azione intrapresa e registra queste informazioni per tracciare l'audit e la conformità.
+* **Feedback e Registrazione**: Dopo l'operazione, la scheda fornisce un feedback sull'azione intrapresa e registra queste informazioni per tracciare audit e conformità.
 
 **Interazioni Utente**
 
-* **Configurazione**: Gli utenti configurano la scheda specificando l'operatore e la sotto-organizzazione. Potrebbero anche definire regole o trigger specifici per attivare la scheda.
+* **Configurazione**: Gli utenti configurano la scheda specificando l'operatore e la sotto-organizzazione. Potrebbero anche definire regole o trigger specifici per quando la scheda dovrebbe attivarsi.
 * **Monitoraggio**: Gli utenti possono monitorare l'attività della scheda tramite un cruscotto che mostra le operazioni in corso e completate, fornendo trasparenza nei processi di gestione dei documenti.
 * **Annullamento Manuale**: In alcuni casi, gli utenti potrebbero avere la possibilità di intervenire manualmente o modificare il corso di un'operazione, ad esempio escalando un problema o correggendo errori di instradamento del documento.
 
 #### Conclusione
 
-La scheda "Operatore di Documenti per le Sotto-Organizzazioni" è uno strumento cruciale per gestire i documenti in modo strutturato ed efficiente, in particolare in organizzazioni più grandi in cui i diversi dipartimenti hanno esigenze operative uniche e requisiti di conformità. Documentare chiaramente questa scheda nel manuale del sistema ERP aiuterà gli utenti a comprendere la sua importanza e a implementarla efficacemente nei loro flussi di lavoro. Se sono necessarie ulteriori personalizzazioni o descrizioni di funzionalità, sentiti libero di espandere in base alle esigenze organizzative specifiche e alle capacità tecniche.
+La scheda "Operatore di Documenti per le Sotto-Organizzazioni" è uno strumento cruciale per gestire i documenti in modo strutturato ed efficiente, in particolare in organizzazioni più grandi dove i diversi dipartimenti hanno esigenze operative uniche e requisiti di conformità. Documentare chiaramente questa scheda nel manuale del sistema ERP aiuterà gli utenti a comprendere la sua importanza e implementarla in modo efficace all'interno dei loro flussi di lavoro. Se sono necessarie ulteriori personalizzazioni o descrizioni di funzionalità, sentiti libero di espandere in base alle esigenze organizzative specifiche e alle capacità tecniche.
