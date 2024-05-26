@@ -1,5 +1,0 @@
-# Create document table column
-
-{% swagger src="https://api.docbits.com/openapi.json" path="/table_extraction/create_document_table_column" method="post" %}
-[https://api.docbits.com/openapi.json](https://api.docbits.com/openapi.json)
-{% endswagger %}
