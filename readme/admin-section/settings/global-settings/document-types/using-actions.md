@@ -19,3 +19,4 @@ Here is a guide on how to properly use the "Copy" and "Delete" actions for effic
 
 Proper use of these actions allows you to streamline sub-type management. Copying allows you to leverage existing configurations for new sub-types, while deleting allows for efficient cleanup of sub-types that are no longer needed. However, it is important to be careful when deleting to avoid data loss.\
 \
+

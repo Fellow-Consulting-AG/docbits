@@ -97,3 +97,4 @@ The script effectively ensures data integrity by:
 2. Validating the consistency between the sum of individual line amounts and the overall invoice total, highlighting discrepancies for further action.
 
 This automation helps maintain accurate financial records and can be crucial for systems like ERP that require precise data for accounting and financial reporting.
+

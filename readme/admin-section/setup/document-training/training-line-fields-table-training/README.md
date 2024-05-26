@@ -19,3 +19,4 @@ In correction mode, you can delete and add rows, and you can manually change the
 Here’s an example of a table in correction mode, with the first row deleted and a new row added:
 
 ![correction mode](https://lh7-us.googleusercontent.com/3C5zN2Uxh-MVUi1WwC70EZeoYtJAoDiCZjqBIGvaSVSCn9SU7wZENHTvaFIV55KckB94MFEDbn46T-oIClqcHesSJfrBSpCkLaMroVONR5380vzBMRsJ3nJxLlGE6GlISIJpYwQDHdJ\_NuMvAD1kN\_c)
+

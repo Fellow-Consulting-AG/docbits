@@ -62,3 +62,4 @@
 
 By carefully following these steps, you can successfully and effectively add a new column to your database table, choosing the correct column type and ensuring that the column is required when it is required.
 
+

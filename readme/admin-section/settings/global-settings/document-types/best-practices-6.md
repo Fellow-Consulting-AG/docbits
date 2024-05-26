@@ -35,3 +35,4 @@ Best practices for managing EDI configurations include regular updates to adapt 
 
 By implementing these best practices, you can improve the efficiency, accuracy and reliability of your EDI configurations and ensure they meet the ever-changing needs of your business and your business partners.
 
+

@@ -33,3 +33,4 @@ The "Import" settings in your document processing system allow you to configure 
     This also allows specifying sub-organizations for more precise control over where emails are directed within your organizational structure.
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.56.png" alt=""><figcaption></figcaption></figure>
+

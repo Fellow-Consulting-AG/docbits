@@ -22,3 +22,4 @@ You will then be taken to a page that looks similar to this:\
 <figure><img src="../../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 This is where you will find your previously created sub-organizations, as well as where you can create new sub-organizations.
+

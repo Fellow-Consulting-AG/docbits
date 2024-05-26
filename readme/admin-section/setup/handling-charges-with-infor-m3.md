@@ -52,3 +52,4 @@ This document provides detailed information on how DocBits integrates with Infor
 | Costing Operator            | Relevance needs to be defined                            |
 
 \
+

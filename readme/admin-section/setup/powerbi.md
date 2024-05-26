@@ -28,3 +28,4 @@ description: How to configure PowerBI
    * Dive into creating visuals. Drag fields onto the canvas, explore different visualization types, and tweak to your heart’s content. You know, make it pretty and insightful.
 6. Refreshing Your Data
    * Remember, if your ClickHouse data changes, you’ll want those updates in PowerBI. You can set up scheduled refreshes in PowerBI Service to keep things up-to-date. Just make sure your PowerBI Desktop file is published to PowerBI Service, and configure the refresh settings there.
+

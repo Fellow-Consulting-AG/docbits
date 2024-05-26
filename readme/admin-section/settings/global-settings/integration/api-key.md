@@ -24,3 +24,4 @@ See Setup SSO
 * Upload file: Allows the admin to upload configuration files or other necessary files that facilitate integration with an identity provider.
 * Configure: A button to apply or update the settings after making changes or uploading new configurations.
 
+

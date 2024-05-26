@@ -20,3 +20,4 @@ The Dashboard settings are designed to help administrators control the data pres
 These dashboard settings are crucial for ensuring that the Docbits platform is as responsive and useful as possible, providing users with a powerful tool to monitor and manage document processing activities directly from the dashboard.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2502" %}
+

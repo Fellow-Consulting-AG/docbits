@@ -103,3 +103,4 @@ Once this is complete, press the PROCESS button and the BODs will be triggered. 
 If done successfully, the Supplier and Purchase Order tables should now be available under Settings → Master Data Lookup.
 
 \
+

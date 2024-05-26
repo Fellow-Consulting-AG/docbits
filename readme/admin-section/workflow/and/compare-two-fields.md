@@ -15,3 +15,4 @@ This Card is intended to compare whether the selected fields in a document are e
 This card should automatically compare whether the fields, for example between net amount and gross amount, are within the specified tolerance. For example, you then enter the percentage of the VAT in the tolerance amount and enter percent in the tolerance type. The workflow can check whether the amount is correct.
 
 Tolerance type: percent or value
+

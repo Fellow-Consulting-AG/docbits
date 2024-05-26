@@ -23,3 +23,4 @@ Please note that the manual mapping of text to a column is only possible for ext
 ![](https://lh7-us.googleusercontent.com/i2tlbwl9qFE0clthaoRPe7kcPRiURCvemuLEjBK4uAnfsR4auXbftMfEY1ZW5WXwezTBVSG5hbNRkddwIeLtrgJUvZoeKGdPKN8f75O\_dPdIWkm4EFALfAj-evDUI3UKrgNOTNjF37C1bBLtE95OA1w)
 
 The violet ones can not be mapped manually as the mapping has already been done via the columns defined on the document.
+

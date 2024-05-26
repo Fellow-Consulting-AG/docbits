@@ -70,3 +70,4 @@ This example shows how to group total amounts by the week they were created, whi
 ## Additional Resources
 
 For further assistance or advanced configurations, please consult our support team or access our comprehensive video training available in the help section.
+

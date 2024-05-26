@@ -43,3 +43,4 @@
 
 Overall, setting up table columns correctly helps improve the efficiency, consistency and performance of your database, which in turn increases the quality of your data storage, querying and reporting.
 
+

@@ -43,3 +43,4 @@
 
 By applying these best practices, you can create a well-organized and efficient database structure that meets the needs of your application and provides a reliable foundation for storing, querying, and reporting on your data.
 
+

@@ -13,3 +13,4 @@
    * **Use Rules Extraction**: When enabled, this setting allows the system to apply predefined rules to extract data from header fields, which can be critical for correctly identifying document sections like invoice numbers, dates, etc.
    * **Use AI Extraction**: This option uses AI models to intelligently extract header fields, which can be more adaptable to variations in document layouts and styles.
 
+

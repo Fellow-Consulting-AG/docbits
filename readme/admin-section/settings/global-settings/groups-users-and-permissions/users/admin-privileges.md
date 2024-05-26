@@ -23,3 +23,4 @@ Security is an essential aspect of any organization, especially when it comes to
 
 By implementing these best practices, organizations can improve the security of their user management protocol and minimize the risk of security breaches and data loss. It is important to view security as an ongoing process and make regular updates and adjustments to keep up with ever-changing threats and security requirements.
 
+

@@ -24,3 +24,4 @@ Here are some troubleshooting tips for managing sub-types:
 * Provide user training and support: Provide training and support to users tasked with subtype management. Ensure they have the knowledge and skills required to effectively configure and manage subtypes. Provide support for any issues or questions that arise.
 
 By applying these troubleshooting tips, you can identify and resolve subtype management issues to ensure the efficiency and effectiveness of your document management system.
+

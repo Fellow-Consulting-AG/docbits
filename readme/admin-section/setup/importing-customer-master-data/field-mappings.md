@@ -125,3 +125,4 @@ Below you will find the necessary field mappings for importing master data, from
     "TaxRateFree": "number(concat('0',//DataArea/LnTaxCode/SingularRatesGroup/SingularRate[2]/RateNumeric))*100"
 }
 ```
+

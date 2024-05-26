@@ -27,3 +27,4 @@ The Table Columns interface in Docbits is used to specify the columns that appea
 This section is vital for maintaining the structural integrity and usability of data within the Docbits system, ensuring that the data extracted from documents is stored in a well-organized and accessible manner.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2493" %}
+

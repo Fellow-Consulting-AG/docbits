@@ -47,3 +47,4 @@ This document outlines the workflow for ordering materials from suppliers, recei
 * Discrepancies in order or invoice details must be resolved promptly to avoid delays.
 
 <figure><img src="../../.gitbook/assets/embed.svg" alt=""><figcaption></figcaption></figure>
+

@@ -32,3 +32,4 @@
 
 Overall, using a layout manager is critical to ensure that data is captured and organized accurately. A well-designed layout improves the user experience, promotes efficiency in data entry, and contributes to the consistency and adaptability of documents.
 
+

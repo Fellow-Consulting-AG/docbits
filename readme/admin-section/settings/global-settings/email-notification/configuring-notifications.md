@@ -67,3 +67,4 @@ Within these settings you can then make the desired configurations to ensure you
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.15.56.png" alt=""><figcaption></figcaption></figure>
 
 * **Save:** After entering all the required information, click "Save" button to save the notification settings.
+

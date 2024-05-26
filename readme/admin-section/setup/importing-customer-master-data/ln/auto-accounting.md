@@ -237,3 +237,4 @@ Once this is done you should see the three separate master data tables in your D
 * chartofaccounts
 * totalflexdimensions
 * finalflexdimensions
+

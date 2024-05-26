@@ -38,3 +38,4 @@ In terms of scenarios where different groups need different levels of access, th
 
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.33.png" alt=""><figcaption></figcaption></figure>
+

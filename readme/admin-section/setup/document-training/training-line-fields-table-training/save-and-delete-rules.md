@@ -17,3 +17,4 @@ If you need to delete rules for a document, you can do so using the “DELETE RU
 However, it’s important to note that deleting rules will affect all documents with the same or similar format. This means that you’ll need to retrain those documents from scratch. So, be sure to use this feature with caution.
 
 ![](https://lh7-us.googleusercontent.com/KyfMBBv2ghBgSmqTZ4zMVsHKaoAVwcha8XRhUPNPrVMNwsmHXCDMDSsmkJYE2EYWynD1SzMcf57dmqvGIC4u3UpQohRxZW3A2RNICsNyI6Du0-jd3ZibupkTwRnYoD\_XUAbfypZ5iQj-9Z0XN\_SreUs)
+

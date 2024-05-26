@@ -41,3 +41,4 @@
 <figure><img src="../../../../.gitbook/assets/8fbed442-7deb-4c1e-9295-5038fe124331.png" alt=""><figcaption></figcaption></figure>
 
 After finishing all these steps you have activated the BOD to import all suppliers from table CIDMAS. After some minutes you should see the supplier in Docbits. \
+

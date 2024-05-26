@@ -32,3 +32,4 @@ Regex, short for "Regular Expressions", is an extremely powerful method for patt
 
 Overall, using Regex provides an effective way to analyze structured text formats and extract data accurately and efficiently, which in turn is of great use for various applications such as data analysis, text processing, information extraction, and machine learning.
 
+

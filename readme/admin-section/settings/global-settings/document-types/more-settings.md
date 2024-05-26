@@ -27,3 +27,4 @@ The More Settings area allows administrators to configure various aspects of doc
    * A utility setting that maps supplier item numbers to internal item numbers, ensuring accuracy in inventory and purchase order management.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2500" %}
+

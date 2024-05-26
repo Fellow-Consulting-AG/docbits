@@ -35,3 +35,4 @@ Make sure this is how the name is shown in the IDM Mapping File
 Once the file is prepared, upload it to your export configuration in DocBits. This is available at Settings → Export.
 
 ![](https://lh7-us.googleusercontent.com/rUHhvImiWamK6JxnWSPL4JEioAJq3AmvdsubJDo-DoDV9F\_i5mZ42YDnjqZUYKYSJu1Cetc\_4fLwlvvmoZXYIzmBf3hoyW6RjfP9HQ8FkNDhW1IbLHvNTCHWFRaeCECdZ97u79-Eu37TvzqnqGPEayM)
+

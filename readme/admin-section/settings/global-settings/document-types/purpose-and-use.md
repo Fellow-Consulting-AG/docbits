@@ -34,3 +34,4 @@ Using scripts to automate processes is critical for businesses of all sizes and 
 
 Overall, scripts play a crucial role in automating processes and ensuring data accuracy. By automating repeatable tasks and applying business rules consistently, they help increase efficiency, reduce errors, and enable informed decisions based on reliable data.
 
+

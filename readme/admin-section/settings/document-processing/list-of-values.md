@@ -12,3 +12,4 @@ The "List of Values" setting in your document processing system is essentially a
 3. **Usage Across Sub-Organizations**: These values can also be made specific to certain sub-organizations within your setup, allowing for customization and localization of document processing workflows.
 4. **Adding and Managing Values**: Through the "Add Row" action, you can introduce new values and synonyms to the lists, and "Actions" allow for editing or deleting existing entries.
 
+

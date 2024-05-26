@@ -247,3 +247,4 @@ Once complete, search for the API called master\_data\_lookup/import\_data and f
 ![](https://lh7-us.googleusercontent.com/8UD4FhFv2dRB4cMjCDL4G9ndjH7laVMKWqdeMaJGgEo48-UVvucB1uOydzNdfFy0yPM5bb66mZB4k9uJR7TTiEREGFaV2EqW01gxJpTyuUfGNh5QmBjySkyhZ56gWV8sYs8WI5RnHcENtXgjTU0vg0Q)
 
 If done correctly, the M3CostingElement table should now be in your DocBits environment. Auto Accounting for M3 has now been configured for your environment.
+

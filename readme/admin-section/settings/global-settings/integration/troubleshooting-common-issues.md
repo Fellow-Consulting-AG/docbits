@@ -11,3 +11,4 @@ Here are troubleshooting steps for common issues while integrating DocBits with 
 * **Communicating with support:** If you cannot identify the cause of the problem, contact DocBits support or your identity service provider. They can help you troubleshoot and provide specific guidance for your setup.
 
 By following these troubleshooting steps, you can quickly identify and resolve the most common issues during the integration between Docbits and your identity service provider.
+

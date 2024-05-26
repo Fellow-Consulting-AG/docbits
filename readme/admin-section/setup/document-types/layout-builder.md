@@ -104,3 +104,4 @@ The result from doing this will then be
 ![](https://lh7-us.googleusercontent.com/-HqoJUAbcHRCletgSg6gcKXpn6zto1Do8I5EmcEmPWL4qUrMREh-wZdhy7ZKtnbuGjypd7p2mjcIu6LbbfdjA3c1liT2reCQXWiP1VAji08eWc\_bbF\_a0Dd82rJRgCuD5yjdlXL\_DNheMcw-fm6pQnA)
 
 There is now a gap between the two fields. This gap can be extended or shortened according to the 100 percent rule discussed earlier, and with these functions you can create any desired layout.
+

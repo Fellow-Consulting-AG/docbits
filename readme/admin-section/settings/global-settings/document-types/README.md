@@ -23,3 +23,4 @@ The Document Types section lists all document types recognized and processed by 
 {% hint style="info" %}
 See [Setup Document Type](../../../setup/document-types/)
 {% endhint %}
+
