@@ -20,17 +20,17 @@ Ova kartica radnog toka dizajnirana je da obavlja specifične operacije na dokum
 * **Identifikacija dokumenata**: Kartica prvo identifikuje dokument(e) koji treba da budu obrađeni. Ova identifikacija može biti zasnovana na tipu dokumenta, izvoru, datumu ili bilo kojim drugim metapodacima.
 * **Izvršenje operacije**: Na osnovu navedenog operatora, kartica izvršava određenu operaciju. Ovo može biti:
 * **Pregled**: Slanje dokumenta odgovarajućem osoblju ili odeljenju na pregled.
-* **Odobravanje**: Prosleđivanje dokumenta za neophodne odobrenja unutar podorganizacije.
-* **Arhiviranje**: Premestanje dokumenta u arhivski sistem dizajniran za čuvanje zapisa prema politikama organizacije.
+* **Odobravanje**: Rutiranje dokumenta za neophodne odobrenja unutar podorganizacije.
+* **Arhiviranje**: Premestanje dokumenta u arhivski sistem dizajniran za čuvanje zapisa prema organizacionim politikama.
 * **Distribucija**: Distribuiranje dokumenta interno unutar podorganizacije ili eksterno ako je potrebno.
-* **Provere usaglašenosti**: Kartica proverava da li sve operacije poštuju interna pravila i zakonske zahteve koji se odnose na određenu podorganizaciju.
-* **Povratne informacije i evidencija**: Nakon operacije, kartica pruža povratne informacije o preduzetim akcijama i beleži ove informacije radi revizije i praćenja usaglašenosti.
+* **Provere usaglašenosti**: Kartica proverava da li sve operacije poštuju interna pravila i zakonske zahteve koji se odnose na specifičnu podorganizaciju.
+* **Povratne informacije i logovanje**: Nakon operacije, kartica pruža povratne informacije o preduzetim akcijama i beleži ove informacije radi praćenja revizije i usaglašenosti.
 
 **Interakcije sa korisnicima**
 
 * **Konfiguracija**: Korisnici podešavaju karticu navođenjem operatora i podorganizacije. Takođe mogu definisati specifična pravila ili okidače za aktiviranje kartice.
 * **Monitoring**: Korisnici mogu pratiti aktivnosti kartice putem kontrolne table koja prikazuje tekuće i završene operacije, pružajući transparentnost u procese rukovanja dokumentima.
-* **Ručno preusmeravanje**: U nekim slučajevima, korisnici mogu imati mogućnost ručnog intervencije ili izmene tokova operacije, poput eskalacije problema ili ispravljanja grešaka u rutiranju dokumenata.
+* **Ručno preusmeravanje**: U nekim slučajevima, korisnici mogu imati mogućnost ručnog intervencije ili izmene tok operacije, poput eskalacije problema ili ispravljanja grešaka u rutiranju dokumenata.
 
 #### Zaključak
 

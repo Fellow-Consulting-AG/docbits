@@ -9,8 +9,8 @@ Ovaj naslov sugeriše da je pravilo ili uslov koji se postavlja dizajniran da ob
 1. **Kada…**
 * **Tip dokumenta je Faktura**: Ovaj uslov proverava da li je dokument koji se obrađuje faktura. To je ključno kako bi se osiguralo da se pravilo primenjuje samo na fakture, a ne na druge vrste dokumenata.
 2. **I…**
-* **Status dokumenta je Na čekanju odobrenja**: Ovo navodi da faktura mora biti u statusu "Na čekanju odobrenja". Ova provera statusa osigurava da se pravilo primenjuje samo na fakture koje čekaju odobrenje.
-* **Uporedi dva polja: Ukupan iznos Manje ili Jednako Maksimalnom iznosu odobravača**: Ovaj uslov upoređuje ukupan iznos fakture sa maksimalnim ovlašćenim iznosom odobravača. Ako je ukupan iznos fakture manji ili jednak ovom maksimalnom iznosu, pravilo nastavlja na sledeći korak. Verovatno uključuje nivo tolerancije koji dozvoljava manje odstupanja unutar određenih granica.
+* **Status dokumenta je Na čekanju odobrenja**: Ovo specificira da faktura mora biti u statusu "Na čekanju odobrenja". Ova provera statusa osigurava da se pravilo primenjuje samo na fakture koje čekaju odobrenje.
+* **Uporedi dva polja: Ukupan iznos Manje ili Jednako Maksimalnom iznosu odobravača**: Ovaj uslov upoređuje ukupan iznos fakture sa maksimalnim ovlašćenim iznosom odobravača. Ako je ukupan iznos fakture manji ili jednak ovom maksimalnom iznosu, pravilo nastavlja na sledeći korak. Verovatno uključuje nivo tolerancije koji omogućava manje odstupanje unutar određenih granica.
 
 #### Akcija (Onda…):
 
@@ -23,4 +23,4 @@ Ovaj naslov sugeriše da je pravilo ili uslov koji se postavlja dizajniran da ob
 
 #### Svrha ovog pravila:
 
-Ova postavka je dizajnirana da pojednostavi proces odobravanja faktura automatskim usmeravanjem faktura odgovarajućem odobravaču na osnovu iznosa i osigurava da se samo one unutar određenog praga obrađuju na ovaj automatizovan način. Pomaže u upravljanju finansijskim kontrolama i ubrzava radni tok smanjenjem ručnih provera za svaku fakturu.
+Ova postavka je dizajnirana da optimizuje proces odobravanja faktura automatskim usmeravanjem faktura odgovarajućem odobravaču na osnovu iznosa i osigurava da se samo one unutar određenog praga obrađuju na ovaj automatizovan način. Pomaže u upravljanju finansijskim kontrolama i ubrzava radni tok smanjenjem ručnih provera za svaku fakturu.

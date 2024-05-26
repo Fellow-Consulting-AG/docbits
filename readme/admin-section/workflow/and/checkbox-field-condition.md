@@ -23,15 +23,15 @@ Ova kartica radnog toka dizajnirana je da automatizuje akcije na osnovu stanja (
 * **Evaluacija uslova**:
 * Sistem proverava da li je polje za potvrdu u stanju (označeno ili neoznačeno) navedenom u Boolean uslovu.
 * **Izvršenje akcija**:
-* **Tačan uslov**: Ako stanje polja za potvrdu odgovara navedenom Boolean uslovu (bilo tačno za označeno ili netačno za neoznačeno), sistem pokreće povezane akcije. To može uključivati omogućavanje ili onemogućavanje polja za unos, pokretanje obaveštenja, pokretanje radnih tokova ili ažuriranje zapisa.
+* **Tačan uslov**: Ako stanje polja za potvrdu odgovara navedenom Boolean uslovu (bilo tačno za označeno ili netačno za neoznačeno), sistem pokreće povezane akcije. To može uključivati omogućavanje ili onemogućavanje polja forme, pokretanje obaveštenja, pokretanje radnih tokova ili ažuriranje zapisa.
 * **Netačan uslov**: Ako stanje polja za potvrdu ne odgovara uslovu, mogu se preduzeti alternativne ili nijedne akcije, u zavisnosti od postavki radnog toka.
 
 **Interakcije sa korisnicima**
 
 * **Postavljanje i konfiguracija**: Korisnici konfigurišu karticu biranjem polja za potvrdu iz liste dostupnih polja i postavljanjem Boolean uslova. Ovaj proces postavljanja treba da bude intuitivan, obično uključujući jednostavan padajući meni za izbor polja i prekidač za Boolean uslov.
-* **Pratnja i izveštavanje**: Pruža funkcionalnosti korisnicima da prate status ovog uslova, možda putem kontrolne table koja prikazuje ažuriranja u realnom vremenu o aktivnim ili pokrenutim uslovima.
-* **Upravljanje greškama i obaveštenjima**: Osigurava da korisnici budu obavešteni ako postoje bilo kakve nesuglasice ili greške u procesu provere uslova, kao što su neuspesi sistema u čitanju stanja polja za potvrdu.
+* **Pratnja i izveštavanje**: Pruža funkcionalnosti korisnicima da prate status ovog uslova, možda putem kontrolne table koja prikazuje ažuriranja u realnom vremenu o tome koji uslovi su aktivni ili pokrenuti.
+* **Upravljanje greškama i obaveštenjima**: Osigurava da korisnici budu obavešteni ako postoje bilo kakve neslaganja ili greške u procesu provere uslova, kao što su neuspesi sistema u čitanju stanja polja za potvrdu.
 
 #### Zaključak
 
-Kartica radnog toka "Uslov polja za potvrdu" je osnovni alat za upravljanje dinamičnim obrascima i dokumentima unutar ERP sistema, gde korisnički unos može diktirati naknadne procese podataka. Automatizacijom akcija na osnovu stanja polja za potvrdu, ova kartica poboljšava efikasnost radnog toka i osigurava da se ponašanje sistema usklađuje sa korisničkim unosima. Jasna dokumentacija ove kartice pomoći će korisnicima da je efikasno implementiraju u svoje operacije, omogućavajući bolju kontrolu nad ponašanjem obrazaca i automatizacijom procesa.
+Kartica radnog toka "Uslov polja za potvrdu" je osnovni alat za upravljanje dinamičnim formama i dokumentima unutar ERP sistema, gde korisnički unos može diktirati naknadne procese podataka. Automatizacijom akcija na osnovu stanja polja za potvrdu, ova kartica poboljšava efikasnost radnog toka i osigurava da se ponašanje sistema usklađuje sa korisničkim unosima. Jasna dokumentacija ove kartice pomoći će korisnicima da je efikasno implementiraju u svoje operacije, omogućavajući bolju kontrolu nad ponašanjem formi i automatizacijom procesa.

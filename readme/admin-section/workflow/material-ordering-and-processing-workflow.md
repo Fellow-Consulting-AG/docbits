@@ -1,9 +1,11 @@
 ---
 description: >-
-Istražite korak-po-korak radni tok za naručivanje materijala, prijem robe i obradu fakture sa integracijom INFOR ERP-a i DocBits-a. Efikasno upravljanje dobavljačima i dokumentima u jednom sistemu.
+    Istražite korak-po-korak radni tok za naručivanje materijala, prijem robe i
+    obradu faktura sa integracijom INFOR ERP-a i DocBits-a. Efikasno upravljanje
+    dobavljačima i dokumentima u jednom sistemu.
 ---
 
-# Radni Tok Naručivanja Materijala i Obrade
+# Radni Tok Naručivanja i Obrade Materijala
 
 Ovaj dokument opisuje radni tok za naručivanje materijala od dobavljača, prijem robe i obradu faktura sa integracijom između dobavljača, sistema INFOR ERP i DocBits-a za upravljanje dokumentima.
 
@@ -17,7 +19,7 @@ Ovaj dokument opisuje radni tok za naručivanje materijala od dobavljača, prije
 * Kreiranje i slanje potvrde o narudžbini.
 3. **Prijem i Inspekcija Robe**
 * Prijem robe od dobavljača.
-* Knjiženje prijema robe u INFOR-u i provera sa računom dostave.
+* Knjiženje prijema robe u INFOR-u i provera sa računom za isporuku.
 4. **Obrada Fakture**
 * Prijem fakture i slanje DocBits-u na obradu.
 * Provera i verifikacija detalja fakture sa narudžbinom i prijemom robe.
@@ -37,11 +39,11 @@ Ovaj dokument opisuje radni tok za naručivanje materijala od dobavljača, prije
 ### Tačke Integracije
 
 * **INFOR ERP**: Glavni sistem za obradu narudžbina, prijem robe i finansijsko knjigovodstvo.
-* **DocBits**: Upravljanje dokumentima za obradu i arhiviranje faktura i potvrda o narudžbini.
+* **DocBits**: Upravljanje dokumentima za obradu i arhiviranje faktura i potvrda o narudžbinama.
 
 ### Napomene
 
 * Proverite da su svi dokumenti verifikovani i arhivirani radi čuvanja zapisa.
-* Neslaganja u detaljima narudžbine ili fakture moraju biti rešena odmah kako bi se izbegle kašnjenja.
+* Neslaganja u detaljima narudžbine ili fakture moraju biti rešena odmah kako bi se izbegli zastoji.
 
 <figure><img src="../../.gitbook/assets/embed.svg" alt=""><figcaption></figcaption></figure>

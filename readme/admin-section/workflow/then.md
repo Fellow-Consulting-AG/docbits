@@ -42,14 +42,14 @@
 ### **6. Akcije Dodeljenih:**
 
 * **Dodeli Korisnika iz Polja:** Dodeljuje korisnika zadatku ili dokumentu na osnovu podataka o korisniku sačuvanim u određenom polju, sa opcijom za rezervnog korisnika ako primarni nije dostupan.
-* **Dodeli Dokument Korisniku ili Grupi:** Direktno dodeljuje dokument korisniku ili grupi, osiguravajući da je odgovornost određena na odgovarajući način.
+* **Dodeli Dokument Korisniku ili Grupi:** Direktno dodeljuje dokument korisniku ili grupi, obezbeđujući odgovornost na odgovarajući način.
 
 <figure><img src="../../.gitbook/assets/then6.png" alt=""><figcaption></figcaption></figure>
 
 ### **7. Akcije Spoljne Interakcije:**
 
 * **Pozovi API:** Šalje zahtev spoljnom API-ju, koji se može prilagoditi sa specifičnim metodama, parametrima i podacima.
-* **Pošalji HTTPS Zahtev:** Slično kao pozivi API-ja, ali posebno formatirano za HTTPS protokole.
+* **Pošalji HTTPS Zahtev:** Slično kao pozivi API-ja, ali specifično formatirano za HTTPS protokole.
 
 <figure><img src="../../.gitbook/assets/then7.png" alt=""><figcaption></figcaption></figure>
 
@@ -62,8 +62,8 @@
 Ove kartice akcija se koriste za automatizaciju odgovora na osnovu specifičnih okidača identifikovanih u ranijim delovima postavke radnog toka. Na primer:
 
 * Ako se dokument identifikuje kao potreban za pregled, akcija "Odobri Dokument" može automatski biti pokrenuta kada prođe sve navedene uslove.
-* Za zadatke upravljanja podacima, akcije "Postavi Checkbox" ili "Postavi Polje na Tekst" osiguravaju automatsko ažuriranje polja dokumenata, smanjujući ručni unos podataka i mogućnost grešaka.
-* Kompleksni zadaci poput interakcija sa API-jem ili promena statusa optimizuju interakcije ne samo unutar ERP sistema već i sa spoljnim uslugama i alatima, poboljšavajući integraciju i funkcionalnost.
+* Za zadatke upravljanja podacima, akcije "Postavi Checkbox" ili "Postavi Polje na Tekst" osiguravaju automatsko ažuriranje polja dokumenata, smanjujući ručni unos podataka i potencijalne greške.
+* Kompleksni zadaci poput interakcija sa API-jem ili promena statusa optimizuju interakcije ne samo unutar ERP sistema, već i sa spoljnim uslugama i alatima, unapređujući integraciju i funkcionalnost.
 
 ### Zaključak
 

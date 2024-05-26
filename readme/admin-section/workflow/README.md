@@ -10,9 +10,9 @@ description: DocBits Workflow Engine
 
 ### Uvod
 
-U oblasti automatizacije procesa, DocBits Workflow Engine se ističe svojim jednostavnim i intuitivnim pristupom. Ovaj motor olakšava kreiranje i upravljanje radnim tokovima kroz jasnu i jednostavnu strukturu zasnovanu na pravilima. Osnovni princip njegovog dizajna je "Lako Kada-I-Onda" pravilo, koje razbija proces automatizacije na tri osnovne komponente: Okidač, Uslov i Akcija. Ovaj vodič objašnjava kako svaka komponenta funkcioniše unutar sistema i kako zajedno omogućavaju besprekornu automatizaciju.
+U svetu automatizacije procesa, DocBits Workflow Engine se ističe svojim jednostavnim i intuitivnim pristupom. Ovaj motor olakšava kreiranje i upravljanje radnim tokovima kroz jasnu i jednostavnu strukturu zasnovanu na pravilima. Osnovni princip njegovog dizajna je "Lako Kada-I-Onda" pravilo, koje razbija proces automatizacije na tri osnovne komponente: Okidač, Uslov i Akcija. Ovaj vodič objašnjava kako svaka komponenta funkcioniše u sistemu i kako zajedno omogućavaju besprekornu automatizaciju.
 
-### Objasnjenje "Lako Kada-I-Onda" Pravila
+### "Lako Kada-I-Onda" Pravilo Objasnjeno
 
 DocBits Workflow Engine funkcioniše na osnovnom, ali moćnom principu koji čini automatizaciju radnih tokova dostupnom korisnicima svih nivoa veština. Ovaj princip je sadržan u "Lako Kada-I-Onda" pravilu, koje se može razložiti na sledeći način:
 
@@ -23,17 +23,17 @@ DocBits Workflow Engine funkcioniše na osnovnom, ali moćnom principu koji čin
 
 #### [I](./#and-condition) (Uslov)
 
-* **Definicija**: Komponenta "I" uvodi _Uslov_ koji mora biti ispunjen da bi akcija mogla da se nastavi. Uslovi služe kao filteri ili kriterijumi koji preciziraju okidač, osiguravajući da se radni tok izvršava samo pod određenim okolnostima.
+* **Definicija**: Komponenta "I" uvodi _Uslov_ koji mora biti ispunjen da bi akcija nastavila. Uslovi služe kao filteri ili kriterijumi koji preciziraju okidač, osiguravajući da se radni tok izvršava samo pod određenim okolnostima.
 * **Primer**: "...i kupac je iz segmenta 'Preduzeće'..."
 
 #### [Onda](./#then-action) (Akcija)
 
-* **Definicija**: Na kraju, deo "Onda" specificira _Akciju_ koja treba da se preduzme kada se okidač desi i uslov bude ispunjen. Akcije su zadaci ili operacije izvršeni radnim tokom, poput slanja e-pošte, ažuriranja baze podataka ili kreiranja zadatka u alatu za upravljanje projektima.
+* **Definicija**: Na kraju, deo "Onda" specificira _Akciju_ koja treba da se preduzme kada se okidač desi i uslov bude ispunjen. Akcije su zadaci ili operacije izvršene radnim tokom, poput slanja e-pošte, ažuriranja baze podataka ili kreiranja zadatka u alatu za upravljanje projektima.
 * **Primer**: "...onda dodeliti potencijalni posao timu za prodaju preduzeća i poslati dobrodošlu e-poštu."
 
 ### Kombinovanje Komponenti za Moćne Automatizacije
 
-Sastavljanjem ovih tri komponenti—Okidač, Uslov, i Akcija—DocBits Workflow Engine omogućava korisnicima da kreiraju visoko prilagođene i efikasne radne tokove. Ovaj modularni pristup ne samo da pojednostavljuje proces postavljanja automatizacija, već takođe nudi fleksibilnost za kreiranje složenih radnih tokova sposobnih da obavljaju širok spektar zadataka i procesa.
+Sastavljanjem ovih tri komponenti—Okidač, Uslov, i Akcija—DocBits Workflow Engine omogućava korisnicima da kreiraju visoko prilagođene i efikasne radne tokove. Ovaj modularni pristup ne samo da pojednostavljuje proces postavljanja automatizacija, već takođe nudi fleksibilnost za kreiranje složenih radnih tokova koji su sposobni da obavljaju širok spektar zadataka i procesa.
 
 ### Zaključak
 

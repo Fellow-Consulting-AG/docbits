@@ -1,10 +1,10 @@
 # Checkbox
 
-**Napomena: Nije svaki korisnik ima checkbox, ali se može dodati po želji.**
+**Napomena: Nije svaki korisnik dobio checkbox, ali se može dodati po želji.**
 
 <figure><img src="https://lh7-us.googleusercontent.com/6gdwYpvcAbPJAtc0oJQvB9gAujf3WBQ2FIwJA0eR3GTPdQVD-N-gw1CwXGU4gNYaAA30CD8IYISCVQPoD6T-kYhN-a7vMf6SOdZ_B_-x-9agUDe-sWsTlean5cPR78HHFKHerJrEa3umXpsWvfPV_bs" alt=""><figcaption></figcaption></figure>
 
-Ova kartica automatski treba da proveri da li checkbox na dokumentu ima istu vrednost kao uslov na kartici. Da li je izabrano polje označeno (tačno) ili nije (netačno)
+Ova kartica automatski treba da proveri da li checkbox na dokumentu ima istu vrednost kao uslov na kartici. Da li je odabrano polje označeno (tačno) ili nije (netačno)
 
 
 

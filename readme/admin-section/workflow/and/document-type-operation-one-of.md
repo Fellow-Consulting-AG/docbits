@@ -32,7 +32,7 @@ Ova kartica je dizajnirana za upravljanje radnjama na dokumentima zavisno od nji
 
 * **Konfiguracija**: Korisnici moraju odrediti operator i navesti tipove dokumenata prilikom postavljanja kartice. Ova postavka može uključivati elemente interfejsa poput padajućih menija ili polja za potvrdu za odabir tipova dokumenata i operatora.
 * **Monitoring i prilagođavanje**: Korisnici mogu pratiti rezultate i efikasnost ove kartice putem logova i izveštaja koje generiše ERP sistem. Prilagođavanja se mogu vršiti na listi ili operatoru na osnovu promenljivih poslovnih potreba.
-* **Upravljanje greškama i povratne informacije**: Pruža mehanizme povratnih informacija za greške koje se jave tokom rada. Korisnici mogu postaviti upozorenja za slučaj neuspeha uslova, obezbeđujući brzu reakciju na probleme.
+* **Upravljanje greškama i povratne informacije**: Pruža mehanizme povratnih informacija za greške koje se jave tokom operacije. Korisnici mogu postaviti upozorenja kada uslovi ne uspeju, obezbeđujući brzu reakciju na probleme.
 
 #### Zaključak
 

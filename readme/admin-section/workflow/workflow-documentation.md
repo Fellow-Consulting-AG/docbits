@@ -14,7 +14,7 @@ Možete koristiti ove radne tokove (Test 1,2,3) da automatski dodijelite različ
 
 Ako račun ili drugi dokument premašuje određeni ukupni iznos koji zahteva prethodni pregled i odobrenje, ti dokumenti mogu odmah biti dodijeljeni odgovarajućoj osobi.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Test 1:              Logička kartica**
 
@@ -60,7 +60,7 @@ Za lakši pregled onoga što treba da se desi sa dokumentom, možete postaviti s
 
 **Onda:**              **Promeni status u:**         Na čekanju odobrenja
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
@@ -72,7 +72,7 @@ I:                   **Zaduženi je:**                       Stefan Reppermund
 
 Onda:                 **Promeni status u:**           Na čekanju drugog odobrenja
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/10 (1).png>)
 
@@ -84,11 +84,11 @@ Ako račun ili drugi dokument premašuje određeni ukupni iznos koji zahteva pre
 
 Kada:                   **Zaduženi je:**                   Amier Haider
 
-I:                      Polje dokumenta        **ukupan_iznos**     je      **Veći od       500**
+I:                      Polje dokumenta        **total\_amount**     je      **Veće od       500**
 
 Onda:                    **Dodijeli dokument:**   Asad Usman Khan
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/13 (1).png>)
 
@@ -98,7 +98,7 @@ Takođe je moguće uneti status u radni tok, tako da dodijeljena osoba odmah mo�
 
 **Kada:** **Zaduženi je:**                     Amier Haider
 
-**I:**                   Polje dokumenta           **ukupan_iznos**      je        **Veći od      500**
+**I:**                   Polje dokumenta           **total\_amount**      je        **Veće od      500**
 
 **Onda:**                 **Dodijeli dokument:**     Asad Usman Khan
 
@@ -114,7 +114,7 @@ Na primer, ako nedostaju određene ili važne informacije u dokumentu, ali su va
 
 **Test 9:**
 
-Radni tok sa ovim logičkim karticama dizajniran je da automatski proveri da li količina, jedinična cena ili popust navedeni u potvrdi o narudžbini odgovaraju odgovarajućim ciframa u narudžbenici. Ova provera osigurava doslednost i tačnost između onoga što je naručeno i onoga što dobavljač potvrđuje da će isporučiti.
+Radni tok sa ovim logičkim karticama dizajniran je da automatski proveri da li se količina, jedinična cena ili popust detaljno navedeni u potvrdi o narudžbini podudaraju sa odgovarajućim ciframa u narudžbenici. Ova provera osigurava doslednost i tačnost između onoga što je naručeno i onoga što dobavljač potvrđuje da će isporučiti.
 
 Možete dati ovim dokumentima određeni status ili ih dodijeliti određenom zaposlenom.
 
@@ -128,16 +128,16 @@ Možete dati ovim dokumentima određeni status ili ih dodijeliti određenom zapo
 
 **Logička kartica: Podudaranje količine ili jedinične cene ili popusta**
 
-Ova logička kartica je dizajnirana da automatski proveri da li količina, jedinična cena ili popust navedeni u potvrdi o narudžbini odgovaraju odgovarajućim ciframa u narudžbenici. Ova provera osigurava doslednost i tačnost između onoga što je naručeno i onoga što dobavljač potvrđuje da će isporučiti.
+Ova logička kartica dizajnirana je da automatski proveri da li se količina, jedinična cena ili popust detaljno navedeni u potvrdi o narudžbini podudaraju sa odgovarajućim ciframa u narudžbenici. Ova provera osigurava doslednost i tačnost između onoga što je naručeno i onoga što dobavljač potvrđuje da će isporučiti.
 
 
 
 **Uslov okidača**
 
-Logika se aktivira kada se ispunjava bilo koji od sledećih uslova u potvrdi o narudžbini u odnosu na originalnu narudžbenicu:
+Logika se aktivira kada se bilo koji od sledećih uslova ispuni u potvrdi o narudžbini u odnosu na originalnu narudžbenicu:
 
-* **Količina**: Količina naručenih stavki odgovara količini potvrđenoj od strane dobavljača.
-* **Jedinična cena**: Cena po dogovorenom artiklu odgovara potvrdi dobavljača.
+* **Količina**: Količina naručenih stavki se podudara sa količinom potvrđenom od strane dobavljača.
+* **Jedinična cena**: Cena po dogovorenoj stavci se podudara sa potvrdom dobavljača.
 * **Popust**: Bilo koji primenjeni popusti su dosledni između narudžbenice i potvrde o narudžbini.
 
 
@@ -146,7 +146,7 @@ Logika se aktivira kada se ispunjava bilo koji od sledećih uslova u potvrdi o n
 * **Automatizujte verifikaciju**: Konfigurišite sistem da automatski uporedi ove detalje po prijemu potvrde o narudžbini.
 * **Prilagodite upozorenja**: Odlučite o radnom toku za rukovanje neslaganjima, uključujući prilagođavanje upozorenja za ručni pregled.
 
-Ova logička kartica je od vitalnog značaja za osiguravanje da detalji potvrde o narudžbini odgovaraju originalnoj narudžbenici, čime se čuva integritet ciklusa nabavke.
+Ova logička kartica je od vitalnog značaja za osiguravanje da detalji potvrde o narudžbini budu usklađeni sa originalnom narudžbenicom, čime se čuva integritet ciklusa nabavke.
 
 
 
@@ -160,13 +160,13 @@ Prikazan je primer proračuna za MTZ sa filterom za brojeve stavki koji počinju
 
 
 
-Sa ručnim podešavanjem preporučuje se razdvajanje proračuna koji zavise od novih kolona u zaseban radni tok. Za nastavak proračuna možete koristiti karticu Pokreni radni tok.
+Sa ručnim podešavanjem preporučuje se da razdvojite proračune koji zavise od novih kolona u zaseban radni tok. Za nastavak sa proračunom možete koristiti karticu Pokreni radni tok.
 
 **Pokreni radni tok**
 
 <figure><img src="../../.gitbook/assets/20 (1).png" alt=""><figcaption></figcaption></figure>
 
-Ovom karticom možete odrediti ime radnog toka koji će se pokrenuti nakon trenutnog radnog toka ako se ispune njegovi uslovi i nakon prethodnih zatim kartica trenutnog radnog toka. Iako daje prednost pokretljivim, aktivnim radnim tokovima, takođe vam omogućava da pokrenete deaktivirane radne tokove ako dokument ispunjava uslove radnih tokova.
+Pomoću ove kartice možete navesti ime radnog toka koji će se pokrenuti nakon trenutnog radnog toka ako se ispune njegovi uslovi i nakon prethodnih zatim kartica trenutnog radnog toka. Iako daje prednost pokretljivim, aktivnim radnim tokovima, takođe vam omogućava da pokrenete deaktivirane radne tokove ako dokument ispunjava uslove radnih tokova.
 ### **Dodavanje izračunatih nadoknada u postojeću kolonu** <a href="#pekg4i18rshn" id="pekg4i18rshn"></a>
 
 <figure><img src="https://lh7-us.googleusercontent.com/XYY1xsFpp7_-Bi0WOSbotiVzspDLdaufx_xgoopMHmxdZnSDhroLpb0AE_si5PhwMq1jHfndc9FwOte9MOoCoTP5_JUYawO5cr4uIctIDHmwVjz3KacQrLJd8iBQy5KY4N-dMaWEi3IeTcc5OBRNJk4" alt=""><figcaption></figcaption></figure>
