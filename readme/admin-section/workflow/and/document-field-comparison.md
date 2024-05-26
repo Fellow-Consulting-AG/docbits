@@ -4,7 +4,7 @@
 
 **Zweck**
 
-Diese Workflow-Karte ist darauf ausgelegt, automatisch die Werte von zwei spezifizierten Feldern innerhalb eines Dokuments basierend auf einem definierten Operator zu vergleichen. Sie wird verwendet, um die Datenintegrität durchzusetzen und sicherzustellen, dass die Dokumentendaten den Geschäftsregeln oder Bedingungen entsprechen.
+Diese Workflow-Karte ist darauf ausgelegt, automatisch die Werte von zwei angegebenen Feldern innerhalb eines Dokuments anhand eines definierten Operators zu vergleichen. Sie wird verwendet, um die Datenintegrität durchzusetzen und sicherzustellen, dass die Dokumentendaten den Geschäftsregeln oder Bedingungen entsprechen.
 
 **Komponenten der Karte**
 
@@ -16,15 +16,15 @@ Diese Workflow-Karte ist darauf ausgelegt, automatisch die Werte von zwei spezif
 * **Optionen**:
 * **Gleich (==)**: Überprüft, ob der Wert des ersten Feldes gleich dem Wert des zweiten Feldes ist.
 * **Nicht gleich (!=)**: Überprüft, ob der Wert des ersten Feldes ungleich dem Wert des zweiten Feldes ist.
-* **Größer als (>)**: Überprüft, ob der Wert des ersten Feldes größer als der Wert des zweiten Feldes ist.
+* **Größer als (>)**: Überprüft, ob der Wert des ersten Feldes größer ist als der Wert des zweiten Feldes.
 * **Größer als oder gleich (>=)**: Überprüft, ob der Wert des ersten Feldes größer oder gleich dem Wert des zweiten Feldes ist.
-* **Kleiner als (<)**: Überprüft, ob der Wert des ersten Feldes kleiner als der Wert des zweiten Feldes ist.
+* **Kleiner als (<)**: Überprüft, ob der Wert des ersten Feldes kleiner ist als der Wert des zweiten Feldes.
 * **Kleiner als oder gleich (<=)**: Überprüft, ob der Wert des ersten Feldes kleiner oder gleich dem Wert des zweiten Feldes ist.
 
 **Funktionalität**
 
 * **Feldauswahl**: Benutzer geben die Namen der beiden zu vergleichenden Felder ein oder wählen sie aus. Dies erfolgt in der Regel über ein Formular oder ein Dropdown-Menü innerhalb der Karteneinrichtung.
-* **Operatorauswahl**: Benutzer wählen einen Operator aus einer Liste verfügbarer Optionen, die definieren, wie die Felder verglichen werden sollen.
+* **Operatorauswahl**: Benutzer wählen einen Operator aus einer Liste verfügbarer Optionen aus, der definiert, wie die Felder verglichen werden sollen.
 * **Vergleichsausführung**:
 * Das System liest die Werte aus den angegebenen Feldern und wendet den ausgewählten Operator an, um die Beziehung zwischen ihnen zu bewerten.
 * Basierend auf dem Ergebnis des Vergleichs (wahr oder falsch) können nachfolgende Aktionen ausgelöst werden. Wenn beispielsweise ein Vergleich fehlschlägt, könnte das System das Dokument zur Überprüfung markieren, die weitere Verarbeitung blockieren oder die verantwortlichen Parteien benachrichtigen.
@@ -37,4 +37,4 @@ Diese Workflow-Karte ist darauf ausgelegt, automatisch die Werte von zwei spezif
 
 #### Fazit
 
-Die Workflow-Karte "Dokumentenfeldvergleich" ist entscheidend für die Aufrechterhaltung der Datenpräzision und -konsistenz über Dokumente hinweg in einem ERP-System. Sie hilft dabei, Überprüfungen zu automatisieren, die ansonsten manuell, fehleranfällig und zeitaufwändig wären, was die Effizienz und Zuverlässigkeit bei der Dokumentenverarbeitung erhöht. Eine klare Dokumentation dieser Karte in der Anleitung Ihres ERP-Systems wird Benutzern dabei helfen, diese Funktion effektiv einzusetzen und sicherzustellen, dass die Daten über Dokumente hinweg konsistent bleiben und den Geschäftsregeln entsprechen.
+Die Workflow-Karte "Dokumentenfeldvergleich" ist entscheidend für die Aufrechterhaltung der Datenpräzision und -konsistenz in Dokumenten eines ERP-Systems. Sie hilft dabei, Überprüfungen zu automatisieren, die ansonsten manuell, fehleranfällig und zeitaufwändig wären, und verbessert so die Effizienz und Zuverlässigkeit bei der Dokumentenverarbeitung. Eine klare Dokumentation dieser Karte in der Anleitung Ihres ERP-Systems wird Benutzern dabei helfen, diese Funktion effektiv einzusetzen und sicherzustellen, dass die Daten in den Dokumenten konsistent bleiben und den Geschäftsregeln entsprechen.

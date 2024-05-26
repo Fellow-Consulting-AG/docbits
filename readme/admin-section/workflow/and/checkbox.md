@@ -1,6 +1,6 @@
 # Kontrollkästchen
 
-**Hinweis: Nicht jeder Kunde hat das Kontrollkästchen, aber es kann hinzugefügt werden, wenn gewünscht.**
+**Hinweis: Nicht jeder Kunde verfügt über das Kontrollkästchen, aber es kann hinzugefügt werden, wenn gewünscht.**
 
 <figure><img src="https://lh7-us.googleusercontent.com/6gdwYpvcAbPJAtc0oJQvB9gAujf3WBQ2FIwJA0eR3GTPdQVD-N-gw1CwXGU4gNYaAA30CD8IYISCVQPoD6T-kYhN-a7vMf6SOdZ_B_-x-9agUDe-sWsTlean5cPR78HHFKHerJrEa3umXpsWvfPV_bs" alt=""><figcaption></figcaption></figure>
 

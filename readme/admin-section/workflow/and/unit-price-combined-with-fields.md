@@ -14,10 +14,10 @@ Funktionalität:
 * Größer als (>): Überprüft, ob der kombinierte Rechnungspreis den Preis im Kaufauftrag übersteigt.
 * Kleiner als (<): Bestätigt, dass der kombinierte Rechnungspreis unter dem Preis im Kaufauftrag liegt.
 
-Verwendung: Diese Karte ist besonders wertvoll für ERP-Manager und Finanzbuchhalter, die mit der strengen Kontrolle über Einkaufs- und Zahlungsprozesse betraut sind. Sie stellt sicher, dass die in Rechnungen angegebenen Preise mit denen übereinstimmen, die in den Bestellungen vereinbart wurden, und mindert so finanzielle Diskrepanzen.
+Verwendung: Diese Karte ist besonders wertvoll für ERP-Manager und Finanzbuchhalter, die mit der strengen Kontrolle über Einkaufs- und Zahlungsprozesse betraut sind. Sie stellt sicher, dass die in Rechnungen angegebenen Preise mit denen übereinstimmen, die in den Kaufaufträgen vereinbart wurden, und mindert so finanzielle Diskrepanzen.
 
 Beispiel Szenario:
 
-* Eine Rechnung zeigt einen Einheitspreis von $50 für ein Produkt an. Der angegebene "Feldname" enthält eine zusätzliche Bearbeitungsgebühr von $5 pro Einheit. Wenn kombiniert, ergibt sich der Gesamtbetrag pro Einheit auf $55. Durch Verwendung des "Gleich" Operators mit einem Wert von $55 überprüft die Karte, ob der in Rechnung gestellte Preis mit dem Kaufauftrag übereinstimmt und stellt die Übereinstimmung sicher.
+* Eine Rechnung zeigt einen Einheitspreis von $50 für ein Produkt an. Der angegebene "Feldname" enthält eine zusätzliche Bearbeitungsgebühr von $5 pro Einheit. Wenn kombiniert, beläuft sich der Gesamtbetrag pro Einheit auf $55. Durch Verwendung des "Gleich" Operators mit einem Wert von $55 überprüft die Karte, ob der in Rechnung gestellte Preis mit dem Kaufauftrag übereinstimmt und stellt die Übereinstimmung sicher.
 
-Durch den Einsatz der Karte "Vergleich mit Kaufauftrag: Einheitspreis kombiniert" können Unternehmen die Überprüfung der Preisgenauigkeit gegenüber Kaufaufträgen automatisieren, Finanzoperationen optimieren und sich gegen Überbelastungen absichern.
+Durch den Einsatz der Karte "Mit Kaufauftrag vergleichen: Einheitspreis kombiniert" können Unternehmen die Überprüfung der Preisgenauigkeit gegenüber Kaufaufträgen automatisieren, Finanzoperationen optimieren und sich gegen Überbelastungen absichern.

@@ -30,7 +30,7 @@ Diese Workflow-Karte ist darauf ausgerichtet, Operationen an Dokumenten basieren
 
 **Benutzerinteraktionen**
 
-* **Einrichtung und Konfiguration**: Benutzer richten die Karte ein, indem sie einen Operator auswählen und dann einen Status aus den verfügbaren Optionen wählen. Dieser Auswahlprozess ist unkompliziert und so gestaltet, dass Verwirrung vermieden wird.
+* **Einrichtung und Konfiguration**: Benutzer richten die Karte ein, indem sie einen Operator auswählen und dann einen Status aus den verfügbaren Optionen wählen. Dieser Auswahlprozess ist unkompliziert und soll Verwirrung vermeiden.
 * **Überwachung und Berichterstellung**: Ermöglicht die Überwachung durch systemgenerierte Berichte oder Dashboards, die die Verarbeitung von Dokumenten basierend auf ihrem Status verfolgen und dazu beitragen, die Effektivität der implementierten Workflows zu überwachen.
 * **Fehlerbehandlung und Benachrichtigungen**: Konfigurierbar, um Benutzer über Verarbeitungsanomalien zu informieren oder Dokumente zu kennzeichnen, die die festgelegten Bedingungen nicht erfüllen, um eine schnelle Aufmerksamkeit und Lösung sicherzustellen.
 

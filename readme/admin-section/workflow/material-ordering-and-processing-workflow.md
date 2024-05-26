@@ -1,8 +1,8 @@
 ---
 description: >-
-  Erkunden Sie den schrittweisen Workflow für die Bestellung von Material, den Wareneingang und die Rechnungsbearbeitung mit INFOR ERP und der Integration von DocBits. Effektives Lieferanten- und Dokumentenmanagement in einem.
+  Erkunden Sie den schrittweisen Workflow für die Bestellung von Materialien, den Wareneingang und die Rechnungsbearbeitung mit INFOR ERP und der Integration von DocBits. Effektives Lieferanten- und Dokumentenmanagement in einem.
 
-# Materialbestellungs- und Verarbeitungsworkflow
+# Workflow für die Bestellung und Verarbeitung von Materialien
 
 Dieses Dokument umreißt den Workflow für die Bestellung von Materialien bei Lieferanten, den Wareneingang und die Rechnungsbearbeitung mit Integration zwischen Lieferanten, dem INFOR ERP-System und DocBits für das Dokumentenmanagement.
 
@@ -30,7 +30,7 @@ Dieses Dokument umreißt den Workflow für die Bestellung von Materialien bei Li
 * Ja: Fortfahren mit der Rechnungsbearbeitung.
 * Nein: Manuelle Prüfung und Aktualisierung erforderlich.
 * **Ist die Rechnung gemäß den erhaltenen Waren und Bestelldetails korrekt?**
-* Ja: Die Transaktion abschließen und Finanzunterlagen aktualisieren.
+* Ja: Die Transaktion abschließen und Finanzdatensätze aktualisieren.
 * Nein: Weitere Prüfung und Korrekturen erforderlich.
 
 ### Integrationspunkte

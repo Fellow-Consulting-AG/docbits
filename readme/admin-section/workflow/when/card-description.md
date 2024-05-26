@@ -12,4 +12,4 @@ Ein Workflow kann mit diesen beiden Karten gestartet werden. Hier können Sie en
 
 <figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-Diese Karte kann auch verwendet werden, um mehrere Dokumententypen anzugeben, die vom Workflow betroffen sein sollen.
+Diese Karte kann auch verwendet werden, um mehrere Dokumententypen anzugeben, die vom Workflow beeinflusst werden sollen.

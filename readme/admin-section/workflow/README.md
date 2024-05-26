@@ -10,11 +10,11 @@ description: DocBits Workflow Engine
 
 ### Einführung
 
-Im Bereich der Prozessautomatisierung zeichnet sich der DocBits Workflow Engine durch seinen klaren und intuitiven Ansatz aus. Diese Engine vereinfacht die Erstellung und Verwaltung von Workflows durch eine klare und einfache regelbasierte Struktur. Das Kernprinzip hinter seinem Design ist die "Easy When-And-Then"-Regel, die den Automatisierungsprozess in drei grundlegende Komponenten unterteilt: Trigger, Bedingung und Aktion. Dieser Leitfaden erläutert, wie jede Komponente im System funktioniert und wie sie zusammenarbeiten, um eine nahtlose Automatisierung zu ermöglichen.
+Im Bereich der Prozessautomatisierung zeichnet sich der DocBits Workflow Engine durch seinen klaren und intuitiven Ansatz aus. Diese Engine vereinfacht die Erstellung und Verwaltung von Workflows durch eine klare und einfache regelbasierte Struktur. Das Kernprinzip hinter dem Design ist die "Easy When-And-Then"-Regel, die den Automatisierungsprozess in drei grundlegende Komponenten unterteilt: Trigger, Bedingung und Aktion. Dieser Leitfaden erläutert, wie jede Komponente im System funktioniert und wie sie zusammenarbeiten, um eine nahtlose Automatisierung zu ermöglichen.
 
 ### Die "Easy When-And-Then"-Regel erklärt
 
-Der DocBits Workflow Engine basiert auf einem einfachen, aber leistungsstarken Prinzip, das die Automatisierung von Workflows für Benutzer aller Erfahrungsstufen zugänglich macht. Dieses Prinzip wird in der "Easy When-And-Then"-Regel zusammengefasst, die wie folgt aufgeschlüsselt werden kann:
+Die DocBits Workflow Engine basiert auf einem einfachen, aber leistungsstarken Prinzip, das die Automatisierung von Workflows für Benutzer aller Erfahrungsstufen zugänglich macht. Dieses Prinzip wird in der "Easy When-And-Then"-Regel zusammengefasst, die wie folgt aufgeschlüsselt werden kann:
 
 #### [When](./#when-trigger) (Trigger)
 
@@ -28,13 +28,13 @@ Der DocBits Workflow Engine basiert auf einem einfachen, aber leistungsstarken P
 
 #### [Then](./#then-action) (Aktion)
 
-* **Definition**: Schließlich legt der "Then"-Teil die _Aktion_ fest, die ausgeführt werden soll, sobald der Trigger auftritt und die Bedingung erfüllt ist. Aktionen sind die Aufgaben oder Operationen, die vom Workflow ausgeführt werden, wie das Versenden einer E-Mail, das Aktualisieren einer Datenbank oder das Erstellen einer Aufgabe in einem Projektmanagement-Tool.
+* **Definition**: Schließlich legt der "Then"-Teil die _Aktion_ fest, die ausgeführt werden soll, sobald der Trigger auftritt und die Bedingung erfüllt ist. Aktionen sind die Aufgaben oder Operationen, die vom Workflow ausgeführt werden, wie das Senden einer E-Mail, das Aktualisieren einer Datenbank oder das Erstellen einer Aufgabe in einem Projektmanagement-Tool.
 * **Beispiel**: "...dann weisen Sie den Lead dem Enterprise-Vertriebsteam zu und senden Sie eine Willkommens-E-Mail."
 
 ### Kombination der Komponenten für leistungsstarke Automatisierungen
 
-Durch die Zusammenstellung dieser drei Komponenten – Trigger, Bedingung und Aktion – ermöglicht der DocBits Workflow Engine Benutzern die Erstellung hochgradig angepasster und effizienter Workflows. Dieser modulare Ansatz vereinfacht nicht nur den Prozess der Einrichtung von Automatisierungen, sondern bietet auch die Flexibilität, komplexe Workflows zu erstellen, die eine Vielzahl von Aufgaben und Prozessen bewältigen können.
+Durch die Zusammenstellung dieser drei Komponenten – Trigger, Bedingung und Aktion – ermöglicht die DocBits Workflow Engine Benutzern die Erstellung hochgradig angepasster und effizienter Workflows. Dieser modulare Ansatz vereinfacht nicht nur den Prozess der Einrichtung von Automatisierungen, sondern bietet auch die Flexibilität, komplexe Workflows zu erstellen, die eine Vielzahl von Aufgaben und Prozessen bewältigen können.
 
 ### Fazit
 
-Die "Easy When-And-Then"-Regel des DocBits Workflow Engine veranschaulicht das Engagement der Engine, eine benutzerfreundliche Plattform für die Automatisierung von Prozessen bereitzustellen. Diese klare Regel, die die Automatisierung in die wesentlichen Elemente Trigger, Bedingung und Aktion aufschlüsselt, erleichtert es Benutzern, Workflows zu konzipieren, zu erstellen und zu verwalten. Egal, ob Sie neu in der Workflow-Automatisierung sind oder ein erfahrener Fachmann, der DocBits Workflow Engine bietet ein effizientes und zugängliches Tool, um die Produktivität zu steigern und Abläufe zu optimieren.
+Die "Easy When-And-Then"-Regel der DocBits Workflow Engine veranschaulicht das Engagement der Engine, eine benutzerfreundliche Plattform für die Automatisierung von Prozessen bereitzustellen. Diese klare Regel, die die Automatisierung in die wesentlichen Elemente Trigger, Bedingung und Aktion aufschlüsselt, erleichtert es Benutzern, Workflows zu konzipieren, zu erstellen und zu verwalten. Egal, ob Sie neu in der Workflow-Automatisierung sind oder ein erfahrener Fachmann, die DocBits Workflow Engine bietet ein effizientes und zugängliches Tool zur Steigerung der Produktivität und Optimierung von Abläufen.

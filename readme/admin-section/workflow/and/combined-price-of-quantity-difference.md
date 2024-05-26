@@ -18,7 +18,7 @@ Verwendung: Diese Karte ist besonders nützlich für ERP-Manager und Finanzbuchh
 
 Beispiel Szenario:
 
-* Eine Rechnung listet insgesamt 100 Einheiten eines Produkts zu je 50 $ pro Einheit auf, insgesamt also 5000 $. Die zugehörige Bestellung genehmigte einen Kauf von 4500 $. Mit dem Operator "Größer als" identifiziert und markiert die Karte die Diskrepanz zur Überprüfung.
+* Eine Rechnung listet insgesamt 100 Einheiten eines Produkts zu je 50 $ pro Einheit auf, insgesamt also 5000 $. Die zugehörige Bestellung genehmigte einen Kauf von 4500 $. Mit dem Operator "Größer als" identifiziert die Karte die Diskrepanz und markiert sie zur Überprüfung.
 
 Durch die Verwendung der Karte "Mit Bestellung vergleichen" können Benutzer automatisch sicherstellen, dass Zahlungen mit Kaufvereinbarungen übereinstimmen, Zeit sparen und menschliche Fehler bei der finanziellen Abwicklung reduzieren.
 

@@ -7,7 +7,7 @@ Dieser Titel deutet darauf hin, dass die Regel darauf ausgelegt ist, Fälle zu v
 #### Regelkonfiguration:
 
 1. **Wenn…**
-* **Dokumententyp ist Rechnung**: Diese Bedingung stellt sicher, dass die Regel nur für Rechnungen gilt, was für die korrekte Weiterleitung des Workflows unerlässlich ist.
+* **Dokumententyp ist Rechnung**: Diese Bedingung stellt sicher, dass die Regel nur für Rechnungen gilt, was für die korrekte Weiterleitung des Workflows wesentlich ist.
 2. **Und…**
 * **Dokumentenstatus ist Ausstehende Genehmigung**: Die Rechnung muss sich im Status "Ausstehende Genehmigung" befinden. Dieser Status ist entscheidend, um sicherzustellen, dass die Regel auf Rechnungen angewendet wird, die noch bearbeitet werden und noch nicht abgeschlossen sind.
 * **Vergleiche zwei Felder: Gesamtbetrag größer als Genehmiger Maximalbetrag**: Diese Bedingung überprüft, ob der Gesamtbetrag der Rechnung den maximalen Betrag überschreitet, den ein Genehmiger bearbeiten darf. Dieser Vergleich kann auch eine Toleranzeinstellung enthalten, die geringfügige Abweichungen basierend auf vordefinierten Kriterien zulässt.
@@ -18,7 +18,7 @@ Dieser Titel deutet darauf hin, dass die Regel darauf ausgelegt ist, Fälle zu v
 
 #### Schnittstellenelemente:
 
-* **Karte hinzufügen**: Diese Option ermöglicht es, zusätzliche Bedingungen oder Aktionen zur Regel hinzuzufügen, um komplexe Szenarien zu bewältigen.
+* **Karte hinzufügen**: Diese Option ermöglicht es, zusätzliche Bedingungen oder Aktionen zur Regel hinzuzufügen, um auf komplexe Szenarien eingehen zu können.
 * **Speichern**: Diese Schaltfläche speichert die Regelkonfiguration im System.
 
 #### Zweck dieser Regel:

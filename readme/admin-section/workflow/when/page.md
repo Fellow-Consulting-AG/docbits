@@ -9,7 +9,7 @@ Diese Workflow-Karte ist speziell darauf ausgelegt, vordefinierte Operationen an
 **Komponenten der Karte**
 
 1. **Operator**
-* **Beschreibung**: Legt die auszuführende Aktion für das Dokument fest.
+* **Beschreibung**: Legt die auszuführende Aktion auf dem Dokument fest.
 * **Beispiele**: Häufige Operationen umfassen "Validieren", "Speichern", "Verarbeiten", "Senden" usw. Jeder Operator definiert eine Reihe von Aufgaben, die das System automatisiert, basierend auf dem Dokumententyp.
 2. **Dokumententyp**
 * **Beschreibung**: Identifiziert die Kategorie des Dokuments, auf das sich die Operation bezieht.
@@ -21,7 +21,7 @@ Diese Workflow-Karte ist speziell darauf ausgelegt, vordefinierte Operationen an
 * **Operation Ausführung**: Führt die spezifizierte Operation für Dokumente des identifizierten Typs aus. Diese Ausführung könnte beinhalten:
 * **Validieren**: Überprüfen des Dokuments auf Vollständigkeit, Korrektheit und Einhaltung von Standards.
 * **Speichern**: Speichern des Dokuments im dafür vorgesehenen Repository mit ordnungsgemäßer Indexierung.
-* **Verarbeiten**: Anwendung von Geschäftslogik auf das Dokument, wie das Berechnen von Gesamtsummen auf einer Rechnung oder das Aktualisieren von Datenbankeinträgen.
+* **Verarbeiten**: Anwendung von Geschäftslogik auf das Dokument, wie das Berechnen von Summen auf einer Rechnung oder das Aktualisieren von Datenbankeinträgen.
 * **Senden**: Verteilen des Dokuments an andere Geschäftseinheiten oder externe Partner basierend auf Workflow-Anforderungen.
 * **Compliance und Sicherheit**: Stellt sicher, dass alle Operationen den regulatorischen Compliance- und Sicherheitsprotokollen entsprechen, die spezifisch für den Dokumententyp sind.
 * **Automatisierung und Integration**: Integriert nahtlos mit anderen Workflows im ERP-System und erleichtert automatisierte Übergänge zwischen verschiedenen Betriebsphasen.

@@ -10,20 +10,20 @@
 
 **Wie es funktioniert**
 
-* In Ihrer Benutzeroberfläche erscheint "Wann" als Ausgangspunkt, an dem Benutzer verschiedene Trigger-Karten auswählen können. Jede Karte spezifiziert Bedingungen, unter denen nachfolgende Aktionen (definiert in einem anderen Abschnitt der Workflow-Konfiguration, wahrscheinlich mit der Bezeichnung "Aktion") ausgeführt werden.
+* In Ihrer Benutzeroberfläche erscheint "Wann" als Ausgangspunkt, an dem Benutzer verschiedene Trigger-Karten auswählen können. Jede Karte legt Bedingungen fest, unter denen nachfolgende Aktionen (definiert in einem anderen Abschnitt der Workflow-Konfiguration, wahrscheinlich mit der Bezeichnung "Aktion") ausgeführt werden.
 
-**Bedingungskarten für Dokumententypen**
+**Karten für Dokumententypbedingungen**
 
-* Die in der Abbildung angezeigten Karten sind Varianten von "Dokumententyp"-Bedingungen, die verwendet werden, um Workflows basierend auf dem Typ des zu verarbeitenden Dokuments auszulösen. Hier ist eine Aufschlüsselung jeder Art von Bedingungskarte:
-* **Dokumententyp (Operator) einer von (Typ)**: Diese Karte löst eine Aktion aus, wenn der Typ eines Dokuments mit einem der angegebenen Typen in einer Liste übereinstimmt. Der Operator könnte Optionen wie "ist" oder "ist nicht" enthalten, die inklusive oder exklusive Bedingungen ermöglichen.
-* **Dokumententyp (Operator) (Typ)**: Diese einfachere Variante wird basierend auf einer einzelnen Dokumententyp-Bedingung ausgelöst. Sie würde typischerweise überprüfen, ob der Dokumententyp "ist" oder "ist nicht" ein bestimmter Typ ist, ohne die Möglichkeit, aus mehreren Typen auszuwählen.
+* Die in der Abbildung angezeigten Karten sind Varianten von "Dokumententyp"-Bedingungen, die Workflows basierend auf dem Typ des zu verarbeitenden Dokuments auslösen. Hier ist eine Aufschlüsselung jeder Art von Bedingungskarte:
+* **Dokumententyp (Operator) einer von (Typ)**: Diese Karte löst eine Aktion aus, wenn der Typ eines Dokuments mit einem der angegebenen Typen in einer Liste übereinstimmt. Der Operator kann Optionen wie "ist" oder "ist nicht" enthalten, was inklusive oder exklusive Bedingungen ermöglicht.
+* **Dokumententyp (Operator) (Typ)**: Diese einfachere Variante wird basierend auf einer einzelnen Dokumententyp-Bedingung ausgelöst. Es würde typischerweise überprüfen, ob der Dokumententyp "ist" oder "ist nicht" ein bestimmter Typ ist, ohne die Möglichkeit, aus mehreren Typen auszuwählen.
 
 #### Einrichten einer "Wann"-Triggerkarte
 
-1. **Auswahl des Bedingungstyps**: Benutzer beginnen mit der Auswahl eines für den zu automatisierenden Workflow relevanten Bedingungstyps. In diesem Fall stehen Dokumententypen im Fokus.
+1. **Auswahl des Bedingungstyps**: Benutzer beginnen mit der Auswahl eines für den zu automatisierenden Workflow relevanten Bedingungstyps. In diesem Fall stehen Dokumententypen im Mittelpunkt.
 2. **Definition des Operators**: Benutzer müssen den logischen Operator festlegen – wie "ist" oder "ist nicht" – der die Grundlage für den Vergleich der tatsächlichen Dokumententypen mit den definierten Bedingungen bildet.
 3. **Spezifizierung der Dokumententypen**: Abhängig von der Karte können Benutzer einen oder mehrere Dokumententypen auswählen, die den Workflow auslösen, wenn Dokumente dieser Typen verarbeitet werden.
-4. **Abschließen des Triggers**: Sobald die Bedingung eingerichtet ist, bildet sie die Grundlage für das Auslösen spezifischer Aktionen, die im Workflow definiert sind. Wenn ein Dokument die festgelegte Bedingung erfüllt, werden die definierten Aktionen automatisch initiiert.
+4. **Abschließen des Triggers**: Sobald die Bedingung eingerichtet ist, bildet sie die Grundlage für das Auslösen spezifischer Aktionen, die in dem Workflow definiert sind. Wenn ein Dokument die festgelegte Bedingung erfüllt, werden die definierten Aktionen automatisch initiiert.
 
 #### Praktische Anwendung
 

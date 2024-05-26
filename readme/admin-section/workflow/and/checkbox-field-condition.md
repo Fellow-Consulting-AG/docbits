@@ -9,7 +9,7 @@ Diese Workflow-Karte ist darauf ausgelegt, Aktionen basierend auf dem Zustand (a
 **Komponenten der Karte**
 
 1. **Feldname**
-* **Beschreibung**: Gibt den Namen des Kontrollkästchenfelds an, das ausgewertet wird.
+* **Beschreibung**: Gibt den Namen des zu überprüfenden Kontrollkästchenfelds an.
 * **Detail**: Dies sollte mit dem genauen Feldlabel oder Bezeichner übereinstimmen, der im System verwendet wird. Es bestimmt, welcher Zustand des Kontrollkästchens überwacht wird.
 2. **Boolesch**
 * **Beschreibung**: Definiert die Bedingung, die den Workflow auslöst.
@@ -34,4 +34,4 @@ Diese Workflow-Karte ist darauf ausgelegt, Aktionen basierend auf dem Zustand (a
 
 #### Fazit
 
-Die Workflow-Karte "Kontrollkästchenfeldbedingung" ist ein grundlegendes Werkzeug zur Verwaltung dynamischer Formulare und Dokumente innerhalb eines ERP-Systems, in dem Benutzereingaben nachfolgende Datenprozesse bestimmen können. Durch Automatisierung von Aktionen basierend auf dem Zustand eines Kontrollkästchens verbessert diese Karte die Effizienz von Workflows und stellt sicher, dass sich Systemverhalten mit Benutzereingaben abstimmt. Eine klare Dokumentation dieser Karte hilft Benutzern, sie effektiv in ihren Operationen zu implementieren, was eine bessere Kontrolle über Formularverhalten und Prozessautomatisierungen ermöglicht.
+Die Workflow-Karte "Kontrollkästchenfeldbedingung" ist ein grundlegendes Werkzeug zur Verwaltung dynamischer Formulare und Dokumente innerhalb eines ERP-Systems, in dem Benutzereingaben nachfolgende Datenprozesse bestimmen können. Durch die Automatisierung von Aktionen basierend auf dem Zustand eines Kontrollkästchens verbessert diese Karte die Effizienz des Workflows und stellt sicher, dass sich Systemverhalten mit Benutzereingaben abstimmt. Eine klare Dokumentation dieser Karte hilft Benutzern, sie effektiv in ihren Operationen zu implementieren, was eine bessere Kontrolle über Formularverhalten und Prozessautomatisierungen ermöglicht.

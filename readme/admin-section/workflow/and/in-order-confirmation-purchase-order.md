@@ -1,14 +1,14 @@
-# In Auftragsbestätigung Bestellung
+# In Order Confirmation Purchase Order
 
-### Vergleichen mit Bestellung:&#x20;
+### Vergleich mit Bestellung:&#x20;
 
-**In Auftragsbestätigung Bestellung**
+**In Order Confirmation Purchase Order**
 
 <figure><img src="https://lh7-us.googleusercontent.com/glQHETatKah-1YugeLqBb7Jim6lNJxuarRv-KEMv4NPzFfcjSm6mVhTMdI30nxdJ0SHXZ55Oup6KH7K-J6IxjUOiG0wxUX8toAaCopgBJwPyr94CPjoKuauNTmoHGGhg6f3gwHD39W7gpvijg4LQVJ4" alt="" width="563"><figcaption></figcaption></figure>
 
-#### Logikkarte: Menge oder Stückpreis oder Rabattabgleich
+#### Logikkarte: Übereinstimmung von Menge, Stückpreis oder Rabatt
 
-Diese Logikkarte ist darauf ausgelegt, automatisch zu überprüfen, ob die Menge, der Stückpreis oder der Rabatt in einer Auftragsbestätigung mit den entsprechenden Zahlen in der Bestellung übereinstimmen. Diese Überprüfung gewährleistet Konsistenz und Genauigkeit zwischen dem Bestellten und dem, was der Lieferant bestätigt zu liefern.
+Diese Logikkarte ist darauf ausgelegt, automatisch zu überprüfen, ob die Menge, der Stückpreis oder der Rabatt in einer Auftragsbestätigung mit den entsprechenden Angaben in der Bestellung übereinstimmen. Diese Überprüfung gewährleistet Konsistenz und Genauigkeit zwischen dem Bestellten und dem, was der Lieferant bestätigt zu liefern.
 
 #### Auslösebedingung
 

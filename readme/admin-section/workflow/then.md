@@ -27,8 +27,8 @@
 ### **4. Aufgabenaktionen:**
 
 * Zuweisungen und Benachrichtigungen:
-* **Aufgabe zuweisen:** Erstellt und weist einer Person oder Gruppe eine Aufgabe mit spezifischen Details zu, einschließlich der Option, sie per E-Mail zu benachrichtigen.
-* **Neue Aufgabe erstellen:** Ähnlich wie Zuweisen, aber konzentriert auf die Einrichtung einer vollständig neuen Aufgabe im System.
+* **Aufgabe zuweisen:** Erstellt und weist eine Aufgabe mit spezifischen Details einer Person oder Gruppe zu, einschließlich der Option, sie per E-Mail zu benachrichtigen.
+* **Neue Aufgabe erstellen:** Ähnlich wie zuweisen, aber konzentriert sich auf die Einrichtung einer vollständig neuen Aufgabe im System.
 
 <figure><img src="../../.gitbook/assets/then4.png" alt=""><figcaption></figcaption></figure>
 
@@ -55,7 +55,7 @@
 
 ### **8. Erweiterte Verarbeitung:**
 
-* **Workflow ausführen:** Startet einen anderen Workflow im System, der komplexe Prozessverkettungen ermöglicht.
+* **Workflow ausführen:** Startet einen anderen Workflow im System, was komplexe Prozessverkettungen ermöglicht.
 
 #### Praktische Anwendung
 
@@ -67,4 +67,4 @@ Diese Aktionskarten werden verwendet, um automatische Reaktionen basierend auf s
 
 ### Fazit
 
-Der Abschnitt "Dann..." in Ihrem Workflow-System bietet robuste Tools zur Definition präziser Aktionen, die als Ergebnis erfüllter Bedingungen im Workflow auftreten sollten. Durch die effektive Nutzung dieser Aktionen können Unternehmen Routineprozesse automatisieren, Datenkorrektheit sicherstellen und dynamisch auf sich ändernde Informationen und Systemzustände reagieren. Das Verständnis, wie man diese Aktionen konfiguriert und nutzt, ist entscheidend, um die Effizienz und Effektivität der Workflow-Funktionen Ihres ERP-Systems zu maximieren.
+Der Abschnitt "Dann..." in Ihrem Workflow-System bietet robuste Tools zur Definition präziser Aktionen, die eintreten sollen, wenn Bedingungen im Workflow erfüllt sind. Durch die effektive Nutzung dieser Aktionen können Unternehmen Routineprozesse automatisieren, Datenkorrektheit sicherstellen und dynamisch auf sich ändernde Informationen und Systemzustände reagieren. Das Verständnis, wie man diese Aktionen konfiguriert und nutzt, ist entscheidend, um die Effizienz und Effektivität der Workflow-Funktionen Ihres ERP-Systems zu maximieren.

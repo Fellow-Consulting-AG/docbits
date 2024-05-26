@@ -8,7 +8,7 @@
 
 #### Kategorien von 'Und'-Karten
 
-Anhand der Screenshots ist klar, dass diese Karten eine Vielzahl von Bedingungen abdecken, darunter:
+Aus den Screenshots geht hervor, dass diese Karten eine Vielzahl von Bedingungen abdecken, darunter:
 
 *   **Vergleich mit Bestellung**:
 
@@ -20,7 +20,7 @@ Anhand der Screenshots ist klar, dass diese Karten eine Vielzahl von Bedingungen
 
 *   **Dokumentenfeld**:
 
-* Diese beinhalten Bedingungen, die auf spezifischen Feldern innerhalb von Dokumenten basieren, wie das Markieren von Kontrollkästchen, den Vergleich von Feldwerten oder die Sicherstellung, dass ein Dokumentenfeld eine bestimmte Toleranz erfüllt. Dies ist besonders wichtig für die Datenintegrität und automatisierte Überprüfungen innerhalb von Formularen oder Dokumentenverwaltungssystemen.
+* Diese beinhalten Bedingungen, die auf spezifischen Feldern innerhalb von Dokumenten basieren, wie das Markieren von Kontrollkästchen, den Vergleich von Feldwerten oder die Sicherstellung, dass ein Dokumentenfeld eine bestimmte Toleranz erfüllt. Dies ist besonders wichtig für die Datenintegrität und automatisierte Überprüfungen in Formularen oder Dokumentenverwaltungssystemen.
 
 
 
@@ -32,7 +32,7 @@ Anhand der Screenshots ist klar, dass diese Karten eine Vielzahl von Bedingungen
 <figure><img src="../../../.gitbook/assets/And3.png" alt=""><figcaption></figcaption></figure>
 
 * **Logik**:
-* Logische Bedingungen, die Bewertungen wie "Fortfahren mit einer Wahrscheinlichkeit von X%" oder das Ausführen von HTTPS-Anfragen beinhalten, die für Integrationen und probabilistische Entscheidungsfindung innerhalb von Workflows entscheidend sind.
+* Logische Bedingungen, die Bewertungen wie "Fortfahren mit einer Chance von X%" oder das Ausführen von HTTPS-Anfragen beinhalten, die für Integrationen und probabilistische Entscheidungsfindung innerhalb von Workflows entscheidend sind.
 
 <figure><img src="../../../.gitbook/assets/And4.png" alt=""><figcaption></figcaption></figure>
 
@@ -66,6 +66,6 @@ Diese "Und"-Karten werden innerhalb des Workflows konfiguriert, um Überprüfung
 
 ### Fazit
 
-"Und"-Karten sind ein grundlegender Bestandteil von Workflowsystemen, die eine präzise Kontrolle über die Prozessausführung basierend auf mehreren Bedingungen erfordern. Sie stellen sicher, dass jeder Schritt eines Workflows nur fortgesetzt wird, wenn alle notwendigen Kriterien gründlich erfüllt sind, und automatisieren so komplexe Entscheidungsbäume innerhalb von Geschäftsprozessen.
+"Und"-Karten sind ein grundlegender Bestandteil von Workflowsystemen, die eine präzise Kontrolle über die Prozessausführung basierend auf mehreren Bedingungen erfordern. Sie stellen sicher, dass jeder Schritt eines Workflows nur fortgesetzt wird, wenn alle erforderlichen Kriterien gründlich erfüllt sind, und automatisieren so komplexe Entscheidungsbäume innerhalb von Geschäftsprozessen.
 
 Das Verständnis und die korrekte Konfiguration dieser Karten sind entscheidend, um die vollen Möglichkeiten Ihres Workflow-Management-Systems zur Steigerung von Effizienz, Genauigkeit und Einhaltung innerhalb organisatorischer Prozesse zu nutzen.
