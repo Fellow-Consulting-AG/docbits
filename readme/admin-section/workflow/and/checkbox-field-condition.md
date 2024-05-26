@@ -37,3 +37,4 @@ This workflow card is designed to automate actions based on the state (checked o
 The "Checkbox Field Condition" workflow card is a fundamental tool for managing dynamic forms and documents within an ERP system, where user inputs can dictate subsequent data processes. By automating actions based on the state of a checkbox, this card enhances workflow efficiency and ensures that system behaviors align with user inputs. Clear documentation of this card will help users effectively implement it within their operations, allowing for better control over form behaviors and process automations.
 
 
+

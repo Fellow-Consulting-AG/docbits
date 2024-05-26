@@ -24,3 +24,4 @@ This title indicates that the rule is set up to manage the second approval phase
 * **Financial Oversight**: Requiring a second approval, especially based on price matching, reinforces financial controls and accountability within the organization.
 
 
+

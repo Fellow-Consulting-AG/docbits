@@ -40,3 +40,4 @@ This workflow card is designed to automatically compare the values of two specif
 The "Document Field Comparison" workflow card is vital for maintaining data accuracy and consistency across documents in an ERP system. It helps automate checks that would otherwise be manual, error-prone, and time-consuming, enhancing efficiency and reliability in document processing. Documenting this card clearly in your ERP system's manual will assist users in effectively employing this feature, ensuring that data across documents remains consistent and in accordance with business rules.
 
 
+
