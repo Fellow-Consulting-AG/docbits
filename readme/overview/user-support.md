@@ -2,7 +2,7 @@
 
 ### Benutzerunterstützung <a href="#ikpwh4qbrq82" id="ikpwh4qbrq82"></a>
 
-Sollten Sie beim Verwenden von DocBits auf Herausforderungen stoßen oder Fragen haben, konsultieren Sie bitte dieses Benutzerhandbuch oder wenden Sie sich an unser Support-Team um Hilfe zu erhalten. Unser Engagement besteht darin, allen Benutzern ein reibungsloses Erlebnis zu bieten. Klicken Sie einfach auf die Support-Schaltfläche in Ihrer DocBits-App und Sie können ein Support-Ticket erstellen.
+Sollten Sie beim Verwenden von DocBits auf Herausforderungen stoßen oder Fragen haben, konsultieren Sie bitte dieses Benutzerhandbuch oder wenden Sie sich an unser Support-Team um Hilfe. Unser Engagement besteht darin, allen Benutzern ein reibungsloses Erlebnis zu bieten. Klicken Sie einfach auf die Support-Schaltfläche in Ihrer DocBits-App und Sie können ein Support-Ticket erstellen.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
