@@ -71,3 +71,4 @@ These "And" cards are configured within the workflow to perform checks and valid
 Understanding and configuring these cards correctly is crucial for leveraging the full capabilities of your workflow management system to enhance efficiency, accuracy, and compliance within organizational processes.
 
 
+

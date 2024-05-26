@@ -5,3 +5,4 @@
 This card can check whether, for example, the total amount in a document corresponds to the specified value - equal/not equal, larger or smaller.
 
 
+

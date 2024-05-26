@@ -37,3 +37,4 @@ This workflow card is specifically designed to perform predefined operations on 
 The "Document Type Operation" workflow card is a vital component for managing document-based processes within an ERP system efficiently. It automates routine tasks, reduces errors, and ensures consistency across similar types of documents, thereby enhancing overall productivity and compliance. Documenting this card effectively in your system's manual will assist users in understanding its functionality and how to leverage it to optimize document management processes in their daily operations. If there are additional specific details or examples that need to be included based on your ERP system's capabilities or industry-specific needs, those should be tailored accordingly.
 
 
+
