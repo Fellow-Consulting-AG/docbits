@@ -3,7 +3,7 @@ name: Translator to DE (German)
 on:
   push:
     branches:
-      - main
+      - translate
     paths-ignore:
       - 'scripts/**'
       - '.gitignore'
