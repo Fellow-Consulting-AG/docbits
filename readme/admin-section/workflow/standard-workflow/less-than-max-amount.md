@@ -2,7 +2,7 @@
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.48.55.png" alt=""><figcaption></figcaption></figure>
 
-Bu başlık, belirlenen bir maksimum tutara eşit veya daha az olan faturalarla başa çıkmak için kurulan kuralın veya koşulun tasarlandığını önermektedir.
+Bu başlık, belirli bir maksimum tutara eşit veya daha az olan faturalarla başa çıkmak için belirlenen kuralın veya koşulun tasarlandığını önermektedir.
 
 #### Kural Yapılandırması:
 
@@ -14,7 +14,7 @@ Bu başlık, belirlenen bir maksimum tutara eşit veya daha az olan faturalarla 
 
 #### Eylem (O zaman…):
 
-* **Onaylayıcı Adı alanından kullanıcı atayın, yedek olarak kullanıcı Kullanıcıyı kullanın**: Belirtilen koşullar karşılandığında, fatura otomatik olarak bir alana belirtilen onaylayıcıya atanır. Bu alan boş veya kullanılamazsa, onay işlemini yönetmek için bir yedek kullanıcı (muhtemelen bir yönetici veya başka bir belirlenmiş personel üyesi) atanır.
+* **Onaylayıcı Adı alanından kullanıcı atayın, yedek olarak kullanıcı Kullanıcıyı kullanın**: Belirtilen koşullar karşılandığında, fatura otomatik olarak bir alana belirtilen onaylayıcıya atanır. Bu alan boş veya kullanılamazsa, onay işlemini yönetmek için bir varsayılan kullanıcı (muhtemelen bir yönetici veya başka bir atanmış personel üyesi) yedek olarak atanır.
 
 #### Arayüz Elemanları:
 
@@ -23,4 +23,4 @@ Bu başlık, belirlenen bir maksimum tutara eşit veya daha az olan faturalarla 
 
 #### Bu Kuralın Amacı:
 
-Bu yapı, faturaların onay sürecini otomatik olarak miktarına göre uygun onaylayıcıya yönlendirerek ve yalnızca belirli bir eşik içinde olanların bu otomatik şekilde ele alınmasını sağlayarak iyileştirmeyi amaçlar. Finansal kontrolleri yönetmede ve her fatura için manuel kontrolleri azaltarak iş akışını hızlandırmada yardımcı olur.
+Bu yapı, faturaların onay sürecini, miktarına bağlı olarak faturaları otomatik olarak uygun onaylayıcıya yönlendirerek ve yalnızca belirli bir eşik içinde olanların bu otomatik şekilde ele alınmasını sağlayarak optimize etmek için tasarlanmıştır. Finansal kontrolleri yönetmede ve her fatura için manuel kontrolleri azaltarak iş akışını hızlandırmada yardımcı olur.

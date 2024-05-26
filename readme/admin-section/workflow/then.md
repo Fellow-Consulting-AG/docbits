@@ -4,9 +4,9 @@
 
 ### **1. Belge Alan Eylemleri:**
 
-* **Onay Kutusunu Ters Çevir:** Bu eylem belgedeki bir onay kutusunun durumunu değiştirir.
-* **Onay Kutusunu Ayarla:** Bu eylem bir onay kutusunun durumunu ya doğru (işaretli) ya da yanlış (işaretsiz) olarak ayarlar.
-* **Alanı Metne Ayarla:** Bu eylem belirli bir belge alanını belirli bir metin değerine ayarlar.
+* **Onay Kutusunu Ters Çevir:** Bu eylem, bir belgedeki bir onay kutusunun durumunu değiştirir.
+* **Onay Kutusunu Ayarla:** Bu eylem, bir onay kutusu alanının durumunu ya doğru (işaretli) ya da yanlış (işaretsiz) olarak ayarlar.
+* **Alanı Metne Ayarla:** Bu eylem, belirli bir belge alanını belirli bir metin değerine ayarlar.
 
 <figure><img src="../../.gitbook/assets/then1.png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +28,7 @@
 
 * Atamalar ve bildirimler:
 * **Görev Ata:** Belirli ayrıntılarla bir görev oluşturur ve bir bireye veya gruba atar, e-posta yoluyla bildirim gönderme seçenekleri de içerir.
-* **Yeni Bir Görev Oluştur:** Atamaya benzer ancak tamamen yeni bir görevin sistem içinde kurulmasına odaklanır.
+* **Yeni Bir Görev Oluştur:** Atama ile benzer ancak tamamen yeni bir görevin sistem içinde kurulmasına odaklanır.
 
 <figure><img src="../../.gitbook/assets/then4.png" alt=""><figcaption></figcaption></figure>
 
@@ -41,7 +41,7 @@
 
 ### **6. Atanan Eylemler:**
 
-* **Alan Kullanıcısını Ata:** Belirli bir alanda depolanan kullanıcı verilerine dayanarak bir kullanıcıyı bir göreve veya belgeye atar, ana kullanıcı uygun değilse yedek kullanıcı seçeneği sunar.
+* **Alan Kullanıcısını Ata:** Belirli bir alanda depolanan kullanıcı verilerine dayanarak bir kullanıcıyı bir göreve veya belgeye atar, birincil kullanıcı uygun değilse yedek kullanıcı seçeneği sunar.
 * **Belgeyi Kullanıcıya veya Gruba Ata:** Bir belgeyi doğrudan bir kullanıcıya veya gruba atar, sorumluluğun uygun şekilde belirlendiğinden emin olur.
 
 <figure><img src="../../.gitbook/assets/then6.png" alt=""><figcaption></figcaption></figure>
@@ -59,12 +59,12 @@
 
 #### Pratik Uygulama
 
-Bu eylem kartları, iş akışının daha önceki bölümlerinde belirlenen belirli tetikleyicilere dayalı olarak otomatik yanıtların uygulanmasında kullanılır. Örneğin:
+Bu eylem kartları, iş akışının daha önceki bölümlerinde belirlenen belirli tetikleyicilere dayalı olarak otomatik yanıtların otomatikleştirilmesi için kullanılır. Örneğin:
 
 * Bir belgenin gözden geçirilmesi gerektiği belirlendiğinde, "Belgeyi Onayla" eylemi, belirtilen tüm koşulları geçtikten sonra otomatik olarak tetiklenebilir.
-* Veri yönetimi görevleri için, "Onay Kutusunu Ayarla" veya "Alanı Metne Ayarla" eylemleri belge alanlarının otomatik olarak güncellendiğinden emin olur, bu da manuel veri girişini azaltır ve hataların potansiyelini en aza indirir.
+* Veri yönetimi görevleri için, "Onay Kutusunu Ayarla" veya "Alanı Metne Ayarla" eylemleri, belge alanlarının otomatik olarak güncellendiğinden emin olur, bu da manuel veri girişini azaltır ve hataların potansiyelini azaltır.
 * API etkileşimleri veya durum değişiklikleri gibi karmaşık görevler, ERP sistemi içindeki etkileşimleri sadece kolaylaştırmakla kalmaz, aynı zamanda dış hizmetler ve araçlarla da etkileşimi artırarak entegrasyonu ve işlevselliği artırır.
 
 ### Sonuç
 
-İş akışınızın "Sonra..." bölümü, iş akışında belirli koşulların karşılanmasının sonucunda gerçekleşmesi gereken kesin eylemleri tanımlamak için güçlü araçlar sunar. Bu eylemleri etkili bir şekilde kullanarak, işletmeler rutin süreçleri otomatikleştirebilir, veri doğruluğunu sağlayabilir ve değişen bilgi ve sistem durumlarına dinamik bir şekilde yanıt verebilir. Bu eylemleri yapılandırmayı ve kullanmayı anlamak, ERP sisteminizin iş akışı yeteneklerinin verimliliğini ve etkinliğini en üst düzeye çıkarmak için önemlidir.
+İş akışınızın "Sonra..." bölümü, iş akışında belirli koşulların karşılanmasının bir sonucu olarak gerçekleşmesi gereken kesin eylemleri tanımlamak için güçlü araçlar sağlar. Bu eylemleri etkili bir şekilde kullanarak, işletmeler rutin süreçleri otomatikleştirebilir, veri doğruluğunu sağlayabilir ve değişen bilgi ve sistem durumlarına dinamik bir şekilde yanıt verebilir. Bu eylemleri nasıl yapılandıracağınızı ve kullanacağınızı anlamak, ERP sisteminizin iş akış yeteneklerinin verimliliğini ve etkinliğini en üst düzeye çıkarmak için önemlidir.

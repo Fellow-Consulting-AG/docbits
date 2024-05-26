@@ -10,25 +10,25 @@
 
 **Nasıl Çalışır**
 
-* Arayüzünüzde, "Ne Zaman" kullanıcıların farklı tetikleme kartlarını seçebileceği bir başlangıç noktası gibi görünmektedir. Her kart, ardışık eylemlerin (muhtemelen "Eylem" olarak etiketlenmiş başka bir bölümde tanımlanan) hangi koşullar altında yürütüleceğini belirtir.
+* Arayüzünüzde, "Ne Zaman" kullanıcıların farklı tetikleme kartlarını seçebileceği bir başlangıç noktası gibi görünmektedir. Her kart, ardışık eylemlerin (genellikle "Eylem" olarak etiketlenmiş başka bir bölümde tanımlanan) hangi koşullar altında yürütüleceğini belirtir.
 
 **Belge Türü Koşul Kartları**
 
-* Ekran görüntüsünde görünen kartlar, işlenen belgenin türüne göre iş akışlarını tetiklemek için kullanılan "Belge Türü" koşullarının çeşitleridir. Gösterilen her tür koşul kartının ayrıntıları şöyle:
-* **Belge türü (Operatör) biri (Tür)**: Bu kart, bir belgenin türünün, listede belirtilen türlerden biriyle eşleştiğinde bir eylemi tetikler. Operatör, "şudur" veya "şu değildir" gibi seçenekler içerebilir, kapsayıcı veya dışlayıcı koşullara izin verir.
-* **Belge türü (Operatör) (Tür)**: Bu daha basit varyant, tek bir belge türü koşuluna dayalı olarak tetiklenir. Genellikle belge türünün belirli bir tür olup olmadığını kontrol eder, birden fazla tür arasından seçim yapma seçeneği olmadan.
+* Ekran görüntüsünde görünen kartlar, işlenen belgenin türüne bağlı olarak iş akışlarını tetiklemek için kullanılan "Belge Türü" koşullarının çeşitleridir. Gösterilen her tür koşul kartının ayrıntıları şöyle:
+* **Belge türü (Operatör) biri (Tür)**: Bu kart, bir belgenin türünün listedeki belirtilen türlerden biriyle eşleştiğinde bir eylemi tetikler. Operatör, "şu" veya "değil" gibi seçenekler içerebilir, bu da dahil edici veya hariç tutucu koşullara olanak tanır.
+* **Belge türü (Operatör) (Tür)**: Bu daha basit varyant, tek bir belge türü koşuluna dayalı olarak tetiklenir. Genellikle belge türünün belirli bir tür olup olmadığını kontrol eder ve birden fazla tür arasından seçim yapma seçeneği sunmaz.
 
-#### Bir "Ne Zaman" Tetikleme Kartı Kurulumu
+#### Bir "Ne Zaman" Tetik Kartı Kurulumu
 
-1. **Koşul Türünün Seçimi**: Kullanıcılar, otomatikleştirmek istedikleri iş akışıyla ilgili olan bir koşul türünü seçerek başlarlar. Bu durumda, odak noktası belge türleridir.
-2. **Operatörün Tanımlanması**: Kullanıcılar, gerçek belge türlerini belirlenen koşullara karşı karşılaştırmak için temel oluşturan "şudur" veya "şu değildir" gibi mantıksal operatörü belirlemelidir.
+1. **Koşul Türünün Seçimi**: Kullanıcılar, otomatikleştirmek istedikleri iş akışıyla ilgili olan bir koşul türünü seçerek başlarlar. Bu durumda, belge türleri odak noktasıdır.
+2. **Operatörün Tanımlanması**: Kullanıcılar, gerçek belge türlerini tanımlanan koşullarla karşılaştırmak için temel oluşturan "şu" veya "değil" gibi mantıksal operatörü belirlemelidir.
 3. **Belge Türlerinin Belirtilmesi**: Kartın türüne bağlı olarak, kullanıcılar işlenen belgelerin bu türlerinden hangilerinin iş akışını tetikleyeceğini seçebilirler.
-4. **Tetikleyiciyi Tamamlama**: Koşul ayarlandığında, bu, iş akışında tanımlanan belirli eylemleri tetikleme temeli haline gelir. Bir belge belirlenen koşulu karşılarsa, belirlenen eylemler otomatik olarak başlatılır.
+4. **Tetikleyiciyi Tamamlama**: Koşul ayarlandıktan sonra, bu, iş akışında tanımlanan belirli eylemleri tetikleme temeli haline gelir. Bir belge belirli bir koşulu karşılarsa, tanımlanan eylemler otomatik olarak başlatılacaktır.
 
 #### Pratik Uygulama
 
-Uygulamada, bu tetikleme kartları, onayları, bildirimleri veya belgenin işlenen türüne bağlı olan herhangi bir prosedürü otomatikleştirmek için hayati öneme sahiptir. Örneğin, bir belge türü "Fatura" ise ve "Ne Zaman" kartında belirlenen koşullara uyuşuyorsa, iş akışı belgeyi ödeme işlemi için otomatik olarak yönlendirebilir.
+Uygulamada, bu tetik kartları, onayları, bildirimleri veya ele alınan belgenin türüne bağlı olan herhangi bir prosedürü otomatikleştirmek için hayati öneme sahiptir. Örneğin, bir belge türü "Fatura" ise ve "Ne Zaman" kartında belirlenen koşullara uyuşuyorsa, iş akışı belgeyi ödeme işlemi için otomatik olarak yönlendirebilir.
 
-Bu kurulum, iş akışlarının sadece verimli olmasını değil, aynı zamanda organizasyonun belge yönetiminde manuel denetimi azaltarak işletmenin belirli operasyonel ihtiyaçlarına uyarlanmasını sağlar ve belge işleme süreçlerini hızlandırır.
+Bu kurulum, iş akışlarının sadece verimli olmasını değil, aynı zamanda organizasyonun belge yönetiminde manuel denetimi azaltarak işletmenin belirli operasyonel ihtiyaçlarına özgü olarak uyarlanmasını sağlar ve belge işleme süreçlerini hızlandırır.
 
-Özetle, iş akışı yapılandırmanızın "Ne Zaman" kısmı, belirli, önceden tanımlanmış koşullara dayalı olarak otomatik eylemler için sahneyi ayarlamakla ilgilidir. İşletmenin ihtiyaçlarına dinamik olarak tepki veren ERP sisteminizin hem verimliliğini hem de belge yönetiminde doğruluğunu artırmak için güçlü bir araçtır.
+Özetle, iş akışı yapılandırmanızın "Ne Zaman" kısmı, belirli, önceden tanımlanmış koşullara dayalı olarak otomatik eylemler için sahneyi belirleme hakkında bir araçtır. İşletmenin ihtiyaçlarına dinamik olarak tepki veren ERP sisteminizin hem verimliliğini hem de belge yönetiminde doğruluğunu artırmak için güçlü bir araçtır.

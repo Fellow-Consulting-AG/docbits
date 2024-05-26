@@ -26,15 +26,15 @@ Bu iş akışı kartı, belgedeki belirli iki alanın değerlerini tanımlanan b
 * **Alan Seçimi**: Kullanıcılar, karşılaştırılacak iki alanın adlarını girmek veya seçmektedir. Bu genellikle kart kurulumu içinde bir form veya açılır menü aracılığıyla yapılır.
 * **Operatör Seçimi**: Kullanıcılar, alanların nasıl karşılaştırılacağını tanımlayan mevcut seçenekler listesinden bir operatör seçer.
 * **Karşılaştırma Yürütme**:
-* Sistem, belirtilen alanlardan değerleri okur ve seçilen operatörü uygulayarak aralarındaki ilişkiyi değerlendirir.
+* Sistem, belirtilen alanlardan değerleri okur ve seçilen operatörü uygularak aralarındaki ilişkiyi değerlendirir.
 * Karşılaştırmanın sonucuna bağlı olarak (doğru veya yanlış), ardışık eylemler tetiklenebilir. Örneğin, bir karşılaştırma başarısız olursa, sistem belgeyi gözden geçirmek, daha fazla işlemi engellemek veya sorumlu tarafları bilgilendirmek için işaretleyebilir.
 
 **Kullanıcı Etkileşimleri**
 
 * **Kurulum ve Yapılandırma**: Kullanıcılar, alan adlarını girerek ve bir operatör seçerek karşılaştırmayı yapılandırır. Bu kurulumun açık ve yönlendirici olması, muhtemelen yardım metni veya örneklerle desteklenmelidir.
 * **İzleme ve Raporlama**: Sistem, karşılaştırmaların sonuçları hakkında geri bildirim sağlayabilir, yapılan tüm karşılaştırmaları, sonuçlarını ve karşılaştırma sonuçlarına verilen tepkileri kaydedebilir.
-* **Hata İşleme ve Bildirimler**: Kullanıcılar, karşılaştırmanın gerçekleştirilemediği durumlarda (örneğin, alanlardan biri belgede bulunamaz veya karşılaştırılabilir bir formatta değilse) uyarılar alır.
+* **Hata İşleme ve Bildirimler**: Kullanıcılar, karşılaştırmanın yürütülememesi durumunda (örneğin, belgede bir alan bulunamazsa veya karşılaştırılabilir bir formatta değilse) uyarılar alır.
 
 #### Sonuç
 
-"Belge Alanı Karşılaştırması" iş akışı kartı, bir ERP sisteminde belgeler arasında veri doğruluğunu ve tutarlılığını korumak için hayati öneme sahiptir. Aksi takdirde manuel, hata yapma eğiliminde olan ve zaman alan kontrolleri otomatikleştirmeye yardımcı olur, belge işleme sürecinde verimliliği ve güvenilirliği artırır. Bu kartın ERP sisteminizin kılavuzunda açık bir şekilde belgelenmesi, kullanıcıların bu özelliği etkili bir şekilde kullanmalarına yardımcı olacak, belgeler arasındaki verinin tutarlı kalmasını ve iş kurallarına uygun olmasını sağlayacaktır.
+"Belge Alanı Karşılaştırması" iş akışı kartı, bir ERP sisteminde belgeler arasındaki veri doğruluğunu ve tutarlılığını korumak için hayati öneme sahiptir. Aksi takdirde manuel, hata yapma eğiliminde olan ve zaman alan kontrolleri otomatikleştirerek, belge işleme sürecinde verimliliği ve güvenilirliği artırır. Bu kartın ERP sisteminizin kılavuzunda net bir şekilde belgelenmesi, kullanıcıların bu özelliği etkili bir şekilde kullanmalarına yardımcı olacak, belgeler arasındaki verinin tutarlı kalmasını ve iş kurallarına uygun olmasını sağlayacaktır.

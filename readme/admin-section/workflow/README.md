@@ -1,5 +1,5 @@
 ---
-description: DocBits İş Akışı Motoru
+açıklama: DocBits İş Akışı Motoru
 ---
 
 # İş Akışı
@@ -10,31 +10,31 @@ description: DocBits İş Akışı Motoru
 
 ### Giriş
 
-Süreç otomasyonu alanında, DocBits İş Akışı Motoru basit ve sezgisel yaklaşımıyla öne çıkar. Bu motor, iş akışlarının oluşturulması ve yönetilmesini net ve basit bir kural tabanlı yapı üzerinden kolaylaştırır. Tasarımının temel prensibi, "Kolay Ne-Zaman-Ve-O-Zaman" kuralıdır ve otomasyon sürecini Tetikleyici, Koşul ve Eylem olmak üzere üç temel bileşene ayırır. Bu kılavuz, her bileşenin sistemin içinde nasıl işlev gördüğünü ve birlikte çalışarak sorunsuz otomasyonu nasıl sağladığını açıklar.
+Süreç otomasyonu alanında, DocBits İş Akışı Motoru basit ve sezgisel yaklaşımıyla öne çıkar. Bu motor, net ve basit bir kural tabanlı yapı aracılığıyla iş akışlarının oluşturulmasını ve yönetilmesini kolaylaştırır. Tasarımının temel prensibi, otomasyon sürecini Üç Temel Bileşen olan Tetikleyici, Koşul ve Eylem'e ayıran "Kolay Ne-Zaman-Ve-Sonra" kuralıdır. Bu kılavuz, her bileşenin sistemin içinde nasıl işlev gördüğünü ve birlikte çalışarak sorunsuz otomasyonu nasıl kolaylaştırdığını açıklar.
 
-### "Kolay Ne-Zaman-Ve-O-Zaman" Kuralı Açıklaması
+### "Kolay Ne-Zaman-Ve-Sonra" Kuralı Açıklaması
 
-DocBits İş Akışı Motoru, iş akışı otomasyonunu tüm beceri seviyelerinden kullanıcılara erişilebilir kılan temel ancak güçlü bir prensibe dayanır. Bu prensip, aşağıdaki gibi açıklanan "Kolay Ne-Zaman-Ve-O-Zaman" kuralında özetlenir:
+DocBits İş Akışı Motoru, iş akışı otomasyonunu tüm beceri seviyelerinden kullanıcılara erişilebilir kılan temel ancak güçlü bir prensibe dayanır. Bu prensip, aşağıdaki gibi açıklanabilen "Kolay Ne-Zaman-Ve-Sonra" kuralında özetlenmiştir:
 
 #### [Ne Zaman](./#when-trigger) (Tetikleyici)
 
-* **Tanım**: "Ne Zaman" bileşeni, iş akışının _Tetikleyicisi_'ni temsil eder. Bu, iş akışının yürütülmesini başlatan olay veya koşuldur. Tetikleyiciler, yeni bir e-postanın gelmesi, belirli bir tarih ve saat, veya yeni bir belgenin oluşturulması gibi çeşitli olaylar olabilir.
+* **Tanım**: "Ne Zaman" bileşeni, iş akışının _Tetikleyicisi'ni temsil eder. Bu, iş akışının yürütülmesini başlatan olay veya koşuldur. Tetikleyiciler, yeni bir e-postanın gelmesi, belirli bir tarih ve saat veya yeni bir belgenin oluşturulması gibi çeşitli olaylar olabilir.
 * **Örnek**: "Yeni bir müşteri formu gönderildiğinde..."
 
 #### [Ve](./#and-condition) (Koşul)
 
-* **Tanım**: "Ve" bileşeni, eylemin devam etmesi için karşılanması gereken _Koşulu_ tanıtır. Koşullar, tetikleyiciyi hassaslaştıran filtreler veya kriterler olarak hizmet eder, böylece iş akışının yalnızca belirli durumlarda yürütülmesini sağlar.
+* **Tanım**: "Ve" bileşeni, eylemin devam etmesi için karşılanması gereken _Koşulu_ tanımlar. Koşullar, tetikleyiciyi hassaslaştıran filtreler veya kriterler olarak hizmet eder, böylece iş akışının yalnızca belirli durumlarda yürütülmesini sağlar.
 * **Örnek**: "...ve müşteri 'Kurumsal' segmentinden ise..."
 
-#### [O Zaman](./#then-action) (Eylem)
+#### [Sonra](./#then-action) (Eylem)
 
-* **Tanım**: Son olarak, "O Zaman" kısmı, tetikleyicinin gerçekleşmesi ve koşulun karşılanması durumunda yapılacak _Eylemi_ belirtir. Eylemler, e-posta gönderme, veritabanını güncelleme veya proje yönetimi aracında bir görev oluşturma gibi iş akışı tarafından yürütülen görevler veya işlemlerdir.
-* **Örnek**: "...o zaman potansiyeli kurumsal satış ekibine atayın ve hoş geldiniz e-postası gönderin."
+* **Tanım**: Son olarak, "Sonra" kısmı, tetikleyicinin gerçekleşmesi ve koşulun karşılanması durumunda yapılacak _Eylemi_ belirtir. Eylemler, e-posta gönderme, veritabanını güncelleme veya bir proje yönetimi aracında görev oluşturma gibi iş akışı tarafından yürütülen görevler veya işlemlerdir.
+* **Örnek**: "...ardından potansiyeli kurumsal satış ekibine atayın ve hoş geldiniz e-postası gönderin."
 
 ### Güçlü Otomasyonlar İçin Bileşenlerin Birleştirilmesi
 
-Bu üç bileşen - Tetikleyici, Koşul ve Eylem - DocBits İş Akışı Motoru'nun kullanıcıların yüksek derecede özelleştirilmiş ve verimli iş akışları oluşturmasına olanak tanır. Bu modüler yaklaşım, otomasyonların kurulmasını sadeleştirmekle kalmaz, aynı zamanda geniş bir görev ve süreç yelpazesini yönetebilen karmaşık iş akışlarını oluşturma esnekliği sunar.
+Bu üç bileşen - Tetikleyici, Koşul ve Eylem - bir araya getirilerek, DocBits İş Akışı Motoru kullanıcıların son derece özelleştirilmiş ve verimli iş akışları oluşturmasına olanak tanır. Bu modüler yaklaşım, otomasyonları kurma sürecini sadeleştirmekle kalmaz, aynı zamanda geniş bir görev ve süreç yelpazesini yönetebilen karmaşık iş akışları oluşturma esnekliği sunar.
 
 ### Sonuç
 
-DocBits İş Akışı Motoru'nun "Kolay Ne-Zaman-Ve-O-Zaman" kuralı, motorun süreçleri otomatikleştirmek için kullanıcı dostu bir platform sağlama taahhüdünü yansıtır. Bu açık kural, otomasyonu Tetikleyici, Koşul ve Eylem'in temel unsurlarına ayırarak, kullanıcıların iş akışlarını kavramalarını, oluşturmalarını ve yönetmelerini kolaylaştırır. İş akışı otomasyonuna yeni başlayan biri olun veya deneyimli bir profesyonel, DocBits İş Akışı Motoru, üretkenliği artırmak ve işlemleri kolaylaştırmak için etkili ve erişilebilir bir araç sunar.
+DocBits İş Akışı Motoru'nun "Kolay Ne-Zaman-Ve-Sonra" kuralı, motorun süreçleri otomatikleştirmek için kullanıcı dostu bir platform sağlama taahhüdünü yansıtır. Bu açıklayıcı kural, otomasyonu Tetikleyici, Koşul ve Eylem'in temel unsurlarına ayırarak, kullanıcıların iş akışlarını kavramalarını, oluşturmalarını ve yönetmelerini kolaylaştırır. İş akışı otomasyonuna yeni başlayan biri olun veya deneyimli bir profesyonel, DocBits İş Akışı Motoru, verimliliği artırmak ve işlemleri kolaylaştırmak için etkili ve erişilebilir bir araç sunar.

@@ -9,7 +9,7 @@ Bu iş akışı kartı, bir görevin veya belgenin belirli bir kullanıcıya ata
 **Kartın Bileşenleri**
 
 1. **Operatör**
-* **Açıklama**: Kullanıcı atamasına uygulanacak mantığı belirtir.
+* **Açıklama**: Kullanıcı atamasına uygulanacak mantığı belirler.
 * **Seçenekler**:
 * **IS**: Belgenin veya görevin atanmış kullanıcısı belirtilen kullanıcıyla eşleşirse işlemi tetikler.
 * **IS NOT**: Atanmış kullanıcı belirtilen kullanıcıyla eşleşmiyorsa işlemi tetikler.
@@ -25,14 +25,14 @@ Bu iş akışı kartı, bir görevin veya belgenin belirli bir kullanıcıya ata
 * **IS NOT** operatörü için, atanmış kullanıcının seçilen kullanıcıdan farklı olup olmadığını doğrular.
 * **Eylem Yürütme**:
 * **Doğru Koşul**: Atama belirtilen koşulu karşılarsa (IS veya IS NOT), önceden tanımlanmış eylemleri tetikler; bu eylemler onay sürecine devam etmeyi, ek görevler başlatmayı, bildirimler göndermeyi veya diğer ilgili iş akışlarını içerebilir.
-* **Yanlış Koşul**: Koşul başarısız olursa, sistem görevi yeniden yönlendirebilir, incelemek için bekletebilir veya alternatif önceden tanımlanmış eylemleri tetikleyebilir.
+* **Yanlış Koşul**: Koşul başarısız olursa, sistem görevi yeniden yönlendirebilir, inceleme için bekletebilir veya alternatif önceden tanımlanmış eylemleri tetikleyebilir.
 
 **Kullanıcı Etkileşimleri**
 
-* **Kurulum ve Yapılandırma**: Kullanıcılar, operatör seçerek ve kullanıcı alanından bir kullanıcı seçerek kartı kurarlar. Bu kurulumun basit olması, kullanıcı seçimini ve yapılandırmayı kolaylaştırarak sağlanmalıdır.
+* **Kurulum ve Yapılandırma**: Kullanıcılar, bir operatör seçerek ve kullanıcı alanından bir kullanıcı seçerek kartı yapılandırır. Bu kurulumun basit olması, kullanıcı seçimini ve yapılandırmayı kolaylaştırarak sağlanmalıdır.
 * **İzleme ve Raporlama**: Belirli kullanıcı atamaları tarafından tetiklenen görevleri takip etme ve bu tetiklemelerin sonuçlarını izleme gibi kartın performansını izlemek için araçlar sunar.
-* **Hata İşleme ve Bildirimler**: Görevler yanlış şekilde atanmışsa veya atama sorunlarından kaynaklanan işletme hataları oluşursa kullanıcıları uyaracak mekanizmalar sağlar.
+* **Hata İşleme ve Bildirimler**: Görevlerin yanlış şekilde atanması veya atama sorunları nedeniyle operasyonel hataların meydana gelmesi durumunda kullanıcıları uyaracak mekanizmalar sağlar.
 
 #### Sonuç
 
-"Tek Atanmış Kullanıcı Koşulu" iş akışı kartı, bir ERP sistemi içinde hassas, kullanıcıya özgü belge ve görev yönetimi için önemlidir. Bireysel kullanıcı atamalarına odaklanarak iş akışlarını basitleştirir ve eylemlerin yalnızca kullanıcının rolü ve sorumluluklarına dayanarak uygun olduğunda gerçekleştirilmesini sağlar. Bu kartın açık bir şekilde belgelenmesi, kullanıcıların uygulamasını anlamalarına yardımcı olacak ve günlük operasyonlarında etkili bir şekilde yönetmelerine olanak tanıyacaktır. Bu belgeleme, tüm potansiyel kullanıcıların kartın amacını kolayca kavramalarını ve iş akışlarına sorunsuz bir şekilde entegre etmelerini sağlar.
+"Tek Atanmış Kullanıcı Koşulu" iş akışı kartı, bir ERP sistemi içinde hassas, kullanıcıya özgü belge ve görev yönetimi için önemlidir. Bireysel kullanıcı atamalarına odaklanarak iş akışlarını basitleştirir ve eylemlerin yalnızca kullanıcının rolüne ve sorumluluklarına uygun olduğunda gerçekleştirilmesini sağlar. Bu kartın açık bir şekilde belgelenmesi, kullanıcıların uygulamasını anlamalarına yardımcı olacak ve günlük operasyonlarında etkili bir şekilde yönetmelerine olanak tanıyacaktır. Bu belgeleme, tüm potansiyel kullanıcıların kartın amacını kolayca kavramalarını ve iş akışlarına sorunsuz bir şekilde entegre etmelerini sağlar.

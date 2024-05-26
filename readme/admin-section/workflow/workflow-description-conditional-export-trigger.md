@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Bu iş akışı, bir dışa aktarma işleminin ne zaman başlatılması gerektiği koşullarını belirler. Belirtilen tüm kriterleri karşılayan belgelerin yalnızca dışa aktarma işlemi için işlenmesini sağlar, veri bütünlüğünü artırır ve iş kurallarıyla uyumu sağlar.
 
@@ -20,7 +20,7 @@ Bu iş akışı, bir dışa aktarma işleminin ne zaman başlatılması gerekti�
 * Belgenin ayrıntılarının belirli gereksinimlerle uyumlu olduğundan emin olmak için ek kontroller yapılır. Bu kontroller, sipariş onayları veya satın alma siparişlerindeki bilgilerin doğrulanmasını içerebilir. Karşılanması gereken belirli koşulları belirtin. Örneğin:
 * Sipariş onayında listelenen tüm kalemlerin satın alma siparişindeki kalemlerle eşleşmesi.
 * Sipariş onayındaki toplam tutarın satın alma siparişindeki toplam tutarla eşleşmesi.
-* Sipariş onayında belirtilen teslim tarihlerinin satın alma siparişindeki tarihlerle uyumlu olması.
+* Sipariş onayında belirtilen teslimat tarihlerinin satın alma siparişindeki tarihlerle uyumlu olması.
 
 ### Sonrasında:
 
