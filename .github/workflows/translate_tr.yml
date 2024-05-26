@@ -1,23 +1,23 @@
-name: Translator to IT (Italian)
+name: Translator to TR (Turkish)
 
 on:
   push:
     branches:
-      - main
+      - translate
     paths-ignore:
       - 'scripts/**'
       - '.gitignore'
       - '.github/**'
   workflow_dispatch:
 
-concurrency: it
+concurrency: tr
 
 jobs:
   run-translation:
-    runs-on: local
+    runs-on: ubuntu-latest
     env:
-      LANGUAGE: Italian
-      BRANCH: it
+      LANGUAGE: Turkish
+      BRANCH: tr
 
     steps:
       - name: Checkout code

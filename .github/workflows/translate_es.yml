@@ -1,23 +1,23 @@
-name: Translator to FR (French)
+name: Translator to ES (Spanish)
 
 on:
   push:
     branches:
-      - main
+      - translate
     paths-ignore:
       - 'scripts/**'
       - '.gitignore'
       - '.github/**'
   workflow_dispatch:
 
-concurrency: fr
+concurrency: es
 
 jobs:
   run-translation:
-    runs-on: local
+    runs-on: ubuntu-latest
     env:
-      LANGUAGE: French
-      BRANCH: fr
+      LANGUAGE: Spanish
+      BRANCH: es
 
     steps:
       - name: Checkout code

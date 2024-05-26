@@ -1,23 +1,23 @@
-name: Translator to RS (Serbian)
+name: Translator to PL (Polish)
 
 on:
   push:
     branches:
-      - main
+      - translate
     paths-ignore:
       - 'scripts/**'
       - '.gitignore'
       - '.github/**'
   workflow_dispatch:
 
-concurrency: rs
+concurrency: pl
 
 jobs:
   run-translation:
-    runs-on: local
+    runs-on: ubuntu-latest
     env:
-      LANGUAGE: Serbian
-      BRANCH: rs
+      LANGUAGE: Polish
+      BRANCH: pl
 
     steps:
       - name: Checkout code
