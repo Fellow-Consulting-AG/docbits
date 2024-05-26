@@ -21,14 +21,14 @@ Esta tarjeta de flujo de trabajo está diseñada para automatizar acciones basad
 
 * **Detección de Estado**: La tarjeta monitorea continuamente el estado del campo de casilla de verificación especificado.
 * **Evaluación de Condición**:
-* El sistema verifica si la casilla de verificación está en el estado (marcado o desmarcado) especificado por la condición Booleana.
+* El sistema verifica si la casilla de verificación se encuentra en el estado (marcado o desmarcado) especificado por la condición Booleana.
 * **Ejecución de Acciones**:
 * **Condición Verdadera**: Si el estado de la casilla de verificación coincide con la condición Booleana especificada (ya sea verdadero para marcado o falso para desmarcado), el sistema inicia las acciones asociadas. Estas podrían incluir habilitar o deshabilitar campos de formulario, desencadenar notificaciones, iniciar flujos de trabajo o actualizar registros.
 * **Condición Falsa**: Si el estado de la casilla de verificación no coincide con la condición, se pueden tomar acciones alternativas o ninguna, dependiendo de la configuración del flujo de trabajo.
 
 **Interacciones del Usuario**
 
-* **Configuración y Configuración**: Los usuarios configuran la tarjeta seleccionando el campo de casilla de verificación de una lista de campos disponibles y estableciendo la condición Booleana. Este proceso de configuración debería ser intuitivo, típicamente involucrando un menú desplegable simple para la selección de campos y un interruptor para la condición Booleana.
+* **Configuración y Ajustes**: Los usuarios configuran la tarjeta seleccionando el campo de casilla de verificación de una lista de campos disponibles y estableciendo la condición Booleana. Este proceso de configuración debería ser intuitivo, típicamente involucrando un menú desplegable simple para la selección del campo y un interruptor para la condición Booleana.
 * **Monitoreo e Informes**: Proporciona funcionalidades para que los usuarios monitoreen el estado de esta condición, posiblemente a través de un panel que muestre actualizaciones en tiempo real sobre qué condiciones están activas o desencadenadas.
 * **Manejo de Errores y Notificaciones**: Asegura que los usuarios sean notificados si hay discrepancias o errores en el proceso de verificación de la condición, como fallas del sistema para leer el estado de la casilla de verificación.
 

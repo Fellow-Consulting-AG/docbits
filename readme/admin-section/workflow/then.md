@@ -48,7 +48,7 @@
 
 ### **7. Acciones de Interacción Externa:**
 
-* **Llamar API:** Envía una solicitud a una API externa, la cual puede ser personalizada con métodos específicos, parámetros y datos.
+* **Llamar API:** Envía una solicitud a una API externa, que puede ser personalizada con métodos específicos, parámetros y datos.
 * **Enviar Solicitud HTTPS:** Similar a las llamadas de API pero específicamente formateadas para protocolos HTTPS.
 
 <figure><img src="../../.gitbook/assets/then7.png" alt=""><figcaption></figcaption></figure>

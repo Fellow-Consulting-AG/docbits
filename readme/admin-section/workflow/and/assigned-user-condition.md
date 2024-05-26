@@ -20,16 +20,16 @@ Esta tarjeta de flujo de trabajo gestiona la ejecución de operaciones basadas e
 **Funcionalidad**
 
 * **Identificación de Asignación de Usuario**: Identifica automáticamente al usuario o usuarios asignados a una tarea o documento específico dentro del sistema ERP.
-* **Evaluación de Condiciones**:
+* **Evaluación de Condición**:
 * Utilizando el operador **ES**, la tarjeta verifica si el usuario asignado está entre los listados en la Lista de Usuarios.
 * Utilizando el operador **NO ES**, la tarjeta asegura que el usuario asignado no esté entre los listados.
-* **Ejecución de Acciones**:
+* **Ejecución de Acción**:
 * **Condición Verdadera**: Si la asignación de usuario cumple con la condición (ya sea ES o NO ES), se activan acciones relevantes, como notificaciones, inicio de tareas, aprobaciones u otros pasos del flujo de trabajo.
 * **Condición Falsa**: Si la condición no se cumple, el documento o tarea puede pasar por una ruta diferente, o se pueden especificar acciones alternativas.
 
 **Interacciones de Usuario**
 
-* **Configuración y Ajustes**: Los usuarios configuran la tarjeta seleccionando un operador y especificando los usuarios relevantes de la Lista de Usuarios. La configuración debe ser amigable e intuitiva para acomodar selecciones de bases de usuarios potencialmente grandes.
+* **Configuración e Instalación**: Los usuarios configuran la tarjeta seleccionando un operador y especificando los usuarios relevantes de la Lista de Usuarios. La configuración debe ser amigable e intuitiva para acomodar selecciones de bases de usuarios potencialmente grandes.
 * **Monitoreo e Informes**: El sistema ERP debe proporcionar funcionalidad para monitorear e informar sobre las operaciones activadas por esta tarjeta, ofreciendo información sobre la precisión de las asignaciones y la eficiencia del proceso.
 * **Manejo de Errores y Notificaciones**: Los usuarios deben tener opciones para recibir alertas o notificaciones si hay problemas con las asignaciones, como tareas no asignadas o errores en la selección de usuarios.
 

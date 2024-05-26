@@ -14,7 +14,7 @@ Puedes utilizar estos flujos de trabajo (Test 1, 2, 3) para asignar automáticam
 
 Si una factura u otro documento supera cierta cantidad total que requiere revisión y aprobación previa, estos documentos pueden asignarse inmediatamente a la persona correcta.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Test 1:              Tarjeta Lógica**
 
@@ -58,7 +58,7 @@ También es posible, si el documento no se asigna a una sola persona, asignarlo 
 
 
 
-Para tener una visión más clara de lo que debe suceder con un documento, puedes establecer el estado de los documentos entrantes en este flujo de trabajo. Este flujo de trabajo permite ver de inmediato si, por ejemplo, hay una aprobación pendiente.
+Para tener una visión más clara de lo que debe suceder con un documento, puedes establecer el estado de los documentos entrantes en este flujo de trabajo. Este flujo de trabajo permite ver de inmediato si hay, por ejemplo, una aprobación pendiente.
 
 
 
@@ -70,7 +70,7 @@ Para tener una visión más clara de lo que debe suceder con un documento, puede
 
 **Entonces:**              **Cambiar Estado a:**         Aprobación Pendiente
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
@@ -84,7 +84,7 @@ Y:                   **El asignado es:**                       Stefan Reppermund
 
 Entonces:                 **Cambiar Estado a:**           Segunda Aprobación Pendiente
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/10 (1).png>)
 
@@ -92,7 +92,7 @@ Entonces:                 **Cambiar Estado a:**           Segunda Aprobación Pe
 
 
 
-Si una factura u otro documento supera cierta cantidad total que requiere revisión y aprobación previa, estos documentos pueden asignarse a la persona adecuada de inmediato.
+Si una factura u otro documento supera cierta cantidad total que requiere revisión y aprobación previa, estos documentos pueden asignarse inmediatamente a la persona adecuada.
 
 ![](<../../.gitbook/assets/11 (1).png>)
 
@@ -106,13 +106,13 @@ Y:                      Campo de Documento        **total\_amount**     es      
 
 Entonces:                    **Asignar documento a:**   Asad Usman Khan
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/13 (1).png>)
 
 
 
-También es posible ingresar el estado en el flujo de trabajo, para que la persona asignada pueda ver de inmediato en qué estado se encuentra este documento y qué debe suceder a continuación con él.
+También es posible ingresar el estado en el flujo de trabajo, para que la persona asignada pueda ver de inmediato en qué estado se encuentra este documento y qué debe suceder a continuación.
 
 
 
@@ -144,7 +144,7 @@ Por ejemplo, si falta cierta información importante en un documento, pero es im
 
 El Flujo de Trabajo con estas tarjetas lógicas está diseñado para verificar automáticamente que la cantidad, el precio unitario o el descuento detallados en una confirmación de pedido coincidan con las cifras correspondientes en la orden de compra. Esta verificación garantiza la consistencia y precisión entre lo solicitado y lo que el proveedor confirma entregar.
 
-Puedes asignar un estado específico a estos documentos o asignarlos a un empleado específico.
+Puedes asignar a estos documentos un estado específico o asignarlos a un empleado específico.
 
 <div align="center">
 
@@ -199,11 +199,11 @@ Con esta tarjeta, puedes especificar el nombre de un flujo de trabajo que se eje
 
 <figure><img src="https://lh7-us.googleusercontent.com/XYY1xsFpp7_-Bi0WOSbotiVzspDLdaufx_xgoopMHmxdZnSDhroLpb0AE_si5PhwMq1jHfndc9FwOte9MOoCoTP5_JUYawO5cr4uIctIDHmwVjz3KacQrLJd8iBQy5KY4N-dMaWEi3IeTcc5OBRNJk4" alt=""><figcaption></figcaption></figure>
 
-Si desea agregar todos los recargos como un descuento negativo en la columna de descuento, puede utilizar la tarjeta de cálculo. Puede haber entradas en esta columna, puede establecerla como una de las variables en la tarjeta, hacer que se reste el MTZ y agregar el resultado de nuevo en esta columna. En caso de que haya campos vacíos (recargos solo para algunos elementos), asumirá un 0 para su cálculo.
+Si deseas agregar todos los recargos como un descuento negativo en la columna de descuento existente, puedes utilizar la tarjeta de cálculo. Puede haber entradas en esta columna, puedes establecerla como una de las variables en la tarjeta, restarle el MTZ y agregar el resultado de vuelta en esta columna. En caso de que haya campos vacíos (recargos solo para algunos elementos), se asumirá un 0 para su cálculo.
 
 **Notificar al usuario para autorizar la confirmación del pedido en DocBits**
 
-Después de calcular los recargos, es posible que desee notificar a un usuario específico para autorizar la confirmación del pedido. Para esto, puede utilizar la tarjeta de notificación.
+Después de calcular los recargos, es posible que desees notificar a un usuario específico para autorizar la confirmación del pedido. Para esto, puedes utilizar la tarjeta de notificación.
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 

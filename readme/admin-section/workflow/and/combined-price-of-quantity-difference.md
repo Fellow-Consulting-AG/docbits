@@ -20,7 +20,7 @@ Escenario de ejemplo:
 
 * Una factura lista un total de 100 unidades de un producto a $50 por unidad, totalizando $5000. La orden de compra relacionada autorizó una compra de $4500. Utilizando el operador "Mayor que", la tarjeta identifica y marca la discrepancia para su revisión.
 
-Al utilizar la tarjeta "Comparar con la orden de compra", los usuarios pueden asegurar automáticamente que los pagos sean consistentes con los acuerdos de compra, ahorrando tiempo y reduciendo errores humanos en el procesamiento financiero.
+Al utilizar la tarjeta "Comparar con orden de compra", los usuarios pueden asegurar automáticamente que los pagos sean consistentes con los acuerdos de compra, ahorrando tiempo y reduciendo errores humanos en el procesamiento financiero.
 
 \
 \

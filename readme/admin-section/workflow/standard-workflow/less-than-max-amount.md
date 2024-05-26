@@ -1,8 +1,8 @@
-# Menor que la Cantidad Máxima
+# Menos que la Cantidad Máxima
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.48.55.png" alt=""><figcaption></figcaption></figure>
 
-Este título sugiere que la regla o condición establecida está diseñada para manejar facturas donde el monto total es menor o igual a una cantidad máxima especificada.
+Este título sugiere que la regla o condición que se está estableciendo está diseñada para manejar facturas donde el monto total es menor o igual a una cantidad máxima especificada.
 
 #### Configuración de la Regla:
 
@@ -10,7 +10,7 @@ Este título sugiere que la regla o condición establecida está diseñada para 
 * **El Tipo de Documento es Factura**: Esta condición verifica si el documento que se está procesando es una factura. Esto es crucial para garantizar que la regla solo se aplique a facturas y no a otros tipos de documentos.
 2. **Y…**
 * **El Estado del Documento es Pendiente de Aprobación**: Esto especifica que la factura debe estar en estado de "Pendiente de Aprobación". Esta verificación de estado asegura que la regla se aplique solo a facturas que esperan aprobación.
-* **Comparar dos campos: Monto Total Menor o Igual al Monto Máximo del Aprobador**: Esta condición compara el monto total de la factura con el monto máximo autorizado de un aprobador. Si el monto total de la factura es menor o igual a este monto máximo, la regla continúa al siguiente paso. Esto probablemente incluye un nivel de tolerancia que permite desviaciones menores dentro de límites especificados.
+* **Comparar dos campos: Monto Total Menor o Igual al Monto Máximo del Aprobador**: Esta condición compara el monto total de la factura con el monto máximo autorizado de un aprobador. Si el monto total de la factura es menor o igual a este monto máximo, la regla continúa con el siguiente paso. Esto probablemente incluye un nivel de tolerancia que permite desviaciones menores dentro de límites especificados.
 
 #### Acción (Entonces…):
 

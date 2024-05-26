@@ -20,12 +20,12 @@ Esta tarjeta está diseñada para gestionar acciones en documentos dependiendo d
 **Funcionalidad**
 
 * **Identificación de Documentos**: El sistema primero identifica el tipo de cada documento entrante o existente basado en atributos o metadatos predefinidos.
-* **Evaluación de Condiciones**:
+* **Evaluación de la Condición**:
 * Si el operador es **es**, la tarjeta verifica si el tipo de documento está en la lista proporcionada.
 * Si el operador es **no es**, la tarjeta verifica si el tipo de documento no está en la lista.
 * **Activación de Acciones**: Dependiendo del resultado de la evaluación de la condición:
 * **Verdadero**: Inicia las operaciones o flujos de trabajo asociados si se cumple la condición.
-* **Falso**: El proceso se omite o se activa una operación alternativa si no se cumple la condición.
+* **Falso**: El proceso se omite o se activa una operación alternativa si la condición no se cumple.
 * **Integración y Automatización**: Se integra perfectamente con otros componentes del sistema, asegurando que el manejo de documentos esté automatizado y cumpla con los flujos de trabajo y políticas organizacionales.
 
 **Interacciones del Usuario**

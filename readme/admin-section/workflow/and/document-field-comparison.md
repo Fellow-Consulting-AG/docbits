@@ -31,10 +31,10 @@ Esta tarjeta de flujo de trabajo está diseñada para comparar automáticamente 
 
 **Interacciones del Usuario**
 
-* **Configuración y Configuración**: Los usuarios configuran la comparación ingresando los nombres de los campos y seleccionando un operador. Esta configuración debe ser sencilla y guiada, posiblemente con texto de ayuda o ejemplos.
+* **Configuración y Configuración**: Los usuarios configuran la comparación ingresando nombres de campos y seleccionando un operador. Esta configuración debe ser sencilla y guiada, posiblemente con texto de ayuda o ejemplos.
 * **Monitoreo e Informes**: El sistema puede proporcionar comentarios sobre los resultados de las comparaciones, como registrar todas las comparaciones realizadas, sus resultados y cualquier acción tomada en respuesta a los resultados de la comparación.
 * **Manejo de Errores y Notificaciones**: Los usuarios reciben alertas si la comparación no se puede ejecutar (por ejemplo, si uno de los campos no se encuentra en el documento o no está en un formato comparable).
 
 #### Conclusión
 
-La tarjeta de flujo de trabajo "Comparación de Campos de Documentos" es vital para mantener la precisión y consistencia de los datos en los documentos de un sistema ERP. Ayuda a automatizar comprobaciones que de otro modo serían manuales, propensas a errores y consumirían mucho tiempo, mejorando la eficiencia y confiabilidad en el procesamiento de documentos. Documentar claramente esta tarjeta en el manual de su sistema ERP ayudará a los usuarios a emplear esta función de manera efectiva, garantizando que los datos en los documentos permanezcan consistentes y de acuerdo con las reglas comerciales.
+La tarjeta de flujo de trabajo "Comparación de Campos de Documentos" es vital para mantener la precisión y consistencia de los datos en los documentos de un sistema ERP. Ayuda a automatizar verificaciones que de otro modo serían manuales, propensas a errores y consumirían tiempo, mejorando la eficiencia y confiabilidad en el procesamiento de documentos. Documentar claramente esta tarjeta en el manual de su sistema ERP ayudará a los usuarios a emplear esta función de manera efectiva, garantizando que los datos en los documentos permanezcan consistentes y de acuerdo con las reglas comerciales.

@@ -18,13 +18,13 @@ Esta tarjeta de flujo de trabajo está diseñada específicamente para realizar 
 **Funcionalidad**
 
 * **Clasificación de Documentos**: Identifica y clasifica automáticamente los documentos al ingresar al sistema ERP según sus metadatos, contenido u otros identificadores.
-* **Ejecución de Operación**: Ejecuta la operación especificada para documentos del tipo identificado. Esta ejecución podría implicar:
+* **Ejecución de la Operación**: Ejecuta la operación especificada para documentos del tipo identificado. Esta ejecución podría implicar:
 * **Validar**: Verificar que el documento esté completo, correcto y cumpla con los estándares.
 * **Almacenar**: Guardar el documento en el repositorio designado con indexación adecuada.
 * **Procesar**: Aplicar lógica empresarial al documento, como calcular totales en una factura o actualizar registros de la base de datos.
 * **Enviar**: Distribuir el documento a otras unidades comerciales o socios externos según los requisitos del flujo de trabajo.
-* **Cumplimiento y Seguridad**: Asegura que todas las operaciones cumplan con la normativa de cumplimiento y los protocolos de seguridad específicos del tipo de documento.
-* **Automatización e Integración**: Se integra sin problemas con otros flujos de trabajo en el sistema ERP, facilitando transiciones automatizadas entre diferentes etapas operativas.
+* **Cumplimiento y Seguridad**: Asegura que todas las operaciones cumplan con los protocolos de cumplimiento normativo y seguridad específicos del tipo de documento.
+* **Automatización e Integración**: Se integra perfectamente con otros flujos de trabajo en el sistema ERP, facilitando transiciones automatizadas entre diferentes etapas operativas.
 
 **Interacciones del Usuario**
 
@@ -34,4 +34,4 @@ Esta tarjeta de flujo de trabajo está diseñada específicamente para realizar 
 
 #### Conclusión
 
-La tarjeta de flujo de trabajo "Operación de Tipo de Documento" es un componente vital para gestionar eficientemente procesos basados en documentos dentro de un sistema ERP. Automatiza tareas rutinarias, reduce errores y garantiza consistencia en tipos similares de documentos, mejorando así la productividad general y el cumplimiento. Documentar esta tarjeta de manera efectiva en el manual de su sistema ayudará a los usuarios a comprender su funcionalidad y cómo aprovecharla para optimizar los procesos de gestión de documentos en sus operaciones diarias. Si hay detalles específicos adicionales o ejemplos que deben incluirse según las capacidades de su sistema ERP o necesidades específicas de la industria, estos deben adaptarse en consecuencia.
+La tarjeta de flujo de trabajo "Operación de Tipo de Documento" es un componente vital para gestionar eficientemente procesos basados en documentos dentro de un sistema ERP. Automatiza tareas rutinarias, reduce errores y garantiza consistencia en tipos similares de documentos, mejorando así la productividad general y el cumplimiento. Documentar esta tarjeta de manera efectiva en el manual de su sistema ayudará a los usuarios a comprender su funcionalidad y cómo aprovecharla para optimizar los procesos de gestión de documentos en sus operaciones diarias. Si hay detalles específicos adicionales o ejemplos que deban incluirse según las capacidades de su sistema ERP o necesidades específicas de la industria, estos deben adaptarse en consecuencia.

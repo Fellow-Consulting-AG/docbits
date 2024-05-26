@@ -1,6 +1,6 @@
 # Proveedor en la factura
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Propósito**
 
@@ -17,6 +17,6 @@ Esta tarjeta de Docbits permite una comparación detallada, comparando el provee
 
 **Escenario de ejemplo:**
 
-* Se realiza un pedido, luego llega la confirmación del pedido y luego se emite la factura. Todo el proceso de pedido se lleva a cabo con un proveedor. Si no es así, la tarjeta puede determinar de inmediato que hay discrepancias entre los proveedores y así garantiza que no se realicen pagos incorrectos y que la factura se realice solo con el proveedor que también estuvo involucrado en todo el proceso.
+* Se realiza un pedido, luego llega la confirmación del pedido y luego se emite la factura. Todo el proceso de pedido se realiza con un solo proveedor. Si no es así, la tarjeta puede determinar de inmediato que hay discrepancias entre los proveedores y así garantiza que no se realicen pagos incorrectos y que la factura se realice solo con el proveedor que también estuvo involucrado en todo el proceso.
 
 Al utilizar la tarjeta "Proveedor en la factura ... Proveedor en la orden de compra", las empresas pueden automatizar la verificación de proveedores que emiten facturas y las confirmaciones de pedido asociadas.

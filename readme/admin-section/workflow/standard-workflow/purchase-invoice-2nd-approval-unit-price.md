@@ -19,6 +19,6 @@ Este título indica que la regla está configurada para gestionar la segunda fas
 
 #### Propósito de Esta Regla:
 
-* **Garantizar Precisión y Cumplimiento**: Esta regla es fundamental para asegurar que el proceso de facturación sea preciso y cumpla con los términos acordados. Al activar una revisión cuando hay una discrepancia en los precios unitarios, el sistema ayuda a prevenir errores financieros o posibles fraudes.
+* **Garantizar Precisión y Cumplimiento**: Esta regla es crucial para asegurar que el proceso de facturación sea preciso y cumpla con los términos acordados. Al activar una revisión cuando hay una discrepancia en los precios unitarios, el sistema ayuda a prevenir errores financieros o posibles fraudes.
 * **Agilizar Aprobaciones**: Automatizar la asignación para revisión basada en discrepancias específicas ayuda a agilizar el proceso de aprobación y garantiza que los problemas sean abordados rápidamente por el personal adecuado.
 * **Supervisión Financiera**: Requerir una segunda aprobación, especialmente basada en la coincidencia de precios, refuerza los controles financieros y la responsabilidad dentro de la organización.

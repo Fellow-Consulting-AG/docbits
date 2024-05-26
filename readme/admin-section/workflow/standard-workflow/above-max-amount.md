@@ -14,7 +14,7 @@ Este título indica que la regla está diseñada para gestionar casos en los que
 
 #### Acción (Entonces…):
 
-* **Asignar usuario del campo Próximo Aprobador de Nivel, usar usuario Usuario como alternativa**: Si la factura excede el monto máximo especificado, se asigna automáticamente a un aprobador de nivel superior, indicado por el campo 'Próximo Aprobador de Nivel'. Si este campo no está completado o el usuario especificado no está disponible, se utiliza un usuario predeterminado (probablemente un administrador u otro miembro del personal designado) como alternativa para garantizar que la factura se revise sin demora.
+* **Asignar usuario del campo Próximo Aprobador Nivel, usar usuario Usuario como alternativa**: Si la factura excede el monto máximo especificado, se asigna automáticamente a un aprobador de nivel superior, indicado por el campo 'Próximo Aprobador Nivel'. Si este campo no está completado o el usuario especificado no está disponible, se utiliza un usuario predeterminado (probablemente un administrador u otro miembro del personal designado) como alternativa para garantizar que la factura se revise sin demoras.
 
 #### Elementos de la Interfaz:
 

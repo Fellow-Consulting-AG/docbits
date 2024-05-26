@@ -4,7 +4,7 @@
 
 ### **Propósito de las Tarjetas 'Y':**
 
-* Las tarjetas **Y** sirven como tarjetas de condición que especifican los criterios que deben cumplirse para que el flujo de trabajo continúe. Actúan efectivamente como operadores lógicos "Y", lo que significa que todas las condiciones especificadas en estas tarjetas deben cumplirse para que se active la acción posterior.
+* Las tarjetas **Y** sirven como tarjetas de condición que especifican criterios que deben cumplirse para que el flujo de trabajo continúe. Actúan efectivamente como operadores lógicos "Y", lo que significa que todas las condiciones especificadas en estas tarjetas deben cumplirse para que se active la acción posterior.
 
 #### Categorías de las Tarjetas 'Y'
 
@@ -49,7 +49,7 @@ A partir de las capturas de pantalla, es evidente que estas tarjetas cubren una 
 
 <figure><img src="../../../.gitbook/assets/And6.png" alt=""><figcaption></figcaption></figure>
 
-*   **Asignado**:
+*   **Asignado a**:
 
 * Condiciones basadas en asignados de tareas o documentos. Esto asegura que las acciones solo se tomen cuando ciertos usuarios están involucrados, mejorando la responsabilidad y especificidad de tareas.
 

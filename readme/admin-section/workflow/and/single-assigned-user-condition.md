@@ -4,12 +4,12 @@
 
 **Propósito**
 
-Esta tarjeta de flujo de trabajo facilita operaciones basadas en la asignación de una tarea o documento a un único usuario específico. Utilizando un enfoque directo de lógica condicional, gestiona flujos de trabajo que requieren la participación dirigida de un usuario, asegurando precisión en el manejo de tareas basadas en usuarios.
+Esta tarjeta de flujo de trabajo facilita operaciones basadas en la asignación de una tarea o documento a un único usuario específico. Utilizando un enfoque directo de lógica condicional, gestiona flujos de trabajo que requieren la participación dirigida del usuario, asegurando precisión en el manejo de tareas basadas en usuarios.
 
 **Componentes de la Tarjeta**
 
 1. **Operador**
-* **Descripción**: Especifica la lógica a aplicar a la asignación de usuario.
+* **Descripción**: Especifica la lógica a aplicar a la asignación del usuario.
 * **Opciones**:
 * **ES**: Activa la operación si el usuario asignado del documento o tarea coincide con el usuario especificado.
 * **NO ES**: Activa la operación si el usuario asignado no coincide con el usuario especificado.
@@ -35,4 +35,4 @@ Esta tarjeta de flujo de trabajo facilita operaciones basadas en la asignación 
 
 #### Conclusión
 
-La tarjeta de flujo de trabajo "Condición de Usuario Asignado Único" es esencial para la gestión precisa de documentos y tareas específicas de usuario dentro de un sistema ERP. Simplifica los flujos de trabajo al centrarse en asignaciones individuales de usuarios, asegurando que las acciones solo se ejecuten cuando sea apropiado, según el rol y las responsabilidades del usuario. Documentar claramente esta tarjeta ayudará a los usuarios a comprender su aplicación, permitiéndoles implementarla y gestionarla de manera efectiva dentro de sus operaciones diarias. Esta documentación garantiza que todos los usuarios potenciales puedan comprender fácilmente el propósito de la tarjeta e integrarla sin problemas en sus flujos de trabajo.
+La tarjeta de flujo de trabajo "Condición de Usuario Asignado Único" es esencial para la gestión precisa de documentos y tareas específicas de usuario dentro de un sistema ERP. Simplifica los flujos de trabajo al centrarse en asignaciones individuales de usuarios, asegurando que las acciones solo se ejecuten cuando sea apropiado, basado en el rol y responsabilidades del usuario. Documentar claramente esta tarjeta ayudará a los usuarios a comprender su aplicación, permitiéndoles implementarla y gestionarla de manera efectiva dentro de sus operaciones diarias. Esta documentación garantiza que todos los usuarios potenciales puedan comprender fácilmente el propósito de la tarjeta e integrarla sin problemas en sus flujos de trabajo.

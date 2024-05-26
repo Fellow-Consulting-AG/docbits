@@ -2,7 +2,7 @@
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 15.00.53.png" alt=""><figcaption></figcaption></figure>
 
-Este título indica que la regla está configurada para gestionar la segunda fase de aprobación para facturas de compra con énfasis en los detalles de cantidad, asegurando que las cantidades en la factura coincidan con las del pedido de compra original.
+Este título indica que la regla está configurada para gestionar la segunda fase de aprobación para facturas de compra con un énfasis en los detalles de cantidad, asegurando que las cantidades en la factura coincidan con las del pedido de compra original.
 
 #### Configuración de la Regla:
 
@@ -10,8 +10,8 @@ Este título indica que la regla está configurada para gestionar la segunda fas
 * **El Tipo de Documento es Factura**: Esta condición asegura que la regla se active solo para documentos identificados como facturas, lo cual es crucial para dirigir el flujo de trabajo con precisión.
 2. **Y…**
 * **El Estado del Documento es Pendiente de 2da Aprobación**: Esto especifica que la factura está actualmente pendiente de una segunda aprobación. Esta etapa a menudo proporciona una supervisión adicional para garantizar la precisión antes de que se finalice la transacción.
-* **El Campo del Documento Subtipo de Factura es Igual a Factura de Compra**: Esta condición especifica además que la regla se aplica solo a facturas categorizadas específicamente como "Facturas de Compra", diferenciándolas de otros tipos de facturas.
-* **Lógica Cantidad en confirmación de pedido es Igual a pedido de compra**: Esta condición verifica si la cantidad indicada en la confirmación del pedido coincide con la cantidad en el pedido de compra. Asegura que el procesamiento de la factura solo avance si las cantidades son consistentes, lo cual es crítico para la gestión de inventario y la precisión financiera.
+* **El Subtipo de Factura es Igual a Factura de Compra**: Esta condición especifica además que la regla se aplica solo a facturas categorizadas específicamente como "Facturas de Compra", diferenciándolas de otros tipos de facturas.
+* **La Cantidad Lógica en la confirmación del pedido es Igual al pedido de compra**: Esta condición verifica si la cantidad indicada en la confirmación del pedido coincide con la cantidad en el pedido de compra. Asegura que el procesamiento de la factura solo avance si las cantidades son consistentes, lo cual es crítico para la gestión de inventario y la precisión financiera.
 
 #### Acción (Entonces…):
 

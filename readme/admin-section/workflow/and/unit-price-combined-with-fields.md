@@ -16,8 +16,8 @@ Funcionalidad:
 
 Uso: Esta tarjeta es especialmente valiosa para los gerentes de ERP y contadores financieros encargados de mantener un control estricto sobre los procesos de compra y pago. Garantiza que los precios facturados se ajusten a los acordados en las órdenes de compra, mitigando así las discrepancias financieras.
 
-Ejemplo de escenario:
+Escenario de ejemplo:
 
-* Una factura presenta un precio unitario de $50 para un producto. El "nombre del campo" especificado incluye una tarifa adicional de manipulación de $5 por unidad. Cuando se combinan, el monto total por unidad asciende a $55. Utilizando el operador "Igual" con un valor establecido en $55, la tarjeta verifica que el precio facturado se alinee con la orden de compra, garantizando el cumplimiento del acuerdo.
+* Una factura presenta un precio unitario de $50 para un producto. El "nombre del campo" especificado incluye una tarifa adicional de manipulación de $5 por unidad. Al combinarse, el monto total por unidad asciende a $55. Utilizando el operador "Igual" con un valor establecido en $55, la tarjeta verifica que el precio facturado se alinea con la orden de compra, garantizando el cumplimiento del acuerdo.
 
 Al implementar la tarjeta "Comparar con Orden de Compra: Precio Unitario Combinado", las empresas pueden automatizar la verificación de la precisión de precios frente a las órdenes de compra, optimizando las operaciones financieras y protegiéndose contra cobros excesivos.

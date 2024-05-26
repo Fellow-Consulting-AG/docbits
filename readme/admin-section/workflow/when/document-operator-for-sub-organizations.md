@@ -17,13 +17,13 @@ Esta tarjeta de flujo de trabajo está diseñada para realizar operaciones espec
 
 **Funcionalidad**
 
-* **Identificación de Documentos**: La tarjeta primero identifica el o los documentos que deben procesarse. Esta identificación podría basarse en el tipo de documento, origen, fecha u otro metadato.
+* **Identificación de Documentos**: La tarjeta primero identifica el o los documentos que deben ser procesados. Esta identificación podría basarse en el tipo de documento, origen, fecha u otro metadato.
 * **Ejecución de la Operación**: Basado en el operador especificado, la tarjeta ejecuta la operación designada. Esto podría ser:
 * **Revisión**: Enviar el documento al personal o departamento correspondiente para su revisión.
 * **Aprobar**: Enrutar el documento para las aprobaciones necesarias dentro de la suborganización.
 * **Archivar**: Mover el documento a un sistema de archivo diseñado para almacenar registros según las políticas organizacionales.
 * **Distribuir**: Diseminar el documento internamente dentro de la suborganización o externamente si es necesario.
-* **Verificaciones de Cumplimiento**: La tarjeta verifica que todas las operaciones cumplan con las políticas internas y requisitos legales aplicables a la suborganización específica.
+* **Verificación de Cumplimiento**: La tarjeta verifica que todas las operaciones cumplan con las políticas internas y requisitos legales aplicables a la suborganización específica.
 * **Retroalimentación y Registro**: Después de la operación, la tarjeta proporciona retroalimentación sobre la acción tomada y registra esta información para auditorías y seguimiento de cumplimiento.
 
 **Interacciones del Usuario**

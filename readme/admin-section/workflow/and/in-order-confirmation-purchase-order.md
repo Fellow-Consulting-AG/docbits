@@ -31,8 +31,8 @@ La lógica se activa cuando se cumplen cualquiera de las siguientes condiciones 
 
 <figure><img src="https://lh7-us.googleusercontent.com/DRTMJxJ9XLeC5zWSU8QuZwPLkqHzmCUm9RwiUZIkcc8pVxMZsxLv56dX9spzqr7KeDkTigbeBX2DvAZRe-6MdqOgAnrO-QPnCbi4e6hP4--P_O0A0DSoQJxjGeefOS1p6GuXHs1YXv-A73DXYaE8qlI" alt="" width="563"><figcaption></figcaption></figure>
 
-1. **Definir Parámetros de Comparación**: Configurar los campos específicos (cantidad, precio unitario, descuento) que la tarjeta lógica verificará para encontrar una coincidencia.
+1. **Definir Parámetros de Comparación**: Configurar los campos específicos (cantidad, precio unitario, descuento) que la tarjeta lógica verificará para una coincidencia.
 2. **Automatizar Verificación**: Configurar el sistema para comparar automáticamente estos detalles al recibir una confirmación de orden.
 3. **Personalizar Alertas**: Decidir sobre el flujo de trabajo para manejar discrepancias, incluida la personalización de alertas para revisión manual.
 
-Esta tarjeta lógica es vital para garantizar que los detalles de una confirmación de orden se alineen con la orden de compra original, protegiendo la integridad del ciclo de adquisiciones. \`\`
+Esta tarjeta lógica es vital para garantizar que los detalles de una confirmación de orden se alineen con la orden de compra original, salvaguardando la integridad del ciclo de adquisiciones. \`\`

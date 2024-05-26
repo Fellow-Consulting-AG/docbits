@@ -22,7 +22,7 @@ Esta tarjeta de flujo de trabajo está diseñada para gestionar operaciones en d
 
 * **Identificación del Estado del Documento**: Identifica el estado actual de un documento mientras se procesa a través del sistema ERP.
 * **Evaluación de la Condición**:
-* Según el operador seleccionado (`es` o `no es`), la tarjeta verifica si el estado actual del documento coincide con el criterio de estado elegido.
+* Basado en el operador seleccionado (`es` o `no es`), la tarjeta verifica si el estado actual del documento coincide con el criterio de estado elegido.
 * **Ejecución de la Acción**:
 * **Condición Verdadera**: Si el estado coincide (o no coincide, según el operador), se inicia la acción correspondiente. Esto podría ser enrutamiento para un procesamiento adicional, generación de notificaciones u otros flujos de trabajo predefinidos.
 * **Condición Falsa**: Si la condición no se cumple, no se realiza ninguna acción o se activa un camino alternativo.
@@ -30,10 +30,10 @@ Esta tarjeta de flujo de trabajo está diseñada para gestionar operaciones en d
 
 **Interacciones del Usuario**
 
-* **Configuración y Configuración**: Los usuarios configuran la tarjeta seleccionando un operador y luego eligiendo un estado de las opciones disponibles. Este proceso de selección es sencillo y está diseñado para evitar confusiones.
+* **Configuración e Instalación**: Los usuarios configuran la tarjeta seleccionando un operador y luego eligiendo un estado de las opciones disponibles. Este proceso de selección es sencillo y está diseñado para evitar confusiones.
 * **Monitoreo e Informes**: Permite el monitoreo a través de informes generados por el sistema o paneles que rastrean el procesamiento de documentos según su estado, ayudando a supervisar la efectividad de los flujos de trabajo implementados.
 * **Manejo de Errores y Notificaciones**: Configurable para alertar a los usuarios sobre anomalías en el procesamiento o para marcar documentos que no cumplen con las condiciones establecidas, asegurando una atención y resolución rápidas.
 
 #### Conclusión
 
-La tarjeta de flujo de trabajo "Condición de Estado de Documento Único" simplifica la gestión de documentos al centrarse en condiciones de estado individuales. Esta especificación ayuda en casos donde se necesita un control preciso sobre los flujos de documentos, especialmente en entornos con criterios de procesamiento estrictos. Documentar claramente esta versión de la tarjeta garantizará que los usuarios comprendan completamente su aplicación y puedan integrarla de manera efectiva en sus operaciones diarias, mejorando tanto la conformidad como la eficiencia en el procesamiento de documentos.
+La tarjeta de flujo de trabajo "Condición de Estado de Documento Único" simplifica la gestión de documentos al centrarse en condiciones de estado individuales. Esta especificación ayuda en casos donde se requiere un control preciso sobre los flujos de documentos, especialmente en entornos con criterios de procesamiento estrictos. Documentar claramente esta versión de la tarjeta garantizará que los usuarios comprendan completamente su aplicación y puedan integrarla de manera efectiva en sus operaciones diarias, mejorando tanto la conformidad como la eficiencia en el procesamiento de documentos.
