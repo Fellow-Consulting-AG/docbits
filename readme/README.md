@@ -55,3 +55,4 @@ Welcome to **DocBits**, your comprehensive source for documentation strategies a
 * Ideal for businesses looking to optimize their document capturing processes and enhance operational efficiency.
 
 For more information, visit [FellowPRO AG](https://fellowpro.com/) or contact sales at sales@fellowpro.com. Follow us on [LinkedIn](https://www.linkedin.com/company/fellowpro).
+

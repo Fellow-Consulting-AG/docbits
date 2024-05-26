@@ -42,3 +42,4 @@
 By following these best practices for script development in DocBits, you can create efficient, reliable, and well-documented scripts that improve the functionality and security of your document processing workflow.
 
 
+

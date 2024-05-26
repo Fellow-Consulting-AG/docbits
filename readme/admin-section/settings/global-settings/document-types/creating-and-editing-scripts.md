@@ -71,3 +71,4 @@ After you have created, tested and mapped the script, check it again for errors 
 Through these steps, you can successfully create, test and implement a new script in DocBits to automate processes and improve the efficiency of medical documentation.
 
 
+

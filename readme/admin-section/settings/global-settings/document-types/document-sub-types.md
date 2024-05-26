@@ -41,3 +41,4 @@ Document subtypes in Docbits allow for more flexible and tailored management of 
 * The "+ New" button allows administrators to create new sub-types, defining unique properties and rules as needed.
 
 
+

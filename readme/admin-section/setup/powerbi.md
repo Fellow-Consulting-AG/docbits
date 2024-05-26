@@ -29,3 +29,4 @@ description: How to configure PowerBI
 6. Refreshing Your Data
    * Remember, if your ClickHouse data changes, you’ll want those updates in PowerBI. You can set up scheduled refreshes in PowerBI Service to keep things up-to-date. Just make sure your PowerBI Desktop file is published to PowerBI Service, and configure the refresh settings there.
 
+

@@ -50,3 +50,4 @@ The data of all defined areas will be extracted and shown on the right side:
 
 In the next section you will learn how to adjust the data that has been extracted.
 
+

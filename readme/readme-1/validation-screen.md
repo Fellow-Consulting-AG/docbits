@@ -262,3 +262,4 @@ If a column is missing, you can create a new column here. Specify the title, dec
 * **Restore Table Column:**
   * **Purpose:** Reinstates a previously deleted or altered column in a table.
   * **Use Case:** Helpful for recovering data that was mistakenly removed or altered, ensuring data completeness.
+

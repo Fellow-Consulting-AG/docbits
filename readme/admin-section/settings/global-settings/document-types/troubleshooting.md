@@ -27,3 +27,4 @@
 By applying these best practices and troubleshooting as appropriate, you can create efficient and accurate document layouts that enable smooth data capture and processing.
 
 
+

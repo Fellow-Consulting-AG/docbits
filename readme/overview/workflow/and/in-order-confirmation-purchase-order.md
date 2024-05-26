@@ -36,3 +36,4 @@ The logic is activated when any of the following conditions are met in an order 
 3. **Customize Alerts**: Decide on the workflow for handling discrepancies, including customization of alerts for manual review.
 
 This logic card is vital for ensuring that the details of an order confirmation align with the original purchase order, safeguarding the integrity of the procurement cycle. \`\`
+

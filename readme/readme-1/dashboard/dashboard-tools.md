@@ -23,3 +23,4 @@ The advanced settings often contain additional configuration options and functio
 * Filter documents by day, week, month, year or all. The filtering refers to the time at which the document is imported
 
 On the next pages you will find further information about the individual settings.
+

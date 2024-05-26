@@ -25,3 +25,4 @@ Once you’re in training mode, you can create a new column by clicking on the �
 After you’ve created your new column, you can use it for manual mappings by following our guide on Manual Row Selection.
 
 ![](https://lh7-us.googleusercontent.com/9Fxc0zDpm235h0xtU9Tldhx2T48fVrt3vdwcfsTT03B\_GqFxdON6ROKw5qV06Lo66knjoMMr1C8CJcWrA266bPxI\_FDp6X3EiBFbV\_Z9wXzG6rYVmMvZIrYFx6-K0xW90VwM8esT219SidnZ2RBGu6c)
+

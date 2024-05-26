@@ -85,3 +85,4 @@ Unsettled Amount
 An “Unsettled amount” indicator at the bottom in case of any unaccounted value or amount outstanding from the parent amount.
 
 ![](https://lh7-us.googleusercontent.com/xZ2RqteuST79CFiKJRBDLwIBBLMa2E\_vdaMmpTM3NN2qxuwCr8j208wZVHgY1Q9bg46EhRPeQpM\_K1V85yIzU88D7tGRPiP3pkpzXUBv\_vZbPrIM1S41ZeRcMMVW60nf5Whngnpbluw9M30bjDwcoQ0)
+

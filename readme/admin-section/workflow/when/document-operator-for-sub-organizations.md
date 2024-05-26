@@ -36,3 +36,4 @@ This workflow card is designed to perform specific operations on documents that 
 
 The "Document Operator for Sub-Organizations" card is a crucial tool for managing documents in a structured and efficient manner, particularly in larger organizations where different departments have unique operational needs and compliance requirements. Documenting this card clearly in your ERP system's manual will help users understand its importance and implement it effectively within their workflows. If additional customization or functionality descriptions are needed, feel free to expand based on specific organizational needs and technical capabilities.
 
+

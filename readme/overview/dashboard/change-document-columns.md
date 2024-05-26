@@ -19,3 +19,4 @@ From this menu, you can select the column names and use the arrows to add and re
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 </div>
+

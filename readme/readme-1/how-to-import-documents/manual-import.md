@@ -10,3 +10,4 @@ If you’re looking to import documents manually into DocBits, follow these simp
 * Once the file has been processed, it will receive the status of “Ready For Validation”. You can now start the validation process.
 
 ![](https://lh7-us.googleusercontent.com/u3OruoAoBvx4nRSkhQZGIEYxiem1CJn-XUaYU38vGWXhnkwOdnkyZ0ZxHXrAG5g0rNnp4fsI\_sSVw7RtMYOD8rBlslgoT4RY1THU4-BzXF3B7Ve-HhNfOADOziQQseu2QF56aNaKsfhe1qnScJzUhek)
+

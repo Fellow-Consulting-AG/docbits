@@ -39,3 +39,4 @@ For each document type there are different fields that you can add:
 Select the fields you need and click "Add to visible Columns", they will then appear in the column settings.
 
 <figure><img src="../../.gitbook/assets/image (55).png" alt="" width="281"><figcaption></figcaption></figure>
+

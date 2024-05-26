@@ -76,3 +76,4 @@
 By following these steps, you can effectively navigate DocBits' Layout Manager and edit groups as well as fields within a document type. This allows you to customize the structure and appearance of your documents according to your needs.
 
 
+

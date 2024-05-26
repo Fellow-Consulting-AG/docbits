@@ -6,3 +6,4 @@
 4. **Policy and Privacy Statement**: It's essential to have clear policies and privacy statements accessible to suppliers regarding how their data will be used and protected. This setting allows you to manage and communicate these documents to suppliers, ensuring compliance with legal standards and building trust with your suppliers by transparently showing how their information is handled.
 
 
+

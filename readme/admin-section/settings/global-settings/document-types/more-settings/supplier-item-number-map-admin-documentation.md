@@ -40,3 +40,4 @@ As an admin, you have the ability to view and manage the mappings between intern
 3. **Re-enter Correct Mappings:**
    * Ensure that correct mappings are entered either manually during the next transaction or by editing the existing entries if the system supports it.
 
+

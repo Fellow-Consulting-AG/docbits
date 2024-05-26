@@ -17,3 +17,4 @@ This feature is located in the menu above the document preview area, like below
 Once clicked, the following ticket form will be displayed to you.
 
 This is where you will fill in your details as well as describe the error. You can also ,if applicable, attach a screenshot of the issue and attach a relevant file.
+

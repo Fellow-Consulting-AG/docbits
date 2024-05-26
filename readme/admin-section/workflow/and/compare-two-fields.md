@@ -16,3 +16,4 @@ This card should automatically compare whether the fields, for example between n
 
 Tolerance type: percent or value
 
+

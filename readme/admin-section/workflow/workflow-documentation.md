@@ -210,3 +210,4 @@ After calculating the surcharges you might want to notify a specific user to aut
 
 Depending on settings, the user gets assigned a new task in DocBits and optionally an email to notify them of their new task.
 
+

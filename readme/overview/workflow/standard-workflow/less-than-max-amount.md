@@ -26,3 +26,4 @@ This title suggests that the rule or condition being set up is designed to handl
 This setup is designed to streamline the approval process for invoices by automatically directing invoices to the appropriate approver based on the amount and ensuring that only those within a certain threshold are handled in this automated way. It helps in managing financial controls and speeds up the workflow by reducing manual checks for each invoice.
 
 \
+

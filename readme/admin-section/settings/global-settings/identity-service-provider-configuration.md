@@ -35,3 +35,4 @@ Configuring the Identity Service Provider (IdP) to integrate with DocBits requir
 * Protect sensitive information such as SAML certificates and credentials from unauthorized access and store them in a safe location.
 
 
+

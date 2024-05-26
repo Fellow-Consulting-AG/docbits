@@ -25,3 +25,4 @@ This title indicates that the rule is set up to manage the second approval phase
 
 This rule is a clear example of how workflow automation can be effectively used to ensure precise and efficient handling of financial documents within an organization, particularly in the context of purchase processes that involve large volumes of transactions requiring meticulous validation.
 
+

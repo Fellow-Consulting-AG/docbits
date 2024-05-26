@@ -19,3 +19,4 @@
 Overall, EDI settings contribute significantly to improving efficiency, accuracy and transparency in various areas of business operations and are therefore an integral part of modern business practices.
 
 
+

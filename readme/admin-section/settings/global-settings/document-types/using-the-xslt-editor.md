@@ -25,3 +25,4 @@ Guide to using the XSLT Editor to create or modify transformations. Includes tip
 
 &#x20;By carefully creating, testing, and validating your XSLT scripts, you can ensure that they correctly transform the input data into the required EDI format. This is critical for successful electronic data interaction between different business systems.
 
+

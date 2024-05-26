@@ -105,3 +105,4 @@ The result from doing this will then be
 
 There is now a gap between the two fields. This gap can be extended or shortened according to the 100 percent rule discussed earlier, and with these functions you can create any desired layout.
 
+

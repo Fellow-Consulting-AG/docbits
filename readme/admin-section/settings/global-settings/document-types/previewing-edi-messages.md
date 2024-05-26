@@ -42,3 +42,4 @@ The preview feature is an extremely useful tool to check the appearance and cont
 
 Careful use of the preview feature helps you ensure that your EDI messages meet your business partner's requirements and ensure a smooth exchange of business data.
 
+

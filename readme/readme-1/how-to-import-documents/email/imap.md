@@ -8,3 +8,4 @@ Things to Note
 
 * Input all needed information into the UI. Other information like the server, port, etc. Depends on the host (a quick Google search should help).
 * Folder and Move-Imported have the same Function here. Folder can not be disabled, but will use Inbox by default if left empty.
+

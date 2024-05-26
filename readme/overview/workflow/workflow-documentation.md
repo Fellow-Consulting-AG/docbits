@@ -209,3 +209,4 @@ After calculating the surcharges you might want to notify a specific user to aut
 <figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Depending on settings, the user gets assigned a new task in DocBits and optionally an email to notify them of their new task.
+

@@ -49,3 +49,4 @@ The data of all defined areas will be extracted and shown on the right side:
 ![extracted columns](https://lh7-us.googleusercontent.com/2oydJFwY2q19XmWx-uUib\_EBsRHMDKrFww4SJn1nZ0u2fcdWrGnJUPSyM4pKkW7g077AAT3YnUdvXZsdMiZ4dlNHBqMPUELNZTk6O7POMqY7Vu3uQxzLaa5Roz08-8xr6cXmWRb5MawH\_A8YuywTTBM)
 
 In the next section you will learn how to adjust the data that has been extracted.
+

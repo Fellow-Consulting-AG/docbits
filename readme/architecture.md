@@ -22,3 +22,4 @@ To identify the supplier or compare/match purchase order lines, we activate a tr
 {% hint style="info" %}
 [Master Data Validation ](admin-section/setup/importing-customer-master-data/)
 {% endhint %}
+

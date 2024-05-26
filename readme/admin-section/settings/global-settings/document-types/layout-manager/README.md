@@ -28,3 +28,4 @@ The Layout Manager allows administrators to visually configure and modify the la
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2490" %}
 
+

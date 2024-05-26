@@ -76,3 +76,4 @@ Editing and deleting columns in a database table are important operations that m
 
 When editing or deleting columns, it is critical that you fully understand the impact of these actions and take appropriate precautions to maintain the integrity of your database and ensure that your application runs smoothly.
 
+

@@ -12,3 +12,4 @@ Click on the field you would like to train and either double click on the inform
 
 Repeat this until you have populated all the fields you require and then your document is ready to be exported, once exported, DocBits will remember this document type in future meaning that you will not need to manually train these fields again as DocBits learns where to extract this data.
 
+

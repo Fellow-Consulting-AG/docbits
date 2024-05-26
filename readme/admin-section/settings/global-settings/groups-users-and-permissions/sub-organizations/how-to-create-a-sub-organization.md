@@ -55,3 +55,4 @@ You can add a new user to the organization and have the option of whether to rem
 
 These management features enable administrators to effectively manage and adapt the user accounts and organizational structures within a document management system to meet the company's changing needs and processes.
 
+

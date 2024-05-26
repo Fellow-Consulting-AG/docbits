@@ -37,3 +37,4 @@ This workflow card facilitates operations based on the assignment of a task or d
 
 The "Single Assigned User Condition" workflow card is essential for precise, user-specific document and task management within an ERP system. It simplifies workflows by focusing on individual user assignments, thus ensuring that actions are only executed when appropriate, based on the user's role and responsibilities. Documenting this card clearly will assist users in understanding its application, allowing them to implement and manage it effectively within their daily operations. This documentation ensures that all potential users can easily grasp the card's purpose and integrate it seamlessly into their workflows.
 
+

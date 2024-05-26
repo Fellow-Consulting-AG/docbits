@@ -33,3 +33,4 @@ This setup ensures that workflows are not only efficient but also tailored to th
 
 In summary, the "When" part of your workflow configuration is about setting the stage for automated actions based on specific, predefined conditions. It’s a powerful tool for ensuring that your ERP system reacts dynamically to the needs of the business, enhancing both productivity and accuracy in document management.
 
+

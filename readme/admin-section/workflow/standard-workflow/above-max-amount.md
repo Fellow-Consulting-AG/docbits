@@ -27,3 +27,4 @@ The purpose of this rule is to ensure that invoices which exceed certain financi
 
 This rule, like the previous one, helps automate the workflow, reducing manual effort and enhancing compliance with the organization's financial policies. It is an example of how workflow automation can be effectively used to manage complex financial processes within a company.
 
+

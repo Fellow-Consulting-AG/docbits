@@ -19,3 +19,4 @@ Enter SFTP credentials in the given spaces and select save (The API Key field wi
 ![](https://lh7-us.googleusercontent.com/m11trSpnDmv9aco98vPG6xuIhYxngp6TauG7lDYEWB2VguNmX0ypXMi3Fc4Ey6V4Iy\_YwOy4Zooh3rj\_WoAQ3PQgVIjw5vqToOuq\_lIxN7IqPE2fv1puzsnEO96y5mn5FHjFtC1wYrEf9sxjHk1GL2I)
 
 Once you have entered all the necessary details of your SFTP, click SAVE.
+

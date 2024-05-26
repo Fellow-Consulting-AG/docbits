@@ -11,3 +11,4 @@ This is where you can see how many documents are in your queue for processing
 and how many documents are now ready for validation.
 
 <figure><img src="../../../.gitbook/assets/TC_3.png" alt=""><figcaption></figcaption></figure>
+

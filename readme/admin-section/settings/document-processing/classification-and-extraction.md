@@ -12,3 +12,4 @@ The "Classification and Extraction" settings in your document processing system 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.11.10.png" alt=""><figcaption></figcaption></figure>
 
 
+

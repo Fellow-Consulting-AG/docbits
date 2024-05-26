@@ -24,3 +24,4 @@ This title indicates that the rule pertains specifically to handling purchase in
 * **Enhanced Financial Oversight**: Requiring a secondary approval for quantity verifications strengthens financial controls and accountability within the organization.
 
 This setup exemplifies how workflow automation can be utilized to enhance operational efficiency and ensure financial integrity, particularly in managing complex purchase processes within a company.
+

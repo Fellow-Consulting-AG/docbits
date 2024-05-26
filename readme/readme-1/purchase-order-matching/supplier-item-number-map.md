@@ -33,3 +33,4 @@ See here the [Admin Section](../../admin-section/settings/global-settings/docume
 * **Efficiency:** Reduces the need for repeated manual entry, making the process faster.
 * **Accuracy:** Minimizes errors by ensuring that item numbers are correctly matched.
 * **Convenience:** Simplifies the workflow by automating the matching process after the initial manual entry.
+

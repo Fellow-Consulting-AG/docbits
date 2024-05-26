@@ -253,3 +253,4 @@
 * [Architecture](architecture.md)
 * [Infor Infrastructure](infor-infrastructure.md)
 * [Release](release.md)
+

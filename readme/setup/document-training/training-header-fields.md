@@ -11,3 +11,4 @@ However, with your help, you can train DocBits to know where to search for this 
 Click on the field you would like to train and either double click on the information on the document or, using your cursor, create a block around the information to populate the field.
 
 Repeat this until you have populated all the fields you require and then your document is ready to be exported, once exported, DocBits will remember this document type in future meaning that you will not need to manually train these fields again as DocBits learns where to extract this data.
+

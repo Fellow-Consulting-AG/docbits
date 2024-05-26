@@ -38,3 +38,4 @@ if currency_value:
     set_field_value(fields_dict, "currency", currency_value)
 ```
 
+

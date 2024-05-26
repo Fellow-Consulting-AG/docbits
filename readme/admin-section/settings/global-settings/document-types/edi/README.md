@@ -20,3 +20,4 @@ In Docbits, the EDI settings provide tools for defining and managing the structu
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2499" %}
 
+

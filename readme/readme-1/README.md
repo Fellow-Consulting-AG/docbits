@@ -21,3 +21,4 @@
 
 * **Common Issues:** Solutions to frequent problems encountered by users.
 * [**Support Contact**](user-support.md)**:** How to reach support for assistance.
+

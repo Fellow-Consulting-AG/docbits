@@ -17,3 +17,4 @@ If you’re using DocBits software for document processing, it’s essential to 
 * Auto Accounting: Automatic accounting is running.
 * Export: The document is being exported.
 * Error: An error occurred in the document.
+

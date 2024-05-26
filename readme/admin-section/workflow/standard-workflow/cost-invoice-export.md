@@ -24,3 +24,4 @@ This title indicates that the rule is specifically configured for managing cost 
 
 This kind of rule is vital for organizations that deal with various types of invoices and need to ensure that each type is handled according to specific protocols. It reduces the risk of errors and ensures compliance with internal controls and external regulations.
 
+

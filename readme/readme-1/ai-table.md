@@ -19,3 +19,4 @@ The AI Extracted Table feature allows users to easily manipulate and customize t
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-08 um 20.48.43.png" alt=""><figcaption></figcaption></figure>
 
 These features provide users with flexibility and control over the extracted data, enabling them to tailor the information according to their specific needs and preferences. The AI Extracted Table aims to enhance the user experience by offering a seamless and intuitive way to interact with and analyze invoice data.
+

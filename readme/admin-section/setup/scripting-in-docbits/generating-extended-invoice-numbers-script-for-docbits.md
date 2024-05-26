@@ -30,3 +30,4 @@ if extended_number:
         set_field_value(fields_dict, 'invoice_extended_number', extended_number)
 ```
 
+

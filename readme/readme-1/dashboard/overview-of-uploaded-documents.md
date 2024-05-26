@@ -7,3 +7,4 @@ The second part of the dashboard is an overview of all the uploaded documents. Y
 Data will be extracted within seconds, and the status will change from “Running” to “Ready for Validation”.
 
 
+

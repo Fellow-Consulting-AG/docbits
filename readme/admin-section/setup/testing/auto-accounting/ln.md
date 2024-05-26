@@ -10,3 +10,4 @@ Press the following icon to view the individual line items of the invoice.
 
 Here you can confirm the line items with what you exported using auto accounting.
 
+

@@ -25,3 +25,4 @@ This title indicates that the rule pertains specifically to handling purchase in
 
 This setup exemplifies how workflow automation can be utilized to enhance operational efficiency and ensure financial integrity, particularly in managing complex purchase processes within a company.
 
+

@@ -37,3 +37,4 @@ The logic is activated when any of the following conditions are met in an order 
 
 This logic card is vital for ensuring that the details of an order confirmation align with the original purchase order, safeguarding the integrity of the procurement cycle. \`\`
 
+

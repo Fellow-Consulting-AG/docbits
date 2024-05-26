@@ -18,3 +18,4 @@ Now upload your invoice that matches the quantity and unit prices of the purchas
 The PO and invoice line items should automatically match, then simply select the export option and check whether or not the document gets exported without any errors. If you do encounter an export error, create a ticket for the DocBits support team to assist you. If you are unsure of how to create a ticket within DocBits, please consult our DocBits Overview documentation for assistance.
 
 \
+

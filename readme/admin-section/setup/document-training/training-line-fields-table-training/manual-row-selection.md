@@ -24,3 +24,4 @@ Please note that the manual mapping of text to a column is only possible for ext
 
 The violet ones can not be mapped manually as the mapping has already been done via the columns defined on the document.
 
+

@@ -47,3 +47,4 @@ This setting allows you to match the entered value against a predefined referenc
 
 You ensure that only correct and valid data is captured, increasing the quality of your database and improving the reliability of your analytics and reports.
 
+
