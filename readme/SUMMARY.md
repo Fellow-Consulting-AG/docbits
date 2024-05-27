@@ -62,6 +62,10 @@
         * [Troubleshooting Common Issues](admin-section/settings/global-settings/integration/troubleshooting-common-issues.md)
       * [Identity Service Provider Configuration](admin-section/settings/global-settings/identity-service-provider-configuration.md)
       * [Document Types](admin-section/settings/global-settings/document-types/README.md)
+        * [Purpose and Scope](admin-section/settings/global-settings/document-types/purpose-and-scope.md)
+        * [Adding/Editing Document Types](admin-section/settings/global-settings/document-types/adding-editing-document-types.md)
+        * [Activation](admin-section/settings/global-settings/document-types/activation.md)
+        * [Customization Options](admin-section/settings/global-settings/document-types/customization-options.md)
         * [Layout Manager](admin-section/settings/global-settings/document-types/layout-manager/README.md)
           * [Purpose and Use](admin-section/settings/global-settings/document-types/layout-manager/purpose-and-use.md)
         * [Navigating the Layout Manager](admin-section/settings/global-settings/document-types/navigating-the-layout-manager.md)
@@ -253,4 +257,3 @@
 * [Architecture](architecture.md)
 * [Infor Infrastructure](infor-infrastructure.md)
 * [Release](release.md)
-
