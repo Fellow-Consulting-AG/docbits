@@ -54,6 +54,7 @@
         * [Groups and Permissions](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions.md)
           * [Adding/Editing Groups](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/adding-editing-groups.md)
           * [Activating Permissions](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/activating-permissions.md)
+          * [Troubleshooting](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
       * [Best practices](admin-section/settings/global-settings/best-practices.md)
       * [Integration](admin-section/settings/global-settings/integration/README.md)
         * [API Key](admin-section/settings/global-settings/integration/api-key.md)
