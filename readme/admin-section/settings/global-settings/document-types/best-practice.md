@@ -44,30 +44,6 @@ Configuring document types in Docbits requires care and expertise to ensure that
 
 * Set clear formatting guidelines for each field to facilitate validation and extraction
 
-### Set up effective regex patterns&#x20;
-
-**Best practices**
-
-**Specificity:**&#x20;
-
-* Use specific regex patterns to accurately capture the data you want. Avoid general patterns that could yield too many hits.&#x20;
-
-**Testing and refining:**&#x20;
-
-* Test the regex patterns with a variety of sample documents and continuously refine them to improve accuracy.&#x20;
-
-**Documentation:**&#x20;
-
-* Document the regex patterns used and their purpose to facilitate maintenance and future adjustments.&#x20;
-
-**Example:**&#x20;
-
-* To extract an invoice number, a specific regex pattern could look like this:
-
-<figure><img src="../../../../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
-
-* This pattern looks for the text "Invoice number:" followed by one or more digits.
-
 ### Training models for data extraction&#x20;
 
 **Best practices**
