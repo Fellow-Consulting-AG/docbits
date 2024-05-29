@@ -2,15 +2,15 @@
 
 Editing and deleting columns in a database table are important operations that must be performed carefully to ensure data integrity and consider potential impacts on application logic and reporting.
 
-<figure><img src="../../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
 **Here are detailed steps for both actions:**
 
 ## Editing a column:
 
-<figure><img src="../../../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
 
-**Change title:**&#x20;
+**Change title:**
 
 * Click on the title of the column you want to change, a window will open and you can change the title of the column.
 
@@ -38,11 +38,9 @@ Editing and deleting columns in a database table are important operations that m
 
 * After editing the column, thoroughly verify that your application is working properly and that the data is being stored and retrieved correctly.
 
-
-
 ## Deleting a column:
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 13.39.00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 13.39.00.png" alt=""><figcaption></figcaption></figure>
 
 **Requirement analysis:**
 
@@ -72,8 +70,4 @@ Editing and deleting columns in a database table are important operations that m
 
 * Verify thoroughly that your application is working correctly and that all data and reporting functions are working as expected.
 
-
-
 When editing or deleting columns, it is critical that you fully understand the impact of these actions and take appropriate precautions to maintain the integrity of your database and ensure that your application runs smoothly.
-
-
