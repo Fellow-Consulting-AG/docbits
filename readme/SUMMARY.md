@@ -127,6 +127,7 @@
           * [Troubleshooting](admin-section/settings/global-settings/document-types/edi/troubleshooting-5.md)
         * [More Settings](admin-section/settings/global-settings/document-types/more-settings.md)
           * [Purpose and use](admin-section/settings/global-settings/document-types/more-settings/purpose-and-use.md)
+          * [Best practices](admin-section/settings/global-settings/document-types/more-settings/best-practices.md)
           * [Supplier Item Number Map - Admin Documentation](admin-section/settings/global-settings/document-types/more-settings/supplier-item-number-map-admin-documentation.md)
       * [Email Notification](admin-section/settings/global-settings/email-notification/README.md)
         * [Configuring Notifications](admin-section/settings/global-settings/email-notification/configuring-notifications.md)
