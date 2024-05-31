@@ -18,6 +18,7 @@
     * [Best Practice](readme-1/dashboard/best-practice.md)
     * [Troubleshooting](readme-1/dashboard/troubleshooting.md)
   * [AI Table](readme-1/ai-table.md)
+  * [AI Table Tags](readme-1/ai-table-tags.md)
   * [Validation Screen](readme-1/validation-screen/README.md)
     * [Validation Screen 2](readme-1/validation-screen/validation-screen-2.md)
   * [Purpose and Use](readme-1/purpose-and-use.md)
