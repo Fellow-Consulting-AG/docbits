@@ -20,6 +20,7 @@
     * [Troubleshooting](readme-1/dashboard/troubleshooting.md)
   * [AI Table](readme-1/ai-table.md)
   * [Validation Screen](readme-1/validation-screen.md)
+  * [Purpose and Use](readme-1/purpose-and-use.md)
   * [Purchase Order Matching](readme-1/purchase-order-matching/README.md)
     * [Automatic Purchase Order Data Matching](readme-1/automatic-purchase-order-data-matching.md)
     * [Supplier Item Number Map](readme-1/purchase-order-matching/supplier-item-number-map.md)
