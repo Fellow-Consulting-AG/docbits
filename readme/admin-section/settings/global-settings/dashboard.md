@@ -4,7 +4,7 @@
 
 #### Overview
 
-The Dashboard settings are designed to help administrators control the data presentation and interaction within the Docbits dashboard. These settings determine what information is immediately available upon logging in, ensuring that users have quick access to the most relevant data for their tasks.
+The Dashboard settings are designed to help administrators control the data presentation and interaction within the DocBits dashboard. These settings determine what information is immediately available upon logging in, ensuring that users have quick access to the most relevant data for their tasks.
 
 #### Key Features and Options
 
@@ -17,8 +17,5 @@ The Dashboard settings are designed to help administrators control the data pres
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.23.48.png" alt=""><figcaption></figcaption></figure>
 
-These dashboard settings are crucial for ensuring that the Docbits platform is as responsive and useful as possible, providing users with a powerful tool to monitor and manage document processing activities directly from the dashboard.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2502" %}
-
+These dashboard settings are crucial for ensuring that the DocBits platform is as responsive and useful as possible, providing users with a powerful tool to monitor and manage document processing activities directly from the dashboard.
 
