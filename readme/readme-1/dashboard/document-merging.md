@@ -27,5 +27,3 @@ Document merging is an important feature in a document management system that al
 
 By merging documents, organizations can streamline their document management processes, improve collaboration, and increase efficiency.
 
-\
-
