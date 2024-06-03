@@ -144,6 +144,7 @@
       * [Managing Data Visibility](admin-section/settings/global-settings/managing-data-visibility.md)
       * [Customizing Filters](admin-section/settings/global-settings/customizing-filters.md)
       * [Best practices](admin-section/settings/global-settings/best-practices-1.md)
+      * [Troubleshooting](admin-section/settings/global-settings/troubleshooting.md)
     * [Document Processing](admin-section/settings/document-processing/README.md)
       * [Documents Expiry](admin-section/settings/document-processing/documents-expiry.md)
       * [Import](admin-section/settings/document-processing/import/README.md)
