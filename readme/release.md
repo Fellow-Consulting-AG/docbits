@@ -1,5 +1,35 @@
 # Release
 
+## Junebug Release Notes - June 10th, 2024
+
+This update brings exciting new features and bug fixes to Junebug:
+
+**New Features:**
+
+* **Automated Charge Extraction:** Junebug now automatically extracts and maps charges within your Docbit documents. This eliminates manual data entry and streamlines your workflow.
+* **Portal Export to Infor IDM:** The new Portal allows you to effortlessly export supplier documents directly to Infor IDM. This simplifies shipment processing and reduces manual intervention.
+* **Origin Identification (AI):** Junebug introduces a powerful AI feature that automatically learns the origin of documents. This saves you time and effort in document classification.
+*
+
+    <div>
+
+    <figure><img src=".gitbook/assets/POShipmentTable.png" alt=""><figcaption></figcaption></figure>
+
+     
+
+    <figure><img src=".gitbook/assets/ApprovalScreen2.png" alt=""><figcaption></figcaption></figure>
+
+     
+
+    <figure><img src=".gitbook/assets/ApprovalScreen1.png" alt=""><figcaption></figcaption></figure>
+
+    </div>
+
+**Bug Fixes:**
+
+* **QR Code Fix:** An issue that previously caused problems with QR code processing has been resolved.
+* **Non-EDI Document Handling:** Junebug now handles non-EDI documents more effectively.
+
 ## Next Release - Junebug Release 10th June 2024
 
 Sandbox Freeze - 3th June 2024
@@ -14,7 +44,7 @@ In the upcoming release, a significant enhancement to the classification and ext
 
 ## Maypole Release 5.55.8.10 - ( 17th May )
 
-### Release Notes - Web App&#x20;
+### Release Notes - Web App
 
 #### New Features:
 
@@ -48,7 +78,7 @@ In the upcoming release, a significant enhancement to the classification and ext
 
 ▪ Merge Activities: Numerous merges to integrate features, fixes, and enhancements from multiple development branches into the main branch.
 
-### What's New - API&#x20;
+### What's New - API
 
 ▪ Cache Management Enhancements: Updated the get\_receive\_delivery\_cache to improve performance and reliability.
 
@@ -68,7 +98,7 @@ In the upcoming release, a significant enhancement to the classification and ext
 
 ▪ Configuration Updates: Various updates to the configuration files improving the system setup and parameters.
 
-### Release Notes - Workflow&#x20;
+### Release Notes - Workflow
 
 #### Enhancements:
 
@@ -91,4 +121,3 @@ In the upcoming release, a significant enhancement to the classification and ext
 #### Operational Changes:
 
 ▪ Merged multiple development stages into the sandbox and stage branches, reflecting a significant integration of new features and fixes.
-
