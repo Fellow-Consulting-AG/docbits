@@ -30,6 +30,8 @@ This update brings exciting new features and bug fixes to Junebug:
 * **QR Code Fix:** An issue that previously caused problems with QR code processing has been resolved.
 * **Non-EDI Document Handling:** Junebug now handles non-EDI documents more effectively.
 
+<figure><img src=".gitbook/assets/EDI810-Invoice.png" alt=""><figcaption></figcaption></figure>
+
 ## Next Release - Junebug Release 10th June 2024
 
 Sandbox Freeze - 3th June 2024
