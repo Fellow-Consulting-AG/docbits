@@ -32,6 +32,8 @@ This update brings exciting new features and bug fixes to Junebug:
 
 <figure><img src=".gitbook/assets/EDI810-Invoice.png" alt=""><figcaption></figcaption></figure>
 
+Hotfix - 5 Juni [**Priority System**](readme-1/our-task-priority-system.md)
+
 ## Next Release - Junebug Release 10th June 2024
 
 Sandbox Freeze - 3th June 2024
