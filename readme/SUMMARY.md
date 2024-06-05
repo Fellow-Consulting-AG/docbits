@@ -43,6 +43,7 @@
     * [Validated Documents](readme-1/course/validated-documents.md)
     * [AI Table](readme-1/course/ai-table.md)
     * [Master PO Matching with DocBits](readme-1/course/master-po-matching-with-docbits.md)
+  * [Our Task Priority System](readme-1/our-task-priority-system.md)
 * [Admin Section](admin-section/README.md)
   * [Settings](admin-section/settings/README.md)
     * [Global Settings](admin-section/settings/global-settings/README.md)
