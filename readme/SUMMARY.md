@@ -101,6 +101,7 @@
           * [Adding and Editing Fields](admin-section/settings/global-settings/document-types/fields/adding-and-editing-fields.md)
           * [Best practices](admin-section/settings/global-settings/document-types/fields/best-practices-3.md)
           * [Troubleshooting](admin-section/settings/global-settings/document-types/fields/troubleshooting-2.md)
+          * [New Fields with Charges](admin-section/settings/global-settings/document-types/fields/new-fields-with-charges.md)
         * [Model Training](admin-section/settings/global-settings/document-types/model-training.md)
           * [Purpose and Use: Model Training](admin-section/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md)
           * [Import Data: Model Training](admin-section/settings/global-settings/document-types/model-training/import-data-model-training.md)
