@@ -2,6 +2,12 @@
 
 Small update for Order Conformation
 
+
+
+{% hint style="info" %}
+Link to the [File](../../../../../BOD-Mapping%20\(OrderConfirmation\).properties)
+{% endhint %}
+
 ```
 # BOD Mapping Order Confirmation Docbits
 # Version: 1.0.1
