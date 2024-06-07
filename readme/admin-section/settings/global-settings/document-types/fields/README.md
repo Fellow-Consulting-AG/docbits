@@ -2,11 +2,15 @@
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.02.31.png" alt=""><figcaption></figcaption></figure>
 
-#### Overview
+## Overview
+
+{% hint style="info" %}
+We add to select for a [Field a Charge](new-fields-with-charges.md)
+{% endhint %}
 
 The Fields setting provides a user interface where administrators can manage the properties and behavior of individual data fields associated with a document type. Each field can be adjusted to optimize the accuracy and efficiency of data capture and validation.
 
-#### Key Features and Options
+## Key Features and Options
 
 1. **Fields Configuration**:
    * **Field Names**: Lists the names of the fields, typically corresponding to the data elements within the document, like "Invoice Number" or "Purchase Order Date".
@@ -23,5 +27,3 @@ The Fields setting provides a user interface where administrators can manage the
    * **Save Settings**: Commits the changes made to the field configurations.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2494" %}
-
-
