@@ -1,8 +1,6 @@
 # Order Conformation
 
-Small update for Order Conformation&#x20;
-
-
+Small update for Order Conformation
 
 ```
 # BOD Mapping Order Confirmation Docbits
@@ -197,3 +195,9 @@ TNV_InvoiceTable_nameLanguageID=en-us
 TNP_InvoiceTable_name=SyncCaptureDocumentType\\DataArea\\CaptureDocument\\DocumentTable\\Name
 TNV_InvoiceTable_name=InvoiceRows
 ```
+
+
+
+{% hint style="info" %}
+See here a [sample](../../../../../DocBits\_to\_M3.xml) Infor OS Workflow
+{% endhint %}
