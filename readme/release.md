@@ -1,5 +1,37 @@
 # Release
 
+## Next Release Firework Juli 8th, 2024
+
+### Problem:
+
+The existing system lacks automated rules for accurately matching and processing invoice charges against purchase orders (POs). This manual process can lead to discrepancies, as illustrated in the screenshots, where invoice charges and POs need reconciliation for correct invoicing.
+
+<div>
+
+<figure><img src=".gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.37.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.46.png" alt=""><figcaption><p>Rule Manager DocBits</p></figcaption></figure>
+
+</div>
+
+### Solution:
+
+With the new Rule Manager in DocBits, launching in July, you can automate this process:
+
+#### 1. Create Rules:
+
+Define criteria (e.g., Quantity > PO Quantity) for invoice line items.
+
+#### 2. Set Actions:
+
+Map fields and actions to export data seamlessly to Infor.
+
+#### 3. Test Rules:
+
+Validate rules with sample data to ensure accuracy.
+
 ## Junebug Release Notes - June 10th, 2024
 
 This update brings exciting new features and bug fixes to Junebug:
