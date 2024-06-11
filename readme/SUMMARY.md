@@ -272,6 +272,7 @@
 * [Partner Section](partner-section/README.md)
   * [Invoice Automation Testing with DocBits](partner-section/invoice-automation-testing-with-docbits.md)
 * [Ressources and Support](ressources-and-support.md)
-* [Architecture](architecture.md)
+* [Architecture](architecture/README.md)
+  * [DocBits Infor on Premise Customer](architecture/docbits-infor-on-premise-customer.md)
 * [Infor Infrastructure](infor-infrastructure.md)
 * [Release](release.md)
