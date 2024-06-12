@@ -1,4 +1,4 @@
-# Order Conformation
+# Order Confirmation
 
 Small update for Order Conformation
 
@@ -205,5 +205,6 @@ TNV_InvoiceTable_name=InvoiceRows
 
 
 {% hint style="info" %}
-See here a [sample](../../../../../DocBits\_to\_M3.xml) Infor OS Workflow
+See here a [sample](../../../../../M3\_CaptureDocumentToProcessPurchaseOrder2.xml) Infor OS Workflow - Update 11 th June 20024
 {% endhint %}
+
