@@ -245,6 +245,7 @@
     * [SSO Configuration](admin-section/setup/sso-configuration/README.md)
       * [V1](admin-section/setup/sso-configuration/v1.md)
       * [V2](admin-section/setup/sso-configuration/v2.md)
+      * [Azure SSO](admin-section/setup/sso-configuration/azure-sso.md)
     * [Postman for DocBits](admin-section/setup/postman-for-docbits.md)
     * [Scripting in DocBits](admin-section/setup/scripting-in-docbits/README.md)
       * [Calculating Total Charges Script for Docbits](admin-section/setup/scripting-in-docbits/calculating-total-charges-script-for-docbits-1.md)
