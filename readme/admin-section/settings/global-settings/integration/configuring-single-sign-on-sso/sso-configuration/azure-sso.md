@@ -1,3 +1,7 @@
+---
+description: Using DocBis with your Microsoft Login without using a (separate) password
+---
+
 # Azure SSO
 
 ### Create SAML SSO in Azure AD
@@ -18,7 +22,7 @@ Perform the following steps to add SAML SSO in Azure AD:
 
 * Click \`+ New application
 
-<figure><img src="../../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -26,7 +30,7 @@ Perform the following steps to add SAML SSO in Azure AD:
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -62,7 +66,7 @@ Next, assign users or groups to the SSO configuration.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
