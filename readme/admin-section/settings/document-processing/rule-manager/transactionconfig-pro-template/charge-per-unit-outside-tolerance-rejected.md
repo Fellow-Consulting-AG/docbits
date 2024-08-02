@@ -1,37 +1,37 @@
-# Charge Per Unit Outside Tolerance (Rejected)
+# Case 15: Charge Line - Charge Per Unit Outside Tolerance (Rejected)
 
 ## Scenario:
 
-The charge per unit is outside tolerance and has not been approved.
+The header charge per unit is outside tolerance and has not been approved.
 
 ## Action:
 
-The system adjusts the charge per unit to match the purchase order or approved levels, generating any necessary debit or credit notes.
+The system adjusts the header charge to match the purchase order, processing the transaction accordingly, and generating any necessary notes.
 
 ## Example:
 
 * **Purchase Order (PO):**
-  * Charge Per Unit: $6.00
-  * Quantity: 800 units
-  * Total Charge Amount: $4,800.00
+  * Header Charge Per Unit: $4.00
+  * Quantity: 1,500 units
+  * Total Header Charge Amount: $6,000.00
 * **Invoice Received:**
-  * Charge Per Unit: $7.00 (outside tolerance of 16.67%, rejected)
-  * Quantity: 800 units
-  * Total Charge Amount: $5,600.00
+  * Header Charge Per Unit: $5.00 (outside tolerance of 25%, rejected)
+  * Quantity: 1,500 units
+  * Total Header Charge Amount: $7,500.00
 * **Tolerance Levels:**
-  * Charge Per Unit Tolerance: ±5%
+  * Header Charge Per Unit Tolerance: ±5%
 
-Since the charge per unit ($7.00) exceeds the acceptable tolerance range of 5% and has not been approved, the system will:
+Since the header charge per unit ($5.00) exceeds the acceptable tolerance range of 5% and has not been approved, the system will:
 
-1. **Reject the Invoiced Charge Per Unit:** The system does not accept the invoiced charge per unit of $7.00 due to the variance exceeding the tolerance limit.
-2. **Adjust the Charge Per Unit:** The system adjusts the charge per unit to match the purchase order or the approved charge per unit:
-   * Adjusted Charge Per Unit = $6.00 (from PO)
-3. **Recalculate the Total Charge Amount:** The system recalculates the total charge amount based on the adjusted charge per unit:
-   * **Corrected Total Charge Amount = Quantity × Adjusted Charge Per Unit**
-   * **Corrected Total Charge Amount = 800 units × $6.00 = $4,800.00**
-4. **Generate a Debit Note:** Since the original invoice total was higher than the corrected total, the system generates a debit note for the overcharged amount:
-   * **Debit Note Amount = Original Invoice Total - Corrected Total Charge Amount**
-   * **Debit Note Amount = $5,600.00 - $4,800.00 = $800.00**
-5. **Process the Invoice:** The system processes the invoice with the corrected total charge amount of $4,800.00 and issues a debit note for $800.00 to account for the overcharged amount.
+1. **Reject the Invoiced Header Charge Per Unit:** The system does not accept the invoiced header charge per unit of $5.00 due to the variance exceeding the tolerance limit.
+2. **Adjust the Header Charge Per Unit:** The system adjusts the charge per unit to match the original purchase order or the approved charge per unit:
+   * Adjusted Header Charge Per Unit = $4.00 (from PO)
+3. **Recalculate the Total Header Charge Amount:** The system recalculates the total charge amount based on the adjusted charge per unit:
+   * **Corrected Total Header Charge Amount = Quantity × Adjusted Header Charge Per Unit**
+   * **Corrected Total Header Charge Amount = 1,500 units × $4.00 = $6,000.00**
+4. **Generate a Credit Note:** Since the original invoice total was higher than the corrected total, the system generates a credit note for the overcharged amount:
+   * **Credit Note Amount = Original Invoice Total - Corrected Total Header Charge Amount**
+   * **Credit Note Amount = $7,500.00 - $6,000.00 = $1,500.00**
+5. **Process the Invoice:** The system processes the invoice with the corrected total charge amount of $6,000.00 and issues a credit note for $1,500.00 to account for the overcharged amount.
 
-This approach ensures that financial transactions are consistent with the purchase order terms, rejecting unapproved variances and maintaining accurate billing practices.
+This approach ensures that the transaction is aligned with the original terms of the purchase order, maintaining accurate financial processing while correcting any overcharges.

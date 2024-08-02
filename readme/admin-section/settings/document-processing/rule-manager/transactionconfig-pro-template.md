@@ -94,7 +94,7 @@ _TransactionConfig Pro Template_ includes a series of predefined rules to handle
 
 • **Action:** The system accepts the charge per unit and applies the approved charges, processing the transaction accordingly.
 
-### Case 15: Charge Line - Charge Per Unit Outside Tolerance (Rejected)
+### [Case 15: Charge Line - Charge Per Unit Outside Tolerance (Rejected)](transactionconfig-pro-template/charge-per-unit-outside-tolerance-rejected.md)
 
 **Scenario:** The charge per unit is outside tolerance and has not been approved.
 
