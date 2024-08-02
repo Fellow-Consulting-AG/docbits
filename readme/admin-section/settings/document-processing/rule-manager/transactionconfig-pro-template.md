@@ -118,7 +118,7 @@ _TransactionConfig Pro Template_ includes a series of predefined rules to handle
 
 • **Action:** The system adjusts the header charge to match the purchase order, processing the transaction accordingly, and generating any necessary notes.
 
-### Tax Lines
+### [tax-lines.md](transactionconfig-pro-template/tax-lines.md "mention")
 
 **Scenario:** Handles discrepancies in tax amounts between the invoice and purchase order.
 
