@@ -1,32 +1,32 @@
-# Charge Per Unit Outside Tolerance (Approved)
+# Case 14: Header Charge - Charge Per Unit Outside Tolerance (Approved)
 
 ## Scenario:
 
-The charge per unit is outside tolerance but has been approved.
+The header charge per unit is outside tolerance but has been approved.
 
 ## Action:
 
-The system accepts the charge per unit and applies the approved charges, processing the transaction accordingly.
+The system processes the approved charge per unit, applying it to the transaction.
 
 ## Example:
 
 * **Purchase Order (PO):**
-  * Charge Per Unit: $4.50
-  * Quantity: 1,000 units
-  * Total Charge Amount: $4,500.00
+  * Header Charge Per Unit: $2.50
+  * Quantity: 2,000 units
+  * Total Header Charge Amount: $5,000.00
 * **Invoice Received:**
-  * Charge Per Unit: $5.00 (outside tolerance of 11.11%, approved)
-  * Quantity: 1,000 units
-  * Total Charge Amount: $5,000.00
+  * Header Charge Per Unit: $3.00 (outside tolerance of 20%, approved)
+  * Quantity: 2,000 units
+  * Total Header Charge Amount: $6,000.00
 * **Tolerance Levels:**
-  * Charge Per Unit Tolerance: ±5%
+  * Header Charge Per Unit Tolerance: ±5%
 
-Since the charge per unit ($5.00) is outside the acceptable tolerance range of 5% but has been approved, the system will:
+Since the header charge per unit ($3.00) exceeds the acceptable tolerance range of 5% but has been approved, the system will:
 
-1. **Accept the Approved Charge Per Unit:** The system accepts the invoiced charge per unit of $5.00 as it has been approved despite exceeding the tolerance limit.
-2. **Process the Transaction:** The system processes the invoice using the approved charge per unit and the quantity:
-   * **Total Charge Amount = Quantity × Approved Charge Per Unit**
-   * **Total Charge Amount = 1,000 units × $5.00 = $5,000.00**
-3. **Finalize the Invoice:** The system processes the transaction with the approved charges, reflecting the total amount of $5,000.00.
+1. **Accept the Approved Header Charge Per Unit:** The system accepts the invoiced header charge per unit of $3.00 as it has been approved despite exceeding the tolerance limit.
+2. **Process the Header Charge:** The system processes the invoice using the approved charge per unit and the quantity:
+   * **Total Header Charge Amount = Quantity × Approved Header Charge Per Unit**
+   * **Total Header Charge Amount = 2,000 units × $3.00 = $6,000.00**
+3. **Finalize the Invoice:** The system processes the transaction with the approved charges, reflecting the total amount of $6,000.00.
 
-This approach ensures that the system can accommodate approved variances in charges, allowing flexibility while maintaining accurate financial records.
+This approach allows the system to accommodate approved variances in header charges, ensuring that the transaction is processed according to the approval while maintaining accurate financial records.
