@@ -92,15 +92,15 @@ Indicates whether a discrepancy is approved or not:
 Defines specific actions to take when a discrepancy is detected:
 
 \
-• receipt\_line
+• receipt line
 
-• cost\_line
+• cost line
 
-• header\_charge
+• header charge
 
-• line\_charge
+• line charge
 
-• tax\_line
+• tax line
 
 • debit note receipt line
 
@@ -116,7 +116,7 @@ Defines specific actions to take when a discrepancy is detected:
 
 • credit note header charge
 
-• credit note\_line charge
+• credit note line charge
 
 • credit note tax line
 
@@ -125,7 +125,7 @@ Defines specific actions to take when a discrepancy is detected:
 
 ### Rule Examples
 
-#### Case 1, 2, 3: Quantity and Unit Price Within Tolerance
+#### [Case 1, 2, 3: Quantity and Unit Price Within Tolerance](transactionconfig-pro-template/case-1-2-3-quantity-and-unit-price-within-tolerance.md)
 
 \
 • Purpose: Handles scenarios where both the quantity and unit price on the invoice are within the accepted tolerance limits compared to the PO.
@@ -134,7 +134,7 @@ Defines specific actions to take when a discrepancy is detected:
 
 
 
-#### Case 4, 5: Quantity Within Tolerance, Unit Price Outside Tolerance (Approved)
+#### [Case 4, 5: Quantity Within Tolerance, Unit Price Outside Tolerance (Approved)](./#case-4-5-quantity-within-tolerance-unit-price-outside-tolerance-approved)
 
 • Purpose: Applies when the quantity is within tolerance but the unit price is outside tolerance and has been approved.
 
@@ -143,7 +143,7 @@ Defines specific actions to take when a discrepancy is detected:
 \
 
 
-#### Case 6: Quantity Within Tolerance, Unit Price Outside Negative Tolerance (Rejected)
+#### [Case 6: Quantity Within Tolerance, Unit Price Outside Negative Tolerance (Rejected)](transactionconfig-pro-template/case-6-quantity-within-tolerance-unit-price-outside-negative-tolerance-rejected.md)&#x20;
 
 • Purpose: Deals with cases where the unit price is less than expected and outside the tolerance range, leading to rejection.
 
