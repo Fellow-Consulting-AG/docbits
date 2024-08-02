@@ -1,5 +1,91 @@
 # Release
 
+## Release Firework Juli 8th, 2024
+
+### New Features
+
+**Line Charges Export to M3**
+
+• Export line charges to M3 with appropriate costing elements as per your business needs.
+
+**PO & Invoice Discrepancy Handling**
+
+• Smart handling of discrepancies in quantity, prices, charges, and tax.
+
+### Key Bug Resolutions
+
+#### 1. PO Search Functionality
+
+• Issue: PO search was not working.&#x20;
+
+• Status: This issue has been identified and will not be addressed in this release.
+
+#### 2. PO Matching Connection
+
+• Issue: PO matching connection was not removing as expected.
+
+• Resolution: Fixed to ensure seamless PO matching operations.
+
+#### 3. Exported Document Alerts
+
+• Issue: Exported documents had alerts for costing elements even when the system was not set up for it.
+
+• Resolution: Corrected to prevent unnecessary alerts, ensuring accurate document exports.
+
+#### 4. Advance Shipment EDI View
+
+• Issue: Advance shipment EDI view showed IDs in the title.
+
+• Resolution: Titles now display correctly, improving data readability.
+
+#### 5. Calculation Errors in Split by Total Issue
+
+• Issue: Calculation errors occurred when lines were split further.
+
+• Resolution: Fixed to ensure accurate calculations in all scenarios.
+
+#### 6. PO Screen Table Display
+
+• Issue: No table was showing on the PO screen.
+
+• Resolution: Display issue resolved to ensure tables appear correctly.
+
+#### 7. Auto Export on Order Confirmation
+
+• Issue: Auto export was not working.
+
+• Resolution: Functionality restored to ensure automatic exports operate smoothly.
+
+#### 8. Mismatch Issue on PO
+
+• Issue: Mismatch issue on PO showed despite everything being identical on the Delivery Note.
+
+• Resolution: Resolved to ensure accurate mismatch detection.
+
+#### 9. Report Download Issues
+
+• Issue: Reports were not downloading.
+
+• Resolution: Fixed to enable seamless report downloads.
+
+#### 10. Incorrect Total and Net Amounts
+
+• Issue: Total and Net amounts were showing incorrect values.
+
+• Resolution: Values corrected to ensure financial accuracy.
+
+#### 11. Invoice Date Format on Dashboard
+
+• Issue: Invoice Date column had wrong format values.
+
+• Resolution: Dates now display in the correct format, enhancing usability.
+
+#### 12. Workflow Delays at “Ready for Validation”
+
+• Issue: Workflow delays occurred at “Ready for Validation” until feedback from Doc2flow.
+
+• Resolution: Workflow timing improved for faster validation processes.
+
 ## Next Release Firework Juli 8th, 2024
 
 ### Problem:
