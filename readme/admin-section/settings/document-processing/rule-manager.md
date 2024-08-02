@@ -5,8 +5,6 @@
 
 This document provides an in-depth explanation of the conflict resolution rules used in the DocBits invoicing system. These rules are designed to automatically handle discrepancies between invoice details and purchase order (PO) data, ensuring accurate financial reconciliation. The system applies these rules to process invoice lines, charges, and taxes, and generates appropriate adjustments or notes when necessary.
 
-
-
 ## Structure of the Rules
 
 ### &#x20;1. Metadata
@@ -61,17 +59,17 @@ These operators define how the actual invoice values are compared to the expecte
 
 • equal
 
-• greater\_than
+• greater than
 
-• greater\_than\_or\_equal\_to
+• greater than or equal to
 
-• less\_than
+• less than
 
-• less\_than\_or\_equal\_to
+• less than or equal to
 
-• within\_tolerance
+• within tolerance
 
-• outside\_tolerance
+• outside tolerance
 
 \
 
@@ -104,23 +102,23 @@ Defines specific actions to take when a discrepancy is detected:
 
 • tax\_line
 
-• debit\_note\_receipt\_line
+• debit note receipt line
 
-• debit\_note\_cost\_line
+• debit note cost line
 
-• debit\_note\_header\_charge
+• debit note header charge
 
-• debit\_note\_line\_charge
+• debit note line charge
 
-• credit\_note\_receipt\_line
+• credit note receipt line
 
-• credit\_note\_cost\_line
+• credit note cost line
 
-• credit\_note\_header\_charge
+• credit note header charge
 
-• credit\_note\_line\_charge
+• credit note\_line charge
 
-• credit\_note\_tax\_line
+• credit note tax line
 
 \
 
