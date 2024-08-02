@@ -159,6 +159,7 @@
         * [Test: FTP Import Connection](admin-section/settings/document-processing/import/test-ftp-import-connection.md)
         * [Test: File Import 1](admin-section/settings/document-processing/import/test-file-import-1.md)
       * [Rule Manager](admin-section/settings/document-processing/rule-manager.md)
+      * [TransactionConfig Pro Template](admin-section/settings/document-processing/transactionconfig-pro-template.md)
       * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
       * [Classification And Extraction](admin-section/settings/document-processing/classification-and-extraction.md)
       * [Master Data Lookup](admin-section/settings/document-processing/master-data-lookup.md)
