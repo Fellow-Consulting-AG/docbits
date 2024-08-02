@@ -158,6 +158,7 @@
         * [Test: Email Import and Handling Tests](admin-section/settings/document-processing/import/test-email-import-and-handling-tests.md)
         * [Test: FTP Import Connection](admin-section/settings/document-processing/import/test-ftp-import-connection.md)
         * [Test: File Import 1](admin-section/settings/document-processing/import/test-file-import-1.md)
+      * [Rule Manager](admin-section/settings/document-processing/rule-manager.md)
       * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
       * [Classification And Extraction](admin-section/settings/document-processing/classification-and-extraction.md)
       * [Master Data Lookup](admin-section/settings/document-processing/master-data-lookup.md)
