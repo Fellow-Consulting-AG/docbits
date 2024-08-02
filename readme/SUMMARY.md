@@ -177,6 +177,7 @@
           * [Case 7: Quantity Within Tolerance, Unit Price Outside Tolerance (Positive Rejected)](admin-section/settings/document-processing/rule-manager/transactionconfig-pro-template/case-7-quantity-within-tolerance-unit-price-outside-tolerance-positive-rejected.md)
           * [Case 6: Quantity Within Tolerance, Unit Price Outside Negative Tolerance (Rejected)](admin-section/settings/document-processing/rule-manager/transactionconfig-pro-template/case-6-quantity-within-tolerance-unit-price-outside-negative-tolerance-rejected.md)
           * [Case 8a, 9a: Quantity Outside Tolerance (Approved), Unit Price Within Tolerance](admin-section/settings/document-processing/rule-manager/transactionconfig-pro-template/case-8a-9a-quantity-outside-tolerance-approved-unit-price-within-tolerance.md)
+          * [Case 15: Header Charge - Charge Per Unit Outside Tolerance (Rejected)](admin-section/settings/document-processing/rule-manager/transactionconfig-pro-template/case-15-header-charge-charge-per-unit-outside-tolerance-rejected.md)
       * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
       * [Classification And Extraction](admin-section/settings/document-processing/classification-and-extraction.md)
       * [Master Data Lookup](admin-section/settings/document-processing/master-data-lookup.md)
