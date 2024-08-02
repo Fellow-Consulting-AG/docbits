@@ -161,6 +161,7 @@
       * [Rule Manager](admin-section/settings/document-processing/rule-manager/README.md)
         * [TransactionConfig Pro Template](admin-section/settings/document-processing/rule-manager/transactionconfig-pro-template.md)
           * [Case 1, 2, 3: Quantity and Unit Price Within Tolerance](admin-section/settings/document-processing/rule-manager/transactionconfig-pro-template/case-1-2-3-quantity-and-unit-price-within-tolerance.md)
+          * [Case 4, 5: Quantity Within Tolerance, Unit Price Outside Tolerance (Approved)](admin-section/settings/document-processing/rule-manager/transactionconfig-pro-template/case-4-5-quantity-within-tolerance-unit-price-outside-tolerance-approved.md)
       * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
       * [Classification And Extraction](admin-section/settings/document-processing/classification-and-extraction.md)
       * [Master Data Lookup](admin-section/settings/document-processing/master-data-lookup.md)
