@@ -112,7 +112,7 @@ _TransactionConfig Pro Template_ includes a series of predefined rules to handle
 
 • **Action:** The system processes the approved charge per unit, applying it to the transaction.
 
-### Case 15: Header Charge - Charge Per Unit Outside Tolerance (Rejected)
+### [Case 15: Header Charge - Charge Per Unit Outside Tolerance (Rejected)](transactionconfig-pro-template/case-15-header-charge-charge-per-unit-outside-tolerance-rejected.md)
 
 **Scenario:** The header charge per unit is outside tolerance and has not been approved.
 
