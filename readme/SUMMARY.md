@@ -159,7 +159,7 @@
         * [Test: FTP Import Connection](admin-section/settings/document-processing/import/test-ftp-import-connection.md)
         * [Test: File Import 1](admin-section/settings/document-processing/import/test-file-import-1.md)
       * [Rule Manager](admin-section/settings/document-processing/rule-manager/README.md)
-        * [TransactionConfig Pro Template](admin-section/settings/document-processing/rule-manager/transactionconfig-pro-template/README.md)
+        * [TransactionConfig Pro Template](admin-section/settings/document-processing/rule-manager/transactionconfig-pro-template.md)
           * [Case 1, 2, 3: Quantity and Unit Price Within Tolerance](admin-section/settings/document-processing/rule-manager/transactionconfig-pro-template/case-1-2-3-quantity-and-unit-price-within-tolerance.md)
       * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
       * [Classification And Extraction](admin-section/settings/document-processing/classification-and-extraction.md)

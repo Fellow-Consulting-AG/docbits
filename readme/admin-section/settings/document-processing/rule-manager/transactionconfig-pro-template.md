@@ -22,7 +22,7 @@ _TransactionConfig Pro Template_ is a powerful configuration tool designed for e
 
 _TransactionConfig Pro Template_ includes a series of predefined rules to handle common discrepancies between invoice data and purchase order (PO) data. These rules are designed to automate decision-making when variances occur, ensuring consistency and accuracy in financial processing.
 
-### Case 1, 2, 3: Quantity and Unit Price Within Tolerance
+### [Case 1, 2, 3: Quantity and Unit Price Within Tolerance](transactionconfig-pro-template.md#case-1-2-3-quantity-and-unit-price-within-tolerance)
 
 **Scenario:** Both the quantity and unit price on the invoice are within an acceptable tolerance range compared to the purchase order.
 
