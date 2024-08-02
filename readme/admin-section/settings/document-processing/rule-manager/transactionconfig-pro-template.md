@@ -82,7 +82,7 @@ _TransactionConfig Pro Template_ includes a series of predefined rules to handle
 
 • **Action:** The system adjusts the quantity and unit price to match the approved levels from the purchase order, rejecting any excesses, and processes the transaction.
 
-### Case 12, 13: Charge Line - Charge Per Unit Within Tolerance
+### [Case 12, 13: Charge Line - Charge Per Unit Within Tolerance](transactionconfig-pro-template/case-12-13-header-charge-charge-per-unit-within-tolerance.md)
 
 **Scenario:** The charge per unit on the invoice is within the acceptable tolerance range compared to the purchase order.
 
