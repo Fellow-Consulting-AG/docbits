@@ -100,7 +100,7 @@ _TransactionConfig Pro Template_ includes a series of predefined rules to handle
 
 • **Action:** The system adjusts the charge per unit to match the purchase order or approved levels, generating any necessary debit or credit notes.
 
-### Case 12, 13: Header Charge - Charge Per Unit Within Tolerance
+### [Case 12, 13: Header Charge - Charge Per Unit Within Tolerance](transactionconfig-pro-template/case-12-13-header-charge-charge-per-unit-within-tolerance.md)
 
 **Scenario:** The header charge per unit is within the acceptable tolerance range compared to the purchase order.
 
