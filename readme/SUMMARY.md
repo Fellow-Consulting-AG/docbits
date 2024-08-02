@@ -86,7 +86,7 @@
       * [Integration](overview/settings/global-settings/integration/README.md)
         * [API Calls and Examples](overview/settings/global-settings/integration/api-calls-and-examples.md)
     * [Dokumentenverarbeitung](admin-section/settings/document-processing/README.md)
-      * [Documents Expiry](admin-section/settings/document-processing/documents-expiry.md)
+      * [Dokumentenablauf](admin-section/settings/document-processing/documents-expiry.md)
       * [Import](admin-section/settings/document-processing/import.md)
       * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
       * [Classification And Extraction](admin-section/settings/document-processing/classification-and-extraction.md)
