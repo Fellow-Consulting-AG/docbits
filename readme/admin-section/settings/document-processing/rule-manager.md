@@ -5,18 +5,11 @@
 
 This document provides an in-depth explanation of the conflict resolution rules used in the DocBits invoicing system. These rules are designed to automatically handle discrepancies between invoice details and purchase order (PO) data, ensuring accurate financial reconciliation. The system applies these rules to process invoice lines, charges, and taxes, and generates appropriate adjustments or notes when necessary.
 
-\
 
 
 ## Structure of the Rules
 
-\
-
-
-### 1. Metadata
-
-\
-
+### &#x20;1. Metadata
 
 • version: Identifies the version of the mapping file.
 
@@ -28,18 +21,9 @@ This document provides an in-depth explanation of the conflict resolution rules 
 
 • created\_at & updated\_at: Timestamps for when the file was created and last updated.
 
-\
-
-
-### 2. Export Configuration
-
-\
-
+### &#x20;2. Export Configuration
 
 The export configuration section defines the mapping between the data fields in the system and the corresponding fields in the export files.
-
-\
-
 
 • Header: Defines the header fields for the exported invoice data.
 
@@ -55,18 +39,9 @@ The export configuration section defines the mapping between the data fields in 
 
 • Debit Note & Credit Note: Defines fields for generating debit and credit notes in cases of discrepancies.
 
-\
-
-
 ### 3. Conflict Resolution Rules
 
-\
-
-
 These rules handle discrepancies between invoice data and the corresponding PO data. Each rule is composed of several components:
-
-\
-
 
 • Name: The rule’s descriptive name, indicating the type of discrepancy it addresses.
 
@@ -78,16 +53,11 @@ These rules handle discrepancies between invoice data and the corresponding PO d
 
 • Actions: Defines what the system should do when the rule is triggered, including adjusting values, applying charges, or generating credit/debit notes.
 
-\
-
-
 ## Common Elements in the Rules
 
 ### Comparison Operators
 
 These operators define how the actual invoice values are compared to the expected PO values:
-
-
 
 • equal
 
@@ -108,8 +78,6 @@ These operators define how the actual invoice values are compared to the expecte
 
 ### Approval Status
 
-
-
 Indicates whether a discrepancy is approved or not:
 
 • approved
@@ -123,9 +91,9 @@ Indicates whether a discrepancy is approved or not:
 
 ### Action Types
 
-Defines specific actions to take when a discrepancy is detected:\
+Defines specific actions to take when a discrepancy is detected:
 
-
+\
 • receipt\_line
 
 • cost\_line
@@ -159,9 +127,6 @@ Defines specific actions to take when a discrepancy is detected:\
 
 ### Rule Examples
 
-\
-
-
 #### Case 1, 2, 3: Quantity and Unit Price Within Tolerance
 
 \
@@ -173,9 +138,6 @@ Defines specific actions to take when a discrepancy is detected:\
 
 #### Case 4, 5: Quantity Within Tolerance, Unit Price Outside Tolerance (Approved)
 
-\
-
-
 • Purpose: Applies when the quantity is within tolerance but the unit price is outside tolerance and has been approved.
 
 • Action: The system adjusts the unit price to match the PO and applies any necessary line charges.
@@ -184,9 +146,6 @@ Defines specific actions to take when a discrepancy is detected:\
 
 
 #### Case 6: Quantity Within Tolerance, Unit Price Outside Negative Tolerance (Rejected)
-
-\
-
 
 • Purpose: Deals with cases where the unit price is less than expected and outside the tolerance range, leading to rejection.
 
