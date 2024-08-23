@@ -285,6 +285,7 @@
     * [SQL Access](admin-section/setup/sql-access.md)
     * [PowerBI](admin-section/setup/powerbi.md)
     * [Handling Charges with Infor M3](admin-section/setup/handling-charges-with-infor-m3.md)
+    * [Supplier Portal](admin-section/setup/supplier-portal.md)
   * [Course](admin-section/course/README.md)
     * [A Step-by-Step Guide](admin-section/course/a-step-by-step-guide.md)
     * [Connect DocBits with Infor SSO](admin-section/course/connect-docbits-with-infor-sso.md)
