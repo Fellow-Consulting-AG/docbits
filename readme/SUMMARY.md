@@ -191,6 +191,7 @@
         * [IDM ACL Updater](admin-section/settings/document-processing/module/idm-acl-updater.md)
         * [Swiss QR Code](admin-section/settings/document-processing/module/swiss-qr-code.md)
     * [Supplier Setting](admin-section/settings/supplier-setting.md)
+    * [Decision Trees](admin-section/settings/decision-trees.md)
   * [Workflow](admin-section/workflow/README.md)
     * [Release](admin-section/workflow/release.md)
     * [When](admin-section/workflow/when/README.md)
