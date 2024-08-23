@@ -2,7 +2,7 @@
 
 ### User Support <a href="#ikpwh4qbrq82" id="ikpwh4qbrq82"></a>
 
-Should you face any challenges or have inquiries when using DocBits, please consult this user manual or reach out to our support team for help. Our commitment lies in providing a seamless experience for all users. Simply click on the support button in your DocBits app and you can create a support ticket.&#x20;
+Should you face any challenges or have inquiries when using DocBits, please consult this user manual or reach out to our support team for help. Our commitment lies in providing a seamless experience for all users. Simply click on the support button in your DocBits app and you can create a support ticket.
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
@@ -18,3 +18,4 @@ Inside the Validation Screen you can directly create tickets for the particular 
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
+[https://www.youtube.com/watch?v=zkpFu8Q1Z-A](https://www.youtube.com/watch?v=zkpFu8Q1Z-A)
