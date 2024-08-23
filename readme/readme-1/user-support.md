@@ -18,4 +18,6 @@ Inside the Validation Screen you can directly create tickets for the particular 
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
-[https://www.youtube.com/watch?v=zkpFu8Q1Z-A](https://www.youtube.com/watch?v=zkpFu8Q1Z-A)
+
+
+{% embed url="https://www.youtube.com/watch?v=zkpFu8Q1Z-A" %}
