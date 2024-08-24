@@ -18,7 +18,7 @@ The Document Types section lists all document types recognized and processed by 
 6. **Model Training**: Configure and train the model used for recognizing and extracting data from the documents. This may involve setting parameters for machine learning models that improve over time with more data.
 7. **Regex**: Set up regular expressions that are used to extract data from documents based on patterns. This is particularly useful for structured data extraction.
 8. **Scripts**: Write or modify scripts that run custom processing rules or workflows for documents of this type.
-9. **EDI (Electronic Data Interchange)**: Configure settings related to the exchange of documents in standardized electronic formats.
+9. **E-DOC**: Configure settings related to the exchange of documents in standardized electronic formats. You can configure XRechnung, EDI, FakturaPA or EDI
 
 {% hint style="info" %}
 See [Setup Document Type](../../../setup/document-types/)
