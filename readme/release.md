@@ -1,5 +1,89 @@
 # Release
 
+## Release Sunset 12th August 2024
+
+### New Features:
+
+Rule Manager provides the flexibility to create and edit conflict resolution rules tialored for DocBits invoicing system. These rules are designed to automatically handle discrepancies between invoice details and purchase order (PO) data, ensuring accurate financial reconciliation. The system applies these rules to process invoice lines, charges, and taxes, and generates appropriate adjustments or notes when necessary.
+
+<figure><img src=".gitbook/assets/RuleManager.png" alt=""><figcaption><p>Rule Manager</p></figcaption></figure>
+
+### Syncing Data Using Stream
+
+BOD syncing from Infor utilizes AWS Stream for real-time data processing, enhancing efficiency and significantly reducing data syncing time.
+
+### XRechnung
+
+DocBits now processes XRechnung (electronic invoices) seamlessly by first creating a user-friendly PDF, streamlining and simplifying the invoice processing workflow.
+
+<figure><img src=".gitbook/assets/XRECHNUNG.png" alt=""><figcaption></figcaption></figure>
+
+### Bug Fixes:
+
+1. PO Match Button Visibility\
+   Issue: PO Match button is available when there is no table or the table is deleted.\
+   Status: On field validation, PO Match will be hidden if there is no table or the table is deleted
+2. Table Drag & Drop Sorting\
+   Issue: Table Drag & drop for sorting on all Lists/Dashboards\
+   Resolution: User can now drag and drop to sort the table
+3. Validation Screen Toolbar\
+   Issue: Validation screen: toolbar right side not scrollable\
+   Resolution: Fixed
+4. Horizontal Scroll\
+   Issue: Horizontal Scroll on Approval Screen\
+   Resolution: Fixed
+5. Approval Screen Decision Clearing\
+   Issue: Ability to clear the approve/reject decision on approval screen\
+   Resolution: Fixed
+6. Task Display on Approval Screen\
+   Issue: Task shown on the Approval Screen\
+   Resolution: Toolbar is available which shows the tasks count of open/in progress
+7. PO Match Table Size\
+   Issue: PO Match table gets smaller after matching a line\
+   Resolution: Fixed
+8. Task Assignment based on Item Procurement Group\
+   Issue: Translation for procurement group assignment\
+   Resolution: Fixed
+9. Supplier Name and Id in Task Creation\
+   Issue: Adding Supplier Name and Id in Task creation\
+   Resolution: Supplier Name and Id will be picked from the document
+10. Document Subtype Copy\
+    Issue: Click on Copy Document Subtype from sub document type setting was not working\
+    Resolution: Fixed
+11. New Label Field\
+    Issue: New Label field in list of values to add label along with value and synonym\
+    Resolution: Fixed
+12. Country Origin Card in Workflow\
+    Issue: New Card in workflow that checks country origin of a supplier and create a task or continue porcessing docuemtn accordingly\
+    Resolution: Fixed
+13. Dark Mode Fix on settings searchbar\
+    Issue: This issue was previously identified\
+    Resolution: Fixed
+14. Extracted Table Column Visibility Indicator\
+    Issue: Indicator if Columns are hidden in extracted table on Field validation\
+    Resolution: Fixed
+15. Dashboard Assignment for Admins\
+    Issue: Make Assign to on the dashboard only for admins\
+    Resolution: Fixed
+16. Document Split Visibility\
+    Issue: Show Document split only when more pages\
+    Resolution: Fixed
+17. Invoice Dashboard Columns\
+    Issue: Additional columns on invoice dashboard\
+    Resolution: Fixed
+18. Field Validation Script Deactivation\
+    Issue: Field Validation- Deactivate script was not working correctly\
+    Resolution: Fixed
+19. Approval Layout Button Customization\
+    Issue: Cannot change the button type and style on approval layout builder\
+    Resolution: Fixed
+20. Data Sync Table\
+    Issue: Data Sync Table in settings\
+    Resolution: Fixed
+21. Dashboard Analytics Total Display\
+    Issue: Dashboard Analytics- display wrong total number\
+    Resolution: Fixed
+
 ## Release Firework Juli 8th, 2024
 
 ### New Features
