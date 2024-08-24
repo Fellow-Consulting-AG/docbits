@@ -1,6 +1,6 @@
 # Company Information
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.18.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.18.42.png" alt=""><figcaption></figcaption></figure>
 
 1. **Company Name**: The legal name of the company as registered.
 2. **Street + Number**: The physical address of the company's main office or headquarters.
@@ -17,7 +17,3 @@
 The information entered here can be crucial for ensuring that documents such as invoices, official correspondence, and reports are properly formatted with the correct company details. It also helps in maintaining consistency in how the company is represented in various external communications and documents. After entering or updating the information, the administrator needs to save the changes by clicking the "Save" button to ensure all modifications are applied system-wide.
 
 Additionally, the section provides a view of the subscription plan, showing how many days are left, start and end dates, and a subscription usage meter that tracks the consumption of service tokens against what's allocated in the plan. This can help administrators monitor and plan for the subscription renewals or upgrades based on the usage trends.
-
-
-
-
