@@ -1,6 +1,6 @@
 # Document Types
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.44.19.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-24 um 22.39.42.png" alt="Document Types"><figcaption><p>Document Types Screenshot </p></figcaption></figure>
 
 #### Overview
 
@@ -23,5 +23,3 @@ The Document Types section lists all document types recognized and processed by 
 {% hint style="info" %}
 See [Setup Document Type](../../../setup/document-types/)
 {% endhint %}
-
-
