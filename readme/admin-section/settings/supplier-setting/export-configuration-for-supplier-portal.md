@@ -1,21 +1,21 @@
 # Export Configuration for Supplier Portal
 
-### Overview
+## Overview
 
 The export configuration file is a crucial component in the supplier portal, defining how data is mapped between the supplier portal and the ERP system. This configuration ensures that data is accurately transferred and synchronized across systems, enabling smooth and efficient operations.
 
-#### Structure of the Configuration File
+## Structure of the Configuration File
 
 The export configuration file is structured as a JSON object that contains multiple mappings. Each mapping is associated with a specific program in the ERP system and defines the actions to be performed, the fields to be mapped, and any conditions to be applied.
 
-### Key Components
+## Key Components
 
-#### 1. Program
+### 1. Program
 
 * **Definition**: Specifies the ERP program that the mapping applies to.
 * **Example**: `"program": "CRS620MI"`
 
-#### 2. Actions
+### 2. Actions
 
 * **Definition**: Defines the actions that can be performed, such as adding or updating records.
 *   **Example**:
@@ -27,10 +27,7 @@ The export configuration file is structured as a JSON object that contains multi
     }
     ```
 
-3\. Mapping
-
-\
-
+### 3. Mapping
 
 • Definition: Specifies the mapping between fields in the ERP system and fields in the supplier portal.
 
@@ -53,7 +50,7 @@ The export configuration file is structured as a JSON object that contains multi
 }
 ```
 
-4\. Conditional Logic (if\_conditions)
+### 4. Conditional Logic (if\_conditions)
 
 • Definition: Specifies conditions that must be met for a particular value to be used.
 
@@ -79,7 +76,7 @@ The export configuration file is structured as a JSON object that contains multi
 }
 ```
 
-5\. Loops (loop\_on)
+### 5. Loops (loop\_on)
 
 • Definition: Defines the sections where the configuration should iterate over a list of items, such as address or reference details.
 
@@ -89,8 +86,7 @@ The export configuration file is structured as a JSON object that contains multi
 "loop_on": "address_details"
 ```
 
-6\. Calculated Fields (value\_field\_calculated)\
-
+### 6. Calculated Fields (value\_field\_calculated)
 
 • Definition: Specifies fields that should be calculated at runtime, such as generating the current date.
 
@@ -103,7 +99,7 @@ The export configuration file is structured as a JSON object that contains multi
 }
 ```
 
-7\. Field Mappings with Lists (mapping\_field\_name and mapping\_list)
+### 7. Field Mappings with Lists (mapping\_field\_name and mapping\_list)
 
 • Definition: Maps specific values from the supplier portal to corresponding values in the ERP system based on a predefined list.
 
@@ -130,12 +126,9 @@ The export configuration file is structured as a JSON object that contains multi
 }
 ```
 
-Example Configuration Breakdown
+## Example Configuration Breakdown
 
-\
-
-
-## Supplier Addition and Update (CRS620MI)
+### Supplier Addition and Update (CRS620MI)
 
 • Program: CRS620MI
 
@@ -157,12 +150,9 @@ Example Configuration Breakdown
 
 • Additional fields include static values and conditional mappings.
 
-\
-
-
 ### Address Details (CRS620MI)
 
-• Loop On: address\_details
+• Loop On: _**address\_details**_
 
 • Actions:
 
@@ -182,7 +172,7 @@ Example Configuration Breakdown
 
 ### Reference Details (CRS620MI)
 
-• Loop On: reference\_details
+• Loop On: _**reference\_details**_
 
 • Actions:
 
@@ -198,10 +188,7 @@ Example Configuration Breakdown
 
 • RFID is mapped using a list to translate types like “PURCHASING”, “QA”, and “FINANCE”.
 
-\
-
-
-### Using the Export Configuration 
+## Using the Export Configuration
 
 ### 1. Uploading the Configuration File
 
