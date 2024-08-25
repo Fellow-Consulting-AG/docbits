@@ -191,6 +191,7 @@
         * [Doc Script](admin-section/settings/document-processing/module/doc-script.md)
         * [IDM ACL Updater](admin-section/settings/document-processing/module/idm-acl-updater.md)
         * [Swiss QR Code](admin-section/settings/document-processing/module/swiss-qr-code.md)
+        * [Auto Export if PO Matched 100%](admin-section/settings/document-processing/module/auto-export-if-po-matched-100.md)
     * [Supplier Setting](admin-section/settings/supplier-setting/README.md)
       * [Supplier General Settings](admin-section/settings/supplier-setting/supplier-general-settings.md)
       * [Editing Email Templates](admin-section/settings/supplier-setting/editing-email-templates.md)
