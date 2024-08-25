@@ -194,7 +194,7 @@
     * [Supplier Setting](admin-section/settings/supplier-setting/README.md)
       * [Supplier General Settings](admin-section/settings/supplier-setting/supplier-general-settings.md)
       * [Editing Email Templates](admin-section/settings/supplier-setting/editing-email-templates.md)
-      * [Export Configuration for Supplier Portal](admin-section/settings/supplier-setting/export-configuration-for-supplier-portal.md)
+      * [Export Configuration for Supplier Portal for M3](admin-section/settings/supplier-setting/export-configuration-for-supplier-portal-for-m3.md)
     * [Decision Trees](admin-section/settings/decision-trees.md)
   * [Workflow](admin-section/workflow/README.md)
     * [Release](admin-section/workflow/release.md)
