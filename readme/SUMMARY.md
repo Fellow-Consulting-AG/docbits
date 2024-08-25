@@ -193,6 +193,7 @@
         * [Swiss QR Code](admin-section/settings/document-processing/module/swiss-qr-code.md)
     * [Supplier Setting](admin-section/settings/supplier-setting/README.md)
       * [Supplier General Settings](admin-section/settings/supplier-setting/supplier-general-settings.md)
+      * [Editing Email Templates](admin-section/settings/supplier-setting/editing-email-templates.md)
     * [Decision Trees](admin-section/settings/decision-trees.md)
   * [Workflow](admin-section/workflow/README.md)
     * [Release](admin-section/workflow/release.md)
