@@ -16,7 +16,7 @@ Using filters allows users to quickly find relevant information and reduce the a
 
 * Click the filter icon or search field.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Customizing filters
 
@@ -38,13 +38,13 @@ Using filters allows users to quickly find relevant information and reduce the a
 
 <div data-full-width="true">
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
 * Define the filter criteria, e.g.: Status filter style.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 * Dropdown menus: Choose from predefined options.
 
