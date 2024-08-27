@@ -2,6 +2,8 @@
 
 ## A validation screen in DocBits is used to check the correctness and completeness of the data contained in documents before they are further processed or saved. This is especially important to ensure that all data is read and processed correctly, which ensures data integrity and quality.&#x20;
 
+<figure><img src="../.gitbook/assets/napkin-selection (1).svg" alt=""><figcaption></figcaption></figure>
+
 ### Here is a more detailed description of the purpose and use of a validation screen in this context:
 
 Purpose of a validation screen
