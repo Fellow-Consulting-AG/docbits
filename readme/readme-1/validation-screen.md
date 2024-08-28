@@ -210,3 +210,6 @@ There you will find the flow of the document
   * **Purpose:** Redirects users to a layout editor where they can modify existing templates or apply a default one.
   * **Use Case:** Enables customization of document layouts to meet specific business needs or preferences, enhancing the document’s visual and functional alignment with company standards.
 
+
+
+{% embed url="https://youtu.be/CmmQIxOaF6E?si=gYE-U-Jv4dLPi2xT" %}
