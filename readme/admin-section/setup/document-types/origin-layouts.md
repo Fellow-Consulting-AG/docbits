@@ -14,16 +14,18 @@ DocBits excels in adapting document layouts according to their geographical orig
 * U.S. Layout: For a U.S. invoice, you might include fields for city tax, aligning with the common tax structure in the U.S.
 * Germany Layout: In contrast, a German invoice layout may omit the city tax field, as it’s not a standard charge in Germany.
 
+
+
 ## **Using the Layout Builder**
 
 * Select Origin Layout: In the Layout Builder, choose the base layout corresponding to the document’s origin.
 * Customize Fields: Adapt the layout by adding or removing fields. For instance, include ‘City Tax’ for a U.S. layout.
 * Apply and Test: Once customized, apply the layout to your documents and test to ensure accuracy.
 
+<figure><img src="../../../.gitbook/assets/napkin-selection (3).svg" alt=""><figcaption></figcaption></figure>
+
 ## **Tips for Effective Customization**
 
 * Understand Regional Differences: Familiarize yourself with the tax and format nuances of different regions.
 * Consistent Updates: Regularly update your layouts to reflect any changes in regional regulations.
 * User Feedback: Utilize feedback from users in different regions to refine layouts further.
-
-
