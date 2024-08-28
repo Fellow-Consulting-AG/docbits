@@ -4,6 +4,8 @@
 
 We understand the importance of secure data transfer. That’s why we use open port 443, the standard port for HTTPS, ensuring that all data transferred is encrypted and secure. Our SSL-secured connections guarantee that your data is safe during every step of the process.
 
+<figure><img src=".gitbook/assets/secure.svg" alt="Open Port 443 &#x26; Secure Communication - DocBits"><figcaption><p>Secure Data Transfer</p></figcaption></figure>
+
 ### Communication With The Database
 
 When it comes to database communication, we don’t take any chances. Our Kubernetes setup and databases reside within the same Virtual Private Cloud (VPC). This means we only access the database via local IP, ensuring that the transmitted data never leaves the local network. It’s like having a private highway just for your data.
@@ -24,8 +26,6 @@ We only allow HTTPS-secured connections for communicating with our servers. This
 
 Flexibility is key, and we offer both cloud and on-premise solutions. With our on-premise option, there’s no need to open any ports, ensuring that your network security remains uncompromised. Whether you’re in the cloud or keeping things in-house, we’ve got you covered.
 
-\
-
+\\
 
 <figure><img src=".gitbook/assets/DocBits_II_infra-on-prem-1024x355.webp" alt=""><figcaption></figcaption></figure>
-
