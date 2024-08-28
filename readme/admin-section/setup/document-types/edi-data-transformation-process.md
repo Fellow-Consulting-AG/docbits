@@ -14,7 +14,9 @@ layout:
 
 # EDI Data Transformation Process
 
-####
+
+
+{% embed url="https://youtu.be/OmYbGG0ea0w?si=7okB6WP8kiKIZuec" %}
 
 <figure><img src="../../../.gitbook/assets/EDI (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -117,5 +119,3 @@ layout:
 ```
 
 This updated sequence ensures a thorough process, transforming raw EDI data into structured, actionable information using JSON for data structuring, XSLT for transformation and HTML preview, followed by JSON paths for data extraction and integration.
-
-
