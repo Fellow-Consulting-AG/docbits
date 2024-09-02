@@ -1,5 +1,9 @@
 # OAuth Office365
 
+
+
+{% embed url="https://youtu.be/Vvy38N_5g3Y" %}
+
 Here you just need to enter your desired sub organization and press ‘Authenticate’
 
 ![](https://lh7-us.googleusercontent.com/9G20nHREc07d9zo5hVLly4SSoxi9J1TqXxrWeqz5YS50cht3L9th76sd9hYU20IWrktlZNhO1yyjhbvraus-4w32TLyprjtKwgyi9lFAJceGK8KFzCNUytmofDGhZKShu1zFds6QKJ9lM4MYMSgvg7E)
@@ -30,5 +34,4 @@ If you want to import all emails, not just the unread ones, and have them moved 
 
 In the event of you receiving an error message indicating you do not have the rights to establish such a connection, someone with admin rights within Azure would need to authorize this connection. For more information, visit the following page: https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#grant-tenant-wide-admin-consent-in-enterprise-apps
 
-\
-
+\\
