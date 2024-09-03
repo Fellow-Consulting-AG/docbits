@@ -1,36 +1,42 @@
 # Release
 
-## Release Sunset 12th August 2024
-
-### New Features:
 
 
+## Release Harvest 9th September 2024
 
-## Duplicate Invoice handling
+#### New Features
+
+### Duplicate Invoice handling
 
 This feature allows users to identify if documents are duplicated across their system. This feature works by analyzing document fields that can be configured by the user. By selecting specific fields, users can customize the detection criteria to suit their needs, ensuring that only relevant duplicates are flagged. This helps to maintain data integrity and reduces the clutter of redundant documents, streamlining document management processes.
 
 {% embed url="https://youtu.be/WW36TTIUCs4" %}
 
-## Decision Tree
+### Decision Tree
 
 The decision tree is a tool used to automate decision-making in a workflow by mapping out choices and their outcomes. By integrating decision trees, you can ensure consistent decisions based on specific criteria, streamline processes, and reduce errors. This approach enhances efficiency by automating complex decision points within the workflow.
 
 {% embed url="https://youtu.be/E7cx8BDGTI0" %}
 
-
-
-## Choosing AI Models
+### Choosing AI Models
 
 DocBits now allows users to switch between different AI models to better suit their needs. You can choose the AI model that best fits your specific use case, whether it's for document analysis, data extraction, or text classification. This flexibility enables you to optimize performance and achieve more accurate results, tailoring the AI's capabilities to your organization's unique requirements.
 
 {% embed url="https://youtu.be/YvgEVagPepY" %}
 
-## Choosing OCR Version
+### Choosing OCR Version
 
 DocBits now offers the ability to change the OCR (Optical Character Recognition) version used within the platform. Users can select different OCR versions based on their specific needs, ensuring better accuracy and compatibility with various document types. This feature allows for more precise text extraction from images and scanned documents, improving overall data quality and workflow efficiency.
 
 {% embed url="https://youtu.be/zkW8zj0H5Ko" %}
+
+
+
+
+
+## Release Sunset 12th August 2024
+
+### New Features:
 
 ## Rule Manager
 
