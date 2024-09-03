@@ -14,6 +14,18 @@
 
 * This is useful when using tables whose structure changes frequently or when validation causes unnecessary delays. Skipping validation can speed up processing, but this should only be used if data quality is otherwise assured.
 
+### Duplicate Document Detection
+
+<figure><img src="../../../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
+
+**Purpose:**
+
+* This setting enables the automatic detection of duplicate documents based on selected fields.
+
+**Use:**
+
+* This tool is designed to prevent the same documents being processed twice, ensuring efficiency in the processing workflow.
+
 ### Design in Review Form:
 
 <figure><img src="../../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
@@ -27,6 +39,20 @@
 * Useful for taking visual feedback and annotations into account during review and making design changes in real time. This improves the efficiency of the review process and allows designers and reviewers to work more closely together.
 
 <figure><img src="../../../../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+
+### Design Reject Form:
+
+**Purpose:**
+
+* This setting allows you to design the view of rejected documents directly.
+
+**Use:**
+
+* Useful for taking visual feedback and annotations into account while making design changes in real time. This improves the efficiency of the review process and allows designers and reviewers to work more closely together.
+
+
+
+<figure><img src="../../../../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
 
 ### Design Template:
 
@@ -64,7 +90,7 @@
 
 **Use:**
 
-* Defines approval steps and responsibilities. This setting is critical for compliance with company policies and regulatory requirements. It ensures that all relevant parties have reviewed and approved the document before it is finalized.
+* Defines approval steps and responsibilities. This setting is critical for compliance with company policies and regulatory requirements. It ensures that all relevant parties have reviewed and approved the document before it is finalized. Once the document is finalized, it can be stamped with an approval stamp.
 
 **Design Approval Form:**
 
@@ -218,3 +244,6 @@
 
 * Protects the integrity of the ordering process and ensures that only authorized changes are made.
 
+
+
+{% embed url="https://youtu.be/WW36TTIUCs4" %}

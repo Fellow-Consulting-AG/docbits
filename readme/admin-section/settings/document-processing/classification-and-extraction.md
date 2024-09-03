@@ -1,7 +1,5 @@
 # Classification And Extraction
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.10.49.png" alt=""><figcaption></figcaption></figure>
-
 The "Classification and Extraction" settings in your document processing system provide options for configuring how documents are automatically handled upon input:
 
 1. **Document Splitting**: This setting allows you to choose whether to split documents based on specific criteria or keep them as a single document. This can be useful when processing documents that have multiple distinct sections but are uploaded as a single file.
@@ -11,5 +9,4 @@ The "Classification and Extraction" settings in your document processing system 
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.11.10.png" alt=""><figcaption></figcaption></figure>
 
-
-
+{% embed url="https://youtu.be/YvgEVagPepY" %}
