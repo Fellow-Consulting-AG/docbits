@@ -134,6 +134,7 @@
           * [Best Practices](admin-section/settings/global-settings/document-types/edi/best-practices-6.md)
           * [Troubleshooting](admin-section/settings/global-settings/document-types/edi/troubleshooting-5.md)
           * [XRechnung](admin-section/settings/global-settings/document-types/edi/xrechnung.md)
+          * [Peppol BIS Billing 3.0](admin-section/settings/global-settings/document-types/edi/peppol-bis-billing-3.0.md)
         * [More Settings](admin-section/settings/global-settings/document-types/more-settings.md)
           * [Purpose and use](admin-section/settings/global-settings/document-types/more-settings/purpose-and-use.md)
           * [Best practices](admin-section/settings/global-settings/document-types/more-settings/best-practices.md)
