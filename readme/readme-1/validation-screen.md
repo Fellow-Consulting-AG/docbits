@@ -2,19 +2,17 @@
 
 {% embed url="https://youtu.be/CmmQIxOaF6E?si=gYE-U-Jv4dLPi2xT" %}
 
-{% embed url="https://youtu.be/QO2JZhCetFk?si=P_Gyz8LTfIWbnBFk" %}
-
 ## Overview
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 07.58.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 07.58.15.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 ## **Save Button:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (2).png" alt=""><figcaption></figcaption></figure>
 
 * **Save Button:**
   * **Purpose:** Saves the current state of the document or script being worked on.
@@ -22,21 +20,21 @@
 
 ### **Add special Rules:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.41.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.41.01.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.42.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.42.13.png" alt=""><figcaption></figcaption></figure>
 
 * **Add Special Rules / Add Script in DocBits:**
   * **Purpose:** Allows users to implement specific rules or scripts that customize how documents are processed.
   * **Use Case:** Use this feature to automate tasks like data extraction or format validation, enhancing workflow efficiency.
 
 {% hint style="info" %}
-See here add[ Script in DocBits](../../admin-section/setup/scripting-in-docbits/)
+See here add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
 {% endhint %}
 
 ### **Fuzzy Fields:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
 
 *   **Fuzzy Fields:**
 
@@ -47,7 +45,7 @@ See here add[ Script in DocBits](../../admin-section/setup/scripting-in-docbits/
 
 ### **Required fields:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
 
 There are fields that are required for further editing, these can be edited in the settings.
 
@@ -67,19 +65,19 @@ Use the tool tip to find out if:
 
 ### **Magnify Glass:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
 
 * **Magnifying Glass (Magnify Glass):**
   * **Purpose:** Provides a zoomed-in view of a selected area of the document.
   * **Use Case:** Helps in examining fine details or small text in documents, ensuring accuracy in data entry or review.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.03.46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.03.46.png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### **Open new window:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.26.png" alt="" width="130"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.26.png" alt="" width="130"><figcaption></figcaption></figure>
 
 *   **Open New Window:**
 
@@ -90,19 +88,19 @@ Use the tool tip to find out if:
 
 ### **Keyboard shortcuts:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.42.png" alt="" width="145"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.42.png" alt="" width="145"><figcaption></figcaption></figure>
 
 1. **Keyboard Shortcuts:**
    * **Purpose:** Allows users to perform actions quickly using keyboard combinations.
    * **Use Case:** Enhances speed and efficiency in document navigation and processing by minimizing reliance on mouse navigation.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt="" width="239"><figcaption><p>Keyboard</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt="" width="239"><figcaption><p>Keyboard</p></figcaption></figure>
 
 
 
 ### **Tasks:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.00.png" alt="" width="55"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.00.png" alt="" width="55"><figcaption></figcaption></figure>
 
 To share internal information, you can create tasks and assign them to a specific employee or group within the company.
 
@@ -110,15 +108,15 @@ To share internal information, you can create tasks and assign them to a specifi
   * **Purpose:** Enables users to create tasks related to documents and assign them to team members.
   * **Use Case:** Facilitates collaboration and task management within teams, ensuring everyone knows their responsibilities.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.21.27.png" alt="" width="218"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.21.27.png" alt="" width="218"><figcaption></figcaption></figure>
 
 
 
 ### **Annotation mode:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.21.png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.21.png" alt="" width="187"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 You can leave annotations on a document. This can be helpful to leave information for other users who further edit this document.
 
@@ -130,7 +128,7 @@ You can leave annotations on a document. This can be helpful to leave informatio
 
 ### **Merge:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
 
 Documents can be merged here, for example if a page of an invoice was missing, these pages can be merged later in this way without the entire document having to be deleted or re-uploaded.
 
@@ -142,7 +140,7 @@ Documents can be merged here, for example if a page of an invoice was missing, t
 
 ### **OCR view:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.00.png" alt="" width="77"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.00.png" alt="" width="77"><figcaption></figcaption></figure>
 
 In the OCR view, the text is automatically filtered from the document. This is used to recognize relevant features, such as the postal code, contract number, invoice number and the sorting of a document.
 
@@ -150,13 +148,13 @@ In the OCR view, the text is automatically filtered from the document. This is u
   * **Purpose:** Automatically recognizes text within documents using Optical Character Recognition technology.
   * **Use Case:** Streamlines the process of digitizing printed or handwritten texts, making them searchable and editable.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
 
 
 
 ### **Create ticket:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
 
 Unlike tasks that are passed on internally within the company, this support ticket is important to notify us and to immediately create a ticket in the event of errors and/or discrepancies. This makes the process much easier because you can immediately send the bug with the appropriate document. There is also the option to set priority, take a screenshot of the document or upload one.
 
@@ -164,13 +162,13 @@ Unlike tasks that are passed on internally within the company, this support tick
   * **Purpose:** Allows users to report issues or discrepancies by creating a support ticket.
   * **Use Case:** Essential for quick resolution of problems and bugs, helping maintain the integrity and smooth functioning of the system.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
 
 
 
 ### **Document skript Logs:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
 
 Scripts can be created in the settings under Document Types; this information will then be displayed here.
 
@@ -178,13 +176,13 @@ Scripts can be created in the settings under Document Types; this information wi
   * **Purpose:** Displays logs related to scripts that have been implemented for different document types.
   * **Use Case:** Useful for tracking and debugging script actions on documents, helping users understand the automated processes and correct any issues.
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### **More settings:**
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.04.13.png" alt="" width="239"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.04.13.png" alt="" width="239"><figcaption></figcaption></figure>
 
 ### **Split document:**
 
