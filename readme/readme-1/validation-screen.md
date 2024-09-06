@@ -1,5 +1,9 @@
 # Validation Screen
 
+{% embed url="https://youtu.be/CmmQIxOaF6E?si=gYE-U-Jv4dLPi2xT" %}
+
+{% embed url="https://youtu.be/QO2JZhCetFk?si=P_Gyz8LTfIWbnBFk" %}
+
 ## Overview
 
 <div data-full-width="false">
@@ -212,8 +216,3 @@ There you will find the flow of the document
 
 
 
-{% embed url="https://youtu.be/CmmQIxOaF6E?si=gYE-U-Jv4dLPi2xT" %}
-
-
-
-{% embed url="https://youtu.be/QO2JZhCetFk?si=P_Gyz8LTfIWbnBFk" %}
