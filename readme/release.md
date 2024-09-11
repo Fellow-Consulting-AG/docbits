@@ -10,7 +10,7 @@
 
 This feature allows users to identify if documents are duplicated across their system. This feature works by analyzing document fields that can be configured by the user. By selecting specific fields, users can customize the detection criteria to suit their needs, ensuring that only relevant duplicates are flagged. This helps to maintain data integrity and reduces the clutter of redundant documents, streamlining document management processes.
 
-{% embed url="https://youtu.be/WW36TTIUCs4" %}
+{% embed url="https://youtu.be/8CdBu7HN47I" %}
 
 ### Decision Tree
 
