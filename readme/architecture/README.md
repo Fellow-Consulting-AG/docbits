@@ -16,7 +16,7 @@ Export to [Infor](../admin-section/setup/exporting-in-docbits/exporting-to-infor
 
 To identify the supplier or compare/match purchase order lines, we activate a trigger in LN/M3 that sends the Sync.RemitToPartyMaster, Sync.SupplierPartyMaster, and Sync.PurchaseOrder BODs to Doc**Bits**. We configure this process in ION Desk by defining the dataflow to a specific connection point to Doc**Bits**.
 
-\\
+<figure><img src="../.gitbook/assets/docbits_architecture (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 [Master Data Validation](../admin-section/setup/importing-customer-master-data/)
