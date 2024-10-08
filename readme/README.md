@@ -43,8 +43,6 @@ Welcome to **DocBits**, your comprehensive source for documentation strategies a
 
 **Benefits**
 
-
-
 * **Efficiency**: Automates repetitive tasks, reducing manual entry and errors.
 * **Accuracy**: High accuracy in data extraction and document classification.
 * **Scalability**: Can handle unlimited document types and volumes.
