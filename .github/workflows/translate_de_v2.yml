@@ -43,14 +43,14 @@ jobs:
       - name: Identify Changed Markdown Files
         id: changed_files
         run: |
-          # Fetch the latest commits from the main branch
-          git fetch origin main
-
-          # Get the list of changed Markdown files between the previous commit and the current commit
-          git diff --name-only origin/main HEAD | grep '\.md$' > changed_files.txt || true
-
+          # Compare the 'before' and 'after' commit SHAs provided by GitHub
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.md$' > changed_files.txt || true
+      
           if [ -s changed_files.txt ]; then
-            echo "files=$(paste -sd "," changed_files.txt)" >> $GITHUB_ENV
+            # Join the file paths with commas
+            files=$(paste -sd "," changed_files.txt)
+            echo "files=${files}" >> $GITHUB_ENV
+            echo "Changed Markdown files: $files"
           else
             echo "No Markdown files changed."
             echo "files=" >> $GITHUB_ENV

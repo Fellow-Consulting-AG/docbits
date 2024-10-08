@@ -51,6 +51,8 @@ Welcome to **DocBits**, your comprehensive source for documentation strategies a
 
 **Use Cases**
 
+
+
 * Suitable for a wide range of industries and document types, including invoices, delivery notes, order confirmations, and more.
 * Ideal for businesses looking to optimize their document capturing processes and enhance operational efficiency.
 
