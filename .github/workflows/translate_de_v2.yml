@@ -24,6 +24,22 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0  # Needed to access all branches and history
+      - name: Display Current Working Directory
+        run: pwd
+  
+      - name: List Repository Root Contents
+        run: ls -la
+  
+      - name: List Scripts Directory Contents
+        run: |
+          if [ -d scripts ]; then
+            echo "Listing contents of 'scripts/' directory:"
+            ls -la scripts/
+          else
+            echo "'scripts/' directory does not exist."
+            ls -la
+          fi
+  
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -69,6 +85,7 @@ jobs:
             mkdir -p "$(dirname "$output_file")"
 
             # Run the translation script
+            pwd
             python ./scripts/translate_markdown.py "$LANGUAGE" "$file" "$output_file" --model gpt-4
           done
 
