@@ -1,31 +1,70 @@
-# Modul
+# Entscheidungsbäume
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.42.png" alt=""><figcaption></figcaption></figure>
+### Übersicht
 
-* **Automatisierte Buchhaltung**: DocBits bietet eine Funktion für automatisierte Buchhaltung, die den Prozess der Verwaltung von finanziellen Transaktionen im Zusammenhang mit Bestellaufträgen (BA) und anderen Dokumenten vereinfacht.
-* **M3-Integration**: Integration mit M3, einer ERP-Softwarelösung, die eine nahtlose Interaktion zwischen DocBits und M3 für eine verbesserte Verwaltung und Verarbeitung von Dokumenten ermöglicht.
-* **BA-Dashboard**: Ein zentrales Dashboard innerhalb von DocBits, das speziell zur Verwaltung und Überwachung von Bestellaufträgen entwickelt wurde und Informationen sowie Analysen für eine effektive Nachverfolgung und Entscheidungsfindung bereitstellt.
-* **Versandauftrag-Dashboard**: Ähnlich wie das BA-Dashboard konzentriert sich diese Funktion auf die Verwaltung und Nachverfolgung von Versandaufträgen und erleichtert reibungslose logistische Abläufe.
+Entscheidungsbäume sind eine leistungsstarke Funktion, die einen automatisierten Routing- und Entscheidungsprozess basierend auf vordefinierten Regeln ermöglicht. Diese Funktion ist besonders nützlich in komplexen Umgebungen, in denen verschiedene Bedingungen bewertet werden müssen, um den richtigen Handlungsverlauf zu bestimmen, wie z.B. die Preiszuweisung, die Bestimmung von Mengen oder das Routing von Dokumenten.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.52.png" alt=""><figcaption></figcaption></figure>
+#### Hauptkomponenten
 
-* **Dashboards v2**: Eine aktualisierte Version der Dashboard-Oberfläche, wahrscheinlich mit einer besseren Benutzererfahrung und zusätzlichen Funktionen für eine verbesserte Benutzerfreundlichkeit.
-* **Erweitertes Versand-Dashboard**: Ein spezialisiertes Dashboard zur fortgeschrittenen Überwachung und Verwaltung von Versandaktivitäten, das tiefere Einblicke und Funktionen bietet.
+* **Entscheidungsbaum-Liste**: Dies ist die Hauptschnittstelle, in der alle vorhandenen Entscheidungsbäume aufgelistet sind. Jeder Entscheidungsbaum kann mit einem bestimmten Dokumenttyp wie einer `RECHNUNG` oder `ANGEBOT` verknüpft werden.
+* **Entscheidungsbaum-Editor**: Diese Schnittstelle ermöglicht die Erstellung und Bearbeitung von Entscheidungsbäumen, in denen Sie Regeln, Operatoren und Aktionen definieren können, die ausgeführt werden sollen, wenn bestimmte Bedingungen erfüllt sind.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02.png" alt=""><figcaption></figcaption></figure>
+### Entscheidungsbaum-Schnittstelle
 
-* **Lieferantenportal**: Ein Portal innerhalb von DocBits, das den Lieferanten gewidmet ist und ihnen ermöglicht, mit dem System zu interagieren und zusammenzuarbeiten, wodurch die Kommunikation und Effizienz in der Lieferkette verbessert werden.
+#### Entscheidungsbaum-Liste
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.17.png" alt=""><figcaption></figcaption></figure>
+Die Entscheidungsbaum-Liste zeigt alle verfügbaren Entscheidungsbäume an. Jeder Eintrag zeigt:
 
-* **Workflow-Builder**: Ein Tool zum Erstellen und Anpassen von Workflows innerhalb von DocBits, das es den Benutzern ermöglicht, spezifische Prozesse zu definieren und die Dokumentenverwaltung gemäß ihren einzigartigen Geschäftsanforderungen zu automatisieren.
-* **Layout-Builder**: Ermöglicht es den Benutzern, das Layout von Dokumenten innerhalb von DocBits zu entwerfen und anzupassen, um die Übereinstimmung mit Markenstandards und Benutzerfreundlichkeit sicherzustellen.
-* **Annotierungsmodus**: Eine Funktion, die es den Benutzern ermöglicht, Dokumente direkt in der DocBits-Oberfläche zu annotieren und zu markieren, um die Zusammenarbeit und das Feedback zu erleichtern.
-* **Bericht anzeigen**: Funktion zum Generieren und Anzeigen von Berichten innerhalb von DocBits, die Informationen und Analysen zu verschiedenen Aspekten der Dokumentenverarbeitung und -verwaltung bereitstellt.
-* **Vorlagen und Etiketten**: Werkzeuge zum Definieren und Konfigurieren von Dokumentenerkennungs-Vorlagen und Etiketten innerhalb von DocBits, die die Genauigkeit und Effizienz der Dokumentenverarbeitung verbessern.
-* **Dokumentskript**: Wahrscheinlich eine Funktion zum Skripten und Automatisieren spezifischer Aktionen oder Prozesse im Zusammenhang mit der Dokumentenverwaltung innerhalb von DocBits.
-* **Dokumentenscannen**: Fähigkeit, physische Dokumente zu scannen und in DocBits für die digitale Verarbeitung und Verwaltung zu importieren.
-* **QR-Code-Extraktion**: Eine Funktion zum Extrahieren von Informationen aus in Dokumenten eingebetteten QR-Codes, die eine automatisierte Datenerfassung und -verarbeitung ermöglicht.
-* **Benutzerdefinierte Stammdaten**: Ermöglicht es den Benutzern, benutzerdefinierte Felder und Attribute für Stammdaten innerhalb von DocBits zu definieren und zu verwalten, um das System an ihre spezifischen Geschäftsbedürfnisse anzupassen.
-* **Aufgaben und Benachrichtigungen**: Funktion zur Verwaltung von Aufgaben und zum Erhalten von Benachrichtigungen innerhalb von DocBits, die eine zeitgerechte Aktion und Kommunikation bezüglich der Dokumentenverarbeitungsaktivitäten sicherstellt.
-* **Aktualisierung der ACL IDM**: Dieses Modul befasst sich wahrscheinlich mit der Aktualisierung und Verwaltung von Zugriffskontrolllisten (ACL) innerhalb von DocBits, um angemessene Berechtigungen und Sicherheit für den Zugriff und die Verwaltung von Dokumenten zu gewährleisten.
+* **Name**: Der Name des Entscheidungsbaums.
+* **Dokumenttyp**: Der Typ des mit dem Entscheidungsbaum verknüpften Dokuments (z.B. `RECHNUNG`, `ANGEBOT`).
+
+#### Entscheidungsbaum-Editor
+
+Der Entscheidungsbaum-Editor ermöglicht es Ihnen, Regeln zu konfigurieren, die bestimmen, wie Entscheidungen getroffen werden.
+
+**Komponenten des Entscheidungsbaum-Editors**
+
+* **Regeln**: Jede Regel besteht aus Bedingungen und Aktionen.
+* **Quelle auswählen**: Dieses Dropdown-Menü ermöglicht es Ihnen, das Quellfeld auszuwählen, das bewertet werden soll.
+* **Operator auswählen**: Definiert den logischen Operator (z.B. `<=`, `>=`, `=`, `!=`), der auf das Quellfeld angewendet werden soll.
+* **Ergebnis**: Definiert das Ergebnis oder die Aktion, die ausgeführt werden soll, wenn die Bedingungen erfüllt sind.
+* **Neue Zeile hinzufügen**: Ermöglicht es Ihnen, zusätzliche Regeln zum Entscheidungsbaum hinzuzufügen.
+
+#### Beispiel einer Entscheidungsbaum-Konfiguration
+
+1. **Regel 1**:
+   * **Quelle**: Menge
+   * **Operator**: `<=`
+   * **Wert**: `250000`
+   * **Ergebnis**: Zuweisen an `CATMGR_CMM`
+2. **Regel 2**:
+   * **Quelle**: Preis
+   * **Operator**: `>`
+   * **Wert**: `500000`
+   * **Ergebnis**: Zuweisen an `PROCUREMENT_DIRECTOR`
+
+Jede Regel wird nacheinander bewertet, und die entsprechende Aktion wird ausgeführt, wenn die Bedingungen erfüllt sind.
+
+### Entscheidungsbaum-Richtlinie
+
+Die Entscheidungsbaum-Richtlinie definiert, wie mehrere Regeln innerhalb eines Entscheidungsbaums verarbeitet werden. Sie können aus mehreren Richtlinien wählen:
+
+* **Eindeutig**: Stellt sicher, dass nur eine Regel übereinstimmen kann. Wenn mehr als eine Regel übereinstimmt, wird ein Fehler im Entscheidungsbaum angezeigt.
+* **Erste**: Die erste übereinstimmende Regel wird angewendet, und keine weiteren Regeln werden bewertet.
+* **Priorität**: Regeln werden basierend auf ihrer Prioritätsreihenfolge bewertet. Die Regel mit der höchsten Priorität wird angewendet.
+* **Sammeln (Summe)**: Sammelt alle übereinstimmenden Regeln und summiert die Ergebnisse.
+* **Sammeln (min/max/anzahl)**: Sammelt alle übereinstimmenden Regeln und wählt entweder das Minimum, Maximum oder zählt die Vorkommen.
+* **Regelreihenfolge**: Wendet Regeln in der Reihenfolge an, in der sie im Entscheidungsbaum erscheinen.
+* **Beliebig**: Jede übereinstimmende Regel kann angewendet werden, was mehrere Ergebnisse ermöglicht.
+
+#### Beispiel einer Entscheidungsbaum-Richtlinie in Aktion
+
+Im Entscheidungsbaum "Direktgruppenpreis":
+
+* **Ausgewählte Richtlinie**: `Erste`
+* Das bedeutet, dass, sobald eine Regelbedingung erfüllt ist, die zugehörige Aktion angewendet wird und keine weiteren Regeln bewertet werden.
+
+### Exportieren und Speichern
+
+* **Speichern**: Speichert die aktuelle Konfiguration des Entscheidungsbaums.
+* **Exportieren**: Ermöglicht es Ihnen, die Konfiguration des Entscheidungsbaums zu exportieren, die dann in eine andere Umgebung importiert oder zu Backup-Zwecken verwendet werden kann.
