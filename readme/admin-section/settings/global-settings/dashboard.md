@@ -1,22 +1,27 @@
 # Dashboard
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.23.17.png" alt=""><figcaption></figcaption></figure>
+**Die Dashboard-Einstellungen sind so konzipiert, dass Administratoren die Datenpräsentation und Interaktion innerhalb des DocBits-Dashboards steuern können.** Diese Einstellungen bestimmen, welche Informationen sofort nach dem Anmelden verfügbar sind, und stellen sicher, dass die Benutzer schnellen Zugriff auf die relevantesten Daten für ihre Aufgaben haben.
 
-#### Übersicht
+#### Wichtige Funktionen und Optionen
 
-Die Dashboard-Einstellungen sind darauf ausgelegt, Administratoren dabei zu helfen, die Datenpräsentation und -interaktion innerhalb des DocBits-Dashboards zu kontrollieren. Diese Einstellungen bestimmen, welche Informationen unmittelbar nach dem Einloggen verfügbar sind und gewährleisten somit, dass Benutzer schnell auf die relevantesten Daten für ihre Aufgaben zugreifen können.
+**Allgemeine Dashboard-Einstellungen:**
 
-#### Hauptfunktionen und Optionen
+* **Filter zurücksetzen:** Ermöglicht die Konfiguration, wann die Dashboard-Filter zurückgesetzt werden sollen, z. B. nach dem Hochladen von Dokumenten, dem Neustart von Dokumenten oder dem Export von Dokumenten. Dies hilft, eine saubere Datenansicht entsprechend den spezifischen Arbeitsabläufen aufrechtzuerhalten.
+* **Dashboard-Daten:** Steuert, ob das Dashboard beim Zugriff des Benutzers automatisch Daten laden soll, was helfen kann, die Ladezeiten zu reduzieren und die Benutzererfahrung zu verbessern, indem nur die Daten geladen werden, wenn sie benötigt werden.
 
-1. **Allgemeine Dashboard-Einstellungen**:
-* **Filter zurücksetzen**: Ermöglicht die Konfiguration, wann Dashboard-Filter zurückgesetzt werden sollen, z. B. nach dem Hochladen eines Dokuments, dem Neustart eines Dokuments oder dem Exportieren eines Dokuments. Dies hilft dabei, eine saubere Ansicht für die Datenanzeige entsprechend bestimmter Arbeitsablaufphasen aufrechtzuerhalten.
-* **Dashboard-Daten**: Steuert, ob das Dashboard Daten automatisch beim Benutzerzugriff laden soll, was dazu beitragen kann, die Ladezeiten zu verkürzen und die Benutzererfahrung zu verbessern, indem nur Daten geladen werden, wenn sie benötigt werden.
-2. **Filter**:
-* **Statusfilter-Stil**: Bestimmt den Präsentationsstil von Statusfiltern, der auf Standard oder individuell gemäß dem operationellen Fokus der Benutzer eingestellt werden kann.
-* **Benutzerdefinierter Statusfilter**: Ermöglicht die Erstellung und Anwendung von benutzerdefinierten Filtern, die bestimmte Dokumentenstatus wie "Neu", "Validierung" oder "Exportieren" ansprechen können. Dies ermöglicht es Benutzern, schnell auf Dokumente in bestimmten Verarbeitungsphasen zuzugreifen.
+**Aktionen:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.23.48.png" alt=""><figcaption></figcaption></figure>
+* **Zuweisen an:** Diese Funktion ermöglicht es dem Benutzer, die Berechtigungen zum Zuweisen von Dokumenten zu definieren.
 
-Diese Dashboard-Einstellungen sind entscheidend, um sicherzustellen, dass die DocBits-Plattform so reaktionsschnell und nützlich wie möglich ist und Benutzern ein leistungsstarkes Tool bietet, um Dokumentenverarbeitungsaktivitäten direkt vom Dashboard aus zu überwachen und zu verwalten.
+**Filter:**
 
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2502" %}
+* **Statusfilter-Stil:** Bestimmt den Präsentationsstil der Statusfilter, der auf Standard oder benutzerdefiniert eingestellt werden kann, je nach operativem Fokus der Benutzer.
+* **Benutzerdefinierter Statusfilter:** Ermöglicht die Erstellung und Anwendung von benutzerdefinierten Filtern, die spezifische Dokumentenstatus wie „Neu“, „Validierung“ oder „Exportieren“ anvisieren. Dies ermöglicht es den Benutzern, schnell auf Dokumente in bestimmten Verarbeitungsphasen zuzugreifen.
+
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+Diese Dashboard-Einstellungen sind entscheidend, um sicherzustellen, dass die DocBits-Plattform so reaktionsschnell und nützlich wie möglich ist und den Benutzern ein leistungsstarkes Tool zur Überwachung und Verwaltung von Dokumentenverarbeitungsaktivitäten direkt über das Dashboard bietet.
+
+#### Sichtbarkeit der fortgeschrittenen Bestellungen:
+
+* **Sichtbarkeit der gelieferten Bestellungen:** Diese Funktion ermöglicht es dem Benutzer, die Dauer anzugeben, für die gelieferte Bestellungen sichtbar sein sollen.
