@@ -100,6 +100,7 @@
         * [Doc Script](admin-section/settings/document-processing/module/doc-script.md)
         * [IDM ACL Updater](admin-section/settings/document-processing/module/idm-acl-updater.md)
         * [Swiss QR Code](admin-section/settings/document-processing/module/swiss-qr-code.md)
+      * [Regelmanager](admin-section/settings/document-processing/regelmanager.md)
     * [Log Einstellungen](admin-section/settings/log-einstellungen/README.md)
       * [Daten Synchronization](admin-section/settings/log-einstellungen/daten-synchronization.md)
     * [API Lizenzen](admin-section/settings/api-lizenzen.md)
