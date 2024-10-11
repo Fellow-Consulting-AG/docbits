@@ -126,6 +126,18 @@
 
 * Designs purchase order tables directly in the Layout Builder and adapts them to specific requirements. This ensures a seamless and consistent design of documents containing purchase order information.
 
+### Purchase Order&#x20;
+
+<figure><img src="../../../../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
+
+**Purpose:**
+
+* Enables automatic matching in PO Matching&#x20;
+
+**Usage:**
+
+* The quantity is automatically matched to one of the following in the PO matching: Received Quantity, Open Quantity or Received Delivery Quantity.
+
 ### Export not matched PO lines:
 
 <figure><img src="../../../../../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
