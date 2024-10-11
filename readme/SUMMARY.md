@@ -110,6 +110,7 @@
       * [Export Konfiguration für Lieferanten Portal M3](admin-section/settings/lieferanten-einstellungen/page-1.md)
       * [Generelle Lieferanten Einstellungen](admin-section/settings/lieferanten-einstellungen/generelle-lieferanten-einstellungen.md)
     * [Cache Management](admin-section/settings/cache-management.md)
+    * [Entscheidungsbäume](admin-section/settings/entscheidungsbaume.md)
   * [Workflow](overview/workflow/README.md)
     * [Then](overview/workflow/then.md)
     * [And](overview/workflow/and/README.md)
