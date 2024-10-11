@@ -1,31 +1,70 @@
-# Modulo
+# Alberi Decisionali
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.42.png" alt=""><figcaption></figcaption></figure>
+### Panoramica
 
-* **Contabilità automatica**: DocBits offre una funzionalità di contabilità automatizzata, semplificando il processo di gestione delle transazioni finanziarie associate agli ordini (BC) e ad altri documenti.
-* **Integrazione M3**: Integrazione con M3, una soluzione software ERP, che consente un'interazione fluida tra DocBits e M3 per una gestione e un'elaborazione migliorate dei documenti.
-* **Dashboard BC**: Un dashboard centralizzato all'interno di DocBits specificamente progettato per gestire e monitorare gli ordini, fornendo informazioni e analisi per un monitoraggio e una decisione efficaci.
-* **Dashboard di spedizione**: Simile al dashboard BC, questa funzionalità si concentra sulla gestione e sul monitoraggio degli ordini di spedizione, facilitando operazioni logistiche fluide.
+Gli Alberi Decisionali sono una funzionalità potente che consente il routing automatizzato e il processo decisionale basato su regole predefinite. Questa funzionalità è particolarmente utile in ambienti complessi dove è necessario valutare varie condizioni per determinare il corretto corso d'azione, come l'assegnazione dei prezzi, la determinazione delle quantità o il routing dei documenti.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.52.png" alt=""><figcaption></figcaption></figure>
+#### Componenti Chiave
 
-* **Dashboard v2**: Una versione aggiornata dell'interfaccia del dashboard, probabilmente con una migliore esperienza utente e funzionalità aggiuntive per una maggiore facilità d'uso.
-* **Dashboard di spedizione avanzata**: Un dashboard specializzato per il monitoraggio avanzato e la gestione delle attività legate alla spedizione, offrendo informazioni e funzionalità più approfondite.
+* **Elenco Alberi Decisionali**: Questa è l'interfaccia principale dove sono elencati tutti gli alberi decisionali esistenti. Ogni albero decisionale può essere associato a un tipo di documento specifico come una `FATTURA` o un `PREVENTIVO`.
+* **Editor Alberi Decisionali**: Questa interfaccia consente la creazione e la modifica degli alberi decisionali, dove è possibile definire regole, operatori e azioni da intraprendere quando vengono soddisfatte determinate condizioni.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02.png" alt=""><figcaption></figcaption></figure>
+### Interfaccia Albero Decisionale
 
-* **Portale fornitori**: Un portale all'interno di DocBits dedicato ai fornitori, consentendo loro di interagire e collaborare con il sistema, migliorando la comunicazione e l'efficienza nella catena di approvvigionamento.
+#### Elenco Alberi Decisionali
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.17.png" alt=""><figcaption></figcaption></figure>
+L'elenco degli Alberi Decisionali visualizza tutti gli alberi decisionali disponibili. Ogni voce mostra:
 
-* **Costruttore di flussi di lavoro**: Uno strumento per creare e personalizzare flussi di lavoro all'interno di DocBits, consentendo agli utenti di definire processi specifici e automatizzare la gestione dei documenti in base alle loro esigenze aziendali uniche.
-* **Costruttore di layout**: Consente agli utenti di progettare e personalizzare il layout dei documenti all'interno di DocBits, garantendo l'allineamento con gli standard di marca e di facilità d'uso.
-* **Modalità annotazione**: Una funzionalità che consente agli utenti di annotare e contrassegnare documenti direttamente nell'interfaccia di DocBits, facilitando la collaborazione e i feedback.
-* **Visualizza rapporto**: Funzionalità per generare e visualizzare rapporti all'interno di DocBits, fornendo informazioni e analisi su vari aspetti dell'elaborazione e della gestione dei documenti.
-* **Modelli e etichette**: Strumenti per definire e configurare modelli di riconoscimento dei documenti e etichette all'interno di DocBits, migliorando la precisione e l'efficienza dell'elaborazione dei documenti.
-* **Script di documento**: Probabilmente una funzionalità per scrivere script e automatizzare azioni o processi specifici legati alla gestione dei documenti all'interno di DocBits.
-* **Scansione di documenti**: Capacità di scansionare documenti fisici e importarli in DocBits per un'elaborazione e una gestione digitali.
-* **Estrazione di codice QR**: Una funzionalità per estrarre informazioni dai codici QR integrati nei documenti, consentendo una cattura e un'elaborazione automatizzate dei dati.
-* **Dati master personalizzati**: Consente agli utenti di definire e gestire campi e attributi di dati master personalizzati all'interno di DocBits, adattando il sistema alle loro esigenze aziendali specifiche.
-* **Attività e notifiche**: Funzionalità per gestire le attività e ricevere notifiche all'interno di DocBits, garantendo azioni e comunicazioni tempestive riguardo alle attività di elaborazione dei documenti.
-* **Aggiornamento dell'ACL IDM**: Questo modulo si occupa probabilmente dell'aggiornamento e della gestione delle liste di controllo degli accessi (ACL) all'interno di DocBits, garantendo autorizzazioni e sicurezza appropriate per l'accesso e la gestione dei documenti.
+* **Nome**: Il nome dell'albero decisionale.
+* **Tipo di Documento**: Il tipo di documento associato all'albero decisionale (ad es., `FATTURA`, `PREVENTIVO`).
+
+#### Editor Alberi Decisionali
+
+L'Editor Alberi Decisionali consente di configurare regole che governano come vengono prese le decisioni.
+
+**Componenti dell'Editor Alberi Decisionali**
+
+* **Regole**: Ogni regola consiste in condizioni e azioni.
+* **Seleziona Fonte**: Questo menu a discesa consente di specificare il campo sorgente da valutare.
+* **Seleziona Operatore**: Definisce l'operatore logico (ad es., `<=`, `>=`, `=`, `!=`) da applicare al campo sorgente.
+* **Risultato**: Definisce l'esito o l'azione che dovrebbe essere intrapresa quando le condizioni sono soddisfatte.
+* **Aggiungi Nuova Riga**: Consente di aggiungere ulteriori regole all'albero decisionale.
+
+#### Esempio di Configurazione di un Albero Decisionale
+
+1. **Regola 1**:
+   * **Fonte**: Quantità
+   * **Operatore**: `<=`
+   * **Valore**: `250000`
+   * **Risultato**: Assegna a `CATMGR_CMM`
+2. **Regola 2**:
+   * **Fonte**: Prezzo
+   * **Operatore**: `>`
+   * **Valore**: `500000`
+   * **Risultato**: Assegna a `PROCUREMENT_DIRECTOR`
+
+Ogni regola viene valutata in sequenza e l'azione corrispondente viene eseguita se le condizioni sono soddisfatte.
+
+### Politica dell'Albero Decisionale
+
+La Politica dell'Albero Decisionale definisce come vengono elaborate più regole all'interno di un albero decisionale. Puoi scegliere tra diverse politiche:
+
+* **Unica**: Garantisce che solo una regola possa corrispondere. Se più di una regola corrisponde, l'albero decisionale segnalerà un errore.
+* **Prima**: La prima regola corrispondente viene applicata e non vengono valutate ulteriori regole.
+* **Priorità**: Le regole vengono valutate in base al loro ordine di priorità. La regola corrispondente con la priorità più alta viene applicata.
+* **Raccogli (somma)**: Raccoglie tutte le regole corrispondenti e somma i risultati.
+* **Raccogli (min/max/count)**: Raccoglie tutte le regole corrispondenti e seleziona il minimo, il massimo o conta le occorrenze.
+* **Ordine delle Regole**: Applica le regole nell'ordine in cui appaiono nell'albero decisionale.
+* **Qualsiasi**: Qualsiasi regola corrispondente può essere applicata, consentendo molteplici esiti.
+
+#### Esempio di Politica dell'Albero Decisionale in Azione
+
+Nell'albero decisionale "Prezzo Gruppo Diretto":
+
+* **Politica Selezionata**: `Prima`
+* Questo significa che non appena una condizione di regola è soddisfatta, la sua azione associata viene applicata e non vengono valutate ulteriori regole.
+
+### Esporta e Salva
+
+* **Salva**: Salva la configurazione attuale dell'albero decisionale.
+* **Esporta**: Consente di esportare la configurazione dell'albero decisionale, che può poi essere importata in un altro ambiente o utilizzata per scopi di backup.
