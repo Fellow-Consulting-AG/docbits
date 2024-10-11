@@ -1,31 +1,70 @@
-# Moduł
+# Drzewa Decyzyjne
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.42.png" alt=""><figcaption></figcaption></figure>
+### Przegląd
 
-* **Automatyczna księgowość**: DocBits oferuje funkcję automatycznej księgowości, upraszczając proces zarządzania transakcjami finansowymi związanymi z zamówieniami (BC) i innymi dokumentami.
-* **Integracja M3**: Integracja z M3, rozwiązaniem oprogramowania ERP, umożliwiająca płynne interakcje między DocBits a M3 w celu lepszego zarządzania i przetwarzania dokumentów.
-* **Panel zamówień BC**: Centralny panel w DocBits zaprojektowany specjalnie do zarządzania i monitorowania zamówień, dostarczający informacji i analiz dla efektywnego śledzenia i podejmowania decyzji.
-* **Panel zamówień wysyłkowych**: Podobny do panelu BC, ta funkcja koncentruje się na zarządzaniu i śledzeniu zamówień wysyłkowych, ułatwiając płynne operacje logistyczne.
+Drzewa Decyzyjne to potężna funkcja, która umożliwia automatyczne kierowanie i podejmowanie decyzji na podstawie zdefiniowanych reguł. Ta funkcja jest szczególnie przydatna w złożonych środowiskach, gdzie różne warunki muszą być oceniane, aby określić właściwy tok działania, takie jak ustalanie cen, określanie ilości lub kierowanie dokumentami.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.52.png" alt=""><figcaption></figcaption></figure>
+#### Kluczowe Komponenty
 
-* **Panele v2**: Zaktualizowana wersja interfejsu panelu, prawdopodobnie z lepszym doświadczeniem użytkownika i dodatkowymi funkcjami dla lepszej użyteczności.
-* **Zaawansowany panel wysyłkowy**: Specjalistyczny panel do zaawansowanego monitorowania i zarządzania działaniami związanymi z wysyłką, oferujący bardziej szczegółowe informacje i funkcje.
+* **Lista Drzew Decyzyjnych**: To główny interfejs, w którym wyświetlane są wszystkie istniejące drzewa decyzyjne. Każde drzewo decyzyjne może być powiązane z określonym typem dokumentu, takim jak `FAKTURA` lub `OFERTA`.
+* **Edytor Drzew Decyzyjnych**: Ten interfejs umożliwia tworzenie i edytowanie drzew decyzyjnych, gdzie można definiować reguły, operatory i działania, które mają być podjęte, gdy spełnione są określone warunki.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02.png" alt=""><figcaption></figcaption></figure>
+### Interfejs Drzewa Decyzyjnego
 
-* **Portal dostawcy**: Portal w DocBits dedykowany dostawcom, umożliwiający im interakcję i współpracę z systemem, poprawiając komunikację i efektywność w łańcuchu dostaw.
+#### Lista Drzew Decyzyjnych
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.17.png" alt=""><figcaption></figcaption></figure>
+Lista Drzew Decyzyjnych wyświetla wszystkie dostępne drzewa decyzyjne. Każdy wpis pokazuje:
 
-* **Kreator przepływu pracy**: Narzędzie do tworzenia i dostosowywania przepływów pracy w DocBits, umożliwiające użytkownikom definiowanie specyficznych procesów i automatyzację zarządzania dokumentami zgodnie z ich unikalnymi potrzebami biznesowymi.
-* **Kreator układu**: Umożliwia użytkownikom projektowanie i dostosowywanie układu dokumentów w DocBits, zapewniając zgodność z normami marki i użyteczności.
-* **Tryb adnotacji**: Funkcja, która pozwala użytkownikom na adnotowanie i oznaczanie dokumentów bezpośrednio w interfejsie DocBits, ułatwiając współpracę i feedback.
-* **Wyświetl raport**: Funkcja do generowania i wyświetlania raportów w DocBits, dostarczająca informacji i analiz na temat różnych aspektów przetwarzania i zarządzania dokumentami.
-* **Szablony i etykiety**: Narzędzia do definiowania i konfigurowania szablonów rozpoznawania dokumentów oraz etykiet w DocBits, poprawiające dokładność i efektywność przetwarzania dokumentów.
-* **Skrypt dokumentu**: Prawdopodobnie funkcja do skryptowania i automatyzacji określonych działań lub procesów związanych z zarządzaniem dokumentami w DocBits.
-* **Skanowanie dokumentów**: Możliwość skanowania dokumentów fizycznych i importowania ich do DocBits w celu przetwarzania i zarządzania cyfrowego.
-* **Ekstrakcja kodu QR**: Funkcja do ekstrakcji informacji z kodów QR zawartych w dokumentach, umożliwiająca automatyczne przechwytywanie i przetwarzanie danych.
-* **Dostosowane dane główne**: Umożliwia użytkownikom definiowanie i zarządzanie polami oraz atrybutami dostosowanych danych głównych w DocBits, dostosowując system do ich specyficznych potrzeb biznesowych.
-* **Zadania i powiadomienia**: Funkcja do zarządzania zadaniami i otrzymywania powiadomień w DocBits, zapewniająca terminowe działania i komunikację w związku z aktywnościami przetwarzania dokumentów.
-* **Aktualizacja ACL IDM**: Ten moduł prawdopodobnie dotyczy aktualizacji i zarządzania listami kontroli dostępu (ACL) w DocBits, zapewniając odpowiednie uprawnienia i bezpieczeństwo dla dostępu i zarządzania dokumentami.
+* **Nazwa**: Nazwa drzewa decyzyjnego.
+* **Typ Dokumentu**: Typ dokumentu powiązanego z drzewem decyzyjnym (np. `FAKTURA`, `OFERTA`).
+
+#### Edytor Drzew Decyzyjnych
+
+Edytor Drzew Decyzyjnych pozwala na konfigurowanie reguł, które określają, jak podejmowane są decyzje.
+
+**Komponenty Edytora Drzew Decyzyjnych**
+
+* **Reguły**: Każda reguła składa się z warunków i działań.
+* **Wybierz Źródło**: To rozwijane menu pozwala określić pole źródłowe do oceny.
+* **Wybierz Operator**: Definiuje operator logiczny (np. `<=`, `>=`, `=`, `!=`), który ma być zastosowany do pola źródłowego.
+* **Wynik**: Definiuje wynik lub działanie, które powinno być podjęte, gdy warunki są spełnione.
+* **Dodaj Nowy Wiersz**: Pozwala dodać dodatkowe reguły do drzewa decyzyjnego.
+
+#### Przykład Konfiguracji Drzewa Decyzyjnego
+
+1. **Reguła 1**:
+   * **Źródło**: Ilość
+   * **Operator**: `<=`
+   * **Wartość**: `250000`
+   * **Wynik**: Przypisz do `CATMGR_CMM`
+2. **Reguła 2**:
+   * **Źródło**: Cena
+   * **Operator**: `>`
+   * **Wartość**: `500000`
+   * **Wynik**: Przypisz do `PROCUREMENT_DIRECTOR`
+
+Każda reguła jest oceniana sekwencyjnie, a odpowiednie działanie jest wykonywane, jeśli warunki są spełnione.
+
+### Polityka Drzewa Decyzyjnego
+
+Polityka Drzewa Decyzyjnego definiuje, jak wiele reguł w obrębie drzewa decyzyjnego jest przetwarzanych. Możesz wybierać spośród kilku polityk:
+
+* **Unikalna**: Zapewnia, że tylko jedna reguła może pasować. Jeśli więcej niż jedna reguła pasuje, drzewo decyzyjne zgłosi błąd.
+* **Pierwsza**: Zastosowana zostaje pierwsza pasująca reguła, a dalsze reguły nie są oceniane.
+* **Priorytet**: Reguły są oceniane na podstawie ich kolejności priorytetowej. Zastosowana zostaje reguła o najwyższym priorytecie.
+* **Zbieraj (suma)**: Zbiera wszystkie pasujące reguły i sumuje wyniki.
+* **Zbieraj (min/max/liczba)**: Zbiera wszystkie pasujące reguły i wybiera minimum, maksimum lub liczy wystąpienia.
+* **Kolejność Reguł**: Zastosowuje reguły w kolejności, w jakiej pojawiają się w drzewie decyzyjnym.
+* **Jakakolwiek**: Może być zastosowana dowolna pasująca reguła, co pozwala na wiele wyników.
+
+#### Przykład Polityki Drzewa Decyzyjnego w Działaniu
+
+W drzewie decyzyjnym "Cena Grupy Bezpośredniej":
+
+* **Wybrana Polityka**: `Pierwsza`
+* Oznacza to, że jak tylko warunek reguły zostanie spełniony, zastosowane zostaje przypisane działanie, a dalsze reguły nie są oceniane.
+
+### Eksport i Zapis
+
+* **Zapisz**: Zapisuje bieżącą konfigurację drzewa decyzyjnego.
+* **Eksportuj**: Umożliwia eksportowanie konfiguracji drzewa decyzyjnego, która może być następnie importowana do innego środowiska lub używana do celów kopii zapasowej.
