@@ -1,5 +1,7 @@
 # Dashboard
 
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
 **Die Dashboard-Einstellungen sind so konzipiert, dass Administratoren die Datenpräsentation und Interaktion innerhalb des DocBits-Dashboards steuern können.** Diese Einstellungen bestimmen, welche Informationen sofort nach dem Anmelden verfügbar sind, und stellen sicher, dass die Benutzer schnellen Zugriff auf die relevantesten Daten für ihre Aufgaben haben.
 
 #### Wichtige Funktionen und Optionen
