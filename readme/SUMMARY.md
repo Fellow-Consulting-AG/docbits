@@ -103,6 +103,8 @@
     * [Log Einstellungen](admin-section/settings/log-einstellungen/README.md)
       * [Daten Synchronization](admin-section/settings/log-einstellungen/daten-synchronization.md)
     * [API Lizenzen](admin-section/settings/api-lizenzen.md)
+    * [Lieferanten Einstellungen](admin-section/settings/lieferanten-einstellungen/README.md)
+      * [Email Vorlagen editieren](admin-section/settings/lieferanten-einstellungen/email-vorlagen-editieren.md)
   * [Workflow](overview/workflow/README.md)
     * [Then](overview/workflow/then.md)
     * [And](overview/workflow/and/README.md)
