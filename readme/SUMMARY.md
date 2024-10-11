@@ -105,7 +105,7 @@
     * [API Lizenzen](admin-section/settings/api-lizenzen.md)
     * [Lieferanten Einstellungen](admin-section/settings/lieferanten-einstellungen/README.md)
       * [Email Vorlagen editieren](admin-section/settings/lieferanten-einstellungen/email-vorlagen-editieren.md)
-      * [Export Konfiguration fürLiefrantenPortal M3](admin-section/settings/lieferanten-einstellungen/export-konfiguration-furliefrantenportal-m3.md)
+      * [Export Konfiguration für Lieferanten Portal M3](admin-section/settings/lieferanten-einstellungen/export-konfiguration-fur-lieferanten-portal-m3.md)
   * [Workflow](overview/workflow/README.md)
     * [Then](overview/workflow/then.md)
     * [And](overview/workflow/and/README.md)

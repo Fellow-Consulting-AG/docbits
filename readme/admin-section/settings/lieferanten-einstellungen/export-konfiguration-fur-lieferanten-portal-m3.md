@@ -1,4 +1,4 @@
-# Page 1
+# Export Konfiguration für Lieferanten Portal M3
 
 **Übersicht**\
 Die Exportkonfigurationsdatei ist ein entscheidendes Element im Lieferantenportal, das definiert, wie Daten zwischen dem Lieferantenportal und dem ERP-System zugeordnet werden. Diese Konfiguration stellt sicher, dass Daten genau zwischen den Systemen übertragen und synchronisiert werden, was einen reibungslosen und effizienten Betrieb ermöglicht.
