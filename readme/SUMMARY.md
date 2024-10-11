@@ -107,6 +107,7 @@
     * [Lieferanten Einstellungen](admin-section/settings/lieferanten-einstellungen/README.md)
       * [Email Vorlagen editieren](admin-section/settings/lieferanten-einstellungen/email-vorlagen-editieren.md)
       * [Export Konfiguration für Lieferanten Portal M3](admin-section/settings/lieferanten-einstellungen/page-1.md)
+      * [Generelle Lieferanten Einstellungen](admin-section/settings/lieferanten-einstellungen/generelle-lieferanten-einstellungen.md)
     * [Cache Management](admin-section/settings/cache-management.md)
   * [Workflow](overview/workflow/README.md)
     * [Then](overview/workflow/then.md)
