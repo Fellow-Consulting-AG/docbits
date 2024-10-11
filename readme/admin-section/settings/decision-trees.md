@@ -1,31 +1,70 @@
-# Módulo
+# Árboles de Decisión
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.42.png" alt=""><figcaption></figcaption></figure>
+### Descripción General
 
-* **Contabilidad automática**: DocBits ofrece una funcionalidad de contabilidad automatizada, simplificando el proceso de gestión de las transacciones financieras asociadas a las órdenes de compra (OC) y otros documentos.
-* **Integración M3**: Integración con M3, una solución de software ERP, que permite una interacción fluida entre DocBits y M3 para una gestión y procesamiento mejorados de documentos.
-* **Tablero de OC**: Un tablero centralizado dentro de DocBits diseñado específicamente para gestionar y monitorear las órdenes de compra, proporcionando información y análisis para un seguimiento y toma de decisiones eficaces.
-* **Tablero de órdenes de envío**: Similar al tablero de OC, esta funcionalidad se centra en la gestión y seguimiento de las órdenes de envío, facilitando operaciones logísticas fluidas.
+Los Árboles de Decisión son una característica poderosa que permite el enrutamiento automatizado y el proceso de toma de decisiones basado en reglas predefinidas. Esta característica es especialmente útil en entornos complejos donde se deben evaluar diversas condiciones para determinar el curso de acción correcto, como asignar precios, determinar cantidades o enrutear documentos.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.52.png" alt=""><figcaption></figcaption></figure>
+#### Componentes Clave
 
-* **Tableros de control v2**: Una versión actualizada de la interfaz del tablero de control, probablemente con una mejor experiencia de usuario y funcionalidades adicionales para una mejor usabilidad.
-* **Tablero de envío avanzado**: Un tablero especializado para la supervisión avanzada y gestión de actividades relacionadas con el envío, ofreciendo información y funcionalidades más profundas.
+* **Lista de Árboles de Decisión**: Esta es la interfaz principal donde se enumeran todos los árboles de decisión existentes. Cada árbol de decisión puede estar asociado con un tipo de documento específico, como una `FACTURA` o `COTIZACIÓN`.
+* **Editor de Árboles de Decisión**: Esta interfaz permite la creación y edición de árboles de decisión, donde puedes definir reglas, operadores y acciones a tomar cuando se cumplen ciertas condiciones.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02.png" alt=""><figcaption></figcaption></figure>
+### Interfaz del Árbol de Decisión
 
-* **Portal de proveedores**: Un portal dentro de DocBits dedicado a los proveedores, permitiéndoles interactuar y colaborar con el sistema, mejorando la comunicación y la eficiencia en la cadena de suministro.
+#### Lista de Árboles de Decisión
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.17.png" alt=""><figcaption></figcaption></figure>
+La lista de Árboles de Decisión muestra todos los árboles de decisión disponibles. Cada entrada muestra:
 
-* **Constructor de flujos de trabajo**: Una herramienta para crear y personalizar flujos de trabajo dentro de DocBits, permitiendo a los usuarios definir procesos específicos y automatizar la gestión de documentos según sus necesidades comerciales únicas.
-* **Constructor de diseño**: Permite a los usuarios diseñar y personalizar el diseño de los documentos dentro de DocBits, garantizando la alineación con las normas de marca y usabilidad.
-* **Modo de anotación**: Una funcionalidad que permite a los usuarios anotar y marcar documentos directamente en la interfaz de DocBits, facilitando la colaboración y los comentarios.
-* **Mostrar informe**: Funcionalidad para generar y mostrar informes dentro de DocBits, proporcionando información y análisis sobre diversos aspectos del procesamiento y gestión de documentos.
-* **Plantillas y etiquetas**: Herramientas para definir y configurar plantillas de reconocimiento de documentos y etiquetas dentro de DocBits, mejorando la precisión y eficiencia del procesamiento de documentos.
-* **Script de documento**: Probablemente una funcionalidad para scriptar y automatizar acciones o procesos específicos relacionados con la gestión de documentos dentro de DocBits.
-* **Escaneo de documentos**: Capacidad para escanear documentos físicos e importarlos a DocBits para un procesamiento y gestión digitales.
-* **Extracción de código QR**: Una funcionalidad para extraer información de los códigos QR integrados en los documentos, permitiendo una captura y procesamiento automatizados de datos.
-* **Datos maestros personalizados**: Permite a los usuarios definir y gestionar campos y atributos de datos maestros personalizados dentro de DocBits, adaptando el sistema a sus necesidades comerciales específicas.
-* **Tareas y notificaciones**: Funcionalidad para gestionar tareas y recibir notificaciones dentro de DocBits, garantizando una acción y comunicación oportunas respecto a las actividades de procesamiento de documentos.
-* **Actualización de la ACL IDM**: Este módulo probablemente trata sobre la actualización y gestión de listas de control de acceso (ACL) dentro de DocBits, garantizando permisos y seguridad apropiados para el acceso y gestión de documentos.
+* **Nombre**: El nombre del árbol de decisión.
+* **Tipo de Documento**: El tipo de documento asociado con el árbol de decisión (por ejemplo, `FACTURA`, `COTIZACIÓN`).
+
+#### Editor de Árboles de Decisión
+
+El Editor de Árboles de Decisión te permite configurar reglas que rigen cómo se toman las decisiones.
+
+**Componentes del Editor de Árboles de Decisión**
+
+* **Reglas**: Cada regla consiste en condiciones y acciones.
+* **Seleccionar Fuente**: Este menú desplegable te permite especificar el campo fuente a evaluar.
+* **Seleccionar Operador**: Define el operador lógico (por ejemplo, `<=`, `>=`, `=`, `!=`) que se aplicará al campo fuente.
+* **Resultado**: Define el resultado o acción que debe tomarse cuando se cumplen las condiciones.
+* **Agregar Nueva Fila**: Te permite agregar reglas adicionales al árbol de decisión.
+
+#### Ejemplo de Configuración de un Árbol de Decisión
+
+1. **Regla 1**:
+   * **Fuente**: Cantidad
+   * **Operador**: `<=`
+   * **Valor**: `250000`
+   * **Resultado**: Asignar a `CATMGR_CMM`
+2. **Regla 2**:
+   * **Fuente**: Precio
+   * **Operador**: `>`
+   * **Valor**: `500000`
+   * **Resultado**: Asignar a `DIRECTOR_DE_ADQUISICIONES`
+
+Cada regla se evalúa secuencialmente, y la acción correspondiente se ejecuta si se satisfacen las condiciones.
+
+### Política del Árbol de Decisión
+
+La Política del Árbol de Decisión define cómo se procesan múltiples reglas dentro de un árbol de decisión. Puedes elegir entre varias políticas:
+
+* **Única**: Asegura que solo una regla puede coincidir. Si más de una regla coincide, el árbol de decisión marcará un error.
+* **Primera**: Se aplica la primera regla coincidente, y no se evalúan más reglas.
+* **Prioridad**: Las reglas se evalúan según su orden de prioridad. Se aplica la regla coincidente de mayor prioridad.
+* **Colectar (suma)**: Recoge todas las reglas coincidentes y suma los resultados.
+* **Colectar (mínimo/máximo/cantidad)**: Recoge todas las reglas coincidentes y selecciona el mínimo, máximo o cuenta las ocurrencias.
+* **Orden de Reglas**: Aplica las reglas en el orden en que aparecen en el árbol de decisión.
+* **Cualquiera**: Cualquier regla coincidente puede aplicarse, permitiendo múltiples resultados.
+
+#### Ejemplo de una Política del Árbol de Decisión en Acción
+
+En el árbol de decisión "Precio del Grupo Directo":
+
+* **Política Seleccionada**: `Primera`
+* Esto significa que tan pronto como se cumple la condición de una regla, se aplica su acción asociada, y no se evalúan más reglas.
+
+### Exportar y Guardar
+
+* **Guardar**: Guarda la configuración actual del árbol de decisión.
+* **Exportar**: Te permite exportar la configuración del árbol de decisión, que luego puede ser importada a otro entorno o utilizada para fines de respaldo.
