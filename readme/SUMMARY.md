@@ -102,6 +102,7 @@
         * [Swiss QR Code](admin-section/settings/document-processing/module/swiss-qr-code.md)
     * [Log Einstellungen](admin-section/settings/log-einstellungen/README.md)
       * [Daten Synchronization](admin-section/settings/log-einstellungen/daten-synchronization.md)
+    * [API Lizenzen](admin-section/settings/api-lizenzen.md)
   * [Workflow](overview/workflow/README.md)
     * [Then](overview/workflow/then.md)
     * [And](overview/workflow/and/README.md)
