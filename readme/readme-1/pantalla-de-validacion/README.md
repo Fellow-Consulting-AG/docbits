@@ -1,0 +1,2 @@
+# Pantalla de validación
+
