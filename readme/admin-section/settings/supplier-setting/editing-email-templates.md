@@ -1,4 +1,6 @@
-### Descripción general
+# Edición de Plantillas de Correo Electrónico
+
+### Descripción General
 
 La función de Plantillas de Correo Electrónico permite a los administradores crear y personalizar comunicaciones por correo electrónico que se envían automáticamente a los proveedores. Uno de los elementos clave utilizados en estas plantillas es el `{{magic_link}}`, que proporciona un enlace dinámico adaptado a cada destinatario.
 
@@ -33,7 +35,7 @@ Para definir `{{magic_link}}` como un enlace clicable en el correo electrónico,
 2. **Inserta el Marcador de Posición `{{magic_link}}`**:
 
     * Reemplaza el atributo `href` de la etiqueta ancla con `{{magic_link}}`.
-    * Asegúrate de que el enlace esté estilizado apropiadamente para la plantilla de correo electrónico. Aquí tienes un ejemplo:
+    * Asegúrate de que el enlace esté estilizado adecuadamente para la plantilla de correo electrónico. Aquí tienes un ejemplo:
 
     ```html
     <a href="{{magic_link}}" target="_blank" style="
@@ -73,7 +75,7 @@ Para definir `{{magic_link}}` como un enlace clicable en el correo electrónico,
 
 ## Conclusión
 
-Al definir correctamente el \{{magic\_link\}} en tus plantillas de correo electrónico, puedes asegurarte de que los destinatarios reciban un correo electrónico personalizado y accionable que los guíe a la tarea adecuada dentro de tu portal de proveedores. Esto mejora la experiencia del usuario y asegura procesos de incorporación y comunicación fluidos.
+Al definir correctamente el \{{magic\_link\}} en tus plantillas de correo electrónico, puedes asegurarte de que los destinatarios reciban un correo electrónico personalizado y accionable que los guíe a la tarea apropiada dentro de tu portal de proveedores. Esto mejora la experiencia del usuario y asegura procesos de incorporación y comunicación fluidos.
 
 \
 
