@@ -1,41 +1,161 @@
-# Supplier Item Number Map - Admin Documentation
+# Mapa Numerów Przedmiotów Dostawcy - Dokumentacja Administracyjna
 
-## **Overview**
+## **Przegląd**
 
-As an admin, you have the ability to view and manage the mappings between internal item numbers and supplier item numbers. This feature ensures that discrepancies between your system and your suppliers' systems are handled efficiently. You can review, edit, and delete incorrect mappings to maintain data accuracy.
+Jako administrator masz możliwość przeglądania i zarządzania mapowaniami między wewnętrznymi numerami przedmiotów a numerami przedmiotów dostawcy. Ta funkcja zapewnia, że niezgodności między Twoim systemem a systemami dostawców są obsługiwane efektywnie. Możesz przeglądać, edytować i usuwać niepoprawne mapowania, aby utrzymać dokładność danych.
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
 
-**Accessing the Supplier Item Number Map**
+**Dostęp do Mapy Numerów Przedmiotów Dostawcy**
 
-1. **Navigate to Settings:**
-   * Go to the **Settings** section in your admin dashboard.
-2. **Access Document Types:**
-   * Under **Settings**, select **Document Types**.
-3. **More Settings:**
-   * Click on **More Settings** to access additional configuration options.
-4. **Supplier Item Number Map:**
-   * In the **More Settings** section, you will find the **Supplier Item Number Map** table. This table lists all the current mappings between your internal item numbers and the corresponding supplier item numbers.
+1. **Przejdź do Ustawień:**
+   * Przejdź do sekcji **Ustawienia** w swoim panelu administracyjnym.
+2. **Dostęp do Typów Dokumentów:**
+   * W sekcji **Ustawienia** wybierz **Typy Dokumentów**.
+3. **Więcej Ustawień:**
+   * Kliknij na **Więcej Ustawień**, aby uzyskać dostęp do dodatkowych opcji konfiguracyjnych.
+4. **Mapa Numerów Przedmiotów Dostawcy:**
+   * W sekcji **Więcej Ustawień** znajdziesz tabelę **Mapa Numerów Przedmiotów Dostawcy**. Tabela ta zawiera wszystkie aktualne mapowania między Twoimi wewnętrznymi numerami przedmiotów a odpowiadającymi im numerami przedmiotów dostawcy.
 
-## **Managing Item Number Mappings**
+## **Zarządzanie Mapowaniami Numerów Przedmiotów**
 
-1. **Viewing Mappings:**
-   * The table displays the following columns:
-     * **Supplier ID:** The unique identifier for the supplier.
-     * **Item Number:** Your internal item number for the product.
-     * **Supplier Item Number:** The corresponding item number used by the supplier.
-     * **Action:** Options to manage the mappings.
-2. **Deleting Incorrect Mappings:**
-   * If you identify an incorrect mapping, you can delete it by clicking the trash can icon (🗑) in the **Action** column.
-   * A confirmation prompt will appear to ensure that you want to delete the mapping.
-3. **Editing Mappings:**
-   * (If applicable) You may also have the option to edit existing mappings to correct any discrepancies. This could involve clicking on the item or supplier number to make changes.
+1. **Przeglądanie Mapowań:**
+   * Tabela wyświetla następujące kolumny:
+     * **ID Dostawcy:** Unikalny identyfikator dostawcy.
+     * **Numer Przedmiotu:** Twój wewnętrzny numer przedmiotu dla produktu.
+     * **Numer Przedmiotu Dostawcy:** Odpowiadający numer przedmiotu używany przez dostawcę.
+     * **Akcja:** Opcje zarządzania mapowaniami.
+2. **Usuwanie Niepoprawnych Mapowań:**
+   * Jeśli zidentyfikujesz niepoprawne mapowanie, możesz je usunąć, klikając ikonę kosza (🗑) w kolumnie **Akcja**.
+   * Pojawi się okno potwierdzenia, aby upewnić się, że chcesz usunąć mapowanie.
+3. **Edycja Mapowań:**
+   * (Jeśli dotyczy) Możesz również mieć możliwość edytowania istniejących mapowań, aby skorygować wszelkie niezgodności. Może to obejmować kliknięcie na numer przedmiotu lub dostawcy, aby wprowadzić zmiany.
 
-## **Example Workflow**
+## **Przykładowy Przepływ Pracy**
 
-1. **Identify Discrepancies:**
-   * Regularly review the **Supplier Item Number Map** to identify any discrepancies or incorrect mappings.
-2. **Delete Incorrect Mappings:**
-   * For any incorrect mappings, click the trash can icon to delete them.
-3. **Re-enter Correct Mappings:**
-   * Ensure that correct mappings are entered either manually during the next transaction or by editing the existing entries if the system supports it.
+1. **Identyfikacja Niezgodności:**
+   * Regularnie przeglądaj **Mapę Numerów Przedmiotów Dostawcy**, aby zidentyfikować wszelkie niezgodności lub niepoprawne mapowania.
+2. **Usuwanie Niepoprawnych Mapowań:**
+   * W przypadku jakichkolwiek niepoprawnych mapowań kliknij ikonę kosza, aby je usunąć.
+3. **Ponowne Wprowadzenie Poprawnych Mapowań:**
+   * Upewnij się, że poprawne mapowania są wprowadzane ręcznie podczas następnej transakcji lub poprzez edytowanie istniejących wpisów, jeśli system to wspiera.# Mapa Numerów Przedmiotów Dostawcy - Dokumentacja Administracyjna
+
+## **Przegląd**
+
+Jako administrator masz możliwość przeglądania i zarządzania mapowaniami między wewnętrznymi numerami przedmiotów a numerami przedmiotów dostawcy. Ta funkcja zapewnia, że niezgodności między Twoim systemem a systemami dostawców są obsługiwane efektywnie. Możesz przeglądać, edytować i usuwać niepoprawne mapowania, aby utrzymać dokładność danych.
+
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+
+**Dostęp do Mapy Numerów Przedmiotów Dostawcy**
+
+1. **Przejdź do Ustawień:**
+   * Przejdź do sekcji **Ustawienia** w swoim panelu administracyjnym.
+2. **Dostęp do Typów Dokumentów:**
+   * W sekcji **Ustawienia** wybierz **Typy Dokumentów**.
+3. **Więcej Ustawień:**
+   * Kliknij na **Więcej Ustawień**, aby uzyskać dostęp do dodatkowych opcji konfiguracyjnych.
+4. **Mapa Numerów Przedmiotów Dostawcy:**
+   * W sekcji **Więcej Ustawień** znajdziesz tabelę **Mapa Numerów Przedmiotów Dostawcy**. Tabela ta zawiera wszystkie aktualne mapowania między Twoimi wewnętrznymi numerami przedmiotów a odpowiadającymi im numerami przedmiotów dostawcy.
+
+## **Zarządzanie Mapowaniami Numerów Przedmiotów**
+
+1. **Przeglądanie Mapowań:**
+   * Tabela wyświetla następujące kolumny:
+     * **ID Dostawcy:** Unikalny identyfikator dostawcy.
+     * **Numer Przedmiotu:** Twój wewnętrzny numer przedmiotu dla produktu.
+     * **Numer Przedmiotu Dostawcy:** Odpowiadający numer przedmiotu używany przez dostawcę.
+     * **Akcja:** Opcje zarządzania mapowaniami.
+2. **Usuwanie Niepoprawnych Mapowań:**
+   * Jeśli zidentyfikujesz niepoprawne mapowanie, możesz je usunąć, klikając ikonę kosza (🗑) w kolumnie **Akcja**.
+   * Pojawi się okno potwierdzenia, aby upewnić się, że chcesz usunąć mapowanie.
+3. **Edycja Mapowań:**
+   * (Jeśli dotyczy) Możesz również mieć możliwość edytowania istniejących mapowań, aby skorygować wszelkie niezgodności. Może to obejmować kliknięcie na numer przedmiotu lub dostawcy, aby wprowadzić zmiany.
+
+## **Przykładowy Przepływ Pracy**
+
+1. **Identyfikacja Niezgodności:**
+   * Regularnie przeglądaj **Mapę Numerów Przedmiotów Dostawcy**, aby zidentyfikować wszelkie niezgodności lub niepoprawne mapowania.
+2. **Usuwanie Niepoprawnych Mapowań:**
+   * W przypadku jakichkolwiek niepoprawnych mapowań kliknij ikonę kosza, aby je usunąć.
+3. **Ponowne Wprowadzenie Poprawnych Mapowań:**
+   * Upewnij się, że poprawne mapowania są wprowadzane ręcznie podczas następnej transakcji lub poprzez edytowanie istniejących wpisów, jeśli system to wspiera.# Mapa Numerów Przedmiotów Dostawcy - Dokumentacja Administracyjna
+
+## **Przegląd**
+
+Jako administrator masz możliwość przeglądania i zarządzania mapowaniami między wewnętrznymi numerami przedmiotów a numerami przedmiotów dostawcy. Ta funkcja zapewnia, że niezgodności między Twoim systemem a systemami dostawców są obsługiwane efektywnie. Możesz przeglądać, edytować i usuwać niepoprawne mapowania, aby utrzymać dokładność danych.
+
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+
+**Dostęp do Mapy Numerów Przedmiotów Dostawcy**
+
+1. **Przejdź do Ustawień:**
+   * Przejdź do sekcji **Ustawienia** w swoim panelu administracyjnym.
+2. **Dostęp do Typów Dokumentów:**
+   * W sekcji **Ustawienia** wybierz **Typy Dokumentów**.
+3. **Więcej Ustawień:**
+   * Kliknij na **Więcej Ustawień**, aby uzyskać dostęp do dodatkowych opcji konfiguracyjnych.
+4. **Mapa Numerów Przedmiotów Dostawcy:**
+   * W sekcji **Więcej Ustawień** znajdziesz tabelę **Mapa Numerów Przedmiotów Dostawcy**. Tabela ta zawiera wszystkie aktualne mapowania między Twoimi wewnętrznymi numerami przedmiotów a odpowiadającymi im numerami przedmiotów dostawcy.
+
+## **Zarządzanie Mapowaniami Numerów Przedmiotów**
+
+1. **Przeglądanie Mapowań:**
+   * Tabela wyświetla następujące kolumny:
+     * **ID Dostawcy:** Unikalny identyfikator dostawcy.
+     * **Numer Przedmiotu:** Twój wewnętrzny numer przedmiotu dla produktu.
+     * **Numer Przedmiotu Dostawcy:** Odpowiadający numer przedmiotu używany przez dostawcę.
+     * **Akcja:** Opcje zarządzania mapowaniami.
+2. **Usuwanie Niepoprawnych Mapowań:**
+   * Jeśli zidentyfikujesz niepoprawne mapowanie, możesz je usunąć, klikając ikonę kosza (🗑) w kolumnie **Akcja**.
+   * Pojawi się okno potwierdzenia, aby upewnić się, że chcesz usunąć mapowanie.
+3. **Edycja Mapowań:**
+   * (Jeśli dotyczy) Możesz również mieć możliwość edytowania istniejących mapowań, aby skorygować wszelkie niezgodności. Może to obejmować kliknięcie na numer przedmiotu lub dostawcy, aby wprowadzić zmiany.
+
+## **Przykładowy Przepływ Pracy**
+
+1. **Identyfikacja Niezgodności:**
+   * Regularnie przeglądaj **Mapę Numerów Przedmiotów Dostawcy**, aby zidentyfikować wszelkie niezgodności lub niepoprawne mapowania.
+2. **Usuwanie Niepoprawnych Mapowań:**
+   * W przypadku jakichkolwiek niepoprawnych mapowań kliknij ikonę kosza, aby je usunąć.
+3. **Ponowne Wprowadzenie Poprawnych Mapowań:**
+   * Upewnij się, że poprawne mapowania są wprowadzane ręcznie podczas następnej transakcji lub poprzez edytowanie istniejących wpisów, jeśli system to wspiera.# Mapa Numerów Przedmiotów Dostawcy - Dokumentacja Administracyjna
+
+## **Przegląd**
+
+Jako administrator masz możliwość przeglądania i zarządzania mapowaniami między wewnętrznymi numerami przedmiotów a numerami przedmiotów dostawcy. Ta funkcja zapewnia, że niezgodności między Twoim systemem a systemami dostawców są obsługiwane efektywnie. Możesz przeglądać, edytować i usuwać niepoprawne mapowania, aby utrzymać dokładność danych.
+
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+
+**Dostęp do Mapy Numerów Przedmiotów Dostawcy**
+
+1. **Przejdź do Ustawień:**
+   * Przejdź do sekcji **Ustawienia** w swoim panelu administracyjnym.
+2. **Dostęp do Typów Dokumentów:**
+   * W sekcji **Ustawienia** wybierz **Typy Dokumentów**.
+3. **Więcej Ustawień:**
+   * Kliknij na **Więcej Ustawień**, aby uzyskać dostęp do dodatkowych opcji konfiguracyjnych.
+4. **Mapa Numerów Przedmiotów Dostawcy:**
+   * W sekcji **Więcej Ustawień** znajdziesz tabelę **Mapa Numerów Przedmiotów Dostawcy**. Tabela ta zawiera wszystkie aktualne mapowania między Twoimi wewnętrznymi numerami przedmiotów a odpowiadającymi im numerami przedmiotów dostawcy.
+
+## **Zarządzanie Mapowaniami Numerów Przedmiotów**
+
+1. **Przeglądanie Mapowań:**
+   * Tabela wyświetla następujące kolumny:
+     * **ID Dostawcy:** Unikalny identyfikator dostawcy.
+     * **Numer Przedmiotu:** Twój wewnętrzny numer przedmiotu dla produktu.
+     * **Numer Przedmiotu Dostawcy:** Odpowiadający numer przedmiotu używany przez dostawcę.
+     * **Akcja:** Opcje zarządzania mapowaniami.
+2. **Usuwanie Niepoprawnych Mapowań:**
+   * Jeśli zidentyfikujesz niepoprawne mapowanie, możesz je usunąć, klikając ikonę kosza (🗑) w kolumnie **Akcja**.
+   * Pojawi się okno potwierdzenia, aby upewnić się, że chcesz usunąć mapowanie.
+3. **Edycja Mapowań:**
+   * (Jeśli dotyczy) Możesz również mieć możliwość edytowania istniejących mapowań, aby skorygować wszelkie niezgodności. Może to obejmować kliknięcie na numer przedmiotu lub dostawcy, aby wprowadzić zmiany.
+
+## **Przykładowy Przepływ Pracy**
+
+1. **Identyfikacja Niezgodności:**
+   * Regularnie przeglądaj **Mapę Numerów Przedmiotów Dostawcy**, aby zidentyfikować wszelkie niezgodności lub niepoprawne mapowania.
+2. **Usuwanie Niepoprawnych Mapowań:**
+   * W przypadku jakichkolwiek niepoprawnych mapowań kliknij ikonę kosza, aby je usunąć.
+3. **Ponowne Wprowadzenie Poprawnych Mapowań:**
+   * Upewnij się, że poprawne mapowania są wprowadzane ręcznie podczas następnej transakcji lub poprzez edytowanie istniejących wpisów, jeśli system to wspiera.
