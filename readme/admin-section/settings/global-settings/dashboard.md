@@ -18,5 +18,3 @@ As configurações do Painel de Controle são projetadas para ajudar os administ
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.23.48.png" alt=""><figcaption></figcaption></figure>
 
 Essas configurações do painel de controle são cruciais para garantir que a plataforma Docbits seja o mais responsiva e útil possível, fornecendo aos usuários uma ferramenta poderosa para monitorar e gerenciar atividades de processamento de documentos diretamente do painel de controle.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2502" %}
