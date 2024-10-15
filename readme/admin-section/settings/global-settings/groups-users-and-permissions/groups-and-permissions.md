@@ -18,5 +18,3 @@
   - **Segunda Aprobación**: Permiso para realizar un segundo nivel de aprobación (si corresponde).
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.33.png" alt=""><figcaption></figcaption></figure>
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2486" %}
