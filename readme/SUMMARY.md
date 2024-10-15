@@ -282,6 +282,7 @@
         * [LN Configuration](admin-section/setup/exporting-in-docbits/exporting-to-infor/ln-configuration.md)
         * [M3 Configuration](admin-section/setup/exporting-in-docbits/exporting-to-infor/m3-configuration.md)
         * [Order Confirmation](admin-section/setup/exporting-in-docbits/exporting-to-infor/order-conformation.md)
+        * [Example Export LN](admin-section/setup/exporting-in-docbits/exporting-to-infor/example-export-ln.md)
     * [Document Training](admin-section/setup/document-training/README.md)
       * [Training Header Fields](admin-section/setup/document-training/training-header-fields.md)
       * [Training Line Fields/Table Training](admin-section/setup/document-training/training-line-fields-table-training/README.md)
