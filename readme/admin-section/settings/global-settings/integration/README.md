@@ -23,5 +23,3 @@ Vedi [Configurazione SSO](../../../setup/sso-configuration/)
 * **ID Tenant**: Potrebbe essere utilizzato quando Docbits si integra con servizi cloud che richiedono un identificatore del tenant per gestire dati e configurazioni di accesso specifici per l'azienda che utilizza Docbits.
 * **Carica file**: Consente all'amministratore di caricare file di configurazione o altri file necessari che facilitano l'integrazione con un fornitore di identità.
 * **Configura**: Un pulsante per applicare o aggiornare le impostazioni dopo aver apportato modifiche o caricato nuove configurazioni.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2488" %}
