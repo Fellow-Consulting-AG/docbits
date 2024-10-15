@@ -1,6 +1,6 @@
-# Weitere Einstellungen
+# More Settings
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.54.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2009.54.48.png" alt=""><figcaption></figcaption></figure>
 
 #### Übersicht
 
