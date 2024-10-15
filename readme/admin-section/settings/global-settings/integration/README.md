@@ -23,5 +23,3 @@ Zobacz [Konfiguracja SSO](../../../setup/sso-configuration/)
 * **ID najemcy**: Może być używane, gdy DocBits integruje się z usługami chmurowymi, które wymagają identyfikatora najemcy do zarządzania danymi i konfiguracjami dostępu specyficznymi dla firmy korzystającej z DocBits.
 * **Prześlij plik**: Pozwala administratorowi przesłać pliki konfiguracyjne lub inne niezbędne pliki ułatwiające integrację z dostawcą tożsamości.
 * **Skonfiguruj**: Przycisk do zastosowania lub aktualizacji ustawień po dokonaniu zmian lub przesłaniu nowych konfiguracji.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2488" %}
