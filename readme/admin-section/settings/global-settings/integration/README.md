@@ -23,5 +23,3 @@ Ver [Configuración de SSO](../../../setup/sso-configuration/)
 * **ID de Inquilino**: Esto puede ser utilizado cuando Docbits se integra con servicios en la nube que requieren un identificador de inquilino para gestionar datos y configuraciones de acceso específicas de la empresa que utiliza Docbits.
 * **Subir archivo**: Permite al administrador subir archivos de configuración u otros archivos necesarios que faciliten la integración con un proveedor de identidad.
 * **Configurar**: Un botón para aplicar o actualizar la configuración después de realizar cambios o subir nuevas configuraciones.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2488" %}
