@@ -1,13 +1,32 @@
-# Utilizadores
+# Usuários
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+As Configurações do Usuário são uma área em um sistema onde os usuários podem ajustar preferências pessoais, configurações de conta e configurações de segurança. Normalmente, as configurações do usuário incluem opções como alterações de senha, informações de perfil, preferências de notificação e, possivelmente, permissões individuais para acessar certos recursos ou dados.
 
-1. **Barra de Pesquisa**: Permite aos administradores encontrar rapidamente utilizadores pesquisando pelos seus nomes ou outros detalhes.
-2. **Lista de Utilizadores**: Mostra uma lista de utilizadores com as seguintes colunas:
-* **Nome**: O nome completo do utilizador.
-* **Email**: O endereço de email do utilizador, que provavelmente é usado como identificador de login.
-* **Admin**: Uma caixa de seleção que indica se o utilizador tem privilégios administrativos. Os administradores normalmente têm acesso a todas as definições e podem gerir outras contas de utilizador.
-* **Ações**: Esta coluna normalmente inclui botões ou links para realizar ações como editar detalhes do utilizador, redefinir senhas ou eliminar a conta do utilizador.
-3. **Botão Adicionar Utilizador**: Este botão é utilizado para criar novas contas de utilizador. Ao clicar nele, normalmente seria apresentado um formulário onde pode introduzir os detalhes do novo utilizador, como o nome, email e se devem ter direitos de administração.
+Na maioria das organizações, apenas pessoas autorizadas têm acesso às configurações do usuário, geralmente administradores ou administradores de sistema. Isso ocorre porque as configurações podem conter informações sensíveis que poderiam comprometer a segurança do sistema se alteradas por pessoas não autorizadas. Os administradores conseguem gerenciar as configurações do usuário para garantir que estejam em conformidade com as políticas e requisitos organizacionais e que a integridade do sistema seja mantida.
 
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2487" %}
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+
+1. **Barra de Pesquisa**: Permite que os administradores encontrem rapidamente usuários pesquisando por seus nomes ou outros detalhes.
+2. **Lista de Usuários**: Exibe uma lista de usuários com as seguintes colunas:
+   * **Nome**: O nome completo do usuário.
+   * **Email**: O endereço de email do usuário, que provavelmente é usado como seu identificador de login.
+   * **Admin**: Uma caixa de seleção indicando se o usuário possui privilégios administrativos. Os administradores geralmente têm acesso a todas as configurações e podem gerenciar outras contas de usuário.
+   * **Ações**: Esta coluna geralmente inclui botões ou links para realizar ações como editar detalhes do usuário, redefinir senhas ou excluir a conta do usuário.
+3. **Botão Adicionar Usuário**: Este botão é usado para criar novas contas de usuário. Clicar nele normalmente abriria um formulário onde você pode inserir os detalhes do novo usuário, como seu nome, email e se ele deve ter direitos de administrador.
+
+## Instruções passo a passo para adicionar um novo usuário:
+
+* **Acessar Gerenciamento de Usuários:** Navegue até Configurações - Configurações Globais - Grupos, Usuário e Permissões - Usuário, onde você pode adicionar novos usuários.&#x20;
+* **Adicionar novo usuário:** Nas configurações do usuário, clique em “Adicionar usuário”
+
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
+
+* **Preenchendo o formulário:** Um formulário aparecerá onde você pode inserir as informações do novo usuário. As informações típicas incluem:
+
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
+
+* **Nome de Usuário:** Nome único para o usuário usado para fazer login.&#x20;
+* **Nome e Sobrenome:** Nome do usuário.&#x20;
+* **Endereço de Email:** O endereço de email do usuário usado para comunicações e notificações.&#x20;
+* **Senha**: Uma senha para o usuário que deve estar em conformidade com as políticas de segurança.&#x20;
+* **Papel do Usuário:** Defina o papel do usuário, por exemplo, usuário padrão ou administrador.&#x20;
