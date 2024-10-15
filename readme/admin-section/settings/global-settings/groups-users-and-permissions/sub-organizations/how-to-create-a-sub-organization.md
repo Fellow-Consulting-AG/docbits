@@ -1,6 +1,6 @@
-# How to create a Sub-Organization
+# Come creare una Sotto-Organizzazione
 
-## Create a new Sub-Organisaztion:
+## Crea una nuova Sotto-Organizzazione:
 
 <div data-full-width="false">
 
@@ -8,49 +8,49 @@
 
 </div>
 
-Click on the `+ NEW` button
+Clicca sul pulsante `+ NUOVO`
 
 <figure><img src="../../../../../.gitbook/assets/image (60).png" alt="" width="97"><figcaption></figcaption></figure>
 
-The following menu will be displayed:
+Verrà visualizzato il seguente menu:
 
 <figure><img src="../../../../../.gitbook/assets/image (61).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Enter the details of the sub-organization you want to create, the name and description, then click on the `SAVE` button. You should then find your newly created sub-organization at the bottom of the list of existing sub-organizations.
+Inserisci i dettagli della sotto-organizzazione che desideri creare, il nome e la descrizione, quindi clicca sul pulsante `SALVA`. Dovresti quindi trovare la tua nuova sotto-organizzazione in fondo all'elenco delle sotto-organizzazioni esistenti.
 
 
 
-## Editing sub organizations
+## Modifica delle sotto-organizzazioni
 
 <figure><img src="../../../../../.gitbook/assets/image (62).png" alt="" width="161"><figcaption></figcaption></figure>
 
-**Manage Users:**
+**Gestisci Utenti:**
 
 <figure><img src="../../../../../.gitbook/assets/image (63).png" alt="" width="375"><figcaption></figcaption></figure>
 
-* **Adding Users:** Administrators can create new user accounts and assign them to the appropriate sub-organization.&#x20;
-* **Assigning Roles and Permissions:** Administrators can set the roles and permissions for users within a suborganization. This typically involves assigning access rights to specific documents, folders or functions in the document management system.
-* **Manage profile details:** Administrators can edit profile details of users within the sub-organization, such as: B. Contact information or department affiliation. This allows for updated and accurate management of user data.
+* **Aggiunta Utenti:** Gli amministratori possono creare nuovi account utente e assegnarli alla sotto-organizzazione appropriata.&#x20;
+* **Assegnazione Ruoli e Permessi:** Gli amministratori possono impostare i ruoli e i permessi per gli utenti all'interno di una sotto-organizzazione. Questo comporta tipicamente l'assegnazione dei diritti di accesso a documenti, cartelle o funzioni specifiche nel sistema di gestione dei documenti.
+* **Gestisci dettagli del profilo:** Gli amministratori possono modificare i dettagli del profilo degli utenti all'interno della sotto-organizzazione, come ad esempio: informazioni di contatto o affiliazione al dipartimento. Questo consente una gestione aggiornata e accurata dei dati degli utenti.
 
 <figure><img src="../../../../../.gitbook/assets/image (64).png" alt="" width="375"><figcaption></figcaption></figure>
 
-You can add a new user to the organization and have the option of whether to remove the user from other groups.
+Puoi aggiungere un nuovo utente all'organizzazione e avere l'opzione di rimuovere l'utente da altri gruppi.
 
 
 
-**Edit User:**
+**Modifica Utente:**
 
 <figure><img src="../../../../../.gitbook/assets/image (65).png" alt="" width="375"><figcaption></figcaption></figure>
 
-* **Editing suborganization settings:** Administrators can edit the settings and properties of a suborganization, including its name, description, or hierarchy level within the system.
-* **Edit user details:** Administrators can edit the details of individual users within a sub-organization, for example to adjust their access rights or update their contact information.
+* **Modifica impostazioni della sotto-organizzazione:** Gli amministratori possono modificare le impostazioni e le proprietà di una sotto-organizzazione, inclusi il nome, la descrizione o il livello gerarchico all'interno del sistema.
+* **Modifica dettagli utente:** Gli amministratori possono modificare i dettagli di singoli utenti all'interno di una sotto-organizzazione, ad esempio per regolare i loro diritti di accesso o aggiornare le loro informazioni di contatto.
 
 
 
-**Delete User:**
+**Elimina Utente:**
 
-* **Deleting sub-organizations:** Administrators may also have the ability to delete sub-organizations if they are no longer needed or if a restructuring of the organizational structure is required. When deleting a suborganization, administrators must ensure that all users and data associated with it are handled properly.
+* **Eliminazione delle sotto-organizzazioni:** Gli amministratori possono anche avere la possibilità di eliminare sotto-organizzazioni se non sono più necessarie o se è necessaria una ristrutturazione della struttura organizzativa. Quando si elimina una sotto-organizzazione, gli amministratori devono assicurarsi che tutti gli utenti e i dati associati siano gestiti correttamente.
 
 
 
-These management features enable administrators to effectively manage and adapt the user accounts and organizational structures within a document management system to meet the company's changing needs and processes.
+Queste funzionalità di gestione consentono agli amministratori di gestire e adattare efficacemente gli account utente e le strutture organizzative all'interno di un sistema di gestione dei documenti per soddisfare le esigenze e i processi in evoluzione dell'azienda.
