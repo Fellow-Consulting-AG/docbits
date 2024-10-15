@@ -23,5 +23,3 @@ Veja [Configuração do SSO](../../../setup/sso-configuration/)
 * **ID do Locatário**: Isso pode ser usado quando o Docbits se integra com serviços em nuvem que requerem um identificador de locatário para gerenciar dados e configurações de acesso específicas da empresa que usa o Docbits.
 * **Enviar arquivo**: Permite ao administrador enviar arquivos de configuração ou outros arquivos necessários que facilitam a integração com um provedor de identidade.
 * **Configurar**: Um botão para aplicar ou atualizar as configurações após fazer alterações ou enviar novas configurações.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2488" %}
