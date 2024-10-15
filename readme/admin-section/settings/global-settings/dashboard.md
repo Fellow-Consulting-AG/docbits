@@ -18,5 +18,3 @@ Le impostazioni del cruscotto sono progettate per aiutare gli amministratori a c
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.23.48.png" alt=""><figcaption></figcaption></figure>
 
 Queste impostazioni del cruscotto sono cruciali per garantire che la piattaforma Docbits sia reattiva e utile quanto possibile, fornendo agli utenti uno strumento potente per monitorare e gestire le attività di elaborazione dei documenti direttamente dal cruscotto.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2502" %}
