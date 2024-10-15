@@ -18,5 +18,3 @@ La configuración del panel de control está diseñada para ayudar a los adminis
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.23.48.png" alt=""><figcaption></figcaption></figure>
 
 Estas configuraciones del panel de control son cruciales para garantizar que la plataforma Docbits sea lo más receptiva y útil posible, proporcionando a los usuarios una herramienta poderosa para monitorear y gestionar actividades de procesamiento de documentos directamente desde el panel de control.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2502" %}
