@@ -23,5 +23,3 @@ Voir [Configuration SSO](../../../setup/sso-configuration/)
 * **ID du locataire**: Cela peut être utilisé lorsque Docbits s'intègre avec des services cloud qui nécessitent un identifiant de locataire pour gérer les données et les configurations d'accès spécifiques à l'entreprise utilisant Docbits.
 * **Téléverser un fichier**: Permet à l'administrateur de téléverser des fichiers de configuration ou d'autres fichiers nécessaires facilitant l'intégration avec un fournisseur d'identité.
 * **Configurer**: Un bouton pour appliquer ou mettre à jour les paramètres après avoir apporté des modifications ou téléchargé de nouvelles configurations.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2488" %}
