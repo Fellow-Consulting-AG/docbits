@@ -1,13 +1,32 @@
 # Użytkownicy
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+Ustawienia użytkownika to obszar w systemie, w którym użytkownicy mogą dostosować osobiste preferencje, ustawienia konta i ustawienia zabezpieczeń. Zazwyczaj ustawienia użytkownika obejmują opcje takie jak zmiana hasła, informacje o profilu, preferencje powiadomień oraz ewentualnie indywidualne uprawnienia do dostępu do określonych funkcji lub danych.
 
-1. **Pasek wyszukiwania**: Umożliwia administratorom szybkie znalezienie użytkowników poprzez wyszukiwanie ich nazw lub innych szczegółów.
+W większości organizacji tylko upoważnione osoby mają dostęp do ustawień użytkownika, zazwyczaj są to administratorzy lub administratorzy systemu. Dzieje się tak, ponieważ ustawienia mogą zawierać wrażliwe informacje, które mogłyby zagrozić bezpieczeństwu systemu, jeśli zostałyby zmienione przez osoby nieupoważnione. Administratorzy mogą zarządzać ustawieniami użytkowników, aby zapewnić ich zgodność z politykami i wymaganiami organizacyjnymi oraz aby zachować integralność systemu.
+
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+
+1. **Pasek wyszukiwania**: Umożliwia administratorom szybkie znajdowanie użytkowników poprzez wyszukiwanie ich imion lub innych szczegółów.
 2. **Lista użytkowników**: Wyświetla listę użytkowników z następującymi kolumnami:
-* **Nazwa**: Pełna nazwa użytkownika.
-* **E-mail**: Adres e-mail użytkownika, który prawdopodobnie jest używany jako identyfikator logowania.
-* **Admin**: Pole wyboru wskazujące, czy użytkownik ma uprawnienia administracyjne. Administratorzy zazwyczaj mają dostęp do wszystkich ustawień i mogą zarządzać innymi kontami użytkowników.
-* **Działania**: Ta kolumna zazwyczaj zawiera przyciski lub linki do wykonywania działań, takich jak edycja szczegółów użytkownika, resetowanie haseł lub usuwanie konta użytkownika.
-3. **Przycisk Dodaj użytkownika**: Ten przycisk służy do tworzenia nowych kont użytkowników. Kliknięcie na niego zazwyczaj spowoduje pojawienie się formularza, w którym można wprowadzić szczegóły nowego użytkownika, takie jak jego nazwa, e-mail i czy powinien mieć prawa admina.
+   * **Imię i nazwisko**: Pełne imię i nazwisko użytkownika.
+   * **Email**: Adres email użytkownika, który prawdopodobnie jest używany jako identyfikator logowania.
+   * **Administrator**: Pole wyboru wskazujące, czy użytkownik ma uprawnienia administracyjne. Administratorzy zazwyczaj mają dostęp do wszystkich ustawień i mogą zarządzać innymi kontami użytkowników.
+   * **Akcje**: Ta kolumna zazwyczaj zawiera przyciski lub linki do wykonywania działań, takich jak edytowanie szczegółów użytkownika, resetowanie haseł lub usuwanie konta użytkownika.
+3. **Przycisk Dodaj użytkownika**: Ten przycisk służy do tworzenia nowych kont użytkowników. Kliknięcie go zazwyczaj otworzy formularz, w którym można wprowadzić dane nowego użytkownika, takie jak imię, email i czy powinien mieć prawa administratora.
 
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2487" %}
+## Instrukcje krok po kroku, jak dodać nowego użytkownika:
+
+* **Dostęp do zarządzania użytkownikami:** Przejdź do Ustawienia - Ustawienia globalne - Grupy, Użytkownik i Uprawnienia - Użytkownik, gdzie możesz dodać nowych użytkowników.&#x20;
+* **Dodaj nowego użytkownika:** W ustawieniach użytkownika kliknij „Dodaj użytkownika”
+
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
+
+* **Wypełnianie formularza:** Pojawi się formularz, w którym możesz wprowadzić informacje dla nowego użytkownika. Typowe informacje obejmują:
+
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
+
+* **Nazwa użytkownika:** Unikalna nazwa dla użytkownika używana do logowania.&#x20;
+* **Imię i nazwisko:** Imię użytkownika.&#x20;
+* **Adres email:** Adres email użytkownika używany do komunikacji i powiadomień.&#x20;
+* **Hasło**: Hasło dla użytkownika, które powinno być zgodne z politykami bezpieczeństwa.&#x20;
+* **Rola użytkownika:** Ustaw rolę użytkownika, np. użytkownik standardowy lub administrator.&#x20;
