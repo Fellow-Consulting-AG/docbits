@@ -18,5 +18,3 @@ Les paramètres du tableau de bord sont conçus pour aider les administrateurs �
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.23.48.png" alt=""><figcaption></figcaption></figure>
 
 Ces paramètres de tableau de bord sont cruciaux pour garantir que la plateforme Docbits est aussi réactive et utile que possible, offrant aux utilisateurs un outil puissant pour surveiller et gérer les activités de traitement de documents directement depuis le tableau de bord.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2502" %}
