@@ -1,12 +1,14 @@
+# Modifica dei Modelli di Email
+
 ### Panoramica
 
 La funzionalità dei Modelli di Email consente agli amministratori di creare e personalizzare comunicazioni email che vengono inviate automaticamente ai fornitori. Uno degli elementi chiave utilizzati in questi modelli è il `{{magic_link}}`, che fornisce un link dinamico personalizzato per ciascun destinatario.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.33.35.png" alt="Supplier Portal - Email Template"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.33.35.png" alt="Portale Fornitori - Modello Email"><figcaption></figcaption></figure>
 
 #### Cos'è `{{magic_link}}`?
 
-Il `{{magic_link}}` è un segnaposto che viene sostituito dinamicamente con un URL unico quando l'email viene inviata. Questo URL di solito indirizza il destinatario a completare un'azione, come la registrazione, l'approvazione o l'accesso a una parte specifica del portale fornitori.
+Il `{{magic_link}}` è un segnaposto che viene sostituito dinamicamente con un URL unico quando l'email viene inviata. Questo URL di solito indirizza il destinatario a completare un'azione, come registrazione, approvazione o accesso a una parte specifica del portale fornitori.
 
 ### Modifica dei Modelli di Email
 
@@ -17,14 +19,14 @@ Il `{{magic_link}}` è un segnaposto che viene sostituito dinamicamente con un U
 1. **Naviga ai Modelli di Email**:
    * Vai alla sezione **Modelli di Email** dal menu principale.
 2. **Seleziona un Modello da Modificare**:
-   * Scegli il modello di email che desideri modificare facendo clic sul nome del modello (ad es., "Email di Invito ai Fornitori").
+   * Scegli il modello di email che desideri modificare facendo clic sul nome del modello (ad es., "Email di Invito al Fornitore").
 3. **Modifica il Modello**:
    * L'editor ti consente di modificare sia il codice HTML che il design visivo dell'email.
    * Puoi passare tra la modifica visiva e la modifica del codice utilizzando le schede fornite.
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.36.41.png" alt=""><figcaption></figcaption></figure>
 
-#### Definire `{{magic_link}}` come un Link
+#### Definire `{{magic_link}}` come Link
 
 Per definire `{{magic_link}}` come un link cliccabile nell'email, devi assicurarti che sia formattato correttamente nel codice HTML del modello. Segui questi passaggi:
 
@@ -65,7 +67,7 @@ Per definire `{{magic_link}}` come un link cliccabile nell'email, devi assicurar
 
 • Posizionamento del Link: Posiziona il \{{magic\_link\}} in modo prominente nell'email per garantire che sia facilmente accessibile ai destinatari.
 
-• Chiamata all'Azione Chiara: Il testo all'interno del link dovrebbe essere una chiara chiamata all'azione, come “Completa la Registrazione” o “Conferma la Tua Email”.
+• Chiamata all'Azione Chiara: Il testo all'interno del link dovrebbe essere una chiara chiamata all'azione, come “Completa la Registrazione” o “Conferma la Tua Email.”
 
 • Stile: Assicurati che il link sia stilizzato in modo coerente con il resto del modello di email e si distingua visivamente.
 
@@ -77,4 +79,4 @@ Definendo correttamente il \{{magic\_link\}} nei tuoi modelli di email, puoi gar
 
 \
 
-Questa documentazione fornisce istruzioni passo-passo per gli amministratori su come definire e utilizzare il \{{magic\_link\}} nei modelli di email, garantendo che le email siano sia funzionali che visivamente attraenti.
+Questa documentazione fornisce istruzioni passo-passo per gli amministratori su come definire e utilizzare il \{{magic\_link\}} nei modelli di email, assicurando che le email siano sia funzionali che visivamente attraenti.
