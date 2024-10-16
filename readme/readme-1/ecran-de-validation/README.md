@@ -1,0 +1,2 @@
+# Écran de validation
+
