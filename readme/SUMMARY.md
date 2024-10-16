@@ -173,5 +173,6 @@
       * [Auto Accounting](setup/testing/auto-accounting/README.md)
         * [LN](setup/testing/auto-accounting/ln.md)
         * [M3](setup/testing/auto-accounting/m3.md)
+    * [Portale Fornitori](admin-section/setup/portale-fornitori.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
