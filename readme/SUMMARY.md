@@ -71,6 +71,7 @@
     * [Supplier Setting](admin-section/settings/supplier-setting/README.md)
       * [Edição de Modelos de Email](admin-section/settings/supplier-setting/edicao-de-modelos-de-email.md)
       * [Exportação de Configuração para o Portal do Fornecedor](admin-section/settings/supplier-setting/exportacao-de-configuracao-para-o-portal-do-fornecedor.md)
+    * [Licenças da API](admin-section/settings/licencas-da-api.md)
   * [Workflow](overview/workflow/README.md)
     * [Then](overview/workflow/then.md)
     * [And](overview/workflow/and/README.md)
