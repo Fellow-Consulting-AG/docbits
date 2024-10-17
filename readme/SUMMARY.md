@@ -71,6 +71,7 @@
         * [Users](overview/settings/global-settings/groups-users-and-permissions/users.md)
       * [Integration](overview/settings/global-settings/integration/README.md)
         * [API Calls and Examples](overview/settings/global-settings/integration/api-calls-and-examples.md)
+      * [Tableau de bord](admin-section/settings/global-settings/tableau-de-bord.md)
     * [Gestion du Cache](admin-section/settings/gestion-du-cache.md)
     * [Supplier Settings](admin-section/settings/supplier-settings/README.md)
       * [Modification des Modèles d'Email](admin-section/settings/supplier-settings/modification-des-modeles-demail.md)
