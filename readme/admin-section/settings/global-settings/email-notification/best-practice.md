@@ -1,6 +1,6 @@
 # Best Practice
 
-## Ecco alcune best practice per utilizzare efficacemente le notifiche email:
+### Ecco alcune best practice per utilizzare efficacemente le notifiche email:
 
 * **Design chiaro e informativo:** Assicurati che i tuoi messaggi di notifica siano chiari e informativi. Usa un linguaggio conciso per comunicare l'essenza della notifica e fornisci istruzioni chiare o inviti all'azione quando necessario.
 * **Evitare il sovraccarico di notifiche:** Scegli con attenzione le condizioni di attivazione per le tue notifiche per evitare di sovraccaricare gli utenti con notifiche non necessarie. Assicurati che le notifiche vengano attivate solo per eventi rilevanti e che forniscano un reale valore ai destinatari.
