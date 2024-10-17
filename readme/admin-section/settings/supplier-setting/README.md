@@ -1,2 +1,0 @@
-# Supplier Setting
-
