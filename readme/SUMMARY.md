@@ -59,7 +59,7 @@
         * [Groups and Permissions](overview/settings/global-settings/groups-users-and-permissions/groups-and-permissions.md)
         * [Sub-Organizations](overview/settings/global-settings/groups-users-and-permissions/sub-organizations.md)
         * [Users](overview/settings/global-settings/groups-users-and-permissions/users.md)
-      * [Integration](overview/settings/global-settings/integration/README.md)
+      * [Integracja](overview/settings/global-settings/integration/README.md)
         * [API Calls and Examples](overview/settings/global-settings/integration/api-calls-and-examples.md)
       * [Panel sterowania](admin-section/settings/global-settings/panel-sterowania.md)
     * [Document Processing](admin-section/settings/document-processing/README.md)
