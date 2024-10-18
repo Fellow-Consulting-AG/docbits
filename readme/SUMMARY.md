@@ -66,6 +66,7 @@
     * [Document Processing](admin-section/settings/document-processing/README.md)
       * [Documents Expiry](admin-section/settings/document-processing/documents-expiry.md)
       * [Import](admin-section/settings/document-processing/import.md)
+      * [Gerenciador de Regras](admin-section/settings/document-processing/gerenciador-de-regras.md)
       * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
       * [Classification And Extraction](admin-section/settings/document-processing/classification-and-extraction.md)
       * [Master Data Lookup](admin-section/settings/document-processing/master-data-lookup.md)
