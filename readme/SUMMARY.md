@@ -43,7 +43,7 @@
     * [Tableau AI](readme-1/course/ai-table.md)
     * [Appariement principal des bons de commande avec DocBits](readme-1/course/master-po-matching-with-docbits.md)
 * [Admin Section](admin-section/README.md)
-  * [Settings](overview/settings/README.md)
+  * [Paramètres](overview/settings/README.md)
     * [Global Settings](overview/settings/global-settings/README.md)
       * [Informations sur l'entreprise](admin-section/settings/global-settings/company-information/README.md)
         * [Définir la couleur de l'application dans les paramètres de l'entreprise](admin-section/settings/global-settings/company-information/definir-la-couleur-de-lapplication-dans-les-parametres-de-lentreprise.md)
