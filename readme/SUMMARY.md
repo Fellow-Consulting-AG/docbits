@@ -62,6 +62,7 @@
         * [Users](overview/settings/global-settings/groups-users-and-permissions/users.md)
       * [Integration](overview/settings/global-settings/integration/README.md)
         * [API Calls and Examples](overview/settings/global-settings/integration/api-calls-and-examples.md)
+      * [Painel de Controle](admin-section/settings/global-settings/painel-de-controle.md)
     * [Document Processing](admin-section/settings/document-processing/README.md)
       * [Documents Expiry](admin-section/settings/document-processing/documents-expiry.md)
       * [Import](admin-section/settings/document-processing/import.md)
