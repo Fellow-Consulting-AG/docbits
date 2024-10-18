@@ -1,4 +1,4 @@
-# Exportar Configuración para el Portal de Proveedores
+# Export Configuration for Supplier Portal
 
 ### Descripción General
 
