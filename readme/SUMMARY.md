@@ -30,7 +30,7 @@
     * [Create a ticket](overview/technical-support-in-docbits/create-a-ticket.md)
     * [Help Icons](overview/technical-support-in-docbits/help-icons.md)
 * [Admin Section](admin-section/README.md)
-  * [Settings](overview/settings/README.md)
+  * [Ustawienia](overview/settings/README.md)
     * [Global Settings](overview/settings/global-settings/README.md)
       * [Company Information](overview/settings/global-settings/company-information.md)
       * [Custom Filters](overview/settings/global-settings/custom-filters.md)
