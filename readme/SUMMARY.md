@@ -80,7 +80,7 @@
           * [Privilegios de Administrador](admin-section/settings/global-settings/groups-users-and-permissions/users/privilegios-de-administrador.md)
         * [Suborganizaciones](admin-section/settings/global-settings/groups-users-and-permissions/sub-organizations/README.md)
           * [Cómo crear una Suborganización](admin-section/settings/global-settings/groups-users-and-permissions/sub-organizations/como-crear-una-suborganizacion.md)
-      * [Integration](overview/settings/global-settings/integration/README.md)
+      * [Integración](overview/settings/global-settings/integration/README.md)
         * [API Calls and Examples](overview/settings/global-settings/integration/api-calls-and-examples.md)
       * [Panel](admin-section/settings/global-settings/panel.md)
     * [Document Processing](admin-section/settings/document-processing/README.md)
