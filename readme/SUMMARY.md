@@ -87,7 +87,7 @@
       * [Gerenciamento de Tarefas](admin-section/settings/log-settings/gerenciamento-de-tarefas.md)
       * [Sincronização de Dados](admin-section/settings/log-settings/sincronizacao-de-dados.md)
     * [Árvores de Decisão](admin-section/settings/arvores-de-decisao.md)
-  * [Workflow](overview/workflow/README.md)
+  * [Fluxo de Trabalho](overview/workflow/README.md)
     * [Then](overview/workflow/then.md)
     * [And](overview/workflow/and/README.md)
       * [Assigned User Condition](overview/workflow/and/assigned-user-condition.md)
