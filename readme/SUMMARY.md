@@ -87,6 +87,7 @@
         * [Swiss QR Code](admin-section/settings/document-processing/module/swiss-qr-code.md)
     * [Zarządzanie pamięcią podręczną](admin-section/settings/zarzadzanie-pamiecia-podreczna.md)
     * [Ustawienia Dostawcy](admin-section/settings/ustawienia-dostawcy/README.md)
+      * [Ustawienia ogólne dostawcy](admin-section/settings/ustawienia-dostawcy/ustawienia-ogolne-dostawcy.md)
       * [Edytowanie szablonów e-maili](admin-section/settings/supplier-setting/edytowanie-szablonow-e-maili.md)
       * [Eksport konfiguracji dla Portalu Dostawcy](admin-section/settings/supplier-setting/eksport-konfiguracji-dla-portalu-dostawcy.md)
     * [Licencje API](admin-section/settings/licencje-api.md)
