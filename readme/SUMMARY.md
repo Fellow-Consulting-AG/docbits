@@ -109,7 +109,7 @@
       * [Configuración General del Proveedor](admin-section/settings/supplier-setting/configuracion-general-del-proveedor.md)
       * [Edición de Plantillas de Correo Electrónico](admin-section/settings/supplier-setting/edicion-de-plantillas-de-correo-electronico.md)
       * [Exportar Configuración para el Portal de Proveedores](admin-section/settings/supplier-setting/exportar-configuracion-para-el-portal-de-proveedores.md)
-  * [Workflow](overview/workflow/README.md)
+  * [Flujo de trabajo](overview/workflow/README.md)
     * [Then](overview/workflow/then.md)
     * [And](overview/workflow/and/README.md)
       * [Assigned User Condition](overview/workflow/and/assigned-user-condition.md)

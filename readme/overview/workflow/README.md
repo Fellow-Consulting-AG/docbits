@@ -1,40 +1,42 @@
 ---
-description: DocBits Workflow Engine
+description: >-
+  ## Motor de flujo de trabajo de DocBits: Simplificando la Automatización de
+  Procesos
 ---
 
-# Workflow
+# Flujo de trabajo
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.42.57.png" alt=""><figcaption></figcaption></figure>
 
-## DocBits Workflow Engine: Simplifying Process Automation
+### Motor de flujo de trabajo de DocBits: Simplificando la Automatización de Procesos
 
-### Introduction
+#### Introducción
 
-In the realm of process automation, the DocBits Workflow Engine stands out for its straightforward and intuitive approach. This engine streamlines the creation and management of workflows through a clear and simple rule-based structure. The core principle behind its design is the "Easy When-And-Then" rule, which breaks down the automation process into three fundamental components: Trigger, Condition, and Action. This guide explains how each component functions within the system and how they work together to facilitate seamless automation.
+En el ámbito de la automatización de procesos, el Motor de Flujo de Trabajo de DocBits se destaca por su enfoque sencillo e intuitivo. Este motor agiliza la creación y gestión de flujos de trabajo a través de una estructura clara y simple basada en reglas. El principio fundamental detrás de su diseño es la regla "Fácil Cuando-Y-Entonces", que descompone el proceso de automatización en tres componentes fundamentales: Disparador, Condición y Acción. Esta guía explica cómo funciona cada componente dentro del sistema y cómo trabajan juntos para facilitar una automatización fluida.
 
-### The "Easy When-And-Then" Rule Explained
+#### La Regla "Fácil Cuando-Y-Entonces" Explicada
 
-The DocBits Workflow Engine operates on a basic yet powerful principle that makes workflow automation accessible to users of all skill levels. This principle is encapsulated in the "Easy When-And-Then" rule, which can be broken down as follows:
+El Motor de Flujo de Trabajo de DocBits opera en un principio básico pero poderoso que hace que la automatización de flujos de trabajo sea accesible para usuarios de todos los niveles de habilidad. Este principio está encapsulado en la regla "Fácil Cuando-Y-Entonces", que se puede desglosar de la siguiente manera:
 
-#### When (Trigger)
+**Cuando (Disparador)**
 
-* **Definition**: The "When" component represents the _Trigger_ of the workflow. This is the event or condition that initiates the execution of the workflow. Triggers can be a variety of occurrences such as the arrival of a new email, a specific date and time, or the creation of a new document.
-* **Example**: "When a new customer form is submitted..."
+* **Definición**: El componente "Cuando" representa el _Disparador_ del flujo de trabajo. Este es el evento o condición que inicia la ejecución del flujo de trabajo. Los disparadores pueden ser una variedad de eventos como la llegada de un nuevo correo electrónico, una fecha y hora específicas o la creación de un nuevo documento.
+* **Ejemplo**: "Cuando se envía un nuevo formulario de cliente..."
 
-#### And (Condition)
+**Y (Condición)**
 
-* **Definition**: The "And" component introduces the _Condition_ that must be met for the action to proceed. Conditions serve as filters or criteria that refine the trigger, ensuring that the workflow is executed only under certain circumstances.
-* **Example**: "...and the customer is from the 'Enterprise' segment..."
+* **Definición**: El componente "Y" introduce la _Condición_ que debe cumplirse para que la acción proceda. Las condiciones sirven como filtros o criterios que refinan el disparador, asegurando que el flujo de trabajo se ejecute solo bajo ciertas circunstancias.
+* **Ejemplo**: "...y el cliente es del segmento 'Enterprise'..."
 
-#### Then (Action)
+**Entonces (Acción)**
 
-* **Definition**: Finally, the "Then" part specifies the _Action_ to be taken once the trigger occurs and the condition is satisfied. Actions are the tasks or operations executed by the workflow, such as sending an email, updating a database, or creating a task in a project management tool.
-* **Example**: "...then assign the lead to the enterprise sales team and send a welcome email."
+* **Definición**: Finalmente, la parte "Entonces" especifica la _Acción_ que se tomará una vez que ocurra el disparador y se cumpla la condición. Las acciones son las tareas u operaciones ejecutadas por el flujo de trabajo, como enviar un correo electrónico, actualizar una base de datos o crear una tarea en una herramienta de gestión de proyectos.
+* **Ejemplo**: "...entonces asignar el cliente potencial al equipo de ventas empresariales y enviar un correo electrónico de bienvenida."
 
-### Combining Components for Powerful Automations
+#### Combinando Componentes para Automatizaciones Potentes
 
-By assembling these three components—Trigger, Condition, and Action—the DocBits Workflow Engine allows users to create highly customized and efficient workflows. This modular approach not only simplifies the process of setting up automations but also offers the flexibility to create complex workflows capable of handling a wide range of tasks and processes.
+Al ensamblar estos tres componentes: Disparador, Condición y Acción, el Motor de Flujo de Trabajo de DocBits permite a los usuarios crear flujos de trabajo altamente personalizados y eficientes. Este enfoque modular no solo simplifica el proceso de configurar automatizaciones, sino que también ofrece la flexibilidad para crear flujos de trabajo complejos capaces de manejar una amplia gama de tareas y procesos.
 
-### Conclusion
+#### Conclusión
 
-The DocBits Workflow Engine's "Easy When-And-Then" rule exemplifies the engine's commitment to providing a user-friendly platform for automating processes. This straightforward rule, by breaking down automation into the essential elements of Trigger, Condition, and Action, makes it easier for users to conceptualize, create, and manage workflows. Whether you are new to workflow automation or an experienced professional, the DocBits Workflow Engine offers an efficient and accessible tool to enhance productivity and streamline operations.
+La regla "Fácil Cuando-Y-Entonces" del Motor de Flujo de Trabajo de DocBits ejemplifica el compromiso del motor de proporcionar una plataforma fácil de usar para automatizar procesos. Esta regla sencilla, al desglosar la automatización en los elementos esenciales de Disparador, Condición y Acción, facilita que los usuarios conceptualicen, creen y gestionen flujos de trabajo. Ya sea que seas nuevo en la automatización de flujos de trabajo o un profesional experimentado, el Motor de Flujo de Trabajo de DocBits ofrece una herramienta eficiente y accesible para mejorar la productividad y optimizar las operaciones.
