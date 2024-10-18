@@ -43,7 +43,7 @@
     * [Tabla AI](readme-1/course/ai-table.md)
     * [Conciliación maestra de órdenes de compra con DocBits](readme-1/course/master-po-matching-with-docbits.md)
 * [Admin Section](admin-section/README.md)
-  * [Settings](overview/settings/README.md)
+  * [Configuración](overview/settings/README.md)
     * [Global Settings](overview/settings/global-settings/README.md)
       * [Información de la Empresa](overview/settings/global-settings/company-information.md)
         * [Definiendo el Color de la Aplicación en la Configuración de la Empresa](admin-section/settings/global-settings/company-information/definiendo-el-color-de-la-aplicacion-en-la-configuracion-de-la-empresa.md)
