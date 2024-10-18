@@ -30,7 +30,7 @@
     * [Create a ticket](overview/technical-support-in-docbits/create-a-ticket.md)
     * [Help Icons](overview/technical-support-in-docbits/help-icons.md)
 * [Admin Section](admin-section/README.md)
-  * [Settings](overview/settings/README.md)
+  * [Configurações](overview/settings/README.md)
     * [Global Settings](overview/settings/global-settings/README.md)
       * [Informações da Empresa](admin-section/settings/global-settings/company-information/README.md)
         * [Definindo a Cor do App nas Configurações da Empresa](admin-section/settings/global-settings/company-information/definindo-a-cor-do-app-nas-configuracoes-da-empresa.md)
