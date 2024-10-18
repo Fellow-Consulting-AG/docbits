@@ -80,7 +80,7 @@
         * [Utilisateurs](overview/settings/global-settings/groups-users-and-permissions/users.md)
           * [Modification des détails de l'utilisateur](admin-section/settings/global-settings/groups-users-and-permissions/users/modification-des-details-de-lutilisateur.md)
           * [Privilèges d'Administration](admin-section/settings/global-settings/groups-users-and-permissions/users/privileges-dadministration.md)
-      * [Integration](overview/settings/global-settings/integration/README.md)
+      * [Intégration](overview/settings/global-settings/integration/README.md)
         * [API Calls and Examples](overview/settings/global-settings/integration/api-calls-and-examples.md)
       * [Tableau de bord](admin-section/settings/global-settings/tableau-de-bord.md)
     * [Gestion du Cache](admin-section/settings/gestion-du-cache.md)
