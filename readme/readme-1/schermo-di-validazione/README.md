@@ -1,2 +1,0 @@
-# Schermo di validazione
-
