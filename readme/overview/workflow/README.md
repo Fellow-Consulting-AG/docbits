@@ -1,9 +1,3 @@
----
-description: >-
-  ## Motor de flujo de trabajo de DocBits: Simplificando la Automatización de
-  Procesos
----
-
 # Flujo de trabajo
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.42.57.png" alt=""><figcaption></figcaption></figure>
