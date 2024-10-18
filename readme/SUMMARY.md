@@ -43,7 +43,7 @@
     * [Tabella AI](readme-1/course/ai-table.md)
     * [Abbinamento principale dell'ordine di acquisto con DocBits](readme-1/course/master-po-matching-with-docbits.md)
 * [Admin Section](admin-section/README.md)
-  * [Settings](overview/settings/README.md)
+  * [Impostazioni](overview/settings/README.md)
     * [Global Settings](overview/settings/global-settings/README.md)
       * [Informazioni sulla Società](admin-section/settings/global-settings/company-information/README.md)
         * [Definire il Colore dell'App nelle Impostazioni Aziendali](admin-section/settings/global-settings/company-information/definire-il-colore-dellapp-nelle-impostazioni-aziendali.md)
