@@ -10,9 +10,9 @@ Aby skonfigurować swoje ustawienia, kliknij ikonę Użytkownika znajdującą si
 
 * **Wybierz Preferowany Język:** Wybierz swój preferowany język z dostępnych opcji.
 
-**Tryb Ciemny**
+**Dark Mode**
 
-* **Przełącz na Tryb Ciemny:** Włącz lub wyłącz Tryb Ciemny dla bardziej komfortowego doświadczenia podczas przeglądania.
+* **Przełącz na Dark Mode:** Włącz lub wyłącz Dark Mode dla bardziej komfortowego doświadczenia podczas przeglądania.
 
 **Ustawienia Użytkownika**
 
