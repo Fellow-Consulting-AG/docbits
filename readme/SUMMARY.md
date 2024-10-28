@@ -15,6 +15,7 @@
     * [Aperçu des documents téléchargés](readme-1/dashboard/overview-of-uploaded-documents.md)
     * [Compteur de tâches](readme-1/dashboard/task-counter.md)
     * [Champs extraits validés](readme-1/dashboard/validated-extracted-fields.md)
+    * [Affichage des documents dupliqués](readme-1/dashboard/affichage-des-documents-dupliques.md)
     * [Meilleures pratiques](readme-1/dashboard/meilleures-pratiques.md)
     * [Dépannage](readme-1/dashboard/depannage.md)
   * [Tableau AI](readme-1/ai-table.md)
