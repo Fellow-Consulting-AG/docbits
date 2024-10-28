@@ -17,6 +17,7 @@
     * [Task Counter](overview/dashboard/task-counter.md)
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
     * [Wyświetlanie zduplikowanych dokumentów](readme-1/dashboard/wyswietlanie-zduplikowanych-dokumentow.md)
+  * [Panel Kontroli Wysyłek Zaawansowanych](readme-1/panel-kontroli-wysylek-zaawansowanych.md)
   * [Opcje Konfiguracji Użytkownika](readme-1/opcje-konfiguracji-uzytkownika.md)
   * [AI Table](readme-1/ai-table.md)
   * [Ekran walidacji](readme-1/ekran-walidacji.md)
