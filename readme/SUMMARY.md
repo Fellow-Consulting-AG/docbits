@@ -19,6 +19,7 @@
     * [Migliori pratiche](readme-1/dashboard/migliori-pratiche.md)
     * [Risoluzione dei problemi](readme-1/dashboard/risoluzione-dei-problemi.md)
   * [Dashboard delle Spedizioni Anticipate](readme-1/dashboard-delle-spedizioni-anticipate.md)
+  * [Ordine di Acquisto](readme-1/ordine-di-acquisto.md)
   * [Opzioni di Configurazione Utente](readme-1/opzioni-di-configurazione-utente.md)
   * [Tabella AI](readme-1/ai-table.md)
   * [Tag della tabella AI](readme-1/tag-della-tabella-ai.md)
