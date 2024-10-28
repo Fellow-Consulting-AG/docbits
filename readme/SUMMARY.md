@@ -20,6 +20,7 @@
     * [Mejores prácticas](readme-1/dashboard/mejores-practicas.md)
     * [Solución de problemas](readme-1/dashboard/solucion-de-problemas.md)
   * [Cuadro de mandos de envíos anticipados](readme-1/cuadro-de-mandos-de-envios-anticipados.md)
+  * [Orden de Compra](readme-1/orden-de-compra.md)
   * [Tabla AI](readme-1/ai-table.md)
   * [Etiquetas de la tabla AI](readme-1/etiquetas-de-la-tabla-ai.md)
   * [Pantalla de validación](readme-1/pantalla-de-validacion.md)
