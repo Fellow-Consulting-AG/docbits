@@ -18,6 +18,7 @@
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
     * [Visualizando Documentos Duplicados](readme-1/dashboard/visualizando-documentos-duplicados.md)
   * [Painel de Envio Antecipado](readme-1/painel-de-envio-antecipado.md)
+  * [Pedido de Compra](readme-1/pedido-de-compra.md)
   * [Opções de Configuração do Usuário](readme-1/opcoes-de-configuracao-do-usuario.md)
   * [AI Table](readme-1/ai-table.md)
   * [Tela de Validação](readme-1/tela-de-validacao.md)
