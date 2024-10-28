@@ -15,6 +15,7 @@
     * [Overview of Uploaded Documents](readme-1/dashboard/overview-of-uploaded-documents.md)
     * [Task Counter](readme-1/dashboard/task-counter.md)
     * [Validated Extracted Fields](readme-1/dashboard/validated-extracted-fields.md)
+    * [Viewing Duplicate Documents](readme-1/dashboard/viewing-duplicate-documents.md)
     * [Best Practice](readme-1/dashboard/best-practice.md)
     * [Troubleshooting](readme-1/dashboard/troubleshooting.md)
   * [Tasks](readme-1/tasks.md)
