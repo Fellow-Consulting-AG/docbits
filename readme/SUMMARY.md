@@ -17,6 +17,7 @@
     * [Task Counter](overview/dashboard/task-counter.md)
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
     * [Visualizando Documentos Duplicados](readme-1/dashboard/visualizando-documentos-duplicados.md)
+  * [Opções de Configuração do Usuário](readme-1/opcoes-de-configuracao-do-usuario.md)
   * [AI Table](readme-1/ai-table.md)
   * [Tela de Validação](readme-1/tela-de-validacao.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
