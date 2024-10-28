@@ -20,6 +20,7 @@
     * [Fehlerbehebung](readme-1/dashboard/fehlerbehebung.md)
   * [Advance Shipment Dashboard](readme-1/advance-shipment-dashboard.md)
   * [Bestellung](readme-1/bestellung.md)
+  * [Dashboard für Rechnungen](readme-1/dashboard-fur-rechnungen.md)
   * [Benutzerkonfigurationsoptionen](readme-1/benutzerkonfigurationsoptionen.md)
   * [AI-Tabelle](readme-1/ai-table.md)
   * [AI-Tabellen-Tags](readme-1/ai-tabellen-tags.md)
