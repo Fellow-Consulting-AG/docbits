@@ -20,6 +20,7 @@
     * [Dépannage](readme-1/dashboard/depannage.md)
   * [Advance Shipment Dashboard](readme-1/advance-shipment-dashboard.md)
   * [Bon de commande](readme-1/bon-de-commande.md)
+  * [Tableau de bord des factures](readme-1/tableau-de-bord-des-factures.md)
   * [Options de Configuration de l'Utilisateur](readme-1/options-de-configuration-de-lutilisateur.md)
   * [Tableau AI](readme-1/ai-table.md)
   * [Tags du tableau AI](readme-1/tags-du-tableau-ai.md)
