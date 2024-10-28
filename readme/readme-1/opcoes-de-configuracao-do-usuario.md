@@ -10,9 +10,9 @@ Para configurar suas preferências, clique no Ícone do Usuário localizado no c
 
 * **Selecionar Idioma Preferido:** Escolha seu idioma desejado entre as opções disponíveis.
 
-**Modo Escuro**
+**Dark Mode**
 
-* **Ativar Modo Escuro:** Habilite ou desabilite o Modo Escuro para uma experiência de visualização mais confortável.
+* **Ativar Dark Mode:** Habilite ou desabilite o Dark Mode para uma experiência de visualização mais confortável.
 
 **Configurações do Usuário**
 
