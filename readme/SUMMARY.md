@@ -15,6 +15,7 @@
     * [Übersicht der hochgeladenen Dokumente](readme-1/dashboard/overview-of-uploaded-documents.md)
     * [Aufgabenzähler](readme-1/dashboard/task-counter.md)
     * [Validierte extrahierte Felder](readme-1/dashboard/validated-extracted-fields.md)
+    * [Anzeigen von Duplikaten](readme-1/dashboard/anzeigen-von-duplikaten.md)
     * [Best Practices](readme-1/dashboard/best-practices.md)
     * [Fehlerbehebung](readme-1/dashboard/fehlerbehebung.md)
   * [AI-Tabelle](readme-1/ai-table.md)
