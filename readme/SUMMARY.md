@@ -18,6 +18,7 @@
     * [Anzeigen von Duplikaten](readme-1/dashboard/anzeigen-von-duplikaten.md)
     * [Best Practices](readme-1/dashboard/best-practices.md)
     * [Fehlerbehebung](readme-1/dashboard/fehlerbehebung.md)
+  * [Benutzerkonfigurationsoptionen](readme-1/benutzerkonfigurationsoptionen.md)
   * [AI-Tabelle](readme-1/ai-table.md)
   * [AI-Tabellen-Tags](readme-1/ai-tabellen-tags.md)
   * [Validierungsbildschirm](readme-1/validierungsbildschirm/README.md)
