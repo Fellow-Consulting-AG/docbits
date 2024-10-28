@@ -18,6 +18,7 @@
     * [Visualizzazione di Documenti Duplicati](readme-1/dashboard/visualizzazione-di-documenti-duplicati.md)
     * [Migliori pratiche](readme-1/dashboard/migliori-pratiche.md)
     * [Risoluzione dei problemi](readme-1/dashboard/risoluzione-dei-problemi.md)
+  * [Opzioni di Configurazione Utente](readme-1/opzioni-di-configurazione-utente.md)
   * [Tabella AI](readme-1/ai-table.md)
   * [Tag della tabella AI](readme-1/tag-della-tabella-ai.md)
   * [Schermo di validazione](readme-1/schermo-di-validazione.md)
