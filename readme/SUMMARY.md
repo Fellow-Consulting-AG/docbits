@@ -18,6 +18,7 @@
     * [Affichage des documents dupliqués](readme-1/dashboard/affichage-des-documents-dupliques.md)
     * [Meilleures pratiques](readme-1/dashboard/meilleures-pratiques.md)
     * [Dépannage](readme-1/dashboard/depannage.md)
+  * [Advance Shipment Dashboard](readme-1/advance-shipment-dashboard.md)
   * [Options de Configuration de l'Utilisateur](readme-1/options-de-configuration-de-lutilisateur.md)
   * [Tableau AI](readme-1/ai-table.md)
   * [Tags du tableau AI](readme-1/tags-du-tableau-ai.md)
