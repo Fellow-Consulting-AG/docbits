@@ -19,7 +19,7 @@
     * [Visualización de Documentos Duplicados](readme-1/dashboard/visualizacion-de-documentos-duplicados.md)
     * [Mejores prácticas](readme-1/dashboard/mejores-practicas.md)
     * [Solución de problemas](readme-1/dashboard/solucion-de-problemas.md)
-  * [Tablero de Envíos Avanzados](readme-1/tablero-de-envios-avanzados.md)
+  * [Cuadro de mandos de envíos anticipados](readme-1/cuadro-de-mandos-de-envios-anticipados.md)
   * [Tabla AI](readme-1/ai-table.md)
   * [Etiquetas de la tabla AI](readme-1/etiquetas-de-la-tabla-ai.md)
   * [Pantalla de validación](readme-1/pantalla-de-validacion.md)
