@@ -16,6 +16,7 @@
     * [Overview of Uploaded Documents](overview/dashboard/overview-of-uploaded-documents.md)
     * [Task Counter](overview/dashboard/task-counter.md)
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
+    * [Visualizando Documentos Duplicados](readme-1/dashboard/visualizando-documentos-duplicados.md)
   * [AI Table](readme-1/ai-table.md)
   * [Tela de Validação](readme-1/tela-de-validacao.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
