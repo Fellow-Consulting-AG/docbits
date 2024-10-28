@@ -1,4 +1,4 @@
-# Dashboard
+# Panel sterowania
 
 **Przegląd**
 
