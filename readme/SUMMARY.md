@@ -23,6 +23,7 @@
   * [Purchase Order](readme-1/purchase-order.md)
   * [Invoice Dashboard](readme-1/invoice-dashboard.md)
   * [Shipment Order Dashboard](readme-1/shipment-order-dashboard.md)
+  * [User Configuration Options](readme-1/user-configuration-options.md)
   * [AI Table](readme-1/ai-table/README.md)
     * [AI Table Tags](readme-1/ai-table/ai-table-tags.md)
   * [Validation Screen](readme-1/validation-screen.md)
