@@ -217,3 +217,4 @@
     * [Lieferantenportal](admin-section/setup/lieferantenportal.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
+* [Version](version.md)
