@@ -70,6 +70,7 @@
           * [Purpose and Use](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/purpose-and-use.md)
           * [Adding/Editing Groups](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/adding-editing-groups.md)
           * [Activating Permissions](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/activating-permissions.md)
+          * [Access Control](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/access-control.md)
           * [Troubleshooting](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
       * [Integration](admin-section/settings/global-settings/integration/README.md)
         * [API Key](admin-section/settings/global-settings/integration/api-key.md)
