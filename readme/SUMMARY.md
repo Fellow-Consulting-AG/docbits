@@ -18,6 +18,7 @@
     * [Visualizzazione di Documenti Duplicati](readme-1/dashboard/visualizzazione-di-documenti-duplicati.md)
     * [Migliori pratiche](readme-1/dashboard/migliori-pratiche.md)
     * [Risoluzione dei problemi](readme-1/dashboard/risoluzione-dei-problemi.md)
+  * [Attività](readme-1/attivita.md)
   * [Dashboard delle Spedizioni Anticipate](readme-1/dashboard-delle-spedizioni-anticipate.md)
   * [Ordine di Acquisto](readme-1/ordine-di-acquisto.md)
   * [Dashboard Fatture](readme-1/dashboard-fatture.md)
