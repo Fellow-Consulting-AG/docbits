@@ -20,6 +20,7 @@
   * [Panel Kontroli Wysyłek Zaawansowanych](readme-1/panel-kontroli-wysylek-zaawansowanych.md)
   * [Zamówienie Zakupu](readme-1/zamowienie-zakupu.md)
   * [Dashboard Faktur](readme-1/dashboard-faktur.md)
+  * [Panel Zamówień Wysyłkowych](readme-1/panel-zamowien-wysylkowych.md)
   * [Opcje Konfiguracji Użytkownika](readme-1/opcje-konfiguracji-uzytkownika.md)
   * [AI Table](readme-1/ai-table.md)
   * [Ekran walidacji](readme-1/ekran-walidacji.md)
