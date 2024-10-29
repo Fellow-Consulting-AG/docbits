@@ -84,6 +84,7 @@
           * [Activation des autorisations](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/activation-des-autorisations.md)
           * [Ajout/Modification de Groupes](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/ajout-modification-de-groupes.md)
           * [Objectif et utilisation](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/objectif-et-utilisation.md)
+          * [Contrôle d'Accès](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/controle-dacces.md)
           * [Dépannage](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/depannage.md)
         * [Sous-Organisations](overview/settings/global-settings/groups-users-and-permissions/sub-organizations.md)
           * [Comment créer une Sous-Organisation](admin-section/settings/global-settings/groups-users-and-permissions/sub-organizations/comment-creer-une-sous-organisation.md)
