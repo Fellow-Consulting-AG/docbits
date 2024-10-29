@@ -67,6 +67,7 @@
           * [Zweck und Verwendung](admin-section/settings/global-settings/groups-users-and-permissions/gruppen-und-berechtigungen/zweck-und-verwendung.md)
           * [Gruppen hinzufügen/bearbeiten](admin-section/settings/global-settings/groups-users-and-permissions/gruppen-und-berechtigungen/gruppen-hinzufugen-bearbeiten.md)
           * [Berechtigungen aktivieren](admin-section/settings/global-settings/groups-users-and-permissions/gruppen-und-berechtigungen/berechtigungen-aktivieren.md)
+          * [Zugangskontolle](admin-section/settings/global-settings/groups-users-and-permissions/gruppen-und-berechtigungen/zugangskontolle.md)
           * [Fehlerbehebung](admin-section/settings/global-settings/groups-users-and-permissions/gruppen-und-berechtigungen/fehlerbehebung.md)
       * [Best Practices](admin-section/settings/global-settings/best-practices.md)
       * [Integration](admin-section/settings/global-settings/integration/README.md)
