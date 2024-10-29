@@ -20,6 +20,7 @@
   * [Painel de Envio Antecipado](readme-1/painel-de-envio-antecipado.md)
   * [Pedido de Compra](readme-1/pedido-de-compra.md)
   * [Painel de Faturas](readme-1/painel-de-faturas.md)
+  * [Painel de Pedidos de Envio](readme-1/painel-de-pedidos-de-envio.md)
   * [Opções de Configuração do Usuário](readme-1/opcoes-de-configuracao-do-usuario.md)
   * [AI Table](readme-1/ai-table.md)
   * [Tela de Validação](readme-1/tela-de-validacao.md)
