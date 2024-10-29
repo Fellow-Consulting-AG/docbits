@@ -84,6 +84,7 @@
           * [Propósito y Uso](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/proposito-y-uso.md)
           * [Agregar/Editar Grupos](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/agregar-editar-grupos.md)
           * [Activando Permisos](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/activando-permisos.md)
+          * [Control de Acceso](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/control-de-acceso.md)
           * [Solución de problemas](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/solucion-de-problemas.md)
         * [Usuarios](admin-section/settings/global-settings/groups-users-and-permissions/users/README.md)
           * [Modificando Detalles del Usuario](admin-section/settings/global-settings/groups-users-and-permissions/users/modificando-detalles-del-usuario.md)
