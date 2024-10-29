@@ -1,6 +1,51 @@
 # Release
 
+## Release Feast 4th November 2024
 
+### New Features:
+
+### Email Import Enhancements
+
+Configured IMAP email settings to automatically send notifications for import results. Successful import notifications will confirm the files processed, while failure alerts will include the filenames and specific error details for prompt troubleshooting.
+
+<figure><img src=".gitbook/assets/Email Import.png" alt=""><figcaption><p>Email Import</p></figcaption></figure>
+
+### Master Data Lookup Revamping
+
+Revamped the master data lookup settings with refined categorization, enabling faster and more precise retrieval of diverse master data types. This improvement streamlines data access by organizing master data into distinct categories, significantly boosting search efficiency and accuracy. Users can now locate the relevant data more quickly, enhancing productivity and decision-making across the application
+
+<figure><img src=".gitbook/assets/MasterDataLookup.png" alt=""><figcaption><p>Master Data</p></figcaption></figure>
+
+### Performance Improvements
+
+Implemented a robust caching mechanism to significantly boost application performance, especially under high request loads. This improvement reduces server processing time by temporarily storing frequently accessed data, enabling faster response times and a smoother user experience. The new caching system efficiently manages increased traffic, ensuring reliable and scalable performance even during peak usage periods
+
+### Document Lock Feature Enhancement
+
+Upgraded the document locking functionality to prevent simultaneous edits, ensuring data integrity and minimising conflicts. Now, documents are automatically locked during active editing, providing users with clear indicators when a document is in use and preventing others from making changes until the edit session is complete. This enhancement streamlines collaborative workflows and reduces the risk of data overwrites.
+
+### Navigation and User Experience Improvements
+
+* **Breadcrumb Navigation**: Added breadcrumb trails across application pages to enhance navigation, allowing users to easily track and return to previous sections for a more intuitive browsing experience.
+* **Streamlined User Interface**: Removed the "new version" pop-up notification to create a smoother, uninterrupted workflow, reducing distractions and improving overall usability.
+
+### Bug Fixes:
+
+* Resolved user-specific problems, such as attachment failures from encrypted or signed emails.
+* Fixed card display and flow problems.
+* Corrected routing issues with Next/Previous buttons.
+* Addressed bugs related to decision tree tables.
+* Updated UI for the password field to improve usability.
+* Fixed issues with the task counter not displaying correctly.
+* Corrected a user interface problem with the AI table.
+* Resolved errors with document extraction during table training.
+* Added a warning when a PO is matched during reformatting, and ensured matched rows are removed.
+* Fixed date formatting, ensuring data loads correctly by day and week filters, and ensured document types are properly displayed.
+* Corrected the display of documents on dual monitors.
+* Fixed a problem where unlinking one PO line would remove all lines.
+* Resolved incorrect translations across the application.
+* Fixed the issue where lengthy descriptions in rule management caused scrolling on the list.
+* FeastRestored missing "Assign-To" functionality for non-admin users.
 
 ## Release Harvest 9th September 2024
 
