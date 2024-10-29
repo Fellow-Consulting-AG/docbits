@@ -21,6 +21,7 @@
   * [Dashboard delle Spedizioni Anticipate](readme-1/dashboard-delle-spedizioni-anticipate.md)
   * [Ordine di Acquisto](readme-1/ordine-di-acquisto.md)
   * [Dashboard Fatture](readme-1/dashboard-fatture.md)
+  * [Dashboard degli Ordini di Spedizione](readme-1/dashboard-degli-ordini-di-spedizione.md)
   * [Opzioni di Configurazione Utente](readme-1/opzioni-di-configurazione-utente.md)
   * [Tabella AI](readme-1/ai-table.md)
   * [Tag della tabella AI](readme-1/tag-della-tabella-ai.md)
