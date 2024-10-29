@@ -17,6 +17,7 @@
     * [Task Counter](overview/dashboard/task-counter.md)
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
     * [Visualizando Documentos Duplicados](readme-1/dashboard/visualizando-documentos-duplicados.md)
+  * [Tarefas](readme-1/tarefas.md)
   * [Painel de Envio Antecipado](readme-1/painel-de-envio-antecipado.md)
   * [Pedido de Compra](readme-1/pedido-de-compra.md)
   * [Painel de Faturas](readme-1/painel-de-faturas.md)
