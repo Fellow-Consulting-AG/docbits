@@ -18,6 +18,7 @@
     * [Anzeigen von Duplikaten](readme-1/dashboard/anzeigen-von-duplikaten.md)
     * [Best Practices](readme-1/dashboard/best-practices.md)
     * [Fehlerbehebung](readme-1/dashboard/fehlerbehebung.md)
+  * [Aufgaben](readme-1/aufgaben.md)
   * [Advance Shipment Dashboard](readme-1/advance-shipment-dashboard.md)
   * [Bestellung](readme-1/bestellung.md)
   * [Dashboard für Rechnungen](readme-1/dashboard-fur-rechnungen.md)
