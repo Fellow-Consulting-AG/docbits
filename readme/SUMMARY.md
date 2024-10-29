@@ -19,6 +19,7 @@
     * [Visualización de Documentos Duplicados](readme-1/dashboard/visualizacion-de-documentos-duplicados.md)
     * [Mejores prácticas](readme-1/dashboard/mejores-practicas.md)
     * [Solución de problemas](readme-1/dashboard/solucion-de-problemas.md)
+  * [Tareas](readme-1/tareas.md)
   * [Cuadro de mandos de envíos anticipados](readme-1/cuadro-de-mandos-de-envios-anticipados.md)
   * [Orden de Compra](readme-1/orden-de-compra.md)
   * [Panel de facturación](readme-1/panel-de-facturacion.md)
