@@ -8,7 +8,7 @@
 
 Configured IMAP email settings to automatically send notifications for import results. Successful import notifications will confirm the files processed, while failure alerts will include the filenames and specific error details for prompt troubleshooting.
 
-<figure><img src=".gitbook/assets/Email Import.png" alt=""><figcaption><p>Email Import</p></figcaption></figure>
+<figure><img src=".gitbook/assets/EmailImport.png" alt=""><figcaption><p>Email Import Configurations</p></figcaption></figure>
 
 ### Master Data Lookup Revamping
 
