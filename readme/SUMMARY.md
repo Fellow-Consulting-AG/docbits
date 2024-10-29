@@ -17,6 +17,7 @@
     * [Task Counter](overview/dashboard/task-counter.md)
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
     * [Wyświetlanie zduplikowanych dokumentów](readme-1/dashboard/wyswietlanie-zduplikowanych-dokumentow.md)
+  * [Zadania](readme-1/zadania.md)
   * [Panel Kontroli Wysyłek Zaawansowanych](readme-1/panel-kontroli-wysylek-zaawansowanych.md)
   * [Zamówienie Zakupu](readme-1/zamowienie-zakupu.md)
   * [Dashboard Faktur](readme-1/dashboard-faktur.md)
