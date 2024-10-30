@@ -1,10 +1,10 @@
 # Access Control
 
-### Overview
+## Overview
 
 This guide explains how administrators can define access control settings for different user groups in DocBits. Each group can be configured with custom permissions at the document and field level.
 
-### Access Control Groups
+## Access Control Groups
 
 The access control panel allows the admin to manage user groups and their respective permissions. Each group can have specific configurations related to:
 
@@ -12,7 +12,7 @@ The access control panel allows the admin to manage user groups and their respec
 * **Field-Level Permissions**: Whether the group can read, write, or view certain fields within a document.
 * **Action Permissions**: What actions the group can perform, such as edit, delete, mass update, and approve documents.
 
-#### Accessing Group Settings
+## Accessing Group Settings
 
 1. Navigate to **Settings**.
 2. Select **Groups and Permissions**.
@@ -21,7 +21,7 @@ The access control panel allows the admin to manage user groups and their respec
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control1 (1).png" alt=""><figcaption></figcaption></figure>
 
-### Configuring Permissions for Groups
+## Configuring Permissions for Groups
 
 1.  **Access Control Overview**:
 
