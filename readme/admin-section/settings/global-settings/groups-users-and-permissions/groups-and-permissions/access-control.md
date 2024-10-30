@@ -45,7 +45,7 @@ The access control panel allows the admin to manage user groups and their respec
    *   Permissions include:
 
        * **Read/Write**: Users can both read and write to the field.
-       * **Owner Write**: Only the owner of the document or field can write, others can read.
+       * **Read/Owner Write**: Only the owner of the document or field can write, others can read.
        * **Read Only**: Users can only view the field but not modify it.
        * **Owner Read/ Owner Write:** Only the owner of the document or field can write and read.
        * **Approval:** Changes must be approved by authorized users or admin.
