@@ -1,8 +1,10 @@
 # Contrôle d'Accès
 
+## Vue d'ensemble
+
 Ce guide explique comment les administrateurs peuvent définir les paramètres de contrôle d'accès pour différents groupes d'utilisateurs dans DocBits. Chaque groupe peut être configuré avec des autorisations personnalisées au niveau des documents et des champs.
 
-#### Groupes de Contrôle d'Accès
+## Groupes de Contrôle d'Accès
 
 Le panneau de contrôle d'accès permet à l'administrateur de gérer les groupes d'utilisateurs et leurs autorisations respectives. Chaque groupe peut avoir des configurations spécifiques liées à :
 
@@ -10,7 +12,7 @@ Le panneau de contrôle d'accès permet à l'administrateur de gérer les groupe
 * **Autorisations au Niveau des Champs:** Si le groupe peut lire, écrire ou voir certains champs dans un document.
 * **Autorisations d'Action:** Quelles actions le groupe peut effectuer, telles que modifier, supprimer, mettre à jour en masse et approuver des documents.
 
-**Accéder aux Paramètres du Groupe**
+## **Accéder aux Paramètres du Groupe**
 
 1. Accédez à **Paramètres**.
 2. Sélectionnez **Groupes et Autorisations**.
@@ -19,7 +21,7 @@ Le panneau de contrôle d'accès permet à l'administrateur de gérer les groupe
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control_fr.png" alt=""><figcaption></figcaption></figure>
 
-#### Configuration des Autorisations pour les Groupes
+## Configuration des Autorisations pour les Groupes
 
 1.  **Aperçu du Contrôle d'Accès**:
 
