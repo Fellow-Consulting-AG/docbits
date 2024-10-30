@@ -1,10 +1,10 @@
 # Control de Acceso
 
-#### Descripción General
+## Descripción General
 
 Esta guía explica cómo los administradores pueden definir configuraciones de control de acceso para diferentes grupos de usuarios en DocBits. Cada grupo puede ser configurado con permisos personalizados a nivel de documento y campo.
 
-#### Grupos de Control de Acceso
+## Grupos de Control de Acceso
 
 El panel de control de acceso permite al administrador gestionar grupos de usuarios y sus respectivos permisos. Cada grupo puede tener configuraciones específicas relacionadas con:
 
@@ -12,14 +12,14 @@ El panel de control de acceso permite al administrador gestionar grupos de usuar
 * **Permisos a Nivel de Campo**: Si el grupo puede leer, escribir o ver ciertos campos dentro de un documento.
 * **Permisos de Acción**: Qué acciones puede realizar el grupo, como editar, eliminar, actualizar en masa y aprobar documentos.
 
-**Accediendo a la Configuración del Grupo**
+## **Accediendo a la Configuración del Grupo**
 
 1. Navega a **Configuraciones**.
 2. Selecciona **Grupos y Permisos**.
 3. Para gestionar permisos para un grupo, como PROCUREMENT\_DIRECTOR, haz clic en los tres puntos en el lado derecho de la pantalla.
 4. Selecciona Ver Control de Acceso
 
-#### Configurando Permisos para Grupos
+## Configurando Permisos para Grupos
 
 1.  **Descripción General del Control de Acceso**:
 
