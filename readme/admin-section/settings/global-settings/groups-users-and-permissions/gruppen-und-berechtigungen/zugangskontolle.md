@@ -1,10 +1,10 @@
 # Zugangskontolle
 
-#### Übersicht
+## Übersicht
 
 Dieser Leitfaden erklärt, wie Administratoren Einstellungen für die Zugangskontolle für verschiedene Benutzergruppen in DocBits definieren können. Jede Gruppe kann mit benutzerdefinierten Berechtigungen auf Dokumenten- und Feldebene konfiguriert werden.
 
-#### Zugangskontrollgruppen
+## Zugangskontrollgruppen
 
 Das Zugangskontrollpanel ermöglicht es dem Administrator, Benutzergruppen und deren jeweilige Berechtigungen zu verwalten. Jede Gruppe kann spezifische Konfigurationen in Bezug auf Folgendes haben:
 
@@ -12,7 +12,7 @@ Das Zugangskontrollpanel ermöglicht es dem Administrator, Benutzergruppen und d
 * **Feldberechtigungen**: Ob die Gruppe bestimmte Felder innerhalb eines Dokuments lesen, schreiben oder anzeigen kann.
 * **Aktionsberechtigungen**: Welche Aktionen die Gruppe durchführen kann, wie z. B. Dokumente bearbeiten, löschen, massenaktualisieren und genehmigen.
 
-**Zugang auf Gruppeneinstellungen**
+## **Zugang auf Gruppeneinstellungen**
 
 1. Navigieren Sie zu **Einstellungen**.
 2. Wählen Sie **Gruppen und Berechtigungen**.
@@ -21,12 +21,12 @@ Das Zugangskontrollpanel ermöglicht es dem Administrator, Benutzergruppen und d
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control1_de.png" alt=""><figcaption></figcaption></figure>
 
-#### Berechtigungen für Gruppen konfigurieren
+## Berechtigungen für Gruppen konfigurieren
 
 1.  **Übersicht der Zugangskontolle**:
 
     * In diesem Abschnitt können Sie den Zugriff für alle Dokumenttypen aktivieren oder deaktivieren, wie z. B. **Invoice**, **Credit Note**, **Purchase Order** und mehr.
-    * Sie können Zugangskontolle definieren wie:
+    * Sie können in der Zugangskontolle folgendes definieren:
       * **Zugang**: Gewährt Zugriff auf den Dokumenttyp.
       * **Liste**: Definiert, ob der Dokumenttyp in der Listenansicht sichtbar ist.
       * **Ansicht**: Gibt die Standardansicht für das Dokument an.
