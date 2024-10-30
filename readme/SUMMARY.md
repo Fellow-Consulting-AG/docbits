@@ -71,6 +71,7 @@
           * [Cel i zastosowanie](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/cel-i-zastosowanie.md)
           * [Dodawanie/Edytowanie Grup](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/dodawanie-edytowanie-grup.md)
           * [Aktywacja uprawnień](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/aktywacja-uprawnien.md)
+          * [Kontrola Dostępu](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/kontrola-dostepu.md)
           * [Rozwiązywanie problemów](admin-section/settings/global-settings/groups-users-and-permissions/groups-and-permissions/rozwiazywanie-problemow.md)
         * [Podorganizacje](admin-section/settings/global-settings/groups-users-and-permissions/sub-organizations/README.md)
           * [Jak utworzyć Podorganizację](admin-section/settings/global-settings/groups-users-and-permissions/sub-organizations/jak-utworzyc-podorganizacje.md)
