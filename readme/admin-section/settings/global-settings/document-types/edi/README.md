@@ -1,4 +1,4 @@
-# EDI
+# e-docs
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.49.21.png" alt=""><figcaption></figcaption></figure>
 
@@ -17,7 +17,3 @@ In Docbits, the EDI settings provide tools for defining and managing the structu
    * Used for editing and validating the XSLT (eXtensible Stylesheet Language Transformations) used in the transformation process. XSLT is a powerful language designed for transforming XML documents into other XML documents or other formats like HTML, text, or even other XML structures.
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.49.59.png" alt=""><figcaption></figcaption></figure>
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2499" %}
-
-
