@@ -25,7 +25,3 @@ The More Settings area allows administrators to configure various aspects of doc
    * **PO disable statuses**: Allows disabling certain statuses for purchase orders during the export process, providing flexibility in how orders are handled.
 7. **Supplier Item Number Map**:
    * A utility setting that maps supplier item numbers to internal item numbers, ensuring accuracy in inventory and purchase order management.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2500" %}
-
-
