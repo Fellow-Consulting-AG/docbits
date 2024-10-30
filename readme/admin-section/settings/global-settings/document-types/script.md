@@ -18,7 +18,3 @@ Scripts in Docbits are typically written in a scripting language supported by th
    * **Example Script**: Scripts can include operations such as looping through invoice lines to validate totals or to remove entries that do not meet certain criteria.
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.43.37.png" alt=""><figcaption></figcaption></figure>
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2498" %}
-
-
