@@ -19,6 +19,8 @@ El panel de control de acceso permite al administrador gestionar grupos de usuar
 3. Para gestionar permisos para un grupo, como PROCUREMENT\_DIRECTOR, haz clic en los tres puntos en el lado derecho de la pantalla.
 4. Selecciona Ver Control de Acceso
 
+<figure><img src="../../../../../.gitbook/assets/Access-Control_es.png" alt=""><figcaption></figcaption></figure>
+
 ## Configurando Permisos para Grupos
 
 1.  **Descripción General del Control de Acceso**:
@@ -41,9 +43,11 @@ El panel de control de acceso permite al administrador gestionar grupos de usuar
 2. **Permisos a Nivel de Campo**:
    * Dentro de cada tipo de documento, se pueden configurar campos específicos con diferentes niveles de permisos.
    * Los permisos incluyen:
-     * **Read/Write**: Los usuarios pueden tanto leer como escribir en el campo.
-     * **Owner Write:** Solo el propietario del documento o campo puede escribir, otros pueden leer.
-     * **Read Only:** Los usuarios solo pueden ver el campo pero no modificarlo.
-     * **Owner Read/ Owner Write:** Solo el propietario del documento o campo puede escribir y leer.
-     * **Approval:** Los cambios deben ser aprobados por usuarios autorizados o el administrador.
-     * **None**: No se aplican permisos específicos al campo.
+     * **Lectura/Escritura:** Los usuarios pueden tanto leer como escribir en el campo.
+     * **Lectura/Escritura propietario:** Solo el propietario del documento o campo puede escribir, otros pueden leer.
+     * **Solo lectura:** Los usuarios solo pueden ver el campo pero no modificarlo.
+     * **Lectura propietario/Escritura propietario:** Solo el propietario del documento o campo puede escribir y leer.
+     * **Aprobación:** Los cambios deben ser aprobados por usuarios autorizados o el administrador.
+     * **Ninguno:** No se aplican permisos específicos al campo.
+
+<figure><img src="../../../../../.gitbook/assets/Access-Control2_es.png" alt=""><figcaption></figcaption></figure>
