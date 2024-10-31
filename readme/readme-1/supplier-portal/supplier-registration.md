@@ -1,7 +1,7 @@
 # Supplier Registration
 
 1. You will receive an invitation with a link via E-mail to begin the registration process. Please click on “Go to Registration,” submit the required information, and accept the terms and conditions to get started.\
-   ![](<../../.gitbook/assets/image (241).png>)![](<../../.gitbook/assets/image (242).png>)
+   ![](<../../.gitbook/assets/Screenshot 2024-10-22 at 15.52.10.png>)![](<../../.gitbook/assets/image (242).png>)
 2.  **Supplier Details**
 
     Please verify that the Supplier name is correct. This is a critical detail for identity and legal purposes that cannot be changed. Please provide all applicable information including the required fields. When completed, click on “Next” to continue to the Address Data section. To save your progress and continue later, click on “Save.”\
