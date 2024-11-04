@@ -52,7 +52,7 @@ Using filters allows users to quickly find relevant information and reduce the a
 
 * Save the custom filter by clicking "Apply".
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Use combined filters**
 

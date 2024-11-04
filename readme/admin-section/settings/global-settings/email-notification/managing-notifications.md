@@ -14,13 +14,13 @@ To edit, disable, or delete existing notifications and adapt them to changes in 
 
 **Edit a notification:** To edit an existing notification, find the notification in the list and select the edit option. This allows you to change the notification settings, such as the document type, status, triggering events or recipients.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="192"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="192"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Turn off a notification:** If you want to temporarily turn off a notification, find the notification in the list and select the option to turn it off. This will temporarily stop the notification without deleting it, so you can reactivate it later if necessary.
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" width="116"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt="" width="116"><figcaption></figcaption></figure>
 
 **Delete a notification:** To permanently remove a notification, find the notification in the list and select the delete option. This will completely remove the notification from the system and cannot be restored.
 
