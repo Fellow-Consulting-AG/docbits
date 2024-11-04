@@ -15,7 +15,7 @@
 * **Approve the Document:** Marks a document as approved within the system.
 * **Reject the Document:** Marks a document as rejected.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
 
 ### **3. Export Actions:**
 
@@ -24,7 +24,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
 
 ### **4. Status Actions:**
 
