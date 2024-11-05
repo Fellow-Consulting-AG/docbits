@@ -331,5 +331,6 @@
 * [Ressources and Support](ressources-and-support.md)
 * [Architecture](architecture/README.md)
   * [DocBits Infor on Premise Customer](architecture/docbits-infor-on-premise-customer.md)
+  * [Certifications](architecture/certifications.md)
 * [Infor Infrastructure](infor-infrastructure.md)
 * [Release](release.md)
