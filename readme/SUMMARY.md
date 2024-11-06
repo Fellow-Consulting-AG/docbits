@@ -327,7 +327,6 @@
     * [M3 Export](admin-section/course/m3-export.md)
     * [Sync Flex Dimensions: Infor to DocBits](admin-section/course/sync-flex-dimensions-infor-to-docbits.md)
 * [Partner Section](partner-section/README.md)
-  * [Supplier Portal](partner-section/supplier-portal.md)
   * [Invoice Automation Testing with DocBits](partner-section/invoice-automation-testing-with-docbits.md)
 * [Ressources and Support](ressources-and-support.md)
 * [Architecture](architecture/README.md)
