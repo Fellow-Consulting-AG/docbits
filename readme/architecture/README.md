@@ -2,11 +2,11 @@
 
 Cloud customer:
 
-<figure><img src="../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 
 On premise:
 
-<figure><img src="../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 
 Doc**Bits** seamlessly integrates with Infor LN/M3 through ION API, ION Desk, and Infor Standard BODs. Our API integration allows us to export data to Infor and perform master data validation in Doc**Bits**.
 
