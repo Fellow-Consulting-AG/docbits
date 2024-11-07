@@ -76,7 +76,7 @@ Using filters allows users to quickly find relevant information and reduce the a
 * Open the Filters menu.
 * Step 2: Clear or remove the applied filters by clicking "Clear Filters", the X icon next to the selected filter either in the Filters menu or below the Filters bar.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-06-03 um 09.16.50.png" alt=""><figcaption></figcaption></figure>
 

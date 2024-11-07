@@ -116,7 +116,7 @@ To share internal information, you can create tasks and assign them to a specifi
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.21.png" alt="" width="187"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can leave annotations on a document. This can be helpful to leave information for other users who further edit this document.
 
@@ -176,7 +176,7 @@ Scripts can be created in the settings under Document Types; this information wi
   * **Purpose:** Displays logs related to scripts that have been implemented for different document types.
   * **Use Case:** Useful for tracking and debugging script actions on documents, helping users understand the automated processes and correct any issues.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
