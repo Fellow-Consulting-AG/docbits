@@ -24,13 +24,13 @@
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 * **Supplier Portal**: A portal within DocBits dedicated to suppliers, enabling them to interact and collaborate with the system, enhancing communication and efficiency in the supply chain.
-
-<figure><img src="../../../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
-
 * **Workflow Builder**: A tool for creating and customizing workflows within DocBits, allowing users to define specific processes and automate document handling according to their unique business requirements.
 * **Run Workflows in Celery:** This feature lets you run workflows in Celery.
 * **Layout Builder**: Enables users to design and customize the layout of documents within DocBits, ensuring alignment with branding and usability standards.
+* **Inbound Emails:** This feature gives you the ability to handle your Inbound Emails.
 * **Annotation Mode**: A feature that allows users to annotate and mark up documents directly within the DocBits interface, facilitating collaboration and feedback.
 * **Show report**: Functionality to generate and display reports within DocBits, providing insights and analytics on various aspects of document processing and management.
 * **Models & Labels**: Tools for defining and configuring document recognition models and labels within DocBits, enhancing accuracy and efficiency in document processing.
