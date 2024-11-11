@@ -114,7 +114,7 @@
     * [Impostazione del Fornitore](admin-section/settings/impostazione-del-fornitore/README.md)
       * [Impostazioni Generali del Fornitore](admin-section/settings/impostazione-del-fornitore/impostazioni-generali-del-fornitore.md)
       * [Modifica dei Modelli di Email](admin-section/settings/impostazione-del-fornitore/modifica-dei-modelli-di-email.md)
-      * [Esportazione della Configurazione per il Portale Fornitori](admin-section/settings/impostazione-del-fornitore/esportazione-della-configurazione-per-il-portale-fornitori.md)
+      * [Configurazione dell'esportazione per il Portale fornitori per M3](admin-section/settings/impostazione-del-fornitore/esportazione-della-configurazione-per-il-portale-fornitori.md)
     * [Licenze API](admin-section/settings/licenze-api.md)
     * [Log Settings](admin-section/settings/log-settings/README.md)
       * [Gestione delle Attività](admin-section/settings/log-settings/gestione-delle-attivita.md)
