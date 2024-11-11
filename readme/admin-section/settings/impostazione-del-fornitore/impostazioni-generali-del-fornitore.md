@@ -4,7 +4,7 @@
 
 L'interfaccia delle **Impostazioni Generali del Fornitore** fornisce agli amministratori strumenti essenziali per personalizzare il portale dei fornitori. Le caratteristiche principali includono la possibilità di caricare un logo aziendale e definire la politica e l'informativa sulla privacy. Queste impostazioni sono cruciali per mantenere la coerenza del marchio e garantire la conformità ai requisiti legali.
 
-#### Carica Logo
+## Carica Logo
 
 **Scopo**
 
@@ -30,7 +30,7 @@ La funzione **Carica Logo** consente agli amministratori di personalizzare il po
 * **Dimensione del File**: Utilizza un file immagine compresso per ridurre i tempi di caricamento e migliorare l'esperienza dell'utente.
 * **Coerenza del Marchio**: Utilizza lo stesso logo su tutte le piattaforme per mantenere un'identità di marchio coerente.
 
-#### Politica e Informativa sulla Privacy
+## Politica e Informativa sulla Privacy
 
 **Scopo**
 
