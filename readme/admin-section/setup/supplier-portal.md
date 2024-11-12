@@ -16,23 +16,7 @@ Document Processing → Module
 
 Next, activate Supplier Portal by enabling the slider.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/3_Activate_Supplier_Portal.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-
-Additionally, there are also sliders for Supplier Portal with Layout as well as Supplier Portal Additional Invitation Fields.
-
-Supplier Portal with Layout: Enabling this allows you to create custom layouts for the supplier portal, meaning you can customise the required information depending on the geographical location or other criteria of the vendors you wish to invite. This will be discussed in more depth later.
-
-Supplier Portal Additional Invitation Fields: This option enables you to add additional fields to the invitation you send out to vendors, a list of fields are made available to you as shown below.
-
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/4_Additional_Fields_List.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/supplier-portal.png" alt=""><figcaption></figcaption></figure>
 
 ### Supplier Settings <a href="#supplier-settings" id="supplier-settings"></a>
 
@@ -149,6 +133,10 @@ Only values that exist in INFOR may be used in these lists in order for exportin
 #### Supplier General Settings <a href="#supplier-general-settings" id="supplier-general-settings"></a>
 
 Here is where you are able to upload your company logo or alternative which will be displayed at the header of all email templates sent as well as on the DocBits login screen once suppliers begin the registration process. If left empty, the standard DocBits logo will be displayed.
+
+Supplier Portal Additional Invitation Fields: This option enables you to add additional fields to the invitation you send out to vendors, a list of fields are made available to you as shown below.
+
+<figure><img src="../../.gitbook/assets/supplier-portal2.png" alt=""><figcaption></figcaption></figure>
 
 #### Export Configuration <a href="#export-configuration" id="export-configuration"></a>
 
