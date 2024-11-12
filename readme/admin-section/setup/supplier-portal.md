@@ -136,7 +136,7 @@ Here is where you are able to upload your company logo or alternative which will
 
 Supplier Portal Additional Invitation Fields: This option enables you to add additional fields to the invitation you send out to vendors, a list of fields are made available to you as shown below.
 
-<figure><img src="../../.gitbook/assets/supplier-portal2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/supplier-portal2.png" alt="" width="315"><figcaption></figcaption></figure>
 
 #### Export Configuration <a href="#export-configuration" id="export-configuration"></a>
 
