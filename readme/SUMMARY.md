@@ -197,3 +197,4 @@
     * [Portal Dostawcy](admin-section/setup/portal-dostawcy.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
+* [Infor Infrastructure](infor-infrastructure.md)
