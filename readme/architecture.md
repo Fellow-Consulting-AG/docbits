@@ -22,6 +22,8 @@ Export nach [Infor](setup/exporting-in-docbits/exporting-to-infor/)
 
 Um den Lieferanten zu identifizieren oder Einkaufsbestellzeilen zu vergleichen/abzugleichen, aktivieren wir einen Trigger in LN/M3, der die BODs Sync.RemitToPartyMaster, Sync.SupplierPartyMaster und Sync.PurchaseOrder an Doc**Bits** sendet. Wir konfigurieren diesen Prozess in ION Desk, indem wir den Datenfluss zu einem bestimmten Verbindungspunkt zu Doc**Bits** definieren.
 
+<figure><img src=".gitbook/assets/architecture3.avif" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
-[Stammdatenvalidierung](architecture.md#stammdatenvalidierung-in-docbits)
+[Stammdatenvalidierung](setup/importing-customer-master-data/)
 {% endhint %}
