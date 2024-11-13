@@ -26,7 +26,7 @@ Panel kontroli dostępu pozwala administratorowi zarządzać grupami użytkownik
 3. Wybierz **Grupy, Użytkownicy i Uprawnienia**.
 4. Wybierz **Grupy i Uprawnienia**.
 5. Aby zarządzać uprawnieniami dla grupy, takiej jak PROCUREMENT\_DIRECTOR, kliknij trzy kropki po prawej stronie ekranu.
-6. Wybierz Zobacz **Kontrolę Dostępu**.
+6. Wybierz **Zobacz Kontrolę Dostępu**.
 
 ## Konfigurowanie Uprawnień dla Grup
 
