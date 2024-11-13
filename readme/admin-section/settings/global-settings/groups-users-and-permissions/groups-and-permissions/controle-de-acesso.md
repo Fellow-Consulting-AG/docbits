@@ -26,7 +26,7 @@ O painel de controle de acesso permite que o administrador gerencie grupos de us
 3. Selecione **Grupos, Usuários e Permissões**.
 4. Selecione **Grupos e Permissões**.
 5. Para gerenciar permissões para um grupo, como PROCUREMENT\_DIRECTOR, clique nos três pontos no lado direito da tela.
-6. Selecione Visualizar **Controle de Acesso**.
+6. Selecione **Visualizar Controle de Acesso**.
 
 ## Configurando Permissões para Grupos
 
