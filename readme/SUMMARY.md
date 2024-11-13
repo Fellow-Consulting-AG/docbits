@@ -197,5 +197,6 @@
     * [Portal do Fornecedor](admin-section/setup/portal-do-fornecedor.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
-* [Architecture](architecture.md)
+* [Architecture](architecture/README.md)
+  * [DocBits Informações sobre Cliente On-Premise](architecture/docbits-informacoes-sobre-cliente-on-premise.md)
 * [Infraestrutura Infor](infraestrutura-infor.md)
