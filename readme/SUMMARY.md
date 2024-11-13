@@ -210,4 +210,5 @@
     * [Portail Fournisseur](admin-section/setup/portail-fournisseur.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
+* [Architecture](architecture.md)
 * [Infrastructure Infor](infrastructure-infor.md)
