@@ -18,8 +18,8 @@ The access control panel allows the admin to manage user groups and their respec
 
 1. Navigate to **Settings**.
 2. Select Document **Processing**.
-3. Select **Module**
-4. Activate **Access Control** by enabling the slider
+3. Select **Module.**
+4. Activate **Access Control** by enabling the slider.
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control3.png" alt=""><figcaption></figcaption></figure>
 
@@ -30,7 +30,7 @@ The access control panel allows the admin to manage user groups and their respec
 3. Select **Groups, Users and Permissions.**
 4. Select **Groups and Permissions**.
 5. To manage permissions for a group, such as PROCUREMENT\_DIRECTOR, click the three dots on the right side of the screen.
-6. Select View Access Control.
+6. Select **View Access Control**.
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control1 (1).png" alt=""><figcaption></figcaption></figure>
 
