@@ -16,8 +16,8 @@ Le panneau de contrôle d'accès permet à l'administrateur de gérer les groupe
 
 1. Naviguez vers **Paramètres**.
 2. Sélectionnez **Traitement des documents**.
-3. Sélectionnez **Module**
-4. Activez le **Contrôle d'accès** en activant le curseur
+3. Sélectionnez **Module.**
+4. Activez le **Contrôle d'accès** en activant le curseur.
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control3_fr.png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +28,7 @@ Le panneau de contrôle d'accès permet à l'administrateur de gérer les groupe
 3. Sélectionnez **Groupes, Utilisateurs et Autorisations.**
 4. Sélectionnez **Groupes et Autorisations**.
 5. Pour gérer les autorisations d'un groupe, tel que PROCUREMENT\_DIRECTOR, cliquez sur les trois points sur le côté droit de l'écran.
-6. Sélectionnez Voir le Contrôle d'Accès
+6. Sélectionnez **Voir le Contrôle d'Accès.**
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control_fr.png" alt=""><figcaption></figcaption></figure>
 
