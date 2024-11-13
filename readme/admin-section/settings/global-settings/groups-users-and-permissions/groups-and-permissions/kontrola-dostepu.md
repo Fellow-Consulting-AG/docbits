@@ -12,12 +12,21 @@ Panel kontroli dostępu pozwala administratorowi zarządzać grupami użytkownik
 * **Uprawnienia na Poziomie Pola**: Czy grupa może czytać, pisać lub przeglądać określone pola w dokumencie.
 * **Uprawnienia do Działań**: Jakie działania grupa może wykonywać, takie jak edytowanie, usuwanie, masowa aktualizacja i zatwierdzanie dokumentów.
 
+## Aktywacja
+
+1. Przejdź do **Ustawień**.
+2. Wybierz **Przetwarzanie Dokumentów**.
+3. Wybierz **Moduł**.
+4. Aktywuj **Kontrolę Dostępu**, włączając suwak.
+
 ## **Uzyskiwanie Dostępu do Ustawień Grupy**
 
 1. Przejdź do **Ustawienia**.
-2. Wybierz **Grupy i Uprawnienia**.
-3. Aby zarządzać uprawnieniami dla grupy, takiej jak PROCUREMENT\_DIRECTOR, kliknij trzy kropki po prawej stronie ekranu.
-4. Wybierz Zobacz Kontrolę Dostępu
+2. Przejdź do **Ustawień Globalnych**.
+3. Wybierz **Grupy, Użytkownicy i Uprawnienia**.
+4. Wybierz **Grupy i Uprawnienia**.
+5. Aby zarządzać uprawnieniami dla grupy, takiej jak PROCUREMENT\_DIRECTOR, kliknij trzy kropki po prawej stronie ekranu.
+6. Wybierz Zobacz **Kontrolę Dostępu**.
 
 ## Konfigurowanie Uprawnień dla Grup
 
