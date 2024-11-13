@@ -210,5 +210,6 @@
     * [Portail Fournisseur](admin-section/setup/portail-fournisseur.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
-* [Architecture](architecture.md)
+* [Architecture](architecture/README.md)
+  * [DocBits Infor sur le client sur site](architecture/docbits-infor-sur-le-client-sur-site.md)
 * [Infrastructure Infor](infrastructure-infor.md)
