@@ -12,12 +12,23 @@ Das Zugangskontrollpanel ermöglicht es dem Administrator, Benutzergruppen und d
 * **Feldberechtigungen**: Ob die Gruppe bestimmte Felder innerhalb eines Dokuments lesen, schreiben oder anzeigen kann.
 * **Aktionsberechtigungen**: Welche Aktionen die Gruppe durchführen kann, wie z. B. Dokumente bearbeiten, löschen, massenaktualisieren und genehmigen.
 
+## Aktivierung
+
+1. Navigieren Sie zu **Einstellungen.**
+2. Wählen Sie **Dokumentenverarbeitung**.
+3. Wählen Sie **Module**
+4. Aktivieren Sie die **Zugriffskontrolle**, indem Sie den Schieberegler aktivieren
+
+<figure><img src="../../../../../.gitbook/assets/Access-Control3_de.png" alt=""><figcaption></figcaption></figure>
+
 ## **Zugang auf Gruppeneinstellungen**
 
 1. Navigieren Sie zu **Einstellungen**.
-2. Wählen Sie **Gruppen und Berechtigungen**.
-3. Um die Berechtigungen für eine Gruppe, wie z. B. PROCUREMENT\_DIRECTOR, zu verwalten, klicken Sie auf die drei Punkte auf der rechten Seite des Bildschirms.
-4. Wählen Sie Ansicht Zugangskontrolle
+2. Gehen Sie zu **Globale Einstellungen**.
+3. Wählen Sie **Gruppen, Benutzer und Berechtigungen**.
+4. Wählen Sie **Gruppen und Berechtigungen**.
+5. Um die Berechtigungen für eine Gruppe, wie z. B. PROCUREMENT\_DIRECTOR, zu verwalten, klicken Sie auf die drei Punkte auf der rechten Seite des Bildschirms.
+6. Wählen Sie Ansicht Zugangskontrolle
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control1_de.png" alt=""><figcaption></figcaption></figure>
 
