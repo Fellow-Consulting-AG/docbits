@@ -212,3 +212,4 @@
     * [Portal de Proveedores](admin-section/setup/portal-de-proveedores.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
+* [Infraestructura de Infor](infraestructura-de-infor.md)
