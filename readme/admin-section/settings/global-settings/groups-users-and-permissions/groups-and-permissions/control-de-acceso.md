@@ -28,7 +28,7 @@ El panel de control de acceso permite al administrador gestionar grupos de usuar
 3. Selecciona **Grupos, Usuarios y Permisos**.
 4. Selecciona **Grupos y Permisos**.
 5. Para gestionar permisos para un grupo, como PROCUREMENT\_DIRECTOR, haz clic en los tres puntos en el lado derecho de la pantalla.
-6. Selecciona Ver Control de Acceso
+6. Selecciona **Ver Control de Acceso.**
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control_es.png" alt=""><figcaption></figcaption></figure>
 
