@@ -12,12 +12,25 @@ The access control panel allows the admin to manage user groups and their respec
 * **Field-Level Permissions**: Whether the group can read, write, or view certain fields within a document.
 * **Action Permissions**: What actions the group can perform, such as edit, delete, mass update, and approve documents.
 
+
+
+## Activation
+
+1. Navigate to **Settings**.
+2. Select Document **Processing**.
+3. Select **Module**
+4. Activate **Access Control** by enabling the slider
+
+<figure><img src="../../../../../.gitbook/assets/Access-Control3.png" alt=""><figcaption></figcaption></figure>
+
 ## Accessing Group Settings
 
 1. Navigate to **Settings**.
-2. Select **Groups and Permissions**.
-3. To manage permissions for a group, such as PROCUREMENT\_DIRECTOR, click the three dots on the right side of the screen.
-4. Select View Access Control
+2. Go to **Global Settings.**
+3. Select **Groups, Users and Permissions.**
+4. Select **Groups and Permissions**.
+5. To manage permissions for a group, such as PROCUREMENT\_DIRECTOR, click the three dots on the right side of the screen.
+6. Select View Access Control.
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control1 (1).png" alt=""><figcaption></figcaption></figure>
 
