@@ -212,5 +212,6 @@
     * [Portal de Proveedores](admin-section/setup/portal-de-proveedores.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
-* [Architecture](architecture.md)
+* [Architecture](architecture/README.md)
+  * [DocBits Infor Cliente On Premise](architecture/docbits-infor-cliente-on-premise.md)
 * [Infraestructura de Infor](infraestructura-de-infor.md)
