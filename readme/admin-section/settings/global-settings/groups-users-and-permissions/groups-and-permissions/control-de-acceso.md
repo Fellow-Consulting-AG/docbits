@@ -12,12 +12,23 @@ El panel de control de acceso permite al administrador gestionar grupos de usuar
 * **Permisos a Nivel de Campo**: Si el grupo puede leer, escribir o ver ciertos campos dentro de un documento.
 * **Permisos de Acción**: Qué acciones puede realizar el grupo, como editar, eliminar, actualizar en masa y aprobar documentos.
 
+## Activación
+
+1. Navega a **Ajustes**.
+2. Selecciona **Procesamiento de Documentos**.
+3. Selecciona **Módulo.**
+4. Activa el **Control de Acceso** habilitando el control deslizante.
+
+<figure><img src="../../../../../.gitbook/assets/Access-Control3_es.png" alt=""><figcaption></figcaption></figure>
+
 ## **Accediendo a la Configuración del Grupo**
 
-1. Navega a **Configuraciones**.
-2. Selecciona **Grupos y Permisos**.
-3. Para gestionar permisos para un grupo, como PROCUREMENT\_DIRECTOR, haz clic en los tres puntos en el lado derecho de la pantalla.
-4. Selecciona Ver Control de Acceso
+1. Navega a **Ajustes**.
+2. Navega a **Ajustes Globales**.
+3. Selecciona **Grupos, Usuarios y Permisos**.
+4. Selecciona **Grupos y Permisos**.
+5. Para gestionar permisos para un grupo, como PROCUREMENT\_DIRECTOR, haz clic en los tres puntos en el lado derecho de la pantalla.
+6. Selecciona Ver Control de Acceso
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control_es.png" alt=""><figcaption></figcaption></figure>
 
