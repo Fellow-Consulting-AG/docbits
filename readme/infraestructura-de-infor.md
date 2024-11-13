@@ -20,6 +20,10 @@ Solo permitimos conexiones aseguradas por HTTPS para comunicarnos con nuestros s
 
 ### Infor Cloud
 
+<figure><img src=".gitbook/assets/inforInrastructure2.webp" alt=""><figcaption></figcaption></figure>
+
 ### Infor On-Prem
 
 La flexibilidad es clave, y ofrecemos tanto soluciones en la nube como en las instalaciones. Con nuestra opción en las instalaciones, no es necesario abrir ningún puerto, asegurando que la seguridad de su red permanezca intacta. Ya sea que esté en la nube o manteniendo las cosas internas, lo tenemos cubierto.
+
+<figure><img src=".gitbook/assets/inforInfrastructure3.webp" alt=""><figcaption></figcaption></figure>
