@@ -12,12 +12,23 @@ Il pannello di controllo accessi consente all'amministratore di gestire i gruppi
 * **Permessi a Livello di Campo**: Se il gruppo può leggere, scrivere o visualizzare determinati campi all'interno di un documento.
 * **Permessi di Azione**: Quali azioni il gruppo può eseguire, come modificare, eliminare, aggiornare in massa e approvare documenti.
 
+## Attivazione
+
+1. Naviga su **Impostazioni**.
+2. Seleziona **Elaborazione Documenti**.
+3. Seleziona **Modulo.**
+4. Attiva **Controllo Accessi** abilitando il cursore.
+
+<figure><img src="../../../../../.gitbook/assets/Access-Control3_it.png" alt=""><figcaption></figcaption></figure>
+
 ## **Accesso alle Impostazioni del Gruppo**
 
 1. Navigare su **Impostazioni**.
-2. Selezionare **Gruppi e Permessi**.
-3. Per gestire i permessi di un gruppo, come PROCUREMENT\_DIRECTOR, fare clic sui tre punti sul lato destro dello schermo.
-4. Selezionare Visualizza Controllo Accessi
+2. Navigare **Impostazioni Globali**.
+3. Seleziona **Gruppi, Utenti e Permessi**.
+4. Selezionare **Gruppi e Permessi**.
+5. Per gestire i permessi di un gruppo, come PROCUREMENT\_DIRECTOR, fare clic sui tre punti sul lato destro dello schermo.
+6. Selezionare **Visualizza Controllo Accessi**.
 
 <figure><img src="../../../../../.gitbook/assets/Access-Control_it.png" alt=""><figcaption></figcaption></figure>
 
