@@ -197,3 +197,4 @@
     * [Portal do Fornecedor](admin-section/setup/portal-do-fornecedor.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
+* [Infor Infrastructure](infor-infrastructure.md)
