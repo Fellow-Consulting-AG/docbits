@@ -213,5 +213,6 @@
     * [Lieferantenportal](admin-section/setup/lieferantenportal.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
+* [Architecture](architecture.md)
 * [Infor Infrastruktur](infor-infrastruktur.md)
 * [Version](version.md)
