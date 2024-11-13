@@ -16,17 +16,17 @@ O painel de controle de acesso permite que o administrador gerencie grupos de us
 
 1. Navegue até **Configurações**.
 2. Selecione **Processamento de Documentos**.
-3. Selecione **Módulo**
-4. Ative o **Controle de Acesso** ativando o controle deslizante
+3. Selecione **Módulo.**
+4. Ative o **Controle de Acesso** ativando o controle deslizante.
 
 ## **Acessando Configurações do Grupo**
 
 1. Navegue até **Configurações**.
-2. Vá para Configurações Globais.
-3. Selecione Grupos, Usuários e Permissões.
+2. Vá para **Configurações Globais**.
+3. Selecione **Grupos, Usuários e Permissões**.
 4. Selecione **Grupos e Permissões**.
 5. Para gerenciar permissões para um grupo, como PROCUREMENT\_DIRECTOR, clique nos três pontos no lado direito da tela.
-6. Selecione Visualizar Controle de Acesso
+6. Selecione Visualizar **Controle de Acesso**.
 
 ## Configurando Permissões para Grupos
 
