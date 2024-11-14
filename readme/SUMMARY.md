@@ -212,4 +212,5 @@
 * [Ressources and Support](ressources-and-support.md)
 * [Architecture](architecture/README.md)
   * [DocBits Infor sur le client sur site](architecture/docbits-infor-sur-le-client-sur-site.md)
+  * [Certifications](architecture/certifications.md)
 * [Infrastructure Infor](infrastructure-infor.md)
