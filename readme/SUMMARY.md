@@ -208,7 +208,7 @@
         * [LN](setup/testing/auto-accounting/ln.md)
         * [M3](setup/testing/auto-accounting/m3.md)
     * [Portale Fornitori](admin-section/setup/portale-fornitori.md)
-* [Partner Section](partner-section/README.md)
+* [Sezione Partner](partner-section/README.md)
   * [Automazione dei Test delle Fatture con DocBits](partner-section/automazione-dei-test-delle-fatture-con-docbits.md)
 * [Ressources and Support](ressources-and-support.md)
 * [Architettura](architettura/README.md)
