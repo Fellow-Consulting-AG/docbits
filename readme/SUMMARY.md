@@ -211,7 +211,7 @@
         * [LN](setup/testing/auto-accounting/ln.md)
         * [M3](setup/testing/auto-accounting/m3.md)
     * [Lieferantenportal](admin-section/setup/lieferantenportal.md)
-* [Partner Section](partner-section/README.md)
+* [Partnerbereich](partner-section/README.md)
   * [Rechnungsautomatisierungstests mit DocBits](partner-section/rechnungsautomatisierungstests-mit-docbits.md)
 * [Ressources and Support](ressources-and-support.md)
 * [Architektur](architektur/README.md)
