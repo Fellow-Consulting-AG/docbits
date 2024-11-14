@@ -16,7 +16,7 @@ In most organizations, only authorized people have access to user settings, usua
 
 ## Step-by-step instructions to add a new user:
 
-* **Access User Management:** Navigate to Settings - Global Settings - Groups, User and Permissions - User, where you can add new users.&#x20;
+* **Access User Management:** Navigate to Settings - Global Settings - Groups, User and Permissions - User, where you can add new users.
 * **Add new user:** In the user settings, click on “Add user”
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
@@ -25,16 +25,8 @@ In most organizations, only authorized people have access to user settings, usua
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
 
-* **Username:** Unique name for the user used to log in.&#x20;
-* **First Name and Last Name:** Name of the user.&#x20;
-* **Email Address:** The user's email address used for communications and notifications.&#x20;
-* **Password**: A password for the user that should comply with security policies.&#x20;
-* **User Role:** Set the user's role, e.g. B. Standard user or administrator.&#x20;
-
-
-
-
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2487" %}
-
-
+* **Username:** Unique name for the user used to log in.
+* **First Name and Last Name:** Name of the user.
+* **Email Address:** The user's email address used for communications and notifications.
+* **Password**: A password for the user that should comply with security policies.
+* **User Role:** Set the user's role, e.g. B. Standard user or administrator.
