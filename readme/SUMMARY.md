@@ -197,5 +197,6 @@
     * [Portal Dostawcy](admin-section/setup/portal-dostawcy.md)
 * [Partner Section](partner-section.md)
 * [Ressources and Support](ressources-and-support.md)
-* [Architecture](architecture.md)
+* [Architecture](architecture/README.md)
+  * [DocBits Infor na miejscu Klienta](architecture/docbits-infor-na-miejscu-klienta.md)
 * [Infor Infrastruktura](infor-infrastruktura.md)
