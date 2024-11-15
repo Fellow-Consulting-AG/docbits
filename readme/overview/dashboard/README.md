@@ -1,9 +1,5 @@
----
-description: DocBits Dashboard Guide
----
+# Pulpit
 
-# Dashboard
+Po zalogowaniu się za pomocą swoich danych uwierzytelniających zostaniesz przekierowany na stronę główną pulpitu DocBits. To jest główna strona, na której możesz zobaczyć i zarządzać wszystkimi swoimi zaimportowanymi dokumentami.
 
-After logging in with your credentials, you will be redirected to the DocBits Dashboard homepage. This is the main page where you can see and manage all your imported documents.
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dashboard.png" alt=""><figcaption></figcaption></figure>
