@@ -8,7 +8,7 @@ Si enfrentas algún desafío o tienes consultas al usar DocBits, por favor consu
 
 <figure><img src="../.gitbook/assets/user-support2.png" alt=""><figcaption></figcaption></figure>
 
-También puedes contactarnos a través de nuestra página de FELLOPRO:
+También puedes contactarnos a través de nuestra página de FELLOWPRO:
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
 
