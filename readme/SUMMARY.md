@@ -5,7 +5,7 @@
   * [Principais Recursos do DocBits](overview/key-features-of-docbits.md)
   * [Suporte ao Usuário](overview/user-support.md)
   * [Painel](overview/dashboard/README.md)
-    * [Dashboard Tools](overview/dashboard/dashboard-tools.md)
+    * [Ferramentas do Painel](overview/dashboard/dashboard-tools.md)
     * [Change Document Columns](overview/dashboard/change-document-columns.md)
     * [Dashboard Tools](overview/dashboard/dashboard-tools-1.md)
     * [Document Merging](overview/dashboard-1/document-merging.md)
