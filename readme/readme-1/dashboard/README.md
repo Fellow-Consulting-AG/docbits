@@ -1,9 +1,5 @@
----
-description: Guía del Tablero de DocBits
----
+# Panel
 
-# Tablero
+Después de iniciar sesión con tus credenciales, serás redirigido a la página de inicio del panel de control de DocBits. Esta es la página principal donde puedes ver y gestionar todos tus documentos importados.
 
-Después de iniciar sesión con sus credenciales, será redirigido a la página de inicio del Tablero de DocBits. Esta es la página principal donde puede ver y gestionar todos sus documentos importados.
-
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dashboard.png" alt=""><figcaption></figcaption></figure>

@@ -5,7 +5,7 @@
   * [Características principales de DocBits](readme-1/key-features-of-docbits.md)
   * [Soporte para usuarios](readme-1/user-support.md)
   * [Opciones de Configuración del Usuario](readme-1/opciones-de-configuracion-del-usuario.md)
-  * [Dashboard](readme-1/dashboard/README.md)
+  * [Panel](readme-1/dashboard/README.md)
     * [Herramientas del Dashboard](readme-1/dashboard/dashboard-tools.md)
     * [Cambiar columnas del documento](readme-1/dashboard/change-document-columns.md)
     * [Fusión de documentos](readme-1/dashboard/document-merging.md)
