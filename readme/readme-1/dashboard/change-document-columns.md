@@ -2,7 +2,7 @@
 
 **From the Dashboard, click on the Advanced Settings icon as shown below:**
 
-<figure><img src="../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/change-document-colums1.png" alt=""><figcaption></figcaption></figure>
 
 The following menu will then be displayed
 
