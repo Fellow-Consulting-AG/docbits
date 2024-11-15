@@ -8,10 +8,12 @@ Caso enfrente desafios ou tenha dúvidas ao usar o DocBits, consulte este manual
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Você também pode entrar em contato conosco por meio de nossa página FELLOPRO:
+Você também pode entrar em contato conosco por meio de nossa página FELLOWPRO:
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-07 um 16.50.45.png" alt=""><figcaption></figcaption></figure>
+Dentro da Tela de Validação, você pode criar tickets diretamente para o documento específico e incluir uma captura de tela do problema. Basta clicar no botão "Criar ticket", a janela de suporte se abre e você pode começar imediatamente.
 
-Na tela de Validação, você pode criar diretamente um Ticket e incluir uma captura de tela do problema.
+<figure><img src="../.gitbook/assets/user-support3.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/user-support4.png" alt=""><figcaption></figcaption></figure>
