@@ -1,4 +1,4 @@
-# Dashboard-Werkzeuge
+# Dashboard-Tools
 
 Rechts neben der Suchleiste finden Sie weitere Dashboard-Werkzeuge.
 
@@ -9,4 +9,19 @@ Rechts neben der Suchleiste finden Sie weitere Dashboard-Werkzeuge.
 * Analytik: Dies bietet Ihnen weitere Einblicke in die Dokumente, die Sie in DocBits hochgeladen haben.
 * Hochladen: Weitere Informationen zu diesem Thema im nächsten Abschnitt.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dashboard (1).png" alt=""><figcaption></figcaption></figure>
+
+Die erweiterten Einstellungen enthalten oft zusätzliche Konfigurationsoptionen und Funktionen, die spezifischere Anpassungen und Feinabstimmungen ermöglichen.
+
+<figure><img src="../../.gitbook/assets/dashboard-tools2.png" alt=""><figcaption></figcaption></figure>
+
+* Weitere Einstellungen
+* Tastenkombinationen
+* Importprotokoll
+* PO-Tabellenspalten für die Organisation festlegen
+* Dashboard-Sortierung nach Organisation festlegen
+* Dokumente nach Tag, Woche, Monat, Jahr oder allen filtern. Die Filterung bezieht sich auf den Zeitpunkt, zu dem das Dokument importiert wird.
+
+Auf den nächsten Seiten finden Sie weitere Informationen zu den einzelnen Einstellungen.
+
+<figure><img src="../../.gitbook/assets/Bildschirmfoto%202024-05-07%20um%2022.00.32.png" alt=""><figcaption></figcaption></figure>
