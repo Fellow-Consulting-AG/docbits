@@ -12,7 +12,7 @@ Puoi anche contattarci tramite la nostra pagina FELLOWPRO:
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
 
-All'interno dello schermo di convalida puoi creare direttamente un ticket e includere uno screenshot del problema.
+All'interno della Schermata di Validazione puoi creare direttamente ticket per il documento specifico e includere uno screenshot del problema. Basta fare clic sul pulsante "Crea ticket", si apre la finestra di supporto e puoi iniziare immediatamente.
 
 <figure><img src="../.gitbook/assets/user-support3.png" alt=""><figcaption></figcaption></figure>
 
