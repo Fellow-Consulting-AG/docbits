@@ -1,6 +1,8 @@
-# Funzionalità chiave di DocBits
+# Caratteristiche principali di DocBits
 
 DocBits è una soluzione di acquisizione documenti basata su cloud che sfrutta la potenza dell'Intelligenza Artificiale (AI) e del Machine Learning (ML) per riconoscere, classificare, analizzare ed estrarre informazioni da vari tipi di documenti, indipendentemente dal loro formato. Ecco uno sguardo più ravvicinato alle sue funzionalità chiave:
+
+<figure><img src="../.gitbook/assets/napkin-selection.svg" alt=""><figcaption></figcaption></figure>
 
 * Riconoscimento Documenti: DocBits utilizza algoritmi di intelligenza artificiale per identificare e riconoscere con precisione i documenti, che siano in forma cartacea o file elettronici.
 * Classificazione Documenti: Classifica i documenti in categorie rilevanti, facilitando l'organizzazione e il recupero.
