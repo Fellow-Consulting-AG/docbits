@@ -12,7 +12,7 @@ Sie können uns auch über unsere FELLOWPRO-Seite kontaktieren:
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
 
-Im Validierungsbildschirm können Sie direkt ein Ticket erstellen und einen Screenshot des Problems hinzufügen.
+Im Validierungsbildschirm können Sie direkt Tickets für das jeweilige Dokument erstellen und einen Screenshot des Problems beifügen. Klicken Sie einfach auf die Schaltfläche "Ticket erstellen", das Support-Fenster öffnet sich und Sie können sofort loslegen.
 
 <figure><img src="../.gitbook/assets/user-support3.png" alt=""><figcaption></figcaption></figure>
 
