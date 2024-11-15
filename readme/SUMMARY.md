@@ -5,7 +5,7 @@
   * [Kluczowe funkcje DocBits](overview/key-features-of-docbits.md)
   * [Wsparcie Użytkownika](overview/user-support.md)
   * [Pulpit](overview/dashboard/README.md)
-    * [Dashboard Tools](overview/dashboard/dashboard-tools.md)
+    * [Narzędzia pulpitu nawigacyjnego](overview/dashboard/dashboard-tools.md)
     * [Change Document Columns](overview/dashboard/change-document-columns.md)
     * [Dashboard Tools](overview/dashboard/dashboard-tools-1.md)
     * [Document Merging](overview/dashboard-1/document-merging.md)
