@@ -1,4 +1,4 @@
-# Wsparcie użytkownika
+# Wsparcie Użytkownika
 
 ### Wsparcie użytkownika <a href="#ikpwh4qbrq82" id="ikpwh4qbrq82"></a>
 
@@ -8,10 +8,12 @@ Jeśli napotkasz jakiekolwiek trudności lub masz pytania dotyczące korzystania
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Możesz również skontaktować się z nami za pośrednictwem naszej strony FELLOPRO:
+Możesz również skontaktować się z nami za pośrednictwem naszej strony FELLOWPRO:
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-07 um 16.50.45.png" alt=""><figcaption></figcaption></figure>
+W ekranie walidacji możesz bezpośrednio tworzyć zgłoszenia dla konkretnego dokumentu i dołączyć zrzut ekranu problemu. Po prostu kliknij przycisk "Utwórz zgłoszenie", otworzy się okno wsparcia i możesz od razu zacząć.
 
-W ekranie walidacji możesz bezpośrednio utworzyć zgłoszenie i dołączyć zrzut ekranu problemu.
+<figure><img src="../.gitbook/assets/user-support3.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/user-support4.png" alt=""><figcaption></figcaption></figure>

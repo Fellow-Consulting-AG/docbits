@@ -3,7 +3,7 @@
 * [DocBits](README.md)
 * [End User Section](<README (1).md>)
   * [Kluczowe funkcje DocBits](overview/key-features-of-docbits.md)
-  * [User Support](overview/user-support.md)
+  * [Wsparcie Użytkownika](overview/user-support.md)
   * [Dashboard](overview/dashboard/README.md)
     * [Dashboard Tools](overview/dashboard/dashboard-tools.md)
     * [Change Document Columns](overview/dashboard/change-document-columns.md)
