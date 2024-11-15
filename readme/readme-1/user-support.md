@@ -12,7 +12,7 @@ Vous pouvez également nous contacter via notre page FELLOWPRO:
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
 
-À l'intérieur de l'écran de validation, vous pouvez créer directement un ticket et inclure une capture d'écran du problème.
+Dans l'écran de validation, vous pouvez directement créer des tickets pour le document particulier et inclure une capture d'écran du problème. Il vous suffit de cliquer sur le bouton "Créer un ticket", la fenêtre de support s'ouvre et vous pouvez commencer immédiatement.
 
 <figure><img src="../.gitbook/assets/user-support3.png" alt=""><figcaption></figcaption></figure>
 
