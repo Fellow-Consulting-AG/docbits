@@ -9,4 +9,17 @@
 * Analytique : Cela vous fournit des informations supplémentaires sur les documents que vous avez téléchargés sur DocBits.
 * Téléverser : Plus d'informations sur ce sujet dans la section suivante.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dashboard.png" alt=""><figcaption></figcaption></figure>
+
+Les paramètres avancés contiennent souvent des options de configuration et des fonctions supplémentaires qui permettent des ajustements et un réglage plus spécifiques.
+
+<figure><img src="../../.gitbook/assets/dashboard-tools2.png" alt=""><figcaption></figcaption></figure>
+
+* Plus de paramètres
+* Raccourcis clavier
+* Journal d'importation
+* Définir les colonnes de la table PO pour l'organisation
+* Définir le tri du tableau de bord par organisation
+* Filtrer les documents par jour, semaine, mois, année ou tous. Le filtrage fait référence au moment où le document est importé
+
+Sur les pages suivantes, vous trouverez plus d'informations sur les paramètres individuels.
