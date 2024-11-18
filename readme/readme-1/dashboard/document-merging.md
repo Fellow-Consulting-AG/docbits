@@ -4,6 +4,8 @@ description: Documentar unir documentos
 
 # Unir Documentos
 
+## Visión general
+
 Unir documentos te permite combinar múltiples documentos.
 
 Primero, necesitas seleccionar los documentos que te gustaría unir. Esto se puede hacer seleccionando las casillas de verificación de los documentos. Una vez que hayas seleccionado los documentos, haz clic en el ícono con tres puntos.
