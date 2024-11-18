@@ -2,7 +2,7 @@
 
 Desde el Panel de control, haz clic en el icono de Configuración Avanzada como se muestra a continuación:
 
-<figure><img src="../../.gitbook/assets/change-document-colums1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/change-document-colums1 (1).png" alt=""><figcaption></figcaption></figure>
 
 El siguiente menú se mostrará:
 
