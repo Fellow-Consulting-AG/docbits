@@ -8,7 +8,7 @@
   * [Panel](readme-1/dashboard/README.md)
     * [Herramientas del Panel](readme-1/dashboard/dashboard-tools.md)
     * [Cambiar columnas del documento](readme-1/dashboard/change-document-columns.md)
-    * [Fusión de documentos](readme-1/dashboard/document-merging.md)
+    * [Unir Documentos](readme-1/dashboard/document-merging.md)
     * [Estado del documento](readme-1/dashboard/document-status.md)
     * [Filtrar documentos](readme-1/dashboard/filtering-documents.md)
     * [Registro de importación](readme-1/dashboard/import-log.md)
