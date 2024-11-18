@@ -12,6 +12,8 @@ Primero, necesitas seleccionar los documentos que te gustaría unir. Esto se pue
 
 A continuación, se mostrará un menú, selecciona la opción "Unir" que se encuentra en la parte inferior.
 
+<figure><img src="../../.gitbook/assets/document-merging.png" alt=""><figcaption></figcaption></figure>
+
 ![](https://lh7-us.googleusercontent.com/TV2KGh2Q38KsO5Zi-O-GKp5v42Lam4WSj8I8Ia6KjVj2c4X6vce2nFt7yJYicRWmDwKOHZDxrAsfEYtMpN-9UD2mpJ9Sfs4ueb1AYAOjKngY25JKaeEBPzUwcbrylwQ4jj\_v-jkGZYLey9p9i0LfL-I)
 
 Unir documentos es una característica importante en un sistema de gestión de documentos que permite a los usuarios combinar múltiples documentos en un solo documento. Aquí hay algunas razones por las cuales unir documentos puede ser útil:
