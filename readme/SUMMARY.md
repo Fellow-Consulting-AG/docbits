@@ -8,7 +8,7 @@
     * [Ferramentas do Painel](overview/dashboard/dashboard-tools.md)
     * [Alterar Colunas do Documento](overview/dashboard/change-document-columns.md)
     * [Dashboard Tools](overview/dashboard/dashboard-tools-1.md)
-    * [Document Merging](overview/dashboard-1/document-merging.md)
+    * [Fusão de Documentos](overview/dashboard-1/document-merging.md)
     * [Document Status](overview/dashboard-1/document-status.md)
     * [Filtering Documents](overview/dashboard/filtering-documents.md)
     * [Import Log](overview/dashboard/import-log.md)
