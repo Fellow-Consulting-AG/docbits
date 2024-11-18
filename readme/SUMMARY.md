@@ -6,7 +6,7 @@
   * [Supporto utenti](readme-1/user-support.md)
   * [Dashboard](readme-1/dashboard/README.md)
     * [Strumenti del Dashboard](readme-1/dashboard/dashboard-tools.md)
-    * [Modifica colonne del documento](readme-1/dashboard/change-document-columns.md)
+    * [Modificare le Colonne del Documento](readme-1/dashboard/change-document-columns.md)
     * [Fusione di documenti](readme-1/dashboard/document-merging.md)
     * [Stato del documento](readme-1/dashboard/document-status.md)
     * [Filtraggio documenti](readme-1/dashboard/filtering-documents.md)
