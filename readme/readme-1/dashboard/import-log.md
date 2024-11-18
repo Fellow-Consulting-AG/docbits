@@ -4,7 +4,7 @@ If you would like to see a detailed log of all documents imported to your DocBit
 
 From your DocBits Dashboard, select the Advanced Settings option.
 
-<figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/change-document-colums1.png" alt=""><figcaption></figcaption></figure>
 
 After the Advanced Settings bar appears, select the Import Log button.
 
