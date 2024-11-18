@@ -4,7 +4,9 @@ description: Document merge documents
 
 # Document Merging
 
-## Document merging allows you to combine multiple documents.
+## Overview
+
+Document merging allows you to combine multiple documents.
 
 First, you need to select the documents you would like to merge. This can be done by selecting the checkboxes of the documents. Once you have selected the documents, click on the icon with three dots.
 
