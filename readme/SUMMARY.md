@@ -6,7 +6,7 @@
   * [Wsparcie Użytkownika](overview/user-support.md)
   * [Pulpit](overview/dashboard/README.md)
     * [Narzędzia pulpitu nawigacyjnego](overview/dashboard/dashboard-tools.md)
-    * [Change Document Columns](overview/dashboard/change-document-columns.md)
+    * [Zmiana Kolumn Dokumentu](overview/dashboard/change-document-columns.md)
     * [Dashboard Tools](overview/dashboard/dashboard-tools-1.md)
     * [Document Merging](overview/dashboard-1/document-merging.md)
     * [Document Status](overview/dashboard-1/document-status.md)
