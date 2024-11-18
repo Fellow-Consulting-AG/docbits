@@ -4,6 +4,8 @@ description: Dokumente zusammenführen
 
 # Dokumentenzusammenführung
 
+## Übersicht
+
 Die Dokumentenzusammenführung ermöglicht es Ihnen, mehrere Dokumente zu kombinieren.
 
 Zuerst müssen Sie die Dokumente auswählen, die Sie zusammenführen möchten. Dies kann durch Auswählen der Kontrollkästchen der Dokumente erfolgen. Sobald Sie die Dokumente ausgewählt haben, klicken Sie auf das Symbol mit den drei Punkten.
