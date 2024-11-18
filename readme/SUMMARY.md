@@ -6,7 +6,7 @@
   * [Suporte ao Usuário](overview/user-support.md)
   * [Painel](overview/dashboard/README.md)
     * [Ferramentas do Painel](overview/dashboard/dashboard-tools.md)
-    * [Modificare le Colonne del Documento](overview/dashboard/change-document-columns.md)
+    * [Alterar Colunas do Documento](overview/dashboard/change-document-columns.md)
     * [Dashboard Tools](overview/dashboard/dashboard-tools-1.md)
     * [Document Merging](overview/dashboard-1/document-merging.md)
     * [Document Status](overview/dashboard-1/document-status.md)
