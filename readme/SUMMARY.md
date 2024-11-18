@@ -7,7 +7,7 @@
   * [Dashboard](readme-1/dashboard/README.md)
     * [Dashboard-Tools](readme-1/dashboard/dashboard-tools.md)
     * [Dokumentspalten ändern](readme-1/dashboard/change-document-columns.md)
-    * [Dokumentenfusion](readme-1/dashboard/document-merging.md)
+    * [Dokumentenzusammenführung](readme-1/dashboard/document-merging.md)
     * [Dokumentenstatus](readme-1/dashboard/document-status.md)
     * [Dokumente filtern](readme-1/dashboard/filtering-documents.md)
     * [Importprotokoll](readme-1/dashboard/import-log.md)
