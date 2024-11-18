@@ -12,6 +12,8 @@ Zuerst müssen Sie die Dokumente auswählen, die Sie zusammenführen möchten. D
 
 Es wird dann ein Menü angezeigt, wählen Sie die Option „Zusammenführen“, die sich unten befindet.
 
+<figure><img src="../../.gitbook/assets/document-merging.png" alt=""><figcaption></figcaption></figure>
+
 ![](https://lh7-us.googleusercontent.com/TV2KGh2Q38KsO5Zi-O-GKp5v42Lam4WSj8I8Ia6KjVj2c4X6vce2nFt7yJYicRWmDwKOHZDxrAsfEYtMpN-9UD2mpJ9Sfs4ueb1AYAOjKngY25JKaeEBPzUwcbrylwQ4jj\_v-jkGZYLey9p9i0LfL-I)
 
 Die Dokumentenzusammenführung ist eine wichtige Funktion in einem Dokumentenmanagementsystem, die es Benutzern ermöglicht, mehrere Dokumente zu einem einzigen Dokument zu kombinieren. Hier sind einige Gründe, warum die Dokumentenzusammenführung nützlich sein kann:
