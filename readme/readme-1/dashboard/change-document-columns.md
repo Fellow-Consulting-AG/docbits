@@ -4,7 +4,7 @@ Vom Dashboard aus klicken Sie auf das Symbol für erweiterte Einstellungen, wie 
 
 <figure><img src="../../.gitbook/assets/change-document-colums1.png" alt=""><figcaption></figcaption></figure>
 
-Es wird dann das folgende Menü angezeigt
+Es wird dann das folgende Menü angezeigt:
 
 ![Erweitertes Einstellungsmenü](https://lh7-us.googleusercontent.com/wWt5QbmwZf44enmOoLcofh6SvyYPiHTav9OiEog\_m2xtnty6X73pFlhfdM9aglx89\_pfbiACZx5BejagV-wAKwlDTuGoGNu5jgbcZ5djrZ\_h1IgGp-8uaq8UHY-umjrs96hb4FZOzHFzdLasg2F\_ftw)
 
