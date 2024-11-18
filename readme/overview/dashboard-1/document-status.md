@@ -1,19 +1,19 @@
-# Document Status
+# Status do Documento
 
-If you’re using DocBits software for document processing, it’s essential to understand the different document statuses that your files can have. Here’s a complete list of all the possible document statuses in DocBits:
+Se você está usando o software DocBits para processamento de documentos, é essencial entender os diferentes status que seus arquivos podem ter. Aqui está uma lista completa de todos os possíveis status de documentos no DocBits:
 
-* WatchDog Start: The Watchdog module is starting.
-* WatchDog Split: The document is being split in Watchdog.
-* WatchDog Upload: The document is being uploaded in Watchdog.
-* Upload: The document is being uploaded.
-* OCR: Optical Character Recognition (OCR) is currently running on the document.
-* Classification: The document is being classified.
-* Zugferd import: A Zugferd document is being imported.
-* Ready for Validation: The document is ready for validation.
-* Zugferd export: A Zugferd document is being exported.
-* Workflow: A workflow is currently running with this document.
-* Pending approval: The document needs to be approved.
-* Pending second approval: The document needs to be approved a second time.
-* Auto Accounting: Automatic accounting is running.
-* Export: The document is being exported.
-* Error: An error occurred in the document.
+* WatchDog Start: O módulo Watchdog está iniciando.
+* WatchDog Split: O documento está sendo dividido no Watchdog.
+* WatchDog Upload: O documento está sendo carregado no Watchdog.
+* Upload: O documento está sendo carregado.
+* OCR: O Reconhecimento Óptico de Caracteres (OCR) está sendo executado no documento.
+* Classification: O documento está sendo classificado.
+* Zugferd import: Um documento Zugferd está sendo importado.
+* Ready for Validation: O documento está pronto para validação.
+* Zugferd export: Um documento Zugferd está sendo exportado.
+* Workflow: Um fluxo de trabalho está sendo executado com este documento.
+* Pending approval: O documento precisa ser aprovado.
+* Pending second approval: O documento precisa ser aprovado uma segunda vez.
+* Auto Accounting: A contabilidade automática está sendo executada.
+* Export: O documento está sendo exportado.
+* Error: Ocorreu um erro no documento.
