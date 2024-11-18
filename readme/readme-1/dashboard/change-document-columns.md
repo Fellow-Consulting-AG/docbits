@@ -2,7 +2,7 @@
 
 Depuis le tableau de bord, cliquez sur l'icône Paramètres avancés comme indiqué ci-dessous:
 
-<figure><img src="../../.gitbook/assets/change-document-colums1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/change-document-colums1 (1).png" alt=""><figcaption></figcaption></figure>
 
 Le menu suivant sera alors affiché:
 
