@@ -1,6 +1,6 @@
 # Dokumentspalten ändern
 
-Vom Dashboard aus klicken Sie auf das Symbol für erweiterte Einstellungen, wie unten dargestellt
+Vom Dashboard aus klicken Sie auf das Symbol für erweiterte Einstellungen, wie unten dargestellt:
 
 <figure><img src="../../.gitbook/assets/change-document-colums1.png" alt=""><figcaption></figcaption></figure>
 
