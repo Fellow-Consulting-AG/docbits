@@ -8,7 +8,7 @@
     * [Narzędzia pulpitu nawigacyjnego](overview/dashboard/dashboard-tools.md)
     * [Zmiana Kolumn Dokumentu](overview/dashboard/change-document-columns.md)
     * [Dashboard Tools](overview/dashboard/dashboard-tools-1.md)
-    * [Document Merging](overview/dashboard-1/document-merging.md)
+    * [Scalanie Dokumentów](overview/dashboard-1/document-merging.md)
     * [Document Status](overview/dashboard-1/document-status.md)
     * [Filtering Documents](overview/dashboard/filtering-documents.md)
     * [Import Log](overview/dashboard/import-log.md)
