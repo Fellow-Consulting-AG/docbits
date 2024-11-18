@@ -1,8 +1,8 @@
-# Filtraggio dei Documenti
+# Filtraggio documenti
 
 Se stai cercando un documento o documenti specifici, hai a disposizione le seguenti opzioni. All'interno della barra di ricerca ti abbiamo fornito vari strumenti per trovare il documento che stai cercando, per accedervi, seleziona l'icona seguente.
 
-![](https://lh7-us.googleusercontent.com/xnBIXRfPVGNAZoAEJzzK-hetgB9cuKdcQBcISfhU\_7jL\_j5v4POnhtsOcDCvTPnk4MsoG-dcRQuQ1uzdEjaF758gko1QsBxr-45MXc70d1og4LAcnadyICPsbffEDICvyZl7sHGTJRwRB3uM77vOWN8)
+<figure><img src="../../.gitbook/assets/filtering-documents.png" alt=""><figcaption></figcaption></figure>
 
 Le seguenti opzioni di filtro diventeranno disponibili per te.
 
