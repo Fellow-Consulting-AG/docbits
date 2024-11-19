@@ -16,7 +16,7 @@
     * [Aufgabenzähler](readme-1/dashboard/task-counter.md)
     * [Validierte extrahierte Felder](readme-1/dashboard/validated-extracted-fields.md)
     * [Anzeigen von Duplikaten](readme-1/dashboard/anzeigen-von-duplikaten.md)
-    * [Best Practices](readme-1/dashboard/best-practices.md)
+    * [Best Practice](readme-1/dashboard/best-practices.md)
     * [Fehlerbehebung](readme-1/dashboard/fehlerbehebung.md)
   * [Aufgaben](readme-1/aufgaben.md)
   * [Advance Shipment Dashboard](readme-1/advance-shipment-dashboard.md)
