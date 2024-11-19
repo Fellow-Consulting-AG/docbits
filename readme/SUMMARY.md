@@ -11,7 +11,7 @@
     * [Fusão de Documentos](overview/dashboard-1/document-merging.md)
     * [Status do Documento](overview/dashboard-1/document-status.md)
     * [Filtrando Documentos](overview/dashboard/filtering-documents.md)
-    * [Import Log](overview/dashboard/import-log.md)
+    * [Registro de Importação](overview/dashboard/import-log.md)
     * [Leave with ESC](overview/dashboard/leave-with-esc.md)
     * [Overview of Uploaded Documents](overview/dashboard/overview-of-uploaded-documents.md)
     * [Task Counter](overview/dashboard/task-counter.md)
