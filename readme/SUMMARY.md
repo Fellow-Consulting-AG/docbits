@@ -12,7 +12,7 @@
     * [Status Dokumentu](overview/dashboard-1/document-status.md)
     * [Filtrowanie Dokumentów](overview/dashboard/filtering-documents.md)
     * [Dziennik Importu](overview/dashboard/import-log.md)
-    * [Leave with ESC](overview/dashboard/leave-with-esc.md)
+    * [Wyjdź za pomocą ESC](overview/dashboard/leave-with-esc.md)
     * [Overview of Uploaded Documents](overview/dashboard/overview-of-uploaded-documents.md)
     * [Task Counter](overview/dashboard/task-counter.md)
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)

@@ -1,5 +1,3 @@
-# Leave with ESC
+# Wyjdź za pomocą ESC
 
-While navigating your documents in DocBits, if you would like to return to the main area of the Dashboard, you can simply press the escape (ESC) button on your keyboard and you will be returned to the main Dashboard menu (on the page which you entered the document you just exited from).
-
-
+Podczas przeglądania dokumentów w DocBits, jeśli chcesz wrócić do głównego obszaru Panelu, możesz po prostu nacisnąć przycisk escape (ESC) na klawiaturze i zostaniesz przeniesiony do głównego menu Panelu (na stronę, z której wszedłeś do dokumentu, który właśnie opuściłeś).
