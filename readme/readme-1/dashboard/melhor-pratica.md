@@ -1,4 +1,4 @@
-# Best Practice
+# Melhor Prática
 
 ## Configurar um painel que se alinhe com as rotinas diárias dos usuários requer planejamento e implementação cuidadosos.
 
