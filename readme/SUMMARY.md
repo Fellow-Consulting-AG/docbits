@@ -13,7 +13,7 @@
     * [Filtrowanie Dokumentów](overview/dashboard/filtering-documents.md)
     * [Dziennik Importu](overview/dashboard/import-log.md)
     * [Wyjdź za pomocą ESC](overview/dashboard/leave-with-esc.md)
-    * [Overview of Uploaded Documents](overview/dashboard/overview-of-uploaded-documents.md)
+    * [Przegląd Przesłanych Dokumentów](overview/dashboard/overview-of-uploaded-documents.md)
     * [Task Counter](overview/dashboard/task-counter.md)
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
     * [Wyświetlanie zduplikowanych dokumentów](readme-1/dashboard/wyswietlanie-zduplikowanych-dokumentow.md)
