@@ -14,7 +14,7 @@
     * [Dziennik Importu](overview/dashboard/import-log.md)
     * [Wyjdź za pomocą ESC](overview/dashboard/leave-with-esc.md)
     * [Przegląd Przesłanych Dokumentów](overview/dashboard/overview-of-uploaded-documents.md)
-    * [Task Counter](overview/dashboard/task-counter.md)
+    * [Licznik Zadań](overview/dashboard/task-counter.md)
     * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
     * [Wyświetlanie zduplikowanych dokumentów](readme-1/dashboard/wyswietlanie-zduplikowanych-dokumentow.md)
   * [Zadania](readme-1/zadania.md)
