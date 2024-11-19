@@ -15,7 +15,7 @@
     * [Sair com ESC](overview/dashboard/leave-with-esc.md)
     * [Visão Geral dos Documentos Enviados](overview/dashboard/overview-of-uploaded-documents.md)
     * [Contador de Tarefas](overview/dashboard/task-counter.md)
-    * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
+    * [Campos Extraídos Validados](overview/dashboard/validated-extracted-fields.md)
     * [Visualizando Documentos Duplicados](readme-1/dashboard/visualizando-documentos-duplicados.md)
   * [Tarefas](readme-1/tarefas.md)
   * [Painel de Envio Antecipado](readme-1/painel-de-envio-antecipado.md)
