@@ -15,7 +15,7 @@
     * [Wyjdź za pomocą ESC](overview/dashboard/leave-with-esc.md)
     * [Przegląd Przesłanych Dokumentów](overview/dashboard/overview-of-uploaded-documents.md)
     * [Licznik Zadań](overview/dashboard/task-counter.md)
-    * [Validated Extracted Fields](overview/dashboard/validated-extracted-fields.md)
+    * [Zweryfikowane Wyodrębnione Pola](overview/dashboard/validated-extracted-fields.md)
     * [Wyświetlanie zduplikowanych dokumentów](readme-1/dashboard/wyswietlanie-zduplikowanych-dokumentow.md)
   * [Zadania](readme-1/zadania.md)
   * [Panel Kontroli Wysyłek Zaawansowanych](readme-1/panel-kontroli-wysylek-zaawansowanych.md)
