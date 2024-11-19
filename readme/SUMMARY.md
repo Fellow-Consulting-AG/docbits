@@ -7,7 +7,6 @@
   * [Painel](overview/dashboard/README.md)
     * [Ferramentas do Painel](overview/dashboard/dashboard-tools.md)
     * [Alterar Colunas do Documento](overview/dashboard/change-document-columns.md)
-    * [Dashboard Tools](overview/dashboard/dashboard-tools-1.md)
     * [Fusão de Documentos](overview/dashboard-1/document-merging.md)
     * [Status do Documento](overview/dashboard-1/document-status.md)
     * [Filtrando Documentos](overview/dashboard/filtering-documents.md)
