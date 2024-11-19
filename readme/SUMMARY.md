@@ -7,7 +7,6 @@
   * [Pulpit](overview/dashboard/README.md)
     * [Narzędzia pulpitu nawigacyjnego](overview/dashboard/dashboard-tools.md)
     * [Zmiana Kolumn Dokumentu](overview/dashboard/change-document-columns.md)
-    * [Dashboard Tools](overview/dashboard/dashboard-tools-1.md)
     * [Scalanie Dokumentów](overview/dashboard-1/document-merging.md)
     * [Status Dokumentu](overview/dashboard-1/document-status.md)
     * [Filtrowanie Dokumentów](overview/dashboard/filtering-documents.md)
