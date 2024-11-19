@@ -1,13 +1,13 @@
-# Task Counter
+# Contador de Tarefas
 
-The task counter is located in the upper-right corner of the Dashboard home page.
+O contador de tarefas está localizado no canto superior direito da página inicial do Dashboard.
 
-<figure><img src="../../../.gitbook/assets/TC_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/task-counter1.png" alt=""><figcaption></figcaption></figure>
 
-This is where you can see how many documents are in your queue for processing
+É aqui que você pode ver quantos documentos estão na sua fila para processamento
 
-<figure><img src="../../../.gitbook/assets/TC_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/task-counter2.png" alt="" width="563"><figcaption></figcaption></figure>
 
-and how many documents are now ready for validation.
+e quantos documentos estão agora prontos para validação.
 
-<figure><img src="../../../.gitbook/assets/TC_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/task-counter3.png" alt="" width="563"><figcaption></figcaption></figure>
