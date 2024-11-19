@@ -16,6 +16,7 @@
     * [Contador de Tarefas](overview/dashboard/task-counter.md)
     * [Campos Extraídos Validados](overview/dashboard/validated-extracted-fields.md)
     * [Visualizando Documentos Duplicados](readme-1/dashboard/visualizando-documentos-duplicados.md)
+    * [Best Practice](readme-1/dashboard/best-practice.md)
   * [Tarefas](readme-1/tarefas.md)
   * [Painel de Envio Antecipado](readme-1/painel-de-envio-antecipado.md)
   * [Pedido de Compra](readme-1/pedido-de-compra.md)
