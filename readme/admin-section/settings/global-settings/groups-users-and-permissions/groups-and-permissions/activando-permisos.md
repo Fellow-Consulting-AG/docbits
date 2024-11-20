@@ -8,10 +8,9 @@ Habilitar o deshabilitar el sistema de permisos usando el interruptor tiene vari
 
 * Cuando el sistema de permisos está habilitado, se aplican los permisos de acceso para usuarios y grupos.
 * A los usuarios solo se les concede acceso a los recursos a los que están explícitamente autorizados a acceder según los permisos asignados.
+* Los administradores pueden gestionar los permisos para usuarios individuales y grupos y asegurarse de que solo las personas autorizadas puedan ver o editar los datos.
 
 <figure><img src="../../../../../.gitbook/assets/activation-permissions2.png" alt=""><figcaption></figcaption></figure>
-
-* Los administradores pueden gestionar los permisos para usuarios individuales y grupos y asegurarse de que solo las personas autorizadas puedan ver o editar los datos.
 
 ## Deshabilitando el sistema de permisos:
 
