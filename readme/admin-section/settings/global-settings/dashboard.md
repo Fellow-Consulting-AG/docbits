@@ -19,11 +19,11 @@ Die Dashboard-Einstellungen sind darauf ausgelegt, Administratoren dabei zu helf
 
 * **Zuweisen an:** Diese Funktion ermöglicht es Benutzern, Berechtigungen für die Zuweisung von Dokumenten zu definieren
   * **Only for Admin:** Nur Admin-Benutzer können Dokumente zuweisen, unabhängig von den Berechtigungen, die nicht-Admin-Benutzern gewährt wurden.
-  * **All Users:** Alle Benutzer, die die erforderlichen Berechtigungen erhalten haben, können Dokumente zuweisen.
+  * **All Users:** Alle Benutzer, die die erforderlichen [Berechtigungen](groups-users-and-permissions/gruppen-und-berechtigungen/berechtigungen-aktivieren.md) erhalten haben, können Dokumente zuweisen.
 * **Neu starten:** Diese Funktion ermöglicht es Benutzern, Berechtigungen für den Neustart von Dokumenten zu definieren
   * **Only for Admin:** Nur Benutzer mit Admin-Rechten können Dokumente neu starten, unabhängig von den Berechtigungen, die nicht-Admin-Benutzern gewährt wurden.
   * **Only Admin and Assignee:** Nur Benutzer mit Admin-Rechten und der zugewiesene Benutzer können das Dokument neu starten.
-  * **All Users:** Alle Benutzer, die die erforderlichen Berechtigungen erhalten haben, können Dokumente neu starten.
+  * **All Users:** Alle Benutzer, die die erforderlichen [Berechtigungen](groups-users-and-permissions/gruppen-und-berechtigungen/berechtigungen-aktivieren.md) erhalten haben, können Dokumente neu starten.
 
 <figure><img src="../../../.gitbook/assets/dashboard-settings3_de.png" alt=""><figcaption></figcaption></figure>
 
