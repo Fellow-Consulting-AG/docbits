@@ -1,10 +1,8 @@
 # Berechtigungen aktivieren
 
-## Das Aktivieren oder Deaktivieren des Berechtigungssystems mit dem Schalter hat verschiedene Auswirkungen auf die Funktionalität in DocBits.
+Das Aktivieren oder Deaktivieren des Berechtigungssystems mit dem Schalter hat verschiedene Auswirkungen auf die Funktionalität in DocBits.
 
-### Hier sind einige Erklärungen, wie dies funktioniert:
-
-**Aktivieren des Berechtigungssystems:**
+## **Aktivieren des Berechtigungssystems:**
 
 <figure><img src="../../../../../.gitbook/assets/activation-permissions1.png" alt=""><figcaption></figcaption></figure>
 
@@ -15,7 +13,7 @@
 
 * Administratoren können die Berechtigungen für einzelne Benutzer und Gruppen verwalten und sicherstellen, dass nur autorisierte Personen die Daten anzeigen oder bearbeiten können.
 
-### Deaktivieren des Berechtigungssystems:
+## Deaktivieren des Berechtigungssystems:
 
 <figure><img src="../../../../../.gitbook/assets/activation-permissions3.png" alt=""><figcaption></figcaption></figure>
 
