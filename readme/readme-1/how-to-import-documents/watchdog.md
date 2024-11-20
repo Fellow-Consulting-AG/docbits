@@ -1,5 +1,9 @@
 # Watchdog
 
+**Version:**
+
+Version 2.0.9 is out now. Please update to the new version.
+
 **Installation and Settings**
 
 After downloading the WatchDog.exe file, search for Command Prompt → Run as administrator on your Windows device.
@@ -64,4 +68,3 @@ In the above menu you will have the following options for automatic starting:
 
 * Select Automatic, the service will start on boot
 * Automatic (Delayed Start), this will wait 2 minutes after boot to start the service
-
