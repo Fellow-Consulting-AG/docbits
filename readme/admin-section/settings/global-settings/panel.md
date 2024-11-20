@@ -6,7 +6,7 @@ La configuración del Panel está diseñada para ayudar a los administradores a 
 
 <figure><img src="../../../.gitbook/assets/dashboard-settings1_es.png" alt=""><figcaption></figcaption></figure>
 
-## Características y Opciones General
+## Características y opciones clave
 
 ### **Configuraciones Generales del Panel**:
 
