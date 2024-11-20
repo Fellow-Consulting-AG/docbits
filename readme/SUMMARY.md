@@ -93,7 +93,7 @@
           * [Privilegi di Amministratore](admin-section/settings/global-settings/groups-users-and-permissions/users/privilegi-di-amministratore.md)
       * [Integrazione](overview/settings/global-settings/integration/README.md)
         * [API Calls and Examples](overview/settings/global-settings/integration/api-calls-and-examples.md)
-      * [Cruscotto](admin-section/settings/global-settings/cruscotto.md)
+      * [Dashboard](admin-section/settings/global-settings/dashboard.md)
     * [Document Processing](admin-section/settings/document-processing/README.md)
       * [Documents Expiry](admin-section/settings/document-processing/documents-expiry.md)
       * [Import](admin-section/settings/document-processing/import.md)
