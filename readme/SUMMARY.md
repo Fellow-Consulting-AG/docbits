@@ -24,7 +24,7 @@
   * [Painel de Faturas](readme-1/painel-de-faturas.md)
   * [Painel de Pedidos de Envio](readme-1/painel-de-pedidos-de-envio.md)
   * [Opções de Configuração do Usuário](readme-1/opcoes-de-configuracao-do-usuario.md)
-  * [AI Table](readme-1/ai-table.md)
+  * [Tabela de IA](readme-1/ai-table.md)
   * [Tela de Validação](readme-1/tela-de-validacao.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
