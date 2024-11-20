@@ -19,11 +19,11 @@ Les paramètres du tableau de bord sont conçus pour aider les administrateurs �
 
 * **Assigner à:** Cette fonctionnalité permet aux utilisateurs de définir des autorisations pour l'assignation de documents
   * **Only for Admin:** Seuls les utilisateurs administrateurs peuvent assigner des documents, indépendamment des autorisations accordées aux utilisateurs non administrateurs.
-  * **All Users:** Tous les utilisateurs qui ont reçu les autorisations nécessaires peuvent assigner des documents.
+  * **All Users:** Tous les utilisateurs qui ont reçu les [autorisations](groups-users-and-permissions/groups-and-permissions/activation-des-autorisations.md) nécessaires peuvent assigner des documents.
 * **Redémarrer:** Cette fonctionnalité permet aux utilisateurs de définir des autorisations pour redémarrer des documents
   * **Only for Admin:** Seuls les utilisateurs avec des privilèges d'administrateur peuvent redémarrer des documents, indépendamment des autorisations accordées aux utilisateurs non administrateurs.
   * **Only Admin and Assignee:** Seuls les utilisateurs avec des privilèges d'administrateur et l'utilisateur assigné peuvent redémarrer le document.
-  * **All Users:** Tous les utilisateurs qui ont reçu les autorisations nécessaires peuvent redémarrer des documents.
+  * **All Users:** Tous les utilisateurs qui ont reçu les [autorisations](groups-users-and-permissions/groups-and-permissions/activation-des-autorisations.md) nécessaires peuvent redémarrer des documents.
 
 <figure><img src="../../../.gitbook/assets/dashboard-settings3_fr (1).png" alt=""><figcaption></figcaption></figure>
 
