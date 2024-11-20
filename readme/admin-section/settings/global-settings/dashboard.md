@@ -19,11 +19,11 @@ Le impostazioni del Dashboard sono progettate per aiutare gli amministratori a c
 
 * **Assegna a:** Questa funzione consente agli utenti di definire i permessi per l'assegnazione dei documenti
   * **Only for Admin:** Solo gli utenti amministratori possono assegnare documenti, indipendentemente dai permessi concessi agli utenti non amministratori.
-  * **All Users**: Tutti gli utenti a cui sono stati concessi i necessari permessi possono assegnare documenti.
+  * **All Users**: Tutti gli utenti a cui sono stati concessi i necessari [permessi](groups-users-and-permissions/groups-and-permissions/attivazione-dei-permessi.md) possono assegnare documenti.
 * **Riavvia:** Questa funzione consente agli utenti di definire i permessi per il riavvio dei documenti
   * **Only for Admin**: Solo gli utenti con privilegi di Admin possono riavviare documenti, indipendentemente dai permessi concessi agli utenti non amministratori.
   * **Only Admin and Assignee**: Solo gli utenti con privilegi di Admin e l'utente assegnato possono riavviare il documento.
-  * **All Users**: Tutti gli utenti a cui sono stati concessi i necessari permessi possono riavviare documenti.
+  * **All Users**: Tutti gli utenti a cui sono stati concessi i necessari [permessi](groups-users-and-permissions/groups-and-permissions/attivazione-dei-permessi.md) possono riavviare documenti.
 
 <figure><img src="../../../.gitbook/assets/dashboard-settings3_it.png" alt=""><figcaption></figcaption></figure>
 
