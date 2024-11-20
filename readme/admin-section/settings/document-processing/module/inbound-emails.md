@@ -10,11 +10,11 @@ To begin using inbound email for document processing, follow these steps:
 4. **Scroll to Document Type**: Scroll down until you find **Document Type**.
 5. **Activate Inbound Email**: Find **Inbound Email** and activate it by toggling the switch.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Configuring Inbound Email for Document Import
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 After activating inbound email, configure the settings to control how documents are imported. Here’s how:
 
@@ -30,7 +30,7 @@ After activating inbound email, configure the settings to control how documents 
 
 ## Predefined E-Mail(s)
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 When the **Import Document Only from Predefined E-Mail(s)** option is enabled, you can manage which email addresses are authorized to send documents to the inbound email.
 
@@ -45,7 +45,7 @@ With this setup, documents from unauthorized email addresses will be ignored, en
 
 ## **Reply to this email if import can not be done**
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you enable **Reply to this email if import can not be done**, an additional field appears where you can enter an email address. This email address will receive a notification if any document import attempt fails, allowing you to stay informed of any issues in the import process.
 

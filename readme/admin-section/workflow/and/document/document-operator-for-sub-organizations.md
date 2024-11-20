@@ -1,21 +1,35 @@
 # Document Operator for Sub-Organizations
 
-<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (42).png" alt="" width="563"><figcaption></figcaption></figure>
 
-## **Purpose:**
+## Purpose:
 
-This workflow card is designed to perform specific operations on documents that are associated with a particular sub-organization or department within a company. It ensures that document processing adheres to the policies and requirements specific to different segments of the organization.
+This workflow card evaluates whether a document is part of a specific sub-organization. Based on this evaluation, the workflow can either continue or trigger different actions depending on whether the document is associated with the specified sub-organization or not.
 
-## **Functionality:**
+## Components of the Card:
 
-* **Sub-Org Validation**: This card checks if a document is associated with a specified sub-organization.
-  * **Is (=)**: Confirms that the document is part of the specified sub-organization.
-  * **Is Not (≠)**: Ensures that the document is not part of the specified sub-organization.
+1. **Operator**
+   * **Description:** Defines whether the document must be part of the specified sub-organization or not.
+   * **Options:**
+     * **Is:** The document must be part of the specified sub-organization for the condition to be true.
+     * **Is Not:** The document must not be part of the specified sub-organization for the condition to be true.
+2. **Sub-org**
+   * **Description:** Specifies the sub-organization to which the document should be compared.
+   * **Detail:** This should match the sub-organization identifier. The comparison checks if the document belongs to the specified sub-organization.
 
-## **Usage**:
+## Functionality:
 
-This card is especially valuable for document managers and administrators who oversee document access and classification across various sub-organizations. By validating document associations with sub-orgs, teams can ensure accurate organizational alignment, enhance data security, and streamline document workflows.
+* **Condition Evaluation:** The system evaluates whether the document is part of the specified sub-organization. This evaluation checks the document's sub-organization against the one provided by the user.
+* **Action Execution:**
+  * **True Condition:**\
+    If the document is part of the specified sub-organization, the workflow continues with the true condition. This could trigger further actions, such as routing the document to a specific department, applying sub-organization-specific rules, or enabling features tailored to that sub-organization.
+  * **False Condition:**\
+    If the document is not part of the specified sub-organization, the workflow continues with the false condition. This allows for executing alternative actions, such as sending notifications, halting the workflow, or applying general rules outside of the sub-organization's scope.
+
+## Setup and Configuration:
+
+* Users configure the card by selecting the document field containing the document and specifying the sub-organization to check against. The operator is then chosen from a dropdown list to define whether the document must be part of or not part of the specified sub-organization. Finally, users set the continue condition (true or false), which dictates the next step in the workflow.
 
 ## Conclusion:
 
-The "Document Operator for Sub-Organizations" card is a crucial tool for managing documents in a structured and efficient manner, particularly in larger organizations where different departments have unique operational needs and compliance requirements. Documenting this card clearly in your ERP system's manual will help users understand its importance and implement it effectively within their workflows. If additional customization or functionality descriptions are needed, feel free to expand based on specific organizational needs and technical capabilities.
+The "Document in Sub-organization" workflow card is a helpful tool for automating actions based on whether a document belongs to a particular sub-organization. By ensuring documents are processed according to sub-organization-specific rules, this card improves workflow efficiency and ensures that actions are executed within the correct organizational context.

@@ -1,13 +1,44 @@
-# Compare two fields
+# Compare two Fields
 
-<figure><img src="../../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11).png" alt="" width="563"><figcaption></figcaption></figure>
 
-This Card is intended to compare whether the selected fields in a document are equal/not equal, greater than... or less than... .
+## **Purpose:**
 
-## Compare two fields with tolerance
+This workflow card is designed to automate actions by comparing the values of two specified document fields. It enables dynamic decision-making based on field data and ensures workflows execute based on comparisons between different document values.
 
-<figure><img src="https://lh7-us.googleusercontent.com/Qt90tjmjcLT32G-mRq3JeDC5rAL5Lkpk9jBhYFRoMF-jL0OPvJ4iKcmCz3FEn_L4WHysgTLRrlmr10ti4UJ1bojAQ57KBMXqySuykBFlQQWQ7dw7EJpr9Bw-th_1p4bA2_sGLUV6blAy1DblD4HFBVs" alt=""><figcaption></figcaption></figure>
+## **Components of the Card:**
 
-This card should automatically compare whether the fields, for example between net amount and gross amount, are within the specified tolerance. For example, you then enter the percentage of the VAT in the tolerance amount and enter percent in the tolerance type. The workflow can check whether the amount is correct.
+1. **Field Name (1)**
+   * **Description:** Specifies the first document field to be compared.
+   * **Detail:** This must match the exact label or identifier of the first field within the document.
+2. **Operator**
+   * **Description:** Defines the type of comparison to be performed between the two fields.
+   * **Options:**
+     * **Equals (=):** Checks if the values of the two fields are equal.
+     * **Not Equals (≠):** Ensures the values of the two fields are different.
+     * **Greater Than (>):** Confirms that the value of the first field is greater than the second field.
+     * **Greater or Equals (≥):** Validates that the value of the first field is equal to or greater than the second field.
+     * **Lesser Than (<):** Checks if the value of the first field is less than the second field.
+     * **Less or Equals (≤):** Ensures the value of the first field is less than or equal to the second field.
+3. **Field Name (2)**
+   * **Description:** Specifies the second document field to be compared against the first field.
+   * **Detail:** This should match the exact label or identifier of the second field within the document.
 
-Tolerance type: percent or value
+## **Functionality:**
+
+**Condition Evaluation:** The system evaluates whether the values in the two specified fields satisfy the comparison condition defined by the operator.
+
+**Action Execution:**
+
+* **True Condition:**\
+  If the values of the two fields match the comparison condition, the system triggers the associated actions. These actions could include updating records or triggering alerts.
+* **False Condition:**\
+  If the values of the two fields do not match the specified condition, alternative actions or no actions may be executed, depending on the configuration of the workflows.
+
+## **Setup and Configuration:**&#x20;
+
+* Users configure the card by selecting the two fields to be compared from a list of available fields in the system. The operator is selected from a dropdown list of available comparison options.
+
+## **Conclusion:**
+
+The "Compare Two Fields" workflow card is an essential tool for comparing data between fields within documents. By automating actions based on field comparisons, this card helps optimize decision-making, supports data validation, and enhances workflow automation.

@@ -1,28 +1,47 @@
 # Unit Price Combined with Fields
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.24.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (27).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Purpose:**
 
-&#x20;This DocBits card facilitates the detailed comparison of unit prices on invoices against those specified in the corresponding purchase orders. It enhances accuracy in financial reporting by ensuring adherence to agreed pricing.
+This workflow card is designed to evaluate whether the unit price, when combined with a specified field value (such as quantity, discount, or additional charges), meets a defined condition. The card compares the unit price and field value to a specified threshold to help ensure that pricing aligns with expectations. This comparison can trigger actions based on specific conditions, such as flagging discrepancies or automating approval processes in procurement or receiving workflows.
+
+## **Components of the Card:**
+
+1. **Field Name**
+   * **Description:** Specifies the document field that contains the value to be combined with the unit price.
+   * **Detail:** This field typically contains a quantity, discount, or other value that will be combined with the unit price for comparison. It is selected from a list of available fields in the system.
+2. **Operator**
+   * **Description:** Defines the condition that will be applied to the comparison between the combined value and the specified value.
+   * **Options:**
+     * **Equals (=):** Checks if the combined value of the unit price and field matches the specified value.
+     * **Not Equals (≠):** Ensures the combined value of the unit price and field is different from the specified value.
+     * **Greater Than (>):** Verifies if the combined value is greater than the specified value.
+     * **Greater or Equals (≥):** Checks if the combined value is greater than or equal to the specified value.
+     * **Lesser Than (<):** Verifies if the combined value is less than the specified value.
+     * **Lesser or Equals (≤):** Checks if the combined value is less than or equal to the specified value.
+3. **Value**
+   * **Description:** Specifies the value against which the combined unit price and field value will be compared.
+   * **Detail:** The value has to be a numeric value.
 
 ## **Functionality:**
 
-* **Unit Price Combined with Fields:** This card calculates the total amount for a specific item by combining the unit price with additional specified fields from the invoice. The combined total is then compared against the purchase order's recorded unit price for that item.
-* **Operator Value:** Users can set specific conditions for how the invoice's combined unit price should be compared to the purchase order's unit price. Available operators include:
-  * **Equals (=)**: Verifies that the combined invoice price matches the price on the purchase order.
-  * **Not Equal (≠)**: Ensures the combined invoice price does not match the price on the purchase order.
-  * **Greater Than (>)**: Checks if the combined invoice price exceeds the price on the purchase order.
-  * **Greater or Equals (≥)**: Checks if the combined invoice price equals to or exceeds the price on the purchase order.
-  * **Less Than (<)**: Confirms the combined invoice price is below the price on the purchase order.
-  * **Less or Equals (≤)**: Checks if the combined invoice price is below or equals to the price on the purchase order.
+* **Condition Evaluation:** The system evaluates the combined unit price and field value based on the selected operator and compares it to the specified value. The result of this evaluation determines whether the condition is true or false.
+* **Action Execution:**
+  * **True Condition:** If the comparison results in true (e.g., the combined value exceeds the specified value), the workflow proceeds with the true condition. This might trigger actions such as approval, document routing, or applying processing rules.
+  * **False Condition:** If the comparison results in false (e.g., the combined value does not meet the condition), the workflow proceeds with the false condition. This could trigger a notification, send the document for manual review, or stop the workflow.
 
-## **Usage:**&#x20;
+## **Setup and Configuration:**
 
-This card is particularly valuable for ERP Managers and financial accountants tasked with maintaining stringent control over purchasing and payment processes. It ensures that invoiced prices conform to those agreed upon in purchase orders, thereby mitigating financial discrepancies.
+* Users begin by selecting the document field(s) that contains the value(s) to be combined with the unit price. After selecting the field, they then choose the appropriate operator to define how the combined value will be compared to the specified value. Then they can set the value.
 
 ## **Example Scenario:**
 
-* An invoice presents a unit price of $50 for a product. The "field name" specified includes an additional handling fee of $5 per unit. When combined, the total per unit amounts to $55. Using the "Equals" operator with a value set to $55, the card verifies that the invoiced price aligns with the purchase order, ensuring agreement compliance.
+* An invoice lists 50 units of a product at $20 each, totaling $1000. The related document has a quantity field with a value of 10. Using the "Greater Than" operator, the card compares the combined value of the unit price ($20) and the quantity (10), which equals $200. The card checks if the combined value is greater than $150 (the specified value). Since the combined value of $200 is greater than the threshold of $150, the workflow proceeds to trigger an approval for the document.
 
-By deploying the "Compare with Purchase Order: Unit Price Combined" card, businesses can automate the verification of pricing accuracy against purchase orders, streamlining financial operations and safeguarding against overcharges.
+## **Conclusion:**
+
+The "Unit Price Combined with Fields" workflow card ensures that pricing conditions are met by evaluating the combined value of the unit price and a specified field. By automating this comparison, organizations can ensure consistency and flag discrepancies in pricing or quantities before proceeding with approval, helping to streamline procurement and financial processes.
+
+
+

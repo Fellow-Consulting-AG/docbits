@@ -4,9 +4,9 @@
 
 Should you face any challenges or have inquiries when using DocBits, please consult this user manual or reach out to our support team for help. Our commitment lies in providing a seamless experience for all users. Simply click on the support button in your DocBits app and you can create a support ticket.
 
-<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can also contact us via our FELLOWPRO page:
 
