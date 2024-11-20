@@ -1,16 +1,23 @@
 # Activando Permisos
 
-### Habilitar o deshabilitar el sistema de permisos utilizando el interruptor tiene varios efectos en la funcionalidad en DocBits.
+## Habilitar o deshabilitar el sistema de permisos utilizando el interruptor tiene varios efectos en la funcionalidad en DocBits.
 
-#### Aquí hay algunas explicaciones de cómo funciona esto:
+### Aquí hay algunas explicaciones de cómo funciona esto:
 
 **Habilitar el sistema de permisos:**
 
+<figure><img src="../../../../../.gitbook/assets/activation-permissions1.png" alt=""><figcaption></figcaption></figure>
+
 * Cuando el sistema de permisos está habilitado, se aplican los permisos de acceso para usuarios y grupos.
 * A los usuarios solo se les concede acceso a los recursos a los que están explícitamente autorizados a acceder según los permisos asignados.
+
+<figure><img src="../../../../../.gitbook/assets/activation-permissions2.png" alt=""><figcaption></figcaption></figure>
+
 * Los administradores pueden gestionar los permisos para usuarios y grupos individuales y asegurarse de que solo las personas autorizadas puedan ver o editar los datos.
 
-#### Desactivando el sistema de permisos:
+### Desactivando el sistema de permisos:
+
+<figure><img src="../../../../../.gitbook/assets/activation-permissions3.png" alt=""><figcaption></figcaption></figure>
 
 * Cuando el sistema de permisos está deshabilitado, se eliminan todos los permisos de acceso y los usuarios generalmente tienen acceso sin restricciones a todos los recursos.
 * Esto puede ser útil cuando se requiere colaboración abierta temporalmente sin las restricciones del control de acceso.

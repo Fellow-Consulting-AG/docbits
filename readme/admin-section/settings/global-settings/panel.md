@@ -20,10 +20,10 @@ La configuración del Panel está diseñada para ayudar a los administradores a 
 * **Asignar a:** Esta función permite a los usuarios definir permisos para la asignación de documentos
   * **Only for Admin:** Solo los usuarios administradores pueden asignar documentos, independientemente de los permisos otorgados a los usuarios no administradores.
   * **All Users:** Todos los usuarios que han recibido los permisos necesarios pueden asignar documentos.
-* **Reiniciar:** Esta función permite a los usuarios definir permisos para reiniciar documentos
+* **Reiniciar:** Esta función permite a los usuarios definir [permisos](groups-users-and-permissions/groups-and-permissions/activando-permisos.md) para reiniciar documentos
   * **Only for Admin:** Solo los usuarios con privilegios de Admin pueden reiniciar documentos, independientemente de los permisos otorgados a los usuarios no administradores.
   * **Only Admin and Assignee:** Solo los usuarios con privilegios de Admin y el usuario asignado pueden reiniciar el documento.
-  * **All Users:** Todos los usuarios que han recibido los permisos necesarios pueden reiniciar documentos.
+  * **All Users:** Todos los usuarios que han recibido los [permisos](groups-users-and-permissions/groups-and-permissions/activando-permisos.md) necesarios pueden reiniciar documentos.
 
 <figure><img src="../../../.gitbook/assets/dashboard-settings3_es.png" alt=""><figcaption></figcaption></figure>
 
