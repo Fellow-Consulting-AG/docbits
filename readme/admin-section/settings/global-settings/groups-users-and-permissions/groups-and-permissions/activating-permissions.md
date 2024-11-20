@@ -1,10 +1,8 @@
 # Activating Permissions
 
-## Enabling or disabling the permission system using the switch has various effects on the functionality in DocBits.
+Enabling or disabling the permission system using the switch has various effects on the functionality in DocBits.
 
-### Here are some explanations of how this works:
-
-**Enabling the permission system:**
+## **Enabling the permission system:**
 
 <figure><img src="../../../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
 
@@ -17,7 +15,7 @@
 
 
 
-### Deactivating the permission system:
+## Deactivating the permission system:
 
 <figure><img src="../../../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
 
