@@ -24,7 +24,7 @@
   * [Dashboard Faktur](readme-1/dashboard-faktur.md)
   * [Panel Zamówień Wysyłkowych](readme-1/panel-zamowien-wysylkowych.md)
   * [Opcje Konfiguracji Użytkownika](readme-1/opcje-konfiguracji-uzytkownika.md)
-  * [AI Table](readme-1/ai-table.md)
+  * [Tabela AI](readme-1/ai-table.md)
   * [Ekran walidacji](readme-1/ekran-walidacji.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
