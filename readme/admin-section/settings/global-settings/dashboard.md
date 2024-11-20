@@ -1,10 +1,10 @@
 # Dashboard
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.23.17.png" alt=""><figcaption></figcaption></figure>
-
 ## Overview
 
 The Dashboard settings are designed to help administrators control the data presentation and interaction within the DocBits dashboard. These settings determine what information is immediately available upon logging in, ensuring that users have quick access to the most relevant data for their tasks.
+
+<figure><img src="../../../.gitbook/assets/dashboard-settings0.png" alt=""><figcaption></figcaption></figure>
 
 ## Key Features and Options
 
@@ -12,8 +12,6 @@ The Dashboard settings are designed to help administrators control the data pres
 
 * **Reset filters**: Allows for the configuration of when dashboard filters should reset, such as after document upload, document restart, or document export. This helps in maintaining a clean slate for data viewing according to specific workflow stages.
 * **Dashboard data**: Controls whether the dashboard should automatically load data upon user access, which can help in reducing load times and improving user experience by only loading data when needed.
-
-
 
 <figure><img src="../../../.gitbook/assets/dashboard-settings.png" alt=""><figcaption></figcaption></figure>
 
@@ -29,14 +27,14 @@ The Dashboard settings are designed to help administrators control the data pres
 
 
 
-<figure><img src="../../../.gitbook/assets/dashboard-settings3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dashboard-settings3 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Filters**:
 
 * **Status filter style**: Determines the presentation style of status filters, which can be set to default or customized according to the operational focus of the users.
 * **Custom status filter**: Enables the creation and application of custom filters that can target specific document statuses like "New", "Validating", or "Exporting". This allows users to quickly access documents in specific stages of processing.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.23.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dashboard-settings3.png" alt=""><figcaption></figcaption></figure>
 
 ### Advance Shipment Dashboard**:**
 
