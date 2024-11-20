@@ -82,7 +82,7 @@
           * [Uprawnienia administratora](admin-section/settings/global-settings/groups-users-and-permissions/users/uprawnienia-administratora.md)
       * [Integracja](overview/settings/global-settings/integration/README.md)
         * [API Calls and Examples](overview/settings/global-settings/integration/api-calls-and-examples.md)
-      * [Panel sterowania](admin-section/settings/global-settings/panel-sterowania.md)
+      * [Pulpit](admin-section/settings/global-settings/pulpit.md)
     * [Document Processing](admin-section/settings/document-processing/README.md)
       * [Documents Expiry](admin-section/settings/document-processing/documents-expiry.md)
       * [Import](admin-section/settings/document-processing/import.md)
