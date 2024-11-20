@@ -1,2 +1,0 @@
-# Tag della tabella AI
-
