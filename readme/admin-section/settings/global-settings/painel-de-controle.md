@@ -19,11 +19,11 @@ As configurações do Painel são projetadas para ajudar os administradores a co
 
 * **Atribuir a:** Este recurso permite que os usuários definam permissões para a atribuição de documentos
   * **Apenas para Admin:** Apenas usuários administradores podem atribuir documentos, independentemente das permissões concedidas a usuários não administradores.
-  * **Todos os Usuários**: Todos os usuários que receberam as permissões necessárias podem atribuir documentos.
+  * **Todos os Usuários**: Todos os usuários que receberam as [permissões](groups-users-and-permissions/groups-and-permissions/ativando-permissoes.md) necessárias podem atribuir documentos.
 * **Reiniciar:** Este recurso permite que os usuários definam permissões para reiniciar documentos
   * **Apenas para Admin**: Apenas usuários com privilégios de Admin podem reiniciar documentos, independentemente das permissões concedidas a usuários não administradores.
   * **Apenas Admin e Atribuído**: Apenas usuários com privilégios de Admin e o usuário atribuído podem reiniciar o documento.
-  * **Todos os Usuários**: Todos os usuários que receberam as permissões necessárias podem reiniciar documentos.
+  * **Todos os Usuários**: Todos os usuários que receberam as [permissões](groups-users-and-permissions/groups-and-permissions/ativando-permissoes.md) necessárias podem reiniciar documentos.
 
 <figure><img src="../../../.gitbook/assets/dashboard-settings2.png" alt=""><figcaption></figcaption></figure>
 
