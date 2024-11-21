@@ -26,7 +26,7 @@
   * [Opcje Konfiguracji Użytkownika](readme-1/opcje-konfiguracji-uzytkownika.md)
   * [Tabela AI](readme-1/ai-table/README.md)
     * [Tagowanie tabeli AI](readme-1/ai-table/tagowanie-tabeli-ai.md)
-  * [Ekran walidacji](readme-1/ekran-walidacji.md)
+  * [Ekran Walidacji](readme-1/ekran-walidacji.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
     * [Manual Import](overview/how-to-import-documents/manual-import.md)

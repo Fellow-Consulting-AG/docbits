@@ -1,127 +1,44 @@
-# Ekran walidacji
+# Ekran Walidacji
 
-### Przegląd
+{% embed url="https://youtu.be/CmmQIxOaF6E?si=gYE-U-Jv4dLPi2xT" %}
+
+## Przegląd
+
+<figure><img src="../.gitbook/assets/validation_screen1.png" alt=""><figcaption></figcaption></figure>
 
 ### **Przycisk Zapisz:**
 
+<figure><img src="../.gitbook/assets/validation_screen2.png" alt=""><figcaption></figcaption></figure>
+
 * **Przycisk Zapisz:**
-* **Cel:** Zapisuje bieżący stan dokumentu lub skryptu, nad którym się pracuje.
-* **Przypadek użycia:** Po wprowadzeniu zmian lub adnotacji w dokumencie użyj tego przycisku, aby zapewnić zapisanie wszystkich modyfikacji.
+  * **Cel:** Zapisuje bieżący stan dokumentu lub skryptu, nad którym pracujesz.
+  * **Przypadek użycia:** Po wprowadzeniu zmian lub adnotacji do dokumentu, użyj tego przycisku, aby upewnić się, że wszystkie modyfikacje zostały zapisane.
 
-#### **Dodaj specjalne reguły:**
+### **Dodaj specjalne zasady:**
 
-* **Dodaj specjalne reguły / Dodaj skrypt w DocBits:**
-* **Cel:** Umożliwia użytkownikom implementację konkretnych reguł lub skryptów dostosowujących sposób przetwarzania dokumentów.
-* **Przypadek użycia:** Użyj tej funkcji do automatyzacji zadań, takich jak ekstrakcja danych czy walidacja formatu, zwiększając efektywność pracy.
+<figure><img src="../.gitbook/assets/validation_screen3.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/validation_screen4.png" alt=""><figcaption></figcaption></figure>
+
+* **Dodaj specjalne zasady / Dodaj skrypt w DocBits:**
+  * **Cel:** Umożliwia użytkownikom wdrażanie specyficznych zasad lub skryptów, które dostosowują sposób przetwarzania dokumentów.
+  * **Przypadek użycia:** Użyj tej funkcji, aby zautomatyzować zadania takie jak ekstrakcja danych lub walidacja formatu, zwiększając efektywność pracy.
 
 {% hint style="info" %}
-Zobacz tutaj dodaj Skrypt w DocBits
+Zobacz tutaj dodaj [Skrypt w DocBits](../setup/scripting-in-docbits/)
 {% endhint %}
 
-#### **Pola rozmyte:**
+### **Pola rozmyte:**
+
+<figure><img src="../.gitbook/assets/validation_screen5.png" alt=""><figcaption></figcaption></figure>
 
 * **Pola rozmyte:**
-* **Cel:** Pomaga zidentyfikować i poprawić pola, w których dane mogą nie być idealnym dopasowaniem, ale są wystarczająco bliskie.
-* **Przypadek użycia:** Przydatne w procesach walidacji danych, gdzie dokładne dopasowania nie zawsze są możliwe, na przykład w przypadku lekko błędnie napisanych nazw czy adresów.
+  * **Cel:** Pomaga w identyfikacji i korekcie pól, gdzie dane mogą nie być idealnie dopasowane, ale są wystarczająco bliskie.
+  * **Przypadek użycia:** Przydatne w procesach walidacji danych, gdzie dokładne dopasowanie nie zawsze jest możliwe, na przykład w przypadku lekko błędnie napisanych nazwisk lub adresów.
 
-#### **Lupa:**
+### **Pola wymagane:**
 
-* **Lupa (Lupa powiększająca):**
-* **Cel:** Zapewnia powiększone widoki wybranego obszaru dokumentu.
-* **Przypadek użycia:** Pomaga w badaniu drobnych szczegółów lub małego tekstu w dokumentach, zapewniając dokładność wprowadzanych danych lub recenzji.
-
-#### **Otwórz nowe okno:**
-
-* **Otwórz nowe okno:**
-* **Cel:** Otwiera nowe okno do porównywania dokumentów obok siebie lub wielozadaniowości.
-* **Przypadek użycia:** Przydatne podczas porównywania dwóch dokumentów lub odwoływania się do dodatkowych informacji, nie opuszczając bieżącego dokumentu.
-
-#### **Skróty klawiszowe:**
-
-1. **Skróty klawiszowe:**
-
-* **Cel:** Umożliwia użytkownikom szybkie wykonywanie działań za pomocą kombinacji klawiszy.
-* **Przypadek użycia:** Zwiększa szybkość i efektywność nawigacji po dokumencie oraz przetwarzania, minimalizując poleganie na nawigacji za pomocą myszy.
-
-#### **Zadania:**
-
-Aby udostępnić wewnętrzne informacje, można tworzyć zadania i przypisywać je określonym pracownikom lub grupom w firmie.
-
-* **Zadania:**
-* **Cel:** Umożliwia użytkownikom tworzenie zadań związanych z dokumentami i przypisywanie ich członkom zespołu.
-* **Przypadek użycia:** Ułatwia współpracę i zarządzanie zadaniami w zespołach, zapewniając, że wszyscy znają swoje obowiązki.
-
-#### **Tryb adnotacji:**
-
-Możesz zostawić adnotacje na dokumencie. Może to być pomocne, aby zostawić informacje dla innych użytkowników, którzy będą dalej edytować ten dokument.
-
-* **Tryb adnotacji:**
-* **Cel:** Umożliwia użytkownikom pozostawianie notatek lub adnotacji bezpośrednio na dokumencie.
-* **Przypadek użycia:** Przydatne do udzielania opinii, instrukcji lub ważnych uwag innym członkom zespołu, którzy będą pracować nad dokumentem później.
-
-#### **Scalanie:**
-
-Dokumenty można tutaj łączyć, na przykład jeśli brakowało strony faktury, te strony można później połączyć w ten sposób, bez konieczności usuwania całego dokumentu lub ponownego przesyłania.
-
-* **Scalanie dokumentów:**
-* **Cel:** Łączy wiele dokumentów w jeden plik.
-* **Przypadek użycia:** Przydatne w sytuacjach, gdy części dokumentu są skanowane oddzielnie i trzeba je połączyć.
-
-#### **Widok OCR:**
-
-W widoku OCR tekst jest automatycznie filtrowany z dokumentu. Służy to do rozpoznawania istotnych cech, takich jak kod pocztowy, numer umowy, numer faktury i sortowanie dokumentu.
-
-* **Widok OCR:**
-* **Cel:** Automatycznie rozpoznaje tekst w dokumentach za pomocą technologii rozpoznawania znaków optycznych.
-* **Przypadek użycia:** Ułatwia proces cyfryzacji tekstów drukowanych lub pisanych, umożliwiając ich wyszukiwanie i edycję.
-
-#### **Utwórz zgłoszenie:**
-
-W przeciwieństwie do zadań, które są przekazywane wewnętrznie w firmie, to zgłoszenie wsparcia jest ważne, aby nas poinformować i natychmiast utworzyć zgłoszenie w przypadku błędów i/lub niezgodności. Proces ten jest znacznie ułatwiony, ponieważ można natychmiast wysłać błąd wraz z odpowiednim dokumentem. Istnieje również opcja ustawienia priorytetu, zrobienia zrzutu ekranu dokumentu lub jego przesłania.
-
-* **Utwórz zgłoszenie:**
-* **Cel:** Umożliwia użytkownikom zgłaszanie problemów lub niezgodności poprzez utworzenie zgłoszenia wsparcia.
-* **Przypadek użycia:** Istotne dla szybkiego rozwiązania problemów i błędów, pomagając utrzymać integralność i płynne funkcjonowanie systemu.
-
-\### \*\*Dzienniki skryptów dokumentów:\*\*
-
-Skrypty można tworzyć w ustawieniach w sekcji Typy Dokumentów; informacje te będą wyświetlane tutaj.
-
-* **Dzienniki skryptów dokumentów:**
-* **Cel:** Wyświetla dzienniki związane ze skryptami zaimplementowanymi dla różnych typów dokumentów.
-* **Przypadek użycia:** Przydatne do śledzenia i debugowania działań skryptów na dokumentach, pomagając użytkownikom zrozumieć zautomatyzowane procesy i poprawić ewentualne problemy.
-
-#### **Więcej ustawień:**
-
-#### **Podziel dokument:**
-
-* Tutaj możesz podzielić dokument i wyciąć lub usunąć niepotrzebne strony
-* **Podziel Dokument:**
-* **Cel:** Umożliwia użytkownikom podzielenie dokumentu na osobne części, usuwając lub izolując strony, które nie są potrzebne.
-* **Przypadek użycia:** Idealne przy pracy z dokumentami wielostronicowymi, gdzie wymagane są tylko określone sekcje do przetwarzania lub przeglądu.
-
-#### **Popraw dokument:**
-
-* Dokument zostanie zrestartowany
-* **Popraw Dokument:**
-* **Cel:** Przywraca dokument do stanu początkowego w celu ponownej oceny lub dalszych modyfikacji.
-* **Przypadek użycia:** Przydatne, gdy początkowe modyfikacje trzeba cofnąć lub gdy dokument trzeba odświeżyć przed kolejną rundą edycji. Tutaj potrzebujemy dodatkowej wizji ML do poprawy jakości dokumentu.
-
-#### **Przepływ dokumentu:**
-
-Tutaj znajdziesz przepływ dokumentu
-
-* **Cel:** Pokazuje sekwencję i postęp przetwarzania dokumentu w systemie.
-* **Przypadek użycia:** Pomaga w śledzeniu statusu dokumentu przez różne etapy, zapewniając, że wszystkie niezbędne kroki przetwarzania są realizowane.
-
-#### **Przejdź do szablonu układu:**
-
-* Dzięki tej opcji zostaniesz przekierowany i będziesz mógł edytować swój układ lub użyć domyślnego szablonu
-* **Przejdź do Szablonu Układu:**
-* **Cel:** Przekierowuje użytkowników do edytora układu, gdzie mogą modyfikować istniejące szablony lub zastosować domyślny.
-* **Przypadek użycia:** Umożliwia dostosowanie układów dokumentów do konkretnych potrzeb biznesowych lub preferencji, poprawiając wizualne i funkcjonalne dopasowanie dokumentu do standardów firmy.
-
-#### **Wymagane pola:**
+<figure><img src="../.gitbook/assets/validation_screen6.png" alt=""><figcaption></figcaption></figure>
 
 Istnieją pola, które są wymagane do dalszej edycji, można je edytować w ustawieniach.
 
@@ -130,57 +47,139 @@ Użyj podpowiedzi, aby dowiedzieć się, czy:
 * Jest to pole obowiązkowe (wymagane)
 * Wymagana walidacja
 * Niska pewność
-* Brak dopasowania pełnej kwoty podatku
-* **Wymagane Pola:**
-* **Cel:** Identyfikuje obowiązkowe pola w dokumentach, które muszą zostać wypełnione lub poprawione przed dalszym przetwarzaniem.
-* **Przypadek użycia:** Zapewnia, że istotne dane są przechwytywane dokładnie, zachowując integralność danych i zgodność z zasadami biznesowymi.
+* Niezgodność pełnej kwoty podatku
 
-#### **Przejdź do widoku ekstrakcji tabeli:**
+**Pola wymagane:**
 
-Tutaj znajdziesz widok ekstrakcji tabeli i dodatkowe opcje kontynuacji. Na przykład, w trybie szkolenia, ucząc się tabeli.
+* **Cel:** Identyfikuje obowiązkowe pola w dokumentach, które muszą być wypełnione lub poprawione przed dalszym przetwarzaniem.
+* **Przypadek użycia:** Zapewnia, że niezbędne dane są dokładnie uchwycone, utrzymując integralność danych i zgodność z zasadami biznesowymi.
 
-* **Przejdź do Widoku Ekstrakcji Tabeli:**
-* **Cel:** Nawiguje do interfejsu, w którym użytkownicy mogą ekstrahować i manipulować danymi tabelarycznymi z dokumentów.
-* **Przypadek użycia:** Przydatne dla złożonych dokumentów zawierających tabele, umożliwiające precyzyjną ekstrakcję danych i naukę w celu poprawy rozpoznawania w czasie.
+### **Szkło powiększające:**
 
-#### **Dodaj nieprzypisane kolumny:**
+<figure><img src="../.gitbook/assets/validation_screen7.png" alt=""><figcaption></figcaption></figure>
 
-Aby dodać nieprzypisane kolumny, kliknij tutaj i wybierz kolumny, które chcesz w tabeli lub usuń te, których nie potrzebujesz.
+* **Szkło powiększające:**
+  * **Cel:** Zapewnia powiększony widok wybranego obszaru dokumentu.
+  * **Przypadek użycia:** Pomaga w badaniu drobnych szczegółów lub małego tekstu w dokumentach, zapewniając dokładność wprowadzania danych lub przeglądu.
 
-#### **Pokaż/nie pokazuj nieprzypisanych kolumn:**
+<figure><img src="../.gitbook/assets/validation_screen8.png" alt="" width="329"><figcaption></figcaption></figure>
 
-* **Pokaż/Nie Pokazuj Nieprzypisanych Kolumn:**
-* **Cel:** Przełącza widoczność kolumn w tabeli, które nie są automatycznie przypisane do znanych pól.
-* **Przypadek użycia:** Umożliwia użytkownikom skupienie się na istotnych danych poprzez ukrywanie zbędnych kolumn lub ich przeglądanie pod kątem ewentualnego uwzględnienia.
+### **Otwórz nowe okno:**
 
-#### **Zablokuj ekstrakcję tabeli dla tego dostawcy:**
+<figure><img src="../.gitbook/assets/validation_screen9.png" alt="" width="130"><figcaption></figcaption></figure>
 
-* **Zablokuj Ekstrakcję Tabeli dla Tego Dostawcy:**
-* **Cel:** Zapobiega procesom ekstrakcji tabel dla dokumentów od konkretnych dostawców.
-* **Przypadek użycia:** Przydatne w sytuacjach, gdzie dokumenty dostawców konsekwentnie nie są poprawnie ekstrahowane lub nie wymagają ekstrakcji.
+* **Otwórz nowe okno:**
+  * **Cel:** Otwiera nowe okno do porównania dokumentów obok siebie lub do wielozadaniowości.
+  * **Przypadek użycia:** Przydatne przy porównywaniu dwóch dokumentów lub przy odwoływaniu się do dodatkowych informacji bez opuszczania bieżącego dokumentu.
 
-#### **Usuń tabelę:**
+### **Skróty klawiszowe:**
 
-* **Usuń Tabelę:**
-* **Cel:** Usuwa całą tabelę z dokumentu.
-* **Przypadek użycia:** Przydatne, gdy tabela jest błędnie uwzględniona lub nie jest już potrzebna dla celów dokumentu.
+<figure><img src="../.gitbook/assets/validation_screen10.png" alt="" width="145"><figcaption></figcaption></figure>
 
-#### **Dodaj nową kolumnę tabeli:**
+* **Skróty klawiszowe:**
+  * **Cel:** Umożliwia użytkownikom szybkie wykonywanie działań za pomocą kombinacji klawiszy.
+  * **Przypadek użycia:** Zwiększa szybkość i efektywność nawigacji i przetwarzania dokumentów, minimalizując zależność od nawigacji myszą.
 
-Jeśli brakuje kolumny, możesz utworzyć tutaj nową kolumnę. Określ tytuł, zdecyduj, czy powinna to być wymagana kolumna, oraz typ kolumny (to jest ważne dla poprawnego formatu)
+<figure><img src="../.gitbook/assets/validation_screen11.png" alt="" width="239"><figcaption></figcaption></figure>
 
-* **Dodaj Nową Kolumnę Tabeli:**
-* **Cel:** Tworzy nową kolumnę w istniejącej tabeli, z określeniem tytułu, konieczności i typu.
-* **Przypadek użycia:** Zwiększa elastyczność i dokładność przechwytywania danych, umożliwiając tworzenie niestandardowych kolumn dostosowanych do konkretnych wymagań danych.
+### **Zadania:**
 
-#### **Ignoruj walidację tabeli:**
+<figure><img src="../.gitbook/assets/validation_screen12.png" alt="" width="55"><figcaption></figcaption></figure>
 
-* **Ignoruj Walidację Tabeli:**
-* **Cel:** Umożliwia użytkownikom pominięcie reguł walidacji dla konkretnych tabel.
-* **Przypadek użycia:** Przydatne, gdy znane anomalie w danych nie wpływają na ogólne przetwarzanie i naleganie na walidację utrudniałoby pracę.
+Aby udostępnić informacje wewnętrzne, możesz tworzyć zadania i przypisywać je do konkretnego pracownika lub grupy w firmie.
 
-#### **Przywróć kolumnę tabeli:**
+* **Zadania:**
+  * **Cel:** Umożliwia użytkownikom tworzenie zadań związanych z dokumentami i przypisywanie ich członkom zespołu.
+  * **Przypadek użycia:** Ułatwia współpracę i zarządzanie zadaniami w zespołach, zapewniając, że każdy zna swoje obowiązki.
 
-* **Przywróć Kolumnę Tabeli:**
-* **Cel:** Przywraca wcześniej usuniętą lub zmienioną kolumnę w tabeli.
-* **Przypadek użycia:** Pomocne przy odzyskiwaniu danych, które zostały błędnie usunięte lub zmienione, zapewniając kompletność danych.
+<figure><img src="../.gitbook/assets/validation_screen13.png" alt="" width="218"><figcaption></figcaption></figure>
+
+### **Tryb adnotacji:**
+
+<figure><img src="../.gitbook/assets/validation_screen14.png" alt="" width="187"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/validation_screen15.png" alt=""><figcaption></figcaption></figure>
+
+Możesz zostawić adnotacje na dokumencie. Może to być pomocne, aby zostawić informacje dla innych użytkowników, którzy będą dalej edytować ten dokument.
+
+* **Tryb adnotacji:**
+  * **Cel:** Pozwala użytkownikom zostawiać notatki lub adnotacje bezpośrednio na dokumencie.
+  * **Przypadek użycia:** Przydatne do udzielania informacji zwrotnych, instrukcji lub ważnych notatek dla innych członków zespołu, którzy będą pracować nad dokumentem później.
+
+### **Scal:**
+
+<figure><img src="../.gitbook/assets/validation_screen16.png" alt="" width="60"><figcaption></figcaption></figure>
+
+Dokumenty można tutaj scalać, na przykład jeśli brakowało strony faktury, te strony można później scalić w ten sposób bez konieczności usuwania lub ponownego przesyłania całego dokumentu.
+
+* **Scal dokumenty:**
+  * **Cel:** Łączy wiele dokumentów w jeden plik.
+  * **Przypadek użycia:** Przydatne w sytuacjach, gdy części dokumentu są skanowane osobno i muszą być skonsolidowane.
+
+### **Widok OCR:**
+
+<figure><img src="../.gitbook/assets/validation_screen17.png" alt="" width="77"><figcaption></figcaption></figure>
+
+W widoku OCR tekst jest automatycznie filtrowany z dokumentu. Służy to do rozpoznawania istotnych cech, takich jak kod pocztowy, numer umowy, numer faktury i sortowanie dokumentu.
+
+* **Widok OCR:**
+  * **Cel:** Automatycznie rozpoznaje tekst w dokumentach za pomocą technologii rozpoznawania znaków optycznych.
+  * **Przypadek użycia:** Usprawnia proces digitalizacji tekstów drukowanych lub pisanych ręcznie, czyniąc je przeszukiwalnymi i edytowalnymi.
+
+<figure><img src="../.gitbook/assets/validation_screen18.png" alt=""><figcaption></figcaption></figure>
+
+### **Utwórz zgłoszenie:**
+
+<figure><img src="../.gitbook/assets/validation_screen19.png" alt="" width="97"><figcaption></figcaption></figure>
+
+W przeciwieństwie do zadań, które są przekazywane wewnętrznie w firmie, to zgłoszenie wsparcia jest ważne, aby nas powiadomić i natychmiast utworzyć zgłoszenie w przypadku błędów i/lub rozbieżności. To znacznie ułatwia proces, ponieważ można od razu wysłać błąd z odpowiednim dokumentem. Istnieje również opcja ustawienia priorytetu, zrobienia zrzutu ekranu dokumentu lub przesłania go.
+
+* **Utwórz zgłoszenie:**
+  * **Cel:** Umożliwia użytkownikom zgłaszanie problemów lub rozbieżności poprzez tworzenie zgłoszenia wsparcia.
+  * **Przypadek użycia:** Niezbędne do szybkiego rozwiązywania problemów i błędów, pomagając utrzymać integralność i płynne funkcjonowanie systemu.
+
+<figure><img src="../.gitbook/assets/validation_screen20.png" alt="" width="237"><figcaption></figcaption></figure>
+
+### **Logi skryptów dokumentów:**
+
+<figure><img src="../.gitbook/assets/validation_screen21.png" alt="" width="160"><figcaption></figcaption></figure>
+
+Skrypty można tworzyć w ustawieniach w sekcji Typy dokumentów; te informacje będą następnie wyświetlane tutaj.
+
+* **Logi skryptów dokumentów:**
+  * **Cel:** Wyświetla logi związane ze skryptami, które zostały wdrożone dla różnych typów dokumentów.
+  * **Przypadek użycia:** Przydatne do śledzenia i debugowania działań skryptów na dokumentach, pomagając użytkownikom zrozumieć procesy automatyczne i poprawić wszelkie problemy.
+
+<figure><img src="../.gitbook/assets/validation_screen22.png" alt=""><figcaption></figcaption></figure>
+
+### **Więcej ustawień:**
+
+<figure><img src="../.gitbook/assets/validation_screen23.png" alt="" width="239"><figcaption></figcaption></figure>
+
+### **Podziel dokument:**
+
+* Tutaj możesz podzielić dokument i wyciąć lub usunąć strony, które nie są potrzebne
+* **Podziel dokument:**
+  * **Cel:** Umożliwia użytkownikom podzielenie dokumentu na oddzielne części, usuwając lub izolując strony, które nie są potrzebne.
+  * **Przypadek użycia:** Idealne przy pracy z dokumentami wielostronicowymi, gdzie tylko niektóre sekcje są wymagane do przetwarzania lub przeglądu.
+
+### **Popraw dokument:**
+
+* Dokument zostanie ponownie uruchomiony
+* **Popraw dokument:**
+  * **Cel:** Resetuje dokument do jego początkowego stanu w celu ponownej oceny lub dalszych modyfikacji.
+  * **Przypadek użycia:** Przydatne, gdy początkowe modyfikacje muszą zostać cofnięte lub dokument musi zostać odświeżony do kolejnej rundy edycji. Tutaj potrzebujemy dodatkowej wizji ML, aby poprawić jakość dokumentu.
+
+### **Przepływ dokumentu:**
+
+Tam znajdziesz przepływ dokumentu
+
+* **Cel:** Pokazuje sekwencję i postęp przetwarzania dokumentu w systemie.
+* **Przypadek użycia:** Pomaga w śledzeniu statusu dokumentu przez różne etapy, zapewniając, że wszystkie niezbędne kroki przetwarzania są przestrzegane.
+
+### **Przejdź do szablonu układu:**
+
+* Dzięki tej opcji zostaniesz przekierowany i możesz edytować swój układ lub użyć domyślnego szablonu
+* **Przejdź do szablonu układu:**
+  * **Cel:** Przekierowuje użytkowników do edytora układu, gdzie mogą modyfikować istniejące szablony lub zastosować domyślny.
+  * **Przypadek użycia:** Umożliwia dostosowanie układów dokumentów do spełnienia specyficznych potrzeb biznesowych lub preferencji, poprawiając wizualne i funkcjonalne dopasowanie dokumentu do standardów firmy.
