@@ -1,4 +1,4 @@
-# Coincidencia de Órdenes de Compra
+# Conciliación de orden de compra
 
 ## Introducción
 
@@ -21,7 +21,7 @@ Para comenzar a utilizar el sistema de Coincidencia de Órdenes de Compra, aseg�
 * **Informe de Discrepancias:** Identifica e informa cualquier discrepancia entre facturas y órdenes de compra.
 * **Registro de Auditoría:** Mantiene un registro de todas las acciones para cumplimiento y revisión.
 
-<figure><img src="../../.gitbook/assets/PO1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/purchase-order-matching.png" alt=""><figcaption></figcaption></figure>
 
 ## Interfaz de Usuario
 
@@ -33,28 +33,28 @@ La interfaz del sistema de Coincidencia de Órdenes de Compra típicamente inclu
 * **Discrepancias:** Sección que muestra registros con discrepancias que requieren revisión o acción.
 * **Informes:** Acceso a informes detallados y opciones de exportación.
 
-### Guía Paso a Paso para Usar la Coincidencia de Órdenes de Compra
+## Guía Paso a Paso para Usar la Coincidencia de Órdenes de Compra
 
-#### 1. Acceder al Módulo de Coincidencia de Órdenes de Compra
+### 1. Acceder al Módulo de Coincidencia de Órdenes de Compra
 
 Navegue al módulo de Coincidencia de Órdenes de Compra desde el menú principal de su sistema ERP.
 
-#### 2. Importar o Acceder a Facturas
+### 2. Importar o Acceder a Facturas
 
 * **Importación Automatizada:** Si su sistema está configurado para captura automática de datos, las facturas se importarán automáticamente al sistema.
 * **Carga Manual:** Si es necesario, cargue manualmente archivos de factura en el sistema utilizando la interfaz proporcionada.
 
-#### 3. Revisar Facturas Coincidentes Automáticamente
+### 3. Revisar Facturas Coincidentes Automáticamente
 
 * Revise las facturas que se han coincidido automáticamente con órdenes de compra.
 * Verifique los detalles de la coincidencia, incluidos los números de artículo, cantidades y precios.
 
-#### 4. Manejar Discrepancias
+### 4. Manejar Discrepancias
 
 * Acceda a la sección de Discrepancias para revisar cualquier factura que no pudo ser coincidida automáticamente.
 * Ajuste manualmente las cantidades o precios según sea necesario, o marque la factura para una revisión adicional.
 
-#### 5. Coincidencia Manual
+### 5. Coincidencia Manual
 
 Para facturas no coincidentes automáticamente:
 
