@@ -80,9 +80,9 @@ Verwenden Sie den Tooltip, um herauszufinden, ob:
 
 <figure><img src="../../.gitbook/assets/validation_screen10.png" alt="" width="145"><figcaption></figcaption></figure>
 
-1. **Tastenkombinationen:**
-   * **Zweck:** Ermöglicht es Benutzern, Aktionen schnell mit Tastenkombinationen auszuführen.
-   * **Anwendungsfall:** Erhöht die Geschwindigkeit und Effizienz bei der Dokumentennavigation und -verarbeitung, indem die Abhängigkeit von der Mausnavigation minimiert wird.
+* **Tastenkombinationen:**
+  * **Zweck:** Ermöglicht es Benutzern, Aktionen schnell mit Tastenkombinationen auszuführen.
+  * **Anwendungsfall:** Erhöht die Geschwindigkeit und Effizienz bei der Dokumentennavigation und -verarbeitung, indem die Abhängigkeit von der Mausnavigation minimiert wird.
 
 <figure><img src="../../.gitbook/assets/validation_screen11.png" alt="" width="239"><figcaption></figcaption></figure>
 
