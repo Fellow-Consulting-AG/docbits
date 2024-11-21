@@ -29,7 +29,7 @@
   * [Schermo di validazione](readme-1/schermo-di-validazione/README.md)
     * [Dati Fuzzy](readme-1/schermo-di-validazione/dati-fuzzy.md)
     * [Codici QR](readme-1/schermo-di-validazione/codici-qr.md)
-  * [Scopo e utilizzo](readme-1/scopo-e-utilizzo.md)
+  * [Scopo e Utilizzo](readme-1/scopo-e-utilizzo.md)
   * [Abbinamento ordine di acquisto](readme-1/purchase-order-matching/README.md)
     * [Abbinamento automatico dei dati dell'ordine di acquisto](readme-1/automatic-purchase-order-data-matching.md)
     * [Mappatura del numero dell'articolo del fornitore](readme-1/purchase-order-matching/mappatura-del-numero-dellarticolo-del-fornitore.md)
