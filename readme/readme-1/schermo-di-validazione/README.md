@@ -4,11 +4,11 @@
 
 ## Panoramica
 
-<figure><img src="../.gitbook/assets/validation_screen1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen1.png" alt=""><figcaption></figcaption></figure>
 
 ### **Pulsante Salva:**
 
-<figure><img src="../.gitbook/assets/validation_screen2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen2.png" alt=""><figcaption></figcaption></figure>
 
 * **Pulsante Salva:**
   * **Scopo:** Salva lo stato attuale del documento o script su cui si sta lavorando.
@@ -16,21 +16,21 @@
 
 ### **Aggiungi regole speciali:**
 
-<figure><img src="../.gitbook/assets/validation_screen3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen3.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/validation_screen4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen4.png" alt=""><figcaption></figcaption></figure>
 
 * **Aggiungi Regole Speciali / Aggiungi Script in DocBits:**
   * **Scopo:** Consente agli utenti di implementare regole o script specifici che personalizzano il modo in cui i documenti vengono elaborati.
   * **Caso d'uso:** Utilizzare questa funzione per automatizzare attività come l'estrazione di dati o la convalida del formato, migliorando l'efficienza del flusso di lavoro.
 
 {% hint style="info" %}
-Vedi qui aggiungi [Script in DocBits](../setup/scripting-in-docbits/)
+Vedi qui aggiungi [Script in DocBits](../../setup/scripting-in-docbits/)
 {% endhint %}
 
 ### **Campi Fuzzy:**
 
-<figure><img src="../.gitbook/assets/validation_screen5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen5.png" alt=""><figcaption></figcaption></figure>
 
 * **Campi Fuzzy:**
   * **Scopo:** Aiuta a identificare e correggere i campi in cui i dati potrebbero non corrispondere perfettamente ma sono abbastanza vicini.
@@ -38,7 +38,7 @@ Vedi qui aggiungi [Script in DocBits](../setup/scripting-in-docbits/)
 
 ### **Campi obbligatori:**
 
-<figure><img src="../.gitbook/assets/validation_screen6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen6.png" alt=""><figcaption></figcaption></figure>
 
 Ci sono campi che sono richiesti per ulteriori modifiche, questi possono essere modificati nelle impostazioni.
 
@@ -58,17 +58,17 @@ Usa il suggerimento per scoprire se:
 
 ### **Lente d'ingrandimento:**
 
-<figure><img src="../.gitbook/assets/validation_screen7.png" alt="" width="118"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen7.png" alt="" width="118"><figcaption></figcaption></figure>
 
 * **Lente d'ingrandimento (Magnify Glass):**
   * **Scopo:** Fornisce una vista ingrandita di un'area selezionata del documento.
   * **Caso d'uso:** Aiuta a esaminare dettagli fini o testo piccolo nei documenti, garantendo accuratezza nell'inserimento o revisione dei dati.
 
-<figure><img src="../.gitbook/assets/validation_screen8.png" alt="" width="329"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen8.png" alt="" width="329"><figcaption></figcaption></figure>
 
 ### **Apri nuova finestra:**
 
-<figure><img src="../.gitbook/assets/validation_screen9.png" alt="" width="130"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen9.png" alt="" width="130"><figcaption></figcaption></figure>
 
 * **Apri Nuova Finestra:**
   * **Scopo:** Apre una nuova finestra per il confronto affiancato dei documenti o il multitasking.
@@ -76,17 +76,17 @@ Usa il suggerimento per scoprire se:
 
 ### **Scorciatoie da tastiera:**
 
-<figure><img src="../.gitbook/assets/validation_screen10.png" alt="" width="145"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen10.png" alt="" width="145"><figcaption></figcaption></figure>
 
 * **Scorciatoie da Tastiera:**
   * **Scopo:** Consente agli utenti di eseguire azioni rapidamente utilizzando combinazioni di tasti.
   * **Caso d'uso:** Migliora la velocità e l'efficienza nella navigazione e nell'elaborazione dei documenti riducendo al minimo la dipendenza dalla navigazione con il mouse.
 
-<figure><img src="../.gitbook/assets/validation_screen11.png" alt="" width="239"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen11.png" alt="" width="239"><figcaption></figcaption></figure>
 
 ### **Compiti:**
 
-<figure><img src="../.gitbook/assets/validation_screen12.png" alt="" width="55"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen12.png" alt="" width="55"><figcaption></figcaption></figure>
 
 Per condividere informazioni interne, puoi creare compiti e assegnarli a un dipendente specifico o a un gruppo all'interno dell'azienda.
 
@@ -94,13 +94,13 @@ Per condividere informazioni interne, puoi creare compiti e assegnarli a un dipe
   * **Scopo:** Consente agli utenti di creare compiti relativi ai documenti e assegnarli ai membri del team.
   * **Caso d'uso:** Facilita la collaborazione e la gestione dei compiti all'interno dei team, assicurando che tutti conoscano le loro responsabilità.
 
-<figure><img src="../.gitbook/assets/validation_screen13.png" alt="" width="218"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen13.png" alt="" width="218"><figcaption></figcaption></figure>
 
 ### **Modalità annotazione:**
 
-<figure><img src="../.gitbook/assets/validation_screen14.png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen14.png" alt="" width="187"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/validation_screen15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen15.png" alt=""><figcaption></figcaption></figure>
 
 Puoi lasciare annotazioni su un documento. Questo può essere utile per lasciare informazioni per altri utenti che modificheranno ulteriormente questo documento.
 
@@ -110,7 +110,7 @@ Puoi lasciare annotazioni su un documento. Questo può essere utile per lasciare
 
 ### **Unisci:**
 
-<figure><img src="../.gitbook/assets/validation_screen16.png" alt="" width="60"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen16.png" alt="" width="60"><figcaption></figcaption></figure>
 
 I documenti possono essere uniti qui, ad esempio se mancava una pagina di una fattura, queste pagine possono essere unite in seguito in questo modo senza dover eliminare o ricaricare l'intero documento.
 
@@ -120,7 +120,7 @@ I documenti possono essere uniti qui, ad esempio se mancava una pagina di una fa
 
 ### **Vista OCR:**
 
-<figure><img src="../.gitbook/assets/validation_screen17.png" alt="" width="77"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen17.png" alt="" width="77"><figcaption></figcaption></figure>
 
 Nella vista OCR, il testo viene automaticamente filtrato dal documento. Questo viene utilizzato per riconoscere caratteristiche rilevanti, come il codice postale, il numero di contratto, il numero di fattura e l'ordinamento di un documento.
 
@@ -128,11 +128,11 @@ Nella vista OCR, il testo viene automaticamente filtrato dal documento. Questo v
   * **Scopo:** Riconosce automaticamente il testo all'interno dei documenti utilizzando la tecnologia di riconoscimento ottico dei caratteri.
   * **Caso d'uso:** Semplifica il processo di digitalizzazione di testi stampati o scritti a mano, rendendoli ricercabili e modificabili.
 
-<figure><img src="../.gitbook/assets/validation_screen18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen18.png" alt=""><figcaption></figcaption></figure>
 
 ### **Crea ticket:**
 
-<figure><img src="../.gitbook/assets/validation_screen19.png" alt="" width="97"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen19.png" alt="" width="97"><figcaption></figcaption></figure>
 
 A differenza dei compiti che vengono trasmessi internamente all'interno dell'azienda, questo ticket di supporto è importante per notificarci e creare immediatamente un ticket in caso di errori e/o discrepanze. Questo rende il processo molto più semplice perché puoi inviare immediatamente il bug con il documento appropriato. C'è anche l'opzione di impostare la priorità, fare uno screenshot del documento o caricarne uno.
 
@@ -140,11 +140,11 @@ A differenza dei compiti che vengono trasmessi internamente all'interno dell'azi
   * **Scopo:** Consente agli utenti di segnalare problemi o discrepanze creando un ticket di supporto.
   * **Caso d'uso:** Essenziale per la rapida risoluzione dei problemi e dei bug, aiutando a mantenere l'integrità e il corretto funzionamento del sistema.
 
-<figure><img src="../.gitbook/assets/validation_screen20.png" alt="" width="237"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen20.png" alt="" width="237"><figcaption></figcaption></figure>
 
 ### **Log script documento:**
 
-<figure><img src="../.gitbook/assets/validation_screen21.png" alt="" width="160"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen21.png" alt="" width="160"><figcaption></figcaption></figure>
 
 Gli script possono essere creati nelle impostazioni sotto Tipi di Documento; queste informazioni verranno quindi visualizzate qui.
 
@@ -152,11 +152,11 @@ Gli script possono essere creati nelle impostazioni sotto Tipi di Documento; que
   * **Scopo:** Visualizza i log relativi agli script che sono stati implementati per diversi tipi di documenti.
   * **Caso d'uso:** Utile per tracciare e debugare le azioni degli script sui documenti, aiutando gli utenti a comprendere i processi automatizzati e correggere eventuali problemi.
 
-<figure><img src="../.gitbook/assets/validation_screen22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen22.png" alt=""><figcaption></figcaption></figure>
 
 ### **Altre impostazioni:**
 
-<figure><img src="../.gitbook/assets/validation_screen23.png" alt="" width="239"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_screen23.png" alt="" width="239"><figcaption></figcaption></figure>
 
 ### **Dividi documento:**
 
