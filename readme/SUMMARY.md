@@ -30,6 +30,7 @@
     * [Rozmyte Dane](readme-1/ekran-walidacji/rozmyte-dane.md)
     * [Kody QR](readme-1/ekran-walidacji/kody-qr.md)
   * [Cel i Zastosowanie](readme-1/cel-i-zastosowanie.md)
+  * [Dopasowywanie Zamówień Zakupu](readme-1/dopasowywanie-zamowien-zakupu.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
     * [Manual Import](overview/how-to-import-documents/manual-import.md)
