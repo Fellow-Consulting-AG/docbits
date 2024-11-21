@@ -1,29 +1,31 @@
-# Correspondance automatique des données de bons de commande
+# Correspondance Automatique des Données de Bon de Commande
 
-Docbits est un système avancé conçu pour automatiser la correspondance des données des bons de commande (BC) avec les documents de facturation entrants. Cet outil est spécifiquement conçu pour la gestion efficace et le traitement des données de facturation au sein des systèmes ERP. Cette documentation explique les bases de la correspondance automatique à travers Docbits et définit les règles spécifiques nécessaires pour une correspondance réussie.
+Docbits est un système avancé conçu pour automatiser la correspondance des données de bon de commande (PO) avec les documents de facture entrants. Cet outil est spécifiquement conçu pour une gestion et un traitement efficaces des données de facturation au sein des systèmes ERP. Cette documentation explique les bases de la correspondance automatique via Docbits et définit les règles spécifiques requises pour une correspondance réussie.
 
-## **Principes fondamentaux de la correspondance automatique dans Docbits**
+<figure><img src="../.gitbook/assets/Automatic Purchase Order Data Matching.svg" alt=""><figcaption></figcaption></figure>
 
-**Extraction des données :** Docbits commence le processus en extrayant les données pertinentes des documents de facturation numérisés. Typiquement, ces données comprennent les numéros d'article, les quantités et les prix unitaires de chaque ligne de facture. La précision de cette extraction est cruciale, car elle constitue la base du processus de correspondance ultérieur.
+## **Principes Fondamentaux de la Correspondance Automatique dans Docbits**
 
-**Comparaison avec les données des BC :** Les données extraites sont comparées aux informations correspondantes dans les bons de commande stockés. Docbits vérifie si les numéros d'article, les quantités et les prix correspondent à ceux des BC. Pour une correspondance réussie, les données des factures doivent correspondre aux données des bons de commande, en tenant compte des seuils de tolérance définis.
+**Extraction de Données :** Docbits commence le processus en extrayant les données pertinentes des documents de facture numérisés. En général, ces données incluent les numéros d'article, les quantités et les prix unitaires de chaque ligne de facture. La précision de cette extraction est cruciale, car elle constitue la base du processus de correspondance ultérieur.
 
-**Correspondance automatique :** Sur la base des résultats de la comparaison, Docbits effectue la correspondance. Le système vérifie si les critères de correspondance se situent dans les limites de tolérance définies. Si ces critères sont respectés, la correspondance est considérée comme réussie.
+**Comparaison avec les Données de PO :** Les données extraites sont comparées avec les informations correspondantes dans les bons de commande stockés. Docbits vérifie si les numéros d'article, les quantités et les prix correspondent à ceux des PO. Pour une correspondance réussie, les données des factures doivent correspondre aux données des bons de commande, en tenant compte des seuils de tolérance définis.
 
-**Rapports :** Après avoir terminé le processus de correspondance, Docbits génère des rapports qui montrent l'état des correspondances. Ces rapports informent sur les factures correspondantes avec succès et identifient celles présentant des divergences.
+**Correspondance Automatique :** Sur la base des résultats de la comparaison, Docbits effectue la correspondance. Le système vérifie si les critères de correspondance se situent dans les limites de tolérance définies. Si ces critères sont remplis, la correspondance est considérée comme réussie.
 
-## **Définition des règles de correspondance**
+**Rapport :** Après avoir terminé le processus de correspondance, Docbits génère des rapports qui montrent l'état des correspondances. Ces rapports informent sur les factures correspondantes avec succès et identifient celles présentant des écarts.
 
-**Numéro d'article :** Le numéro d'article sur la facture doit correspondre exactement au numéro d'article dans le bon de commande. Aucune tolérance n'est accordée pour les écarts dans les numéros d'article.
+## **Définition des Règles de Correspondance**
 
-**Quantités :** La quantité de biens livrés sur la facture peut varier dans une plage de tolérance prédéfinie. Typiquement, une tolérance de ±5% pourrait être acceptable pour tenir compte des différences mineures dans les quantités de livraison.
+**Numéro d'Article :** Le numéro d'article sur la facture doit correspondre exactement au numéro d'article dans le bon de commande. Il n'y a pas de tolérance pour les écarts dans les numéros d'article.
 
-**Prix :** Les écarts de prix sont tolérables jusqu'à un seuil défini. Une tolérance courante pourrait être de ±2% du prix pour accepter de légères différences dans les déclarations de prix résultant de différences d'arrondi ou de fluctuations de change.
+**Quantités :** La quantité de marchandises livrées sur la facture peut varier dans une plage de tolérance prédéfinie. En général, une tolérance de ±5% peut être acceptable pour tenir compte des différences mineures dans les quantités de livraison.
 
-## **État de la correspondance :**
+**Prix :** Les écarts de prix sont tolérables jusqu'à un seuil défini. Une tolérance courante peut être de ±2% du prix pour accepter de légères différences dans les déclarations de prix résultant de différences d'arrondi ou de fluctuations monétaires.
 
-* **Correspondance complète :** Tous les points de données (numéro d'article, quantité et prix) se situent dans les limites de tolérance définies.
-* **Correspondance partielle :** Un ou plusieurs points de données dévient en dehors des limites de tolérance, mais les écarts sont minimes et nécessitent un examen manuel.
-* **Aucune correspondance :** Des écarts significatifs dans un ou plusieurs points de données nécessitant une correction immédiate ou une enquête approfondie.
+## **Statut de Correspondance :**
 
-La définition précise de ces règles et le réglage des limites de tolérance sont cruciaux pour l'efficacité de la correspondance automatique et la réduction des interventions manuelles. Docbits permet une configuration flexible de ces paramètres pour répondre aux besoins des différentes entreprises et industries.
+* **Correspondance Complète :** Tous les points de données (numéro d'article, quantité et prix) sont dans les limites de tolérance définies.
+* **Correspondance Partielle :** Un ou plusieurs points de données dévient en dehors des limites de tolérance, mais les écarts sont minimes et nécessitent un examen manuel.
+* **Aucune Correspondance :** Écarts significatifs dans un ou plusieurs points de données nécessitant une correction immédiate ou une enquête plus approfondie.
+
+La définition précise de ces règles et la fixation des limites de tolérance sont cruciales pour l'efficacité de la correspondance automatique et la réduction des interventions manuelles. Docbits permet une configuration flexible de ces paramètres pour répondre aux besoins de diverses entreprises et industries.

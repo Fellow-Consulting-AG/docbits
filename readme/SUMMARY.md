@@ -31,7 +31,7 @@
     * [Codes QR](readme-1/ecran-de-validation/codes-qr.md)
   * [Objectif et Utilisation](readme-1/but-et-utilisation.md)
   * [Appariement des Bons de Commande](readme-1/purchase-order-matching/README.md)
-    * [Appariement automatique des données des bons de commande](readme-1/automatic-purchase-order-data-matching.md)
+    * [Correspondance Automatique des Données de Bon de Commande](readme-1/automatic-purchase-order-data-matching.md)
     * [Correspondance des numéros d'article du fournisseur](readme-1/purchase-order-matching/correspondance-des-numeros-darticle-du-fournisseur.md)
   * [Comptabilité pour les factures de coûts et les ventes indirectes](readme-1/comptabilite-pour-les-factures-de-couts-et-les-ventes-indirectes.md)
   * [Comment importer des documents](readme-1/how-to-import-documents/README.md)
