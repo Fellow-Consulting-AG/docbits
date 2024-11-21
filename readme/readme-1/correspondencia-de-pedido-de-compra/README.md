@@ -21,7 +21,7 @@ Para começar a usar o sistema de Correspondência de Pedido de Compra, certifiq
 * **Relatório de Discrepâncias:** Identifica e relata quaisquer discrepâncias entre faturas e pedidos de compra.
 * **Trilha de Auditoria:** Mantém um registro de todas as ações para conformidade e revisão.
 
-<figure><img src="../.gitbook/assets/purchase-order-matching.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/purchase-order-matching.png" alt=""><figcaption></figcaption></figure>
 
 ## Interface do Usuário
 
