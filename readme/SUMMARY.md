@@ -183,7 +183,7 @@
         * [Save and Delete Rules](setup/document-training/training-line-fields-table-training/save-and-delete-rules.md)
     * [SSO Configuration](setup/sso-configuration.md)
     * [Postman for DocBits](setup/postman-for-docbits.md)
-    * [Scripting in DocBits](setup/scripting-in-docbits/README.md)
+    * [Scripting em DocBits](setup/scripting-in-docbits/README.md)
       * [Calculating Total Charges Script for Docbits](setup/scripting-in-docbits/calculating-total-charges-script-for-docbits-1.md)
       * [Calculating Total Charges Script for Docbits](setup/scripting-in-docbits/calculating-total-charges-script-for-docbits.md)
       * [Delete lines with empty quantity and amount](setup/scripting-in-docbits/delete-lines-with-empty-quantity-and-amount.md)
