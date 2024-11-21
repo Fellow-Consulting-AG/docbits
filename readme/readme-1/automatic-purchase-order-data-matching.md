@@ -1,6 +1,8 @@
-# Automatische Abgleichung von Bestelldaten
+# Automatischer Bestelldatenabgleich
 
 Docbits ist ein fortschrittliches System, das darauf ausgelegt ist, den Abgleich von Bestelldaten (POs) mit eingehenden Rechnungsdokumenten zu automatisieren. Dieses Tool ist speziell für die effiziente Verwaltung und Verarbeitung von Rechnungsdaten innerhalb von ERP-Systemen konzipiert. Diese Dokumentation erläutert die Grundlagen des automatischen Abgleichs durch Docbits und definiert die spezifischen Regeln, die für einen erfolgreichen Abgleich erforderlich sind.
+
+<figure><img src="../.gitbook/assets/Automatic Purchase Order Data Matching.svg" alt=""><figcaption></figcaption></figure>
 
 ## **Grundprinzipien der automatischen Abgleichung in Docbits**
 
