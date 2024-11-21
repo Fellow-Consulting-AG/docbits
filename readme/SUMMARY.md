@@ -29,6 +29,7 @@
   * [Tela de Validação](readme-1/tela-de-validacao/README.md)
     * [Dados Fuzzy](readme-1/tela-de-validacao/dados-fuzzy.md)
     * [Códigos QR](readme-1/tela-de-validacao/codigos-qr.md)
+  * [Propósito e Uso](readme-1/proposito-e-uso.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
     * [Manual Import](overview/how-to-import-documents/manual-import.md)
