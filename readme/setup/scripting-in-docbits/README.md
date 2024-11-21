@@ -1,27 +1,27 @@
 # Scripting in DocBits
 
-## Docbits Scripting Guide
+## Przewodnik po skryptach Docbits
 
-Welcome to the Docbits scripting guide! Here, you'll learn how to use scripts to automate and enhance your document processing within Docbits. Scripts allow for custom field manipulation, data transformation, and logic implementation across various document types.
+Witamy w przewodniku po skryptach Docbits! Tutaj dowiesz się, jak używać skryptów do automatyzacji i ulepszania przetwarzania dokumentów w Docbits. Skrypty umożliwiają niestandardową manipulację polami, transformację danych i implementację logiki w różnych typach dokumentów.
 
-### Getting Started
+### Pierwsze kroki
 
-Scripts in Docbits are written in Python. They interact with document fields and metadata to perform a wide range of operations, from simple data formatting to complex logic.
+Skrypty w Docbits są pisane w języku Python. Wchodzą w interakcję z polami dokumentów i metadanymi, aby wykonywać szeroki zakres operacji, od prostego formatowania danych po złożoną logikę.
 
-#### Key Functions
+**Kluczowe funkcje**
 
-* `get_field_value(fields_dict, field_name, default=None)`: Retrieves the value of a specified field.
-* `set_field_value(fields_dict, field_name, value)`: Sets the value of a specified field.
-* `create_new_field(field_name, value)`: Creates a new field with a specified name and value.
-* `format_decimal_to_locale(value, locale)`: Formats a decimal value according to a specified locale.
+* `get_field_value(fields_dict, field_name, default=None)`: Pobiera wartość określonego pola.
+* `set_field_value(fields_dict, field_name, value)`: Ustawia wartość określonego pola.
+* `create_new_field(field_name, value)`: Tworzy nowe pole o określonej nazwie i wartości.
+* `format_decimal_to_locale(value, locale)`: Formatuje wartość dziesiętną zgodnie z określoną lokalizacją.
 
-### Example Scripts
+### Przykładowe skrypty
 
-Below are several examples demonstrating common scripting tasks.
+Poniżej znajduje się kilka przykładów demonstrujących typowe zadania skryptowe.
 
-#### Example 1: Currency Mapping for Invoices
+**Przykład 1: Mapowanie walut dla faktur**
 
-Standardize currency symbols or text to ISO currency codes.
+Standaryzacja symboli walut lub tekstu do kodów walut ISO.
 
 ```python
 currency_map = {
