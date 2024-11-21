@@ -1,29 +1,31 @@
-# Corrispondenza automatica dei dati dell'ordine di acquisto
+# Abbinamento Automatico dei Dati degli Ordini di Acquisto
 
-Docbits è un sistema avanzato progettato per automatizzare la corrispondenza dei dati dell'ordine di acquisto (PO) con i documenti delle fatture in arrivo. Questo strumento è specificamente progettato per una gestione efficiente e un'elaborazione dei dati delle fatture all'interno dei sistemi ERP. Questa documentazione spiega i concetti di base della corrispondenza automatica tramite Docbits e definisce le regole specifiche necessarie per una corrispondenza di successo.
+Docbits è un sistema avanzato progettato per automatizzare l'abbinamento dei dati degli ordini di acquisto (PO) con i documenti delle fatture in arrivo. Questo strumento è specificamente progettato per una gestione efficiente e l'elaborazione dei dati delle fatture all'interno dei sistemi ERP. Questa documentazione spiega le basi dell'abbinamento automatico tramite Docbits e definisce le regole specifiche necessarie per un abbinamento riuscito.
 
-## **Principi fondamentali della corrispondenza automatica in Docbits**
+<figure><img src="../.gitbook/assets/Automatic Purchase Order Data Matching.svg" alt=""><figcaption></figcaption></figure>
 
-**Estrazione dei dati:** Docbits inizia il processo estraendo i dati rilevanti dai documenti delle fatture digitalizzate. Tipicamente, questi dati includono i numeri degli articoli, le quantità e i prezzi unitari di ciascuna riga della fattura. La precisione di questa estrazione è cruciale, poiché costituisce la base per il successivo processo di corrispondenza.
+## **Principi Fondamentali dell'Abbinamento Automatico in Docbits**
 
-**Confronto con i dati dell'ordine di acquisto:** I dati estratti vengono confrontati con le informazioni corrispondenti negli ordini di acquisto memorizzati. Docbits verifica se i numeri degli articoli, le quantità e i prezzi corrispondono a quelli nei PO. Per una corrispondenza di successo, i dati nelle fatture devono corrispondere ai dati negli ordini di acquisto, considerando le soglie di tolleranza definite.
+**Estrazione dei Dati:** Docbits inizia il processo estraendo i dati rilevanti dai documenti delle fatture digitalizzate. Tipicamente, questi dati includono numeri di articolo, quantità e prezzi unitari di ciascuna riga della fattura. La precisione di questa estrazione è cruciale, poiché costituisce la base per il successivo processo di abbinamento.
 
-**Corrispondenza automatica:** Sulla base dei risultati del confronto, Docbits esegue la corrispondenza. Il sistema verifica se i criteri di corrispondenza rientrano nei limiti di tolleranza impostati. Se questi criteri sono soddisfatti, la corrispondenza è considerata riuscita.
+**Confronto con i Dati PO:** I dati estratti vengono confrontati con le informazioni corrispondenti negli ordini di acquisto memorizzati. Docbits verifica se i numeri di articolo, le quantità e i prezzi corrispondono a quelli nei PO. Per un abbinamento riuscito, i dati nelle fatture devono corrispondere ai dati negli ordini di acquisto, considerando le soglie di tolleranza definite.
 
-**Segnalazione:** Dopo aver completato il processo di corrispondenza, Docbits genera report che mostrano lo stato delle corrispondenze. Questi report informano sulle fatture corrispondenti con successo e identificano quelle con discrepanze.
+**Abbinamento Automatico:** Sulla base dei risultati del confronto, Docbits esegue l'abbinamento. Il sistema verifica se i criteri di abbinamento rientrano nei limiti di tolleranza impostati. Se questi criteri sono soddisfatti, l'abbinamento è considerato riuscito.
 
-## **Definizione delle regole di corrispondenza**
+**Reportistica:** Dopo aver completato il processo di abbinamento, Docbits genera report che mostrano lo stato degli abbinamenti. Questi report informano sulle fatture abbinate con successo e identificano quelle con discrepanze.
 
-**Numero dell'articolo:** Il numero dell'articolo sulla fattura deve corrispondere esattamente al numero dell'articolo nell'ordine di acquisto. Non è consentita alcuna tolleranza per deviazioni nei numeri degli articoli.
+## **Definizione delle Regole di Abbinamento**
 
-**Quantità:** La quantità di merci consegnate sulla fattura può variare entro un intervallo di tolleranza predefinito. Tipicamente, una tolleranza del ±5% potrebbe essere accettabile per tener conto di differenze minori nelle quantità di consegna.
+**Numero di Articolo:** Il numero di articolo sulla fattura deve corrispondere esattamente al numero di articolo nell'ordine di acquisto. Non c'è tolleranza per deviazioni nei numeri di articolo.
 
-**Prezzi:** Le deviazioni dei prezzi sono tollerabili fino a una soglia prestabilita. Una tolleranza comune potrebbe essere del ±2% del prezzo per accettare lievi differenze nelle dichiarazioni di prezzo che derivano da differenze di arrotondamento o fluttuazioni valutarie.
+**Quantità:** La quantità di merci consegnate sulla fattura può variare entro un intervallo di tolleranza predefinito. Tipicamente, una tolleranza del ±5% potrebbe essere accettabile per tenere conto di piccole differenze nelle quantità di consegna.
 
-## **Stato della corrispondenza:**
+**Prezzi:** Le deviazioni di prezzo sono tollerabili fino a una soglia impostata. Una tolleranza comune potrebbe essere del ±2% del prezzo per accettare lievi differenze nelle dichiarazioni di prezzo che derivano da differenze di arrotondamento o fluttuazioni di valuta.
 
-* **Corrispondenza completa:** Tutti i punti dati (numero dell'articolo, quantità e prezzo) rientrano nei limiti di tolleranza impostati.
-* **Corrispondenza parziale:** Uno o più punti dati deviano al di fuori dei limiti di tolleranza, ma le deviazioni sono minime e richiedono una revisione manuale.
-* **Nessuna corrispondenza:** Deviazioni significative in uno o più punti dati che richiedono una correzione immediata o ulteriori indagini.
+## **Stato dell'Abbinamento:**
 
-La definizione precisa di queste regole e l'impostazione dei limiti di tolleranza sono cruciali per l'efficienza della corrispondenza automatica e la riduzione delle interventi manuali. Docbits consente una configurazione flessibile di questi parametri per soddisfare le esigenze di varie aziende e settori.
+* **Abbinamento Completo:** Tutti i punti dati (numero di articolo, quantità e prezzo) sono entro i limiti di tolleranza impostati.
+* **Abbinamento Parziale:** Uno o più punti dati deviano al di fuori dei limiti di tolleranza, ma le deviazioni sono minime e richiedono una revisione manuale.
+* **Nessun Abbinamento:** Deviazioni significative in uno o più punti dati che richiedono correzione immediata o ulteriori indagini.
+
+La definizione precisa di queste regole e l'impostazione dei limiti di tolleranza sono cruciali per l'efficienza dell'abbinamento automatico e la riduzione degli interventi manuali. Docbits consente una configurazione flessibile di questi parametri per soddisfare le esigenze di varie aziende e settori.
