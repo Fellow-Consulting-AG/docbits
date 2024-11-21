@@ -32,7 +32,7 @@
   * [Scopo e Utilizzo](readme-1/scopo-e-utilizzo.md)
   * [Abbinamento ordine di acquisto](readme-1/purchase-order-matching/README.md)
     * [Abbinamento Automatico dei Dati degli Ordini di Acquisto](readme-1/automatic-purchase-order-data-matching.md)
-    * [Mappatura del numero dell'articolo del fornitore](readme-1/purchase-order-matching/mappatura-del-numero-dellarticolo-del-fornitore.md)
+    * [Mappa Numero Articolo Fornitore](readme-1/purchase-order-matching/mappatura-del-numero-dellarticolo-del-fornitore.md)
   * [Contabilità per fattura di costo e vendite indirette](readme-1/contabilita-per-fattura-di-costo-e-vendite-indirette.md)
   * [Come importare documenti](readme-1/how-to-import-documents/README.md)
     * [FTP](readme-1/how-to-import-documents/ftp.md)
