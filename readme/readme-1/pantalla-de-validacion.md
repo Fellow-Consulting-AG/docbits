@@ -76,9 +76,9 @@ Use el consejo de herramienta para averiguar si:
 
 <figure><img src="../.gitbook/assets/validation_screen10.png" alt="" width="145"><figcaption></figcaption></figure>
 
-1. **Atajos de Teclado:**
-   * **Propósito:** Permite a los usuarios realizar acciones rápidamente usando combinaciones de teclado.
-   * **Caso de Uso:** Mejora la velocidad y eficiencia en la navegación y procesamiento de documentos al minimizar la dependencia de la navegación con el ratón.
+* **Atajos de Teclado:**
+  * **Propósito:** Permite a los usuarios realizar acciones rápidamente usando combinaciones de teclado.
+  * **Caso de Uso:** Mejora la velocidad y eficiencia en la navegación y procesamiento de documentos al minimizar la dependencia de la navegación con el ratón.
 
 <figure><img src="../.gitbook/assets/validation_screen11.png" alt="" width="239"><figcaption></figcaption></figure>
 
