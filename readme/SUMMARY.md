@@ -29,7 +29,7 @@
   * [Écran de validation](readme-1/ecran-de-validation/README.md)
     * [Données Floues](readme-1/ecran-de-validation/donnees-floues.md)
     * [Codes QR](readme-1/ecran-de-validation/codes-qr.md)
-  * [But et utilisation](readme-1/but-et-utilisation.md)
+  * [Objectif et Utilisation](readme-1/but-et-utilisation.md)
   * [Appariement des bons de commande](readme-1/purchase-order-matching/README.md)
     * [Appariement automatique des données des bons de commande](readme-1/automatic-purchase-order-data-matching.md)
     * [Correspondance des numéros d'article du fournisseur](readme-1/purchase-order-matching/correspondance-des-numeros-darticle-du-fournisseur.md)
