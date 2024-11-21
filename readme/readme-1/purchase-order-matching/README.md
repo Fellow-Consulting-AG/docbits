@@ -21,7 +21,7 @@ Um mit dem PO-Abgleichsystem zu beginnen, stellen Sie sicher, dass die erforderl
 * **Unstimmigkeitsberichterstattung:** Identifiziert und meldet Unstimmigkeiten zwischen Rechnungen und Bestellungen.
 * **Prüfpfad:** Führt ein Protokoll aller Aktionen für Compliance und Überprüfung.
 
-<figure><img src="../../.gitbook/assets/PO1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/purchase-order-matching.png" alt=""><figcaption></figcaption></figure>
 
 ## Benutzeroberfläche
 
@@ -33,28 +33,28 @@ Die Benutzeroberfläche des PO-Abgleichsystems umfasst in der Regel die folgende
 * **Unstimmigkeiten:** Bereich, der Datensätze mit Unstimmigkeiten anzeigt, die überprüft oder bearbeitet werden müssen.
 * **Berichte:** Zugriff auf detaillierte Berichte und Exportoptionen.
 
-### Schritt-für-Schritt-Anleitung zur Verwendung des PO-Abgleichs
+## Schritt-für-Schritt-Anleitung zur Verwendung des PO-Abgleichs
 
-#### 1. Zugriff auf das PO-Abgleichmodul
+### 1. Zugriff auf das PO-Abgleichmodul
 
 Navigieren Sie vom Hauptmenü Ihres ERP-Systems zum PO-Abgleichmodul.
 
-#### 2. Rechnungen importieren oder darauf zugreifen
+### 2. Rechnungen importieren oder darauf zugreifen
 
 * **Automatischer Import:** Wenn Ihr System für die automatische Datenerfassung eingerichtet ist, werden Rechnungen automatisch in das System importiert.
 * **Manuelles Hochladen:** Falls erforderlich, laden Sie Rechnungsdateien manuell über die bereitgestellte Benutzeroberfläche hoch.
 
-#### 3. Automatisch abgeglichene Rechnungen überprüfen
+### 3. Automatisch abgeglichene Rechnungen überprüfen
 
 * Überprüfen Sie Rechnungen, die automatisch mit Bestellungen abgeglichen wurden.
 * Überprüfen Sie die Details des Abgleichs, einschließlich Artikelnummern, Mengen und Preise.
 
-#### 4. Unstimmigkeiten behandeln
+### 4. Unstimmigkeiten behandeln
 
 * Greifen Sie auf den Bereich "Unstimmigkeiten" zu, um Rechnungen zu überprüfen, die nicht automatisch abgeglichen werden konnten.
 * Passen Sie Mengen oder Preise bei Bedarf manuell an oder markieren Sie die Rechnung für eine weitere Überprüfung.
 
-#### 5. Manueller Abgleich
+### 5. Manueller Abgleich
 
 Für nicht automatisch abgeglichene Rechnungen:
 
