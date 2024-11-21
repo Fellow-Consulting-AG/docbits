@@ -1,4 +1,4 @@
-# Corrispondenza dell'Ordine di Acquisto
+# Abbinamento ordine di acquisto
 
 ## Introduzione
 
@@ -21,7 +21,7 @@ Per iniziare a utilizzare il sistema di Corrispondenza dell'Ordine di Acquisto, 
 * **Segnalazione delle Discrepanze:** Identifica e segnala eventuali discrepanze tra fatture e ordini di acquisto.
 * **Registro delle Verifiche:** Mantiene un registro di tutte le azioni per conformità e revisione.
 
-<figure><img src="../../.gitbook/assets/PO1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/purchase-order-matching.png" alt=""><figcaption></figcaption></figure>
 
 ## Interfaccia Utente
 
@@ -33,28 +33,28 @@ L'interfaccia del sistema di Corrispondenza dell'Ordine di Acquisto include tipi
 * **Discrepanze:** Sezione che mostra i record con discrepanze che necessitano di revisione o azione.
 * **Report:** Accesso a report dettagliati e opzioni di esportazione.
 
-### Guida Passo-Passo all'Utilizzo della Corrispondenza dell'Ordine di Acquisto
+## Guida Passo-Passo all'Utilizzo della Corrispondenza dell'Ordine di Acquisto
 
-#### 1. Accedi al Modulo di Corrispondenza dell'Ordine di Acquisto
+### 1. Accedi al Modulo di Corrispondenza dell'Ordine di Acquisto
 
 Vai al modulo di Corrispondenza dell'Ordine di Acquisto dal menu principale del tuo sistema ERP.
 
-#### 2. Importa o Accedi alle Fatture
+### 2. Importa o Accedi alle Fatture
 
 * **Importazione Automatica:** Se il tuo sistema è configurato per l'acquisizione automatica dei dati, le fatture verranno importate automaticamente nel sistema.
 * **Caricamento Manuale:** Se necessario, carica manualmente i file delle fatture nel sistema utilizzando l'interfaccia fornita.
 
-#### 3. Revisione delle Fatture Abbinati Automaticamente
+### 3. Revisione delle Fatture Abbinati Automaticamente
 
 * Revisiona le fatture che sono state abbinati automaticamente agli ordini di acquisto.
 * Verifica i dettagli dell'abbinamento, inclusi i numeri degli articoli, le quantità e i prezzi.
 
-#### 4. Gestione delle Discrepanze
+### 4. Gestione delle Discrepanze
 
 * Accedi alla sezione Discrepanze per revisionare eventuali fatture che non hanno potuto essere abbinati automaticamente.
 * Regola manualmente le quantità o i prezzi secondo necessità, o segnala la fattura per ulteriore revisione.
 
-#### 5. Abbinamento Manuale
+### 5. Abbinamento Manuale
 
 Per le fatture non abbinati automaticamente:
 
