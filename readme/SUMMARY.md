@@ -26,7 +26,7 @@
   * [Shipment Order Dashboard](readme-1/shipment-order-dashboard.md)
   * [Tabla AI](readme-1/ai-table/README.md)
     * [Etiquetas de la tabla AI](readme-1/ai-table/etiquetas-de-la-tabla-ai.md)
-  * [Pantalla de validación](readme-1/pantalla-de-validacion.md)
+  * [Pantalla de Validación](readme-1/pantalla-de-validacion.md)
   * [Propósito y uso](readme-1/proposito-y-uso.md)
   * [Conciliación de orden de compra](readme-1/purchase-order-matching/README.md)
     * [Conciliación automática de datos de órdenes de compra](readme-1/automatic-purchase-order-data-matching.md)
