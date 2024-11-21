@@ -2,26 +2,26 @@
 
 ## Docbits Scripting Guide
 
-Welcome to the Docbits scripting guide! Here, you'll learn how to use scripts to automate and enhance your document processing within Docbits. Scripts allow for custom field manipulation, data transformation, and logic implementation across various document types.
+Willkommen im Docbits Scripting Guide! Hier lernen Sie, wie Sie Skripte verwenden, um die Dokumentenverarbeitung in Docbits zu automatisieren und zu verbessern. Skripte ermöglichen die benutzerdefinierte Feldmanipulation, Datenumwandlung und Logikimplementierung über verschiedene Dokumenttypen hinweg.
 
-### Getting Started
+### Erste Schritte
 
-Scripts in Docbits are written in Python. They interact with document fields and metadata to perform a wide range of operations, from simple data formatting to complex logic.
+Skripte in Docbits werden in Python geschrieben. Sie interagieren mit Dokumentfeldern und Metadaten, um eine Vielzahl von Operationen durchzuführen, von einfacher Datenformatierung bis hin zu komplexer Logik.
 
-#### Key Functions
+**Wichtige Funktionen**
 
-* `get_field_value(fields_dict, field_name, default=None)`: Retrieves the value of a specified field.
-* `set_field_value(fields_dict, field_name, value)`: Sets the value of a specified field.
-* `create_new_field(field_name, value)`: Creates a new field with a specified name and value.
-* `format_decimal_to_locale(value, locale)`: Formats a decimal value according to a specified locale.
+* `get_field_value(fields_dict, field_name, default=None)`: Ruft den Wert eines angegebenen Feldes ab.
+* `set_field_value(fields_dict, field_name, value)`: Setzt den Wert eines angegebenen Feldes.
+* `create_new_field(field_name, value)`: Erstellt ein neues Feld mit einem angegebenen Namen und Wert.
+* `format_decimal_to_locale(value, locale)`: Formatiert einen Dezimalwert gemäß einer angegebenen Lokalisierung.
 
-### Example Scripts
+### Beispielskripte
 
-Below are several examples demonstrating common scripting tasks.
+Im Folgenden finden Sie mehrere Beispiele, die gängige Scripting-Aufgaben demonstrieren.
 
-#### Example 1: Currency Mapping for Invoices
+**Beispiel 1: Währungszuordnung für Rechnungen**
 
-Standardize currency symbols or text to ISO currency codes.
+Standardisieren Sie Währungssymbole oder -texte zu ISO-Währungscodes.
 
 ```python
 currency_map = {
