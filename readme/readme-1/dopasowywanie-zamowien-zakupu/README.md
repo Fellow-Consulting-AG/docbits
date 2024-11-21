@@ -21,7 +21,7 @@ Aby rozpocząć korzystanie z systemu Dopasowywania Zamówień Zakupu, upewnij s
 * **Raportowanie Rozbieżności:** Identyfikuje i raportuje wszelkie rozbieżności między fakturami a zamówieniami zakupu.
 * **Ścieżka Audytu:** Utrzymuje log wszystkich działań dla zgodności i przeglądu.
 
-<figure><img src="../.gitbook/assets/purchase-order-matching.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/purchase-order-matching.png" alt=""><figcaption></figcaption></figure>
 
 ## Interfejs Użytkownika
 
