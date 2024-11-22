@@ -1,3 +1,3 @@
-# How to Import Documents
+# Como Importar Documentos
 
-A guide to uploading documents to DocBits.
+Um guia para fazer upload de documentos no DocBits.

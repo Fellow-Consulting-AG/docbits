@@ -34,7 +34,7 @@
     * [Correspondência Automática de Dados de Pedido de Compra](readme-1/correspondencia-de-pedido-de-compra/correspondencia-automatica-de-dados-de-pedido-de-compra.md)
     * [Mapa de Número de Item do Fornecedor](readme-1/correspondencia-de-pedido-de-compra/mapa-de-numero-de-item-do-fornecedor.md)
   * [Contabilização de Fatura de Custo e Vendas Indiretas](readme-1/contabilizacao-de-fatura-de-custo-e-vendas-indiretas.md)
-  * [How to Import Documents](overview/how-to-import-documents/README.md)
+  * [Como Importar Documentos](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
     * [Manual Import](overview/how-to-import-documents/manual-import.md)
     * [Watchdog](overview/how-to-import-documents/watchdog.md)
