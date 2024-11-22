@@ -33,7 +33,7 @@
   * [Conciliación de Órdenes de Compra](readme-1/purchase-order-matching/README.md)
     * [Conciliación Automática de Datos de Órdenes de Compra](readme-1/automatic-purchase-order-data-matching.md)
     * [Mapa de número de artículo del proveedor](readme-1/purchase-order-matching/mapa-de-numero-de-articulo-del-proveedor.md)
-  * [Contabilidad para facturas de costos y ventas indirectas](readme-1/contabilidad-para-facturas-de-costos-y-ventas-indirectas.md)
+  * [Contabilidad para Factura de Costos y Ventas Indirectas](readme-1/contabilidad-para-facturas-de-costos-y-ventas-indirectas.md)
   * [Cómo importar documentos](readme-1/how-to-import-documents/README.md)
     * [FTP](readme-1/how-to-import-documents/ftp.md)
     * [Importación manual](readme-1/how-to-import-documents/manual-import.md)
