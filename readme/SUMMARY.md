@@ -36,7 +36,7 @@
   * [Contabilità per fattura di costo e vendite indirette](readme-1/contabilita-per-fattura-di-costo-e-vendite-indirette.md)
   * [Come importare documenti](readme-1/how-to-import-documents/README.md)
     * [FTP](readme-1/how-to-import-documents/ftp.md)
-    * [Importazione manuale](readme-1/how-to-import-documents/manual-import.md)
+    * [Importazione Manuale](readme-1/how-to-import-documents/manual-import.md)
     * [Watchdog](readme-1/how-to-import-documents/watchdog.md)
     * [Webhook](readme-1/how-to-import-documents/webhook.md)
     * [E-mail](readme-1/how-to-import-documents/email/README.md)
