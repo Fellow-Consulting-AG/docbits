@@ -257,15 +257,7 @@ DocBits now processes XRechnung (electronic invoices) seamlessly by first creati
 
 The existing system lacks automated rules for accurately matching and processing invoice charges against purchase orders (POs). This manual process can lead to discrepancies, as illustrated in the screenshots, where invoice charges and POs need reconciliation for correct invoicing.
 
-<div>
-
-<figure><img src=".gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.37.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src=".gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.46.png" alt=""><figcaption><p>Rule Manager DocBits</p></figcaption></figure>
-
-</div>
+<div><figure><img src=".gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.37.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.46.png" alt=""><figcaption><p>Rule Manager DocBits</p></figcaption></figure></div>
 
 ### Solution:
 
@@ -294,19 +286,7 @@ This update brings exciting new features and bug fixes to Junebug:
 * **Origin Identification (AI):** Junebug introduces a powerful AI feature that automatically learns the origin of documents. This saves you time and effort in document classification.
 *
 
-    <div>
-
-    <figure><img src=".gitbook/assets/POShipmentTable.png" alt=""><figcaption></figcaption></figure>
-
-     
-
-    <figure><img src=".gitbook/assets/ApprovalScreen2.png" alt=""><figcaption></figcaption></figure>
-
-     
-
-    <figure><img src=".gitbook/assets/ApprovalScreen1.png" alt=""><figcaption></figcaption></figure>
-
-    </div>
+    <div><figure><img src=".gitbook/assets/POShipmentTable.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/ApprovalScreen2.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/ApprovalScreen1.png" alt=""><figcaption></figcaption></figure></div>
 
 **Bug Fixes:**
 

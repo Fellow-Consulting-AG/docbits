@@ -36,7 +36,7 @@ The Dashboard settings are designed to help administrators control the data pres
 
 <figure><img src="../../../.gitbook/assets/dashboard-settings3.png" alt=""><figcaption></figcaption></figure>
 
-### Advance Shipment Dashboard**:**
+### Advance Shipment Dashboar&#x64;**:**
 
 * **Delivered Orders Visibility:** This feature allows the user to specify the duration for which delivered orders will be visible.
 
