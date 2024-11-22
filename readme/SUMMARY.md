@@ -32,6 +32,7 @@
   * [Cel i Zastosowanie](readme-1/cel-i-zastosowanie.md)
   * [Dopasowywanie Zamówień Zakupu](readme-1/dopasowywanie-zamowien-zakupu/README.md)
     * [Automatyczne Dopasowywanie Danych Zamówień Zakupu](readme-1/dopasowywanie-zamowien-zakupu/automatyczne-dopasowywanie-danych-zamowien-zakupu.md)
+    * [Mapa Numerów Przedmiotów Dostawcy](readme-1/dopasowywanie-zamowien-zakupu/mapa-numerow-przedmiotow-dostawcy.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
     * [Manual Import](overview/how-to-import-documents/manual-import.md)
