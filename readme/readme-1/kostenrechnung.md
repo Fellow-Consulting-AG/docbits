@@ -92,7 +92,7 @@ Für Rechnungen, die nicht automatisch abgeglichen wurden:
 * Greifen Sie auf den Abschnitt "Berichte" zu, um detaillierte Berichte über finanzielle Transaktionen zu erstellen.
 * Verwenden Sie die Exportoptionen, um Berichte für weitere Analysen oder Aufzeichnungen zu speichern.
 
-#### Beispielverwendung
+### Beispielverwendung
 
 1. **Dokumente hochladen**: Benutzer können verschiedene Dokumente (Rechnungen, Lieferscheine usw.) in das System hochladen.
 2. **Automatischer Abgleich**: Das System gleicht die hochgeladenen Dokumente automatisch mit vorhandenen Bestellungen ab.
