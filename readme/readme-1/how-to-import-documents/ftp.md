@@ -12,7 +12,7 @@ Anforderungen
 
 Öffnen Sie vom Dashboard aus die Einstellungen und navigieren Sie zu Importieren. Wählen Sie unter FTP-Import aus, um eine neue Konfiguration hinzuzufügen.
 
-<figure><img src="../../.gitbook/assets/fdp1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ftp1.png" alt=""><figcaption></figcaption></figure>
 
 Geben Sie die SFTP-Anmeldeinformationen in die dafür vorgesehenen Felder ein und wählen Sie Speichern (Das API-Schlüsselfeld wird automatisch mit dem API-Schlüssel der Umgebung, in der Sie arbeiten, ausgefüllt).
 
