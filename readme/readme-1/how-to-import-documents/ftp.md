@@ -12,7 +12,7 @@ Requirements
 
 From the Dashboard, open Settings and navigate to Import. Under FTP Import, select to add a new configuration.
 
-<figure><img src="../../.gitbook/assets/fdp1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ftp1.png" alt=""><figcaption></figcaption></figure>
 
 Enter SFTP credentials in the given spaces and select save (The API Key field will automatically be filled with the API Key of the environment you are working on).
 
