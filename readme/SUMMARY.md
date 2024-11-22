@@ -36,7 +36,7 @@
   * [Contabilização de Fatura de Custo e Vendas Indiretas](readme-1/contabilizacao-de-fatura-de-custo-e-vendas-indiretas.md)
   * [Como Importar Documentos](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
-    * [Manual Import](overview/how-to-import-documents/manual-import.md)
+    * [Importação Manual](overview/how-to-import-documents/manual-import.md)
     * [Watchdog](overview/how-to-import-documents/watchdog.md)
     * [Webhook](overview/how-to-import-documents/webhook.md)
     * [Email](overview/how-to-import-documents/email/README.md)

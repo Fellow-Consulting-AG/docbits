@@ -1,12 +1,12 @@
-# Manual Import
+# Importação Manual
 
-If you’re looking to import documents manually into DocBits, follow these simple steps:
+Se você deseja importar documentos manualmente para o DocBits, siga estes passos simples:
 
-* Click on the Upload button on the DocBits Dashboard.
-* A window will appear where you can upload your documents via file browser or drag and drop. You can upload up to 10 documents at once.
-* To upload documents via file browser, click on the Upload Documents button and select the files you want to upload. Once you’ve selected the files, click on Confirm to start the upload process.
-* Alternatively, you can drag and drop your files onto the DocBits import window.
-* After the files have been uploaded, they will have the initial status of “Running”. During this time, the upload is being processed and editing the file is not possible. The processing time may vary depending on the size and complexity of the file.
-* Once the file has been processed, it will receive the status of “Ready For Validation”. You can now start the validation process.
+* Clique no botão Upload no Painel do DocBits.
+* Uma janela aparecerá onde você pode enviar seus documentos via navegador de arquivos ou arrastar e soltar. Você pode enviar até 10 documentos de uma vez.
+* Para enviar documentos via navegador de arquivos, clique no botão Upload Documents e selecione os arquivos que deseja enviar. Depois de selecionar os arquivos, clique em Confirmar para iniciar o processo de upload.
+* Alternativamente, você pode arrastar e soltar seus arquivos na janela de importação do DocBits.
+* Após os arquivos serem enviados, eles terão o status inicial de “Running”. Durante esse tempo, o upload está sendo processado e a edição do arquivo não é possível. O tempo de processamento pode variar dependendo do tamanho e da complexidade do arquivo.
+* Uma vez que o arquivo tenha sido processado, ele receberá o status de “Ready For Validation”. Você pode agora iniciar o processo de validação.
 
-![](https://lh7-us.googleusercontent.com/u3OruoAoBvx4nRSkhQZGIEYxiem1CJn-XUaYU38vGWXhnkwOdnkyZ0ZxHXrAG5g0rNnp4fsI\_sSVw7RtMYOD8rBlslgoT4RY1THU4-BzXF3B7Ve-HhNfOADOziQQseu2QF56aNaKsfhe1qnScJzUhek)
+<figure><img src="../../.gitbook/assets/manual-import1.png" alt=""><figcaption></figcaption></figure>
