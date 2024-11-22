@@ -38,38 +38,38 @@ Die Benutzeroberfläche des Buchhaltungsmoduls umfasst typischerweise die folgen
 
 ## Schritt-für-Schritt-Anleitung zur Nutzung des Buchhaltungsmoduls
 
-#### 1. Zugriff auf das Buchhaltungsmodul
+### 1. Zugriff auf das Buchhaltungsmodul
 
 Navigieren Sie zum Buchhaltungsmodul über das Hauptmenü Ihres ERP-Systems.
 
-#### 2. Rechnungen importieren oder darauf zugreifen
+### 2. Rechnungen importieren oder darauf zugreifen
 
 * **Automatischer Import**: Wenn Ihr System für die automatische Datenerfassung eingerichtet ist, werden Rechnungen automatisch in das System importiert.
 * **Manueller Upload**: Falls erforderlich, laden Sie Rechnungsdateien manuell über die bereitgestellte Benutzeroberfläche in das System hoch.
 
-#### 3. Automatisch abgeglichene Rechnungen überprüfen
+### 3. Automatisch abgeglichene Rechnungen überprüfen
 
 * Überprüfen Sie Rechnungen, die automatisch mit Bestellungen abgeglichen wurden.
 * Überprüfen Sie die Details des Abgleichs, einschließlich Artikelnummern, Mengen und Preise.
 
-#### 4. Abweichungen behandeln
+### 4. Abweichungen behandeln
 
 * Greifen Sie auf den Abschnitt Abweichungen zu, um Rechnungen zu überprüfen, die nicht automatisch abgeglichen werden konnten.
 * Passen Sie bei Bedarf Mengen oder Preise manuell an oder markieren Sie die Rechnung zur weiteren Überprüfung.
 
-#### 5. Manuelles Abgleichen
+### 5. Manuelles Abgleichen
 
 Für Rechnungen, die nicht automatisch abgeglichen wurden:
 
 * Verwenden Sie die Such- und Filterwerkzeuge, um die entsprechende Bestellung zu finden.
 * Überprüfen und gleichen Sie die Rechnung manuell mit der Bestellung ab.
 
-#### 6. Das System trainieren
+### 6. Das System trainieren
 
 * Für neue Dokumenttypen trainieren Sie das System, indem Sie ein Muster bereitstellen.
 * In der Regel müssen Sie das System nur einmal trainieren, damit es ähnliche Dokumente in Zukunft genau erkennt.
 
-#### 7. Buchungen erfassen
+### 7. Buchungen erfassen
 
 * Navigieren Sie zur Registerkarte "Positionen", um Buchungen für jede Rechnung anzuzeigen und zu erfassen.
 * Weisen Sie die Beträge den entsprechenden Konten, Kostenstellen und Dimensionen zu, die spezifisch für Infor LN/M3 sind.
@@ -82,12 +82,12 @@ Für Rechnungen, die nicht automatisch abgeglichen wurden:
 4. **Betrag aufteilen**: Teilen Sie bei Bedarf den Betrag nach Abteilung für eine detailliertere Nachverfolgung auf.
 5. **Betrag eingeben**: Geben Sie den Betrag für die Position ein.
 
-#### 8. Hauptbuchkonten definieren
+### 8. Hauptbuchkonten definieren
 
 * Sobald die Daten extrahiert sind, kann das APS-Team die Hauptbuchkonten definieren.
 * Dies stellt sicher, dass jede Transaktion unter dem richtigen Konto für eine genaue Finanzberichterstattung erfasst wird.
 
-#### 9. Berichte erstellen
+### 9. Berichte erstellen
 
 * Greifen Sie auf den Abschnitt "Berichte" zu, um detaillierte Berichte über finanzielle Transaktionen zu erstellen.
 * Verwenden Sie die Exportoptionen, um Berichte für weitere Analysen oder Aufzeichnungen zu speichern.
