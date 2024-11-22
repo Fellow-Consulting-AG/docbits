@@ -39,7 +39,7 @@
     * [Importación Manual](readme-1/how-to-import-documents/manual-import.md)
     * [Watchdog](readme-1/how-to-import-documents/watchdog.md)
     * [Webhook](readme-1/how-to-import-documents/webhook.md)
-    * [Correo electrónico](readme-1/how-to-import-documents/email/README.md)
+    * [Correo Electrónico](readme-1/how-to-import-documents/email/README.md)
       * [IMAP](readme-1/how-to-import-documents/email/imap.md)
       * [OAuth Office365](readme-1/how-to-import-documents/email/oauth-office365.md)
   * [Soporte técnico en DocBits](readme-1/technical-support-in-docbits/README.md)
