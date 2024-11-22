@@ -36,7 +36,7 @@
   * [Księgowanie faktur kosztowych i sprzedaży pośredniej](readme-1/ksiegowanie-faktur-kosztowych-i-sprzedazy-posredniej.md)
   * [Jak importować dokumenty](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
-    * [Manual Import](overview/how-to-import-documents/manual-import.md)
+    * [Ręczny Import](overview/how-to-import-documents/manual-import.md)
     * [Watchdog](overview/how-to-import-documents/watchdog.md)
     * [Webhook](overview/how-to-import-documents/webhook.md)
     * [Email](overview/how-to-import-documents/email/README.md)
