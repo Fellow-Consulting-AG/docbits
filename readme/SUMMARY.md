@@ -33,7 +33,7 @@
   * [Bestellabgleich](readme-1/purchase-order-matching/README.md)
     * [Automatischer Bestelldatenabgleich](readme-1/automatic-purchase-order-data-matching.md)
     * [Lieferanten-Artikelnummern-Zuordnung](readme-1/purchase-order-matching/lieferanten-artikelnummern-zuordnung.md)
-  * [Kostenrechnung](readme-1/kostenrechnung.md)
+  * [Buchhaltung für Kostenrechnungen und indirekte Verkäufe](readme-1/kostenrechnung.md)
   * [Wie man Dokumente importiert](readme-1/how-to-import-documents/README.md)
     * [FTP](readme-1/how-to-import-documents/ftp.md)
     * [Manueller Import](readme-1/how-to-import-documents/manual-import.md)
