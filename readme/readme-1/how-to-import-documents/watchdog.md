@@ -2,7 +2,7 @@
 
 **Version:**
 
-Version 2.0.9 ist jetzt verfügbar. Bitte aktualisieren Sie auf die neue Version: https://github.com/Fellow-Consulting-AG/docbits/blob/main/WatchDog.exe
+Version 2.0.9 ist jetzt verfügbar. Bitte aktualisieren Sie auf die neue Version: [https://github.com/Fellow-Consulting-AG/docbits/blob/main/WatchDog.exe](https://github.com/Fellow-Consulting-AG/docbits/blob/main/WatchDog.exe)
 
 **Installation und Einstellungen**
 
