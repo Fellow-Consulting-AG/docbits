@@ -1,4 +1,4 @@
-# Importación Manual
+# Importación manual
 
 Si deseas importar documentos manualmente en DocBits, sigue estos sencillos pasos:
 
@@ -9,4 +9,4 @@ Si deseas importar documentos manualmente en DocBits, sigue estos sencillos paso
 * Después de que los archivos hayan sido subidos, tendrán el estado inicial de "En Proceso". Durante este tiempo, la carga se está procesando y no es posible editar el archivo. El tiempo de procesamiento puede variar dependiendo del tamaño y complejidad del archivo.
 * Una vez que el archivo haya sido procesado, recibirá el estado de "Listo para Validación". Ahora puedes iniciar el proceso de validación.
 
-![](https://lh7-us.googleusercontent.com/u3OruoAoBvx4nRSkhQZGIEYxiem1CJn-XUaYU38vGWXhnkwOdnkyZ0ZxHXrAG5g0rNnp4fsI\_sSVw7RtMYOD8rBlslgoT4RY1THU4-BzXF3B7Ve-HhNfOADOziQQseu2QF56aNaKsfhe1qnScJzUhek)
+<figure><img src="../../.gitbook/assets/manual-import1.png" alt=""><figcaption></figcaption></figure>
