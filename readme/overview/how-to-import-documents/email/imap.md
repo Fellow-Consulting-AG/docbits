@@ -1,10 +1,12 @@
 # IMAP
 
-Here you just need to enter the required information for your email provider, encryption, server name, port, username, email address, password as well as the email folder.
+{% embed url="https://www.youtube.com/watch?v=CIGk-f4x4ZE" %}
 
-![](https://lh7-us.googleusercontent.com/qo1uIuPrVZ-C4myaQBjSCrK-GgtsohcmAv\_trjcQvxXJ9UYYWzEoNbtXGEo1VwlC4fohGAYwlQ7LXiRYE6AoVkJaldY3fnVINoEloVbSogUpLky7Qt7ARyGLcthHaoUPVmz3W7QJRwZhp0CRVGhFMZQ)
+Tutaj wystarczy wprowadzić wymagane informacje dotyczące dostawcy poczty e-mail, szyfrowania, nazwy serwera, portu, nazwy użytkownika, adresu e-mail, hasła oraz folderu e-mail.
 
-Things to Note
+![](https://lh7-us.googleusercontent.com/qo1uIuPrVZ-C4myaQBjSCrK-GgtsohcmAv_trjcQvxXJ9UYYWzEoNbtXGEo1VwlC4fohGAYwlQ7LXiRYE6AoVkJaldY3fnVINoEloVbSogUpLky7Qt7ARyGLcthHaoUPVmz3W7QJRwZhp0CRVGhFMZQ)
 
-* Input all needed information into the UI. Other information like the server, port, etc. Depends on the host (a quick Google search should help).
-* Folder and Move-Imported have the same Function here. Folder can not be disabled, but will use Inbox by default if left empty.
+Rzeczy do zanotowania
+
+* Wprowadź wszystkie potrzebne informacje do interfejsu użytkownika. Inne informacje, takie jak serwer, port itp., zależą od hosta (szybkie wyszukiwanie w Google powinno pomóc).
+* Folder i Move-Imported mają tutaj tę samą funkcję. Folder nie może być wyłączony, ale domyślnie użyje Skrzynki odbiorczej, jeśli pozostanie pusty.
