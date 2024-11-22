@@ -33,6 +33,7 @@
   * [Dopasowywanie Zamówień Zakupu](readme-1/dopasowywanie-zamowien-zakupu/README.md)
     * [Automatyczne Dopasowywanie Danych Zamówień Zakupu](readme-1/dopasowywanie-zamowien-zakupu/automatyczne-dopasowywanie-danych-zamowien-zakupu.md)
     * [Mapa Numerów Przedmiotów Dostawcy](readme-1/dopasowywanie-zamowien-zakupu/mapa-numerow-przedmiotow-dostawcy.md)
+  * [Księgowanie faktur kosztowych i sprzedaży pośredniej](readme-1/ksiegowanie-faktur-kosztowych-i-sprzedazy-posredniej.md)
   * [How to Import Documents](overview/how-to-import-documents/README.md)
     * [FTP](overview/how-to-import-documents/ftp.md)
     * [Manual Import](overview/how-to-import-documents/manual-import.md)
