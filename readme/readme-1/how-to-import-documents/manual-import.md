@@ -9,4 +9,4 @@ Wenn Sie Dokumente manuell in DocBits importieren möchten, befolgen Sie diese e
 * Nachdem die Dateien hochgeladen wurden, haben sie den anfänglichen Status "Wird ausgeführt". Während dieser Zeit wird der Upload verarbeitet und eine Bearbeitung der Datei ist nicht möglich. Die Verarbeitungszeit kann je nach Größe und Komplexität der Datei variieren.
 * Sobald die Datei verarbeitet wurde, erhält sie den Status "Bereit zur Validierung". Sie können nun den Validierungsprozess starten.
 
-![](https://lh7-us.googleusercontent.com/u3OruoAoBvx4nRSkhQZGIEYxiem1CJn-XUaYU38vGWXhnkwOdnkyZ0ZxHXrAG5g0rNnp4fsI\_sSVw7RtMYOD8rBlslgoT4RY1THU4-BzXF3B7Ve-HhNfOADOziQQseu2QF56aNaKsfhe1qnScJzUhek)
+<figure><img src="../../.gitbook/assets/manual-import1.png" alt=""><figcaption></figcaption></figure>
