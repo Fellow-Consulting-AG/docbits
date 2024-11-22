@@ -363,4 +363,5 @@
   * [DocBits Infor on Premise Customer](architecture/docbits-infor-on-premise-customer.md)
   * [Certifications](architecture/certifications.md)
 * [Infor Infrastructure](infor-infrastructure.md)
-* [Release](release.md)
+* [Release](release/README.md)
+  * [Testing Availability on Sandbox](release/testing-availability-on-sandbox.md)

@@ -8,13 +8,13 @@
 
 Configured IMAP email settings to automatically send notifications for import results. Successful import notifications will confirm the files processed, while failure alerts will include the filenames and specific error details for prompt troubleshooting.
 
-<figure><img src=".gitbook/assets/EmailImport.png" alt=""><figcaption><p>Email Import Configurations</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/EmailImport.png" alt=""><figcaption><p>Email Import Configurations</p></figcaption></figure>
 
 #### Master Data Lookup Revamping
 
 Revamped the master data lookup settings with refined categorization, enabling faster and more precise retrieval of diverse master data types. This improvement streamlines data access by organizing master data into distinct categories, significantly boosting search efficiency and accuracy. Users can now locate the relevant data more quickly, enhancing productivity and decision-making across the application
 
-<figure><img src=".gitbook/assets/MasterDataLookup.png" alt=""><figcaption><p>Master Data</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/MasterDataLookup.png" alt=""><figcaption><p>Master Data</p></figcaption></figure>
 
 #### Performance Improvements
 
@@ -85,9 +85,9 @@ DocBits now offers the ability to change the OCR (Optical Character Recognition)
 
 ## Rule Manager
 
-[rule-manager](admin-section/settings/document-processing/rule-manager/ "mention") provides the flexibility to create and edit conflict resolution rules tialored for DocBits invoicing system. These rules are designed to automatically handle discrepancies between invoice details and purchase order (PO) data, ensuring accurate financial reconciliation. The system applies these rules to process invoice lines, charges, and taxes, and generates appropriate adjustments or notes when necessary.
+[rule-manager](../admin-section/settings/document-processing/rule-manager/ "mention") provides the flexibility to create and edit conflict resolution rules tialored for DocBits invoicing system. These rules are designed to automatically handle discrepancies between invoice details and purchase order (PO) data, ensuring accurate financial reconciliation. The system applies these rules to process invoice lines, charges, and taxes, and generates appropriate adjustments or notes when necessary.
 
-<figure><img src=".gitbook/assets/RuleManager.png" alt=""><figcaption><p>Rule Manager</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/RuleManager.png" alt=""><figcaption><p>Rule Manager</p></figcaption></figure>
 
 ### Syncing Data Using Stream
 
@@ -97,7 +97,7 @@ BOD syncing from Infor utilizes AWS Stream for real-time data processing, enhanc
 
 DocBits now processes XRechnung (electronic invoices) seamlessly by first creating a user-friendly PDF, streamlining and simplifying the invoice processing workflow.
 
-<figure><img src=".gitbook/assets/XRECHNUNG.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/XRECHNUNG.png" alt=""><figcaption></figcaption></figure>
 
 ### Bug Fixes:
 
@@ -257,7 +257,7 @@ DocBits now processes XRechnung (electronic invoices) seamlessly by first creati
 
 The existing system lacks automated rules for accurately matching and processing invoice charges against purchase orders (POs). This manual process can lead to discrepancies, as illustrated in the screenshots, where invoice charges and POs need reconciliation for correct invoicing.
 
-<div><figure><img src=".gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.37.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.46.png" alt=""><figcaption><p>Rule Manager DocBits</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.37.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.46.png" alt=""><figcaption><p>Rule Manager DocBits</p></figcaption></figure></div>
 
 ### Solution:
 
@@ -286,22 +286,22 @@ This update brings exciting new features and bug fixes to Junebug:
 * **Origin Identification (AI):** Junebug introduces a powerful AI feature that automatically learns the origin of documents. This saves you time and effort in document classification.
 *
 
-    <div><figure><img src=".gitbook/assets/POShipmentTable.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/ApprovalScreen2.png" alt=""><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/ApprovalScreen1.png" alt=""><figcaption></figcaption></figure></div>
+    <div><figure><img src="../.gitbook/assets/POShipmentTable.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/ApprovalScreen2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/ApprovalScreen1.png" alt=""><figcaption></figcaption></figure></div>
 
 **Bug Fixes:**
 
 * **QR Code Fix:** An issue that previously caused problems with QR code processing has been resolved.
 * **Non-EDI Document Handling:** Junebug now handles non-EDI documents more effectively.
 
-<figure><img src=".gitbook/assets/EDI810-Invoice.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/EDI810-Invoice.png" alt=""><figcaption></figcaption></figure>
 
-Hotfix - 5 Juni [**Priority System**](readme-1/our-document-priority-system.md)
+Hotfix - 5 Juni [**Priority System**](../readme-1/our-document-priority-system.md)
 
 ## Next Release - Junebug Release 10th June 2024
 
 Sandbox Freeze - 3th June 2024
 
-<figure><img src=".gitbook/assets/Bildschirmfoto 2024-05-08 um 20.37.35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-08 um 20.37.35.png" alt=""><figcaption></figcaption></figure>
 
 In the upcoming release, a significant enhancement to the classification and extraction capabilities will be introduced, specifically aimed at table lines within documents. This new feature allows users to define whether a line in a table represents a charge. This functionality is particularly useful in detailed financial documents, such as invoices, where distinguishing between different types of transactions—such as charges, taxes, or fees—is crucial for accurate processing and record-keeping.
 
