@@ -15,7 +15,7 @@ To start using the accounting module, make sure you have the necessary permissio
 * Access to the cost accounting and sales accounting modules within the ERP system.
 * Appropriate user permissions for viewing and processing financial documents.
 
-### Key Features
+## Key Features
 
 1. **Automatic Data Extraction**: Automatically extracts and interprets data from digital invoices and other documents.
 2. **Data Comparison**: Compares extracted invoice data against existing purchase order data.
