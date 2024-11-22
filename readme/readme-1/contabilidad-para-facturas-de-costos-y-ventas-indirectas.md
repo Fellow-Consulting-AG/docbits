@@ -38,38 +38,38 @@ La interfaz del módulo de contabilidad típicamente incluye los siguientes comp
 
 ## Guía Paso a Paso para Usar el Módulo de Contabilidad
 
-#### 1. Acceder al Módulo de Contabilidad
+### 1. Acceder al Módulo de Contabilidad
 
 Navega al módulo de contabilidad desde el menú principal de tu sistema ERP.
 
-#### 2. Importar o Acceder a Facturas
+### 2. Importar o Acceder a Facturas
 
 * **Importación Automatizada**: Si tu sistema está configurado para captura automática de datos, las facturas se importarán automáticamente al sistema.
 * **Carga Manual**: Si es necesario, carga manualmente los archivos de facturas en el sistema usando la interfaz proporcionada.
 
-#### 3. Revisar Facturas Coincidentes Automáticamente
+### 3. Revisar Facturas Coincidentes Automáticamente
 
 * Revisa las facturas que han sido coincidentes automáticamente con órdenes de compra.
 * Verifica los detalles de la coincidencia, incluidos números de artículos, cantidades y precios.
 
-#### 4. Manejar Discrepancias
+### 4. Manejar Discrepancias
 
 * Accede a la sección de Discrepancias para revisar cualquier factura que no pudo coincidir automáticamente.
 * Ajusta manualmente las cantidades o precios según sea necesario, o marca la factura para una revisión adicional.
 
-#### 5. Coincidencia Manual
+### 5. Coincidencia Manual
 
 Para facturas no coincidentes automáticamente:
 
 * Usa las herramientas de búsqueda y filtro para encontrar la orden de compra correspondiente.
 * Verifica y coincide manualmente la factura con la orden de compra.
 
-#### 6. Entrenar al Sistema
+### 6. Entrenar al Sistema
 
 * Para nuevos tipos de documentos, entrena al sistema para reconocerlos proporcionando una muestra.
 * Típicamente, solo necesitas entrenar al sistema una vez para que reconozca con precisión documentos similares en el futuro.
 
-#### 7. Registrar Reservas
+### 7. Registrar Reservas
 
 * Navega a la pestaña "Partidas" para ver y registrar reservas para cada factura.
 * Asigna los montos a las cuentas, centros de costos y dimensiones apropiadas específicas para Infor LN/M3.
@@ -82,12 +82,12 @@ Para facturas no coincidentes automáticamente:
 4. **Dividir Monto**: Si es necesario, divide el monto por departamento para un seguimiento más detallado.
 5. **Ingresar Monto**: Ingresa el monto para la partida.
 
-#### 8. Definir Cuentas de Libro Mayor
+### 8. Definir Cuentas de Libro Mayor
 
 * Una vez que los datos son extraídos, el equipo de APS puede definir las cuentas de libro mayor.
 * Esto asegura que cada transacción se registre bajo la cuenta correcta para un informe financiero preciso.
 
-#### 9. Generar Informes
+### 9. Generar Informes
 
 * Accede a la sección "Informes" para generar informes detallados sobre transacciones financieras.
 * Usa las opciones de exportación para guardar informes para análisis adicional o mantenimiento de registros.
