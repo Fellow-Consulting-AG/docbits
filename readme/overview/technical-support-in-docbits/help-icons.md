@@ -1,7 +1,7 @@
-# Help Icons
+# Ícones de Ajuda
 
-Help icons have been placed all around DocBits in order to assist you in learning and understanding what a feature really does and how it can assist you with your document processing.
+Ícones de ajuda foram colocados em todo o DocBits para ajudá-lo a aprender e entender o que uma funcionalidade realmente faz e como ela pode ajudá-lo no processamento de documentos.
 
-These help icons look as follows
+Esses ícones de ajuda se parecem com o seguinte
 
-![](https://lh7-us.googleusercontent.com/9cj2CVAPV9xXYvofDFH0ZzMHDF3SEF4oEZ0K3gOAh2TYl1pJN5FpFjZzwbTZpAtAOZF7KV753-VPUPxW0dVKbPJ8zfGzwNBNvvoUy5Hl5UrXkrfi2EMrXQxOTdx5gafAC3Rwg7MsCUdkSOebB9b7Ctw)\
+<figure><img src="../../.gitbook/assets/help-icon.png" alt=""><figcaption></figcaption></figure>
