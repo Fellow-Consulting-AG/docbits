@@ -1,7 +1,7 @@
 # Table of contents
 
 * [DocBits](README.md)
-* [End User Section](<README (1).md>)
+* [Sekcja użytkownika końcowego](<README (1).md>)
   * [Kluczowe funkcje DocBits](overview/key-features-of-docbits.md)
   * [Wsparcie Użytkownika](overview/user-support.md)
   * [Pulpit](overview/dashboard/README.md)
@@ -47,6 +47,7 @@
     * [Ikony Pomocy](overview/technical-support-in-docbits/help-icons.md)
   * [Kurs](readme-1/kurs/README.md)
     * [Wprowadzenie](readme-1/kurs/wprowadzenie.md)
+    * [Pulpit](readme-1/kurs/pulpit.md)
   * [Portal Dostawcy](readme-1/portal-dostawcy/README.md)
     * [Rejestracja Dostawcy](readme-1/portal-dostawcy/rejestracja-dostawcy.md)
     * [Status Dostawcy](readme-1/portal-dostawcy/status-dostawcy.md)
