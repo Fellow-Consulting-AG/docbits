@@ -47,7 +47,7 @@
     * [Iconos de ayuda](readme-1/technical-support-in-docbits/help-icons.md)
   * [Curso](readme-1/course/README.md)
     * [Introducción](readme-1/course/introduction.md)
-    * [Dashboard](readme-1/course/dashboard.md)
+    * [Panel](readme-1/course/dashboard.md)
     * [Documentos validados](readme-1/course/validated-documents.md)
     * [Tabla AI](readme-1/course/ai-table.md)
     * [Conciliación maestra de órdenes de compra con DocBits](readme-1/course/master-po-matching-with-docbits.md)
