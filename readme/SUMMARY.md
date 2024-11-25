@@ -207,6 +207,7 @@
         * [Doc Script](admin-section/settings/document-processing/module/doc-script.md)
         * [IDM ACL Updater](admin-section/settings/document-processing/module/idm-acl-updater.md)
         * [Inbound Emails](admin-section/settings/document-processing/module/inbound-emails.md)
+        * [Automated Test Results](admin-section/settings/document-processing/module/automated-test-results.md)
         * [Swiss QR Code](admin-section/settings/document-processing/module/swiss-qr-code.md)
         * [Auto Export if PO Matched 100%](admin-section/settings/document-processing/module/auto-export-if-po-matched-100.md)
     * [Log Settings](admin-section/settings/log-settings/README.md)
