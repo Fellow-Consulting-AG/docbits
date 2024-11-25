@@ -1,14 +1,13 @@
+# Criar um ticket
 
-# Create a ticket
+Esta é uma ferramenta disponível para você, na tela de validação, no caso de ocorrer algum tipo de problema ao validar seu documento no DocBits.
 
-This is a tool available to you, on the validation screen, in the event of some sort of issue occurring when validating your document in DocBits.
+Este recurso está localizado no menu acima da área de visualização do documento, como abaixo
 
-This feature is located in the menu above the document preview area, like below
+![](https://lh7-us.googleusercontent.com/wgH8UDoDmtxAwaFoO3NUQM9NIQyINnNenBFMe4b_mKfnx7LrJA_8dPbKLoTNvHhHNyznEyy2JDLzoOHW39n1GnTIoBIUgUTCvMVKMPGMYJrFTU6JnqFxjc67j-idDupjbGfMqEwoSgrBPt3mvor1Tds)
 
-![](https://lh7-us.googleusercontent.com/wgH8UDoDmtxAwaFoO3NUQM9NIQyINnNenBFMe4b\_mKfnx7LrJA\_8dPbKLoTNvHhHNyznEyy2JDLzoOHW39n1GnTIoBIUgUTCvMVKMPGMYJrFTU6JnqFxjc67j-idDupjbGfMqEwoSgrBPt3mvor1Tds)
+Uma vez clicado, o seguinte formulário de ticket será exibido para você.
 
-Once clicked, the following ticket form will be displayed to you.
+![](https://lh7-us.googleusercontent.com/DxlkEirrpbtGXs8R6gHD9MtaUqd5mY9L1ya1PdGIwZIHnuoj0wflDML6ZjYzrHxqXos-0uwhMAJI69_zhO92dNWrwAmYpPwAe2C8sHvo0Tf8f8PG7SktBv4JiY6QfxxDNtO55S3xmQsze48ZophpDPc)
 
-![](https://lh7-us.googleusercontent.com/DxlkEirrpbtGXs8R6gHD9MtaUqd5mY9L1ya1PdGIwZIHnuoj0wflDML6ZjYzrHxqXos-0uwhMAJI69\_zhO92dNWrwAmYpPwAe2C8sHvo0Tf8f8PG7SktBv4JiY6QfxxDNtO55S3xmQsze48ZophpDPc)
-
-This is where you will fill in your details as well as describe the error. You can also ,if applicable, attach a screenshot of the issue and attach a relevant file.
+É aqui que você preencherá seus dados e descreverá o erro. Você também pode, se aplicável, anexar uma captura de tela do problema e anexar um arquivo relevante.
