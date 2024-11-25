@@ -1,19 +1,19 @@
-# Technical Support in DocBits
+# Suporte Técnico no DocBits
 
-### Technical Support in DocBits <a href="#hy7z6t7p8psl" id="hy7z6t7p8psl"></a>
+### Suporte Técnico no DocBits <a href="#hy7z6t7p8psl" id="hy7z6t7p8psl"></a>
 
-### **Help Icons** <a href="#gvm1kp4bwvnd" id="gvm1kp4bwvnd"></a>
+### **Ícones de Ajuda** <a href="#gvm1kp4bwvnd" id="gvm1kp4bwvnd"></a>
 
-Help icons have been placed all around DocBits in order to assist you in learning and understanding what a feature really does and how it can assist you with your document processing.
+Ícones de ajuda foram colocados em todo o DocBits para auxiliá-lo a aprender e entender o que uma funcionalidade realmente faz e como ela pode ajudá-lo no processamento de documentos.
 
-These help icons look as follows
+Esses ícones de ajuda têm a seguinte aparência
 
-### **Create a Ticket** <a href="#id-2mb0mw2kxioz" id="id-2mb0mw2kxioz"></a>
+### **Criar um Ticket** <a href="#id-2mb0mw2kxioz" id="id-2mb0mw2kxioz"></a>
 
-This is a tool available to you, on the validation screen, in the event of some sort of issue occurring when validating your document in DocBits.
+Esta é uma ferramenta disponível para você, na tela de validação, no caso de algum tipo de problema ocorrer ao validar seu documento no DocBits.
 
-This feature is located in the menu above the document preview area, like below
+Esta funcionalidade está localizada no menu acima da área de visualização do documento, como abaixo
 
-Once clicked, the following ticket form will be displayed to you.
+Uma vez clicado, o seguinte formulário de ticket será exibido para você.
 
-This is where you will fill in your details as well as describe the error. You can also ,if applicable, attach a screenshot of the issue and attach a relevant file.
+É aqui que você preencherá seus dados e descreverá o erro. Você também pode, se aplicável, anexar uma captura de tela do problema e anexar um arquivo relevante.
