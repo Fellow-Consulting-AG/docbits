@@ -1,12 +1,14 @@
 # OAuth Office365
 
+{% embed url="https://youtu.be/Vvy38N_5g3Y" %}
+
 Hier müssen Sie lediglich Ihre gewünschte Unterorganisation eingeben und auf "Authentifizieren" klicken.
 
 ![](https://lh7-us.googleusercontent.com/9G20nHREc07d9zo5hVLly4SSoxi9J1TqXxrWeqz5YS50cht3L9th76sd9hYU20IWrktlZNhO1yyjhbvraus-4w32TLyprjtKwgyi9lFAJceGK8KFzCNUytmofDGhZKShu1zFds6QKJ9lM4MYMSgvg7E)
 
 Sie werden zu dieser Microsoft-Seite weitergeleitet und müssen einen Code eingeben.
 
-![](https://lh7-us.googleusercontent.com/Q76mIMXr5bWCrcu\_6TOKDrh6yQIMESIrFvEcfvqg7mJp-K\_4ES2e5ekPY4Ghhwxym-uRKz\_QVCHyqk2u5onyoCCmg7fMbt3mnIUyCrc8XT4jBGn9ueEYij3DRg1-oODWHd-vDfM9FfbU3omF6RJJKsE)
+![](https://lh7-us.googleusercontent.com/Q76mIMXr5bWCrcu_6TOKDrh6yQIMESIrFvEcfvqg7mJp-K_4ES2e5ekPY4Ghhwxym-uRKz_QVCHyqk2u5onyoCCmg7fMbt3mnIUyCrc8XT4jBGn9ueEYij3DRg1-oODWHd-vDfM9FfbU3omF6RJJKsE)
 
 Diesen Code finden Sie, indem Sie zurück zu DocBits gehen, wo der Code wie unten angezeigt wird. Kopieren Sie einfach den Code und geben Sie ihn auf der Microsoft-Seite ein. Anschließend müssen Sie Ihre eigenen Microsoft-Anmeldeinformationen eingeben.
 
@@ -14,7 +16,7 @@ Diesen Code finden Sie, indem Sie zurück zu DocBits gehen, wo der Code wie unte
 
 Drücken Sie die Schaltfläche **AUTHENTIFIZIERUNG ABSCHLIESSEN** und Sie werden zu diesem Menü weitergeleitet
 
-![](https://lh7-us.googleusercontent.com/bCd4hqZc1Syli70kvlzqDkLfa1QYqq96K6K1EDc-6DabCceBmVl\_LkRb5Z2AZrHAOdDpxPzUw61oR3Bw5EklLNZp3iXoVlirlCR763m75ZFNfQlTc4g9iShfrtXFpBXnZv7B6835h57jKVcITo31-Gk)
+![](https://lh7-us.googleusercontent.com/bCd4hqZc1Syli70kvlzqDkLfa1QYqq96K6K1EDc-6DabCceBmVl_LkRb5Z2AZrHAOdDpxPzUw61oR3Bw5EklLNZp3iXoVlirlCR763m75ZFNfQlTc4g9iShfrtXFpBXnZv7B6835h57jKVcITo31-Gk)
 
 **Verwenden Sie Ordner**
 
