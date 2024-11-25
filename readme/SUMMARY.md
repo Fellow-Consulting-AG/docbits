@@ -1,7 +1,7 @@
 # Table of contents
 
 * [DocBits](README.md)
-* [End User Section](<README (1).md>)
+* [Secção Utilizador Final](<README (1).md>)
   * [Principais Recursos do DocBits](overview/key-features-of-docbits.md)
   * [Suporte ao Usuário](overview/user-support.md)
   * [Painel](overview/dashboard/README.md)
@@ -45,8 +45,9 @@
   * [Suporte Técnico no DocBits](overview/technical-support-in-docbits/README.md)
     * [Criar um ticket](overview/technical-support-in-docbits/create-a-ticket.md)
     * [Ícones de Ajuda](overview/technical-support-in-docbits/help-icons.md)
-  * [Cours](readme-1/cours/README.md)
-    * [Introdução](readme-1/cours/introducao.md)
+  * [Curso](readme-1/curso/README.md)
+    * [Introdução](readme-1/curso/introducao.md)
+    * [Painel](readme-1/curso/painel.md)
   * [Portal do Fornecedor](readme-1/portal-do-fornecedor/README.md)
     * [Registro de Fornecedor](readme-1/portal-do-fornecedor/registro-de-fornecedor.md)
     * [Status do Fornecedor](readme-1/portal-do-fornecedor/status-do-fornecedor.md)
