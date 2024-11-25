@@ -43,7 +43,7 @@
       * [IMAP](overview/how-to-import-documents/email/imap.md)
       * [OAuth Office365](overview/how-to-import-documents/email/oauth-office365.md)
   * [Wsparcie techniczne w DocBits](overview/technical-support-in-docbits/README.md)
-    * [Create a ticket](overview/technical-support-in-docbits/create-a-ticket.md)
+    * [Utwórz zgłoszenie](overview/technical-support-in-docbits/create-a-ticket.md)
     * [Help Icons](overview/technical-support-in-docbits/help-icons.md)
   * [Portal Dostawcy](readme-1/portal-dostawcy/README.md)
     * [Rejestracja Dostawcy](readme-1/portal-dostawcy/rejestracja-dostawcy.md)
