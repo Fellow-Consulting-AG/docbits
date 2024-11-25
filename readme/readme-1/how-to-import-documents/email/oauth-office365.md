@@ -10,7 +10,7 @@ Here you just need to enter your desired sub organization and press ‘Authentic
 
 You will be taken to this Microsoft page and you will need to enter a code.
 
-![](https://lh7-us.googleusercontent.com/Q76mIMXr5bWCrcu\_6TOKDrh6yQIMESIrFvEcfvqg7mJp-K\_4ES2e5ekPY4Ghhwxym-uRKz\_QVCHyqk2u5onyoCCmg7fMbt3mnIUyCrc8XT4jBGn9ueEYij3DRg1-oODWHd-vDfM9FfbU3omF6RJJKsE)
+![](https://lh7-us.googleusercontent.com/Q76mIMXr5bWCrcu_6TOKDrh6yQIMESIrFvEcfvqg7mJp-K_4ES2e5ekPY4Ghhwxym-uRKz_QVCHyqk2u5onyoCCmg7fMbt3mnIUyCrc8XT4jBGn9ueEYij3DRg1-oODWHd-vDfM9FfbU3omF6RJJKsE)
 
 This code can be found by clicking back to DocBits and the code will be displayed there like below, simply copy the code and enter it into the Microsoft page. Thereafter you will need to enter your own Microsoft credentials.
 
@@ -18,7 +18,7 @@ This code can be found by clicking back to DocBits and the code will be displaye
 
 Press the FINISH AUTHENTICATION button and you will be taken to this menu
 
-![](https://lh7-us.googleusercontent.com/bCd4hqZc1Syli70kvlzqDkLfa1QYqq96K6K1EDc-6DabCceBmVl\_LkRb5Z2AZrHAOdDpxPzUw61oR3Bw5EklLNZp3iXoVlirlCR763m75ZFNfQlTc4g9iShfrtXFpBXnZv7B6835h57jKVcITo31-Gk)
+![](https://lh7-us.googleusercontent.com/bCd4hqZc1Syli70kvlzqDkLfa1QYqq96K6K1EDc-6DabCceBmVl_LkRb5Z2AZrHAOdDpxPzUw61oR3Bw5EklLNZp3iXoVlirlCR763m75ZFNfQlTc4g9iShfrtXFpBXnZv7B6835h57jKVcITo31-Gk)
 
 **Use Folder**
 
@@ -33,5 +33,3 @@ If you want the email import to access an inbox or a folder of a shared mailbox,
 If you want to import all emails, not just the unread ones, and have them moved to trash then activate this. If not, it will only check for unread emails, import the documents, set the email to read and leave it in its current place.
 
 In the event of you receiving an error message indicating you do not have the rights to establish such a connection, someone with admin rights within Azure would need to authorize this connection. For more information, visit the following page: https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#grant-tenant-wide-admin-consent-in-enterprise-apps
-
-\\
