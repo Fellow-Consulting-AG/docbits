@@ -45,6 +45,8 @@
   * [Wsparcie techniczne w DocBits](overview/technical-support-in-docbits/README.md)
     * [Utwórz zgłoszenie](overview/technical-support-in-docbits/create-a-ticket.md)
     * [Ikony Pomocy](overview/technical-support-in-docbits/help-icons.md)
+  * [Kurs](readme-1/kurs/README.md)
+    * [Wprowadzenie](readme-1/kurs/wprowadzenie.md)
   * [Portal Dostawcy](readme-1/portal-dostawcy/README.md)
     * [Rejestracja Dostawcy](readme-1/portal-dostawcy/rejestracja-dostawcy.md)
     * [Status Dostawcy](readme-1/portal-dostawcy/status-dostawcy.md)
