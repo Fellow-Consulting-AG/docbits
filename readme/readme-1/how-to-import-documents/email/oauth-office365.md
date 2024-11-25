@@ -1,12 +1,14 @@
 # OAuth Office365
 
+{% embed url="https://youtu.be/Vvy38N_5g3Y" %}
+
 Qui devi solo inserire la tua sottorganizzazione desiderata e premere 'Autentica'
 
 ![](https://lh7-us.googleusercontent.com/9G20nHREc07d9zo5hVLly4SSoxi9J1TqXxrWeqz5YS50cht3L9th76sd9hYU20IWrktlZNhO1yyjhbvraus-4w32TLyprjtKwgyi9lFAJceGK8KFzCNUytmofDGhZKShu1zFds6QKJ9lM4MYMSgvg7E)
 
 Sarai portato a questa pagina di Microsoft e dovrai inserire un codice.
 
-![](https://lh7-us.googleusercontent.com/Q76mIMXr5bWCrcu\_6TOKDrh6yQIMESIrFvEcfvqg7mJp-K\_4ES2e5ekPY4Ghhwxym-uRKz\_QVCHyqk2u5onyoCCmg7fMbt3mnIUyCrc8XT4jBGn9ueEYij3DRg1-oODWHd-vDfM9FfbU3omF6RJJKsE)
+![](https://lh7-us.googleusercontent.com/Q76mIMXr5bWCrcu_6TOKDrh6yQIMESIrFvEcfvqg7mJp-K_4ES2e5ekPY4Ghhwxym-uRKz_QVCHyqk2u5onyoCCmg7fMbt3mnIUyCrc8XT4jBGn9ueEYij3DRg1-oODWHd-vDfM9FfbU3omF6RJJKsE)
 
 Questo codice può essere trovato cliccando su DocBits e il codice verrà visualizzato lì come mostrato di seguito, basta copiare il codice e inserirlo nella pagina di Microsoft. Successivamente dovrai inserire le tue credenziali Microsoft.
 
@@ -14,7 +16,7 @@ Questo codice può essere trovato cliccando su DocBits e il codice verrà visual
 
 Premi il pulsante FINISH AUTHENTICATION e verrai portato a questo menu
 
-![](https://lh7-us.googleusercontent.com/bCd4hqZc1Syli70kvlzqDkLfa1QYqq96K6K1EDc-6DabCceBmVl\_LkRb5Z2AZrHAOdDpxPzUw61oR3Bw5EklLNZp3iXoVlirlCR763m75ZFNfQlTc4g9iShfrtXFpBXnZv7B6835h57jKVcITo31-Gk)
+![](https://lh7-us.googleusercontent.com/bCd4hqZc1Syli70kvlzqDkLfa1QYqq96K6K1EDc-6DabCceBmVl_LkRb5Z2AZrHAOdDpxPzUw61oR3Bw5EklLNZp3iXoVlirlCR763m75ZFNfQlTc4g9iShfrtXFpBXnZv7B6835h57jKVcITo31-Gk)
 
 **Usa Cartella**
 
@@ -28,4 +30,4 @@ Se desideri che l'importazione dell'email acceda a una casella di posta in arriv
 
 Se desideri importare tutte le email, non solo quelle non lette, e farle spostare nel cestino, attiva questa opzione. In caso contrario, verranno controllate solo le email non lette, verranno importati i documenti, l'email verrà contrassegnata come letta e lasciata nel suo posto attuale.
 
-Nel caso in cui ricevessi un messaggio di errore che indica che non hai i diritti per stabilire una tale connessione, qualcuno con i diritti di amministratore in Azure dovrà autorizzare questa connessione. Per ulteriori informazioni, visita la seguente pagina: https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#grant-tenant-wide-admin-consent-in-enterprise-apps
+Nel caso in cui ricevessi un messaggio di errore che indica che non hai i diritti per stabilire una tale connessione, qualcuno con i diritti di amministratore in Azure dovrà autorizzare questa connessione. Per ulteriori informazioni, visita la seguente pagina: [https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#grant-tenant-wide-admin-consent-in-enterprise-apps](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#grant-tenant-wide-admin-consent-in-enterprise-apps)
