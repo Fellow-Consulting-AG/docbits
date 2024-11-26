@@ -56,6 +56,7 @@
     * [Supplier Registration](readme-1/supplier-portal/supplier-registration.md)
     * [Supplier Satuts](readme-1/supplier-portal/supplier-satuts.md)
 * [Admin Section](admin-section/README.md)
+  * [Report Page](admin-section/report-page.md)
   * [Settings](admin-section/settings/README.md)
     * [Global Settings](admin-section/settings/global-settings/README.md)
       * [Company Information](admin-section/settings/global-settings/company-information/README.md)
