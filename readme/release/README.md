@@ -1,5 +1,39 @@
 # Release
 
+## Release Hot Fix Feast 27th November 2024
+
+### DocBits Enhancements:
+
+#### Enhanced PO Optimisation
+
+* **Optimised Saving Mechanism**: The saving process has been streamlined to occur only after the user completes the matching, reducing redundant saves and improving efficiency.
+* **Enhanced Asynchronous Export**: Export functionality now runs asynchronously, ensuring smoother operations and an improved overall user experience.
+
+#### Workflow Enhancements
+
+The workflow functionality has been upgraded to provide a better user experience:
+
+* **Improved Logs**: Workflow logs now feature a cleaner, more intuitive interface, making it easier to review and understand process details.
+* **Enhanced Responsiveness**: Workflow execution processes are optimized for faster and more reliable performance, enabling quicker task completion and reduced delays.
+
+#### Improved Application Caching
+
+We’ve implemented advanced caching strategies across the application to optimize data retrieval and reduce load times. These improvements enhance overall usability by ensuring smoother navigation and a more responsive user experience, particularly for frequently accessed features.
+
+#### Dashboard and UI Upgrades
+
+* **Dashboard Enhancements**: The dashboard has been revamped with an improved layout and additional features to simplify navigation and enhance visibility of key metrics.
+* **UI Improvements**: The user interface across the application has been refined for a more modern, intuitive, and user-friendly experience, making it easier for users to accomplish their tasks with minimal effort.
+
+### Bug Fixes:
+
+1. Enhanced the fuzzy logic to ensure more accurate and reliable data population following extraction.
+2. Fixed known bugs affecting groups and permissions, ensuring seamless access management and role functionality.
+3. Addressed inconsistencies in translations across the application, improving clarity and localization.
+4. Resolved layout-related issues, ensuring a consistent and optimized user interface across all configurations.
+5. Corrected errors in master data lookup functionality, ensuring accurate and reliable data retrieval.
+6. Resolved issues with email import functionality across all available options, ensuring smooth and error-free operations.
+
 ## Release Feast 4th November 2024
 
 ### New Features:
