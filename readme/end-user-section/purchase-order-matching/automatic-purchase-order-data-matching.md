@@ -2,7 +2,7 @@
 
 Docbits è un sistema avanzato progettato per automatizzare l'abbinamento dei dati degli ordini di acquisto (PO) con i documenti delle fatture in arrivo. Questo strumento è specificamente progettato per una gestione efficiente e l'elaborazione dei dati delle fatture all'interno dei sistemi ERP. Questa documentazione spiega le basi dell'abbinamento automatico tramite Docbits e definisce le regole specifiche necessarie per un abbinamento riuscito.
 
-<figure><img src="../.gitbook/assets/Automatic Purchase Order Data Matching.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Automatic Purchase Order Data Matching.svg" alt=""><figcaption></figcaption></figure>
 
 ## **Principi Fondamentali dell'Abbinamento Automatico in Docbits**
 
