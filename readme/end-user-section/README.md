@@ -20,4 +20,4 @@
 ### Rozwiązywanie problemów
 
 * **Typowe problemy:** Rozwiązania dla często napotykanych problemów przez użytkowników.
-* [**Kontakt z pomocą techniczną**](overview/user-support.md)**:** Jak skontaktować się z pomocą techniczną w celu uzyskania pomocy.
+* [**Kontakt z pomocą techniczną**](user-support.md)**:** Jak skontaktować się z pomocą techniczną w celu uzyskania pomocy.
