@@ -1,6 +1,6 @@
 # DocBits Infor sur le client sur site
 
-Pour envoyer des données au client Infor sur site, nous proposons deux méthodes : Site à Site avec IPsec ou [WatchDog](../readme-1/how-to-import-documents/watchdog.md)
+Pour envoyer des données au client Infor sur site, nous proposons deux méthodes : Site à Site avec IPsec ou [WatchDog](../end-user-section/how-to-import-documents/watchdog.md)
 
 Envoi de données au client Infor sur site
 
