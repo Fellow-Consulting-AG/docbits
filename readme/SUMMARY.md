@@ -414,4 +414,6 @@
 * [Infor Infrastructure](infor-infrastructure.md)
 * [Release](release/README.md)
   * [Testing Availability on Sandbox](release/testing-availability-on-sandbox.md)
-* [FAQ](faq.md)
+* [FAQ](faq/README.md)
+  * [Export Error: "Error Exporting Document to LN. Status Code: 500"](faq/export-error-error-exporting-document-to-ln.-status-code-500.md)
+  * [Table Extraction Troubleshoot](faq/table-extraction-troubleshoot.md)
