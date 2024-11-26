@@ -1,6 +1,6 @@
 # DocBits Informações sobre Cliente On-Premise
 
-Para enviar dados para o cliente Infor onPremise, oferecemos duas maneiras: Site2Site com IPsec ou [WatchDog](../overview/how-to-import-documents/watchdog.md)
+Para enviar dados para o cliente Infor onPremise, oferecemos duas maneiras: Site2Site com IPsec ou [WatchDog](../end-user-section/how-to-import-documents/watchdog.md)
 
 Enviando Dados para o Cliente Infor On-Premise
 
