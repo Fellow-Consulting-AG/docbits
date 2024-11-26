@@ -10,7 +10,7 @@ This workflow card is designed to evaluate whether a specified country, located 
 
 1. **Field Name**
    * **Description:** Specifies the document field where the country name or code is stored.
-   * **Detail:** This should match the exact field label or identifier of the country data within the document. Users select the field from a list of available fields in the system.
+   * **Detail:** This should match the exact field identifier of the country data within the document.&#x20;
 2. **Operator**
    * **Description:** Specifies whether the country in the selected field should match or not match the selected region or agreement.
    * **Options:**

@@ -18,7 +18,7 @@ This workflow card is designed to automate actions based on the presence or abse
      * **Is Not:** Triggers the workflow if the specified text is not present in the field.
 3. **Field Name**
    * **Description:** Specifies the name of the document field to be evaluated.
-   * **Detail:** This must match the exact label or identifier of the field within the document.
+   * **Detail:** This must match the exact identifier of the field within the document.
 
 ## **Functionality:**
 
@@ -31,7 +31,7 @@ This workflow card is designed to automate actions based on the presence or abse
 
 ## **Setup and Configuration:**&#x20;
 
-* The user inputs the text to be checked. They then select the field name of the relevant document and choose the operator from the drop-down menu.
+* The user inputs the text to be checked. They then select the field name of the relevant document.
 
 ## **Conclusion:**
 

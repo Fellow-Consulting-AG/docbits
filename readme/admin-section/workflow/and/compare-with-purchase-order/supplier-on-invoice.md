@@ -1,24 +1,34 @@
 # Supplier on Invoice
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (276).png" alt="" width="563"><figcaption></figcaption></figure>
 
-## **Purpose**
+## **Purpose:**
 
-This DocBits card allows detailed comparison, comparing the supplier of the invoice and that of the order confirmation. It should be ensured that the supplier who issued the invoice is the same as the one in the order confirmation.
+This workflow card is designed to compare the supplier information on an invoice against the supplier information on the related purchase order. The card ensures that the supplier on the invoice matches the supplier on the purchase order. This comparison helps verify that the correct supplier is invoicing for the order and can trigger actions based on any discrepancies.
+
+## **Components of the Card:**
+
+1. **Operator:**
+   * **Description**: Defines the condition for comparing the supplier on the invoice to the supplier on the purchase order.
+   * **Options**:
+     * **Is**: Checks if the supplier on the invoice matches the supplier on the purchase order.
+     * **Is Not**: Ensures that the supplier on the invoice does not match the supplier on the purchase order.
 
 ## **Functionality:**
 
-* **Supplier on Invoice Supplier on Purchase Order:** This card checks whether the supplier in the invoice is the same as in the order confirmation or not.
-* **Operator Value:** Users can set specific conditions such as: Is the supplier who issued the invoice the same as in the PO or not. Available operators include:
-  * **Is (=):** Checks whether the supplier in the invoice matches the supplier in the order confirmation.
-  * **Is not (≠):** Ensures that the supplier who issued the invoice is the same as in the order confirmation.
+* **Condition Evaluation:** The system compares the supplier on the invoice to the supplier on the purchase order based on the selected operator. If the comparison condition is true (e.g., the supplier is the same or different as required), the workflow will proceed accordingly.
+* **Action Execution:**
+  * **True Condition**: If the condition evaluates to true (e.g., the supplier on the invoice matches the supplier on the purchase order), the workflow continues without triggering any errors.
+  * **False Condition**: If the condition evaluates to false (e.g., the supplier on the invoice does not match the supplier on the purchase order), the workflow will not continue.
 
-## **Usage:**&#x20;
+## **Setup and Configuration:**
 
-This Card is helpful to ensure the entire process is handled with the same supplier and everything fits together. This ensures that if there are discrepancies, attention is drawn to checking these discrepancies and not paying the invoice to an incorrect supplier who has nothing to do with the order and order confirmation.
+* Users choose the appropriate operator ("Is" or "Is Not") to define how the suppliers will be compared.
 
 ## **Example Scenario:**
 
-* An order is placed, then the order confirmation comes and then the invoice is issued. The entire ordering process is carried out with one supplier. If this is not the case, the card can immediately determine that there are discrepancies between the suppliers and thus ensures that no incorrect payments are made and that the invoice is only made with the supplier who was also involved in the entire process.
+* An invoice lists a supplier with the ID "SUP123" and the related purchase order also lists "SUP123" as the supplier. Using the "Is" operator, the card compares the suppliers and finds them to be the same, so the workflow proceeds without any issue.
 
-By using the “Supplier on Invoice … Supplier on Purchase Order” card, companies can automate the verification of suppliers who issue invoices and the associated order confirmations.
+## **Conclusion:**
+
+The "Supplier Comparison" workflow card ensures that the correct supplier is invoicing for the purchase order, helping to prevent discrepancies and errors in the procurement process. By automatically verifying supplier information, organizations can streamline their invoice approval process and reduce the risk of fraud or errors in supplier billing.

@@ -10,7 +10,7 @@ This workflow card is designed to compare a field's value with a specified refer
 
 1. **Field Name**
    * **Description:** The field to be evaluated in the comparison.
-   * **Detail:** Users select the field from a dropdown list of available fields in the system.
+   * **Detail:** This must match the exact identifier of the first field within the document.
 2. **Comparison Operator**
    * **Description:** Specifies how the selected field value will be compared to the reference value.
    * **Options:**

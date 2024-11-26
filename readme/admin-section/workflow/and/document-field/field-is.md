@@ -10,7 +10,7 @@ This workflow card is designed to automate actions based on the presence or stat
 
 1. **Field Name**
    * **Description:** Specifies the name of the field to be evaluated.
-   * **Detail:** This must match the exact label or identifier used in the document to ensure accurate field detection.
+   * **Detail:** This must match the exact identifier used in the document to ensure accurate field detection.
 2. **Operators**
    * **Description**: Defines the condition that triggers the workflow, based on the presence or state of the field.
    * **Options**:

@@ -10,7 +10,7 @@ This workflow card is designed to evaluate whether the unit price, when combined
 
 1. **Field Name**
    * **Description:** Specifies the document field that contains the value to be combined with the unit price.
-   * **Detail:** This field typically contains a quantity, discount, or other value that will be combined with the unit price for comparison. It is selected from a list of available fields in the system.
+   * **Detail:** This must match the exact identifier of the first field within the document.
 2. **Operator**
    * **Description:** Defines the condition that will be applied to the comparison between the combined value and the specified value.
    * **Options:**

@@ -10,7 +10,7 @@ This workflow card is designed to automate actions by comparing a specified docu
 
 1. **Field Name**
    * **Description:** Specifies the name of the document field to be evaluated.
-   * **Detail:** This must match the exact label or identifier of the field within the document.
+   * **Detail:** This must match the exact identifier of the field within the document.
 2. **Operators**
    * **Description:** Defines the type of comparison to be performed between the field value and the reference value.
    * **Options:**

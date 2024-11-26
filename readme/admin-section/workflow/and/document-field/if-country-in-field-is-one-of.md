@@ -10,7 +10,7 @@ This workflow card is designed to evaluate whether a specified country, located 
 
 1. **Field Name**
    * **Description:** Specifies the document field where the country name or code is stored.
-   * **Detail:** This should match the exact field label or identifier of the country data within the document. Users select the field from a list of available fields in the system.
+   * **Detail:** This should match the exact field identifier of the country data within the document.&#x20;
 2. **Operator**
    * **Description:** Defines whether the country in the field must be part of a predefined list of countries.
    * **Options:**
@@ -18,7 +18,7 @@ This workflow card is designed to evaluate whether a specified country, located 
      * **Is Not:** The country must not be included in the list of specified countries for the condition to be true.
 3. **Countries**
    * **Description:** Specifies the list of countries against which the selected country will be compared.
-   * **Detail:** This is a comma-separated list of countries, or it may be drawn from a predefined set of options within the system. The comparison checks if the country in the field is included in this list.
+   * **Detail:** This is a comma-separated list of countries. The comparison checks if the country in the field is included in this list.
 4. **Continue Condition**
    * **Description:** Defines the result of the comparison. If the country meets the condition, the workflow continues with the specified Boolean value.
    * **Options:**

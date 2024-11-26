@@ -10,7 +10,7 @@ This workflow card is designed to automate actions by comparing the values of tw
 
 1. **Field Name (1)**
    * **Description:** Specifies the first document field to be compared.
-   * **Detail:** This must match the exact label or identifier of the first field within the document.
+   * **Detail:** This must match the exact identifier of the first field within the document.
 2. **Operator**
    * **Description:** Defines the type of comparison to be performed between the two fields.
    * **Options:**
@@ -22,7 +22,7 @@ This workflow card is designed to automate actions by comparing the values of tw
      * **Less or Equals (≤):** Ensures the value of the first field is less than or equal to the second field.
 3. **Field Name (2)**
    * **Description:** Specifies the second document field to be compared against the first field.
-   * **Detail:** This should match the exact label or identifier of the second field within the document.
+   * **Detail:** This should match the exact identifier of the second field within the document.
 
 ## **Functionality:**
 
