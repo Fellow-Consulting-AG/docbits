@@ -30,7 +30,7 @@ If the **Automatic Matching** is set to **Match to Purchase Receipt**, proceed w
 
 It should look like the following:
 
-<figure><img src="../.gitbook/assets/image (328).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (328).png" alt=""><figcaption></figcaption></figure>
 
 ## **Step 4: Add the Updated File Back to DocBits**
 
