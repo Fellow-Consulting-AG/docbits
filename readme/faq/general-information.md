@@ -13,6 +13,8 @@
 
 </details>
 
+
+
 <details>
 
 <summary>Does DocBits support custom document types ? </summary>
@@ -21,6 +23,8 @@
 
 </details>
 
+
+
 <details>
 
 <summary>What file types does DocBits support ?</summary>
@@ -28,6 +32,6 @@
 * .pdf
 * .edi
 * .xml
+* .tiff
 
 </details>
-

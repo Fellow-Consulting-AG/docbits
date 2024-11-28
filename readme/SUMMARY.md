@@ -419,5 +419,7 @@
   * [Document Processing](faq/document-processing/README.md)
     * [Table Extraction Troubleshoot](faq/document-processing/table-extraction-troubleshoot.md)
   * [Infor LN (LN Integration)](faq/infor-ln-ln-integration/README.md)
-    * [Export Error: "Error Exporting Document to LN. Status Code: 500"](faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500.md)
+    * [Export Error: "Error Exporting Document to LN. Status Code: 500"](faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/README.md)
+      * [not found in direct debit](faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/not-found-in-direct-debit.md)
+      * [Request validation; Attr. 'ReceiptLine', Value " " : the value must be numeric.](faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/request-validation-attr.-receiptline-value-the-value-must-be-numeric..md)
   * [Infor M3 (M3 Integration)](faq/infor-m3-m3-integration.md)
