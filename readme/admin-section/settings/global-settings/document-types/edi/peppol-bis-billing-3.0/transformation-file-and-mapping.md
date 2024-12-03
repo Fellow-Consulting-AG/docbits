@@ -365,48 +365,42 @@ This file is responsible for extracting data from a PEPPOL BIS Billing 3.0 XML f
 
 <summary>Document References and Additional Document Details Mapping</summary>
 
+1. **Buyer Reference**
+   * **Source**: `//BuyerReference/text()`
+   * **Mapped To**: `<INVOICE><BUYER_REFERENCE>`
+   * **Can Appear Multiple Times**: No.
 
+2)  **Billing Reference**
 
-#### Buyer Reference
+    * **Source**: `//BillingReference`
+    * **Mapped To**: `<INVOICE><BILLING_REFERENCE>`
+    * **Can Appear Multiple Times**: Yes. Each `<BillingReference>` element in the source data will generate a `<BILLING_REFERENCE>` element.
 
-* **Source**: `//BuyerReference/text()`
-* **Mapped To**: `<INVOICE><BUYER_REFERENCE>`
-* **Can Appear Multiple Times**: No.
+    **For each Billing Reference:**
 
-#### Billing Reference
+    * **PRECEDING\_INVOICE\_NUMBER**
+      * **Source**: `InvoiceDocumentReference/ID/text()`
+      * **Mapped To**: `<INVOICE><BILLING_REFERENCE><PRECEDING_INVOCIE_NUMBER>`
+      * **Can Appear Multiple Times**: No.
+    * **PRECEDING\_INVOICE\_ISSUE\_DATE**
+      * **Source**: `InvoiceDocumentReference/IssueDate/text()`
+      * **Mapped To**: `<INVOICE><BILLING_REFERENCE><PRECEDING_INVOICE_ISSUE_DATE>`
+      * **Can Appear Multiple Times**: No.
 
-* **Source**: `//BillingReference`
-* **Mapped To**: `<INVOICE><BILLING_REFERENCE>`
-* **Can Appear Multiple Times**: Yes. Each `<BillingReference>` element in the source data will generate a `<BILLING_REFERENCE>` element.
+3. **Despatch Document Reference**
+   * **Source**: `//DespatchDocumentReference/ID/text()`
+   * **Mapped To**: `<INVOICE><DESPATCH_DOCUMENT_REFERENCE>`
+   * **Can Appear Multiple Times**: No.
 
-**For each Billing Reference:**
+4) **Receipt Document Reference**
+   * **Source**: `//ReceiptDocumentReference/ID/text()`
+   * **Mapped To**: `<INVOICE><RECEIPT_DOCUMENT_REFERENCE>`
+   * **Can Appear Multiple Times**: No.
 
-* **PRECEDING\_INVOICE\_NUMBER**
-  * **Source**: `InvoiceDocumentReference/ID/text()`
-  * **Mapped To**: `<INVOICE><BILLING_REFERENCE><PRECEDING_INVOCIE_NUMBER>`
-  * **Can Appear Multiple Times**: No.
-* **PRECEDING\_INVOICE\_ISSUE\_DATE**
-  * **Source**: `InvoiceDocumentReference/IssueDate/text()`
-  * **Mapped To**: `<INVOICE><BILLING_REFERENCE><PRECEDING_INVOICE_ISSUE_DATE>`
-  * **Can Appear Multiple Times**: No.
-
-#### Despatch Document Reference
-
-* **Source**: `//DespatchDocumentReference/ID/text()`
-* **Mapped To**: `<INVOICE><DESPATCH_DOCUMENT_REFERENCE>`
-* **Can Appear Multiple Times**: No.
-
-#### Receipt Document Reference
-
-* **Source**: `//ReceiptDocumentReference/ID/text()`
-* **Mapped To**: `<INVOICE><RECEIPT_DOCUMENT_REFERENCE>`
-* **Can Appear Multiple Times**: No.
-
-#### Originator Document Reference
-
-* **Source**: `//OriginatorDocumentReference/ID/text()`
-* **Mapped To**: `<INVOICE><ORIGINATOR_DOCUMENT_REFERENCE>`
-* **Can Appear Multiple Times**: No.
+5. **Originator Document Reference**
+   1. **Source**: `//OriginatorDocumentReference/ID/text()`
+   2. **Mapped To**: `<INVOICE><ORIGINATOR_DOCUMENT_REFERENCE>`
+   3. **Can Appear Multiple Times**: No.
 
 #### Contract Document Reference
 
