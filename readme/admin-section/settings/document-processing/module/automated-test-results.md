@@ -52,6 +52,19 @@ These automated tests are designed to thoroughly check the email import system's
 ## Email Import Automated Results
 ## Test Results for DEVELOPMENT
 
+## DEV_email_connection_report 
+
+![DEV_email_connection_report Status](https://img.shields.io/badge/DEV_email_connection_report-4+passed%2C+0+failed%2C+0+skipped-green.svg)
+
+**Test Name**: DEV_email_connection_report
+
+**Executed On**: 2024-12-04 10:53:18
+
+**Results Summary**: Total: 4, Passed: 4, Failed: 0, Skipped: 0
+
+
+---
+
 Currently there are no Test-Results
 
 ## Test Results for STAGE
@@ -60,13 +73,37 @@ Currently there are no Test-Results
 
 ## Test Results for DEMO
 
-Currently there are no Test-Results
+## DEMO_email_connection_report 
+
+![DEMO_email_connection_report Status](https://img.shields.io/badge/DEMO_email_connection_report-4+passed%2C+0+failed%2C+0+skipped-green.svg)
+
+**Test Name**: DEMO_email_connection_report
+
+**Executed On**: 2024-12-04 10:53:18
+
+**Results Summary**: Total: 4, Passed: 4, Failed: 0, Skipped: 0
+
+
+---
 
 ## Test Results for SANDBOX
 
 Currently there are no Test-Results
 
 ## Test Results for PROD
+
+## PROD_email_connection_report 
+
+![PROD_email_connection_report Status](https://img.shields.io/badge/PROD_email_connection_report-4+passed%2C+0+failed%2C+0+skipped-green.svg)
+
+**Test Name**: PROD_email_connection_report
+
+**Executed On**: 2024-12-04 10:53:18
+
+**Results Summary**: Total: 4, Passed: 4, Failed: 0, Skipped: 0
+
+
+---
 
 Currently there are no Test-Results
 
