@@ -52,13 +52,26 @@ These automated tests are designed to thoroughly check the email import system's
 ## Email Import Automated Results
 ## Test Results for DEVELOPMENT
 
+### DEV_test_multiple_documents 
+
+![DEV_test_multiple_documents Status](https://img.shields.io/badge/DEV_test_multiple_documents-4+passed%2C+0+failed%2C+0+skipped-green.svg)
+
+**Test Name**: DEV_test_multiple_documents
+
+**Executed On**: 2024-12-04 13:55:22
+
+**Results Summary**: Total: 4, Passed: 4, Failed: 0, Skipped: 0
+
+
+---
+
 ### DEV_test_single_document 
 
 ![DEV_test_single_document Status](https://img.shields.io/badge/DEV_test_single_document-5+passed%2C+0+failed%2C+0+skipped-green.svg)
 
 **Test Name**: DEV_test_single_document
 
-**Executed On**: 2024-12-04 12:27:27
+**Executed On**: 2024-12-04 13:54:12
 
 **Results Summary**: Total: 5, Passed: 5, Failed: 0, Skipped: 0
 
@@ -71,7 +84,7 @@ These automated tests are designed to thoroughly check the email import system's
 
 **Test Name**: DEV_email_connection_report
 
-**Executed On**: 2024-12-04 12:26:22
+**Executed On**: 2024-12-04 13:52:59
 
 **Results Summary**: Total: 5, Passed: 5, Failed: 0, Skipped: 0
 
