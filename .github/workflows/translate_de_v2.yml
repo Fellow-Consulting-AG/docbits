@@ -29,6 +29,10 @@ jobs:
   
       - name: List Repository Root Contents
         run: ls -la
+      
+        # 5. Export OpenAI API Key
+      - name: Export OpenAI API Key
+        run: echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> $GITHUB_ENV
   
       - name: List Scripts Directory Contents
         run: |
@@ -72,6 +76,22 @@ jobs:
           else
             echo "No Markdown files changed."
             echo "files=" >> $GITHUB_ENV
+          fi
+      
+      # 8. Checkout or Create 'de' Branch
+      - name: Checkout or Create 'de' Branch
+        run: |
+          # Fetch all branches
+          git fetch origin
+
+          # Check if 'de' branch exists
+          if git show-ref --verify --quiet refs/heads/$BRANCH; then
+            echo "'$BRANCH' branch exists. Checking out."
+            git checkout $BRANCH
+            git pull origin $BRANCH
+          else
+            echo "'$BRANCH' branch does not exist. Creating from 'main'."
+            git checkout -b $BRANCH
           fi
 
       - name: Translate Changed Files
