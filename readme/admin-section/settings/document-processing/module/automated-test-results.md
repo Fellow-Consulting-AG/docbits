@@ -79,16 +79,16 @@ These tests are designed to verify the functionality of the email import system 
 
 |Test Case|Last Execution|Status|
 |-|-|-|
-|[ Setup Email Import](#setup-email-import)|24-12-06 15:49|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[ Move Email After Import](#move-email-after-import)|24-12-06 15:52|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[ Import Single Email Attachment](#import-single-email-attachment)|24-12-06 15:54|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[ Import Multiple Attachments](#import-multiple-attachments)|24-12-06 15:54|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[ Merge Multiple Attachments](#merge-multiple-attachments)|24-12-06 15:55|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[ Handle Duplicate Documents](#handle-duplicate-documents)|24-12-06 15:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[ Block Duplicate Documents](#block-duplicate-documents)|24-12-06 15:57|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[ Block Duplicates Across Attachments](#block-duplicates-across-attachments)|24-12-06 15:58|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Setup Email Import](#setup-email-import)|24-12-06 16:12|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+|[ Move Email After Import](#move-email-after-import)|24-12-06 16:14|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+|[ Import Single Email Attachment](#import-single-email-attachment)|24-12-06 16:16|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+|[ Import Multiple Attachments](#import-multiple-attachments)|24-12-06 16:17|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+|[ Merge Multiple Attachments](#merge-multiple-attachments)|24-12-06 16:18|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+|[ Handle Duplicate Documents](#handle-duplicate-documents)|24-12-06 16:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+|[ Block Duplicate Documents](#block-duplicate-documents)|24-12-06 16:20|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+|[ Block Duplicates Across Attachments](#block-duplicates-across-attachments)|24-12-06 16:22|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[ Handle Corrupted Files](#handle-corrupted-files)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
-|[ Notify Sender On Import](#notify-sender-on-import)|24-12-06 15:51|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Notify Sender On Import](#notify-sender-on-import)|24-12-06 16:13|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[ Error Message On Failed Import](#error-message-on-failed-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 
 
@@ -103,41 +103,37 @@ These tests are designed to verify the functionality of the email import system 
 - **Adding New Connections:** Confirms the ability to create and configure new email import connections.
 
 ### Notify Sender on Import
-- Send confirmation email to sender after document import
-- Ensure sender receives a notification regardless of the document type
+- **Email Notification:** Ensures that notification emails are sent to the sender after an import.
 
 ### Move Email After Import
-- Move processed email to a predefined folder
-- Confirm folder settings and rules are applied correctly
-- Verify that the email is moved automatically after import
+- **Email Notification and Movement:** Ensures that emails are moved to the correct folder after import, based on the configured settings.
 
 ### Error Message on Failed Import
-- Display clear error messages when import fails
-- Provide troubleshooting steps or details for users
-- Ensure users can easily identify the cause of failure
+- **Error Messages on Import Failure:** Verifies that the system displays clear and informative error messages when an email import fails.
+- **Troubleshooting and Failure Diagnosis:** Ensures the system provides troubleshooting steps or detailed information to help users identify the cause of an import failure.
 
 ### Import Single Email Attachment
-- Import a single document attached to an email
-- Ensure document is properly parsed and saved
-- Verify no data is lost during the import process
+- **Import Single Document Attachment:** Verifies the ability to import a single document attached to an email.
+- **Document Parsing and Saving:** Ensures the imported document is properly parsed and saved without errors.
+- **Data Integrity During Import:** Confirms that no data is lost during the import process.
 
 ### Import Multiple Attachments
-- Import multiple documents attached to a single email
-- Ensure all attachments are successfully imported
-- Verify that each document is processed separately
+- **Import Multiple Document Attachment:** Verifies the ability to import a single document attached to an email.
+- **Document Parsing and Saving:** Ensures the imported document is properly parsed and saved without errors.
+- **Data Integrity During Import:** Confirms that no data is lost during the import process.
 
 ### Merge Multiple Attachments
-- Merge multiple documents attached to the same email into one document
-- Check if the merged document maintains formatting and content integrity
+- **Merge multiple documents:** Verifies the ability to import multiple documents attached to an email.
 
 ### Handle Duplicate Documents
-- Detect and handle duplicate documents in the import process
-- Ensure duplicates are flagged or separated appropriately
+- **Handle Duplicate Documents:** Tests the ability to handle and correctly process duplicate documents in email imports.
 
 ### Block Duplicate Documents
-- Block the import of duplicate documents when the "block duplicate" feature is enabled
-- Ensure duplicates are prevented even if they have different names
+- **Block Duplicate Documents:** Tests the prevention of duplicate document imports when the "block duplicate" feature is enabled, even if the documents have different names.
 
 ### Block Duplicates Across Attachments
-- Detect and block duplicate documents across multiple attachments in the same email
-- Prevent the import of duplicates from different attachments
+- **Block Duplicate Documents:** Tests the prevention of duplicate document imports when the "block duplicate" feature is enabled, even if the documents have different names.
+
+### Handle Corrupted Files
+- **Test Email Import with Corrupt Files:** Verifies that emails with corrupted attachments are handled properly during the import process.
+- **Test Document Import (Valid and Corrupt Files):** Ensures both valid and corrupted files are processed correctly with the appropriate success or failure status.
