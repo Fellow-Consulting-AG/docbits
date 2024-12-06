@@ -3,107 +3,139 @@
 
 These tests are designed to verify the functionality of the email import system for both single and multiple documents, ensuring that the system correctly handles various scenarios, such as duplicates, corruption, and folder management.
 
-## Connection Test
+| Environment | Status  | Test Results |
+|-------------|---------|--------------|
+| [Prod](#prod)        | ![badge](https://img.shields.io/badge/_-not%20covered%20yet%20-orange.svg)|[Test Results](#prod) |
+| [Demo](#demo)        | ![badge](https://img.shields.io/badge/_-not%20covered%20yet%20-orange.svg)|[Test Results](#demo) |
+| [Sandbox](#sandbox)     | ![badge](https://img.shields.io/badge/_-not%20covered%20yet%20-orange.svg)|[Test Results](#sandbox) |
+| [Stage](#stage)       | ![badge](https://img.shields.io/badge/_-not%20covered%20yet%20-orange.svg)|[Test Results](#stage) |
+| [Dev](#stage)         | ![badge](https://img.shields.io/badge/_-all%20up%20and%20running-green.svg)|[Test Results](#stage) |
 
-* **Test Connection**: Verifies the connection to the email import system.
-* **Connection Logs**: Shows logs for connection events.
-* **Folder Field Dropdown**: Tests the dropdown for folder selection.
-* **Connection Logs Auto-Update**: Ensures that connection logs are automatically updated every 4 minutes.
+## Prod
 
-**Purpose:** These tests validate that the connection to the email import system is working properly.
+|Test Case|Last Execution|Status|
+|-|-|-|
+|[ Setup Email Import](#setup-email-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Move Email After Import](#move-email-after-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Import Single Email Attachment](#import-single-email-attachment)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Import Multiple Attachments](#import-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Merge Multiple Attachments](#merge-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Handle Duplicate Documents](#handle-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Block Duplicate Documents](#block-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Block Duplicates Across Attachments](#block-duplicates-across-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Handle Corrupted Files](#handle-corrupted-files)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Notify Sender On Import](#notify-sender-on-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Error Message On Failed Import](#error-message-on-failed-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 
-## Single Document Import Test Cases
+## Demo
 
-These tests focus on importing individual documents to verify that the system handles various conditions correctly:
+|Test Case|Last Execution|Status|
+|-|-|-|
+|[ Setup Email Import](#setup-email-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Move Email After Import](#move-email-after-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Import Single Email Attachment](#import-single-email-attachment)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Import Multiple Attachments](#import-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Merge Multiple Attachments](#merge-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Handle Duplicate Documents](#handle-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Block Duplicate Documents](#block-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Block Duplicates Across Attachments](#block-duplicates-across-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Handle Corrupted Files](#handle-corrupted-files)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Notify Sender On Import](#notify-sender-on-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Error Message On Failed Import](#error-message-on-failed-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 
-* **Single document (no sender)**: Test importing a document with no sender information.
-* **Single document (with sender + move folder)**: Tests importing a document with sender information and moving it to a folder.
-* **Single document (with sender + import error + move folder)**: Verifies that importing a document with a sender and an import error works correctly, and that the document is moved to the folder.
-* **Duplicate document (with sender + import error + move folder + block duplicate)**: Tests importing a duplicate document and ensuring it is blocked from being re-imported.
+## Sandbox
 
-## Multi Document Import Test Cases
+|Test Case|Last Execution|Status|
+|-|-|-|
+|[ Setup Email Import](#setup-email-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Move Email After Import](#move-email-after-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Import Single Email Attachment](#import-single-email-attachment)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Import Multiple Attachments](#import-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Merge Multiple Attachments](#merge-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Handle Duplicate Documents](#handle-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Block Duplicate Documents](#block-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Block Duplicates Across Attachments](#block-duplicates-across-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Handle Corrupted Files](#handle-corrupted-files)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Notify Sender On Import](#notify-sender-on-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Error Message On Failed Import](#error-message-on-failed-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 
-These tests check the functionality when importing multiple documents, with different conditions for merging, errors, and duplicates:
+## Stage
 
-* **Multiple documents (no merge, email to sender)**: Tests importing multiple documents without merging them.
-* **Multiple documents (no merge, email to sender + move folder)**: Verifies importing multiple documents without merging and moving them to a folder.
-* **Multiple documents (merge + move folder)**: Tests importing multiple documents with merging and moving them to a folder.
-* **Multiple documents (merge + email to sender + move folder)**: Verifies importing and merging multiple documents, emailing the sender, and moving them to a folder.
-* **No corrupted documents (merge + email to sender + import error + move folder)**: Ensures no documents are corrupted during import when merging, with an import error and folder move.
-* **Duplicate document (email to sender + import error + move folder + block duplicate)**: Tests handling a duplicate document with an import error and folder move, ensuring it’s blocked.
-* **Duplicate document (merge + email to sender + import error + move folder + block duplicate)**: Verifies blocking duplicates when merging documents and handling errors.
-* **Duplicate document (merge + email to sender + import error + move folder + unblock duplicate)**: Tests unblocking duplicates in merged documents when handling import errors.
-* **Duplicate all documents (email to sender + import error + move folder + block duplicate)**: Verifies that all duplicate documents are blocked during import.
-* **Duplicate all documents (email to sender + import error + move folder + unblock duplicate)**: Tests unblocking all duplicate documents during import after an error.
+|Test Case|Last Execution|Status|
+|-|-|-|
+|[ Setup Email Import](#setup-email-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Move Email After Import](#move-email-after-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Import Single Email Attachment](#import-single-email-attachment)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Import Multiple Attachments](#import-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Merge Multiple Attachments](#merge-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Handle Duplicate Documents](#handle-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Block Duplicate Documents](#block-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Block Duplicates Across Attachments](#block-duplicates-across-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Handle Corrupted Files](#handle-corrupted-files)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Error Message On Failed Import](#error-message-on-failed-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Notify Sender On Import](#notify-sender-on-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 
-## Single & Corrupt Document + Multi & Corrupt Document Import Test Cases
+## Development
 
-These tests validate the system's behavior when importing single or multiple corrupt documents:
+|Test Case|Last Execution|Status|
+|-|-|-|
+|[ Setup Email Import](#setup-email-import)|24-12-06 10:04|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Move Email After Import](#move-email-after-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Import Single Email Attachment](#import-single-email-attachment)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Import Multiple Attachments](#import-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Merge Multiple Attachments](#merge-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Handle Duplicate Documents](#handle-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Block Duplicate Documents](#block-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Block Duplicates Across Attachments](#block-duplicates-across-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Handle Corrupted Files](#handle-corrupted-files)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Notify Sender On Import](#notify-sender-on-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Error Message On Failed Import](#error-message-on-failed-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 
-* **Single corrupt document (email to sender + move folder)**: Verifies handling of a corrupt document, with the sender emailed and the document moved to a folder.
-* **Corrupt document (no duplicate, email to sender + import error + move folder + block duplicate)**: Tests handling a corrupt document without duplicates, with an import error and folder move.
-* **Corrupt document (no duplicate, merge + email to sender + import error + move folder + unblock duplicate)**: Verifies handling a corrupt document during a merge, emailing the sender, and managing duplicates.
-* **Corrupt all documents (email to sender + import error + move folder + unblock duplicate)**: Tests handling all documents as corrupt, sending an import error, and moving them to a folder while unblocking duplicates.
-
-## Summary
-
-These automated tests are designed to thoroughly check the email import system's functionality across different scenarios for both single and multiple document imports, including handling errors, duplicates, and corrupted documents. Each test ensures that the system behaves as expected in real-world usage.
-
-## Email Import Automated Results
-## Test Results for DEVELOPMENT
-
-### DEV_test_multiple_documents 
-
-![DEV_test_multiple_documents Status](https://img.shields.io/badge/DEV_test_multiple_documents-4+passed%2C+0+failed%2C+0+skipped-green.svg)
-
-**Test Name**: DEV_test_multiple_documents
-
-**Executed On**: 2024-12-04 14:25:07
-
-**Results Summary**: Total: 4, Passed: 4, Failed: 0, Skipped: 0
 
 
 ---
 
-### DEV_test_single_document 
+### Setup Email Import
+- Validate connection setup to the email server
+- Ensure proper configuration of account settings
+- Confirm connection is successful and stable
 
-![DEV_test_single_document Status](https://img.shields.io/badge/DEV_test_single_document-5+passed%2C+0+failed%2C+0+skipped-green.svg)
+### Notify Sender on Import
+- Send confirmation email to sender after document import
+- Ensure sender receives a notification regardless of the document type
 
-**Test Name**: DEV_test_single_document
+### Move Email After Import
+- Move processed email to a predefined folder
+- Confirm folder settings and rules are applied correctly
+- Verify that the email is moved automatically after import
 
-**Executed On**: 2024-12-04 14:23:57
+### Error Message on Failed Import
+- Display clear error messages when import fails
+- Provide troubleshooting steps or details for users
+- Ensure users can easily identify the cause of failure
 
-**Results Summary**: Total: 5, Passed: 5, Failed: 0, Skipped: 0
+### Import Single Email Attachment
+- Import a single document attached to an email
+- Ensure document is properly parsed and saved
+- Verify no data is lost during the import process
 
+### Import Multiple Attachments
+- Import multiple documents attached to a single email
+- Ensure all attachments are successfully imported
+- Verify that each document is processed separately
 
----
+### Merge Multiple Attachments
+- Merge multiple documents attached to the same email into one document
+- Check if the merged document maintains formatting and content integrity
 
-### DEV_email_connection_report 
+### Handle Duplicate Documents
+- Detect and handle duplicate documents in the import process
+- Ensure duplicates are flagged or separated appropriately
 
-![DEV_email_connection_report Status](https://img.shields.io/badge/DEV_email_connection_report-5+passed%2C+0+failed%2C+0+skipped-green.svg)
+### Block Duplicate Documents
+- Block the import of duplicate documents when the "block duplicate" feature is enabled
+- Ensure duplicates are prevented even if they have different names
 
-**Test Name**: DEV_email_connection_report
-
-**Executed On**: 2024-12-04 14:22:47
-
-**Results Summary**: Total: 5, Passed: 5, Failed: 0, Skipped: 0
-
-
----
-
-## Test Results for STAGE
-
-Currently there are no Test-Results
-
-## Test Results for DEMO
-
-Currently there are no Test-Results
-
-## Test Results for SANDBOX
-
-Currently there are no Test-Results
-
-## Test Results for PROD
-
-Currently there are no Test-Results
-
+### Block Duplicates Across Attachments
+- Detect and block duplicate documents across multiple attachments in the same email
+- Prevent the import of duplicates from different attachments
