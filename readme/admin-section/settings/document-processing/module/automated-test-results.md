@@ -79,16 +79,16 @@ These tests are designed to verify the functionality of the email import system 
 
 |Test Case|Last Execution|Status|
 |-|-|-|
-|[ Setup Email Import](#setup-email-import)|24-12-06 15:07|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[ Move Email After Import](#move-email-after-import)|24-12-06 15:10|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[ Import Single Email Attachment](#import-single-email-attachment)|24-12-06 15:11|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-|[ Import Multiple Attachments](#import-multiple-attachments)|24-12-06 15:13|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-|[ Merge Multiple Attachments](#merge-multiple-attachments)|24-12-06 15:14|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-|[ Handle Duplicate Documents](#handle-duplicate-documents)|24-12-06 15:15|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-|[ Block Duplicate Documents](#block-duplicate-documents)|24-12-06 15:16|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-|[ Block Duplicates Across Attachments](#block-duplicates-across-attachments)|24-12-06 15:18|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Setup Email Import](#setup-email-import)|24-12-06 15:49|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Move Email After Import](#move-email-after-import)|24-12-06 15:52|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Import Single Email Attachment](#import-single-email-attachment)|24-12-06 15:54|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Import Multiple Attachments](#import-multiple-attachments)|24-12-06 15:54|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Merge Multiple Attachments](#merge-multiple-attachments)|24-12-06 15:55|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Handle Duplicate Documents](#handle-duplicate-documents)|24-12-06 15:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Block Duplicate Documents](#block-duplicate-documents)|24-12-06 15:57|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Block Duplicates Across Attachments](#block-duplicates-across-attachments)|24-12-06 15:58|![badge](https://img.shields.io/badge/_-failed-red.svg)|
 |[ Handle Corrupted Files](#handle-corrupted-files)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
-|[ Notify Sender On Import](#notify-sender-on-import)|24-12-06 15:09|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+|[ Notify Sender On Import](#notify-sender-on-import)|24-12-06 15:51|![badge](https://img.shields.io/badge/_-failed-red.svg)|
 |[ Error Message On Failed Import](#error-message-on-failed-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 
 
@@ -96,9 +96,11 @@ These tests are designed to verify the functionality of the email import system 
 ---
 
 ### Setup Email Import
-- Validate connection setup to the email server
-- Ensure proper configuration of account settings
-- Confirm connection is successful and stable
+- **Login Functionality:** Validates successful and unsuccessful login scenarios for email import connections.
+- **Connection Logs:** Ensures that logs related to email import connections are accessible and contain relevant records.
+- **Folder Management:** Verifies the ability to retrieve folders associated with email imports.
+- **Activation and Deactivation:** Tests the functionality to activate and deactivate email import connections.
+- **Adding New Connections:** Confirms the ability to create and configure new email import connections.
 
 ### Notify Sender on Import
 - Send confirmation email to sender after document import
