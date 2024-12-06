@@ -79,8 +79,8 @@ These tests are designed to verify the functionality of the email import system 
 
 |Test Case|Last Execution|Status|
 |-|-|-|
-|[ Setup Email Import](#setup-email-import)|24-12-06 10:29|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[ Move Email After Import](#move-email-after-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Setup Email Import](#setup-email-import)|24-12-06 10:40|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[ Move Email After Import](#move-email-after-import)|24-12-06 10:43|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[ Import Single Email Attachment](#import-single-email-attachment)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[ Import Multiple Attachments](#import-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[ Merge Multiple Attachments](#merge-multiple-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
@@ -88,7 +88,7 @@ These tests are designed to verify the functionality of the email import system 
 |[ Block Duplicate Documents](#block-duplicate-documents)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[ Block Duplicates Across Attachments](#block-duplicates-across-attachments)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[ Handle Corrupted Files](#handle-corrupted-files)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
-|[ Notify Sender On Import](#notify-sender-on-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
+|[ Notify Sender On Import](#notify-sender-on-import)|24-12-06 10:41|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[ Error Message On Failed Import](#error-message-on-failed-import)|Not Developed yet|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 
 
