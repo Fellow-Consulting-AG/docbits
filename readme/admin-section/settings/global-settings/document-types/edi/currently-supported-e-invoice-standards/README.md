@@ -4,8 +4,10 @@
 
 DocBits supports the following e-invoicing formats:
 
+* **FatturaPA**
 * **PEPPOL BIS Billing 3.0**
 * **Factur-X Basic**
+* **ZUGFeRD**
 * **XRechnung UBL 1.2**
 * **XRechnung UBL 2.0**
 
@@ -42,3 +44,9 @@ For each supported format, the following Customization IDs are required:
 ```xml
     <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.0</cbc:CustomizationID>
 ```
+
+## Roadmap for Upcoming Implementation
+
+{% content-ref url="roadmap.md" %}
+[roadmap.md](roadmap.md)
+{% endcontent-ref %}
