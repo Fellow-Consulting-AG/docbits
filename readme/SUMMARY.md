@@ -140,6 +140,7 @@
         * [Best Practices](admin-section/settings/global-settings/document-types/best-practices-5.md)
         * [Troubleshooting](admin-section/settings/global-settings/document-types/troubleshooting-4.md)
         * [e-docs](admin-section/settings/global-settings/document-types/edi/README.md)
+          * [Currently Supported E-Invoice Standards](admin-section/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards.md)
           * [EDI](admin-section/settings/global-settings/document-types/edi/edi/README.md)
             * [Purpose and Use](admin-section/settings/global-settings/document-types/edi/edi/purpose-and-use.md)
             * [Setting Up EDI Templates](admin-section/settings/global-settings/document-types/edi/edi/setting-up-edi-templates.md)
