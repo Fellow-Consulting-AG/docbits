@@ -12,6 +12,26 @@ Enabling or disabling the permission system using the switch has various effects
 
 <figure><img src="../../../../../.gitbook/assets/activation-permissions2.png" alt=""><figcaption></figcaption></figure>
 
+#### Only Assigned Documents Toggle Button
+
+<figure><img src="../../../../../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure>
+
+The **Only Assigned Documents** toggle button controls the visibility of documents for users based on their group assignments. When enabled, users can only view documents that are specifically assigned to them or a group they belong to. When disabled, users with the appropriate view permission can see all documents, regardless of assignment.
+
+#### Functionality
+
+* **Off State (Default)**:
+  * When the toggle is off, users who are part of a group can view all documents if they have the appropriate view permission. Document assignment does not affect visibility.
+* **On State**:
+  * When the toggle is on, users can only view documents that are explicitly assigned to them or a group they are a part of. This enforces stricter document visibility based on group assignments.
+
+#### Example Scenario
+
+1. **Default (Off State)**:
+   * A user who is part of the "Sales" group can see all documents in the system that they have permission to view, even if they are not assigned to those documents.
+2. **Enabled (On State)**:
+   * A user in the "Sales" group can only view documents that are assigned to them or the "Sales" group, restricting access to documents outside of their assignments.
+
 ## Disabling the permission system:
 
 <figure><img src="../../../../../.gitbook/assets/activation-permissions3.png" alt=""><figcaption></figcaption></figure>
