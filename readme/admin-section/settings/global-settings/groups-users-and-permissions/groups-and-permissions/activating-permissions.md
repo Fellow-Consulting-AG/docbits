@@ -12,7 +12,7 @@ Enabling or disabling the permission system using the switch has various effects
 
 <figure><img src="../../../../../.gitbook/assets/activation-permissions2.png" alt=""><figcaption></figcaption></figure>
 
-#### Only Assigned Documents Toggle Button
+## Only Assigned Documents&#x20;
 
 <figure><img src="../../../../../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure>
 
