@@ -351,6 +351,7 @@
         * [Auto Accounting](admin-section/setup/importing-customer-master-data/ln/auto-accounting.md)
         * [Suppliers and Purchase Orders](admin-section/setup/importing-customer-master-data/ln/suppliers-and-purchase-orders.md)
           * [Purchase Order - FAQ](admin-section/setup/importing-customer-master-data/ln/suppliers-and-purchase-orders/purchase-order-faq.md)
+          * [Verifying the Logistic Company Setting for Goods Receipt Discrepancies](admin-section/setup/importing-customer-master-data/ln/suppliers-and-purchase-orders/verifying-the-logistic-company-setting-for-goods-receipt-discrepancies.md)
         * [Tax Codes](admin-section/setup/importing-customer-master-data/ln/tax-codes.md)
       * [M3](admin-section/setup/importing-customer-master-data/m3/README.md)
         * [Auto Accounting](admin-section/setup/importing-customer-master-data/m3/auto-accounting.md)
