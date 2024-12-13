@@ -349,7 +349,7 @@
       * [Field Mappings](admin-section/setup/importing-customer-master-data/field-mappings.md)
       * [LN](admin-section/setup/importing-customer-master-data/ln/README.md)
         * [Auto Accounting](admin-section/setup/importing-customer-master-data/ln/auto-accounting.md)
-        * [Suppliers and Purchase Orders](admin-section/setup/importing-customer-master-data/ln/suppliers-and-purchase-orders/README.md)
+        * [Suppliers and Purchase Orders](admin-section/setup/importing-customer-master-data/ln/suppliers-and-purchase-orders.md)
           * [Purchase Order - FAQ](admin-section/setup/importing-customer-master-data/ln/suppliers-and-purchase-orders/purchase-order-faq.md)
         * [Tax Codes](admin-section/setup/importing-customer-master-data/ln/tax-codes.md)
       * [M3](admin-section/setup/importing-customer-master-data/m3/README.md)

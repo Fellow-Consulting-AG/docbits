@@ -1,24 +1,24 @@
 # Purchase Order - FAQ
 
-Q1: Where do I check if the PurchaseOrderBOD synchronization updates are correctly implemented?
+**Where do I check if the PurchaseOrderBOD synchronization updates are correctly implemented?**
 
-A1: Navigate to the _BOD Implementation Registration (bobod1100m000)_ session in LN. This session allows you to review, modify, and register both standard and custom BOD implementations, including the PurchaseOrderBOD.
+Navigate to the _BOD Implementation Registration (bobod1100m000)_ session in LN. This session allows you to review, modify, and register both standard and custom BOD implementations, including the PurchaseOrderBOD.
 
 \
 
 
 <figure><img src="../../../../../.gitbook/assets/PO.png" alt=""><figcaption></figcaption></figure>
 
-Q2: How can I identify the specific BOD implementation I need to verify?
+**How can I identify the specific BOD implementation I need to verify?**
 
-A2: Look for the BOD Implementation Identifier and BOD Name fields. The BOD Name typically indicates the type of BOD (e.g., PurchaseOrderBOD). The BOD Implementation Identifier is a unique identifier for that BOD configuration.
+Look for the BOD Implementation Identifier and BOD Name fields. The BOD Name typically indicates the type of BOD (e.g., PurchaseOrderBOD). The BOD Implementation Identifier is a unique identifier for that BOD configuration.
 
 \
 
 
-Q3: What does the ‘Public’ checkbox mean in the BOD Implementation Registration session?
+**What does the ‘Public’ checkbox mean in the BOD Implementation Registration session?**
 
-A3: The Public checkbox indicates whether the BOD implementation is available for external communication.
+The Public checkbox indicates whether the BOD implementation is available for external communication.
 
 • Selected: The BOD can be exchanged outside LN (public and protected interface).
 
@@ -27,16 +27,16 @@ A3: The Public checkbox indicates whether the BOD implementation is available fo
 \
 
 
-Q4: I see a ‘Parent BOD Name’ field. What is it used for?
+**I see a ‘Parent BOD Name’ field. What is it used for?**
 
-A4: The Parent BOD Name field shows the parent BOD if the current BOD is a derived or dependent version. If the Public checkbox is selected, this field will be empty. Otherwise, it helps you understand the hierarchy of BOD implementations.
+The Parent BOD Name field shows the parent BOD if the current BOD is a derived or dependent version. If the Public checkbox is selected, this field will be empty. Otherwise, it helps you understand the hierarchy of BOD implementations.
 
 \
 
 
-Q5: How do I know if the BOD implementation is a standard or a custom one?
+**How do I know if the BOD implementation is a standard or a custom one?**
 
-A5: Check the Standard checkbox.
+Check the Standard checkbox.
 
 • Selected: The BOD is a standard, LN-delivered implementation.
 
@@ -45,18 +45,18 @@ A5: Check the Standard checkbox.
 \
 
 
-Q6: What is the purpose of the ‘Staging’ checkbox?
+**What is the purpose of the ‘Staging’ checkbox?**
 
-A6: The Staging checkbox, if selected, means BODs are first staged rather than immediately published. They can then be published from the _Publish Staged BODs (bobod2200m000)_ session.
+The Staging checkbox, if selected, means BODs are first staged rather than immediately published. They can then be published from the _Publish Staged BODs (bobod2200m000)_ session.
 
 Note: For the ProjectBudgetBOD, staging is mandatory and cannot be changed. For standard master data BODs, staging can be enabled manually, and for custom BODs, it can always be configured.
 
 \
 
 
-Q7: How does the ‘Synchronous Processing’ checkbox affect incoming BOD handling?
+**How does the ‘Synchronous Processing’ checkbox affect incoming BOD handling?**
 
-A7: Synchronous Processing determines the action if a follow-up process after receiving a BOD fails.
+Synchronous Processing determines the action if a follow-up process after receiving a BOD fails.
 
 • Selected: The incoming BOD and the follow-up process must both succeed, or neither will be processed.
 
@@ -65,16 +65,14 @@ A7: Synchronous Processing determines the action if a follow-up process after re
 \
 
 
-Q8: Where do I verify if the ‘Stage’ feature is active or not for my BOD?
+**Where do I verify if the ‘Stage’ feature is active or not for my BOD?**
 
-A8: In the _BOD Implementation Registration (bobod1100m000)_ session, check the Staging checkbox. If it is not selected, staging is not active for that particular BOD.
+In the _BOD Implementation Registration (bobod1100m000)_ session, check the Staging checkbox. If it is not selected, staging is not active for that particular BOD.
 
 \
 
 
-Q9: If the PurchaseOrderBOD is not triggered on all updates, what else should I consider?
-
-A9:
+**If the PurchaseOrderBOD is not triggered on all updates, what else should I consider?**
 
 • Confirm that the Staging option is set as intended. If staging is off, the BOD should publish immediately.
 
@@ -87,6 +85,6 @@ A9:
 \
 
 
-Q10: Are there any scenarios where I might not see the PurchaseOrderBOD updates as expected?
+**Are there any scenarios where I might not see the PurchaseOrderBOD updates as expected?**
 
-A10: Yes. If the BOD is not configured properly (wrong settings in Public, Staging, or Synchronous Processing) or if it’s a custom BOD implementation not aligned with your process requirements, updates may not trigger as expected. Review your configuration in the _bobod1100m000_ session and ensure all parameters match your intended process flow.
+Yes. If the BOD is not configured properly (wrong settings in Public, Staging, or Synchronous Processing) or if it’s a custom BOD implementation not aligned with your process requirements, updates may not trigger as expected. Review your configuration in the _bobod1100m000_ session and ensure all parameters match your intended process flow.
