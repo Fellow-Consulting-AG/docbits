@@ -9,7 +9,7 @@ DocBits supports the following e-invoicing formats:
 * **Factur-X Basic**
 * **ZUGFeRD**
 * **XRechnung UBL 1.2**
-* **XRechnung UBL 2.0**
+* **XRechnung UBL 2.1**
 
 ## Expected Customization IDs
 
@@ -38,11 +38,11 @@ For each supported format, the following Customization IDs are required:
 
 ```
 
-* **XRechnung UBL 2.0**\
+* **XRechnung UBL 2.1**\
   The expected Customization ID is:
 
 ```xml
-    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.0</cbc:CustomizationID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.1</cbc:CustomizationID>
 ```
 
 ## Roadmap for Upcoming Implementation
