@@ -52,7 +52,7 @@ If the **Purchase Order** appears correct and contains the necessary details, yo
 
 It should look like the following:
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Step 4: Add the Updated File Back to DocBits**
 

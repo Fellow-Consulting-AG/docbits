@@ -1,5 +1,13 @@
 # Release
 
+## Release Hot Fix Feast 17th December 2024
+
+### **DocBits Enhancements:**&#x20;
+
+#### Email Import Enhancements
+
+* Users can now seamlessly import XML and EDI files through the Email Import feature.
+
 ## Release Hot Fix Feast 27th November 2024
 
 ### DocBits Enhancements:

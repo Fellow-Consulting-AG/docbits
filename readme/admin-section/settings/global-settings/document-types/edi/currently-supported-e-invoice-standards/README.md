@@ -23,7 +23,7 @@ For each supported format, the following Customization IDs are required:
 ```
 
 * **Factur-X Basic**\
-  The expected Customization ID is:
+  The expected ram ID is:
 
 ```xml
 <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:factur-x.eu:1p0:basic</ram:ID>
@@ -34,16 +34,30 @@ For each supported format, the following Customization IDs are required:
   The expected Customization ID is:
 
 ```xml
- <cbc:CustomizationID>urn:cen.eu:de16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2</cbc:CustomizationID>
-
+<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_1.2</cbc:CustomizationID>
 ```
+
+<pre class="language-xml"><code class="lang-xml"><strong> &#x3C;cbc:CustomizationID>urn:cen.eu:de16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_1.2&#x3C;/cbc:CustomizationID>
+</strong></code></pre>
 
 * **XRechnung UBL 2.1**\
   The expected Customization ID is:
 
+<pre class="language-xml"><code class="lang-xml"><strong>&#x3C;cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_2.1&#x3C;/cbc:CustomizationID>
+</strong></code></pre>
+
+<pre class="language-xml"><code class="lang-xml"><strong>    &#x3C;cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.1&#x3C;/cbc:CustomizationID>
+</strong></code></pre>
+
+* **XRechnung UBL 3.0**\
+  The expected Customization ID is:
+
 ```xml
-    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.1</cbc:CustomizationID>
+<cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.0</cbc:CustomizationID>
 ```
+
+\
+
 
 ## Roadmap for Upcoming Implementation
 
