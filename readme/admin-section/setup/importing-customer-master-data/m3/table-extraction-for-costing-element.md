@@ -22,7 +22,7 @@ You will need to open the excel file, it will look similar to what is shown belo
 
 From this excel sheet you need the columns A, B, H, J ,K and I, alter the excel sheet so that the end result looks as follows.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once this is done, save the file as a CSV.
 

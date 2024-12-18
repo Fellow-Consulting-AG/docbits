@@ -14,7 +14,7 @@ To begin using inbound email for document processing, follow these steps:
 
 ## Configuring Inbound Email for Document Import
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After activating inbound email, configure the settings to control how documents are imported. Here’s how:
 
