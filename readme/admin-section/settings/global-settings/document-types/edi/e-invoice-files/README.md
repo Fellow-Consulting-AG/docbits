@@ -72,3 +72,15 @@ How  the file gets exported:
 [xrechnung-3.0.md](xrechnung-3.0.md)
 {% endcontent-ref %}
 
+**XRechnung Cross Industry Invoice:**
+
+* Example file:
+
+{% file src="../../../../../../.gitbook/assets/INVOICE_uncefact.xml" %}
+
+How  the file gets exported:
+
+{% content-ref url="../e-invoice-examples/xrechnung-cross-industry-invoice.md" %}
+[xrechnung-cross-industry-invoice.md](../e-invoice-examples/xrechnung-cross-industry-invoice.md)
+{% endcontent-ref %}
+
