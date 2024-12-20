@@ -35,7 +35,6 @@
      * **Host**: Host Name&#x20;
      * **Port**:  Is the Port&#x20;
      * **SSL Mode:** The connection requires `sslmode=require` for secure communication.
-     *
 3. **Copying Credentials**:
    * Use the copy icons next to each field to quickly copy the credentials for use in your database client or application.
 4. **Connection via DBeaver:**
