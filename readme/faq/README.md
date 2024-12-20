@@ -32,8 +32,8 @@ Guidelines and FAQs related to integrating DocBits with Infor LN, document impor
 
 Guidelines and FAQs related to integrating DocBits with Infor M3, document imports, and specific configurations for M3.
 
-{% content-ref url="infor-m3-m3-integration.md" %}
-[infor-m3-m3-integration.md](infor-m3-m3-integration.md)
+{% content-ref url="infor-m3-m3-integration/" %}
+[infor-m3-m3-integration](infor-m3-m3-integration/)
 {% endcontent-ref %}
 
 

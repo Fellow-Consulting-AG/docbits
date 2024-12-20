@@ -84,3 +84,8 @@ How  the file gets exported:
 [xrechnung-cross-industry-invoice.md](../e-invoice-examples/xrechnung-cross-industry-invoice.md)
 {% endcontent-ref %}
 
+**XRechnung Cross Industry Invoice:**
+
+* Example file:
+
+How  the file gets exported:
