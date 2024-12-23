@@ -20,8 +20,8 @@ How  the file gets exported:
 
 How  the file gets exported:
 
-{% content-ref url="../e-invoice-examples/xrechnung-2.0.md" %}
-[xrechnung-2.0.md](../e-invoice-examples/xrechnung-2.0.md)
+{% content-ref url="xrechnung-2.0.md" %}
+[xrechnung-2.0.md](xrechnung-2.0.md)
 {% endcontent-ref %}
 
 **XRechnung UBL 2.1:**
@@ -44,8 +44,8 @@ How  the file gets exported:
 
 How  the file gets exported:
 
-{% content-ref url="../e-invoice-examples/xrechnung-2.2.md" %}
-[xrechnung-2.2.md](../e-invoice-examples/xrechnung-2.2.md)
+{% content-ref url="xrechnung-2.2.md" %}
+[xrechnung-2.2.md](xrechnung-2.2.md)
 {% endcontent-ref %}
 
 **XRechnung UBL 2.3:**
@@ -56,8 +56,8 @@ How  the file gets exported:
 
 How  the file gets exported:
 
-{% content-ref url="../e-invoice-examples/xrechnung-2.3.md" %}
-[xrechnung-2.3.md](../e-invoice-examples/xrechnung-2.3.md)
+{% content-ref url="xrechnung-2.3.md" %}
+[xrechnung-2.3.md](xrechnung-2.3.md)
 {% endcontent-ref %}
 
 **XRechnung UBL 3.0:**
@@ -80,12 +80,19 @@ How  the file gets exported:
 
 How  the file gets exported:
 
-{% content-ref url="../e-invoice-examples/xrechnung-cross-industry-invoice.md" %}
-[xrechnung-cross-industry-invoice.md](../e-invoice-examples/xrechnung-cross-industry-invoice.md)
+{% content-ref url="xrechnung-cross-industry-invoice.md" %}
+[xrechnung-cross-industry-invoice.md](xrechnung-cross-industry-invoice.md)
 {% endcontent-ref %}
 
-**XRechnung Cross Industry Invoice:**
+**FacturX:**
 
 * Example file:
+* Extended:
+
+{% file src="../../../../../../.gitbook/assets/extended.xml" %}
+
+* Basic:
+
+{% file src="../../../../../../.gitbook/assets/Basic.xml" %}
 
 How  the file gets exported:

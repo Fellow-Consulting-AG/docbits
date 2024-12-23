@@ -28,7 +28,6 @@ For each supported format, the following Customization IDs are required:
 
 ```xml
 <ram:ID>urn:cen.eu:en16931:2017#compliant#urn:factur-x.eu:1p0:basic</ram:ID>
-
 ```
 
 * **XRechnung UBL 1.2**\
