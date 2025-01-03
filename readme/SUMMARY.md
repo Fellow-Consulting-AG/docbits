@@ -48,6 +48,7 @@
   * [Curso](end-user-section/curso/README.md)
     * [Introdução](end-user-section/curso/introducao.md)
     * [Painel](end-user-section/curso/painel.md)
+    * [Documentos Validados](end-user-section/curso/documentos-validados.md)
   * [Portal do Fornecedor](end-user-section/portal-do-fornecedor/README.md)
     * [Registro de Fornecedor](end-user-section/portal-do-fornecedor/registro-de-fornecedor.md)
     * [Status do Fornecedor](end-user-section/portal-do-fornecedor/status-do-fornecedor.md)
