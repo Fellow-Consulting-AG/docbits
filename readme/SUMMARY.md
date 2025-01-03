@@ -51,6 +51,7 @@
     * [Validierte Dokumente](end-user-section/course/validated-documents.md)
     * [AI-Tabelle](end-user-section/course/ai-table.md)
     * [Master-Bestellabgleich mit DocBits](end-user-section/course/master-po-matching-with-docbits.md)
+  * [Unser Dokumenten-Prioritätssystem](end-user-section/our-document-priority-system.md)
   * [Lieferantenportal](end-user-section/lieferantenportal/README.md)
     * [Lieferantenregistrierung](end-user-section/lieferantenportal/lieferantenregistrierung.md)
     * [Lieferantenstatus](end-user-section/lieferantenportal/lieferantenstatus.md)
