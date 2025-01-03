@@ -50,7 +50,7 @@
     * [Pulpit](end-user-section/course/dashboard.md)
     * [AI Table](end-user-section/course/ai-table.md)
     * [Master PO Matching with DocBits](end-user-section/course/master-po-matching-with-docbits.md)
-  * [Nasz System Priorytetów Dokumentów](end-user-section/nasz-system-priorytetow-dokumentow.md)
+  * [Nasz System Priorytetów Dokumentów](end-user-section/our-document-priority-system.md)
   * [Portal Dostawcy](end-user-section/portal-dostawcy/README.md)
     * [Rejestracja Dostawcy](end-user-section/portal-dostawcy/rejestracja-dostawcy.md)
     * [Status Dostawcy](end-user-section/portal-dostawcy/status-dostawcy.md)
