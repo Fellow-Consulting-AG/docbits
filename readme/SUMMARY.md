@@ -51,7 +51,7 @@
     * [Documentos Validados](end-user-section/course/validated-documents.md)
     * [Tabela de IA](end-user-section/course/ai-table.md)
     * [Master PO Matching com DocBits](end-user-section/course/master-po-matching-with-docbits.md)
-  * [Nosso Sistema de Prioridade de Documentos](end-user-section/nosso-sistema-de-prioridade-de-documentos.md)
+  * [Nosso Sistema de Prioridade de Documentos](end-user-section/our-document-priority-system.md)
   * [Portal do Fornecedor](end-user-section/portal-do-fornecedor/README.md)
     * [Registro de Fornecedor](end-user-section/portal-do-fornecedor/registro-de-fornecedor.md)
     * [Status do Fornecedor](end-user-section/portal-do-fornecedor/status-do-fornecedor.md)
