@@ -51,6 +51,7 @@
     * [Documenti validati](end-user-section/course/validated-documents.md)
     * [Tabella AI](end-user-section/course/ai-table.md)
     * [Abbinamento principale dell'ordine di acquisto con DocBits](end-user-section/course/master-po-matching-with-docbits.md)
+  * [Il Nostro Sistema di Priorità dei Documenti](end-user-section/our-document-priority-system.md)
   * [Portale Fornitori](end-user-section/portale-fornitori/README.md)
     * [Registrazione Fornitore](end-user-section/portale-fornitori/registrazione-fornitore.md)
     * [Stato del Fornitore](end-user-section/portale-fornitori/stato-del-fornitore.md)
