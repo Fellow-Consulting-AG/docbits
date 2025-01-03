@@ -51,6 +51,7 @@
     * [Documents validés](end-user-section/course/validated-documents.md)
     * [Tableau AI](end-user-section/course/ai-table.md)
     * [Appariement principal des bons de commande avec DocBits](end-user-section/course/master-po-matching-with-docbits.md)
+  * [Notre Système de Priorité des Documents](end-user-section/our-document-priority-system.md)
   * [Portail Fournisseur](end-user-section/portail-fournisseur/README.md)
     * [Inscription du Fournisseur](end-user-section/portail-fournisseur/inscription-du-fournisseur.md)
     * [Statut du Fournisseur](end-user-section/portail-fournisseur/statut-du-fournisseur.md)
