@@ -103,8 +103,7 @@ DocBits introduces several usability improvements to the PO Matching Screen, des
 
 ### Bug Fixes
 
-Resolved an issue to ensure all possible values are displayed correctly during auto-accounting processes
-
+* Resolved an issue to ensure all possible values are displayed correctly during auto-accounting processes
 * Improved the user interface of Workflow Logs to make navigation and usability more intuitive
 * Updated the document fields to display additional information, such as required and hidden flags, directly in the user interface
 * Added visibility of group descriptions in the group settings
