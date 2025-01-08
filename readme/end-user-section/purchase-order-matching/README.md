@@ -59,4 +59,6 @@ Navigate to the PO Matching module from the main menu of your ERP system.
 For invoices not automatically matched:
 
 * Use the search and filter tools to find the corresponding purchase order.
+  * **Ctrl + Click**: Allows you to single-select multiple, non-contiguous lines one at a time. Each click on a line with Ctrl pressed toggles the selection of that line.
+  * **Shift + Click**: Enables you to multi-select a range of lines. You **Shift + Click** on the starting line, then **Shift + Click** on the ending line, and all lines in between are selected.
 * Manually verify and match the invoice to the purchase order.
