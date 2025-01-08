@@ -2,7 +2,7 @@
 
 ## Release Winter Frost 22nd January 2025
 
-### New Features
+#### New Features
 
 ### Support for ZUGFeRD 2.1 and Newer
 
