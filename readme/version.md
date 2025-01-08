@@ -12,25 +12,21 @@ Release Winter Frost – 22. Januar 2025\
 
 DocBits unterstützt nun vollständig die ZUGFeRD-Versionen 2.1 und höher, was eine nahtlose Handhabung und Verarbeitung elektronischer ZUGFeRD-konformer Rechnungen ermöglicht. Die Integration stellt Folgendes sicher:
 
-• Kompatibilität: DocBits kann ZUGFeRD-Rechnungen sowohl in ihrer strukturierten (XML) als auch unstrukturierten (PDF) Form verwalten und erfüllt dabei EU-Standards wie EN 16931 für E-Rechnungen.
+* **Kompatibilität:** DocBits kann ZUGFeRD-Rechnungen sowohl in ihrer strukturierten (XML) als auch unstrukturierten (PDF) Form verwalten und erfüllt dabei EU-Standards wie EN 16931 für E-Rechnungen.
+* **Effizienz:** Benutzer können ZUGFeRD-E-Rechnungen mühelos importieren, validieren und Daten extrahieren. Dadurch werden manuelle Dateneingaben minimiert und die Bearbeitungszeit verkürzt.
+* **Flexibilität:** Egal ob Basis-, Komfort- oder Extended-Profil innerhalb des ZUGFeRD-Standards – DocBits bietet die passenden Werkzeuge für jede Komplexitätsstufe von Rechnungen.
+* **Zukunftssicherheit:** Durch die Unterstützung neuerer ZUGFeRD-Versionen bleibt DocBits stets konform mit den sich ändernden E-Rechnungsrichtlinien in den EU-Mitgliedstaaten und darüber hinaus.
 
-• Effizienz: Benutzer können ZUGFeRD-E-Rechnungen mühelos importieren, validieren und Daten extrahieren. Dadurch werden manuelle Dateneingaben minimiert und die Bearbeitungszeit verkürzt.
-
-• Flexibilität: Egal ob Basis-, Komfort- oder Extended-Profil innerhalb des ZUGFeRD-Standards – DocBits bietet die passenden Werkzeuge für jede Komplexitätsstufe von Rechnungen.
-
-• Zukunftssicherheit: Durch die Unterstützung neuerer ZUGFeRD-Versionen bleibt DocBits stets konform mit den sich ändernden E-Rechnungsrichtlinien in den EU-Mitgliedstaaten und darüber hinaus.
-
-#### Externe API-Integration zur verbesserten Dokumentenverarbeitung 
+### Externe API-Integration zur verbesserten Dokumentenverarbeitung
 
 DocBits bietet nun die Möglichkeit, externe APIs bei der Dokumentenverarbeitung einzubinden, um Vollständigkeit und Genauigkeit der extrahierten Daten zu erhöhen. Diese Erweiterung reduziert den manuellen Aufwand erheblich, indem fehlende Felder in Echtzeit mit aktuellen Informationen aus vertrauenswürdigen Quellen gefüllt werden. So können Dokumente schneller und konsistenter verarbeitet werden.
 
-#### Cross Sub-Organisations Access (Zugriff auf mehrere Unterorganisationen)
+### Cross Sub-Organisations Access (Zugriff auf mehrere Unterorganisationen)
 
 Für Organisationen, die mit mehreren Unterorganisationen arbeiten, führt DocBits eine neue Funktion namens Cross Sub-Organisations ein. Damit können Administratoren die Dokumentenverwaltung für alle Unterorganisationen unter einem Dach vereinheitlichen.
 
-• Admin-Benutzer können Dokumente aus allen Unterorganisationen einsehen, ohne zwischen ihnen wechseln zu müssen.
-
-• Diese zentrale Sicht erlaubt es Administratoren, alle Dokumente zugleich zu überblicken und schnell zu finden, was sie benötigen.
+* &#x20;Admin-Benutzer können Dokumente aus allen Unterorganisationen einsehen, ohne zwischen ihnen wechseln zu müssen.
+* Diese zentrale Sicht erlaubt es Administratoren, alle Dokumente zugleich zu überblicken und schnell zu finden, was sie benötigen.
 
 <figure><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F7ACd08FD5ORqjs15FD1L%252FCrossSubOrganisations.png%3Falt%3Dmedia%26token%3Daeab8cc8-e1dc-495e-ac45-10a10c5fbf29&#x26;width=768&#x26;dpr=2&#x26;quality=100&#x26;sign=b1383f40&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
@@ -50,22 +46,20 @@ Mit der neuen Funktion Sequentieller Workflow und Freigabehistorie steigert DocB
 
 #### Sequentielle Workflow-Steuerung:
 
-• Dokumente können in einer festgelegten Reihenfolge an mehrere Benutzer zur Prüfung oder Freigabe übergeben werden.
-
-• Jeder beteiligte Benutzer erhält eine Benachrichtigung, sobald er an der Reihe ist, was Missverständnisse und Verzögerungen reduziert.
-
-• Workflows lassen sich individuell an die Geschäftsprozesse anpassen.\
+* &#x20;Dokumente können in einer festgelegten Reihenfolge an mehrere Benutzer zur Prüfung oder Freigabe übergeben werden.
+* &#x20;Jeder beteiligte Benutzer erhält eine Benachrichtigung, sobald er an der Reihe ist, was Missverständnisse und Verzögerungen reduziert.
+* Workflows lassen sich individuell an die Geschäftsprozesse anpassen.\
 
 
 Dadurch erhalten Benutzer nur die für ihre Aufgaben relevanten Dokumente, was für einen fokussierten und sicheren Workflow sorgt.
 
 #### Freigabehistorie:
 
-• Ein vollständiges Protokoll aller Aktionen steht in den Ansichten „Validierung“ und „Freigabe“ zur Verfügung.
-
-• Es enthält Benutzeraktionen (z. B. „freigegeben“, „abgelehnt“), Zeitstempel sowie Kommentare/Notizen.
-
-• Die Historie erhöht die Transparenz und dient als Prüfpfad für Compliance und Fehlersuche.
+* Ein vollständiges Protokoll aller Aktionen steht in den Ansichten „Validierung“ und „Freigabe“ zur Verfügung.
+  * Es enthält Benutzeraktionen (z. B. „freigegeben“, „abgelehnt“)
+  * Zeitstempel&#x20;
+  * Kommentare/Notizen.
+* Die Historie erhöht die Transparenz und dient als Prüfpfad für Compliance und Fehlersuche.
 
 <figure><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FdoXNLPvi6N4iGyHaLBiV%252FApproval%2520History.png%3Falt%3Dmedia%26token%3D9ca81a61-7649-4064-8b74-931ce0487007&#x26;width=768&#x26;dpr=2&#x26;quality=100&#x26;sign=4067ed8c&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
@@ -90,27 +84,21 @@ Mit dieser Funktion erweitert DocBits die Handhabung von Steuerinformationen, in
 
 ### Mehrfache Steuerbereiche pro Steuertyp:
 
-• DocBits unterstützt jetzt mehrere Steuerbereiche unter jedem Steuertyp wie:
-
-• Voller Steuersatz (z. B. Standard-Mehrwertsteuer).
-
-• Reduzierter Steuersatz (z. B. für bestimmte Güter oder Dienstleistungen).
-
-• Steuerfrei (z. B. Ausnahmen für bestimmte Transaktionen).
-
-• Diese Unterteilung ermöglicht eine präzise Kategorisierung von Steuerbeträgen und gewährleistet die Einhaltung von Vorschriften und Buchhaltungsstandards.
+* DocBits unterstützt jetzt mehrere Steuerbereiche unter jedem Steuertyp wie:
+  * Voller Steuersatz (z. B. Standard-Mehrwertsteuer).
+  * Reduzierter Steuersatz (z. B. für bestimmte Güter oder Dienstleistungen).
+  * Steuerfrei (z. B. Ausnahmen für bestimmte Transaktionen).
+* &#x20;Diese Unterteilung ermöglicht eine präzise Kategorisierung von Steuerbeträgen und gewährleistet die Einhaltung von Vorschriften und Buchhaltungsstandards.
 
 #### Dynamische Auto-Accounting-Integration:
 
-• Die relevanten Steuerbereiche werden auf dem Auto-Accounting-Bildschirm automatisch anhand der während der Dokumentenverarbeitung extrahierten Daten angezeigt.
-
-• Benutzer können Steuerbuchungen ohne manuelle Nachberechnung oder erneute Eingabe schnell validieren und anpassen.
+* Die relevanten Steuerbereiche werden auf dem Auto-Accounting-Bildschirm automatisch anhand der während der Dokumentenverarbeitung extrahierten Daten angezeigt.
+* Benutzer können Steuerbuchungen ohne manuelle Nachberechnung oder erneute Eingabe schnell validieren und anpassen.
 
 #### Export zu Infor LN:
 
-• Steuerdaten einschließlich aller relevanten Bereiche und Klassifizierungen werden nahtlos an Infor LN exportiert, um die Konsistenz zwischen DocBits und dem ERP-System sicherzustellen.
-
-• Exportierte Daten werden mit den entsprechenden Kostenzeilen in Infor LN verknüpft, was eine klare Nachverfolgbarkeit und genaue Finanzberichterstattung ermöglicht.
+* Steuerdaten einschließlich aller relevanten Bereiche und Klassifizierungen werden nahtlos an Infor LN exportiert, um die Konsistenz zwischen DocBits und dem ERP-System sicherzustellen.
+* Exportierte Daten werden mit den entsprechenden Kostenzeilen in Infor LN verknüpft, was eine klare Nachverfolgbarkeit und genaue Finanzberichterstattung ermöglicht.
 
 <figure><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FxLvKHYq3zfdXkF36sy1u%252FMultipleTaxLInes.png%3Falt%3Dmedia%26token%3Db1e1e1df-546b-48e7-9dc9-e64de55376b6&#x26;width=768&#x26;dpr=2&#x26;quality=100&#x26;sign=76515c28&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
@@ -124,45 +112,33 @@ DocBits hat wesentliche Aktualisierungen im Dashboard vorgenommen, die sich auf 
 
 Um den Prozess des Abgleichs von Bestellpositionen (PO) mit Rechnungen zu vereinfachen, hat DocBits zahlreiche Verbesserungen in der PO-Matching-Ansicht implementiert.
 
-Strg + Klick für einzelne Zeilenauswahl:
+**Strg + Klick für einzelne Zeilenauswahl:**
 
-• Benutzer können mit gedrückter Strg-Taste auf spezifische Zeilen klicken, um mehrere, nicht zusammenhängende Zeilen auszuwählen.
+* &#x20;Benutzer können mit gedrückter Strg-Taste auf spezifische Zeilen klicken, um mehrere, nicht zusammenhängende Zeilen auszuwählen.
 
-Shift + Klick für Bereichsauswahl:
+**Shift + Klick für Bereichsauswahl:**
 
-• Wird die Shift-Taste gedrückt gehalten, so kann über den Klick auf eine erste und eine letzte Zeile ein zusammenhängender Bereich ausgewählt werden.
+* Wird die Shift-Taste gedrückt gehalten, so kann über den Klick auf eine erste und eine letzte Zeile ein zusammenhängender Bereich ausgewählt werden.
 
-## Automatische Erkennung veralteter Daten:
+**Automatische Erkennung veralteter Daten:**
 
-• Ist die zu einer Rechnung gehörige Bestellinformation veraltet (basierend auf den Systemeinstellungen), wird ein Symbol angezeigt, um den Benutzer darauf hinzuweisen. So erkennen Anwender schnell, ob es sich um veraltete Daten handelt, die eventuell nicht den neuesten Stand wiedergeben.
+* &#x20;Ist die zu einer Rechnung gehörige Bestellinformation veraltet (basierend auf den Systemeinstellungen), wird ein Symbol angezeigt, um den Benutzer darauf hinzuweisen. So erkennen Anwender schnell, ob es sich um veraltete Daten handelt, die eventuell nicht den neuesten Stand wiedergeben.
 
 ### Bug-Fixes
 
-1\. Ein Problem wurde behoben, um sicherzustellen, dass bei den Auto-Accounting-Prozessen alle möglichen Werte korrekt angezeigt werden.
-
-2\. Das Benutzerinterface der Workflow-Logs wurde verbessert, um die Navigation und Bedienung intuitiver zu gestalten.
-
-3\. Die Dokumentenfelder zeigen nun weitere Informationen wie erforderliche oder ausgeblendete Flags direkt in der Benutzeroberfläche an.
-
-4\. Die Beschreibungen von Gruppen sind in den Gruppeneinstellungen nun sichtbar.
-
-5\. Die Zeichenlängenbeschränkung für Gruppennamen wird beim Erstellen angezeigt, um Fehler zu vermeiden.
-
-6\. Probleme mit der Testfunktion im Entscheidungsbaum und Übersetzungsinkonsistenzen wurden beseitigt.
-
-7\. Die Suchfunktion in den Workflow-Logs wurde verbessert, um präzisere und effektivere Ergebnisse zu liefern.
-
-8\. Ein Fehler wurde behoben, der verhinderte, dass Benutzer versehentlich E-Dokument-Entwürfe löschen konnten.
-
-9\. Verschiedene Fehler im E-Mail-Importprozess wurden korrigiert, um eine reibungslose Integration und Datenverarbeitung zu gewährleisten.
-
-10\. Probleme beim Speichern von KI-generierten Tags wurden behoben, sodass die Daten konsistent erhalten bleiben.
-
-11\. Ein Sortierfehler, der beim Seitenwechsel im Dashboard auftrat, wurde behoben.
-
-12\. Der Dokumentenzähler zeigt nun korrekt die Anzahl der von DocBits verarbeiteten Dokumente an.
-
-13\. Verbesserte Übersetzungen in der gesamten Anwendung steigern die Benutzerfreundlichkeit in verschiedenen Sprachen.
+* Ein Problem wurde behoben, um sicherzustellen, dass bei den Auto-Accounting-Prozessen alle möglichen Werte korrekt angezeigt werden.
+* &#x20;Das Benutzerinterface der Workflow-Logs wurde verbessert, um die Navigation und Bedienung intuitiver zu gestalten.
+* Die Dokumentenfelder zeigen nun weitere Informationen wie erforderliche oder ausgeblendete Flags direkt in der Benutzeroberfläche an.
+* Die Beschreibungen von Gruppen sind in den Gruppeneinstellungen nun sichtbar.
+* Die Zeichenlängenbeschränkung für Gruppennamen wird beim Erstellen angezeigt, um Fehler zu vermeiden.
+* Probleme mit der Testfunktion im Entscheidungsbaum und Übersetzungsinkonsistenzen wurden beseitigt.
+* Die Suchfunktion in den Workflow-Logs wurde verbessert, um präzisere und effektivere Ergebnisse zu liefern.
+* Ein Fehler wurde behoben, der verhinderte, dass Benutzer versehentlich E-Dokument-Entwürfe löschen konnten.
+* Verschiedene Fehler im E-Mail-Importprozess wurden korrigiert, um eine reibungslose Integration und Datenverarbeitung zu gewährleisten.
+* Probleme beim Speichern von KI-generierten Tags wurden behoben, sodass die Daten konsistent erhalten bleiben.
+* Ein Sortierfehler, der beim Seitenwechsel im Dashboard auftrat, wurde behoben.
+* Der Dokumentenzähler zeigt nun korrekt die Anzahl der von DocBits verarbeiteten Dokumente an.
+* Verbesserte Übersetzungen in der gesamten Anwendung steigern die Benutzerfreundlichkeit in verschiedenen Sprachen.
 
 ## Release Hot Fix Feast 17. Dezember 2024
 
