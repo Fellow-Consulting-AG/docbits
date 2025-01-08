@@ -4,7 +4,7 @@
 
 ### New Features
 
-#### &#x20;Support for ZUGFeRD 2.1 and Newer
+### Support for ZUGFeRD 2.1 and Newer
 
 DocBits now includes full support for ZUGFeRD versions 2.1 and above, enabling seamless handling and processing of ZUGFeRD-compliant electronic invoices. The integration ensures:
 
@@ -15,23 +15,23 @@ DocBits now includes full support for ZUGFeRD versions 2.1 and above, enabling s
 
 By incorporating ZUGFeRD 2.1 and newer standards, DocBits simplifies cross-border transactions and aligns with modern business needs, making it an essential tool for organisations prioritizing digital transformation and regulatory compliance.
 
-#### External API Integration for Enhanced Document Processing
+### External API Integration for Enhanced Document Processing
 
 DocBits introduces an advanced capability to leverage external APIs during document processing, enhancing the completeness and accuracy of extracted data. This feature significantly reduces manual input by populating missing fields with accurate, up-to-date information retrieved in real time from trusted sources. It ensures that documents are processed faster and with greater consistency.
 
-#### Cross Sub-Organisations Access
+### Cross Sub-Organisations Access
 
 For organisations with multiple sub-organisations enabled, DocBits now introduces the Cross Sub-Organisations feature. This enhancement empowers administrative users to streamline their document management across all sub-organisations under a single umbrella. Admin users can now access and view all documents from every sub-organisation without needing to switch sub-organisation. This centralized visibility enables admins to see all the documents for all the sub-organisations, making it easy to locate specific files while still maintaining a bird’s-eye view
 
 <figure><img src="../.gitbook/assets/CrossSubOrganisations.png" alt=""><figcaption></figcaption></figure>
 
-#### Document Visibility Based on Group Permissions
+### Document Visibility Based on Group Permissions
 
 DocBits introduces enhanced document visibility controls, enabling more precise access management for non-admin users through group-based permissions. This feature allows administrators to define which documents are visible to specific users or groups, ensuring streamlined workflows and improved data security. Admin users can assign documents to specific groups, granting visibility only to users within those groups. This ensures that users see only the documents relevant to their role or team, reducing clutter and enhancing focus.
 
 <figure><img src="../.gitbook/assets/Group Based Permission.png" alt=""><figcaption></figcaption></figure>
 
-#### Sequential Workflow and Approval History
+### Sequential Workflow and Approval History
 
 DocBits introduces a powerful Sequential Workflow and Approval History feature, designed to enhance document processing efficiency and accountability. By enabling documents to follow a predefined decision tree, this feature ensures orderly review and approval while maintaining a complete record of actions taken. Sequential Workflow Management:
 
@@ -49,13 +49,13 @@ DocBits introduces a powerful Sequential Workflow and Approval History feature, 
 
 <figure><img src="../.gitbook/assets/Approval History.png" alt=""><figcaption></figcaption></figure>
 
-#### SFTP/FTP Documents Archive Enhancement
+### SFTP/FTP Documents Archive Enhancement
 
 The SFTP/FTP Documents Archive enhancement in DocBits builds on the existing import functionality, introducing a seamless method for archiving files after they’ve been processed. A new setting in the FTP import configuration allows users to enable or disable file archiving. Once files are successfully ingested and processed in DocBits, they will be automatically archived to a designated folder on the SFTP/FTP server if the option is enabled. This ensures processed files are preserved for record-keeping without cluttering the active import directories.
 
 <figure><img src="../.gitbook/assets/SFTPArchieve.png" alt=""><figcaption></figcaption></figure>
 
-#### Multiple Tax Section for Tax Type and Export to LN
+### Multiple Tax Section for Tax Type and Export to LN
 
 This feature enhances tax handling capabilities by enabling detailed classification and export of tax information to Infor LN (Full Tax, Reduced Tax, Tax Free). This allows for better alignment with complex tax structures and ensures seamless integration with accounting systems.
 
@@ -81,11 +81,11 @@ This feature enhances tax handling capabilities by enabling detailed classificat
 
 <figure><img src="../.gitbook/assets/MultipleTaxLineAuto Accounting.png" alt=""><figcaption></figcaption></figure>
 
-#### Dashboard Enhancements
+### Dashboard Enhancements
 
 DocBits has introduced significant updates to the dashboard, focusing on usability, efficiency, and improved data visibility. These enhancements include a new "Assigned To Group" filter and an optimized UI for Document Logs, making it easier for users to interact with and manage their documents.
 
-#### PO Matching Enhancements
+### PO Matching Enhancements
 
 DocBits introduces several usability improvements to the PO Matching Screen, designed to streamline the process of matching purchase order (PO) lines with invoices. These enhancements offer more intuitive controls for multi-line selection and provide clear visual indicators for handling outdated PO data.
 
