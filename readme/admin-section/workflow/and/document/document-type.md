@@ -1,6 +1,6 @@
 # Document Type
 
-<figure><img src="../../../../.gitbook/assets/image (16).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Purpose:
 

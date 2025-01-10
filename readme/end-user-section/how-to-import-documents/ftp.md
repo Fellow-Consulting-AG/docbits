@@ -16,6 +16,19 @@ From the Dashboard, open Settings and navigate to Import. Under FTP Import, sele
 
 Enter SFTP credentials in the given spaces and select save (The API Key field will automatically be filled with the API Key of the environment you are working on).
 
-![](https://lh7-us.googleusercontent.com/m11trSpnDmv9aco98vPG6xuIhYxngp6TauG7lDYEWB2VguNmX0ypXMi3Fc4Ey6V4Iy\_YwOy4Zooh3rj\_WoAQ3PQgVIjw5vqToOuq\_lIxN7IqPE2fv1puzsnEO96y5mn5FHjFtC1wYrEf9sxjHk1GL2I)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Once you have entered all the necessary details of your SFTP, click SAVE.
+
+### **FTP File Archiving**
+
+1. **Enable File Archiving**
+   * Locate the "File Archiving" option.
+   * Toggle the switch to the "On" position to enable archiving.
+2. **Select the Archive Directory**
+   * Once the "File Archiving" switch is enabled, a field will appear allowing you to specify the directory path for archived files.
+   * Select the desired folder path on the SFTP/FTP server where the archived files should be stored.
+3. **Save Changes**
+   * Click the **Save** button to apply the changes.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>

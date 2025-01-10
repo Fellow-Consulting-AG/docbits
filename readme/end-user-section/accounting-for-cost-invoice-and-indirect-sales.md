@@ -4,7 +4,7 @@
 
 Welcome to the Accounting for Cost Invoice and Indirect Sales module! This module is designed to help you efficiently manage and reconcile your financial transactions within your ERP system. With features like automatic data extraction, document matching, and detailed tracking, you can ensure that your financial records are accurate and up-to-date.
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Getting Started
 

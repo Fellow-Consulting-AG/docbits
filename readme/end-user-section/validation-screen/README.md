@@ -106,7 +106,20 @@ To share internal information, you can create tasks and assign them to a specifi
 
 <figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.21.27.png" alt="" width="218"><figcaption></figcaption></figure>
 
+### Approval History
 
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+**Note:** The approval history must be activated before it can be displayed here.
+
+**Approval History:**
+
+* **Purpose**:\
+  Displays document approval history in field validation, with red indicating rejected and the app's color indicating approved.
+* **Use Case**:\
+  Useful for organizations that require a transparent record of approval actions during field validation.
+
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 ### **Annotation mode:**
 

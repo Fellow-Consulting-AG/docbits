@@ -1,6 +1,6 @@
 # More Settings
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.54.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 #### Overview
 
@@ -17,6 +17,8 @@ The More Settings area allows administrators to configure various aspects of doc
 4. **Approval**:
    * **Approve before export**: Ensures documents must be approved before they can be exported from the system.
    * **Second Approval**: Adds an additional layer of approval for further validation, enhancing control over document processing.
+   * **Approval Stamp:** Adds a stamp to the document when it is approved.
+   * **Approval History**: Enables the display of approval history in both the approval screen and field validation.
 5. **Purchase Order / Auto Accounting**:
    * **PO table in layout builder**: Enables the inclusion of purchase order tables in the layout builder for customized document layouts.
    * **Purchase Order**: Toggles the processing of purchase order documents within the system.

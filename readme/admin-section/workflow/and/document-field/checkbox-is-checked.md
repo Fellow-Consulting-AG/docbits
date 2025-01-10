@@ -1,6 +1,6 @@
 # Checkbox is checked
 
-<figure><img src="../../../../.gitbook/assets/image (20).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (20) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Purpose:**
 

@@ -25,7 +25,7 @@ This workflow card facilitates operations based on the assignment of a task or d
   * For the **IS NOT** operator, it verifies that the assigned user is different from the selected user.
 * **Action Execution**:
   * **True Condition**: If the assignment meets the set condition (IS or IS NOT), it triggers predefined actions, which could include moving forward with approvals, initiating further tasks, sending notifications, or other related workflows.
-  * **False Condition**: If the condition fails, the system can reroute the task, hold it for review, or trigger alternative predefined actions.
+  * **False Condition**:  If the condition is not met, the workflow will not continue.
 
 **User Interactions**
 

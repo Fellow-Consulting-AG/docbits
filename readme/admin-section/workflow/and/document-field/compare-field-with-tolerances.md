@@ -1,6 +1,6 @@
 # Compare Field with tolerances
 
-<figure><img src="../../../../.gitbook/assets/image (15) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Purpose:**
 
