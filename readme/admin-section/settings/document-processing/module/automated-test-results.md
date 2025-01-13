@@ -79,16 +79,16 @@ These tests are designed to verify the functionality of the email import system 
 
 |Test Case|Last Execution|Status|
 |-|-|-|
-|[Setup Email Import](#Setup-Email-Import)|25-01-13 10:07|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-|[Notify Sender On Import](#Notify-Sender-On-Import)|25-01-13 10:07|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[Move Email After Import](#Move-Email-After-Import)|25-01-13 10:07|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[Import Single Email Attachment](#Import-Single-Email-Attachment)|25-01-13 10:07|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[Import Multiple Attachments](#Import-Multiple-Attachments)|25-01-13 10:07|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[Merge Multiple Attachments](#Merge-Multiple-Attachments)|25-01-13 10:07|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[Handle Duplicate Documents](#Handle-Duplicate-Documents)|25-01-13 10:07|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[Block Duplicate Documents](#Block-Duplicate-Documents)|25-01-13 10:07|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[Block Duplicates Across Attachments](#Block-Duplicates-Across-Attachments)|25-01-13 10:07|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-|[Handle Corrupted Files](#Handle-Corrupted-Files)|25-01-13 10:07|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[Setup Email Import](#Setup-Email-Import)|25-01-03 18:56|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+|[Notify Sender On Import](#Notify-Sender-On-Import)|25-01-03 18:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[Move Email After Import](#Move-Email-After-Import)|25-01-03 18:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[Import Single Email Attachment](#Import-Single-Email-Attachment)|25-01-03 18:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[Import Multiple Attachments](#Import-Multiple-Attachments)|25-01-03 18:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[Merge Multiple Attachments](#Merge-Multiple-Attachments)|25-01-03 18:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[Handle Duplicate Documents](#Handle-Duplicate-Documents)|25-01-03 18:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[Block Duplicate Documents](#Block-Duplicate-Documents)|25-01-03 18:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[Block Duplicates Across Attachments](#Block-Duplicates-Across-Attachments)|25-01-03 18:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+|[Handle Corrupted Files](#Handle-Corrupted-Files)|25-01-03 18:56|![badge](https://img.shields.io/badge/_-failed-red.svg)|
 
 
 
