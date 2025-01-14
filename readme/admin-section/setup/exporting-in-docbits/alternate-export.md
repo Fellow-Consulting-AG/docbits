@@ -13,7 +13,7 @@
 1. Go to **Settings** > **Global Settings** > **Document Type** > **More Settings**.
 2. Locate the **Alternate Export** setting and toggle it **on**.
 3. Configure the following:
-   * **Document Status**: Specify the status of documents for which the alternate export will apply.
+   * **Document Status**: Specify the status of documents after the alternate export.
    * **Export Configuration**: Select the newly created export configuration to be used for the alternate export.
 
 <figure><img src="../../../.gitbook/assets/image (369).png" alt=""><figcaption></figcaption></figure>
