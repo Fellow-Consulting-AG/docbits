@@ -34,14 +34,13 @@ These tests are designed to verify the functionality of the email import system 
 
 ## Demo
 
-|[Client Tests](#client-tests)|Last Execution|Status|
+|Automated Tests|Last Execution|Status|
 |-|-|-|
+|[**Client Tests**](#client-tests)|
 |[Gmail Import](#Gmail-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Microsoft Import](#Microsoft-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Imap Import](#Imap-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
-
-|[Feature Tests](#Feature-Tests)|Last Execution|Status|
-|-|-|-|
+|[**Feature Tests**](#Feature-Tests)|
 |[Setup Email Import](#Setup-Email-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Notify Sender On Import](#Notify-Sender-On-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Move Email After Import](#Move-Email-After-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
@@ -56,14 +55,13 @@ These tests are designed to verify the functionality of the email import system 
 
 ## Sandbox
 
-|[Client Tests](#client-tests)|Last Execution|Status|
+|Automated Tests|Last Execution|Status|
 |-|-|-|
+|[**Client Tests**](#client-tests)|
 |[Gmail Import ](#Gmail-Import-)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[Microsoft Import ](#Microsoft-Import-)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[Imap Import ](#Imap-Import-)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-
-|[Feature Tests](#Feature-Tests)|Last Execution|Status|
-|-|-|-|
+|[**Feature Tests**](#Feature-Tests)|
 |[Setup Email Import](#Setup-Email-Import)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[Notify Sender On Import](#Notify-Sender-On-Import)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[Move Email After Import](#Move-Email-After-Import)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
@@ -77,14 +75,13 @@ These tests are designed to verify the functionality of the email import system 
 
 ## Stage
 
-|[Client Tests](#client-tests)|Last Execution|Status|
+|Automated Tests|Last Execution|Status|
 |-|-|-|
+|[**Client Tests**](#client-tests)|
 |[Gmail Import](#Gmail-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Microsoft Import](#Microsoft-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Imap Import](#Imap-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
-
-|[Feature Tests](#Feature-Tests)|Last Execution|Status|
-|-|-|-|
+|[**Feature Tests**](#Feature-Tests)|
 |[Setup Email Import](#Setup-Email-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Notify Sender On Import](#Notify-Sender-On-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Move Email After Import](#Move-Email-After-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
@@ -99,14 +96,13 @@ These tests are designed to verify the functionality of the email import system 
 
 ## Development
 
-|[Client Tests](#client-tests)|Last Execution|Status|
+|Automated Tests|Last Execution|Status|
 |-|-|-|
+|[**Client Tests**](#client-tests)|
 |[Gmail Import ](#Gmail-Import-)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[Microsoft Import ](#Microsoft-Import-)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[Imap Import ](#Imap-Import-)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-
-|[Feature Tests](#Feature-Tests)|Last Execution|Status|
-|-|-|-|
+|[**Feature Tests**](#Feature-Tests)|
 |[Setup Email Import](#Setup-Email-Import)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[Notify Sender On Import](#Notify-Sender-On-Import)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[Move Email After Import](#Move-Email-After-Import)|25-01-16 19:19|![badge](https://img.shields.io/badge/_-passed-green.svg)|
