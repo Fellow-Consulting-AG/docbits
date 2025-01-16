@@ -13,14 +13,13 @@ These tests are designed to verify the functionality of the email import system 
 
 ## Prod
 
-|[Client Tests](#client-tests)|Last Execution|Status|
+|Automated Tests|Last Execution|Status|
 |-|-|-|
+|[**Client Tests**](#client-tests)|
 |[Gmail Import](#Gmail-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Microsoft Import](#Microsoft-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Imap Import](#Imap-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
-
-|[Feature Tests](#Feature-Tests)|Last Execution|Status|
-|-|-|-|
+|[**Feature Tests**](#Feature-Tests)|
 |[Setup Email Import](#Setup-Email-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Notify Sender On Import](#Notify-Sender-On-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
 |[Move Email After Import](#Move-Email-After-Import)|In Development|![badge](https://img.shields.io/badge/_-none-grey.svg)|
