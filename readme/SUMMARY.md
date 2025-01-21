@@ -111,7 +111,7 @@
         * [Approval Before Export](admin-section/settings/document-processing/module/approval-before-export.md)
         * [Doc Scan](admin-section/settings/document-processing/module/doc-scan.md)
         * [Doc Script](admin-section/settings/document-processing/module/doc-script.md)
-        * [IDM ACL Updater](admin-section/settings/document-processing/module/idm-acl-updater.md)
+        * [IDM ACL-UPDATOR](admin-section/settings/document-processing/module/idm-acl-updater.md)
         * [Swiss QR Code](admin-section/settings/document-processing/module/swiss-qr-code.md)
     * [Gestión de Caché](admin-section/settings/gestion-de-cache.md)
     * [Licencias de API](admin-section/settings/licencias-de-api.md)
