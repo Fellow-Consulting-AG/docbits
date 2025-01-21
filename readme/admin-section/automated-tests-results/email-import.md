@@ -55,12 +55,12 @@ These tests are designed to verify the functionality of the email import system 
 
 ## Sandbox
 
-|Automated Tests|Last Execution : 21-01-25 (20:28)|
+|Automated Tests|Last Execution : 21-01-25 (20:58)|
 |-|-|
 |[**Client Tests**](#client-tests)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Gmail Import](#gmail-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft Import ](#microsoft-import-)|![badge](https://img.shields.io/badge/_-failed-red.svg)|
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Imap Import ](#imap-import-)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft Import ](#microsoft-import-)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Imap Import](#imap-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[**Feature Tests**](#Feature-Tests)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Setup Email Import](#setup-email-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notify Sender On Import](#notify-sender-on-import)|![badge](https://img.shields.io/badge/_-failed-red.svg)|
