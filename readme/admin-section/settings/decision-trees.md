@@ -1,24 +1,24 @@
 # Arbres de Décision
 
-### Aperçu
+#### Aperçu
 
 Les Arbres de Décision sont une fonctionnalité puissante qui permet le routage automatisé et le processus de prise de décision basé sur des règles prédéfinies. Cette fonctionnalité est particulièrement utile dans des environnements complexes où diverses conditions doivent être évaluées pour déterminer le bon cours d'action, comme l'attribution de prix, la détermination des quantités ou le routage de documents.
 
-#### Composants Clés
+**Composants Clés**
 
 * **Liste des Arbres de Décision** : C'est l'interface principale où tous les arbres de décision existants sont listés. Chaque arbre de décision peut être associé à un type de document spécifique tel qu'une `FACTURE` ou un `DEVIS`.
 * **Éditeur d'Arbre de Décision** : Cette interface permet la création et l'édition d'arbres de décision, où vous pouvez définir des règles, des opérateurs et des actions à entreprendre lorsque certaines conditions sont remplies.
 
-### Interface de l'Arbre de Décision
+#### Interface de l'Arbre de Décision
 
-#### Liste des Arbres de Décision
+**Liste des Arbres de Décision**
 
 La liste des Arbres de Décision affiche tous les arbres de décision disponibles. Chaque entrée montre :
 
 * **Nom** : Le nom de l'arbre de décision.
 * **Type de Document** : Le type de document associé à l'arbre de décision (par exemple, `FACTURE`, `DEVIS`).
 
-#### Éditeur d'Arbre de Décision
+**Éditeur d'Arbre de Décision**
 
 L'Éditeur d'Arbre de Décision vous permet de configurer des règles qui régissent comment les décisions sont prises.
 
@@ -30,7 +30,7 @@ L'Éditeur d'Arbre de Décision vous permet de configurer des règles qui régis
 * **Résultat** : Définit le résultat ou l'action qui doit être entreprise lorsque les conditions sont remplies.
 * **Ajouter une Nouvelle Ligne** : Vous permet d'ajouter des règles supplémentaires à l'arbre de décision.
 
-#### Exemple de Configuration d'un Arbre de Décision
+**Exemple de Configuration d'un Arbre de Décision**
 
 1. **Règle 1** :
    * **Source** : Quantité
@@ -45,7 +45,7 @@ L'Éditeur d'Arbre de Décision vous permet de configurer des règles qui régis
 
 Chaque règle est évaluée séquentiellement, et l'action correspondante est exécutée si les conditions sont satisfaites.
 
-### Politique de l'Arbre de Décision
+#### Politique de l'Arbre de Décision
 
 La Politique de l'Arbre de Décision définit comment plusieurs règles au sein d'un arbre de décision sont traitées. Vous pouvez choisir parmi plusieurs politiques :
 
@@ -57,14 +57,14 @@ La Politique de l'Arbre de Décision définit comment plusieurs règles au sein 
 * **Ordre des Règles** : Applique les règles dans l'ordre où elles apparaissent dans l'arbre de décision.
 * **Tout** : Toute règle correspondante peut être appliquée, permettant plusieurs résultats.
 
-#### Exemple d'une Politique d'Arbre de Décision en Action
+**Exemple d'une Politique d'Arbre de Décision en Action**
 
 Dans l'arbre de décision "Prix du Groupe Direct" :
 
 * **Politique Sélectionnée** : `Première`
 * Cela signifie que dès qu'une condition de règle est remplie, son action associée est appliquée, et aucune règle supplémentaire n'est évaluée.
 
-### Exporter et Sauvegarder
+#### Exporter et Sauvegarder
 
 * **Sauvegarder** : Sauvegarde la configuration actuelle de l'arbre de décision.
 * **Exporter** : Vous permet d'exporter la configuration de l'arbre de décision, qui peut ensuite être importée dans un autre environnement ou utilisée à des fins de sauvegarde.
