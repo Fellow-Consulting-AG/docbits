@@ -118,7 +118,7 @@
     * [Log Settings](admin-section/settings/log-settings/README.md)
       * [Gestión de Tareas](admin-section/settings/log-settings/gestion-de-tareas.md)
       * [Sincronización de Datos](admin-section/settings/log-settings/sincronizacion-de-datos.md)
-    * [Árboles de Decisión](admin-section/settings/arboles-de-decision.md)
+    * [Árboles de Decisión](admin-section/settings/decision-trees.md)
     * [Configuración del Proveedor](admin-section/settings/supplier-setting/README.md)
       * [Edición de Plantillas de Correo Electrónico](admin-section/settings/supplier-setting/editing-email-templates.md)
       * [Exportar Configuración para el Portal de Proveedores](admin-section/settings/supplier-setting/export-configuration-for-supplier-portal.md)
