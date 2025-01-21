@@ -121,7 +121,7 @@
     * [Log Settings](admin-section/settings/log-settings/README.md)
       * [Zarządzanie Zadaniami](admin-section/settings/log-settings/zarzadzanie-zadaniami.md)
       * [Synchronizacja Danych](admin-section/settings/log-settings/synchronizacja-danych.md)
-    * [Drzewa Decyzyjne](admin-section/settings/drzewa-decyzyjne.md)
+    * [Drzewa Decyzyjne](admin-section/settings/decision-trees.md)
   * [Workflow](overview/workflow/README.md)
     * [Then](overview/workflow/then.md)
     * [And](overview/workflow/and/README.md)
