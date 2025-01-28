@@ -168,6 +168,7 @@
               * [TOML Export](admin-section/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/toml-export.md)
           * [Peppol BIS Billing 3.0](admin-section/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/README.md)
             * [Transformation file and Mapping](admin-section/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/transformation-file-and-mapping.md)
+          * [Faktura](admin-section/settings/global-settings/document-types/edi/faktura.md)
         * [More Settings](admin-section/settings/global-settings/document-types/more-settings.md)
           * [Purpose and use](admin-section/settings/global-settings/document-types/more-settings/purpose-and-use.md)
           * [Best practices](admin-section/settings/global-settings/document-types/more-settings/best-practices.md)
