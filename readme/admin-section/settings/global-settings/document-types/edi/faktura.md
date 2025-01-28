@@ -38,7 +38,7 @@ If you want to display a specific attribute (like the Purchase Order number) on 
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-28 at 15.11.04.png" alt=""><figcaption></figcaption></figure>
 
-8. Make sure that your draft is the **active** one.
+9. Make sure that your draft is the **active** one.
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2025-01-28 at 16.03.50.png" alt=""><figcaption></figcaption></figure>
 
