@@ -54,7 +54,7 @@ These tests are designed to verify the functionality of the email import system 
 
 ## Sandbox
 
-|Automated Tests|Last Execution : 28-01-25 (16:51)|
+|Automated Tests|Last Execution : 28-01-25 (17:56)|
 |-|-|
 |[**Client Tests**](#client-tests)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Gmail Import](#gmail-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
@@ -69,7 +69,7 @@ These tests are designed to verify the functionality of the email import system 
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Merge Multiple Attachments](#merge-multiple-attachments)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Handle Duplicate Documents](#handle-duplicate-documents)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Block Duplicate Documents](#block-duplicate-documents)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Handle Corrupted Files](#handle-corrupted-files)|![badge](https://img.shields.io/badge/_-failed-red.svg)|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Handle Corrupted Files](#handle-corrupted-files)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Error Message On Failed Import](#error-message-on-failed-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 
 ## Development
