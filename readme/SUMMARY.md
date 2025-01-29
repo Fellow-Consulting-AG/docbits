@@ -15,7 +15,7 @@
     * [Overview of Uploaded Documents](end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Task Counter](end-user-section/dashboard/task-counter.md)
     * [Validated Extracted Fields](end-user-section/dashboard/validated-extracted-fields.md)
-    * [Viewing Duplicate Documents](end-user-section/dashboard/viewing-duplicate-documents.md)
+    * [Duplicate Invoice Handling In DocBits](end-user-section/dashboard/viewing-duplicate-documents.md)
     * [Best Practice](end-user-section/dashboard/best-practice.md)
     * [Troubleshooting](end-user-section/dashboard/troubleshooting.md)
   * [Tasks](end-user-section/tasks.md)
