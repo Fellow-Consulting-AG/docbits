@@ -15,7 +15,7 @@
     * [Aperçu des documents téléchargés](end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Compteur de tâches](end-user-section/dashboard/task-counter.md)
     * [Champs extraits validés](end-user-section/dashboard/validated-extracted-fields.md)
-    * [Affichage des documents dupliqués](end-user-section/dashboard/viewing-duplicate-documents.md)
+    * [Gestion des Factures Dupliquées Dans DocBits](end-user-section/dashboard/viewing-duplicate-documents.md)
     * [Meilleure Pratique](end-user-section/dashboard/meilleures-pratiques.md)
     * [Dépannage](end-user-section/dashboard/troubleshooting.md)
   * [Tâches](end-user-section/taches.md)
