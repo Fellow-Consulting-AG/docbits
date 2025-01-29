@@ -15,7 +15,7 @@
     * [Übersicht der hochgeladenen Dokumente](end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Aufgabenzähler](end-user-section/dashboard/task-counter.md)
     * [Validierte extrahierte Felder](end-user-section/dashboard/validated-extracted-fields.md)
-    * [Anzeigen von Duplikaten](end-user-section/dashboard/viewing-duplicate-documents.md)
+    * [Handhabung von doppelten Rechnungen in DocBits](end-user-section/dashboard/viewing-duplicate-documents.md)
     * [Best Practice](end-user-section/dashboard/best-practices.md)
     * [Fehlerbehebung](end-user-section/dashboard/troubleshooting.md)
   * [Aufgaben](end-user-section/aufgaben.md)
