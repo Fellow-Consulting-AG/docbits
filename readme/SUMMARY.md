@@ -15,7 +15,7 @@
     * [Panoramica dei documenti caricati](end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Contatore di attività](end-user-section/dashboard/task-counter.md)
     * [Campi estratti validati](end-user-section/dashboard/validated-extracted-fields.md)
-    * [Visualizzazione di Documenti Duplicati](end-user-section/dashboard/viewing-duplicate-documents.md)
+    * [Gestione delle Fatture Duplicati in DocBits](end-user-section/dashboard/viewing-duplicate-documents.md)
     * [Best Practice](end-user-section/dashboard/migliori-pratiche.md)
     * [Risoluzione dei problemi](end-user-section/dashboard/troubleshooting.md)
   * [Attività](end-user-section/attivita.md)
