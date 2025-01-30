@@ -4,7 +4,7 @@
 
 Go to _Settings → Document Types → Invoice → More Settings_ as shown in the screenshot below
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling.png" alt=""><figcaption></figcaption></figure>
 
 The user has two options for detecting duplicate invoices:
 
@@ -21,12 +21,12 @@ Once the setting is turned on the user can select the criteria for duplicate det
 
 Once Duplicate Detection is enabled in the settings, the dashboard will display an icon for any invoices identified as duplicates based on the specified criteria. Clicking this icon will open the duplicate records in a split-screen view for easy comparison
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2 (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
 
 When the user opens the document a warning bar is shown for the duplicate invoices as shown in the screenshot
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling3.png" alt=""><figcaption></figcaption></figure>
 
 \
