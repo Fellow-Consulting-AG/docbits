@@ -4,7 +4,7 @@
 
 Allez dans _Paramètres → Types de Documents → Facture → Plus de Paramètres_ comme indiqué dans la capture d'écran ci-dessous
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling.png" alt=""><figcaption></figcaption></figure>
 
 L'utilisateur a deux options pour détecter les factures dupliquées:
 
@@ -21,10 +21,10 @@ Une fois le paramètre activé, l'utilisateur peut sélectionner les critères p
 
 Une fois la Détection des Duplicatas activée dans les paramètres, le tableau de bord affichera une icône pour toutes les factures identifiées comme des duplicatas en fonction des critères spécifiés. Cliquer sur cette icône ouvrira les enregistrements dupliqués dans une vue à écran partagé pour une comparaison facile
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling2b.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2b.png" alt=""><figcaption></figcaption></figure>
 
 Lorsque l'utilisateur ouvre le document, une barre d'avertissement s'affiche pour les factures dupliquées comme indiqué dans la capture d'écran
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling3.png" alt=""><figcaption></figcaption></figure>
