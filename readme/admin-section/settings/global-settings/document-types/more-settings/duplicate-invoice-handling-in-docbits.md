@@ -4,7 +4,7 @@
 
 Gehe zu _Einstellungen → Dokumenttypen → Rechnung → Weitere Einstellungen_, wie im Screenshot unten gezeigt
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling.png" alt=""><figcaption></figcaption></figure>
 
 Der Benutzer hat zwei Optionen zur Erkennung doppelter Rechnungen:
 
@@ -21,10 +21,10 @@ Sobald die Einstellung aktiviert ist, kann der Benutzer die Kriterien für die E
 
 Sobald die doppelte Erkennung in den Einstellungen aktiviert ist, zeigt das Dashboard ein Symbol für alle Rechnungen an, die basierend auf den festgelegten Kriterien als Duplikate identifiziert wurden. Ein Klick auf dieses Symbol öffnet die doppelten Datensätze in einer geteilten Bildschirmansicht für einen einfachen Vergleich
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling2b.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2b.png" alt=""><figcaption></figcaption></figure>
 
 Wenn der Benutzer das Dokument öffnet, wird eine Warnleiste für die doppelten Rechnungen angezeigt, wie im Screenshot gezeigt
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling3.png" alt=""><figcaption></figcaption></figure>
