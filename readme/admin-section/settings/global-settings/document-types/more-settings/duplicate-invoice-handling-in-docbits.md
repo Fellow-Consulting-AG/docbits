@@ -4,7 +4,7 @@
 
 Przejdź do _Ustawienia → Typy Dokumentów → Faktura → Więcej Ustawień_ jak pokazano na zrzucie ekranu poniżej
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling.png" alt=""><figcaption></figcaption></figure>
 
 Użytkownik ma dwie opcje wykrywania duplikatów faktur:
 
@@ -21,8 +21,8 @@ Po włączeniu ustawienia użytkownik może wybrać kryteria wykrywania duplikat
 
 Gdy Wykrywanie Duplikatów jest włączone w ustawieniach, pulpit wyświetli ikonę dla wszelkich faktur zidentyfikowanych jako duplikaty na podstawie określonych kryteriów. Kliknięcie tej ikony otworzy duplikaty w widoku podzielonego ekranu dla łatwego porównania
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling2b.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2b.png" alt=""><figcaption></figcaption></figure>
 
 Gdy użytkownik otworzy dokument, na pasku ostrzeżeń wyświetli się informacja o duplikatach faktur, jak pokazano na zrzucie ekranu
