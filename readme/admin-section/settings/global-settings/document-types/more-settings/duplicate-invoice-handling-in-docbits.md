@@ -4,7 +4,7 @@
 
 Vai a _Impostazioni → Tipi di Documento → Fattura → Altre Impostazioni_ come mostrato nello screenshot qui sotto
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling.png" alt=""><figcaption></figcaption></figure>
 
 L'utente ha due opzioni per rilevare le fatture duplicate:
 
@@ -21,10 +21,10 @@ Una volta attivata l'impostazione, l'utente può selezionare i criteri per il ri
 
 Una volta abilitato il Rilevamento Duplicati nelle impostazioni, il dashboard mostrerà un'icona per tutte le fatture identificate come duplicati in base ai criteri specificati. Cliccando su questa icona si apriranno i record duplicati in una vista a schermo diviso per un facile confronto
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling2b.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2b.png" alt=""><figcaption></figcaption></figure>
 
 Quando l'utente apre il documento, viene mostrata una barra di avviso per le fatture duplicate come mostrato nello screenshot
 
-<figure><img src="../../.gitbook/assets/duplicate_invoice handling3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling3.png" alt=""><figcaption></figcaption></figure>
