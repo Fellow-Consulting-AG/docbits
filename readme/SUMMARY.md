@@ -15,7 +15,7 @@
     * [Przegląd Przesłanych Dokumentów](end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Licznik Zadań](end-user-section/dashboard/task-counter.md)
     * [Zweryfikowane Wyodrębnione Pola](end-user-section/dashboard/validated-extracted-fields.md)
-    * [Wyświetlanie zduplikowanych dokumentów](end-user-section/dashboard/viewing-duplicate-documents.md)
+    * [Obsługa Duplikatów Faktur w DocBits](end-user-section/dashboard/viewing-duplicate-documents.md)
     * [Najlepsze Praktyki](end-user-section/dashboard/najlepsze-praktyki.md)
     * [Rozwiązywanie problemów](end-user-section/dashboard/troubleshooting.md)
   * [Zadania](end-user-section/zadania.md)
