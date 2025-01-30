@@ -15,7 +15,7 @@
     * [Visão Geral dos Documentos Enviados](end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Contador de Tarefas](end-user-section/dashboard/task-counter.md)
     * [Campos Extraídos Validados](end-user-section/dashboard/validated-extracted-fields.md)
-    * [Visualizando Documentos Duplicados](end-user-section/dashboard/viewing-duplicate-documents.md)
+    * [Tratamento de Faturas Duplicadas no DocBits](end-user-section/dashboard/viewing-duplicate-documents.md)
     * [Melhor Prática](end-user-section/dashboard/melhor-pratica.md)
     * [Solução de Problemas](end-user-section/dashboard/troubleshooting.md)
   * [Tarefas](end-user-section/tarefas.md)
