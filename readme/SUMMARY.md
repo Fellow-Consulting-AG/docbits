@@ -203,7 +203,7 @@
       * [Delete lines with empty quantity and amount](setup/scripting-in-docbits/delete-lines-with-empty-quantity-and-amount.md)
       * [Formatting Export Certificate Reference Numbers Script for Docbits](setup/scripting-in-docbits/formatting-export-certificate-reference-numbers-script-for-docbits.md)
       * [Funzioni](admin-section/setup/scripting-in-docbits/functions/README.md)
-        * [Esempio di Script](admin-section/setup/scripting-in-docbits/functions/esempio-di-script.md)
+        * [Esempio di Script](admin-section/setup/scripting-in-docbits/functions/example-script.md)
       * [Generating Extended Invoice Numbers Script for Docbits](setup/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits-1.md)
       * [Generating Extended Invoice Numbers Script for Docbits](setup/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits.md)
     * [Testing](setup/testing/README.md)
