@@ -10,9 +10,9 @@ if iban_extracted:
     iban_extracted = iban_extracted.replace(' ','')
 
 if iban_fuzzy and iban_extracted and iban_fuzzy != iban_extracted:
-    set_field_as_invalid(document_data, "supplier_iban", "Es gibt einen Unterschied bei der IBAN", "INVALID_VALUE")
+    set_field_as_invalid(document_data, "supplier_iban", "There is a difference in the IBAN", "INVALID_VALUE")
 elif iban_fuzzy and not iban_extracted: 
-    set_field_as_invalid(document_data, "supplier_iban", "Es gibt einen Unterschied bei der IBAN", "INVALID_VALUE")
+    set_field_as_invalid(document_data, "supplier_iban", "There is a difference in the IBAN", "INVALID_VALUE")
 elif iban_extracted and not iban_fuzzy:
-    set_field_as_invalid(document_data, "supplier_iban", "Es gibt einen Unterschied bei der IBAN", "INVALID_VALUE")
+    set_field_as_invalid(document_data, "supplier_iban", "There is a difference in the IBAN", "INVALID_VALUE")
 ```
