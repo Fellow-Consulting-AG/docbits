@@ -31,12 +31,12 @@ This module contains functions for manipulating document data and performing var
        set_date_value(document_data, "promised_delivery_date", "2020-12-31", add_days=2, skip_weekend=True)
        ```
 3. **set\_amount\_value(document\_data, field\_name, value)**
-   1. Description: Sets the value of an amount field in the document data.
-   2. Parameters:
-      * document\_data (dict): The document data containing field information.
-      * field\_name (str): The name of the field to set.
-      * value: The value to set for the field.
-   3.  Example:
+   * Description: Sets the value of an amount field in the document data.
+   * Parameters:
+     * document\_data (dict): The document data containing field information.
+     * field\_name (str): The name of the field to set.
+     * value: The value to set for the field.
+   *   Example:
 
        ```
        set_amount_value(document_data, "number", "123456")
