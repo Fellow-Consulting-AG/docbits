@@ -53,7 +53,7 @@ These tests are designed to verify the functionality of the email import system 
 
 ## Sandbox
 
-|Automated Tests|Last Execution : 01-02-25 (06:09)|
+|Automated Tests|Last Execution : 02-02-25 (06:09)|
 |-|-|
 |[**Client Tests**](#client-tests)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Gmail Import](#gmail-import)|![badge](https://img.shields.io/badge/_-failed-red.svg)|
@@ -62,7 +62,7 @@ These tests are designed to verify the functionality of the email import system 
 |[**Feature Tests**](#Feature-Tests)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Setup Email Import](#setup-email-import)|![badge](https://img.shields.io/badge/_-failed-red.svg)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Notify Sender On Import](#notify-sender-on-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Move Email After Import](#move-email-after-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Move Email After Import](#move-email-after-import)|![badge](https://img.shields.io/badge/_-failed-red.svg)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Import Single Email Attachment](#import-single-email-attachment)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Import Multiple Attachments](#import-multiple-attachments)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Merge Multiple Attachments](#merge-multiple-attachments)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
