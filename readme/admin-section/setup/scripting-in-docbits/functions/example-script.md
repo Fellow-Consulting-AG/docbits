@@ -1,8 +1,4 @@
-# Example Script
-
-Here are simple examples of how you can use different functions in small scripts.
-
-**Verbose Examples**
+# Example Scripts
 
 #### **set\_field\_value(document\_data, field\_name, value)**
 

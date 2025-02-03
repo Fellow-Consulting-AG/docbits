@@ -25,7 +25,7 @@ This module contains functions for manipulating document data and performing var
      * value: The date value to set in ISO format (e.g., "2020-12-31").
      * add\_days (int): Add additional days to the given date.
      * skip\_weekend (bool): Skips the date if it falls on the weekend
-   *   Example:
+   *   [Example:](example-script.md#set_date_value-document_data-field_name-value-add_days-0-skip_weekend-false)
 
        ```
        set_date_value(document_data, "promised_delivery_date", "2020-12-31", add_days=2, skip_weekend=True)
@@ -36,7 +36,7 @@ This module contains functions for manipulating document data and performing var
      * document\_data (dict): The document data containing field information.
      * field\_name (str): The name of the field to set.
      * value: The value to set for the field.
-   *   Example:
+   *   [Example:](example-script.md#set_amount_value-document_data-field_name-value)
 
        ```
        set_amount_value(document_data, "number", "123456")
@@ -50,7 +50,7 @@ This module contains functions for manipulating document data and performing var
      * is\_clean (optional): Turns the value in uppercase and cleans it from empty spaces
    * Returns:
      * Value of the field
-   *   Example:
+   *   [Example:](example-script.md#get_field_value-document_data-field_name-default_value-none-is_clean-false)
 
        ```
        value = get_field_value(document_data, "name")
@@ -64,7 +64,7 @@ This module contains functions for manipulating document data and performing var
      * value: The initial value for the field (default is an empty string).
    * Returns:
      * Dictionary of the new created field
-   *   Example:
+   *   [Example:](example-script.md#create_new_field-field_name-value)
 
        ```
        dict = create_new_field("address", "")
@@ -76,7 +76,7 @@ This module contains functions for manipulating document data and performing var
      * field\_name (str): The name of the field to set
    * Returns:
      * Document\_data as json and as dict after field got deleted
-   *   Example:
+   *   [Example:](example-script.md#delete_field-document_data-field_name)
 
        ```
        json, dict = (document_data, "name")
@@ -87,7 +87,7 @@ This module contains functions for manipulating document data and performing var
      * document\_data (dict): The document data containing field information.
      * field\_name (str): The name of the field to set.
      * value: The value to set for the field.
-   *   Example:
+   *   [Example:](example-script.md#set_is_required-document_data-field_name-value)
 
        ```
        set_is_required(document_data, "bank_id", True)
@@ -98,7 +98,7 @@ This module contains functions for manipulating document data and performing var
      * document\_data (dict): The document data containing field information.
      * field\_name (str): The name of the field to set.
      * value(bool): The value to set for the field.
-   *   Example:
+   *   [Example:](example-script.md#set_force_validation-document_data-field_name-value)
 
        ```
        set_force_validation(document_data, 'supplier_name', True)
@@ -110,7 +110,7 @@ This module contains functions for manipulating document data and performing var
      * field\_name (str): The name of the field to mark as invalid.
      * message (str): The validation message for the field.
      * code (optional): Error code for the validation (default is None).
-   *   Example:
+   *   [Example:](example-script.md#set_field_as_invalid-document_data-field_name-message-code-none)
 
        ```
        set_field_as_invalid(document_data, "email", "Invalid email format", "EMAIL_FORMAT_INVALID")
@@ -122,7 +122,7 @@ This module contains functions for manipulating document data and performing var
       * field\_name (str): The name of the field to set.
       * attribute\_name (str): The name of the attribute to set.
       * value (bool): The value to set for the attribute.
-    *   Example:
+    *   [Example:](example-script.md#set_field_attribute-document_data-field_name-attribute_name-value)
 
         ```
         set_field_attribute(document_data, "address", "is_verified", True)
@@ -136,7 +136,7 @@ This module contains functions for manipulating document data and performing var
     * Returns:
       * True, if the user is valid
       * False if the user isn’t valid
-    *   Example:
+    *   [Example:](example-script.md#is_supplier_valid-user-userauthentication-filter_data_json-sub_org_id-none)
 
         ```
         bool = is_supplier_valid(user, {"name": "Supplier Inc."})
@@ -147,7 +147,7 @@ This module contains functions for manipulating document data and performing var
       * document\_data (str): The document data containing field information.
     * Returns:
       * Document content of document data.
-    *   Example:
+    *   [Example:](example-script.md#get_document_content-document_data)
 
         ```
         document_content = get_document_content(doc)
@@ -161,7 +161,7 @@ This module contains functions for manipulating document data and performing var
       * status (str): The new status of the document.
       * message: Optional message associated with the status update.
       * doc\_classification\_class: Optional document classification class.
-    *   Example:
+    *   [Example:](example-script.md#update_document_status_with_doc_id-doc_id-user-org_id-status-message-none-doc_classification_class-n)
 
         ```
         update_document_status_with_doc_id("123456", user, "org_id", "approved", "Document approved")
@@ -174,7 +174,7 @@ This module contains functions for manipulating document data and performing var
       * sub\_org\_id (optional): Optional sub-organization ID for filtering.
     * Returns:
       * LOV-Values as a list of objects or as a list.
-    *   Example:
+    *   [Example:](example-script.md#get_lov_values-org_id-key-return_type-list_of_objects-sub_org_id-none)
 
         ```
         supplier_to_check = get_lov_values(org_id, 'BlacklistSupplier', return_type="list_of_values")
@@ -188,7 +188,7 @@ This module contains functions for manipulating document data and performing var
       * min\_decimal\_places (optional): The minimum of decimal places which should be considered.
     * Returns:
       * The formatted value.
-    *   Example:
+    *   [Example:](example-script.md#format_decimal_to_locale-value-to_locale-en_us.utf-8-max_decimal_places-4-min_decimal_places-2)
 
         ```
         formatted_value = format_decimal_to_locale(value, document_json['amount_format_locale'])
@@ -200,7 +200,7 @@ This module contains functions for manipulating document data and performing var
       * value2: The second value to compare.
     * Returns:
       * True if the values are equal and False if they differ
-    *   Example:
+    *   [Example:](example-script.md#compare_values-value1-value2)
 
         ```
         result = compare_values(10, "10")
@@ -219,7 +219,7 @@ This module contains functions for manipulating document data and performing var
       * send\_email (bool): Determine if an email should be send or not.
     * Returns:
       * Dict which is indicating if the process was successful or not
-    *   Example:
+    *   [Example:](example-script.md#create_document_task-user-document_data-title-description-priority-assigned_to_user_id-assigned_to_g)
 
         ```
         dict = create_document_task(user, document_data, "Country of origin outside the EU", "The confirmation comes from a country outside the EU. Please attach the MRN document.", "high", 1007, None, False)
@@ -229,7 +229,7 @@ This module contains functions for manipulating document data and performing var
     * Parameters:
       * document\_data: The document data containing field information.
       * sub\_org\_id (str): Optional sub-organization ID for filtering.
-    *   Example:
+    *   [Example:](example-script.md#set_document_sub_org_id-document_data-sub_org_id)
 
         ```
         set_document_sub_org_id(document_data, sub_org_id)
@@ -240,7 +240,7 @@ This module contains functions for manipulating document data and performing var
       * user\_id (str): The ID of the user.
     * Returns:
       * The user with the corresponding user ID
-    *   Example:
+    *   [Example:](example-script.md#get_user_by_id-user_id)
 
         ```
         user = get_user_by_id("123456")
@@ -251,7 +251,7 @@ This module contains functions for manipulating document data and performing var
       * group\_id (str): The ID of the group.
     * Returns:
       * The group with the corresponding group ID
-    *   Example:
+    *   [Example:](example-script.md#get_group_by_id-group_id)
 
         ```
         group = get_group_by_id("123456")
@@ -262,7 +262,7 @@ This module contains functions for manipulating document data and performing var
       * table: The table where ehr column should be added.
       * col\_name: The name of the column.
       * default\_value (optional): The initial value for the field (default is an empty string).
-    *   Example:
+    *   [Example:](example-script.md#add_table_column-table-col_name-default_value-none)
 
         ```
         add_table_column(table, "UNIT_PRICE_PER")
@@ -274,7 +274,7 @@ This module contains functions for manipulating document data and performing var
       * col\_name: The name of the column.
       * default\_value (optional): Returns default\_value if no field value is found.
       * is\_clean (optional): Turns the value in uppercase and cleans it from empty spaces
-    *   Example:
+    *   [Example:](example-script.md#get_column_value-row-column_name-default_value-none-is_clean-false)
 
         ```
         original_unit_price = get_column_value(row, "ORIGINAL_UNIT_PRICE")
@@ -287,7 +287,7 @@ This module contains functions for manipulating document data and performing var
       * value: The value that will be set at the specified location.
     * Returns:
       * True if the change was successful
-    *   Example:
+    *   [Example:](example-script.md#set_column_value-row-column_name-value)
 
         ```
         success = set_column_value(row,"SUPPLIER_ID", supplier_id)
@@ -300,7 +300,7 @@ This module contains functions for manipulating document data and performing var
       * col\_name: The name of the column.
       * value: The date value to set in ISO format (e.g., "2020-12-31").
       * add\_days (int): Add additional days to the given date.
-    *   Example:
+    *   [Example:](example-script.md#set_column_date_value-document_data-row-column_name-value-add_days-0)
 
         ```
         set_column_date_value(document_data, row, "DELIVERY_DATE", "2020-12-31", add_days=2)
@@ -315,7 +315,7 @@ This module contains functions for manipulating document data and performing var
       * row : Row of the table line.
       * column\_name: Name of the column.
       * value: Value to be set
-    *   Example:
+    *   [Example:](example-script.md#set_column_amount_value-document_data-row-column_name-value)
 
         ```
         set_column_amount_value(document_data, row, "UNIT_PRICE", str(unit_price))
@@ -327,7 +327,7 @@ This module contains functions for manipulating document data and performing var
       * table\_name : The name of the table.
       * count: How many lines should be deleted.
       * start: The starting point.
-    *   Example:
+    *   [Example:](example-script.md#remove_rows_from_table-document_data-table_name-count-start)
 
         ```
         remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)   
@@ -337,7 +337,7 @@ This module contains functions for manipulating document data and performing var
     * Parameters:
       * document\_data (dict): The document data containing field information.
       * line\_number: The number of the line which should not be removed.
-    *   Example:
+    *   [Example:](example-script.md#remove_all_rows_except_one_from_table-document_data-line_number)
 
         ```
         remove_all_rows_except_one_from_table(document_data, line_number) 
