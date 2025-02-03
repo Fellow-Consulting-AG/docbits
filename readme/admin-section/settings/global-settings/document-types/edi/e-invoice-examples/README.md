@@ -96,3 +96,7 @@ How  the file gets exported:
 {% file src="../../../../../../.gitbook/assets/Basic.xml" %}
 
 How  the file gets exported:
+
+{% content-ref url="facturx.md" %}
+[facturx.md](facturx.md)
+{% endcontent-ref %}
