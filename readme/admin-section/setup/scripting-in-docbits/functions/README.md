@@ -12,7 +12,7 @@ This module contains functions for manipulating document data and performing var
      * document\_data (dict): The document data containing field information.
      * field\_name (str): The name of the field to set.
      * value: The value to set for the field.
-   *   [Example:](example-script.md)
+   *   [Example:](example-script.md#set_field_value-document_data-field_name-value)
 
        ```
        set_field_value(document_data, "name", "John Doe")
