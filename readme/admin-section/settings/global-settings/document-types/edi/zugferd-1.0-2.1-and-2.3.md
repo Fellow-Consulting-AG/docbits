@@ -42,7 +42,12 @@ In the transformation settings, you can define the path where specific informati
 1. Create a new draft by clicking the **pencil icon**.
 2. Select the new draft.
 3. Create a new field or edit an existing one.
-4. The left side represents the **DocBits field ID**, which can be found in the system.
+4.  The left side represents the **DocBits field ID**, which can be found in the  **Settings → Global Settings → Document Types → Invoice → Fields**.\
+
+
+    <figure><img src="../../../../../.gitbook/assets/image (379).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../../../../.gitbook/assets/image (378).png" alt=""><figcaption></figcaption></figure>
 5. The right side represents the **path to the field** created in the Transformation.
 6. Click **Save**.
 
