@@ -14,19 +14,76 @@ Check the company ID, and check Entity ID (SF\_MDS\_EntityType) this value shoul
 
 Ensure the IndexFieldFromDocBits=IDMAttributeID (check if DocBits on the left in the field settings matches IDM on the right in Document Type → Attributes).
 
+
+
+### XML and EDI&#x20;
+
+For XML and EDI we need to add specific parts&#x20;
+
+Start by adding the prefix and extension as follows:
+
+<figure><img src="../../../../.gitbook/assets/image (371).png" alt=""><figcaption></figcaption></figure>
+
+```properties
+,EDI_FILE_PREFIX,XML_FILE_PREFIX,PDF_FILE_PREFIX,PDF_FILE_EXTENSION,EDI_FILE_EXTENSION,XML_FILE_EXTENSION
+```
+
+```properties
+SV_EDI_FILE_PREFIX=EDI_810_
+SV_XML_FILE_PREFIX=XML_810_
+SV_PDF_FILE_PREFIX=INV_EDI_
+SV_PDF_FILE_EXTENSION=.pdf
+SV_EDI_FILE_EXTENSION=.xml
+SV_XML_FILE_EXTENSION=.xml
+```
+
+
+
+After that, add the actual mapping, making sure the export document type corresponds to the IDM Supplier type.
+
+For XML :
+
+<figure><img src="../../../../.gitbook/assets/image (373).png" alt=""><figcaption></figcaption></figure>
+
+```properties
+EMBEDDED_FILES_EXPORT = TRANSFORMED, XML
+EFE_TRANSFORMED_SOURCE_NAME = Transformed.xml
+EFE_TRANSFORMED_EXPORT_DOC_TYPE = M3_SupplierInvoice
+EFE_TRANSFORMED_EXPORT_FILENAME = SV_XML_FILE_PREFIX+IF_INVOICE_ID+SV_XML_FILE_EXTENSION
+
+EFE_XML_SOURCE_NAME = XML_DOCUMENT.xml
+EFE_XML_EXPORT_DOC_TYPE = M3_SupplierInvoice
+EFE_XML_EXPORT_FILENAME = SV_XML_FILE_PREFIX+IF_INVOICE_ID+SV_XML_FILE_EXTENSION
+```
+
+For EDI:
+
+<figure><img src="../../../../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure>
+
+```properties
+EMBEDDED_FILES_EXPORT = TRANSFORMED, EDI
+EFE_TRANSFORMED_SOURCE_NAME = Transformed.xml
+EFE_TRANSFORMED_EXPORT_DOC_TYPE = M3_SupplierInvoice
+EFE_TRANSFORMED_EXPORT_FILENAME = SV_XML_FILE_PREFIX+IF_INVOICE_NUMBER+SV_XML_FILE_EXTENSION
+
+EFE_EDI_SOURCE_NAME = EDI.edi
+EFE_EDI_EXPORT_DOC_TYPE = M3_SupplierInvoice
+EFE_EDI_EXPORT_FILENAME = SV_EDI_FILE_PREFIX+IF_INVOICE_NUMBER+SV_EDI_FILE_EXTENSION
+```
+
 ### Document Manager in Infor
 
 Go to Document Manager and select the name of the current document type you are trying to export, for example, Supplier Invoice.
 
-![](https://lh7-us.googleusercontent.com/EV3uw3R1L6\_RRANB7FRLwtUFMbv\_KGtL4x6kAk6lEYhwI90UeG2uWqFD2Azpxv-SRFl9zfvdratOZbXxp2D1-SryLo3Boj2x9Xc4PQXJ6vUhX5c9pvhv4XHuCk-qMK51DZ885vRUJ5dwES7k84uhoyk)
+![](https://lh7-us.googleusercontent.com/EV3uw3R1L6_RRANB7FRLwtUFMbv_KGtL4x6kAk6lEYhwI90UeG2uWqFD2Azpxv-SRFl9zfvdratOZbXxp2D1-SryLo3Boj2x9Xc4PQXJ6vUhX5c9pvhv4XHuCk-qMK51DZ885vRUJ5dwES7k84uhoyk)
 
 Click the above icon and then click Administration → Document Type and then find the document type you need in the list
 
-![](https://lh7-us.googleusercontent.com/ldsuINS9SCUQm3E57s8j\_95gzBGwHQFavcf6d3myg6tuVxRoQHtq8R-6we5OEJ63swDxwPc9w7hbySWqWdfaMsGdQpn99m6EchPY5f5DzXEj-8mjocwPNtdJVNP34CuPvw0JIImDgFX1Q05M8-ogZo8)
+![](https://lh7-us.googleusercontent.com/ldsuINS9SCUQm3E57s8j_95gzBGwHQFavcf6d3myg6tuVxRoQHtq8R-6we5OEJ63swDxwPc9w7hbySWqWdfaMsGdQpn99m6EchPY5f5DzXEj-8mjocwPNtdJVNP34CuPvw0JIImDgFX1Q05M8-ogZo8)
 
 As shown below, you will then see the doc type name as it is in INFOR
 
-![](https://lh7-us.googleusercontent.com/KSreWGS7TqdMP64BqtufM24xk0RDnNDHUZapnPsSuRj\_umPJ3icll89KI2RYpbtet2F6ccL8QfYbl27-2j1nQPwQ0z-Nq873c4Tv72ee9AJhKMxynIUxmJKKsQQCupW\_dpRfw\_5BXm0WvAnw4HOALmw)
+![](https://lh7-us.googleusercontent.com/KSreWGS7TqdMP64BqtufM24xk0RDnNDHUZapnPsSuRj_umPJ3icll89KI2RYpbtet2F6ccL8QfYbl27-2j1nQPwQ0z-Nq873c4Tv72ee9AJhKMxynIUxmJKKsQQCupW_dpRfw_5BXm0WvAnw4HOALmw)
 
 Make sure this is how the name is shown in the IDM Mapping File
 
@@ -34,6 +91,4 @@ Make sure this is how the name is shown in the IDM Mapping File
 
 Once the file is prepared, upload it to your export configuration in DocBits. This is available at Settings → Export.
 
-![](https://lh7-us.googleusercontent.com/rUHhvImiWamK6JxnWSPL4JEioAJq3AmvdsubJDo-DoDV9F\_i5mZ42YDnjqZUYKYSJu1Cetc\_4fLwlvvmoZXYIzmBf3hoyW6RjfP9HQ8FkNDhW1IbLHvNTCHWFRaeCECdZ97u79-Eu37TvzqnqGPEayM)
-
-
+![](https://lh7-us.googleusercontent.com/rUHhvImiWamK6JxnWSPL4JEioAJq3AmvdsubJDo-DoDV9F_i5mZ42YDnjqZUYKYSJu1Cetc_4fLwlvvmoZXYIzmBf3hoyW6RjfP9HQ8FkNDhW1IbLHvNTCHWFRaeCECdZ97u79-Eu37TvzqnqGPEayM)
