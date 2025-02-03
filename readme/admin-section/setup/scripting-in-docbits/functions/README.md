@@ -12,7 +12,7 @@ This module contains functions for manipulating document data and performing var
      * document\_data (dict): The document data containing field information.
      * field\_name (str): The name of the field to set.
      * value: The value to set for the field.
-   *   Example:
+   *   [Example:](example-script.md)
 
        ```
        set_field_value(document_data, "name", "John Doe")
@@ -79,7 +79,7 @@ This module contains functions for manipulating document data and performing var
    *   Example:
 
        ```
-       //json, dict = (document_data, "name")
+       json, dict = (document_data, "name")
        ```
 7. **set\_is\_required(document\_data, field\_name, value)**
    * Description: Sets the 'is\_required' attribute of a field in the document data.
@@ -113,7 +113,7 @@ This module contains functions for manipulating document data and performing var
    *   Example:
 
        ```
-       --set_field_as_invalid(document_data, "email", "Invalid email format", "EMAIL_FORMAT_INVALID")
+       set_field_as_invalid(document_data, "email", "Invalid email format", "EMAIL_FORMAT_INVALID")
        ```
 10. **set\_field\_attribute(document\_data, field\_name, attribute\_name, value)**
     * Description: Sets a custom attribute of a field in the document data.
