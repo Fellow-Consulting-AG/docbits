@@ -1,5 +1,12 @@
 # Release
 
+## Release Hot Fix Winter Frost  3rd February 2025
+
+### **DocBits Enhancements:**
+
+* **Support for ISO-8859-1 for ZUGFeRD:** Improved compatibility for invoices using ISO-8859-1 character encoding.
+* **Optimized Logging System:** Enhanced tracking and diagnostics for quicker issue identification and resolution.
+
 ## Release Winter Frost 22nd January 2025
 
 #### New Features
