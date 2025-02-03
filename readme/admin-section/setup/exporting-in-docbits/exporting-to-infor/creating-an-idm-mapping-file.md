@@ -41,7 +41,7 @@ SV_XML_FILE_EXTENSION=.xml
 
 After that, add the actual mapping, making sure the export document type corresponds to the IDM Supplier type.
 
-For XML :
+#### For XML :
 
 <figure><img src="../../../../.gitbook/assets/image (373).png" alt=""><figcaption></figcaption></figure>
 
@@ -56,7 +56,7 @@ EFE_XML_EXPORT_DOC_TYPE = M3_SupplierInvoice
 EFE_XML_EXPORT_FILENAME = SV_XML_FILE_PREFIX+IF_INVOICE_ID+SV_XML_FILE_EXTENSION
 ```
 
-For EDI:
+#### For EDI:
 
 <figure><img src="../../../../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure>
 
