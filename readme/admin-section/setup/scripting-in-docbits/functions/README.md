@@ -4,7 +4,7 @@
 
 Questo modulo contiene funzioni per manipolare i dati dei documenti e per eseguire varie operazioni relative ai campi del documento.
 
-**Funzioni**
+#### **Funzioni**
 
 1. **set\_field\_value(document\_data, field\_name, value)**
    * Descrizione: Imposta il valore di un campo nei dati del documento.
@@ -12,7 +12,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
      * document\_data (dict): I dati del documento contenenti informazioni sui campi.
      * field\_name (str): Il nome del campo da impostare.
      * value: Il valore da impostare per il campo.
-   *   Esempio:
+   *   [Esempio:](example-scripts.md#set_field_value-document_data-field_name-value)
 
        ```
        set_field_value(document_data, "name", "John Doe")
@@ -22,10 +22,10 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
    * Parametri:
      * document\_data (dict): I dati del documento contenenti informazioni sui campi.
      * field\_name (str): Il nome del campo data da impostare.
-     * value: Il valore della data da impostare in formato ISO (es. "2020-12-31").
-     * add\_days (int): Aggiunge giorni aggiuntivi alla data fornita.
+     * value: Il valore della data da impostare in formato ISO (ad es., "2020-12-31").
+     * add\_days (int): Aggiungi giorni aggiuntivi alla data fornita.
      * skip\_weekend (bool): Salta la data se cade nel fine settimana.
-   *   Esempio:
+   *   [Esempio:](example-scripts.md#set_date_value-document_data-field_name-value-add_days-0-skip_weekend-false)
 
        ```
        set_date_value(document_data, "promised_delivery_date", "2020-12-31", add_days=2, skip_weekend=True)
@@ -36,7 +36,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
      * document\_data (dict): I dati del documento contenenti informazioni sui campi.
      * field\_name (str): Il nome del campo da impostare.
      * value: Il valore da impostare per il campo.
-   *   Esempio:
+   *   [Esempio:](example-scripts.md#set_amount_value-document_data-field_name-value)
 
        ```
        set_amount_value(document_data, "number", "123456")
@@ -50,7 +50,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
      * is\_clean (opzionale): Trasforma il valore in maiuscolo e lo pulisce dagli spazi vuoti.
    * Restituisce:
      * Valore del campo.
-   *   Esempio:
+   *   [Esempio:](example-scripts.md#get_field_value-document_data-field_name-default_value-none-is_clean-false)
 
        ```
        value = get_field_value(document_data, "name")
@@ -62,7 +62,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
      * value: Il valore iniziale per il campo (il valore predefinito è una stringa vuota).
    * Restituisce:
      * Dizionario del nuovo campo creato.
-   *   Esempio:
+   *   [Esempio:](example-scripts.md#create_new_field-field_name-value)
 
        ```
        dict = create_new_field("address", "")
@@ -74,10 +74,10 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
      * field\_name (str): Il nome del campo da impostare.
    * Restituisce:
      * Document\_data come json e come dict dopo che il campo è stato eliminato.
-   *   Esempio:
+   *   [Esempio:](example-scripts.md#delete_field-document_data-field_name)
 
        ```
-       //json, dict = (document_data, "name")
+       json, dict = (document_data, "name")
        ```
 7. **set\_is\_required(document\_data, field\_name, value)**
    * Descrizione: Imposta l'attributo 'is\_required' di un campo nei dati del documento.
@@ -85,7 +85,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
      * document\_data (dict): I dati del documento contenenti informazioni sui campi.
      * field\_name (str): Il nome del campo da impostare.
      * value: Il valore da impostare per il campo.
-   *   Esempio:
+   *   [Esempio:](example-scripts.md#set_is_required-document_data-field_name-value)
 
        ```
        set_is_required(document_data, "bank_id", True)
@@ -96,7 +96,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
      * document\_data (dict): I dati del documento contenenti informazioni sui campi.
      * field\_name (str): Il nome del campo da impostare.
      * value (bool): Il valore da impostare per il campo.
-   *   Esempio:
+   *   [Esempio:](example-scripts.md#set_force_validation-document_data-field_name-value)
 
        ```
        set_force_validation(document_data, 'supplier_name', True)
@@ -108,10 +108,10 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
      * field\_name (str): Il nome del campo da contrassegnare come non valido.
      * message (str): Il messaggio di validazione per il campo.
      * code (opzionale): Codice di errore per la validazione (il valore predefinito è None).
-   *   Esempio:
+   *   [Esempio:](example-scripts.md#set_field_as_invalid-document_data-field_name-message-code-none)
 
        ```
-       --set_field_as_invalid(document_data, "email", "Formato email non valido", "EMAIL_FORMAT_INVALID")
+       set_field_as_invalid(document_data, "email", "Formato email non valido", "EMAIL_FORMAT_INVALID")
        ```
 10. **set\_field\_attribute(document\_data, field\_name, attribute\_name, value)**
     * Descrizione: Imposta un attributo personalizzato di un campo nei dati del documento.
@@ -120,7 +120,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * field\_name (str): Il nome del campo da impostare.
       * attribute\_name (str): Il nome dell'attributo da impostare.
       * value (bool): Il valore da impostare per l'attributo.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#set_field_attribute-document_data-field_name-attribute_name-value)
 
         ```
         set_field_attribute(document_data, "address", "is_verified", True)
@@ -130,11 +130,11 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
     * Parametri:
       * user (UserAuthentication): L'utente autenticato.
       * filter\_data\_json: Criteri di filtro per la validazione del fornitore.
-      * sub\_org\_id (opzionale): ID della sotto-organizzazione per il filtro.
+      * sub\_org\_id (opzionale): ID della sotto-organizzazione opzionale per il filtraggio.
     * Restituisce:
       * True, se l'utente è valido.
       * False se l'utente non è valido.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#is_supplier_valid-user-userauthentication-filter_data_json-sub_org_id-none)
 
         ```
         bool = is_supplier_valid(user, {"name": "Supplier Inc."})
@@ -145,7 +145,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * document\_data (str): I dati del documento contenenti informazioni sui campi.
     * Restituisce:
       * Contenuto del documento dei dati del documento.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#get_document_content-document_data)
 
         ```
         document_content = get_document_content(doc)
@@ -159,34 +159,34 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * status (str): Il nuovo stato del documento.
       * message: Messaggio opzionale associato all'aggiornamento dello stato.
       * doc\_classification\_class: Classe di classificazione del documento opzionale.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#update_document_status_with_doc_id-doc_id-user-org_id-status-message-none-doc_classification_class-n)
 
         ```
         update_document_status_with_doc_id("123456", user, "org_id", "approved", "Documento approvato")
         ```
 14. **get\_lov\_values(org\_id, key, return\_type="list\_of\_objects", sub\_org\_id=None)**
-    * Descrizione: Ottiene i valori LOV da un specifico org\_id.
+    * Descrizione: Ottiene i valori LOV da un org\_id specifico.
     * Parametri:
       * org\_id: L'ID dell'organizzazione a cui appartiene il documento.
       * return\_type (opzionale): Il tipo in cui i dati devono essere restituiti.
-      * sub\_org\_id (opzionale): ID della sotto-organizzazione opzionale per il filtro.
+      * sub\_org\_id (opzionale): ID della sotto-organizzazione opzionale per il filtraggio.
     * Restituisce:
       * Valori LOV come lista di oggetti o come lista.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#get_lov_values-org_id-key-return_type-list_of_objects-sub_org_id-none)
 
         ```
         supplier_to_check = get_lov_values(org_id, 'BlacklistSupplier', return_type="list_of_values")
         ```
 15. **format\_decimal\_to\_locale(value, to\_locale="en\_US.UTF-8", max\_decimal\_places=4, min\_decimal\_places=2)**
-    * Descrizione: Formatizza un valore decimale nel formato en\_US.UTF-8.
+    * Descrizione: Formatta un valore decimale nel formato en\_US.UTF-8.
     * Parametri:
       * value: Il valore che deve essere formattato.
       * to\_locale (opzionale): Il formato in cui il valore viene trasformato.
-      * max\_decimal\_places (opzionale): Il massimo numero di decimali da considerare.
-      * min\_decimal\_places (opzionale): Il minimo numero di decimali da considerare.
+      * max\_decimal\_places (opzionale): Il numero massimo di decimali da considerare.
+      * min\_decimal\_places (opzionale): Il numero minimo di decimali da considerare.
     * Restituisce:
       * Il valore formattato.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#format_decimal_to_locale-value-to_locale-en_us.utf-8-max_decimal_places-4-min_decimal_places-2)
 
         ```
         formatted_value = format_decimal_to_locale(value, document_json['amount_format_locale'])
@@ -198,7 +198,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * value2: Il secondo valore da confrontare.
     * Restituisce:
       * True se i valori sono uguali e False se differiscono.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#compare_values-value1-value2)
 
         ```
         result = compare_values(10, "10")
@@ -214,20 +214,20 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * priority: La priorità dell'attività.
       * assigned\_to\_user\_id: L'ID dell'utente a cui l'attività deve essere assegnata.
       * assigned\_to\_group\_id: L'ID del gruppo a cui l'attività deve essere assegnata.
-      * send\_email (bool): Determina se un'email deve essere inviata o meno.
+      * send\_email (bool): Determina se deve essere inviato un'email o meno.
     * Restituisce:
       * Dict che indica se il processo è stato completato con successo o meno.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#create_document_task-user-document_data-title-description-priority-assigned_to_user_id-assigned_to_g)
 
         ```
-        dict = create_document_task(user, document_data, "Paese di origine al di fuori dell'UE", "La conferma proviene da un paese al di fuori dell'UE. Si prega di allegare il documento MRN.", "alta", 1007, None, False)
+        dict = create_document_task(user, document_data, "Paese di origine al di fuori dell'UE", "La conferma proviene da un paese al di fuori dell'UE. Si prega di allegare il documento MRN.", "high", 1007, None, False)
         ```
 18. **set\_document\_sub\_org\_id(document\_data, sub\_org\_id)**
     * Descrizione: Imposta il sub\_org\_id dei dati del documento specificato.
     * Parametri:
       * document\_data: I dati del documento contenenti informazioni sui campi.
-      * sub\_org\_id (str): ID della sotto-organizzazione opzionale per il filtro.
-    *   Esempio:
+      * sub\_org\_id (str): ID della sotto-organizzazione opzionale per il filtraggio.
+    *   [Esempio:](example-scripts.md#set_document_sub_org_id-document_data-sub_org_id)
 
         ```
         set_document_sub_org_id(document_data, sub_org_id)
@@ -238,7 +238,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * user\_id (str): L'ID dell'utente.
     * Restituisce:
       * L'utente con l'ID utente corrispondente.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#get_user_by_id-user_id)
 
         ```
         user = get_user_by_id("123456")
@@ -249,7 +249,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * group\_id (str): L'ID del gruppo.
     * Restituisce:
       * Il gruppo con l'ID gruppo corrispondente.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#get_group_by_id-group_id)
 
         ```
         group = get_group_by_id("123456")
@@ -260,7 +260,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * table: La tabella a cui deve essere aggiunta la colonna.
       * col\_name: Il nome della colonna.
       * default\_value (opzionale): Il valore iniziale per il campo (il valore predefinito è una stringa vuota).
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#add_table_column-table-col_name-default_value-none)
 
         ```
         add_table_column(table, "UNIT_PRICE_PER")
@@ -272,7 +272,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * col\_name: Il nome della colonna.
       * default\_value (opzionale): Restituisce default\_value se non viene trovato alcun valore del campo.
       * is\_clean (opzionale): Trasforma il valore in maiuscolo e lo pulisce dagli spazi vuoti.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#get_column_value-row-column_name-default_value-none-is_clean-false)
 
         ```
         original_unit_price = get_column_value(row, "ORIGINAL_UNIT_PRICE")
@@ -285,7 +285,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * value: Il valore che sarà impostato nella posizione specificata.
     * Restituisce:
       * True se la modifica è stata effettuata con successo.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#set_column_value-row-column_name-value)
 
         ```
         success = set_column_value(row,"SUPPLIER_ID", supplier_id)
@@ -296,9 +296,9 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * document\_data: I dati del documento contenenti informazioni sui campi.
       * row: La riga in cui si trova il valore.
       * col\_name: Il nome della colonna.
-      * value: Il valore della data da impostare in formato ISO (es. "2020-12-31").
-      * add\_days (int): Aggiunge giorni aggiuntivi alla data fornita.
-    *   Esempio:
+      * value: Il valore della data da impostare in formato ISO (ad es., "2020-12-31").
+      * add\_days (int): Aggiungi giorni aggiuntivi alla data fornita.
+    *   [Esempio:](example-scripts.md#set_column_date_value-document_data-row-column_name-value-add_days-0)
 
         ```
         set_column_date_value(document_data, row, "DELIVERY_DATE", "2020-12-31", add_days=2)
@@ -306,14 +306,14 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
 25. **set\_column\_amount\_value(document\_data, row, column\_name, value)**
     * Descrizione: Esegue le seguenti azioni:
       * Converte il valore in stringa e imposta il valore per la colonna.
-      * Imposta il contenuto della colonna al valore.
-      * Formatizza il valore secondo la locale.
+      * Imposta il contenuto della colonna sul valore.
+      * Formattta il valore secondo la locale.
     * Parametri:
       * document\_data (dict): I dati del documento contenenti informazioni sui campi.
       * row: Riga della linea della tabella.
       * column\_name: Nome della colonna.
       * value: Valore da impostare.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#set_column_amount_value-document_data-row-column_name-value)
 
         ```
         set_column_amount_value(document_data, row, "UNIT_PRICE", str(unit_price))
@@ -325,7 +325,7 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
       * table\_name: Il nome della tabella.
       * count: Quante righe devono essere eliminate.
       * start: Il punto di partenza.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#remove_rows_from_table-document_data-table_name-count-start)
 
         ```
         remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)   
@@ -335,13 +335,15 @@ Questo modulo contiene funzioni per manipolare i dati dei documenti e per esegui
     * Parametri:
       * document\_data (dict): I dati del documento contenenti informazioni sui campi.
       * line\_number: Il numero della riga che non deve essere rimossa.
-    *   Esempio:
+    *   [Esempio:](example-scripts.md#remove_all_rows_except_one_from_table-document_data-line_number)
 
         ```
         remove_all_rows_except_one_from_table(document_data, line_number) 
         ```
 
-Puoi anche utilizzare alcune delle funzioni integrate di Python:
+#### Funzioni Incorporate di Python
+
+Puoi anche utilizzare alcune delle funzioni incorporate di Python:
 
 * abs(): Restituisce il valore assoluto di un numero.
 * len(): Restituisce la lunghezza (numero di elementi) di un oggetto, come una lista o una stringa.
@@ -356,7 +358,7 @@ Puoi anche utilizzare alcune delle funzioni integrate di Python:
 * float(): Converte un valore in un numero in virgola mobile.
 * int(): Converte un valore in un intero.
 
-Per ulteriori dettagli, visita la documentazione ufficiale di Python: [Funzioni integrate](https://docs.python.org/3.12/library/functions.html).
+Per ulteriori dettagli, visita la documentazione ufficiale di Python: [Funzioni Incorporate](https://docs.python.org/3.12/library/functions.html).
 
 #### Funzioni della Classe String
 
@@ -364,7 +366,7 @@ Puoi anche utilizzare queste funzioni specificamente per lavorare con le stringh
 
 * lower(): Converte tutti i caratteri in una stringa in minuscolo.
 * upper(): Converte tutti i caratteri in una stringa in maiuscolo.
-* split(): Divide una stringa in una lista in base a un delimitatore (es. spazio o virgola).
+* split(): Divide una stringa in una lista in base a un delimitatore (ad es., spazio o virgola).
 * startswith(): Controlla se una stringa inizia con un prefisso specificato.
 * endswith(): Controlla se una stringa termina con un suffisso specificato.
 * strip(): Rimuove eventuali spazi bianchi iniziali o finali da una stringa.
@@ -373,8 +375,8 @@ Puoi anche utilizzare queste funzioni specificamente per lavorare con le stringh
 
 Queste funzioni fanno parte del modulo math e sono utili per operazioni matematiche:
 
-* floor(): Restituisce l'intero più grande minore o uguale a un numero dato.
-* ceil(): Restituisce l'intero più piccolo maggiore o uguale a un numero dato.
+* floor(): Restituisce il più grande intero minore o uguale a un dato numero.
+* ceil(): Restituisce il più piccolo intero maggiore o uguale a un dato numero.
 
 Per ulteriori informazioni, consulta la documentazione ufficiale di Python: [Funzioni del Modulo Math](https://docs.python.org/3/library/math.html).
 
@@ -397,7 +399,7 @@ Ecco alcune funzioni utili da librerie esterne:
 Puoi utilizzare le seguenti funzioni per lavorare con date e ore:
 
 * strptime(): Converte una stringa in un oggetto datetime in base a un formato specificato.
-* strftime(): Formatizza un oggetto datetime in una stringa in base a un formato specificato.
+* strftime(): Formattta un oggetto datetime in una stringa in base a un formato specificato.
 
-Per ulteriori informazioni, controlla la documentazione ufficiale:\
+Per ulteriori informazioni, consulta la documentazione ufficiale:\
 [Funzioni di Data e Ora](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior).
