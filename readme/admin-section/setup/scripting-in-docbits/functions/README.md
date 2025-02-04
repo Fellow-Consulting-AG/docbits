@@ -2,9 +2,9 @@
 
 **Dokumentacja funkcjonalna**
 
-Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania różnych operacji związanych z polami dokumentów.
+Moduł ten zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania różnych operacji związanych z polami dokumentów.
 
-**Funkcje**
+#### **Funkcje**
 
 1. **set\_field\_value(document\_data, field\_name, value)**
    * Opis: Ustawia wartość pola w danych dokumentu.
@@ -12,7 +12,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
      * document\_data (dict): Dane dokumentu zawierające informacje o polach.
      * field\_name (str): Nazwa pola do ustawienia.
      * value: Wartość do ustawienia dla pola.
-   *   Przykład:
+   *   [Przykład:](example-scripts.md#set_field_value-document_data-field_name-value)
 
        ```
        set_field_value(document_data, "name", "John Doe")
@@ -25,7 +25,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
      * value: Wartość daty do ustawienia w formacie ISO (np. "2020-12-31").
      * add\_days (int): Dodaje dodatkowe dni do podanej daty.
      * skip\_weekend (bool): Pomija datę, jeśli przypada na weekend.
-   *   Przykład:
+   *   [Przykład:](example-scripts.md#set_date_value-document_data-field_name-value-add_days-0-skip_weekend-false)
 
        ```
        set_date_value(document_data, "promised_delivery_date", "2020-12-31", add_days=2, skip_weekend=True)
@@ -36,7 +36,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
      * document\_data (dict): Dane dokumentu zawierające informacje o polach.
      * field\_name (str): Nazwa pola do ustawienia.
      * value: Wartość do ustawienia dla pola.
-   *   Przykład:
+   *   [Przykład:](example-scripts.md#set_amount_value-document_data-field_name-value)
 
        ```
        set_amount_value(document_data, "number", "123456")
@@ -47,22 +47,22 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
      * document\_data (dict): Dane dokumentu zawierające informacje o polach.
      * field\_name (str): Nazwa pola do ustawienia.
      * default\_value (opcjonalnie): Zwraca default\_value, jeśli nie znaleziono wartości pola.
-     * is\_clean (opcjonalnie): Zmienia wartość na wielkie litery i czyści ją z pustych miejsc.
+     * is\_clean (opcjonalnie): Zmienia wartość na wielkie litery i czyści ją z pustych spacji.
    * Zwraca:
      * Wartość pola.
-   *   Przykład:
+   *   [Przykład:](example-scripts.md#get_field_value-document_data-field_name-default_value-none-is_clean-false)
 
        ```
        value = get_field_value(document_data, "name")
        ```
 5. **create\_new\_field(field\_name, value="")**
-   * Opis: Tworzy nowe pole o określonej nazwie i wartości.
+   * Opis: Tworzy nowe pole z określoną nazwą i wartością.
    * Parametry:
      * field\_name (str): Nazwa pola do utworzenia.
      * value: Wartość początkowa dla pola (domyślnie jest to pusty ciąg).
    * Zwraca:
      * Słownik nowo utworzonego pola.
-   *   Przykład:
+   *   [Przykład:](example-scripts.md#create_new_field-field_name-value)
 
        ```
        dict = create_new_field("address", "")
@@ -71,13 +71,13 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
    * Opis: Usuwa pole z danych dokumentu.
    * Parametry:
      * document\_data (dict): Dane dokumentu zawierające informacje o polach.
-     * field\_name (str): Nazwa pola do ustawienia.
+     * field\_name (str): Nazwa pola do usunięcia.
    * Zwraca:
      * Document\_data jako json i jako dict po usunięciu pola.
-   *   Przykład:
+   *   [Przykład:](example-scripts.md#delete_field-document_data-field_name)
 
        ```
-       //json, dict = (document_data, "name")
+       json, dict = (document_data, "name")
        ```
 7. **set\_is\_required(document\_data, field\_name, value)**
    * Opis: Ustawia atrybut 'is\_required' pola w danych dokumentu.
@@ -85,7 +85,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
      * document\_data (dict): Dane dokumentu zawierające informacje o polach.
      * field\_name (str): Nazwa pola do ustawienia.
      * value: Wartość do ustawienia dla pola.
-   *   Przykład:
+   *   [Przykład:](example-scripts.md#set_is_required-document_data-field_name-value)
 
        ```
        set_is_required(document_data, "bank_id", True)
@@ -96,7 +96,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
      * document\_data (dict): Dane dokumentu zawierające informacje o polach.
      * field\_name (str): Nazwa pola do ustawienia.
      * value (bool): Wartość do ustawienia dla pola.
-   *   Przykład:
+   *   [Przykład:](example-scripts.md#set_force_validation-document_data-field_name-value)
 
        ```
        set_force_validation(document_data, 'supplier_name', True)
@@ -106,12 +106,12 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
    * Parametry:
      * document\_data (dict): Dane dokumentu zawierające informacje o polach.
      * field\_name (str): Nazwa pola do oznaczenia jako nieważne.
-     * message (str): Komunikat walidacji dla pola.
+     * message (str): Komunikat walidacyjny dla pola.
      * code (opcjonalnie): Kod błędu dla walidacji (domyślnie None).
-   *   Przykład:
+   *   [Przykład:](example-scripts.md#set_field_as_invalid-document_data-field_name-message-code-none)
 
        ```
-       --set_field_as_invalid(document_data, "email", "Invalid email format", "EMAIL_FORMAT_INVALID")
+       set_field_as_invalid(document_data, "email", "Invalid email format", "EMAIL_FORMAT_INVALID")
        ```
 10. **set\_field\_attribute(document\_data, field\_name, attribute\_name, value)**
     * Opis: Ustawia niestandardowy atrybut pola w danych dokumentu.
@@ -120,7 +120,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * field\_name (str): Nazwa pola do ustawienia.
       * attribute\_name (str): Nazwa atrybutu do ustawienia.
       * value (bool): Wartość do ustawienia dla atrybutu.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#set_field_attribute-document_data-field_name-attribute_name-value)
 
         ```
         set_field_attribute(document_data, "address", "is_verified", True)
@@ -134,7 +134,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
     * Zwraca:
       * True, jeśli użytkownik jest ważny.
       * False, jeśli użytkownik nie jest ważny.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#is_supplier_valid-user-userauthentication-filter_data_json-sub_org_id-none)
 
         ```
         bool = is_supplier_valid(user, {"name": "Supplier Inc."})
@@ -145,13 +145,13 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * document\_data (str): Dane dokumentu zawierające informacje o polach.
     * Zwraca:
       * Zawartość dokumentu danych dokumentu.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#get_document_content-document_data)
 
         ```
         document_content = get_document_content(doc)
         ```
 13. **update\_document\_status\_with\_doc\_id(doc\_id, user, org\_id, status, message=None, doc\_classification\_class=None)**
-    * Opis: Aktualizuje status dokumentu o podanym identyfikatorze.
+    * Opis: Aktualizuje status dokumentu o określonym identyfikatorze.
     * Parametry:
       * doc\_id (str): Identyfikator dokumentu do aktualizacji.
       * user: Użytkownik wykonujący aktualizację (identyfikator użytkownika lub obiekt UserAuthentication).
@@ -159,7 +159,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * status (str): Nowy status dokumentu.
       * message: Opcjonalna wiadomość związana z aktualizacją statusu.
       * doc\_classification\_class: Opcjonalna klasa klasyfikacji dokumentu.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#update_document_status_with_doc_id-doc_id-user-org_id-status-message-none-doc_classification_class-n)
 
         ```
         update_document_status_with_doc_id("123456", user, "org_id", "approved", "Document approved")
@@ -172,7 +172,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * sub\_org\_id (opcjonalnie): Opcjonalny identyfikator podorganizacji do filtrowania.
     * Zwraca:
       * Wartości LOV jako lista obiektów lub jako lista.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#get_lov_values-org_id-key-return_type-list_of_objects-sub_org_id-none)
 
         ```
         supplier_to_check = get_lov_values(org_id, 'BlacklistSupplier', return_type="list_of_values")
@@ -181,12 +181,12 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
     * Opis: Formatuje wartość dziesiętną do formatu en\_US.UTF-8.
     * Parametry:
       * value: Wartość, która powinna być sformatowana.
-      * to\_locale (opcjonalnie): Format, w jakim wartość ma być przekształcona.
+      * to\_locale (opcjonalnie): Format, w którym wartość zostanie przekształcona.
       * max\_decimal\_places (opcjonalnie): Maksymalna liczba miejsc dziesiętnych, które powinny być brane pod uwagę.
       * min\_decimal\_places (opcjonalnie): Minimalna liczba miejsc dziesiętnych, które powinny być brane pod uwagę.
     * Zwraca:
       * Sformatowana wartość.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#format_decimal_to_locale-value-to_locale-en_us.utf-8-max_decimal_places-4-min_decimal_places-2)
 
         ```
         formatted_value = format_decimal_to_locale(value, document_json['amount_format_locale'])
@@ -198,7 +198,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * value2: Druga wartość do porównania.
     * Zwraca:
       * True, jeśli wartości są równe, i False, jeśli się różnią.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#compare_values-value1-value2)
 
         ```
         result = compare_values(10, "10")
@@ -217,7 +217,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * send\_email (bool): Określa, czy e-mail powinien być wysłany, czy nie.
     * Zwraca:
       * Dict, który wskazuje, czy proces był udany, czy nie.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#create_document_task-user-document_data-title-description-priority-assigned_to_user_id-assigned_to_g)
 
         ```
         dict = create_document_task(user, document_data, "Country of origin outside the EU", "The confirmation comes from a country outside the EU. Please attach the MRN document.", "high", 1007, None, False)
@@ -227,7 +227,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
     * Parametry:
       * document\_data: Dane dokumentu zawierające informacje o polach.
       * sub\_org\_id (str): Opcjonalny identyfikator podorganizacji do filtrowania.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#set_document_sub_org_id-document_data-sub_org_id)
 
         ```
         set_document_sub_org_id(document_data, sub_org_id)
@@ -238,7 +238,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * user\_id (str): Identyfikator użytkownika.
     * Zwraca:
       * Użytkownika o odpowiadającym identyfikatorze użytkownika.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#get_user_by_id-user_id)
 
         ```
         user = get_user_by_id("123456")
@@ -249,7 +249,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * group\_id (str): Identyfikator grupy.
     * Zwraca:
       * Grupę o odpowiadającym identyfikatorze grupy.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#get_group_by_id-group_id)
 
         ```
         group = get_group_by_id("123456")
@@ -257,10 +257,10 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
 21. **add\_table\_column(table, col\_name, default\_value=None)**
     * Opis: Dodaje kolumnę do odpowiedniej tabeli.
     * Parametry:
-      * table: Tabela, do której kolumna powinna być dodana.
+      * table: Tabela, do której powinna być dodana kolumna.
       * col\_name: Nazwa kolumny.
       * default\_value (opcjonalnie): Wartość początkowa dla pola (domyślnie jest to pusty ciąg).
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#add_table_column-table-col_name-default_value-none)
 
         ```
         add_table_column(table, "UNIT_PRICE_PER")
@@ -271,8 +271,8 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * row: Wiersz, w którym znajduje się wartość.
       * col\_name: Nazwa kolumny.
       * default\_value (opcjonalnie): Zwraca default\_value, jeśli nie znaleziono wartości pola.
-      * is\_clean (opcjonalnie): Zmienia wartość na wielkie litery i czyści ją z pustych miejsc.
-    *   Przykład:
+      * is\_clean (opcjonalnie): Zmienia wartość na wielkie litery i czyści ją z pustych spacji.
+    *   [Przykład:](example-scripts.md#get_column_value-row-column_name-default_value-none-is_clean-false)
 
         ```
         original_unit_price = get_column_value(row, "ORIGINAL_UNIT_PRICE")
@@ -285,26 +285,26 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * value: Wartość, która zostanie ustawiona w określonym miejscu.
     * Zwraca:
       * True, jeśli zmiana była udana.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#set_column_value-row-column_name-value)
 
         ```
         success = set_column_value(row,"SUPPLIER_ID", supplier_id)
         ```
 24. **set\_column\_date\_value(document\_data, row, column\_name, value, add\_days=0)**
-    * Opis: Ustawia wartość w określonej kolumnie.
+    * Opis: Ustawia wartość daty w określonej kolumnie.
     * Parametry:
       * document\_data: Dane dokumentu zawierające informacje o polach.
       * row: Wiersz, w którym znajduje się wartość.
       * col\_name: Nazwa kolumny.
       * value: Wartość daty do ustawienia w formacie ISO (np. "2020-12-31").
       * add\_days (int): Dodaje dodatkowe dni do podanej daty.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#set_column_date_value-document_data-row-column_name-value-add_days-0)
 
         ```
         set_column_date_value(document_data, row, "DELIVERY_DATE", "2020-12-31", add_days=2)
         ```
 25. **set\_column\_amount\_value(document\_data, row, column\_name, value)**
-    * Opis: Wykonuje następujące działania:
+    * Opis: Wykonuje następujące akcje:
       * Konwertuje wartość na ciąg i ustawia wartość dla kolumny.
       * Ustawia zawartość kolumny na wartość.
       * Formatuje wartość zgodnie z lokalizacją.
@@ -313,7 +313,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * row: Wiersz linii tabeli.
       * column\_name: Nazwa kolumny.
       * value: Wartość do ustawienia.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#set_column_amount_value-document_data-row-column_name-value)
 
         ```
         set_column_amount_value(document_data, row, "UNIT_PRICE", str(unit_price))
@@ -325,7 +325,7 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
       * table\_name: Nazwa tabeli.
       * count: Ile linii powinno zostać usuniętych.
       * start: Punkt początkowy.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#remove_rows_from_table-document_data-table_name-count-start)
 
         ```
         remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)   
@@ -335,18 +335,20 @@ Ten moduł zawiera funkcje do manipulacji danymi dokumentów oraz wykonywania r�
     * Parametry:
       * document\_data (dict): Dane dokumentu zawierające informacje o polach.
       * line\_number: Numer linii, która nie powinna zostać usunięta.
-    *   Przykład:
+    *   [Przykład:](example-scripts.md#remove_all_rows_except_one_from_table-document_data-line_number)
 
         ```
         remove_all_rows_except_one_from_table(document_data, line_number) 
         ```
+
+#### Wbudowane funkcje Pythona
 
 Możesz również wykorzystać niektóre z wbudowanych funkcji Pythona:
 
 * abs(): Zwraca wartość bezwzględną liczby.
 * len(): Zwraca długość (liczbę elementów) obiektu, takiego jak lista lub ciąg.
 * isinstance(): Sprawdza, czy obiekt jest instancją określonej klasy lub typu.
-* print(): Wyświetla wynik w konsoli.
+* print(): Wyświetla dane wyjściowe na konsoli.
 * round(): Zaokrągla liczbę zmiennoprzecinkową do określonej liczby miejsc dziesiętnych.
 * str\_to\_bool(): Konwertuje ciąg na wartość logiczną (True lub False).
 * type(): Zwraca typ obiektu.
@@ -356,11 +358,11 @@ Możesz również wykorzystać niektóre z wbudowanych funkcji Pythona:
 * float(): Konwertuje wartość na liczbę zmiennoprzecinkową.
 * int(): Konwertuje wartość na liczbę całkowitą.
 
-Aby uzyskać więcej informacji, odwiedź oficjalną dokumentację Pythona: [Funkcje wbudowane](https://docs.python.org/3.12/library/functions.html).
+Aby uzyskać więcej informacji, odwiedź oficjalną dokumentację Pythona: [Wbudowane funkcje](https://docs.python.org/3.12/library/functions.html).
 
 #### Funkcje klasy String
 
-Możesz również używać tych funkcji specjalnie do pracy z ciągami:
+Możesz również użyć tych funkcji specjalnie do pracy z ciągami:
 
 * lower(): Konwertuje wszystkie znaki w ciągu na małe litery.
 * upper(): Konwertuje wszystkie znaki w ciągu na wielkie litery.
@@ -376,7 +378,7 @@ Te funkcje są częścią modułu matematycznego i są przydatne do operacji mat
 * floor(): Zwraca największą liczbę całkowitą mniejszą lub równą danej liczbie.
 * ceil(): Zwraca najmniejszą liczbę całkowitą większą lub równą danej liczbie.
 
-Aby uzyskać więcej informacji, zapoznaj się z oficjalną dokumentacją Pythona: [Funkcje modułu matematycznego](https://docs.python.org/3/library/math.html).
+Aby uzyskać więcej informacji, sprawdź oficjalną dokumentację Pythona: [Funkcje modułu matematycznego](https://docs.python.org/3/library/math.html).
 
 #### Funkcja wyrażeń regularnych
 
@@ -390,11 +392,11 @@ Oto kilka przydatnych funkcji z zewnętrznych bibliotek:
 
 * deepcopy(): Tworzy kopię obiektu, w tym zagnieżdżonych obiektów (z modułu copy).\
   [Dokumentacja deepcopy](https://docs.python.org/3/library/copy.html#copy.deepcopy).
-* levenshtein\_distance(): Oblicza liczbę edycji (wstawień, usunięć, zamian) wymaganych do przekształcenia jednego ciągu w inny. Ta funkcja jest dostępna w [bibliotece Jellyfish](https://jamesturk.github.io/jellyfish/functions/).
+* levenshtein\_distance(): Oblicza liczbę edycji (wstawień, usunięć, zamian) wymaganych do zmiany jednego ciągu w inny. Ta funkcja jest dostępna w [bibliotece Jellyfish](https://jamesturk.github.io/jellyfish/functions/).
 
 #### Funkcje daty i czasu
 
-Możesz używać następujących funkcji do pracy z datami i czasem:
+Możesz użyć następujących funkcji do pracy z datami i czasami:
 
 * strptime(): Konwertuje ciąg na obiekt datetime na podstawie określonego formatu.
 * strftime(): Formatuje obiekt datetime na ciąg na podstawie określonego formatu.
