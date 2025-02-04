@@ -4,7 +4,7 @@
 
 Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durchführung verschiedener Operationen im Zusammenhang mit Dokumentfeldern.
 
-**Funktionen**
+#### **Funktionen**
 
 1. **set\_field\_value(document\_data, field\_name, value)**
    * Beschreibung: Setzt den Wert eines Feldes in den Dokumentdaten.
@@ -340,6 +340,8 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
         ```
         remove_all_rows_except_one_from_table(document_data, line_number) 
         ```
+
+#### Python Eingebaute Funktionen
 
 Sie können auch einige der integrierten Python-Funktionen nutzen:
 
