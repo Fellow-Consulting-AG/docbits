@@ -12,7 +12,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
      * field\_name (str): Der Name des zu setzenden Feldes.
      * value: Der Wert, der für das Feld gesetzt werden soll.
-   *   Beispiel:
+   *   [Beispiel:](example-scripts.md#set_field_value-document_data-field_name-value)
 
        ```
        set_field_value(document_data, "name", "John Doe")
@@ -25,7 +25,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
      * value: Der Datumswert, der im ISO-Format gesetzt werden soll (z.B. "2020-12-31").
      * add\_days (int): Fügt zusätzliche Tage zum angegebenen Datum hinzu.
      * skip\_weekend (bool): Überspringt das Datum, wenn es auf das Wochenende fällt.
-   *   Beispiel:
+   *   [Beispiel:](example-scripts.md#set_date_value-document_data-field_name-value-add_days-0-skip_weekend-false)
 
        ```
        set_date_value(document_data, "promised_delivery_date", "2020-12-31", add_days=2, skip_weekend=True)
@@ -36,7 +36,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
      * field\_name (str): Der Name des zu setzenden Feldes.
      * value: Der Wert, der für das Feld gesetzt werden soll.
-   *   Beispiel:
+   *   [Beispiel:](example-scripts.md#set_amount_value-document_data-field_name-value)
 
        ```
        set_amount_value(document_data, "number", "123456")
@@ -50,7 +50,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
      * is\_clean (optional): Wandelt den Wert in Großbuchstaben um und entfernt Leerzeichen.
    * Gibt zurück:
      * Wert des Feldes.
-   *   Beispiel:
+   *   [Beispiel:](example-scripts.md#get_field_value-document_data-field_name-default_value-none-is_clean-false)
 
        ```
        value = get_field_value(document_data, "name")
@@ -62,7 +62,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
      * value: Der Anfangswert für das Feld (Standard ist ein leerer String).
    * Gibt zurück:
      * Dictionary des neu erstellten Feldes.
-   *   Beispiel:
+   *   [Beispiel:](example-scripts.md#create_new_field-field_name-value)
 
        ```
        dict = create_new_field("address", "")
@@ -74,7 +74,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
      * field\_name (str): Der Name des zu setzenden Feldes.
    * Gibt zurück:
      * Document\_data als JSON und als Dict, nachdem das Feld gelöscht wurde.
-   *   Beispiel:
+   *   [Beispiel:](example-scripts.md#delete_field-document_data-field_name)
 
        ```
        json, dict = (document_data, "name")
@@ -85,7 +85,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
      * field\_name (str): Der Name des zu setzenden Feldes.
      * value: Der Wert, der für das Feld gesetzt werden soll.
-   *   Beispiel:
+   *   [Beispiel:](example-scripts.md#set_is_required-document_data-field_name-value)
 
        ```
        set_is_required(document_data, "bank_id", True)
@@ -96,7 +96,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
      * field\_name (str): Der Name des zu setzenden Feldes.
      * value (bool): Der Wert, der für das Feld gesetzt werden soll.
-   *   Beispiel:
+   *   [Beispiel:](example-scripts.md#set_force_validation-document_data-field_name-value)
 
        ```
        set_force_validation(document_data, 'supplier_name', True)
@@ -108,7 +108,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
      * field\_name (str): Der Name des zu markierenden Feldes.
      * message (str): Die Validierungsnachricht für das Feld.
      * code (optional): Fehlercode für die Validierung (Standard ist None).
-   *   Beispiel:
+   *   [Beispiel:](example-scripts.md#set_field_as_invalid-document_data-field_name-message-code-none)
 
        ```
        set_field_as_invalid(document_data, "email", "Ungültiges E-Mail-Format", "EMAIL_FORMAT_INVALID")
@@ -120,7 +120,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * field\_name (str): Der Name des zu setzenden Feldes.
       * attribute\_name (str): Der Name des zu setzenden Attributs.
       * value (bool): Der Wert, der für das Attribut gesetzt werden soll.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#set_field_attribute-document_data-field_name-attribute_name-value)
 
         ```
         set_field_attribute(document_data, "address", "is_verified", True)
@@ -134,7 +134,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
     * Gibt zurück:
       * True, wenn der Benutzer gültig ist.
       * False, wenn der Benutzer ungültig ist.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#is_supplier_valid-user-userauthentication-filter_data_json-sub_org_id-none)
 
         ```
         bool = is_supplier_valid(user, {"name": "Supplier Inc."})
@@ -145,7 +145,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * document\_data (str): Die Dokumentdaten, die Feldinformationen enthalten.
     * Gibt zurück:
       * Dokumentinhalt der Dokumentdaten.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#get_document_content-document_data)
 
         ```
         document_content = get_document_content(doc)
@@ -159,7 +159,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * status (str): Der neue Status des Dokuments.
       * message: Optionale Nachricht, die mit der Statusaktualisierung verbunden ist.
       * doc\_classification\_class: Optionale Dokumentklassifikationsklasse.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#update_document_status_with_doc_id-doc_id-user-org_id-status-message-none-doc_classification_class-n)
 
         ```
         update_document_status_with_doc_id("123456", user, "org_id", "approved", "Dokument genehmigt")
@@ -172,7 +172,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * sub\_org\_id (optional): Optionale ID der Unterorganisation zur Filterung.
     * Gibt zurück:
       * LOV-Werte als Liste von Objekten oder als Liste.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#get_lov_values-org_id-key-return_type-list_of_objects-sub_org_id-none)
 
         ```
         supplier_to_check = get_lov_values(org_id, 'BlacklistSupplier', return_type="list_of_values")
@@ -186,7 +186,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * min\_decimal\_places (optional): Die minimale Anzahl von Dezimalstellen, die berücksichtigt werden sollen.
     * Gibt zurück:
       * Der formatierte Wert.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#format_decimal_to_locale-value-to_locale-en_us.utf-8-max_decimal_places-4-min_decimal_places-2)
 
         ```
         formatted_value = format_decimal_to_locale(value, document_json['amount_format_locale'])
@@ -198,7 +198,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * value2: Der zweite Wert zum Vergleichen.
     * Gibt zurück:
       * True, wenn die Werte gleich sind, und False, wenn sie unterschiedlich sind.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#compare_values-value1-value2)
 
         ```
         result = compare_values(10, "10")
@@ -217,7 +217,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * send\_email (bool): Bestimmt, ob eine E-Mail gesendet werden soll oder nicht.
     * Gibt zurück:
       * Dict, das angibt, ob der Prozess erfolgreich war oder nicht.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#create_document_task-user-document_data-title-description-priority-assigned_to_user_id-assigned_to_g)
 
         ```
         dict = create_document_task(user, document_data, "Herkunftsland außerhalb der EU", "Die Bestätigung kommt aus einem Land außerhalb der EU. Bitte fügen Sie das MRN-Dokument bei.", "hoch", 1007, None, False)
@@ -227,7 +227,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
     * Parameter:
       * document\_data: Die Dokumentdaten, die Feldinformationen enthalten.
       * sub\_org\_id (str): Optionale ID der Unterorganisation zur Filterung.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#set_document_sub_org_id-document_data-sub_org_id)
 
         ```
         set_document_sub_org_id(document_data, sub_org_id)
@@ -238,7 +238,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * user\_id (str): Die ID des Benutzers.
     * Gibt zurück:
       * Der Benutzer mit der entsprechenden Benutzer-ID.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#get_user_by_id-user_id)
 
         ```
         user = get_user_by_id("123456")
@@ -249,7 +249,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * group\_id (str): Die ID der Gruppe.
     * Gibt zurück:
       * Die Gruppe mit der entsprechenden Gruppen-ID.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#get_group_by_id-group_id)
 
         ```
         group = get_group_by_id("123456")
@@ -260,7 +260,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * table: Die Tabelle, in der die Spalte hinzugefügt werden soll.
       * col\_name: Der Name der Spalte.
       * default\_value (optional): Der Anfangswert für das Feld (Standard ist ein leerer String).
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#add_table_column-table-col_name-default_value-none)
 
         ```
         add_table_column(table, "UNIT_PRICE_PER")
@@ -272,7 +272,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * col\_name: Der Name der Spalte.
       * default\_value (optional): Gibt default\_value zurück, wenn kein Feldwert gefunden wird.
       * is\_clean (optional): Wandelt den Wert in Großbuchstaben um und entfernt Leerzeichen.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#get_column_value-row-column_name-default_value-none-is_clean-false)
 
         ```
         original_unit_price = get_column_value(row, "ORIGINAL_UNIT_PRICE")
@@ -285,7 +285,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * value: Der Wert, der an der angegebenen Stelle gesetzt werden soll.
     * Gibt zurück:
       * True, wenn die Änderung erfolgreich war.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#set_column_value-row-column_name-value)
 
         ```
         success = set_column_value(row,"SUPPLIER_ID", supplier_id)
@@ -298,7 +298,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * col\_name: Der Name der Spalte.
       * value: Der Datumswert, der im ISO-Format gesetzt werden soll (z.B. "2020-12-31").
       * add\_days (int): Fügt zusätzliche Tage zum angegebenen Datum hinzu.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#set_column_date_value-document_data-row-column_name-value-add_days-0)
 
         ```
         set_column_date_value(document_data, row, "DELIVERY_DATE", "2020-12-31", add_days=2)
@@ -313,7 +313,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * row: Zeile der Tabellenzeile.
       * column\_name: Name der Spalte.
       * value: Zu setzender Wert.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#set_column_amount_value-document_data-row-column_name-value)
 
         ```
         set_column_amount_value(document_data, row, "UNIT_PRICE", str(unit_price))
@@ -325,7 +325,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * table\_name: Der Name der Tabelle.
       * count: Wie viele Zeilen gelöscht werden sollen.
       * start: Der Ausgangspunkt.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#remove_rows_from_table-document_data-table_name-count-start)
 
         ```
         remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)   
@@ -335,7 +335,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
     * Parameter:
       * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
       * line\_number: Die Nummer der Zeile, die nicht entfernt werden soll.
-    *   Beispiel:
+    *   [Beispiel:](example-scripts.md#remove_all_rows_except_one_from_table-document_data-line_number)
 
         ```
         remove_all_rows_except_one_from_table(document_data, line_number) 
