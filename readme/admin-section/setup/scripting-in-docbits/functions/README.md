@@ -46,7 +46,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
    * Parámetros:
      * document\_data (dict): Los datos del documento que contienen información del campo.
      * field\_name (str): El nombre del campo a establecer.
-     * default\_value (opcional): Devuelve default\_value si no se encuentra el valor del campo.
+     * default\_value (opcional): Devuelve default\_value si no se encuentra valor del campo.
      * is\_clean (opcional): Convierte el valor a mayúsculas y lo limpia de espacios vacíos.
    * Devuelve:
      * Valor del campo.
@@ -73,11 +73,11 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
      * document\_data (dict): Los datos del documento que contienen información del campo.
      * field\_name (str): El nombre del campo a establecer.
    * Devuelve:
-     * Document\_data como json y como dict después de que se eliminó el campo.
+     * Document\_data como json y como dict después de que el campo fue eliminado.
    *   Ejemplo:
 
        ```
-       //json, dict = (document_data, "name")
+       json, dict = (document_data, "name")
        ```
 7. **set\_is\_required(document\_data, field\_name, value)**
    * Descripción: Establece el atributo 'is\_required' de un campo en los datos del documento.
@@ -111,7 +111,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
    *   Ejemplo:
 
        ```
-       --set_field_as_invalid(document_data, "email", "Formato de email inválido", "EMAIL_FORMAT_INVALID")
+       set_field_as_invalid(document_data, "email", "Invalid email format", "EMAIL_FORMAT_INVALID")
        ```
 10. **set\_field\_attribute(document\_data, field\_name, attribute\_name, value)**
     * Descripción: Establece un atributo personalizado de un campo en los datos del documento.
@@ -129,7 +129,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
     * Descripción: Verifica si un proveedor es válido según los criterios proporcionados.
     * Parámetros:
       * user (UserAuthentication): El usuario autenticado.
-      * filter\_data\_json: Criterios de filtro para validar al proveedor.
+      * filter\_data\_json: Criterios de filtrado para validar al proveedor.
       * sub\_org\_id (opcional): ID de suborganización opcional para filtrar.
     * Devuelve:
       * True, si el usuario es válido.
@@ -158,11 +158,11 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * org\_id: El ID de la organización a la que pertenece el documento.
       * status (str): El nuevo estado del documento.
       * message: Mensaje opcional asociado con la actualización del estado.
-      * doc\_classification\_class: Clase de clasificación de documentos opcional.
+      * doc\_classification\_class: Clase de clasificación de documento opcional.
     *   Ejemplo:
 
         ```
-        update_document_status_with_doc_id("123456", user, "org_id", "approved", "Documento aprobado")
+        update_document_status_with_doc_id("123456", user, "org_id", "approved", "Document approved")
         ```
 14. **get\_lov\_values(org\_id, key, return\_type="list\_of\_objects", sub\_org\_id=None)**
     * Descripción: Obtiene los valores LOV de un org\_id específico.
@@ -182,8 +182,8 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
     * Parámetros:
       * value: El valor que debe ser formateado.
       * to\_locale (opcional): El formato en el que se transforma el valor.
-      * max\_decimal\_places (opcional): El máximo de lugares decimales que se deben considerar.
-      * min\_decimal\_places (opcional): El mínimo de lugares decimales que se deben considerar.
+      * max\_decimal\_places (opcional): El máximo de lugares decimales que deben ser considerados.
+      * min\_decimal\_places (opcional): El mínimo de lugares decimales que deben ser considerados.
     * Devuelve:
       * El valor formateado.
     *   Ejemplo:
@@ -220,7 +220,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
     *   Ejemplo:
 
         ```
-        dict = create_document_task(user, document_data, "País de origen fuera de la UE", "La confirmación proviene de un país fuera de la UE. Por favor, adjunte el documento MRN.", "alto", 1007, None, False)
+        dict = create_document_task(user, document_data, "Country of origin outside the EU", "The confirmation comes from a country outside the EU. Please attach the MRN document.", "high", 1007, None, False)
         ```
 18. **set\_document\_sub\_org\_id(document\_data, sub\_org\_id)**
     * Descripción: Establece el sub\_org\_id de los datos del documento especificado.
@@ -270,7 +270,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
     * Parámetros:
       * row: La fila donde se encuentra el valor.
       * col\_name: El nombre de la columna.
-      * default\_value (opcional): Devuelve default\_value si no se encuentra el valor del campo.
+      * default\_value (opcional): Devuelve default\_value si no se encuentra valor del campo.
       * is\_clean (opcional): Convierte el valor a mayúsculas y lo limpia de espacios vacíos.
     *   Ejemplo:
 
@@ -373,8 +373,8 @@ También puedes usar estas funciones específicamente para trabajar con cadenas:
 
 Estas funciones son parte del módulo matemático y son útiles para operaciones matemáticas:
 
-* floor(): Devuelve el entero más grande menor o igual a un número dado.
-* ceil(): Devuelve el entero más pequeño mayor o igual a un número dado.
+* floor(): Devuelve el mayor entero menor o igual a un número dado.
+* ceil(): Devuelve el menor entero mayor o igual a un número dado.
 
 Para más información, consulta la documentación oficial de Python: [Funciones del Módulo Matemático](https://docs.python.org/3/library/math.html).
 
