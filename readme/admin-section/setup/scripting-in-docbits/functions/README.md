@@ -12,7 +12,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
      * document\_data (dict): Los datos del documento que contienen información del campo.
      * field\_name (str): El nombre del campo a establecer.
      * value: El valor a establecer para el campo.
-   *   Ejemplo:
+   *   [Ejemplo:](example-scripts.md#set_field_value-document_data-field_name-value)
 
        ```
        set_field_value(document_data, "name", "John Doe")
@@ -25,7 +25,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
      * value: El valor de la fecha a establecer en formato ISO (por ejemplo, "2020-12-31").
      * add\_days (int): Agrega días adicionales a la fecha dada.
      * skip\_weekend (bool): Omite la fecha si cae en fin de semana.
-   *   Ejemplo:
+   *   [Ejemplo:](example-scripts.md#set_date_value-document_data-field_name-value-add_days-0-skip_weekend-false)
 
        ```
        set_date_value(document_data, "promised_delivery_date", "2020-12-31", add_days=2, skip_weekend=True)
@@ -36,7 +36,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
      * document\_data (dict): Los datos del documento que contienen información del campo.
      * field\_name (str): El nombre del campo a establecer.
      * value: El valor a establecer para el campo.
-   *   Ejemplo:
+   *   [Ejemplo:](example-scripts.md#set_amount_value-document_data-field_name-value)
 
        ```
        set_amount_value(document_data, "number", "123456")
@@ -50,7 +50,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
      * is\_clean (opcional): Convierte el valor a mayúsculas y lo limpia de espacios vacíos.
    * Devuelve:
      * Valor del campo.
-   *   Ejemplo:
+   *   [Ejemplo:](example-scripts.md#get_field_value-document_data-field_name-default_value-none-is_clean-false)
 
        ```
        value = get_field_value(document_data, "name")
@@ -62,7 +62,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
      * value: El valor inicial para el campo (el valor predeterminado es una cadena vacía).
    * Devuelve:
      * Diccionario del nuevo campo creado.
-   *   Ejemplo:
+   *   [Ejemplo:](example-scripts.md#create_new_field-field_name-value)
 
        ```
        dict = create_new_field("address", "")
@@ -74,7 +74,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
      * field\_name (str): El nombre del campo a establecer.
    * Devuelve:
      * Document\_data como json y como dict después de que el campo fue eliminado.
-   *   Ejemplo:
+   *   [Ejemplo:](example-scripts.md#delete_field-document_data-field_name)
 
        ```
        json, dict = (document_data, "name")
@@ -85,7 +85,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
      * document\_data (dict): Los datos del documento que contienen información del campo.
      * field\_name (str): El nombre del campo a establecer.
      * value: El valor a establecer para el campo.
-   *   Ejemplo:
+   *   [Ejemplo:](example-scripts.md#set_is_required-document_data-field_name-value)
 
        ```
        set_is_required(document_data, "bank_id", True)
@@ -96,7 +96,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
      * document\_data (dict): Los datos del documento que contienen información del campo.
      * field\_name (str): El nombre del campo a establecer.
      * value(bool): El valor a establecer para el campo.
-   *   Ejemplo:
+   *   [Ejemplo:](example-scripts.md#set_force_validation-document_data-field_name-value)
 
        ```
        set_force_validation(document_data, 'supplier_name', True)
@@ -108,7 +108,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
      * field\_name (str): El nombre del campo a marcar como inválido.
      * message (str): El mensaje de validación para el campo.
      * code (opcional): Código de error para la validación (el valor predeterminado es None).
-   *   Ejemplo:
+   *   [Ejemplo:](example-scripts.md#set_field_as_invalid-document_data-field_name-message-code-none)
 
        ```
        set_field_as_invalid(document_data, "email", "Invalid email format", "EMAIL_FORMAT_INVALID")
@@ -120,7 +120,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * field\_name (str): El nombre del campo a establecer.
       * attribute\_name (str): El nombre del atributo a establecer.
       * value (bool): El valor a establecer para el atributo.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#set_field_attribute-document_data-field_name-attribute_name-value)
 
         ```
         set_field_attribute(document_data, "address", "is_verified", True)
@@ -134,7 +134,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
     * Devuelve:
       * True, si el usuario es válido.
       * False si el usuario no es válido.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#is_supplier_valid-user-userauthentication-filter_data_json-sub_org_id-none)
 
         ```
         bool = is_supplier_valid(user, {"name": "Supplier Inc."})
@@ -145,7 +145,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * document\_data (str): Los datos del documento que contienen información del campo.
     * Devuelve:
       * Contenido del documento de los datos del documento.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#get_document_content-document_data)
 
         ```
         document_content = get_document_content(doc)
@@ -159,7 +159,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * status (str): El nuevo estado del documento.
       * message: Mensaje opcional asociado con la actualización del estado.
       * doc\_classification\_class: Clase de clasificación de documento opcional.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#update_document_status_with_doc_id-doc_id-user-org_id-status-message-none-doc_classification_class-n)
 
         ```
         update_document_status_with_doc_id("123456", user, "org_id", "approved", "Document approved")
@@ -172,7 +172,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * sub\_org\_id (opcional): ID de suborganización opcional para filtrar.
     * Devuelve:
       * Valores LOV como una lista de objetos o como una lista.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#get_lov_values-org_id-key-return_type-list_of_objects-sub_org_id-none)
 
         ```
         supplier_to_check = get_lov_values(org_id, 'BlacklistSupplier', return_type="list_of_values")
@@ -186,7 +186,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * min\_decimal\_places (opcional): El mínimo de lugares decimales que deben ser considerados.
     * Devuelve:
       * El valor formateado.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#format_decimal_to_locale-value-to_locale-en_us.utf-8-max_decimal_places-4-min_decimal_places-2)
 
         ```
         formatted_value = format_decimal_to_locale(value, document_json['amount_format_locale'])
@@ -198,7 +198,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * value2: El segundo valor a comparar.
     * Devuelve:
       * True si los valores son iguales y False si difieren.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#compare_values-value1-value2)
 
         ```
         result = compare_values(10, "10")
@@ -217,7 +217,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * send\_email (bool): Determina si se debe enviar un correo electrónico o no.
     * Devuelve:
       * Dict que indica si el proceso fue exitoso o no.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#create_document_task-user-document_data-title-description-priority-assigned_to_user_id-assigned_to_g)
 
         ```
         dict = create_document_task(user, document_data, "Country of origin outside the EU", "The confirmation comes from a country outside the EU. Please attach the MRN document.", "high", 1007, None, False)
@@ -227,7 +227,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
     * Parámetros:
       * document\_data: Los datos del documento que contienen información del campo.
       * sub\_org\_id (str): ID de suborganización opcional para filtrar.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#set_document_sub_org_id-document_data-sub_org_id)
 
         ```
         set_document_sub_org_id(document_data, sub_org_id)
@@ -238,7 +238,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * user\_id (str): El ID del usuario.
     * Devuelve:
       * El usuario con el ID de usuario correspondiente.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#get_user_by_id-user_id)
 
         ```
         user = get_user_by_id("123456")
@@ -249,7 +249,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * group\_id (str): El ID del grupo.
     * Devuelve:
       * El grupo con el ID de grupo correspondiente.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#get_group_by_id-group_id)
 
         ```
         group = get_group_by_id("123456")
@@ -260,7 +260,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * table: La tabla donde se debe agregar la columna.
       * col\_name: El nombre de la columna.
       * default\_value (opcional): El valor inicial para el campo (el valor predeterminado es una cadena vacía).
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#add_table_column-table-col_name-default_value-none)
 
         ```
         add_table_column(table, "UNIT_PRICE_PER")
@@ -272,7 +272,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * col\_name: El nombre de la columna.
       * default\_value (opcional): Devuelve default\_value si no se encuentra valor del campo.
       * is\_clean (opcional): Convierte el valor a mayúsculas y lo limpia de espacios vacíos.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#get_column_value-row-column_name-default_value-none-is_clean-false)
 
         ```
         original_unit_price = get_column_value(row, "ORIGINAL_UNIT_PRICE")
@@ -285,7 +285,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * value: El valor que se establecerá en la ubicación especificada.
     * Devuelve:
       * True si el cambio fue exitoso.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#set_column_value-row-column_name-value)
 
         ```
         success = set_column_value(row,"SUPPLIER_ID", supplier_id)
@@ -298,7 +298,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * col\_name: El nombre de la columna.
       * value: El valor de la fecha a establecer en formato ISO (por ejemplo, "2020-12-31").
       * add\_days (int): Agrega días adicionales a la fecha dada.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#set_column_date_value-document_data-row-column_name-value-add_days-0)
 
         ```
         set_column_date_value(document_data, row, "DELIVERY_DATE", "2020-12-31", add_days=2)
@@ -313,7 +313,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * row: Fila de la línea de la tabla.
       * column\_name: Nombre de la columna.
       * value: Valor a establecer.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#set_column_amount_value-document_data-row-column_name-value)
 
         ```
         set_column_amount_value(document_data, row, "UNIT_PRICE", str(unit_price))
@@ -325,7 +325,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
       * table\_name: El nombre de la tabla.
       * count: Cuántas líneas deben ser eliminadas.
       * start: El punto de inicio.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#remove_rows_from_table-document_data-table_name-count-start)
 
         ```
         remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)   
@@ -335,7 +335,7 @@ Este módulo contiene funciones para manipular datos de documentos y realizar di
     * Parámetros:
       * document\_data (dict): Los datos del documento que contienen información del campo.
       * line\_number: El número de la línea que no debe ser eliminada.
-    *   Ejemplo:
+    *   [Ejemplo:](example-scripts.md#remove_all_rows_except_one_from_table-document_data-line_number)
 
         ```
         remove_all_rows_except_one_from_table(document_data, line_number) 
