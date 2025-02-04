@@ -4,7 +4,7 @@
 
 This module contains functions for manipulating document data and performing various operations related to document fields.
 
-**Functions**
+#### **Functions**
 
 1. **set\_field\_value(document\_data, field\_name, value)**
    * Description: Sets the value of a field in the document data.
@@ -344,6 +344,8 @@ This module contains functions for manipulating document data and performing var
         ```
 
 
+
+#### Python Built-in Functions
 
 You can also utilize some of the python in-build functions:
 
