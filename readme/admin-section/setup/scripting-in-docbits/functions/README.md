@@ -10,7 +10,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
    * Beschreibung: Setzt den Wert eines Feldes in den Dokumentdaten.
    * Parameter:
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
-     * field\_name (str): Der Name des Feldes, das gesetzt werden soll.
+     * field\_name (str): Der Name des zu setzenden Feldes.
      * value: Der Wert, der für das Feld gesetzt werden soll.
    *   Beispiel:
 
@@ -22,7 +22,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
    * Parameter:
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
      * field\_name (str): Der Name des Datumsfeldes, das gesetzt werden soll.
-     * value: Der Datumswert, der im ISO-Format gesetzt werden soll (z. B. "2020-12-31").
+     * value: Der Datumswert, der im ISO-Format gesetzt werden soll (z.B. "2020-12-31").
      * add\_days (int): Fügt zusätzliche Tage zum angegebenen Datum hinzu.
      * skip\_weekend (bool): Überspringt das Datum, wenn es auf das Wochenende fällt.
    *   Beispiel:
@@ -34,7 +34,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
    * Beschreibung: Setzt den Wert eines Betragsfeldes in den Dokumentdaten.
    * Parameter:
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
-     * field\_name (str): Der Name des Feldes, das gesetzt werden soll.
+     * field\_name (str): Der Name des zu setzenden Feldes.
      * value: Der Wert, der für das Feld gesetzt werden soll.
    *   Beispiel:
 
@@ -45,9 +45,9 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
    * Beschreibung: Holt den Wert eines Feldes aus den Dokumentdaten.
    * Parameter:
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
-     * field\_name (str): Der Name des Feldes, das gesetzt werden soll.
+     * field\_name (str): Der Name des zu setzenden Feldes.
      * default\_value (optional): Gibt default\_value zurück, wenn kein Feldwert gefunden wird.
-     * is\_clean (optional): Wandelt den Wert in Großbuchstaben um und bereinigt ihn von Leerzeichen.
+     * is\_clean (optional): Wandelt den Wert in Großbuchstaben um und entfernt Leerzeichen.
    * Gibt zurück:
      * Wert des Feldes.
    *   Beispiel:
@@ -61,7 +61,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
      * field\_name (str): Der Name des zu erstellenden Feldes.
      * value: Der Anfangswert für das Feld (Standard ist ein leerer String).
    * Gibt zurück:
-     * Wörterbuch des neu erstellten Feldes.
+     * Dictionary des neu erstellten Feldes.
    *   Beispiel:
 
        ```
@@ -71,19 +71,19 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
    * Beschreibung: Löscht ein Feld aus den Dokumentdaten.
    * Parameter:
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
-     * field\_name (str): Der Name des Feldes, das gesetzt werden soll.
+     * field\_name (str): Der Name des zu setzenden Feldes.
    * Gibt zurück:
-     * Document\_data als JSON und als dict, nachdem das Feld gelöscht wurde.
+     * Document\_data als JSON und als Dict, nachdem das Feld gelöscht wurde.
    *   Beispiel:
 
        ```
-       //json, dict = (document_data, "name")
+       json, dict = (document_data, "name")
        ```
 7. **set\_is\_required(document\_data, field\_name, value)**
    * Beschreibung: Setzt das Attribut 'is\_required' eines Feldes in den Dokumentdaten.
    * Parameter:
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
-     * field\_name (str): Der Name des Feldes, das gesetzt werden soll.
+     * field\_name (str): Der Name des zu setzenden Feldes.
      * value: Der Wert, der für das Feld gesetzt werden soll.
    *   Beispiel:
 
@@ -94,7 +94,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
    * Beschreibung: Setzt das Attribut 'force\_validation' eines Feldes in den Dokumentdaten.
    * Parameter:
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
-     * field\_name (str): Der Name des Feldes, das gesetzt werden soll.
+     * field\_name (str): Der Name des zu setzenden Feldes.
      * value (bool): Der Wert, der für das Feld gesetzt werden soll.
    *   Beispiel:
 
@@ -105,20 +105,20 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
    * Beschreibung: Markiert ein Feld als ungültig in den Dokumentdaten.
    * Parameter:
      * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
-     * field\_name (str): Der Name des Feldes, das als ungültig markiert werden soll.
+     * field\_name (str): Der Name des zu markierenden Feldes.
      * message (str): Die Validierungsnachricht für das Feld.
      * code (optional): Fehlercode für die Validierung (Standard ist None).
    *   Beispiel:
 
        ```
-       --set_field_as_invalid(document_data, "email", "Ungültiges E-Mail-Format", "EMAIL_FORMAT_INVALID")
+       set_field_as_invalid(document_data, "email", "Ungültiges E-Mail-Format", "EMAIL_FORMAT_INVALID")
        ```
 10. **set\_field\_attribute(document\_data, field\_name, attribute\_name, value)**
     * Beschreibung: Setzt ein benutzerdefiniertes Attribut eines Feldes in den Dokumentdaten.
     * Parameter:
       * document\_data (str): Die Dokumentdaten, die Feldinformationen enthalten.
-      * field\_name (str): Der Name des Feldes, das gesetzt werden soll.
-      * attribute\_name (str): Der Name des Attributs, das gesetzt werden soll.
+      * field\_name (str): Der Name des zu setzenden Feldes.
+      * attribute\_name (str): Der Name des zu setzenden Attributs.
       * value (bool): Der Wert, der für das Attribut gesetzt werden soll.
     *   Beispiel:
 
@@ -130,7 +130,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
     * Parameter:
       * user (UserAuthentication): Der authentifizierte Benutzer.
       * filter\_data\_json: Filterkriterien zur Validierung des Lieferanten.
-      * sub\_org\_id (optional): Optionale Sub-Organisations-ID für die Filterung.
+      * sub\_org\_id (optional): Optionale ID der Unterorganisation zur Filterung.
     * Gibt zurück:
       * True, wenn der Benutzer gültig ist.
       * False, wenn der Benutzer ungültig ist.
@@ -169,7 +169,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
     * Parameter:
       * org\_id: Die ID der Organisation, zu der das Dokument gehört.
       * return\_type (optional): Der Typ, in dem die Daten zurückgegeben werden sollen.
-      * sub\_org\_id (optional): Optionale Sub-Organisations-ID für die Filterung.
+      * sub\_org\_id (optional): Optionale ID der Unterorganisation zur Filterung.
     * Gibt zurück:
       * LOV-Werte als Liste von Objekten oder als Liste.
     *   Beispiel:
@@ -185,7 +185,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * max\_decimal\_places (optional): Die maximale Anzahl von Dezimalstellen, die berücksichtigt werden sollen.
       * min\_decimal\_places (optional): Die minimale Anzahl von Dezimalstellen, die berücksichtigt werden sollen.
     * Gibt zurück:
-      * Den formatierten Wert.
+      * Der formatierte Wert.
     *   Beispiel:
 
         ```
@@ -226,7 +226,7 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
     * Beschreibung: Setzt die sub\_org\_id der angegebenen document\_data.
     * Parameter:
       * document\_data: Die Dokumentdaten, die Feldinformationen enthalten.
-      * sub\_org\_id (str): Optionale Sub-Organisations-ID für die Filterung.
+      * sub\_org\_id (str): Optionale ID der Unterorganisation zur Filterung.
     *   Beispiel:
 
         ```
@@ -271,14 +271,14 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
       * row: Die Zeile, in der sich der Wert befindet.
       * col\_name: Der Name der Spalte.
       * default\_value (optional): Gibt default\_value zurück, wenn kein Feldwert gefunden wird.
-      * is\_clean (optional): Wandelt den Wert in Großbuchstaben um und bereinigt ihn von Leerzeichen.
+      * is\_clean (optional): Wandelt den Wert in Großbuchstaben um und entfernt Leerzeichen.
     *   Beispiel:
 
         ```
         original_unit_price = get_column_value(row, "ORIGINAL_UNIT_PRICE")
         ```
 23. **set\_column\_value(row, column\_name, value)**
-    * Beschreibung: Setzt einen Wert aus einer bestimmten Spalte.
+    * Beschreibung: Setzt einen Wert in einer bestimmten Spalte.
     * Parameter:
       * row: Die Zeile, in der sich der Wert befindet.
       * col\_name: Der Name der Spalte.
@@ -291,12 +291,12 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
         success = set_column_value(row,"SUPPLIER_ID", supplier_id)
         ```
 24. **set\_column\_date\_value(document\_data, row, column\_name, value, add\_days=0)**
-    * Beschreibung: Setzt einen Wert aus einer bestimmten Spalte.
+    * Beschreibung: Setzt einen Wert in einer bestimmten Spalte.
     * Parameter:
       * document\_data: Die Dokumentdaten, die Feldinformationen enthalten.
       * row: Die Zeile, in der sich der Wert befindet.
       * col\_name: Der Name der Spalte.
-      * value: Der Datumswert, der im ISO-Format gesetzt werden soll (z. B. "2020-12-31").
+      * value: Der Datumswert, der im ISO-Format gesetzt werden soll (z.B. "2020-12-31").
       * add\_days (int): Fügt zusätzliche Tage zum angegebenen Datum hinzu.
     *   Beispiel:
 
@@ -306,13 +306,13 @@ Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durc
 25. **set\_column\_amount\_value(document\_data, row, column\_name, value)**
     * Beschreibung: Führt folgende Aktionen aus:
       * Konvertiert den Wert in einen String und setzt den Wert für die Spalte.
-      * Setzt den Inhalt der Spalte auf den Wert.
+      * Setzt den Spalteninhalt auf den Wert.
       * Formatiert den Wert gemäß der Locale.
     * Parameter:
       * document\_data (dict): Die Dokumentdaten, die Feldinformationen enthalten.
       * row: Zeile der Tabellenzeile.
       * column\_name: Name der Spalte.
-      * value: Wert, der gesetzt werden soll.
+      * value: Zu setzender Wert.
     *   Beispiel:
 
         ```
@@ -350,13 +350,13 @@ Sie können auch einige der integrierten Python-Funktionen nutzen:
 * round(): Rundet eine Fließkommazahl auf eine bestimmte Anzahl von Dezimalstellen.
 * str\_to\_bool(): Konvertiert einen String in einen booleschen Wert (True oder False).
 * type(): Gibt den Typ eines Objekts zurück.
-* dict(): Erstellt ein Wörterbuch-Objekt.
-* list(): Erstellt ein Listen-Objekt.
+* dict(): Erstellt ein Dictionary-Objekt.
+* list(): Erstellt ein Listenobjekt.
 * str(): Konvertiert einen Wert in einen String.
 * float(): Konvertiert einen Wert in eine Fließkommazahl.
 * int(): Konvertiert einen Wert in eine Ganzzahl.
 
-Für weitere Details besuchen Sie die offizielle Python-Dokumentation: [Integrierte Funktionen](https://docs.python.org/3.12/library/functions.html).
+Für weitere Details besuchen Sie die offizielle Python-Dokumentation: [Built-in Functions](https://docs.python.org/3.12/library/functions.html).
 
 #### String-Klassenfunktionen
 
@@ -364,7 +364,7 @@ Sie können auch diese Funktionen speziell für die Arbeit mit Strings verwenden
 
 * lower(): Wandelt alle Zeichen in einem String in Kleinbuchstaben um.
 * upper(): Wandelt alle Zeichen in einem String in Großbuchstaben um.
-* split(): Teilt einen String in eine Liste basierend auf einem Trennzeichen (z. B. Leerzeichen oder Komma).
+* split(): Teilt einen String in eine Liste basierend auf einem Trennzeichen (z.B. Leerzeichen oder Komma).
 * startswith(): Überprüft, ob ein String mit einem bestimmten Präfix beginnt.
 * endswith(): Überprüft, ob ein String mit einem bestimmten Suffix endet.
 * strip(): Entfernt führende oder nachfolgende Leerzeichen aus einem String.
@@ -376,28 +376,28 @@ Diese Funktionen sind Teil des Math-Moduls und nützlich für mathematische Oper
 * floor(): Gibt die größte Ganzzahl zurück, die kleiner oder gleich einer gegebenen Zahl ist.
 * ceil(): Gibt die kleinste Ganzzahl zurück, die größer oder gleich einer gegebenen Zahl ist.
 
-Für weitere Informationen, schauen Sie sich die offizielle Python-Dokumentation an: [Math-Modul-Funktionen](https://docs.python.org/3/library/math.html).
+Für weitere Informationen, schauen Sie sich die offizielle Python-Dokumentation an: [Math Module Functions](https://docs.python.org/3/library/math.html).
 
 #### Reguläre Ausdrucksfunktion
 
 * re.search(): Durchsucht einen String nach einem Muster und gibt das erste Ergebnis zurück.
 
-Siehe weitere Details hier: [re.search-Dokumentation](https://docs.python.org/3/library/re.html#re.search).
+Weitere Details finden Sie hier: [re.search Dokumentation](https://docs.python.org/3/library/re.html#re.search).
 
 #### Externe Funktionen
 
 Hier sind einige nützliche Funktionen aus externen Bibliotheken:
 
 * deepcopy(): Erstellt eine Kopie eines Objekts, einschließlich verschachtelter Objekte (aus dem copy-Modul).\
-  [Deepcopy-Dokumentation](https://docs.python.org/3/library/copy.html#copy.deepcopy).
+  [Deepcopy Dokumentation](https://docs.python.org/3/library/copy.html#copy.deepcopy).
 * levenshtein\_distance(): Berechnet die Anzahl der Änderungen (Einfügungen, Löschungen, Ersetzungen), die erforderlich sind, um einen String in einen anderen zu ändern. Diese Funktion ist in der [Jellyfish-Bibliothek](https://jamesturk.github.io/jellyfish/functions/) verfügbar.
 
 #### Datum- und Zeitfunktionen
 
-Sie können die folgenden Funktionen für die Arbeit mit Daten und Zeiten verwenden:
+Sie können die folgenden Funktionen zur Arbeit mit Daten und Zeiten verwenden:
 
-* strptime(): Konvertiert einen String in ein datetime-Objekt basierend auf einem bestimmten Format.
-* strftime(): Formatiert ein datetime-Objekt in einen String basierend auf einem bestimmten Format.
+* strptime(): Konvertiert einen String in ein datetime-Objekt basierend auf einem angegebenen Format.
+* strftime(): Formatiert ein datetime-Objekt in einen String basierend auf einem angegebenen Format.
 
 Für weitere Informationen, überprüfen Sie die offizielle Dokumentation:\
 [Datum- und Zeitfunktionen](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior).
