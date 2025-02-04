@@ -1,12 +1,10 @@
 # Fonctions
 
-## Fonctions
-
 **Documentation Fonctionnelle**
 
 Ce module contient des fonctions pour manipuler les données de document et effectuer diverses opérations liées aux champs de document.
 
-**Fonctions**
+#### **Fonctions**
 
 1. **set\_field\_value(document\_data, field\_name, value)**
    * Description: Définit la valeur d'un champ dans les données du document.
@@ -342,6 +340,8 @@ Ce module contient des fonctions pour manipuler les données de document et effe
         ```
         remove_all_rows_except_one_from_table(document_data, line_number) 
         ```
+
+#### Fonctions intégrées de Python
 
 Vous pouvez également utiliser certaines des fonctions intégrées de Python:
 
