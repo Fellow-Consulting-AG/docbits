@@ -1,5 +1,193 @@
 # Beispielscripte
 
+#### **set\_field\_value(document\_data, field\_name, value)**
+
+```python
+iban_fuzzy = get_field_value(document_data, 'supplier_iban', None)
+iban_extracted = get_field_value(document_data, 'iban_extracted', None)
+
+if iban_extracted:
+    iban_extracted = iban_extracted.replace(' ','')
+
+if iban_fuzzy and iban_extracted and iban_fuzzy != iban_extracted:
+    set_field_as_invalid(document_data, "supplier_iban", "There is a difference in the IBAN", "INVALID_VALUE")
+elif iban_fuzzy and not iban_extracted: 
+    set_field_as_invalid(document_data, "supplier_iban", "There is a difference in the IBAN", "INVALID_VALUE")
+elif iban_extracted and not iban_fuzzy:
+    set_field_as_invalid(document_data, "supplier_iban", "There is a difference in the IBAN", "INVALID_VALUE")
+```
+
+
+
+#### **set\_date\_value(document\_data, field\_name, value, add\_days=0, skip\_weekend=False)**
+
+```python
+genehmigungs_stufe = get_field_value(document_data, 'genehmigungs_stufe', None)
+genehmigung_user_1 = get_field_value(document_data, 'genehmigung_user_1', None)
+genehmigung_user_2 = get_field_value(document_data, 'genehmigung_user_2', None)
+genehmigung_user_3 = get_field_value(document_data, 'genehmigung_user_3', None)
+genehmigung_user_4 = get_field_value(document_data, 'genehmigung_user_4', None)
+
+
+try:
+    current_status = str(document_json['status'])
+except:
+    current_status = None
+
+first_approver = get_field_value(document_data, 'first_approver', None)
+if first_approver and current_status == "ready_for_validation":
+    first_approver_name = str(get_user_by_id(first_approver).first_name+" "+get_user_by_id(first_approver).last_name) 
+    set_field_value(document_data, "first_approver", None)
+    if genehmigungs_stufe == "1" and genehmigung_user_1 =="LEER":
+        set_field_value(document_data, "genehmigung_user_1", first_approver_name)
+        set_date_value(document_data, "genehmigungsdatum_1", None, add_days=0)
+        set_field_value(document_data, "genehmigungs_stufe", "2")
+        update_document_status_with_doc_id(document_json['doc_id'], user, document_json['org_id'], "validated_pending_approval")
+    elif genehmigungs_stufe == "2" and genehmigung_user_2 == "LEER":
+        set_field_value(document_data, "genehmigung_user_2", first_approver_name)
+        set_date_value(document_data, "genehmigungsdatum_2", None, add_days=0)
+        set_field_value(document_data, "genehmigungs_stufe", "3")
+        update_document_status_with_doc_id(document_json['doc_id'], user, document_json['org_id'], "validated_pending_approval")
+    elif genehmigungs_stufe == "3" and genehmigung_user_3 == "LEER":
+        set_field_value(document_data, "genehmigung_user_3", first_approver_name)
+        set_date_value(document_data, "genehmigungsdatum_3", None, add_days=0)
+        set_field_value(document_data, "genehmigungs_stufe", "4")
+        update_document_status_with_doc_id(document_json['doc_id'], user, document_json['org_id'], "validated_pending_approval")
+    elif genehmigungs_stufe == "4" and genehmigung_user_4 == "LEER":
+        set_field_value(document_data, "genehmigung_user_4", first_approver_name)
+        set_date_value(document_data, "genehmigungsdatum_4", None, add_days=0)
+        set_field_value(document_data, "genehmigungs_stufe", "5")
+        update_document_status_with_doc_id(document_json['doc_id'], user, document_json['org_id'], "validated_pending_approval")
+```
+
+
+
+#### **set\_amount\_value(document\_data, field\_name, value)**
+
+```python
+lines_total = 0.0
+if tables_dict.get('INVOICE_TABLE'):
+    for row in tables_dict['INVOICE_TABLE']['rows']:
+        line_amount = 0.0
+        for col in row['columns']:
+            if col['name'] == 'TOTAL_AMOUNT':
+                line_amount = col.get('value', 0)
+                if line_amount:
+                    line_amount = float(line_amount)
+            elif col['name'] == 'NET_AMOUNT':
+                line_amount = col.get('value', 0)
+                if line_amount:
+                    line_amount = float(line_amount)
+                break
+        if line_amount:
+            lines_total += line_amount
+total_amount = get_field_value(document_data, "net_amount")
+if not total_amount:
+    lines_total = float(lines_total)
+    set_amount_value(document_data, "net_amount",str(lines_total))
+```
+
+
+
+#### **get\_field\_value(document\_data, field\_name, default\_value=None, is\_clean=False)**
+
+<pre class="language-python"><code class="lang-python"><strong>vpo_number = get_field_value(document_data, 'purchase_order', None)
+</strong>
+if po_number:
+    clean_po_number = po_number.replace('PO', '')
+    set_field_value(document_data, "purchase_order", clean_po_number)
+</code></pre>
+
+
+
+#### **create\_new\_field(field\_name, value="")**
+
+```python
+currency = get_field_value(document_data, 'currency', None)
+
+if not currency:
+    if 'currency' not in fields_dict:
+        new_field = create_new_field('currency','')
+        fields_dict['currency'] = new_field
+        document_json['fields'].append(new_field)
+    set_field_value(document_data, "currency", "USD")
+    
+elif currency == "USD US Dollar" or currency == "U.S. Dollars":
+    set_field_value(document_data, "currency", "USD")
+    
+if currency != "USD" and currency != "EUR" and currency != "GBP" and currency != "CAD" and currency != "AUD" and currency != "CHF":
+    set_field_as_invalid(document_data, "currency", "Currency is not valid")
+else:
+    set_field_attribute(document_data, "currency", "is_valid", True)
+    set_field_attribute(document_data, "currency", "validation_message","")
+```
+
+
+
+#### **delete\_field(document\_data, field\_name)**
+
+```python
+fields = [
+    "shipping_charges",
+    "fuel_surcharge",
+    "handling_charge",
+    "steel_surcharge",
+    "tariff",
+    "hazardous_mater",
+    "core_charge",
+    "wg_rebate",
+    "make_ready_fee",
+    "pl_transport",
+    "import_duty",    
+]
+for field_name in fields:
+    if field_name in fields_dict:
+        field_amount = get_field_value(document_data, field_name)
+        if not field_amount:
+            delete_field(document_data, fields_dict, field_name)
+        else:
+            field_amount = float(field_amount)
+            if field_amount == 0:
+                delete_field(document_data, fields_dict, field_name)
+```
+
+
+
+#### **set\_is\_required(document\_data, field\_name, value)**
+
+```python
+net_amount   = get_field_value(document_data, "net_amount", None)
+if net_amount:
+    set_is_required(document_data, "tax_country", True)
+    set_is_required(document_data, "tax_code_without_country", True)
+    net_amount__1 = get_field_value(document_data, "net_amount__1", None)
+    if net_amount__1:
+        set_is_required(document_data, "tax_country__1", True)
+        set_is_required(document_data, "tax_code_without_country__1", True)
+        net_amount__2 = get_field_value(document_data, "net_amount__2", None)
+        if net_amount__2 :
+            set_is_required(document_data, "tax_country__2", True)
+            set_is_required(document_data, "tax_code_without_country__2", True)
+            net_amount__3 = get_field_value(document_data, "net_amount__3", None)
+            if net_amount__3:
+                set_is_required(document_data, "tax_country__3", True)
+                set_is_required(document_data, "tax_code_without_country__3", True)
+            else:
+                set_is_required(document_data, "tax_country__3", False)
+                set_is_required(document_data, "tax_code_without_country__3", False)
+        else:
+            set_is_required(document_data, "tax_country__2", False)
+            set_is_required(document_data, "tax_code_without_country__2", False)
+    else:
+        set_is_required(document_data, "tax_country__1", False)
+        set_is_required(document_data, "tax_code_without_country__1", False)
+else:
+    set_is_required(document_data, "tax_country", False)
+    set_is_required(document_data, "tax_code_without_country", False)
+```
+
+
+
 #### **set\_force\_validation(document\_data, field\_name, value)**
 
 ```python
