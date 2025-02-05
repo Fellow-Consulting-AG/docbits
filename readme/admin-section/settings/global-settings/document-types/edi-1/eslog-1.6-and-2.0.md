@@ -1,4 +1,4 @@
-# e-SLOG 1.6 y 2.0
+# eSLOG 1.6 y 2.0
 
 ## Versiones de Factura eSLOG Soportadas
 
