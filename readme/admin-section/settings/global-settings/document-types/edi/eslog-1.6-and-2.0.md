@@ -1,29 +1,27 @@
-# ZUGFeRD 1.0, 2.1 and 2.3
+# eSLOG 1.6 and 2.0
 
-## **Supported Versions of ZUGFeRD**
+## Supported eSLOG Invoice Versions
 
-Currently supported versions of ZUGFeRD are:
+Currently, **eSLOG Invoice versions 1.6 and 2.0** are supported.
 
-* **1.0**
-* **2.1** (compliant with FACTUR-X 1.0.05)
-* **2.3** (compliant with FACTUR-X 1.07.2)
+For official eSLOG documentation, you can refer to [this link](https://epos.si/en/eslog).
 
-#### Standard Activation and Modification
+Both eSLOG versions are enabled by default.
 
-The ZUGFeRD standard is always active by default, but you can make modifications to it if needed.
+## Steps to Modify eSLOG Configuration
 
-### **Steps to Modify ZUGFeRD Settings:**
+**Configure eSLOG:**
 
-1. Navigate to **Settings → Global Settings → Document Types → Invoice**.
-2.  Click on **E-Doc**.\
+* Navigate to **Settings → Global Settings → Document Types → Invoice**.
+*   Click on **E-Doc**.\
 
 
     <figure><img src="../../../../../.gitbook/assets/image (375).png" alt=""><figcaption></figcaption></figure>
-3. A list of all available e-docs will appear.
-4.  Locate the **ZUGFeRD** version you want to modify.\
+* A list of all available e-docs will appear.
+*   Locate the eSLOG version you want to modify.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (376).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (384).png" alt=""><figcaption></figcaption></figure>
 
 ## **Transformation and XML Path Configuration:**
 
@@ -38,10 +36,6 @@ In the **transformation settings**, you can define the path to locate specific i
 4. Either create a new field or modify an existing one.
 5. Set the desired path for data extraction.
 6. Click **Save**.
-
-### Important Notes:
-
-* The **preview file** is used only for **FACTUR-X** and not for **ZUGFeRD**. ZUGFeRD will use the original **PDF**.
 
 ## Preview PDF Configuration
 
@@ -74,5 +68,3 @@ The **Extraction Paths Configuration** is used to extract data and populate fiel
     <figure><img src="../../../../../.gitbook/assets/image (378).png" alt=""><figcaption></figcaption></figure>
 6. The right side represents the **path to the field** created in the Transformation.
 7. Click **Save**.
-
-By following these steps, you can ensure accurate data extraction and validation for ZUGFeRD invoices.

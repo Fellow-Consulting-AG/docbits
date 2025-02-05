@@ -16,17 +16,21 @@ Ensure the IndexFieldFromDocBits=IDMAttributeID (check if DocBits on the left in
 
 
 
-### XML and EDI&#x20;
+## XML and EDI  file export&#x20;
 
-For XML and EDI we need to add specific parts&#x20;
+To export the original XML/EDI file along with the generated PDF, you need to modify the IDM Mapping file, in the export configuration. First, update the **Static\_Values** section by adding the file prefix and extension. After that, define the actual mapping to ensure the correct export configuration.
 
-Start by adding the prefix and extension as follows:
+If an export for invoices to IDM is already set up, the generated PDF should already be included in the export. If you don’t need the XML file, you can skip the next part. However, if you do need the XML file, follow the steps below.
 
-<figure><img src="../../../../.gitbook/assets/image (371).png" alt=""><figcaption></figcaption></figure>
+### Updating the Static Values:
+
+Find the **Static\_Values** field and add the following:a
 
 ```properties
 ,EDI_FILE_PREFIX,XML_FILE_PREFIX,PDF_FILE_PREFIX,PDF_FILE_EXTENSION,EDI_FILE_EXTENSION,XML_FILE_EXTENSION
 ```
+
+Then, add the following entries below **SV\_ACLString**:
 
 ```properties
 SV_EDI_FILE_PREFIX=EDI_810_
@@ -37,28 +41,31 @@ SV_EDI_FILE_EXTENSION=.xml
 SV_XML_FILE_EXTENSION=.xml
 ```
 
-
-
 After that, add the actual mapping, making sure the export document type corresponds to the IDM Supplier type.
 
-#### For XML :
+<figure><img src="../../../../.gitbook/assets/image (371).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (373).png" alt=""><figcaption></figcaption></figure>
+### XML Mapping
 
-```properties
-EMBEDDED_FILES_EXPORT = TRANSFORMED, XML
-EFE_TRANSFORMED_SOURCE_NAME = Transformed.xml
+Add the following mapping at the bottom of the file:
+
+<pre class="language-properties"><code class="lang-properties"><strong>EMBEDDED_FILES_EXPORT = TRANSFORMED, XML
+</strong>EFE_TRANSFORMED_SOURCE_NAME = Transformed.xml
 EFE_TRANSFORMED_EXPORT_DOC_TYPE = M3_SupplierInvoice
 EFE_TRANSFORMED_EXPORT_FILENAME = SV_XML_FILE_PREFIX+IF_INVOICE_ID+SV_XML_FILE_EXTENSION
 
 EFE_XML_SOURCE_NAME = XML_DOCUMENT.xml
 EFE_XML_EXPORT_DOC_TYPE = M3_SupplierInvoice
 EFE_XML_EXPORT_FILENAME = SV_XML_FILE_PREFIX+IF_INVOICE_ID+SV_XML_FILE_EXTENSION
-```
+</code></pre>
 
-#### For EDI:
+Note: Ensure that **export\_doc\_type** is set to the IDM invoice type. In this example, it is set for **M3**.
 
-<figure><img src="../../../../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (373).png" alt=""><figcaption></figcaption></figure>
+
+### EDI Mapping
+
+Add the following mapping at the bottom of the file:
 
 ```properties
 EMBEDDED_FILES_EXPORT = TRANSFORMED, EDI
@@ -70,6 +77,10 @@ EFE_EDI_SOURCE_NAME = EDI.edi
 EFE_EDI_EXPORT_DOC_TYPE = M3_SupplierInvoice
 EFE_EDI_EXPORT_FILENAME = SV_EDI_FILE_PREFIX+IF_INVOICE_NUMBER+SV_EDI_FILE_EXTENSION
 ```
+
+Note: Ensure that **export\_doc\_type** is set to the IDM invoice type. In this example, it is set for **M3**.
+
+<figure><img src="../../../../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure>
 
 ### Document Manager in Infor
 
