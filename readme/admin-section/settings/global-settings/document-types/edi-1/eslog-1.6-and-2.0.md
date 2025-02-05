@@ -13,13 +13,15 @@ Beide eSLOG-Versionen sind standardmäßig aktiviert.
 **eSLOG konfigurieren:**
 
 * Navigieren Sie zu **Einstellungen → Globale Einstellungen → Dokumenttypen → Rechnung**.
-*   Klicken Sie auf **E-Doc**.
+*   Klicken Sie auf **E-Doc**.\
 
-    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FctcfxakxpfAcknvIueSQ%252Fimage.png%3Falt%3Dmedia%26token%3Dca599f1e-323d-4b61-99af-760f5f51a75d\&width=768\&dpr=4\&quality=100\&sign=3eee1abc\&sv=2)
+
+    <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 * Eine Liste aller verfügbaren e-Dokumente wird angezeigt.
-*   Suchen Sie die eSLOG-Version, die Sie modifizieren möchten.
+*   Suchen Sie die eSLOG-Version, die Sie modifizieren möchten.\
 
-    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FzWM10W6vAigJ44spm4ai%252Fimage.png%3Falt%3Dmedia%26token%3Db61fe4e5-517b-47da-89ca-13a53d370abf\&width=768\&dpr=4\&quality=100\&sign=9d2c40e3\&sv=2)
+
+    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Transformation und XML-Pfadkonfiguration:**
 

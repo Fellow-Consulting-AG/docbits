@@ -16,4 +16,4 @@ In Docbits bieten die EDI-Einstellungen Werkzeuge zur Definition und Verwaltung 
 2. **XSLT-Editor**:
    * Wird zum Bearbeiten und Validieren des XSLT (eXtensible Stylesheet Language Transformations) verwendet, das im Transformationsprozess eingesetzt wird. XSLT ist eine leistungsstarke Sprache, die für die Transformation von XML-Dokumenten in andere XML-Dokumente oder andere Formate wie HTML, Text oder sogar andere XML-Strukturen entwickelt wurde.
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FieRXQlB3JoUGYTTHQJUe%252FBildschirmfoto%25202024-05-08%2520um%252009.49.59.png%3Falt%3Dmedia%26token%3D5c3e0704-10c1-49a5-bd71-7f79f854bfb8\&width=768\&dpr=4\&quality=100\&sign=28352530\&sv=2)
+<figure><img src="../../../../../.gitbook/assets/e-docs .jpg" alt=""><figcaption></figcaption></figure>

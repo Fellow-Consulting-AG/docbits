@@ -10,7 +10,7 @@ Der **\{{magic\_link\}}** ist ein Platzhalter, der beim Versenden der E-Mail aut
 
 **Bearbeiten von E-Mail-Vorlagen**
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -24,7 +24,7 @@ Der **\{{magic\_link\}}** ist ein Platzhalter, der beim Versenden der E-Mail aut
    Der Editor ermöglicht es Ihnen, sowohl den HTML-Code als auch das visuelle Design der E-Mail zu bearbeiten.\
    Sie können über die bereitgestellten Registerkarten zwischen der visuellen Bearbeitung und dem Code-Editor wechseln.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
