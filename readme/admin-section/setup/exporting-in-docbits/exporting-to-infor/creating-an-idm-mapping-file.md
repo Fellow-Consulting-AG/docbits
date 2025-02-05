@@ -41,8 +41,6 @@ SV_EDI_FILE_EXTENSION=.xml
 SV_XML_FILE_EXTENSION=.xml
 ```
 
-After that, add the actual mapping, making sure the export document type corresponds to the IDM Supplier type.
-
 <figure><img src="../../../../.gitbook/assets/image (371).png" alt=""><figcaption></figcaption></figure>
 
 ### XML Mapping
