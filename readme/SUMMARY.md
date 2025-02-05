@@ -76,6 +76,8 @@
           * [Gestion des Factures Dupliquées Dans DocBits](admin-section/settings/global-settings/document-types/more-settings/duplicate-invoice-handling-in-docbits.md)
           * [Carte des Numéros d'Article Fournisseur - Documentation Administrateur](admin-section/settings/global-settings/document-types/more-settings/carte-des-numeros-darticle-fournisseur-documentation-administrateur.md)
           * [Dépannage](admin-section/settings/global-settings/document-types/more-settings/depannage.md)
+        * [e-docs](admin-section/settings/global-settings/document-types/e-docs/README.md)
+          * [eSLOG 1.6 et 2.0](admin-section/settings/global-settings/document-types/e-docs/eslog-1.6-et-2.0.md)
       * [Notification par e-mail](admin-section/settings/global-settings/email-notification/README.md)
         * [Configuration des Notifications](admin-section/settings/global-settings/email-notification/configuration-des-notifications.md)
         * [Gestion des Notifications](admin-section/settings/global-settings/email-notification/gestion-des-notifications.md)
