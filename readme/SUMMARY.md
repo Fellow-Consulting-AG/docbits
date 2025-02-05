@@ -182,7 +182,7 @@
       * [Export Module](setup/exporting-in-docbits/export-module.md)
       * [Exporting to INFOR](setup/exporting-in-docbits/exporting-to-infor/README.md)
         * [Creating a BOD Mapping File](setup/exporting-in-docbits/exporting-to-infor/creating-a-bod-mapping-file.md)
-        * [Creating an IDM Mapping File](setup/exporting-in-docbits/exporting-to-infor/creating-an-idm-mapping-file.md)
+        * [Creando un Archivo de Mapeo IDM](setup/exporting-in-docbits/exporting-to-infor/creating-an-idm-mapping-file.md)
         * [Creating an ION API Endpoint](setup/exporting-in-docbits/exporting-to-infor/creating-an-ion-api-endpoint.md)
         * [Creating an ION API File](setup/exporting-in-docbits/exporting-to-infor/creating-an-ion-api-file.md)
         * [Export to M3 Mapping (API)](setup/exporting-in-docbits/exporting-to-infor/export-to-m3-mapping-api.md)
