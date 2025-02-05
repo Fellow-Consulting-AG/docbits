@@ -25,5 +25,3 @@ The Fields setting provides a user interface where administrators can manage the
    * **Create New Field**: Allows adding new fields to the document type.
    * **Edit Icons**: Each field has an edit icon that allows administrators to further configure field-specific settings, such as data type, default values, or connected business logic.
    * **Save Settings**: Commits the changes made to the field configurations.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2494" %}
