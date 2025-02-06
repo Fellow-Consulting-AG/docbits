@@ -6,7 +6,7 @@ This module contains functions for manipulating document data and performing var
 
 ## **Functions**
 
-### **set\_field\_value(document\_data, field\_name, value)**
+### **set\_field\_value()**
 
 Sets the value of a field in the document data.
 
@@ -23,9 +23,9 @@ else:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name</td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value</td><td><code>any</code></td><td>The value to set for the field</td></tr></tbody></table>
+<table><thead><tr><th width="177">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>The value to set for the field</td></tr></tbody></table>
 
-### **set\_date\_value(document\_data, field\_name, value, add\_days=0, skip\_weekend=False)**
+### **set\_date\_value()**
 
 Sets the value of a date field in the document data.
 
@@ -40,9 +40,9 @@ if not document_json.get("script_executed", False):
 
 #### Parameters:
 
-<table><thead><tr><th width="229">Name</th><th width="138">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name</td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value</td><td><code>string</code></td><td>The date value to set in ISO format (e.g., "2020-12-31").</td></tr><tr><td>add_days (optional)</td><td><code>int</code></td><td>Add additional days to the given date</td></tr><tr><td>skip_weekend (optional)</td><td><code>bool</code></td><td>Skips the date if it falls on the weekend</td></tr></tbody></table>
+<table><thead><tr><th width="229">Name</th><th width="138">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The date value to set in ISO format (e.g., "2020-12-31").</td></tr><tr><td>add_days (optional)</td><td><code>int</code></td><td>Add additional days to the given date<br>Default is 0</td></tr><tr><td>skip_weekend (optional)</td><td><code>bool</code></td><td>Skips the date if it falls on the weekend<br>Default is <code>False</code></td></tr></tbody></table>
 
-### **set\_amount\_value(document\_data, field\_name, value)**
+### **set\_amount\_value()**
 
 Sets the value of an amount field in the document data.
 
@@ -54,9 +54,9 @@ set_amount_value(document_data, "net_amount",str(lines_total))
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name</td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value</td><td><code>string</code></td><td>The value to set for the field (pass a number as string e.g., "123456"</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The value to set for the field (pass a number as string e.g., "123456"</td></tr></tbody></table>
 
-### **get\_field\_value(document\_data, field\_name, default\_value=None, is\_clean=False)**
+### **get\_field\_value()**
 
 Gets the value of a field from the document data.
 
@@ -66,13 +66,13 @@ lines_total = 0.0
 set_amount_value(document_data, "net_amount", str(lines_total))
 ```
 
-<table><thead><tr><th width="191">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name</td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>default_value (optional)</td><td><code>any</code></td><td>Returns default_value if no field value is found</td></tr><tr><td>is_clean (optional)</td><td><code>bool</code></td><td>Converts the value to uppercase and removes any extra spaces</td></tr></tbody></table>
+<table><thead><tr><th width="191">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>default_value (optional)</td><td><code>any</code></td><td>Returns default_value if no field value is found<br>Default is <code>None</code></td></tr><tr><td>is_clean (optional)</td><td><code>bool</code></td><td>Converts the value to uppercase and removes any extra spaces<br>Default is <code>False</code></td></tr></tbody></table>
 
 Returns:
 
 * Value of the specified field
 
-### **create\_new\_field(field\_name, value="")**
+### **create\_new\_field()**
 
 Creates a new field with the specified name and value.
 
@@ -89,13 +89,13 @@ if not currency:
 
 #### Parameters:
 
-<table><thead><tr><th width="140">Name</th><th width="133">Type</th><th>Description</th></tr></thead><tbody><tr><td>field_name</td><td><code>str</code></td><td>The document data containing field information</td></tr><tr><td>value</td><td><code>any</code></td><td>The initial value for the field (default is an empty string).</td></tr></tbody></table>
+<table><thead><tr><th width="140">Name</th><th width="133">Type</th><th>Description</th></tr></thead><tbody><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>str</code></td><td>The document data containing field information</td></tr><tr><td>value (optional)</td><td><code>any</code></td><td>The initial value for the field <br>Default is <code>""</code></td></tr></tbody></table>
 
 #### Returns:
 
 * Dictionary of the new created field
 
-### **delete\_field(document\_data, field\_name)**
+### **delete\_field()**
 
 Deletes a field from the document data
 
@@ -111,13 +111,13 @@ field_amount = get_field_value(document_data, field_name)
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name</td><td><code>string</code></td><td>The name of the field to delete</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to delete</td></tr></tbody></table>
 
 #### Returns:
 
 * Document\_data as json and as dict after field got deleted
 
-### **set\_is\_required(document\_data, field\_name, value)**
+### **set\_is\_required()**
 
 Sets the 'is\_required' attribute of a field in the document data.
 
@@ -130,9 +130,9 @@ if net_amount:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name</td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value</td><td><code>bool</code></td><td>The value to set for the field</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>bool</code></td><td>The value to set for the field</td></tr></tbody></table>
 
-### **set\_force\_validation(document\_data, field\_name, value, reset\_validation=False)**
+### **set\_force\_validation()**
 
 Sets the 'force\_validation' attribute of a field in the document data.
 
@@ -143,9 +143,9 @@ if supplier_id in supplier_to_check:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name</td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value</td><td><code>bool</code></td><td>The value to set for the field</td></tr><tr><td>reset_validation (optional)</td><td><code>bool</code></td><td>Sets the "is_validated" attribute to the specified value</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>bool</code></td><td>The value to set for the field</td></tr><tr><td>reset_validation (optional)</td><td><code>bool</code></td><td>Sets the "is_validated" attribute to the specified value<br>Default is <code>False</code></td></tr></tbody></table>
 
-### **set\_field\_as\_invalid(document\_data, field\_name, message, code=None)**
+### **set\_field\_as\_invalid()**
 
 Marks a field as invalid in the document data.
 
@@ -156,9 +156,9 @@ if not document_date:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name</td><td><code>string</code></td><td>The name of the field to mark as invalid</td></tr><tr><td>message</td><td><code>string</code></td><td>The validation message for the field</td></tr><tr><td>code (optional)</td><td><code>string</code></td><td>Error code for the validation (default is None)</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to mark as invalid</td></tr><tr><td>message<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The validation message for the field</td></tr><tr><td>code (optional)</td><td><code>string</code></td><td><p>Error code for the validation </p><p>Default is <code>None</code></p></td></tr></tbody></table>
 
-### **set\_field\_attribute(document\_data, field\_name, attribute\_name, value)**
+### **set\_field\_attribute()**
 
 Sets a custom attribute of a field in the document data.
 
@@ -173,9 +173,9 @@ if purchase_order:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name</td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>attribute_name</td><td><code>string</code></td><td>The name of the attribute to set</td></tr><tr><td>value</td><td><code>any</code></td><td>The value to set for the attribute</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the attribute to set</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>The value to set for the attribute</td></tr></tbody></table>
 
-### **is\_supplier\_valid(user: UserAuthentication, filter\_data\_json, sub\_org\_id=None)**
+### **is\_supplier\_valid()**
 
 Checks if a supplier is valid based on the provided criteria.
 
@@ -185,14 +185,14 @@ bool = is_supplier_valid(user, {"name": "Supplier Inc."})
 
 #### Parameters:
 
-<table><thead><tr><th width="203">Name</th><th width="216">Type</th><th>Description</th></tr></thead><tbody><tr><td>user </td><td><code>UserAuthentication</code></td><td>The authenticated user</td></tr><tr><td>filter_data_json</td><td><code>json</code></td><td>Filter criteria for validating the supplier</td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering</td></tr><tr><td>value</td><td><code>any</code></td><td>The value to set for the attribute</td></tr></tbody></table>
+<table><thead><tr><th width="203">Name</th><th width="216">Type</th><th>Description</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td><code>UserAuthentication</code></td><td>The authenticated user</td></tr><tr><td>filter_data_json<mark style="color:red;">*</mark></td><td><code>json</code></td><td>Filter criteria for validating the supplier</td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr></tbody></table>
 
 Returns:
 
 * True, if the user is valid
 * False if the user isn’t valid
 
-### **get\_document\_content(document\_data)**
+### **get\_document\_content()**
 
 Returns the document content based on the document data.
 
@@ -204,28 +204,28 @@ if document_content:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr></tbody></table>
 
 #### Returns:
 
 * Document content of document data.
 
-### **update\_document\_status\_with\_doc\_id(doc\_id, user, org\_id, status, message=None, doc\_classification\_class=None)**
+### **update\_document\_status\_with\_doc\_id()**
 
 Updates the status of a document with the specified ID.
 
 ```python
-genehmigung_user_1   = get_field_value(document_data, 'genehmigung_user_1', None)
+genehmigung_user_1 = get_field_value(document_data, 'genehmigung_user_1', None)
 
-if genehmigung_user_1!="LEER":
+if genehmigung_user_1 != "LEER":
     update_document_status_with_doc_id(document_json['doc_id'], user, document_json['org_id'], "validated_pending_approval")
 ```
 
 #### Parameters:
 
-<table><thead><tr><th width="228">Name</th><th width="216">Type</th><th>Description</th></tr></thead><tbody><tr><td>doc_id</td><td><code>string</code></td><td>The ID of the document to update</td></tr><tr><td>user</td><td>either <code>user ID</code> or <code>UserAuthentication</code> object</td><td>The user performing the update</td></tr><tr><td>org_id</td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>status</td><td><code>string</code></td><td>The new status of the document</td></tr><tr><td>message (optional)</td><td><code>string</code></td><td>Optional message associated with the status update</td></tr><tr><td>doc_classification_class (optional)</td><td><code>string</code></td><td>Optional document classification class</td></tr></tbody></table>
+<table><thead><tr><th width="228">Name</th><th width="216">Type</th><th>Description</th></tr></thead><tbody><tr><td>doc_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the document to update</td></tr><tr><td>user<mark style="color:red;">*</mark></td><td>either <code>user ID</code> or <code>UserAuthentication</code> object</td><td>The user performing the update</td></tr><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>status<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The new status of the document</td></tr><tr><td>message (optional)</td><td><code>string</code></td><td>Optional message associated with the status update<br>Default is <code>None</code></td></tr><tr><td>doc_classification_class (optional)</td><td><code>string</code></td><td>Optional document classification class<br>Default is <code>None</code></td></tr></tbody></table>
 
-### **get\_lov\_values(org\_id, key, return\_type="list\_of\_objects", sub\_org\_id=None)**
+### **get\_lov\_values()**
 
 Gets the LOV values from a specific org\_id.
 
@@ -235,13 +235,13 @@ reverse_charge_to_check = get_lov_values(org_id, 'Kosten', return_type="list_of_
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>org_id</td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>The type in which the data should be returned</td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr></tbody></table>
 
 #### Returns:
 
 * LOV-Values as a list of objects or as a list.
 
-### **format\_decimal\_to\_locale(value, to\_locale="en\_US.UTF-8", max\_decimal\_places=4, min\_decimal\_places=2)**
+### **format\_decimal\_to\_locale()**
 
 Formats a decimal value to en\_US.UTF-8 format.
 
@@ -254,7 +254,7 @@ formatted_value = format_decimal_to_locale(
 
 #### Parameters:
 
-<table><thead><tr><th width="208">Name</th><th width="187">Type</th><th>Description</th></tr></thead><tbody><tr><td>value</td><td><code>float, decimal.Decimal, str</code> </td><td>The ID of the organization to which the document belongs</td></tr><tr><td>to_locale (optional)</td><td><code>string</code></td><td>The type in which the data should be returned</td></tr><tr><td>max_decimal_places (optional)</td><td><code>int</code></td><td>Optional sub-organization ID for filtering</td></tr><tr><td>min_decimal_places (optional)</td><td><code>int</code></td><td>The minimum of decimal places which should be considered</td></tr></tbody></table>
+<table><thead><tr><th width="208">Name</th><th width="187">Type</th><th>Description</th></tr></thead><tbody><tr><td>value<mark style="color:red;">*</mark></td><td><code>float, decimal.Decimal, str</code> </td><td>The ID of the organization to which the document belongs</td></tr><tr><td>to_locale (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'en_US.UTF-8'</code></td></tr><tr><td>max_decimal_places (optional)</td><td><code>int</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>4</code></td></tr><tr><td>min_decimal_places (optional)</td><td><code>int</code></td><td>The minimum of decimal places which should be considered<br>Default is <code>2</code></td></tr></tbody></table>
 
 * value: The value which should be formatted.
 * to\_locale (optional): The format in which the value gets transformed.
@@ -265,7 +265,7 @@ formatted_value = format_decimal_to_locale(
 
 * The formatted value.
 
-### **compare\_values(value1, value2)**
+### **compare\_values()**
 
 Compares two values for equality, handling various data types.
 
@@ -275,13 +275,13 @@ result = compare_values(10, "10")
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>value1</td><td><code>any</code></td><td>The first value to compare</td></tr><tr><td>value2</td><td><code>any</code></td><td>The second value to compare</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>value1<mark style="color:red;">*</mark></td><td><code>any</code></td><td>The first value to compare</td></tr><tr><td>value2<mark style="color:red;">*</mark></td><td><code>any</code></td><td>The second value to compare</td></tr></tbody></table>
 
 #### Returns:
 
 * True if the values are equal and False if they differ
 
-### **create\_document\_task( user, document\_data, title, description, priority,** **assigned\_to\_user\_id, assigned\_to\_group\_id, send\_email: bool)**
+### **create\_document\_task()**
 
 Creates a task, assigns it to a user or group, sets priority, and optionally sends an email.
 
@@ -293,13 +293,13 @@ if not is_task_created:
 
 #### Parameters:
 
-<table><thead><tr><th width="211">Name</th><th width="217">Type</th><th>Description</th></tr></thead><tbody><tr><td>user</td><td>either <code>user ID</code> or <code>UserAuthentication</code> object</td><td>The user performing the update</td></tr><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>title</td><td><code>string</code></td><td>The title of the task</td></tr><tr><td>description</td><td><code>string</code></td><td>The description of the task</td></tr><tr><td>priority</td><td><code>string</code></td><td>The priority of the task</td></tr><tr><td>assigned_to_user_id</td><td><code>int</code></td><td>The id of the user to which the task should assigned to</td></tr><tr><td>assigned_to_group_id</td><td><code>int</code></td><td>The id of the group to which the task should assigned to</td></tr><tr><td>send_email</td><td><code>bool</code></td><td>Determine if an email should be send or not</td></tr></tbody></table>
+<table><thead><tr><th width="216">Name</th><th width="217">Type</th><th>Description</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td>either <code>user ID</code> or <code>UserAuthentication</code> object</td><td>The user performing the update</td></tr><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>title<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The title of the task</td></tr><tr><td>description<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The description of the task</td></tr><tr><td>priority<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The priority of the task</td></tr><tr><td>assigned_to_user_id<mark style="color:red;">*</mark></td><td><code>int</code></td><td>The id of the user to which the task should assigned to</td></tr><tr><td>assigned_to_group_id<mark style="color:red;">*</mark></td><td><code>int</code></td><td>The id of the group to which the task should assigned to</td></tr><tr><td>send_email<mark style="color:red;">*</mark></td><td><code>bool</code></td><td>Determine if an email should be send or not</td></tr></tbody></table>
 
 #### Returns:
 
 * Dict which is indicating if the process was successful or not
 
-### **set\_document\_sub\_org\_id(document\_data, sub\_org\_id)**
+### **set\_document\_sub\_org\_id()**
 
 Sets the sub\_org\_id of the specified document\_data.
 
@@ -311,9 +311,9 @@ if sub_org_id != current_sub_org_id:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>sub_org_id</td><td><code>string</code></td><td>Optional sub-organization ID for filtering</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>sub_org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Optional sub-organization ID for filtering</td></tr></tbody></table>
 
-### **get\_user\_by\_id(user\_id)**
+### **get\_user\_by\_id()**
 
 Gets the user with the corresponding user ID.
 
@@ -323,13 +323,13 @@ requester_mail = str(get_user_by_id(str(requester)).email.lower())
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>user_id</td><td><code>string</code></td><td>The ID of the user</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>user_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the user</td></tr></tbody></table>
 
 #### Returns:
 
 * The user with the corresponding user ID
 
-### **get\_group\_by\_id(group\_id)**
+### **get\_group\_by\_id()**
 
 Gets the group with the corresponding group ID.
 
@@ -339,13 +339,13 @@ group_name  = str(get_group_by_id(assigned_to_group_id))
 
 Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>group_id</td><td><code>string</code></td><td>The ID of the group</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>group_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the group</td></tr></tbody></table>
 
 #### Returns:
 
 * The group with the corresponding group ID
 
-### **add\_table\_column(table, col\_name, default\_value=None)**
+### **add\_table\_column()**
 
 Adds a column to the corresponding table.
 
@@ -358,9 +358,9 @@ if table:
 
 Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>table</td><td><code>string</code></td><td>The table where the column should be added</td></tr><tr><td>col_name</td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>default_value (optional)</td><td><code>any</code></td><td>The initial value for the field (default is an empty string)</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>table<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The table where the column should be added</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>default_value (optional)</td><td><code>any</code></td><td><p>The initial value for the field </p><p>Default is <code>None</code></p></td></tr></tbody></table>
 
-### **get\_column\_value(row, column\_name, default\_value=None, is\_clean=False)**
+### **get\_column\_value()**
 
 Gets the value of a specified column.
 
@@ -371,13 +371,13 @@ for row in table['rows']:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>row</td><td><code>string</code></td><td>The row where the value is located</td></tr><tr><td>col_name</td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>default_value (optional)</td><td><code>any</code></td><td>The initial value for the field (default is an empty string)</td></tr><tr><td>is_clean (optional)</td><td><code>bool</code></td><td>Converts the value to uppercase and removes any extra spaces</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The row where the value is located</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>default_value (optional)</td><td><code>any</code></td><td>The initial value for the field<br>Default is <code>None</code></td></tr><tr><td>is_clean (optional)</td><td><code>bool</code></td><td>Converts the value to uppercase and removes any extra spaces<br>Default is <code>False</code></td></tr></tbody></table>
 
 #### Returns
 
 * The value of the specified column
 
-### **set\_column\_value(row, column\_name, value)**
+### **set\_column\_value()**
 
 Sets the value of a specified column.
 
@@ -392,13 +392,13 @@ for row in quote_table.get('rows', []):
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>row</td><td><code>string</code></td><td>The row where the value is located</td></tr><tr><td>col_name</td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>value</td><td><code>any</code></td><td>The value that will be set at the specified location</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The row where the value is located</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>The value that will be set at the specified location</td></tr></tbody></table>
 
 #### Returns:
 
 * True if the change was successful
 
-### **set\_column\_date\_value(document\_data, row, column\_name, value, add\_days=0)**
+### **set\_column\_date\_value()**
 
 Sets the date value of a specified column.
 
@@ -408,9 +408,9 @@ set_column_date_value(document_data, row, "DELIVERY_DATE", "2020-12-31", add_day
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>row</td><td><code>string</code></td><td>The row where the value is located</td></tr><tr><td>col_name</td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>value</td><td><code>string</code></td><td>The date value to set in ISO format (e.g., "2020-12-31")</td></tr><tr><td>add_days</td><td><code>int</code></td><td>Add additional days to the given date</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The row where the value is located</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The date value to set in ISO format (e.g., "2020-12-31")</td></tr><tr><td>add_days (optional)</td><td><code>int</code></td><td>Add additional days to the given date<br>Default is <code>2</code></td></tr></tbody></table>
 
-### **set\_column\_amount\_value(document\_data, row, column\_name, value)**
+### **set\_column\_amount\_value()**
 
 * Convert value to string and set the value for the column
 * Set column content to the value
@@ -423,9 +423,9 @@ set_column_amount_value(document_data, row, "QUANTITY", str(quantity))
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>row</td><td><code>string</code></td><td>The row where the value is located</td></tr><tr><td>column_name</td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>value</td><td><code>string</code></td><td>The value to set for the field (pass a number as string e.g., "123456")</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The row where the value is located</td></tr><tr><td>column_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The value to set for the field (pass a number as string e.g., "123456")</td></tr></tbody></table>
 
-### **remove\_rows\_from\_table(document\_data, table\_name, count, start)**
+### **remove\_rows\_from\_table()**
 
 Removes rows from the specified table.
 
@@ -437,9 +437,9 @@ remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>table_name</td><td><code>string</code></td><td>The name of the table</td></tr><tr><td>count</td><td><code>int</code></td><td>How many lines should be deleted</td></tr><tr><td>start</td><td><code>int</code></td><td>The starting point</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>table_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the table</td></tr><tr><td>count<mark style="color:red;">*</mark></td><td><code>int</code></td><td>How many lines should be deleted</td></tr><tr><td>start<mark style="color:red;">*</mark></td><td><code>int</code></td><td>The starting point</td></tr></tbody></table>
 
-### **remove\_all\_rows\_except\_one\_from\_table(document\_data, line\_number)**
+### **remove\_all\_rows\_except\_one\_from\_table()**
 
 Removes all rows except one from the specified table
 
@@ -451,7 +451,7 @@ remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data</td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>line_number</td><td><code>int</code></td><td>The number of the line which should not be removed</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>line_number<mark style="color:red;">*</mark></td><td><code>int</code></td><td>The number of the line which should not be removed</td></tr></tbody></table>
 
 
 
