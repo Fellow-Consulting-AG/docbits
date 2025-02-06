@@ -147,7 +147,7 @@ if supplier_id in supplier_to_check:
 
 ### **set\_field\_as\_invalid()**
 
-Marks a field as invalid in the document data.
+Marks a field in the validation screen as invalid and highlights it.
 
 ```python
 if not document_date:
@@ -194,7 +194,7 @@ Returns:
 
 ### **get\_document\_content()**
 
-Returns the document content based on the document data.
+Decodes document data and returns it as a string.
 
 ```python
 document_content = get_document_content(doc)
@@ -208,11 +208,11 @@ if document_content:
 
 #### Returns:
 
-* Document content of document data.
+* Document data as a string.
 
 ### **update\_document\_status\_with\_doc\_id()**
 
-Updates the status of a document with the specified ID.
+Updates the status of a document with a specific ID to the given status.
 
 ```python
 genehmigung_user_1 = get_field_value(document_data, 'genehmigung_user_1', None)
@@ -227,7 +227,7 @@ if genehmigung_user_1 != "LEER":
 
 ### **get\_lov\_values()**
 
-Gets the LOV values from a specific org\_id.
+Gets the LOV values from a specific org\_id and key.
 
 ```python
 reverse_charge_to_check = get_lov_values(org_id, 'Kosten', return_type="list_of_values")
@@ -235,7 +235,7 @@ reverse_charge_to_check = get_lov_values(org_id, 'Kosten', return_type="list_of_
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The key of the specified List Of Values </td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr></tbody></table>
 
 #### Returns:
 
@@ -347,7 +347,7 @@ Parameters:
 
 ### **add\_table\_column()**
 
-Adds a column to the corresponding table.
+Adds a column to the specified  table.
 
 ```python
 table = tables_dict.get("ORDER_CONFIRMATION_TABLE")
@@ -427,7 +427,7 @@ set_column_amount_value(document_data, row, "QUANTITY", str(quantity))
 
 ### **remove\_rows\_from\_table()**
 
-Removes rows from the specified table.
+Removes rows from the specified table.&#x20;
 
 ```python
 count = 1
