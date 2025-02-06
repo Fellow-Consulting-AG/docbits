@@ -70,7 +70,7 @@ set_amount_value(document_data, "net_amount", str(lines_total))
 
 Returns:
 
-* Value of the field
+* Value of the specified field
 
 ### **create\_new\_field(field\_name, value="")**
 
