@@ -235,7 +235,7 @@ reverse_charge_to_check = get_lov_values(org_id, 'Kosten', return_type="list_of_
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The key of the specified List Of Values </td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The key of the required  List Of Values </td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr></tbody></table>
 
 #### Returns:
 
