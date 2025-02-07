@@ -6,9 +6,9 @@ Ir a **Ajuste → Ajuste General → Tipos de Documentos → Más Configuracione
 
 #### **Cómo Funciona**
 
-La configuración de **Estados de Desactivación de OC** permite a los usuarios especificar estados de órdenes de compra (OC) que impiden que las facturas se emparejen con esas OCs. Si una orden de compra tiene un estado listado en esta configuración, **no puede** ser utilizada para el emparejamiento de facturas en la pantalla de emparejamiento de OC. Esto detendrá el procesamiento adicional de la OC hasta que su estado cambie a uno que no esté desactivado.
+La configuración de **Estados de PO Deshabilitados** permite a los usuarios especificar los estados de las órdenes de compra (PO) que impiden que las facturas se emparejen con esas POs. Si una orden de compra tiene un estado listado en esta configuración, **no se puede** utilizar para el emparejamiento de facturas en la pantalla de emparejamiento de PO, deteniendo el procesamiento adicional de las facturas relacionadas hasta que el estado de la PO cambie a uno que no esté deshabilitado.
 
-Esto detendrá el procesamiento adicional de la factura hasta que el estado de la OC cambie a uno que no esté desactivado. Al usar esta configuración, los usuarios pueden asegurarse de que las órdenes de compra con estados específicos no pasen por un procesamiento adicional de facturas, reduciendo errores y evitando pagos innecesarios.
+Al utilizar esta configuración, los usuarios pueden asegurarse de que las órdenes de compra con estados específicos no sean sometidas a un procesamiento adicional de facturas, reduciendo errores y evitando pagos innecesarios.
 
 #### **Cómo Identificar una Orden de Compra Desactivada**
 
