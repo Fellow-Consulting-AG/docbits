@@ -6,9 +6,9 @@ Allez à **Paramètres → Paramètres généraux → Types de documents → Plu
 
 #### **Comment ça fonctionne**
 
-Le paramètre **Statuts de désactivation de CA** permet aux utilisateurs de spécifier les statuts de commande d'achat (CA) qui empêchent les factures d'être associées à ces CA. Si une commande d'achat a un statut répertorié dans ce paramètre, elle **ne peut pas** être utilisée pour l'appariement des factures dans l'écran d'appariement des CA. Cela arrêtera le traitement ultérieur de la CA jusqu'à ce que son statut change pour un statut qui n'est pas désactivé.
+Le paramètre **Statuts de désactivation des commandes d'achat (PO)** permet aux utilisateurs de spécifier les statuts de commande d'achat (PO) qui empêchent les factures d'être associées à ces POs. Si une commande d'achat a un statut répertorié dans ce paramètre, elle **ne peut pas** être utilisée pour l'appariement des factures dans l'écran d'appariement des POs, stoppant ainsi le traitement ultérieur des factures associées jusqu'à ce que le statut de la PO change pour un statut qui n'est pas désactivé.
 
-Cela arrêtera le traitement ultérieur de la facture jusqu'à ce que le statut de la CA change pour un statut qui n'est pas désactivé. En utilisant ce paramètre, les utilisateurs peuvent s'assurer que les commandes d'achat avec des statuts spécifiques ne subissent pas de traitement supplémentaire des factures, réduisant ainsi les erreurs et empêchant les paiements inutiles.
+En utilisant ce paramètre, les utilisateurs peuvent s'assurer que les commandes d'achat avec des statuts spécifiques ne subissent pas de traitement ultérieur des factures, réduisant ainsi les erreurs et empêchant les paiements inutiles.
 
 #### **Comment identifier une commande d'achat désactivée**
 
