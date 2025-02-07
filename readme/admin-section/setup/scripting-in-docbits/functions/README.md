@@ -66,9 +66,11 @@ lines_total = 0.0
 set_amount_value(document_data, "net_amount", str(lines_total))
 ```
 
+#### Parameters:
+
 <table><thead><tr><th width="191">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>default_value (optional)</td><td><code>any</code></td><td>Returns default_value if no field value is found<br>Default is <code>None</code></td></tr><tr><td>is_clean (optional)</td><td><code>bool</code></td><td>Converts the value to uppercase and removes any extra spaces<br>Default is <code>False</code></td></tr></tbody></table>
 
-Returns:
+#### Returns:
 
 * Value of the specified field
 
@@ -187,7 +189,7 @@ bool = is_supplier_valid(user, {"name": "Supplier Inc."})
 
 <table><thead><tr><th width="203">Name</th><th width="216">Type</th><th>Description</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td><code>UserAuthentication</code></td><td>The authenticated user</td></tr><tr><td>filter_data_json<mark style="color:red;">*</mark></td><td><code>json</code></td><td>Filter criteria for validating the supplier</td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr></tbody></table>
 
-Returns:
+#### Returns:
 
 * True, if the user is valid
 * False if the user isn’t valid
@@ -337,7 +339,7 @@ Gets the group with the corresponding group ID.
 group_name  = str(get_group_by_id(assigned_to_group_id))
 ```
 
-Parameters:
+#### Parameters:
 
 <table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>group_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the group</td></tr></tbody></table>
 
