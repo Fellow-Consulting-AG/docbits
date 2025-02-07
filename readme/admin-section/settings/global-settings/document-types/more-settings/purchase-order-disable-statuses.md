@@ -8,9 +8,9 @@ Gehe zu **Einstellungen → Allgemeine Einstellungen → Dokumenttypen → Weite
 
 #### **So funktioniert es**
 
-Die Einstellung **PO-Deaktivierungsstatus** ermöglicht es Benutzern, Bestellstatus (PO) anzugeben, die verhindern, dass Rechnungen mit diesen POs abgeglichen werden. Wenn eine Bestellung einen in dieser Einstellung aufgeführten Status hat, **kann** sie nicht für den Rechnungsabgleich im PO-Abgleichsbildschirm verwendet werden. Dies stoppt die weitere Bearbeitung der PO, bis ihr Status auf einen nicht deaktivierten Status geändert wird.
+Die Einstellung **"PO-Deaktivierungsstatus"** ermöglicht es Benutzern, Bestellstatus (PO) anzugeben, die verhindern, dass Rechnungen mit diesen POs abgeglichen werden. Wenn eine Bestellung einen in dieser Einstellung aufgeführten Status hat, **kann** sie nicht für den Rechnungsabgleich im PO-Abgleichsbildschirm verwendet werden, wodurch die weitere Verarbeitung der zugehörigen Rechnungen gestoppt wird, bis sich der Status der PO in einen nicht deaktivierten ändert.
 
-Dies stoppt die weitere Bearbeitung der Rechnung, bis der Status der PO auf einen nicht deaktivierten Status geändert wird. Durch die Verwendung dieser Einstellung können Benutzer sicherstellen, dass Bestellungen mit bestimmten Status nicht weiter bearbeitet werden, wodurch Fehler reduziert und unnötige Zahlungen verhindert werden.
+Durch die Verwendung dieser Einstellung können Benutzer sicherstellen, dass Bestellungen mit bestimmten Status nicht weiter bearbeitet werden, wodurch Fehler reduziert und unnötige Zahlungen verhindert werden.
 
 #### **So identifizierst du eine deaktivierte Bestellung**
 
