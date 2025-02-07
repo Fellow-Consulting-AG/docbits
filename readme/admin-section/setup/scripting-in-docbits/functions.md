@@ -1,7 +1,5 @@
 # Funciones
 
-## Funciones
-
 ## **Documentación Funcional**
 
 Este módulo contiene funciones para manipular datos de documentos y realizar diversas operaciones relacionadas con los campos del documento.
