@@ -6,9 +6,7 @@ Go to **Settings → General Settings → Document Types → More Settings → P
 
 ### **How it work**&#x20;
 
-The **PO Disable Statuses** setting allows users to specify purchase order (PO) statuses that prevent invoices from being matched to those POs. If a purchase order has a status listed in this setting, it **cannot** be used for invoice matching in the PO matching screen. This will stop further processing of the PO until its status changes to one that is not disabled.
-
-This will stop further processing of the Invoice until the status of the PO changes to one that is not disabled.\
+The **PO Disable Statuses** setting allows users to specify purchase order (PO) statuses that prevent invoices from being matched to those POs. If a purchase order has a status listed in this setting, it **cannot** be used for invoice matching in the PO matching screen, stopping further processing of related invoices until the PO's status changes to one that is not disabled.\
 \
 By using this setting, users can ensure that purchase orders with specific statuses do not undergo further invoice processing, reducing errors and preventing unnecessary payments.\
 
