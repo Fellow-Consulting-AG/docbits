@@ -181,7 +181,7 @@
           * [Purchase order disable statuses](admin-section/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md)
           * [Auto check for PO updates](admin-section/settings/global-settings/document-types/more-settings/auto-check-for-po-updates.md)
           * [Export not matched PO lines](admin-section/settings/global-settings/document-types/more-settings/export-not-matched-po-lines.md)
-          * [PO-Tabelle im Layout-Builder](admin-section/settings/global-settings/document-types/more-settings/po-tabelle-im-layout-builder.md)
+          * [PO Table in Layout Builder](admin-section/settings/global-settings/document-types/more-settings/po-table-in-layout-builder.md)
       * [Email Notification](admin-section/settings/global-settings/email-notification/README.md)
         * [Configuring Notifications](admin-section/settings/global-settings/email-notification/configuring-notifications.md)
         * [Managing Notifications](admin-section/settings/global-settings/email-notification/managing-notifications.md)
