@@ -53,11 +53,11 @@ These tests are designed to verify the functionality of the email import system 
 
 ## Sandbox
 
-|Automated Tests|Last Execution : 09-02-25 (06:11)|
+|Automated Tests|Last Execution : 10-02-25 (06:11)|
 |-|-|
 |[**Client Tests**](#client-tests)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Gmail Import](#gmail-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft Import](#microsoft-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft Import](#microsoft-import)|![badge](https://img.shields.io/badge/_-failed-red.svg)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Imap Import](#imap-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
 |[**Feature Tests**](#Feature-Tests)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Setup Email Import](#setup-email-import)|![badge](https://img.shields.io/badge/_-passed-green.svg)|
