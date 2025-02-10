@@ -401,6 +401,7 @@
         * [Example Export LN](admin-section/setup/exporting-in-docbits/exporting-to-infor/example-export-ln.md)
         * [Example Export M3](admin-section/setup/exporting-in-docbits/exporting-to-infor/example-export-m3.md)
         * [Document Export Mapping](admin-section/setup/exporting-in-docbits/exporting-to-infor/document-export-mapping.md)
+        * [Export Tax Codes to LN](admin-section/setup/exporting-in-docbits/exporting-to-infor/export-tax-codes-to-ln.md)
       * [Alternate Export](admin-section/setup/exporting-in-docbits/alternate-export.md)
     * [Document Training](admin-section/setup/document-training/README.md)
       * [Training Header Fields](admin-section/setup/document-training/training-header-fields.md)
