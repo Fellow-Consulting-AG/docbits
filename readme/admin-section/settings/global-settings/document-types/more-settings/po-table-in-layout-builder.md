@@ -13,18 +13,18 @@ Para habilitar este recurso:
 
 #### **Funcionalidade:**
 
-*   **Quando habilitado**:
+* **Quando habilitado**:
+  * A **tabela de Pedido de Compra** aparece dentro da **Seção de Tabela** no **Construtor de Layout**.
+  *   Nenhuma notificação sobre o módulo estar desativado será exibida.\
 
-    * A **tabela de Pedido de Compra** aparece dentro da **Seção de Tabela** no **Construtor de Layout**.
-    * Nenhuma notificação sobre o módulo estar desativado será exibida.
 
-    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FPEtwjoK0GOIG7GJ2UMWo%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250210132235.jpg%3Falt%3Dmedia%26token%3D4f69047d-86b0-4993-9086-14a8263420ee\&width=768\&dpr=4\&quality=100\&sign=e33d2d3b\&sv=2)
-*   **Quando desabilitado**:
+      <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+* **Quando desabilitado**:
+  * Uma dica indicará que o módulo está desativado.
+  *   A **tabela de PO** não será visível na **Tela de Validação**.\
 
-    * Uma dica indicará que o módulo está desativado.
-    * A **tabela de PO** não será visível na **Tela de Validação**.
 
-    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FHIZUbw1I9frvvLqJlGf9%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250210132235.jpg%3Falt%3Dmedia%26token%3D41aa055e-a658-41ec-94bb-8227a324476f\&width=768\&dpr=4\&quality=100\&sign=a05a167b\&sv=2)
+      <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Como Acessar o Construtor de Layout**
 
