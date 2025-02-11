@@ -79,6 +79,7 @@
           * [Paramètres de tolérance de commande d'achat / Tolérance de commande d'achat supplémentaire](admin-section/settings/global-settings/document-types/more-settings/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
           * [Statuts de désactivation de commande d'achat](admin-section/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md)
           * [Vérification automatique des mises à jour de CA](admin-section/settings/global-settings/document-types/more-settings/auto-check-for-po-updates.md)
+          * [Table PO dans le Constructeur de Mise en Page](admin-section/settings/global-settings/document-types/more-settings/po-table-in-layout-builder.md)
         * [e-docs](admin-section/settings/global-settings/document-types/edi-1/README.md)
           * [eSLOG 1.6 et 2.0](admin-section/settings/global-settings/document-types/edi-1/eslog-1.6-and-2.0.md)
       * [Notification par e-mail](admin-section/settings/global-settings/email-notification/README.md)
