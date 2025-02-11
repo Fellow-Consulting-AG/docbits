@@ -1,4 +1,4 @@
-# PO-Tabelle im Layout-Builder
+# PO Table in Layout Builder
 
 This setting controls the accessibility of the **Purchase Order (PO) table** in the **Layout Builder** and the **Validation Screen**.
 
@@ -25,7 +25,7 @@ To enable this feature:
     * The **PO table** will not be visible in the **Validation Screen**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250210132235 (1).jpg" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/iScreen Shoter - 20250210132147478.jpg" alt=""><figcaption></figcaption></figure>
 
 **How to Access the Layout Builder**
 
