@@ -1,6 +1,6 @@
 # Tabellenextraktion für Kostenelemente
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FhfKR7nRoSOXm7ms0X7P2%252FBildschirmfoto%25202024-09-20%2520um%252013.42.20.png%3Falt%3Dmedia%26token%3Dff914785-1bd7-41c5-a6c0-413058dbe9fc\&width=768\&dpr=4\&quality=100\&sign=2616709f\&sv=2)
+<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 Um den Tabellenextraktion für Kostenelemente zu aktivieren, müssen Sie die m3costingelement-Tabelle in DocBits importieren.
 
