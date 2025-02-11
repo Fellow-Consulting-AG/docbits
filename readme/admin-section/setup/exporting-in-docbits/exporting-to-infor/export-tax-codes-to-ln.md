@@ -56,54 +56,17 @@ This guide will walk you through the setup process to ensure tax codes are corre
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_8.png" alt=""><figcaption></figcaption></figure>
 
-| **Name**              | **Title**           | **Field Type** | **Value**          |
-| --------------------- | ------------------- | -------------- | ------------------ |
-| `tax_country`         | Tax Country         | Dropdown       | Tax\_Country       |
-| `tax_country`         | Tax Country Reduced | Dropdown       | Tax\_Country       |
-| `tax_country`         | Tax Country Free    | Dropdown       | Tax\_Country       |
-| `tax_code_1_dropdown` | Tax Code            | Dropdown       | Tax\_Code\_Full    |
-| `tax_code_2_dropdown` | Tax Code Reduced    | Dropdown       | Tax\_Code\_Reduced |
-| `tax_code_3_dropdown` | Tax Code Free       | Dropdown       | Tax\_Code\_Free    |
+<table data-header-hidden><thead><tr><th width="241"></th><th width="160"></th><th width="119"></th><th></th></tr></thead><tbody><tr><td><strong>Name</strong></td><td><strong>Title</strong></td><td><strong>Field Type</strong></td><td><strong>Value</strong></td></tr><tr><td><code>tax_country_full</code></td><td>Tax Country</td><td>Dropdown</td><td>Tax_Country</td></tr><tr><td><code>tax_country_reduced</code></td><td>Tax Country Reduced</td><td>Dropdown</td><td>Tax_Country</td></tr><tr><td><code>tax_country_free</code></td><td>Tax Country Free</td><td>Dropdown</td><td>Tax_Country</td></tr><tr><td><code>tax_code_1_dropdown</code></td><td>Tax Code</td><td>Dropdown</td><td>Tax_Code_Full</td></tr><tr><td><code>tax_code_2_dropdown</code></td><td>Tax Code Reduced</td><td>Dropdown</td><td>Tax_Code_Reduced</td></tr><tr><td><code>tax_code_3_dropdown</code></td><td>Tax Code Free</td><td>Dropdown</td><td>Tax_Code_Free</td></tr></tbody></table>
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/TaxCodes_10.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/TaxCodes_11.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/TaxCodes_12.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/TaxCodes_13.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/TaxCodes_14.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/TaxCodes_15.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/TaxCodes_13.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/TaxCodes_14.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/TaxCodes_15.png" alt=""><figcaption></figcaption></figure></div>
 
-4. After saving each field, click on **Save Settings** to apply the changes.
+4.  After saving each field, click on **Save Settings** to apply the changes.
 
-<figure><img src="../../../../.gitbook/assets/TaxCodes_20 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/TaxCodes_20.png" alt=""><figcaption></figcaption></figure>
 
-### Step 3: Add a Script
-
-To ensure the values are formatted correctly for processing by LN, you need to create a script.
-
-1. Navigate to **Settings** → **Global Settings** → **Document Types**.
-2. Select the Document Type where you want to add the script.
-3. Open the **Scripts** menu for the selected Document Type.
-4. Create a new script and follow these steps:
-   * Provide a name for your script.
-   * In the **Trigger On** dropdown menu, select **AFTER\_FORMATTING**.
-   *   Paste the working script (example below) into the script editor:
-
-       ```
-       tax_code_1_dropdown = get_field_value(document_data, 'tax_code_1_dropdown', None)
-       tax_code_2_dropdown = get_field_value(document_data, 'tax_code_2_dropdown', None)
-       tax_code_3_dropdown = get_field_value(document_data, 'tax_code_3_dropdown', None)
-
-       tax_country_1 = get_field_value(document_data, 'tax_country', None)
-       tax_country_2 = get_field_value(document_data, 'tax_country', None)
-       tax_country_3 = get_field_value(document_data, 'tax_country', None)
-
-       if tax_code_1_dropdown and tax_country_1:
-           set_field_value(document_data, "tax_code", tax_country_1 + "_" + tax_code_1_dropdown)
-       if tax_code_2_dropdown and tax_country_2:
-           set_field_value(document_data, "tax_code_2", tax_country_2 + "_" + tax_code_2_dropdown)
-       if tax_code_3_dropdown and tax_country_3:
-           set_field_value(document_data, "tax_code_3", tax_country_3 + "_" + tax_code_3_dropdown)
-       ```
-   * Click **Save** to finalize the script.
-
-### **Step 4: Edit Layout**
+### **Step 3: Edit Layout**
 
 1.  Go to **Settings** -> **Global Settings** -> **Document Types**.
 
@@ -122,17 +85,18 @@ To ensure the values are formatted correctly for processing by LN, you need to c
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_22.png" alt=""><figcaption></figcaption></figure>
 7. Expand the **Form** dropdown menu.
-8.  Search for **Tax Country** and drag and drop the field into its respective area.
+8. Search for **Tax Country** and drag and drop the field into its respective area.
+9.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_23.png" alt=""><figcaption></figcaption></figure>
-9.  Search for **Tax Code** and drag and drop the field into its corresponding area.
+10. Search for **Tax Code** and drag and drop the field into its corresponding area.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_24.png" alt=""><figcaption></figcaption></figure>
-10. Save the template.
+11. Save the template.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_25.png" alt=""><figcaption></figcaption></figure>
 
-### Step 5: Verify that Everything Worked
+### Step 4: Verify that Everything Worked
 
 After uploading a new document into DocBits with the correct document settings selected, you should now be able to select the tax codes you added to the lists in Step 1.
 
