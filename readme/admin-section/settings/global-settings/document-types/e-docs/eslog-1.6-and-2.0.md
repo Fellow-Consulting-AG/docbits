@@ -16,12 +16,12 @@ Entrambe le versioni di eSLOG sono abilitate per impostazione predefinita.
 *   Clicca su **E-Doc**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 * Apparirà un elenco di tutti gli e-doc disponibili.
 *   Individua la versione di eSLOG che desideri modificare.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Configurazione della Trasformazione e del Percorso XML:**
 
@@ -62,7 +62,7 @@ La **Configurazione dei Percorsi di Estrazione** viene utilizzata per estrarre d
 5.  Il lato sinistro rappresenta il **DocBits field ID**, che può essere trovato in **Impostazioni → Impostazioni Globali → Tipi di Documento → Fattura → Campi**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 6. Il lato destro rappresenta il **percorso al campo** creato nella Trasformazione.
