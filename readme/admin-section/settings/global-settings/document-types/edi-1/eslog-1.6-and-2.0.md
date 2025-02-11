@@ -16,12 +16,12 @@ Ambas versiones de eSLOG están habilitadas por defecto.
 *   Haz clic en **E-Doc**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Aparecerá una lista de todos los e-docs disponibles.
 *   Localiza la versión de eSLOG que deseas modificar.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **Configuración de Transformación y Ruta XML:**
 
@@ -63,7 +63,7 @@ La **Configuración de Rutas de Extracción** se utiliza para extraer datos y ll
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 6. El lado derecho representa la **ruta al campo** creado en la Transformación.

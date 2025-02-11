@@ -13,18 +13,18 @@ Para habilitar esta función:
 
 #### **Funcionalidad:**
 
-*   **Cuando está habilitado**:
+* **Cuando está habilitado**:
+  * La **tabla de Orden de Compra** aparece dentro de la **Sección de Tablas** en el **Constructor de Diseño**.
+  *   No se mostrará ninguna notificación sobre el módulo deshabilitado.\
 
-    * La **tabla de Orden de Compra** aparece dentro de la **Sección de Tablas** en el **Constructor de Diseño**.
-    * No se mostrará ninguna notificación sobre el módulo deshabilitado.
 
-    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FPEtwjoK0GOIG7GJ2UMWo%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250210132235.jpg%3Falt%3Dmedia%26token%3D4f69047d-86b0-4993-9086-14a8263420ee\&width=768\&dpr=4\&quality=100\&sign=e33d2d3b\&sv=2)
-*   **Cuando está deshabilitado**:
+      <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+* **Cuando está deshabilitado**:
+  * Una pista indicará que el módulo está deshabilitado.
+  *   La **tabla de PO** no será visible en la **Pantalla de Validación**.\
 
-    * Una pista indicará que el módulo está deshabilitado.
-    * La **tabla de PO** no será visible en la **Pantalla de Validación**.
 
-    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FHIZUbw1I9frvvLqJlGf9%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250210132235.jpg%3Falt%3Dmedia%26token%3D41aa055e-a658-41ec-94bb-8227a324476f\&width=768\&dpr=4\&quality=100\&sign=a05a167b\&sv=2)
+      <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Cómo acceder al Constructor de Diseño**
 
