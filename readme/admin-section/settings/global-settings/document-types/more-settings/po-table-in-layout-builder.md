@@ -13,19 +13,18 @@ To enable this feature:
 
 ### **Functionality:**
 
-*   **When enabled**:
-
-    * The **Purchase Order table** appears inside the **Table Section** in the **Layout Builder**.
-    * No notification about the module being disabled will be shown.
-
-    <figure><img src="../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250210132235.jpg" alt=""><figcaption></figcaption></figure>
-*   **When disabled**:
-
-    * A hint will indicate that the module is disabled.
-    * The **PO table** will not be visible in the **Validation Screen**.\
+* **When enabled**:
+  * The **Purchase Order table** appears inside the **Table Section** in the **Layout Builder**.
+  *   No notification about the module being disabled will be shown.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/iScreen Shoter - 20250210132147478.jpg" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../../../.gitbook/assets/image (404).png" alt=""><figcaption></figcaption></figure>
+* **When disabled**:
+  * A hint will indicate that the module is disabled.
+  *   The **PO table** will not be visible in the **Validation Screen**.\
+
+
+      <figure><img src="../../../../../.gitbook/assets/image (403).png" alt=""><figcaption></figcaption></figure>
 
 **How to Access the Layout Builder**
 
