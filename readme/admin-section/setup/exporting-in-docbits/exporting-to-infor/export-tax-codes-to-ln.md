@@ -24,7 +24,7 @@ This guide will walk you through the setup process to ensure tax codes are corre
     <figure><img src="../../../../.gitbook/assets/TaxCodes_3.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  Create the following three additional lists:
 
-    * `Tax_Code_Fill`
+    * `Tax_Code_Full`
     * `Tax_Code_Reduced`
     * `Tax_Code_Free`
 
@@ -40,6 +40,10 @@ This guide will walk you through the setup process to ensure tax codes are corre
 
     <div align="left"><figure><img src="../../../../.gitbook/assets/TaxCodes_5.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/TaxCodes_27.png" alt=""><figcaption></figcaption></figure></div>
 
+    * **NOTE:** You can find the Tax Codes in LN under: **Common** → **Taxation** → **Master Data** → **Tax Codes** → **Tax Codes by Country**
+
+    <figure><img src="../../../../.gitbook/assets/TaxCodes_LN.png" alt=""><figcaption></figcaption></figure>
+
 ### **Step 2: Add Fields in DocBits**
 
 1.  Navigate to **Settings** -> **Global Settings** -> **Document Types**.
@@ -48,15 +52,15 @@ This guide will walk you through the setup process to ensure tax codes are corre
 2.  Choose the Fields menu corresponding to the Document Type where you wish to add the fields.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_7.png" alt=""><figcaption></figcaption></figure>
-3. Under **VAT & Amounts**, create six new fields as follows:
+3.  Under **VAT & Amounts**, create six new fields as follows:
 
-<figure><img src="../../../../.gitbook/assets/TaxCodes_8.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/TaxCodes_8.png" alt=""><figcaption></figcaption></figure>
 
 | **Name**              | **Title**           | **Field Type** | **Value**          |
 | --------------------- | ------------------- | -------------- | ------------------ |
-| `tax_country_1`       | Tax Country         | Dropdown       | Tax\_Country       |
-| `tax_country_2`       | Tax Country Reduced | Dropdown       | Tax\_Country       |
-| `tax_country_3`       | Tax Country Free    | Dropdown       | Tax\_Country       |
+| `tax_country`         | Tax Country         | Dropdown       | Tax\_Country       |
+| `tax_country`         | Tax Country Reduced | Dropdown       | Tax\_Country       |
+| `tax_country`         | Tax Country Free    | Dropdown       | Tax\_Country       |
 | `tax_code_1_dropdown` | Tax Code            | Dropdown       | Tax\_Code\_Full    |
 | `tax_code_2_dropdown` | Tax Code Reduced    | Dropdown       | Tax\_Code\_Reduced |
 | `tax_code_3_dropdown` | Tax Code Free       | Dropdown       | Tax\_Code\_Free    |
@@ -69,44 +73,35 @@ This guide will walk you through the setup process to ensure tax codes are corre
 
 <figure><img src="../../../../.gitbook/assets/TaxCodes_20 (1).png" alt=""><figcaption></figcaption></figure>
 
-### **Step 3: Add the Script**
+### Step 3: Add a Script
 
-You need to create a script to format the tax code values for LN processing.
+To ensure the values are formatted correctly for processing by LN, you need to create a script.
 
-1.  Go to **Settings** -> **Global Settings** -> **Document Types**.
+1. Navigate to **Settings** → **Global Settings** → **Document Types**.
+2. Select the Document Type where you want to add the script.
+3. Open the **Scripts** menu for the selected Document Type.
+4. Create a new script and follow these steps:
+   * Provide a name for your script.
+   * In the **Trigger On** dropdown menu, select **AFTER\_FORMATTING**.
+   *   Paste the working script (example below) into the script editor:
 
-    <figure><img src="../../../../.gitbook/assets/TaxCodes_6.png" alt=""><figcaption></figcaption></figure>
-2.  Open the **Scripts** menu for the Document Type for which you want to add the script.
+       ```
+       tax_code_1_dropdown = get_field_value(document_data, 'tax_code_1_dropdown', None)
+       tax_code_2_dropdown = get_field_value(document_data, 'tax_code_2_dropdown', None)
+       tax_code_3_dropdown = get_field_value(document_data, 'tax_code_3_dropdown', None)
 
-    <figure><img src="../../../../.gitbook/assets/TaxCodes_16.png" alt=""><figcaption></figcaption></figure>
-3.  Create a new script:
+       tax_country_1 = get_field_value(document_data, 'tax_country', None)
+       tax_country_2 = get_field_value(document_data, 'tax_country', None)
+       tax_country_3 = get_field_value(document_data, 'tax_country', None)
 
-    <figure><img src="../../../../.gitbook/assets/TaxCodes_17.png" alt=""><figcaption></figcaption></figure>
-
-* Name the script.
-* In the **Trigger On** menu, select **AFTER\_FORMATTING**.
-*   Paste the working script (example shown below).
-
-    ```python
-    tax_code_1_dropdown = get_field_value(document_data, 'tax_code_without_country', None)
-    tax_code_2_dropdown = get_field_value(document_data, 'tax_code_without_country_2', None)
-    tax_code_3_dropdown = get_field_value(document_data, 'tax_code_without_country_3', None)
-
-    tax_country_1 = get_field_value(document_data, 'tax_country', None)
-    tax_country_2 = get_field_value(document_data, 'tax_country_2', None)
-    tax_country_3 = get_field_value(document_data, 'tax_country_3', None)
-
-    if tax_code_1_dropdown and tax_country_1:
-        set_field_value(document_data, "tax_code", tax_country_1 + "_" + tax_code_1_dropdown)
-    if tax_code_2_dropdown and tax_country_2:
-        set_field_value(document_data, "tax_code_2", tax_country_2 + "_" + tax_code_2_dropdown)
-    if tax_code_3_dropdown and tax_country_3:
-        set_field_value(document_data, "tax_code_3", tax_country_3 + "_" + tax_code_3_dropdown)
-    ```
-
-<figure><img src="../../../../.gitbook/assets/TaxCodes_18.png" alt=""><figcaption></figcaption></figure>
-
-4. Click **Save**.
+       if tax_code_1_dropdown and tax_country_1:
+           set_field_value(document_data, "tax_code", tax_country_1 + "_" + tax_code_1_dropdown)
+       if tax_code_2_dropdown and tax_country_2:
+           set_field_value(document_data, "tax_code_2", tax_country_2 + "_" + tax_code_2_dropdown)
+       if tax_code_3_dropdown and tax_country_3:
+           set_field_value(document_data, "tax_code_3", tax_country_3 + "_" + tax_code_3_dropdown)
+       ```
+   * Click **Save** to finalize the script.
 
 ### **Step 4: Edit Layout**
 
