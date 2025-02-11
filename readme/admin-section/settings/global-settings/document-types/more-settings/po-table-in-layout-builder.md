@@ -13,18 +13,18 @@ Aby włączyć tę funkcję:
 
 #### **Funkcjonalność:**
 
-*   **Gdy włączone**:
+* **Gdy włączone**:
+  * Tabela **Zamówienia Zakupu** pojawia się w **Sekcji Tabeli** w **Kreatorze Układów**.
+  *   Nie zostanie wyświetlona żadna powiadomienie o tym, że moduł jest wyłączony.\
 
-    * Tabela **Zamówienia Zakupu** pojawia się w **Sekcji Tabeli** w **Kreatorze Układów**.
-    * Nie zostanie wyświetlona żadna powiadomienie o tym, że moduł jest wyłączony.
 
-    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FPEtwjoK0GOIG7GJ2UMWo%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250210132235.jpg%3Falt%3Dmedia%26token%3D4f69047d-86b0-4993-9086-14a8263420ee\&width=768\&dpr=4\&quality=100\&sign=e33d2d3b\&sv=2)
-*   **Gdy wyłączone**:
+      <figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+* **Gdy wyłączone**:
+  * Wskazówka wskaże, że moduł jest wyłączony.
+  *   Tabela **PO** nie będzie widoczna na **Ekranie Walidacji**.\
 
-    * Wskazówka wskaże, że moduł jest wyłączony.
-    * Tabela **PO** nie będzie widoczna na **Ekranie Walidacji**.
 
-    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FHIZUbw1I9frvvLqJlGf9%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250210132235.jpg%3Falt%3Dmedia%26token%3D41aa055e-a658-41ec-94bb-8227a324476f\&width=768\&dpr=4\&quality=100\&sign=a05a167b\&sv=2)
+      <figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 **Jak uzyskać dostęp do Kreatora Układów**
 
