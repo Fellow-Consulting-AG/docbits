@@ -79,6 +79,7 @@
           * [Configurações de tolerância de pedido de compra / Tolerância adicional de pedido de compra](admin-section/settings/global-settings/document-types/more-settings/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
           * [Status de desativação de pedido de compra](admin-section/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md)
           * [Verificação automática de atualizações de PO](admin-section/settings/global-settings/document-types/more-settings/auto-check-for-po-updates.md)
+          * [Tabela de PO no Construtor de Layout](admin-section/settings/global-settings/document-types/more-settings/po-table-in-layout-builder.md)
         * [e-docs](admin-section/settings/global-settings/document-types/edi-1/README.md)
           * [eSLOG 1.6 i 2.0](admin-section/settings/global-settings/document-types/edi-1/eslog-1.6-and-2.0.md)
       * [Notificação por Email](admin-section/settings/global-settings/email-notification/README.md)
