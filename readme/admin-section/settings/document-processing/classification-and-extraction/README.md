@@ -1,6 +1,6 @@
 # Klassifizierung und Extraktion
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.10.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2011.10.49.png" alt=""><figcaption></figcaption></figure>
 
 Die "Klassifizierungs- und Extraktions" Einstellungen in Ihrem Dokumentenverarbeitungssystem bieten Optionen zur Konfiguration, wie Dokumente automatisch bei der Eingabe behandelt werden:
 
@@ -9,4 +9,4 @@ Die "Klassifizierungs- und Extraktions" Einstellungen in Ihrem Dokumentenverarbe
 3. **Tabellenextraktion**: Diese Funktion ermöglicht die automatisierte Extraktion von Daten aus Tabellen innerhalb von Dokumenten. Sie können angeben, ob alle Tabellen extrahiert werden sollen, nur diejenigen, die für Kostenzwecke relevant sind, oder ob Steuercodes automatisch identifiziert und extrahiert werden sollen. Dies verbessert erheblich die Genauigkeit und Effizienz der Datenextraktion aus strukturierten Formaten innerhalb von Dokumenten.
 4. **Klassifizierungsregel konfigurieren**: Diese Option ermöglicht es Ihnen, spezifische Muster und Kriterien zu definieren, die dem System helfen, Dokumente automatisch zu klassifizieren und zu kategorisieren, während sie verarbeitet werden. Dies könnte auf Textmustern, Dokumententypen oder anderen Metadaten basieren, die mit den Dokumenten verbunden sind.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.11.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2011.11.10.png" alt=""><figcaption></figcaption></figure>
