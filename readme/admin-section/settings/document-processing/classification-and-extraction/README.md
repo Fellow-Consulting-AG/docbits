@@ -1,6 +1,6 @@
-# Klasyfikacja i Ekstrakcja
+# Classification And Extraction
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.10.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2011.10.49.png" alt=""><figcaption></figcaption></figure>
 
 Ustawienia "Klasyfikacji i Ekstrakcji" w systemie przetwarzania dokumentów umożliwiają konfigurowanie sposobu automatycznego przetwarzania dokumentów po ich wprowadzeniu:
 
@@ -9,4 +9,4 @@ Ustawienia "Klasyfikacji i Ekstrakcji" w systemie przetwarzania dokumentów umo�
 3. **Ekstrakcja Tabel**: Ta funkcja umożliwia zautomatyzowaną ekstrakcję danych z tabel wewnątrz dokumentów. Można określić, czy wydobywać wszystkie tabele, tylko te istotne dla celów kosztowych, czy automatycznie identyfikować i wydobywać kody podatkowe. To znacznie zwiększa dokładność i efektywność ekstrakcji danych z formatów strukturalnych wewnątrz dokumentów.
 4. **Konfiguracja Reguły Klasyfikacji**: Ta opcja pozwala zdefiniować konkretne wzorce i kryteria, które pomagają systemowi automatycznie klasyfikować i kategoryzować dokumenty podczas przetwarzania. Może to być oparte na wzorcach tekstowych, typach dokumentów lub innych metadanych powiązanych z dokumentami.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.11.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2011.11.10.png" alt=""><figcaption></figcaption></figure>
