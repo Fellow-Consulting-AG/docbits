@@ -16,7 +16,7 @@
 2. Under **Document Processing**, find and click on the **Module** option.
    * This will open the relevant module configuration page where you can proceed with creation of user for database.
 
-<figure><img src="../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Steps to Enable and Access the AI Document and Database User: <a href="#id-4.-steps-to-enable-and-access-the-ai-document-and-database-user" id="id-4.-steps-to-enable-and-access-the-ai-document-and-database-user"></a>
 
@@ -25,7 +25,7 @@
      * **AI Document Warehouse**: Toggle this to enable access to AI-related features.
      * **DB Access**: Toggle this to grant database access to user.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. **Database Credentials**:
    * The dashboard provides the following database connection details:
@@ -42,15 +42,15 @@
 
        * choose PostgreSQL
 
-       <figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
        * Fill in the required information&#x20;
 
-       <figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
        * change to the SSL tab and check Use SSL. Move down to SSL mode and select require
 
-       <figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
    *   Connect via URL
 
        * Fill in the required information:\
@@ -60,7 +60,7 @@
          \- for Username select the provided username information\
          \- for Password select the provided password information
 
-       <figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 5. **Test the Connection**:
    * Click the **"Test Connection"** button to ensure the credentials and connection details are correct.
    * If the test is successful, proceed to connect.
