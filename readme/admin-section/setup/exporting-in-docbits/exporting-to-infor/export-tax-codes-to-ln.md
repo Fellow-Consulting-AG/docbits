@@ -199,62 +199,20 @@ After uploading a new document into DocBits with the correct document settings s
 
 After uploading a new document into DocBits with the correct document settings selected, you will be able to select the tax codes you added in Step 1 and add multiple tax codes configured in Step 3.
 
+In **LN** USt Position will be filled out based on the position number from the Tax Code/Tax Country dropdown menu. Only the Position number will be sent to export.
 
-
-#### **Field Validation**
-
-* The document will start with the 3 regular boxes  Full/Reduced and Tax Free amounts
+* The document will begin with three distinct sections: one for Tax Full amounts, one for Tax Reduced amounts, and one for Tax Free amounts.
 
 <figure><img src="../../../../.gitbook/assets/TaxCodeCon_1.png" alt=""><figcaption></figcaption></figure>
 
-* Each of the tax-sections (full tax, reduced Tax, Tax Free) in the header  will have a Plus-Button
-* By clicking that button the section will be duplicated, thereby allowing multiple submissions with full tax-rate
+* Clicking the plus button within a section will create a duplicate, allowing multiple submissions at the selected tax rate.
 
 <figure><img src="../../../../.gitbook/assets/TaxCodeCon_2.png" alt=""><figcaption></figcaption></figure>
 
-* Sections can be removed as well.
+* Sections can be deleted by clicking the remove button.
 * Total Amounts will be calculated as a sum of all sections
 * Validation of Total Amount will be modified based on all tax-sections
-* Scripts on new sections can only be done after fields exist on the view.
+* Scripts for new sections can only be applied once fields have been added to the view.
 
-#### &#x20;      **Auto Accounting**
 
-* In the Total Section, Each tax-section will be displayed as a line(Only lines with amount).
-* Tax Code/Tax Country will be display as one dropdown with format (1, Tax Country 1, Tax code 1)
-* The user can split up and merge the lines created to book on various accounts.
-* On a split of one line, the same dropdown value will be auto filled.&#x20;
-* In case of Po match unsettled amount, Only one line will be displayed.
-*   Accounting prediction needs to updated with new format
 
-    <figure><img src="../../../../.gitbook/assets/TaxCodeCon_3.png" alt=""><figcaption></figcaption></figure>
-
-**Export Mapping**
-
-* To link Tax Line with Cost line\
-  Add `TaxLine` in InvoiceCostFields list
-* Add Following in below list ICF\_TaxLine=TF\_position
-* `Example:`
-
-```
-InvoiceCostFields=TaxLine,LineNumber,LedgerAccount,DebitCredit,Amount,TransactionReference,Dimension1,Dimension2,Dimension3,Dimension4,Dimension5,Dimension6,Dimension7,Dimension8,Dimension9,Dimension10,Dimension11,Dimension12
-ICF_LineNumber=auto
-ICF_TaxLine=TF_position
-ICF_LedgerAccount=TF_ledger_account
-ICF_DebitCredit=invoice_type
-ICF_Amount=TF_amount
-ICF_Dimension1=TF_dimension_1
-ICF_Dimension2=TF_dimension_2
-ICF_Dimension3=TF_dimension_3
-ICF_Dimension4=TF_dimension_4
-ICF_Dimension5=TF_dimension_5
-ICF_Dimension6=TF_dimension_6
-ICF_Dimension7=TF_dimension_7
-ICF_Dimension8=TF_dimension_8
-ICF_Dimension9=TF_dimension_9
-ICF_Dimension10=TF_dimension_10
-ICF_Dimension11=TF_dimension_11
-ICF_Dimension12=TF_dimension_12
-ICF_Quantity1=TF_quantity
-ICF_Quantity2=TF_quantity2
-ICF_TransactionReference=TF_Buchungsreferenz
-```
