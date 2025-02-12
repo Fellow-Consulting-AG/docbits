@@ -199,8 +199,6 @@ After uploading a new document into DocBits with the correct document settings s
 
 After uploading a new document into DocBits with the correct document settings selected, you will be able to select the tax codes you added in Step 1 and add multiple tax codes configured in Step 3.
 
-In **LN** USt Position will be filled out based on the position number from the Tax Code/Tax Country dropdown menu. Only the Position number will be sent to export.
-
 * The document will begin with three distinct sections: one for Tax Full amounts, one for Tax Reduced amounts, and one for Tax Free amounts.
 
 <figure><img src="../../../../.gitbook/assets/TaxCodeCon_1.png" alt=""><figcaption></figcaption></figure>
@@ -214,5 +212,41 @@ In **LN** USt Position will be filled out based on the position number from the 
 * Validation of Total Amount will be modified based on all tax-sections
 * Scripts for new sections can only be applied once fields have been added to the view.
 
+### Note for LN:
 
+In **LN** USt Position will be filled out based on the position number from the Tax Code/Tax Country dropdown menu. Only the Position number will be sent to export.
 
+<figure><img src="../../../../.gitbook/assets/TaxCodesLN_2.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/TaxCodesLN_3.png" alt=""><figcaption></figcaption></figure>
+
+#### **Export Mapping**
+
+* To link Tax Line with Cost line\
+  Add `TaxLine` in InvoiceCostFields list
+* Add Following in below list ICF\_TaxLine=TF\_position
+* **Example:**
+
+```
+InvoiceCostFields=TaxLine,LineNumber,LedgerAccount,DebitCredit,Amount,TransactionReference,Dimension1,Dimension2,Dimension3,Dimension4,Dimension5,Dimension6,Dimension7,Dimension8,Dimension9,Dimension10,Dimension11,Dimension12
+ICF_LineNumber=auto
+ICF_TaxLine=TF_position
+ICF_LedgerAccount=TF_ledger_account
+ICF_DebitCredit=invoice_type
+ICF_Amount=TF_amount
+ICF_Dimension1=TF_dimension_1
+ICF_Dimension2=TF_dimension_2
+ICF_Dimension3=TF_dimension_3
+ICF_Dimension4=TF_dimension_4
+ICF_Dimension5=TF_dimension_5
+ICF_Dimension6=TF_dimension_6
+ICF_Dimension7=TF_dimension_7
+ICF_Dimension8=TF_dimension_8
+ICF_Dimension9=TF_dimension_9
+ICF_Dimension10=TF_dimension_10
+ICF_Dimension11=TF_dimension_11
+ICF_Dimension12=TF_dimension_12
+ICF_Quantity1=TF_quantity
+ICF_Quantity2=TF_quantity2
+ICF_TransactionReference=TF_Buchungsreferenz
+```
