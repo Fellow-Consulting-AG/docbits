@@ -85,14 +85,13 @@ This guide will walk you through the setup process to ensure tax codes are corre
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_22.png" alt=""><figcaption></figcaption></figure>
 7. Expand the **Form** dropdown menu.
-8. Search for **Tax Country** and drag and drop the field into its respective area.
-9.
+8.  Search for **Tax Country** and drag and drop the field into its respective area.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_23.png" alt=""><figcaption></figcaption></figure>
-10. Search for **Tax Code** and drag and drop the field into its corresponding area.
+9.  Search for **Tax Code** and drag and drop the field into its corresponding area.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_24.png" alt=""><figcaption></figcaption></figure>
-11. Save the template.
+10. Save the template.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_25.png" alt=""><figcaption></figcaption></figure>
 
