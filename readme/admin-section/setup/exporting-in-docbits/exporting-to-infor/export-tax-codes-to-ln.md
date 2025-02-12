@@ -222,10 +222,13 @@ In **LN** USt Position will be filled out based on the position number from the 
 
 #### **Export Mapping**
 
-* To link Tax Line with Cost line\
-  Add `TaxLine` in InvoiceCostFields list
-* Add Following in below list ICF\_TaxLine=TF\_position
-* **Example:**
+To link the Tax Line with the Cost Line:
+
+1. Add `TaxLine` to the **InvoiceCostFields** list.
+2. Add the following entry, following the example below:\
+   `ICF_TaxLine = TF_position`
+
+**Example:**
 
 ```
 InvoiceCostFields=TaxLine,LineNumber,LedgerAccount,DebitCredit,Amount,TransactionReference,Dimension1,Dimension2,Dimension3,Dimension4,Dimension5,Dimension6,Dimension7,Dimension8,Dimension9,Dimension10,Dimension11,Dimension12
