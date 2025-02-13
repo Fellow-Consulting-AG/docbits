@@ -1,1 +1,0 @@
-# Gruppen, Benutzer und Berechtigungen

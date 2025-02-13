@@ -1,1 +1,0 @@
-# Genehmigung vor dem Export

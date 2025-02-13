@@ -1,2 +1,0 @@
-# Validierungsbildschirm 2
-
