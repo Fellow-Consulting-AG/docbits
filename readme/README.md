@@ -2,7 +2,7 @@
 
 Welcome to DocBits
 
-Welcome to **DocBits**, your comprehensive source for documentation strategies and insights. At DocBits, we are dedicated to providing clear, concise, and up-to-date documentation resources for [enduser](end-user-section/), [admins](admin-section/), and [partners](partner-section/).
+Welcome to **DocBits**, your comprehensive source for documentation strategies and insights. At DocBits, we are dedicated to providing clear, concise, and up-to-date documentation resources for [enduser](end-user-and-partner-section/end-user-section/), [admins](broken-reference), and [partners](end-user-and-partner-section/partner-section/).
 
 ## DocBits with Workflow
 
@@ -20,20 +20,20 @@ Welcome to **DocBits**, your comprehensive source for documentation strategies a
    * Leverages the power of AI swarm intelligence to deliver communal benefits across customers.
    * Enhances the training of classification and extraction models with input from a wide range of users.
    * Provides over 96% accuracy in data extraction and classification.
-3. [**PO Matching**](end-user-section/purchase-order-matching/)
+3. [**PO Matching**](end-user-and-partner-section/end-user-section/purchase-order-matching/)
    * Automates the reconciliation of purchase orders with incoming invoices.
    * Ensures accurate financial transactions and promptly addresses discrepancies.
    * Supports matching of various document types, not limited to invoices.
-4. [**Auto Accounting**](end-user-section/accounting-for-cost-invoice-and-indirect-sales.md)
+4. [**Auto Accounting**](end-user-and-partner-section/end-user-section/accounting-for-cost-invoice-and-indirect-sales.md)
    * Facilitates automatic booking to ledger accounts.
    * Allows splitting of amounts by department.
    * Supports the definition of ledger accounts by the accounts payable team.
-5. **Integrated Validation and** [**Approval**](admin-section/settings/document-processing/module/approval-before-export.md) **Processes**
+5. **Integrated Validation and** [**Approval**](administration-and-setup/settings/document-processing/module/approval-before-export.md) **Processes**
    * Provides integrated validation processes to ensure data accuracy.
-   * Features approval [workflows](admin-section/workflow/) to streamline document handling.
+   * Features approval [workflows](administration-and-setup/workflow/) to streamline document handling.
 6. **Seamless Integration**
-   * Integrates seamlessly with Infor IDM (Intelligent Document Management) and Infor ERP (Enterprise Resource Planning) systems, including [M3](admin-section/setup/importing-customer-master-data/m3/) and [LN](admin-section/setup/importing-customer-master-data/ln/).
-   * Supports data import through [email](end-user-section/how-to-import-documents/email/) or [FTP](end-user-section/how-to-import-documents/ftp.md) connection and export to relevant ERP modules.
+   * Integrates seamlessly with Infor IDM (Intelligent Document Management) and Infor ERP (Enterprise Resource Planning) systems, including [M3](infor-integration-and-configuration/importing-customer-master-data/m3/) and [LN](infor-integration-and-configuration/importing-customer-master-data/ln/).
+   * Supports data import through [email](end-user-and-partner-section/end-user-section/how-to-import-documents/email/) or [FTP](end-user-and-partner-section/end-user-section/how-to-import-documents/ftp.md) connection and export to relevant ERP modules.
 7. **User-Friendly Interface**
    * Offers a modern and simple UI that requires no IT resources for setup and maintenance.
    * Features an interactive dashboard with unlimited document types and custom extracted columns.
