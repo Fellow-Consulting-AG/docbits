@@ -200,14 +200,14 @@ After uploading a new document into DocBits with the correct document settings s
 After uploading a new document into DocBits with the correct document settings selected, you will be able to select the tax codes you added in Step 1 and add multiple tax codes configured in Step 3.
 
 * The document will begin with three distinct sections: one for Tax Full amounts, one for Tax Reduced amounts, and one for Tax Free amounts.
-
-<figure><img src="../../../../.gitbook/assets/TaxCodeCon_1.png" alt=""><figcaption></figcaption></figure>
-
 * Clicking the plus button within a section will create a duplicate, allowing multiple submissions at the selected tax rate.
 
-<figure><img src="../../../../.gitbook/assets/TaxCodeCon_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/TaxCodeMulti_8.png" alt=""><figcaption></figcaption></figure>
 
 * Sections can be deleted by clicking the remove button.
+
+<figure><img src="../../../../.gitbook/assets/TaxCodeMulti_9.png" alt=""><figcaption></figcaption></figure>
+
 * Total Amounts will be calculated as a sum of all sections
 * Validation of Total Amount will be modified based on all tax-sections
 * Scripts for new sections can only be applied once fields have been added to the view.
