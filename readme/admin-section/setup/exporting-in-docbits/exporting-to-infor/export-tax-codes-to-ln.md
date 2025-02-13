@@ -71,7 +71,7 @@ This guide will walk you through the setup process to ensure tax codes are corre
 1.  Go to **Settings** -> **Global Settings** -> **Document Types**.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_6.png" alt=""><figcaption></figcaption></figure>
-2.  Open the **Layout** menu for the Document Type you want to edit.
+2.  Open the **Edit Layout** menu for the Document Type you want to edit.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_19.png" alt=""><figcaption></figcaption></figure>
 3.  Select the appropriate **Document Origin** for which you want to apply the Tax Codes
@@ -165,7 +165,7 @@ After uploading a new document into DocBits with the correct document settings s
 1.  Go to **Settings** -> **Global Settings** -> **Document Types**.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_6.png" alt=""><figcaption></figcaption></figure>
-2.  Open the **Layout** menu for the Document Type you want to edit.
+2.  Open the **Edit Layout** menu for the Document Type you want to edit.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_19.png" alt=""><figcaption></figcaption></figure>
 3.  Select the appropriate **Document Origin** for which you want to apply the Tax Codes
