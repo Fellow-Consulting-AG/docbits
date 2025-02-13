@@ -225,6 +225,7 @@
   * [Exporting to IDM](infor-integration-and-configuration/exporting-to-infor/exporting-to-idm.md)
   * [LN Configuration](infor-integration-and-configuration/exporting-to-infor/ln-configuration.md)
   * [M3 Configuration](infor-integration-and-configuration/exporting-to-infor/m3-configuration.md)
+  * [Eksportuj Kody Podatkowe do LN](infor-integration-and-configuration/exporting-to-infor/export-tax-codes-to-ln.md)
 
 ## Zaawansowane funkcje i narzędzia <a href="#advanced-functions-and-tools" id="advanced-functions-and-tools"></a>
 
