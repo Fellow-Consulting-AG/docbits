@@ -229,7 +229,7 @@
   * [Exporting to IDM](setup/exporting-in-docbits/exporting-to-infor/exporting-to-idm.md)
   * [LN Configuration](setup/exporting-in-docbits/exporting-to-infor/ln-configuration.md)
   * [M3 Configuration](setup/exporting-in-docbits/exporting-to-infor/m3-configuration.md)
-  * [Exportieren von Steuercodes nach LN](admin-section/setup/exporting-in-docbits/exporting-to-infor/exportieren-von-steuercodes-nach-ln.md)
+  * [Exportieren von Steuercodes nach LN](infor-integration-and-configuration/exporting-to-infor/export-tax-codes-to-ln.md)
 
 ## erweiterte funktionen und werkzeuge <a href="#advanced-functions-and-tools" id="advanced-functions-and-tools"></a>
 
