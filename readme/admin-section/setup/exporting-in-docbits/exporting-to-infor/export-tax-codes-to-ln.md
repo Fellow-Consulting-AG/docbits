@@ -49,7 +49,7 @@ This guide will walk you through the setup process to ensure tax codes are corre
 1.  Navigate to **Settings** -> **Global Settings** -> **Document Types**.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_6.png" alt=""><figcaption></figcaption></figure>
-2.  Choose the Fields menu corresponding to the Document Type where you wish to add the fields.
+2.  Choose the **Fields** menu corresponding to the Document Type where you wish to add the fields.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_7.png" alt=""><figcaption></figcaption></figure>
 3.  Under **VAT & Amounts**, create six new fields as follows:
@@ -143,7 +143,7 @@ After uploading a new document into DocBits with the correct document settings s
 1.  Navigate to **Settings** -> **Global Settings** -> **Document Types**.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_6.png" alt=""><figcaption></figcaption></figure>
-2.  Choose the Fields menu corresponding to the Document Type where you wish to add the fields.
+2.  Choose the **Fields** menu corresponding to the Document Type where you wish to add the fields.
 
     <figure><img src="../../../../.gitbook/assets/TaxCodes_7.png" alt=""><figcaption></figcaption></figure>
 3.  Under **VAT & Amounts**, create six new fields as follows:
