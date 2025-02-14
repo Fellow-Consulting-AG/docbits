@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Auto extract tax code
 
 **Where to Enable It**
