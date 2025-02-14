@@ -2,7 +2,7 @@
 
 Exports to the document management system (IDM):
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Exported to Infor LN:
 
