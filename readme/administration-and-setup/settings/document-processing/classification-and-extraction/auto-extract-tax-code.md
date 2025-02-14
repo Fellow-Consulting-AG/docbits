@@ -1,13 +1,13 @@
 # Auto extract tax code
 
-**Where to Enable It**
+### **Where to Enable It**
 
 1. Go to **Settings → Document Processing → Classification and Extraction**.
 2. Enable **Automatic Tax Code Population**.
 
 <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-**What Does It Do?**
+### **What Does It Do?**
 
 * When enabled, the system **automatically populates the tax code field** in the **Validation Screen**, provided that a **tax code field** is set up.
 
