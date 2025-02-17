@@ -53,7 +53,7 @@ These tests are designed to verify the functionality of the email import system 
 
 ## Sandbox
 
-|Automated Tests|Last Execution : 16-02-25 (06:08)|
+|Automated Tests|Last Execution : 17-02-25 (06:10)|
 |-|-|
 |[**Client Tests**](#client-tests)|
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Gmail Import](#gmail-import)|![badge](https://img.shields.io/badge/_-failed-red.svg)|
