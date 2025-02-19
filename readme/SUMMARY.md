@@ -416,9 +416,10 @@
       * [LN](administration-and-setup/setup/testing/auto-accounting/ln.md)
       * [M3](administration-and-setup/setup/testing/auto-accounting/m3.md)
   * [Supplier Portal](administration-and-setup/setup/supplier-portal.md)
+  * [WatchDog Installation Guide](administration-and-setup/setup/watchdog-installation-guide.md)
 * [Report Page](administration-and-setup/report-page.md)
 
-## Infor Integration and Configuration&#x20;
+## Infor Integration and Configuration
 
 * [Importing Master Data](infor-integration-and-configuration/importing-customer-master-data/README.md)
   * [Field Mappings](infor-integration-and-configuration/importing-customer-master-data/field-mappings.md)
