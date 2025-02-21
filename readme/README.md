@@ -2,7 +2,7 @@
 
 Welcome to DocBits
 
-Welcome to **DocBits**, your comprehensive source for documentation strategies and insights. At DocBits, we are dedicated to providing clear, concise, and up-to-date documentation resources for [enduser](end-user-and-partner-section/end-user-section/), [admins](broken-reference), and [partners](end-user-and-partner-section/partner-section/).
+Welcome to **DocBits**, your comprehensive source for documentation strategies and insights. At DocBits, we are dedicated to providing clear, concise, and up-to-date documentation resources for [enduser](end-user-and-partner-section/end-user-section/), [admins](administration-and-setup/settings/), and [partners](end-user-and-partner-section/partner-section/).
 
 ## DocBits with Workflow
 
