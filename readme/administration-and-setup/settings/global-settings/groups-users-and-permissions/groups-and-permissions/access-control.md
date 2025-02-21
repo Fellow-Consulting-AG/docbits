@@ -47,7 +47,11 @@ The access control panel allows the admin to manage user groups and their respec
       * **Delete**: Allows the group to delete documents.
       * **Mass Update**: Enables mass updating of the document type.
       * **Approval Levels**: Sets the group’s ability to approve documents (First and Second level approval).
-      * **Unlock Document**: Defines whether the group can unlock a document for further ediYou ts.
+      * **Unlock Document**: Defines whether the group can unlock a document for further use.
+    * **Permission Levels:**
+      * **Normal**: All users can perform this action.
+      * **Owner**: Only the assigned user has permission to perform this action.
+      * **Admin**: Only users with administrative privileges can perform this action.
 
     Example settings for **PROCUREMENT\_DIRECTOR**:
 
