@@ -47,7 +47,7 @@ Sie finden diese Einstellung unter: **Einstellungen → Dokumentverarbeitung →
 
 <figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224135534 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-**Hinweis:** Anmerkungen können auch direkt im **Genehmigungsbildschirm** angezeigt, hinzugefügt und bearbeitet werden, sodass Benutzer während des Genehmigungsprozesses notwendige Anpassungen vornehmen können.
+<mark style="color:red;">**Hinweis**</mark>**:** Anmerkungen können auch direkt im **Genehmigungsbildschirm** angezeigt, hinzugefügt und bearbeitet werden, sodass Benutzer während des Genehmigungsprozesses notwendige Anpassungen vornehmen können.
 
 ### 4. Herunterladen von PDFs mit oder ohne Anmerkungen
 
