@@ -130,7 +130,7 @@
     * [List Of Values](admin-section/settings/document-processing/list-of-values.md)
     * [Export](admin-section/settings/document-processing/export.md)
     * [Module](admin-section/settings/document-processing/module/README.md)
-      * [Anmerkungsmodus](admin-section/settings/document-processing/module/annotation.md)
+      * [Anmerkungsmodus](administration-and-setup/settings/document-processing/module/annotation-mode.md)
       * [Approval Before Export](admin-section/settings/document-processing/module/approval-before-export.md)
       * [Doc Scan](admin-section/settings/document-processing/module/doc-scan.md)
       * [Doc Script](admin-section/settings/document-processing/module/doc-script.md)
