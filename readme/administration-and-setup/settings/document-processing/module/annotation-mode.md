@@ -48,7 +48,7 @@ Vous pouvez trouver ce paramètre sous : **Paramètres → Traitement des docume
 
 ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FgpoMvEHMfN4rQHzQ7vR2%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250224105935.jpg%3Falt%3Dmedia%26token%3D981d4c25-80e8-4e11-ab06-cf2663bf815f\&width=768\&dpr=4\&quality=100\&sign=5f51c005\&sv=2)
 
-**Remarque :** Les annotations peuvent également être visualisées, ajoutées et modifiées directement dans l'**Écran d'Approbation**, permettant aux utilisateurs de faire les ajustements nécessaires pendant le processus d'approbation.
+<mark style="color:red;">**Remarque**</mark>**&#x20;:** Les annotations peuvent également être visualisées, ajoutées et modifiées directement dans l'**Écran d'Approbation**, permettant aux utilisateurs de faire les ajustements nécessaires pendant le processus d'approbation.
 
 ### 4. Télécharger des PDFs avec ou sans Annotations
 
