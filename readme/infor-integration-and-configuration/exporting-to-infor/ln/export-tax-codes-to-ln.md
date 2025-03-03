@@ -228,4 +228,4 @@ To link the Tax Line with the Cost Line:
 2. Add the following entry, following the example below:\
    `ICF_TaxLine = TF_position`
 
-<figure><img src="../../../.gitbook/assets/TaxCode_10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/TaxCodeMulti_10.png" alt=""><figcaption></figcaption></figure>
