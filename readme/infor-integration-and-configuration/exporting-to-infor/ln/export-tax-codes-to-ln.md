@@ -24,7 +24,7 @@ Ten przewodnik przeprowadzi Cię przez proces konfiguracji, aby upewnić się, �
     * `Tax_Code_Reduced`
     * `Tax_Code_Free`
 
-    <div><figure><img src="../../.gitbook/assets/TaxCodes_28.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_29.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_30.png" alt=""><figcaption></figcaption></figure></div>
+    <div><figure><img src="../../../.gitbook/assets/TaxCodes_28.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_29.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_30.png" alt=""><figcaption></figcaption></figure></div>
 5.  Kliknij na jedną z nowo utworzonych list, aby ją otworzyć. Następnie naciśnij przycisk **Dodaj Wiersz**, aby dodać nowy wiersz.
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FIQ9cEPZ9lnn2SP00Y63z%252FTaxCode_4.png%3Falt%3Dmedia%26token%3D52497d98-a1d9-4bbb-a097-36d065b5bbe6\&width=768\&dpr=4\&quality=100\&sign=c85a13ef\&sv=2)
@@ -32,7 +32,7 @@ Ten przewodnik przeprowadzi Cię przez proces konfiguracji, aby upewnić się, �
 
     * Jeśli masz wiele wartości, możesz kliknąć **Dodaj Więcej Wartości**, aby je dodać.
 
-    <div><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2lnyo3G6vlowfPiN0Nb5%252FTaxCodes_5.png%3Falt%3Dmedia%26token%3D52280de9-dd51-4bee-baf8-2b77a2209675&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=fb8c44b8&#x26;sv=2" alt=""> <figure><img src="../../.gitbook/assets/TaxCodes_27.png" alt=""><figcaption></figcaption></figure></div>
+    <div><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2lnyo3G6vlowfPiN0Nb5%252FTaxCodes_5.png%3Falt%3Dmedia%26token%3D52280de9-dd51-4bee-baf8-2b77a2209675&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=fb8c44b8&#x26;sv=2" alt=""> <figure><img src="../../../.gitbook/assets/TaxCodes_27.png" alt=""><figcaption></figcaption></figure></div>
 
     * **UWAGA:** Możesz znaleźć Kody Podatkowe w LN pod: **Common** → **Taxation** → **Master Data** → **Tax Codes** → **Tax Codes by Country**
 
@@ -52,9 +52,9 @@ Ten przewodnik przeprowadzi Cię przez proces konfiguracji, aby upewnić się, �
 
 <table data-header-hidden><thead><tr><th width="306"></th><th width="139"></th><th width="119"></th><th></th></tr></thead><tbody><tr><td><strong>Nazwa</strong></td><td><strong>Tytuł</strong></td><td><strong>Typ Pola</strong></td><td><strong>Lista Wartości</strong></td></tr><tr><td><code>tax_country</code></td><td>Tax Country</td><td>Dropdown</td><td>Tax_Country</td></tr><tr><td><code>tax_country_2</code></td><td>Tax Country Reduced</td><td>Dropdown</td><td>Tax_Country</td></tr><tr><td><code>tax_country_3</code></td><td>Tax Country Free</td><td>Dropdown</td><td>Tax_Country</td></tr><tr><td><code>tax_code_without_country</code></td><td>Tax Code</td><td>Dropdown</td><td>Tax_Code_Full</td></tr><tr><td><code>tax_code_without_country_2</code></td><td>Tax Code Reduced</td><td>Dropdown</td><td>Tax_Code_Reduced</td></tr><tr><td><code>tax_code_without_country_3</code></td><td>Tax Code Free</td><td>Dropdown</td><td>Tax_Code_Free</td></tr></tbody></table>
 
-<div><figure><img src="../../.gitbook/assets/TaxCodes_10.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_11.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_12.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/TaxCodes_10.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_11.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_12.png" alt=""><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../../.gitbook/assets/TaxCodes_13.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_14.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_15.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/TaxCodes_13.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_14.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_15.png" alt=""><figcaption></figcaption></figure></div>
 
 4.  Po zapisaniu każdego pola, kliknij na **Zapisz Ustawienia**, aby zastosować zmiany.
 
@@ -114,7 +114,7 @@ Po przesłaniu nowego dokumentu do DocBits z wybranymi odpowiednimi ustawieniami
     * `Tax_Code_Reduced`
     * `Tax_Code_Free`
 
-    <div><figure><img src="../../.gitbook/assets/TaxCodes_28.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_29.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_30.png" alt=""><figcaption></figcaption></figure></div>
+    <div><figure><img src="../../../.gitbook/assets/TaxCodes_28.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_29.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_30.png" alt=""><figcaption></figcaption></figure></div>
 5.  Kliknij na jedną z nowo utworzonych list, aby ją otworzyć. Następnie naciśnij przycisk **Dodaj Wiersz**, aby dodać nowy wiersz.
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FIQ9cEPZ9lnn2SP00Y63z%252FTaxCode_4.png%3Falt%3Dmedia%26token%3D52497d98-a1d9-4bbb-a097-36d065b5bbe6\&width=768\&dpr=4\&quality=100\&sign=c85a13ef\&sv=2)
@@ -122,7 +122,7 @@ Po przesłaniu nowego dokumentu do DocBits z wybranymi odpowiednimi ustawieniami
 
     * Jeśli masz wiele wartości, możesz kliknąć **Dodaj Więcej Wartości**, aby je dodać.
 
-    <div><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2lnyo3G6vlowfPiN0Nb5%252FTaxCodes_5.png%3Falt%3Dmedia%26token%3D52280de9-dd51-4bee-baf8-2b77a2209675&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=fb8c44b8&#x26;sv=2" alt=""> <figure><img src="../../.gitbook/assets/TaxCodes_27.png" alt=""><figcaption></figcaption></figure></div>
+    <div><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2lnyo3G6vlowfPiN0Nb5%252FTaxCodes_5.png%3Falt%3Dmedia%26token%3D52280de9-dd51-4bee-baf8-2b77a2209675&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=fb8c44b8&#x26;sv=2" alt=""> <figure><img src="../../../.gitbook/assets/TaxCodes_27.png" alt=""><figcaption></figcaption></figure></div>
 
     * **UWAGA:** Możesz znaleźć Kody Podatkowe w LN pod: **Common** → **Taxation** → **Master Data** → **Tax Codes** → **Tax Codes by Country**
 
@@ -142,9 +142,9 @@ Po przesłaniu nowego dokumentu do DocBits z wybranymi odpowiednimi ustawieniami
 
 <table data-header-hidden><thead><tr><th width="306"></th><th width="139"></th><th width="119"></th><th></th></tr></thead><tbody><tr><td><strong>Nazwa</strong></td><td><strong>Tytuł</strong></td><td><strong>Typ Pola</strong></td><td><strong>Lista Wartości</strong></td></tr><tr><td><code>tax_country</code></td><td>Tax Country</td><td>Dropdown</td><td>Tax_Country</td></tr><tr><td><code>tax_country_2</code></td><td>Tax Country Reduced</td><td>Dropdown</td><td>Tax_Country</td></tr><tr><td><code>tax_country_3</code></td><td>Tax Country Free</td><td>Dropdown</td><td>Tax_Country</td></tr><tr><td><code>tax_code_without_country</code></td><td>Tax Code</td><td>Dropdown</td><td>Tax_Code_Full</td></tr><tr><td><code>tax_code_without_country_2</code></td><td>Tax Code Reduced</td><td>Dropdown</td><td>Tax_Code_Reduced</td></tr><tr><td><code>tax_code_without_country_3</code></td><td>Tax Code Free</td><td>Dropdown</td><td>Tax_Code_Free</td></tr></tbody></table>
 
-<div><figure><img src="../../.gitbook/assets/TaxCodes_10.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_11.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_12.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/TaxCodes_10.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_11.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_12.png" alt=""><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../../.gitbook/assets/TaxCodes_13.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_14.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/TaxCodes_15.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/TaxCodes_13.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_14.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/TaxCodes_15.png" alt=""><figcaption></figcaption></figure></div>
 
 4.  Po zapisaniu każdego pola, kliknij na **Zapisz Ustawienia**, aby zastosować zmiany.
 
@@ -170,7 +170,7 @@ Po przesłaniu nowego dokumentu do DocBits z wybranymi odpowiednimi ustawieniami
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FbV9kR81GqllW9sClfE4o%252FTaxCodesMulti_1.png%3Falt%3Dmedia%26token%3D901d57c5-5a4f-4d2a-a82f-1630a8dadc1c\&width=768\&dpr=4\&quality=100\&sign=1cbd476f\&sv=2)
 7.  Aby nazwać swoją subgrupę, kliknij na subgrupę i wprowadź pożądaną nazwę w polu **Label**.
 
-    <div><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FGZMoEWIEx1AGTV8XENRb%252FTaxCodesMulti_2.png%3Falt%3Dmedia%26token%3D546d1055-4f4c-4ea1-9834-52f538d506d6&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=3a874aed&#x26;sv=2" alt=""> <figure><img src="../../.gitbook/assets/TaxCodesMulti_3.png" alt=""><figcaption></figcaption></figure></div>
+    <div><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FGZMoEWIEx1AGTV8XENRb%252FTaxCodesMulti_2.png%3Falt%3Dmedia%26token%3D546d1055-4f4c-4ea1-9834-52f538d506d6&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=3a874aed&#x26;sv=2" alt=""> <figure><img src="../../../.gitbook/assets/TaxCodesMulti_3.png" alt=""><figcaption></figcaption></figure></div>
 8.  Przeciągnij i upuść pola, które odpowiadają tej grupie, do pola **Sub Group**.
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FhN7BvWWdS2yXCJN5WQyM%252FTaxCodeMulti_4.png%3Falt%3Dmedia%26token%3D5c7b668b-a24e-488e-a89d-348ab9f20b48\&width=768\&dpr=4\&quality=100\&sign=41300825\&sv=2)
