@@ -225,9 +225,11 @@
   * [Creating an ION API File](infor-integration-and-configuration/exporting-to-infor/creating-an-ion-api-file.md)
   * [Export to M3 Mapping (API)](infor-integration-and-configuration/exporting-to-infor/export-to-m3-mapping-api.md)
   * [Exporting to IDM](infor-integration-and-configuration/exporting-to-infor/exporting-to-idm.md)
-  * [LN Configuration](infor-integration-and-configuration/exporting-to-infor/ln-configuration.md)
-  * [M3 Configuration](infor-integration-and-configuration/exporting-to-infor/m3-configuration.md)
-  * [Esporta Codici Fiscali in LN](infor-integration-and-configuration/exporting-to-infor/export-tax-codes-to-ln.md)
+  * [M3](infor-integration-and-configuration/exporting-to-infor/m3/README.md)
+    * [M3 Configuration](infor-integration-and-configuration/exporting-to-infor/m3/m3-configuration.md)
+  * [LN](infor-integration-and-configuration/exporting-to-infor/ln/README.md)
+    * [Esporta Codici Fiscali in LN](infor-integration-and-configuration/exporting-to-infor/ln/export-tax-codes-to-ln.md)
+    * [LN Configuration](infor-integration-and-configuration/exporting-to-infor/ln/ln-configuration.md)
 
 ## Funzioni e strumenti avanzati <a href="#infor-integration-and-configuration" id="infor-integration-and-configuration"></a>
 
