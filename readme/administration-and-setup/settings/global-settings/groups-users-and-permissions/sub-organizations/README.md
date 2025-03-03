@@ -27,7 +27,7 @@ This is where you will find your previously created sub-organizations, as well a
 ### Cross Sub-Organisations Access
 
 **Overview:**\
-For organizations with multiple sub-organizations enabled, DocBits introduces the **Cross Sub-Organisations** feature. This enhancement allows administrative users to manage documents across all sub-organizations under a single umbrella. Admin users can now access and view documents from every sub-organization without the need to switch between them individually.
+For organizations with multiple sub-organizations enabled, DocBits introduces the **Cross Sub-Organisations** feature. This enhancement allows users to manage documents across all sub-organizations under a single umbrella. **Both administrative and non-administrative users** can now access and view documents from every sub-organization without the need to switch between them individually.
 
 **Benefits:**
 

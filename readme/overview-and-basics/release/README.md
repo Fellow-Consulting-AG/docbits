@@ -1,5 +1,17 @@
 # Release
 
+## Release Hot Fix Winter Frost  11th March 2025
+
+### DocBits enhancements:
+
+* **Improved Data Extraction:** Added an option to extract the **Purchase Order** or **Item Number** from a line above or below.
+* **Expanded Cross Sub-Organisations Access:** Non-admin users can now also access the **Cross Sub-Organisations** feature.
+
+### **Bug Fixes:**
+
+* Fixed an issue where users **could not be added** to a group.
+* Fixed an issue with **email import failures**.
+
 ## Release Hot Fix Winter Frost  3rd February 2025
 
 ### **DocBits Enhancements:**
