@@ -53,7 +53,7 @@ StaticFields=FinancialCompany,TaxCountry
 SF_TaxCountry=FR
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (409).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (415).png" alt=""><figcaption></figcaption></figure>
 
 **Option 2: Dynamic Mapping from DocBits Field**
 
