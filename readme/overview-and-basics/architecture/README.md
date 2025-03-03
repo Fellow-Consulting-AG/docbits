@@ -15,7 +15,7 @@ Doc**Bits** se integra sin problemas con Infor LN/M3 a través de ION API, ION D
 Utilizamos la ION API para enviar el PDF con atributos a IDM y el BOD Sync.CaptureDocument a ION Desk. En ION Desk, transformamos el Sync.CaptureDocument a los BODs de destino deseados según el tipo de documento que se esté procesando. Estos BODs de Infor transformados se importan automáticamente a LN o M3.
 
 {% hint style="info" %}
-Exportar a [Infor](../../infor-integration-and-configuration/exporting-in-docbits/exporting-to-infor/)
+Exportar a [Infor](../../infor-integration-and-configuration/exporting-to-infor/)
 {% endhint %}
 
 ## Validación de Datos Maestros en DocBits
