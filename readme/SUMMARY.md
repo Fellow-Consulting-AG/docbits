@@ -228,9 +228,11 @@
   * [Creating an ION API File](setup/exporting-in-docbits/exporting-to-infor/creating-an-ion-api-file.md)
   * [Export to M3 Mapping (API)](setup/exporting-in-docbits/exporting-to-infor/export-to-m3-mapping-api.md)
   * [Exporting to IDM](setup/exporting-in-docbits/exporting-to-infor/exporting-to-idm.md)
-  * [LN Configuration](setup/exporting-in-docbits/exporting-to-infor/ln-configuration.md)
-  * [M3 Configuration](setup/exporting-in-docbits/exporting-to-infor/m3-configuration.md)
-  * [Exportieren von Steuercodes nach LN](infor-integration-and-configuration/exporting-to-infor/export-tax-codes-to-ln.md)
+  * [M3](infor-integration-and-configuration/exporting-to-infor/m3/README.md)
+    * [M3 Configuration](infor-integration-and-configuration/exporting-to-infor/m3/m3-configuration.md)
+  * [LN](infor-integration-and-configuration/exporting-to-infor/ln/README.md)
+    * [Exportieren von Steuercodes nach LN](infor-integration-and-configuration/exporting-to-infor/ln/export-tax-codes-to-ln.md)
+    * [LN Configuration](infor-integration-and-configuration/exporting-to-infor/ln/ln-configuration.md)
 
 ## erweiterte funktionen und werkzeuge <a href="#advanced-functions-and-tools" id="advanced-functions-and-tools"></a>
 
