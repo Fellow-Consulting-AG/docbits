@@ -218,28 +218,4 @@ Per collegare la Linea Fiscale con la Linea di Costo:
 2. Aggiungi la seguente voce, seguendo l'esempio qui sotto:\
    `ICF_TaxLine = TF_position`
 
-**Esempio:**
-
-```
-InvoiceCostFields=TaxLine,LineNumber,LedgerAccount,DebitCredit,Amount,TransactionReference,Dimension1,Dimension2,Dimension3,Dimension4,Dimension5,Dimension6,Dimension7,Dimension8,Dimension9,Dimension10,Dimension11,Dimension12
-ICF_LineNumber=auto
-ICF_TaxLine=TF_position
-ICF_LedgerAccount=TF_ledger_account
-ICF_DebitCredit=invoice_type
-ICF_Amount=TF_amount
-ICF_Dimension1=TF_dimension_1
-ICF_Dimension2=TF_dimension_2
-ICF_Dimension3=TF_dimension_3
-ICF_Dimension4=TF_dimension_4
-ICF_Dimension5=TF_dimension_5
-ICF_Dimension6=TF_dimension_6
-ICF_Dimension7=TF_dimension_7
-ICF_Dimension8=TF_dimension_8
-ICF_Dimension9=TF_dimension_9
-ICF_Dimension10=TF_dimension_10
-ICF_Dimension11=TF_dimension_11
-ICF_Dimension12=TF_dimension_12
-ICF_Quantity1=TF_quantity
-ICF_Quantity2=TF_quantity2
-ICF_TransactionReference=TF_Buchungsreferenz
-```
+<figure><img src="../../../.gitbook/assets/TaxCodeMulti_10.png" alt=""><figcaption></figcaption></figure>
