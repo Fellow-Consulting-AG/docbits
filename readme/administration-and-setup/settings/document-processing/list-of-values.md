@@ -12,4 +12,4 @@ The "List of Values" setting in your document processing system is essentially a
 
     The second option is to upload a CSV file. To do this, click the **Upload CSV** button, select a **CSV** file you wish to import, choose the correct delimiter to ensure the data is parsed accurately, and then click **Upload** to complete the process.
 
-    In addition, each row includes an action button that allows you to edit or delete an existing entry as needed.The action button on each line allows you to delete or edit  an existing entry&#x20;
+    In addition, each row includes an action button that allows you to edit or delete an existing entry as needed.&#x20;
