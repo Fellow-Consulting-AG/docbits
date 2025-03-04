@@ -199,6 +199,7 @@
         * [Purpose and use](administration-and-setup/settings/global-settings/document-types/more-settings/purpose-and-use.md)
         * [Best practices](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Duplicate Invoice Handling In DocBits](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-invoice-handling-in-docbits.md)
+        * [Approval Stamp](administration-and-setup/settings/global-settings/document-types/more-settings/approval-stamp.md)
         * [Approval History](administration-and-setup/settings/global-settings/document-types/more-settings/approval-history.md)
         * [Supplier Item Number Map - Admin Documentation](administration-and-setup/settings/global-settings/document-types/more-settings/supplier-item-number-map-admin-documentation.md)
         * [Troubleshooting](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
