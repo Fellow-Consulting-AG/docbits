@@ -8,6 +8,10 @@
   * [Certificazioni](overview-and-basics/architecture/certifications.md)
 * [Infor Infrastruttura](overview-and-basics/infor-infrastructure.md)
 
+***
+
+* [Note della versione](release-notes.md)
+
 ## Sezione Utenti finali e partner <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
 
 * [Sezione utente finale](end-user-and-partner-section/end-user-section/README.md)
