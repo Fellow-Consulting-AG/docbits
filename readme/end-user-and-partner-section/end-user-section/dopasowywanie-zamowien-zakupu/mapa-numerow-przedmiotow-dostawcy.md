@@ -23,7 +23,7 @@ Ta funkcja pomaga zarządzać i uzgadniać numery przedmiotów pomiędzy Twoim s
 * **Działanie:** Opcje zarządzania mapowaniami, takie jak usuwanie niepoprawnych mapowań.
 
 {% hint style="info" %}
-Zobacz także [Sekcję Administracyjną](broken-reference)
+Zobacz także[ Sekcję Administracyjną](broken-reference)
 {% endhint %}
 
 ## **Korzyści**
