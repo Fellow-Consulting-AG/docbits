@@ -1,11 +1,51 @@
-# Release
+# Release Notes
+
+## Release Spring Bloom – 23rd April 2025
+
+### DocBits enhancements:
+
+* **Filter Option for Email Import Log:**\
+  Users now have the ability to filter the import logs and sort the table for a clearer, more efficient overview. This enhancement streamlines the process of identifying and managing email entries, improving troubleshooting and overall log management.
+* **Multi-Language Support for List of Values :**\
+  We've expanded multi-language capabilities to the List of Values feature. Administrators can now define labels in multiple languages, ensuring that the correct label is automatically displayed based on the user's system language settings. This enhancement promotes greater accessibility and localization, making it easier for users worldwide to interact with the platform in their native language.
+* **User Detail Enhancements in Settings:**\
+  The settings interface now displays comprehensive user information. Administrators can easily view group affiliations, sub-organization details, and additional key data, enabling better management of user roles and a clearer understanding of team structures.
+* **Auto Accounting Information on the Approval Screen:**\
+  The approval screen now presents auto accounting details alongside invoice information. This improvement provides deeper insight into transaction data, facilitating smoother review processes and more informed decision-making regarding invoices.
+*   **Introduction of New Auto-Testing Setup to Enhance System Functionality and Stability:**
+
+    We are excited to announce the implementation of a new automated testing system designed to improve the overall functionality and reliability of our platform. This new setup will run consistent, thorough checks on our system to identify any issues before they impact your experience. By automating these tests, we can ensure faster responses to potential problems and maintain the highest standards of quality for our system.
+
+
+
+### Bug Fixes
+
+* Resolved an issue where tasks were not appearing on the validation/approval screen.
+* Fixed the positioning of the Next/Previous button so that it remains static.
+* Fixed scrolling issues in the script and decision tree views, ensuring that action buttons remain stationary during scroll.
+* Removed the origin country field from e-invoices.
+* Fixed an issue with the task counter displaying an inaccurate number of tasks.
+* Added missing translations.
+* Corrected custom fields to display descriptive names instead of IDs.
+* Updated the shortcuts list for the PO matching screen.
+* Resolved an issue where documents were downloaded with an incorrect file name.
+* Fixed sorting inconsistencies in the invoice line table within PO matching.
+* Fixed an issue affecting task creation functionality.
+* Fixed an issue in PO matching where the invoice table sorting would reset when matching a line.
+* Resolved auto accounting issues by ensuring booking references split correctly when an amount is divided.
+* Updated the ClickHouse host information.
+* Resolved an issue where duplicate documents were not recognized as duplicates.
+* Fixed export issues caused by booking references that were too long.
+* Resolved an issue where readonly checkboxes where not readonly&#x20;
+
+
 
 ## Release Hot Fix Winter Frost  11th March 2025
 
 ### DocBits enhancements:
 
 * **Improved Data Extraction:** Added an option to extract the **Purchase Order** or **Item Number** from a line above or below.
-* **Expanded Cross Sub-Organisations Access:** Non-admin users can now also access the **Cross Sub-Organisations** feature.
+* **Expanded Cross Sub-Organizations Access:** Non-admin users can now also access the **Cross Sub-Organizations** feature.
 
 ### **Bug Fixes:**
 
