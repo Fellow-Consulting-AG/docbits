@@ -7,7 +7,7 @@
   * [DocBits Infor On-Premise-Kunde](architecture/docbits-infor-on-premise-customer.md)
   * [Zertifizierungen](architecture/certifications.md)
 * [Infor Infrastruktur](infor-infrastructure.md)
-* [Version](version.md)
+* [Release-Notizen](overview-and-basics/release-notes.md)
 
 ## Endnutzer und Partner Bereich  <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
 

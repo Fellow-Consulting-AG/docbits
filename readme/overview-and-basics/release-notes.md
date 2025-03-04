@@ -1,6 +1,54 @@
-# Version
+# Release-Notizen
 
-## Änderungen
+
+
+## Release Spring Bloom – 23. April 2025
+
+### DocBits Verbesserungen:
+
+* **Filteroption für den E-Mail-Importprotokoll:** Benutzer haben jetzt die Möglichkeit, die Importprotokolle zu filtern und die Tabelle für eine klarere, effizientere Übersicht zu sortieren. Diese Verbesserung optimiert den Prozess zur Identifizierung und Verwaltung von E-Mail-Einträgen, verbessert die Fehlersuche und das gesamte Protokollmanagement.
+* **Mehrsprachige Unterstützung für die Liste der Werte:** Wir haben die mehrsprachigen Funktionen für die Liste der Werte erweitert. Administratoren können jetzt Beschriftungen in mehreren Sprachen definieren, sodass die korrekte Beschriftung automatisch basierend auf den Spracheinstellungen des Benutzers angezeigt wird. Diese Verbesserung fördert eine größere Zugänglichkeit und Lokalisierung, was es Benutzern weltweit erleichtert, mit der Plattform in ihrer Muttersprache zu interagieren.
+* **Verbesserungen der Benutzerdetails in den Einstellungen:** Die Einstellungsoberfläche zeigt jetzt umfassende Benutzerinformationen an. Administratoren können Gruppenzugehörigkeit, Details zu Unterorganisationen und zusätzliche wichtige Daten leicht einsehen, was eine bessere Verwaltung der Benutzerrollen und ein klareres Verständnis der Teamstrukturen ermöglicht.
+* **Automatische Buchhaltungsinformationen auf dem Genehmigungsbildschirm:** Der Genehmigungsbildschirm zeigt jetzt automatische Buchhaltungsdetails zusammen mit den Rechnungsinformationen an. Diese Verbesserung bietet tiefere Einblicke in die Transaktionsdaten und erleichtert reibungslosere Überprüfungsprozesse sowie informiertere Entscheidungen bezüglich Rechnungen.
+*   **Einführung eines neuen automatisierten Test-Setups zur Verbesserung der Systemfunktionalität und -stabilität:**
+
+    Wir freuen uns, die Implementierung eines neuen automatisierten Testsystems bekannt zu geben, das darauf abzielt, die Gesamtfunktionalität und Zuverlässigkeit unserer Plattform zu verbessern. Dieses neue Setup wird konsistente, gründliche Überprüfungen unseres Systems durchführen, um Probleme zu identifizieren, bevor sie Ihre Erfahrung beeinträchtigen. Durch die Automatisierung dieser Tests können wir schnellere Reaktionen auf potenzielle Probleme gewährleisten und die höchsten Qualitätsstandards für unser System aufrechterhalten.
+
+    ​
+
+### Fehlerbehebungen
+
+* Ein Problem wurde behoben, bei dem Aufgaben nicht auf dem Validierungs-/Genehmigungsbildschirm angezeigt wurden.
+* Die Positionierung der Schaltfläche Nächste/Vorherige wurde so korrigiert, dass sie statisch bleibt.
+* Probleme beim Scrollen in den Skript- und Entscheidungsbaumansichten wurden behoben, sodass die Aktionsschaltflächen während des Scrollens stationär bleiben.
+* Das Ursprungslandfeld wurde von E-Rechnungen entfernt.
+* Ein Problem mit dem Aufgaben-Zähler, der eine ungenaue Anzahl von Aufgaben anzeigte, wurde behoben.
+* Fehlende Übersetzungen wurden hinzugefügt.
+* Benutzerdefinierte Felder wurden korrigiert, um beschreibende Namen anstelle von IDs anzuzeigen.
+* Die Liste der Tastenkombinationen für den PO-Abgleich-Bildschirm wurde aktualisiert.
+* Ein Problem wurde behoben, bei dem Dokumente mit einem falschen Dateinamen heruntergeladen wurden.
+* Sortierungsinkonsistenzen in der Rechnungstabelle innerhalb des PO-Abgleichs wurden behoben.
+* Ein Problem, das die Funktionalität zur Erstellung von Aufgaben beeinträchtigte, wurde behoben.
+* Ein Problem im PO-Abgleich, bei dem die Sortierung der Rechnungstabelle zurückgesetzt wurde, wenn eine Zeile abgeglichen wurde, wurde behoben.
+* Automatische Buchhaltungsprobleme wurden behoben, indem sichergestellt wurde, dass Buchungsreferenzen korrekt aufgeteilt werden, wenn ein Betrag geteilt wird.
+* Die ClickHouse-Hostinformationen wurden aktualisiert.
+* Ein Problem wurde behoben, bei dem doppelte Dokumente nicht als Duplikate erkannt wurden.
+* Exportprobleme, die durch zu lange Buchungsreferenzen verursacht wurden, wurden behoben.
+* Ein Problem wurde behoben, bei dem schreibgeschützte Kontrollkästchen nicht schreibgeschützt waren.
+
+​
+
+### Release Hot Fix Winter Frost 11. März 2025
+
+#### DocBits Verbesserungen:
+
+* **Verbesserte Datenextraktion:** Eine Option wurde hinzugefügt, um die **Bestellnummer** oder **Artikelnummer** aus einer Zeile darüber oder darunter zu extrahieren.
+* **Erweiterter Zugriff auf Cross Sub-Organizations:** Nicht-Admin-Benutzer können jetzt auch auf die Funktion **Cross Sub-Organizations** zugreifen.
+
+#### **Fehlerbehebungen:**
+
+* Ein Problem wurde behoben, bei dem Benutzer **nicht zu einer Gruppe hinzugefügt werden konnten**.
+* Ein Problem mit **E-Mail-Importfehlern** wurde behoben.
 
 Release Winter Frost – 22. Januar 2025\
 
@@ -203,13 +251,13 @@ Wir haben erweiterte Caching-Strategien im gesamten System implementiert, um Dat
 
 IMAP-E-Mail-Einstellungen wurden so konfiguriert, um Benachrichtigungen über Importergebnisse automatisch zu senden. Erfolgreiche Importbenachrichtigungen bestätigen die erfolgreiche Verarbeitung von Dateien, während Fehlermeldungen die Dateinamen und spezifische Fehlerdetails für eine schnelle Fehlersuche enthalten.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Überarbeitung der Stammdatenabfrage
 
 Die Einstellungen zur Stammdatenabfrage wurden überarbeitet und verfeinert, um eine schnellere und genauere Abfrage verschiedener Stammdatentypen zu ermöglichen. Diese Verbesserung optimiert den Datenzugriff, indem Stammdaten in unterschiedliche Kategorien organisiert werden, was die Sucheffizienz und -genauigkeit erheblich steigert. Benutzer können nun die relevanten Daten schneller finden, was die Produktivität in der Anwendung verbessert.
 
-<figure><img src=".gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
 ## Leistungsverbesserungen
 
