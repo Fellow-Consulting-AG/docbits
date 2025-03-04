@@ -1,6 +1,6 @@
 # Approval Stamp
 
-## Activating the Approval Stamp
+## Activating the Approval Stamp Feature
 
 To activate the Approval Stamp feature, follow these steps:
 
