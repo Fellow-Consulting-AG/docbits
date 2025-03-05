@@ -110,6 +110,7 @@
         * [Fehlerbehebung](admin-section/settings/global-settings/document-types/more-settings/fehlerbehebung.md)
         * [Einstellungen zur Toleranz von Bestellungen / Zusätzliche Toleranz für Bestellungen](admin-section/settings/global-settings/document-types/more-settings/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
         * [Bestellung deaktivieren Status](admin-section/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md)
+        * [Export nicht übereinstimmender PO-Zeilen](administration-and-setup/settings/global-settings/document-types/more-settings/export-nicht-ubereinstimmender-po-zeilen.md)
         * [Automatische Prüfung auf PO-Aktualisierungen](admin-section/settings/global-settings/document-types/more-settings/auto-check-for-po-updates.md)
         * [Auftragstabelle im Layout-Builder](admin-section/settings/global-settings/document-types/more-settings/po-table-in-layout-builder.md)
       * [e-docs](admin-section/settings/global-settings/document-types/edi-1/README.md)
