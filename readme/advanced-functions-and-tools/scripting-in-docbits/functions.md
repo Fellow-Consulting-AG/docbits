@@ -377,11 +377,11 @@ for row in table['rows']:
 
 #### Returns
 
-* The value of the specified column
+* Returns the value of the specified column if it exists; otherwise, it returns `None`
 
 ### **set\_column\_value()**
 
-Sets the value of a specified column.
+Sets the value of the specified column. If the column does not exist, it will be created.
 
 ```python
 supplier_id = get_field_value(document_data, "supplier_id", "")
