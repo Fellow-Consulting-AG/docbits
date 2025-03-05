@@ -28,9 +28,9 @@ Once the feature is activated, any document in the "pending approval" state will
 
 <figure><img src="../../../../../.gitbook/assets/ApprovalStamp_5 (1).png" alt=""><figcaption></figcaption></figure>
 
-### Downloading PDFs with or without Annotations <a href="#id-4.-downloading-pdfs-with-or-without-annotations" id="id-4.-downloading-pdfs-with-or-without-annotations"></a>
+### Downloading PDFs with or without the **Approval Stamp** <a href="#id-4.-downloading-pdfs-with-or-without-annotations" id="id-4.-downloading-pdfs-with-or-without-annotations"></a>
 
-* If a document has annotations, you can choose to download the PDF either with or without the annotations.
+* If a document has an approval stamp, you can choose to download the PDF either with or without the approval stamp.
 * To do this, go to the **Dashboard**.
 * Click on the **three dots** in the **Action** column.
 * Select one of the two available download options:
