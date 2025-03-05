@@ -2,7 +2,7 @@
 
 ## **Overview:**
 
-This feature automatically adds an approval stamp to a document when it is approved in the approval screen.
+This feature automatically adds an approval stamp to a document when it is approved in the approval screen. . If a document contains a approval stamp, it will be included when exporting to IDM
 
 ## Activating the Approval Stamp Feature
 
@@ -27,3 +27,14 @@ Once the feature is activated, any document in the "pending approval" state will
 <figure><img src="../../../../../.gitbook/assets/ApprovalStamp_4 (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/ApprovalStamp_5 (1).png" alt=""><figcaption></figcaption></figure>
+
+### Downloading PDFs with or without Annotations <a href="#id-4.-downloading-pdfs-with-or-without-annotations" id="id-4.-downloading-pdfs-with-or-without-annotations"></a>
+
+* If a document has annotations, you can choose to download the PDF either with or without the annotations.
+* To do this, go to the **Dashboard**.
+* Click on the **three dots** in the **Action** column.
+* Select one of the two available download options:
+  * **Download with Annotations**
+  * **Download without Annotations**
+
+<figure><img src="../../../../../.gitbook/assets/ApprovalStamp_6.png" alt="" width="247"><figcaption></figcaption></figure>
