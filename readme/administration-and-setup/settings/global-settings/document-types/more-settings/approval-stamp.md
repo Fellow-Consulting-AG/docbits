@@ -1,5 +1,9 @@
 # Approval Stamp
 
+## **Overview:**
+
+This feature automatically adds an approval stamp to a document when it is approved in the approval screen.
+
 ## Activating the Approval Stamp Feature
 
 To activate the Approval Stamp feature, follow these steps:
@@ -14,51 +18,12 @@ To activate the Approval Stamp feature, follow these steps:
 
     <figure><img src="../../../../../.gitbook/assets/ApprovalStamp_3.png" alt=""><figcaption></figcaption></figure>
 
-Once activated, you will see a new menu at the bottom right of the approval screen. This menu includes two options:
 
-* **Stamp Annotation Tool**
-* **Text Annotation Tool**
 
-<figure><img src="../../../../../.gitbook/assets/ApprovalStamp_4.png" alt=""><figcaption></figcaption></figure>
+## After Activation:
 
-## Stamp Annotation Tool
+Once the feature is activated, any document in the "pending approval" state will automatically receive an approval stamp once it is approved. The stamp will include the "Approved" logo, the name of the user who approved the document, and the time at which the document was approved.
 
-To add a stamp to your document, follow these steps:
+<figure><img src="../../../../../.gitbook/assets/ApprovalStamp_4 (1).png" alt=""><figcaption></figcaption></figure>
 
-1.  **Click on the Stamp Icon**: This will open the stamp options.
-
-    <div align="left"><figure><img src="../../../../../.gitbook/assets/ApprovalStamp_5.png" alt=""><figcaption></figcaption></figure></div>
-2. Choose **Approved** or **Rejected** from the dropdown menu.
-3.  If you want to create a stamp, click the **Add** button.
-
-    <figure><img src="../../../../../.gitbook/assets/ApprovalStamp_6.png" alt=""><figcaption></figcaption></figure>
-4. Once the stamp is placed, you can **drag and drop** it to adjust its position.
-5. **Click on the stamp field** to adjust its size
-6.  To save the stamp, click the **Save Icon**; to remove it, click the **Delete Icon**.
-
-    <figure><img src="../../../../../.gitbook/assets/ApprovalStamp_7.png" alt=""><figcaption></figcaption></figure>
-
-## Text Annotation Tool
-
-To add a text annotation to your document, follow these steps:
-
-1.  You can either:
-
-    * **Click on a color** to create a text field, which will automatically open the text editing menu, or
-
-    <div align="left"><figure><img src="../../../../../.gitbook/assets/ApprovalStamp_8.png" alt=""><figcaption></figcaption></figure></div>
-
-    * **Double-click** anywhere on the document to create a text field, then click the **pen icon** to open the text editing menu.
-
-    <figure><img src="../../../../../.gitbook/assets/ApprovalStamp_9.png" alt=""><figcaption></figcaption></figure>
-2.  In the text editing menu, you can:
-
-    * Add your annotation text
-    * Adjust the **font**, **size**, **color**, and **style** (Bold/Italic)
-    * To save the annotation text, click the **Save** button.
-
-    <figure><img src="../../../../../.gitbook/assets/ApprovalStamp_10.png" alt="" width="563"><figcaption></figcaption></figure>
-3. Once the text field is placed, you can **drag and drop** it to adjust its position.
-4.  To save the stamp, click the **Save Icon**; to remove it, click the **Delete Icon**.
-
-    <figure><img src="../../../../../.gitbook/assets/ApprovalStamp_11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/ApprovalStamp_5 (1).png" alt=""><figcaption></figcaption></figure>
