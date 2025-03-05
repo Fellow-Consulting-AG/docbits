@@ -94,6 +94,7 @@
         * [Rozwiązywanie problemów](administration-and-setup/settings/global-settings/document-types/more-settings/rozwiazywanie-problemow.md)
         * [Ustawienia tolerancji zamówienia zakupu / Dodatkowa tolerancja zamówienia zakupu](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
         * [Statusy wyłączenia zamówienia zakupu](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md)
+        * [Eksport niepasujących linii PO](administration-and-setup/settings/global-settings/document-types/more-settings/export-not-matched-po-lines.md)
         * [Automatyczne sprawdzanie aktualizacji PO](administration-and-setup/settings/global-settings/document-types/more-settings/auto-check-for-po-updates.md)
         * [Tabela PO w Kreatorze Układów](administration-and-setup/settings/global-settings/document-types/more-settings/po-table-in-layout-builder.md)
       * [e-docs](administration-and-setup/settings/global-settings/document-types/edi-1/README.md)
