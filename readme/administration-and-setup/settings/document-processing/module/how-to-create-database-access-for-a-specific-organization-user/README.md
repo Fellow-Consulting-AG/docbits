@@ -25,7 +25,7 @@
      * **AI Document Warehouse**: Toggle this to enable access to AI-related features.
      * **DB Access**: Toggle this to grant database access to user.
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 2. **Database Credentials**:
    * The dashboard provides the following database connection details:

@@ -1,17 +1,19 @@
----
-hidden: true
----
-
 # Export not matched PO lines
 
-Go to **Settings** → **General Settings** → **Document Types** → **More Settings** → **Purchase Order Section** → **Export not matched PO lines**
+## **Where to Find It**
 
-how does it work:
+Go to **Settings → General Settings → Document Types → More Settings → Purchase Order Section → Export Not Matched PO Lines**.\
+Toggle the button to enable this setting.
 
-when not enabled DocBits will only export matched Invoice lines that are matched mit a purchase order&#x20;
+<figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-when enabled DocBits will export Invoice lines of an invoice that are not matched to the purchase order
+## **How It Works**
 
-For example you have a purchase order with 3 lines but get a Invoice with only 2 Lines&#x20;
+* **When disabled**, the system only exports purchase order lines that are matched with an order confirmation line. Unmatched purchase order lines will not be included in the export.
+* **When enabled**, the system exports all purchase order lines, even if they are not matched to an order confirmation line.
 
-Now you match the lines 1 to 1 and have one purchase order line over when this setting is not active you  &#x20;
+For example, if a purchase order has **three lines**, but the supplier sends an **order confirmation with only one line**, you match that line to a purchase order line. The remaining two unmatched purchase order lines will be:
+
+* **Excluded from the export** if the setting is disabled.
+* **Included in the export** if the setting is enabled.
+
