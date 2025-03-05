@@ -95,6 +95,7 @@
         * [Dépannage](administration-and-setup/settings/global-settings/document-types/more-settings/depannage.md)
         * [Paramètres de tolérance de commande d'achat / Tolérance de commande d'achat supplémentaire](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
         * [Statuts de désactivation de commande d'achat](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md)
+        * [Export des lignes de commande non appariées](administration-and-setup/settings/global-settings/document-types/more-settings/export-not-matched-po-lines.md)
         * [Vérification automatique des mises à jour de CA](administration-and-setup/settings/global-settings/document-types/more-settings/auto-check-for-po-updates.md)
         * [Table PO dans le Constructeur de Mise en Page](administration-and-setup/settings/global-settings/document-types/more-settings/po-table-in-layout-builder.md)
       * [e-docs](administration-and-setup/settings/global-settings/document-types/edi-1/README.md)
