@@ -95,6 +95,7 @@
         * [Risoluzione dei problemi](administration-and-setup/settings/global-settings/document-types/more-settings/risoluzione-dei-problemi.md)
         * [Impostazioni di tolleranza per gli ordini di acquisto / Ulteriore tolleranza per gli ordini di acqui](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
         * [Stati di disabilitazione degli ordini di acquisto](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md)
+        * [Esporta righe di PO non corrispondenti](administration-and-setup/settings/global-settings/document-types/more-settings/export-not-matched-po-lines.md)
         * [Controllo automatico degli aggiornamenti PO](administration-and-setup/settings/global-settings/document-types/more-settings/auto-check-for-po-updates.md)
         * [Table PO dans le Constructeur de Mise en Page](administration-and-setup/settings/global-settings/document-types/more-settings/po-table-in-layout-builder.md)
       * [e-docs](administration-and-setup/settings/global-settings/document-types/e-docs/README.md)
