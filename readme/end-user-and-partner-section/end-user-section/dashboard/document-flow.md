@@ -17,7 +17,7 @@ This page provides a graphical overview of the various steps a document has gone
 
 ### **Option 2:**
 
-1. Open the document you want to view the workflow for.
+1. Open the document you want to view the document flow for.
 2.  Click the three dots on the right side of the validation screen.
 
     <figure><img src="../../../.gitbook/assets/DocumentFlow_3.png" alt=""><figcaption></figcaption></figure>
@@ -27,11 +27,11 @@ This page provides a graphical overview of the various steps a document has gone
 
 ## **Description:**
 
-On the left side of the screen, you will see the individual steps of the document workflow, listed from left to right.
+On the left side of the screen, you will see the individual steps of the document flow, listed from left to right.
 
 <figure><img src="../../../.gitbook/assets/DocumentFlow_6.png" alt=""><figcaption></figcaption></figure>
 
-* Steps that initiate the workflow process (such as import or restart) will appear in green.
+* Steps that initiate the document flow process (such as import or restart) will appear in green.
 * To navigate through the steps, simply drag and drop them on the screen.
 *   When you click on a step, the name of the module and information about whether the step was successful or not will appear on the right side of the screen.
 
