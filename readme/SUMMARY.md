@@ -90,6 +90,7 @@
         * [Najlepsze praktyki](administration-and-setup/settings/global-settings/document-types/more-settings/najlepsze-praktyki.md)
         * [Cel i zastosowanie](administration-and-setup/settings/global-settings/document-types/more-settings/cel-i-zastosowanie.md)
         * [Obsługa Duplikatów Faktur w DocBits](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-invoice-handling-in-docbits.md)
+        * [Stempel Zatwierdzenia](administration-and-setup/settings/global-settings/document-types/more-settings/approval-stamp.md)
         * [Mapa Numerów Przedmiotów Dostawcy - Dokumentacja Administracyjna](administration-and-setup/settings/global-settings/document-types/more-settings/mapa-numerow-przedmiotow-dostawcy-dokumentacja-administracyjna.md)
         * [Rozwiązywanie problemów](administration-and-setup/settings/global-settings/document-types/more-settings/rozwiazywanie-problemow.md)
         * [Ustawienia tolerancji zamówienia zakupu / Dodatkowa tolerancja zamówienia zakupu](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
