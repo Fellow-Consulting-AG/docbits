@@ -45,5 +45,9 @@
 
 ### **Corrección de Errores:**
 
-* Se corrigió un problema donde los usuarios **no podían ser añadidos** a un grupo.
-* Se corrigió un problema con **fallos en la importación de correos electrónicos**.
+* Se corrigió un problema donde los usuarios no podían ser añadidos a un grupo.
+* Se corrigió un problema con fallos en la importación de correos electrónicos.
+* Se resolvió un problema con la capacitación en el campo en documentos con más de una página
+* Se corrigió un problema donde los scripts no funcionaban correctamente.
+* Se resolvió un problema donde los datos del documento no se mostraban correctamente
+* Se corrigió un problema con la configuración de actualización automática de la orden de compra
