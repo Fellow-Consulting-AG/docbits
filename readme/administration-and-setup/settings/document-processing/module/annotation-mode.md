@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Annotation Mode** setting allows users to create and manage annotations directly on the PDF. If a document contains annotations, they will be included when exporting to IDM.
+The **Annotation Mode** setting allows users to create and manage annotations directly on the PDF. If a document contains annotations, they will be included when **exporting to IDM**.
 
 ## Location
 
