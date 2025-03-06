@@ -49,6 +49,10 @@
 
 * Ein Problem wurde behoben, bei dem Benutzer **nicht zu einer Gruppe hinzugefügt werden konnten**.
 * Ein Problem mit **E-Mail-Importfehlern** wurde behoben.
+* Ein Problem mit dem Feldtraining bei Dokumenten mit mehr als einer Seite wurde behoben.
+* Ein Problem wurde behoben, bei dem Skripte nicht richtig funktionierten.
+* Ein Problem wurde behoben, bei dem die Dokumentendaten nicht korrekt angezeigt wurden.
+* Ein Problem bei der Einstellung Automatische Prüfung auf PO-Aktualisierungen wurde behoben.
 
 Release Winter Frost – 22. Januar 2025\
 
