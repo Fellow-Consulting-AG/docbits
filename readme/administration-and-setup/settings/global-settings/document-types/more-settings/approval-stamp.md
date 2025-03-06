@@ -2,7 +2,7 @@
 
 ## **Overview:**
 
-This feature automatically adds an approval stamp to a document when it is approved in the approval screen. If a document contains a approval stamp, it will be included when exporting to IDM.
+This feature automatically adds an approval stamp to a document when it is approved in the approval screen. If a document contains a approval stamp, it will be included when **exporting to IDM**.
 
 ## Activating the Approval Stamp Feature
 
