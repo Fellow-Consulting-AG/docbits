@@ -45,5 +45,9 @@
 
 ### **Correzioni di Bug:**
 
-* Risolto un problema in cui gli utenti **non potevano essere aggiunti** a un gruppo.
-* Risolto un problema con **i fallimenti di importazione email**.
+* Risolto un problema in cui gli utenti non potevano essere aggiunti a un gruppo.
+* Risolto un problema con i fallimenti di importazione email.
+* Risolto un problema con la formazione sul campo su documenti con più di una pagina
+* Risolto un problema in cui gli script non funzionavano correttamente.
+* Risolto un problema in cui i dati del documento non venivano visualizzati correttamente
+* Risolto un problema con l'impostazione dell'aggiornamento automatico dell'ordine di acquisto
