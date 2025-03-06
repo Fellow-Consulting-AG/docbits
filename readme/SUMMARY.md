@@ -91,7 +91,7 @@
         * [Mejores prácticas](administration-and-setup/settings/global-settings/document-types/more-settings/mejores-practicas.md)
         * [Propósito y uso](administration-and-setup/settings/global-settings/document-types/more-settings/proposito-y-uso.md)
         * [Manejo de Facturas Duplicadas en DocBits](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-invoice-handling-in-docbits.md)
-        * [Sello de aprobación](administration-and-setup/settings/global-settings/document-types/more-settings/sello-de-aprobacion.md)
+        * [Sello de aprobación](administration-and-setup/settings/global-settings/document-types/more-settings/approval-stamp.md)
         * [Mapa de Números de Artículos de Proveedores - Documentación para Administradores](administration-and-setup/settings/global-settings/document-types/more-settings/mapa-de-numeros-de-articulos-de-proveedores-documentacion-para-administradores.md)
         * [Solución de problemas](administration-and-setup/settings/global-settings/document-types/more-settings/solucion-de-problemas.md)
         * [Ajuste de tolerancias de órdenes de compra / Tolerancia adicional de órdenes de compra](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
