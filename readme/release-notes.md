@@ -45,5 +45,9 @@
 
 ### **Corrections de bugs :**
 
-* Corrigé un problème où les utilisateurs **ne pouvaient pas être ajoutés** à un groupe.
-* Corrigé un problème avec **les échecs d'importation d'e-mails**.
+* Corrigé un problème où les utilisateurs ne pouvaient pas être ajoutés à un groupe.
+* Corrigé un problème avec les échecs d'importation d'e-mails.
+* Résolu un problème avec la formation sur les documents de plus d'une page
+* Corrigé un problème où les scripts ne fonctionnaient pas correctement.
+* Résolu un problème où les données du document n'étaient pas affichées correctement
+* Corrigé un problème avec le paramètre de mise à jour automatique des commandes d'achat
