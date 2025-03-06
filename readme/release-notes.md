@@ -45,5 +45,9 @@
 
 ### **Poprawki błędów:**
 
-* Naprawiono problem, w którym użytkownicy **nie mogli być dodawani** do grupy.
-* Naprawiono problem z **niepowodzeniami importu e-maili**.
+* Naprawiono problem, w którym użytkownicy nie mogli być dodawani do grupy.
+* Naprawiono problem z niepowodzeniami importu e-maili.
+* Rozwiązano problem z treningiem w terenie na dokumentach z więcej niż jedną stroną
+* Naprawiono problem, w którym skrypty nie działały poprawnie.
+* Rozwiązano problem, w którym dane dokumentu nie były wyświetlane poprawnie
+* Naprawiono problem z automatycznym aktualizowaniem ustawienia zamówienia zakupu
