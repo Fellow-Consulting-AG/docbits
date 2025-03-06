@@ -35,6 +35,7 @@
     * [Overview of Uploaded Documents](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Task Counter](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Validated Extracted Fields](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)
+    * [Document Flow](end-user-and-partner-section/end-user-section/dashboard/document-flow.md)
     * [Best Practice](end-user-and-partner-section/end-user-section/dashboard/best-practice.md)
     * [Troubleshooting](end-user-and-partner-section/end-user-section/dashboard/troubleshooting.md)
   * [Tasks](end-user-and-partner-section/end-user-section/tasks.md)
