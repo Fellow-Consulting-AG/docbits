@@ -30,7 +30,7 @@
     * [Champs extraits validés](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)
     * [Meilleure Pratique](end-user-and-partner-section/end-user-section/dashboard/meilleures-pratiques.md)
     * [Dépannage](end-user-and-partner-section/end-user-section/dashboard/troubleshooting.md)
-    * [Page 1](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
+    * [Raccourcis Clavier](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
   * [Tâches](end-user-and-partner-section/end-user-section/taches.md)
   * [Advance Shipment Dashboard](end-user-and-partner-section/end-user-section/advance-shipment-dashboard.md)
   * [Bon de commande](end-user-and-partner-section/end-user-section/bon-de-commande.md)

@@ -1,6 +1,4 @@
-# Page 1
-
-### Raccourcis du Tableau de Bord
+# Raccourcis Clavier
 
 Le tableau de bord comprend les raccourcis suivants pour améliorer la navigation et l'interaction :
 
