@@ -55,6 +55,9 @@
 * Fixed an issue where scripts didn’t work properly.
 * Resolved an issue where document data didn't get displayed correctly&#x20;
 * Fixed an issue with the auto update purchase order setting&#x20;
+* Fixed an issue where the subscription tokens got displayed wrong&#x20;
+* Resolved an issue where the task screen displayed an outdated document version&#x20;
+* Fixed an issue that caused documents to not change their status &#x20;
 
 ## Release Hot Fix Winter Frost  3rd February 2025
 
