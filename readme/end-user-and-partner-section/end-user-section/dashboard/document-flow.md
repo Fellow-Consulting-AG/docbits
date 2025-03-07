@@ -13,7 +13,7 @@ This page provides a graphical overview of the various steps a document has gone
     <figure><img src="../../../.gitbook/assets/DocumentFlow_1.png" alt=""><figcaption></figcaption></figure>
 2.  Select **Document Flow**.
 
-    <figure><img src="../../../.gitbook/assets/DocumentFlow_2.png" alt="" width="192"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/DocumentFlow_2.png" alt="" width="248"><figcaption></figcaption></figure>
 
 ### **Option 2:**
 
