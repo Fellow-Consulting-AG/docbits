@@ -49,8 +49,12 @@
 
 ### **Bug Fixes:**
 
-* Fixed an issue where users **could not be added** to a group.
-* Fixed an issue with **email import failures**.
+* Fixed an issue where users could not be added to a group.
+* Fixed an issue with email import failures.
+* Resolved an issue with the field training on documents with more than page&#x20;
+* Fixed an issue where scripts didn’t work properly.
+* Resolved an issue where document data didn't get displayed correctly&#x20;
+* Fixed an issue with the auto update purchase order setting&#x20;
 
 ## Release Hot Fix Winter Frost  3rd February 2025
 

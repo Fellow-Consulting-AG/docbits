@@ -86,11 +86,14 @@ Use the tool tip to find out if:
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.42.png" alt="" width="145"><figcaption></figcaption></figure>
 
-1. **Keyboard Shortcuts:**
-   * **Purpose:** Allows users to perform actions quickly using keyboard combinations.
-   * **Use Case:** Enhances speed and efficiency in document navigation and processing by minimizing reliance on mouse navigation.
+1.  **Keyboard Shortcuts:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt="" width="239"><figcaption><p>Keyboard</p></figcaption></figure>
+    * **Purpose:** Allows users to perform actions quickly using keyboard combinations.
+    * **Use Case:** Enhances speed and efficiency in document navigation and processing by minimizing reliance on mouse navigation.
+
+
+
+
 
 
 

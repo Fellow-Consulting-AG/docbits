@@ -2,9 +2,14 @@
 
 {% embed url="https://www.youtube.com/watch?v=ar9jXYJo_AM" %}
 
+### 1. How enable the Report Page&#x20;
 
+Go to **Settings** → **Document Processing** → **Module** → **Document Type** → **Show Report**\
+Toggle the button to enable this setting.
 
-### 1. **How to Access the Report Page**
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### 2. **How to Access the Report Page**
 
 Follow these steps to access the **Report Page** in DocBits:
 
@@ -15,7 +20,7 @@ Follow these steps to access the **Report Page** in DocBits:
 
 <figure><img src="../.gitbook/assets/image (312).png" alt="" width="314"><figcaption></figcaption></figure>
 
-### **2. Using the Time Unit Filter**
+### **3. Using the Time Unit Filter**
 
 *   At the top of the page, you can adjust the **Time Unit** filter to select the time range for your report:
 
@@ -29,19 +34,19 @@ Follow these steps to access the **Report Page** in DocBits:
 
 
 
-### **3. New Documents Display**
+### **4. New Documents Display**
 
 * Next to the **Time Unit** filter, there is an information display labeled **New Documents**. This shows the number of new documents that were imported during the selected timeframe.
 
 <figure><img src="../.gitbook/assets/image (319).png" alt="" width="315"><figcaption></figcaption></figure>
 
-### **4. Average System Time Display**
+### **5. Average System Time Display**
 
 * Following the **New Documents** label, you will find the **Average System Time** display. This shows the average time, in seconds, that the system took to process a new document during the selected timeframe.&#x20;
 
 <figure><img src="../.gitbook/assets/image (320).png" alt="" width="437"><figcaption></figcaption></figure>
 
-### **5. Changed Fields Section**
+### **6. Changed Fields Section**
 
 * Below the time-related information, you will find the **Changed Fields** section. This section displays a diagram showing how frequently each document field was manually modified by users during the selected timeframe.
 * Each field is displayed with the corresponding number of changes, shown as bars in the diagram.
@@ -55,7 +60,7 @@ Follow these steps to access the **Report Page** in DocBits:
     * **CSV**&#x20;
   * To download the diagram, click on the menu and select your preferred file format.
 
-### **6. Additional Report Sections**
+### **7. Additional Report Sections**
 
 Below the **Changed Fields** section, you will find four additional buttons that provide more detailed information when clicked. Each button expands to show more information when clicked.
 
