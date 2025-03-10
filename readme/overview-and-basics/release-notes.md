@@ -10,6 +10,9 @@
 * **Mehrsprachige Unterstützung für die Liste der Werte:** Wir haben die mehrsprachigen Funktionen für die Liste der Werte erweitert. Administratoren können jetzt Beschriftungen in mehreren Sprachen definieren, sodass die korrekte Beschriftung automatisch basierend auf den Spracheinstellungen des Benutzers angezeigt wird. Diese Verbesserung fördert eine größere Zugänglichkeit und Lokalisierung, was es Benutzern weltweit erleichtert, mit der Plattform in ihrer Muttersprache zu interagieren.
 * **Verbesserungen der Benutzerdetails in den Einstellungen:** Die Einstellungsoberfläche zeigt jetzt umfassende Benutzerinformationen an. Administratoren können Gruppenzugehörigkeit, Details zu Unterorganisationen und zusätzliche wichtige Daten leicht einsehen, was eine bessere Verwaltung der Benutzerrollen und ein klareres Verständnis der Teamstrukturen ermöglicht.
 * **Automatische Buchhaltungsinformationen auf dem Genehmigungsbildschirm:** Der Genehmigungsbildschirm zeigt jetzt automatische Buchhaltungsdetails zusammen mit den Rechnungsinformationen an. Diese Verbesserung bietet tiefere Einblicke in die Transaktionsdaten und erleichtert reibungslosere Überprüfungsprozesse sowie informiertere Entscheidungen bezüglich Rechnungen.
+* **Aufgaben-Zähler für Dokumente in der Dashboard-Ansicht:** Dokumente im Dashboard können jetzt offene Aufgaben anzeigen, die mit ihnen verbunden sind, und die Gesamtzahl der ausstehenden Aufgaben anzeigen. Diese Funktion bietet den Benutzern einen schnellen Überblick über ausstehende Aktionen, verbessert das Aufgabenmanagement und die Effizienz des Workflows.
+* **Lieferantenbasierte Auswahl des KI-Modells:** Benutzer können jetzt das KI-Modell auswählen, das für die Datenextraktion auf Basis des jeweiligen Lieferanten verwendet wird. Diese Verbesserung ermöglicht eine fein abgestimmte Optimierung, um eine bessere Extraktionsgenauigkeit für verschiedene Lieferanten zu gewährleisten und die Gesamtergebnisse der Datenverarbeitung zu verbessern.
+* **Erweiterte Workflow-Protokolle für Entscheidungsbaum-Karten:** Die Protokolle zeigen jetzt die Ausgabe des Entscheidungsbaums an, was es einfacher macht, nachzuvollziehen und zu verstehen, wie Entscheidungen innerhalb von Workflows getroffen wurden.
 *   **Einführung eines neuen automatisierten Test-Setups zur Verbesserung der Systemfunktionalität und -stabilität:**
 
     Wir freuen uns, die Implementierung eines neuen automatisierten Testsystems bekannt zu geben, das darauf abzielt, die Gesamtfunktionalität und Zuverlässigkeit unserer Plattform zu verbessern. Dieses neue Setup wird konsistente, gründliche Überprüfungen unseres Systems durchführen, um Probleme zu identifizieren, bevor sie Ihre Erfahrung beeinträchtigen. Durch die Automatisierung dieser Tests können wir schnellere Reaktionen auf potenzielle Probleme gewährleisten und die höchsten Qualitätsstandards für unser System aufrechterhalten.
@@ -35,6 +38,8 @@
 * Ein Problem wurde behoben, bei dem doppelte Dokumente nicht als Duplikate erkannt wurden.
 * Exportprobleme, die durch zu lange Buchungsreferenzen verursacht wurden, wurden behoben.
 * Ein Problem wurde behoben, bei dem schreibgeschützte Kontrollkästchen nicht schreibgeschützt waren.
+* Ein Problem wurde behoben, bei dem Benutzer zweimal zu einer Unterorganisation hinzugefügt werden konnten.
+* Ein Problem wurde behoben, bei dem das Ändern der Unterorganisation für ein Dokument dazu führte, dass der zugewiesene Benutzer oder die Gruppe zurückgesetzt wurde.
 
 ​
 
