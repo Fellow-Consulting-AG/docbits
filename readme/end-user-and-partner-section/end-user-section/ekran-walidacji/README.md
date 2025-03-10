@@ -154,21 +154,7 @@ Skrypty można tworzyć w ustawieniach w sekcji Typy dokumentów; te informacje 
 
 ### **Więcej ustawień:**
 
-<figure><img src="../../../.gitbook/assets/validation_screen23.png" alt="" width="239"><figcaption></figcaption></figure>
-
-### **Podziel dokument:**
-
-* Tutaj możesz podzielić dokument i wyciąć lub usunąć strony, które nie są potrzebne
-* **Podziel dokument:**
-  * **Cel:** Umożliwia użytkownikom podzielenie dokumentu na oddzielne części, usuwając lub izolując strony, które nie są potrzebne.
-  * **Przypadek użycia:** Idealne przy pracy z dokumentami wielostronicowymi, gdzie tylko niektóre sekcje są wymagane do przetwarzania lub przeglądu.
-
-### **Popraw dokument:**
-
-* Dokument zostanie ponownie uruchomiony
-* **Popraw dokument:**
-  * **Cel:** Resetuje dokument do jego początkowego stanu w celu ponownej oceny lub dalszych modyfikacji.
-  * **Przypadek użycia:** Przydatne, gdy początkowe modyfikacje muszą zostać cofnięte lub dokument musi zostać odświeżony do kolejnej rundy edycji. Tutaj potrzebujemy dodatkowej wizji ML, aby poprawić jakość dokumentu.
+<figure><img src="../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250310173928.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **Przepływ dokumentu:**
 
@@ -183,3 +169,13 @@ Tam znajdziesz przepływ dokumentu
 * **Przejdź do szablonu układu:**
   * **Cel:** Przekierowuje użytkowników do edytora układu, gdzie mogą modyfikować istniejące szablony lub zastosować domyślny.
   * **Przypadek użycia:** Umożliwia dostosowanie układów dokumentów do spełnienia specyficznych potrzeb biznesowych lub preferencji, poprawiając wizualne i funkcjonalne dopasowanie dokumentu do standardów firmy.
+
+### Użyj E-Text, jeśli dostępne
+
+* **Cel:** Umożliwia DocBits korzystanie z e-text dla wszystkich dokumentów od konkretnego dostawcy, jeśli jest dostępny, poprawiając dokładność ekstrakcji.
+* **Przykład użycia:** Zwiększa ekstrakcję tekstu, wykorzystując osadzone teksty zamiast OCR, co może prowadzić do dokładniejszych wyników dla tego dostawcy.
+
+### Model AI oparty na dostawcy
+
+* **Cel:** Umożliwia wybór pomiędzy trzema różnymi modelami AI w celu optymalizacji wyników ekstrakcji dla konkretnego dostawcy.
+* **Przykład użycia:** Zapewnia lepszą dokładność ekstrakcji, wybierając najbardziej odpowiedni model AI dla struktury dokumentu i treści każdego dostawcy.
