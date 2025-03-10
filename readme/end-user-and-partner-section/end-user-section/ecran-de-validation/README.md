@@ -156,21 +156,7 @@ Les scripts peuvent être créés dans les paramètres sous Types de documents ;
 
 ### **Plus de paramètres:**
 
-<figure><img src="../../../.gitbook/assets/validation_screen23.png" alt="" width="239"><figcaption></figcaption></figure>
-
-### **Diviser le document:**
-
-* Ici, vous pouvez diviser le document et couper ou supprimer les pages qui ne sont pas nécessaires
-* **Diviser le document:**
-  * **Objectif:** Permet aux utilisateurs de diviser un document en parties séparées, en supprimant ou isolant les pages qui ne sont pas nécessaires.
-  * **Cas d'utilisation:** Idéal lors du traitement de documents multi-pages où seules certaines sections sont nécessaires pour le traitement ou la révision.
-
-### **Améliorer le document:**
-
-* Le document sera redémarré
-* **Améliorer le document:**
-  * **Objectif:** Réinitialise le document à son état initial pour une réévaluation ou des modifications supplémentaires.
-  * **Cas d'utilisation:** Utile lorsque les modifications initiales doivent être annulées ou que le document doit être actualisé pour un autre tour de modifications. Ici, nous avons besoin d'une vision ML supplémentaire pour améliorer la qualité du document.
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### **Flux de documents:**
 
@@ -185,3 +171,13 @@ Vous y trouverez le flux du document
 * **Aller au modèle de mise en page:**
   * **Objectif:** Redirige les utilisateurs vers un éditeur de mise en page où ils peuvent modifier les modèles existants ou appliquer un modèle par défaut.
   * **Cas d'utilisation:** Permet la personnalisation des mises en page de documents pour répondre à des besoins ou préférences spécifiques de l'entreprise, améliorant l'alignement visuel et fonctionnel du document avec les normes de l'entreprise.
+
+### Utiliser E-Text si Disponible
+
+* **Objectif :** Permet à DocBits d'utiliser le texte électronique pour tous les documents d'un fournisseur spécifique si disponible, améliorant ainsi la précision de l'extraction.
+* **Cas d'utilisation :** Améliore l'extraction de texte en tirant parti du texte intégré au lieu de l'OCR, ce qui peut conduire à des résultats plus précis pour ce fournisseur.
+
+### Modèle AI Basé sur le Fournisseur
+
+* **Objectif :** Permet de choisir entre trois modèles AI différents pour optimiser les résultats d'extraction pour un fournisseur spécifique.
+* **Cas d'utilisation :** Assure une meilleure précision d'extraction en choisissant le modèle AI le plus adapté à la structure et au contenu des documents de chaque fournisseur.
