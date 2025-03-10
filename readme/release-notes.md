@@ -45,5 +45,12 @@
 
 ### **Correções de Bugs:**
 
-* Corrigido um problema onde usuários **não podiam ser adicionados** a um grupo.
-* Corrigido um problema com **falhas na importação de email**.
+* Corrigido um problema onde usuários não podiam ser adicionados a um grupo.
+* Corrigido um problema com falhas na importação de e-mails.
+* Resolvido um problema com o treinamento de campo em documentos com mais de uma página.
+* Corrigido um problema onde scripts não funcionavam corretamente.
+* Resolvido um problema onde os dados do documento não eram exibidos corretamente.
+* Corrigido um problema com a configuração de atualização automática do pedido de compra.
+* Corrigido um problema onde os tokens de assinatura eram exibidos incorretamente.
+* Resolvido um problema onde a tela de tarefas exibia uma versão desatualizada do documento.
+* Corrigido um problema que fazia com que os documentos não mudassem seu status.
