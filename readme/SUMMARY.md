@@ -25,6 +25,7 @@
     * [Übersicht der hochgeladenen Dokumente](end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Aufgabenzähler](end-user-section/dashboard/task-counter.md)
     * [Validierte extrahierte Felder](end-user-section/dashboard/validated-extracted-fields.md)
+    * [Document-Flow](end-user-and-partner-section/end-user-section/dashboard/document-flow.md)
     * [Best Practice](end-user-section/dashboard/best-practices.md)
     * [Fehlerbehebung](end-user-section/dashboard/troubleshooting.md)
     * [Tastenkombinationen](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
