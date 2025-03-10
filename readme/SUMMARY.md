@@ -28,6 +28,7 @@
     * [Przegląd Przesłanych Dokumentów](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Licznik Zadań](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Zweryfikowane Wyodrębnione Pola](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)
+    * [Przepływ Dokumentów](end-user-and-partner-section/end-user-section/dashboard/document-flow.md)
     * [Najlepsze Praktyki](end-user-and-partner-section/end-user-section/dashboard/najlepsze-praktyki.md)
     * [Rozwiązywanie problemów](end-user-and-partner-section/end-user-section/dashboard/troubleshooting.md)
     * [Skróty Klawiaturowe](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
