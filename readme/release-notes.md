@@ -51,3 +51,6 @@
 * Corrigé un problème où les scripts ne fonctionnaient pas correctement.
 * Résolu un problème où les données du document n'étaient pas affichées correctement
 * Corrigé un problème avec le paramètre de mise à jour automatique des commandes d'achat
+* Correction d'un problème où les jetons d'abonnement étaient affichés de manière incorrecte
+* Résolution d'un problème où l'écran de tâche affichait une version de document obsolète
+* Correction d'un problème qui empêchait les documents de changer leur statut
