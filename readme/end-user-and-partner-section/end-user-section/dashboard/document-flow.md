@@ -18,7 +18,7 @@ This page provides a graphical overview of the various steps a document has gone
 ### **Option 2:**
 
 1. Open the document you want to view the document flow for.
-2.  Click the three dots on the right side of the validation screen.
+2.  Click the three dots on the right side of the Field Validation.
 
     <figure><img src="../../../.gitbook/assets/DocumentFlow_3.png" alt=""><figcaption></figcaption></figure>
 3.  Select **Document Flow**.
