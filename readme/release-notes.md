@@ -8,6 +8,9 @@
 * **Wsparcie wielojęzyczne dla Listy Wartości:** Rozszerzyliśmy możliwości wielojęzyczne dla funkcji Listy Wartości. Administratorzy mogą teraz definiować etykiety w wielu językach, zapewniając, że odpowiednia etykieta jest automatycznie wyświetlana w zależności od ustawień językowych systemu użytkownika. To ulepszenie promuje większą dostępność i lokalizację, ułatwiając użytkownikom na całym świecie interakcję z platformą w ich rodzimym języku.
 * **Ulepszenia szczegółów użytkownika w ustawieniach:** Interfejs ustawień teraz wyświetla kompleksowe informacje o użytkownikach. Administratorzy mogą łatwo przeglądać przynależności do grup, szczegóły podorganizacji i dodatkowe kluczowe dane, co umożliwia lepsze zarządzanie rolami użytkowników i jaśniejsze zrozumienie struktur zespołowych.
 * **Informacje o automatycznym księgowaniu na ekranie zatwierdzania:** Ekran zatwierdzania teraz prezentuje szczegóły automatycznego księgowania obok informacji o fakturze. To ulepszenie zapewnia głębszy wgląd w dane transakcyjne, ułatwiając płynniejsze procesy przeglądowe i bardziej świadome podejmowanie decyzji dotyczących faktur.
+* **Licznik zadań dla dokumentów w widoku pulpitu:** Dokumenty na pulpicie mogą teraz wskazywać otwarte zadania związane z nimi oraz wyświetlać łączną liczbę oczekujących zadań. Ta funkcja zapewnia użytkownikom szybki przegląd zaległych działań, poprawiając zarządzanie zadaniami i efektywność przepływu pracy.
+* **Wybór modelu AI opartego na dostawcy:** Użytkownicy mogą teraz wybierać model AI używany do ekstrakcji danych na podstawie dostawcy. To ulepszenie pozwala na precyzyjną optymalizację, zapewniając lepszą dokładność ekstrakcji dla różnych dostawców i poprawiając ogólne wyniki przetwarzania danych.
+* **Ulepszone dzienniki przepływu pracy dla kart drzewa decyzyjnego:** Dzienniki teraz wyświetlają wyniki drzewa decyzyjnego, co ułatwia śledzenie i zrozumienie, jak podejmowane były decyzje w ramach przepływów pracy.
 *   **Wprowadzenie nowego ustawienia automatycznego testowania w celu poprawy funkcjonalności i stabilności systemu:**
 
     Z radością ogłaszamy wdrożenie nowego systemu automatycznego testowania, zaprojektowanego w celu poprawy ogólnej funkcjonalności i niezawodności naszej platformy. To nowe ustawienie będzie przeprowadzać regularne, dokładne kontrole naszego systemu, aby zidentyfikować wszelkie problemy, zanim wpłyną na Twoje doświadczenia. Automatyzując te testy, możemy zapewnić szybsze reakcje na potencjalne problemy i utrzymać najwyższe standardy jakości naszego systemu.
@@ -33,6 +36,8 @@
 * Rozwiązano problem, w którym zduplikowane dokumenty nie były rozpoznawane jako duplikaty.
 * Naprawiono problemy z eksportem spowodowane zbyt długimi odniesieniami do rezerwacji.
 * Rozwiązano problem, w którym pola wyboru tylko do odczytu nie były tylko do odczytu.
+* Naprawiono problem, w którym użytkownicy mogli być dodawani do podorganizacji dwukrotnie.
+* Naprawiono problem, w którym zmiana podorganizacji dla dokumentu powodowała zresetowanie przypisanego użytkownika lub grupy.
 
 ​
 
