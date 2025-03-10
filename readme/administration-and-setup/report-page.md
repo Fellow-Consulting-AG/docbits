@@ -7,7 +7,7 @@
 Go to **Settings** → **Document Processing** → **Module** → **Document Type** → **Show Report**\
 Toggle the button to enable this setting.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. **How to Access the Report Page**
 

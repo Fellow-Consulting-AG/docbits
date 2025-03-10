@@ -194,21 +194,7 @@ Scripts can be created in the settings under Document Types; this information wi
 
 ### **More settings:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.04.13.png" alt="" width="239"><figcaption></figcaption></figure>
-
-### **Split document:**
-
-* Here you can split the document and cut or delete pages that are not needed
-* **Split Document:**
-  * **Purpose:** Allows users to divide a document into separate parts, removing or isolating pages that are not needed.
-  * **Use Case:** Ideal when dealing with multi-page documents where only certain sections are required for processing or review.
-
-### **Improve document:**
-
-* The document will be restarted
-* **Improve Document:**
-  * **Purpose:** Resets the document to its initial state for re-evaluation or further modifications.
-  * **Use Case:** Useful when initial modifications need to be undone or the document needs to be refreshed for another round of edits. Here we need some extra ML Vision to improve the document quality.
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### **Document Flow:**
 
@@ -223,6 +209,18 @@ There you will find the flow of the document
 * **Go to Layout Template:**
   * **Purpose:** Redirects users to a layout editor where they can modify existing templates or apply a default one.
   * **Use Case:** Enables customization of document layouts to meet specific business needs or preferences, enhancing the document’s visual and functional alignment with company standards.
+
+### Use E-Text if Available
+
+* **Purpose:** Enables DocBits to use e-text for all documents from a specific supplier if available, improving extraction accuracy.
+* **Use Case:** Enhances text extraction by leveraging embedded text instead of OCR, which can lead to more precise results for this supplier.
+
+### Supplier-Based AI Model
+
+* **Purpose:** Allows selection between three different AI models to optimize extraction results for a specific supplier.
+* **Use Case:** Ensures better extraction accuracy by choosing the most suitable AI model for each supplier’s document structure and content.
+
+
 
 
 

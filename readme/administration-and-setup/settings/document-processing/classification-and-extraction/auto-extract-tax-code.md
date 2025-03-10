@@ -5,7 +5,7 @@
 1. Go to **Settings → Document Processing → Classification and Extraction**.
 2. Enable **Automatic Tax Code Population**.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **What Does It Do?**
 
