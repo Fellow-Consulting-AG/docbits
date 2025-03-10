@@ -45,9 +45,12 @@
 
 ### **Poprawki błędów:**
 
-* Naprawiono problem, w którym użytkownicy nie mogli być dodawani do grupy.
+* Naprawiono problem, w którym użytkownicy nie mogli zostać dodani do grupy.
 * Naprawiono problem z niepowodzeniami importu e-maili.
-* Rozwiązano problem z treningiem w terenie na dokumentach z więcej niż jedną stroną
+* Rozwiązano problem z treningiem w terenie na dokumentach z więcej niż jedną stroną.
 * Naprawiono problem, w którym skrypty nie działały poprawnie.
-* Rozwiązano problem, w którym dane dokumentu nie były wyświetlane poprawnie
-* Naprawiono problem z automatycznym aktualizowaniem ustawienia zamówienia zakupu
+* Rozwiązano problem, w którym dane dokumentu nie były wyświetlane poprawnie.
+* Naprawiono problem z ustawieniem automatycznej aktualizacji zamówienia zakupu.
+* Naprawiono problem, w którym tokeny subskrypcyjne były wyświetlane nieprawidłowo.
+* Rozwiązano problem, w którym ekran zadań wyświetlał nieaktualną wersję dokumentu.
+* Naprawiono problem, który powodował, że dokumenty nie zmieniały swojego statusu.
