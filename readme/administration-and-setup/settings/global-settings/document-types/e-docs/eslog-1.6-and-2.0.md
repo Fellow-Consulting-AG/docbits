@@ -21,7 +21,7 @@ Entrambe le versioni di eSLOG sono abilitate per impostazione predefinita.
 *   Individua la versione di eSLOG che desideri modificare.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Configurazione della Trasformazione e del Percorso XML:**
 

@@ -156,21 +156,7 @@ Gli script possono essere creati nelle impostazioni sotto Tipi di Documento; que
 
 ### **Altre impostazioni:**
 
-<figure><img src="../../../.gitbook/assets/validation_screen23.png" alt="" width="239"><figcaption></figcaption></figure>
-
-### **Dividi documento:**
-
-* Qui puoi dividere il documento e tagliare o eliminare le pagine che non sono necessarie
-* **Dividi Documento:**
-  * **Scopo:** Consente agli utenti di dividere un documento in parti separate, rimuovendo o isolando le pagine che non sono necessarie.
-  * **Caso d'uso:** Ideale quando si trattano documenti multipagina in cui solo alcune sezioni sono necessarie per l'elaborazione o la revisione.
-
-### **Migliora documento:**
-
-* Il documento verrà riavviato
-* **Migliora Documento:**
-  * **Scopo:** Reimposta il documento al suo stato iniziale per una nuova valutazione o ulteriori modifiche.
-  * **Caso d'uso:** Utile quando è necessario annullare le modifiche iniziali o il documento deve essere aggiornato per un altro giro di modifiche. Qui abbiamo bisogno di una visione ML extra per migliorare la qualità del documento.
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### **Flusso del documento:**
 
@@ -185,3 +171,13 @@ Lì troverai il flusso del documento
 * **Vai al Modello di Layout:**
   * **Scopo:** Reindirizza gli utenti a un editor di layout dove possono modificare i modelli esistenti o applicarne uno predefinito.
   * **Caso d'uso:** Consente la personalizzazione dei layout dei documenti per soddisfare esigenze o preferenze aziendali specifiche, migliorando l'allineamento visivo e funzionale del documento con gli standard aziendali.
+
+### Usa E-Text se Disponibile
+
+* **Scopo:** Consente a DocBits di utilizzare e-text per tutti i documenti di un fornitore specifico se disponibile, migliorando l'accuratezza dell'estrazione.
+* **Caso d'Uso:** Migliora l'estrazione del testo sfruttando il testo incorporato invece dell'OCR, il che può portare a risultati più precisi per questo fornitore.
+
+### Modello AI Basato sul Fornitore
+
+* **Scopo:** Consente la selezione tra tre diversi modelli AI per ottimizzare i risultati di estrazione per un fornitore specifico.
+* **Caso d'Uso:** Garantisce una migliore accuratezza dell'estrazione scegliendo il modello AI più adatto per la struttura e il contenuto dei documenti di ciascun fornitore.
