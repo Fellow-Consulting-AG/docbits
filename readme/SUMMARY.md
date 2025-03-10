@@ -28,7 +28,7 @@
     * [Panoramica dei documenti caricati](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Contatore di attività](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Campi estratti validati](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)
-    * [Flusso Documento](end-user-and-partner-section/end-user-section/dashboard/flusso-documento.md)
+    * [Flusso Documento](end-user-and-partner-section/end-user-section/dashboard/document-flow.md)
     * [Best Practice](end-user-and-partner-section/end-user-section/dashboard/migliori-pratiche.md)
     * [Risoluzione dei problemi](end-user-and-partner-section/end-user-section/dashboard/troubleshooting.md)
     * [Scorciatoie da Tastiera](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
