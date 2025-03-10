@@ -51,3 +51,6 @@
 * Se corrigió un problema donde los scripts no funcionaban correctamente.
 * Se resolvió un problema donde los datos del documento no se mostraban correctamente
 * Se corrigió un problema con la configuración de actualización automática de la orden de compra
+* Se solucionó un problema donde los tokens de suscripción se mostraban incorrectamente
+* Se resolvió un problema donde la pantalla de tareas mostraba una versión de documento desactualizada
+* Se corrigió un problema que causaba que los documentos no cambiaran su estado
