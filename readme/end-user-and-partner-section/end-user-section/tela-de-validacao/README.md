@@ -156,19 +156,7 @@ Scripts podem ser criados nas configurações sob Tipos de Documento; esta infor
 
 <figure><img src="../../../.gitbook/assets/validation_screen23.png" alt="" width="239"><figcaption></figcaption></figure>
 
-### **Dividir documento:**
 
-* Aqui você pode dividir o documento e cortar ou excluir páginas que não são necessárias
-* **Dividir Documento:**
-  * **Propósito:** Permite que os usuários dividam um documento em partes separadas, removendo ou isolando páginas que não são necessárias.
-  * **Caso de Uso:** Ideal ao lidar com documentos de várias páginas onde apenas certas seções são necessárias para processamento ou revisão.
-
-### **Melhorar documento:**
-
-* O documento será reiniciado
-* **Melhorar Documento:**
-  * **Propósito:** Redefine o documento para seu estado inicial para reavaliação ou modificações adicionais.
-  * **Caso de Uso:** Útil quando modificações iniciais precisam ser desfeitas ou o documento precisa ser atualizado para outra rodada de edições. Aqui precisamos de alguma visão extra de ML para melhorar a qualidade do documento.
 
 ### **Fluxo do Documento:**
 
@@ -183,3 +171,13 @@ Lá você encontrará o fluxo do documento
 * **Ir para o Modelo de Layout:**
   * **Propósito:** Redireciona os usuários para um editor de layout onde eles podem modificar modelos existentes ou aplicar um padrão.
   * **Caso de Uso:** Permite a personalização dos layouts de documentos para atender a necessidades ou preferências específicas de negócios, melhorando o alinhamento visual e funcional do documento com os padrões da empresa.
+
+### Use E-Text if Available
+
+* **Propósito:** Permite que o DocBits utilize e-text para todos os documentos de um fornecedor específico, se disponível, melhorando a precisão da extração.
+* **Caso de Uso:** Melhora a extração de texto aproveitando o texto incorporado em vez de OCR, o que pode levar a resultados mais precisos para este fornecedor.
+
+### Supplier-Based AI Model
+
+* **Propósito:** Permite a seleção entre três modelos de IA diferentes para otimizar os resultados de extração para um fornecedor específico.
+* **Caso de Uso:** Garante melhor precisão na extração ao escolher o modelo de IA mais adequado para a estrutura e conteúdo dos documentos de cada fornecedor.
