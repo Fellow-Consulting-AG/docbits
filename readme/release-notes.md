@@ -51,3 +51,6 @@
 * Risolto un problema in cui gli script non funzionavano correttamente.
 * Risolto un problema in cui i dati del documento non venivano visualizzati correttamente
 * Risolto un problema con l'impostazione dell'aggiornamento automatico dell'ordine di acquisto
+* Risolto un problema in cui i token di abbonamento venivano visualizzati in modo errato
+* Risolto un problema in cui la schermata delle attività visualizzava una versione obsoleta del documento
+* Risolto un problema che causava il mancato cambiamento dello stato dei documenti
