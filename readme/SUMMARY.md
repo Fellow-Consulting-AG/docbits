@@ -28,6 +28,7 @@
     * [Visão Geral dos Documentos Enviados](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Contador de Tarefas](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Campos Extraídos Validados](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)
+    * [Fluxo de Documentos](end-user-and-partner-section/end-user-section/dashboard/fluxo-de-documentos.md)
     * [Melhor Prática](end-user-and-partner-section/end-user-section/dashboard/melhor-pratica.md)
     * [Solução de Problemas](end-user-and-partner-section/end-user-section/dashboard/troubleshooting.md)
     * [Atalhos de Teclado](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
