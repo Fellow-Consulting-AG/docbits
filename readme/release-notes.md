@@ -54,3 +54,6 @@
 * Risolto un problema in cui i token di abbonamento venivano visualizzati in modo errato
 * Risolto un problema in cui la schermata delle attività visualizzava una versione obsoleta del documento
 * Risolto un problema che causava il mancato cambiamento dello stato dei documenti
+* Risolto un problema in cui i token di abbonamento venivano visualizzati in modo errato
+* Risolto un problema in cui la schermata delle attività visualizzava una versione obsoleta del documento
+* Risolto un problema che causava il mancato cambiamento dello stato dei documenti
