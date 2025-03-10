@@ -12,6 +12,12 @@
   The settings interface now displays comprehensive user information. Administrators can easily view group affiliations, sub-organization details, and additional key data, enabling better management of user roles and a clearer understanding of team structures.
 * **Auto Accounting Information on the Approval Screen:**\
   The approval screen now presents auto accounting details alongside invoice information. This improvement provides deeper insight into transaction data, facilitating smoother review processes and more informed decision-making regarding invoices.
+* **Task Counter for Documents on the Dashboard View:**\
+  Documents on the dashboard can now indicate open tasks associated with them and display the total number of pending tasks. This feature provides users with a quick overview of outstanding actions, improving task management and workflow efficiency.
+* **Supplier-Based AI Model Selection:**\
+  Users can now select the AI model used for data extraction on a per-supplier basis. This enhancement allows for fine-tuned optimization, ensuring better extraction accuracy for different suppliers and improving overall data processing results.
+* **Enhanced Workflow Logs for Decision Tree Cards:**\
+  The logs now display the output of the decision tree, making it easier to track and understand how decisions were made within workflows.
 *   **Introduction of New Auto-Testing Setup to Enhance System Functionality and Stability:**
 
     We are excited to announce the implementation of a new automated testing system designed to improve the overall functionality and reliability of our platform. This new setup will run consistent, thorough checks on our system to identify any issues before they impact your experience. By automating these tests, we can ensure faster responses to potential problems and maintain the highest standards of quality for our system.
@@ -37,6 +43,8 @@
 * Resolved an issue where duplicate documents were not recognized as duplicates.
 * Fixed export issues caused by booking references that were too long.
 * Resolved an issue where readonly checkboxes where not readonly&#x20;
+* Fixed an issue where Users can be added to a sub-organization twice&#x20;
+* Fixed an issue where changing the sub-organization for a document caused to reset the assigned user or group
 
 
 
