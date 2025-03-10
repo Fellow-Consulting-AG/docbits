@@ -154,9 +154,7 @@ Scripts podem ser criados nas configurações sob Tipos de Documento; esta infor
 
 ### **Mais configurações:**
 
-<figure><img src="../../../.gitbook/assets/validation_screen23.png" alt="" width="239"><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250310173928.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **Fluxo do Documento:**
 
