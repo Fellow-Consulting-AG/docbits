@@ -158,23 +158,9 @@ Skripte können in den Einstellungen unter Dokumenttypen erstellt werden; diese 
 
 ### **Weitere Einstellungen:**
 
-<figure><img src="../../.gitbook/assets/validation_screen23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-### **Dokument teilen:**
-
-* Hier können Sie das Dokument teilen und Seiten, die nicht benötigt werden, ausschneiden oder löschen
-* **Dokument teilen:**
-  * **Zweck:** Ermöglicht es Benutzern, ein Dokument in separate Teile zu teilen und Seiten zu entfernen oder zu isolieren, die nicht benötigt werden.
-  * **Anwendungsfall:** Ideal, wenn es sich um mehrseitige Dokumente handelt, bei denen nur bestimmte Abschnitte für die Verarbeitung oder Überprüfung erforderlich sind.
-
-### **Dokument verbessern:**
-
-* Das Dokument wird neu gestartet
-* **Dokument verbessern:**
-  * **Zweck:** Setzt das Dokument in seinen ursprünglichen Zustand zurück, um es neu zu bewerten oder weitere Änderungen vorzunehmen.
-  * **Anwendungsfall:** Nützlich, wenn anfängliche Änderungen rückgängig gemacht werden müssen oder das Dokument für eine weitere Bearbeitungsrunde aktualisiert werden muss. Hier benötigen wir einige zusätzliche ML Vision, um die Dokumentqualität zu verbessern.
-
-### **Dokumentenfluss:**
+### **Dokumenten-Flow:**
 
 Dort finden Sie den Fluss des Dokuments
 
@@ -187,3 +173,13 @@ Dort finden Sie den Fluss des Dokuments
 * **Zum Layout-Template gehen:**
   * **Zweck:** Leitet Benutzer zu einem Layout-Editor weiter, in dem sie bestehende Templates bearbeiten oder ein Standard-Template anwenden können.
   * **Anwendungsfall:** Ermöglicht die Anpassung von Dokumentlayouts, um spezifische Geschäftsanforderungen oder Präferenzen zu erfüllen und die visuelle und funktionale Ausrichtung des Dokuments an Unternehmensstandards zu verbessern.
+
+### Verwenden Sie E-Text, wenn verfügbar
+
+* **Zweck:** Ermöglicht DocBits die Verwendung von E-Text für alle Dokumente eines bestimmten Lieferanten, wenn verfügbar, um die Extraktionsgenauigkeit zu verbessern.
+* **Anwendungsfall:** Verbessert die Textextraktion, indem eingebetteter Text anstelle von OCR genutzt wird, was zu präziseren Ergebnissen für diesen Lieferanten führen kann.
+
+### Lieferantenbasiertes KI-Modell
+
+* **Zweck:** Ermöglicht die Auswahl zwischen drei verschiedenen KI-Modellen, um die Extraktionsergebnisse für einen bestimmten Lieferanten zu optimieren.
+* **Anwendungsfall:** Stellt eine bessere Extraktionsgenauigkeit sicher, indem das am besten geeignete KI-Modell für die Dokumentenstruktur und den Inhalt jedes Lieferanten ausgewählt wird.
