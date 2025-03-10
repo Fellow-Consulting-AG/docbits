@@ -154,21 +154,7 @@ Los scripts se pueden crear en la configuración bajo Tipos de Documentos; esta 
 
 ### **Más configuraciones:**
 
-<figure><img src="../../../.gitbook/assets/validation_screen23.png" alt="" width="239"><figcaption></figcaption></figure>
-
-### **Dividir documento:**
-
-* Aquí puede dividir el documento y cortar o eliminar páginas que no son necesarias
-* **Dividir Documento:**
-  * **Propósito:** Permite a los usuarios dividir un documento en partes separadas, eliminando o aislando páginas que no son necesarias.
-  * **Caso de Uso:** Ideal cuando se trata de documentos de varias páginas donde solo se requieren ciertas secciones para el procesamiento o revisión.
-
-### **Mejorar documento:**
-
-* El documento se reiniciará
-* **Mejorar Documento:**
-  * **Propósito:** Restablece el documento a su estado inicial para re-evaluación o modificaciones adicionales.
-  * **Caso de Uso:** Útil cuando las modificaciones iniciales necesitan deshacerse o el documento necesita refrescarse para otra ronda de ediciones. Aquí necesitamos algo de visión ML adicional para mejorar la calidad del documento.
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### **Flujo de Documento:**
 
@@ -183,3 +169,13 @@ Allí encontrará el flujo del documento
 * **Ir a la Plantilla de Diseño:**
   * **Propósito:** Redirige a los usuarios a un editor de diseño donde pueden modificar plantillas existentes o aplicar una predeterminada.
   * **Caso de Uso:** Permite la personalización de los diseños de documentos para satisfacer necesidades o preferencias comerciales específicas, mejorando la alineación visual y funcional del documento con los estándares de la empresa.
+
+### Utilizar E-Texto si Está Disponible
+
+* **Propósito:** Permite que DocBits utilice e-texto para todos los documentos de un proveedor específico si está disponible, mejorando la precisión de la extracción.
+* **Caso de Uso:** Mejora la extracción de texto aprovechando el texto incrustado en lugar de OCR, lo que puede llevar a resultados más precisos para este proveedor.
+
+### Modelo de IA Basado en Proveedor
+
+* **Propósito:** Permite la selección entre tres modelos de IA diferentes para optimizar los resultados de extracción para un proveedor específico.
+* **Caso de Uso:** Asegura una mejor precisión de extracción al elegir el modelo de IA más adecuado para la estructura y contenido del documento de cada proveedor.
