@@ -147,7 +147,7 @@
   * [Log Einstellungen](administration-and-setup/settings/log-settings/README.md)
     * [Aufgabenverwaltung](administration-and-setup/settings/log-settings/task-management.md)
     * [Daten Synchronization](administration-and-setup/settings/log-settings/data-synchronization.md)
-  * [API Lizenzen](admin-section/settings/api-lizenzen.md)
+  * [API Lizenzen](administration-and-setup/settings/api-licenses.md)
   * [Lieferanten Einstellungen](admin-section/settings/lieferanten-einstellungen/README.md)
     * [Email Vorlagen editieren](admin-section/settings/lieferanten-einstellungen/email-vorlagen-editieren.md)
     * [Export Konfiguration für Lieferanten Portal M3](admin-section/settings/lieferanten-einstellungen/page-1.md)
