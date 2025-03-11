@@ -212,7 +212,7 @@
     * [Auto Accounting](administration-and-setup/setup/testing/auto-accounting/README.md)
       * [LN](administration-and-setup/setup/testing/auto-accounting/ln.md)
       * [M3](administration-and-setup/setup/testing/auto-accounting/m3.md)
-  * [Portail Fournisseur](administration-and-setup/setup/portail-fournisseur.md)
+  * [Portail Fournisseur](administration-and-setup/setup/supplier-portal.md)
 
 ## Intégration et configuration d'Infor <a href="#infor-integration-and-configuration" id="infor-integration-and-configuration"></a>
 
