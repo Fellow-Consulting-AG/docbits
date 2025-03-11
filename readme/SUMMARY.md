@@ -149,7 +149,7 @@
     * [Ustawienia ogólne dostawcy](administration-and-setup/settings/ustawienia-dostawcy/ustawienia-ogolne-dostawcy.md)
     * [Edytowanie szablonów e-maili](administration-and-setup/settings/ustawienia-dostawcy/edytowanie-szablonow-e-maili.md)
     * [Eksport konfiguracji dla Portalu Dostawcy](administration-and-setup/settings/ustawienia-dostawcy/eksport-konfiguracji-dla-portalu-dostawcy.md)
-  * [Licencje API](administration-and-setup/settings/licencje-api.md)
+  * [Licencje API](administration-and-setup/settings/api-licenses.md)
   * [Log Settings](administration-and-setup/settings/log-settings/README.md)
     * [Zarządzanie Zadaniami](administration-and-setup/settings/log-settings/task-management.md)
     * [Synchronizacja Danych](administration-and-setup/settings/log-settings/data-synchronization.md)
