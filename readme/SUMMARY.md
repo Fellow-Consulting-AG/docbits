@@ -148,7 +148,7 @@
   * [Ustawienia Dostawcy](administration-and-setup/settings/supplier-setting/README.md)
     * [Ustawienia ogólne dostawcy](administration-and-setup/settings/supplier-setting/supplier-general-settings.md)
     * [Edytowanie szablonów e-maili](administration-and-setup/settings/supplier-setting/editing-email-templates.md)
-    * [Eksport konfiguracji dla Portalu Dostawcy](administration-and-setup/settings/supplier-setting/export-configuration-for-supplier-portal-for-m3.md)
+    * [Konfiguracja eksportu dla Supplier Portal dla M3](administration-and-setup/settings/supplier-setting/export-configuration-for-supplier-portal-for-m3.md)
   * [Licencje API](administration-and-setup/settings/api-licenses.md)
   * [Log Settings](administration-and-setup/settings/log-settings/README.md)
     * [Zarządzanie Zadaniami](administration-and-setup/settings/log-settings/task-management.md)
