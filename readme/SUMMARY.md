@@ -145,7 +145,7 @@
       * [Swiss QR Code](administration-and-setup/settings/document-processing/module/swiss-qr-code.md)
     * [Árboles de Decisión](administration-and-setup/settings/document-processing/decision-trees.md)
   * [Gestión de Caché](administration-and-setup/settings/gestion-de-cache.md)
-  * [Licencias de API](administration-and-setup/settings/licencias-de-api.md)
+  * [Licencias de API](administration-and-setup/settings/api-licenses.md)
   * [Log Settings](administration-and-setup/settings/log-settings/README.md)
     * [Gestión de Tareas](administration-and-setup/settings/log-settings/task-management.md)
     * [Sincronización de Datos](administration-and-setup/settings/log-settings/data-synchronization.md)
