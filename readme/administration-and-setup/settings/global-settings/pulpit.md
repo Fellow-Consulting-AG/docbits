@@ -19,11 +19,11 @@ Ustawienia pulpitu zostały zaprojektowane, aby pomóc administratorom kontrolow
 
 * **Przypisz do:** Ta funkcja pozwala użytkownikom definiować uprawnienia do przypisywania dokumentów
   * **Tylko dla administratora:** Tylko użytkownicy z uprawnieniami administratora mogą przypisywać dokumenty, niezależnie od uprawnień przyznanych użytkownikom niebędącym administratorami.
-  * **Wszyscy użytkownicy**: Wszyscy użytkownicy, którym przyznano niezbędne [uprawnienia](groups-users-and-permissions/groups-and-permissions/aktywacja-uprawnien.md), mogą przypisywać dokumenty.
+  * **Wszyscy użytkownicy**: Wszyscy użytkownicy, którym przyznano niezbędne [uprawnienia](groups-users-and-permissions/groups-and-permissions/activating-permissions.md), mogą przypisywać dokumenty.
 * **Restart:** Ta funkcja pozwala użytkownikom definiować uprawnienia do ponownego uruchamiania dokumentów
   * **Tylko dla administratora**: Tylko użytkownicy z uprawnieniami administratora mogą ponownie uruchamiać dokumenty, niezależnie od uprawnień przyznanych użytkownikom niebędącym administratorami.
   * **Tylko administrator i przypisany użytkownik**: Tylko użytkownicy z uprawnieniami administratora i przypisany użytkownik mogą ponownie uruchomić dokument.
-  * **Wszyscy użytkownicy**: Wszyscy użytkownicy, którym przyznano niezbędne [uprawnienia](groups-users-and-permissions/groups-and-permissions/aktywacja-uprawnien.md), mogą ponownie uruchamiać dokumenty.
+  * **Wszyscy użytkownicy**: Wszyscy użytkownicy, którym przyznano niezbędne [uprawnienia](groups-users-and-permissions/groups-and-permissions/activating-permissions.md), mogą ponownie uruchamiać dokumenty.
 
 <figure><img src="../../../.gitbook/assets/dashboard-settings2 (1).png" alt=""><figcaption></figcaption></figure>
 
