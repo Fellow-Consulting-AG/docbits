@@ -150,7 +150,7 @@
     * [Configurações Gerais do Fornecedor](administration-and-setup/settings/configuracao-do-fornecedor/configuracoes-gerais-do-fornecedor.md)
     * [Edição de Modelos de Email](administration-and-setup/settings/configuracao-do-fornecedor/edicao-de-modelos-de-email.md)
     * [Exportação de Configuração para o Portal do Fornecedor](administration-and-setup/settings/configuracao-do-fornecedor/exportacao-de-configuracao-para-o-portal-do-fornecedor.md)
-  * [Licenças da API](administration-and-setup/settings/licencas-da-api.md)
+  * [Licenças da API](administration-and-setup/settings/api-licenses.md)
   * [Log Settings](administration-and-setup/settings/log-settings/README.md)
     * [Gerenciamento de Tarefas](administration-and-setup/settings/log-settings/task-management.md)
     * [Sincronização de Dados](administration-and-setup/settings/log-settings/data-synchronization.md)
