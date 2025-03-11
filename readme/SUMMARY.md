@@ -149,7 +149,7 @@
     * [Paramètres Généraux du Fournisseur](administration-and-setup/settings/supplier-settings/parametres-generaux-du-fournisseur.md)
     * [Modification des Modèles d'Email](administration-and-setup/settings/supplier-settings/modification-des-modeles-demail.md)
     * [Export Configuration for Supplier Portal](administration-and-setup/settings/supplier-settings/export-configuration-for-supplier-portal.md)
-  * [Licences API](administration-and-setup/settings/licences-api.md)
+  * [Licences API](administration-and-setup/settings/api-licenses.md)
   * [Log Settings](administration-and-setup/settings/log-settings/README.md)
     * [Gestion des tâches](administration-and-setup/settings/log-settings/task-management.md)
     * [Synchronisation des données](administration-and-setup/settings/log-settings/data-synchronization.md)
