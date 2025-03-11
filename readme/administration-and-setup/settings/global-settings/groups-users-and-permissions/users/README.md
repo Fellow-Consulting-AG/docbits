@@ -1,3 +1,21 @@
+---
+coverY: 0
+layout:
+  cover:
+    visible: false
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Usuarios
 
 La Configuración de Usuario es un área en un sistema donde los usuarios pueden ajustar preferencias personales, configuraciones de cuenta y configuraciones de seguridad. Típicamente, la configuración de usuario incluye opciones como cambios de contraseña, información del perfil, preferencias de notificación y posiblemente permisos individuales para acceder a ciertas características o datos.
