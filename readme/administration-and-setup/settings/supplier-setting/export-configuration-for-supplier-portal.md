@@ -1,4 +1,4 @@
-# Export Configuration for Supplier Portal
+# Configuration de l'exportation pour le portail des fournisseurs pour M3
 
 ### Overview
 
