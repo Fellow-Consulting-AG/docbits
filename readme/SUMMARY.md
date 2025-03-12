@@ -35,7 +35,7 @@
   * [Shipment Order Dashboard](end-user-section/shipment-order-dashboard.md)
   * [Benutzerkonfigurationsoptionen](end-user-and-partner-section/end-user-section/user-configuration-options.md)
   * [AI-Tabelle](end-user-section/ai-table/README.md)
-    * [AI-Tabellen-Tags](end-user-section/ai-table/ai-tabellen-tags.md)
+    * [AI-Tabellen-Tags](end-user-and-partner-section/end-user-section/ai-table/ai-table-tags.md)
   * [Validierungsbildschirm](end-user-and-partner-section/end-user-section/validation-screen/README.md)
     * [Unscharfe Daten](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [QR-Codes](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)

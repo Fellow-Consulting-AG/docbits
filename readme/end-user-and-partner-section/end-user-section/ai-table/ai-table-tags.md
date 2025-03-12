@@ -6,7 +6,7 @@
 
 * **Spaltennamen auswählen:** Überprüfen Sie die Spaltennamen Ihrer Tabelle und entscheiden Sie, welche Tags hinzugefügt werden sollen.
 
-<figure><img src="../../.gitbook/assets/ai-table-tags1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ai-table-tags1.png" alt=""><figcaption></figcaption></figure>
 
 **Schritt 2:** Drücken Sie die Schaltfläche "Übernehmen"
 
@@ -16,7 +16,7 @@
 
 * **Tag hinzufügen:** Das ausgewählte Tag wird als zusätzliche Spalte neben der entsprechenden Spalte zur Tabelle hinzugefügt.
 
-<figure><img src="../../.gitbook/assets/ai-table-tags2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ai-table-tags2.png" alt=""><figcaption></figcaption></figure>
 
 **Schritt 4:** Tag speichern oder löschen
 
@@ -25,7 +25,7 @@
 
 ### Hier ist eine detaillierte Erklärung jeder Spalte und der möglichen Tags:
 
-<figure><img src="../../.gitbook/assets/ai-table-tags3.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ai-table-tags3.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### **Position:**
 
