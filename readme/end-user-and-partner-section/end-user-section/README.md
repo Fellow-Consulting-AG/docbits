@@ -1,4 +1,4 @@
-# Sezione per gli Utenti Finali
+# Sezione utente finale
 
 ### Per iniziare
 
@@ -20,4 +20,4 @@
 ### Risoluzione dei Problemi
 
 * **Problemi Comuni:** Soluzioni ai problemi frequenti riscontrati dagli utenti.
-* [**Contatto di Supporto**](user-support.md)**:** Come contattare il supporto per assistenza.
+* [**Contatto di Supporto**](ressources-and-support/user-support.md)**:** Come contattare il supporto per assistenza.
