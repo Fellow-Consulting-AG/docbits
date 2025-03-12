@@ -4,7 +4,7 @@ Pour configurer vos paramètres, cliquez sur l'icône Utilisateur située dans l
 
 <figure><img src="../../.gitbook/assets/user-config.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/user-config2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/user_config_options_2.png" alt="" width="308"><figcaption></figcaption></figure>
 
 **Langue**
 
