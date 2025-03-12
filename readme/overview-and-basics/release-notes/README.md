@@ -15,7 +15,7 @@
 * **Task Counter for Documents on the Dashboard View:**\
   Documents on the dashboard can now indicate open tasks associated with them and display the total number of pending tasks. This feature provides users with a quick overview of outstanding actions, improving task management and workflow efficiency.
 * **Supplier-Based AI Model Selection:**\
-  Users can now select the AI model used for data extraction on a per-supplier basis. This enhancement allows for fine-tuned optimization, ensuring better extraction accuracy for different suppliers and improving overall data processing results.
+  Users can now select the AI model used for data extraction on a per-supplier basis. This enhancement allows for fine-tuned optimization, ensuring better extraction accuracy for different suppliers and improving overall data processing results. [Learn more](https://docs.docbits.com/end-user-and-partner-section/end-user-section/validation-screen#supplier-based-ai-model)
 * **Enhanced Workflow Logs for Decision Tree Cards:**\
   The logs now display the output of the decision tree, making it easier to track and understand how decisions were made within workflows.
 *   **Introduction of New Auto-Testing Setup to Enhance System Functionality and Stability:**
@@ -33,7 +33,6 @@
 * Fixed an issue with the task counter displaying an inaccurate number of tasks.
 * Added missing translations.
 * Corrected custom fields to display descriptive names instead of IDs.
-* Updated the shortcuts list for the PO matching screen.
 * Resolved an issue where documents were downloaded with an incorrect file name.
 * Fixed sorting inconsistencies in the invoice line table within PO matching.
 * Fixed an issue affecting task creation functionality.
@@ -46,14 +45,18 @@
 * Fixed an issue where Users can be added to a sub-organization twice&#x20;
 * Fixed an issue where changing the sub-organization for a document caused to reset the assigned user or group
 
+## Release Hot Fix Winter Frost  17th March 2025
 
+### Bug Fixes
+
+* Improved the shortcuts.
 
 ## Release Hot Fix Winter Frost  11th March 2025
 
 ### DocBits enhancements:
 
 * **Improved Data Extraction:** Added an option to extract the **Purchase Order** or **Item Number** from a line above or below.
-* **Expanded Cross Sub-Organizations Access:** Non-admin users can now also access the **Cross Sub-Organizations** feature.
+* **Expanded Cross Sub-Organizations Access:** Non-admin users can now also access the **Cross Sub-Organizations** feature. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/groups-users-and-permissions/sub-organizations#cross-sub-organisations-access)
 
 ### **Bug Fixes:**
 
@@ -87,21 +90,21 @@ DocBits now includes full support for ZUGFeRD versions 2.1 and above, enabling s
 * **Flexibility**: Whether you're working with basic, comfort, or extended profiles within the ZUGFeRD standard, DocBits provides tools to manage each level of invoice complexity.&#x20;
 * **Future-Proofing**: With support for newer versions, DocBits ensures that businesses remain compliant with evolving e-invoicing regulations across EU member states and beyond.
 
-By incorporating ZUGFeRD 2.1 and newer standards, DocBits simplifies cross-border transactions and aligns with modern business needs, making it an essential tool for organisations prioritizing digital transformation and regulatory compliance.
+By incorporating ZUGFeRD 2.1 and newer standards, DocBits simplifies cross-border transactions and aligns with modern business needs, making it an essential tool for organizations prioritizing digital transformation and regulatory compliance. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3)
 
 ### External API Integration for Enhanced Document Processing
 
 DocBits introduces an advanced capability to leverage external APIs during document processing, enhancing the completeness and accuracy of extracted data. This feature significantly reduces manual input by populating missing fields with accurate, up-to-date information retrieved in real time from trusted sources. It ensures that documents are processed faster and with greater consistency.
 
-### Cross Sub-Organisations Access
+### Cross Sub-Organizations Access
 
-For organisations with multiple sub-organisations enabled, DocBits now introduces the Cross Sub-Organisations feature. This enhancement empowers administrative users to streamline their document management across all sub-organisations under a single umbrella. Admin users can now access and view all documents from every sub-organisation without needing to switch sub-organisation. This centralized visibility enables admins to see all the documents for all the sub-organisations, making it easy to locate specific files while still maintaining a bird’s-eye view
+For organizations with multiple sub-organizations enabled, DocBits now introduces the Cross Sub-Organizations feature. This enhancement empowers administrative users to streamline their document management across all sub-organizations under a single umbrella. Admin users can now access and view all documents from every sub-organisation without needing to switch sub-organization. This centralized visibility enables admins to see all the documents for all the sub-organisations, making it easy to locate specific files while still maintaining a bird’s-eye view. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/groups-users-and-permissions/sub-organizations#cross-sub-organisations-access)
 
 <figure><img src="../../.gitbook/assets/CrossSubOrganisations.png" alt=""><figcaption></figcaption></figure>
 
 ### Document Visibility Based on Group Permissions
 
-DocBits introduces enhanced document visibility controls, enabling more precise access management for non-admin users through group-based permissions. This feature allows administrators to define which documents are visible to specific users or groups, ensuring streamlined workflows and improved data security. Admin users can assign documents to specific groups, granting visibility only to users within those groups. This ensures that users see only the documents relevant to their role or team, reducing clutter and enhancing focus.
+DocBits introduces enhanced document visibility controls, enabling more precise access management for non-admin users through group-based permissions. This feature allows administrators to define which documents are visible to specific users or groups, ensuring streamlined workflows and improved data security. Admin users can assign documents to specific groups, granting visibility only to users within those groups. This ensures that users see only the documents relevant to their role or team, reducing clutter and enhancing focus. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions)
 
 <figure><img src="../../.gitbook/assets/Group Based Permission.png" alt=""><figcaption></figcaption></figure>
 
@@ -119,13 +122,13 @@ DocBits introduces a powerful Sequential Workflow and Approval History feature, 
   * User actions (e.g., "approved" "rejected")&#x20;
   * Timestamps for each action
   * Comments or notes added by users during review
-* The history ensures transparency and provides an audit trail for compliance and troubleshooting
+* The history ensures transparency and provides an audit trail for compliance and troubleshooting. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/document-types/more-settings/approval-history)
 
 <figure><img src="../../.gitbook/assets/Approval History.png" alt=""><figcaption></figcaption></figure>
 
 ### SFTP/FTP Documents Archive Enhancement
 
-The SFTP/FTP Documents Archive enhancement in DocBits builds on the existing import functionality, introducing a seamless method for archiving files after they’ve been processed. A new setting in the FTP import configuration allows users to enable or disable file archiving. Once files are successfully ingested and processed in DocBits, they will be automatically archived to a designated folder on the SFTP/FTP server if the option is enabled. This ensures processed files are preserved for record-keeping without cluttering the active import directories.
+The SFTP/FTP Documents Archive enhancement in DocBits builds on the existing import functionality, introducing a seamless method for archiving files after they’ve been processed. A new setting in the FTP import configuration allows users to enable or disable file archiving. Once files are successfully ingested and processed in DocBits, they will be automatically archived to a designated folder on the SFTP/FTP server if the option is enabled. This ensures processed files are preserved for record-keeping without cluttering the active import directories. [Learn more](https://docs.docbits.com/end-user-and-partner-section/end-user-section/how-to-import-documents/ftp)
 
 <figure><img src="../../.gitbook/assets/SFTPArchieve.png" alt=""><figcaption></figcaption></figure>
 
