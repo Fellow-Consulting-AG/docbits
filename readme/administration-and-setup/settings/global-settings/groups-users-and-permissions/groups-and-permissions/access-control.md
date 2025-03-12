@@ -19,6 +19,8 @@ Panel kontroli dostępu pozwala administratorowi zarządzać grupami użytkownik
 3. Wybierz **Moduł**.
 4. Aktywuj **Kontrolę Dostępu**, włączając suwak.
 
+<figure><img src="../../../../../.gitbook/assets/Access-Control1.png" alt=""><figcaption></figcaption></figure>
+
 ## **Uzyskiwanie Dostępu do Ustawień Grupy**
 
 1. Przejdź do **Ustawienia**.
@@ -27,6 +29,8 @@ Panel kontroli dostępu pozwala administratorowi zarządzać grupami użytkownik
 4. Wybierz **Grupy i Uprawnienia**.
 5. Aby zarządzać uprawnieniami dla grupy, takiej jak PROCUREMENT\_DIRECTOR, kliknij trzy kropki po prawej stronie ekranu.
 6. Wybierz **Zobacz Kontrolę Dostępu**.
+
+<figure><img src="../../../../../.gitbook/assets/Access-Control2.png" alt=""><figcaption></figcaption></figure>
 
 ## Konfigurowanie Uprawnień dla Grup
 
@@ -56,3 +60,5 @@ Panel kontroli dostępu pozwala administratorowi zarządzać grupami użytkownik
      * **Odczyt Właściciela/Zapis Właściciela:** Tylko właściciel dokumentu lub pola może pisać i czytać.
      * **Zatwierdzenie:** Zmiany muszą być zatwierdzone przez uprawnionych użytkowników lub administratora.
      * **Brak**: Żadne konkretne uprawnienia nie są stosowane do pola.
+
+<figure><img src="../../../../../.gitbook/assets/Access-Control3.png" alt=""><figcaption></figcaption></figure>
