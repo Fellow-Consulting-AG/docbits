@@ -1,4 +1,4 @@
-# Section des Utilisateurs Finaux
+# Section utilisateur final
 
 ### Pour Commencer
 
@@ -20,4 +20,4 @@
 ### Dépannage
 
 * **Problèmes Courants :** Solutions aux problèmes fréquemment rencontrés par les utilisateurs.
-* [**Contact de Support**](user-support.md)** :** Comment contacter le support pour obtenir de l'aide.
+* [**Contact de Support**](ressources-and-support/user-support.md)\*\* :\*\* Comment contacter le support pour obtenir de l'aide.
