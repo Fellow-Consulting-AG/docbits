@@ -4,7 +4,7 @@ Para configurar suas preferências, clique no Ícone do Usuário localizado no c
 
 <figure><img src="../../.gitbook/assets/user-config (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/user-config2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/user_config_options_2.png" alt="" width="308"><figcaption></figcaption></figure>
 
 **Idioma**
 
