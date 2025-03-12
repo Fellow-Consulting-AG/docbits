@@ -1,14 +1,20 @@
 # Architecture
 
-Cloud customer:
+### **DocBits Cloud customer:**
 
 <figure><img src="../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 
-On premise:
+### DocBits On premise:
 
 <figure><img src="../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 
 Doc**Bits** seamlessly integrates with Infor LN/M3 through ION API, ION Desk, and Infor Standard BODs. Our API integration allows us to export data to Infor and perform master data validation in Doc**Bits**.
+
+### **DocBits Operator Architecture:**
+
+
+
+<figure><img src="../../.gitbook/assets/image (421).png" alt=""><figcaption></figcaption></figure>
 
 ## Exporting Data to Infor
 
