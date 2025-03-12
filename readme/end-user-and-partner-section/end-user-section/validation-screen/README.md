@@ -8,11 +8,11 @@ dfg
 
 ## Übersicht
 
-<figure><img src="../../.gitbook/assets/validation_screen1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen1.png" alt=""><figcaption></figcaption></figure>
 
 ### **Speichern-Button:**
 
-<figure><img src="../../.gitbook/assets/validation_screen2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen2.png" alt=""><figcaption></figcaption></figure>
 
 * **Speichern-Button:**
   * **Zweck:** Speichert den aktuellen Zustand des Dokuments oder Skripts, an dem gearbeitet wird.
@@ -20,21 +20,21 @@ dfg
 
 ### **Spezielle Regeln hinzufügen:**
 
-<figure><img src="../../.gitbook/assets/validation_screen3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen3.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/validation_screen4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen4.png" alt=""><figcaption></figcaption></figure>
 
 * **Spezielle Regeln hinzufügen / Skript in DocBits hinzufügen:**
   * **Zweck:** Ermöglicht es Benutzern, spezifische Regeln oder Skripte zu implementieren, die anpassen, wie Dokumente verarbeitet werden.
   * **Anwendungsfall:** Verwenden Sie diese Funktion, um Aufgaben wie die Datenextraktion oder Formatvalidierung zu automatisieren und die Workflow-Effizienz zu steigern.
 
 {% hint style="info" %}
-Siehe hier [Scripting in DocBits](../../setup/scripting-in-docbits/)
+Siehe hier [Scripting in DocBits](../../../setup/scripting-in-docbits/)
 {% endhint %}
 
 ### **Unscharfe Felder:**
 
-<figure><img src="../../.gitbook/assets/validation_screen5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen5.png" alt=""><figcaption></figcaption></figure>
 
 * **Unscharfe Felder:**
   * **Zweck:** Hilft bei der Identifizierung und Korrektur von Feldern, bei denen die Daten möglicherweise nicht perfekt übereinstimmen, aber nah genug sind.
@@ -42,7 +42,7 @@ Siehe hier [Scripting in DocBits](../../setup/scripting-in-docbits/)
 
 ### **Erforderliche Felder:**
 
-<figure><img src="../../.gitbook/assets/validation_screen6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen6.png" alt=""><figcaption></figcaption></figure>
 
 Es gibt Felder, die für die weitere Bearbeitung erforderlich sind; diese können in den Einstellungen bearbeitet werden.
 
@@ -60,17 +60,17 @@ Verwenden Sie den Tooltip, um herauszufinden, ob:
 
 ### **Lupe:**
 
-<figure><img src="../../.gitbook/assets/validation_screen7.png" alt="" width="118"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen7.png" alt="" width="118"><figcaption></figcaption></figure>
 
 * **Lupe:**
   * **Zweck:** Bietet eine vergrößerte Ansicht eines ausgewählten Bereichs des Dokuments.
   * **Anwendungsfall:** Hilft beim Untersuchen feiner Details oder kleiner Texte in Dokumenten, um Genauigkeit bei der Dateneingabe oder -überprüfung zu gewährleisten.
 
-<figure><img src="../../.gitbook/assets/validation_screen8.png" alt="" width="329"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen8.png" alt="" width="329"><figcaption></figcaption></figure>
 
 ### **Neues Fenster öffnen:**
 
-<figure><img src="../../.gitbook/assets/validation_screen9.png" alt="" width="130"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen9.png" alt="" width="130"><figcaption></figcaption></figure>
 
 * **Neues Fenster öffnen:**
   * **Zweck:** Öffnet ein neues Fenster für den Vergleich von Dokumenten nebeneinander oder für Multitasking.
@@ -78,17 +78,17 @@ Verwenden Sie den Tooltip, um herauszufinden, ob:
 
 ### **Tastenkombinationen:**
 
-<figure><img src="../../.gitbook/assets/validation_screen10.png" alt="" width="145"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen10.png" alt="" width="145"><figcaption></figcaption></figure>
 
 * **Tastenkombinationen:**
   * **Zweck:** Ermöglicht es Benutzern, Aktionen schnell mit Tastenkombinationen auszuführen.
   * **Anwendungsfall:** Erhöht die Geschwindigkeit und Effizienz bei der Dokumentennavigation und -verarbeitung, indem die Abhängigkeit von der Mausnavigation minimiert wird.
 
-<figure><img src="../../.gitbook/assets/validation_screen11.png" alt="" width="239"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen11.png" alt="" width="239"><figcaption></figcaption></figure>
 
 ### **Aufgaben:**
 
-<figure><img src="../../.gitbook/assets/validation_screen12.png" alt="" width="55"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen12.png" alt="" width="55"><figcaption></figcaption></figure>
 
 Um interne Informationen zu teilen, können Sie Aufgaben erstellen und sie einem bestimmten Mitarbeiter oder einer Gruppe innerhalb des Unternehmens zuweisen.
 
@@ -96,13 +96,13 @@ Um interne Informationen zu teilen, können Sie Aufgaben erstellen und sie einem
   * **Zweck:** Ermöglicht es Benutzern, auf Dokumente bezogene Aufgaben zu erstellen und sie Teammitgliedern zuzuweisen.
   * **Anwendungsfall:** Erleichtert die Zusammenarbeit und das Aufgabenmanagement innerhalb von Teams, sodass jeder seine Verantwortlichkeiten kennt.
 
-<figure><img src="../../.gitbook/assets/validation_screen13.png" alt="" width="218"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen13.png" alt="" width="218"><figcaption></figcaption></figure>
 
 ### **Anmerkungsmodus:**
 
-<figure><img src="../../.gitbook/assets/validation_screen14.png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen14.png" alt="" width="187"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/validation_screen15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen15.png" alt=""><figcaption></figcaption></figure>
 
 Sie können Anmerkungen zu einem Dokument hinterlassen. Dies kann hilfreich sein, um Informationen für andere Benutzer zu hinterlassen, die dieses Dokument weiter bearbeiten.
 
@@ -112,7 +112,7 @@ Sie können Anmerkungen zu einem Dokument hinterlassen. Dies kann hilfreich sein
 
 ### **Zusammenführen:**
 
-<figure><img src="../../.gitbook/assets/validation_screen16.png" alt="" width="60"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen16.png" alt="" width="60"><figcaption></figcaption></figure>
 
 Dokumente können hier zusammengeführt werden, zum Beispiel wenn eine Seite einer Rechnung fehlte, können diese Seiten später auf diese Weise zusammengeführt werden, ohne dass das gesamte Dokument gelöscht oder erneut hochgeladen werden muss.
 
@@ -122,7 +122,7 @@ Dokumente können hier zusammengeführt werden, zum Beispiel wenn eine Seite ein
 
 ### **OCR-Ansicht:**
 
-<figure><img src="../../.gitbook/assets/validation_screen17.png" alt="" width="77"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen17.png" alt="" width="77"><figcaption></figcaption></figure>
 
 In der OCR-Ansicht wird der Text automatisch aus dem Dokument gefiltert. Dies wird verwendet, um relevante Merkmale zu erkennen, wie z.B. die Postleitzahl, Vertragsnummer, Rechnungsnummer und die Sortierung eines Dokuments.
 
@@ -130,11 +130,11 @@ In der OCR-Ansicht wird der Text automatisch aus dem Dokument gefiltert. Dies wi
   * **Zweck:** Erkennt automatisch Text innerhalb von Dokumenten mit Hilfe der optischen Zeichenerkennungstechnologie.
   * **Anwendungsfall:** Vereinfacht den Prozess der Digitalisierung von gedruckten oder handgeschriebenen Texten, sodass sie durchsuchbar und bearbeitbar werden.
 
-<figure><img src="../../.gitbook/assets/validation_screen18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen18.png" alt=""><figcaption></figcaption></figure>
 
 ### **Ticket erstellen:**
 
-<figure><img src="../../.gitbook/assets/validation_screen19.png" alt="" width="97"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen19.png" alt="" width="97"><figcaption></figcaption></figure>
 
 Im Gegensatz zu Aufgaben, die intern innerhalb des Unternehmens weitergegeben werden, ist dieses Support-Ticket wichtig, um uns zu benachrichtigen und sofort ein Ticket im Falle von Fehlern und/oder Unstimmigkeiten zu erstellen. Dies erleichtert den Prozess erheblich, da Sie den Fehler sofort mit dem entsprechenden Dokument senden können. Es gibt auch die Möglichkeit, die Priorität festzulegen, einen Screenshot des Dokuments zu machen oder einen hochzuladen.
 
@@ -142,11 +142,11 @@ Im Gegensatz zu Aufgaben, die intern innerhalb des Unternehmens weitergegeben we
   * **Zweck:** Ermöglicht es Benutzern, Probleme oder Unstimmigkeiten zu melden, indem sie ein Support-Ticket erstellen.
   * **Anwendungsfall:** Wesentlich für die schnelle Lösung von Problemen und Fehlern, um die Integrität und das reibungslose Funktionieren des Systems zu gewährleisten.
 
-<figure><img src="../../.gitbook/assets/validation_screen20.png" alt="" width="237"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen20.png" alt="" width="237"><figcaption></figcaption></figure>
 
 ### **Dokumentenskriptprotokolle:**
 
-<figure><img src="../../.gitbook/assets/validation_screen21.png" alt="" width="160"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen21.png" alt="" width="160"><figcaption></figcaption></figure>
 
 Skripte können in den Einstellungen unter Dokumenttypen erstellt werden; diese Informationen werden dann hier angezeigt.
 
@@ -154,11 +154,11 @@ Skripte können in den Einstellungen unter Dokumenttypen erstellt werden; diese 
   * **Zweck:** Zeigt Protokolle zu Skripten an, die für verschiedene Dokumenttypen implementiert wurden.
   * **Anwendungsfall:** Nützlich zur Verfolgung und Fehlerbehebung von Skriptaktionen auf Dokumenten, um Benutzern zu helfen, die automatisierten Prozesse zu verstehen und eventuelle Probleme zu beheben.
 
-<figure><img src="../../.gitbook/assets/validation_screen22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen22.png" alt=""><figcaption></figcaption></figure>
 
 ### **Weitere Einstellungen:**
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ### **Dokumenten-Flow:**
 
