@@ -2,9 +2,9 @@
 
 Um Ihre Einstellungen zu konfigurieren, klicken Sie auf das Benutzer-Icon in der unteren linken Ecke des Bildschirms. Hier können Sie mehrere Optionen anpassen:
 
-<figure><img src="../.gitbook/assets/user-config.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/user-config.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/user-config2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/user-config2.png" alt=""><figcaption></figcaption></figure>
 
 **Sprache**
 
@@ -25,7 +25,7 @@ In diesem Abschnitt können Sie die folgenden Präferenzen anpassen:
 * **Schriftgröße:** Passen Sie die Textgröße für bessere Lesbarkeit an.
 * **Dual Monitor Mode:** Aktivieren Sie diese Funktion, wenn Sie zwei Monitore verwenden.
 
-<figure><img src="../.gitbook/assets/user-config3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/user-config3.png" alt=""><figcaption></figcaption></figure>
 
 **Ausloggen**
 

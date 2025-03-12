@@ -3,6 +3,7 @@
 ## Grundlagen und Überblick <a href="#overview-and-basics" id="overview-and-basics"></a>
 
 * [DocBits](README.md)
+  * [Hauptmerkmale von DocBits](overview-and-basics/readme/key-features-of-docbits.md)
 * [Architektur](architecture/README.md)
   * [DocBits Infor On-Premise-Kunde](architecture/docbits-infor-on-premise-customer.md)
   * [Zertifizierungen](architecture/certifications.md)
@@ -12,8 +13,6 @@
 ## Endnutzer und Partner Bereich  <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
 
 * [Endbenutzer Abschnitt](end-user-section/README.md)
-  * [Hauptmerkmale von DocBits](end-user-section/key-features-of-docbits.md)
-  * [Benutzersupport](end-user-section/user-support.md)
   * [Dashboard](end-user-section/dashboard/README.md)
     * [Dashboard-Tools](end-user-section/dashboard/dashboard-tools.md)
     * [Dokumentspalten ändern](end-user-section/dashboard/change-document-columns.md)
@@ -29,12 +28,12 @@
     * [Best Practice](end-user-section/dashboard/best-practices.md)
     * [Fehlerbehebung](end-user-section/dashboard/troubleshooting.md)
     * [Tastenkombinationen](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
-  * [Aufgaben](end-user-section/aufgaben.md)
+  * [Aufgaben](end-user-and-partner-section/end-user-section/tasks.md)
   * [Advance Shipment Dashboard](end-user-section/advance-shipment-dashboard.md)
-  * [Bestellung](end-user-section/bestellung.md)
-  * [Dashboard für Rechnungen](end-user-section/dashboard-fur-rechnungen.md)
+  * [Bestellung](end-user-and-partner-section/end-user-section/purchase-order.md)
+  * [Dashboard für Rechnungen](end-user-and-partner-section/end-user-section/invoice-dashboard.md)
   * [Shipment Order Dashboard](end-user-section/shipment-order-dashboard.md)
-  * [Benutzerkonfigurationsoptionen](end-user-section/benutzerkonfigurationsoptionen.md)
+  * [Benutzerkonfigurationsoptionen](end-user-and-partner-section/end-user-section/user-configuration-options.md)
   * [AI-Tabelle](end-user-section/ai-table/README.md)
     * [AI-Tabellen-Tags](end-user-section/ai-table/ai-tabellen-tags.md)
   * [Validierungsbildschirm](end-user-and-partner-section/end-user-section/validation-screen/README.md)
@@ -68,6 +67,8 @@
   * [Lieferantenportal](end-user-section/supplier-portal/README.md)
     * [Lieferantenregistrierung](end-user-section/supplier-portal/supplier-registration.md)
     * [Lieferantenstatus](end-user-section/supplier-portal/supplier-satuts.md)
+  * [Ressourcen und Support](end-user-and-partner-section/end-user-section/ressources-and-support/README.md)
+    * [Benutzersupport](end-user-and-partner-section/end-user-section/ressources-and-support/user-support.md)
 * [Partnerbereich](partner-section/README.md)
   * [Rechnungsautomatisierungstests mit DocBits](partner-section/invoice-automation-testing-with-docbits.md)
 

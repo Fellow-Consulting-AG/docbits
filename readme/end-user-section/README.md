@@ -20,4 +20,4 @@
 ### Fehlerbehebung
 
 * **Häufige Probleme:** Lösungen für häufige Probleme, auf die Benutzer stoßen.
-* [**Support-Kontakt**](user-support.md)**:** Wie man den Support für Hilfe erreicht.
+* [**Support-Kontakt**](../end-user-and-partner-section/end-user-section/ressources-and-support/user-support.md)**:** Wie man den Support für Hilfe erreicht.
