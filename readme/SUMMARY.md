@@ -128,7 +128,7 @@
   * [Dokumentenverarbeitung](admin-section/settings/document-processing/README.md)
     * [Dokumentenablauf](admin-section/settings/document-processing/documents-expiry.md)
     * [Import](admin-section/settings/document-processing/import.md)
-    * [Regelmanager](admin-section/settings/document-processing/regelmanager.md)
+    * [Regelmanager](administration-and-setup/settings/document-processing/rule-manager.md)
     * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
     * [Klassifizierung und Extraktion](admin-section/settings/document-processing/classification-and-extraction/README.md)
       * [Tabellenextraktion für Kostenelemente](admin-section/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md)
