@@ -44,7 +44,7 @@
   * [Zweck und Verwendung](end-user-section/zweck-und-verwendung.md)
   * [Bestellabgleich](end-user-section/purchase-order-matching/README.md)
     * [Automatischer Bestelldatenabgleich](end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
-    * [Lieferanten-Artikelnummern-Zuordnung](end-user-section/purchase-order-matching/lieferanten-artikelnummern-zuordnung.md)
+    * [Lieferanten-Artikelnummern-Zuordnung](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
     * [Tastenkombinationen](end-user-and-partner-section/end-user-section/purchase-order-matching/keyboard-shortcuts.md)
   * [Buchhaltung für Kostenrechnungen und indirekte Verkäufe](end-user-section/kostenrechnung.md)
   * [Wie man Dokumente importiert](end-user-section/how-to-import-documents/README.md)
