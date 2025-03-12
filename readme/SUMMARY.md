@@ -3,6 +3,7 @@
 ## Descripción general y conceptos básicos <a href="#overview-and-basics" id="overview-and-basics"></a>
 
 * [DocBits](README.md)
+  * [Características principales de DocBits](overview-and-basics/readme/key-features-of-docbits.md)
 * [Arquitectura](overview-and-basics/architecture/README.md)
   * [DocBits Infor Cliente On Premise](overview-and-basics/architecture/docbits-infor-on-premise-customer.md)
   * [Certificaciones](overview-and-basics/architecture/certifications.md)
@@ -32,7 +33,6 @@
     * [Atajos de Teclado](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
   * [Tareas](end-user-and-partner-section/end-user-section/tasks.md)
   * [Cuadro de mandos de envíos anticipados](end-user-and-partner-section/end-user-section/advance-shipment-dashboard.md)
-  * [Características principales de DocBits](end-user-and-partner-section/end-user-section/key-features-of-docbits.md)
   * [Orden de Compra](end-user-and-partner-section/end-user-section/purchase-order.md)
   * [Panel de facturación](end-user-and-partner-section/end-user-section/invoice-dashboard.md)
   * [Shipment Order Dashboard](end-user-and-partner-section/end-user-section/shipment-order-dashboard.md)

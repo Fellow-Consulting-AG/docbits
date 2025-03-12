@@ -4,7 +4,7 @@ Para configurar tus ajustes, haz clic en el Icono de Usuario ubicado en la esqui
 
 <figure><img src="../../.gitbook/assets/user-config.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/user-config2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/user_config_options_2.png" alt="" width="308"><figcaption></figcaption></figure>
 
 **Idioma**
 
