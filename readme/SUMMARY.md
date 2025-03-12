@@ -129,7 +129,7 @@
   * [Procesamiento de documentos](administration-and-setup/settings/document-processing/README.md)
     * [Documents Expiry](administration-and-setup/settings/document-processing/documents-expiry.md)
     * [Import](administration-and-setup/settings/document-processing/import.md)
-    * [Gestor de Reglas](administration-and-setup/settings/document-processing/gestor-de-reglas.md)
+    * [Gestor de Reglas](administration-and-setup/settings/document-processing/rule-manager.md)
     * [Ocr Settings](administration-and-setup/settings/document-processing/ocr-settings.md)
     * [Clasificación y extracción](administration-and-setup/settings/document-processing/classification-and-extraction/README.md)
       * [Extracción de tablas para el elemento de costos](administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md)
