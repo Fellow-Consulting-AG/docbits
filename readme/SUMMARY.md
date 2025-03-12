@@ -38,7 +38,7 @@
   * [Shipment Order Dashboard](end-user-and-partner-section/end-user-section/shipment-order-dashboard.md)
   * [Opciones de Configuración del Usuario](end-user-and-partner-section/end-user-section/user-configuration-options.md)
   * [Tabla AI](end-user-and-partner-section/end-user-section/ai-table/README.md)
-    * [Etiquetas de la tabla AI](end-user-and-partner-section/end-user-section/ai-table/etiquetas-de-la-tabla-ai.md)
+    * [Etiquetas de la tabla AI](end-user-and-partner-section/end-user-section/ai-table/ai-table-tags.md)
   * [Pantalla de Validación](end-user-and-partner-section/end-user-section/validation-screen/README.md)
     * [Datos Difusos](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [Códigos QR](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
