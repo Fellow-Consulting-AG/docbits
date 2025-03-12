@@ -47,7 +47,7 @@
   * [Propósito e Uso](end-user-and-partner-section/end-user-section/proposito-e-uso.md)
   * [Correspondência de Pedido de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
     * [Correspondência Automática de Dados de Pedido de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
-    * [Mapa de Número de Item do Fornecedor](end-user-and-partner-section/end-user-section/purchase-order-matching/mappatura-del-numero-dellarticolo-del-fornitore.md)
+    * [Mapa de Número de Item do Fornecedor](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
     * [Atalhos de Teclado](end-user-and-partner-section/end-user-section/purchase-order-matching/keyboard-shortcuts.md)
   * [Contabilização de Fatura de Custo e Vendas Indiretas](end-user-and-partner-section/end-user-section/contabilizacao-de-fatura-de-custo-e-vendas-indiretas.md)
   * [Como Importar Documentos](end-user-and-partner-section/end-user-section/how-to-import-documents/README.md)
