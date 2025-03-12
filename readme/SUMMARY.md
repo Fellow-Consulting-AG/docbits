@@ -126,7 +126,7 @@
         * [Dépannage](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
     * [Intégration](administration-and-setup/settings/global-settings/integration/README.md)
       * [API Calls and Examples](administration-and-setup/settings/global-settings/integration/api-calls-and-examples.md)
-    * [Tableau de bord](administration-and-setup/settings/global-settings/tableau-de-bord.md)
+    * [Tableau de bord](administration-and-setup/settings/global-settings/dashboard.md)
   * [Traitement des documents](administration-and-setup/settings/document-processing/README.md)
     * [Documents Expiry](administration-and-setup/settings/document-processing/documents-expiry.md)
     * [Import](administration-and-setup/settings/document-processing/import.md)
