@@ -19,6 +19,8 @@ O painel de controle de acesso permite que o administrador gerencie grupos de us
 3. Selecione **Módulo.**
 4. Ative o **Controle de Acesso** ativando o controle deslizante.
 
+<figure><img src="../../../../../.gitbook/assets/Access-Control1.png" alt=""><figcaption></figcaption></figure>
+
 ## **Acessando Configurações do Grupo**
 
 1. Navegue até **Configurações**.
@@ -27,6 +29,8 @@ O painel de controle de acesso permite que o administrador gerencie grupos de us
 4. Selecione **Grupos e Permissões**.
 5. Para gerenciar permissões para um grupo, como PROCUREMENT\_DIRECTOR, clique nos três pontos no lado direito da tela.
 6. Selecione **Visualizar Controle de Acesso**.
+
+<figure><img src="../../../../../.gitbook/assets/Access-Control2.png" alt=""><figcaption></figcaption></figure>
 
 ## Configurando Permissões para Grupos
 
@@ -56,3 +60,5 @@ O painel de controle de acesso permite que o administrador gerencie grupos de us
      * **Leitura do Proprietário/ Escrita do Proprietário:** Apenas o proprietário do documento ou campo pode escrever e ler.
      * **Aprovação:** As alterações devem ser aprovadas por usuários autorizados ou administrador.
      * **Nenhuma**: Nenhuma permissão específica é aplicada ao campo.
+
+<figure><img src="../../../../../.gitbook/assets/Access-Control3.png" alt=""><figcaption></figcaption></figure>
