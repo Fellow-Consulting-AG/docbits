@@ -125,7 +125,7 @@
         * [Resolução de Problemas](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
     * [Integração](administration-and-setup/settings/global-settings/integration/README.md)
       * [API Calls and Examples](administration-and-setup/settings/global-settings/integration/api-calls-and-examples.md)
-    * [Painel de Controle](administration-and-setup/settings/global-settings/painel-de-controle.md)
+    * [Painel de Controle](administration-and-setup/settings/global-settings/dashboard.md)
   * [Processamento de documentos](administration-and-setup/settings/document-processing/README.md)
     * [Documents Expiry](administration-and-setup/settings/document-processing/documents-expiry.md)
     * [Import](administration-and-setup/settings/document-processing/import.md)
