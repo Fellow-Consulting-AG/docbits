@@ -27,7 +27,7 @@
     * [Aperçu des documents téléchargés](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Compteur de tâches](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Champs extraits validés](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)
-    * [Flux De Documents](end-user-and-partner-section/end-user-section/dashboard/flux-de-documents.md)
+    * [Flux De Documents](end-user-and-partner-section/end-user-section/dashboard/document-flow.md)
     * [Meilleure Pratique](end-user-and-partner-section/end-user-section/dashboard/meilleures-pratiques.md)
     * [Dépannage](end-user-and-partner-section/end-user-section/dashboard/troubleshooting.md)
     * [Raccourcis Clavier](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
