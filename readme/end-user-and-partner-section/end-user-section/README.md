@@ -20,4 +20,4 @@
 ### Solução de Problemas
 
 * **Problemas Comuns:** Soluções para problemas frequentes encontrados pelos usuários.
-* [**Contato de Suporte**](user-support.md)**:** Como entrar em contato com o suporte para assistência.
+* [**Contato de Suporte**](ressources-and-support/user-support.md)**:** Como entrar em contato com o suporte para assistência.
