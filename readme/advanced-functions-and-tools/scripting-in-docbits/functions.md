@@ -54,7 +54,7 @@ set_amount_value(document_data, "net_amount",str(lines_total))
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The value to set for the field (pass a number as string e.g., "123456"</td></tr></tbody></table>
+<table><thead><tr><th width="183.71087646484375">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The value to set for the field (pass a number as string e.g., "123456"</td></tr><tr><td>remove link (optional)</td><td><code>bool</code></td><td>Remove the "coords" key from the field.</td></tr></tbody></table>
 
 ### **get\_field\_value()**
 
@@ -237,7 +237,7 @@ reverse_charge_to_check = get_lov_values(org_id, 'Kosten', return_type="list_of_
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The key of the required  List Of Values </td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The key of the required  List Of Values </td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr><tr><td>language_code<br>(optional)</td><td><code>string</code></td><td>This parameter sets the language in which the values will be returned. It accepts language codes, such as "en" for English or "fr" for French.<br>Default is <code>""</code></td></tr></tbody></table>
 
 #### Returns:
 
@@ -347,6 +347,22 @@ group_name  = str(get_group_by_id(assigned_to_group_id))
 
 * The group with the corresponding group ID
 
+### **get\_user\_by\_email()**
+
+Gets the group with the corresponding group ID.
+
+```python
+user_name = str(get_user_by_email(email)
+```
+
+#### Parameters:
+
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>email<mark style="color:red;">*</mark></td><td><code>any</code></td><td>The email of the user</td></tr></tbody></table>
+
+#### Returns:
+
+* The user with the corresponding email
+
 ### **add\_table\_column()**
 
 Adds a column to the specified  table.
@@ -426,6 +442,30 @@ set_column_amount_value(document_data, row, "QUANTITY", str(quantity))
 #### Parameters:
 
 <table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The row where the value is located</td></tr><tr><td>column_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The value to set for the field (pass a number as string e.g., "123456")</td></tr></tbody></table>
+
+### **delete\_tables()**
+
+This function deletes the tables from the document data.
+
+```python
+delete_tables(document_data)
+```
+
+#### Parameters:
+
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr></tbody></table>
+
+### **restore\_tables()**
+
+This function restores the tables in the document data.
+
+```python
+restore_tables(document_data)
+```
+
+#### Parameters:
+
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr></tbody></table>
 
 ### **remove\_rows\_from\_table()**
 
