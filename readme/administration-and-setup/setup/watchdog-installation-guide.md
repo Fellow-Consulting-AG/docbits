@@ -25,79 +25,48 @@
 
        <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+
+5. **Download the Configuration**&#x20;
+   * Save the configuration&#x20;
+   *   Download the configuration\
+
+
+       <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ## WatchDog Installation Guide
 
 1. **Create Required Folders**
    * Create a main directory: `C:/WatchDog`
-   * Inside `C:/WatchDog`, create the following subfolders:
+   * Inside `C:/WatchDog`, create the following subfolders:\
+     <mark style="color:red;">**Note**</mark>**: these should match the folders in DocBits**&#x20;
      * `C:/WatchDog/Read`
      * `C:/WatchDog/Processed`\
 
 2. **Download WatchDog**
    * Download the latest version of `WatchDog.exe` from:\
      [ ](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)[https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)
-   * Place the downloaded `WatchDog.exe` file in `C:/WatchDog`.\
+   * Place the downloaded `WatchDog.exe` file in `C:/WatchDog`.
+   * Place the downloaded `watchdog-config.json` file in `C:/WatchDog`.
+   * open the `watchdog-config.json.`  and change the **config\_path.**&#x20;
+   * In this example:
+     * `"config_path": "C:/WatchDog/watchdog-config.json"`\
 
 3. **Install WatchDog**
    * Open **Command Prompt (CMD)** with **Administrator rights**.
    * Navigate to the WatchDog folder&#x20;
    *   Run the following command to install WatchDog:
 
-       `WatchDog.exe install`
-   * The configuration window will open automatically.\
-
-4. **Configure Settings**
-   * Navigate to the **Settings tab in the configuration window.**
-   * Adjust the settings as needed.
-   * Click **Save**.\
-
-5. **Reinstall the Service**
-   *   To apply the new settings, rerun the installation command:
-
        `WatchDog.exe install`\
 
-6. **Start the WatchDog Service**
+4. **Start the WatchDog Service**
    *   Run the following command in CMD:
 
        `WatchDog.exe start`\
 
-7. **Set Startup Type**
+5. **Set Startup Type**
    * Open **Services** (Press `Win + R`, type `services.msc`, and press **Enter**).
    * Locate **WatchDog** in the service list.
    * Double-click to open its properties.
    * Set **Startup Type** to **Automatic (Delayed Start)**.
    * Click **OK**.
 
-## Updating the WatchDog
-
-1. **Stop the Service**
-   * Open **Command Prompt (CMD)** with **Administrator rights**.
-   * Navigate to the WatchDog folder
-   *   Run the following command:
-
-       `WatchDog.exe stop`\
-
-2. **Remove the Service**
-   *   Execute the following command in CMD:
-
-       `WatchDog.exe remove`\
-
-3. **Reset Configuration**
-   * Delete or rename the existing configuration file in `C:/WatchDog`.
-   * Re-download `WatchDog.exe` if needed from:\
-     [https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)
-   * Place `WatchDog.exe` in `C:/WatchDog`.\
-
-4. **Reinstall the Service**
-   *   Run the installation command:
-
-       `WatchDog.exe install`
-   * Enter the configuration settings and click **Save**.
-   *   To apply the configuration, run the command again:
-
-       `WatchDog.exe install`\
-
-5. **Start the Service**
-   *   Run the following command to start WatchDog:
-
-       `WatchDog.exe start`
