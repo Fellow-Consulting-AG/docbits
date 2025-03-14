@@ -374,7 +374,7 @@ if table:
     add_table_column(table, "PROMISED_DELIVERY_DATE")
 ```
 
-Parameters:
+#### Parameters:
 
 <table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>table<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The table where the column should be added</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>default_value (optional)</td><td><code>any</code></td><td><p>The initial value for the field </p><p>Default is <code>None</code></p></td></tr></tbody></table>
 
