@@ -23,7 +23,7 @@ else:
 
 #### Parametry:
 
-<table><thead><tr><th width="177">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa pola do ustawienia</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Wartość do ustawienia dla pola</td></tr></tbody></table>
+<table><thead><tr><th width="177">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa pola do ustawienia</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Wartość do ustawienia dla pola</td></tr><tr><td>remove_link (opcjonalnie)</td><td><code>bool</code></td><td>Usuwa klucz "coords" z pola.</td></tr></tbody></table>
 
 ### **set\_date\_value()**
 
@@ -40,7 +40,7 @@ if not document_json.get("script_executed", False):
 
 #### Parametry:
 
-<table><thead><tr><th width="229">Nazwa</th><th width="138">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa pola do ustawienia</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Wartość daty do ustawienia w formacie ISO (np. "2020-12-31").</td></tr><tr><td>add_days (opcjonalnie)</td><td><code>int</code></td><td>Dodaje dodatkowe dni do podanej daty<br>Domyślnie 0</td></tr><tr><td>skip_weekend (opcjonalnie)</td><td><code>bool</code></td><td>Pomija datę, jeśli przypada na weekend<br>Domyślnie <code>False</code></td></tr></tbody></table>
+<table><thead><tr><th width="229">Nazwa</th><th width="196.0316162109375">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa pola do ustawienia</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Wartość daty do ustawienia w formacie ISO (np. "2020-12-31").</td></tr><tr><td>add_days (opcjonalnie)</td><td><code>int</code></td><td>Dodaje dodatkowe dni do podanej daty<br>Domyślnie 0</td></tr><tr><td>skip_weekend (opcjonalnie)</td><td><code>bool</code></td><td>Pomija datę, jeśli przypada na weekend<br>Domyślnie <code>False</code></td></tr><tr><td>remove link (opcjonalnie)</td><td><code>bool</code></td><td>Usuwa klucz "coords" z pola.</td></tr><tr><td>exclude_final_days<br>(opcjonalnie)</td><td>albo <code>string</code> albo <code>int</code></td><td>Określa dni do wykluczenia (0-6 lub niedziela do soboty)</td></tr></tbody></table>
 
 ### **set\_amount\_value()**
 
@@ -54,7 +54,7 @@ set_amount_value(document_data, "net_amount",str(lines_total))
 
 #### Parametry:
 
-<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa pola do ustawienia</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Wartość do ustawienia dla pola (przekaż liczbę jako string np. "123456"</td></tr></tbody></table>
+<table><thead><tr><th width="183.71087646484375">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa pola do ustawienia</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Wartość do ustawienia dla pola (przekaż liczbę jako string np. "123456"</td></tr><tr><td>remove link (opcjonalnie)</td><td><code>bool</code></td><td>Usuwa klucz "coords" z pola.</td></tr></tbody></table>
 
 ### **get\_field\_value()**
 
@@ -76,7 +76,7 @@ set_amount_value(document_data, "net_amount", str(lines_total))
 
 ### **create\_new\_field()**
 
-Tworzy nowe pole o określonej nazwie i wartości.
+Tworzy nowe pole z określoną nazwą i wartością.
 
 ```python
 currency = get_field_value(document_data, 'currency', None)
@@ -99,7 +99,7 @@ if not currency:
 
 ### **delete\_field()**
 
-Usuwa pole z danych dokumentu.
+Usuwa pole z danych dokumentu
 
 ```python
 field_amount = get_field_value(document_data, field_name)
@@ -187,7 +187,7 @@ bool = is_supplier_valid(user, {"name": "Supplier Inc."})
 
 #### Parametry:
 
-<table><thead><tr><th width="203">Nazwa</th><th width="216">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td><code>UserAuthentication</code></td><td>Użytkownik uwierzytelniony</td></tr><tr><td>filter_data_json<mark style="color:red;">*</mark></td><td><code>json</code></td><td>Kryteria filtrowania do walidacji dostawcy</td></tr><tr><td>sub_org_id (opcjonalnie)</td><td><code>string</code></td><td>Opcjonalny identyfikator podorganizacji do filtrowania<br>Domyślnie <code>None</code></td></tr></tbody></table>
+<table><thead><tr><th width="203">Nazwa</th><th width="216">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td><code>UserAuthentication</code></td><td>Użytkownik uwierzytelniony</td></tr><tr><td>filter_data_json<mark style="color:red;">*</mark></td><td><code>json</code></td><td>Kryteria filtrujące do walidacji dostawcy</td></tr><tr><td>sub_org_id (opcjonalnie)</td><td><code>string</code></td><td>Opcjonalny identyfikator podorganizacji do filtrowania<br>Domyślnie <code>None</code></td></tr></tbody></table>
 
 #### Zwraca:
 
@@ -214,7 +214,7 @@ if document_content:
 
 ### **update\_document\_status\_with\_doc\_id()**
 
-Aktualizuje status dokumentu o określonym ID na dany status.
+Aktualizuje status dokumentu o określonym ID do podanego statusu.
 
 ```python
 genehmigung_user_1 = get_field_value(document_data, 'genehmigung_user_1', None)
@@ -237,7 +237,7 @@ reverse_charge_to_check = get_lov_values(org_id, 'Kosten', return_type="list_of_
 
 #### Parametry:
 
-<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>ID organizacji, do której należy dokument</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Klucz wymaganej Listy Wartości</td></tr><tr><td>return_type (opcjonalnie)</td><td><code>string</code></td><td>Typ, w jakim dane powinny być zwrócone<br>Domyślnie <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (opcjonalnie)</td><td><code>string</code></td><td>Opcjonalny identyfikator podorganizacji do filtrowania<br>Domyślnie <code>None</code></td></tr></tbody></table>
+<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>ID organizacji, do której należy dokument</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Klucz wymaganej Listy Wartości</td></tr><tr><td>return_type (opcjonalnie)</td><td><code>string</code></td><td>Typ, w jakim dane powinny być zwrócone<br>Domyślnie <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (opcjonalnie)</td><td><code>string</code></td><td>Opcjonalny identyfikator podorganizacji do filtrowania<br>Domyślnie <code>None</code></td></tr><tr><td>language_code<br>(opcjonalnie)</td><td><code>string</code></td><td>Ten parametr ustawia język, w którym wartości będą zwracane. Akceptuje kody językowe, takie jak "en" dla angielskiego lub "fr" dla francuskiego.<br>Domyślnie <code>""</code></td></tr></tbody></table>
 
 #### Zwraca:
 
@@ -317,7 +317,7 @@ if sub_org_id != current_sub_org_id:
 
 ### **get\_user\_by\_id()**
 
-Pobiera użytkownika o odpowiadającym identyfikatorze użytkownika.
+Pobiera użytkownika o odpowiadającym ID użytkownika.
 
 ```python
 requester_mail = str(get_user_by_id(str(requester)).email.lower())
@@ -329,23 +329,39 @@ requester_mail = str(get_user_by_id(str(requester)).email.lower())
 
 #### Zwraca:
 
-* Użytkownika o odpowiadającym identyfikatorze użytkownika
+* Użytkownika o odpowiadającym ID użytkownika
 
 ### **get\_group\_by\_id()**
 
-Pobiera grupę o odpowiadającym identyfikatorze grupy.
+Pobiera grupę o odpowiadającym ID grupy.
 
 ```python
 group_name  = str(get_group_by_id(assigned_to_group_id))
 ```
 
-Parametry:
+#### Parametry:
 
 <table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>group_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>ID grupy</td></tr></tbody></table>
 
 #### Zwraca:
 
-* Grupę o odpowiadającym identyfikatorze grupy
+* Grupę o odpowiadającym ID grupy
+
+### **get\_user\_by\_email()**
+
+Pobiera użytkownika o odpowiadającym adresie e-mail.
+
+```python
+user_name = str(get_user_by_email(email))
+```
+
+#### Parametry:
+
+<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>email<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Adres e-mail użytkownika</td></tr></tbody></table>
+
+#### Zwraca:
+
+* Użytkownika o odpowiadającym adresie e-mail
 
 ### **add\_table\_column()**
 
@@ -358,7 +374,7 @@ if table:
     add_table_column(table, "PROMISED_DELIVERY_DATE")
 ```
 
-Parametry:
+#### Parametry:
 
 <table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>table<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Tabela, do której powinna być dodana kolumna</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa kolumny</td></tr><tr><td>default_value (opcjonalnie)</td><td><code>any</code></td><td><p>Początkowa wartość dla pola</p><p>Domyślnie <code>None</code></p></td></tr></tbody></table>
 
@@ -377,11 +393,11 @@ for row in table['rows']:
 
 #### Zwraca
 
-* Wartość określonej kolumny
+* Zwraca wartość określonej kolumny, jeśli istnieje; w przeciwnym razie zwraca `None`
 
 ### **set\_column\_value()**
 
-Ustawia wartość określonej kolumny.
+Ustawia wartość określonej kolumny. Jeśli kolumna nie istnieje, zostanie utworzona.
 
 ```python
 supplier_id = get_field_value(document_data, "supplier_id", "")
@@ -410,7 +426,7 @@ set_column_date_value(document_data, row, "DELIVERY_DATE", "2020-12-31", add_day
 
 #### Parametry:
 
-<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Wiersz, w którym znajduje się wartość</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa kolumny</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Wartość daty do ustawienia w formacie ISO (np. "2020-12-31")</td></tr><tr><td>add_days (opcjonalnie)</td><td><code>int</code></td><td>Dodaje dodatkowe dni do podanej daty<br>Domyślnie <code>2</code></td></tr></tbody></table>
+<table><thead><tr><th width="173">Nazwa</th><th width="196.05859375">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Wiersz, w którym znajduje się wartość</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa kolumny</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Wartość daty do ustawienia w formacie ISO (np. "2020-12-31")</td></tr><tr><td>add_days (opcjonalnie)</td><td><code>int</code></td><td>Dodaje dodatkowe dni do podanej daty<br>Domyślnie <code>2</code></td></tr><tr><td>skip_weekend (opcjonalnie)</td><td><code>bool</code></td><td>Pomija datę, jeśli przypada na weekend<br>Domyślnie <code>False</code></td></tr><tr><td>exclude_final_days<br>(opcjonalnie)</td><td>albo <code>string</code> albo <code>int</code></td><td>Określa dni do wykluczenia (0-6 lub niedziela do soboty)</td></tr></tbody></table>
 
 ### **set\_column\_amount\_value()**
 
@@ -427,6 +443,30 @@ set_column_amount_value(document_data, row, "QUANTITY", str(quantity))
 
 <table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Wiersz, w którym znajduje się wartość</td></tr><tr><td>column_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa kolumny</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Wartość do ustawienia dla pola (przekaż liczbę jako string np. "123456")</td></tr></tbody></table>
 
+### **delete\_tables()**
+
+Ta funkcja usuwa tabele z danych dokumentu.
+
+```python
+delete_tables(document_data)
+```
+
+#### Parametry:
+
+<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr></tbody></table>
+
+### **restore\_tables()**
+
+Ta funkcja przywraca tabele w danych dokumentu.
+
+```python
+restore_tables(document_data)
+```
+
+#### Parametry:
+
+<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr></tbody></table>
+
 ### **remove\_rows\_from\_table()**
 
 Usuwa wiersze z określonej tabeli.
@@ -439,11 +479,11 @@ remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)
 
 #### Parametry:
 
-<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>table_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa tabeli</td></tr><tr><td>count<mark style="color:red;">*</mark></td><td><code>int</code></td><td>Ile wierszy powinno zostać usuniętych</td></tr><tr><td>start<mark style="color:red;">*</mark></td><td><code>int</code></td><td>Punkt początkowy</td></tr></tbody></table>
+<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>table_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa tabeli</td></tr><tr><td>count<mark style="color:red;">*</mark></td><td><code>int</code></td><td>Ile linii powinno zostać usuniętych</td></tr><tr><td>start<mark style="color:red;">*</mark></td><td><code>int</code></td><td>Punkt początkowy</td></tr></tbody></table>
 
 ### **remove\_all\_rows\_except\_one\_from\_table()**
 
-Usuwa wszystkie wiersze z wyjątkiem jednego z określonej tabeli.
+Usuwa wszystkie wiersze z wyjątkiem jednego z określonej tabeli
 
 ```python
 count = 1
@@ -462,7 +502,7 @@ Możesz również wykorzystać niektóre wbudowane funkcje Pythona:
 * abs(): Zwraca wartość bezwzględną liczby.
 * len(): Zwraca długość (liczbę elementów) obiektu, takiego jak lista lub string.
 * isinstance(): Sprawdza, czy obiekt jest instancją określonej klasy lub typu.
-* print(): Wypisuje wynik na konsoli.
+* print(): Wypisuje wynik na konsolę.
 * round(): Zaokrągla liczbę zmiennoprzecinkową do określonej liczby miejsc dziesiętnych.
 * str\_to\_bool(): Konwertuje string na wartość boolean (True lub False).
 * type(): Zwraca typ obiektu.
@@ -476,14 +516,14 @@ Aby uzyskać więcej informacji, odwiedź oficjalną dokumentację Pythona: [Wbu
 
 ## Funkcje klasy String
 
-Możesz również używać tych funkcji specjalnie do pracy z stringami:
+Możesz również używać tych funkcji specjalnie do pracy z łańcuchami:
 
-* lower(): Konwertuje wszystkie znaki w stringu na małe litery.
-* upper(): Konwertuje wszystkie znaki w stringu na wielkie litery.
-* split(): Dzieli string na listę na podstawie separatora (np. spacja lub przecinek).
-* startswith(): Sprawdza, czy string zaczyna się od określonego prefiksu.
-* endswith(): Sprawdza, czy string kończy się określonym sufiksem.
-* strip(): Usuwa wszelkie wiodące lub końcowe białe znaki ze stringa.
+* lower(): Konwertuje wszystkie znaki w łańcuchu na małe litery.
+* upper(): Konwertuje wszystkie znaki w łańcuchu na wielkie litery.
+* split(): Dzieli łańcuch na listę na podstawie delimitera (np. spacja lub przecinek).
+* startswith(): Sprawdza, czy łańcuch zaczyna się od określonego prefiksu.
+* endswith(): Sprawdza, czy łańcuch kończy się określonym sufiksem.
+* strip(): Usuwa wszelkie wiodące lub końcowe białe znaki z łańcucha.
 
 ## Funkcje z modułu matematycznego Pythona
 
@@ -496,7 +536,7 @@ Aby uzyskać więcej informacji, sprawdź oficjalną dokumentację Pythona: [Fun
 
 ## Funkcja wyrażeń regularnych
 
-* re.search(): Wyszukuje wzór w stringu i zwraca pierwsze dopasowanie.
+* re.search(): Wyszukuje wzór w łańcuchu i zwraca pierwsze dopasowanie.
 
 Zobacz więcej szczegółów tutaj: [Dokumentacja re.search](https://docs.python.org/3/library/re.html#re.search).
 
@@ -506,14 +546,14 @@ Oto kilka przydatnych funkcji z zewnętrznych bibliotek:
 
 * deepcopy(): Tworzy kopię obiektu, w tym zagnieżdżonych obiektów (z modułu copy).\
   [Dokumentacja Deepcopy](https://docs.python.org/3/library/copy.html#copy.deepcopy).
-* levenshtein\_distance(): Oblicza liczbę edycji (wstawień, usunięć, substytucji) wymaganych do przekształcenia jednego stringa w inny. Ta funkcja jest dostępna w [bibliotece Jellyfish](https://jamesturk.github.io/jellyfish/functions/).
+* levenshtein\_distance(): Oblicza liczbę edycji (wstawień, usunięć, substytucji) wymaganych do zmiany jednego łańcucha w inny. Ta funkcja jest dostępna w [bibliotece Jellyfish](https://jamesturk.github.io/jellyfish/functions/).
 
 ## Funkcje daty i czasu
 
 Możesz używać następujących funkcji do pracy z datami i czasami:
 
-* strptime(): Konwertuje string na obiekt datetime na podstawie określonego formatu.
-* strftime(): Formatuje obiekt datetime na string na podstawie określonego formatu.
+* strptime(): Konwertuje łańcuch na obiekt datetime na podstawie określonego formatu.
+* strftime(): Formatuje obiekt datetime na łańcuch na podstawie określonego formatu.
 
 Aby uzyskać więcej informacji, sprawdź oficjalną dokumentację:\
 [Funkcje daty i czasu](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior).
