@@ -242,14 +242,14 @@
     * [Esporta Codici Fiscali in LN](infor-integration-and-configuration/exporting-to-infor/ln/export-tax-codes-to-ln.md)
     * [LN Configuration](infor-integration-and-configuration/exporting-to-infor/ln/ln-configuration.md)
 
-## Funzioni e strumenti avanzati <a href="#infor-integration-and-configuration" id="infor-integration-and-configuration"></a>
+## Funzioni e strumenti avanzati <a href="#advanced-functions-and-tools" id="advanced-functions-and-tools"></a>
 
-* [Scripting in DocBits](infor-integration-and-configuration-1/scripting-in-docbits/README.md)
-  * [Calculating Total Charges Script for Docbits](infor-integration-and-configuration-1/scripting-in-docbits/calculating-total-charges-script-for-docbits-1.md)
-  * [Calculating Total Charges Script for Docbits](infor-integration-and-configuration-1/scripting-in-docbits/calculating-total-charges-script-for-docbits.md)
-  * [Delete lines with empty quantity and amount](infor-integration-and-configuration-1/scripting-in-docbits/delete-lines-with-empty-quantity-and-amount.md)
-  * [Formatting Export Certificate Reference Numbers Script for Docbits](infor-integration-and-configuration-1/scripting-in-docbits/formatting-export-certificate-reference-numbers-script-for-docbits.md)
-  * [Funzioni](infor-integration-and-configuration-1/scripting-in-docbits/functions.md)
-  * [Generating Extended Invoice Numbers Script for Docbits](infor-integration-and-configuration-1/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits-1.md)
-  * [Generating Extended Invoice Numbers Script for Docbits](infor-integration-and-configuration-1/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits.md)
-* [Postman for DocBits](infor-integration-and-configuration-1/postman-for-docbits.md)
+* [Scripting in DocBits](advanced-functions-and-tools/scripting-in-docbits/README.md)
+  * [Calculating Total Charges Script for Docbits](advanced-functions-and-tools/scripting-in-docbits/calculating-total-charges-script-for-docbits-1.md)
+  * [Calculating Total Charges Script for Docbits](advanced-functions-and-tools/scripting-in-docbits/calculating-total-charges-script-for-docbits.md)
+  * [Delete lines with empty quantity and amount](advanced-functions-and-tools/scripting-in-docbits/delete-lines-with-empty-quantity-and-amount.md)
+  * [Formatting Export Certificate Reference Numbers Script for Docbits](advanced-functions-and-tools/scripting-in-docbits/formatting-export-certificate-reference-numbers-script-for-docbits.md)
+  * [Funzioni](advanced-functions-and-tools/scripting-in-docbits/functions.md)
+  * [Generating Extended Invoice Numbers Script for Docbits](advanced-functions-and-tools/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits-1.md)
+  * [Generating Extended Invoice Numbers Script for Docbits](advanced-functions-and-tools/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits.md)
+* [Postman for DocBits](advanced-functions-and-tools/postman-for-docbits.md)

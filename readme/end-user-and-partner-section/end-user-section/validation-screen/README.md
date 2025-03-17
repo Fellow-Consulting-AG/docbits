@@ -25,7 +25,7 @@
   * **Caso d'uso:** Utilizzare questa funzione per automatizzare attività come l'estrazione di dati o la convalida del formato, migliorando l'efficienza del flusso di lavoro.
 
 {% hint style="info" %}
-Vedi qui aggiungi [Script in DocBits](../../../infor-integration-and-configuration-1/scripting-in-docbits/)
+Vedi qui aggiungi [Script in DocBits](../../../advanced-functions-and-tools/scripting-in-docbits/)
 {% endhint %}
 
 ### **Campi Fuzzy:**
