@@ -23,7 +23,7 @@ else:
 
 #### Parametri:
 
-<table><thead><tr><th width="177">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome del campo da impostare</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Il valore da impostare per il campo</td></tr></tbody></table>
+<table><thead><tr><th width="177">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome del campo da impostare</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Il valore da impostare per il campo</td></tr><tr><td>remove_link (opzionale)</td><td><code>bool</code></td><td>Rimuove la chiave "coords" dal campo.</td></tr></tbody></table>
 
 ### **set\_date\_value()**
 
@@ -40,7 +40,7 @@ if not document_json.get("script_executed", False):
 
 #### Parametri:
 
-<table><thead><tr><th width="229">Nome</th><th width="138">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome del campo da impostare</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il valore della data da impostare in formato ISO (es. "2020-12-31").</td></tr><tr><td>add_days (opzionale)</td><td><code>int</code></td><td>Aggiunge giorni aggiuntivi alla data fornita<br>Il valore predefinito è 0</td></tr><tr><td>skip_weekend (opzionale)</td><td><code>bool</code></td><td>Salta la data se cade nel fine settimana<br>Il valore predefinito è <code>False</code></td></tr></tbody></table>
+<table><thead><tr><th width="229">Nome</th><th width="196.0316162109375">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome del campo da impostare</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il valore della data da impostare in formato ISO (ad es., "2020-12-31").</td></tr><tr><td>add_days (opzionale)</td><td><code>int</code></td><td>Aggiunge giorni aggiuntivi alla data fornita<br>Il valore predefinito è 0</td></tr><tr><td>skip_weekend (opzionale)</td><td><code>bool</code></td><td>Salta la data se cade nel fine settimana<br>Il valore predefinito è <code>False</code></td></tr><tr><td>remove link (opzionale)</td><td><code>bool</code></td><td>Rimuove la chiave "coords" dal campo.</td></tr><tr><td>exclude_final_days<br>(opzionale)</td><td>either <code>string</code> or <code>int</code></td><td>Specifica i giorni da escludere (0-6 o Domenica a Sabato)</td></tr></tbody></table>
 
 ### **set\_amount\_value()**
 
@@ -54,7 +54,7 @@ set_amount_value(document_data, "net_amount",str(lines_total))
 
 #### Parametri:
 
-<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome del campo da impostare</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il valore da impostare per il campo (passa un numero come stringa es. "123456")</td></tr></tbody></table>
+<table><thead><tr><th width="183.71087646484375">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome del campo da impostare</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il valore da impostare per il campo (passa un numero come stringa ad es., "123456")</td></tr><tr><td>remove link (opzionale)</td><td><code>bool</code></td><td>Rimuove la chiave "coords" dal campo.</td></tr></tbody></table>
 
 ### **get\_field\_value()**
 
@@ -68,7 +68,7 @@ set_amount_value(document_data, "net_amount", str(lines_total))
 
 #### Parametri:
 
-<table><thead><tr><th width="191">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome del campo da impostare</td></tr><tr><td>default_value (opzionale)</td><td><code>any</code></td><td>Restituisce default_value se non viene trovato alcun valore di campo<br>Il valore predefinito è <code>None</code></td></tr><tr><td>is_clean (opzionale)</td><td><code>bool</code></td><td>Converte il valore in maiuscolo e rimuove eventuali spazi extra<br>Il valore predefinito è <code>False</code></td></tr></tbody></table>
+<table><thead><tr><th width="191">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome del campo da impostare</td></tr><tr><td>default_value (opzionale)</td><td><code>any</code></td><td>Restituisce default_value se non viene trovato alcun valore del campo<br>Il valore predefinito è <code>None</code></td></tr><tr><td>is_clean (opzionale)</td><td><code>bool</code></td><td>Converte il valore in maiuscolo e rimuove eventuali spazi extra<br>Il valore predefinito è <code>False</code></td></tr></tbody></table>
 
 #### Restituisce:
 
@@ -187,7 +187,7 @@ bool = is_supplier_valid(user, {"name": "Supplier Inc."})
 
 #### Parametri:
 
-<table><thead><tr><th width="203">Nome</th><th width="216">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td><code>UserAuthentication</code></td><td>L'utente autenticato</td></tr><tr><td>filter_data_json<mark style="color:red;">*</mark></td><td><code>json</code></td><td>Criteri di filtro per la validazione del fornitore</td></tr><tr><td>sub_org_id (opzionale)</td><td><code>string</code></td><td>ID della sotto-organizzazione opzionale per il filtraggio<br>Il valore predefinito è <code>None</code></td></tr></tbody></table>
+<table><thead><tr><th width="203">Nome</th><th width="216">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td><code>UserAuthentication</code></td><td>L'utente autenticato</td></tr><tr><td>filter_data_json<mark style="color:red;">*</mark></td><td><code>json</code></td><td>Criteri di filtro per la validazione del fornitore</td></tr><tr><td>sub_org_id (opzionale)</td><td><code>string</code></td><td>ID della sotto-organizzazione opzionale per il filtro<br>Il valore predefinito è <code>None</code></td></tr></tbody></table>
 
 #### Restituisce:
 
@@ -210,7 +210,7 @@ if document_content:
 
 #### Restituisce:
 
-* Dati del documento come stringa.
+* I dati del documento come stringa.
 
 ### **update\_document\_status\_with\_doc\_id()**
 
@@ -225,11 +225,11 @@ if genehmigung_user_1 != "LEER":
 
 #### Parametri:
 
-<table><thead><tr><th width="228">Nome</th><th width="216">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>doc_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>L'ID del documento da aggiornare</td></tr><tr><td>user<mark style="color:red;">*</mark></td><td>sia <code>user ID</code> che <code>UserAuthentication</code> object</td><td>L'utente che esegue l'aggiornamento</td></tr><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>L'ID dell'organizzazione a cui appartiene il documento</td></tr><tr><td>status<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nuovo stato del documento</td></tr><tr><td>message (opzionale)</td><td><code>string</code></td><td>Messaggio opzionale associato all'aggiornamento dello stato<br>Il valore predefinito è <code>None</code></td></tr><tr><td>doc_classification_class (opzionale)</td><td><code>string</code></td><td>Classe di classificazione del documento opzionale<br>Il valore predefinito è <code>None</code></td></tr></tbody></table>
+<table><thead><tr><th width="228">Nome</th><th width="216">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>doc_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>L'ID del documento da aggiornare</td></tr><tr><td>user<mark style="color:red;">*</mark></td><td>either <code>user ID</code> or <code>UserAuthentication</code> object</td><td>L'utente che esegue l'aggiornamento</td></tr><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>L'ID dell'organizzazione a cui appartiene il documento</td></tr><tr><td>status<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nuovo stato del documento</td></tr><tr><td>message (opzionale)</td><td><code>string</code></td><td>Messaggio opzionale associato all'aggiornamento dello stato<br>Il valore predefinito è <code>None</code></td></tr><tr><td>doc_classification_class (opzionale)</td><td><code>string</code></td><td>Classe di classificazione del documento opzionale<br>Il valore predefinito è <code>None</code></td></tr></tbody></table>
 
 ### **get\_lov\_values()**
 
-Ottiene i valori LOV da un specifico org\_id e chiave.
+Ottiene i valori LOV da un org\_id e una chiave specifici.
 
 ```python
 reverse_charge_to_check = get_lov_values(org_id, 'Kosten', return_type="list_of_values")
@@ -237,7 +237,7 @@ reverse_charge_to_check = get_lov_values(org_id, 'Kosten', return_type="list_of_
 
 #### Parametri:
 
-<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>L'ID dell'organizzazione a cui appartiene il documento</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La chiave della Lista di Valori richiesta</td></tr><tr><td>return_type (opzionale)</td><td><code>string</code></td><td>Il tipo in cui i dati devono essere restituiti<br>Il valore predefinito è <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (opzionale)</td><td><code>string</code></td><td>ID della sotto-organizzazione opzionale per il filtraggio<br>Il valore predefinito è <code>None</code></td></tr></tbody></table>
+<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>L'ID dell'organizzazione a cui appartiene il documento</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La chiave della Lista Di Valori richiesta</td></tr><tr><td>return_type (opzionale)</td><td><code>string</code></td><td>Il tipo in cui i dati devono essere restituiti<br>Il valore predefinito è <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (opzionale)</td><td><code>string</code></td><td>ID della sotto-organizzazione opzionale per il filtro<br>Il valore predefinito è <code>None</code></td></tr><tr><td>language_code<br>(opzionale)</td><td><code>string</code></td><td>Questo parametro imposta la lingua in cui verranno restituiti i valori. Accetta codici di lingua, come "en" per l'inglese o "fr" per il francese.<br>Il valore predefinito è <code>""</code></td></tr></tbody></table>
 
 #### Restituisce:
 
@@ -256,12 +256,12 @@ formatted_value = format_decimal_to_locale(
 
 #### Parametri:
 
-<table><thead><tr><th width="208">Nome</th><th width="187">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>value<mark style="color:red;">*</mark></td><td><code>float, decimal.Decimal, str</code></td><td>Il valore che deve essere formattato.</td></tr><tr><td>to_locale (opzionale)</td><td><code>string</code></td><td>Il formato in cui il valore deve essere trasformato.<br>Il valore predefinito è <code>'en_US.UTF-8'</code></td></tr><tr><td>max_decimal_places (opzionale)</td><td><code>int</code></td><td>Il massimo numero di cifre decimali che devono essere considerate.<br>Il valore predefinito è <code>4</code></td></tr><tr><td>min_decimal_places (opzionale)</td><td><code>int</code></td><td>Il minimo numero di cifre decimali che devono essere considerate.<br>Il valore predefinito è <code>2</code></td></tr></tbody></table>
+<table><thead><tr><th width="208">Nome</th><th width="187">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>value<mark style="color:red;">*</mark></td><td><code>float, decimal.Decimal, str</code></td><td>Il valore che deve essere formattato.</td></tr><tr><td>to_locale (opzionale)</td><td><code>string</code></td><td>Il formato in cui il valore viene trasformato.<br>Il valore predefinito è <code>'en_US.UTF-8'</code></td></tr><tr><td>max_decimal_places (opzionale)</td><td><code>int</code></td><td>ID della sotto-organizzazione opzionale per il filtro<br>Il valore predefinito è <code>4</code></td></tr><tr><td>min_decimal_places (opzionale)</td><td><code>int</code></td><td>Il minimo di cifre decimali che devono essere considerate<br>Il valore predefinito è <code>2</code></td></tr></tbody></table>
 
 * value: Il valore che deve essere formattato.
 * to\_locale (opzionale): Il formato in cui il valore viene trasformato.
-* max\_decimal\_places (opzionale): Il massimo numero di cifre decimali che devono essere considerate.
-* min\_decimal\_places (opzionale): Il minimo numero di cifre decimali che devono essere considerate.
+* max\_decimal\_places (opzionale): Il massimo di cifre decimali che devono essere considerate.
+* min\_decimal\_places (opzionale): Il minimo di cifre decimali che devono essere considerate.
 
 #### Restituisce:
 
@@ -295,7 +295,7 @@ if not is_task_created:
 
 #### Parametri:
 
-<table><thead><tr><th width="216">Nome</th><th width="217">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td>sia <code>user ID</code> che <code>UserAuthentication</code> object</td><td>L'utente che esegue l'aggiornamento</td></tr><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>title<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il titolo dell'attività</td></tr><tr><td>description<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La descrizione dell'attività</td></tr><tr><td>priority<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La priorità dell'attività</td></tr><tr><td>assigned_to_user_id<mark style="color:red;">*</mark></td><td><code>int</code></td><td>L'id dell'utente a cui l'attività deve essere assegnata</td></tr><tr><td>assigned_to_group_id<mark style="color:red;">*</mark></td><td><code>int</code></td><td>L'id del gruppo a cui l'attività deve essere assegnata</td></tr><tr><td>send_email<mark style="color:red;">*</mark></td><td><code>bool</code></td><td>Determina se un'email deve essere inviata o meno</td></tr></tbody></table>
+<table><thead><tr><th width="216">Nome</th><th width="217">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td>either <code>user ID</code> or <code>UserAuthentication</code> object</td><td>L'utente che esegue l'aggiornamento</td></tr><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>title<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il titolo dell'attività</td></tr><tr><td>description<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La descrizione dell'attività</td></tr><tr><td>priority<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La priorità dell'attività</td></tr><tr><td>assigned_to_user_id<mark style="color:red;">*</mark></td><td><code>int</code></td><td>L'id dell'utente a cui l'attività deve essere assegnata</td></tr><tr><td>assigned_to_group_id<mark style="color:red;">*</mark></td><td><code>int</code></td><td>L'id del gruppo a cui l'attività deve essere assegnata</td></tr><tr><td>send_email<mark style="color:red;">*</mark></td><td><code>bool</code></td><td>Determina se un'email deve essere inviata o meno</td></tr></tbody></table>
 
 #### Restituisce:
 
@@ -313,7 +313,7 @@ if sub_org_id != current_sub_org_id:
 
 #### Parametri:
 
-<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>sub_org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>ID della sotto-organizzazione opzionale per il filtraggio</td></tr></tbody></table>
+<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>sub_org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>ID della sotto-organizzazione opzionale per il filtro</td></tr></tbody></table>
 
 ### **get\_user\_by\_id()**
 
@@ -347,6 +347,22 @@ group_name  = str(get_group_by_id(assigned_to_group_id))
 
 * Il gruppo con l'ID gruppo corrispondente
 
+### **get\_user\_by\_email()**
+
+Ottiene il gruppo con l'ID gruppo corrispondente.
+
+```python
+user_name = str(get_user_by_email(email)
+```
+
+#### Parametri:
+
+<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>email<mark style="color:red;">*</mark></td><td><code>any</code></td><td>L'email dell'utente</td></tr></tbody></table>
+
+#### Restituisce:
+
+* L'utente con l'email corrispondente
+
 ### **add\_table\_column()**
 
 Aggiunge una colonna alla tabella specificata.
@@ -375,13 +391,13 @@ for row in table['rows']:
 
 <table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La riga in cui si trova il valore</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome della colonna</td></tr><tr><td>default_value (opzionale)</td><td><code>any</code></td><td>Il valore iniziale per il campo<br>Il valore predefinito è <code>None</code></td></tr><tr><td>is_clean (opzionale)</td><td><code>bool</code></td><td>Converte il valore in maiuscolo e rimuove eventuali spazi extra<br>Il valore predefinito è <code>False</code></td></tr></tbody></table>
 
-#### Restituisce:
+#### Restituisce
 
-* Il valore della colonna specificata
+* Restituisce il valore della colonna specificata se esiste; altrimenti, restituisce `None`
 
 ### **set\_column\_value()**
 
-Imposta il valore di una colonna specificata.
+Imposta il valore della colonna specificata. Se la colonna non esiste, verrà creata.
 
 ```python
 supplier_id = get_field_value(document_data, "supplier_id", "")
@@ -398,7 +414,7 @@ for row in quote_table.get('rows', []):
 
 #### Restituisce:
 
-* True se la modifica è stata effettuata con successo
+* True se la modifica è stata eseguita con successo
 
 ### **set\_column\_date\_value()**
 
@@ -410,13 +426,13 @@ set_column_date_value(document_data, row, "DELIVERY_DATE", "2020-12-31", add_day
 
 #### Parametri:
 
-<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La riga in cui si trova il valore</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome della colonna</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il valore della data da impostare in formato ISO (es. "2020-12-31")</td></tr><tr><td>add_days (opzionale)</td><td><code>int</code></td><td>Aggiunge giorni aggiuntivi alla data fornita<br>Il valore predefinito è <code>2</code></td></tr></tbody></table>
+<table><thead><tr><th width="173">Nome</th><th width="196.05859375">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La riga in cui si trova il valore</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome della colonna</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il valore della data da impostare in formato ISO (ad es., "2020-12-31")</td></tr><tr><td>add_days (opzionale)</td><td><code>int</code></td><td>Aggiunge giorni aggiuntivi alla data fornita<br>Il valore predefinito è <code>2</code></td></tr><tr><td>skip_weekend (opzionale)</td><td><code>bool</code></td><td>Salta la data se cade nel fine settimana<br>Il valore predefinito è <code>False</code></td></tr><tr><td>exclude_final_days<br>(opzionale)</td><td>either <code>string</code> or <code>int</code></td><td>Specifica i giorni da escludere (0-6 o Domenica a Sabato)</td></tr></tbody></table>
 
 ### **set\_column\_amount\_value()**
 
 * Converte il valore in stringa e imposta il valore per la colonna
 * Imposta il contenuto della colonna al valore
-* Format il valore secondo la locale
+* Format value according to the locale
 
 ```python
 quantity = float(quantity) / 1000
@@ -425,7 +441,31 @@ set_column_amount_value(document_data, row, "QUANTITY", str(quantity))
 
 #### Parametri:
 
-<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La riga in cui si trova il valore</td></tr><tr><td>column_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome della colonna</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il valore da impostare per il campo (passa un numero come stringa es. "123456")</td></tr></tbody></table>
+<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>La riga in cui si trova il valore</td></tr><tr><td>column_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome della colonna</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il valore da impostare per il campo (passa un numero come stringa ad es., "123456")</td></tr></tbody></table>
+
+### **delete\_tables()**
+
+Questa funzione elimina le tabelle dai dati del documento.
+
+```python
+delete_tables(document_data)
+```
+
+#### Parametri:
+
+<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr></tbody></table>
+
+### **restore\_tables()**
+
+Questa funzione ripristina le tabelle nei dati del documento.
+
+```python
+restore_tables(document_data)
+```
+
+#### Parametri:
+
+<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr></tbody></table>
 
 ### **remove\_rows\_from\_table()**
 
@@ -455,9 +495,9 @@ remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)
 
 <table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>line_number<mark style="color:red;">*</mark></td><td><code>int</code></td><td>Il numero della riga che non deve essere rimossa</td></tr></tbody></table>
 
-## Funzioni integrate di Python
+## Funzioni Incorporate di Python
 
-Puoi anche utilizzare alcune delle funzioni integrate di Python:
+Puoi anche utilizzare alcune delle funzioni incorporate di Python:
 
 * abs(): Restituisce il valore assoluto di un numero.
 * len(): Restituisce la lunghezza (numero di elementi) di un oggetto, come una lista o una stringa.
@@ -472,35 +512,35 @@ Puoi anche utilizzare alcune delle funzioni integrate di Python:
 * float(): Converte un valore in un numero in virgola mobile.
 * int(): Converte un valore in un intero.
 
-Per ulteriori dettagli, visita la documentazione ufficiale di Python: [Funzioni integrate](https://docs.python.org/3.12/library/functions.html).
+Per ulteriori dettagli, visita la documentazione ufficiale di Python: [Funzioni Incorporate](https://docs.python.org/3.12/library/functions.html).
 
-## Funzioni della classe String
+## Funzioni della Classe String
 
 Puoi anche utilizzare queste funzioni specificamente per lavorare con le stringhe:
 
 * lower(): Converte tutti i caratteri in una stringa in minuscolo.
 * upper(): Converte tutti i caratteri in una stringa in maiuscolo.
-* split(): Divide una stringa in una lista in base a un delimitatore (es. spazio o virgola).
+* split(): Divide una stringa in una lista in base a un delimitatore (ad es., spazio o virgola).
 * startswith(): Controlla se una stringa inizia con un prefisso specificato.
 * endswith(): Controlla se una stringa termina con un suffisso specificato.
 * strip(): Rimuove eventuali spazi bianchi all'inizio o alla fine di una stringa.
 
-## Funzioni del modulo matematico di Python
+## Funzioni del Modulo Matematico di Python
 
 Queste funzioni fanno parte del modulo matematico e sono utili per operazioni matematiche:
 
 * floor(): Restituisce l'intero più grande minore o uguale a un numero dato.
 * ceil(): Restituisce l'intero più piccolo maggiore o uguale a un numero dato.
 
-Per ulteriori informazioni, consulta la documentazione ufficiale di Python: [Funzioni del modulo matematico](https://docs.python.org/3/library/math.html).
+Per ulteriori informazioni, consulta la documentazione ufficiale di Python: [Funzioni del Modulo Matematico](https://docs.python.org/3/library/math.html).
 
-## Funzione di espressione regolare
+## Funzione di Espressione Regolare
 
 * re.search(): Cerca un modello all'interno di una stringa e restituisce la prima corrispondenza.
 
 Vedi ulteriori dettagli qui: [Documentazione re.search](https://docs.python.org/3/library/re.html#re.search).
 
-## Funzioni esterne
+## Funzioni Esterne
 
 Ecco alcune funzioni utili da librerie esterne:
 
@@ -508,12 +548,12 @@ Ecco alcune funzioni utili da librerie esterne:
   [Documentazione Deepcopy](https://docs.python.org/3/library/copy.html#copy.deepcopy).
 * levenshtein\_distance(): Calcola il numero di modifiche (inserimenti, eliminazioni, sostituzioni) necessarie per cambiare una stringa in un'altra. Questa funzione è disponibile nella [libreria Jellyfish](https://jamesturk.github.io/jellyfish/functions/).
 
-## Funzioni di data e ora
+## Funzioni di Data e Ora
 
 Puoi utilizzare le seguenti funzioni per lavorare con date e orari:
 
 * strptime(): Converte una stringa in un oggetto datetime in base a un formato specificato.
-* strftime(): Format un oggetto datetime in una stringa in base a un formato specificato.
+* strftime(): Formattta un oggetto datetime in una stringa in base a un formato specificato.
 
-Per ulteriori informazioni, controlla la documentazione ufficiale:\
-[Funzioni di data e ora](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior).
+Per ulteriori informazioni, consulta la documentazione ufficiale:\
+[Funzioni di Data e Ora](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior).
