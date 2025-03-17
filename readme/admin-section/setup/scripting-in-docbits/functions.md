@@ -2,7 +2,7 @@
 
 ## **Funktionale Dokumentation**
 
-Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durchführung verschiedener Operationen in Bezug auf Dokumentfelder.
+Dieses Modul enthält Funktionen zur Manipulation von Dokumentdaten und zur Durchführung verschiedener Operationen im Zusammenhang mit Dokumentfeldern.
 
 ## **Funktionen**
 
@@ -23,7 +23,7 @@ else:
 
 #### Parameter:
 
-<table><thead><tr><th width="177">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des zu setzenden Feldes</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Der Wert, der für das Feld gesetzt werden soll</td></tr></tbody></table>
+<table><thead><tr><th width="177">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des zu setzenden Feldes</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Der Wert, der für das Feld gesetzt werden soll</td></tr><tr><td>remove_link (optional)</td><td><code>bool</code></td><td>Entfernt den "coords"-Schlüssel aus dem Feld.</td></tr></tbody></table>
 
 ### **set\_date\_value()**
 
@@ -40,7 +40,7 @@ if not document_json.get("script_executed", False):
 
 #### Parameter:
 
-<table><thead><tr><th width="229">Name</th><th width="138">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des zu setzenden Feldes</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Datumswert, der im ISO-Format gesetzt werden soll (z.B. "2020-12-31").</td></tr><tr><td>add_days (optional)</td><td><code>int</code></td><td>Zusätzliche Tage zum angegebenen Datum hinzufügen<br>Standard ist 0</td></tr><tr><td>skip_weekend (optional)</td><td><code>bool</code></td><td>Überspringt das Datum, wenn es auf das Wochenende fällt<br>Standard ist <code>False</code></td></tr></tbody></table>
+<table><thead><tr><th width="229">Name</th><th width="196.0316162109375">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des zu setzenden Feldes</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Datumswert, der im ISO-Format gesetzt werden soll (z.B. "2020-12-31").</td></tr><tr><td>add_days (optional)</td><td><code>int</code></td><td>Fügt zusätzliche Tage zum angegebenen Datum hinzu<br>Standard ist 0</td></tr><tr><td>skip_weekend (optional)</td><td><code>bool</code></td><td>Überspringt das Datum, wenn es auf das Wochenende fällt<br>Standard ist <code>False</code></td></tr><tr><td>remove link (optional)</td><td><code>bool</code></td><td>Entfernt den "coords"-Schlüssel aus dem Feld.</td></tr><tr><td>exclude_final_days<br>(optional)</td><td>entweder <code>string</code> oder <code>int</code></td><td>Gibt die auszuschließenden Tage an (0-6 oder Sonntag bis Samstag)</td></tr></tbody></table>
 
 ### **set\_amount\_value()**
 
@@ -54,7 +54,7 @@ set_amount_value(document_data, "net_amount",str(lines_total))
 
 #### Parameter:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des zu setzenden Feldes</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Wert, der für das Feld gesetzt werden soll (geben Sie eine Zahl als String an, z.B. "123456")</td></tr></tbody></table>
+<table><thead><tr><th width="183.71087646484375">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des zu setzenden Feldes</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Wert, der für das Feld gesetzt werden soll (geben Sie eine Zahl als String an, z.B. "123456")</td></tr><tr><td>remove link (optional)</td><td><code>bool</code></td><td>Entfernt den "coords"-Schlüssel aus dem Feld.</td></tr></tbody></table>
 
 ### **get\_field\_value()**
 
@@ -95,7 +95,7 @@ if not currency:
 
 #### Gibt zurück:
 
-* Wörterbuch des neu erstellten Feldes
+* Dictionary des neu erstellten Feldes
 
 ### **delete\_field()**
 
@@ -117,7 +117,7 @@ field_amount = get_field_value(document_data, field_name)
 
 #### Gibt zurück:
 
-* Document\_data als JSON und als Dict, nachdem das Feld gelöscht wurde
+* Document\_data als json und als dict, nachdem das Feld gelöscht wurde
 
 ### **set\_is\_required()**
 
@@ -158,7 +158,7 @@ if not document_date:
 
 #### Parameter:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des zu markierenden Feldes als ungültig</td></tr><tr><td>message<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Die Validierungsnachricht für das Feld</td></tr><tr><td>code (optional)</td><td><code>string</code></td><td><p>Fehlercode für die Validierung</p><p>Standard ist <code>None</code></p></td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des Feldes, das als ungültig markiert werden soll</td></tr><tr><td>message<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Die Validierungsnachricht für das Feld</td></tr><tr><td>code (optional)</td><td><code>string</code></td><td><p>Fehlercode für die Validierung</p><p>Standard ist <code>None</code></p></td></tr></tbody></table>
 
 ### **set\_field\_attribute()**
 
@@ -187,7 +187,7 @@ bool = is_supplier_valid(user, {"name": "Supplier Inc."})
 
 #### Parameter:
 
-<table><thead><tr><th width="203">Name</th><th width="216">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td><code>UserAuthentication</code></td><td>Der authentifizierte Benutzer</td></tr><tr><td>filter_data_json<mark style="color:red;">*</mark></td><td><code>json</code></td><td>Filterkriterien zur Validierung des Lieferanten</td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optionale ID der Unterorganisation für die Filterung<br>Standard ist <code>None</code></td></tr></tbody></table>
+<table><thead><tr><th width="203">Name</th><th width="216">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>user<mark style="color:red;">*</mark></td><td><code>UserAuthentication</code></td><td>Der authentifizierte Benutzer</td></tr><tr><td>filter_data_json<mark style="color:red;">*</mark></td><td><code>json</code></td><td>Filterkriterien zur Validierung des Lieferanten</td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optionale Sub-Organisations-ID für die Filterung<br>Standard ist <code>None</code></td></tr></tbody></table>
 
 #### Gibt zurück:
 
@@ -237,7 +237,7 @@ reverse_charge_to_check = get_lov_values(org_id, 'Kosten', return_type="list_of_
 
 #### Parameter:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Die ID der Organisation, zu der das Dokument gehört</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Schlüssel der erforderlichen Liste von Werten</td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>Der Typ, in dem die Daten zurückgegeben werden sollen<br>Standard ist <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optionale ID der Unterorganisation für die Filterung<br>Standard ist <code>None</code></td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Die ID der Organisation, zu der das Dokument gehört</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Schlüssel der benötigten Liste von Werten</td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>Der Typ, in dem die Daten zurückgegeben werden sollen<br>Standard ist <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optionale Sub-Organisations-ID für die Filterung<br>Standard ist <code>None</code></td></tr><tr><td>language_code<br>(optional)</td><td><code>string</code></td><td>Dieser Parameter legt die Sprache fest, in der die Werte zurückgegeben werden. Er akzeptiert Sprachcodes, wie "en" für Englisch oder "fr" für Französisch.<br>Standard ist <code>""</code></td></tr></tbody></table>
 
 #### Gibt zurück:
 
@@ -256,16 +256,16 @@ formatted_value = format_decimal_to_locale(
 
 #### Parameter:
 
-<table><thead><tr><th width="208">Name</th><th width="187">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>value<mark style="color:red;">*</mark></td><td><code>float, decimal.Decimal, str</code></td><td>Der Wert, der formatiert werden soll.</td></tr><tr><td>to_locale (optional)</td><td><code>string</code></td><td>Das Format, in das der Wert umgewandelt werden soll.<br>Standard ist <code>'en_US.UTF-8'</code></td></tr><tr><td>max_decimal_places (optional)</td><td><code>int</code></td><td>Maximale Anzahl der Dezimalstellen, die berücksichtigt werden sollen.<br>Standard ist <code>4</code></td></tr><tr><td>min_decimal_places (optional)</td><td><code>int</code></td><td>Die minimale Anzahl der Dezimalstellen, die berücksichtigt werden sollen.<br>Standard ist <code>2</code></td></tr></tbody></table>
+<table><thead><tr><th width="208">Name</th><th width="187">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>value<mark style="color:red;">*</mark></td><td><code>float, decimal.Decimal, str</code></td><td>Der Wert, der formatiert werden soll.</td></tr><tr><td>to_locale (optional)</td><td><code>string</code></td><td>Das Format, in das der Wert umgewandelt werden soll.<br>Standard ist <code>'en_US.UTF-8'</code></td></tr><tr><td>max_decimal_places (optional)</td><td><code>int</code></td><td>Die maximale Anzahl von Dezimalstellen, die berücksichtigt werden sollen.<br>Standard ist <code>4</code></td></tr><tr><td>min_decimal_places (optional)</td><td><code>int</code></td><td>Die minimale Anzahl von Dezimalstellen, die berücksichtigt werden sollen.<br>Standard ist <code>2</code></td></tr></tbody></table>
 
 * value: Der Wert, der formatiert werden soll.
 * to\_locale (optional): Das Format, in das der Wert umgewandelt wird.
-* max\_decimal\_places (optional): Die maximale Anzahl der Dezimalstellen, die berücksichtigt werden sollen.
-* min\_decimal\_places (optional): Die minimale Anzahl der Dezimalstellen, die berücksichtigt werden sollen.
+* max\_decimal\_places (optional): Die maximale Anzahl von Dezimalstellen, die berücksichtigt werden sollen.
+* min\_decimal\_places (optional): Die minimale Anzahl von Dezimalstellen, die berücksichtigt werden sollen.
 
 #### Gibt zurück:
 
-* Der formatierte Wert.
+* Den formatierten Wert.
 
 ### **compare\_values()**
 
@@ -313,7 +313,7 @@ if sub_org_id != current_sub_org_id:
 
 #### Parameter:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>sub_org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Optionale ID der Unterorganisation für die Filterung</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>sub_org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Optionale Sub-Organisations-ID für die Filterung</td></tr></tbody></table>
 
 ### **get\_user\_by\_id()**
 
@@ -329,7 +329,7 @@ requester_mail = str(get_user_by_id(str(requester)).email.lower())
 
 #### Gibt zurück:
 
-* Der Benutzer mit der entsprechenden Benutzer-ID.
+* Den Benutzer mit der entsprechenden Benutzer-ID.
 
 ### **get\_group\_by\_id()**
 
@@ -346,6 +346,22 @@ group_name  = str(get_group_by_id(assigned_to_group_id))
 #### Gibt zurück:
 
 * Die Gruppe mit der entsprechenden Gruppen-ID.
+
+### **get\_user\_by\_email()**
+
+Erhält den Benutzer mit der entsprechenden E-Mail.
+
+```python
+user_name = str(get_user_by_email(email))
+```
+
+#### Parameter:
+
+<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>email<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Die E-Mail des Benutzers</td></tr></tbody></table>
+
+#### Gibt zurück:
+
+* Den Benutzer mit der entsprechenden E-Mail.
 
 ### **add\_table\_column()**
 
@@ -377,11 +393,11 @@ for row in table['rows']:
 
 #### Gibt zurück:
 
-* Den Wert der angegebenen Spalte.
+* Gibt den Wert der angegebenen Spalte zurück, wenn er existiert; andernfalls wird `None` zurückgegeben.
 
 ### **set\_column\_value()**
 
-Setzt den Wert einer bestimmten Spalte.
+Setzt den Wert der angegebenen Spalte. Wenn die Spalte nicht existiert, wird sie erstellt.
 
 ```python
 supplier_id = get_field_value(document_data, "supplier_id", "")
@@ -410,13 +426,13 @@ set_column_date_value(document_data, row, "DELIVERY_DATE", "2020-12-31", add_day
 
 #### Parameter:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Die Zeile, in der sich der Wert befindet</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name der Spalte</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Datumswert, der im ISO-Format gesetzt werden soll (z.B. "2020-12-31")</td></tr><tr><td>add_days (optional)</td><td><code>int</code></td><td>Zusätzliche Tage zum angegebenen Datum hinzufügen<br>Standard ist <code>2</code></td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="196.05859375">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Die Zeile, in der sich der Wert befindet</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name der Spalte</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Datumswert, der im ISO-Format gesetzt werden soll (z.B. "2020-12-31")</td></tr><tr><td>add_days (optional)</td><td><code>int</code></td><td>Fügt zusätzliche Tage zum angegebenen Datum hinzu<br>Standard ist <code>2</code></td></tr><tr><td>skip_weekend (optional)</td><td><code>bool</code></td><td>Überspringt das Datum, wenn es auf das Wochenende fällt<br>Standard ist <code>False</code></td></tr><tr><td>exclude_final_days<br>(optional)</td><td>entweder <code>string</code> oder <code>int</code></td><td>Gibt die auszuschließenden Tage an (0-6 oder Sonntag bis Samstag)</td></tr></tbody></table>
 
 ### **set\_column\_amount\_value()**
 
-* Konvertiert den Wert in einen String und setzt den Wert für die Spalte.
-* Setzt den Spalteninhalt auf den Wert.
-* Formatiert den Wert gemäß der Locale.
+* Konvertiert den Wert in einen String und setzt den Wert für die Spalte
+* Setzt den Spalteninhalt auf den Wert
+* Formatiert den Wert gemäß der Locale
 
 ```python
 quantity = float(quantity) / 1000
@@ -426,6 +442,30 @@ set_column_amount_value(document_data, row, "QUANTITY", str(quantity))
 #### Parameter:
 
 <table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>row<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Die Zeile, in der sich der Wert befindet</td></tr><tr><td>column_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name der Spalte</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Wert, der für das Feld gesetzt werden soll (geben Sie eine Zahl als String an, z.B. "123456")</td></tr></tbody></table>
+
+### **delete\_tables()**
+
+Diese Funktion löscht die Tabellen aus den Dokumentdaten.
+
+```python
+delete_tables(document_data)
+```
+
+#### Parameter:
+
+<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr></tbody></table>
+
+### **restore\_tables()**
+
+Diese Funktion stellt die Tabellen in den Dokumentdaten wieder her.
+
+```python
+restore_tables(document_data)
+```
+
+#### Parameter:
+
+<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr></tbody></table>
 
 ### **remove\_rows\_from\_table()**
 
@@ -455,26 +495,26 @@ remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)
 
 <table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>line_number<mark style="color:red;">*</mark></td><td><code>int</code></td><td>Die Nummer der Zeile, die nicht entfernt werden soll</td></tr></tbody></table>
 
-## Eingebaute Python-Funktionen
+## Python Eingebaute Funktionen
 
 Sie können auch einige der eingebauten Python-Funktionen nutzen:
 
-* abs(): Gibt den Absolutwert einer Zahl zurück.
+* abs(): Gibt den absoluten Wert einer Zahl zurück.
 * len(): Gibt die Länge (Anzahl der Elemente) eines Objekts, wie einer Liste oder einem String, zurück.
 * isinstance(): Überprüft, ob ein Objekt eine Instanz einer bestimmten Klasse oder eines bestimmten Typs ist.
 * print(): Gibt Ausgaben auf der Konsole aus.
 * round(): Rundet eine Fließkommazahl auf eine bestimmte Anzahl von Dezimalstellen.
 * str\_to\_bool(): Konvertiert einen String in einen booleschen Wert (True oder False).
 * type(): Gibt den Typ eines Objekts zurück.
-* dict(): Erstellt ein Wörterbuch-Objekt.
-* list(): Erstellt ein Listen-Objekt.
+* dict(): Erstellt ein Dictionary-Objekt.
+* list(): Erstellt ein Listenobjekt.
 * str(): Konvertiert einen Wert in einen String.
 * float(): Konvertiert einen Wert in eine Fließkommazahl.
-* int(): Konvertiert einen Wert in eine ganze Zahl.
+* int(): Konvertiert einen Wert in eine Ganzzahl.
 
-Für weitere Details besuchen Sie die offizielle Python-Dokumentation: [Eingebaute Funktionen](https://docs.python.org/3.12/library/functions.html).
+Für weitere Details besuchen Sie die offizielle Python-Dokumentation: [Built-in Functions](https://docs.python.org/3.12/library/functions.html).
 
-## Funktionen der String-Klasse
+## String-Klassenfunktionen
 
 Sie können auch diese Funktionen speziell für die Arbeit mit Strings verwenden:
 
@@ -485,27 +525,27 @@ Sie können auch diese Funktionen speziell für die Arbeit mit Strings verwenden
 * endswith(): Überprüft, ob ein String mit einem bestimmten Suffix endet.
 * strip(): Entfernt führende oder nachfolgende Leerzeichen aus einem String.
 
-## Funktionen aus dem Python-Mathematikmodul
+## Funktionen aus dem Python-Math-Modul
 
-Diese Funktionen sind Teil des Mathematikmoduls und sind nützlich für mathematische Operationen:
+Diese Funktionen sind Teil des Math-Moduls und sind nützlich für mathematische Operationen:
 
-* floor(): Gibt die größte ganze Zahl zurück, die kleiner oder gleich einer gegebenen Zahl ist.
-* ceil(): Gibt die kleinste ganze Zahl zurück, die größer oder gleich einer gegebenen Zahl ist.
+* floor(): Gibt die größte Ganzzahl zurück, die kleiner oder gleich einer gegebenen Zahl ist.
+* ceil(): Gibt die kleinste Ganzzahl zurück, die größer oder gleich einer gegebenen Zahl ist.
 
-Für weitere Informationen besuchen Sie die offizielle Python-Dokumentation: [Mathematikmodulfunktionen](https://docs.python.org/3/library/math.html).
+Für weitere Informationen siehe die offizielle Python-Dokumentation: [Math Module Functions](https://docs.python.org/3/library/math.html).
 
-## Funktionen für reguläre Ausdrücke
+## Reguläre Ausdrucksfunktion
 
-* re.search(): Durchsucht einen String nach einem Muster und gibt das erste Ergebnis zurück.
+* re.search(): Durchsucht einen String nach einem Muster und gibt das erste Match zurück.
 
-Siehe weitere Details hier: [re.search-Dokumentation](https://docs.python.org/3/library/re.html#re.search).
+Siehe weitere Details hier: [re.search Dokumentation](https://docs.python.org/3/library/re.html#re.search).
 
 ## Externe Funktionen
 
 Hier sind einige nützliche Funktionen aus externen Bibliotheken:
 
-* deepcopy(): Erstellt eine Kopie eines Objekts, einschließlich verschachtelter Objekte (aus dem Copy-Modul).\
-  [Deepcopy-Dokumentation](https://docs.python.org/3/library/copy.html#copy.deepcopy).
+* deepcopy(): Erstellt eine Kopie eines Objekts, einschließlich verschachtelter Objekte (aus dem copy-Modul).\
+  [Deepcopy Dokumentation](https://docs.python.org/3/library/copy.html#copy.deepcopy).
 * levenshtein\_distance(): Berechnet die Anzahl der Änderungen (Einfügungen, Löschungen, Ersetzungen), die erforderlich sind, um einen String in einen anderen zu ändern. Diese Funktion ist in der [Jellyfish-Bibliothek](https://jamesturk.github.io/jellyfish/functions/) verfügbar.
 
 ## Datum- und Zeitfunktionen
@@ -515,5 +555,5 @@ Sie können die folgenden Funktionen für die Arbeit mit Daten und Zeiten verwen
 * strptime(): Konvertiert einen String in ein datetime-Objekt basierend auf einem bestimmten Format.
 * strftime(): Formatiert ein datetime-Objekt in einen String basierend auf einem bestimmten Format.
 
-Für weitere Informationen besuchen Sie die offizielle Dokumentation:\
+Für weitere Informationen siehe die offizielle Dokumentation:\
 [Datum- und Zeitfunktionen](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior).
