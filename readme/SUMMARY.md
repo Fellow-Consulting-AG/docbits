@@ -52,7 +52,6 @@
   * [Come importare documenti](end-user-and-partner-section/end-user-section/how-to-import-documents/README.md)
     * [FTP](end-user-and-partner-section/end-user-section/how-to-import-documents/ftp.md)
     * [Importazione Manuale](end-user-and-partner-section/end-user-section/how-to-import-documents/manual-import.md)
-    * [Watchdog](end-user-and-partner-section/end-user-section/how-to-import-documents/watchdog.md)
     * [Webhook](end-user-and-partner-section/end-user-section/how-to-import-documents/webhook.md)
     * [E-mail](end-user-and-partner-section/end-user-section/how-to-import-documents/email/README.md)
       * [IMAP](end-user-and-partner-section/end-user-section/how-to-import-documents/email/imap.md)
@@ -213,6 +212,7 @@
     * [Auto Accounting](administration-and-setup/setup/testing/auto-accounting/README.md)
       * [LN](administration-and-setup/setup/testing/auto-accounting/ln.md)
       * [M3](administration-and-setup/setup/testing/auto-accounting/m3.md)
+  * [Instalación de WatchDog](administration-and-setup/setup/watchdog-installation.md)
   * [Portale Fornitori](administration-and-setup/setup/supplier-portal.md)
 
 ## Infor Integration and Configuration
