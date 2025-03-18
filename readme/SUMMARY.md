@@ -49,7 +49,6 @@
   * [Wie man Dokumente importiert](end-user-section/how-to-import-documents/README.md)
     * [FTP](end-user-section/how-to-import-documents/ftp.md)
     * [Manueller Import](end-user-section/how-to-import-documents/manual-import.md)
-    * [Watchdog](end-user-section/how-to-import-documents/watchdog.md)
     * [Webhook](end-user-section/how-to-import-documents/webhook.md)
     * [E-Mail](end-user-section/how-to-import-documents/email/README.md)
       * [IMAP](end-user-section/how-to-import-documents/email/imap.md)
