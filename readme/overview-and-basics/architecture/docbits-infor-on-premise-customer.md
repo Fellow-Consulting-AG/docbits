@@ -1,6 +1,6 @@
 # DocBits Infor na miejscu Klienta
 
-Aby wysłać dane do klienta Infor na miejscu, oferujemy dwa sposoby: Site2Site z IPsec lub [WatchDog](../../end-user-and-partner-section/end-user-section/how-to-import-documents/watchdog.md)
+Aby wysłać dane do klienta Infor na miejscu, oferujemy dwa sposoby: Site2Site z IPsec lub [WatchDog](broken-reference)
 
 Wysyłanie danych do klienta Infor na miejscu
 
