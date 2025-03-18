@@ -6,17 +6,26 @@
    * Naviguez vers **Paramètres → Traitement des Documents → WatchDog**.
 2. **Dossier Paramètres**
    * Définissez les chemins où WatchDog trouve et traite les documents.
-   * Les chemins des dossiers doivent correspondre à ceux créés lors de l'installation :
-     * `C:/WatchDog/Read`
-     * `C:/WatchDog/Processed`
+   *   Les chemins des dossiers doivent correspondre à ceux créés lors de l'installation :
+
+       * `C:/WatchDog/Read`
+       * `C:/WatchDog/Processed`
+
+       <figure><img src="../../.gitbook/assets/WatchDog_1_fr.png" alt=""><figcaption></figcaption></figure>
 3. **Paramètres Généraux**
-   * Sélectionnez les types de documents à traiter en cochant les cases correspondantes.
+   *   Sélectionnez les types de documents à traiter en cochant les cases correspondantes.
+
+       <figure><img src="../../.gitbook/assets/WatchDog_2_fr.png" alt=""><figcaption></figcaption></figure>
 4. **Configurations d'Exportation**
    * Affiche toutes les exportations configurées pour **traitement sur site**.
-   * Affiche l'horodatage de la **dernière connexion réussie** pour chaque configuration.
+   *   Affiche l'horodatage de la **dernière connexion réussie** pour chaque configuration.
+
+       <figure><img src="../../.gitbook/assets/WatchDog_3_fr.png" alt=""><figcaption></figcaption></figure>
 5. **Télécharger la Configuration**
    * Enregistrez la configuration
-   * Téléchargez la configuration
+   *   Téléchargez la configuration
+
+       <figure><img src="../../.gitbook/assets/WatchDog_4_fr.png" alt=""><figcaption></figcaption></figure>
 
 ## Guide d'Installation de WatchDog
 
