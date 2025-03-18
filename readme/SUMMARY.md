@@ -214,6 +214,7 @@
       * [LN](administration-and-setup/setup/testing/auto-accounting/ln.md)
       * [M3](administration-and-setup/setup/testing/auto-accounting/m3.md)
   * [Portal do Fornecedor](administration-and-setup/setup/supplier-portal.md)
+  * [Instalação do WatchDog](administration-and-setup/setup/instalacao-do-watchdog.md)
 
 ## Integração e configuração Infor <a href="#infor-integration-and-configuration" id="infor-integration-and-configuration"></a>
 
