@@ -1,61 +1,61 @@
-# Instalación de WatchDog
+# Installazione di WatchDog
 
-## Configuración de WatchDog en DocBits
+## Configurazione di WatchDog in DocBits
 
-1. **Acceder a los Ajustes de WatchDog**
-   * Navegar a **Ajustes → Procesamiento de Documentos → WatchDog**.
-2. **Carpeta de Configuración**
-   * Definir las rutas donde WatchDog encuentra y procesa documentos.
-   *   Las rutas de las carpetas deben coincidir con las creadas durante la instalación:
+1. **Accedi alle Impostazioni di WatchDog**
+   * Naviga su **Impostazioni → Elaborazione Documenti → WatchDog**.
+2. **Cartella delle Impostazioni**
+   * Definisci i percorsi in cui WatchDog trova ed elabora i documenti.
+   *   I percorsi delle cartelle devono corrispondere a quelli creati durante l'installazione:
 
        * `C:/WatchDog/Read`
        * `C:/WatchDog/Processed`
 
        <figure><img src="../../.gitbook/assets/WatchDog_1_it.png" alt=""><figcaption></figcaption></figure>
-3. **Configuración General**
-   *   Seleccionar los tipos de documentos a procesar marcando las casillas correspondientes.
+3. **Impostazioni Generali**
+   *   Seleziona i tipi di documento da elaborare selezionando le caselle corrispondenti.
 
        <figure><img src="../../.gitbook/assets/WatchDog_2_it.png" alt=""><figcaption></figcaption></figure>
-4. **Configuraciones de Exportación**
-   * Muestra todas las exportaciones configuradas para **procesamiento en las instalaciones**.
-   *   Muestra la marca de tiempo de la **última conexión exitosa** para cada configuración.
+4. **Configurazioni di Esportazione**
+   * Mostra tutte le esportazioni configurate per **elaborazione on-premise**.
+   *   Mostra il timestamp della **ultima connessione riuscita** per ciascuna configurazione.
 
        <figure><img src="../../.gitbook/assets/WatchDog_3_it.png" alt=""><figcaption></figcaption></figure>
-5. **Descargar la Configuración**
-   * Guardar la configuración
-   *   Descargar la configuración
+5. **Scarica la Configurazione**
+   * Salva la configurazione
+   *   Scarica la configurazione
 
        <figure><img src="../../.gitbook/assets/WatchDog_4_it.png" alt=""><figcaption></figcaption></figure>
 
-## Guía de Instalación de WatchDog
+## Guida all'Installazione di WatchDog
 
-1. **Crear Carpetas Requeridas**
-   * Crear un directorio principal: `C:/WatchDog`
-   * Dentro de `C:/WatchDog`, crear las siguientes subcarpetas:\
-     <mark style="color:red;">**Nota**</mark>**: estas deben coincidir con las carpetas en DocBits**
+1. **Crea le Cartelle Necessarie**
+   * Crea una directory principale: `C:/WatchDog`
+   * All'interno di `C:/WatchDog`, crea le seguenti sottocartelle:\
+     <mark style="color:red;">**Nota**</mark>**: queste devono corrispondere alle cartelle in DocBits**
      * `C:/WatchDog/Read`
      * `C:/WatchDog/Processed`
-2. **Descargar WatchDog**
-   * Descargar la última versión de `WatchDog.exe` desde:\
+2. **Scarica WatchDog**
+   * Scarica l'ultima versione di `WatchDog.exe` da:\
      [https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)
-   * Colocar el archivo descargado `WatchDog.exe` en `C:/WatchDog`.
-   * Colocar el archivo descargado `watchdog-config.json` en `C:/WatchDog`.
-   * abrir el `watchdog-config.json.` y cambiar el **config\_path.**
-   * En este ejemplo:
+   * Posiziona il file `WatchDog.exe` scaricato in `C:/WatchDog`.
+   * Posiziona il file `watchdog-config.json` scaricato in `C:/WatchDog`.
+   * Apri il `watchdog-config.json` e modifica il **config\_path.**
+   * In questo esempio:
      * `"config_path": "C:/WatchDog/watchdog-config.json"`
-3. **Instalar WatchDog**
-   * Abrir **Símbolo del sistema (CMD)** con **derechos de Administrador**.
-   * Navegar a la carpeta de WatchDog
-   *   Ejecutar el siguiente comando para instalar WatchDog:
+3. **Installa WatchDog**
+   * Apri **Prompt dei Comandi (CMD)** con **diritti di Amministratore**.
+   * Naviga nella cartella di WatchDog
+   *   Esegui il seguente comando per installare WatchDog:
 
        `WatchDog.exe install`
-4. **Iniciar el Servicio de WatchDog**
-   *   Ejecutar el siguiente comando en CMD:
+4. **Avvia il Servizio WatchDog**
+   *   Esegui il seguente comando in CMD:
 
        `WatchDog.exe start`
-5. **Establecer Tipo de Inicio**
-   * Abrir **Servicios** (Presionar `Win + R`, escribir `services.msc`, y presionar **Enter**).
-   * Localizar **WatchDog** en la lista de servicios.
-   * Hacer doble clic para abrir sus propiedades.
-   * Establecer **Tipo de Inicio** en **Automático (Inicio Retrasado)**.
-   * Hacer clic en **OK**.
+5. **Imposta il Tipo di Avvio**
+   * Apri **Servizi** (Premi `Win + R`, digita `services.msc`, e premi **Invio**).
+   * Trova **WatchDog** nell'elenco dei servizi.
+   * Fai doppio clic per aprire le sue proprietà.
+   * Imposta **Tipo di Avvio** su **Automatico (Avvio Ritardato)**.
+   * Fai clic su **OK**.
