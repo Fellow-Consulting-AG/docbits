@@ -1,6 +1,6 @@
 # DocBits Infor On-Premise-Kunde
 
-Um Daten an Infor On-Premise-Kunden zu senden, bieten wir zwei Möglichkeiten: Site-to-Site mit IPsec oder [WatchDog](broken-reference)
+Um Daten an Infor On-Premise-Kunden zu senden, bieten wir zwei Möglichkeiten: Site-to-Site mit IPsec oder [WatchDog](../administration-and-setup/setup/watchdog-installation.md)
 
 Daten an Infor On-Premise-Kunden senden
 
