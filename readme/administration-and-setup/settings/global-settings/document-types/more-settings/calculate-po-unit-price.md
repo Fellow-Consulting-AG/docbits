@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-Enabling this setting applies any discount to the unit price and uses the adjusted value for purchase order matching.
+Activating this setting will calculate the unit price based on the total net amount and the quantity, using this value as the unit price for the purchase order match.
 
 **Activation Steps**
 
@@ -16,4 +16,4 @@ Enabling this setting applies any discount to the unit price and uses the adjust
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_3.png" alt=""><figcaption></figcaption></figure>
 
-Once activated, when you upload a document and access the PO matching screen, the unit price will be adjusted based on any applied discounts and calculated according to the PO match.
+Once activated, when you upload a document and access the PO matching screen, the unit price will be calculated based on the total net amount and quantity, and this value will be used for the PO match.
