@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-Activating this setting will calculate the unit price based on the net amount and the quantity, using this value as the unit price for the **purchase order match**.
+The unit price is typically extracted directly from the document. However, discrepancies can occur between the extracted unit price and the one stored in Infor due to discounts. In these cases, you can manually calculate the unit price using the quantity and net amount to prevent errors during the PO matching process. The following steps outline how to activate this setting.
 
 ## **Activation Steps**
 
