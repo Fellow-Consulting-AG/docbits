@@ -16,4 +16,14 @@ The unit price is typically extracted directly from the document. However, discr
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_3.png" alt=""><figcaption></figcaption></figure>
 
-Once activated, when you upload a document and access the PO matching screen, the unit price will be calculated based on the net amount and quantity, and **this value will be used for the PO match**.
+## Example:
+
+<figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_4.png" alt="" width="563"><figcaption></figcaption></figure>
+
+In this example, the unit price extracted from the document does not include the discount, while the unit price stored in Infor does. As a result, there will be a mismatch between the extracted unit price and the one in the system.
+
+Once the setting is activated, the unit price will be automatically recalculated as follows:
+
+**NET AMOUNT / QUANTITY**
+
+This ensures that the unit price aligns correctly, avoiding any discrepancies during the PO matching process.
