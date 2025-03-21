@@ -102,7 +102,7 @@
         * [Estados de desactivación de órdenes de compra](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md)
         * [Tabla de PO en el Constructor de Diseño](administration-and-setup/settings/global-settings/document-types/more-settings/po-table-in-layout-builder.md)
         * [Verificación automática de actualizaciones de OC](administration-and-setup/settings/global-settings/document-types/more-settings/auto-check-for-po-updates.md)
-        * [Calcular el precio unitario del pedido](administration-and-setup/settings/global-settings/document-types/more-settings/calcular-el-precio-unitario-del-pedido.md)
+        * [Calcular el precio unitario del pedido](administration-and-setup/settings/global-settings/document-types/more-settings/calculate-po-unit-price.md)
         * [Exportar líneas de PO no coincidentes](administration-and-setup/settings/global-settings/document-types/more-settings/export-not-matched-po-lines.md)
       * [e-docs](administration-and-setup/settings/global-settings/document-types/edi-1/README.md)
         * [eSLOG 1.6 y 2.0](administration-and-setup/settings/global-settings/document-types/edi-1/eslog-1.6-and-2.0.md)
