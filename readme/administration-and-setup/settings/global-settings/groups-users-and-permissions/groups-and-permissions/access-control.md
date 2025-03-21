@@ -46,6 +46,10 @@ Le panneau de contrôle d'accès permet à l'administrateur de gérer les groupe
       * **Mise à Jour en Masse**: Active la mise à jour en masse du type de document.
       * **Niveaux d'Approbation**: Définit la capacité du groupe à approuver des documents (Approbation de Premier et Deuxième niveau).
       * **Deuxième approbation:** Définit si le groupe peut déverrouiller un document pour d'autres modifications.
+    * **Niveaux d'Autorisation:**
+      * **Normal**: Tous les utilisateurs peuvent effectuer cette action.
+      * **Owner**: Seul l'utilisateur assigné a la permission d'effectuer cette action.
+      * **Admin**: Seuls les utilisateurs avec des privilèges administratifs peuvent effectuer cette action.
 
     Exemples de paramètres pour **PROCUREMENT\_DIRECTOR**:
 
