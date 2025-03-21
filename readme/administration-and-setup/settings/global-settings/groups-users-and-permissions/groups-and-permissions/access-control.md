@@ -46,6 +46,10 @@ Il pannello di controllo accessi consente all'amministratore di gestire i gruppi
       * **Aggiornamento di massa:** Abilita l'aggiornamento massivo del tipo di documento.
       * **Livelli di Approvazione**: Imposta la capacità del gruppo di approvare documenti (Approvazione di Primo e Secondo livello).
       * **Sblocca Documento**: Definisce se il gruppo può sbloccare un documento per ulteriori modifiche.
+    * **Livelli di Permesso:**
+      * **Normal**: Tutti gli utenti possono eseguire questa azione.
+      * **Owner**: Solo l'utente assegnato ha il permesso di eseguire questa azione.
+      * **Admin**: Solo gli utenti con privilegi amministrativi possono eseguire questa azione
 
     Esempi di impostazioni per **PROCUREMENT\_DIRECTOR**:
 
