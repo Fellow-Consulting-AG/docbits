@@ -46,6 +46,10 @@ Panel kontroli dostępu pozwala administratorowi zarządzać grupami użytkownik
       * **Masowa Aktualizacja**: Umożliwia masową aktualizację typu dokumentu.
       * **Poziomy Zatwierdzenia**: Ustala zdolność grupy do zatwierdzania dokumentów (Zatwierdzenie na pierwszym i drugim poziomie).
       * **Odblokuj Dokument**: Określa, czy grupa może odblokować dokument do dalszej edycji.
+    * **Poziomy Uprawnień:**
+      * **Normal**: Wszyscy użytkownicy mogą wykonać tę akcję.
+      * **Owner**: Tylko przypisany użytkownik ma uprawnienia do wykonania tej akcji.
+      * **Admin**: Tylko użytkownicy z uprawnieniami administracyjnymi mogą wykonać tę akcję.
 
     Przykładowe ustawienia dla **PROCUREMENT\_DIRECTOR**:
 
