@@ -31,7 +31,7 @@ Once the setting is activated, you can select the specific criteria for duplicat
 
 After enabling Duplicate Detection, the dashboard will display an icon for any documents identified as duplicates based on the selected criteria. Clicking this icon will open the duplicate records in a split-screen view for easy comparison.
 
-<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/DuplicateDomuent_6.png" alt="" width="329"><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
 
