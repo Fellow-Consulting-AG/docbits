@@ -46,6 +46,10 @@ O painel de controle de acesso permite que o administrador gerencie grupos de us
       * **Atualização em Massa**: Habilita a atualização em massa do tipo de documento.
       * **Níveis de Aprovação**: Define a capacidade do grupo de aprovar documentos (Aprovação de Primeiro e Segundo nível).
       * **Desbloquear Documento**: Define se o grupo pode desbloquear um documento para edições adicionais.
+    * **Níveis de Permissão:**
+      * **Normal**: Todos os usuários podem realizar esta ação.
+      * **Owner**: Apenas o usuário designado tem permissão para realizar esta ação.
+      * **Admin**: Apenas usuários com privilégios administrativos podem realizar esta ação.
 
     Exemplos de configurações para **PROCUREMENT\_DIRECTOR**:
 
