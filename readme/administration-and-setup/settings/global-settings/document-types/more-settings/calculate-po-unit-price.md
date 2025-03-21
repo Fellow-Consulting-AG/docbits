@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-The unit price is typically extracted directly from the document. However, discrepancies can occur between the extracted unit price and the one stored in Infor due to discounts. In these cases, you can manually calculate the unit price using the quantity and net amount to prevent errors during the PO matching process. The following steps outline how to activate this setting.
+You can choose to calculate the unit price manually by dividing the net amount by the quantity, instead of automatically extracting it from the document. This is particularly useful when the unit price in the purchase order (in Infor) differs from the price extracted from the document. Such discrepancies may arise if a discount is applied to the unit price in the Infor purchase order, while the document only applies the discount to the net amount.
 
 ## **Activation Steps**
 
@@ -12,7 +12,7 @@ The unit price is typically extracted directly from the document. However, discr
 2.  Select the desired document type and click on **More Settings**.
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
-3.  In the **Purchase Order** section, activate the option **Calculate PO Unit Price**.
+3.  In the **Purchase Order** section, enable the option **Calculate PO Unit Price**.
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_3.png" alt=""><figcaption></figcaption></figure>
 
@@ -20,10 +20,8 @@ The unit price is typically extracted directly from the document. However, discr
 
 <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_4.png" alt="" width="563"><figcaption></figcaption></figure>
 
-In this example, the unit price extracted from the document does not include the discount, while the unit price stored in Infor does. As a result, there will be a mismatch between the extracted unit price and the one in the system.
+In this case, the unit price (without the discount) is extracted from the document, while the purchase order in Infor stores the unit price with the discount applied. This results in a mismatch in the unit price.
 
-Once the setting is activated, the unit price will be automatically recalculated as follows:
-
-**NET AMOUNT / QUANTITY**
-
-This ensures that the unit price aligns correctly, avoiding any discrepancies during the PO matching process.
+Once the setting is activated, the unit price will be recalculated as follows:\
+**Unit Price = Net Amount ÷ Quantity**\
+This ensures that the unit price is consistent and matches the intended value.
