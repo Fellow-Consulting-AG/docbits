@@ -46,6 +46,10 @@ El panel de control de acceso permite al administrador gestionar grupos de usuar
       * **Actualización Masiva**: Habilita la actualización masiva del tipo de documento.
       * **Niveles de Aprobación**: Establece la capacidad del grupo para aprobar documentos (Aprobación de Primer y Segundo nivel).
       * **Desbloquear Documento**: Define si el grupo puede desbloquear un documento para más ediciones.
+    * **Niveles de Permiso:**
+      * **Normal**: Todos los usuarios pueden realizar esta acción.
+      * **Owner**: Solo el usuario asignado tiene permiso para realizar esta acción.
+      * **Admin**: Solo los usuarios con privilegios administrativos pueden realizar esta acción.
 
     Ejemplo de configuraciones para **PROCUREMENT\_DIRECTOR**:
 
