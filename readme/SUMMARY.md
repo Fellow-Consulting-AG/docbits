@@ -86,7 +86,7 @@
         * [Zweck und Verwendung](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/purpose-and-use.md)
         * [Gruppen hinzufügen/bearbeiten](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/adding-editing-groups.md)
         * [Berechtigungen aktivieren](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/activating-permissions.md)
-        * [Zugangskontolle](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/access-control.md)
+        * [Zugangskontrolle](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/access-control.md)
         * [Fehlerbehebung](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
     * [Best Practices](admin-section/settings/global-settings/best-practices.md)
     * [Integration](admin-section/settings/global-settings/integration/README.md)

@@ -1,4 +1,4 @@
-# Zugangskontolle
+# Zugangskontrolle
 
 ## Übersicht
 
@@ -34,10 +34,10 @@ Das Zugangskontrollpanel ermöglicht es dem Administrator, Benutzergruppen und d
 
 ## Berechtigungen für Gruppen konfigurieren
 
-1.  **Übersicht der Zugangskontolle**:
+1.  **Übersicht der Zugangskontrolle**:
 
     * In diesem Abschnitt können Sie den Zugriff für alle Dokumenttypen aktivieren oder deaktivieren, wie z. B. **Invoice**, **Credit Note**, **Purchase Order** und mehr.
-    * Sie können in der Zugangskontolle folgendes definieren:
+    * Sie können in der Zugangskontrolle folgendes definieren:
       * **Zugang**: Gewährt Zugriff auf den Dokumenttyp.
       * **Liste**: Definiert, ob der Dokumenttyp in der Listenansicht sichtbar ist.
       * **Ansicht**: Gibt die Standardansicht für das Dokument an.
@@ -46,6 +46,10 @@ Das Zugangskontrollpanel ermöglicht es dem Administrator, Benutzergruppen und d
       * **Massenaktualisierung**: Ermöglicht die Massenaktualisierung des Dokumenttyps.
       * **Genehmigungsstufen**: Legt die Fähigkeit der Gruppe fest, Dokumente zu genehmigen (Erste und Zweite Genehmigungsstufe).
       * **Dokument freischalten**: Definiert, ob die Gruppe ein Dokument für weitere Bearbeitungen entsperren kann.
+    * **Berechtigungsstufen:**
+      * **Normal**: Alle Benutzer können diese Aktion durchführen.
+      * **Owner**: Nur der zugewiesene Benutzer hat die Berechtigung, diese Aktion durchzuführen.
+      * **Admin**: Nur Benutzer mit administrativen Rechten können diese Aktion durchführen.
 
     Beispielkonfigurationen für **PROCUREMENT\_DIRECTOR**:
 
