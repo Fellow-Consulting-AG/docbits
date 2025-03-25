@@ -15,6 +15,12 @@ France is adopting PEPPOL as part of its infrastructure, but only as a transport
 
 <figure><img src="../../.gitbook/assets/Picture 2.png" alt=""><figcaption></figcaption></figure>
 
+## Connection of a hub:
+
+The hub provides its customers with a web or application solution to enable them to make the various API calls. **It is thus the hub that makes API calls on behalf of all its customers**. In this case, each partner must have a technical account, but only the hub needs an application under PISTE and a connection to the PPF.
+
+<figure><img src="../../.gitbook/assets/Picture 5.png" alt=""><figcaption></figcaption></figure>
+
 Source: Article 91 of France’s 2024 Finance Law (summarized by EY) mandates e-invoices be sent via a certified PDP or the state portal .  The French tax authority’s updates further clarify that after 2024 reforms, businesses must use a registered PDP for B2B e-invoicing (the PPF will no longer serve as a free exchange platform) .  PEPPOL is being implemented to connect these PDPs, not as an alternate channel outside the system . This confirms that using the PEPPOL network alone is insufficient – compliance in France’s 2026 e-invoicing regime requires integration with the PPF or a certified PDP, with PEPPOL serving only as the underlying delivery network among those platforms.
 
 <div><figure><img src="../../.gitbook/assets/Picture 3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Picture 4.png" alt=""><figcaption></figcaption></figure></div>
