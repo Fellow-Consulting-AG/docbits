@@ -21,6 +21,7 @@
       * [Request validation; Attr. 'ReceiptLine', Value " " : the value must be numeric.](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/request-validation-attr.-receiptline-value-the-value-must-be-numeric..md)
   * [Infor M3 (M3 Integration)](overview-and-basics/faq/infor-m3-m3-integration/README.md)
     * [Costing elements are not properly configured. Please ask your admin to configure it.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
+  * [Mandatory PDP/PPF Channels – PEPPOL as Transport Only for France’s 2026 E-Invoicing](overview-and-basics/faq/mandatory-pdp-ppf-channels-peppol-as-transport-only-for-frances-2026-e-invoicing.md)
 
 ## End User and Partner Section
 
