@@ -16,6 +16,6 @@ The PO matching screen has dedicated shortcuts to streamline the matching proces
 * **Control + P** – Selects the first row of the purchase order lines, making it easy to begin working with order data.
 * **Control + L** – Selects the first row of the invoice lines, allowing quick access to invoice details.
 * **Control + Left Click** – Selects or unselects rows of the purchase order, enabling flexible selection of multiple entries.
-* **Control + C** – Selects purchase order rows to begin mapping to invoice lines, setting up the mapping process.
-* **Control + V** – Maps the selected purchase order lines to the invoice lines, linking data efficiently.
+* **Control + C / Alt + C** – Selects purchase order rows to begin mapping to invoice lines, setting up the mapping process.
+* **Control + V / Alt + V** – Maps the selected purchase order lines to the invoice lines, linking data efficiently.
 * **Option + Shift + Left Click** – Selects all purchase order lines between the first selected and the last selected row, simplifying the bulk selection process.

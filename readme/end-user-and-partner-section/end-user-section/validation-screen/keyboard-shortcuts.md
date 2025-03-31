@@ -9,10 +9,10 @@ When working within the field validation section, users can utilize these shortc
 * **Control + K** – Opens the keyboard shortcut menu specific to the field validation section.
 * **Control + H** – Opens the documentation page for more information and assistance.
 * **Space** – Toggles a checkbox selection, allowing users to quickly mark or unmark options.
-* **Control + G** – Moves the focus to the next group of related fields, helping navigate structured input sections efficiently.
+* **Control + G  / Alt + G** – Moves the focus to the next group of related fields, helping navigate structured input sections efficiently.
 * **Control + F** – Moves the cursor to the first field in the first group, allowing users to quickly return to the beginning of a form.
-* **Control + S** – Saves the document, ensuring all entered data is stored.
-* **Options + R** – Rejects the document, marking it as invalid or requiring further review.
-* **Control + T** – Jumps directly to the table section of the document.
-* **Control + plus (+)** Creates a new Table Line.
+* **Control + S / Alt + S** – Saves the document, ensuring all entered data is stored.
+* **Options + R / Alt + R** – Rejects the document, marking it as invalid or requiring further review.
+* **Control + T / Alt + T** – Jumps directly to the table section of the document.
+* **Control + plus (+) / Alt + plus (+)** Creates a new Table Line.
 
