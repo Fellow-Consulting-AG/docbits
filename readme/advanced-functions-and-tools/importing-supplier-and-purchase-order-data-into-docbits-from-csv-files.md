@@ -169,6 +169,7 @@ To import data, follow these steps:
 
     When making the import request, the following parameters need to be specified:
 
+    * **sub\_org\_id:** Remove any text from the text field to ensure the "Send empty value" option is enabled.
     * **data\_type:** This parameter specifies the type of data being imported. It can be either `supplier` or `purchase_order` depending on the content of your .csv file.
     * **replace\_all:** This boolean parameter determines whether all existing data in the respective database table (`supplier` or `purchase_order`) for the specified organization should be deleted before inserting the new data from the .csv file. Set this to `true` to replace all existing data or `false` to append or update with the new data.
     *   **delimiter:** This parameter specifies the character used to separate the individual values within each row of your data file. **It is essential to identify the correct delimiter used in your file.** Common delimiters are the comma (`,`) and the semicolon (`;`).
