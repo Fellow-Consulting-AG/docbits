@@ -1,4 +1,4 @@
-# WatchDog Installation Guide
+# WatchDog Installation
 
 ## Configuring WatchDog in DocBits
 
@@ -17,21 +17,36 @@
    *   Select the document types to process by checking the corresponding checkboxes\
 
 
-       <figure><img src="../../.gitbook/assets/Bildschirmfoto 2025-02-19 um 09.15.55.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (424).png" alt=""><figcaption></figcaption></figure>
+   * **Barcode Divider:** When turned on enables the barcode dividing.
+   * **DocBits Operator:** When enabled opens a chrome browser in the background for the DocBits Operator.
+   * **Export destination:** Sets the export destination.&#x20;
+     * **Infor:** Documnets get exported to Infor.
+     * **Export Folder:** Documents get exported to a defined folder that can be configured below.\
+
 4. **Export Configurations**
    * Displays all configured exports for **on-premise processing**.
    *   Shows the timestamp of the **last successful connection** for each configuration.\
 
 
-       <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
-5. **Download the Configuration**&#x20;
+       <figure><img src="../../.gitbook/assets/image (425).png" alt=""><figcaption></figcaption></figure>
+5. **bod\_mapping Configuration (Optional)**
+   *   Click **Add Row** to define metadata mappings.\
+
+
+       <figure><img src="../../.gitbook/assets/image (426).png" alt=""><figcaption></figcaption></figure>
+   * **Value:** Specifies the field name for the metadata.
+   * **Path:** The XPath expression pointing to the XML data that should be assigned to the field.
+   * **Trashcan Icon:** Used to delete a secific row. \
+
+6. **Download the Configuration**&#x20;
    * Save the configuration&#x20;
    *   Download the configuration\
 
 
-       <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (427).png" alt=""><figcaption></figcaption></figure>
 
 ## WatchDog Installation Guide
 
