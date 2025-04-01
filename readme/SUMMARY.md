@@ -110,7 +110,7 @@
         * [Zweck und Verwendung](administration-and-setup/settings/global-settings/document-types/more-settings/purpose-and-use.md)
         * [Best Practices](admin-section/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Fehlerbehebung](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
-        * [Handhabung von doppelten Rechnungen in DocBits](admin-section/settings/global-settings/document-types/more-settings/duplicate-invoice-handling-in-docbits.md)
+        * [Erkennung von doppelten Dokumenten](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
         * [Genehmigungsstempel](administration-and-setup/settings/global-settings/document-types/more-settings/approval-stamp.md)
         * [Lieferantenartikelnummernkarte - Administrationsdokumentation](admin-section/settings/global-settings/document-types/more-settings/lieferantenartikelnummernkarte-administrationsdokumentation.md)
         * [Einstellungen zur Toleranz von Bestellungen / Zusätzliche Toleranz für Bestellungen](admin-section/settings/global-settings/document-types/more-settings/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
