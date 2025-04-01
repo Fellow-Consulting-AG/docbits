@@ -204,7 +204,7 @@
         * [Purpose and use](administration-and-setup/settings/global-settings/document-types/more-settings/purpose-and-use.md)
         * [Best practices](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Troubleshooting](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
-        * [Duplicate Document Handling](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling-in-docbits.md)
+        * [Duplicate Document Handling](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
         * [Approval Stamp](administration-and-setup/settings/global-settings/document-types/more-settings/approval-stamp.md)
         * [Approval History](administration-and-setup/settings/global-settings/document-types/more-settings/approval-history.md)
         * [Supplier Item Number Map - Admin Documentation](administration-and-setup/settings/global-settings/document-types/more-settings/supplier-item-number-map-admin-documentation.md)
