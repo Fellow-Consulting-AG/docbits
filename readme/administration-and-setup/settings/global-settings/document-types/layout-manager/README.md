@@ -1,6 +1,6 @@
-# Gestor de Layout
+# Layout Manager
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.46.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2008.46.24.png" alt=""><figcaption></figcaption></figure>
 
 #### Visão Geral
 
@@ -9,9 +9,12 @@ O Gestor de Layout permite aos administradores configurar e modificar visualment
 #### Componentes Principais
 
 1. **Grupos e Campos**:
+
 * **Grupos**: Unidades organizacionais dentro de um tipo de documento que categorizam campos relacionados (por exemplo, Detalhes da Fatura, Detalhes de Pagamento). Estes podem ser expandidos ou recolhidos e organizados para refletir o agrupamento lógico no documento real.
 * **Campos**: Pontos de dados individuais dentro de cada grupo (por exemplo, Número da Fatura, Termos de Pagamento). Cada campo pode ser personalizado quanto à forma como os dados são capturados, exibidos e processados.
+
 2. **Painel de Propriedades**:
+
 * Este painel exibe as propriedades do campo ou grupo selecionado, permitindo uma configuração detalhada, como:
 * **Rótulo**: O rótulo visível para o campo na interface do usuário.
 * **Nome do Campo**: O identificador técnico usado dentro do sistema.
@@ -23,7 +26,9 @@ O Gestor de Layout permite aos administradores configurar e modificar visualment
 * **Selecionar Tipo de Modelo**: Opção para selecionar qual tipo de modelo lidará com a extração deste campo.
 * **Comprimento do Campo**: Comprimento máximo dos dados a serem aceitos neste campo.
 * **Palavras-Chave Proibidas**: Palavras-chave que não são permitidas dentro do campo.
+
 3. **Pré-visualização do Modelo**:
+
 * Mostra uma pré-visualização em tempo real de como o documento aparecerá com base na configuração de layout atual. Isso ajuda a garantir que o layout corresponda à estrutura real do documento e é vital para testar e refinar a configuração de processamento do documento.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2490" %}
