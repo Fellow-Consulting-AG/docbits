@@ -34,6 +34,8 @@
 
 ### Editing groups and fields:
 
+<mark style="color:red;">**Note:**</mark>**&#x20;when the Title of a field got changed, you must delete and re-add the field in the layout builder for the changes to take effect.**
+
 #### Adding a group or field:
 
 * Click the "Create new group" button, depending on whether you want to add a new group or field.

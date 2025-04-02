@@ -18,15 +18,30 @@
 
 **Basic Configuration:**
 
-* Enter a name for the field and set other basic properties, such as whether it is required or whether it should be visible when editing.
-
 <figure><img src="../../../../../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
 
-**Select Field Type:**
+* **Name**
+  * Choose a meaningful and descriptive name.
+  * The name must be unique.
+  * <mark style="color:red;">**Note:**</mark> **Once created, the name cannot be changed.**
+* **Title**
+  * This is the displayed name of the field.
+  * It defines how the field appears in the user interface.
+  * <mark style="color:red;">**Note:**</mark> **The title can be changed later if needed.**
+*   **Select Field Type**
 
-* Select the type of new field, such as text, date, dropdown, checkbox, etc.
+    * Choose the type of field from a dropdown list.
+    * The available field types include various options to suit different data entry needs.
+    * <mark style="color:red;">**Note:**</mark> **Once created, the Type cannot be changed.**
 
-<figure><img src="../../../../../.gitbook/assets/image (124).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (124).png" alt="" width="375"><figcaption></figcaption></figure>
+* **Optional: Enable Charges Element**
+  * A checkbox labeled **Enable Charges Element** can be selected.
+  * If checked, you must select a charge element from a dropdown list.
+  * **Important:** Charge elements must be configured beforehand.
+    * [Charge Elements Configuration](../../../../../infor-integration-and-configuration/importing-customer-master-data/m3/table-extraction-for-costing-element.md)&#x20;
+
+
 
 **Advanced Configuration:**
 
@@ -57,6 +72,8 @@
 **Change the configuration:**
 
 * Change the properties of the field as needed. This may include changing the name, the field type, adding or removing validation rules, setting match values, or adjusting other advanced settings.
+
+<mark style="color:red;">**Note:**</mark> If you change the **Title** of a field, you must delete and re-add the field in the layout builder for the changes to take effect.
 
 <figure><img src="../../../../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 

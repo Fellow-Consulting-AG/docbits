@@ -5,14 +5,16 @@
 1. **Access WatchDog Settings**
    * Navigate to **Settings → Document Processing → WatchDog**.\
 
-2. **Folder Settings**
-   * Define the paths where WatchDog finds and processes documents.
-   *   The folder paths should match those created during installation:
+2.  **Folder Settings**
 
-       * `C:/WatchDog/Read`
-       * `C:/WatchDog/Processed`
+    * Define the paths where WatchDog finds and processes documents.
+    * The folder paths should match those created during installation:
+      * `C:/WatchDog/Read`
+      * `C:/WatchDog/Processed`
 
-       <div data-full-width="true"><figure><img src="../../.gitbook/assets/image (405).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-full-width="true"><figure><img src="../../.gitbook/assets/image (405).png" alt=""><figcaption></figcaption></figure></div>
+
+    * <mark style="color:red;">**Note**</mark>**:  It is recommended to use local paths. These should match the folders in the DocBits Installation**
 3. **General Settings**
    *   Select the document types to process by checking the corresponding checkboxes\
 
@@ -52,11 +54,10 @@
 
 1. **Create Required Folders**
    * Create a main directory: `C:/WatchDog`
-   * Inside `C:/WatchDog`, create the following subfolders:\
-     <mark style="color:red;">**Note**</mark>**: these should match the folders in DocBits**&#x20;
+   * Inside `C:/WatchDog`, create the following subfolders:
      * `C:/WatchDog/Read`
-     * `C:/WatchDog/Processed`\
-
+     * `C:/WatchDog/Processed`
+   * <mark style="color:red;">**Note**</mark>**:  It is recommended to use local paths. These should match the folders in the DocBits Configuration**
 2. **Download WatchDog**
    * Download the latest version of `WatchDog.exe` from:\
      [ ](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)[https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)

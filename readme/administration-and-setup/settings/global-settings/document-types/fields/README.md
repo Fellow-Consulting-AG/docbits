@@ -4,11 +4,11 @@
 
 ## Overview
 
-{% hint style="info" %}
-We add to select for a [Field a Charge](new-fields-with-charges.md)
-{% endhint %}
-
 The Fields setting provides a user interface where administrators can manage the properties and behavior of individual data fields associated with a document type. Each field can be adjusted to optimize the accuracy and efficiency of data capture and validation.
+
+{% hint style="info" %}
+[Fields with Charges](new-fields-with-charges.md)
+{% endhint %}
 
 ## Key Features and Options
 
@@ -24,4 +24,4 @@ The Fields setting provides a user interface where administrators can manage the
 3. **Action Buttons**:
    * **Create New Field**: Allows adding new fields to the document type.
    * **Edit Icons**: Each field has an edit icon that allows administrators to further configure field-specific settings, such as data type, default values, or connected business logic.
-   * **Save Settings**: Commits the changes made to the field configurations.
+   * **Save Settings**: Commits the changes made to the field configuration
