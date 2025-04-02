@@ -1,6 +1,6 @@
-# Gestore Layout
+# Layout Manager
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.46.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2008.46.24.png" alt=""><figcaption></figcaption></figure>
 
 #### Panoramica
 
@@ -9,9 +9,12 @@ Il Gestore Layout consente agli amministratori di configurare e modificare visiv
 #### Componenti Principali
 
 1. **Gruppi e Campi**:
+
 * **Gruppi**: Unità organizzative all'interno di un tipo di documento che categorizzano campi correlati (ad esempio, Dettagli Fattura, Dettagli Pagamento). Questi possono essere espansi o compressi e disposti per rispecchiare il raggruppamento logico nel documento effettivo.
 * **Campi**: Punti dati individuali all'interno di ciascun gruppo (ad esempio, Numero Fattura, Termini di Pagamento). Ogni campo può essere personalizzato per come i dati vengono acquisiti, visualizzati e elaborati.
+
 2. **Pannello Proprietà**:
+
 * Questo pannello mostra le proprietà del campo o gruppo selezionato, consentendo una configurazione dettagliata, come:
 * **Etichetta**: L'etichetta visibile per il campo nell'interfaccia utente.
 * **Nome Campo**: L'identificatore tecnico utilizzato all'interno del sistema.
@@ -23,7 +26,9 @@ Il Gestore Layout consente agli amministratori di configurare e modificare visiv
 * **Seleziona Tipo Modello**: Opzione per selezionare quale tipo di modello gestirà l'estrazione di questo campo.
 * **Lunghezza Campo**: Lunghezza massima dei dati accettati in questo campo.
 * **Parole Chiave Vietate**: Parole chiave non consentite all'interno del campo.
+
 3. **Anteprima Modello**:
+
 * Mostra un'anteprima in tempo reale di come apparirà il documento in base alla configurazione del layout attuale. Questo aiuta a garantire che il layout corrisponda alla struttura effettiva del documento ed è fondamentale per testare e perfezionare l'impostazione di elaborazione del documento.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2490" %}
