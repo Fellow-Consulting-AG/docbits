@@ -1,6 +1,6 @@
-# Menedżer układu
+# Layout Manager
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.46.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2008.46.24.png" alt=""><figcaption></figcaption></figure>
 
 #### Przegląd
 
@@ -9,9 +9,12 @@ Menedżer układu umożliwia administratorom wizualną konfigurację i modyfikac
 #### Główne składniki
 
 1. **Grupy i pola**:
+
 * **Grupy**: Jednostki organizacyjne w obrębie typu dokumentu, które kategoryzują powiązane pola (np. Szczegóły faktury, Szczegóły płatności). Mogą być rozszerzane lub zwijane oraz ustawiane tak, aby odzwierciedlać logiczne grupowanie w rzeczywistym dokumencie.
 * **Pola**: Indywidualne punkty danych w każdej grupie (np. Numer faktury, Warunki płatności). Każde pole może być dostosowane pod kątem sposobu przechwytywania, wyświetlania i przetwarzania danych.
+
 2. **Panel właściwości**:
+
 * Ten panel wyświetla właściwości wybranego pola lub grupy, umożliwiając szczegółową konfigurację, taką jak:
 * **Etykieta**: Widoczna etykieta pola w interfejsie użytkownika.
 * **Nazwa pola**: Techniczny identyfikator używany w systemie.
@@ -23,7 +26,9 @@ Menedżer układu umożliwia administratorom wizualną konfigurację i modyfikac
 * **Wybierz typ modelu**: Opcja wyboru, który typ modelu będzie obsługiwał ekstrakcję tego pola.
 * **Długość pola**: Maksymalna długość danych do zaakceptowania w tym polu.
 * **Zabronione słowa kluczowe**: Słowa kluczowe niedozwolone w polu.
+
 3. **Podgląd szablonu**:
+
 * Pokazuje podgląd w czasie rzeczywistym, jak będzie wyglądał dokument na podstawie bieżącej konfiguracji układu. Pomaga to w zapewnieniu, że układ odpowiada rzeczywistej strukturze dokumentu i jest kluczowy do testowania i udoskonalania konfiguracji przetwarzania dokumentów.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2490" %}
