@@ -1,6 +1,6 @@
 # Fields
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2009.02.31.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2009.02.31.png" alt=""><figcaption></figcaption></figure>
 
 #### Übersicht
 
