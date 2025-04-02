@@ -4,7 +4,7 @@
 
 This Page describes how to import Supplier and Purchase Order data into DocBits using a Comma Separated Values (.csv) file.
 
-**Important:** Before importing any data, it is crucial to **review the .csv file thoroughly** to ensure data accuracy and proper configuration. Importing incorrect data can lead to inconsistencies. Refer to the CSV Specifications for [**Purchase Order**](importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md#csv-specifications-for-purchase-order) or [**CSV Specifications for Supplier**](importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md#csv-specifications-for-supplier) sections for details on required and optional fields. If required fields are missing, the import process will fail.
+**Important:** Before importing any data, it is crucial to **review the .csv file thoroughly** to ensure data accuracy and proper configuration. Importing incorrect data can lead to inconsistencies. Refer to the [**CSV Specifications for Purchase Order**](importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md#csv-specifications-for-purchase-order) or [**CSV Specifications for Supplier**](importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md#csv-specifications-for-supplier) sections for details on required and optional fields. If required fields are missing, the import process will fail.
 
 **Validation:** Always verify that your .csv file contains all the necessary columns as outlined in the respective specifications section before attempting the import.
 
@@ -138,10 +138,10 @@ For both Supplier and Purchase Order imports, all columns marked as "Required" i
 To import data, follow these steps:
 
 1. Visit: [https://api.docbits.com/](https://api.docbits.com/)
-2.  Click the "Authorize" button.
+2.  Click the **"Authorize"** button.
 
     <figure><img src="../.gitbook/assets/import_csv_1.png" alt=""><figcaption></figcaption></figure>
-3.  Enter the API-Key and click "Authorize"
+3.  Enter the API-Key and click **"Authorize"**
 
     * The API-Key can be found in DocBits in Settings -> Global Settings -> Integration&#x20;
     * **Note:** The API key provided in your request determines the target organization and the user context under which the data will be imported.
@@ -157,7 +157,7 @@ To import data, follow these steps:
 
 
 1. Press **CTRL + F** (or **CMD + F** on Mac) to open the search function, and search for `/master_data_lookup/import_data`.
-2.  Click on the request to view its details, then click on **'Try it out'** to proceed.
+2.  Click on the request to view its details, then click on "**Try it out"** to proceed.
 
     <figure><img src="../.gitbook/assets/import_csv_3.png" alt=""><figcaption></figcaption></figure>
 
