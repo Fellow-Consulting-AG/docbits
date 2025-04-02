@@ -12,6 +12,7 @@
        * `C:/WatchDog/Processed`
 
        ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FzG1EFmtSO4AxZjWir401%252Fimage.png%3Falt%3Dmedia%26token%3Dc356e023-8cfb-4f45-b863-b27c5af1d9df\&width=768\&dpr=4\&quality=100\&sign=1b1ae0c4\&sv=2)
+   * <mark style="color:red;">**Nota:**</mark>**&#x20;Si consiglia di utilizzare percorsi locali. Questi dovrebbero corrispondere alle cartelle nell'Installazione di DocBits**
 3. **Impostazioni Generali**
    *   Seleziona i tipi di documento da elaborare selezionando le relative caselle di controllo\
 
@@ -50,6 +51,7 @@
    * All'interno di `C:/WatchDog`, crea le seguenti sottocartelle: **Nota**: queste devono corrispondere alle cartelle in DocBits
      * `C:/WatchDog/Read`
      * `C:/WatchDog/Processed`
+   * <mark style="color:red;">**Nota:**</mark>**&#x20;Si consiglia di utilizzare percorsi locali. Questi dovrebbero corrispondere alle cartelle nella Configurazione di DocBits**
 2. **Scarica WatchDog**
    * Scarica l'ultima versione di `WatchDog.exe` da:[https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)
    * Posiziona il file `WatchDog.exe` scaricato in `C:/WatchDog`.
