@@ -34,14 +34,19 @@
 
 
        <figure><img src="../../.gitbook/assets/image (425).png" alt=""><figcaption></figcaption></figure>
-5. **bod\_mapping Configuration (Optional)**
-   *   Click **Add Row** to define metadata mappings.\
+5.  **bod\_mapping Configuration (Optional)**
+
+    * <mark style="color:red;">**Required Fields:**</mark> Before adding custom metadata mappings, you **must** define the following two values:
+      * **`file_name`**&#x20;
+      * **`pdf_path`**&#x20;
+    * Click **Add Row** to define metadata mappings.\
 
 
-       <figure><img src="../../.gitbook/assets/image (426).png" alt=""><figcaption></figcaption></figure>
-   * **Value:** Specifies the field name for the metadata.
-   * **Path:** The XPath expression pointing to the XML data that should be assigned to the field.
-   * **Trashcan Icon:** Used to delete a secific row. \
+    <figure><img src="../../.gitbook/assets/image (426).png" alt=""><figcaption></figcaption></figure>
+
+    * **Value:** Specifies the field name for the metadata.
+    * **Path:** The XPath expression pointing to the XML data that should be assigned to the field.
+    * **Trashcan Icon:** Used to delete a secific row. \
 
 6. **Download the Configuration**&#x20;
    * Save the configuration&#x20;
