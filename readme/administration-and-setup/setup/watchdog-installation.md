@@ -12,6 +12,7 @@
        * `C:/WatchDog/Processed`
 
        ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FzG1EFmtSO4AxZjWir401%252Fimage.png%3Falt%3Dmedia%26token%3Dc356e023-8cfb-4f45-b863-b27c5af1d9df\&width=768\&dpr=4\&quality=100\&sign=1b1ae0c4\&sv=2)
+   * <mark style="color:red;">**Uwaga**</mark><mark style="color:red;">:</mark> **Zaleca się używanie lokalnych ścieżek. Powinny one odpowiadać folderom w instalacji DocBits**
 3. **Ustawienia ogólne**
    *   Wybierz typy dokumentów do przetworzenia, zaznaczając odpowiednie pola wyboru.\
 
@@ -50,6 +51,7 @@
    * Wewnątrz `C:/WatchDog` utwórz następujące podfoldery: **Uwaga:** powinny one odpowiadać folderom w DocBits.
      * `C:/WatchDog/Read`
      * `C:/WatchDog/Processed`
+   * <mark style="color:red;">**Uwaga:**</mark>**&#x20;Zaleca się używanie lokalnych ścieżek. Powinny one odpowiadać folderom w konfiguracji DocBits**
 2. **Pobierz WatchDog**
    * Pobierz najnowszą wersję `WatchDog.exe` z:[https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)
    * Umieść pobrany plik `WatchDog.exe` w `C:/WatchDog`.
