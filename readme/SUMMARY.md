@@ -253,3 +253,4 @@
   * [Generating Extended Invoice Numbers Script for Docbits](setup/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits-1.md)
   * [Generating Extended Invoice Numbers Script for Docbits](setup/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits.md)
 * [Postman for DocBits](setup/postman-for-docbits.md)
+* [Importieren von Lieferanten- und Bestelldaten in DocBits aus CSV-Dateien](advanced-functions-and-tools/importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md)
