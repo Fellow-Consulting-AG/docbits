@@ -246,7 +246,6 @@
 
 ## Funciones y herramientas avanzadas <a href="#advanced-functions-and-tools" id="advanced-functions-and-tools"></a>
 
-* [Postman for DocBits](advanced-functions-and-tools/postman-for-docbits.md)
 * [Scripting in DocBits](advanced-functions-and-tools/scripting-in-docbits/README.md)
   * [Calculating Total Charges Script for Docbits](advanced-functions-and-tools/scripting-in-docbits/calculating-total-charges-script-for-docbits-1.md)
   * [Calculating Total Charges Script for Docbits](advanced-functions-and-tools/scripting-in-docbits/calculating-total-charges-script-for-docbits.md)
@@ -255,3 +254,5 @@
   * [Funciones](advanced-functions-and-tools/scripting-in-docbits/functions.md)
   * [Generating Extended Invoice Numbers Script for Docbits](advanced-functions-and-tools/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits-1.md)
   * [Generating Extended Invoice Numbers Script for Docbits](advanced-functions-and-tools/scripting-in-docbits/generating-extended-invoice-numbers-script-for-docbits.md)
+* [Postman for DocBits](advanced-functions-and-tools/postman-for-docbits.md)
+* [Importando Datos de Proveedores y Órdenes de Compra en DocBits desde Archivos CSV](advanced-functions-and-tools/importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md)
