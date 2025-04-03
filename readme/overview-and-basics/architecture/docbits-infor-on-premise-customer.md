@@ -8,7 +8,20 @@ To send data to an Infor on-premise customer, we offer two ways: Site-to-Site VP
 
 ## IPsec (Internet Protocol Security) Site-to-Site VPN Configuration
 
-### For an IPsec site-to-site VPN, you need to configure and open the following ports:
+### 1. Configuration Informations:
+
+| **IPSEC VPN Setup**            |                                                                 |
+| ------------------------------ | --------------------------------------------------------------- |
+|                                | **Endpoint B**                                                  |
+| **Customer**                   | _**FELLOWPRO AG**_                                              |
+| **Name of Contact**            | _**Daniel Lopez**_                                              |
+| **Mail**                       | [daniel.lopez@fellowpro.com](mailto:daniel.lopez@fellowpro.com) |
+| **Endpoint Hardware/Software** | _**StrongWAN**_                                                 |
+| **Location of Firewall**       | _**Frankfurt**_                                                 |
+| **Endpoint IP**                | _**46.101.133.158**_                                            |
+| **Network/Host 1**             | _**10.135.0.0/16**_                                             |
+
+### 2. For an IPsec site-to-site VPN, you need to configure and open the following ports:
 
 1\. UDP port 500: Used for Internet Key Exchange (IKE) phase 1 and phase 2.
 
