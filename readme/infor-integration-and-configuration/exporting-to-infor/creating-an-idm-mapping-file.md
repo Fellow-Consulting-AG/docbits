@@ -1,18 +1,91 @@
 # Creando un Archivo de Mapeo IDM
 
-Una vez obtenido, abre el archivo en tu editor de archivos preferido. Para este tutorial, se utilizará VSCode.
+## Campos Requeridos para el Archivo de Mapeo IDM
 
-### Editar Archivo de Mapeo
+Al crear un archivo de mapeo IDM, se requieren los siguientes campos:
 
-Verifica que el código del tipo de documento sea el mismo que en DocBits (al igual que con el Archivo de Mapeo BOD, debería coincidir con el nombre del tipo de documento en la URL de la configuración de campos) y también verifica el nombre del tipo de documento como debería estar en el Gestor de Documentos (IDM) en Infor.
+* **Definición del Tipo de Documento**
+  * Asegúrese de que el código del tipo de documento en DocBits coincida con el nombre utilizado en la URL de la configuración del campo, similar al Archivo de Mapeo BOD.
+  * Verifique que el nombre del tipo de documento en IDM esté alineado con la configuración de su sistema. Por ejemplo, en M3, puede ser **M3\_SupplierInvoice**, mientras que en LN, será diferente según su configuración.
+    * Una guía sobre cómo navegar en IDM se puede encontrar en el Administrador de Documentos en IDM en esta página.
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2Flh7-us.googleusercontent.com%2FWHO0vg2W36yVFBq0ay0wBMFVzMfT6pNvHklt0o8N4tqUpM03jXJm2fykuYjyZh0z4wFTO4Eaeh39-D03re3a9utegrdVdsjHBfucmALA3B7YBWd92-9bcYr543G4MWftv0RosvTgFP3J6NNmLZAz5Dc\&width=768\&dpr=4\&quality=100\&sign=5bb93fe7\&sv=2)
+```properties
+#Define Name of document
+#Example: <DocBitsDocumentType>=<IDMDocumentType>
+#INVOICE=LN_SupplierInvoice
+INVOICE=M3_SupplierInvoice
+```
 
-**FYI**: Se indica que el nombre del tipo de documento en IDM es M3\_SupplierInvoice, esto se debe a que es un ejemplo de una instancia de M3. Esto puede cambiar dependiendo de si usas LN o M3, así como tu configuración específica de IDM.
+* **Valores Estáticos**
+  *   Primero, defina todos los valores estáticos en una sola línea utilizando la clave **Static\_Values**:
 
-Verifica el ID de la empresa y verifica el ID de la Entidad (SF\_MDS\_EntityType), este valor debería ser el mismo que en el Archivo de Mapeo BOD.
+      ```properties
+      Static_Values=FileNameSeparator,ACLString
+      ```
+  *   Luego, asigne valores a cada variable estática utilizando el prefijo **SV\_**:
 
-Asegúrate de que IndexFieldFromDocBits=IDMAttributeID (verifica si DocBits a la izquierda en la configuración de campos coincide con IDM a la derecha en Tipo de Documento → Atributos).
+      ```properties
+      SV_FileNameSeparator=_
+      SV_ACLString=Public
+      ```
+
+```properties
+#Define mappings for the static values
+#Example: Static_Values=<StaticVariableName>
+Static_Values=FileNameSeparator,ACLString
+#Example: SF_<StaticVariableName> = StaticValue
+SV_FileNameSeparator=_
+SV_ACLString=Public
+```
+
+* **Definición del Campo ACL**
+
+```properties
+#Define ACL Field value
+#Example: ACL_Fields= Concatenation of other defined fields that together should be a valid ACL in IDM
+ACL_Fields=SV_ACLString
+```
+
+* **Nombre Buscable en IDM**
+  * El **Nombre PDF Buscable** será el nombre del documento en IDM.
+
+```properties
+#Define Resource Mapping
+#Example: Searchable_PDF_Name= Concatenation of other defined fields
+Searchable_PDF_Name=IF_INVOICE_ID
+```
+
+## Mapeo de Campos
+
+*   Comience enumerando todos los campos de índice utilizados, especificando el ID y el tipo de campo.
+
+    ```properties
+    Index_Fields=INVOICE_ID:STRING,INVOICE_DATE:STRING,COMPANY:STRING,DIVISION:STRING,DIVISION_NO:STRING,CORRELATION_ID:STRING,SUPPLIER_ID:STRING,SUPPLIER_NAME:STRING
+    ```
+*   Cada campo mapeado sigue el formato:
+
+    ```properties
+    IF_<DocBitsFieldID> = <IDMAttributeId>
+    ```
+
+    * Confirme que **IndexFieldFromDocBits = IDMAttributeID**, asegurándose de que el mapeo de campos en DocBits esté alineado con los atributos en IDM (Tipo de Documento → Atributos). Una guía sobre cómo navegar en IDM se puede encontrar en el Administrador de Documentos en IDM en esta página.
+
+```properties
+#Define index fields
+#Example: Index_Fields=<IndexFieldIdFromIDM>:<type>
+Index_Fields=INVOICE_ID:STRING,INVOICE_DATE:STRING,COMPANY:STRING,DIVISION:STRING,DIVISION_NO:STRING,CORRELATION_ID:STRING,SUPPLIER_ID:STRING,SUPPLIER_NAME:STRING
+#Example: IF_<DocBitsFieldID> = <IDMAttributeId>
+IF_INVOICE_ID=BOD_SupplierInvoiceID
+IF_CORRELATION_ID=BOD_AlternateDocumentID_1
+IF_INVOICE_DATE=M3_InvoiceDate
+IF_COMPANY=M3_Company
+IF_DIVISION=M3_Division
+IF_DIVISION_NO=BOD_AccountingEntityID
+IF_SUPPLIER_ID=BOD_RemitToPartyID
+IF_SUPPLIER_NAME=BOD_SupplierPartyID
+```
+
+![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FzT9MMKlFCSBJtRW1pf4s%2Fimage.png?alt=media\&token=ea2f6ae2-f9f2-48d3-98e3-ed06dcda69f1)
 
 ### Exportación de archivos XML y EDI
 
