@@ -1,20 +1,90 @@
 # Creating an IDM Mapping File
 
-Once obtained, open the file in your applicable file editor of choice. For this walkthrough, VSCode will be used.
+## Required Fields for IDM Mapping File
 
-## Edit Mapping File
+When creating an IDM mapping file, the following fields are required:
 
-Check the document type code is as it is in DocBits (like with the BOD Mapping File it should match the name of the doc type in the URL of the field settings) and also check the name of the document type as it should be in Document Manager (IDM) in Infor.
+* **Document Type Definition**
+  * Ensure the document type code in DocBits matches the name used in the URL of the field settings, similar to the BOD Mapping File.
+  * Verify that the document type name in IDM aligns with your system configuration. For example, in M3, it may be **M3\_SupplierInvoice**, while in LN, it will be different based on your setup.
+    * A Guide on how to navigate in IDM can be found at Document Manager in IDM on this page.
 
-![](https://lh7-us.googleusercontent.com/WHO0vg2W36yVFBq0ay0wBMFVzMfT6pNvHklt0o8N4tqUpM03jXJm2fykuYjyZh0z4wFTO4Eaeh39-D03re3a9utegrdVdsjHBfucmALA3B7YBWd92-9bcYr543G4MWftv0RosvTgFP3J6NNmLZAz5Dc)
+```properties
+#Define Name of document
+#Example: <DocBitsDocumentType>=<IDMDocumentType>
+#INVOICE=LN_SupplierInvoice
+INVOICE=M3_SupplierInvoice
+```
 
-**FYI**: It states that the name of the document type in IDM is M3\_SupplierInvoice, this is due to this being an example from an M3 instance. This can change depending on if you use LN or M3, as well as your specific IDM configuration.
+*   **Static Values**
 
-Check the company ID, and check Entity ID (SF\_MDS\_EntityType) this value should be the same as it was in the BOD Mapping File.
+    * First, define all static values in a single line using the **Static\_Values** key:
 
-Ensure the IndexFieldFromDocBits=IDMAttributeID (check if DocBits on the left in the field settings matches IDM on the right in Document Type → Attributes).
+    ```properties
+    Static_Values=FileNameSeparator,ACLString
+    ```
 
+    * Then, assign values to each static variable using the **SV\_** prefix:
 
+    ```properties
+    SV_FileNameSeparator=_ 
+    SV_ACLString=Public
+    ```
+
+```properties
+#Define mappings for the static values
+#Example: Static_Values=<StaticVariableName>
+Static_Values=FileNameSeparator,ACLString
+#Example: SF_<StaticVariableName> = StaticValue
+SV_FileNameSeparator=_
+SV_ACLString=Public
+```
+
+* **ACL Field Definition**
+
+```properties
+#Define ACL Field value
+#Example: ACL_Fields= Concatenation of other defined fields that together should be a valid ACL in IDM
+ACL_Fields=SV_ACLString
+```
+
+* **Searchable Name in IDM**&#x20;
+  * The **Searchable PDF Name** will be the document name in IDM.
+
+```properties
+#Define Resource Mapping
+#Example: Searchable_PDF_Name= Concatenation of other defined fields
+Searchable_PDF_Name=IF_INVOICE_ID 
+```
+
+### Field Mapping
+
+```properties
+#Example: Index_Fields=<IndexFieldIdFromIDM>:<type>
+Index_Fields=delivery_note_id:STRING,delivery_date:STRING,CORRELATION_ID:STRING,ACCOUNTING_ENTITY:STRING,GROUP_ACCOUNTING_ENTITY:STRING,supplier_name:STRING,supplier_id:STRING,purchase_order:STRING
+#Example: IF_<IndexFieldIdFromEphesoft> = <IDMAttributeId>
+IF_delivery_note_id=Delivery_Note_Id
+IF_delivery_date=Document_Date
+IF_supplier_name=SupplierName
+IF_supplier_id=Supplier_Id
+IF_purchase_order=Purchase_Order
+```
+
+*   Start by listing all the index fields used, specifying the field ID and type.
+
+    ```properties
+    Index_Fields=delivery_note_id:STRING,delivery_date:STRING,CORRELATION_ID:STRING,ACCOUNTING_ENTITY:STRING,GROUP_ACCOUNTING_ENTITY:STRING,supplier_name:STRING,supplier_id:STRING,purchase_order:STRING
+    ```
+*   Each mapped field follows the format:
+
+    ```properties
+    IF_<DocBitsFieldID> = <IDMAttributeId>
+    ```
+
+    * Confirm that **IndexFieldFromDocBits = IDMAttributeID**, ensuring that the field mapping in DocBits aligns with the attributes in IDM (Document Type → Attributes).\
+      A Guide on how to navigate in IDM can be found at Document Manager in IDM on this page.
+
+<figure><img src="../../.gitbook/assets/image (428).png" alt=""><figcaption></figcaption></figure>
 
 ## XML and EDI  file export&#x20;
 
