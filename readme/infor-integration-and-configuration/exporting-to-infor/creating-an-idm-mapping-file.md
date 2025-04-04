@@ -1,18 +1,91 @@
 # Création d'un fichier de mappage IDM
 
-Une fois obtenu, ouvrez le fichier dans votre éditeur de fichiers de choix. Pour ce guide, VSCode sera utilisé.
+## Champs Requis pour le Fichier de Mapping IDM
 
-### Modifier le fichier de mappage
+Lors de la création d'un fichier de mapping IDM, les champs suivants sont requis :
 
-Vérifiez que le code de type de document est identique à celui de DocBits (comme pour le fichier de mappage BOD, il doit correspondre au nom du type de document dans l'URL des paramètres de champ) et vérifiez également le nom du type de document tel qu'il devrait être dans le Gestionnaire de documents (IDM) dans Infor.
+* **Définition du Type de Document**
+  * Assurez-vous que le code de type de document dans DocBits correspond au nom utilisé dans l'URL des paramètres de champ, similaire au Fichier de Mapping BOD.
+  * Vérifiez que le nom du type de document dans IDM est en accord avec la configuration de votre système. Par exemple, dans M3, cela peut être **M3\_SupplierInvoice**, tandis que dans LN, cela sera différent selon votre configuration.
+    * Un guide sur la façon de naviguer dans IDM peut être trouvé dans le Gestionnaire de Documents dans IDM sur cette page.
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2Flh7-us.googleusercontent.com%2FWHO0vg2W36yVFBq0ay0wBMFVzMfT6pNvHklt0o8N4tqUpM03jXJm2fykuYjyZh0z4wFTO4Eaeh39-D03re3a9utegrdVdsjHBfucmALA3B7YBWd92-9bcYr543G4MWftv0RosvTgFP3J6NNmLZAz5Dc\&width=768\&dpr=4\&quality=100\&sign=5bb93fe7\&sv=2)
+```properties
+#Define Name of document
+#Example: <DocBitsDocumentType>=<IDMDocumentType>
+#INVOICE=LN_SupplierInvoice
+INVOICE=M3_SupplierInvoice
+```
 
-**FYI** : Il est indiqué que le nom du type de document dans IDM est M3\_SupplierInvoice, cela est dû au fait qu'il s'agit d'un exemple d'une instance M3. Cela peut changer en fonction de l'utilisation de LN ou M3, ainsi que de votre configuration IDM spécifique.
+* **Valeurs Statique**
+  *   Tout d'abord, définissez toutes les valeurs statiques sur une seule ligne en utilisant la clé **Static\_Values** :
 
-Vérifiez l'ID de l'entreprise et vérifiez l'ID de l'entité (SF\_MDS\_EntityType), cette valeur doit être la même que celle du fichier de mappage BOD.
+      ```properties
+      Static_Values=FileNameSeparator,ACLString
+      ```
+  *   Ensuite, assignez des valeurs à chaque variable statique en utilisant le préfixe **SV\_** :
 
-Assurez-vous que IndexFieldFromDocBits=IDMAttributeID (vérifiez si DocBits à gauche dans les paramètres de champ correspond à IDM à droite dans Type de document → Attributs).
+      ```properties
+      SV_FileNameSeparator=_
+      SV_ACLString=Public
+      ```
+
+```properties
+#Define mappings for the static values
+#Example: Static_Values=<StaticVariableName>
+Static_Values=FileNameSeparator,ACLString
+#Example: SF_<StaticVariableName> = StaticValue
+SV_FileNameSeparator=_
+SV_ACLString=Public
+```
+
+* **Définition du Champ ACL**
+
+```properties
+Define ACL Field value
+#Example: ACL_Fields= Concatenation of other defined fields that together should be a valid ACL in IDM
+ACL_Fields=SV_ACLString
+```
+
+* **Nom Recherchable dans IDM**
+  * Le **Nom PDF Recherchable** sera le nom du document dans IDM.
+
+```properties
+#Define Resource Mapping
+#Example: Searchable_PDF_Name= Concatenation of other defined fields
+Searchable_PDF_Name=IF_INVOICE_ID
+```
+
+## Mapping des Champs
+
+```properties
+#Define index fields
+#Example: Index_Fields=<IndexFieldIdFromIDM>:<type>
+Index_Fields=INVOICE_ID:STRING,INVOICE_DATE:STRING,COMPANY:STRING,DIVISION:STRING,DIVISION_NO:STRING,CORRELATION_ID:STRING,SUPPLIER_ID:STRING,SUPPLIER_NAME:STRING
+#Example: IF_<DocBitsFieldID> = <IDMAttributeId>
+IF_INVOICE_ID=BOD_SupplierInvoiceID
+IF_CORRELATION_ID=BOD_AlternateDocumentID_1
+IF_INVOICE_DATE=M3_InvoiceDate
+IF_COMPANY=M3_Company
+IF_DIVISION=M3_Division
+IF_DIVISION_NO=BOD_AccountingEntityID
+IF_SUPPLIER_ID=BOD_RemitToPartyID
+IF_SUPPLIER_NAME=BOD_SupplierPartyID
+```
+
+*   Commencez par lister tous les champs d'index utilisés, en spécifiant l'ID et le type de champ.
+
+    ```properties
+    Index_Fields=INVOICE_ID:STRING,INVOICE_DATE:STRING,COMPANY:STRING,DIVISION:STRING,DIVISION_NO:STRING,CORRELATION_ID:STRING,SUPPLIER_ID:STRING,SUPPLIER_NAME:STRING
+    ```
+*   Chaque champ mappé suit le format :
+
+    ```properties
+    IF_<DocBitsFieldID> = <IDMAttributeId>
+    ```
+
+    * Confirmez que **IndexFieldFromDocBits = IDMAttributeID**, en vous assurant que le mapping des champs dans DocBits est en accord avec les attributs dans IDM (Type de Document → Attributs). Un guide sur la façon de naviguer dans IDM peut être trouvé dans le Gestionnaire de Documents dans IDM sur cette page.
+
+![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FzT9MMKlFCSBJtRW1pf4s%2Fimage.png?alt=media\&token=ea2f6ae2-f9f2-48d3-98e3-ed06dcda69f1)
 
 ### Exportation de fichiers XML et EDI
 
