@@ -1,6 +1,6 @@
 # Creating an IDM Mapping File
 
-## Required Fields for IDM Mapping File
+## Fields for IDM Mapping File
 
 When creating an IDM mapping file, the following fields are required:
 
@@ -40,6 +40,62 @@ SV_FileNameSeparator=_
 SV_ACLString=Public
 ```
 
+* **Static Fields**
+  * Static fields are used to set specific, unchanging values across all documents. These values remain consistent across documents.
+  *   Start by listing all the **Static** fields used, specifying the **IDMAttributeId** and type.
+
+      ```properties
+      Static_Fields=BOD_AccountingEntityID:STRING,M3_Company:STRING,M3_Division:STRING
+      ```
+  *   Then, assign static values to each field using the `SF_` prefix:
+
+      ```properties
+      SF_BOD_AccountingEntityID=921_VVB
+      SF_M3_Company=921
+      SF_M3_Division=VVB
+      ```
+
+```properties
+#Define mappings for the static fields
+#Example: Static_Fields=<IDMAttributeId>:<type>
+Static_Fields=BOD_AccountingEntityID:STRING,M3_Company:STRING,M3_Division:STRING
+#Example: SF_<IDMAttributeId> = StaticValue
+#SF_MDS_EntityType=InforERPEnterpriseFinancialsReceivedInvoice
+SF_BOD_AccountingEntityID=921_VVB
+SF_M3_Company=921
+SF_M3_Division=VVB
+```
+
+* **Index Fields**&#x20;
+  *   Start by listing all the index fields used, specifying the **IDMAttributeId** and type.
+
+      ```properties
+      Index_Fields=delivery_note_id:STRING,delivery_date:STRING,CORRELATION_ID:STRING,ACCOUNTING_ENTITY:STRING,GROUP_ACCOUNTING_ENTITY:STRING,supplier_name:STRING,supplier_id:STRING,purchase_order:STRING
+      ```
+  *   Each mapped field follows the format:
+
+      ```properties
+      IF_<DocBitsFieldID> = <IDMAttributeId>
+      ```
+
+      * Confirm that **IndexFieldFromDocBits = IDMAttributeID**, ensuring that the field mapping in DocBits aligns with the attributes in IDM (Document Type → Attributes).\
+        A Guide on how to navigate in IDM can be found at Document Manager in IDM on this page.
+
+```properties
+#Define index fields
+#Example: Index_Fields=<IndexFieldIdFromIDM>:<type>
+Index_Fields=INVOICE_ID:STRING,INVOICE_DATE:STRING,COMPANY:STRING,DIVISION:STRING,DIVISION_NO:STRING,CORRELATION_ID:STRING,SUPPLIER_ID:STRING,SUPPLIER_NAME:STRING
+#Example: IF_<DocBitsFieldID> = <IDMAttributeId>
+IF_INVOICE_ID=BOD_SupplierInvoiceID
+IF_CORRELATION_ID=BOD_AlternateDocumentID_1
+IF_INVOICE_DATE=M3_InvoiceDate
+IF_COMPANY=M3_Company
+IF_DIVISION=M3_Division
+IF_DIVISION_NO=BOD_AccountingEntityID
+IF_SUPPLIER_ID=BOD_RemitToPartyID
+IF_SUPPLIER_NAME=BOD_SupplierPartyID
+```
+
 * **ACL Field Definition**
 
 ```properties
@@ -57,32 +113,7 @@ ACL_Fields=SV_ACLString
 Searchable_PDF_Name=IF_INVOICE_ID 
 ```
 
-### Field Mapping
 
-```properties
-#Example: Index_Fields=<IndexFieldIdFromIDM>:<type>
-Index_Fields=delivery_note_id:STRING,delivery_date:STRING,CORRELATION_ID:STRING,ACCOUNTING_ENTITY:STRING,GROUP_ACCOUNTING_ENTITY:STRING,supplier_name:STRING,supplier_id:STRING,purchase_order:STRING
-#Example: IF_<IndexFieldIdFromEphesoft> = <IDMAttributeId>
-IF_delivery_note_id=Delivery_Note_Id
-IF_delivery_date=Document_Date
-IF_supplier_name=SupplierName
-IF_supplier_id=Supplier_Id
-IF_purchase_order=Purchase_Order
-```
-
-*   Start by listing all the index fields used, specifying the field ID and type.
-
-    ```properties
-    Index_Fields=delivery_note_id:STRING,delivery_date:STRING,CORRELATION_ID:STRING,ACCOUNTING_ENTITY:STRING,GROUP_ACCOUNTING_ENTITY:STRING,supplier_name:STRING,supplier_id:STRING,purchase_order:STRING
-    ```
-*   Each mapped field follows the format:
-
-    ```properties
-    IF_<DocBitsFieldID> = <IDMAttributeId>
-    ```
-
-    * Confirm that **IndexFieldFromDocBits = IDMAttributeID**, ensuring that the field mapping in DocBits aligns with the attributes in IDM (Document Type → Attributes).\
-      A Guide on how to navigate in IDM can be found at Document Manager in IDM on this page.
 
 <figure><img src="../../.gitbook/assets/image (428).png" alt=""><figcaption></figcaption></figure>
 
