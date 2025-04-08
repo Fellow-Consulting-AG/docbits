@@ -33,7 +33,6 @@
     * [Document Status](end-user-and-partner-section/end-user-section/dashboard/document-status.md)
     * [Filtering Documents](end-user-and-partner-section/end-user-section/dashboard/filtering-documents.md)
     * [Import Log](end-user-and-partner-section/end-user-section/dashboard/import-log.md)
-    * [Leave with ESC](end-user-and-partner-section/end-user-section/dashboard/leave-with-esc.md)
     * [Overview of Uploaded Documents](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Task Counter](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Validated Extracted Fields](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)
