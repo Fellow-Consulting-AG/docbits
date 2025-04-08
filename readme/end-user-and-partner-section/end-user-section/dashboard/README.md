@@ -8,4 +8,4 @@ Après vous être connecté avec vos identifiants, vous serez redirigé vers la 
 
 <figure><img src="../../../.gitbook/assets/dashboard.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image%20(26).png" alt=""><figcaption></figcaption></figure>
+{% embed url="https://www.youtube.com/watch?v=n5s5cQPncUY" %}
