@@ -23,7 +23,6 @@
     * [Status Dokumentu](end-user-and-partner-section/end-user-section/dashboard/document-status.md)
     * [Filtrowanie Dokumentów](end-user-and-partner-section/end-user-section/dashboard/filtering-documents.md)
     * [Dziennik Importu](end-user-and-partner-section/end-user-section/dashboard/import-log.md)
-    * [Wyjdź za pomocą ESC](end-user-and-partner-section/end-user-section/dashboard/leave-with-esc.md)
     * [Przegląd Przesłanych Dokumentów](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Licznik Zadań](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Zweryfikowane Wyodrębnione Pola](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)

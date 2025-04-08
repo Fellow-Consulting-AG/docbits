@@ -6,6 +6,7 @@ Pracując w sekcji walidacji pola, użytkownicy mogą korzystać z tych skrótó
 
 * **Enter** – Przenosi kursor do następnego pola w sekwencji walidacji.
 * **Tab** – Waliduje bieżące pole i automatycznie przeskakuje do następnego pola, które wymaga walidacji, pomijając już zwalidowane pola.
+* **ESC** – Przenosi z powrotem do Pulpitu.
 * **Option + K** – Otwiera menu skrótów klawiaturowych specyficzne dla sekcji walidacji pola.
 * **Space** – Przełącza zaznaczenie pola wyboru, umożliwiając użytkownikom szybkie zaznaczanie lub odznaczanie opcji.
 * **Option + G** – Przenosi fokus do następnej grupy powiązanych pól, co pomaga w efektywnej nawigacji po zorganizowanych sekcjach wprowadzania danych.
