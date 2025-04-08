@@ -8,4 +8,4 @@ After logging in with your credentials, you will be redirected to the DocBits Da
 
 <figure><img src="../../../.gitbook/assets/dashboard.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://youtu.be/9zkEbAqBLLg?si=hKeh1ir89dnQQT5l" %}
+{% embed url="https://www.youtube.com/watch?v=n5s5cQPncUY" %}
