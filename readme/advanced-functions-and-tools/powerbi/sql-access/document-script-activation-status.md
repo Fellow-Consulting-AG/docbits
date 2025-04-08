@@ -1,4 +1,4 @@
-# public.document\_script\_activation\_status
+# Document Script activation status
 
 ## Tabelle `public.document_script_activation_status`
 

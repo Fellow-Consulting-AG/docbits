@@ -1,4 +1,4 @@
-# sub\_organisation\_cache
+# Sub Organisation Cache
 
 ## Tabelle `public.sub_organisation_cache`
 
