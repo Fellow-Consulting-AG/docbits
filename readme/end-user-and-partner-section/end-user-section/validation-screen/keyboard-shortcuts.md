@@ -6,6 +6,7 @@ Quando si lavora nella sezione di validazione dei campi, gli utenti possono util
 
 * **Enter** – Sposta il cursore al campo successivo nella sequenza di validazione.
 * **Tab** – Valida il campo attuale e salta automaticamente al campo successivo che richiede validazione, ignorando i campi già validati.
+* **ESC** – Ti riporta al Dashboard.
 * **Option + K** – Apre il menu delle scorciatoie da tastiera specifico per la sezione di validazione dei campi.
 * **Space** – Attiva o disattiva la selezione di una casella di controllo, consentendo agli utenti di contrassegnare o rimuovere rapidamente le opzioni.
 * **Option + G** – Sposta il focus al gruppo successivo di campi correlati, aiutando a navigare efficientemente nelle sezioni di input strutturato.
