@@ -6,6 +6,7 @@ Bei der Arbeit im Bereich der Feldvalidierung können Benutzer diese Tastenkombi
 
 * **Enter** – Bewegt den Cursor zum nächsten Feld in der Validierungssequenz.
 * **Tab** – Validiert das aktuelle Feld und springt automatisch zum nächsten Feld, das eine Validierung erfordert, wobei bereits validierte Felder übersprungen werden.
+* **ESC** – Bringt Sie zurück zum Dashboard.
 * **Option + K** – Öffnet das Menü für Tastenkombinationen, das speziell für den Bereich der Feldvalidierung gilt.
 * **Space** – Schaltet die Auswahl eines Kontrollkästchens um, sodass Benutzer Optionen schnell markieren oder abwählen können.
 * **Option + G** – Verschiebt den Fokus zur nächsten Gruppe verwandter Felder, um die Navigation in strukturierten Eingabebereichen effizient zu gestalten.

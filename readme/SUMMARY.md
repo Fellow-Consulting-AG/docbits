@@ -20,7 +20,6 @@
     * [Dokumentenstatus](end-user-section/dashboard/document-status.md)
     * [Dokumente filtern](end-user-section/dashboard/filtering-documents.md)
     * [Importprotokoll](end-user-section/dashboard/import-log.md)
-    * [Mit ESC verlassen](end-user-section/dashboard/leave-with-esc.md)
     * [Übersicht der hochgeladenen Dokumente](end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Aufgabenzähler](end-user-section/dashboard/task-counter.md)
     * [Validierte extrahierte Felder](end-user-section/dashboard/validated-extracted-fields.md)
