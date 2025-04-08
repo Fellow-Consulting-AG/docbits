@@ -6,6 +6,7 @@ Lorsqu'ils travaillent dans la section de validation des champs, les utilisateur
 
 * **Enter** – Déplace le curseur vers le champ suivant dans la séquence de validation.
 * **Tab** – Valide le champ actuel et passe automatiquement au champ suivant nécessitant une validation, en sautant les champs déjà validés.
+* **ESC** – Vous ramène au Tableau de Bord.
 * **Option + K** – Ouvre le menu des raccourcis clavier spécifique à la section de validation des champs.
 * **Space** – Bascule la sélection d'une case à cocher, permettant aux utilisateurs de marquer ou de désélectionner rapidement des options.
 * **Option + G** – Déplace le focus vers le groupe suivant de champs liés, aidant à naviguer efficacement dans les sections de saisie structurées.
