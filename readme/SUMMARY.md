@@ -23,7 +23,6 @@
     * [Estado del documento](end-user-and-partner-section/end-user-section/dashboard/document-status.md)
     * [Filtrar documentos](end-user-and-partner-section/end-user-section/dashboard/filtering-documents.md)
     * [Registro de importación](end-user-and-partner-section/end-user-section/dashboard/import-log.md)
-    * [Salir con ESC](end-user-and-partner-section/end-user-section/dashboard/leave-with-esc.md)
     * [Resumen de documentos cargados](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Contador de tareas](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Campos extraídos validados](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)

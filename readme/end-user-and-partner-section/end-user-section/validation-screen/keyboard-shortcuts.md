@@ -6,6 +6,7 @@ Al trabajar dentro de la sección de validación de campos, los usuarios pueden 
 
 * **Enter** – Mueve el cursor al siguiente campo en la secuencia de validación.
 * **Tab** – Valida el campo actual y salta automáticamente al siguiente campo que requiere validación, omitiendo los campos ya validados.
+* **ESC** – Te lleva de vuelta al Panel.
 * **Option + K** – Abre el menú de atajos de teclado específico para la sección de validación de campos.
 * **Space** – Alterna la selección de una casilla de verificación, permitiendo a los usuarios marcar o desmarcar opciones rápidamente.
 * **Option + G** – Mueve el enfoque al siguiente grupo de campos relacionados, ayudando a navegar por secciones de entrada estructuradas de manera eficiente.
