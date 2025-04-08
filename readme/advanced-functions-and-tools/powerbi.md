@@ -8,7 +8,7 @@ description: How to configure PowerBI
 
     * You'll need the ODBC driver for ClickHouse to create a bridge to PowerBI. Head over to the ClickHouse official website or GitHub page to download and install the latest ODBC driver for ClickHouse. Just follow the setup wizard.
 
-    <div align="left"><figure><img src="../../.gitbook/assets/1 (17).png" alt=""><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../.gitbook/assets/1 (17).png" alt=""><figcaption></figcaption></figure></div>
 2. Configuring the ODBC Data Source
    * Open your ODBC Data Source Administrator from the Control Panel. Yes, that old thing still has its uses.
    * Go to the "System DSN" tab and hit "Add". Scroll through the list and find the ClickHouse ODBC driver you just installed. Give it a click.

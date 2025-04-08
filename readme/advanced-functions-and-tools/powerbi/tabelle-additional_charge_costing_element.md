@@ -1,4 +1,4 @@
-# public.additional\_charge\_costing\_element
+# Tabelle additional\_charge\_costing\_element
 
 ## Tabelle `public.additional_charge_costing_element`
 

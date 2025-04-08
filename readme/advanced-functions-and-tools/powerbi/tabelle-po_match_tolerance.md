@@ -1,4 +1,4 @@
-# public.po\_match\_tolerance
+# Tabelle po\_match\_tolerance
 
 ## Tabelle `public.po_match_tolerance`
 

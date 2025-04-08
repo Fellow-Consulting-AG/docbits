@@ -1,4 +1,4 @@
-# public.custom\_classification\_document\_label
+# Tabelle custom\_classification\_document\_label
 
 ## Tabelle `public.custom_classification_document_label`
 

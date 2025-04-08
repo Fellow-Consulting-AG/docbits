@@ -1,4 +1,4 @@
-# public.training\_data
+# Tabelle training\_data
 
 ## Tabelle `public.training_data`
 

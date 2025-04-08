@@ -1,4 +1,4 @@
-# Tabelle public.organisation\_document\_type
+# Tabelle organisation\_document\_type
 
 ## Spalten
 
