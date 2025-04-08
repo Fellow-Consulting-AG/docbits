@@ -6,6 +6,7 @@ When working within the field validation section, users can utilize these shortc
 
 * **Enter** – Moves the cursor to the next field in the validation sequence.
 * **Tab** – Validates the current field and automatically jumps to the next field that requires validation, skipping already validated fields.
+* **ESC** - Takes you back to the Dashboard.
 * **Control + K** – Opens the keyboard shortcut menu specific to the field validation section.
 * **Control + H** – Opens the documentation page for more information and assistance.
 * **Space** – Toggles a checkbox selection, allowing users to quickly mark or unmark options.
