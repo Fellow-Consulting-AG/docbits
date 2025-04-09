@@ -41,6 +41,21 @@
 
 ​
 
+## Wydanie Hot Fix Winter Frost 10 kwietnia 2025
+
+### Ulepszenia DocBits:
+
+* **Ulepszona** **`set_column_date_value`** **Funkcja Skryptu:** Funkcja `set_column_date_value` teraz obsługuje opcję `skip_weekend`, co pozwala na automatyczne pomijanie weekendów przy stosowaniu wartości daty.
+* **Poprawione wsparcie dla przesyłania plików:** Pliki PNG i JPEG mogą teraz być przesyłane bezpośrednio i są automatycznie konwertowane na format PDF w celu uproszczenia obsługi dokumentów.
+* **Ulepszenia funkcjonalności Watchdog:**
+  * Teraz obsługuje eksport do **Enaio** dla lepszej integracji systemowej.
+  * Ulepszone możliwości analizy w celu wydobywania informacji z struktur XML `Sync.ContentDocument`, co umożliwia bardziej efektywne przetwarzanie danych.
+
+### Poprawki błędów
+
+* Naprawiono problem z funkcją skryptu.
+* Rozwiązano problem, w którym zamówienia zakupu miały błędny status po ich aktualizacji.
+
 ## Wydanie Hot Fix Winter Frost 11 marca 2025
 
 ### Ulepszenia DocBits:
