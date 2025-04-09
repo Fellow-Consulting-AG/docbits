@@ -45,6 +45,25 @@
 * Fixed an issue where Users can be added to a sub-organization twice&#x20;
 * Fixed an issue where changing the sub-organization for a document caused to reset the assigned user or group
 
+## Release Hot Fix Winter Frost  10th April 2025
+
+### DocBits enhancements:
+
+* **Enhanced `set_column_date_value` Script Function:**\
+  The `set_column_date_value` function now includes support for the `skip_weekend` option, allowing date values to automatically skip weekends when applied.
+* **Improved File Upload Support:**\
+  PNG and JPEG files can now be uploaded directly and are automatically converted into PDF format for streamlined document handling.
+* **Watchdog Functionality Upgrades:**
+  * Now supports export to **Enaio** for better system integration.
+  * Enhanced parsing capabilities to extract information from `Sync.ContentDocument` XML structures, enabling more efficient data processing.
+
+### Bug Fixes
+
+* Fixed an issue on a script function.
+* Resolved an issue where Purchase orders had a wrong status after they where updated&#x20;
+
+
+
 ## Release Hot Fix Winter Frost  17th March 2025
 
 ### Bug Fixes
