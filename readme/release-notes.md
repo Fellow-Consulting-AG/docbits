@@ -41,6 +41,21 @@
 
 ​
 
+## Correção Rápida de Lançamento Inverno Frost 10 de Abril de 2025
+
+### Melhorias no DocBits:
+
+* **Função de Script `set_column_date_value` Aprimorada:** A função `set_column_date_value` agora inclui suporte para a opção `skip_weekend`, permitindo que os valores de data pulem automaticamente os finais de semana quando aplicados.
+* **Suporte Aprimorado para Upload de Arquivos:** Arquivos PNG e JPEG agora podem ser carregados diretamente e são automaticamente convertidos para o formato PDF para um manuseio de documentos mais eficiente.
+* **Atualizações na Funcionalidade de Watchdog:**
+  * Agora suporta exportação para **Enaio** para melhor integração do sistema.
+  * Capacidades de análise aprimoradas para extrair informações de estruturas XML `Sync.ContentDocument`, permitindo um processamento de dados mais eficiente.
+
+### Correções de Bugs
+
+* Corrigido um problema em uma função de script.
+* Resolvido um problema onde os pedidos de compra tinham um status incorreto após serem atualizados.
+
 ## Lançamento Hot Fix Winter Frost 11 de Março de 2025
 
 ### Melhorias no DocBits:
