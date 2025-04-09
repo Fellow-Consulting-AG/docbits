@@ -17,15 +17,20 @@
     * <mark style="color:red;">**Note**</mark>**:  It is recommended to use local paths. These should match the folders in the DocBits Installation**
 3. **General Settings**
    *   Select the document types to process by checking the corresponding checkboxes\
+       \
 
 
-       <figure><img src="../../.gitbook/assets/image (424).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
    * **Barcode Divider:** When turned on enables the barcode dividing.
    * **DocBits Operator:** When enabled opens a chrome browser in the background for the DocBits Operator.
-   * **Export destination:** Sets the export destination.&#x20;
-     * **Infor:** Documnets get exported to Infor.
-     * **Export Folder:** Documents get exported to a defined folder that can be configured below.\
+   *   **Export destination:** Sets the export destination.&#x20;
 
+       * **Infor:** Documnets get exported to Infor.
+       * **Enaoi Export:** Documents get exported to a defined folder that can be configured below.&#x20;
+
+       <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+       * <mark style="color:red;">**Note:**</mark> **For XSLT configuration, please consult your project manager.**
 4. **Export Configurations**
    * Displays all configured exports for **on-premise processing**.
    *   Shows the timestamp of the **last successful connection** for each configuration.\
