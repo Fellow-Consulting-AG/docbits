@@ -1,11 +1,20 @@
 # Filtering Documents
 
-If you are looking for a specific document or documents, then you have the following available to you. Within the search bar we have provided you with various tools to find the document you are searching for, in order to access them, select the following icon.
+You can search for specific documents by entering the document name or ID into the search bar, as shown below.
 
-<figure><img src="../../../.gitbook/assets/filtering-documents.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FilteringDocs_1.png" alt=""><figcaption></figcaption></figure>
 
-The following filter options will become available to you.
+For more refined filtering, click the icon on the right side of the search bar to select specific criteria for searching documents.
 
-![](https://lh7-us.googleusercontent.com/VViCqWz9H_347QkeQ-CNQLP-XifbTD5058czQEhhk7q2AHs5oZqh79XOg_HyxTiAdcUiyJn0tDiblH8UwRZnq20E_Nia4u1sAOZEnEVJgcsVUN3K5MMb5d8hu1Jn0lTuRMMcz9nEASiW2mC4gKWZkhI)
+<figure><img src="../../../.gitbook/assets/FilteringDocs_2.png" alt=""><figcaption></figcaption></figure>
 
-We provide you with the option to filter by document type, status of the document, the assignee of the document and by the date.
+The following filter options will be available for you to use.
+
+* **Document Type**: Type of the document (e.g., Invoice, Purchase Order).
+* **Status**: Processing status (e.g., Ready for validation, Rejected).
+* **Assigned To**: User to whom the document is assigned.
+* **Assigned to group**: Group to which the document is assigned.
+* **Start date / End date**: Date range in which the documents were imported.
+* **Restart Required**: Documents that require a restart.
+
+Click "Apply" to apply the filters, or click "Clear Filters" to reset them.
