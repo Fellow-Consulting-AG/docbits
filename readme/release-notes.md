@@ -41,6 +41,21 @@
 
 ​
 
+## Correctif de version Winter Frost 10 avril 2025
+
+### Améliorations de DocBits :
+
+* **Amélioration de la fonction de script** **`set_column_date_value` :** La fonction `set_column_date_value` inclut désormais le support de l'option `skip_weekend`, permettant aux valeurs de date de sauter automatiquement les week-ends lorsqu'elles sont appliquées.
+* **Amélioration du support de téléchargement de fichiers :** Les fichiers PNG et JPEG peuvent désormais être téléchargés directement et sont automatiquement convertis en format PDF pour une gestion simplifiée des documents.
+* **Améliorations de la fonctionnalité Watchdog :**
+  * Prend désormais en charge l'exportation vers **Enaio** pour une meilleure intégration système.
+  * Capacités de parsing améliorées pour extraire des informations des structures XML `Sync.ContentDocument`, permettant un traitement des données plus efficace.
+
+### Corrections de bogues
+
+* Correction d'un problème sur une fonction de script.
+* Résolution d'un problème où les commandes d'achat avaient un statut incorrect après leur mise à jour.
+
 ## Release Hot Fix Winter Frost 11 mars 2025
 
 ### Améliorations de DocBits :
