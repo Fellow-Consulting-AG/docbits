@@ -21,7 +21,7 @@
     * [Modificare le Colonne del Documento](end-user-and-partner-section/end-user-section/dashboard/change-document-columns.md)
     * [Unione di Documenti](end-user-and-partner-section/end-user-section/dashboard/document-merging.md)
     * [Stato del documento](end-user-and-partner-section/end-user-section/dashboard/document-status.md)
-    * [Filtraggio documenti](end-user-and-partner-section/end-user-section/dashboard/filtering-documents.md)
+    * [Filtrare Documenti](end-user-and-partner-section/end-user-section/dashboard/filtering-documents.md)
     * [Registro di importazione](end-user-and-partner-section/end-user-section/dashboard/import-log.md)
     * [Panoramica dei documenti caricati](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Contatore di attività](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
