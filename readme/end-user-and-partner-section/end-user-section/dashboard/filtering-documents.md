@@ -1,11 +1,20 @@
 # Filtrage des documents
 
-Si vous recherchez un document spécifique ou des documents, vous disposez des outils suivants. Dans la barre de recherche, nous vous avons fourni divers outils pour trouver le document que vous recherchez, afin d'y accéder, sélectionnez l'icône suivante.
+Vous pouvez rechercher des documents spécifiques en saisissant le nom ou l'ID du document dans la barre de recherche, comme indiqué ci-dessous.
 
-<figure><img src="../../../.gitbook/assets/filtering-documents.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FilteringDocs_1_fr.png" alt=""><figcaption></figcaption></figure>
 
-Les options de filtre suivantes seront disponibles pour vous.
+Pour un filtrage plus précis, cliquez sur l'icône à droite de la barre de recherche pour sélectionner des critères spécifiques pour rechercher des documents.
 
-![](https://lh7-us.googleusercontent.com/VViCqWz9H_347QkeQ-CNQLP-XifbTD5058czQEhhk7q2AHs5oZqh79XOg_HyxTiAdcUiyJn0tDiblH8UwRZnq20E_Nia4u1sAOZEnEVJgcsVUN3K5MMb5d8hu1Jn0lTuRMMcz9nEASiW2mC4gKWZkhI)
+<figure><img src="../../../.gitbook/assets/FilteringDocs_2_fr.png" alt=""><figcaption></figcaption></figure>
 
-Nous vous offrons la possibilité de filtrer par type de document, statut du document, le destinataire du document et par date.
+Les options de filtrage suivantes seront disponibles pour vous.
+
+* **Type de document**: Type de document (par exemple, Facture, Bon de commande).
+* **Statut**: Statut de traitement (par exemple, Prêt pour validation, Rejeté).
+* **Assigné à**: Utilisateur auquel le document est assigné.
+* **Assigné au groupe**: Groupe auquel le document est assigné.
+* **Date de début / Date de fin**: Plage de dates dans laquelle les documents ont été importés.
+* **Redémarrage nécessaire**: Documents nécessitant un redémarrage.
+
+Cliquez sur "Appliquer" pour appliquer les filtres, ou cliquez sur "Effacer les filtres" pour les réinitialiser.
