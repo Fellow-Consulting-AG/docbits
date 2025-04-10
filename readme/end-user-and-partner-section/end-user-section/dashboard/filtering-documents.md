@@ -1,11 +1,20 @@
 # Filtrando Documentos
 
-Se você está procurando um documento ou documentos específicos, então você tem o seguinte disponível. Dentro da barra de pesquisa, fornecemos várias ferramentas para encontrar o documento que você está procurando. Para acessá-las, selecione o seguinte ícone.
+Você pode buscar documentos específicos inserindo o nome ou ID do documento na barra de pesquisa, conforme mostrado abaixo.
 
-<figure><img src="../../../.gitbook/assets/filtering-documents.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FilteringDocs_1.png" alt=""><figcaption></figcaption></figure>
 
-As seguintes opções de filtro estarão disponíveis para você.
+Para uma filtragem mais refinada, clique no ícone no lado direito da barra de pesquisa para selecionar critérios específicos para buscar documentos.
 
-![](https://lh7-us.googleusercontent.com/VViCqWz9H_347QkeQ-CNQLP-XifbTD5058czQEhhk7q2AHs5oZqh79XOg_HyxTiAdcUiyJn0tDiblH8UwRZnq20E_Nia4u1sAOZEnEVJgcsVUN3K5MMb5d8hu1Jn0lTuRMMcz9nEASiW2mC4gKWZkhI)
+<figure><img src="../../../.gitbook/assets/FilteringDocs_2.png" alt=""><figcaption></figcaption></figure>
 
-Oferecemos a opção de filtrar por tipo de documento, status do documento, responsável pelo documento e pela data.
+As seguintes opções de filtro estarão disponíveis para você usar.
+
+* **Tipo de Documento**: Tipo do documento (por exemplo, Invoice, Purchase Order).
+* **Status**: Status de processamento (por exemplo, Ready for validation, Rejected).
+* **Atribuído a**: Usuário ao qual o documento está atribuído.
+* **Atribuído ao grupo**: Grupo ao qual o documento está atribuído.
+* **Data de início / Data de término**: Intervalo de datas em que os documentos foram importados.
+* **Reinício Necessário**: Documentos que requerem um reinício.
+
+Clique em "Apply" para aplicar os filtros ou clique em "Clear Filters" para redefini-los.
