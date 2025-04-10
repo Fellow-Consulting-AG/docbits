@@ -1,11 +1,20 @@
 # Filtrowanie Dokumentów
 
-Jeśli szukasz określonego dokumentu lub dokumentów, masz do dyspozycji następujące opcje. W pasku wyszukiwania udostępniliśmy Ci różne narzędzia do znalezienia poszukiwanego dokumentu, aby uzyskać do nich dostęp, wybierz następującą ikonę.
+Możesz wyszukiwać konkretne dokumenty, wpisując nazwę dokumentu lub ID w pasku wyszukiwania, jak pokazano poniżej.
 
-<figure><img src="../../../.gitbook/assets/filtering-documents.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FilteringDocs_1.png" alt=""><figcaption></figcaption></figure>
 
-Poniższe opcje filtrowania staną się dla Ciebie dostępne.
+Aby uzyskać bardziej precyzyjne filtrowanie, kliknij ikonę po prawej stronie paska wyszukiwania, aby wybrać konkretne kryteria wyszukiwania dokumentów.
 
-![](https://lh7-us.googleusercontent.com/VViCqWz9H_347QkeQ-CNQLP-XifbTD5058czQEhhk7q2AHs5oZqh79XOg_HyxTiAdcUiyJn0tDiblH8UwRZnq20E_Nia4u1sAOZEnEVJgcsVUN3K5MMb5d8hu1Jn0lTuRMMcz9nEASiW2mC4gKWZkhI)
+<figure><img src="../../../.gitbook/assets/FilteringDocs_2.png" alt=""><figcaption></figcaption></figure>
 
-Oferujemy Ci opcję filtrowania według typu dokumentu, statusu dokumentu, osoby odpowiedzialnej za dokument oraz według daty.
+Następujące opcje filtrów będą dostępne do użycia.
+
+* **Typ dokumentu**: Typ dokumentu (np. Faktura, Zamówienie zakupu).
+* **Status**: Status przetwarzania (np. Gotowy do walidacji, Odrzucony).
+* **Przydzielony do**: Użytkownik, do którego dokument jest przypisany.
+* **Przydzielony do grupy**: Grupa, do której dokument jest przypisany.
+* **Data rozpoczęcia / Data zakończenia**: Zakres dat, w którym dokumenty zostały zaimportowane.
+* **Wymagany restart**: Dokumenty, które wymagają ponownego uruchomienia.
+
+Kliknij "Zastosuj", aby zastosować filtry, lub kliknij "Wyczyść filtry", aby je zresetować.
