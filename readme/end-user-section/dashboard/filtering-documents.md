@@ -1,11 +1,20 @@
 # Dokumente filtern
 
-Wenn Sie nach einem bestimmten Dokument oder Dokumenten suchen, stehen Ihnen folgende Optionen zur Verfügung. In der Suchleiste haben wir Ihnen verschiedene Tools zur Verfügung gestellt, um das von Ihnen gesuchte Dokument zu finden. Um darauf zuzugreifen, wählen Sie das folgende Symbol aus.
+Sie können nach bestimmten Dokumenten suchen, indem Sie den Dokumentnamen oder die ID in die Suchleiste eingeben, wie unten gezeigt.
 
-<figure><img src="../../.gitbook/assets/filtering-documents.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FilteringDocs_1_de.png" alt=""><figcaption></figcaption></figure>
+
+Für eine verfeinerte Filterung klicken Sie auf das Symbol auf der rechten Seite der Suchleiste, um spezifische Kriterien für die Dokumentensuche auszuwählen.
+
+<figure><img src="../../.gitbook/assets/FilteringDocs_2_de.png" alt=""><figcaption></figcaption></figure>
 
 Die folgenden Filteroptionen stehen Ihnen zur Verfügung.
 
-![](https://lh7-us.googleusercontent.com/VViCqWz9H_347QkeQ-CNQLP-XifbTD5058czQEhhk7q2AHs5oZqh79XOg_HyxTiAdcUiyJn0tDiblH8UwRZnq20E_Nia4u1sAOZEnEVJgcsVUN3K5MMb5d8hu1Jn0lTuRMMcz9nEASiW2mC4gKWZkhI)
+* **Art des Dokuments**: Typ des Dokuments (z. B. Rechnung, Bestellung).
+* **Status**: Verarbeitungsstatus (z. B. Bereit zur Validierung, Abgelehnt).
+* **Zuständig**: Benutzer, dem das Dokument zugewiesen ist.
+* **Zugewiesen an Gruppe**: Gruppe, der das Dokument zugewiesen ist.
+* **Startdatum / Enddatum**: Datumsbereich, in dem die Dokumente importiert wurden.
+* **Neustart erforderlich**: Dokumente, die einen Neustart erfordern.
 
-Wir bieten Ihnen die Möglichkeit, nach Dokumententyp, Status des Dokuments, dem Beauftragten des Dokuments und nach dem Datum zu filtern.
+Klicken Sie auf "Anwenden", um die Filter anzuwenden, oder klicken Sie auf "Filter löschen", um sie zurückzusetzen.
