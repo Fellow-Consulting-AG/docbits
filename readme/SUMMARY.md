@@ -32,7 +32,7 @@
     * [Scorciatoie da Tastiera](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
   * [Attività](end-user-and-partner-section/end-user-section/tasks.md)
   * [Dashboard Spedizioni Anticipate](end-user-and-partner-section/end-user-section/advance-shipment-dashboard.md)
-  * [Ordine di Acquisto](end-user-and-partner-section/end-user-section/purchase-order.md)
+  * [Dashboard degli ordini di acquisto](end-user-and-partner-section/end-user-section/purchase-order-dashboard.md)
   * [Dashboard Fatture](end-user-and-partner-section/end-user-section/invoice-dashboard.md)
   * [Dashboard Ordini di Spedizione](end-user-and-partner-section/end-user-section/shipment-order-dashboard.md)
   * [Opzioni di Configurazione Utente](end-user-and-partner-section/end-user-section/user-configuration-options.md)
