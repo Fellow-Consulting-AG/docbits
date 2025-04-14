@@ -32,7 +32,7 @@
     * [Skróty Klawiaturowe](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
   * [Zadania](end-user-and-partner-section/end-user-section/tasks.md)
   * [Panel Kontroli Wysyłek Zaawansowanych](end-user-and-partner-section/end-user-section/advance-shipment-dashboard.md)
-  * [Zamówienie Zakupu](end-user-and-partner-section/end-user-section/purchase-order.md)
+  * [Pulpit nawigacyjny zamówienia zakupu](end-user-and-partner-section/end-user-section/purchase-order-dashboard.md)
   * [Dashboard Faktur](end-user-and-partner-section/end-user-section/invoice-dashboard.md)
   * [Panel Zamówień Wysyłkowych](end-user-and-partner-section/end-user-section/shipment-order-dashboard.md)
   * [Opcje Konfiguracji Użytkownika](end-user-and-partner-section/end-user-section/user-configuration-options.md)
