@@ -32,7 +32,7 @@
     * [Atalhos de Teclado](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
   * [Tarefas](end-user-and-partner-section/end-user-section/tasks.md)
   * [Painel de Envio Antecipado](end-user-and-partner-section/end-user-section/advance-shipment-dashboard.md)
-  * [Pedido de Compra](end-user-and-partner-section/end-user-section/purchase-order.md)
+  * [Painel de pedidos de compra](end-user-and-partner-section/end-user-section/purchase-order-dashboard.md)
   * [Painel de Faturas](end-user-and-partner-section/end-user-section/invoice-dashboard.md)
   * [Painel de Pedidos de Envio](end-user-and-partner-section/end-user-section/shipment-order-dashboard.md)
   * [Opções de Configuração do Usuário](end-user-and-partner-section/end-user-section/user-configuration-options.md)
