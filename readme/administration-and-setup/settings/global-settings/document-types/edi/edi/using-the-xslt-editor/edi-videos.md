@@ -6,7 +6,7 @@ This page contains a series of short video guides explaining how DocBits process
 
 **Video 1: Understanding the Structure Descriptor File:** This video explains the purpose and structure of the descriptor file used by DocBits to interpret EDI documents.
 
-
+{% embed url="https://youtu.be/_U6yyYFMo84" %}
 
 **Video 2: Working with the Transformation File:** This video demonstrates how the transformation file defines the rules for converting EDI data into the desired output format within DocBits.
 
