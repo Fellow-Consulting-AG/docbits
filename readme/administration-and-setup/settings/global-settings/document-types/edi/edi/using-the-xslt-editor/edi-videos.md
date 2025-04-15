@@ -4,7 +4,7 @@ This page contains a series of short video guides explaining how DocBits process
 
 
 
-**Video 1: Understanding the Structure Descriptor File:** This video explains the purpose and structure of the descriptor file used by DocBits to interpret EDI documents.
+**Video 1: Understanding the Structure Descriptor File:** This video explains the purpose of the structure descriptor file used by DocBits to interpret EDI documents.
 
 {% embed url="https://youtu.be/_U6yyYFMo84" %}
 
@@ -12,7 +12,7 @@ This page contains a series of short video guides explaining how DocBits process
 
 {% embed url="https://www.youtube.com/watch?v=x7ZNkx13D5I" %}
 
-**Video 3: Exploring the Preview Functionality:** This video showcases how the preview feature in DocBits allows you to visualize the processed EDI data before final output.
+**Video 3: Exploring the Preview Functionality:** This video showcases how the preview feature in DocBits allows you to visualize the processed EDI data.
 
 {% embed url="https://youtu.be/9ioes44TAWs" %}
 
