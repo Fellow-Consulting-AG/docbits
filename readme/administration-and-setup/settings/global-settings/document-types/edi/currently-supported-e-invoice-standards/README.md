@@ -7,6 +7,7 @@ DocBits supports the following e-invoicing formats:
 * **FatturaPA**
 * **PEPPOL BIS Billing 3.0**
 * **Factur-X Basic**
+* **EDIFACT INVOIC02**
 * **ZUGFeRD 1.0**
 * **ZUGFeRD 2.1**&#x20;
 * **ZUGFeRD 2.3**&#x20;
@@ -85,10 +86,16 @@ urn:zugferd:2p1:basic
 
 ```xml
 <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xeinkauf.de:kosit:xrechnung_3.X</cbc:CustomizationID>
+
 ```
 
-\
+*   **EDIFACT INVOIC02**
 
+    The expected ID  is:
+
+```xml
+<INVOIC02>
+```
 
 ## Roadmap for Upcoming Implementation
 
