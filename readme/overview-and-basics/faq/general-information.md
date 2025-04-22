@@ -28,8 +28,8 @@
 * .pdf
 * .edi
 * .xml
-* .tiff  (tif)
-* .jpeg  (jpg)
+* .tiff  (.tif)
+* .jpeg  (.jpg)
 * png
 
 </details>
