@@ -13,8 +13,6 @@
 
 </details>
 
-
-
 <details>
 
 <summary>Does DocBits support custom document types ? </summary>
@@ -22,8 +20,6 @@
 * Yes Users are able to create there own document types.
 
 </details>
-
-
 
 <details>
 
@@ -33,5 +29,7 @@
 * .edi
 * .xml
 * .tiff
+* .jpeg (jpg)
+* png
 
 </details>
