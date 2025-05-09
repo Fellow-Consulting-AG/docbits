@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Best Practice
 
 ## Configurare un dashboard che si allinei con le routine quotidiane degli utenti richiede una pianificazione e un'implementazione attente.

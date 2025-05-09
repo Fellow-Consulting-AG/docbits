@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Modificare le Colonne del Documento
 
 Dal Dashboard, clicca sull'icona delle Impostazioni Avanzate come mostrato di seguito:
