@@ -86,7 +86,7 @@ Użyj tego przycisku, aby bezpośrednio zeskanować dokument.
 
 Aby skorzystać z tej funkcji, musisz mieć skaner podłączony do swojego systemu. Jeśli skaner jest dostępny, możesz go wybrać po prawej stronie, nadać nazwę swojemu dokumentowi i kliknąć 'Skanuj'. Opcjonalnie możesz dostosować ustawienia skanowania po prawej stronie przed rozpoczęciem procesu.
 
-<mark style="color:red;">**Uwaga:**</mark> Ta funkcja musi być aktywowana w _**Settings -> Document Processing/Module -> Document Type/Document scan**_
+<mark style="color:red;">**Uwaga:**</mark> Ta funkcja musi być aktywowana w _**Ustawienia -> Przetwarzanie dokumentów/Moduł -> Typ dokumentu/Skanowanie dokumentu**_
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_27.png" alt=""><figcaption></figcaption></figure>
 
@@ -112,7 +112,7 @@ Użyj tego przycisku, aby wyeksportować wszystkie dokumenty aktualnie wyświetl
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Uwaga:**</mark> Ta funkcja musi być aktywowana w _**Settings -> Document Processing/Module -> Document Type/Export Dashboard Data**_
+<mark style="color:red;">**Uwaga:**</mark> Ta funkcja musi być aktywowana w _**Ustawienia -> Przetwarzanie dokumentów/Moduł -> Typ dokumentu/Eksportuj dane pulpitu**_
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_26.png" alt=""><figcaption></figcaption></figure>
 
