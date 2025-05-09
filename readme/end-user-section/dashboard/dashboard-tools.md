@@ -86,7 +86,7 @@ Verwenden Sie diese Schaltfläche, um ein Dokument direkt zu scannen.
 
 Um diese Funktion zu nutzen, müssen Sie einen Scanner an Ihr System angeschlossen haben. Wenn ein Scanner verfügbar ist, können Sie ihn rechts auswählen, Ihr Dokument benennen und auf 'Scannen' klicken. Optional können Sie die Scaneinstellungen rechts anpassen, bevor Sie den Vorgang starten.
 
-<mark style="color:red;">**Hinweis:**</mark> Diese Funktion muss unter Einstellungen -> Verarbeitung von Dokumenten/Modul -> Dokumenttyp/Dokument scannen aktiviert werden
+<mark style="color:red;">**Hinweis:**</mark> Diese Funktion muss unter _**Einstellungen -> Verarbeitung von Dokumenten/Modul -> Dokumenttyp/Scannen von Dokumenten**_ aktiviert werden
 
 <figure><img src="../../.gitbook/assets/dashboard_tools_27_de.png" alt=""><figcaption></figcaption></figure>
 
@@ -112,7 +112,7 @@ Verwenden Sie diese Schaltfläche, um alle Dokumente, die derzeit im Dashboard a
 
 <figure><img src="../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Hinweis:**</mark> Diese Funktion muss unter Einstellungen -> Verarbeitung von Dokumenten/Modul -> Dokumenttyp/Dashboard-Daten exportieren aktiviert werden
+<mark style="color:red;">**Hinweis:**</mark> Diese Funktion muss unter _**Einstellungen -> Verarbeitung von Dokumenten/Modul -> Dokumenttyp/Dashboard-Daten exportieren**_ aktiviert werden
 
 <figure><img src="../../.gitbook/assets/dashboard_tools_26_de.png" alt=""><figcaption></figcaption></figure>
 
