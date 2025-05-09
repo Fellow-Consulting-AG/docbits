@@ -6,7 +6,7 @@ To the right of the search bar, you will find some dashboard tools.
 
 ## Refresh table:
 
-Use this to refresh the dashboard and load the latest data and statuses.
+Click this button to refresh the dashboard and load the most up-to-date data and statuses.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
 
@@ -20,19 +20,19 @@ In the Advanced Settings menu the following options will be available:
 
 ### More settings
 
-Click here to access the Admin Settings for the dashboard. Full documentation for these settings can be found [here](../../../administration-and-setup/settings/global-settings/dashboard/).
+Use this button to access the Admin Settings for the dashboard. Full documentation for these settings can be found [here](../../../administration-and-setup/settings/global-settings/dashboard/).
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
 
 ### Keyboard shortcuts
 
-Here you can find all the keyboard shortcuts for the dashboard. Detailed explanations for each shortcut can be found [here](keyboard-shortcuts.md).
+Use this button to display all keyboard shortcuts for the dashboard. Detailed explanations for each shortcut can be found [here](keyboard-shortcuts.md).
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_9.png" alt=""><figcaption></figcaption></figure>
 
 ### Import log
 
-Click here to open a table displaying all recently imported documents via email import, along with relevant information for each.
+Use this button to open a table displaying all recently imported documents via email, along with relevant information for each.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_10.png" alt=""><figcaption></figcaption></figure>
 
@@ -68,17 +68,17 @@ Select the fields you want to display as columns, then click 'Add to Visible Col
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_18.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Click here to set the default column sorting for the dashboard. Select the column and choose the sorting order (ascending or descending), then click 'Done'. You can configure sorting for all active columns in the dashboard.
+Use this button to set the default sorting order for columns in the dashboard. Select the column and choose the sorting order (ascending or descending), then click 'Done'. You can configure sorting for all active columns in the dashboard.
 
 ### Filter documents:
 
-You can filter documents by day, week, month, year, or view all. Filtering is based on the document import time.
+You can filter documents by day, week, month, year, or view all by clicking on your desired time period. The filtering is based on the document import time.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_13.png" alt="" width="536"><figcaption></figcaption></figure>
 
 ## Scan document:
 
-This feature allows you to scan a document directly.
+Use this button to scan a document directly.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_4.png" alt=""><figcaption></figcaption></figure>
 
@@ -92,7 +92,7 @@ To use this feature, you need to have a scanner connected to your system. If a s
 
 ## Analytics:&#x20;
 
-Clicking this will display a new area showing the current number of documents in each category.
+Clicking this button will display a new area showing the current count of documents in each category.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_5.png" alt=""><figcaption></figcaption></figure>
 
@@ -102,13 +102,13 @@ Click any category to filter the documents by that specific category.
 
 ## Start email import:
 
-Clicking this will check your email inbox, based on the email import configuration, and import any new documents.
+Clicking this button will check your email inbox, according to the email import configuration, and import any new documents.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
 
 ## Export this table:
 
-Click here to export all documents currently displayed on the dashboard, based on the number of documents shown per page.
+Use this button to export all documents currently displayed on the dashboard, based on the number of documents shown per page.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
 
@@ -118,7 +118,7 @@ Click here to export all documents currently displayed on the dashboard, based o
 
 ## Upload:&#x20;
 
-Click here to manually upload one or multiple files.
+Click this button to manually upload one or more files.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_7.png" alt=""><figcaption></figcaption></figure>
 
@@ -139,6 +139,6 @@ To access debug mode simply add to the url `?debug=true` . Now you should have a
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_20.png" alt=""><figcaption></figcaption></figure>
 
-Clicking this will open a pop-up window displaying the loading times for each service, along with the total loading time shown at the bottom.
+Clicking this button will open a pop-up window displaying the loading times for each service, with the total loading time shown at the bottom.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_23.png" alt="" width="375"><figcaption></figcaption></figure>
