@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Mejores prácticas
 
 ## Configurar un panel que se alinee con las rutinas diarias de los usuarios requiere una planificación e implementación cuidadosas.

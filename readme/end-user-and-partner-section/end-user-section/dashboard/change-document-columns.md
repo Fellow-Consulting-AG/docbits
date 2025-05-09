@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Cambiar columnas del documento
 
 Desde el Panel de control, haz clic en el icono de Configuración Avanzada como se muestra a continuación:
