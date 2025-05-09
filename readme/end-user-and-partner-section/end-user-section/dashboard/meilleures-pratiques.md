@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Meilleure Pratique
 
 ## Mettre en place un tableau de bord qui s'aligne avec les routines quotidiennes des utilisateurs nécessite une planification et une mise en œuvre minutieuses.

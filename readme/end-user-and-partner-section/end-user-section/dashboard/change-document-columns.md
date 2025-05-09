@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Modifier les colonnes de document
 
 Depuis le tableau de bord, cliquez sur l'icône Paramètres avancés comme indiqué ci-dessous:
