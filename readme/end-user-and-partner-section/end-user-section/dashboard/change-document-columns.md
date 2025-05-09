@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Alterar Colunas do Documento
 
 No Painel de Controle, clique no ícone de Configurações Avançadas conforme mostrado abaixo:
