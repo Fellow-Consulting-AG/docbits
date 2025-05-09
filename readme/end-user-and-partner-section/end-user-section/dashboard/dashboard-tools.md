@@ -1,25 +1,144 @@
 # Dashboard Tools
 
-To the right of the search bar, you will find other dashboard tools.
+To the right of the search bar, you will find some dashboard tools.
 
-<figure><img src="https://lh7-us.googleusercontent.com/QJpUDLYSPYvsgwyxSkaOZr5w4mdqYbWeRSckuLSbJXkgPccyFzvVK9q5p-bjXlR-q69KVZ2o--XZQGH_nCU90Sj7RNuyC1g-hJYWZRpxxILYeaTpw4afrjbdM8iatt2plPde_QtFuz7JSV1NtunRSiw" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dashboard_tools_1.png" alt=""><figcaption></figcaption></figure>
 
-* Refresh List: This is used to update the dashboard without having to refresh your browser tab.
-* Advanced Settings: More information on this topic is available further down this page.
-* Analytics: This provides you with further insight about the documents you have uploaded to DocBits.
-* Upload: More information on this topic in the next section.
+## Refresh table:
 
-<figure><img src="../../../.gitbook/assets/dashboard (1).png" alt=""><figcaption></figcaption></figure>
+Use this to refresh the dashboard and load the latest data and statuses.
 
-The advanced settings often contain additional configuration options and functions that enable more specific adjustments and fine-tuning.
+<figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (48) (1).png" alt=""><figcaption><p>Advanced Settings Menu</p></figcaption></figure>
+## Advanced settings:&#x20;
 
-* More settings
-* Keyboard shortcuts
-* Import Log
-* Set PO Table columns for organization
-* Set dashboard sorting by organization
-* Filter documents by day, week, month, year or all. The filtering refers to the time at which the document is imported
+Click the gear icon to open the Advanced Settings menu.
 
-On the next pages you will find further information about the individual settings.
+<figure><img src="../../../.gitbook/assets/dashboard_tools_8.png" alt=""><figcaption></figcaption></figure>
+
+In the Advanced Settings menu the following options will be available:
+
+### More settings
+
+Click here to access the Admin Settings for the dashboard. Full documentation for these settings can be found [here](../../../administration-and-setup/settings/global-settings/dashboard/).
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
+
+### Keyboard shortcuts
+
+Here you can find all the keyboard shortcuts for the dashboard. Detailed explanations for each shortcut can be found [here](keyboard-shortcuts.md).
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_9.png" alt=""><figcaption></figcaption></figure>
+
+### Import log
+
+Click here to open a table displaying all recently imported documents via email import, along with relevant information for each.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_10.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_15.png" alt=""><figcaption></figcaption></figure>
+
+You can filter the logs by subject or sender, sort columns in ascending or descending order by clicking the column headers, and rearrange them using drag-and-drop.
+
+### Set table columns for organization
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_11.png" alt=""><figcaption></figcaption></figure>
+
+Click this button to open a menu where you can manage the visibility of dashboard columns. Select column names and use the arrows to add or remove them from the dashboard view. Click 'Done' to save your changes.
+
+<figure><img src="../../../.gitbook/assets/dashborad_tools_22.png" alt=""><figcaption></figcaption></figure>
+
+You can set the column order by clicking the dots next to a column name and dragging it to the desired position.
+
+#### Add fields from a document type as columns in the dashboard.
+
+You also have the option to add additional columns from specific fields of specific document types to customize your dashboard view. To do this, simply click 'Add Field from Document Type'.
+
+<figure><img src="../../../.gitbook/assets/dashborad_tools_21.png" alt=""><figcaption></figcaption></figure>
+
+Choose a document type to see which fields are available for the selected type. For each document type there are different fields that you can add. You can search for a specific field using the search bar at the top.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_19.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Select the fields you want to display as columns, then click 'Add to Visible Columns'. The selected fields will appear as columns on the dashboard, showing their corresponding values.
+
+### Set dashboard sorting for organization
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_12.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_18.png" alt="" width="563"><figcaption></figcaption></figure>
+
+Click here to set the default column sorting for the dashboard. Select the column and choose the sorting order (ascending or descending), then click 'Done'. You can configure sorting for all active columns in the dashboard.
+
+### Filter documents:
+
+You can filter documents by day, week, month, year, or view all. Filtering is based on the document import time.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_13.png" alt="" width="536"><figcaption></figcaption></figure>
+
+## Scan document:
+
+This feature allows you to scan a document directly.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_4.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_17.png" alt=""><figcaption></figcaption></figure>
+
+To use this feature, you need to have a scanner connected to your system. If a scanner is available, you can select it on the right, name your document, and click 'Scan'. Optionally, you can adjust scanning settings on the right before starting the process.
+
+<mark style="color:red;">**Note:**</mark> This feature must be activated under Settings -> Document Processing/Module -> Document Type/Document scan
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_27.png" alt=""><figcaption></figcaption></figure>
+
+## Analytics:&#x20;
+
+Clicking this will display a new area showing the current number of documents in each category.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_5.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_14.png" alt=""><figcaption></figcaption></figure>
+
+Click any category to filter the documents by that specific category.
+
+## Start email import:
+
+Clicking this will check your email inbox, based on the email import configuration, and import any new documents.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
+
+## Export this table:
+
+Click here to export all documents currently displayed on the dashboard, based on the number of documents shown per page.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Note:**</mark> This feature must be activated under Settings -> Document Processing/Module -> Document Type/Export Dashboard Data
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_26.png" alt=""><figcaption></figcaption></figure>
+
+## Upload:&#x20;
+
+Click here to manually upload one or multiple files.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_7.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_16.png" alt="" width="563"><figcaption></figcaption></figure>
+
+You can either drag and drop files into the pop-up window or click 'Upload Documents' to select them from the file explorer.
+
+## Debugging mode
+
+You can activate debugging mode to receive an additional option.\
+To access debug mode simply add to the url `?debug=true` . Now you should have an additional option
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_24.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Show loading times
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_20.png" alt=""><figcaption></figcaption></figure>
+
+Clicking this will open a pop-up window displaying the loading times for each service, along with the total loading time shown at the bottom.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_23.png" alt="" width="375"><figcaption></figcaption></figure>

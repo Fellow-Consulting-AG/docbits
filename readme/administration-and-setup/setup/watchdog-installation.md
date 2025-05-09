@@ -20,7 +20,7 @@
        \
 
 
-       <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
    * **Barcode Divider:** When turned on enables the barcode dividing.
    * **DocBits Operator:** When enabled opens a chrome browser in the background for the DocBits Operator.
    *   **Export destination:** Sets the export destination.&#x20;
@@ -28,7 +28,7 @@
        * **Infor:** Documnets get exported to Infor.
        * **Enaoi Export:** Documents get exported to a defined folder that can be configured below.&#x20;
 
-       <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
        * <mark style="color:red;">**Note:**</mark> **For XSLT configuration, please consult your project manager.**
 4. **Export Configurations**
