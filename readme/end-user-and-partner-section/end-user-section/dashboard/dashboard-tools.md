@@ -138,3 +138,5 @@ Para acceder al modo de depuración simplemente agrega a la url `?debug=true`. A
 <figure><img src="../../../.gitbook/assets/dashboard_tools_20.png" alt=""><figcaption></figcaption></figure>
 
 Hacer clic en este botón abrirá una ventana emergente que muestra los tiempos de carga para cada servicio, con el tiempo total de carga mostrado en la parte inferior.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_23.png" alt="" width="563"><figcaption></figcaption></figure>
