@@ -86,7 +86,7 @@ Utiliza este botón para escanear un documento directamente.
 
 Para utilizar esta función, necesitas tener un escáner conectado a tu sistema. Si hay un escáner disponible, puedes seleccionarlo a la derecha, nombrar tu documento y hacer clic en 'Escanear'. Opcionalmente, puedes ajustar la configuración de escaneo a la derecha antes de comenzar el proceso.
 
-<mark style="color:red;">**Nota:**</mark> Esta función debe ser activada en Ajustes -> Procesamiento de documentos/Módulo -> Tipo de documento/Escaneado de documentos
+<mark style="color:red;">**Nota:**</mark> Esta función debe ser activada en _**Ajustes -> Procesamiento de documentos/Módulo -> Tipo de documento/Escaneado de documentos**_
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_27_es.png" alt=""><figcaption></figcaption></figure>
 
@@ -112,7 +112,7 @@ Utiliza este botón para exportar todos los documentos que actualmente se muestr
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Nota:**</mark> Esta función debe ser activada en Ajustes -> Procesamiento de documentos/Módulo -> Tipo de documento/Exportar datos del cuadro de mandos
+<mark style="color:red;">**Nota:**</mark> Esta función debe ser activada en _**Ajustes -> Procesamiento de documentos/Módulo -> Tipo de documento/Exportar datos del cuadro de mandos**_
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_26_es.png" alt=""><figcaption></figcaption></figure>
 
