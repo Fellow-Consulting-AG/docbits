@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Fehlerbehebung
 
 ## Hier sind spezifische Tipps zur Fehlerbehebung bei häufigen Problemen im Zusammenhang mit Dashboard-Einstellungen:

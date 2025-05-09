@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Dokumentspalten ändern
 
 Vom Dashboard aus klicken Sie auf das Symbol für erweiterte Einstellungen, wie unten dargestellt:

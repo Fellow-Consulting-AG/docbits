@@ -19,7 +19,6 @@
     * [Dokumentenzusammenführung](end-user-section/dashboard/document-merging.md)
     * [Dokumentenstatus](end-user-section/dashboard/document-status.md)
     * [Dokumente filtern](end-user-section/dashboard/filtering-documents.md)
-    * [Importprotokoll](end-user-section/dashboard/import-log.md)
     * [Übersicht der hochgeladenen Dokumente](end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Aufgabenzähler](end-user-section/dashboard/task-counter.md)
     * [Validierte extrahierte Felder](end-user-section/dashboard/validated-extracted-fields.md)
