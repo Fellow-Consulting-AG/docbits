@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Change Document Columns
 
 **From the Dashboard, click on the Advanced Settings icon as shown below:**

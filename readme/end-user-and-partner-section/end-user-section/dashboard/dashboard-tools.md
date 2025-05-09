@@ -86,7 +86,7 @@ Use this button to scan a document directly.
 
 To use this feature, you need to have a scanner connected to your system. If a scanner is available, you can select it on the right, name your document, and click 'Scan'. Optionally, you can adjust scanning settings on the right before starting the process.
 
-<mark style="color:red;">**Note:**</mark> This feature must be activated under Settings -> Document Processing/Module -> Document Type/Document scan
+<mark style="color:red;">**Note:**</mark> This feature must be activated under _**Settings -> Document Processing/Module -> Document Type/Document scan**_
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_27.png" alt=""><figcaption></figcaption></figure>
 
@@ -112,7 +112,7 @@ Use this button to export all documents currently displayed on the dashboard, ba
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note:**</mark> This feature must be activated under Settings -> Document Processing/Module -> Document Type/Export Dashboard Data
+<mark style="color:red;">**Note:**</mark> This feature must be activated under _**Settings -> Document Processing/Module -> Document Type/Export Dashboard Data**_
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_26.png" alt=""><figcaption></figcaption></figure>
 
