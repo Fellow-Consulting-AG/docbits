@@ -17,12 +17,11 @@
 
 * [Sekcja użytkownika końcowego](end-user-and-partner-section/end-user-section/README.md)
   * [Pulpit](end-user-and-partner-section/end-user-section/dashboard/README.md)
-    * [Narzędzia pulpitu nawigacyjnego](end-user-and-partner-section/end-user-section/dashboard/dashboard-tools.md)
+    * [Pulpit Narzędzia](end-user-and-partner-section/end-user-section/dashboard/dashboard-tools.md)
     * [Zmiana Kolumn Dokumentu](end-user-and-partner-section/end-user-section/dashboard/change-document-columns.md)
     * [Scalanie Dokumentów](end-user-and-partner-section/end-user-section/dashboard/document-merging.md)
     * [Status Dokumentu](end-user-and-partner-section/end-user-section/dashboard/document-status.md)
     * [Filtrowanie Dokumentów](end-user-and-partner-section/end-user-section/dashboard/filtering-documents.md)
-    * [Dziennik Importu](end-user-and-partner-section/end-user-section/dashboard/import-log.md)
     * [Przegląd Przesłanych Dokumentów](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Licznik Zadań](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Zweryfikowane Wyodrębnione Pola](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)

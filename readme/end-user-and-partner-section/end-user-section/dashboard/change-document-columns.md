@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Zmiana Kolumn Dokumentu
 
 Z pulpitu nawigacyjnego kliknij ikonę Ustawienia zaawansowane, jak pokazano poniżej:

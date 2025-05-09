@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Najlepsze Praktyki
 
 ## Tworzenie pulpitu nawigacyjnego, który odpowiada codziennym rutynom użytkowników, wymaga starannego planowania i wdrożenia.
