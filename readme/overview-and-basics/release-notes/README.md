@@ -1,6 +1,6 @@
 # Release Notes
 
-Release Spring Bloom – 04th June 2025
+## Release **Summer Bloom** June 2025
 
 ### DocBits enhancements:
 
