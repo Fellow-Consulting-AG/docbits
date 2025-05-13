@@ -6,8 +6,10 @@
 
 * **Filter Option for Email Import Log:**\
   Users now have the ability to filter the import logs and sort the table for a clearer, more efficient overview. This enhancement streamlines the process of identifying and managing email entries, improving troubleshooting and overall log management.
-* **Multi-Language Support for List of Values :**\
-  We've expanded multi-language capabilities to the List of Values feature. Administrators can now define labels in multiple languages, ensuring that the correct label is automatically displayed based on the user's system language settings. This enhancement promotes greater accessibility and localization, making it easier for users worldwide to interact with the platform in their native language.
+*   **Multi-Language Support for List of Values :**\
+    We've expanded multi-language capabilities to the List of Values feature. Administrators can now define labels in multiple languages, ensuring that the correct label is automatically displayed based on the user's system language settings. This enhancement promotes greater accessibility and localization, making it easier for users worldwide to interact with the platform in their native language.
+
+    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 * **User Detail Enhancements in Settings:**\
   The settings interface now displays comprehensive user information. Administrators can easily view group affiliations, sub-organization details, and additional key data, enabling better management of user roles and a clearer understanding of team structures.
 * **Auto Accounting Information on the Approval Screen:**\
@@ -23,14 +25,19 @@
     We are excited to announce the implementation of a new automated testing system designed to improve the overall functionality and reliability of our platform. This new setup will run consistent, thorough checks on our system to identify any issues before they impact your experience. By automating these tests, we can ensure faster responses to potential problems and maintain the highest standards of quality for our system.
 * **Microservices Architecture Implementation:**\
   We've restructured the platform by splitting core components into dedicated microservices. This architectural shift enhances scalability, improves system performance, and enables faster, more modular development and deployment cycles.
-* **Walkthrough:**\
-  A guided walkthrough is now available to help users navigate and understand different parts of the application more easily. This is especially useful for onboarding new users or exploring unfamiliar features.
+*   **Walkthrough:**\
+    A guided walkthrough is now available to help users navigate and understand different parts of the application more easily. This is especially useful for onboarding new users or exploring unfamiliar features.
+
+    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 * **Decision Tree Improvements:**\
   Enhancements have been made to the decision tree interface, including a more intuitive row addition feature — now located at the top of the tree — to simplify maintenance and editing.
 * **DocOperator, DocNet, and Extension Tools:**\
   New AI-powered tools like DocOperator and DocNet help automate repetitive tasks, improving efficiency and reducing manual effort across document workflows.
-* **Electronic Document Preview Option:**\
-  A preview feature has been added for electronic documents (eDocs), allowing users to test and view changes directly within the settings before deploying them.
+*   **Electronic Document Preview Option:**\
+    A preview feature has been added for electronic documents (eDocs), allowing users to test and view changes directly within the settings before deploying them.\
+
+
+    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 * **New Language Support – Chinese:**\
   DocBits now supports Chinese, expanding accessibility and localization options for users across global markets.
 * **Improved Task Dashboard:**\
@@ -48,14 +55,20 @@
   A new button has been added to the approval screen that allows users to export a document and automatically proceed to the next one in the “Ready for Validation” queue.
 * **New Workflow Cards:**\
   New workflow cards have been introduced, including ones for running workflows on new purchase orders and quote-related events. These provide more automation options.
-* **Watchdog Improvements:**\
-  Watchdog configuration has been moved into the main application UI, making it easier to manage. Additional functionalities have also been introduced for better monitoring and control.
+*   **Watchdog Improvements:**\
+    Watchdog configuration has been moved into the main application UI, making it easier to manage. Additional functionalities have also been introduced for better monitoring and control.\
+
+
+    <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 * **Line Rejection Enhancements:**\
   Rejecting a line item now requires users to provide a reason, ensuring better traceability and accountability in review workflows.
 * **Supplier AI Model List in Settings:**\
   A new settings view displays the AI models assigned to specific suppliers, along with an option to reset them. This improves transparency and manageability of supplier-based AI configurations.
-* **Document Log Improvements:**\
-  The document logs now include more detailed information to support better auditing and troubleshooting.
+*   **Document Log Improvements:**\
+    The document logs now include more detailed information to support better auditing and troubleshooting.\
+
+
+    <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 * **PNG and JPG Support:**\
   You can now upload PNG and JPG files, which will automatically be converted into PDF format for processing.
 * **IDM Export Document Format Configuration:**\

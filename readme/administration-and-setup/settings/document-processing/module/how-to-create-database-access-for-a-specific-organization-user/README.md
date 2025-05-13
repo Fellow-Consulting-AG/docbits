@@ -46,11 +46,11 @@
 
        * Fill in the required information&#x20;
 
-       <figure><img src="../../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
        * change to the SSL tab and check Use SSL. Move down to SSL mode and select require
 
-       <figure><img src="../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
    *   Connect via URL
 
        * Fill in the required information:\
@@ -60,7 +60,7 @@
          \- for Username select the provided username information\
          \- for Password select the provided password information
 
-       <figure><img src="../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
 5. **Test the Connection**:
    * Click the **"Test Connection"** button to ensure the credentials and connection details are correct.
    * If the test is successful, proceed to connect.

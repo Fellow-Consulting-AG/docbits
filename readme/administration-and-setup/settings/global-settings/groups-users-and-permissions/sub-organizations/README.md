@@ -45,5 +45,5 @@ For organizations with multiple sub-organizations enabled, DocBits introduces th
    * Return to the top-right corner of the dashboard.
    * Deselect the **Cross** option to return to viewing a single sub-organization.
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
