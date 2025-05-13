@@ -1,6 +1,6 @@
 # Release Notes
 
-## Release Spring Bloom – 04th June 2025
+Release Spring Bloom – 04th June 2025
 
 ### DocBits enhancements:
 
@@ -26,9 +26,10 @@
 * **Microservices Architecture Implementation:**\
   We've restructured the platform by splitting core components into dedicated microservices. This architectural shift enhances scalability, improves system performance, and enables faster, more modular development and deployment cycles.
 *   **Walkthrough:**\
-    A guided walkthrough is now available to help users navigate and understand different parts of the application more easily. This is especially useful for onboarding new users or exploring unfamiliar features.
+    A guided walkthrough is now available to help users navigate and understand different parts of the application more easily. This is especially useful for onboarding new users or exploring unfamiliar features.\
 
-    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
 * **Decision Tree Improvements:**\
   Enhancements have been made to the decision tree interface, including a more intuitive row addition feature — now located at the top of the tree — to simplify maintenance and editing.
 * **DocOperator, DocNet, and Extension Tools:**\
