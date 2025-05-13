@@ -10,7 +10,6 @@
 * [Infor Infrastructure](overview-and-basics/infor-infrastructure.md)
 * [Release Notes](overview-and-basics/release-notes/README.md)
   * [Testing Availability on Sandbox](overview-and-basics/release-notes/testing-availability-on-sandbox.md)
-  * [Roadmap](overview-and-basics/release-notes/roadmap.md)
 * [FAQ](overview-and-basics/faq/README.md)
   * [General Information](overview-and-basics/faq/general-information.md)
   * [Document Processing](overview-and-basics/faq/document-processing/README.md)
