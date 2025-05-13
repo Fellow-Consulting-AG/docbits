@@ -1,47 +1,80 @@
 # Release-Notizen
 
-
-
-## Release Spring Bloom – 23. April 2025
+## Release Summer Bloom Juni 2025
 
 ### DocBits Verbesserungen:
 
-* **Filteroption für den E-Mail-Importprotokoll:** Benutzer haben jetzt die Möglichkeit, die Importprotokolle zu filtern und die Tabelle für eine klarere, effizientere Übersicht zu sortieren. Diese Verbesserung optimiert den Prozess zur Identifizierung und Verwaltung von E-Mail-Einträgen, verbessert die Fehlersuche und das gesamte Protokollmanagement.
-* **Mehrsprachige Unterstützung für die Liste der Werte:** Wir haben die mehrsprachigen Funktionen für die Liste der Werte erweitert. Administratoren können jetzt Beschriftungen in mehreren Sprachen definieren, sodass die korrekte Beschriftung automatisch basierend auf den Spracheinstellungen des Benutzers angezeigt wird. Diese Verbesserung fördert eine größere Zugänglichkeit und Lokalisierung, was es Benutzern weltweit erleichtert, mit der Plattform in ihrer Muttersprache zu interagieren.
-* **Verbesserungen der Benutzerdetails in den Einstellungen:** Die Einstellungsoberfläche zeigt jetzt umfassende Benutzerinformationen an. Administratoren können Gruppenzugehörigkeit, Details zu Unterorganisationen und zusätzliche wichtige Daten leicht einsehen, was eine bessere Verwaltung der Benutzerrollen und ein klareres Verständnis der Teamstrukturen ermöglicht.
-* **Automatische Buchhaltungsinformationen auf dem Genehmigungsbildschirm:** Der Genehmigungsbildschirm zeigt jetzt automatische Buchhaltungsdetails zusammen mit den Rechnungsinformationen an. Diese Verbesserung bietet tiefere Einblicke in die Transaktionsdaten und erleichtert reibungslosere Überprüfungsprozesse sowie informiertere Entscheidungen bezüglich Rechnungen.
-* **Aufgaben-Zähler für Dokumente in der Dashboard-Ansicht:** Dokumente im Dashboard können jetzt offene Aufgaben anzeigen, die mit ihnen verbunden sind, und die Gesamtzahl der ausstehenden Aufgaben anzeigen. Diese Funktion bietet den Benutzern einen schnellen Überblick über ausstehende Aktionen, verbessert das Aufgabenmanagement und die Effizienz des Workflows.
-* **Lieferantenbasierte Auswahl des KI-Modells:** Benutzer können jetzt das KI-Modell auswählen, das für die Datenextraktion auf Basis des jeweiligen Lieferanten verwendet wird. Diese Verbesserung ermöglicht eine fein abgestimmte Optimierung, um eine bessere Extraktionsgenauigkeit für verschiedene Lieferanten zu gewährleisten und die Gesamtergebnisse der Datenverarbeitung zu verbessern.
-* **Erweiterte Workflow-Protokolle für Entscheidungsbaum-Karten:** Die Protokolle zeigen jetzt die Ausgabe des Entscheidungsbaums an, was es einfacher macht, nachzuvollziehen und zu verstehen, wie Entscheidungen innerhalb von Workflows getroffen wurden.
+* **Filteroption für E-Mail-Importprotokoll:** Benutzer haben jetzt die Möglichkeit, die Importprotokolle zu filtern und die Tabelle zu sortieren, um einen klareren und effizienteren Überblick zu erhalten. Diese Verbesserung vereinfacht den Prozess der Identifizierung und Verwaltung von E-Mail-Einträgen, verbessert die Fehlersuche und das allgemeine Protokollmanagement.
+*   **Mehrsprachige Unterstützung für Wertelisten:** Wir haben die mehrsprachigen Funktionen für die Wertelisten erweitert. Administratoren können jetzt Bezeichnungen in mehreren Sprachen definieren, um sicherzustellen, dass die korrekte Bezeichnung basierend auf den Systemspracheinstellungen des Benutzers automatisch angezeigt wird. Diese Verbesserung fördert eine bessere Zugänglichkeit und Lokalisierung und erleichtert es Benutzern weltweit, mit der Plattform in ihrer Muttersprache zu interagieren.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fw0aRFGUP9FAyqyiV5mtE%252Fimage.png%3Falt%3Dmedia%26token%3Da0e6db9b-1dd3-497b-938b-30ae52b55fad\&width=768\&dpr=4\&quality=100\&sign=b66949c7\&sv=2)
+* **Benutzerdetailverbesserungen in den Einstellungen:** Die Einstellungsschnittstelle zeigt jetzt umfassende Benutzerinformationen an. Administratoren können problemlos Gruppenzugehörigkeiten, Unterorganisationsdetails und zusätzliche Schlüsseldaten anzeigen, um eine bessere Verwaltung von Benutzerrollen und ein klareres Verständnis der Teamstrukturen zu ermöglichen.
+* **Automatische Buchhaltungsinformationen auf dem Genehmigungsbildschirm:** Der Genehmigungsbildschirm zeigt jetzt automatische Buchhaltungsdetails neben Rechnungsinformationen an. Diese Verbesserung bietet tiefere Einblicke in Transaktionsdaten, erleichtert den Überprüfungsprozess und trägt zu fundierteren Entscheidungen bezüglich Rechnungen bei.
+* **Aufgabenzähler für Dokumente auf der Dashboard-Ansicht:** Dokumente auf dem Dashboard können jetzt offene Aufgaben anzeigen, die mit ihnen verbunden sind, und die Gesamtzahl der ausstehenden Aufgaben anzeigen. Diese Funktion bietet Benutzern einen schnellen Überblick über ausstehende Aktionen, verbessert das Aufgabenmanagement und die Arbeitsabläufe.
+* **Lieferantenbasierte KI-Modellauswahl:** Benutzer können jetzt das KI-Modell für die Datenauslese auf Lieferantenbasis auswählen. Diese Verbesserung ermöglicht eine fein abgestimmte Optimierung und gewährleistet eine bessere Extraktionsgenauigkeit für verschiedene Lieferanten, was zu einer Verbesserung der Gesamtergebnisse bei der Datenverarbeitung führt. [Weitere Informationen](https://docs.docbits.com/end-user-and-partner-section/end-user-section/validation-screen#supplier-based-ai-model)
+* **Verbesserte Workflow-Protokolle für Entscheidungsbaumkarten:** Die Protokolle zeigen jetzt die Ausgabe des Entscheidungsbaums an, was es einfacher macht, nachzuvollziehen und zu verstehen, wie Entscheidungen innerhalb von Arbeitsabläufen getroffen wurden.
 *   **Einführung eines neuen automatisierten Test-Setups zur Verbesserung der Systemfunktionalität und -stabilität:**
 
-    Wir freuen uns, die Implementierung eines neuen automatisierten Testsystems bekannt zu geben, das darauf abzielt, die Gesamtfunktionalität und Zuverlässigkeit unserer Plattform zu verbessern. Dieses neue Setup wird konsistente, gründliche Überprüfungen unseres Systems durchführen, um Probleme zu identifizieren, bevor sie Ihre Erfahrung beeinträchtigen. Durch die Automatisierung dieser Tests können wir schnellere Reaktionen auf potenzielle Probleme gewährleisten und die höchsten Qualitätsstandards für unser System aufrechterhalten.
+    Wir freuen uns, die Implementierung eines neuen automatisierten Testsystems bekannt zu geben, das entwickelt wurde, um die Gesamtfunktionalität und Zuverlässigkeit unserer Plattform zu verbessern. Dieses neue Setup führt konsistente, gründliche Überprüfungen unseres Systems durch, um Probleme zu identifizieren, bevor sie sich auf Ihre Erfahrung auswirken. Durch die Automatisierung dieser Tests können wir schnell auf potenzielle Probleme reagieren und die höchsten Qualitätsstandards für unser System aufrechterhalten.
+* **Implementierung der Microservices-Architektur:** Wir haben die Plattform umstrukturiert, indem wir Kernkomponenten in dedizierte Microservices aufgeteilt haben. Diese architektonische Änderung verbessert die Skalierbarkeit, die Leistung des Systems und ermöglicht schnellere, modularere Entwicklungs- und Bereitstellungszyklen.
+*   **Schritt-für-Schritt-Anleitung:** Eine geführte Schritt-für-Schritt-Anleitung steht jetzt zur Verfügung, um Benutzern zu helfen, sich einfacher durch verschiedene Teile der Anwendung zu navigieren und zu verstehen. Dies ist besonders nützlich für die Einarbeitung neuer Benutzer oder die Erkundung von unbekannten Funktionen.
 
-    ​
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FwrgjrN07rIbIHELm0M5J%252Fimage.png%3Falt%3Dmedia%26token%3Dc0efeedb-74d3-4045-b386-32347ef6f938\&width=768\&dpr=4\&quality=100\&sign=ba1377b5\&sv=2)
+* **Verbesserungen am Entscheidungsbaum:** Es wurden Verbesserungen an der Benutzeroberfläche des Entscheidungsbaums vorgenommen, einschließlich einer intuitiveren Funktion zum Hinzufügen von Zeilen - jetzt oben im Baum -, um die Wartung und Bearbeitung zu vereinfachen.
+* **DocOperator, DocNet und Erweiterungstools:** Neue KI-gestützte Tools wie DocOperator und DocNet helfen dabei, wiederkehrende Aufgaben zu automatisieren, die Effizienz zu steigern und den manuellen Aufwand in Dokumenten-Workflows zu reduzieren.
+*   **Vorschauoption für elektronische Dokumente:** Eine Vorschauoption wurde für elektronische Dokumente (eDocs) hinzugefügt, die es Benutzern ermöglicht, Änderungen direkt in den Einstellungen zu testen und anzuzeigen, bevor sie bereitgestellt werden.
 
-### Fehlerbehebungen
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FJk6p8EDzpVFYcA39IGHz%252Fimage.png%3Falt%3Dmedia%26token%3De0cc3fcd-dda3-4d54-bdea-ec9853cf47cb\&width=768\&dpr=4\&quality=100\&sign=d4558e6f\&sv=2)
+* **Neue Sprachunterstützung – Chinesisch:** DocBits unterstützt jetzt Chinesisch und erweitert die Zugänglichkeits- und Lokalisierungsoptionen für Benutzer auf globalen Märkten.
+* **Verbessertes Aufgaben-Dashboard:** Das Aufgaben-Dashboard wurde verbessert, um eine größere Anzahl von Aufgaben gleichzeitig anzuzeigen, was Benutzern einen klareren Überblick verschafft und die Aufgabenverfolgung verbessert.
+*   **PO-Abgleichsverbesserungen:**
 
-* Ein Problem wurde behoben, bei dem Aufgaben nicht auf dem Validierungs-/Genehmigungsbildschirm angezeigt wurden.
-* Die Positionierung der Schaltfläche Nächste/Vorherige wurde so korrigiert, dass sie statisch bleibt.
-* Probleme beim Scrollen in den Skript- und Entscheidungsbaumansichten wurden behoben, sodass die Aktionsschaltflächen während des Scrollens stationär bleiben.
-* Das Ursprungslandfeld wurde von E-Rechnungen entfernt.
-* Ein Problem mit dem Aufgaben-Zähler, der eine ungenaue Anzahl von Aufgaben anzeigte, wurde behoben.
-* Fehlende Übersetzungen wurden hinzugefügt.
-* Benutzerdefinierte Felder wurden korrigiert, um beschreibende Namen anstelle von IDs anzuzeigen.
-* Die Liste der Tastenkombinationen für den PO-Abgleich-Bildschirm wurde aktualisiert.
-* Ein Problem wurde behoben, bei dem Dokumente mit einem falschen Dateinamen heruntergeladen wurden.
-* Sortierungsinkonsistenzen in der Rechnungstabelle innerhalb des PO-Abgleichs wurden behoben.
-* Ein Problem, das die Funktionalität zur Erstellung von Aufgaben beeinträchtigte, wurde behoben.
-* Ein Problem im PO-Abgleich, bei dem die Sortierung der Rechnungstabelle zurückgesetzt wurde, wenn eine Zeile abgeglichen wurde, wurde behoben.
-* Automatische Buchhaltungsprobleme wurden behoben, indem sichergestellt wurde, dass Buchungsreferenzen korrekt aufgeteilt werden, wenn ein Betrag geteilt wird.
-* Die ClickHouse-Hostinformationen wurden aktualisiert.
-* Ein Problem wurde behoben, bei dem doppelte Dokumente nicht als Duplikate erkannt wurden.
-* Exportprobleme, die durch zu lange Buchungsreferenzen verursacht wurden, wurden behoben.
-* Ein Problem wurde behoben, bei dem schreibgeschützte Kontrollkästchen nicht schreibgeschützt waren.
-* Ein Problem wurde behoben, bei dem Benutzer zweimal zu einer Unterorganisation hinzugefügt werden konnten.
-* Ein Problem wurde behoben, bei dem das Ändern der Unterorganisation für ein Dokument dazu führte, dass der zugewiesene Benutzer oder die Gruppe zurückgesetzt wurde.
+    Hinzufügen von visuellen Indikatoren für verschiedene Abgleichszustände
 
-​
+    Neue Einstellung, um bereits abgeglichene PO-Positionen pro Dokumenttyp zu ignorieren
+
+    Verbesserte automatische Überprüfung von PO-Aktualisierungen, um Konsistenz sicherzustellen
+* **Layout-Builder-Verbesserungen:** Sie können jetzt sowohl nach Feldnamen als auch nach Feldtiteln suchen, um die Konfiguration und Lokalisierung von Layoutkomponenten schneller und einfacher zu gestalten.
+* **Export- und Weiter-Button im Genehmigungsbildschirm:** Ein neuer Button wurde dem Genehmigungsbildschirm hinzugefügt, der es Benutzern ermöglicht, ein Dokument zu exportieren und automatisch zum nächsten in der Warteschlange "Bereit zur Validierung" fortzufahren.
+* **Neue Workflow-Karten:** Neue Workflow-Karten wurden eingeführt, darunter solche für die Ausführung von Workflows bei neuen Bestellungen und angebotsbezogenen Ereignissen. Diese bieten mehr Automatisierungsoptionen.
+*   **Watchdog-Verbesserungen:** Die Watchdog-Konfiguration wurde in die Hauptanwendungs-Benutzeroberfläche verschoben, um das Management zu erleichtern. Es wurden auch zusätzliche Funktionen eingeführt, um eine bessere Übersicht und Steuerung zu ermöglichen.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FMHotfPG2e9zQHmphSM46%252Fimage.png%3Falt%3Dmedia%26token%3Dddd51783-b6db-4e24-bdf4-13fbed12ec3d\&width=768\&dpr=4\&quality=100\&sign=e4673df5\&sv=2)
+* **Linienablehnungsverbesserungen:** Das Ablehnen eines Positionsartikels erfordert jetzt, dass Benutzer einen Grund angeben, um eine bessere Rückverfolgbarkeit und Verantwortlichkeit in Überprüfungs-Workflows sicherzustellen.
+* **Lieferanten-KI-Modellliste in den Einstellungen:** Eine neue Ansicht in den Einstellungen zeigt die den spezifischen Lieferanten zugewiesenen KI-Modelle an, zusammen mit einer Option zum Zurücksetzen. Dies verbessert die Transparenz und Verwaltbarkeit von lieferantenbasierten KI-Konfigurationen.
+*   **Dokumentenprotokollverbesserungen:** Die Dokumentenprotokolle enthalten jetzt detailliertere Informationen zur Unterstützung einer besseren Prüfung und Fehlerbehebung.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FrpoqkVrrEnufVoYyv06W%252Fimage.png%3Falt%3Dmedia%26token%3D3d2ca7c1-93d2-4f79-a5a0-77d5acfafdc6\&width=768\&dpr=4\&quality=100\&sign=5e720823\&sv=2)
+* **PNG- und JPG-Unterstützung:** Sie können jetzt PNG- und JPG-Dateien hochladen, die automatisch in das PDF-Format für die Verarbeitung konvertiert werden.
+* **IDM-Exportdokumentformatkonfiguration:** Das Exportformat für PDFs in IDM kann jetzt konfiguriert werden, um Benutzern mehr Kontrolle darüber zu geben, wie Dokumente generiert werden.
+* **Neuer eDoc-Typ – EDIFACT INVOIC02:** Wir unterstützen jetzt den elektronischen Dokumententyp EDIFACT INVOIC02, um die Kompatibilität mit standardisierten Rechnungsformaten zu erweitern.
+
+### Fehlerbehebungen:
+
+* Behoben: Ein Problem, bei dem Aufgaben nicht auf dem Validierungs-/Genehmigungsbildschirm angezeigt wurden.
+* Positionierung des Next/Previous-Buttons wurde behoben, sodass er statisch bleibt.
+* Behoben: Scrollprobleme in den Skript- und Entscheidungsbaumansichten, um sicherzustellen, dass Aktionsbuttons beim Scrollen stationär bleiben.
+* Entfernt: Das Feld Ursprungsland aus E-Rechnungen.
+* Behoben: Ein Problem mit dem Aufgabenanzähler, der eine ungenaue Anzahl von Aufgaben anzeigte.
+* Hinzugefügt: Fehlende Übersetzungen.
+* Korrigiert: Benutzerdefinierte Felder zeigen jetzt beschreibende Namen anstelle von IDs.
+* Behoben: Ein Problem, bei dem Dokumente mit einem falschen Dateinamen heruntergeladen wurden.
+* Behoben: Sortierinkonsistenzen in der Rechnungszeilentabelle beim PO-Abgleich.
+* Behoben: Ein Problem, das die Funktionalität der Aufgabenerstellung beeinträchtigte.
+* Behoben: Ein Problem im PO-Abgleich, bei dem die Sortierung der Rechnungstabelle zurückgesetzt wurde, wenn eine Zeile abgeglichen wurde.
+* Behoben: Automatische Buchhaltungsprobleme, indem sichergestellt wurde, dass Buchungsreferenzen korrekt aufgeteilt werden, wenn ein Betrag geteilt wird.
+* Aktualisiert: Informationen zum ClickHouse-Host.
+* Behoben: Ein Problem, bei dem doppelte Dokumente nicht als Duplikate erkannt wurden.
+* Behoben: Exportprobleme aufgrund von zu langen Buchungsreferenzen.
+* Behoben: Ein Problem, bei dem Kontrollkästchen, die als schreibgeschützt markiert waren, nicht schreibgeschützt waren.
+* Behoben: Ein Problem, bei dem Benutzer zweimal einer Unterorganisation hinzugefügt werden konnten.
+* Behoben: Ein Problem, bei dem das Ändern der Unterorganisation für ein Dokument dazu führte, dass der zugewiesene Benutzer oder die zugewiesene Gruppe zurückgesetzt wurde.
+* Behoben: Einige Probleme mit der Auto-Buchhaltungsoberfläche.
+* Behoben: Ein Problem, bei dem Benutzer keine FTP-Konfiguration hinzufügen konnten.
+* Behoben: Ein Problem mit dem SSO-Login.
+* Behoben: Einige Probleme im Zusammenhang mit eingehenden E-Mails.
+* Behoben: Ein Problem, bei dem Dokumente einen falschen Namen erhielten, wenn sie heruntergeladen wurden.
+* Behoben: Ein Problem, bei dem der Entscheidungsbaum ein falsches Ergebnis zurückgibt.​
 
 ## Release Hot Fix Winter Frost 10. April 2025
 
