@@ -1,8 +1,6 @@
 # General Information
 
-<details>
-
-<summary>What types of documents does DocBits support?</summary>
+### What types of documents does DocBits support?
 
 * Invoice&#x20;
 * Credit Note&#x20;
@@ -11,25 +9,16 @@
 * Purchase Order&#x20;
 * Custom Documents
 
-</details>
-
-<details>
-
-<summary>Does DocBits support custom document types ? </summary>
+### Does DocBits support custom document types ?&#x20;
 
 * Yes Users are able to create there own document types.
 
-</details>
+### What file types does DocBits support ?
 
-<details>
-
-<summary>What file types does DocBits support ?</summary>
-
-* .pdf
+* pdf
 * .edi
 * .xml
 * .tiff  (.tif)
 * .jpeg  (.jpg)
-* png
+* .png
 
-</details>
