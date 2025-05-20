@@ -21,6 +21,8 @@ This guide walks you through connecting **ClickHouse** to **Power BI Desktop** u
 
     **DocBits** → **Settings** → **Document Processing** → **Module** → **AI Dashboard** → **ClickHouse Direct Access**
 
+    <figure><img src="../.gitbook/assets/image (440).png" alt=""><figcaption></figcaption></figure>
+
     **Required Fields:**
 
     * **Name**: A name for the connection (e.g., `ClickHouse_Prod`)
@@ -59,6 +61,7 @@ This guide walks you through connecting **ClickHouse** to **Power BI Desktop** u
 * Use the report canvas to build visualizations.
 * Drag fields, add slicers, choose chart types, and use **DAX** expressions as needed.
 * &#x20;Leverage **Power Query Editor** to clean or pivot your ClickHouse data before building visuals.
+* PowerBI documentation:  [https://learn.microsoft.com/en-us/power-bi/](https://learn.microsoft.com/en-us/power-bi/)
 
 #### 6. Enable Scheduled Refresh (Optional)
 
@@ -70,6 +73,7 @@ This guide walks you through connecting **ClickHouse** to **Power BI Desktop** u
 * In Power BI Service:
   * Go to your dataset → **Settings** → **Scheduled Refresh**
   * Map your DSN and provide credentials
+* More informations [here](https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-deployment-guidance).&#x20;
 
 #### 7. Example Dashboards & Data Views&#x20;
 
