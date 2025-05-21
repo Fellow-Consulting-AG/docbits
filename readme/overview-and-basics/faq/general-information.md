@@ -22,7 +22,7 @@
 
 <summary>What file types does DocBits support ? </summary>
 
-## Supported File types
+#### Supported File types are:&#x20;
 
 * .pdf
 * .edi
