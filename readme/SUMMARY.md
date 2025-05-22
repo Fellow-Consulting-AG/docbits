@@ -111,6 +111,7 @@
       * [Gerenciando Notificações](administration-and-setup/settings/global-settings/email-notification/gerenciando-notificacoes.md)
       * [Melhores Práticas](administration-and-setup/settings/global-settings/email-notification/melhores-praticas.md)
       * [Solução de Problemas](administration-and-setup/settings/global-settings/email-notification/solucao-de-problemas.md)
+    * [Modelos de E-Mail](administration-and-setup/settings/global-settings/e-mail-templates.md)
     * [Custom Filters](administration-and-setup/settings/global-settings/page-1.md)
     * [Groups, Users and Permissions](administration-and-setup/settings/global-settings/groups-users-and-permissions/README.md)
       * [Usuários](administration-and-setup/settings/global-settings/groups-users-and-permissions/users/README.md)
