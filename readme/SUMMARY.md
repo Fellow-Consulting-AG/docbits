@@ -218,7 +218,7 @@
       * [Managing Notifications](administration-and-setup/settings/global-settings/email-notification/managing-notifications.md)
       * [Best Practice](administration-and-setup/settings/global-settings/email-notification/best-practice.md)
       * [Troubleshooting](administration-and-setup/settings/global-settings/email-notification/troubleshooting.md)
-    * [E-Mail- templates](administration-and-setup/settings/global-settings/e-mail-templates.md)
+    * [E-Mail templates](administration-and-setup/settings/global-settings/e-mail-templates.md)
     * [Dashboard](administration-and-setup/settings/global-settings/dashboard/README.md)
       * [Customizing Filters](administration-and-setup/settings/global-settings/dashboard/customizing-filters.md)
       * [Custom Filters](administration-and-setup/settings/global-settings/dashboard/page-1.md)
