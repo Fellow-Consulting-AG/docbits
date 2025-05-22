@@ -57,4 +57,4 @@ Les modèles d'e-mails vous permettent de personnaliser les notifications par e-
 
 ## **Utilisation des modèles dans les notifications**
 
-Les modèles enregistrés peuvent être liés aux flux de travail de **Notification par e-mail** (par exemple, rappels d'approbation, mises à jour de statut).
+Les modèles enregistrés peuvent être liés aux flux de travail de [**Notification par e-mail**](email-notification/) (par exemple, rappels d'approbation, mises à jour de statut).
