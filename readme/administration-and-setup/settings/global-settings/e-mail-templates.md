@@ -57,4 +57,4 @@ Os Modelos de E-mail permitem personalizar notificações de e-mail automatizada
 
 ## **Usando Modelos em Notificações**
 
-Os modelos salvos podem ser vinculados aos fluxos de trabalho de **Notificação por E-mail** (por exemplo, lembretes de aprovação, atualizações de status).
+Os modelos salvos podem ser vinculados aos fluxos de trabalho de [**Notificação por E-mail**](email-notification/) (por exemplo, lembretes de aprovação, atualizações de status).
