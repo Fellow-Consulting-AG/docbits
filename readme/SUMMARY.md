@@ -122,6 +122,7 @@
       * [e-docs](admin-section/settings/global-settings/document-types/edi-1/README.md)
         * [e-SLOG 1.6 und 2.0](admin-section/settings/global-settings/document-types/edi-1/eslog-1.6-and-2.0.md)
     * [Email Notification](overview/settings/global-settings/email-notification.md)
+    * [E-Mail-Vorlagen](administration-and-setup/settings/global-settings/e-mail-vorlagen.md)
     * [Custom Filters](overview/settings/global-settings/page-1.md)
     * [Integration](overview/settings/global-settings/integration/README.md)
       * [API Calls and Examples](overview/settings/global-settings/integration/api-calls-and-examples.md)
