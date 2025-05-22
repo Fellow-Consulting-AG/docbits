@@ -57,4 +57,4 @@ Szablony e-maili pozwalają na dostosowanie automatycznych powiadomień e-mail w
 
 ## **Używanie szablonów w powiadomieniach e-mailowych**
 
-Zapisane szablony mogą być powiązane z **Powiadomieniami e-mailowymi** (np. przypomnienia o zatwierdzeniu, aktualizacje statusu).
+Zapisane szablony mogą być powiązane z [**Powiadomieniami e-mailowymi**](email-notification/) (np. przypomnienia o zatwierdzeniu, aktualizacje statusu).
