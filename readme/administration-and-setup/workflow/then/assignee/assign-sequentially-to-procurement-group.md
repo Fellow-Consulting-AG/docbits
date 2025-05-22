@@ -1,6 +1,6 @@
-# Assign  Sequentially to Procurement Group
+# Assign Sequentially to Procurement Group
 
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Purpose**
 

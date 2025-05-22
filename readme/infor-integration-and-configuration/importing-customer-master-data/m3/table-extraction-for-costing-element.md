@@ -38,7 +38,7 @@ _**"Costing elements are not properly configured. Please ask your admin to confi
    Below are examples of the Excel file _before_ and _after_ applying the required modifications:
    *   **Before Modification:**
 
-       <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
    *   **After Modification:**
 
        <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
