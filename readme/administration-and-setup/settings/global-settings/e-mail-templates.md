@@ -57,4 +57,4 @@ Las plantillas de correo electrónico le permiten personalizar las notificacione
 
 ## **Uso de plantillas en notificaciones**
 
-Las plantillas guardadas pueden vincularse a flujos de trabajo de **Notificación por correo electrónico** (por ejemplo, recordatorios de aprobación, actualizaciones de estado).
+Las plantillas guardadas pueden vincularse a flujos de trabajo de [**Notificación por correo electrónico**](../supplier-setting/) (por ejemplo, recordatorios de aprobación, actualizaciones de estado).
