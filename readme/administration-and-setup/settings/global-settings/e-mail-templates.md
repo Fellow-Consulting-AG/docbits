@@ -59,4 +59,4 @@ E-Mail-Vorlagen ermöglichen es Ihnen, automatisierte E-Mail-Benachrichtigungen 
 
 ## **Verwendung von Vorlagen in Benachrichtigungen**
 
-Gespeicherte Vorlagen können mit **E-Mail-Benachrichtigungen** verknüpft werden (z. B. Genehmigungserinnerungen, Statusaktualisierungen).
+Gespeicherte Vorlagen können mit [**E-Mail-Benachrichtigungen**](../../../overview/settings/global-settings/email-notification.md) verknüpft werden (z. B. Genehmigungserinnerungen, Statusaktualisierungen).
