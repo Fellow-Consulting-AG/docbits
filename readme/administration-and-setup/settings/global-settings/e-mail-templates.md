@@ -1,4 +1,4 @@
-# E-Mail- templates
+# E-Mail templates
 
 ## **Overview**
 
@@ -63,4 +63,4 @@ Email Templates allow you to customize automated email notifications sent from D
 
 ## **Using Templates in Notifications**
 
-Saved templates can be linked to **Email Notification** workflows (e.g., approval reminders, status updates).
+Saved templates can be linked to [**Email Notification**](email-notification/) workflows (e.g., approval reminders, status updates).
