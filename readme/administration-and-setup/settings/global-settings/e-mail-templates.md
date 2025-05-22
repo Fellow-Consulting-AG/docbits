@@ -57,4 +57,4 @@ I modelli di email ti consentono di personalizzare le notifiche email automatizz
 
 ## **Utilizzo dei Modelli nelle Notifiche**
 
-I modelli salvati possono essere collegati ai flussi di lavoro delle **Notifiche Email** (ad es., promemoria di approvazione, aggiornamenti di stato).
+I modelli salvati possono essere collegati ai flussi di lavoro delle [**Notifiche Emai**](email-notification/)**l** (ad es., promemoria di approvazione, aggiornamenti di stato).
