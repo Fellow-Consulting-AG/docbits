@@ -535,4 +535,3 @@
     * [Supplier address](advanced-functions-and-tools/powerbi/sql-access/supplier-address.md)
     * [Organisation document type](advanced-functions-and-tools/powerbi/sql-access/organisation-document-type.md)
     * [Sub Organisation Cache](advanced-functions-and-tools/powerbi/sql-access/sub-organisation-cache.md)
-* [API](advanced-functions-and-tools/api.md)
