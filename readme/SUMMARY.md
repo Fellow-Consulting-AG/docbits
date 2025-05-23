@@ -215,6 +215,7 @@
   * [Lieferantenportal](administration-and-setup/setup/supplier-portal.md)
   * [WatchDog Installation](administration-and-setup/setup/watchdog-installation.md)
   * [SSO Configuration](setup/sso-configuration.md)
+* [Berichtsseite](administration-and-setup/report-page.md)
 
 ## Infor Integration und  Konfiguration <a href="#infor-integration-and-configuration" id="infor-integration-and-configuration"></a>
 
