@@ -215,6 +215,7 @@
       * [M3](administration-and-setup/setup/testing/auto-accounting/m3.md)
   * [Portal Dostawcy](administration-and-setup/setup/supplier-portal.md)
   * [Instalacja WatchDog](administration-and-setup/setup/watchdog-installation.md)
+* [Strona Raportu](administration-and-setup/report-page.md)
 
 ## Integracja i konfiguracja Infor <a href="#infor-integration-and-configuration" id="infor-integration-and-configuration"></a>
 
