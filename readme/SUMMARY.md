@@ -52,6 +52,8 @@
     * [Keyboard Shortcuts](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
   * [Purpose and Use](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Purchase Order Matching](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
+    * [Purchase Order Matching Tools](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
+    * [Rules and Calculations](end-user-and-partner-section/end-user-section/purchase-order-matching/rules-and-calculations.md)
     * [Automatic Purchase Order Data Matching](end-user-and-partner-section/end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Supplier Item Number Map](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
     * [Keyboard Shortcuts](end-user-and-partner-section/end-user-section/purchase-order-matching/keyboard-shortcuts.md)
