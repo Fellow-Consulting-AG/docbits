@@ -14,5 +14,5 @@ Po włączeniu system dostarcza **wizualny wskaźnik** na ekranie **Dopasowanie 
 
 Aby odświeżyć zamówienie zakupu, kliknij **ikonkę odświeżania** obok numeru zamówienia zakupu (zobacz zdjęcie poniżej).
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 
