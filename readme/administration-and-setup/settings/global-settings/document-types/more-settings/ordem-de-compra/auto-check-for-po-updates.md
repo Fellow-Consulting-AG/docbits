@@ -14,5 +14,5 @@ Quando ativada, o sistema fornece um **indicador visual** na tela de **Correspon
 
 Para atualizar o pedido de compra, clique no **ícone de atualizar** ao lado do número do pedido de compra (veja a imagem abaixo).
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 

@@ -8,17 +8,17 @@ Você pode optar por calcular o preço unitário manualmente, dividindo o valor 
 
 1.  Navegue até **Configurações** -> **Configurações Globais** -> **Tipos de Documento**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1.png" alt=""><figcaption></figcaption></figure>
 2.  Selecione o tipo de documento desejado e clique em **Mais Configurações**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
 3.  Na seção **Ordem de Compra**, ative a opção **Calcular Preço Unitário do PO**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_3.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_3.png" alt=""><figcaption></figcaption></figure>
 
 ## Exemplo:
 
-<figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_4.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_4.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Neste caso, o preço unitário (sem o desconto) é extraído do documento, enquanto a ordem de compra no Infor armazena o preço unitário com o desconto aplicado. Isso resulta em uma discrepância no preço unitário.
 
