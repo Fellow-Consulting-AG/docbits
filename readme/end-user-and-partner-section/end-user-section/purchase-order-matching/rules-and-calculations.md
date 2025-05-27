@@ -9,8 +9,7 @@ The Purchase Order Matching process matches only specific columns. The list belo
 * [Quantity](rules-and-calculations.md#quantity) (Quantity | Received Quantity | Received Delivery Quantity)
 * Unit Price
 * Purchase Order Number
-* Item Number
-* Supplier Item ID
+* Item Number/Supplier Item ID
 * Promised Delivery Date
 
 ## Quantity
