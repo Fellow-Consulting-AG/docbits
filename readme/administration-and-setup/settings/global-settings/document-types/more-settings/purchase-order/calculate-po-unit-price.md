@@ -8,17 +8,17 @@ You can choose to calculate the unit price manually by dividing the net amount b
 
 1.  Navigate to **Settings** -> **Global Settings** -> **Document Types**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1.png" alt=""><figcaption></figcaption></figure>
 2.  Select the desired document type and click on **More Settings**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
 3.  In the **Purchase Order** section, enable the option **Calculate PO Unit Price**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_3.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_3.png" alt=""><figcaption></figcaption></figure>
 
 ## Example:
 
-<figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_4.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_4.png" alt="" width="563"><figcaption></figcaption></figure>
 
 In this case, the unit price (without the discount) is extracted from the document, while the purchase order in Infor stores the unit price with the discount applied. This results in a mismatch in the unit price.
 

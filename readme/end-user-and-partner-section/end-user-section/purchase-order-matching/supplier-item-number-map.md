@@ -23,7 +23,7 @@ This feature helps you manage and reconcile item numbers between your system and
 * **Action:** Options to manage the mappings, such as deleting incorrect mappings.
 
 {% hint style="info" %}
-See here the [Admin Section](../../../administration-and-setup/settings/global-settings/document-types/more-settings/supplier-item-number-map-admin-documentation.md) as well
+See here the [Admin Section](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/supplier-item-number-map-admin-documentation.md) as well
 {% endhint %}
 
 ## **Benefits**

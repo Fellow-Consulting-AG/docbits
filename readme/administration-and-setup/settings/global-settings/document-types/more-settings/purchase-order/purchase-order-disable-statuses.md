@@ -15,7 +15,7 @@ By using this setting, users can ensure that purchase orders with specific statu
 
 In the **PO Matching** screen, a disabled purchase order appears **crossed out**. This visually indicates that the PO is currently restricted from being matched due to its status.
 
-<figure><img src="../../../../../.gitbook/assets/image (390).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (390).png" alt=""><figcaption></figcaption></figure>
 
 ### **How to set it up**&#x20;
 
@@ -23,11 +23,11 @@ In the **PO Matching** screen, a disabled purchase order appears **crossed out**
 2.  Clicking this field opens a dropdown list of available PO statuses.\
 
 
-    <div align="left"><figure><img src="../../../../../.gitbook/assets/image (389).png" alt="" width="372"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (389).png" alt="" width="372"><figcaption></figcaption></figure></div>
 3. Select one or more statuses by clicking on them. Click again to deselect.
 4. Click the **Apply** button to save your changes.
 
-<figure><img src="../../../../../.gitbook/assets/image (387).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (387).png" alt=""><figcaption></figcaption></figure>
 
 **Available Statuses**
 

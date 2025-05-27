@@ -24,11 +24,11 @@ You can set this option in **Settings → General Settings → Document Types �
 
 ## Accept Tolerances
 
-You can specify that a particular tolerance is acceptable during the matching process. By default, only exact (100%) matches are considered valid. For more information, see the [detailed documentation](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md).
+You can specify that a particular tolerance is acceptable during the matching process. By default, only exact (100%) matches are considered valid. For more information, see the [detailed documentation](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md).
 
 ## Disable statuses
 
-You can exclude specific lines with certain statuses from being matched. For more information, refer to the [detailed documentation](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md).
+You can exclude specific lines with certain statuses from being matched. For more information, refer to the [detailed documentation](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md).
 
 ## Calculation
 

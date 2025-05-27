@@ -1,6 +1,6 @@
-# Duplicate Document Handling In DocBits
+# Duplicate Detection
 
-## Enabling Duplicate Document Handling
+## Enabling Duplicate Detection
 
 To enable duplicate document handling, follow these steps:
 
