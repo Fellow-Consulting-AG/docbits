@@ -18,13 +18,13 @@ Para habilitar esta función:
   *   No se mostrará ninguna notificación sobre el módulo deshabilitado.\
 
 
-      <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 * **Cuando está deshabilitado**:
   * Una pista indicará que el módulo está deshabilitado.
   *   La **tabla de PO** no será visible en la **Pantalla de Validación**.\
 
 
-      <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Cómo acceder al Constructor de Diseño**
 

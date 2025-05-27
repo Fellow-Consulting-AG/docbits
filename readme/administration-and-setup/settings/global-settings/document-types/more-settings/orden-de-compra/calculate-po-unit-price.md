@@ -8,17 +8,17 @@ Puedes optar por calcular el precio unitario manualmente dividiendo el monto net
 
 1.  Navega a **Ajustes** -> **Ajustes Globales** -> **Tipos de documentos**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1_es.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1_es.png" alt=""><figcaption></figcaption></figure>
 2.  Selecciona el tipo de documento deseado y haz clic en **Más Ajustes**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2_es.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2_es.png" alt=""><figcaption></figcaption></figure>
 3.  En la sección **Orden de compra**, habilita la opción **Calcular el precio unitario del pedido**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_3_es.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_3_es.png" alt=""><figcaption></figcaption></figure>
 
 ## Ejemplo:
 
-<figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_4.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_4.png" alt="" width="563"><figcaption></figcaption></figure>
 
 En este caso, el precio unitario (sin el descuento) se extrae del documento, mientras que la orden de compra en Infor almacena el precio unitario con el descuento aplicado. Esto resulta en una discrepancia en el precio unitario.
 

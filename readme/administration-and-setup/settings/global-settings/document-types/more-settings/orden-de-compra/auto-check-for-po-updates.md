@@ -6,7 +6,7 @@ Ir a **Ajuste** → **Ajuste General** → **Tipos de Documentos** → **Más Co
 
 Activa el botón para habilitar esta configuración.
 
-<figure><img src="../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207110303.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207110303.jpg" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -18,4 +18,4 @@ Cuando está habilitada, el sistema proporciona un **indicador visual** en la pa
 
 Para refrescar la orden de compra, haz clic en el **ícono de refresco** junto al número de la orden de compra (ver imagen a continuación).
 
-​![](<../../../../../.gitbook/assets/image (5).png>)
+​![](<../../../../../../.gitbook/assets/image (5).png>)
