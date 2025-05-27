@@ -4,7 +4,7 @@
 
 Gehe zu **Einstellungen** → **Allgemeine Einstellungen** → **Dokumenttypen** → **Weitere Einstellungen** → **Bestellabschnitt** → **Automatische Überprüfung auf PO-Updates** Aktiviere diese Einstellung mit dem Umschalter.
 
-<figure><img src="../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207105846.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207105846.jpg" alt=""><figcaption></figcaption></figure>
 
 #### So funktioniert es
 
@@ -14,4 +14,4 @@ Wenn aktiviert, bietet das System einen **visuellen Indikator** im **Bestellabgl
 
 Um die Bestellung zu aktualisieren, klicke auf das **Aktualisierungssymbol** neben der Bestellnummer (siehe Bild unten).
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure></div>
