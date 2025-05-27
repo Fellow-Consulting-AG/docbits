@@ -1,22 +1,17 @@
 # Rules and Calculations
 
+On this page, you can find which columns are matched, the rules they follow, and how the resulting calculation is performed.
+
 ## Matched Columns&#x20;
 
-The Purchase Order Matching process only matches specific columns. This section details which columns are matched for each document type.
+The Purchase Order Matching process matches only specific columns. The list below outlines which columns are matched, if available. If no [tolerance](rules-and-calculations.md#accept-tolerances) is set, the columns will only match if they are an exact (100%) match.
 
-| Invoice                                           | Order Conformation                                | Delivery Note                                     |
-| ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| Quantity                                          | Quantity                                          | Quantity                                          |
-| Unit Price                                        | Promised Delivery Note                            | Promised Delivery Note                            |
-| Item Number<mark style="color:red;">**\***</mark> | Item Number<mark style="color:red;">**\***</mark> | Item Number<mark style="color:red;">**\***</mark> |
-
-| Customer Order                                    | E-Invoice                                         |
-| ------------------------------------------------- | ------------------------------------------------- |
-| Quantity                                          | Quantity                                          |
-| Unit Price                                        | Unit Price                                        |
-| Item Number<mark style="color:red;">**\***</mark> | Item Number<mark style="color:red;">**\***</mark> |
-
-<mark style="color:red;">**\*Note:**</mark> The _Item Number_ column is only matched when the Purchase Order Matching is triggered using the [_Auto PO Match_](purchase-order-matching-tools.md#auto-po-match) button.
+* [Quantity](rules-and-calculations.md#quantity) (Quantity | Received Quantity | Received Delivery Quantity)
+* Unit Price
+* Purchase Order Number
+* Item Number
+* Supplier Item ID
+* Promised Delivery Date
 
 ## Quantity
 
@@ -34,7 +29,7 @@ You can specify that a particular tolerance is acceptable during the matching pr
 
 ## Disable statuses
 
-You can prevent specific statuses from being matched. For more information, see the [detailed documentation](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md).
+You can exclude specific lines with certain statuses from being matched. For more information, refer to the [detailed documentation](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order-disable-statuses.md).
 
 ## Calculation
 
