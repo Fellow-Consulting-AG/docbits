@@ -22,7 +22,7 @@ Quando abilitata, questa impostazione consente di definire tolleranze per **Quan
     * **Percentuale:** Indica una tolleranza percentuale.
     * **Valore:** Indica un importo fisso con cui il valore può differire.
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 #### **Scenario di esempio:**
 
@@ -37,7 +37,7 @@ Quando abilitata, questa impostazione consente di definire tolleranze per **Quan
   * La riga 1 **non è segnalata** come una discrepanza perché $4.80 è all'interno del 5% di $5.00.
   * La riga 2 **è segnalata** come una discrepanza perché $2.20 supera la deviazione consentita del 5% da $2.00. L'utente è ora tenuto a prendere provvedimenti per risolvere la discrepanza prima che la fattura possa essere elaborata ulteriormente.
 
-<figure><img src="../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207102531 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207102531 (1).jpg" alt=""><figcaption></figcaption></figure>
 
 ### Impostazione per configurare le ulteriori impostazioni di tolleranza per gli ordini di acquisto
 
@@ -60,4 +60,4 @@ Quando abilitata, questa impostazione consente di definire tolleranze per **Spes
     * **Percentuale:** La tolleranza è definita come una percentuale.
     * **Valore:** La tolleranza è definita come un importo fisso.
 
-<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>

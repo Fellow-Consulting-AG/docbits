@@ -14,4 +14,4 @@ Quando abilitata, il sistema fornisce un **indicatore visivo** nella schermata d
 
 Per aggiornare l'ordine di acquisto, fai clic sull'**icona di aggiornamento** accanto al numero dell'ordine di acquisto (vedi immagine qui sotto).
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
