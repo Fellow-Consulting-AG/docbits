@@ -18,14 +18,14 @@ Pour activer cette fonctionnalité :
   *   Aucune notification indiquant que le module est désactivé ne sera affichée.\
 
 
-      <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 *   **Lorsque désactivé** :
 
     * Un indice indiquera que le module est désactivé.
     * La **table PO** ne sera pas visible dans l'**Écran de Validation**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Comment accéder au Constructeur de Mise en Page**
 
