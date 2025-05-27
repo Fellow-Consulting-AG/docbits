@@ -19,7 +19,7 @@ The Purchase Order Matching process only matches specific columns. This section 
 | Unit Price                                        | Unit Price                                        |
 | Item Number<mark style="color:red;">**\***</mark> | Item Number<mark style="color:red;">**\***</mark> |
 
-<mark style="color:red;">**Note:**</mark> The _Item Number_ column is only matched when the Purchase Order Matching is triggered using the [_Auto PO Match_](purchase-order-matching-tools.md#auto-po-match) button.
+<mark style="color:red;">**\*Note:**</mark> The _Item Number_ column is only matched when the Purchase Order Matching is triggered using the [_Auto PO Match_](purchase-order-matching-tools.md#auto-po-match) button.
 
 ## Calculation
 
