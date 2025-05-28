@@ -18,9 +18,9 @@ Der Bereich Weitere Einstellungen ermöglicht es Administratoren, verschiedene A
    * **Genehmigen vor dem Export**: Stellt sicher, dass Dokumente genehmigt werden müssen, bevor sie aus dem System exportiert werden können.
    * **Zweite Genehmigung**: Fügt eine zusätzliche Genehmigungsebene für eine weitere Validierung hinzu, um die Kontrolle über die Dokumentenverarbeitung zu verbessern.
 5. **Bestellung / Automatische Buchhaltung**:
-   * [**Bestelltabelle im Layout-Builder**](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/bestellung/po-table-in-layout-builder.md): Ermöglicht die Einbeziehung von Bestelltabelle im Layout-Builder für angepasste Dokumentenlayouts.
+   * [**Bestelltabelle im Layout-Builder**](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/po-table-in-layout-builder.md): Ermöglicht die Einbeziehung von Bestelltabelle im Layout-Builder für angepasste Dokumentenlayouts.
    * **Bestellung**: Schaltet die Verarbeitung von Bestelldokumenten im System um.
-   * [**Einstellen der PO-Toleranz**:](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/bestellung/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md) Legt Toleranzwerte für Bestellmengen fest, um kleinere Abweichungen zu berücksichtigen, ohne sie als Fehler zu kennzeichnen.
+   * [**Einstellen der PO-Toleranz**:](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md) Legt Toleranzwerte für Bestellmengen fest, um kleinere Abweichungen zu berücksichtigen, ohne sie als Fehler zu kennzeichnen.
 6. **Alternative Dokumentenexport**:
    * **PO-Status deaktivieren**: Ermöglicht das Deaktivieren bestimmter Status für Bestellungen während des Exportprozesses und bietet Flexibilität bei der Handhabung von Bestellungen.
 7. **Lieferantenartikelnummernkarte**:
