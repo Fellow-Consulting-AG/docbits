@@ -1,14 +1,24 @@
 # Purchase order disable statuses
 
-## **Setting to disable PO based on statuses**&#x20;
-
-Go to **Settings → General Settings → Document Types → More Settings → Purchase Order Section → PO Disable Statuses**
-
-### **How it work**&#x20;
+## **Overview**
 
 The **PO Disable Statuses** setting allows users to specify purchase order (PO) statuses that prevent invoices from being matched to those POs. If a purchase order has a status listed in this setting, it **cannot** be used for invoice matching in the PO matching screen, stopping further processing of related invoices until the PO's status changes to one that is not disabled.\
 \
-By using this setting, users can ensure that purchase orders with specific statuses do not undergo further invoice processing, reducing errors and preventing unnecessary payments.\
+By using this setting, users can ensure that purchase orders with specific statuses do not undergo further invoice processing, reducing errors and preventing unnecessary payments.
+
+## **Activation Steps**&#x20;
+
+1.  Go to **Settings → General Settings → Document Types**
+
+    <figure><img src="../../../../../../.gitbook/assets/disablpe_po_status_1.png" alt=""><figcaption></figcaption></figure>
+2.  Select the desired document type and click on **More Settings**
+
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
+3.  In the **Purchase Order** section, enable the option **PO Disable Statuses**
+
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_3.png" alt=""><figcaption></figcaption></figure>
+
+\
 
 
 ### **How to Identify a Disabled Purchase Order**
