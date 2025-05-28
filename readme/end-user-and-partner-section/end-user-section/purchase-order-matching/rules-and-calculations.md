@@ -2,7 +2,7 @@
 
 On this page, you can find which columns are matched, the rules they follow, and how the resulting calculation is performed.
 
-## Matched Columns&#x20;
+## Which columns are being matched?
 
 The Purchase Order Matching process matches only specific columns. The list below outlines which columns are matched, if available. If no [tolerance](rules-and-calculations.md#accept-tolerances) is set, the columns will only match if they are an exact (100%) match.
 
