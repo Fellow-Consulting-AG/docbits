@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Best Practices
 
 Best practices for managing EDI configurations include regular updates to adapt to changing standards, thorough testing of EDI templates, and maintaining clear documentation of all transformations and structure descriptions.
@@ -23,7 +27,7 @@ Best practices for managing EDI configurations include regular updates to adapt 
 
 **Versioning of configurations:**
 
-* Implement versioning of your EDI configurations to track changes and revert to previous versions if necessary.&#x20;
+* Implement versioning of your EDI configurations to track changes and revert to previous versions if necessary.
 * Use an appropriate version control system to track changes and ensure that all team members have access to the most current version.
 
 **Training and education of employees:**
@@ -31,9 +35,4 @@ Best practices for managing EDI configurations include regular updates to adapt 
 * Ensure that your employees have the necessary knowledge and skills to effectively handle the EDI configurations.
 * Provide training and education to ensure your team is aware of the latest developments in EDI standards and practices.
 
-&#x20;
-
 By implementing these best practices, you can improve the efficiency, accuracy and reliability of your EDI configurations and ensure they meet the ever-changing needs of your business and your business partners.
-
-
-

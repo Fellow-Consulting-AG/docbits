@@ -50,7 +50,7 @@
 
        * change to the SSL tab and check Use SSL. Move down to SSL mode and select require
 
-       <figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
    *   Connect via URL
 
        * Fill in the required information:\
