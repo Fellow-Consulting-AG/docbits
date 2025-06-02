@@ -38,13 +38,19 @@ Below the table containing the information extracted from your document, you can
 
 ### Recorded bookings:
 
-This is calculated based on the recorded Purchase Order number using the following formula\
-&#xNAN;**`Recorded bookings`**` ``=`` `**`UNIT PRICE * QUANTITY (based on the purchase order)`**
+This is calculated based on the recorded Purchase Order number using the following formula:
+
+```
+Recorded bookings = UNIT PRICE * QUANTITY (based on the purchase order)
+```
 
 ### Matched total:
 
-This is calculated based on the amount extracted from the document using the following formula:\
-&#x20;**UNIT PRICE \* QUANTITY (based on the document)**
+This is calculated based on the amount extracted from the document using the following formula:
+
+```
+ Matched total = UNIT PRICE * QUANTITY (based on the document)
+```
 
 ### **Charges:**
 
@@ -52,6 +58,9 @@ In this section, any applicable charges will be added if they are present.
 
 ### Unsettled amount:
 
-The resulting difference is displayed here and is calculated as follows:\
-**Recorded bookings - Matched total - Charges**
+The resulting difference is displayed here and is calculated as follows:
+
+```
+Unsettled amount = Recorded bookings - Matched total - Charges
+```
 
