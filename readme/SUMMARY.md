@@ -40,6 +40,7 @@
     * [Tastenkombinationen](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
   * [Zweck und Verwendung](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Bestellabgleich](end-user-section/purchase-order-matching/README.md)
+    * [Regeln und Berechnungen](end-user-and-partner-section/end-user-section/purchase-order-matching/rules-and-calculations.md)
     * [Automatischer Bestelldatenabgleich](end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Lieferanten-Artikelnummern-Zuordnung](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
     * [Tastenkombinationen](end-user-and-partner-section/end-user-section/purchase-order-matching/keyboard-shortcuts.md)
