@@ -4,6 +4,15 @@
 
 In the "More Settings" section, you can find various options related to individual document types. Once a setting is activated, it will apply only to that specific document type. This page provides a brief overview of what each setting does.
 
+## How to Access
+
+1.  Navigate to **Settings** -> **Global Settings** -> **Document Types**.
+
+    <figure><img src="../../../../../.gitbook/assets/disablpe_po_status_1.png" alt=""><figcaption></figcaption></figure>
+2.  Select the desired document type and click on **More Settings**.
+
+    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
+
 ## Table Extraction
 
 * **Skip table validation**: Allows bypassing the validation process for table data, which can be useful in scenarios where data validation needs to be flexible.
