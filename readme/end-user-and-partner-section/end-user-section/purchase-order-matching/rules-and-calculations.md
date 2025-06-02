@@ -6,7 +6,7 @@ On this page, you can find which columns are matched, the rules they follow, and
 
 The Purchase Order Matching process matches only specific columns. The list below outlines which columns are matched, if available. If no [tolerance](rules-and-calculations.md#accept-tolerances) is set, the columns will only match if they are an exact (100%) match.
 
-* [Quantity](rules-and-calculations.md#quantity) (Quantity | Received Quantity | Received Delivery Quantity)
+* [Quantity](rules-and-calculations.md#quantity) (Quantity | Received Quantity | Received Delivery Open Quantity)
 * Unit Price
 * Purchase Order Number
 * Item Number/Supplier Item ID
@@ -18,7 +18,7 @@ You have three options for matching the quantity.&#x20;
 
 * Quantity&#x20;
 * Received Quantity
-* Received Delivery Quantity&#x20;
+* Received Delivery Open Quantity&#x20;
 
 You can set this option in **Settings → Global Settings → Document Types → More Settings → Purchase Order Section → Purchase Order**
 
