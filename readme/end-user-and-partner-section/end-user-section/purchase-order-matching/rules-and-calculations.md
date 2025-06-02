@@ -39,12 +39,12 @@ Below the table containing the information extracted from your document, you can
 ### Recorded bookings:
 
 This is calculated based on the recorded Purchase Order number using the following formula\
-**UNIT PRICE \* QUANTITY (based on the purchase order)**
+&#xNAN;**`Recorded bookings`**` ``=`` `**`UNIT PRICE * QUANTITY (based on the purchase order)`**
 
 ### Matched total:
 
 This is calculated based on the amount extracted from the document using the following formula:\
-**UNIT PRICE \* QUANTITY (based on the document)**
+&#x20;**UNIT PRICE \* QUANTITY (based on the document)**
 
 ### **Charges:**
 
