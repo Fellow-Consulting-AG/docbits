@@ -20,7 +20,7 @@ You have three options for matching the quantity.&#x20;
 * Received Quantity
 * Received Delivery Quantity&#x20;
 
-You can set this option in **Settings → General Settings → Document Types → More Settings → Purchase Order Section → Purchase Order**
+You can set this option in **Settings → Global Settings → Document Types → More Settings → Purchase Order Section → Purchase Order**
 
 ## Accept Tolerances
 
