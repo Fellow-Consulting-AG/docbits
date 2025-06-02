@@ -4,9 +4,9 @@ In questa pagina, puoi trovare quali colonne sono abbinate, le regole che seguon
 
 ## Quali colonne vengono abbinate?
 
-Il processo di abbinamento dell'Ordine di acquisto abbina solo colonne specifiche. L'elenco qui sotto delinea quali colonne sono abbinate, se disponibili. Se non viene impostata alcuna [tolleranza](regole-e-calcoli.md#accetta-tolleranze), le colonne si abbineranno solo se sono un abbinamento esatto (100%).
+Il processo di abbinamento dell'Ordine di acquisto abbina solo colonne specifiche. L'elenco qui sotto delinea quali colonne sono abbinate, se disponibili. Se non viene impostata alcuna [tolleranza](rules-and-calculations.md#accetta-tolleranze), le colonne si abbineranno solo se sono un abbinamento esatto (100%).
 
-* [Quantità](regole-e-calcoli.md#quantita) (Quantità | Quantità ricevuta | Consegna ricevuta Quantità aperta)
+* [Quantità](rules-and-calculations.md#quantita) (Quantità | Quantità ricevuta | Consegna ricevuta Quantità aperta)
 * Prezzo unitario
 * Numero dell'ordine di acquisto
 * Numero di articolo/ID articolo fornitore
