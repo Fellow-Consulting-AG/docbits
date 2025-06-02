@@ -8,7 +8,7 @@ By using this setting, users can ensure that purchase orders with specific statu
 
 ## **Activation Steps**&#x20;
 
-1.  Go to **Settings → General Settings → Document Types**
+1.  Go to **Settings → Global Settings → Document Types**
 
     <figure><img src="../../../../../../.gitbook/assets/disablpe_po_status_1.png" alt=""><figcaption></figcaption></figure>
 2.  Select the desired document type and click on **More Settings**
