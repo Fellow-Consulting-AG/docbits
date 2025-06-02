@@ -43,6 +43,7 @@
     * [Raccourcis Clavier](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
   * [Objectif et Utilisation](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Appariement des Bons de Commande](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
+    * [Règles et Calculs](end-user-and-partner-section/end-user-section/purchase-order-matching/rules-and-calculations.md)
     * [Correspondance Automatique des Données de Bon de Commande](end-user-and-partner-section/end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Correspondance des numéros d'article du fournisseur](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
     * [Raccourcis Clavier](end-user-and-partner-section/end-user-section/purchase-order-matching/keyboard-shortcuts.md)
