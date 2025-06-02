@@ -34,6 +34,8 @@ Sie können bestimmte Zeilen mit bestimmten Status vom Abgleich ausschließen. F
 
 Unter der Tabelle mit den aus Ihrem Dokument extrahierten Informationen finden Sie einfache Berechnungen, um zu überprüfen, ob die gesamten Buchungen übereinstimmen.
 
+<figure><img src="../../../.gitbook/assets/po_rules_1_de.png" alt="" width="422"><figcaption></figcaption></figure>
+
 ### Erfasste Buchungen:
 
 Dies wird basierend auf der erfassten Bestellnummer mit der folgenden Formel berechnet:
