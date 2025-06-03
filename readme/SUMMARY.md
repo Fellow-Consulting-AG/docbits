@@ -117,7 +117,7 @@
         * [Bestellung](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/README.md)
           * [Auftragstabelle im Layout-Builder](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/po-table-in-layout-builder.md)
           * [Automatische Prüfung auf PO-Aktualisierungen](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/auto-check-for-po-updates.md)
-          * [Bestellung deaktivieren Status](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md)
+          * [PO-Deaktivierungsstatus](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md)
           * [Berechnung des PO-Einzelpreises](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/calculate-po-unit-price.md)
           * [Export nicht übereinstimmender PO-Zeilen](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/export-not-matched-po-lines.md)
           * [Einstellungen zur Toleranz von Bestellungen / Zusätzliche Toleranz für Bestellungen](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)

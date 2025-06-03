@@ -1,48 +1,50 @@
-# Bestellung deaktivieren Status
+# PO-Deaktivierungsstatus
 
+## **Übersicht**
 
-
-### **Einstellung zum Deaktivieren von Bestellungen basierend auf Status**
-
-Gehe zu **Einstellungen → Allgemeine Einstellungen → Dokumenttypen → Weitere Einstellungen → Bestellabschnitt → PO deaktivieren Status**
-
-#### **So funktioniert es**
-
-Die Einstellung **"PO-Deaktivierungsstatus"** ermöglicht es Benutzern, Bestellstatus (PO) anzugeben, die verhindern, dass Rechnungen mit diesen POs abgeglichen werden. Wenn eine Bestellung einen in dieser Einstellung aufgeführten Status hat, **kann** sie nicht für den Rechnungsabgleich im PO-Abgleichsbildschirm verwendet werden, wodurch die weitere Verarbeitung der zugehörigen Rechnungen gestoppt wird, bis sich der Status der PO in einen nicht deaktivierten ändert.
-
+Die **PO-Deaktivierungsstatus**-Einstellung ermöglicht es Benutzern, Bestellstatus (PO) anzugeben, die verhindern, dass Rechnungen mit diesen POs abgeglichen werden. Wenn eine Bestellung einen in dieser Einstellung aufgeführten Status hat, **kann** sie nicht für den Rechnungsabgleich im PO-Abgleichsbildschirm verwendet werden, was die weitere Verarbeitung der zugehörigen Rechnungen stoppt, bis sich der Status der PO in einen nicht deaktivierten Status ändert.\
+\
 Durch die Verwendung dieser Einstellung können Benutzer sicherstellen, dass Bestellungen mit bestimmten Status nicht weiter bearbeitet werden, wodurch Fehler reduziert und unnötige Zahlungen verhindert werden.
 
-#### **So identifizierst du eine deaktivierte Bestellung**
+## **Aktivierungsschritte**
 
-Im **PO-Abgleich**-Bildschirm erscheint eine deaktivierte Bestellung **durchgestrichen**. Dies zeigt visuell an, dass die PO aufgrund ihres Status derzeit nicht abgeglichen werden kann.
+1.  Gehe zu **Einstellungen → Globale Einstellungen → Dokumenttypen**
 
-​
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1_de (1).png" alt=""><figcaption></figcaption></figure>
+2.  Wähle den gewünschten Dokumenttyp aus und klicke auf **Weitere Einstellungen**
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FDbA2CsBn6twgp5BrSvgV%2Fimage.png?alt=media\&token=211bd6a2-4136-4ea0-85cf-e17f428fa0da)
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2_de.png" alt=""><figcaption></figcaption></figure>
+3.  Im Abschnitt **Bestellung** navigiere zur Option **PO-Deaktivierungsstatus**.
 
-#### **So richtest du es ein**
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_3_de (1).png" alt=""><figcaption></figcaption></figure>
 
-* In der Einstellung **PO-Deaktivierungsstatus** sehen sie ein Auswahlfeld auf der linken Seite.
-*   Ein Klick auf dieses Feld öffnet eine Dropdown-Liste der verfügbaren PO-Status.
+### **Wie man eine deaktivierte Bestellung identifiziert**
 
-    ​
+Im **PO-Abgleich**-Bildschirm erscheint eine deaktivierte Bestellung **durchgestrichen**. Dies zeigt visuell an, dass die PO derzeit aufgrund ihres Status nicht abgeglichen werden kann.
 
-    ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FgvmAKBrVLXhDwKe7RIBe%2Fimage.png?alt=media\&token=0f98186b-3f50-483c-8465-a75972e9386a)
+<figure><img src="../../../../../../.gitbook/assets/disable_po_status_6.png" alt=""><figcaption></figcaption></figure>
 
-    ​
-* Wähle einen oder mehrere Status aus, indem du darauf klickst. Klicke erneut, um die Auswahl aufzuheben.
-* Klicke auf die Schaltfläche **Übernehmen**, um deine Änderungen zu speichern.
+### **Wie man es einrichtet**
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2F5FCyl2giTsZeu8487ai9%2Fimage.png?alt=media\&token=5e7c0ee4-1629-44e0-a4c5-056d7efa320f)
+1. In der **PO-Deaktivierungsstatus**-Einstellung siehst du ein Auswahlfeld auf der linken Seite.
+2.  Ein Klick auf dieses Feld öffnet eine Dropdown-Liste mit verfügbaren PO-Status.
+
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_4_de.png" alt="" width="256"><figcaption></figcaption></figure>
+3. Wähle einen oder mehrere Status aus, indem du auf sie klickst. Klicke erneut, um die Auswahl aufzuheben.
+4.  Klicke auf die Schaltfläche **Anwenden**, um deine Änderungen zu speichern.
+
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_5_de.png" alt=""><figcaption></figcaption></figure>
 
 **Verfügbare Status**
 
-* Abgebrochen
+* Abgesagt
 * Gelöscht
-* Fakturiert
-* Offen
-* Teilweise fakturiert
+* In Rechnung gestellt
+* Open
+* Teilweise in Rechnung gestellt
 * Teilweise erhalten
 * Erhalten
+* Abgelehnt
 * Nicht genehmigt
-* In Wartestellung
+* on hold
+* Geschlossen
