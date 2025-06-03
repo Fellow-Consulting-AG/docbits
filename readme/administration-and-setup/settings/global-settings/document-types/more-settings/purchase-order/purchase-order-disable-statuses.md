@@ -11,7 +11,7 @@ En utilisant ce paramètre, les utilisateurs peuvent s'assurer que les bons de c
 1.  Allez dans **Paramètres → Paramètres globaux → Types de documents**
 
     <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1_fr.png" alt=""><figcaption></figcaption></figure>
-2.  Sélectionnez le type de document souhaité et cliquez sur **Plus de paramètres.**
+2.  Sélectionnez le type de document souhaité et cliquez sur **Plus de paramètres**.
 
     <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2_fr.png" alt=""><figcaption></figcaption></figure>
 3.  Dans la section **Bon de commande**, accédez à l'option **PO Désactiver Statuts**.
