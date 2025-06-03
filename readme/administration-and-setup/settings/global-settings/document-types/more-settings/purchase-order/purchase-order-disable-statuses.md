@@ -1,47 +1,50 @@
-# Estados de desactivación de órdenes de compra
+# PO desactivar estados
 
-### **Configuración para desactivar estados de OC**
+## **Descripción general**
 
-Ir a **Ajuste → Ajuste General → Tipos de Documentos → Más Configuraciones → Sección de Órdenes de Compra → Estados de Desactivación de OC**
+La configuración de **PO Desactivar Estados** permite a los usuarios especificar estados de órdenes de compra (PO) que impiden que las facturas se emparejen con esas POs. Si una orden de compra tiene un estado listado en esta configuración, **no puede** ser utilizada para el emparejamiento de facturas en la pantalla de emparejamiento de PO, deteniendo el procesamiento de facturas relacionadas hasta que el estado de la PO cambie a uno que no esté deshabilitado.\
+\
+Al utilizar esta configuración, los usuarios pueden asegurarse de que las órdenes de compra con estados específicos no pasen por un procesamiento adicional de facturas, reduciendo errores y evitando pagos innecesarios.
 
-#### **Cómo Funciona**
+## **Pasos de activación**
 
-La configuración de **Estados de PO Deshabilitados** permite a los usuarios especificar los estados de las órdenes de compra (PO) que impiden que las facturas se emparejen con esas POs. Si una orden de compra tiene un estado listado en esta configuración, **no se puede** utilizar para el emparejamiento de facturas en la pantalla de emparejamiento de PO, deteniendo el procesamiento adicional de las facturas relacionadas hasta que el estado de la PO cambie a uno que no esté deshabilitado.
+1.  Ir a **Ajustes → Ajustes globales → Tipos de documentos**
 
-Al utilizar esta configuración, los usuarios pueden asegurarse de que las órdenes de compra con estados específicos no sean sometidas a un procesamiento adicional de facturas, reduciendo errores y evitando pagos innecesarios.
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1_es.png" alt=""><figcaption></figcaption></figure>
+2.  Seleccionar el tipo de documento deseado y hacer clic en **Más ajustes**
 
-#### **Cómo Identificar una Orden de Compra Desactivada**
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2_es.png" alt=""><figcaption></figcaption></figure>
+3.  En la sección de **Orden de compra**, navegar a la opción de **PO Desactivar Estados**.
 
-En la pantalla de **Emparejamiento de OC**, una orden de compra desactivada aparece **tachada**. Esto indica visualmente que la OC está actualmente restringida para ser emparejada debido a su estado.
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_3_es.png" alt=""><figcaption></figcaption></figure>
 
-​
+### **Cómo identificar una orden de compra deshabilitada**
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FDbA2CsBn6twgp5BrSvgV%2Fimage.png?alt=media\&token=211bd6a2-4136-4ea0-85cf-e17f428fa0da)
+En la pantalla de **Emparejamiento de PO**, una orden de compra deshabilitada aparece **tachada**. Esto indica visualmente que la PO está actualmente restringida para ser emparejada debido a su estado.
 
-#### **Cómo Configurarlo**
+<figure><img src="../../../../../../.gitbook/assets/disable_po_status_6.png" alt=""><figcaption></figcaption></figure>
 
-* En la configuración de **Estados de Desactivación de OC**, verás un campo de selección en el lado izquierdo.
-*   Hacer clic en este campo abre una lista desplegable de estados de OC disponibles.
+### **Cómo configurarlo**
 
-    ​
+1. En la configuración de **PO Desactivar Estados**, verás un campo de selección en el lado izquierdo.
+2.  Hacer clic en este campo abre una lista desplegable de estados de PO disponibles.
 
-    <div align="left"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FgvmAKBrVLXhDwKe7RIBe%2Fimage.png?alt=media&#x26;token=0f98186b-3f50-483c-8465-a75972e9386a" alt=""></div>
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_4_es.png" alt="" width="261"><figcaption></figcaption></figure>
+3. Selecciona uno o más estados haciendo clic en ellos. Haz clic nuevamente para deseleccionar.
+4.  Haz clic en el botón **Aplicar** para guardar tus cambios.
 
-    ​
-* Selecciona uno o más estados haciendo clic en ellos. Haz clic nuevamente para deseleccionar.
-* Haz clic en el botón **Aplicar** para guardar tus cambios.
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_5_es.png" alt=""><figcaption></figcaption></figure>
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2F5FCyl2giTsZeu8487ai9%2Fimage.png?alt=media\&token=5e7c0ee4-1629-44e0-a4c5-056d7efa320f)
+**Estados disponibles**
 
-**Estados Disponibles**
-
-* Cancelado
-* Eliminado
-* Facturado
-* Abierto
-* Parcialmente Facturado
-* Parcialmente Recibido
-* Recibido
-* No Aprobado
-* En Espera
-* Cerrado
+* Canceled
+* Deleted
+* Invoiced
+* Open
+* Partially Invoiced
+* Partially Received
+* Received
+* Rejected
+* Unapproved
+* Hold
+* Closed
