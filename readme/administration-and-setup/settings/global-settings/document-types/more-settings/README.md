@@ -1,4 +1,4 @@
-# More Settings
+# Altre impostazioni
 
 ## Panoramica
 
@@ -54,7 +54,7 @@ Nella sezione "Altre impostazioni", puoi trovare varie opzioni relative ai singo
 * [**Calcolo del prezzo unitario dell'OP**](purchase-order/calculate-po-unit-price.md): Questo ti consente di calcolare il prezzo unitario dell'OP utilizzando l'importo netto e la quantità, invece di estrarlo.
 * **Ordine di acquisto**: Attiva o disattiva se il documento deve essere elaborato nello schermo di corrispondenza degli ordini di acquisto. Puoi anche specificare su quale termine di quantità deve basarsi il processo di corrispondenza.
 * [**Esportazione di righe PO non corrispondenti**](purchase-order/export-not-matched-po-lines.md): Questa funzionalità controlla l'esportazione delle righe degli ordini di acquisto. Quando disabilitata, vengono esportate solo le righe abbinate. Quando abilitata, tutte le righe degli ordini di acquisto vengono esportate, anche se non sono abbinate a una riga di conferma d'ordine.
-* [**Impostazione della tolleranza PO**](purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)**:** Questa funzionalità ti consente di impostare livelli di tolleranza per quantità e prezzo unitario, accogliendo piccole discrepanze senza segnalarle come non corrispondenti.
+* [**Impostazione della tolleranza PO**](purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md): Questa funzionalità ti consente di impostare livelli di tolleranza per quantità e prezzo unitario, accogliendo piccole discrepanze senza segnalarle come non corrispondenti.
 * [**Impostazione della tolleranza PO aggiuntiva**](purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md#impostazione-per-configurare-le-ulteriori-impostazioni-di-tolleranza-per-gli-ordini-di-acquisto): Questa funzionalità ti consente di impostare livelli di tolleranza aggiuntivi per spedizione, spese e tasse, accogliendo piccole discrepanze senza segnalarle come non corrispondenti.
 * **Esportazione alternativa**: Questo ti consente di impostare un'esportazione alternativa per stati specifici.
 * [**Stati di disabilitazione dell'OP**](purchase-order/purchase-order-disable-statuses.md): Ti consente di disabilitare stati specifici affinché non vengano considerati nel processo di corrispondenza.
