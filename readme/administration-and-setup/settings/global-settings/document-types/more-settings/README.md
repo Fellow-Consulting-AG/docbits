@@ -27,7 +27,7 @@ En la sección "Más ajustes", puedes encontrar varias opciones relacionadas con
 
 ## Rechazar
 
-* **Diseñar el formulario de rechazo:** Configura el diseño y los campos que se muestran en el formulario de rechazo utilizado durante el proceso de revisión de documentos.
+* **Diseñar el formulario de rechazo**: Configura el diseño y los campos que se muestran en el formulario de rechazo utilizado durante el proceso de revisión de documentos.
 
 ## Generación PDF
 
