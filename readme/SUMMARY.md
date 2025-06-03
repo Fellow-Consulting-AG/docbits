@@ -92,7 +92,7 @@
       * [Regex](administration-and-setup/settings/global-settings/document-types/regex.md)
       * [Script](administration-and-setup/settings/global-settings/document-types/script.md)
       * [EDI](administration-and-setup/settings/global-settings/document-types/edi.md)
-      * [More Settings](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
+      * [Mais Configurações](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
         * [Propósito e uso](administration-and-setup/settings/global-settings/document-types/more-settings/purpose-and-use.md)
         * [Melhores práticas](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Resolução de Problemas](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
