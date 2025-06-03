@@ -11,7 +11,7 @@ Al utilizar esta configuración, los usuarios pueden asegurarse de que las órde
 1.  Ir a **Ajustes → Ajustes globales → Tipos de documentos**
 
     <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1_es.png" alt=""><figcaption></figcaption></figure>
-2.  Seleccionar el tipo de documento deseado y hacer clic en **Más ajustes**
+2.  Seleccionar el tipo de documento deseado y hacer clic en **Más ajustes**.
 
     <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2_es.png" alt=""><figcaption></figcaption></figure>
 3.  En la sección de **Orden de compra**, navegar a la opción de **PO Desactivar Estados**.
