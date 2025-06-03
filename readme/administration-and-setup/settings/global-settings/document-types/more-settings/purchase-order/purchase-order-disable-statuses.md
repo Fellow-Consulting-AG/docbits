@@ -1,33 +1,39 @@
 # Statusy wyłączenia zamówienia zakupu
 
-### **Ustawienie do wyłączenia statusów PO**
+## **Przegląd**
 
-Przejdź do **Ustawienia → Ustawienia ogólne → Typy dokumentów → Więcej ustawień → Sekcja zamówienia zakupu → Statusy wyłączenia PO**
+Ustawienie **Statusy Wyłączenia PO** pozwala użytkownikom określić statusy zamówienia zakupu (PO), które uniemożliwiają dopasowanie faktur do tych PO. Jeśli zamówienie zakupu ma status wymieniony w tym ustawieniu, **nie może** być używane do dopasowywania faktur na ekranie dopasowywania PO, co wstrzymuje dalsze przetwarzanie powiązanych faktur, aż status PO zmieni się na taki, który nie jest wyłączony.\
+\
+Korzystając z tego ustawienia, użytkownicy mogą zapewnić, że zamówienia zakupu o określonych statusach nie będą poddawane dalszemu przetwarzaniu faktur, co zmniejsza błędy i zapobiega niepotrzebnym płatnościom.
 
-#### **Jak to działa**
+## **Kroki aktywacji**
 
-Ustawienie **Statusy wyłączenia PO** pozwala użytkownikom określić statusy zamówienia zakupu (PO), które uniemożliwiają dopasowanie faktur do tych PO. Jeśli zamówienie zakupu ma status wymieniony w tym ustawieniu, **nie może** być używane do dopasowania faktur w ekranie dopasowania PO. To zatrzyma dalsze przetwarzanie PO, aż jego status zmieni się na taki, który nie jest wyłączony.
+1.  Przejdź do **Ustawienia → Ustawienia globalne → Typy dokumentów**
 
-To zatrzyma dalsze przetwarzanie faktury, aż status PO zmieni się na taki, który nie jest wyłączony. Korzystając z tego ustawienia, użytkownicy mogą zapewnić, że zamówienia zakupu o określonych statusach nie będą poddawane dalszemu przetwarzaniu faktur, co zmniejsza błędy i zapobiega niepotrzebnym płatnościom.
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1.png" alt=""><figcaption></figcaption></figure>
+2.  Wybierz żądany typ dokumentu i kliknij **Więcej ustawień**.
 
-#### **Jak zidentyfikować wyłączone zamówienie zakupu**
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
+3.  W sekcji **Zamówienie zakupu** przejdź do opcji **Statusy Wyłączenia PO**.
 
-Na ekranie **Dopasowanie PO** wyłączone zamówienie zakupu pojawia się **przekreślone**. To wizualnie wskazuje, że PO jest obecnie ograniczone w dopasowaniu z powodu swojego statusu.​
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_3.png" alt=""><figcaption></figcaption></figure>
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FDbA2CsBn6twgp5BrSvgV%2Fimage.png?alt=media\&token=211bd6a2-4136-4ea0-85cf-e17f428fa0da)
+### **Jak zidentyfikować wyłączone zamówienie zakupu**
 
-#### **Jak to ustawić**
+Na ekranie **Dopasowanie PO** wyłączone zamówienie zakupu pojawia się **przekreślone**. To wizualnie wskazuje, że PO jest obecnie ograniczone w dopasowywaniu z powodu swojego statusu.
 
-* W ustawieniu **Statusy wyłączenia PO** zobaczysz pole wyboru po lewej stronie.
-*   Kliknięcie tego pola otwiera rozwijane menu dostępnych statusów PO.
+<figure><img src="../../../../../../.gitbook/assets/disable_po_status_6.png" alt=""><figcaption></figcaption></figure>
 
-    ​
+### **Jak to skonfigurować**
 
-    ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FgvmAKBrVLXhDwKe7RIBe%2Fimage.png?alt=media\&token=0f98186b-3f50-483c-8465-a75972e9386a)
-* Wybierz jeden lub więcej statusów, klikając na nie. Kliknij ponownie, aby odznaczyć.
-* Kliknij przycisk **Zastosuj**, aby zapisać zmiany.
+1. W ustawieniu **Statusy Wyłączenia PO** zobaczysz pole wyboru po lewej stronie.
+2.  Kliknięcie tego pola otwiera rozwijane menu dostępnych statusów PO.
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2F5FCyl2giTsZeu8487ai9%2Fimage.png?alt=media\&token=5e7c0ee4-1629-44e0-a4c5-056d7efa320f)
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_4.png" alt="" width="372"><figcaption></figcaption></figure>
+3. Wybierz jeden lub więcej statusów, klikając na nie. Kliknij ponownie, aby odznaczyć.
+4.  Kliknij przycisk **Zastosuj**, aby zapisać zmiany.
+
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_5.png" alt=""><figcaption></figcaption></figure>
 
 **Dostępne statusy**
 
@@ -38,6 +44,7 @@ Na ekranie **Dopasowanie PO** wyłączone zamówienie zakupu pojawia się **prze
 * Częściowo fakturowane
 * Częściowo odebrane
 * Odebrane
+* Odrzucone
 * Niezatwierdzone
-* Wstrzymane
+* Hold
 * Zamknięte
