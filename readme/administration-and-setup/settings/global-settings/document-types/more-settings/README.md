@@ -19,7 +19,7 @@ In the "More Settings" section, you can find various options related to individu
 
 ## Duplicate Detection
 
-* [**Duplicate Document Detection:**](duplicate-document-handling.md) This allows you to detect and handle duplicate documents.
+* [**Duplicate Document Detection**](duplicate-document-handling.md): This allows you to detect and handle duplicate documents.
 
 ## In Review
 
@@ -42,8 +42,8 @@ In the "More Settings" section, you can find various options related to individu
 * **Approve before export**: Ensures that documents must be approved before they can be exported from the system. Additionally, you can design the template used for the approval screen.
 * **Approve before export V2**: Enables Approval V2, allowing the use of dynamic fields instead of static ones. You can also customize the approval screen template.
 * **Second Approval**: Adds an additional layer of approval for further validation, enhancing control over document processing. You can also customize the template used for the approval screen.
-* [**Approval Stamp:**](approval/approval-stamp.md) Adds a stamp to the document when it is approved.
-* [**Approval History**:](approval/approval-history.md) Enables the display of approval history in both the approval screen and field validation.
+* [**Approval Stamp**](approval/approval-stamp.md): Adds a stamp to the document when it is approved.
+* [**Approval History**](approval/approval-history.md): Enables the display of approval history in both the approval screen and field validation.
 
 ## Purchase Order
 
