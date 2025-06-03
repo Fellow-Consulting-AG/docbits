@@ -80,6 +80,7 @@
     * [Supplier Satuts](end-user-and-partner-section/end-user-section/supplier-portal/supplier-satuts.md)
   * [Ressources and Support](end-user-and-partner-section/end-user-section/ressources-and-support/README.md)
     * [User Support](end-user-and-partner-section/end-user-section/ressources-and-support/user-support.md)
+    * [Support Portal Status](end-user-and-partner-section/end-user-section/ressources-and-support/support-portal-status.md)
 * [Partner Section](end-user-and-partner-section/partner-section/README.md)
   * [Invoice Automation Testing with DocBits](end-user-and-partner-section/partner-section/invoice-automation-testing-with-docbits.md)
 
