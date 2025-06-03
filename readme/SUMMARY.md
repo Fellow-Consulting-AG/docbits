@@ -69,6 +69,7 @@
     * [Status Dostawcy](end-user-and-partner-section/end-user-section/supplier-portal/supplier-satuts.md)
   * [Zasoby i wsparcie](end-user-and-partner-section/end-user-section/ressources-and-support/README.md)
     * [Wsparcie Użytkownika](end-user-and-partner-section/end-user-section/ressources-and-support/user-support.md)
+    * [Status Portalu Wsparcia](end-user-and-partner-section/end-user-section/ressources-and-support/support-portal-status.md)
 * [Sekcja Partnerów](end-user-and-partner-section/partner-section/README.md)
   * [Automatyzacja Testów Faktur z DocBits](end-user-and-partner-section/partner-section/invoice-automation-testing-with-docbits.md)
 
