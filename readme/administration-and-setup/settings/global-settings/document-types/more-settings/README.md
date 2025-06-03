@@ -27,7 +27,7 @@ In the "More Settings" section, you can find various options related to individu
 
 ## Reject
 
-* **Design in Reject Form:** Configures the layout and fields displayed in the reject form used during the document review process.
+* **Design in Reject Form**: Configures the layout and fields displayed in the reject form used during the document review process.
 
 ## PDF Generation
 
