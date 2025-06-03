@@ -42,7 +42,7 @@ En la sección "Más ajustes", puedes encontrar varias opciones relacionadas con
 * **Aprobar antes de la exportación**: Asegura que los documentos deben ser aprobados antes de que puedan ser exportados del sistema. Además, puedes diseñar la plantilla utilizada para la pantalla de aprobación.
 * **Aprobar antes de la exportación V2**: Habilita la Aprobación V2, permitiendo el uso de campos dinámicos en lugar de estáticos. También puedes personalizar la plantilla de la pantalla de aprobación.
 * **Segunda aprobación**: Agrega una capa adicional de aprobación para una validación adicional, mejorando el control sobre el procesamiento de documentos. También puedes personalizar la plantilla utilizada para la pantalla de aprobación.
-* [**Sello de aprobación**](approval/approval-stamp.md)**:** Agrega un sello al documento cuando es aprobado.
+* [**Sello de aprobación**](approval/approval-stamp.md): Agrega un sello al documento cuando es aprobado.
 * **Historial de aprobaciones**: Permite la visualización del historial de aprobaciones tanto en la pantalla de aprobación como en la validación de campos.
 
 ## Orden de compra
