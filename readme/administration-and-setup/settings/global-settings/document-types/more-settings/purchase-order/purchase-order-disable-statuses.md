@@ -11,7 +11,7 @@ By using this setting, users can ensure that purchase orders with specific statu
 1.  Go to **Settings → Global Settings → Document Types**
 
     <figure><img src="../../../../../../.gitbook/assets/disablpe_po_status_1.png" alt=""><figcaption></figcaption></figure>
-2.  Select the desired document type and click on **More Settings**
+2.  Select the desired document type and click on **More Settings**.
 
     <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
 3.  In the **Purchase Order** section, navigate to the **PO Disable Statuses** option.
