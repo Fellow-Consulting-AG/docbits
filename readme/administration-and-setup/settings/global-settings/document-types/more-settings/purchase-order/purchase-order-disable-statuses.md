@@ -1,43 +1,50 @@
-# Statuts de désactivation de commande d'achat
+# Statuts de désactivation des bons de commande
 
-### **Paramètre pour désactiver les statuts de CA**
+## **Aperçu**
 
-Allez à **Paramètres → Paramètres généraux → Types de documents → Plus de paramètres → commande d'achat → PO désactiver statuts**
+Le paramètre **PO Désactiver Statuts** permet aux utilisateurs de spécifier les statuts de bon de commande (PO) qui empêchent les factures d'être associées à ces POs. Si un bon de commande a un statut répertorié dans ce paramètre, il **ne peut pas** être utilisé pour l'appariement des factures dans l'écran d'appariement des PO, empêchant ainsi le traitement ultérieur des factures associées jusqu'à ce que le statut du PO change pour un statut qui n'est pas désactivé.\
+\
+En utilisant ce paramètre, les utilisateurs peuvent s'assurer que les bons de commande avec des statuts spécifiques ne subissent pas de traitement supplémentaire des factures, réduisant ainsi les erreurs et empêchant les paiements inutiles.
 
-#### **Comment ça fonctionne**
+## **Étapes d'activation**
 
-Le paramètre **Statuts de désactivation des commandes d'achat (PO)** permet aux utilisateurs de spécifier les statuts de commande d'achat (PO) qui empêchent les factures d'être associées à ces POs. Si une commande d'achat a un statut répertorié dans ce paramètre, elle **ne peut pas** être utilisée pour l'appariement des factures dans l'écran d'appariement des POs, stoppant ainsi le traitement ultérieur des factures associées jusqu'à ce que le statut de la PO change pour un statut qui n'est pas désactivé.
+1.  Allez dans **Paramètres → Paramètres globaux → Types de documents**
 
-En utilisant ce paramètre, les utilisateurs peuvent s'assurer que les commandes d'achat avec des statuts spécifiques ne subissent pas de traitement ultérieur des factures, réduisant ainsi les erreurs et empêchant les paiements inutiles.
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1_fr.png" alt=""><figcaption></figcaption></figure>
+2.  Sélectionnez le type de document souhaité et cliquez sur **Plus de paramètres**
 
-#### **Comment identifier une commande d'achat désactivée**
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2_fr.png" alt=""><figcaption></figcaption></figure>
+3.  Dans la section **Bon de commande**, accédez à l'option **PO Désactiver Statuts**.
 
-Dans l'écran **Appariement de CA**, une commande d'achat désactivée apparaît **barrée**. Cela indique visuellement que la CA est actuellement restreinte pour être associée en raison de son statut.
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_3_fr.png" alt=""><figcaption></figcaption></figure>
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FDbA2CsBn6twgp5BrSvgV%2Fimage.png?alt=media\&token=211bd6a2-4136-4ea0-85cf-e17f428fa0da)
+### **Comment identifier un bon de commande désactivé**
 
-#### **Comment le configurer**
+Dans l'écran **Appariement des PO**, un bon de commande désactivé apparaît **barré**. Cela indique visuellement que le PO est actuellement restreint d'être associé en raison de son statut.
 
-* Dans le paramètre **Statuts de désactivation de CA**, vous verrez un champ de sélection sur le côté gauche.
-*   En cliquant sur ce champ, une liste déroulante des statuts de CA disponibles s'ouvre.
+<figure><img src="../../../../../../.gitbook/assets/disable_po_status_6.png" alt=""><figcaption></figcaption></figure>
 
-    ​
+### **Comment le configurer**
 
-    ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FgvmAKBrVLXhDwKe7RIBe%2Fimage.png?alt=media\&token=0f98186b-3f50-483c-8465-a75972e9386a)
-* Sélectionnez un ou plusieurs statuts en cliquant dessus. Cliquez à nouveau pour désélectionner.
-* Cliquez sur le bouton **Appliquer** pour enregistrer vos modifications.
+1. Dans le paramètre **PO Désactiver Statuts**, vous verrez un champ de sélection sur le côté gauche.
+2.  En cliquant sur ce champ, une liste déroulante des statuts de PO disponibles s'ouvre.
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2F5FCyl2giTsZeu8487ai9%2Fimage.png?alt=media\&token=5e7c0ee4-1629-44e0-a4c5-056d7efa320f)
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_4_fr.png" alt="" width="261"><figcaption></figcaption></figure>
+3. Sélectionnez un ou plusieurs statuts en cliquant dessus. Cliquez à nouveau pour désélectionner.
+4.  Cliquez sur le bouton **Appliquer** pour enregistrer vos modifications.
+
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_5_fr.png" alt=""><figcaption></figcaption></figure>
 
 **Statuts disponibles**
 
-* Annulé
-* Supprimé
-* Facturé
-* Ouvert
-* Partiellement facturé
-* Partiellement reçu
-* Reçu
-* Non approuvé
-* En attente
-* Fermé
+* Canceled
+* Deleted
+* Invoiced
+* Open
+* Partially Invoiced
+* Partially Received
+* Received
+* Rejeté
+* Unapproved
+* Hold
+* Closed

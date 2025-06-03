@@ -105,7 +105,7 @@
           * [Calculer le prix unitaire de la commande](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/calculate-po-unit-price.md)
           * [Paramètres de tolérance de commande d'achat / Tolérance de commande d'achat supplémentaire](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
           * [Export des lignes de commande non appariées](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/export-not-matched-po-lines.md)
-          * [Statuts de désactivation de commande d'achat](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md)
+          * [Statuts de désactivation des bons de commande](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md)
           * [Carte des Numéros d'Article Fournisseur - Documentation Administrateur](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/supplier-item-number-map-admin-documentation.md)
       * [e-docs](administration-and-setup/settings/global-settings/document-types/edi-1/README.md)
         * [eSLOG 1.6 et 2.0](administration-and-setup/settings/global-settings/document-types/edi-1/eslog-1.6-and-2.0.md)
