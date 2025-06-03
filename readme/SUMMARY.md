@@ -67,6 +67,7 @@
     * [Lieferantenstatus](end-user-section/supplier-portal/supplier-satuts.md)
   * [Ressourcen und Support](end-user-and-partner-section/end-user-section/ressources-and-support/README.md)
     * [Benutzersupport](end-user-and-partner-section/end-user-section/ressources-and-support/user-support.md)
+    * [Support Portal Status](end-user-and-partner-section/end-user-section/ressources-and-support/support-portal-status.md)
 * [Partnerbereich](partner-section/README.md)
   * [Rechnungsautomatisierungstests mit DocBits](partner-section/invoice-automation-testing-with-docbits.md)
 
