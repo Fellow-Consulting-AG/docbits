@@ -91,7 +91,7 @@
       * [Regex](administration-and-setup/settings/global-settings/document-types/regex.md)
       * [Script](administration-and-setup/settings/global-settings/document-types/script.md)
       * [EDI](administration-and-setup/settings/global-settings/document-types/edi.md)
-      * [More Settings](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
+      * [Więcej ustawień](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
         * [Cel i zastosowanie](administration-and-setup/settings/global-settings/document-types/more-settings/purpose-and-use.md)
         * [Najlepsze praktyki](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Rozwiązywanie problemów](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
