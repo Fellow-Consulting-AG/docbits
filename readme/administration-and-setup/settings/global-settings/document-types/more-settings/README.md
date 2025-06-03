@@ -19,7 +19,7 @@ En la sección "Más ajustes", puedes encontrar varias opciones relacionadas con
 
 ## Detección de duplicados
 
-* **Detección de documentos duplicados:** Esto te permite detectar y manejar documentos duplicados.
+* [**Detección de documentos duplicados**](duplicate-document-handling.md): Esto te permite detectar y manejar documentos duplicados.
 
 ## En revisión
 
