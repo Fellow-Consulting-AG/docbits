@@ -67,6 +67,7 @@
   * [Il Nostro Sistema di Priorità dei Documenti](end-user-and-partner-section/end-user-section/our-document-priority-system.md)
   * [Risorse e supporto](end-user-and-partner-section/end-user-section/ressources-and-support/README.md)
     * [Supporto utenti](end-user-and-partner-section/end-user-section/ressources-and-support/user-support.md)
+    * [Stato del Portale di Supporto](end-user-and-partner-section/end-user-section/ressources-and-support/support-portal-status.md)
   * [Portale Fornitori](end-user-and-partner-section/end-user-section/supplier-portal/README.md)
     * [Registrazione Fornitore](end-user-and-partner-section/end-user-section/supplier-portal/supplier-registration.md)
     * [Stato del Fornitore](end-user-and-partner-section/end-user-section/supplier-portal/supplier-satuts.md)
