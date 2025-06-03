@@ -27,7 +27,7 @@ Im Abschnitt "Weitere Einstellungen" finden Sie verschiedene Optionen zu einzeln
 
 ## Ablehnen
 
-* **Entwerfen Sie das Ablehnungsformular:** Konfiguriert das Layout und die Felder, die im Ablehnungsformular angezeigt werden, das während des Dokumentenüberprüfungsprozesses verwendet wird.
+* **Entwerfen Sie das Ablehnungsformular**: Konfiguriert das Layout und die Felder, die im Ablehnungsformular angezeigt werden, das während des Dokumentenüberprüfungsprozesses verwendet wird.
 
 ## PDF-Generation
 
