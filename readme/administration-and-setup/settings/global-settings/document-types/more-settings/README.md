@@ -19,7 +19,7 @@ Dans la section "Plus de paramètres", vous pouvez trouver diverses options lié
 
 ## Détection des doublons
 
-* [**Détection des documents en double**](duplicate-document-handling.md) **:** Cela vous permet de détecter et de gérer les documents en double.
+* [**Détection des documents en double**](duplicate-document-handling.md) : Cela vous permet de détecter et de gérer les documents en double.
 
 ## En révision
 
@@ -27,7 +27,7 @@ Dans la section "Plus de paramètres", vous pouvez trouver diverses options lié
 
 ## Rejeter
 
-* **Concevoir le formulaire de rejet :** Configure la mise en page et les champs affichés dans le formulaire de rejet utilisé lors du processus de révision des documents.
+* **Concevoir le formulaire de rejet** : Configure la mise en page et les champs affichés dans le formulaire de rejet utilisé lors du processus de révision des documents.
 
 ## Génération PDF
 
@@ -42,8 +42,8 @@ Dans la section "Plus de paramètres", vous pouvez trouver diverses options lié
 * **Approuver avant l'exportation** : Assure que les documents doivent être approuvés avant de pouvoir être exportés du système. De plus, vous pouvez concevoir le modèle utilisé pour l'écran d'approbation.
 * **Approuver avant l'exportation V2** : Active l'Approbation V2, permettant l'utilisation de champs dynamiques au lieu de statiques. Vous pouvez également personnaliser le modèle de l'écran d'approbation.
 * **Deuxième approbation** : Ajoute une couche d'approbation supplémentaire pour une validation supplémentaire, améliorant le contrôle sur le traitement des documents. Vous pouvez également personnaliser le modèle utilisé pour l'écran d'approbation.
-* [**Cachet d'approbation**](approval/approval-stamp.md) **:** Ajoute un cachet au document lorsqu'il est approuvé.
-* **Historique de l'approbation :** Permet l'affichage de l'historique des approbations à la fois dans l'écran d'approbation et la validation des champs.
+* [**Cachet d'approbation**](approval/approval-stamp.md) : Ajoute un cachet au document lorsqu'il est approuvé.
+* **Historique de l'approbation** : Permet l'affichage de l'historique des approbations à la fois dans l'écran d'approbation et la validation des champs.
 
 ## Bon de commande
 
