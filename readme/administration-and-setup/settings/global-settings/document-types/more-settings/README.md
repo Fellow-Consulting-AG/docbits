@@ -1,33 +1,62 @@
-# More Settings
+# Más ajustes
 
-<figure><img src="../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+## Descripción general
 
-**Descripción general**
+En la sección "Más ajustes", puedes encontrar varias opciones relacionadas con tipos de documentos individuales. Una vez que se activa un ajuste, se aplicará solo a ese tipo de documento específico. Esta página proporciona una breve descripción de lo que hace cada ajuste.
 
-El área de **Más configuraciones** permite a los administradores configurar diversos aspectos del procesamiento de documentos que no están cubiertos en las configuraciones básicas. Esto incluye opciones para la extracción de tablas, revisión de documentos, generación de PDFs, procesos de aprobación y configuraciones específicas para operaciones como órdenes de compra o contabilidad.
+## Cómo acceder
 
-**Características clave y opciones**
+1.  Navega a **Ajustes** -> **Ajustes globales** -> **Tipos de documentos**.
 
-**Extracción de tablas:**\
-**Omitir validación de tablas:** Permite omitir el proceso de validación de datos de las tablas, lo que puede ser útil en escenarios donde la validación de datos necesita ser más flexible.
+    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1_es.png" alt=""><figcaption></figcaption></figure>
+2.  Selecciona el tipo de documento deseado y haz clic en **Más ajustes**.
 
-**En revisión:**\
-**Diseño del formulario de revisión:** Configura el diseño y los campos que aparecen en los formularios de revisión utilizados durante el proceso de revisión de documentos.
+    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2_es.png" alt=""><figcaption></figcaption></figure>
 
-**Generación de PDF:**\
-**Plantilla de diseño:** Especifica la plantilla utilizada para generar versiones PDF de los documentos, lo cual puede ser crucial para archivado o comunicación externa.
+## Extracción de tabla
 
-**Aprobación:**\
-**Aprobar antes de exportar:** Asegura que los documentos deben ser aprobados antes de que puedan ser exportados del sistema.\
-**Segunda aprobación:** Añade una capa adicional de aprobación para una validación más rigurosa, mejorando el control sobre el procesamiento de documentos.
+* **Saltar validación de tabla**: Permite omitir el proceso de validación para los datos de la tabla, lo que puede ser útil en escenarios donde la validación de datos necesita ser flexible.
 
-**Orden de compra / Contabilidad automática:**\
-**Tabla de OC en el creador de diseño:** Permite la inclusión de tablas de órdenes de compra en el creador de diseño para crear diseños personalizados de documentos.\
-**Orden de compra:** Activa el procesamiento de documentos de órdenes de compra dentro del sistema.\
-**Configuración de tolerancia de OC:** Establece niveles de tolerancia para las cantidades en órdenes de compra, lo que ayuda a gestionar pequeñas discrepancias sin marcarlas como errores.
+## Detección de duplicados
 
-**Exportación alternativa de documentos:**\
-**Desactivar estados de OC:** Permite desactivar ciertos estados de las órdenes de compra durante el proceso de exportación, brindando flexibilidad en la gestión de los pedidos.
+* **Detección de documentos duplicados:** Esto te permite detectar y manejar documentos duplicados.
 
-**Mapeo de números de artículos del proveedor:**\
-Una configuración útil que asigna los números de artículos del proveedor a los números de artículos internos, asegurando precisión en la gestión de inventario y órdenes de compra.
+## En revisión
+
+* **Diseñar el formulario de revisión**: Configura el diseño y los campos que aparecen en los formularios de revisión utilizados durante el proceso de revisión de documentos.
+
+## Rechazar
+
+* **Diseñar el formulario de rechazo:** Configura el diseño y los campos que se muestran en el formulario de rechazo utilizado durante el proceso de revisión de documentos.
+
+## Generación PDF
+
+* **Plantilla de diseño**: Especifica la plantilla utilizada para generar versiones PDF de los documentos, lo que puede ser crucial para el archivo o la comunicación externa.
+
+## Exportar formato PDF
+
+* **Formato del archivo de exportación**: Te permite especificar el formato PDF que se utilizará al exportar documentos.
+
+## Aprobación
+
+* **Aprobar antes de la exportación**: Asegura que los documentos deben ser aprobados antes de que puedan ser exportados del sistema. Además, puedes diseñar la plantilla utilizada para la pantalla de aprobación.
+* **Aprobar antes de la exportación V2**: Habilita la Aprobación V2, permitiendo el uso de campos dinámicos en lugar de estáticos. También puedes personalizar la plantilla de la pantalla de aprobación.
+* **Segunda aprobación**: Agrega una capa adicional de aprobación para una validación adicional, mejorando el control sobre el procesamiento de documentos. También puedes personalizar la plantilla utilizada para la pantalla de aprobación.
+* [**Sello de aprobación**](approval/approval-stamp.md)**:** Agrega un sello al documento cuando es aprobado.
+* **Historial de aprobaciones**: Permite la visualización del historial de aprobaciones tanto en la pantalla de aprobación como en la validación de campos.
+
+## Orden de compra
+
+* [**Tabla de órdenes de compra en el generador de diseños**](purchase-order/po-table-in-layout-builder.md): Permite la inclusión de tablas de órdenes de compra en el generador de diseños para diseños de documentos personalizados.
+* [**Comprobación automática de actualizaciones de pedidos**](purchase-order/auto-check-for-po-updates.md): Cuando está habilitado, el sistema muestra un indicador visual en la pantalla de coincidencia de órdenes de compra para mostrar cuándo se ha actualizado una orden de compra, lo que invita a los usuarios a actualizar para obtener la información más reciente.
+* **Actualización automática de los datos del pedido**: Activar esto actualizará automáticamente los datos del pedido cuando haya nuevos datos disponibles.
+* **Estado de la línea de pedido consumida**: Activar esto desactivará el tinte de color en las líneas de órdenes de compra.
+* [**Calcular el precio unitario del pedido**](purchase-order/calculate-po-unit-price.md): Esto te permite calcular el precio unitario del pedido utilizando el monto neto y la cantidad, en lugar de extraerlo.
+* **Orden de compra**: Alterna si el documento debe ser procesado en la pantalla de coincidencia de órdenes de compra. También puedes especificar sobre qué término de cantidad debe basarse el proceso de coincidencia.
+* [**Exportar líneas de PO no coincidentes**](purchase-order/export-not-matched-po-lines.md): Esta función controla la exportación de líneas de órdenes de compra. Cuando está desactivada, solo se exportan las líneas coincidentes. Cuando está habilitada, se exportan todas las líneas de órdenes de compra, incluso si no están coincidiendo con una línea de confirmación de pedido.
+* [**Configuración de tolerancia de PO**](purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)**:** Esta función te permite establecer niveles de tolerancia para cantidad y precio unitario, acomodando discrepancias menores sin marcarlas como desajustes.
+* [**Configuración de tolerancia de PO adicional**](purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md#ajuste-para-configurar-la-ajuste-adicional-de-tolerancia-de-ordenes-de-compra): Esta función te permite establecer niveles de tolerancia adicionales para fletes, cargos e impuestos, acomodando discrepancias menores sin marcarlas como desajustes.
+* **Exportación alternativa**: Esto te permite configurar una exportación alternativa para estados específicos.
+* [PO desactivar estados](purchase-order/purchase-order-disable-statuses.md): Permite desactivar estados específicos para que no se consideren en el proceso de coincidencia.
+* **Ignorar líneas ya coincidentes**: Activar esto omitirá las líneas que ya han sido coincidentes durante un nuevo proceso de coincidencia.
+* [**Número de artículo del proveedor**](purchase-order/supplier-item-number-map-admin-documentation.md): Una configuración de utilidad que mapea los números de artículo del proveedor a números de artículo internos, asegurando precisión en la gestión de inventario y órdenes de compra.
