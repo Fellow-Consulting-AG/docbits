@@ -18,9 +18,6 @@ By using this setting, users can ensure that purchase orders with specific statu
 
     <figure><img src="../../../../../../.gitbook/assets/disable_po_status_3.png" alt=""><figcaption></figcaption></figure>
 
-\
-
-
 ### **How to Identify a Disabled Purchase Order**
 
 In the **PO Matching** screen, a disabled purchase order appears **crossed out**. This visually indicates that the PO is currently restricted from being matched due to its status.
@@ -52,7 +49,3 @@ In the **PO Matching** screen, a disabled purchase order appears **crossed out**
 * Unapproved&#x20;
 * Hold
 * Closed
-
-
-
-\
