@@ -37,7 +37,7 @@ In the **PO Matching** screen, a disabled purchase order appears **crossed out**
 3. Select one or more statuses by clicking on them. Click again to deselect.
 4.  Click the **Apply** button to save your changes.
 
-    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_5.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_5 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Available Statuses**
 
@@ -48,6 +48,7 @@ In the **PO Matching** screen, a disabled purchase order appears **crossed out**
 * Partially Invoiced&#x20;
 * Partially Received&#x20;
 * Received&#x20;
+* Rejected
 * Unapproved&#x20;
 * Hold
 * Closed
