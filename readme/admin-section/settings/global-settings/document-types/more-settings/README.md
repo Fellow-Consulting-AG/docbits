@@ -19,7 +19,7 @@ Im Abschnitt "Weitere Einstellungen" finden Sie verschiedene Optionen zu einzeln
 
 ## Erkennung von Duplikaten
 
-* [**Erkennung von doppelten Dokumenten**](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)**:** Damit können Sie doppelte Dokumente erkennen und verwalten.
+* [**Erkennung von doppelten Dokumenten**](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md): Damit können Sie doppelte Dokumente erkennen und verwalten.
 
 ## In Überprüfung
 
@@ -42,7 +42,7 @@ Im Abschnitt "Weitere Einstellungen" finden Sie verschiedene Optionen zu einzeln
 * **Erste Genehmigung**: Stellt sicher, dass Dokumente genehmigt werden müssen, bevor sie aus dem System exportiert werden können. Darüber hinaus können Sie die Vorlage für den Genehmigungsbildschirm entwerfen.
 * **Vor dem Export genehmigen V2**: Aktiviert Genehmigung V2, die die Verwendung von dynamischen Feldern anstelle von statischen ermöglicht. Sie können auch die Vorlage für den Genehmigungsbildschirm anpassen.
 * **Zweite Genehmigung**: Fügt eine zusätzliche Genehmigungsebene für weitere Validierung hinzu, um die Kontrolle über die Dokumentenverarbeitung zu verbessern. Sie können auch die Vorlage für den Genehmigungsbildschirm anpassen.
-* [**Genehmigungsstempel**](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md)**:** Fügt dem Dokument einen Stempel hinzu, wenn es genehmigt wird.
+* [**Genehmigungsstempel**](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md): Fügt dem Dokument einen Stempel hinzu, wenn es genehmigt wird.
 * **Genehmigungsverlauf**: Ermöglicht die Anzeige des Genehmigungsverlaufs sowohl im Genehmigungsbildschirm als auch in der Feldvalidierung.
 
 ## Bestellung
