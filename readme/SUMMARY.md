@@ -105,7 +105,7 @@
           * [Calcular preço unitário do PO](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/calculate-po-unit-price.md)
           * [Exportar linhas de PO não correspondidas](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/export-not-matched-po-lines.md)
           * [Configurações de tolerância de pedido de compra / Tolerância adicional de pedido de compra](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
-          * [Status de desativação de pedido de compra](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md)
+          * [Statuses de desativação de pedidos de compra](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md)
           * [Mapa de Números de Itens do Fornecedor - Documentação do Administrador](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/supplier-item-number-map-admin-documentation.md)
       * [e-docs](administration-and-setup/settings/global-settings/document-types/edi-1/README.md)
         * [eSLOG 1.6 i 2.0](administration-and-setup/settings/global-settings/document-types/edi-1/eslog-1.6-and-2.0.md)
