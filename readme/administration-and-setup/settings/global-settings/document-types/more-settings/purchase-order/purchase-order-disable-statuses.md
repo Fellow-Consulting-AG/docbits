@@ -11,7 +11,7 @@ Durch die Verwendung dieser Einstellung können Benutzer sicherstellen, dass Bes
 1.  Gehe zu **Einstellungen → Globale Einstellungen → Dokumenttypen**
 
     <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1_de (1).png" alt=""><figcaption></figcaption></figure>
-2.  Wähle den gewünschten Dokumenttyp aus und klicke auf **Weitere Einstellungen**
+2.  Wähle den gewünschten Dokumenttyp aus und klicke auf **Weitere Einstellungen**.
 
     <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2_de.png" alt=""><figcaption></figcaption></figure>
 3.  Im Abschnitt **Bestellung** navigiere zur Option **PO-Deaktivierungsstatus**.
