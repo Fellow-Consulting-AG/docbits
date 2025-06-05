@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Email
 
 Go to the Settings menu and select “Import” under Document Processing.

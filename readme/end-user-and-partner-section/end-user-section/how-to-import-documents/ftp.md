@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # FTP
 
 If you would like to integrate your SFTP with DocBits in order to import documents.
