@@ -46,6 +46,7 @@ To use FTP for importing data automatically, ensure the following requirements a
    * **Primary Directory:** Specifies the directory on the FTP server from which files will be imported.
    * **Import Directory:** Allows you to specify a subdirectory within the primary directory from which files will be imported.
    * **Archive After Import:** Allows you to archive files after import. Once activated, you can specify the directory where files should be moved after a successful import.
+   * **Include Subfolder Files:** When enabled, subdirectories within the main directory will also be searched for files to import.
 
 <figure><img src="../../../../.gitbook/assets/ftp_4.png" alt=""><figcaption></figcaption></figure>
 
