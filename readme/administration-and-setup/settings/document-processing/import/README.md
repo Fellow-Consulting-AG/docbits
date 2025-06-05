@@ -2,7 +2,7 @@
 
 ## Overview
 
-In the **Import** settings, you can configure document-specific options for importing, or set up automated imports via SFTP or email. This page provides a detailed overview of all available settings.
+In the **Import** settings, you can configure document-specific options for importing, or set up automated imports via FTP or email. This page provides a detailed overview of all available settings.
 
 <figure><img src="../../../../.gitbook/assets/ftp_6.png" alt=""><figcaption></figcaption></figure>
 
@@ -87,9 +87,9 @@ You can set up an email import that automatically imports documents from your in
    * **Port:** Specifies the port number to be used for the selected email import configuration.
    *   **Folder:** Select a folder from which the documents will be imported.
 
-       <mark style="color:red;">**Note:**</mark> The **Folder** option becomes available only after you have successfully created an IMAP connection. To add a folder after creation, click the three dots in the **Actions** column, then select **Edit**.
+       <mark style="color:red;">**Note:**</mark> The **Folder** option becomes available only after you have successfully created an IMAP connection. To add a folder after creation, click the three dots in the **Actions** column, then select **Edit**. The option should now be available.
    * **Move Emails to Other Folder:** When enabled, allows you to specify a folder where emails will be moved after a successful import.\
-     <mark style="color:red;">**Note:**</mark> The **Move Emails to Other Folder** option becomes available only after you have successfully created an IMAP connection. To activate this setting, click the three dots in the **Actions** column, then select **Edit**.
+     <mark style="color:red;">**Note:**</mark> The **Move Emails to Other Folder** option becomes available only after you have successfully created an IMAP connection. To activate this setting, click the three dots in the **Actions** column, then select **Edit**. The option should now be available.
    * **Merge Attached Documents:** Combines multiple attached documents into a single document.
    * **Send Email to Sender after Import:** Sends a confirmation email to the original sender after the import is complete. Once activated, you can specify the subject and body of the email.
    * **Block Duplicate Filename Import:** Prevents import if a document with the same name already exists.
@@ -101,7 +101,7 @@ You can click the three dots in the **Actions** column to access the following o
 
 * **Test Connection:** Tests the connection to your IMAP client.
 * **Connection Logs:** Opens the logs for your email connection, including any error messages that occur during the process.
-* **Import Log:** Opens the logs of past imports, including any error messages that occurred during the process.
+* **Import Log:** Opens the logs of past imports for the respective connection, including any error messages that occurred during the process.
 * **Activate/Deactivate:** Activates/deactivates your connection.
 * **Edit:** Allows you to make changes to your connection.
 * **Delete:** Deletes your connection.
@@ -132,14 +132,14 @@ You can click the three dots in the **Actions** column to access the following o
 
 
 
-### Actions for OAuth
+### Actions for OAuth Office365
 
 You can click the three dots in the **Actions** column to access the following options for your connection:
 
 <figure><img src="../../../../.gitbook/assets/email_6.png" alt="" width="157"><figcaption></figcaption></figure>
 
 * **Connection Logs:** Opens the logs for your email connection, including any error messages that occur during the process.
-* **Import Log:** Opens the logs of past imports, including any error messages that occurred during the process.
+* **Import Log:** Opens the logs of past imports for the respective connection, including any error messages that occurred during the process.
 * **Activate/Deactivate:** Activates/deactivates your connection.
 * **Edit:** Allows you to make changes to your connection.
 * **Delete:** Deletes your connection.
