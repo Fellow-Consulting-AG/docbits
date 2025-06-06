@@ -83,7 +83,7 @@ You can set up an email import that automatically imports documents from your in
    * **Password:** The password associated with the provided email address.
    * **Sub-Organizations:** Select the sub-organization to which the email import should apply.
    * **API Key:** This field will be automatically filled based on the organization you are logged into.
-   * **Send Import Error Notice to This Email Address:** Specify an email address to receive error notifications if something goes wrong during the import process.
+   * **Send Import Error Notice to this Email Address:** Specify an email address to receive error notifications if something goes wrong during the import process.
    * **Port:** Specifies the port number to be used for the selected email import configuration.
    *   **Folder:** Select a folder from which the documents will be imported.
 
