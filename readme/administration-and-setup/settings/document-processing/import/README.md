@@ -4,8 +4,6 @@
 
 In the **Import** settings, you can configure document-specific options for importing, or set up automated imports via FTP or email. This page provides a detailed overview of all available settings.
 
-<figure><img src="../../../../.gitbook/assets/ftp_6.png" alt=""><figcaption></figcaption></figure>
-
 ## How to Access
 
 1.  Navigate to **Settings** -> **Document Processing** -> **Import**
@@ -17,6 +15,8 @@ In the **Import** settings, you can configure document-specific options for impo
 * **Restrict to pages**: This setting allows you to limit the processing to a certain number of pages per document. The default is **60 pages**, meaning documents exceeding this limit will be trimmed to **60 pages**, and any **remaining pages will be discarded.**
 * **Payment Terms Days**: Defines the default payment terms (in days) that can be applied to documents.
 * **Date Pattern**: Sets the pattern for how dates should be recognized and formatted within imported documents.
+
+<figure><img src="../../../../.gitbook/assets/document_settins_1.png" alt=""><figcaption></figcaption></figure>
 
 ## **FTP Import**
 
