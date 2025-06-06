@@ -1,34 +1,152 @@
-# Importación
+# Importar
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.36.png" alt=""><figcaption></figcaption></figure>
+## Resumen
 
-La configuración de "Importación" en su sistema de procesamiento de documentos le permite configurar cómo se importan los documentos al sistema desde diversas fuentes, incluyendo configuraciones tanto para FTP (Protocolo de Transferencia de Archivos) como para correo electrónico. Aquí hay un desglose de estas configuraciones:
+En los ajustes de **Importar**, puedes configurar opciones específicas para documentos al importar, o configurar importaciones automáticas a través de FTP o correo electrónico. Esta página proporciona una visión general detallada de todos los ajustes disponibles.
 
-1. **Configuración de Documentos**:
-   - **Restringir a páginas**: Esto le permite limitar el procesamiento a un cierto número de páginas de cada documento.
-   - **Días de Términos de Pago**: Define los términos de pago predeterminados (en días) que se pueden aplicar a los documentos.
-   - **Patrón de Fecha**: Establece el patrón para reconocer y formatear fechas dentro de los documentos importados.
-   
-2. **Importación FTP**:
-   - **Tipo**: Define el tipo de protocolo FTP a utilizar (por ejemplo, SFTP).
-   - **URL del Servidor**: La dirección del servidor desde donde se obtendrán los documentos.
-   - **Nombre de Usuario y Puerto**: Credenciales y número de puerto para acceder al servidor FTP.
-   - **Directorio Predeterminado**: Especifica el directorio en el servidor FTP desde donde se importarán los archivos.
+## Cómo Acceder
 
-La opción adicional de agregar nuevos datos incluye campos como:
+1.  Navega a **Ajustes** -> **Procesamiento de documentos** -> **Importar**
 
-   - **Contraseña**: Para autenticación.
-   - **Patrones de coincidencia de nombres de archivo**: Para especificar qué archivos importar según sus nombres.
-   - **Sub-Organizaciones**: Seleccione a qué suborganización se deben aplicar la configuración de importación.
+    <figure><img src="../../../.gitbook/assets/ftp_0_es.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.45.png" alt=""><figcaption></figcaption></figure>
+## **Restricción de importación de la página del documento**
 
-1. **Importación por Correo Electrónico**:
-   - **Dirección de Correo Electrónico**: Configure una cuenta de correo electrónico a la que se puedan enviar documentos para su importación.
-   - **Nombre de Usuario y Contraseña**: Credenciales para acceder a la cuenta de correo electrónico.
-   - **Protocolo y Encriptación**: Especifique el protocolo (IMAP, POP3) y el tipo de encriptación.
-   - **Combinar documentos adjuntos**: Opción para combinar todos los documentos adjuntos en un solo documento al importar.
+* **Restringir a las páginas**: Esta configuración te permite limitar el procesamiento a un cierto número de páginas por documento. El valor predeterminado es **60 páginas**, lo que significa que los documentos que excedan este límite se recortarán a **60 páginas**, y cualquier **página restante será descartada.**
+* **Términos de pago días**: Define los términos de pago predeterminados (en días) que se pueden aplicar a los documentos.
+* **Patrón de fecha**: Establece el patrón para cómo se deben reconocer y formatear las fechas dentro de los documentos importados.
 
-Esto también permite especificar suborganizaciones para un control más preciso sobre dónde se dirigen los correos electrónicos dentro de la estructura organizativa.
+<figure><img src="../../../.gitbook/assets/document_settins_1_es.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.48.56.png" alt=""><figcaption></figcaption></figure>
+## **Importación ftp**
+
+### Requisitos
+
+Para usar FTP para importar datos automáticamente, asegúrate de que se cumplan los siguientes requisitos:
+
+* Servidor FTP correctamente configurado y compatible con Linux
+* Nombre de host FTP, Nombre de usuario y Contraseña
+* Carpeta de importación dedicada
+
+### Agregar nueva conexión
+
+1.  Para agregar una nueva conexión, haz clic en el botón **Agregar** en la sección FTP.
+
+    <figure><img src="../../../.gitbook/assets/ftp_7_es.png" alt=""><figcaption></figcaption></figure>
+2.  Ingresa tus credenciales FTP en los campos designados. El campo Clave API se completará automáticamente.
+
+    * **Tipo:** Especifica el protocolo FTP a utilizar. Puedes elegir entre **FTP**, **FTPS** o **SFTP**.
+    * **Puerto:** Especifica el número de puerto que se utilizará para el protocolo FTP seleccionado.
+    * **Nombre del servidor (requerido):** La dirección del servidor desde el cual se recuperarán los documentos.
+    * **Nombre de usuario (requerido):** El nombre de inicio de sesión utilizado para acceder al servidor FTP.
+    * **Contraseña (requerido):** La contraseña asociada con el nombre de usuario para acceder al servidor FTP.
+    * **Patrones de coincidencia de nombre de archivo:** Para especificar qué archivos importar según sus nombres.
+    * **Suborganizaciones:** Selecciona a qué suborganización se aplicará la importación FTP.
+    * **Clave API (requerido):** Este campo se completará automáticamente según la organización en la que hayas iniciado sesión.
+    * **Directorio principal:** Especifica el directorio en el servidor FTP desde el cual se importarán los archivos.
+    * **Directorio de importación:** Te permite especificar un subdirectorio dentro del directorio principal desde el cual se importarán los archivos.
+    * **Archivar después de importar:** Te permite archivar archivos después de la importación. Una vez activado, puedes especificar el directorio al que se deben mover los archivos después de una importación exitosa.
+    * **Incluir archivos de subcarpetas:** Cuando está habilitado, también se buscarán archivos en subdirectorios dentro del directorio principal para importar.
+
+    <figure><img src="../../../.gitbook/assets/ftp_4_es.png" alt=""><figcaption></figcaption></figure>
+3. Una vez que hayas ingresado todos los detalles necesarios de tu FTP, haz clic en **Guardar**.
+4. Después de guardar tu conexión, puedes activarla haciendo clic en los tres puntos en la columna de **Comportamiento** de tu conexión, luego seleccionando **Activar**.
+
+### Comportamiento para FTP
+
+Puedes hacer clic en los tres puntos en la columna de **Comportamiento** para acceder a las siguientes opciones para tu conexión:
+
+<figure><img src="../../../.gitbook/assets/ftp_5_es.png" alt="" width="184"><figcaption></figcaption></figure>
+
+* **Conexión de prueba:** Prueba la conexión a tu servidor FTP.
+* **Registros de conexión:** Abre los registros de tu conexión FTP, incluidos los mensajes de error si ocurren problemas.
+* **Activar/Desactivar:** Activa/desactiva tu conexión.
+* **Editar:** Te permite realizar cambios en tu conexión.
+* **Borrar:** Elimina tu conexión.
+
+## **Importación de correo electrónico**
+
+Puedes configurar una importación de correo electrónico que importe automáticamente documentos de tu bandeja de entrada tan pronto como lleguen. Puedes elegir configurar una conexión IMAP o OAuth.
+
+### Agregar nueva conexión IMAP
+
+1.  Para agregar una nueva conexión IMAP, haz clic en el botón **Agregar** en la sección **Importación de correo electrónico**.
+
+    <figure><img src="../../../.gitbook/assets/email_1_es.png" alt=""><figcaption></figcaption></figure>
+2. Selecciona IMAP como el protocolo.
+3. Ingresa tus credenciales de correo electrónico en los campos designados. El campo Clave API se completará automáticamente.
+   * **Encriptación:** Selecciona el tipo de encriptación a utilizar — ya sea **SSL** o **TLS**.
+   * **Nombre del servidor:** La dirección del servidor de correo electrónico.
+   * **Nombre de usuario:** El identificador utilizado para tu configuración de importación de correo en DocBits.
+   * **Correo electrónico:** La dirección de correo electrónico utilizada para importar documentos al sistema.
+   * **Contraseña:** La contraseña asociada con la dirección de correo electrónico proporcionada.
+   * **Suborganizaciones:** Selecciona la suborganización a la que se aplicará la importación de correo electrónico.
+   * **Clave API:** Este campo se completará automáticamente según la organización en la que hayas iniciado sesión.
+   * **Enviar aviso de error de importación a esta dirección de correo electrónico:** Especifica una dirección de correo electrónico para recibir notificaciones de error si algo sale mal durante el proceso de importación.
+   * **Puerto:** Especifica el número de puerto que se utilizará para la configuración de importación de correo electrónico seleccionada.
+   *   **Carpeta:** Selecciona una carpeta desde la cual se importarán los documentos.
+
+       <mark style="color:red;">**Nota:**</mark> La opción **Carpeta** se vuelve disponible solo después de que hayas creado exitosamente una conexión IMAP. Para agregar una carpeta después de la creación, haz clic en los tres puntos en la columna de **Comportamiento**, luego selecciona **Editar**. La opción debería estar ahora disponible.
+   * **Mover correos electrónicos a otra carpeta:** Cuando está habilitado, te permite especificar una carpeta a la que se moverán los correos electrónicos después de una importación exitosa.\
+     <mark style="color:red;">**Nota:**</mark> La opción **Mover correos electrónicos a otra carpeta** se vuelve disponible solo después de que hayas creado exitosamente una conexión IMAP. Para activar esta configuración, haz clic en los tres puntos en la columna de **Comportamiento**, luego selecciona **Editar**. La opción debería estar ahora disponible.
+   * **Fusionar documentos adjuntos:** Combina múltiples documentos adjuntos en un solo documento.
+   * **Enviar correo electrónico al remitente después de la importación:** Envía un correo electrónico de confirmación al remitente original después de que la importación esté completa. Una vez activado, puedes especificar el asunto y el cuerpo del correo electrónico.
+   * **Bloquear la importación de nombres de archivos duplicados:** Previene la importación si ya existe un documento con el mismo nombre.
+4. Después de guardar tu conexión, puedes activarla haciendo clic en los tres puntos en la columna de **Comportamiento** de tu conexión, luego seleccionando **Activar**.
+
+### Comportamiento para IMAP
+
+Puedes hacer clic en los tres puntos en la columna de **Comportamiento** para acceder a las siguientes opciones para tu conexión:
+
+<figure><img src="../../../.gitbook/assets/email_7_es.png" alt="" width="190"><figcaption></figcaption></figure>
+
+* **Conexión de prueba:** Prueba la conexión a tu cliente IMAP.
+* **Registros de conexión:** Abre los registros de tu conexión de correo electrónico, incluidos los mensajes de error que ocurren durante el proceso.
+* **Registro de importación:** Abre los registros de importaciones pasadas para la conexión respectiva, incluidos los mensajes de error que ocurrieron durante el proceso.
+* **Activar/Desactivar:** Activa/desactiva tu conexión.
+* **Editar:** Te permite realizar cambios en tu conexión.
+* **Borrar:** Elimina tu conexión.
+
+### Agregar nueva conexión OAuth Office365
+
+1.  Para agregar una nueva conexión OAuth Office365, haz clic en el botón **Agregar** en la sección **Importación de correo electrónico**.
+
+    <figure><img src="../../../.gitbook/assets/email_1_es.png" alt=""><figcaption></figcaption></figure>
+2.  Selecciona **OAuth Office365** como el protocolo, luego haz clic en "Autenticar."
+
+    <figure><img src="../../../.gitbook/assets/email_3_es.png" alt=""><figcaption></figcaption></figure>
+3.  Serás redirigido a una página de Microsoft donde se te pedirá que ingreses un código. Para recuperar este código, regresa a DocBits—el código se mostrará allí, como se muestra a continuación. Copia el código e ingrésalo en la página de Microsoft. Después, se te pedirá que ingreses tus credenciales de Microsoft.
+
+    <figure><img src="../../../.gitbook/assets/email_4_es.png" alt=""><figcaption></figcaption></figure>
+4. Sigue los pasos en la página de Microsoft. Una vez que hayas terminado, regresa a DocBits y haz clic en **Finalizar autenticación**.
+5.  Ahora puedes configurar los siguientes ajustes:
+
+    * **Suborganizaciones:** Selecciona la suborganización a la que se aplicará la importación de correo electrónico.
+    * **Usar carpeta:** Selecciona una carpeta desde la cual se importarán los documentos.
+    * **Usar buzón compartido:** Especifica la dirección de correo electrónico compartida desde la cual se deben importar los documentos.
+    * **Mover correo a otra carpeta:** Especifica una carpeta a la que se moverán los correos electrónicos después de una importación exitosa.
+    * **Enviar aviso de error de importación a esta dirección de correo electrónico:** Especifica una dirección de correo electrónico para recibir notificaciones de error si algo sale mal durante el proceso de importación.
+
+    <figure><img src="../../../.gitbook/assets/email_5_es.png" alt=""><figcaption></figcaption></figure>
+6. Una vez que hayas configurado el comportamiento deseado, puedes comenzar a importar correos electrónicos haciendo clic en **Importar** o guardar tus cambios haciendo clic en **Guardar**.
+7. Después de guardar tu conexión, puedes activarla haciendo clic en los tres puntos en la columna de **Comportamiento** de tu conexión, luego seleccionando **Activar**.
+
+### Comportamiento para OAuth Office365
+
+Puedes hacer clic en los tres puntos en la columna de **Comportamiento** para acceder a las siguientes opciones para tu conexión:
+
+<figure><img src="../../../.gitbook/assets/email_6_es.png" alt="" width="189"><figcaption></figcaption></figure>
+
+* **Registros de conexión:** Abre los registros de tu conexión de correo electrónico, incluidos los mensajes de error que ocurren durante el proceso.
+* **Registro de importación:** Abre los registros de importaciones pasadas para la conexión respectiva, incluidos los mensajes de error que ocurrieron durante el proceso.
+* **Activar/Desactivar:** Activa/desactiva tu conexión.
+* **Editar:** Te permite realizar cambios en tu conexión.
+* **Borrar:** Elimina tu conexión.
+
+### Registro de importación
+
+Puedes ver el registro de importación de todas las conexiones de correo electrónico creadas, incluidos los mensajes de error que ocurrieron durante el proceso, haciendo clic en el botón **Registro de importación** en la esquina superior derecha de la sección de Importación de correo electrónico.
+
+<figure><img src="../../../.gitbook/assets/email_8_es.png" alt=""><figcaption></figcaption></figure>
+
+Puedes filtrar los registros por asunto o remitente, ordenar columnas en orden ascendente o descendente haciendo clic en los encabezados de las columnas, y reorganizar columnas utilizando arrastrar y soltar.
