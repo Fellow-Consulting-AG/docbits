@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # Email
 
 Przejdź do menu Ustawienia i wybierz „Importuj” w sekcji Przetwarzanie dokumentów.
