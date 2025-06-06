@@ -30,26 +30,25 @@ To use FTP for importing data automatically, ensure the following requirements a
 
 ### Add new connection
 
-1. To add a new connection, click the **Add** button in the FTP section.
+1.  To add a new connection, click the **Add** button in the FTP section.
 
-<figure><img src="../../../../.gitbook/assets/ftp_7.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/ftp_7.png" alt=""><figcaption></figcaption></figure>
+2.  Enter your FTP credentials in the designated fields. The API Key field will be filled in automatically.
 
-2. Enter your FTP credentials in the designated fields. The API Key field will be filled in automatically.
-   * **Type:** Specifies the FTP protocol to use. You can choose between **FTP**, **FTPS**, or **SFTP**.
-   * **Port:** Specifies the port number to be used for the selected FTP protocol.
-   * **Server Name (required):** The address of the server from which documents will be retrieved.
-   * **Username (required):** The login name used to access the FTP server.
-   * **Password (required):** The password associated with the username for accessing the FTP server.
-   * **File name matching patterns:** To specify which files to import based on their names.
-   * **Sub-Organizations:** Select which sub-organization the FTP import should apply to.
-   * **API Key (required):** This field will be automatically filled based on the organization you are logged into.
-   * **Primary Directory:** Specifies the directory on the FTP server from which files will be imported.
-   * **Import Directory:** Allows you to specify a subdirectory within the primary directory from which files will be imported.
-   * **Archive After Import:** Allows you to archive files after import. Once activated, you can specify the directory where files should be moved after a successful import.
-   * **Include Subfolder Files:** When enabled, subdirectories within the main directory will also be searched for files to import.
+    * **Type:** Specifies the FTP protocol to use. You can choose between **FTP**, **FTPS**, or **SFTP**.
+    * **Port:** Specifies the port number to be used for the selected FTP protocol.
+    * **Server Name (required):** The address of the server from which documents will be retrieved.
+    * **Username (required):** The login name used to access the FTP server.
+    * **Password (required):** The password associated with the username for accessing the FTP server.
+    * **File name matching patterns:** To specify which files to import based on their names.
+    * **Sub-Organizations:** Select which sub-organization the FTP import should apply to.
+    * **API Key (required):** This field will be automatically filled based on the organization you are logged into.
+    * **Primary Directory:** Specifies the directory on the FTP server from which files will be imported.
+    * **Import Directory:** Allows you to specify a subdirectory within the primary directory from which files will be imported.
+    * **Archive After Import:** Allows you to archive files after import. Once activated, you can specify the directory where files should be moved after a successful import.
+    * **Include Subfolder Files:** When enabled, subdirectories within the main directory will also be searched for files to import.
 
-<figure><img src="../../../../.gitbook/assets/ftp_4.png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src="../../../../.gitbook/assets/email_4.png" alt=""><figcaption></figcaption></figure>
 3. Once you have entered all the necessary details of your FTP, click **SAVE**.
 4. After saving your connection, you can activate it by clicking the three dots in the **Actions** column of your connection, then selecting **Activate**.
 
