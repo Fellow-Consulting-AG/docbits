@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # E-mail
 
 Accédez au menu Paramètres et sélectionnez "Importer" sous Traitement des documents.
