@@ -50,11 +50,11 @@ To use FTP for importing data automatically, ensure the following requirements a
 
     <figure><img src="../../../../.gitbook/assets/email_4.png" alt=""><figcaption></figcaption></figure>
 3. Once you have entered all the necessary details of your FTP, click **SAVE**.
-4. After saving your connection, you can activate it by clicking the three dots in the **Actions** column of your connection, then selecting **Activate**.
+4. After saving your connection, you can activate it by clicking the three dots in the **Action** column of your connection, then selecting **Activate**.
 
 ### Actions for FTP
 
-You can click the three dots in the **Actions** column to access the following options for your connection:
+You can click the three dots in the **Action** column to access the following options for your connection:
 
 <figure><img src="../../../../.gitbook/assets/ftp_5.png" alt="" width="158"><figcaption></figcaption></figure>
 
@@ -86,17 +86,17 @@ You can set up an email import that automatically imports documents from your in
    * **Port:** Specifies the port number to be used for the selected email import configuration.
    *   **Folder:** Select a folder from which the documents will be imported.
 
-       <mark style="color:red;">**Note:**</mark> The **Folder** option becomes available only after you have successfully created an IMAP connection. To add a folder after creation, click the three dots in the **Actions** column, then select **Edit**. The option should now be available.
+       <mark style="color:red;">**Note:**</mark> The **Folder** option becomes available only after you have successfully created an IMAP connection. To add a folder after creation, click the three dots in the **Action** column, then select **Edit**. The option should now be available.
    * **Move Emails to Other Folder:** When enabled, allows you to specify a folder where emails will be moved after a successful import.\
-     <mark style="color:red;">**Note:**</mark> The **Move Emails to Other Folder** option becomes available only after you have successfully created an IMAP connection. To activate this setting, click the three dots in the **Actions** column, then select **Edit**. The option should now be available.
+     <mark style="color:red;">**Note:**</mark> The **Move Emails to Other Folder** option becomes available only after you have successfully created an IMAP connection. To activate this setting, click the three dots in the **Action** column, then select **Edit**. The option should now be available.
    * **Merge Attached Documents:** Combines multiple attached documents into a single document.
    * **Send Email to Sender after Import:** Sends a confirmation email to the original sender after the import is complete. Once activated, you can specify the subject and body of the email.
    * **Block Duplicate Filename Import:** Prevents import if a document with the same name already exists.
-4. After saving your connection, you can activate it by clicking the three dots in the **Actions** column of your connection, then selecting **Activate**.
+4. After saving your connection, you can activate it by clicking the three dots in the **Action** column of your connection, then selecting **Activate**.
 
 ### Actions for IMAP
 
-You can click the three dots in the **Actions** column to access the following options for your connection:
+You can click the three dots in the **Action** column to access the following options for your connection:
 
 <figure><img src="../../../../.gitbook/assets/email_7.png" alt="" width="145"><figcaption></figcaption></figure>
 
@@ -129,13 +129,13 @@ You can click the three dots in the **Actions** column to access the following o
 
     <figure><img src="../../../../.gitbook/assets/email_5.png" alt=""><figcaption></figcaption></figure>
 6. Once you’ve configured the desired behavior, you can either start importing emails by clicking **Import** or save your changes by clicking **Save**.
-7.  After saving your connection, you can activate it by clicking the three dots in the **Actions** column of your connection, then selecting **Activate**.
+7.  After saving your connection, you can activate it by clicking the three dots in the **Action** column of your connection, then selecting **Activate**.
 
 
 
 ### Actions for OAuth Office365
 
-You can click the three dots in the **Actions** column to access the following options for your connection:
+You can click the three dots in the **Action** column to access the following options for your connection:
 
 <figure><img src="../../../../.gitbook/assets/email_6.png" alt="" width="148"><figcaption></figcaption></figure>
 
