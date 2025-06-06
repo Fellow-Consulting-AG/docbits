@@ -77,7 +77,7 @@ You can set up an email import that automatically imports documents from your in
 2. Select IMAP as the protocol.
 3. Enter your email credentials in the designated fields. The API Key field will be filled automatically.
    * **Encryption:** Select the type of encryption to use — either **SSL** or **TLS**.
-   * **Server Name:** The address of the email server.
+   * **Server name:** The address of the email server.
    * **Username:** The identifier used for your mail import configuration in DocBits.
    * **E-mail:** The email address used for importing documents into the system.
    * **Password:** The password associated with the provided email address.
