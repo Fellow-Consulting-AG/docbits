@@ -57,7 +57,7 @@ To use FTP for importing data automatically, ensure the following requirements a
 
 You can click the three dots in the **Actions** column to access the following options for your connection:
 
-<figure><img src="../../../../.gitbook/assets/ftp_5 (1).png" alt="" width="158"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/ftp_5.png" alt="" width="158"><figcaption></figcaption></figure>
 
 * **Test Connection:** Tests the connection to your FTP server.
 * **Connection Logs:** Opens the logs for your FTP connection, including error messages if any issues occur.
@@ -99,6 +99,8 @@ You can set up an email import that automatically imports documents from your in
 
 You can click the three dots in the **Actions** column to access the following options for your connection:
 
+<figure><img src="../../../../.gitbook/assets/email_7.png" alt="" width="145"><figcaption></figcaption></figure>
+
 * **Test Connection:** Tests the connection to your IMAP client.
 * **Connection Logs:** Opens the logs for your email connection, including any error messages that occur during the process.
 * **Import Log:** Opens the logs of past imports for the respective connection, including any error messages that occurred during the process.
@@ -136,7 +138,7 @@ You can click the three dots in the **Actions** column to access the following o
 
 You can click the three dots in the **Actions** column to access the following options for your connection:
 
-<figure><img src="../../../../.gitbook/assets/email_6.png" alt="" width="157"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/email_6.png" alt="" width="148"><figcaption></figcaption></figure>
 
 * **Connection Logs:** Opens the logs for your email connection, including any error messages that occur during the process.
 * **Import Log:** Opens the logs of past imports for the respective connection, including any error messages that occurred during the process.
