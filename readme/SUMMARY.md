@@ -134,7 +134,7 @@
     * [Dashboard](administration-and-setup/settings/global-settings/dashboard.md)
   * [Elaborazione Documenti](administration-and-setup/settings/document-processing/README.md)
     * [Documents Expiry](administration-and-setup/settings/document-processing/documents-expiry.md)
-    * [Import](administration-and-setup/settings/document-processing/import.md)
+    * [Importazione](administration-and-setup/settings/document-processing/import.md)
     * [Gestore delle Regole](administration-and-setup/settings/document-processing/rule-manager.md)
     * [Ocr Settings](administration-and-setup/settings/document-processing/ocr-settings.md)
     * [Classificazione ed Estrazione](administration-and-setup/settings/document-processing/classification-and-extraction/README.md)
