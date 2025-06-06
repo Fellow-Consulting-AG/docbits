@@ -1,3 +1,8 @@
+---
+hidden: true
+noIndex: true
+---
+
 # E-mail
 
 Vai al menu Impostazioni e seleziona "Importa" sotto Elaborazione documenti.

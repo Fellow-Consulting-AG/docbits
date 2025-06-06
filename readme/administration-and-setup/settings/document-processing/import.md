@@ -22,7 +22,7 @@ Nelle impostazioni di **Importazione**, puoi configurare opzioni specifiche per 
 
 ### Requisiti
 
-Per utilizzare FTP per importare dati automaticamente, assicurati che siano soddisfatti i seguenti requisiti:
+Per utilizzare FTP per importare dati automaticamente, assicurati che i seguenti requisiti siano soddisfatti:
 
 * Server FTP configurato correttamente e compatibile con Linux
 * Nome host FTP, Nome utente e Password
@@ -44,9 +44,9 @@ Per utilizzare FTP per importare dati automaticamente, assicurati che siano sodd
     * **Sotto-organizzazioni:** Seleziona a quale sotto-organizzazione dovrebbe applicarsi l'importazione FTP.
     * **Chiave API (obbligatoria):** Questo campo verrà compilato automaticamente in base all'organizzazione a cui sei connesso.
     * **Elenco primario:** Specifica la directory sul server FTP da cui verranno importati i file.
-    * **Elenco delle importazioni:** Ti consente di specificare una sottodirectory all'interno dell'elenco primario da cui verranno importati i file.
+    * **Elenco delle importazioni:** Ti consente di specificare una sottodirectory all'interno della directory primaria da cui verranno importati i file.
     * **Archiviare dopo l'importazione:** Ti consente di archiviare i file dopo l'importazione. Una volta attivato, puoi specificare la directory in cui i file devono essere spostati dopo un'importazione riuscita.
-    * **Includere i file delle sottocartelle:** Quando abilitato, le sottodirectory all'interno della directory principale verranno cercate anche per i file da importare.
+    * **Includere i file delle sottocartelle:** Quando abilitato, verranno cercati anche file nelle sottodirectory all'interno della directory principale.
 
     <figure><img src="../../../.gitbook/assets/ftp_4_it.png" alt=""><figcaption></figcaption></figure>
 3. Una volta inseriti tutti i dettagli necessari del tuo FTP, fai clic su **RISPARMIA**.
@@ -59,8 +59,8 @@ Puoi fare clic sui tre punti nella colonna **Azione** per accedere alle seguenti
 <figure><img src="../../../.gitbook/assets/ftp_5_it.png" alt="" width="184"><figcaption></figcaption></figure>
 
 * **Collegamento di prova:** Testa la connessione al tuo server FTP.
-* **Registri di connessione:** Apre i registri per la tua connessione FTP, inclusi i messaggi di errore se si verificano problemi.
-* **Attiva/Disattiva:** Attiva/disattiva la tua connessione.
+* **Registri di connessione:** Apre i registri per la tua connessione FTP, inclusi messaggi di errore se si verificano problemi.
+* **Attivare/Disattivare:** Attiva/disattiva la tua connessione.
 * **Modifica:** Ti consente di apportare modifiche alla tua connessione.
 * **Cancellare:** Elimina la tua connessione.
 
@@ -82,7 +82,7 @@ Puoi impostare un'importazione di email che importa automaticamente documenti da
    * **Password:** La password associata all'indirizzo email fornito.
    * **Sotto-organizzazioni:** Seleziona la sotto-organizzazione a cui dovrebbe applicarsi l'importazione email.
    * **Chiave API:** Questo campo verrà compilato automaticamente in base all'organizzazione a cui sei connesso.
-   * **Invia l'avviso di errore di importazione a questo indirizzo e-mail:** Specifica un indirizzo email per ricevere notifiche di errore se qualcosa va storto durante il processo di importazione.
+   * **Inviare l'avviso di errore di importazione a questo indirizzo e-mail:** Specifica un indirizzo email per ricevere notifiche di errore se qualcosa va storto durante il processo di importazione.
    * **Porta:** Specifica il numero di porta da utilizzare per la configurazione di importazione email selezionata.
    *   **Cartella:** Seleziona una cartella da cui verranno importati i documenti.
 
@@ -90,8 +90,8 @@ Puoi impostare un'importazione di email che importa automaticamente documenti da
    * **Sposta le email in un'altra cartella:** Quando abilitato, consente di specificare una cartella in cui le email verranno spostate dopo un'importazione riuscita.\
      <mark style="color:red;">**Nota:**</mark> L'opzione **Sposta le email in un'altra cartella** diventa disponibile solo dopo aver creato con successo una connessione IMAP. Per attivare questa impostazione, fai clic sui tre punti nella colonna **Azione**, quindi seleziona **Modifica**. L'opzione dovrebbe ora essere disponibile.
    * **Unire documenti allegati:** Combina più documenti allegati in un unico documento.
-   * **Inviare l'e-mail al mittente dopo l'importazione:** Invia un'e-mail di conferma al mittente originale dopo che l'importazione è completata. Una volta attivato, puoi specificare l'oggetto e il corpo dell'e-mail.
-   * **Blocca l'importazione di nomi di file duplicati:** Impedisce l'importazione se un documento con lo stesso nome esiste già.
+   * **Inviare l'e-mail al mittente dopo l'importazione:** Invia un'email di conferma al mittente originale dopo che l'importazione è completata. Una volta attivato, puoi specificare l'oggetto e il corpo dell'email.
+   * **Blocca l'importazione di nomi di file duplicati:** Previene l'importazione se un documento con lo stesso nome esiste già.
 4. Dopo aver salvato la tua connessione, puoi attivarla facendo clic sui tre punti nella colonna **Azione** della tua connessione, quindi selezionando **Attivare**.
 
 ### Azioni per IMAP
@@ -103,7 +103,7 @@ Puoi fare clic sui tre punti nella colonna **Azione** per accedere alle seguenti
 * **Collegamento di prova:** Testa la connessione al tuo client IMAP.
 * **Registri di connessione:** Apre i registri per la tua connessione email, inclusi eventuali messaggi di errore che si verificano durante il processo.
 * **Importa registro:** Apre i registri delle importazioni passate per la rispettiva connessione, inclusi eventuali messaggi di errore che si sono verificati durante il processo.
-* **Attiva/Disattiva:** Attiva/disattiva la tua connessione.
+* **Attivare/Disattivare:** Attiva/disattiva la tua connessione.
 * **Modifica:** Ti consente di apportare modifiche alla tua connessione.
 * **Cancellare:** Elimina la tua connessione.
 
@@ -124,8 +124,8 @@ Puoi fare clic sui tre punti nella colonna **Azione** per accedere alle seguenti
     * **Sotto-organizzazioni:** Seleziona la sotto-organizzazione a cui dovrebbe applicarsi l'importazione email.
     * **Usa Cartella:** Seleziona una cartella da cui verranno importati i documenti.
     * **Usa Casella di posta condivisa:** Specifica l'indirizzo email condiviso da cui dovrebbero essere importati i documenti.
-    * **Sposta Email in un'altra cartella:** Specifica una cartella in cui le email dovrebbero essere spostate dopo un'importazione riuscita.
-    * **Invia l'avviso di errore di importazione a questo indirizzo e-mail:** Specifica un indirizzo email per ricevere notifiche di errore se qualcosa va storto durante il processo di importazione.
+    * **Sposta email in un'altra cartella:** Specifica una cartella in cui le email dovrebbero essere spostate dopo un'importazione riuscita.
+    * **Inviare l'avviso di errore di importazione a questo indirizzo e-mail:** Specifica un indirizzo email per ricevere notifiche di errore se qualcosa va storto durante il processo di importazione.
 
     <figure><img src="../../../.gitbook/assets/email_5_it.png" alt=""><figcaption></figcaption></figure>
 6. Una volta configurato il comportamento desiderato, puoi iniziare a importare email facendo clic su **Importa** o salvare le tue modifiche facendo clic su **Salva**.
@@ -139,7 +139,7 @@ Puoi fare clic sui tre punti nella colonna **Azione** per accedere alle seguenti
 
 * **Registri di connessione:** Apre i registri per la tua connessione email, inclusi eventuali messaggi di errore che si verificano durante il processo.
 * **Importa registro:** Apre i registri delle importazioni passate per la rispettiva connessione, inclusi eventuali messaggi di errore che si sono verificati durante il processo.
-* **Attiva/Disattiva:** Attiva/disattiva la tua connessione.
+* **Attivare/Disattivare:** Attiva/disattiva la tua connessione.
 * **Modifica:** Ti consente di apportare modifiche alla tua connessione.
 * **Cancellare:** Elimina la tua connessione.
 
