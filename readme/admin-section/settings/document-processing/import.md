@@ -50,11 +50,11 @@ Um FTP für den automatischen Import von Daten zu verwenden, stellen Sie sicher,
 
     <figure><img src="../../../.gitbook/assets/ftp_4_de.png" alt=""><figcaption></figcaption></figure>
 3. Nachdem Sie alle erforderlichen Details Ihres FTP eingegeben haben, klicken Sie auf **SPEICHERN**.
-4. Nach dem Speichern Ihrer Verbindung können Sie sie aktivieren, indem Sie auf die drei Punkte in der **Aktionen**-Spalte Ihrer Verbindung klicken und dann **Aktivieren** auswählen.
+4. Nach dem Speichern Ihrer Verbindung können Sie sie aktivieren, indem Sie auf die drei Punkte in der **Aktion**-Spalte Ihrer Verbindung klicken und dann **Aktivieren** auswählen.
 
 ### Aktionen für FTP
 
-Sie können auf die drei Punkte in der **Aktionen**-Spalte klicken, um auf die folgenden Optionen für Ihre Verbindung zuzugreifen:
+Sie können auf die drei Punkte in der **Aktion**-Spalte klicken, um auf die folgenden Optionen für Ihre Verbindung zuzugreifen:
 
 <figure><img src="../../../.gitbook/assets/ftp_5_de.png" alt="" width="186"><figcaption></figcaption></figure>
 
@@ -86,16 +86,17 @@ Sie können einen E-Mail-Import einrichten, der Dokumente automatisch aus Ihrem 
    * **Port:** Gibt die Portnummer an, die für die ausgewählte E-Mail-Importkonfiguration verwendet werden soll.
    *   **Ordner:** Wählen Sie einen Ordner aus, aus dem die Dokumente importiert werden.
 
-       <mark style="color:red;">**Hinweis:**</mark> Die **Ordner**-Option wird erst verfügbar, nachdem Sie erfolgreich eine IMAP-Verbindung erstellt haben. Um einen Ordner nach der Erstellung hinzuzufügen, klicken Sie auf die drei Punkte in der **Aktionen**-Spalte und wählen Sie dann **Bearbeiten**. Die Option sollte jetzt verfügbar sein.
-   * **E-Mails in einen anderen Ordner verschieben:** Wenn aktiviert, können Sie einen Ordner angeben, in den E-Mails nach einem erfolgreichen Import verschoben werden.<mark style="color:red;">**Hinweis:**</mark> Die **E-Mails in einen anderen Ordner verschieben**-Option wird erst verfügbar, nachdem Sie erfolgreich eine IMAP-Verbindung erstellt haben. Um diese Einstellung zu aktivieren, klicken Sie auf die drei Punkte in der **Aktionen**-Spalte und wählen Sie dann **Bearbeiten**. Die Option sollte jetzt verfügbar sein.
+       <mark style="color:red;">**Hinweis:**</mark> Die **Ordner**-Option wird erst verfügbar, nachdem Sie erfolgreich eine IMAP-Verbindung erstellt haben. Um einen Ordner nach der Erstellung hinzuzufügen, klicken Sie auf die drei Punkte in der **Aktion**-Spalte und wählen Sie dann **Bearbeiten**. Die Option sollte jetzt verfügbar sein.
+   * **E-Mails in einen anderen Ordner verschieben:** Wenn aktiviert, können Sie einen Ordner angeben, in den E-Mails nach einem erfolgreichen Import verschoben werden.\
+     <mark style="color:red;">**Hinweis:**</mark> Die **E-Mails in einen anderen Ordner verschieben**-Option wird erst verfügbar, nachdem Sie erfolgreich eine IMAP-Verbindung erstellt haben. Um diese Einstellung zu aktivieren, klicken Sie auf die drei Punkte in der **Aktion**-Spalte und wählen Sie dann **Bearbeiten**. Die Option sollte jetzt verfügbar sein.
    * **Angehängte Dokumente zusammenführen:** Kombiniert mehrere angehängte Dokumente zu einem einzigen Dokument.
    * **Nach dem Import eine E-Mail an den Absender senden:** Sendet eine Bestätigungs-E-Mail an den ursprünglichen Absender, nachdem der Import abgeschlossen ist. Sobald aktiviert, können Sie den Betreff und den Inhalt der E-Mail angeben.
    * **Importieren doppelter Dateinamen blockieren:** Verhindert den Import, wenn ein Dokument mit demselben Namen bereits existiert.
-4. Nachdem Sie Ihre Verbindung gespeichert haben, können Sie sie aktivieren, indem Sie auf die drei Punkte in der **Aktionen**-Spalte Ihrer Verbindung klicken und dann **Aktivieren** auswählen.
+4. Nachdem Sie Ihre Verbindung gespeichert haben, können Sie sie aktivieren, indem Sie auf die drei Punkte in der **Aktion**-Spalte Ihrer Verbindung klicken und dann **Aktivieren** auswählen.
 
 ### Aktionen für IMAP
 
-Sie können auf die drei Punkte in der **Aktionen**-Spalte klicken, um auf die folgenden Optionen für Ihre Verbindung zuzugreifen:
+Sie können auf die drei Punkte in der **Aktion**-Spalte klicken, um auf die folgenden Optionen für Ihre Verbindung zuzugreifen:
 
 <figure><img src="../../../.gitbook/assets/email_7_de.png" alt="" width="176"><figcaption></figcaption></figure>
 
@@ -128,11 +129,11 @@ Sie können auf die drei Punkte in der **Aktionen**-Spalte klicken, um auf die f
 
     <figure><img src="../../../.gitbook/assets/email_5_de.png" alt=""><figcaption></figcaption></figure>
 6. Sobald Sie das gewünschte Verhalten konfiguriert haben, können Sie entweder mit dem Import von E-Mails beginnen, indem Sie auf **Importieren** klicken, oder Ihre Änderungen speichern, indem Sie auf **Speichern** klicken.
-7. Nachdem Sie Ihre Verbindung gespeichert haben, können Sie sie aktivieren, indem Sie auf die drei Punkte in der **Aktionen**-Spalte Ihrer Verbindung klicken und dann **Aktivieren** auswählen.
+7. Nachdem Sie Ihre Verbindung gespeichert haben, können Sie sie aktivieren, indem Sie auf die drei Punkte in der **Aktion**-Spalte Ihrer Verbindung klicken und dann **Aktivieren** auswählen.
 
 ### Aktionen für OAuth Office365
 
-Sie können auf die drei Punkte in der **Aktionen**-Spalte klicken, um auf die folgenden Optionen für Ihre Verbindung zuzugreifen:
+Sie können auf die drei Punkte in der **Aktion**-Spalte klicken, um auf die folgenden Optionen für Ihre Verbindung zuzugreifen:
 
 <figure><img src="../../../.gitbook/assets/email_6_de.png" alt="" width="186"><figcaption></figcaption></figure>
 
