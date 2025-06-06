@@ -1,37 +1,151 @@
 # Import
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2010.48.36.png" alt=""><figcaption></figcaption></figure>
+## Übersicht
 
-Die "Import" Einstellungen in Ihrem Dokumentenverarbeitungssystem ermöglichen es Ihnen, zu konfigurieren, wie Dokumente aus verschiedenen Quellen in das System importiert werden, einschließlich Einstellungen sowohl für FTP (File Transfer Protocol) als auch E-Mail. Hier ist eine Aufschlüsselung dieser Einstellungen:
+In den **Import**-Einstellungen können Sie dokumentenspezifische Optionen für den Import konfigurieren oder automatisierte Importe über FTP oder E-Mail einrichten. Diese Seite bietet einen detaillierten Überblick über alle verfügbaren Einstellungen.
 
-1. **Dokumenteneinstellungen**:
+## So greifen Sie zu
 
-* **Auf Seiten beschränken**: Dies ermöglicht es Ihnen, die Verarbeitung auf eine bestimmte Anzahl von Seiten aus jedem Dokument zu beschränken.
-* **Zahlungsbedingungen Tage**: Definiert die standardmäßigen Zahlungsbedingungen (in Tagen), die auf Dokumente angewendet werden können.
-* **Datumsformat**: Legt das Muster fest, nach dem Daten in importierten Dokumenten erkannt und formatiert werden sollen.
+1.  Navigieren Sie zu **Einstellungen** -> **Verarbeitung von Dokumenten** -> **Import**
 
-2. **FTP-Import**:
+    <figure><img src="../../../.gitbook/assets/ftp_0_de.png" alt=""><figcaption></figcaption></figure>
 
-* **Typ**: Definiert den Typ des FTP-Protokolls, das verwendet werden soll (z. B. SFTP).
-* **Server-URL**: Die Serveradresse, von der aus Dokumente abgerufen werden.
-* **Benutzername und Port**: Anmeldeinformationen und Portnummer für den Zugriff auf den FTP-Server.
-* **Standardverzeichnis**: Legt das Verzeichnis auf dem FTP-Server fest, aus dem Dateien importiert werden.
+## **Dokument-Einstellungen**
 
-Die zusätzliche Option zum Hinzufügen neuer Daten umfasst Felder wie:
+* **Auf Seiten beschränken**: Diese Einstellung ermöglicht es Ihnen, die Verarbeitung auf eine bestimmte Anzahl von Seiten pro Dokument zu beschränken. Der Standardwert beträgt **60 Seiten**, was bedeutet, dass Dokumente, die dieses Limit überschreiten, auf **60 Seiten** gekürzt werden, und alle **verbleibenden Seiten verworfen werden.**
+* **Zahlungsbedingungen Tage**: Definiert die Standard-Zahlungsbedingungen (in Tagen), die auf Dokumente angewendet werden können.
+* **Datum Muster**: Legt das Muster fest, wie Daten innerhalb importierter Dokumente erkannt und formatiert werden sollen.
 
-* **Passwort**: Zur Authentifizierung.
-* **Dateinamen-Musterabgleiche**: Um festzulegen, welche Dateien basierend auf ihren Namen importiert werden sollen.
-* **Unterorganisationen**: Wählen Sie aus, auf welche Unterorganisation die Importeinstellungen angewendet werden sollen.
+<figure><img src="../../../.gitbook/assets/document_settins_1_de.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2010.48.45.png" alt=""><figcaption></figcaption></figure>
+## **FTP-Import**
 
-1. **E-Mail-Import**:
+### Anforderungen
 
-* **E-Mail-Adresse**: Einrichten eines E-Mail-Kontos, an das Dokumente zum Import gesendet werden können.
-* **Benutzername und Passwort**: Anmeldeinformationen für den Zugriff auf das E-Mail-Konto.
-* **Protokoll und Verschlüsselung**: Geben Sie das Protokoll (IMAP, POP3) und den Verschlüsselungstyp an.
-* **Angehängte Dokumente zusammenführen**: Option, alle angehängten Dokumente beim Import in ein einziges Dokument zu kombinieren.
+Um FTP für den automatischen Import von Daten zu verwenden, stellen Sie sicher, dass die folgenden Anforderungen erfüllt sind:
 
-Dies ermöglicht auch die Festlegung von Unterorganisationen für eine präzisere Kontrolle darüber, wohin E-Mails innerhalb Ihrer Organisationsstruktur geleitet werden.
+* Korrekt konfigurierter, Linux-kompatibler FTP-Server
+* FTP-Hostname, Benutzername und Passwort
+* Dedizierter Importordner
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2010.48.56.png" alt=""><figcaption></figcaption></figure>
+### Neue Verbindung hinzufügen
+
+1.  Um eine neue Verbindung hinzuzufügen, klicken Sie auf die Schaltfläche **Hinzufügen** im FTP-Bereich.
+
+    <figure><img src="../../../.gitbook/assets/ftp_7_de.png" alt=""><figcaption></figcaption></figure>
+2.  Geben Sie Ihre FTP-Anmeldeinformationen in die vorgesehenen Felder ein. Das Feld API-Schlüssel wird automatisch ausgefüllt.
+
+    * **Typ:** Gibt das zu verwendende FTP-Protokoll an. Sie können zwischen **FTP**, **FTPS** oder **SFTP** wählen.
+    * **Port:** Gibt die Portnummer an, die für das ausgewählte FTP-Protokoll verwendet werden soll.
+    * **Servername (erforderlich):** Die Adresse des Servers, von dem Dokumente abgerufen werden.
+    * **Benutzername (erforderlich):** Der Anmeldename, der zum Zugriff auf den FTP-Server verwendet wird.
+    * **Passwort (erforderlich):** Das Passwort, das mit dem Benutzernamen für den Zugriff auf den FTP-Server verknüpft ist.
+    * **Muster für den Abgleich von Dateinamen:** Um anzugeben, welche Dateien basierend auf ihren Namen importiert werden sollen.
+    * **Unter-Organisationen:** Wählen Sie aus, auf welche Unter-Organisation der FTP-Import angewendet werden soll.
+    * **API-Schlüssel (erforderlich):** Dieses Feld wird automatisch basierend auf der Organisation ausgefüllt, in die Sie eingeloggt sind.
+    * **Primäres Verzeichnis:** Gibt das Verzeichnis auf dem FTP-Server an, aus dem Dateien importiert werden.
+    * **Importverzeichnis:** Ermöglicht es Ihnen, ein Unterverzeichnis innerhalb des primären Verzeichnisses anzugeben, aus dem Dateien importiert werden.
+    * **Archivieren nach dem Import:** Ermöglicht es Ihnen, Dateien nach dem Import zu archivieren. Sobald aktiviert, können Sie das Verzeichnis angeben, in das Dateien nach einem erfolgreichen Import verschoben werden sollen.
+    * **Unterordner-Dateien einbeziehen:** Wenn aktiviert, werden auch Unterverzeichnisse im Hauptverzeichnis nach Dateien zum Import durchsucht.
+
+    <figure><img src="../../../.gitbook/assets/ftp_4_de.png" alt=""><figcaption></figcaption></figure>
+3. Nachdem Sie alle erforderlichen Details Ihres FTP eingegeben haben, klicken Sie auf **SPEICHERN**.
+4. Nach dem Speichern Ihrer Verbindung können Sie sie aktivieren, indem Sie auf die drei Punkte in der **Aktionen**-Spalte Ihrer Verbindung klicken und dann **Aktivieren** auswählen.
+
+### Aktionen für FTP
+
+Sie können auf die drei Punkte in der **Aktionen**-Spalte klicken, um auf die folgenden Optionen für Ihre Verbindung zuzugreifen:
+
+<figure><img src="../../../.gitbook/assets/ftp_5_de.png" alt="" width="186"><figcaption></figcaption></figure>
+
+* **Verbindung testen:** Testet die Verbindung zu Ihrem FTP-Server.
+* **Verbindungsprotokolle:** Öffnet die Protokolle für Ihre FTP-Verbindung, einschließlich Fehlermeldungen, falls Probleme auftreten.
+* **Aktivieren/Deaktivieren:** Aktiviert/deaktiviert Ihre Verbindung.
+* **Bearbeiten:** Ermöglicht es Ihnen, Änderungen an Ihrer Verbindung vorzunehmen.
+* **Löschen:** Löscht Ihre Verbindung.
+
+## **E-Mail-Import**
+
+Sie können einen E-Mail-Import einrichten, der Dokumente automatisch aus Ihrem Posteingang importiert, sobald sie ankommen. Sie können wählen, ob Sie eine IMAP- oder eine OAuth-Verbindung konfigurieren möchten.
+
+### Neue IMAP-Verbindung hinzufügen
+
+1.  Um eine neue IMAP-Verbindung hinzuzufügen, klicken Sie auf die Schaltfläche **Hinzufügen** im Bereich **E-Mail-Import**.
+
+    <figure><img src="../../../.gitbook/assets/email_1_de.png" alt=""><figcaption></figcaption></figure>
+2. Wählen Sie IMAP als Protokoll aus.
+3. Geben Sie Ihre E-Mail-Anmeldeinformationen in die vorgesehenen Felder ein. Das Feld API-Schlüssel wird automatisch ausgefüllt.
+   * **Verschlüsselung:** Wählen Sie den zu verwendenden Verschlüsselungstyp — entweder **SSL** oder **TLS**.
+   * **Servername:** Die Adresse des E-Mail-Servers.
+   * **Benutzername:** Der Identifikator, der für Ihre Mail-Importkonfiguration in DocBits verwendet wird.
+   * **E-Mail:** Die E-Mail-Adresse, die zum Importieren von Dokumenten in das System verwendet wird.
+   * **Passwort:** Das Passwort, das mit der angegebenen E-Mail-Adresse verknüpft ist.
+   * **Unter-Organisationen:** Wählen Sie die Unter-Organisation aus, auf die der E-Mail-Import angewendet werden soll.
+   * **API-Schlüssel:** Dieses Feld wird automatisch basierend auf der Organisation ausgefüllt, in die Sie eingeloggt sind.
+   * **Import-Fehlermeldung an diese Email-Adresse senden:** Geben Sie eine E-Mail-Adresse an, um Fehlermeldungen zu erhalten, wenn während des Importvorgangs etwas schiefgeht.
+   * **Port:** Gibt die Portnummer an, die für die ausgewählte E-Mail-Importkonfiguration verwendet werden soll.
+   *   **Ordner:** Wählen Sie einen Ordner aus, aus dem die Dokumente importiert werden.
+
+       <mark style="color:red;">**Hinweis:**</mark> Die **Ordner**-Option wird erst verfügbar, nachdem Sie erfolgreich eine IMAP-Verbindung erstellt haben. Um einen Ordner nach der Erstellung hinzuzufügen, klicken Sie auf die drei Punkte in der **Aktionen**-Spalte und wählen Sie dann **Bearbeiten**. Die Option sollte jetzt verfügbar sein.
+   * **E-Mails in einen anderen Ordner verschieben:** Wenn aktiviert, können Sie einen Ordner angeben, in den E-Mails nach einem erfolgreichen Import verschoben werden.<mark style="color:red;">**Hinweis:**</mark> Die **E-Mails in einen anderen Ordner verschieben**-Option wird erst verfügbar, nachdem Sie erfolgreich eine IMAP-Verbindung erstellt haben. Um diese Einstellung zu aktivieren, klicken Sie auf die drei Punkte in der **Aktionen**-Spalte und wählen Sie dann **Bearbeiten**. Die Option sollte jetzt verfügbar sein.
+   * **Angehängte Dokumente zusammenführen:** Kombiniert mehrere angehängte Dokumente zu einem einzigen Dokument.
+   * **Nach dem Import eine E-Mail an den Absender senden:** Sendet eine Bestätigungs-E-Mail an den ursprünglichen Absender, nachdem der Import abgeschlossen ist. Sobald aktiviert, können Sie den Betreff und den Inhalt der E-Mail angeben.
+   * **Importieren doppelter Dateinamen blockieren:** Verhindert den Import, wenn ein Dokument mit demselben Namen bereits existiert.
+4. Nachdem Sie Ihre Verbindung gespeichert haben, können Sie sie aktivieren, indem Sie auf die drei Punkte in der **Aktionen**-Spalte Ihrer Verbindung klicken und dann **Aktivieren** auswählen.
+
+### Aktionen für IMAP
+
+Sie können auf die drei Punkte in der **Aktionen**-Spalte klicken, um auf die folgenden Optionen für Ihre Verbindung zuzugreifen:
+
+<figure><img src="../../../.gitbook/assets/email_7_de.png" alt="" width="176"><figcaption></figcaption></figure>
+
+* **Verbindung testen:** Testet die Verbindung zu Ihrem IMAP-Client.
+* **Verbindungsprotokolle:** Öffnet die Protokolle für Ihre E-Mail-Verbindung, einschließlich aller Fehlermeldungen, die während des Prozesses auftreten.
+* **Importprotokoll:** Öffnet die Protokolle vergangener Importe für die jeweilige Verbindung, einschließlich aller Fehlermeldungen, die während des Prozesses aufgetreten sind.
+* **Aktivieren/Deaktivieren:** Aktiviert/deaktiviert Ihre Verbindung.
+* **Bearbeiten:** Ermöglicht es Ihnen, Änderungen an Ihrer Verbindung vorzunehmen.
+* **Löschen:** Löscht Ihre Verbindung.
+
+### Neue OAuth Office365-Verbindung hinzufügen
+
+1.  Um eine neue OAuth Office365-Verbindung hinzuzufügen, klicken Sie auf die Schaltfläche **Hinzufügen** im Bereich **E-Mail-Import**.
+
+    <figure><img src="../../../.gitbook/assets/email_1_de (1).png" alt=""><figcaption></figcaption></figure>
+2.  Wählen Sie **OAuth Office365** als Protokoll aus und klicken Sie dann auf "Authentifizieren."
+
+    <figure><img src="../../../.gitbook/assets/email_3_de.png" alt=""><figcaption></figcaption></figure>
+3.  Sie werden zu einer Microsoft-Seite weitergeleitet, auf der Sie aufgefordert werden, einen Code einzugeben. Um diesen Code abzurufen, kehren Sie zu DocBits zurück — der Code wird dort angezeigt, wie unten gezeigt. Kopieren Sie den Code und geben Sie ihn auf der Microsoft-Seite ein. Danach werden Sie aufgefordert, Ihre Microsoft-Anmeldeinformationen einzugeben.
+
+    <figure><img src="../../../.gitbook/assets/email_4_de.png" alt=""><figcaption></figcaption></figure>
+4. Befolgen Sie die Schritte auf der Microsoft-Seite. Sobald Sie fertig sind, kehren Sie zu DocBits zurück und klicken Sie auf **Authentifizierung abschließen**.
+5.  Sie können nun die folgenden Einstellungen konfigurieren:
+
+    * **Unter-Organisationen:** Wählen Sie die Unter-Organisation aus, auf die der E-Mail-Import angewendet werden soll.
+    * **Ordner verwenden:** Wählen Sie einen Ordner aus, aus dem die Dokumente importiert werden.
+    * **Geteiltes Postfach verwenden:** Geben Sie die gemeinsame E-Mail-Adresse an, von der Dokumente importiert werden sollen.
+    * **E-Mail in einen anderen Ordner verschieben:** Geben Sie einen Ordner an, in den E-Mails nach einem erfolgreichen Import verschoben werden sollen.
+    * **Import-Fehlermeldung an diese Email-Adresse senden:** Geben Sie eine E-Mail-Adresse an, um Fehlermeldungen zu erhalten, wenn während des Importvorgangs etwas schiefgeht.
+
+    <figure><img src="../../../.gitbook/assets/email_5_de.png" alt=""><figcaption></figcaption></figure>
+6. Sobald Sie das gewünschte Verhalten konfiguriert haben, können Sie entweder mit dem Import von E-Mails beginnen, indem Sie auf **Importieren** klicken, oder Ihre Änderungen speichern, indem Sie auf **Speichern** klicken.
+7. Nachdem Sie Ihre Verbindung gespeichert haben, können Sie sie aktivieren, indem Sie auf die drei Punkte in der **Aktionen**-Spalte Ihrer Verbindung klicken und dann **Aktivieren** auswählen.
+
+### Aktionen für OAuth Office365
+
+Sie können auf die drei Punkte in der **Aktionen**-Spalte klicken, um auf die folgenden Optionen für Ihre Verbindung zuzugreifen:
+
+<figure><img src="../../../.gitbook/assets/email_6_de.png" alt="" width="186"><figcaption></figcaption></figure>
+
+* **Verbindungsprotokolle:** Öffnet die Protokolle für Ihre E-Mail-Verbindung, einschließlich aller Fehlermeldungen, die während des Prozesses auftreten.
+* **Importprotokoll:** Öffnet die Protokolle vergangener Importe für die jeweilige Verbindung, einschließlich aller Fehlermeldungen, die während des Prozesses aufgetreten sind.
+* **Aktivieren/Deaktivieren:** Aktiviert/deaktiviert Ihre Verbindung.
+* **Bearbeiten:** Ermöglicht es Ihnen, Änderungen an Ihrer Verbindung vorzunehmen.
+* **Löschen:** Löscht Ihre Verbindung.
+
+### Importprotokoll
+
+Sie können das Importprotokoll aller erstellten E-Mail-Verbindungen einsehen, einschließlich aller Fehlermeldungen, die während des Prozesses aufgetreten sind, indem Sie auf die Schaltfläche **Importprotokoll** in der oberen rechten Ecke des E-Mail-Importbereichs klicken.
+
+<figure><img src="../../../.gitbook/assets/email_8_de.png" alt=""><figcaption></figcaption></figure>
+
+Sie können die Protokolle nach Betreff oder Absender filtern, Spalten durch Klicken auf die Spaltenüberschriften in aufsteigender oder absteigender Reihenfolge sortieren und Spalten per Drag-and-Drop neu anordnen.
