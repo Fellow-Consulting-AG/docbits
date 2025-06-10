@@ -1,4 +1,4 @@
-# Automatic Checks
+# Automatic Checks on Validation Screen
 
 ## Overview
 
@@ -6,7 +6,9 @@ By default, specific fields in the field validation process are automatically ch
 
 You can always verify the used formula by hovering over the info icon.
 
-<figure><img src="../../../.gitbook/assets/info_icon (1).png" alt="" width="113"><figcaption></figcaption></figure>
+Note: The info icon only is visible if a value got extracted for the corresponding field&#x20;
+
+<figure><img src="../../../.gitbook/assets/automatic_checks_1.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Formulars for automatic checks:
 
@@ -19,7 +21,7 @@ Net amount = Tax amount * 100 / Vat rate
 ### Vat rate:
 
 ```
-Vat Rate = Tax amount * 100 / Net amount 
+Vat rate = Tax amount * 100 / Net amount 
 ```
 
 ### Tax amount:
@@ -37,7 +39,7 @@ Net amount reduced = Tax amount reduced * 100 / Vat rate reduced
 ### Vat rate reduced:
 
 ```
-Vat Rate reduced = Tax Amount reduced * 100 / Net amount reduced
+Vat rate reduced = Tax Amount reduced * 100 / Net amount reduced
 ```
 
 ### Tax amount reduced:
