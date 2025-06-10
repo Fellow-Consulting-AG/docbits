@@ -35,6 +35,7 @@
   * [AI-Tabelle](end-user-section/ai-table/README.md)
     * [AI-Tabellen-Tags](end-user-and-partner-section/end-user-section/ai-table/ai-table-tags.md)
   * [Validierungsbildschirm](end-user-and-partner-section/end-user-section/validation-screen/README.md)
+    * [Automatische Überprüfungen im Validierungsbildschirm](end-user-and-partner-section/end-user-section/validation-screen/automatic-checks-on-validation-screen.md)
     * [Unscharfe Daten](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [QR-Codes](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
     * [Tastenkombinationen](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
