@@ -6,9 +6,9 @@ By default, specific fields in the field validation process are automatically ch
 
 You can always verify the used formula by hovering over the info icon.
 
-Note: The info icon only is visible if a value got extracted for the corresponding field&#x20;
+<mark style="color:red;">**Note:**</mark> The info icon only is visible if a value got extracted for the corresponding field.
 
-<figure><img src="../../../.gitbook/assets/automatic_checks_1.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/automatic_checks_1 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Formulars for automatic checks:
 
