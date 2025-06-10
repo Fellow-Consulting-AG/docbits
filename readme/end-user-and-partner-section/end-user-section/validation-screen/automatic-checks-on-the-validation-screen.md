@@ -1,4 +1,4 @@
-# Automatic Checks on Validation Screen
+# Automatic Checks on the Validation Screen
 
 ## Overview
 
@@ -6,9 +6,9 @@ By default, specific fields in the field validation process are automatically ch
 
 You can always verify the formula used by hovering over the info icon.
 
-<mark style="color:red;">**Note:**</mark> The info icon is only visible if a value has been extracted for the corresponding field.
-
 <figure><img src="../../../.gitbook/assets/automatic_checks_1 (1).png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Note:**</mark> The info icon is only visible if a value has been extracted for the corresponding field.
 
 ## Formulars for automatic checks:
 
