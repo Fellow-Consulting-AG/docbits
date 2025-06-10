@@ -47,6 +47,7 @@
   * [AI Table](end-user-and-partner-section/end-user-section/ai-table/README.md)
     * [AI Table Tags](end-user-and-partner-section/end-user-section/ai-table/ai-table-tags.md)
   * [Validation Screen](end-user-and-partner-section/end-user-section/validation-screen/README.md)
+    * [Automatic Checks](end-user-and-partner-section/end-user-section/validation-screen/automatic-checks.md)
     * [Fuzzy Data](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [QR Codes](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
     * [Keyboard Shortcuts](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
