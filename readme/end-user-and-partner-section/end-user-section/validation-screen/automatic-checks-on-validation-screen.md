@@ -2,7 +2,7 @@
 
 ## Übersicht
 
-Standardmäßig werden bestimmte Felder im Validierungsprozess automatisch überprüft, indem ihre Werte mithilfe von Formeln, die auf anderen extrahierten Werten basieren, verifiziert werden. Auf dieser Seite finden Sie die Formulare, die für diese automatischen Berechnungen verwendet werden.
+Standardmäßig werden bestimmte Felder im Validierungsprozess automatisch überprüft, indem ihre Werte mithilfe von Formeln basierend auf anderen extrahierten Werten verifiziert werden. Auf dieser Seite finden Sie die Formeln, die für diese automatischen Berechnungen verwendet werden.
 
 Sie können die verwendete Formel jederzeit überprüfen, indem Sie über das Info-Symbol fahren.
 
