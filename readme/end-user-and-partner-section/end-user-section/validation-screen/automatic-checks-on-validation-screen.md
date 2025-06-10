@@ -4,9 +4,9 @@
 
 By default, specific fields in the field validation process are automatically checked by verifying their values using formulas based on other extracted values. On this page, you can find the forms used for these automatic calculations.
 
-You can always verify the used formula by hovering over the info icon.
+You can always verify the formula used by hovering over the info icon.
 
-<mark style="color:red;">**Note:**</mark> The info icon only is visible if a value got extracted for the corresponding field.
+<mark style="color:red;">**Note:**</mark> The info icon is only visible if a value has been extracted for the corresponding field.
 
 <figure><img src="../../../.gitbook/assets/automatic_checks_1 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -72,4 +72,4 @@ Total tax amount = Tax amount + Reduced Tax amount + Tax amount free
 Total amount = Net amount + Tax Amount
 ```
 
-<mark style="color:red;">**Note:**</mark> If the extracted Value and the checked value do not match you won't be able to process your document further and get an amounts mismatch error on the corresponding value
+<mark style="color:red;">**Note:**</mark> If the extracted value and the validated value do not match, the document cannot be processed further. An **Amounts Mismatch** error will appear for the corresponding field.
