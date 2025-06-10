@@ -38,6 +38,7 @@
   * [Tabela AI](end-user-and-partner-section/end-user-section/ai-table/README.md)
     * [Tagowanie tabeli AI](end-user-and-partner-section/end-user-section/ai-table/ai-table-tags.md)
   * [Ekran Walidacji](end-user-and-partner-section/end-user-section/validation-screen/README.md)
+    * [Automatyczne Kontrole na Ekranie Walidacji](end-user-and-partner-section/end-user-section/validation-screen/automatic-checks-on-validation-screen.md)
     * [Rozmyte Dane](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [Kody QR](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
     * [Skróty Klawiaturowe](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
