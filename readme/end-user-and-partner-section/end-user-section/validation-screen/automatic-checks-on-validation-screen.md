@@ -33,25 +33,25 @@ Tax amount = Net amount + Vat rate / 100
 ### Net amount reduced:
 
 ```
-Net amount reduced = Tax amount reduced * 100 / Vat rate reduced
+Net amount reduced = Reduced Tax amount * 100 / Vat rate reduced
 ```
 
 ### Vat rate reduced:
 
 ```
-Vat rate reduced = Tax Amount reduced * 100 / Net amount reduced
+Vat rate reduced = Reduced Tax amount * 100 / Net amount reduced
 ```
 
 ### Tax amount reduced:
 
 ```
-Tax amount reduced = Net Amount reduced + Vat rate reduced / 100
+Tax amount reduced = Reduced Tax amount + Vat rate reduced / 100
 ```
 
 ### Total net amount:
 
 ```
-Total net amount = Net amount + Net amount reduced + Net amount free
+Total net amount = Net amount + Reduced Tax amount + Net amount free
 ```
 
 ### Total net amount US:
@@ -63,7 +63,7 @@ Total net amount US = Net amount + Shipping charges + Misc. charges + Additional
 ### Total tax amount:
 
 ```
-Total tax amount = Tax amount + Tax amount reduced + Tax amount free 
+Total tax amount = Tax amount + Reduced Tax amount + Tax amount free 
 ```
 
 ### Total amount:
