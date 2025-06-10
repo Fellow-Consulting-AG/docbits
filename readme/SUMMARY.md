@@ -38,6 +38,7 @@
   * [Tabela de IA](end-user-and-partner-section/end-user-section/ai-table/README.md)
     * [Tags de Tabela de IA](end-user-and-partner-section/end-user-section/ai-table/ai-table-tags.md)
   * [Tela de Validação](end-user-and-partner-section/end-user-section/validation-screen/README.md)
+    * [Verificações Automáticas na Tela de Validação](end-user-and-partner-section/end-user-section/validation-screen/automatic-checks-on-validation-screen.md)
     * [Dados Fuzzy](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [Códigos QR](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
     * [Atalhos de Teclado](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
