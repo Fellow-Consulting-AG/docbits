@@ -2,74 +2,74 @@
 
 ## Przegląd
 
-Domyślnie, określone pola w procesie walidacji pól są automatycznie sprawdzane poprzez weryfikację ich wartości za pomocą formuł opartych na innych wyekstrahowanych wartościach. Na tej stronie można znaleźć formularze używane do tych automatycznych obliczeń.
+Domyślnie, określone pola w procesie walidacji pól są automatycznie sprawdzane poprzez weryfikację ich wartości za pomocą formuł opartych na innych wyodrębnionych wartościach. Na tej stronie znajdziesz formularze używane do tych automatycznych obliczeń.
 
 Zawsze możesz zweryfikować używaną formułę, najeżdżając kursorem na ikonę informacji.
 
 <figure><img src="../../../.gitbook/assets/automatic_checks_1.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Uwaga:**</mark> Ikona informacji jest widoczna tylko wtedy, gdy wartość została wyekstrahowana dla odpowiadającego pola.
+<mark style="color:red;">**Uwaga:**</mark> Ikona informacji jest widoczna tylko wtedy, gdy wartość została wyodrębniona dla odpowiadającego pola.
 
 ## Formularze do automatycznych kontroli:
 
 ### Kwota netto:
 
 ```
-Net amount = Tax amount * 100 / Vat rate 
+Kwota netto = Kwota podatku * 100 / Stawka VAT 
 ```
 
 ### Stawka VAT:
 
 ```
-Vat rate = Tax amount * 100 / Net amount 
+Stawka VAT = Kwota podatku * 100 / Kwota netto 
 ```
 
 ### Kwota podatku:
 
 ```
-Tax amount = Net amount + Vat rate / 100
+Kwota podatku = Kwota netto + Stawka VAT / 100
 ```
 
-### Kwota netto po obniżeniu:
+### Kwota netto zmniejszona:
 
 ```
-Net amount reduced = Reduced Tax amount * 100 / Vat rate reduced
+Kwota netto zmniejszona = Obniżona kwota podatku * 100 / Obniżona stawka VAT
 ```
 
-### Stawka VAT po obniżeniu:
+### Obniżona stawka VAT:
 
 ```
-Vat rate reduced = Reduced Tax amount * 100 / Net amount reduced
+Obniżona stawka VAT = Obniżona kwota podatku * 100 / Kwota netto zmniejszona
 ```
 
-### Kwota podatku po obniżeniu:
+### Obniżona kwota podatku:
 
 ```
-Tax amount reduced = Reduced Tax amount + Vat rate reduced / 100
+Obniżona kwota podatku = Obniżona kwota podatku + Obniżona stawka VAT / 100
 ```
 
 ### Całkowita kwota netto:
 
 ```
-Total net amount = Net amount + Reduced Tax amount + Net amount free
+Całkowita kwota netto = Kwota netto + Obniżona kwota podatku + Kwota netto wolna
 ```
 
 ### Całkowita kwota netto w USA:
 
 ```
-Total net amount US = Net amount + Shipping charges + Misc. charges + Additional amount
+Całkowita kwota netto w USA = Kwota netto + Koszty wysyłki + Opłaty różne + Dodatkowa kwota
 ```
 
 ### Całkowita kwota podatku:
 
 ```
-Total tax amount = Tax amount + Reduced Tax amount + Tax amount free 
+Całkowita kwota podatku = Kwota podatku + Obniżona kwota podatku + Kwota podatku wolna 
 ```
 
 ### Całkowita kwota:
 
 ```
-Total amount = Net amount + Tax Amount
+Całkowita kwota = Kwota netto + Kwota podatku
 ```
 
-<mark style="color:red;">**Uwaga:**</mark> Jeśli wyekstrahowana wartość i zweryfikowana wartość się nie zgadzają, dokument nie może być przetwarzany dalej. Pojawi się błąd **Amounts Mismatch** dla odpowiadającego pola.
+<mark style="color:red;">**Uwaga:**</mark> Jeśli wyodrębniona wartość i zweryfikowana wartość się nie zgadzają, dokument nie może być przetwarzany dalej. Pojawi się błąd **Niezgodność kwot** dla odpowiadającego pola.
