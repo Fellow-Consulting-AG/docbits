@@ -4,7 +4,7 @@
 
 Por padrão, campos específicos no processo de validação de campos são verificados automaticamente, validando seus valores usando fórmulas baseadas em outros valores extraídos. Nesta página, você pode encontrar os formulários usados para esses cálculos automáticos.
 
-Você pode sempre verificar a fórmula utilizada passando o mouse sobre o ícone de informação.
+Você sempre pode verificar a fórmula utilizada passando o mouse sobre o ícone de informação.
 
 <figure><img src="../../../.gitbook/assets/automatic_checks_1.png" alt=""><figcaption></figcaption></figure>
 
@@ -12,64 +12,64 @@ Você pode sempre verificar a fórmula utilizada passando o mouse sobre o ícone
 
 ## Formulários para verificações automáticas:
 
-### Valor líquido:
+### Kwota netto:
 
 ```
-Valor líquido = Valor do imposto * 100 / Taxa de VAT 
+Kwota netto = Kwota podatku * 100 / Stawka VAT 
 ```
 
-### Taxa de VAT:
+### Stawka VAT:
 
 ```
-Taxa de VAT = Valor do imposto * 100 / Valor líquido 
+Stawka VAT = Kwota podatku * 100 / Kwota netto 
 ```
 
-### Valor do imposto:
+### Kwota podatku:
 
 ```
-Valor do imposto = Valor líquido + Taxa de VAT / 100
+Kwota podatku = Kwota netto + Stawka VAT / 100
 ```
 
-### Valor líquido reduzido:
+### Kwota netto zmniejszona:
 
 ```
-Valor líquido reduzido = Valor do imposto reduzido * 100 / Taxa de VAT reduzida
+Kwota netto zmniejszona = Obniżona kwota podatku * 100 / Obniżona stawka VAT
 ```
 
-### Taxa de VAT reduzida:
+### Obniżona stawka VAT:
 
 ```
-Taxa de VAT reduzida = Valor do imposto reduzido * 100 / Valor líquido reduzido
+Obniżona stawka VAT = Obniżona kwota podatku * 100 / Kwota netto zmniejszona
 ```
 
-### Valor do imposto reduzido:
+### Obniżona kwota podatku:
 
 ```
-Valor do imposto reduzido = Valor do imposto reduzido + Taxa de VAT reduzida / 100
+Obniżona kwota podatku = Obniżona kwota podatku + Obniżona stawka VAT / 100
 ```
 
-### Valor total líquido:
+### Całkowita kwota netto:
 
 ```
-Valor total líquido = Valor líquido + Valor do imposto reduzido + Valor líquido isento
+Całkowita kwota netto = Kwota netto + Obniżona kwota podatku + Kwota netto wolna
 ```
 
-### Valor total líquido EUA:
+### Całkowita kwota netto w USA:
 
 ```
-Valor total líquido EUA = Valor líquido + Custos de envio + Custos diversos + Valor adicional
+Całkowita kwota netto w USA = Kwota netto + Koszty wysyłki + Opłaty różne + Dodatkowa kwota
 ```
 
-### Valor total do imposto:
+### Całkowita kwota podatku:
 
 ```
-Valor total do imposto = Valor do imposto + Valor do imposto reduzido + Valor do imposto isento 
+Całkowita kwota podatku = Kwota podatku + Obniżona kwota podatku + Kwota podatku wolna 
 ```
 
-### Valor total:
+### Całkowita kwota:
 
 ```
-Valor total = Valor líquido + Valor do imposto
+Całkowita kwota = Kwota netto + Kwota podatku
 ```
 
-<mark style="color:red;">**Nota:**</mark> Se o valor extraído e o valor validado não corresponderem, o documento não poderá ser processado. Um erro de **Incompatibilidade de Valores** aparecerá para o campo correspondente.
+<mark style="color:red;">**Nota:**</mark> Se o valor extraído e o valor validado não corresponderem, o documento não pode ser processado. Um erro de **Incompatibilidade de Valores** aparecerá para o campo correspondente.
