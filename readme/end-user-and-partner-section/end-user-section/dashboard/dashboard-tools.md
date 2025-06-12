@@ -4,13 +4,13 @@ A destra della barra di ricerca, troverai alcuni strumenti della scheda.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_1_it.png" alt=""><figcaption></figcaption></figure>
 
-## Aggiornare la tabella:
+## Aggiornare la tabella
 
 Clicca questo pulsante per aggiornare la scheda e caricare i dati e gli stati più aggiornati.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
 
-## Impostazioni avanzate:
+## Impostazioni avanzate
 
 Clicca sull'icona dell'ingranaggio per aprire il menu delle Impostazioni avanzate.
 
@@ -70,13 +70,13 @@ Seleziona i campi che desideri visualizzare come colonne, quindi clicca 'Aggiung
 
 Usa questo pulsante per impostare l'ordine di ordinamento predefinito per le colonne nella scheda. Seleziona la colonna e scegli l'ordine di ordinamento (crescente o decrescente), quindi clicca 'Fatto'. Puoi configurare l'ordinamento per tutte le colonne attive nella scheda.
 
-### Filtrare i documenti:
+### Filtrare i documenti
 
 Puoi filtrare i documenti per giorno, settimana, mese, anno, o visualizzare tutti cliccando sul periodo di tempo desiderato. Il filtraggio si basa sul tempo di importazione del documento.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_13_it.png" alt="" width="563"><figcaption></figcaption></figure>
 
-## Scansione dei documenti:
+## Scansione dei documenti
 
 Usa questo pulsante per scansionare un documento direttamente.
 
@@ -90,7 +90,7 @@ Per utilizzare questa funzione, è necessario avere uno scanner collegato al sis
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_27_it.png" alt=""><figcaption></figcaption></figure>
 
-## Analisi:
+## Analisi
 
 Cliccando su questo pulsante verrà visualizzata una nuova area che mostra il conteggio attuale dei documenti in ciascuna categoria.
 
@@ -100,13 +100,13 @@ Cliccando su questo pulsante verrà visualizzata una nuova area che mostra il co
 
 Clicca su qualsiasi categoria per filtrare i documenti per quella specifica categoria.
 
-## Avviare l'importazione di e-mail:
+## Avviare l'importazione di e-mail
 
 Cliccando su questo pulsante verrà controllata la tua casella di posta elettronica, secondo la configurazione dell'importazione delle e-mail, e verranno importati eventuali nuovi documenti.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
 
-## Esportazione della tabella:
+## Esportazione della tabella
 
 Usa questo pulsante per esportare tutti i documenti attualmente visualizzati sulla scheda, in base al numero di documenti mostrati per pagina.
 
@@ -116,7 +116,7 @@ Usa questo pulsante per esportare tutti i documenti attualmente visualizzati sul
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_26_it.png" alt=""><figcaption></figcaption></figure>
 
-## Caricare:
+## Caricare
 
 Clicca questo pulsante per caricare manualmente uno o più file.
 
