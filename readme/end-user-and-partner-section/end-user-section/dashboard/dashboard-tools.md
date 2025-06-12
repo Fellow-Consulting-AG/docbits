@@ -4,13 +4,13 @@ To the right of the search bar, you will find some dashboard tools.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_1.png" alt=""><figcaption></figcaption></figure>
 
-## Refresh table:
+## Refresh table
 
 Click this button to refresh the dashboard and load the most up-to-date data and statuses.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
 
-## Advanced settings:&#x20;
+## Advanced settings
 
 Click the gear icon to open the Advanced Settings menu.
 
@@ -70,13 +70,13 @@ Select the fields you want to display as columns, then click 'Add to Visible Col
 
 Use this button to set the default sorting order for columns in the dashboard. Select the column and choose the sorting order (ascending or descending), then click 'Done'. You can configure sorting for all active columns in the dashboard.
 
-### Filter documents:
+### Filter documents
 
 You can filter documents by day, week, month, year, or view all by clicking on your desired time period. The filtering is based on the document import time.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_13.png" alt="" width="536"><figcaption></figcaption></figure>
 
-## Scan document:
+## Scan document
 
 Use this button to scan a document directly.
 
@@ -90,7 +90,7 @@ To use this feature, you need to have a scanner connected to your system. If a s
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_27.png" alt=""><figcaption></figcaption></figure>
 
-## Analytics:&#x20;
+## Analytics
 
 Clicking this button will display a new area showing the current count of documents in each category.
 
@@ -100,13 +100,13 @@ Clicking this button will display a new area showing the current count of docume
 
 Click any category to filter the documents by that specific category.
 
-## Start email import:
+## Start email import
 
 Clicking this button will check your email inbox, according to the email import configuration, and import any new documents.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
 
-## Export this table:
+## Export this table
 
 Use this button to export all documents currently displayed on the dashboard, based on the number of documents shown per page.
 
@@ -116,7 +116,7 @@ Use this button to export all documents currently displayed on the dashboard, ba
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_26.png" alt=""><figcaption></figcaption></figure>
 
-## Upload:&#x20;
+## Upload
 
 Click this button to manually upload one or more files.
 
