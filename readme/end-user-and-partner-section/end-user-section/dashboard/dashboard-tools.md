@@ -42,7 +42,7 @@ You can filter the logs by subject or sender, sort columns in ascending or desce
 
 ### Set table columns for organization
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dashboard_tools_11 (2).png" alt=""><figcaption></figcaption></figure>
 
 Click this button to open a menu where you can manage the visibility of dashboard columns. Select column names and use the arrows to add or remove them from the dashboard view. Click 'Done' to save your changes.
 

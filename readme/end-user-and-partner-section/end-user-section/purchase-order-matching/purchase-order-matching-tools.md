@@ -56,19 +56,19 @@ To create a valid task, you must enter a name, provide a description, and assign
 
 Click this button to automatically perform the Purchase Order matching.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_match_tools_6 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Save
 
 Click this button to save the matched Purchase Order lines.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_match_tools_7 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Sync Data
 
 Click this button to manually synchronize data for a specified Purchase Order number between DocBits and Infor.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_match_tools_8 (1).png" alt=""><figcaption></figcaption></figure>
 
 You need to provide a valid Purchase Order number, then select which of the available options you want to synchronize. After that, you can proceed to synchronize your data.
 
@@ -80,7 +80,7 @@ Click **Export** to export the document after completing the PO matching process
 If multiple export options are available, the first option will be used by default.\
 To view and select from all available export options, click the small arrow next to the Export button.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_match_tools_11 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Auto Export if PO matched 100%
 
