@@ -21,8 +21,12 @@ Use this button to display all keyboard shortcuts for the dashboard. Detailed ex
 
 ## Turn on/off training mode
 
-In **Training Mode**, you have the option to create exact copies of purchase order line items in the extracted table.\
-This allows you to practice and learn how the purchase order matching process works in a safe, test environment.
+This button allows you to activate or deactivate Training Mode.
+
+When **Training Mode** is enabled, you can create exact copies of purchase order line items in the extracted table.\
+This feature is designed to help you practice and better understand how the purchase order matching process works in a safe, test environment.
+
+To create a copy, simply drag and drop a purchase order line item into the extracted table.
 
 ## Auto Accounting
 
