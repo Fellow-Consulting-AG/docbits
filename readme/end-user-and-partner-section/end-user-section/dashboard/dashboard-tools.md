@@ -4,13 +4,13 @@ A la derecha de la barra de búsqueda, encontrarás algunas herramientas del pan
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_1_es.png" alt=""><figcaption></figcaption></figure>
 
-## Refrescar Tabla:
+## Refrescar Tabla
 
 Haz clic en este botón para refrescar el panel y cargar los datos y estados más actualizados.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
 
-## Ajustes avanzados:
+## Ajustes avanzados
 
 Haz clic en el ícono de engranaje para abrir el menú de Ajustes Avanzados.
 
@@ -76,7 +76,7 @@ Puedes filtrar documentos por día, semana, mes, año, o ver todos haciendo clic
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_13_es.png" alt="" width="522"><figcaption></figcaption></figure>
 
-## Escanear documento:
+## Escanear documento
 
 Utiliza este botón para escanear un documento directamente.
 
@@ -90,7 +90,7 @@ Para utilizar esta función, necesitas tener un escáner conectado a tu sistema.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_27_es.png" alt=""><figcaption></figcaption></figure>
 
-## Analítica:
+## Analítica
 
 Hacer clic en este botón mostrará un nuevo área que muestra el conteo actual de documentos en cada categoría.
 
@@ -100,13 +100,13 @@ Hacer clic en este botón mostrará un nuevo área que muestra el conteo actual 
 
 Haz clic en cualquier categoría para filtrar los documentos por esa categoría específica.
 
-## Iniciar importación de correo electrónico:
+## Iniciar importación de correo electrónico
 
 Hacer clic en este botón revisará tu bandeja de entrada de correo electrónico, de acuerdo con la configuración de importación de correo electrónico, e importará cualquier documento nuevo.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
 
-## Exportar esta tabla:
+## Exportar esta tabla
 
 Utiliza este botón para exportar todos los documentos que actualmente se muestran en el panel, basado en el número de documentos mostrados por página.
 
@@ -116,7 +116,7 @@ Utiliza este botón para exportar todos los documentos que actualmente se muestr
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_26_es.png" alt=""><figcaption></figcaption></figure>
 
-## Subir:
+## Subir
 
 Haz clic en este botón para subir manualmente uno o más archivos.
 
