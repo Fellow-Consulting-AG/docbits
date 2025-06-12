@@ -4,13 +4,13 @@
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_1.png" alt=""><figcaption></figcaption></figure>
 
-## Atualizar tabela:
+## Atualizar tabela
 
 Clique neste botão para atualizar o painel e carregar os dados e status mais recentes.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
 
-## Configurações avançadas:
+## Configurações avançadas
 
 Clique no ícone de engrenagem para abrir o menu de Configurações Avançadas.
 
@@ -70,13 +70,13 @@ Selecione os campos que deseja exibir como colunas e clique em 'Adicionar às Co
 
 Use este botão para definir a ordem de classificação padrão para as colunas no painel. Selecione a coluna e escolha a ordem de classificação (crescente ou decrescente), em seguida, clique em 'Concluído'. Você pode configurar a classificação para todas as colunas ativas no painel.
 
-### Filtrar documentos:
+### Filtrar documentos
 
 Você pode filtrar documentos por dia, semana, mês, ano ou visualizar todos clicando no período de tempo desejado. A filtragem é baseada no horário de importação do documento.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_13.png" alt="" width="536"><figcaption></figcaption></figure>
 
-## Digitalizar documento:
+## Digitalizar documento
 
 Use este botão para digitalizar um documento diretamente.
 
@@ -90,7 +90,7 @@ Para usar este recurso, você precisa ter um scanner conectado ao seu sistema. S
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_27.png" alt=""><figcaption></figcaption></figure>
 
-## Análise:
+## Análise
 
 Clicar neste botão exibirá uma nova área mostrando a contagem atual de documentos em cada categoria.
 
@@ -100,13 +100,13 @@ Clicar neste botão exibirá uma nova área mostrando a contagem atual de docume
 
 Clique em qualquer categoria para filtrar os documentos por essa categoria específica.
 
-## Iniciar importação de e-mail:
+## Iniciar importação de e-mail
 
 Clicar neste botão verificará sua caixa de entrada de e-mail, de acordo com a configuração de importação de e-mail, e importará quaisquer novos documentos.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
 
-## Exportar esta tabela:
+## Exportar esta tabela
 
 Use este botão para exportar todos os documentos atualmente exibidos no painel, com base no número de documentos mostrados por página.
 
@@ -116,7 +116,7 @@ Use este botão para exportar todos os documentos atualmente exibidos no painel,
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_26.png" alt=""><figcaption></figcaption></figure>
 
-## Carregar:
+## Carregar
 
 Clique neste botão para carregar manualmente um ou mais arquivos.
 
