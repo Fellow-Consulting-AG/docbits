@@ -4,13 +4,13 @@ Rechts von der Suchleiste finden Sie einige Dashboard-Tools.
 
 <figure><img src="../../.gitbook/assets/dashboard_tools_1_de.png" alt=""><figcaption></figcaption></figure>
 
-## Tabelle aktualisieren:
+## Tabelle aktualisieren
 
 Klicken Sie auf diese Schaltfläche, um das Dashboard zu aktualisieren und die aktuellsten Daten und Status zu laden.
 
 <figure><img src="../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
 
-## Erweiterte Einstellungen:
+## Erweiterte Einstellungen
 
 Klicken Sie auf das Zahnrad-Symbol, um das Menü für die erweiterten Einstellungen zu öffnen.
 
@@ -70,13 +70,13 @@ Wählen Sie die Felder aus, die Sie als Spalten anzeigen möchten, und klicken S
 
 Verwenden Sie diese Schaltfläche, um die Standard-Sortierreihenfolge für Spalten im Dashboard festzulegen. Wählen Sie die Spalte aus und wählen Sie die Sortierreihenfolge (aufsteigend oder absteigend), und klicken Sie dann auf 'Erledigt'. Sie können die Sortierung für alle aktiven Spalten im Dashboard konfigurieren.
 
-### Dokumente filtern:
+### Dokumente filtern
 
 Sie können Dokumente nach Tag, Woche, Monat, Jahr filtern oder alle anzeigen, indem Sie auf den gewünschten Zeitraum klicken. Die Filterung basiert auf der Importzeit des Dokuments.
 
 <figure><img src="../../.gitbook/assets/dashboard_tools_13_de.png" alt=""><figcaption></figcaption></figure>
 
-## Dokument scannen:
+## Dokument scannen
 
 Verwenden Sie diese Schaltfläche, um ein Dokument direkt zu scannen.
 
@@ -90,7 +90,7 @@ Um diese Funktion zu nutzen, müssen Sie einen Scanner an Ihr System angeschloss
 
 <figure><img src="../../.gitbook/assets/dashboard_tools_27_de.png" alt=""><figcaption></figcaption></figure>
 
-## Analytik:
+## Analytik
 
 Wenn Sie auf diese Schaltfläche klicken, wird ein neuer Bereich angezeigt, der die aktuelle Anzahl der Dokumente in jeder Kategorie anzeigt.
 
@@ -100,13 +100,13 @@ Wenn Sie auf diese Schaltfläche klicken, wird ein neuer Bereich angezeigt, der 
 
 Klicken Sie auf eine beliebige Kategorie, um die Dokumente nach dieser spezifischen Kategorie zu filtern.
 
-## E-Mail-Import starten:
+## E-Mail-Import starten
 
 Wenn Sie auf diese Schaltfläche klicken, wird Ihr E-Mail-Posteingang gemäß der E-Mail-Importkonfiguration überprüft und alle neuen Dokumente importiert.
 
 <figure><img src="../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
 
-## Diese Tabelle exportieren:
+## Diese Tabelle exportieren
 
 Verwenden Sie diese Schaltfläche, um alle Dokumente, die derzeit im Dashboard angezeigt werden, basierend auf der Anzahl der pro Seite angezeigten Dokumente zu exportieren.
 
@@ -116,7 +116,7 @@ Verwenden Sie diese Schaltfläche, um alle Dokumente, die derzeit im Dashboard a
 
 <figure><img src="../../.gitbook/assets/dashboard_tools_26_de.png" alt=""><figcaption></figcaption></figure>
 
-## Hochladen:
+## Hochladen
 
 Klicken Sie auf diese Schaltfläche, um manuell eine oder mehrere Dateien hochzuladen.
 
