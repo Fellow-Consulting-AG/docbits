@@ -23,6 +23,8 @@ Use this button to display all keyboard shortcuts for the dashboard. Detailed ex
 
 This button allows you to activate or deactivate Training Mode.
 
+<figure><img src="../../../.gitbook/assets/po_match_tools_3 (1).png" alt=""><figcaption></figcaption></figure>
+
 When **Training Mode** is enabled, you can create exact copies of purchase order line items in the extracted table.\
 This feature is designed to help you practice and better understand how the purchase order matching process works in a safe, test environment.
 
