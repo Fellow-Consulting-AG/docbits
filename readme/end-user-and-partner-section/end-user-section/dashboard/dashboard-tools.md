@@ -4,13 +4,13 @@
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_1_fr.png" alt=""><figcaption></figcaption></figure>
 
-## Rafraîchir la table :
+## Rafraîchir la table
 
 Cliquez sur ce bouton pour rafraîchir le tableau de bord et charger les données et statuts les plus récents.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
 
-## Paramètres avancés :
+## Paramètres avancés
 
 Cliquez sur l'icône d'engrenage pour ouvrir le menu des Paramètres avancés.
 
@@ -70,13 +70,13 @@ Sélectionnez les champs que vous souhaitez afficher comme colonnes, puis clique
 
 Utilisez ce bouton pour définir l'ordre de tri par défaut pour les colonnes du tableau de bord. Sélectionnez la colonne et choisissez l'ordre de tri (croissant ou décroissant), puis cliquez sur 'Terminé'. Vous pouvez configurer le tri pour toutes les colonnes actives du tableau de bord.
 
-### Filtrer les documents :
+### Filtrer les documents
 
 Vous pouvez filtrer les documents par jour, semaine, mois, année, ou voir tous en cliquant sur la période de temps souhaitée. Le filtrage est basé sur l'heure d'importation du document.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_13_fr.png" alt="" width="563"><figcaption></figcaption></figure>
 
-## Numérisation de documents :
+## Numérisation de documents
 
 Utilisez ce bouton pour numériser un document directement.
 
@@ -90,7 +90,7 @@ Pour utiliser cette fonctionnalité, vous devez avoir un scanner connecté à vo
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_27_fr.png" alt=""><figcaption></figcaption></figure>
 
-## Analytique :
+## Analytique
 
 Cliquer sur ce bouton affichera une nouvelle zone montrant le nombre actuel de documents dans chaque catégorie.
 
@@ -100,13 +100,13 @@ Cliquer sur ce bouton affichera une nouvelle zone montrant le nombre actuel de d
 
 Cliquez sur n'importe quelle catégorie pour filtrer les documents par cette catégorie spécifique.
 
-## Démarrer l'importation des e-mails :
+## Démarrer l'importation des e-mails
 
 Cliquer sur ce bouton vérifiera votre boîte de réception e-mail, selon la configuration de l'importation des e-mails, et importera tous les nouveaux documents.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
 
-## Exporter ce tableau :
+## Exporter ce tableau
 
 Utilisez ce bouton pour exporter tous les documents actuellement affichés sur le tableau de bord, en fonction du nombre de documents affichés par page.
 
@@ -114,7 +114,7 @@ Utilisez ce bouton pour exporter tous les documents actuellement affichés sur l
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_26_fr.png" alt=""><figcaption></figcaption></figure>
 
-## Télécharger :
+## Télécharger
 
 Cliquez sur ce bouton pour télécharger manuellement un ou plusieurs fichiers.
 
