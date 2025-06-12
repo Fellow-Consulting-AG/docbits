@@ -4,13 +4,13 @@ Po prawej stronie paska wyszukiwania znajdziesz kilka narzędzi pulpitu.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_1.png" alt=""><figcaption></figcaption></figure>
 
-## Odśwież tabelę:
+## Odśwież tabelę
 
 Kliknij ten przycisk, aby odświeżyć pulpit i załadować najnowsze dane i statusy.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
 
-## Ustawienia zaawansowane:
+## Ustawienia zaawansowane
 
 Kliknij ikonę koła zębatego, aby otworzyć menu Ustawienia zaawansowane.
 
@@ -70,13 +70,13 @@ Wybierz pola, które chcesz wyświetlić jako kolumny, a następnie kliknij 'Dod
 
 Użyj tego przycisku, aby ustawić domyślną kolejność sortowania dla kolumn w pulpicie. Wybierz kolumnę i wybierz kolejność sortowania (rosnąca lub malejąca), a następnie kliknij 'Gotowe'. Możesz skonfigurować sortowanie dla wszystkich aktywnych kolumn w pulpicie.
 
-### Filtrowanie dokumentów:
+### Filtrowanie dokumentów
 
 Możesz filtrować dokumenty według dnia, tygodnia, miesiąca, roku lub wyświetlić wszystkie, klikając na żądany okres czasu. Filtrowanie opiera się na czasie importu dokumentu.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_13.png" alt="" width="536"><figcaption></figcaption></figure>
 
-## Skanuj dokument:
+## Skanuj dokument
 
 Użyj tego przycisku, aby bezpośrednio zeskanować dokument.
 
@@ -90,7 +90,7 @@ Aby skorzystać z tej funkcji, musisz mieć skaner podłączony do swojego syste
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_27.png" alt=""><figcaption></figcaption></figure>
 
-## Analiza:
+## Analiza
 
 Kliknięcie tego przycisku wyświetli nowy obszar pokazujący bieżącą liczbę dokumentów w każdej kategorii.
 
@@ -100,13 +100,13 @@ Kliknięcie tego przycisku wyświetli nowy obszar pokazujący bieżącą liczbę
 
 Kliknij dowolną kategorię, aby filtrować dokumenty według tej konkretnej kategorii.
 
-## Rozpocznij import e-maili:
+## Rozpocznij import e-maili
 
 Kliknięcie tego przycisku sprawdzi Twoją skrzynkę e-mailową, zgodnie z konfiguracją importu e-maili, i zaimportuje wszelkie nowe dokumenty.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
 
-## Eksportuj tę tabelę:
+## Eksportuj tę tabelę
 
 Użyj tego przycisku, aby wyeksportować wszystkie dokumenty aktualnie wyświetlane na pulpicie, w zależności od liczby dokumentów pokazanych na stronie.
 
@@ -116,7 +116,7 @@ Użyj tego przycisku, aby wyeksportować wszystkie dokumenty aktualnie wyświetl
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_26.png" alt=""><figcaption></figcaption></figure>
 
-## Prześlij:
+## Prześlij
 
 Kliknij ten przycisk, aby ręcznie przesłać jeden lub więcej plików.
 
