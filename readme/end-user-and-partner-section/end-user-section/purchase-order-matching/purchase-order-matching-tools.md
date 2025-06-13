@@ -11,19 +11,19 @@ This page provides a detailed explanation of each tool and its functionality.
 
 Use this button to navigate to the documentation page for the Purchase Order Matching section.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_1.png" alt=""><figcaption></figcaption></figure>
 
 ## Keyboard shortcuts
 
 Use this button to display all keyboard shortcuts for the dashboard. Detailed explanations for each shortcut can be found [here](keyboard-shortcuts.md).
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_2.png" alt=""><figcaption></figcaption></figure>
 
 ## Turn on/off training mode
 
 This button allows you to activate or deactivate Training Mode.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_3.png" alt=""><figcaption></figcaption></figure>
 
 When **Training Mode** is enabled, you can create exact copies of purchase order line items in the extracted table.\
 This feature is designed to help you practice and better understand how the purchase order matching process works in a safe, test environment.
@@ -42,13 +42,13 @@ Click this button to be redirected to the Auto Accounting section.
 
 Click this button to be redirected to the task section related to the document you are currently working on.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_11.png" alt=""><figcaption></figcaption></figure>
 
 ## Create task
 
 Use this button to create tasks directly related to the current document.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_4.png" alt=""><figcaption></figcaption></figure>
 
 To create a valid task, you must enter a name, provide a description, and assign it to a user or group. Optionally, you can mark the task as notification-only, set its priority (Low, Medium, or High), define its status, and specify a deadline.
 
@@ -58,19 +58,19 @@ To create a valid task, you must enter a name, provide a description, and assign
 
 Click this button to automatically perform the Purchase Order matching.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_6 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_5.png" alt=""><figcaption></figcaption></figure>
 
 ## Save
 
 Click this button to save the matched Purchase Order lines.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_7 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_6.png" alt=""><figcaption></figcaption></figure>
 
 ## Sync Data
 
 Click this button to manually synchronize data for a specified Purchase Order number between DocBits and Infor.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_8 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_7.png" alt=""><figcaption></figcaption></figure>
 
 You need to provide a valid Purchase Order number, then select which of the available options you want to synchronize. After that, you can proceed to synchronize your data.
 
@@ -86,17 +86,17 @@ Click **Export** to export the document after completing the PO matching process
 If multiple export options are available, the first option will be used by default.\
 To view and select from all available export options, click the small arrow next to the Export button.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_11 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_8.png" alt=""><figcaption></figcaption></figure>
 
 ## Auto Export if PO matched 100%
 
 If enabled, documents are automatically matched and exported when the purchase order number exactly matches the information extracted from the document.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_9.png" alt=""><figcaption></figcaption></figure>
 
 ## Set PO Table Columns for Organization
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_11 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_10.png" alt=""><figcaption></figcaption></figure>
 
 Click this button to open a menu where you can manage the visibility of columns in the purchase order table.\
 Use the checkboxes and arrow buttons to move columns between the **Visible** and **Hidden** sections.\
