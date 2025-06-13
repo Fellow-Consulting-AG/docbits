@@ -36,6 +36,8 @@ Click this button to be redirected to the Auto Accounting section.
 
 <figure><img src="../../../.gitbook/assets/po_match_tools_12.png" alt=""><figcaption></figcaption></figure>
 
+<mark style="color:red;">**Note**</mark>: This feature is only available if **Auto Accounting** is activated for your organization.
+
 ## Tasks
 
 Click this button to be redirected to the task section related to the document you are currently working on.
@@ -73,6 +75,10 @@ Click this button to manually synchronize data for a specified Purchase Order nu
 You need to provide a valid Purchase Order number, then select which of the available options you want to synchronize. After that, you can proceed to synchronize your data.
 
 <figure><img src="../../../.gitbook/assets/po_match_tools_10.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Note**</mark>: This feature is only available if your matching process is based on **Received Delivery Open Quantity**.\
+You can change this setting by navigating to:\
+**Settings → Global Settings → Document Types → More Settings → Purchase Order Section → Purchase Order**.
 
 ## Export
 
