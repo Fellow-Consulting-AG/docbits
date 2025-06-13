@@ -52,7 +52,7 @@ You can either:
 * **Adjust the filters** and search again, or
 * **Double-click** on a purchase order entry to add it to the Purchase Order Matching screen.
 
-<figure><img src="../../../.gitbook/assets/po_match_5 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_match_5 (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Select Purchase Order Numbers and Rearrange Columns
 
