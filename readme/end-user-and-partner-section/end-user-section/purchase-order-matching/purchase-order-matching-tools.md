@@ -48,7 +48,7 @@ Klicken Sie auf diesen Button, um zum Aufgabenbereich zu gelangen, der mit dem D
 
 Verwenden Sie diesen Button, um Aufgaben zu erstellen, die direkt mit dem aktuellen Dokument verbunden sind.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_12_de.png" alt=""><figcaption></figcaption></figure>
 
 Um eine gültige Aufgabe zu erstellen, müssen Sie einen Namen eingeben, eine Beschreibung bereitstellen und sie einem Benutzer oder einer Gruppe zuweisen. Optional können Sie die Aufgabe als nur Benachrichtigung markieren, ihre Priorität (Niedrig, Mittel oder Hoch) festlegen, ihren Status definieren und eine Frist angeben.
 
