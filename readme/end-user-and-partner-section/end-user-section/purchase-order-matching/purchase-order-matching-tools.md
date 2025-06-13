@@ -9,17 +9,17 @@ Esta página proporciona una explicación detallada de cada herramienta y su fun
 
 ## Ayuda
 
-Utiliza este botón para navegar a la página de documentación para la sección de coincidencia de órdenes de compra.
+Usa este botón para navegar a la página de documentación para la sección de Coincidencia de Órdenes de Compra.
 
 ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FaCmR8UlFph044QbGC0md%252Fpo_tools_new_1.png%3Falt%3Dmedia%26token%3D52c9dcf2-09f3-43b6-ae57-29c74269fae7\&width=768\&dpr=4\&quality=100\&sign=91566cfd\&sv=2)
 
 ## Atajos de teclado
 
-Utiliza este botón para mostrar todos los atajos de teclado para el panel de control. Las explicaciones detalladas para cada atajo se pueden encontrar [aquí](keyboard-shortcuts.md).
+Usa este botón para mostrar todos los atajos de teclado para el panel de control. Las explicaciones detalladas para cada atajo se pueden encontrar [aquí](keyboard-shortcuts.md).
 
 ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FnBYimOUtsJ2pc9D0kpnh%252Fpo_tools_new_2.png%3Falt%3Dmedia%26token%3De5f39a8f-08af-4855-ae6e-df320cccadc2\&width=768\&dpr=4\&quality=100\&sign=f56aaa68\&sv=2)
 
-## Activar/desactivar modo de entrenamiento
+## Activar/desactivar el modo de entrenamiento
 
 Este botón te permite activar o desactivar el Modo de Entrenamiento.
 
@@ -30,13 +30,13 @@ Esta función está diseñada para ayudarte a practicar y comprender mejor cómo
 
 Para crear una copia, simplemente arrastra y suelta un elemento de línea de la orden de compra en la tabla extraída.
 
-## Asignación cuentas
+## Contabilidad automática
 
-Haz clic en este botón para ser redirigido a la sección de Asignación cuentas.
+Haz clic en este botón para ser redirigido a la sección de Contabilidad Automática.
 
 ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FDWhY584i0OUo1no12E2v%252Fpo_match_tools_12.png%3Falt%3Dmedia%26token%3D818d1ea7-974d-40a0-85e3-4531a83400c2\&width=768\&dpr=4\&quality=100\&sign=cd60c9b6\&sv=2)
 
-<mark style="color:red;">**Nota**</mark>: Esta función solo está disponible si la **Asignación cuentas** está activada para tu organización.
+<mark style="color:red;">**Nota**</mark>: Esta función solo está disponible si la **Contabilidad Automática** está activada para tu organización.
 
 ## Tareas
 
@@ -46,11 +46,11 @@ Haz clic en este botón para ser redirigido a la sección de tareas relacionada 
 
 ## Crear tarea
 
-Utiliza este botón para crear tareas directamente relacionadas con el documento actual.
+Usa este botón para crear tareas directamente relacionadas con el documento actual.
 
 ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FCHDqycIesIISTqORnhBr%252Fpo_tools_new_4.png%3Falt%3Dmedia%26token%3D4d1855d4-1acb-439b-a822-da683e02d7a7\&width=768\&dpr=4\&quality=100\&sign=af2d0353\&sv=2)
 
-Para crear una tarea válida, debes ingresar un nombre, proporcionar una descripción y asignarla a un usuario o grupo. Opcionalmente, puedes marcar la tarea como solo notificación, establecer su prioridad (Bajo, Medio o Alto), definir su estado y especificar una fecha límite.
+Para crear una tarea válida, debes ingresar un nombre, proporcionar una descripción y asignarla a un usuario o grupo. Opcionalmente, puedes marcar la tarea como solo de notificación, establecer su prioridad (Bajo, Medio o Alto), definir su estado y especificar una fecha límite.
 
 ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FRKfrTkWs0IZ6lqEHPPTn%252Fpo_match_tools_9.png%3Falt%3Dmedia%26token%3D3ac2c7a0-454d-4337-9195-1eaaa6fdb8ad\&width=768\&dpr=4\&quality=100\&sign=99ef14d1\&sv=2)
 
@@ -76,7 +76,7 @@ Necesitas proporcionar un número de Orden de Compra válido, luego seleccionar 
 
 ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FqRWhRKZV6cbDnXWvhYZ1%252Fpo_match_tools_10.png%3Falt%3Dmedia%26token%3Dd3bcac16-a954-4d96-a750-58b90e32525f\&width=768\&dpr=4\&quality=100\&sign=612664bf\&sv=2)
 
-<mark style="color:red;">**Nota**</mark>: Esta función solo está disponible si tu proceso de coincidencia se basa en **Entrega recibida Cantidad pendiente**.\
+<mark style="color:red;">**Nota**</mark>: Esta función solo está disponible si tu proceso de coincidencia se basa en la **Entrega recibida Cantidad pendiente**.\
 Puedes cambiar esta configuración navegando a:\
 **Ajustes → Ajustes globales → Tipos de documentos → Más ajustes → Sección de Orden de Compra → Orden de Compra**.
 
@@ -99,7 +99,7 @@ Si está habilitado, los documentos se coinciden y exportan automáticamente cua
 ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F4nQ5loSdHlIebOh4vJ1m%252Fpo_tools_new_10.png%3Falt%3Dmedia%26token%3D84991cc8-f7ae-40f1-ba6c-cdd66722b898\&width=768\&dpr=4\&quality=100\&sign=ec34b898\&sv=2)
 
 Haz clic en este botón para abrir un menú donde puedes gestionar la visibilidad de las columnas en la tabla de órdenes de compra.\
-Utiliza las casillas de verificación y los botones de flecha para mover columnas entre las secciones **Visible** y **Oculto**.\
+Usa las casillas de verificación y los botones de flecha para mover columnas entre las secciones **Visibles** y **Ocultas**.\
 También puedes reordenar columnas arrastrando y soltando los nombres de las columnas.\
 Haz clic en **Listo** para guardar tus cambios.
 
