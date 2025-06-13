@@ -44,6 +44,7 @@
     * [Scorciatoie da Tastiera](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
   * [Scopo e Utilizzo](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Abbinamento ordine di acquisto](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
+    * [Strumenti di Abbinamento Ordine di Acquisto](end-user-and-partner-section/end-user-section/purchase-order-matching/strumenti-di-abbinamento-ordine-di-acquisto.md)
     * [Regole e Calcoli](end-user-and-partner-section/end-user-section/purchase-order-matching/rules-and-calculations.md)
     * [Abbinamento Automatico dei Dati degli Ordini di Acquisto](end-user-and-partner-section/end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Mappa Numero Articolo Fornitore](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
