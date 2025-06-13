@@ -73,18 +73,17 @@ This setting is available in both the **Purchase Order Matching** screen and the
 
 Additional details can be found [here](purchase-order-matching-tools.md).
 
-## Re-Sync purchase order number with infor
+## Re-Sync purchase order number with Infor
 
-To resynchronize the data in **DocBits** with the data in **Infor**, you have two options:
+To resynchronize the data in **DocBits** with the data from **Infor**, click the **refresh button** next to the purchase order number above the table.
 
+<figure><img src="../../../.gitbook/assets/po_match_8 (1).png" alt=""><figcaption></figcaption></figure>
 
+If your matching process is based on the **Received Delivery Open Quantity** attribute, you also have the option to perform a **manual synchronization**, as described in detail [here](purchase-order-matching-tools.md#sync-data).
 
-*   Click the **refresh button** next to the purchase order number above the table.
+<figure><img src="../../../.gitbook/assets/po_match_tools_8.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/po_match_8.png" alt=""><figcaption></figcaption></figure>
-*   Use the **manual synchronization** option as described in detail [here](purchase-order-matching-tools.md#sync-data).
-
-    <figure><img src="../../../.gitbook/assets/po_match_tools_8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_match_12.png" alt=""><figcaption></figcaption></figure>
 
 ## How to match?
 
@@ -100,6 +99,8 @@ To match a purchase order line item with a line item extracted from the document
     Click the **Auto Match** button to let the system automatically attempt to match all line items based on the extracted and purchase order data.
 
     <figure><img src="../../../.gitbook/assets/po_match_tools_6.png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../../.gitbook/assets/po_match_13.png" alt=""><figcaption></figcaption></figure>
 
 You can also select **multiple purchase order lines** and match them to a **single line** in the extracted table.
 
@@ -142,6 +143,10 @@ You can exclude specific lines with certain statuses from being matched. For mor
 
 Several indicators are available to help you verify whether a line item has been successfully matched or not.
 
+### Purchase Order Table
+
+<figure><img src="../../../.gitbook/assets/po_match_14.png" alt=""><figcaption></figcaption></figure>
+
 * This icon indicates that the purchase order line item has been successfully matched.
 
 <figure><img src="../../../.gitbook/assets/guide_po_2.png" alt=""><figcaption></figcaption></figure>
@@ -150,15 +155,28 @@ Several indicators are available to help you verify whether a line item has been
 
 <figure><img src="../../../.gitbook/assets/guide_po_5.png" alt=""><figcaption></figcaption></figure>
 
-* This icon indicates that the line item has been successfully matched. You can hover over the icon to highlight the corresponding purchase order line.
+### Extracted Table from the Document
 
-<figure><img src="../../../.gitbook/assets/link.svg" alt="" width="75"><figcaption></figcaption></figure>
+*   This icon indicates that the line item has been successfully matched. You can hover over the icon to highlight the corresponding purchase order line.
 
-* This icon indicates that the line item contains a mismatch. You can hover over the icon to highlight the corresponding purchase order line and view the columns where mismatches occur.
+    <figure><img src="../../../.gitbook/assets/po_match_15.png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../../.gitbook/assets/link.svg" alt="" width="75"><figcaption></figcaption></figure>
+*   This icon indicates that the line item contains a mismatch. You can hover over the icon to highlight the corresponding purchase order line and view the columns where mismatches occur.
+
+    <figure><img src="../../../.gitbook/assets/po_match_2 (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/broken-link-self.svg" alt="" width="75"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/po_match_2.png" alt=""><figcaption></figcaption></figure>
+## Multi Matches
+
+If a single line item is matched to multiple lines, you can view detailed information by clicking the plus (+) icon next to the respective line item.
+
+This expands the view to show all matched entries, helping you verify and manage multiple matches effectively.
+
+<figure><img src="../../../.gitbook/assets/po_match_19.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## Remove PO Connections
 
@@ -166,6 +184,8 @@ To remove a connection between a purchase order line item and an extracted line 
 Once removed, the connection is canceled, and the line item becomes available for matching again.
 
 <figure><img src="../../../.gitbook/assets/guide_po_3_1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/po_match_18.png" alt=""><figcaption></figcaption></figure>
 
 ## Calculation
 
@@ -224,6 +244,8 @@ If you leave the page without saving, all progress made during the matching proc
 
 <figure><img src="../../../.gitbook/assets/po_match_tools_7.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../../.gitbook/assets/po_match_16.png" alt=""><figcaption></figcaption></figure>
+
 ## Exporting the Document
 
 After matching all line items and validating their correctness, you can export the document by clicking the **Export** button in the toolbar.
@@ -232,3 +254,5 @@ After matching all line items and validating their correctness, you can export t
 * Clicking **Export** directly will trigger the default export option (the first one in the list).
 
 <figure><img src="../../../.gitbook/assets/po_match_tools_11.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/po_match_17.png" alt=""><figcaption></figcaption></figure>
