@@ -44,7 +44,7 @@
     * [Skróty Klawiaturowe](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
   * [Cel i Zastosowanie](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Dopasowywanie Zamówień Zakupu](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
-    * [Narzędzia dopasowywania zamówień zakupu](end-user-and-partner-section/end-user-section/purchase-order-matching/narzedzia-dopasowywania-zamowien-zakupu.md)
+    * [Narzędzia dopasowywania zamówień zakupu](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
     * [Zasady i Obliczenia](end-user-and-partner-section/end-user-section/purchase-order-matching/rules-and-calculations.md)
     * [Automatyczne Dopasowywanie Danych Zamówień Zakupu](end-user-and-partner-section/end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Mapa Numerów Przedmiotów Dostawcy](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
