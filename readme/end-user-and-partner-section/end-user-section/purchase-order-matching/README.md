@@ -19,7 +19,7 @@ This page will guide you through the purchase order matching process and explain
 At the top of the Purchase Order Matching screen, you’ll find several tools—such as **Save**, **Auto-Match**, **Export**, and others—that assist with the matching process.\
 A detailed description of each tool and its functionality can be found [here](purchase-order-matching-tools.md).
 
-<figure><img src="../../../.gitbook/assets/po_match_5 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_match_tools_0.png" alt=""><figcaption></figcaption></figure>
 
 ## Filter and Add Purchase Order Numbers
 
@@ -52,7 +52,7 @@ You can either:
 * **Adjust the filters** and search again, or
 * **Double-click** on a purchase order entry to add it to the Purchase Order Matching screen.
 
-<figure><img src="../../../.gitbook/assets/po_match_5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_match_5 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Select Purchase Order Numbers and Rearrange Columns
 
@@ -69,7 +69,7 @@ To permanently hide specific columns, use the [**Set PO Table Columns for Organi
 You have the option to hide or show specific columns in the purchase order table by clicking the column settings icon (shown below).\
 This setting is available in both the **Purchase Order Matching** screen and the **Advanced Purchase Order Search** menu.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_10.png" alt=""><figcaption></figcaption></figure>
 
 Additional details can be found [here](purchase-order-matching-tools.md).
 
@@ -81,7 +81,7 @@ To resynchronize the data in **DocBits** with the data from **Infor**, click the
 
 If your matching process is based on the **Received Delivery Open Quantity** attribute, you also have the option to perform a **manual synchronization**, as described in detail [here](purchase-order-matching-tools.md#sync-data).
 
-<figure><img src="../../../.gitbook/assets/po_match_12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_7.png" alt=""><figcaption></figcaption></figure>
 
 ## How to match?
 
@@ -96,7 +96,7 @@ To match a purchase order line item with a line item extracted from the document
 
     Click the **Auto Match** button to let the system automatically attempt to match all line items based on the extracted and purchase order data.
 
-    <figure><img src="../../../.gitbook/assets/po_match_13.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/po_tools_new_5.png" alt=""><figcaption></figcaption></figure>
 
 You can also select **multiple purchase order lines** and match them to a **single line** in the extracted table.
 
@@ -166,9 +166,9 @@ If a single line item is matched to multiple lines, you can view detailed inform
 
 This expands the view to show all matched entries, helping you verify and manage multiple matches effectively.
 
-<figure><img src="../../../.gitbook/assets/po_match_18.png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../../.gitbook/assets/po_match_19.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/po_match_18.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -177,7 +177,7 @@ This expands the view to show all matched entries, helping you verify and manage
 To remove a connection between a purchase order line item and an extracted line item, simply click the **X** icon next to the matched pair.\
 Once removed, the connection is canceled, and the line item becomes available for matching again.
 
-<figure><img src="../../../.gitbook/assets/guide_po_3_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_match_new_2 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Calculation
 
@@ -217,7 +217,7 @@ Unsettled amount = Recorded bookings - Matched total - Charges
 
 On the right side of the **Purchase Order Matching** screen, you can view the document to assist with validation.
 
-<figure><img src="../../../.gitbook/assets/po_match_9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_new_1.png" alt=""><figcaption></figcaption></figure>
 
 **Document Viewer Toolbar Features:**
 
@@ -234,7 +234,7 @@ On the right side of the **Purchase Order Matching** screen, you can view the do
 To save your changes, click the **Save** button in the toolbar.\
 If you leave the page without saving, all progress made during the matching process will be lost.
 
-<figure><img src="../../../.gitbook/assets/po_match_16.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_6.png" alt=""><figcaption></figcaption></figure>
 
 ## Exporting the Document
 
@@ -243,4 +243,4 @@ After matching all line items and validating their correctness, you can export t
 * Clicking the small arrow next to the **Export** button reveals all available export options.
 * Clicking **Export** directly will trigger the default export option (the first one in the list).
 
-<figure><img src="../../../.gitbook/assets/po_match_17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_tools_new_8.png" alt=""><figcaption></figcaption></figure>
