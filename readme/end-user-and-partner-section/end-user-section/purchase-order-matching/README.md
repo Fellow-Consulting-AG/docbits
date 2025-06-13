@@ -19,7 +19,7 @@ This page will guide you through the purchase order matching process and explain
 At the top of the Purchase Order Matching screen, you’ll find several tools—such as **Save**, **Auto-Match**, **Export**, and others—that assist with the matching process.\
 A detailed description of each tool and its functionality can be found [here](purchase-order-matching-tools.md).
 
-<figure><img src="../../../.gitbook/assets/po_match_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/po_match_5 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Filter and Add Purchase Order Numbers
 
