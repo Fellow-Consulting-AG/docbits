@@ -44,6 +44,7 @@
     * [Atajos de Teclado](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
   * [Propósito y uso](end-user-and-partner-section/end-user-section/proposito-y-uso.md)
   * [Conciliación de Órdenes de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
+    * [Herramientas de coincidencia de órdenes de compra](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
     * [Reglas y Cálculos](end-user-and-partner-section/end-user-section/purchase-order-matching/rules-and-calculations.md)
     * [Conciliación Automática de Datos de Órdenes de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Mapa de número de artículo del proveedor](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
