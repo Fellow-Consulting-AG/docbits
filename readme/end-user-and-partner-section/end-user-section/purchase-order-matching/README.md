@@ -187,30 +187,37 @@ Below the table containing the information extracted from your document, you can
 
 ### Recorded bookings:
 
-This is calculated based on the recorded Purchase Order number using the following formula:
+The recorded bookings value is derived from the net amount extracted from the document.
 
 ```
-Recorded bookings = Unit Price * Quantity (based on the purchase order)
+Recorded bookings = Total Net Amount (as extracted from the document)
 ```
 
 ### Matched total:
 
-This is calculated based on the amount extracted from the document using the following formula:
+This value is calculated by summing the total amounts of all line items that could be matched with the line items from the purchase order number.
 
 ```
- Matched total = Unit Price * Quantity (based on the document)
+ Matched Total = Sum of total amounts of all matched line items
 ```
 
 ### **Charges:**
 
-In this section, any applicable charges will be added if they are present.
+Any applicable charges will be included in this section if present.\
+For more details, refer to the [detailed documentation](../../../administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md).
+
+```
+Charges = Costing element
+```
+
+
 
 ### Unsettled amount:
 
 The resulting difference is displayed here and is calculated as follows:
 
 ```
-Unsettled amount = Recorded bookings - Matched total - Charges
+Unsettled amount = Recorded bookings - Matched total - Costing element
 ```
 
 ## Viewing the Document for Validation
