@@ -193,10 +193,10 @@ Prenotazioni registrate = Importo netto totale (estratto dal documento)
 
 ### Totale abbinato:
 
-Questo valore è calcolato sommando gli importi totali di tutti gli articoli che potrebbero essere abbinati con gli articoli dal numero dell'ordine di acquisto.
+Questo valore è calcolato sommando il **Prezzo unitario** × **Quantità** per tutti gli articoli che sono stati abbinati con successo con gli articoli dal numero dell'ordine di acquisto.
 
 ```
- Totale abbinato = Somma degli importi totali di tutti gli articoli abbinati
+ Totale abbinato = Somma di (Prezzo unitario × Quantità) per tutti gli articoli abbinati
 ```
 
 ### **Spese:**
