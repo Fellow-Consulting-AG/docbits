@@ -71,7 +71,7 @@ This setting is available in both the **Purchase Order Matching** screen and the
 
 <figure><img src="../../../.gitbook/assets/po_tools_new_10.png" alt=""><figcaption></figcaption></figure>
 
-Additional details can be found [here](purchase-order-matching-tools.md).
+Additional details can be found [here](purchase-order-matching-tools.md#set-po-table-columns-for-organization).
 
 ## Re-Sync purchase order number with Infor
 
