@@ -158,7 +158,7 @@ Varios indicadores están disponibles para ayudarte a verificar si un artículo 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Flogrk90Ufp5NQ7fd1QEX%252Fpo_match_15.png%3Falt%3Dmedia%26token%3D59c96286-24e9-4790-a9db-8c02efaed305\&width=768\&dpr=4\&quality=100\&sign=1a296310\&sv=2)
 *   Este ícono indica que el artículo de línea contiene un desajuste. Puedes pasar el cursor sobre el ícono para resaltar la línea de orden de compra correspondiente y ver las columnas donde ocurren desajustes.
 
-    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fjm0f8FkVD6GIdxjNGIdC%252Fpo_match_2.png%3Falt%3Dmedia%26token%3D17e3748e-e8e3-406a-9570-5857c5ecc515\&width=768\&dpr=4\&quality=100\&sign=def7198a\&sv=2)
+    ![](../../../.gitbook/assets/po_match_new_4.png)
 
 ## Coincidencias Múltiples
 
