@@ -190,7 +190,7 @@ Below the table containing the information extracted from your document, you can
 The recorded bookings value is derived from the net amount extracted from the document.
 
 ```
-Recorded bookings = Total net amount (as extracted from the document)
+Recorded bookings = Total net amount (extracted from the document)
 ```
 
 ### Matched total:
