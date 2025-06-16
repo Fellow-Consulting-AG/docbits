@@ -190,7 +190,7 @@ Below the table containing the information extracted from your document, you can
 This is calculated based on the recorded Purchase Order number using the following formula:
 
 ```
-Recorded bookings = UNIT PRICE * QUANTITY (based on the purchase order)
+Recorded bookings = Unit Price * Quantity (based on the purchase order)
 ```
 
 ### Matched total:
@@ -198,7 +198,7 @@ Recorded bookings = UNIT PRICE * QUANTITY (based on the purchase order)
 This is calculated based on the amount extracted from the document using the following formula:
 
 ```
- Matched total = UNIT PRICE * QUANTITY (based on the document)
+ Matched total = Unit Price * Quantity (based on the document)
 ```
 
 ### **Charges:**
