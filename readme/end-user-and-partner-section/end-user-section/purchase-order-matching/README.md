@@ -193,10 +193,10 @@ Réservations enregistrées = Montant net total (extrait du document)
 
 ### Total correspondant :
 
-Cette valeur est calculée en additionnant les montants totaux de toutes les lignes qui ont pu être associées aux lignes du numéro de bon de commande.
+Cette valeur est calculée en additionnant le **Prix unitaire** × **Quantité** pour toutes les lignes qui ont été correctement associées aux lignes du numéro de bon de commande.
 
 ```
- Total correspondant = Somme des montants totaux de toutes les lignes correspondantes
+ Total correspondant = Somme de (Prix unitaire × Quantité) pour toutes les lignes correspondantes
 ```
 
 ### **Frais :**
