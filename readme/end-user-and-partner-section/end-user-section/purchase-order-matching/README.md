@@ -158,7 +158,7 @@ Several indicators are available to help you verify whether a line item has been
     <figure><img src="../../../.gitbook/assets/po_match_15.png" alt=""><figcaption></figcaption></figure>
 *   This icon indicates that the line item contains a mismatch. You can hover over the icon to highlight the corresponding purchase order line and view the columns where mismatches occur.
 
-    <figure><img src="../../../.gitbook/assets/po_match_2 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/po_match_new_4.png" alt=""><figcaption></figcaption></figure>
 
 ## Multi Matches
 
