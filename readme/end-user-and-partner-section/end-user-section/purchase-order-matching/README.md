@@ -193,10 +193,10 @@ Reservas registradas = Montante líquido total (extraído do documento)
 
 ### Total correspondido:
 
-Esse valor é calculado somando os montantes totais de todos os itens de linha que puderam ser correspondidos com os itens de linha do número da ordem de compra.
+Esse valor é calculado somando o **Preço Unitário** × **Quantidade** para todos os itens de linha que foram correspondidos com sucesso com os itens de linha do número da ordem de compra.
 
 ```
- Total Correspondido = Soma dos montantes totais de todos os itens de linha correspondidos
+ Total Correspondido = Soma de (Preço Unitário × Quantidade) para todos os itens de linha correspondidos
 ```
 
 ### **Encargos:**
