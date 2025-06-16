@@ -43,7 +43,7 @@
     * [Códigos QR](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
     * [Atalhos de Teclado](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
   * [Propósito e Uso](end-user-and-partner-section/end-user-section/purpose-and-use.md)
-  * [Correspondência de Pedido de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
+  * [Tela de Correspondência de Ordem de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
     * [Ferramentas de Correspondência de Ordem de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
     * [Correspondência Automática de Dados de Pedido de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Mapa de Número de Item do Fornecedor](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
