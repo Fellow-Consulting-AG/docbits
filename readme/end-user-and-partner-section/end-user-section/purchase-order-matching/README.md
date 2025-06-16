@@ -193,10 +193,10 @@ Reservas registradas = Importe neto total (extraído del documento)
 
 ### Total coincidente:
 
-Este valor se calcula sumando los importes totales de todos los artículos de línea que pudieron coincidir con los artículos de línea del número de orden de compra.
+Este valor se calcula sumando el **Precio unitario** × **Cantidad** para todos los artículos de línea que coincidieron exitosamente con los artículos de línea del número de orden de compra.
 
 ```
- Total coincidente = Suma de los importes totales de todos los artículos de línea coincidentes
+ Total coincidente = Suma de (Precio unitario × Cantidad) para todos los artículos de línea coincidentes
 ```
 
 ### **Cargos:**
