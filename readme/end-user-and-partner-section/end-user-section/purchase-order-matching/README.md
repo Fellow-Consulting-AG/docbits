@@ -44,13 +44,13 @@ The following filter options are available to help you refine your search for pu
   * **Packing Slip Number**
   * **Item ID**
 
-After configuring your filters, click **"Apply"** to apply them or **"Clear"** to reset all filter settings.
+After configuring your filters, click **Apply** to apply them or **Clear** to reset all filter settings.
 
 The matching purchase orders will be displayed based on the applied filters.\
 You can either:
 
-* **Adjust the filters** and search again, or
-* **Double-click** on a purchase order entry to add it to the Purchase Order Matching screen.
+* Adjust the filters and search again, or
+* Double-click on a purchase order entry to add it to the Purchase Order Matching screen.
 
 <figure><img src="../../../.gitbook/assets/po_match_5 (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -90,8 +90,8 @@ To match a purchase order line item with a line item extracted from the document
 1. **Drag and Drop**\
    Drag the desired purchase order line item and drop it onto the corresponding line item in the extracted table.
 2. **Right-Click and Connect**
-   * Right-click the purchase order line item you want to match and select **"Select for match"**.
-   * Then, right-click the corresponding line item in the extracted table and select **"Connect"**.
+   * Right-click the purchase order line item you want to match and select **Select for match**.
+   * Then, right-click the corresponding line item in the extracted table and select **Connect**.
 3.  **Auto Match**
 
     Click the **Auto Match** button to let the system automatically attempt to match all line items based on the extracted and purchase order data.
