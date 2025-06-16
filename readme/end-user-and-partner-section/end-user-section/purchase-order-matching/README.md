@@ -185,30 +185,35 @@ Debajo de la tabla que contiene la información extraída de tu documento, puede
 
 ### Reservas registradas:
 
-Esto se calcula en función del número de Orden de Compra registrado utilizando la siguiente fórmula:
+El valor de las reservas registradas se deriva del importe neto extraído del documento.
 
 ```
-Reservas registradas = Precio unitario * Cantidad (basado en la orden de compra)
+Reservas registradas = Importe neto total (extraído del documento)
 ```
 
 ### Total coincidente:
 
-Esto se calcula en función del monto extraído del documento utilizando la siguiente fórmula:
+Este valor se calcula sumando los importes totales de todos los artículos de línea que pudieron coincidir con los artículos de línea del número de orden de compra.
 
 ```
- Total coincidente = Precio unitario * Cantidad (basado en el documento)
+ Total coincidente = Suma de los importes totales de todos los artículos de línea coincidentes
 ```
 
 ### **Cargos:**
 
-En esta sección, se agregarán los cargos aplicables si están presentes.
+Cualquier cargo aplicable se incluirá en esta sección si está presente.\
+Para más detalles, consulta la [documentación detallada](../../../administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md).
+
+```
+Cargos = Elemento de costo
+```
 
 ### Cantidad pendiente de liquidar:
 
 La diferencia resultante se muestra aquí y se calcula de la siguiente manera:
 
 ```
-Cantidad pendiente de liquidar = Reservas registradas - Total coincidente - Cargos
+Cantidad pendiente de liquidar = Reservas registradas - Total coincidente - Elemento de costo
 ```
 
 ## Visualización del Documento para Validación
