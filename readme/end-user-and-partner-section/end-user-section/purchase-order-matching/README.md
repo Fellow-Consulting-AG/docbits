@@ -185,30 +185,35 @@ Sotto la tabella contenente le informazioni estratte dal tuo documento, puoi tro
 
 ### Prenotazioni registrate:
 
-Questo è calcolato in base al numero dell'ordine di acquisto registrato utilizzando la seguente formula:
+Il valore delle prenotazioni registrate è derivato dall'importo netto estratto dal documento.
 
 ```
-Prenotazioni registrate = Prezzo unitario * Quantità (basato sull'ordine di acquisto)
+Prenotazioni registrate = Importo netto totale (estratto dal documento)
 ```
 
 ### Totale abbinato:
 
-Questo è calcolato in base all'importo estratto dal documento utilizzando la seguente formula:
+Questo valore è calcolato sommando gli importi totali di tutti gli articoli che potrebbero essere abbinati con gli articoli dal numero dell'ordine di acquisto.
 
 ```
- Totale abbinato = Prezzo unitario * Quantità (basato sul documento)
+ Totale abbinato = Somma degli importi totali di tutti gli articoli abbinati
 ```
 
 ### **Spese:**
 
-In questa sezione, eventuali spese applicabili verranno aggiunte se presenti.
+Eventuali spese applicabili saranno incluse in questa sezione se presenti.\
+Per ulteriori dettagli, fai riferimento alla [documentazione dettagliata](../../../administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md).
+
+```
+Spese = Elemento di costo
+```
 
 ### Importo non regolato:
 
 La differenza risultante è visualizzata qui ed è calcolata come segue:
 
 ```
-Importo non regolato = Prenotazioni registrate - Totale abbinato - Spese
+Importo non regolato = Prenotazioni registrate - Totale abbinato - Elemento di costo
 ```
 
 ## Visualizzazione del Documento per Validazione
