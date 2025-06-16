@@ -193,10 +193,10 @@ Erfasste Buchungen = Nettobetrag insgesamt (aus dem Dokument extrahiert)
 
 ### Abgestimmte Summe:
 
-Dieser Wert wird berechnet, indem die Gesamtbeträge aller Positionen summiert werden, die mit den Positionen aus der Bestellnummer abgeglichen werden konnten.
+Dieser Wert wird berechnet, indem der **Einzelpreis** × **Menge** für alle Posten summiert wird, die erfolgreich mit den Posten aus der Bestellnummer abgeglichen wurden.
 
 ```
-Abgestimmte Summe = Summe der Gesamtbeträge aller abgeglichenen Positionen
+ Abgestimmte Summe = Summe von (Einzelpreis × Menge) für alle abgeglichenen Posten
 ```
 
 ### **Gebühren:**
