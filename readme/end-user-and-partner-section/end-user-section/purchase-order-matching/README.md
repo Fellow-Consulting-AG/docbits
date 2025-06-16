@@ -195,10 +195,10 @@ Recorded bookings = Total net amount (extracted from the document)
 
 ### Matched total:
 
-This value is calculated by summing the total amounts of all line items that could be matched with the line items from the purchase order number.
+This value is calculated by summing the **Unit Price** × **Quantity** for all line items that successfully matched with the line items from the purchase order number.
 
 ```
- Matched Total = Sum of total amounts of all matched line items
+ Matched Total = Sum of (Unit Price × Quantity) for all matched line items
 ```
 
 ### **Charges:**
