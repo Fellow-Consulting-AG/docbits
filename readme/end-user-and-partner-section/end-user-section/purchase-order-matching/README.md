@@ -193,10 +193,10 @@ Zarejestrowane rezerwacje = Całkowita kwota netto (wyodrębniona z dokumentu)
 
 ### Całkowita liczba dopasowań:
 
-Ta wartość jest obliczana przez zsumowanie całkowitych kwot wszystkich pozycji, które mogły zostać dopasowane do pozycji z numeru zamówienia zakupu.
+Ta wartość jest obliczana przez zsumowanie **Ceny jednostkowej** × **Ilości** dla wszystkich pozycji, które pomyślnie dopasowały się z pozycjami z numeru zamówienia zakupu.
 
 ```
- Całkowita liczba dopasowań = Suma całkowitych kwot wszystkich dopasowanych pozycji
+ Całkowita liczba dopasowań = Suma (Cena jednostkowa × Ilość) dla wszystkich dopasowanych pozycji
 ```
 
 ### **Opłaty:**
