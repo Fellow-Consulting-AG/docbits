@@ -185,30 +185,35 @@ Abaixo da tabela contendo as informações extraídas do seu documento, você po
 
 ### Reservas registradas:
 
-Isso é calculado com base no número do Pedido de Compra registrado usando a seguinte fórmula:
+O valor das reservas registradas é derivado do valor líquido extraído do documento.
 
 ```
-Reservas registradas = Preço Unitário * Quantidade (com base na ordem de compra)
+Reservas registradas = Montante líquido total (extraído do documento)
 ```
 
 ### Total correspondido:
 
-Isso é calculado com base no valor extraído do documento usando a seguinte fórmula:
+Esse valor é calculado somando os montantes totais de todos os itens de linha que puderam ser correspondidos com os itens de linha do número da ordem de compra.
 
 ```
- Total correspondido = Preço Unitário * Quantidade (com base no documento)
+ Total Correspondido = Soma dos montantes totais de todos os itens de linha correspondidos
 ```
 
 ### **Encargos:**
 
-Nesta seção, quaisquer encargos aplicáveis serão adicionados se estiverem presentes.
+Quaisquer encargos aplicáveis serão incluídos nesta seção, se presentes.\
+Para mais detalhes, consulte a [documentação detalhada](../../../administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md).
+
+```
+Encargos = Elemento de custo
+```
 
 ### Valor não liquidado:
 
 A diferença resultante é exibida aqui e é calculada da seguinte forma:
 
 ```
-Valor não liquidado = Reservas registradas - Total correspondido - Encargos
+Valor não liquidado = Reservas registradas - Total correspondido - Elemento de custo
 ```
 
 ## Visualizando o Documento para Validação
