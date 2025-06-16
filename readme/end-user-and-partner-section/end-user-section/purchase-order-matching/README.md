@@ -185,30 +185,35 @@ Sous le tableau contenant les informations extraites de votre document, vous pou
 
 ### Réservations enregistrées :
 
-Ceci est calculé en fonction du numéro de bon de commande enregistré en utilisant la formule suivante :
+La valeur des réservations enregistrées est dérivée du montant net extrait du document.
 
 ```
-Réservations enregistrées = Prix unitaire * Quantité (basé sur le bon de commande)
+Réservations enregistrées = Montant net total (extrait du document)
 ```
 
 ### Total correspondant :
 
-Ceci est calculé en fonction du montant extrait du document en utilisant la formule suivante :
+Cette valeur est calculée en additionnant les montants totaux de toutes les lignes qui ont pu être associées aux lignes du numéro de bon de commande.
 
 ```
- Total correspondant = Prix unitaire * Quantité (basé sur le document)
+ Total correspondant = Somme des montants totaux de toutes les lignes correspondantes
 ```
 
 ### **Frais :**
 
-Dans cette section, tous les frais applicables seront ajoutés s'ils sont présents.
+Tous les frais applicables seront inclus dans cette section s'ils sont présents.\
+Pour plus de détails, reportez-vous à la [documentation détaillée](../../../administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md).
+
+```
+Frais = Élément de coût
+```
 
 ### Montant non réglé :
 
 La différence résultante est affichée ici et est calculée comme suit :
 
 ```
-Montant non réglé = Réservations enregistrées - Total correspondant - Frais
+Montant non réglé = Réservations enregistrées - Total correspondant - Élément de coût
 ```
 
 ## Visualiser le Document pour Validation
