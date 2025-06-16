@@ -185,30 +185,35 @@ Unter der Tabelle mit den Informationen, die aus Ihrem Dokument extrahiert wurde
 
 ### Erfasste Buchungen:
 
-Dies wird basierend auf der erfassten Bestellnummer mit der folgenden Formel berechnet:
+Der Wert der erfassten Buchungen ergibt sich aus dem Nettobetrag, der aus dem Dokument extrahiert wurde.
 
 ```
-Erfasste Buchungen = Einzelpreis * Menge (basierend auf der Bestellung)
+Erfasste Buchungen = Nettobetrag insgesamt (aus dem Dokument extrahiert)
 ```
 
 ### Abgestimmte Summe:
 
-Dies wird basierend auf dem Betrag, der aus dem Dokument extrahiert wurde, mit der folgenden Formel berechnet:
+Dieser Wert wird berechnet, indem die Gesamtbeträge aller Positionen summiert werden, die mit den Positionen aus der Bestellnummer abgeglichen werden konnten.
 
 ```
-Abgestimmte Summe = Einzelpreis * Menge (basierend auf dem Dokument)
+Abgestimmte Summe = Summe der Gesamtbeträge aller abgeglichenen Positionen
 ```
 
 ### **Gebühren:**
 
-In diesem Abschnitt werden alle anfallenden Gebühren hinzugefügt, wenn sie vorhanden sind.
+Alle anfallenden Gebühren werden in diesem Abschnitt aufgeführt, falls vorhanden.\
+Für weitere Details siehe die [detaillierte Dokumentation](../../admin-section/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md).
+
+```
+Gebühren = Kostenelement
+```
 
 ### Offener Betrag:
 
 Die resultierende Differenz wird hier angezeigt und wie folgt berechnet:
 
 ```
-Offener Betrag = Erfasste Buchungen - Abgestimmte Summe - Gebühren
+Offener Betrag = Erfasste Buchungen - Abgestimmte Summe - Kostenelement
 ```
 
 ## Dokument zur Validierung anzeigen
