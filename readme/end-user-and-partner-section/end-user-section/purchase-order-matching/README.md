@@ -185,30 +185,35 @@ Poniżej tabeli zawierającej informacje wyodrębnione z Twojego dokumentu może
 
 ### Zarejestrowane rezerwacje:
 
-Obliczane na podstawie zarejestrowanego numeru zamówienia zakupu przy użyciu następującego wzoru:
+Wartość zarejestrowanych rezerwacji pochodzi z kwoty netto wyodrębnionej z dokumentu.
 
 ```
-Zarejestrowane rezerwacje = Cena jednostkowa * Ilość (na podstawie zamówienia zakupu)
+Zarejestrowane rezerwacje = Całkowita kwota netto (wyodrębniona z dokumentu)
 ```
 
 ### Całkowita liczba dopasowań:
 
-Obliczane na podstawie kwoty wyodrębnionej z dokumentu przy użyciu następującego wzoru:
+Ta wartość jest obliczana przez zsumowanie całkowitych kwot wszystkich pozycji, które mogły zostać dopasowane do pozycji z numeru zamówienia zakupu.
 
 ```
- Całkowita liczba dopasowań = Cena jednostkowa * Ilość (na podstawie dokumentu)
+ Całkowita liczba dopasowań = Suma całkowitych kwot wszystkich dopasowanych pozycji
 ```
 
 ### **Opłaty:**
 
-W tej sekcji zostaną dodane wszelkie obowiązujące opłaty, jeśli są obecne.
+Wszelkie obowiązujące opłaty będą uwzględnione w tej sekcji, jeśli są obecne.\
+Aby uzyskać więcej szczegółów, zapoznaj się z [szczegółową dokumentacją](../../../administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md).
+
+```
+Opłaty = Element kosztowy
+```
 
 ### Nierozliczona kwota:
 
-Wynikowa różnica jest wyświetlana tutaj i obliczana jest w następujący sposób:
+Wynikowa różnica jest wyświetlana tutaj i obliczana w następujący sposób:
 
 ```
-Nierozliczona kwota = Zarejestrowane rezerwacje - Całkowita liczba dopasowań - Opłaty
+Nierozliczona kwota = Zarejestrowane rezerwacje - Całkowita liczba dopasowań - Element kosztowy
 ```
 
 ## Wyświetlanie dokumentu w celu walidacji
