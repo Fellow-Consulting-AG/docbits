@@ -24,7 +24,7 @@ More information on setting up export configurations can be found [here](../../.
 You can choose between the following statuses:
 
 * Classified
-* Pending conformation
+* Pending confirmation
 * Pending approval
 * Pending second approval
 * Validated, pending export
