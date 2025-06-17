@@ -220,6 +220,7 @@
           * [Calculate PO unit price](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/calculate-po-unit-price.md)
           * [Export not matched PO lines](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/export-not-matched-po-lines.md)
           * [Purchase order tolerance settings / Additional purchase order tolerance](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
+          * [Alternate Export](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/alternate-export.md)
           * [Purchase order disable statuses](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md)
           * [Supplier Item Number Map - Admin Documentation](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/supplier-item-number-map-admin-documentation.md)
     * [Email Notification](administration-and-setup/settings/global-settings/email-notification/README.md)
