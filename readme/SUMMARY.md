@@ -122,6 +122,7 @@
           * [Berechnung des PO-Einzelpreises](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/calculate-po-unit-price.md)
           * [Export nicht übereinstimmender PO-Zeilen](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/export-not-matched-po-lines.md)
           * [Einstellungen zur Toleranz von Bestellungen / Zusätzliche Toleranz für Bestellungen](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
+          * [Alternativer Export](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/alternate-export.md)
           * [PO-Deaktivierungsstatus](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md)
           * [Lieferantenartikelnummernkarte - Administrationsdokumentation](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/lieferantenartikelnummernkarte-administrationsdokumentation.md)
       * [e-docs](admin-section/settings/global-settings/document-types/edi-1/README.md)
