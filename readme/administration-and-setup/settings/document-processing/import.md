@@ -86,9 +86,9 @@ Vous pouvez configurer une importation d'e-mails qui importe automatiquement des
    * **Port :** Spécifie le numéro de port à utiliser pour la configuration d'importation d'e-mails sélectionnée.
    *   **Dossier :** Sélectionnez un dossier à partir duquel les documents seront importés.
 
-       <mark style="color:red;">**Remarque :**</mark> L'option **Dossier** devient disponible uniquement après que vous avez créé avec succès une connexion IMAP. Pour ajouter un dossier après la création, cliquez sur les trois points dans la colonne **Action**, puis sélectionnez **Éditer**. L'option devrait maintenant être disponible.
+       <mark style="color:red;">**Remarque**</mark> : L'option **Dossier** devient disponible uniquement après que vous avez créé avec succès une connexion IMAP. Pour ajouter un dossier après la création, cliquez sur les trois points dans la colonne **Action**, puis sélectionnez **Éditer**. L'option devrait maintenant être disponible.
    * **Déplacer les e-mails vers un autre dossier :** Lorsqu'il est activé, vous permet de spécifier un dossier où les e-mails seront déplacés après une importation réussie.\
-     <mark style="color:red;">**Remarque :**</mark> L'option **Déplacer les e-mails vers un autre dossier** devient disponible uniquement après que vous avez créé avec succès une connexion IMAP. Pour activer ce paramètre, cliquez sur les trois points dans la colonne **Action**, puis sélectionnez **Éditer**. L'option devrait maintenant être disponible.
+     <mark style="color:red;">**Remarque**</mark> : L'option **Déplacer les e-mails vers un autre dossier** devient disponible uniquement après que vous avez créé avec succès une connexion IMAP. Pour activer ce paramètre, cliquez sur les trois points dans la colonne **Action**, puis sélectionnez **Éditer**. L'option devrait maintenant être disponible.
    * **Fusionner les documents joints :** Combine plusieurs documents joints en un seul document.
    * **Envoyer un Email après l'importation :** Envoie un e-mail de confirmation à l'expéditeur d'origine après que l'importation soit terminée. Une fois activé, vous pouvez spécifier le sujet et le corps de l'e-mail.
    * **Bloquer l'importation de noms de fichiers en double :** Empêche l'importation si un document avec le même nom existe déjà.

@@ -1,4 +1,4 @@
-# Gestion des documents en double
+# Détection des doublons
 
 ## Activation de la gestion des documents en double
 
@@ -21,7 +21,7 @@ Vous avez deux options pour détecter les documents en double :
 2.  **Détection des factures en double** (Disponible uniquement pour le type de document **Facture**) :\
     Cette fonctionnalité nécessite la synchronisation des factures fournisseurs d'Infor vers DocBits. Elle compare les numéros de facture dans le tableau de bord DocBits avec ceux d'Infor. Si le même numéro de facture apparaît plus d'une fois, il sera signalé comme un doublon.
 
-    <mark style="color:red;">**REMARQUE**</mark><mark style="color:red;">:</mark> L'utilisation de la fonctionnalité **Détection des factures en double** entraînera un frais de crédit supplémentaire.
+    <mark style="color:red;">**Remarque**</mark> : L'utilisation de la fonctionnalité **Détection des factures en double** entraînera un frais de crédit supplémentaire.
 
 Une fois le paramètre activé, vous pouvez sélectionner les critères spécifiques pour la détection des doublons.
 
