@@ -2,7 +2,7 @@
 
 ## Resumen
 
-Este ajuste habilita la sección de **Coincidencia de Orden de Compra**, que se vuelve accesible después de la validación del documento.
+Este ajuste habilita la sección de [**Coincidencia de Orden de Compra**](../../../../../../end-user-and-partner-section/end-user-section/purchase-order-matching/), que se vuelve accesible después de la validación del documento.
 
 <mark style="color:red;">**Nota**</mark>: Para el tipo de documento **Factura**, se deben cumplir los siguientes requisitos adicionales:
 
@@ -22,7 +22,7 @@ Este ajuste habilita la sección de **Coincidencia de Orden de Compra**, que se 
 
 ## **Funcionalidad**
 
-Una vez activada, la sección de **Coincidencia de Orden de Compra** estará disponible después de la validación del documento.
+Una vez activada, la sección de [**Coincidencia de Orden de Compra**](../../../../../../end-user-and-partner-section/end-user-section/purchase-order-matching/) estará disponible después de la validación del documento.
 
 También puedes configurar qué tipo de cantidad de **Infor** se debe utilizar para la coincidencia seleccionando una de las siguientes opciones del menú desplegable junto al ajuste:
 
