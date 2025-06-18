@@ -21,7 +21,7 @@ Masz dwie opcje wykrywania duplikatów dokumentów:
 2.  **Wykrywanie duplikatów faktur** (Dostępne tylko dla typu dokumentu **Faktura**):\
     Ta funkcja wymaga synchronizacji faktur dostawców z Infor do DocBits. Porównuje numery faktur w pulpicie DocBits z tymi w Infor. Jeśli ten sam numer faktury pojawi się więcej niż raz, zostanie oznaczony jako duplikat.
 
-    <mark style="color:red;">**UWAGA**</mark><mark style="color:red;">:</mark> Korzystanie z funkcji **Wykrywanie duplikatów faktur** spowoduje dodatkową opłatę kredytową.
+    <mark style="color:red;">**Uwaga**</mark>: Korzystanie z funkcji **Wykrywanie duplikatów faktur** spowoduje dodatkową opłatę kredytową.
 
 Po aktywowaniu ustawienia możesz wybrać konkretne kryteria do wykrywania duplikatów.
 

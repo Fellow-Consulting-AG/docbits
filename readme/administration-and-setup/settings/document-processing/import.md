@@ -86,9 +86,9 @@ Możesz skonfigurować import e-mail, który automatycznie importuje dokumenty z
    * **Port:** Określa numer portu, który ma być używany dla wybranej konfiguracji importu e-mail.
    *   **Folder:** Wybierz folder, z którego będą importowane dokumenty.
 
-       <mark style="color:red;">**Uwaga:**</mark> Opcja **Folder** staje się dostępna dopiero po pomyślnym utworzeniu połączenia IMAP. Aby dodać folder po utworzeniu, kliknij trzy kropki w kolumnie **Akcja**, a następnie wybierz **Edytuj**. Opcja powinna być teraz dostępna.
+       <mark style="color:red;">**Uwaga**</mark>: Opcja **Folder** staje się dostępna dopiero po pomyślnym utworzeniu połączenia IMAP. Aby dodać folder po utworzeniu, kliknij trzy kropki w kolumnie **Akcja**, a następnie wybierz **Edytuj**. Opcja powinna być teraz dostępna.
    * **Przenieś e-maile do innego folderu:** Po włączeniu pozwala określić folder, do którego e-maile będą przenoszone po pomyślnym imporcie.\
-     <mark style="color:red;">**Uwaga:**</mark> Opcja **Przenieś e-maile do innego folderu** staje się dostępna dopiero po pomyślnym utworzeniu połączenia IMAP. Aby aktywować to ustawienie, kliknij trzy kropki w kolumnie **Akcja**, a następnie wybierz **Edytuj**. Opcja powinna być teraz dostępna.
+     <mark style="color:red;">**Uwaga**</mark>: Opcja **Przenieś e-maile do innego folderu** staje się dostępna dopiero po pomyślnym utworzeniu połączenia IMAP. Aby aktywować to ustawienie, kliknij trzy kropki w kolumnie **Akcja**, a następnie wybierz **Edytuj**. Opcja powinna być teraz dostępna.
    * **Scal załączone dokumenty:** Łączy wiele załączonych dokumentów w jeden dokument.
    * **Wyślij e-mail do nadawcy po imporcie:** Wysyła e-mail potwierdzający do oryginalnego nadawcy po zakończeniu importu. Po aktywacji możesz określić temat i treść e-maila.
    * **Zablokuj import plików o tej samej nazwie:** Zapobiega importowi, jeśli dokument o tej samej nazwie już istnieje.
