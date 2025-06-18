@@ -84,9 +84,8 @@ Você pode configurar uma importação de email que importa automaticamente docu
    * **Chave da API:** Este campo será preenchido automaticamente com base na organização em que você está logado.
    * **Enviar Notificação de Erro de Importação para este Endereço de Email:** Especifique um endereço de email para receber notificações de erro se algo der errado durante o processo de importação.
    * **Porta:** Especifica o número da porta a ser usado para a configuração de importação de email selecionada.
-   *   **Pasta:** Selecione uma pasta da qual os documentos serão importados.
-
-       <mark style="color:red;">**Nota**</mark>: A opção **Pasta** torna-se disponível apenas após você ter criado com sucesso uma conexão IMAP. Para adicionar uma pasta após a criação, clique nos três pontos na coluna **Ação**, em seguida, selecione **Editar**. A opção deve agora estar disponível.
+   * **Pasta:** Selecione uma pasta da qual os documentos serão importados.\
+     <mark style="color:red;">**Nota**</mark>: A opção **Pasta** torna-se disponível apenas após você ter criado com sucesso uma conexão IMAP. Para adicionar uma pasta após a criação, clique nos três pontos na coluna **Ação**, em seguida, selecione **Editar**. A opção deve agora estar disponível.
    * **Mover Emails para Outra Pasta:** Quando ativado, permite que você especifique uma pasta para onde os emails serão movidos após uma importação bem-sucedida.\
      <mark style="color:red;">**Nota**</mark>: A opção **Mover Emails para Outra Pasta** torna-se disponível apenas após você ter criado com sucesso uma conexão IMAP. Para ativar esta configuração, clique nos três pontos na coluna **Ação**, em seguida, selecione **Editar**. A opção deve agora estar disponível.
    * **Mesclar Documentos Anexados:** Combina vários documentos anexados em um único documento.
