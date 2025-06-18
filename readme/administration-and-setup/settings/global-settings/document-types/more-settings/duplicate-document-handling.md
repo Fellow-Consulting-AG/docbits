@@ -1,4 +1,4 @@
-# Erkennung von doppelten Dokumenten
+# Erkennung von Duplikaten
 
 ## Aktivierung der Erkennung von doppelten Dokumenten
 
@@ -21,7 +21,7 @@ Sie haben zwei Optionen zur Erkennung von doppelten Dokumenten:
 2.  **Erkennung doppelter Rechnungen** (Nur verfügbar für den **Rechnung** Dokumenttyp):\
     Diese Funktion erfordert das Synchronisieren von Lieferantenrechnungen aus Infor zu DocBits. Sie vergleicht die Rechnungsnummern im DocBits-Dashboard mit denen in Infor. Wenn dieselbe Rechnungsnummer mehr als einmal erscheint, wird sie als Duplikat gekennzeichnet.
 
-    <mark style="color:red;">**HINWEIS**</mark><mark style="color:red;">:</mark> Die Verwendung der Funktion **Erkennung doppelter Rechnungen** führt zu einer zusätzlichen Gutschriftgebühr.
+    <mark style="color:red;">**Hinweis**</mark>: Die Verwendung der Funktion **Erkennung doppelter Rechnungen** führt zu einer zusätzlichen Gutschriftgebühr.
 
 Sobald die Einstellung aktiviert ist, können Sie die spezifischen Kriterien für die Erkennung von Duplikaten auswählen.
 
