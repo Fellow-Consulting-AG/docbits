@@ -86,9 +86,9 @@ Você pode configurar uma importação de email que importa automaticamente docu
    * **Porta:** Especifica o número da porta a ser usado para a configuração de importação de email selecionada.
    *   **Pasta:** Selecione uma pasta da qual os documentos serão importados.
 
-       <mark style="color:red;">**Nota:**</mark> A opção **Pasta** torna-se disponível apenas após você ter criado com sucesso uma conexão IMAP. Para adicionar uma pasta após a criação, clique nos três pontos na coluna **Ação**, em seguida, selecione **Editar**. A opção deve agora estar disponível.
+       <mark style="color:red;">**Nota**</mark>: A opção **Pasta** torna-se disponível apenas após você ter criado com sucesso uma conexão IMAP. Para adicionar uma pasta após a criação, clique nos três pontos na coluna **Ação**, em seguida, selecione **Editar**. A opção deve agora estar disponível.
    * **Mover Emails para Outra Pasta:** Quando ativado, permite que você especifique uma pasta para onde os emails serão movidos após uma importação bem-sucedida.\
-     <mark style="color:red;">**Nota:**</mark> A opção **Mover Emails para Outra Pasta** torna-se disponível apenas após você ter criado com sucesso uma conexão IMAP. Para ativar esta configuração, clique nos três pontos na coluna **Ação**, em seguida, selecione **Editar**. A opção deve agora estar disponível.
+     <mark style="color:red;">**Nota**</mark>: A opção **Mover Emails para Outra Pasta** torna-se disponível apenas após você ter criado com sucesso uma conexão IMAP. Para ativar esta configuração, clique nos três pontos na coluna **Ação**, em seguida, selecione **Editar**. A opção deve agora estar disponível.
    * **Mesclar Documentos Anexados:** Combina vários documentos anexados em um único documento.
    * **Enviar Email ao Remetente após Importação:** Envia um email de confirmação ao remetente original após a conclusão da importação. Uma vez ativado, você pode especificar o assunto e o corpo do email.
    * **Bloquear Importação de Nomes de Arquivo Duplicados:** Impede a importação se um documento com o mesmo nome já existir.
