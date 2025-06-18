@@ -84,9 +84,8 @@ Puedes configurar una importación de correo electrónico que importe automátic
    * **Clave API:** Este campo se llenará automáticamente en función de la organización en la que hayas iniciado sesión.
    * **Enviar aviso de error de importación a esta dirección de correo electrónico:** Especifica una dirección de correo electrónico para recibir notificaciones de error si algo sale mal durante el proceso de importación.
    * **Puerto:** Especifica el número de puerto que se utilizará para la configuración de importación de correo electrónico seleccionada.
-   *   **Carpeta:** Selecciona una carpeta desde la cual se importarán los documentos.
-
-       <mark style="color:red;">**Nota**</mark>: La opción **Carpeta** se vuelve disponible solo después de que hayas creado exitosamente una conexión IMAP. Para agregar una carpeta después de la creación, haz clic en los tres puntos en la columna de **Acción**, luego selecciona **Editar**. La opción debería estar disponible ahora.
+   * **Carpeta:** Selecciona una carpeta desde la cual se importarán los documentos.\
+     <mark style="color:red;">**Nota**</mark>: La opción **Carpeta** se vuelve disponible solo después de que hayas creado exitosamente una conexión IMAP. Para agregar una carpeta después de la creación, haz clic en los tres puntos en la columna de **Acción**, luego selecciona **Editar**. La opción debería estar disponible ahora.
    * **Mover correos electrónicos a otra carpeta:** Cuando está habilitado, te permite especificar una carpeta donde se moverán los correos electrónicos después de una importación exitosa.\
      <mark style="color:red;">**Nota**</mark>: La opción **Mover correos electrónicos a otra carpeta** se vuelve disponible solo después de que hayas creado exitosamente una conexión IMAP. Para activar esta configuración, haz clic en los tres puntos en la columna de **Acción**, luego selecciona **Editar**. La opción debería estar disponible ahora.
    * **Fusionar documentos adjuntos:** Combina múltiples documentos adjuntos en un solo documento.
