@@ -1,4 +1,4 @@
-# Gestione Documenti Duplicati
+# Rilevamento dei duplicati
 
 ## Abilitazione della Gestione Documenti Duplicati
 
@@ -21,7 +21,7 @@ Hai due opzioni per rilevare documenti duplicati:
 2.  **Rilevamento Fatture Duplicati** (Disponibile solo per il tipo di documento **Fattura**):\
     Questa funzione richiede la sincronizzazione delle Fatture Fornitori da Infor a DocBits. Confronta i numeri di fattura nel dashboard di DocBits con quelli in Infor. Se lo stesso numero di fattura appare più di una volta, verrà contrassegnato come duplicato.
 
-    <mark style="color:red;">**NOTA**</mark><mark style="color:red;">:</mark> L'uso della funzione **Rilevamento Fatture Duplicati** comporterà un addebito di credito aggiuntivo.
+    <mark style="color:red;">**Nota**</mark>: L'uso della funzione **Rilevamento Fatture Duplicati** comporterà un addebito di credito aggiuntivo.
 
 Una volta attivata l'impostazione, puoi selezionare i criteri specifici per il rilevamento dei duplicati.
 

@@ -86,9 +86,9 @@ Puoi impostare un'importazione di email che importa automaticamente documenti da
    * **Porta:** Specifica il numero di porta da utilizzare per la configurazione di importazione email selezionata.
    *   **Cartella:** Seleziona una cartella da cui verranno importati i documenti.
 
-       <mark style="color:red;">**Nota:**</mark> L'opzione **Cartella** diventa disponibile solo dopo aver creato con successo una connessione IMAP. Per aggiungere una cartella dopo la creazione, fai clic sui tre punti nella colonna **Azione**, quindi seleziona **Modifica**. L'opzione dovrebbe ora essere disponibile.
+       <mark style="color:red;">**Nota**</mark>: L'opzione **Cartella** diventa disponibile solo dopo aver creato con successo una connessione IMAP. Per aggiungere una cartella dopo la creazione, fai clic sui tre punti nella colonna **Azione**, quindi seleziona **Modifica**. L'opzione dovrebbe ora essere disponibile.
    * **Sposta le email in un'altra cartella:** Quando abilitato, consente di specificare una cartella in cui le email verranno spostate dopo un'importazione riuscita.\
-     <mark style="color:red;">**Nota:**</mark> L'opzione **Sposta le email in un'altra cartella** diventa disponibile solo dopo aver creato con successo una connessione IMAP. Per attivare questa impostazione, fai clic sui tre punti nella colonna **Azione**, quindi seleziona **Modifica**. L'opzione dovrebbe ora essere disponibile.
+     <mark style="color:red;">**Nota**</mark>: L'opzione **Sposta le email in un'altra cartella** diventa disponibile solo dopo aver creato con successo una connessione IMAP. Per attivare questa impostazione, fai clic sui tre punti nella colonna **Azione**, quindi seleziona **Modifica**. L'opzione dovrebbe ora essere disponibile.
    * **Unire documenti allegati:** Combina più documenti allegati in un unico documento.
    * **Inviare l'e-mail al mittente dopo l'importazione:** Invia un'email di conferma al mittente originale dopo che l'importazione è completata. Una volta attivato, puoi specificare l'oggetto e il corpo dell'email.
    * **Blocca l'importazione di nomi di file duplicati:** Previene l'importazione se un documento con lo stesso nome esiste già.
