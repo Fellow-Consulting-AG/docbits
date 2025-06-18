@@ -84,12 +84,10 @@ Sie können einen E-Mail-Import einrichten, der automatisch Dokumente aus Ihrem 
    * **API-Schlüssel:** Dieses Feld wird automatisch basierend auf der Organisation ausgefüllt, in die Sie eingeloggt sind.
    * **Import-Fehlermeldung an diese Email-Adresse senden:** Geben Sie eine E-Mail-Adresse an, um Fehlermeldungen zu erhalten, falls während des Importvorgangs etwas schiefgeht.
    * **Port:** Gibt die Portnummer an, die für die ausgewählte E-Mail-Importkonfiguration verwendet werden soll.
-   *   **Ordner:** Wählen Sie einen Ordner aus, aus dem die Dokumente importiert werden.
-
-       <mark style="color:red;">**Hinweis**</mark>: Die **Ordner**-Option wird erst verfügbar, nachdem Sie erfolgreich eine IMAP-Verbindung erstellt haben. Um einen Ordner nach der Erstellung hinzuzufügen, klicken Sie auf die drei Punkte in der **Aktion**-Spalte und wählen Sie dann **Bearbeiten**. Die Option sollte jetzt verfügbar sein.
-   *   **E-Mails in einen anderen Ordner verschieben:** Wenn aktiviert, können Sie einen Ordner angeben, in den E-Mails nach einem erfolgreichen Import verschoben werden.
-
-       <mark style="color:red;">**Hinweis**</mark>: Die **E-Mails in einen anderen Ordner verschieben**-Option wird erst verfügbar, nachdem Sie erfolgreich eine IMAP-Verbindung erstellt haben. Um diese Einstellung zu aktivieren, klicken Sie auf die drei Punkte in der **Aktion**-Spalte und wählen Sie dann **Bearbeiten**. Die Option sollte jetzt verfügbar sein.
+   * **Ordner:** Wählen Sie einen Ordner aus, aus dem die Dokumente importiert werden.\
+     <mark style="color:red;">**Hinweis**</mark>: Die **Ordner**-Option wird erst verfügbar, nachdem Sie erfolgreich eine IMAP-Verbindung erstellt haben. Um einen Ordner nach der Erstellung hinzuzufügen, klicken Sie auf die drei Punkte in der **Aktion**-Spalte und wählen Sie dann **Bearbeiten**. Die Option sollte jetzt verfügbar sein.
+   * **E-Mails in einen anderen Ordner verschieben:** Wenn aktiviert, können Sie einen Ordner angeben, in den E-Mails nach einem erfolgreichen Import verschoben werden.\
+     <mark style="color:red;">**Hinweis**</mark>: Die **E-Mails in einen anderen Ordner verschieben**-Option wird erst verfügbar, nachdem Sie erfolgreich eine IMAP-Verbindung erstellt haben. Um diese Einstellung zu aktivieren, klicken Sie auf die drei Punkte in der **Aktion**-Spalte und wählen Sie dann **Bearbeiten**. Die Option sollte jetzt verfügbar sein.
    * **Angehängte Dokumente zusammenführen:** Kombiniert mehrere angehängte Dokumente zu einem einzigen Dokument.
    * **Nach dem Import eine E-Mail an den Absender senden:** Sendet eine Bestätigungs-E-Mail an den ursprünglichen Absender, nachdem der Import abgeschlossen ist. Sobald aktiviert, können Sie den Betreff und den Text der E-Mail angeben.
    * **Importieren doppelter Dateinamen blockieren:** Verhindert den Import, wenn ein Dokument mit demselben Namen bereits existiert.
