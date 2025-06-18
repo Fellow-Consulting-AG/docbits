@@ -1,4 +1,4 @@
-# Manejo de Documentos Duplicados
+# Detección de duplicados
 
 ## Habilitando el Manejo de Documentos Duplicados
 
@@ -21,7 +21,7 @@ Tienes dos opciones para detectar documentos duplicados:
 2.  **Detección de facturas duplicadas** (Solo disponible para el tipo de documento **Factura**):\
     Esta función requiere sincronizar las Facturas de Proveedores de Infor a DocBits. Compara los números de factura en el panel de DocBits con los de Infor. Si el mismo número de factura aparece más de una vez, se marcará como duplicado.
 
-    <mark style="color:red;">**NOTA**</mark><mark style="color:red;">:</mark> Usar la función de **Detección de facturas duplicadas** resultará en un cargo adicional de crédito.
+    <mark style="color:red;">**Nota**</mark>: Usar la función de **Detección de facturas duplicadas** resultará en un cargo adicional de crédito.
 
 Una vez que la configuración esté activada, puedes seleccionar los criterios específicos para la detección de duplicados.
 

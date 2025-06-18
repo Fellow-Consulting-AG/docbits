@@ -86,9 +86,9 @@ Puedes configurar una importación de correo electrónico que importe automátic
    * **Puerto:** Especifica el número de puerto que se utilizará para la configuración de importación de correo electrónico seleccionada.
    *   **Carpeta:** Selecciona una carpeta desde la cual se importarán los documentos.
 
-       <mark style="color:red;">**Nota:**</mark> La opción **Carpeta** se vuelve disponible solo después de que hayas creado exitosamente una conexión IMAP. Para agregar una carpeta después de la creación, haz clic en los tres puntos en la columna de **Acción**, luego selecciona **Editar**. La opción debería estar disponible ahora.
+       <mark style="color:red;">**Nota**</mark>: La opción **Carpeta** se vuelve disponible solo después de que hayas creado exitosamente una conexión IMAP. Para agregar una carpeta después de la creación, haz clic en los tres puntos en la columna de **Acción**, luego selecciona **Editar**. La opción debería estar disponible ahora.
    * **Mover correos electrónicos a otra carpeta:** Cuando está habilitado, te permite especificar una carpeta donde se moverán los correos electrónicos después de una importación exitosa.\
-     <mark style="color:red;">**Nota:**</mark> La opción **Mover correos electrónicos a otra carpeta** se vuelve disponible solo después de que hayas creado exitosamente una conexión IMAP. Para activar esta configuración, haz clic en los tres puntos en la columna de **Acción**, luego selecciona **Editar**. La opción debería estar disponible ahora.
+     <mark style="color:red;">**Nota**</mark>: La opción **Mover correos electrónicos a otra carpeta** se vuelve disponible solo después de que hayas creado exitosamente una conexión IMAP. Para activar esta configuración, haz clic en los tres puntos en la columna de **Acción**, luego selecciona **Editar**. La opción debería estar disponible ahora.
    * **Fusionar documentos adjuntos:** Combina múltiples documentos adjuntos en un solo documento.
    * **Enviar correo electrónico al remitente después de la importación:** Envía un correo electrónico de confirmación al remitente original después de que la importación esté completa. Una vez activado, puedes especificar el asunto y el cuerpo del correo electrónico.
    * **Bloquear la importación de nombres de archivos duplicados:** Previene la importación si ya existe un documento con el mismo nombre.
