@@ -4,7 +4,7 @@
 
 This setting enables the [**Purchase Order Matching**](../../../../../../end-user-and-partner-section/end-user-section/purchase-order-matching/) section, which becomes accessible after document validation.
 
-<mark style="color:red;">**Note:**</mark> For the **Invoice** document type, the following additional requirements must be met:
+<mark style="color:red;">**Note**</mark>: For the **Invoice** document type, the following additional requirements must be met:
 
 * The **Purchase Order** setting must be enabled (as described on this page)
 * The invoice must be of type **Purchase Invoice**
