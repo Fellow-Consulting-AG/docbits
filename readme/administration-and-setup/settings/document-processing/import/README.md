@@ -86,9 +86,9 @@ You can set up an email import that automatically imports documents from your in
    * **Port:** Specifies the port number to be used for the selected email import configuration.
    *   **Folder:** Select a folder from which the documents will be imported.
 
-       <mark style="color:red;">**Note:**</mark> The **Folder** option becomes available only after you have successfully created an IMAP connection. To add a folder after creation, click the three dots in the **Action** column, then select **Edit**. The option should now be available.
+       <mark style="color:red;">**Note**</mark>: The **Folder** option becomes available only after you have successfully created an IMAP connection. To add a folder after creation, click the three dots in the **Action** column, then select **Edit**. The option should now be available.
    * **Move Emails to Other Folder:** When enabled, allows you to specify a folder where emails will be moved after a successful import.\
-     <mark style="color:red;">**Note:**</mark> The **Move Emails to Other Folder** option becomes available only after you have successfully created an IMAP connection. To activate this setting, click the three dots in the **Action** column, then select **Edit**. The option should now be available.
+     <mark style="color:red;">**Note**</mark>: The **Move Emails to Other Folder** option becomes available only after you have successfully created an IMAP connection. To activate this setting, click the three dots in the **Action** column, then select **Edit**. The option should now be available.
    * **Merge Attached Documents:** Combines multiple attached documents into a single document.
    * **Send Email to Sender after Import:** Sends a confirmation email to the original sender after the import is complete. Once activated, you can specify the subject and body of the email.
    * **Block Duplicate Filename Import:** Prevents import if a document with the same name already exists.

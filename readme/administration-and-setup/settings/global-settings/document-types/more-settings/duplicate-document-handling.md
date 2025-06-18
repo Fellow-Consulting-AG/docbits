@@ -21,7 +21,7 @@ You have two options for detecting duplicate documents:
 2.  **Duplicate Invoice Detection** (Only available for the **Invoice** document type):\
     This feature requires syncing Supplier Invoices from Infor to DocBits. It compares the invoice numbers in the DocBits dashboard with those in Infor. If the same invoice number appears more than once, it will be flagged as a duplicate.
 
-    <mark style="color:red;">**NOTE**</mark><mark style="color:red;">:</mark> Using the **Duplicate Invoice Detection** feature will result in an additional credit charge.
+    <mark style="color:red;">**Note**</mark>: Using the **Duplicate Invoice Detection** feature will result in an additional credit charge.
 
 Once the setting is activated, you can select the specific criteria for duplicate detection.
 
