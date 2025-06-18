@@ -84,9 +84,8 @@ Vous pouvez configurer une importation d'e-mails qui importe automatiquement des
    * **Clé API :** Ce champ sera automatiquement rempli en fonction de l'organisation à laquelle vous êtes connecté.
    * **Envoyer l'avis d'erreur d'importation à cette adresse électronique :** Spécifiez une adresse e-mail pour recevoir des notifications d'erreur si quelque chose ne va pas pendant le processus d'importation.
    * **Port :** Spécifie le numéro de port à utiliser pour la configuration d'importation d'e-mails sélectionnée.
-   *   **Dossier :** Sélectionnez un dossier à partir duquel les documents seront importés.
-
-       <mark style="color:red;">**Remarque**</mark> : L'option **Dossier** devient disponible uniquement après que vous avez créé avec succès une connexion IMAP. Pour ajouter un dossier après la création, cliquez sur les trois points dans la colonne **Action**, puis sélectionnez **Éditer**. L'option devrait maintenant être disponible.
+   * **Dossier :** Sélectionnez un dossier à partir duquel les documents seront importés.\
+     <mark style="color:red;">**Remarque**</mark> : L'option **Dossier** devient disponible uniquement après que vous avez créé avec succès une connexion IMAP. Pour ajouter un dossier après la création, cliquez sur les trois points dans la colonne **Action**, puis sélectionnez **Éditer**. L'option devrait maintenant être disponible.
    * **Déplacer les e-mails vers un autre dossier :** Lorsqu'il est activé, vous permet de spécifier un dossier où les e-mails seront déplacés après une importation réussie.\
      <mark style="color:red;">**Remarque**</mark> : L'option **Déplacer les e-mails vers un autre dossier** devient disponible uniquement après que vous avez créé avec succès une connexion IMAP. Pour activer ce paramètre, cliquez sur les trois points dans la colonne **Action**, puis sélectionnez **Éditer**. L'option devrait maintenant être disponible.
    * **Fusionner les documents joints :** Combine plusieurs documents joints en un seul document.
