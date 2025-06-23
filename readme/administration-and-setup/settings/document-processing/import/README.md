@@ -68,8 +68,15 @@ You can click the three dots in the **Action** column to access the following op
 
 You can set up an email import that automatically imports documents from your inbox as soon as they arrive. You can choose to configure either an IMAP or an OAuth connection
 
-<mark style="color:red;">**Note**</mark>**: Only documents of the following types will be imported**\
-**.pdf, .tiff/tif, .eml, .dat, .xml, .edi, .purchaseorder**
+<mark style="color:red;">**Note**</mark>**:  Only documents with the following file types will be imported**:
+
+* `.pdf`
+* `.tiff` / `.tif`
+* `.eml`
+* `.dat`
+* `.xml`
+* `.edi`
+* `.purchaseorder`
 
 ### Add new IMAP connection
 
