@@ -19,7 +19,7 @@ This preview is displayed during **field validation** and is also included when 
 1.  Go to **Settings** → **Document Type** → _\[Your Document (e.g., Purchase Order)]_ → **E-Doc**.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 2. Under the **E-Doc** tab, select your format (e.g., **EDI**).
 3.  Click **Preview** to view or edit the file.\
 

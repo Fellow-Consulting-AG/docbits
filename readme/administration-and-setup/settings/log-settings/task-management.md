@@ -4,7 +4,7 @@ In the "Task Management" setting under "Log Settings" section, you will be given
 
 
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You have the option to sort the list using the little arrows next to the column name.&#x20;
 

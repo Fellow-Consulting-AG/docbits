@@ -16,7 +16,7 @@ The **Structure Descriptor File** defines how repeating EDI segments (e.g., `N1`
 1.  **Settings** → **Document Type** → \[Your Document (e.g., _Purchase Order_)]  → **E-Doc.**\
 
 
-    <figure><img src="../../../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 2. Under **E-Doc**, select your format (e.g., _EDI_ ).
 3.  Click **Structure Descriptor**.\
 
@@ -48,7 +48,7 @@ The **Preview Function** allows you to test and preview how an uploaded EDI file
 
 This is especially useful for debugging mappings and validating structural groupings in real time.
 
-<figure><img src="../../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## 6. Video Walkthrough
 

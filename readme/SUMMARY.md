@@ -224,6 +224,7 @@
           * [Alternate Export](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/alternate-export.md)
           * [Purchase order disable statuses](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md)
           * [Supplier Item Number Map - Admin Documentation](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/supplier-item-number-map-admin-documentation.md)
+          * [Update Document Purchase Order Status](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/update-document-purchase-order-status.md)
     * [Email Notification](administration-and-setup/settings/global-settings/email-notification/README.md)
       * [Configuring Notifications](administration-and-setup/settings/global-settings/email-notification/configuring-notifications.md)
       * [Managing Notifications](administration-and-setup/settings/global-settings/email-notification/managing-notifications.md)

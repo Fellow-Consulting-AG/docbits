@@ -19,7 +19,7 @@ This transformation is performed using **XSLT (Extensible Stylesheet Language Tr
 1.  Go to **Settings → Document Type** → \[Your Document (e.g., _Purchase Order_)]  → **E-Doc.**\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 2. Under the **E-Doc** tab, select your format (e.g., **EDI** ).
 3.  Click **Transformation** to view or edit.\
 
@@ -59,7 +59,7 @@ The **Preview Function** allows you to test and preview how an uploaded EDI file
 
 This is especially useful for debugging XSLT mappings and ensuring the final XML structure meets your format requirements.
 
-<figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 6. Video Walkthrough
 

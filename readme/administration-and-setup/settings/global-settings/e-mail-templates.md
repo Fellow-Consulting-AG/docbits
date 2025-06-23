@@ -17,7 +17,7 @@ Email Templates allow you to customize automated email notifications sent from D
    * **Last Modified** date
    * **Actions** (Edit or Delete).
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Creating a New Template**
 
@@ -30,7 +30,7 @@ Email Templates allow you to customize automated email notifications sent from D
   *   **Document Type**: Select from the dropdown (e.g., "Invoice").\
 
 
-      <div align="center"><figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+      <div align="center"><figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### **2 Template Editor**
 
