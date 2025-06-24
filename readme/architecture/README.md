@@ -16,7 +16,7 @@ Alle Verbindungen zwischen den Komponenten sind durch branchenübliche Verschlü
 
 **Vor Ort:**&#x20;
 
-<figure><img src="../.gitbook/assets/Operator .png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Operator  (2).png" alt=""><figcaption></figcaption></figure>
 
 **Cloud:**&#x20;
 
