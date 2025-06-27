@@ -420,6 +420,8 @@
     * [Layout Builder](administration-and-setup/setup/document-types/layout-builder.md)
     * [Origin Layouts](administration-and-setup/setup/document-types/origin-layouts.md)
     * [Regex Manager](administration-and-setup/setup/document-types/regex-manager.md)
+    * [Fuzzy Data Configuration with Master Data](administration-and-setup/setup/document-types/fuzzy-data-configuration-with-master-data.md)
+    * [Fuzzy Data Configuration with List of Values](administration-and-setup/setup/document-types/fuzzy-data-configuration-with-list-of-values.md)
   * [Document Training](administration-and-setup/setup/document-training/README.md)
     * [Training Header Fields](administration-and-setup/setup/document-training/training-header-fields.md)
     * [Training Line Fields/Table Training](administration-and-setup/setup/document-training/training-line-fields-table-training/README.md)
