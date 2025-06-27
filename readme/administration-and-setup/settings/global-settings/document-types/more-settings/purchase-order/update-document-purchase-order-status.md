@@ -34,5 +34,13 @@ For example, if the PO status is updated to _Received_ or _Invoiced_, the dashbo
 
        <figure><img src="../../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
    * Add the field from the document type by searching for **PO Status**
-3. **Verify**\
-   Receive or invoice a PO, then check the dashboard to confirm that the status is updated correctly.
+3. **Configure lookup configuration**
+   *   Configure the Status field in the Purchase order header lookup like this:\
+
+
+       <figure><img src="../../../../../../.gitbook/assets/image (462).png" alt=""><figcaption></figcaption></figure>
+   * <mark style="color:red;">**Note:**</mark>**&#x20;Purchase order needs to be on Auto Trigger otherwise Status updates may not update properly**&#x20;
+   * Don't know how to **Configure lookup configuration? Here is the** [**lookup configuration guide**](../../../../../setup/document-types/fuzzy-data-configuration-with-master-data.md)\
+
+4. **Verify**\
+   Receive or invoice a PO, then check the dashboard to confirm that the status is updated correctly.\
