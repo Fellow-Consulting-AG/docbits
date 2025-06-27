@@ -10,11 +10,11 @@ When enabled, the **PO Status** column on the dashboard is automatically updated
 2.  Select the desired document type and click on **More Settings**.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 3.  In the **Purchase Order** section, navigate to the **Update Document Purchase Order Status** option.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How It Works
 
@@ -32,7 +32,7 @@ For example, if the PO status is updated to _Received_ or _Invoiced_, the dashbo
    *   Go to: **Advanced Settings** → **Set Table Columns for Organizations**\
 
 
-       <figure><img src="../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
    * Add the field from the document type by searching for **PO Status**
 3. **Verify**\
    Receive or invoice a PO, then check the dashboard to confirm that the status is updated correctly.

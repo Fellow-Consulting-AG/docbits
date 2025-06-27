@@ -18,7 +18,7 @@ Within these settings you can then make the desired configurations to ensure you
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 01.28.41.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Key Features and Options
 
@@ -37,7 +37,7 @@ Within these settings you can then make the desired configurations to ensure you
 *   **Select email template**: Choose a preconfigured template from the dropdown menu. Templates can be created or modified in [Email Templates settings](../../../../advanced-functions-and-tools/powerbi/sql-access/email-template.md).\
 
 
-    <figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (9) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 * **Status**: Specify the status or condition that should trigger a notification when it changes. This could be a specific workflow status, an approval status, an error status, or any other relevant status.
 
 <figure><img src="../../../../.gitbook/assets/image (43) (1).png" alt="" width="375"><figcaption></figcaption></figure>
@@ -54,16 +54,16 @@ Within these settings you can then make the desired configurations to ensure you
 
 * **Repeat Option:** You can also enable a setting to **repeat the notification** at regular intervals **until the document status changes**. This ensures that important notifications are not missed and remain visible until the required action is taken.
 
-<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Email Address**: Enter the email addresses of the recipients to whom the notification should be sent. Users can enter multiple email addresses to specify multiple recipients. This could mean that notifications are sent to specific email addresses based on the properties of the document in question or the user's role.
 
-<figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Actionable Insights**:
 
 * **Send Email to Assigned User/Group**: An optional setting that, when enabled, automatically sends notifications to the user assigned to the document, ensuring that the responsible party is always informed.
 
-<figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Save:** After entering all the required information, click "Save" button to save the notification settings.

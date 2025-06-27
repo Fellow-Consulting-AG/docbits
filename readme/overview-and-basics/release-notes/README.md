@@ -1,6 +1,6 @@
 # Release Notes
 
-## Release **Summer Bloom** June 2025
+## Release **Summer Bloom** July 2025
 
 ### DocBits enhancements:
 
@@ -9,9 +9,9 @@
 *   **Multi-Language Support for List of Values :**\
     We've expanded multi-language capabilities to the List of Values feature. Administrators can now define labels in multiple languages, ensuring that the correct label is automatically displayed based on the user's system language settings. This enhancement promotes greater accessibility and localization, making it easier for users worldwide to interact with the platform in their native language.
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **User Detail Enhancements in Settings:**\
-  The settings interface now displays comprehensive user information. Administrators can easily view group affiliations, sub-organization details, and additional key data, enabling better management of user roles and a clearer understanding of team structures.
+  The settings interface now displays comprehensive user information. Administrators can easily view group affiliations, sub-organization details, and additional key data, enabling better management of user roles and a clearer understanding of team structures. Furthermore Admins can now create a System Admin for the Organization.
 * **Auto Accounting Information on the Approval Screen:**\
   The approval screen now presents auto accounting details alongside invoice information. This improvement provides deeper insight into transaction data, facilitating smoother review processes and more informed decision-making regarding invoices.
 * **Task Counter for Documents on the Dashboard View:**\
@@ -32,13 +32,13 @@
     <figure><img src="../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
 * **Decision Tree Improvements:**\
   Enhancements have been made to the decision tree interface, including a more intuitive row addition feature — now located at the top of the tree — to simplify maintenance and editing.
-* **DocOperator, DocNet, and Extension Tools:**\
-  New AI-powered tools like DocOperator and DocNet help automate repetitive tasks, improving efficiency and reducing manual effort across document workflows.
+* **DocOperator**\
+  New AI-powered tools like DocOperator help automate repetitive tasks, improving efficiency and reducing manual effort across document workflows.
 *   **Electronic Document Preview Option:**\
     A preview feature has been added for electronic documents (eDocs), allowing users to test and view changes directly within the settings before deploying them.\
 
 
-    <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **New Language Support – Chinese:**\
   DocBits now supports Chinese, expanding accessibility and localization options for users across global markets.
 * **Improved Task Dashboard:**\
@@ -60,7 +60,7 @@
     Watchdog configuration has been moved into the main application UI, making it easier to manage. Additional functionalities have also been introduced for better monitoring and control.\
 
 
-    <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **Line Rejection Enhancements:**\
   Rejecting a line item now requires users to provide a reason, ensuring better traceability and accountability in review workflows.
 * **Supplier AI Model List in Settings:**\
@@ -69,13 +69,25 @@
     The document logs now include more detailed information to support better auditing and troubleshooting.\
 
 
-    <figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **PNG and JPG Support:**\
   You can now upload PNG and JPG files, which will automatically be converted into PDF format for processing.
 * **IDM Export Document Format Configuration:**\
   The export format for PDFs in IDM can now be configured, giving users more control over how documents are generated.
 * **New eDoc Type – EDIFACT INVOIC02:**\
   We now support the EDIFACT INVOIC02 electronic document type, expanding compatibility with standardized invoice formats.
+*   #### **Email Notification and Template Options**
+
+    DocBits now offers enhanced control over email notifications, including:
+
+    * **Timed Resend:** Automatically resend notification emails after a defined period if no action is taken, ensuring that tasks aren't missed.
+    * **Resend on Reassignment:** Notifications can also be triggered when tasks are reassigned, keeping users up to date with changes in responsibility.
+    * **Custom Email Templates:** Administrators can now create and manage email templates to customize subject lines, message content, and formatting. This allows for personalized, context-aware notifications that match your organization’s communication style.
+
+    These additions improve communication efficiency and reduce delays in document handling workflows.
+*   **PO Status on Dashboard**
+
+    The dashboard now includes an option to display the **status of linked purchase orders (POs)** directly within document overviews. This enhancement provides users with at-a-glance insight into PO progress—such as received or invoiced—enabling quicker decision-making and better alignment between documents and procurement processes.
 
 ### Bug Fixes
 
@@ -94,6 +106,7 @@
 * Updated the ClickHouse host information.
 * Resolved an issue where duplicate documents were not recognized as duplicates.
 * Fixed export issues caused by booking references that were too long.
+* Fixed the predictions given for  auto accounting.&#x20;
 * Resolved an issue where readonly checkboxes where not readonly&#x20;
 * Fixed an issue where Users can be added to a sub-organization twice&#x20;
 * Fixed an issue where changing the sub-organization for a document caused to reset the assigned user or group

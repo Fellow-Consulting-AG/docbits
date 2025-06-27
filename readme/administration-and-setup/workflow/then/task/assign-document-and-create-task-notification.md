@@ -1,6 +1,6 @@
 # Assign Document and Create Task/Notification
 
-<figure><img src="../../../../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (14) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Purpose**
 

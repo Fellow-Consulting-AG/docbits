@@ -28,7 +28,7 @@ Welcome to **DocBits**, your comprehensive source for documentation strategies a
    * Facilitates automatic booking to ledger accounts.
    * Allows splitting of amounts by department.
    * Supports the definition of ledger accounts by the accounts payable team.
-5. **Integrated Validation and** [**Approval**](administration-and-setup/settings/document-processing/module/approval-before-export.md) **Processes**
+5. **Integrated Validation and** [**Approval**](broken-reference) **Processes**
    * Provides integrated validation processes to ensure data accuracy.
    * Features approval [workflows](administration-and-setup/workflow/) to streamline document handling.
 6. **Seamless Integration**

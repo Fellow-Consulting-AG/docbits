@@ -26,12 +26,12 @@ Example field mapping:
 1.  Go to **Settings** → **Document Type** → _\[Your Document (e.g., Purchase Order)]_ → **E-Doc**.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. Under the **E-Doc** tab, select your format (e.g., **EDI**).
 3.  Click **Extraction Paths** to view or edit the file.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Draft Management:**
 
@@ -67,13 +67,13 @@ The **Preview Function** allows you to simulate how the extraction paths will be
 * Go to the **Extraction Paths** interface.
 * Open the **Preview Function**.\
   \
-  ![](<../../../../../../.gitbook/assets/image (7).png>)
+  ![](<../../../../../../.gitbook/assets/image (7) (1).png>)
 * Enter the Document ID and click **Test**.
 * The result will show how each field and table is populated based on the configured paths.
 
 This feature is essential for verifying that your XPath expressions are correctly defined and pulling the expected values before activating the draft.
 
-<figure><img src="../../../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 6. Video Walkthrough
 

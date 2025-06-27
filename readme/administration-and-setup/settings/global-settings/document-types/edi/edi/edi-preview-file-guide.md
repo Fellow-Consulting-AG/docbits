@@ -19,12 +19,12 @@ This preview is displayed during **field validation** and is also included when 
 1.  Go to **Settings** → **Document Type** → _\[Your Document (e.g., Purchase Order)]_ → **E-Doc**.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. Under the **E-Doc** tab, select your format (e.g., **EDI**).
 3.  Click **Preview** to view or edit the file.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Draft Management:**
 
@@ -57,7 +57,7 @@ The Preview Function allows you to test and verify how an EDI document is render
 * Navigate to the **Preview** interface.
 * Open the **Preview Function**.\
   \
-  ![](<../../../../../../.gitbook/assets/image (7).png>)
+  ![](<../../../../../../.gitbook/assets/image (7) (1).png>)
 * Enter the Document ID and click **Test**.
 *   The rendered PDF-style preview will be displayed using the HTML/CSS/XSLT setup.
 
@@ -65,7 +65,7 @@ The Preview Function allows you to test and verify how an EDI document is render
 
 This feature is crucial for debugging data bindings, refining layout, and ensuring the document is both accurate and visually clear for users and downstream systems like **IDM**.
 
-<figure><img src="../../../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 6. Video Walkthrough
 
