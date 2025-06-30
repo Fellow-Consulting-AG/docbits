@@ -18,6 +18,10 @@ All connections between components are secured using industry-standard encryptio
 
 <figure><img src="../../.gitbook/assets/Operator  (1).png" alt=""><figcaption></figcaption></figure>
 
+{% content-ref url="prefect-local-setup-requirements.md" %}
+[prefect-local-setup-requirements.md](prefect-local-setup-requirements.md)
+{% endcontent-ref %}
+
 **Cloud**:
 
 <figure><img src="../../.gitbook/assets/Operator Cloud .png" alt=""><figcaption></figcaption></figure>
