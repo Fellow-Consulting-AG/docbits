@@ -16,7 +16,7 @@ All connections between components are secured using industry-standard encryptio
 
 **On Premise:**&#x20;
 
-<figure><img src="../../.gitbook/assets/Operator  (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Operator_On-Prem.png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="prefect-local-setup-requirements.md" %}
 [prefect-local-setup-requirements.md](prefect-local-setup-requirements.md)
