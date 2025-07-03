@@ -10,14 +10,14 @@ Email Templates allow you to customize automated email notifications sent from D
     **Settings → Global Settings → Email Templates**\
 
 
-    <figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. The dashboard displays all templates with:
    * **Name**
    * **Subject**
    * **Last Modified** date
    * **Actions** (Edit or Delete).
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Creating a New Template**
 
@@ -30,7 +30,7 @@ Email Templates allow you to customize automated email notifications sent from D
   *   **Document Type**: Select from the dropdown (e.g., "Invoice").\
 
 
-      <div align="center"><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+      <div align="center"><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### **2 Template Editor**
 
@@ -42,7 +42,7 @@ Email Templates allow you to customize automated email notifications sent from D
     * **Variable Field Option**: Select from a dropdown.
     * **Manual Entry**: Type `{{FieldID}}` (e.g., `{{InvoiceNumber}}`).
 
-    <figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **3 Saving**
 
@@ -53,12 +53,12 @@ Email Templates allow you to customize automated email notifications sent from D
 1.  Open the template and click **Send Test**.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. Enter:
    * **Recipient Email** (required).
    * **Field Values** (optional; mock data for placeholders).\
      \
-     ![](<../../../.gitbook/assets/image (6) (1) (1).png>)
+     ![](<../../../.gitbook/assets/image (6) (1) (1) (1).png>)
 3. Review the test email and adjust the template if needed.
 
 ## **Using Templates in Notifications**

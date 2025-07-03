@@ -29,7 +29,7 @@ Each row in the list shows:
 * **Export Method** – where the document will be sent (e.g., Infor, IDM, SFTP)
 * **Actions** – buttons to **edit, delete** or **activate/deactivate** the configuration
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 #### **Important Rules for Export Configuration**
 
@@ -48,7 +48,7 @@ However, it is possible to have:
 To create a new export:
 
 1. Click on the **“New”** button.\
-   ![](<../../../.gitbook/assets/image (1).png>)
+   ![](<../../../.gitbook/assets/image (1) (1).png>)
 2. Select the **Export Type** you want to configure (e.g., Infor, IDM, SFTP).
 3. Fill in the required fields based on the export type.
 4. Save the configuration.
@@ -61,7 +61,7 @@ To create a new export:
 
 <summary>Webhook</summary>
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Field Descriptions**
 
@@ -126,7 +126,7 @@ To create a new export:
 
 <summary>Infor Export to SFTP</summary>
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Field Descriptions**
 
@@ -158,7 +158,7 @@ To create a new export:
 
 <summary>SMB</summary>
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Field Descriptions**
 
@@ -199,7 +199,7 @@ To create a new export:
 
 <summary>Infor IDM </summary>
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Field Descriptions**
 
@@ -231,7 +231,7 @@ To create a new export:
 
 <summary>Infor ION</summary>
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Field Descriptions**
 
@@ -263,7 +263,7 @@ To create a new export:
 
 <summary>Infor IDM + ION BOD</summary>
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Field Descriptions**
 

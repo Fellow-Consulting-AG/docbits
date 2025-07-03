@@ -16,12 +16,12 @@ The **Structure Descriptor File** defines how repeating EDI segments (e.g., `N1`
 1.  **Settings** → **Document Type** → \[Your Document (e.g., _Purchase Order_)]  → **E-Doc.**\
 
 
-    <figure><img src="../../../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. Under **E-Doc**, select your format (e.g., _EDI_ ).
 3.  Click **Structure Descriptor**.\
 
 
-    <figure><img src="../../../../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Draft Management**
 
@@ -42,13 +42,13 @@ The **Preview Function** allows you to test and preview how an uploaded EDI file
 *   Open the **Preview Function.**\
 
 
-    <div align="left"><figure><img src="../../../../../../../.gitbook/assets/image (7) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../../../../../.gitbook/assets/image (7) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 * Enter the **Document ID** into the field and press **Test**.
 * The resulting **structured XML output** will be displayed.
 
 This is especially useful for debugging mappings and validating structural groupings in real time.
 
-<figure><img src="../../../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 6. Video Walkthrough
 

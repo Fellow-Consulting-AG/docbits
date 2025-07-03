@@ -1,5 +1,7 @@
 # Report Page
 
+
+
 {% embed url="https://www.youtube.com/watch?v=ar9jXYJo_AM" %}
 
 ### 1. How enable the Report Page&#x20;
@@ -7,7 +9,7 @@
 Go to **Settings** → **Document Processing** → **Module** → **Document Type** → **Show Report**\
 Toggle the button to enable this setting.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. **How to Access the Report Page**
 

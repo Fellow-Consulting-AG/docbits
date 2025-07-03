@@ -19,12 +19,12 @@ This transformation is performed using **XSLT (Extensible Stylesheet Language Tr
 1.  Go to **Settings → Document Type** → \[Your Document (e.g., _Purchase Order_)]  → **E-Doc.**\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. Under the **E-Doc** tab, select your format (e.g., **EDI** ).
 3.  Click **Transformation** to view or edit.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Draft Management
 
@@ -53,13 +53,13 @@ The **Preview Function** allows you to test and preview how an uploaded EDI file
 *   Open the **Preview Function**.\
 
 
-    <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (7) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (7) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 * Enter the **Document ID** into the field and press **Test**.
 * The resulting **transformed XML output** will be displayed.
 
 This is especially useful for debugging XSLT mappings and ensuring the final XML structure meets your format requirements.
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 6. Video Walkthrough
 

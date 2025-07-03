@@ -8,7 +8,7 @@ The QR Code Extraction feature enables automatic extraction and matching of QR c
 
 QR Code Extraction detects QR codes within uploaded documents, extracts the encoded data, and matches it to existing records. This automated process promotes efficient document handling, particularly beneficial for invoices and other standardized documents that include QR codes.
 
-<figure><img src="../../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Key Benefits
 
