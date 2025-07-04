@@ -120,6 +120,22 @@ Sie haben drei Optionen für den Abgleich der Menge.
 
 Sie können diese Option in **Einstellungen → Globale Einstellungen → Dokumenttypen → Weitere Einstellungen → Bestellabschnitt → Bestellnummer** festlegen.
 
+Die ausgewählte Mengenoption bestimmt, welche **Spalte für die Bestellmenge** während des Abgleichprozesses verwendet wird.
+
+## **Status der verbrauchten Bestellposition**
+
+Diese Funktion fügt den Bestellpositionen Farbcodierungen hinzu, um ihren Abgleichstatus auf einen Blick einfacher identifizieren zu können. Weitere Informationen finden Sie auf der [**Seite zum Status der verbrauchten Bestellposition**](../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/consumed-po-line-status.md).
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FNoof3pErQqAvAWZpo4Fd%252Fimage.png%3Falt%3Dmedia%26token%3D21a15672-8e84-4e22-a0f2-8b65bcbfda54\&width=768\&dpr=4\&quality=100\&sign=4a68abca\&sv=2)
+
+## **Abschnitt** Versandauftrag
+
+Dieser Abschnitt bietet einen visuellen Überblick darüber, wie viel für jedes Bestellposition geliefert und in Rechnung gestellt wurde. Es hilft, den Rechnungsfortschritt mithilfe von Mengenwerten und einer Fortschrittsleiste zu verfolgen.
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2R9tB3JySdIMk8meRSVZ%252FPO-Shipment-Order-1.jpg%3Falt%3Dmedia%26token%3D70aa50f4-84cd-4a55-b580-037b893d1f5b\&width=768\&dpr=4\&quality=100\&sign=e4619335\&sv=2)
+
+Weitere Details finden Sie auf der [**Seite zur Versandauftrags-Einstellung**](../../administration-and-setup/settings/document-processing/module/po-versandauftragseinstellung.md).
+
 ## Toleranzen akzeptieren
 
 Sie können akzeptable Toleranzniveaus während des Abgleichprozesses festlegen.\
