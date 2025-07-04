@@ -120,6 +120,22 @@ Masz trzy opcje dopasowania ilości.
 
 Możesz ustawić tę opcję w **Ustawienia → Ustawienia globalne → Typy dokumentów → Więcej ustawień → Sekcja zamówienia zakupu → Zamówienie zakupu**
 
+Opcja wybranej ilości określa, która kolumna **ilości zamówienia zakupu** jest używana do porównywania podczas procesu dopasowywania.
+
+## **Status linii zamówienia zakupu zużytego**
+
+Ta funkcja dodaje kodowanie kolorów do linii zamówienia zakupu, ułatwiając identyfikację ich statusu dopasowania na pierwszy rzut oka. Więcej informacji można znaleźć na stronie ustawień [**Status linii zamówienia zakupu zużytego**](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/consumed-po-line-status.md).
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FNoof3pErQqAvAWZpo4Fd%252Fimage.png%3Falt%3Dmedia%26token%3D21a15672-8e84-4e22-a0f2-8b65bcbfda54\&width=768\&dpr=4\&quality=100\&sign=4a68abca\&sv=2)
+
+## **Sekcja zamówienia wysyłki PO**
+
+Ta sekcja zapewnia wizualny przegląd tego, ile zostało dostarczone i zafakturowane dla każdej pozycji zamówienia zakupu. Pomaga śledzić postęp fakturowania, korzystając z wartości ilości i paska postępu.
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2R9tB3JySdIMk8meRSVZ%252FPO-Shipment-Order-1.jpg%3Falt%3Dmedia%26token%3D70aa50f4-84cd-4a55-b580-037b893d1f5b\&width=768\&dpr=4\&quality=100\&sign=e4619335\&sv=2)
+
+Więcej szczegółów można znaleźć na stronie ustawień [**Ustawienia zamówienia wysyłki PO**](../../../administration-and-setup/settings/document-processing/module/ustawienia-zamowienia-wysylki-po.md).
+
 ## Akceptuj tolerancje
 
 Możesz określić akceptowalne poziomy tolerancji podczas procesu dopasowywania.\
