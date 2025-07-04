@@ -11,6 +11,7 @@ To access workflow logs:
 1. Navigate to the **Dashboard**.
 2. Click the **Actions menu** (three-dot icon) next to the desired document.
 3. Select **Workflow Logs** from the menu.
+   * <mark style="color:red;">**Note**</mark>: The Workflow feature must be enabled to access this option.
 4.  A **side panel** opens showing a summary of executed workflows.\
 
 
