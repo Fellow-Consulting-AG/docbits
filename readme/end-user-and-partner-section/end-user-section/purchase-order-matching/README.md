@@ -120,6 +120,26 @@ You have three options for matching the quantity.&#x20;
 
 You can set this option in **Settings → Global Settings → Document Types → More Settings → Purchase Order Section → Purchase Order**
 
+The selected quantity option determines which **Purchase Order quantity column** is used for comparison during the matching process.
+
+## **Consumed PO Line Status**
+
+This feature adds color coding to PO lines, making it easier to identify their matching status at a glance.\
+More information is available on the [**Consumed PO Line Status**](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/consumed-po-line-status.md) settings page.
+
+<figure><img src="../../../.gitbook/assets/image (471).png" alt="" width="563"><figcaption></figcaption></figure>
+
+## **PO Shipment Order Section**
+
+This section provides a visual overview of how much has been delivered and invoiced for each PO item.\
+It helps track invoicing progress using quantity values and a progress bar.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/PO-Shipment-Order-1.jpg" alt=""><figcaption></figcaption></figure></div>
+
+More details can be found on the [**PO Shipment Order Setting**](../../../administration-and-setup/settings/document-processing/module/po-shipment-order-setting.md) page.
+
+
+
 ## Accept Tolerances
 
 You can specify acceptable tolerance levels during the matching process.\
