@@ -120,6 +120,22 @@ Hai tre opzioni per abbinare la quantità.
 
 Puoi impostare questa opzione in **Impostazioni → Impostazioni globali → Tipi di documenti → Altre impostazioni → Sezione Ordine di acquisto → Ordine di acquisto**
 
+La **opzione di quantità selezionata** determina quale colonna di quantità dell'**ordine di acquisto** viene utilizzata per il confronto durante il processo di corrispondenza.
+
+## **Stato della riga dell'ordine di acquisto consumato**
+
+Questa funzionalità aggiunge una colorazione alle righe dell'ordine di acquisto, facilitando l'identificazione dello stato di corrispondenza con un semplice sguardo. Ulteriori informazioni sono disponibili sulla pagina delle impostazioni [**Stato della riga dell'ordine di acquisto consumato**](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/consumed-po-line-status.md).
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FNoof3pErQqAvAWZpo4Fd%252Fimage.png%3Falt%3Dmedia%26token%3D21a15672-8e84-4e22-a0f2-8b65bcbfda54\&width=768\&dpr=4\&quality=100\&sign=4a68abca\&sv=2)
+
+## **Sezione dell'ordine di spedizione dell'ordine di acquisto**
+
+Questa sezione fornisce una panoramica visiva di quanto è stato consegnato e fatturato per ciascun articolo dell'ordine di acquisto. Aiuta a monitorare il progresso della fatturazione utilizzando i valori di quantità e una barra di avanzamento.
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2R9tB3JySdIMk8meRSVZ%252FPO-Shipment-Order-1.jpg%3Falt%3Dmedia%26token%3D70aa50f4-84cd-4a55-b580-037b893d1f5b\&width=768\&dpr=4\&quality=100\&sign=e4619335\&sv=2)
+
+Ulteriori dettagli possono essere trovati sulla pagina delle [**Impostazioni dell'ordine di spedizione dell'ordine di acquisto**](../../../administration-and-setup/settings/document-processing/module/po-shipment-order-setting.md).
+
 ## Accetta Tolleranze
 
 Puoi specificare livelli di tolleranza accettabili durante il processo di abbinamento.\
