@@ -120,6 +120,22 @@ Tienes tres opciones para hacer coincidir la cantidad.
 
 Puedes establecer esta opción en **Ajustes → Ajustes globales → Tipos de documentos → Más ajustes → Sección de Orden de Compra → Orden de Compra**
 
+La opción de cantidad seleccionada determina qué columna de **cantidad de orden de compra** se utiliza para la comparación durante el proceso de coincidencia.
+
+## **Estado de la línea de PO consumida**
+
+Esta función agrega codificación de colores a las líneas de PO, facilitando la identificación de su estado de coincidencia de un vistazo. Más información está disponible en la página de configuración de [**Estado de la línea de PO consumida**](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/consumed-po-line-status.md).
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FNoof3pErQqAvAWZpo4Fd%252Fimage.png%3Falt%3Dmedia%26token%3D21a15672-8e84-4e22-a0f2-8b65bcbfda54\&width=768\&dpr=4\&quality=100\&sign=4a68abca\&sv=2)
+
+## **Sección de orden de envío de PO**
+
+Esta sección proporciona una visión general visual de cuánto se ha entregado y facturado por cada ítem de PO. Ayuda a rastrear el progreso de facturación utilizando valores de cantidad y una barra de progreso.
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2R9tB3JySdIMk8meRSVZ%252FPO-Shipment-Order-1.jpg%3Falt%3Dmedia%26token%3D70aa50f4-84cd-4a55-b580-037b893d1f5b\&width=768\&dpr=4\&quality=100\&sign=e4619335\&sv=2)
+
+Se pueden encontrar más detalles en la página de [**Configuración de orden de envío de PO**](../../../administration-and-setup/settings/document-processing/module/po-shipment-order-setting.md).
+
 ## Aceptar Tolerancias
 
 Puedes especificar niveles de tolerancia aceptables durante el proceso de coincidencia.\
