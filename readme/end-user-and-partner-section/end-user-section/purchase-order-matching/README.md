@@ -120,6 +120,22 @@ Você tem três opções para corresponder a quantidade.
 
 Você pode definir esta opção em **Configurações → Configurações globais → Tipos de documentos → Mais configurações → Seção de Ordem de Compra → Ordem de Compra**
 
+A opção de quantidade selecionada determina qual coluna de **quantidade do pedido de compra** é usada para comparação durante o processo de correspondência.
+
+## **Status da Linha do Pedido de Compra Consumido**
+
+Este recurso adiciona codificação de cores às linhas de PO, facilitando a identificação do status de correspondência delas num piscar de olhos. Mais informações estão disponíveis na página de configurações [**Status da Linha do Pedido de Compra Consumido**](./#status-da-linha-do-pedido-de-compra-consumido).
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FNoof3pErQqAvAWZpo4Fd%252Fimage.png%3Falt%3Dmedia%26token%3D21a15672-8e84-4e22-a0f2-8b65bcbfda54\&width=768\&dpr=4\&quality=100\&sign=4a68abca\&sv=2)
+
+## **Seção de Ordem de Envio do Pedido de Compra**
+
+Esta seção fornece uma visão geral visual de quanto foi entregue e faturado para cada item do PO. Ajuda a rastrear o progresso da faturação usando valores de quantidade e uma barra de progresso.
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2R9tB3JySdIMk8meRSVZ%252FPO-Shipment-Order-1.jpg%3Falt%3Dmedia%26token%3D70aa50f4-84cd-4a55-b580-037b893d1f5b\&width=768\&dpr=4\&quality=100\&sign=e4619335\&sv=2)
+
+Mais detalhes podem ser encontrados na página de [**Configuração da Ordem de Envio do Pedido de Compra**](../shipment-order-dashboard.md).
+
 ## Aceitar Tolerâncias
 
 Você pode especificar níveis de tolerância aceitáveis durante o processo de correspondência.\
