@@ -11,6 +11,7 @@ Pour accéder aux journaux de flux de travail :
 1. Naviguez jusqu'au **Tableau de bord**.
 2. Cliquez sur le **menu Actions** (icône à trois points) à côté du document souhaité.
 3. Sélectionnez **Journaux de flux de travail** dans le menu.
+   * <mark style="color:red;">**Remarque**</mark>**&#x20;:** La fonctionnalité de workflow doit être activée pour accéder à cette option.
 4.  Un **panneau latéral** s'ouvre montrant un résumé des flux de travail exécutés.
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FAlgg3jnSVRVyuYxy4tAp%252Fimage.png%3Falt%3Dmedia%26token%3D4e8fcd63-6113-47eb-95a4-95a7821dc9b9\&width=768\&dpr=4\&quality=100\&sign=9e6ba9f5\&sv=2)
