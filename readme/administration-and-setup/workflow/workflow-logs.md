@@ -11,6 +11,7 @@ Per accedere ai registri del flusso di lavoro:
 1. Navigare nel **Dashboard**.
 2. Fare clic sul **menu Azioni** (icona a tre punti) accanto al documento desiderato.
 3. Selezionare **Registri del Flusso di Lavoro** dal menu.
+   * <mark style="color:red;">**Nota**</mark>**:** La funzione di workflow deve essere abilitata per accedere a questa opzione.
 4.  Viene aperto un **pannello laterale** che mostra un riepilogo dei flussi di lavoro eseguiti.
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FAlgg3jnSVRVyuYxy4tAp%252Fimage.png%3Falt%3Dmedia%26token%3D4e8fcd63-6113-47eb-95a4-95a7821dc9b9\&width=768\&dpr=4\&quality=100\&sign=9e6ba9f5\&sv=2)
