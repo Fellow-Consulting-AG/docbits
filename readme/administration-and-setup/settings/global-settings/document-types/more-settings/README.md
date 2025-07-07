@@ -50,7 +50,7 @@ W sekcji "Więcej ustawień" znajdziesz różne opcje związane z poszczególnym
 * [**Tabela PO w kreatorze układów**](purchase-order/po-table-in-layout-builder.md): Umożliwia dodanie tabel zamówień zakupu w kreatorze układów dla dostosowanych układów dokumentów.
 * [**Automatyczne sprawdzanie aktualizacji PO**](purchase-order/auto-check-for-po-updates.md): Po włączeniu system wyświetla wizualny wskaźnik na ekranie dopasowania zamówienia zakupu, aby pokazać, kiedy zamówienie zakupu zostało zaktualizowane, zachęcając użytkowników do odświeżenia w celu uzyskania najnowszych informacji.
 * **Automatyczna aktualizacja danych PO**: Aktywacja tego ustawienia automatycznie zaktualizuje dane PO, gdy nowe dane będą dostępne.
-* **Status linii PO zużytej**: Aktywacja tego ustawienia wyłączy kolorowy odcień na liniach zamówienia zakupu.
+* [**Status linii PO zużytej**](purchase-order/consumed-po-line-status.md): Aktywacja tego ustawienia wyłączy kolorowy odcień na liniach zamówienia zakupu.
 * [**Oblicz jednostkową cenę PO**](purchase-order/calculate-po-unit-price.md): Umożliwia obliczenie jednostkowej ceny PO na podstawie kwoty netto i ilości, zamiast jej wydobywania.
 * [**Zamówienie zakupu**](purchase-order/purchase-order.md): Przełącza, czy dokument powinien być przetwarzany na ekranie dopasowania zamówienia zakupu. Możesz również określić, na podstawie jakiego terminu ilościowego powinien opierać się proces dopasowania.
 * [**Eksportuj niepasujące linie PO**](purchase-order/export-not-matched-po-lines.md): Ta funkcja kontroluje eksport linii zamówienia zakupu. Po wyłączeniu eksportowane są tylko dopasowane linie. Po włączeniu eksportowane są wszystkie linie zamówienia zakupu, nawet jeśli nie są dopasowane do linii potwierdzenia zamówienia.
@@ -59,4 +59,5 @@ W sekcji "Więcej ustawień" znajdziesz różne opcje związane z poszczególnym
 * [**Alternatywny eksport**](purchase-order/alternate-export.md): Umożliwia skonfigurowanie alternatywnego eksportu dla określonych statusów.
 * [**Wyłącz statusy PO**](purchase-order/purchase-order-disable-statuses.md): Umożliwia wyłączenie określonych statusów z uwzględnienia w procesie dopasowania.
 * **Ignoruj już dopasowane linie**: Aktywacja tego ustawienia pominie linie, które już zostały dopasowane podczas nowego procesu dopasowania.
+* [**Aktualizacja dokumentu Status zamówienia zakupu**](purchase-order/update-document-purchase-order-status.md): Gdy jest włączone, kolumna Status PO na tablicy rozdzielczej jest automatycznie aktualizowana za każdym razem, gdy zmienia się status zamówienia zakupu.
 * [**Mapa numerów przedmiotów dostawcy**](purchase-order/supplier-item-number-map-admin-documentation.md): Ustawienie pomocnicze, które mapuje numery przedmiotów dostawcy na wewnętrzne numery przedmiotów, zapewniając dokładność w zarządzaniu zapasami i zamówieniami zakupu.
