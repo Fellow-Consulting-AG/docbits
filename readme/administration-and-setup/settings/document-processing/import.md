@@ -111,7 +111,7 @@ Você pode clicar nos três pontos na coluna **Ação** para acessar as seguinte
 1.  Para adicionar uma nova conexão OAuth Office365, clique no botão **Adicionar** na seção **Importação de Email**.
 
     <figure><img src="../../../.gitbook/assets/email_1.png" alt=""><figcaption></figcaption></figure>
-2.  Selecione **OAuth Office365** como o protocolo e clique em "Autenticar."
+2.  Selecione **OAuth Office365** como o protocolo e clique em **Autenticar**.
 
     <figure><img src="../../../.gitbook/assets/email_3.png" alt=""><figcaption></figcaption></figure>
 3.  Você será redirecionado para uma página da Microsoft onde será solicitado que você insira um código. Para recuperar esse código, volte para o DocBits — o código será exibido lá, conforme mostrado abaixo. Copie o código e insira-o na página da Microsoft. Depois, você será solicitado a inserir suas credenciais da Microsoft.
