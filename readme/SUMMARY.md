@@ -296,6 +296,7 @@
     * [Export Configuration for Supplier Portal for M3](administration-and-setup/settings/supplier-setting/export-configuration-for-supplier-portal-for-m3.md)
     * [Supplier Permissions](administration-and-setup/settings/supplier-setting/supplier-permissions.md)
   * [Cache Management](administration-and-setup/settings/cache-management.md)
+  * [Test](administration-and-setup/settings/test.md)
 * [Workflow](administration-and-setup/workflow/README.md)
   * [Release](administration-and-setup/workflow/release.md)
   * [When](administration-and-setup/workflow/when/README.md)
