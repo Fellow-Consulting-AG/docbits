@@ -25,7 +25,7 @@
   * **Caso de Uso:** Use este recurso para automatizar tarefas como extração de dados ou validação de formato, aumentando a eficiência do fluxo de trabalho.
 
 {% hint style="info" %}
-Veja aqui adicionar [Script em DocBits](../../../advanced-functions-and-tools/scripting-in-docbits/)
+Veja aqui adicionar [Script em DocBits](../../../administration-and-setup/settings/global-settings/document-types/script/scripting-in-docbits/)
 {% endhint %}
 
 ### **Campos Fuzzy:**
