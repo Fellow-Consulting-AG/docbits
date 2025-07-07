@@ -68,7 +68,7 @@ You can click the three dots in the **Action** column to access the following op
 
 You can set up an email import that automatically imports documents from your inbox as soon as they arrive. You can choose to configure either an IMAP or an OAuth connection
 
-<mark style="color:red;">**Note**</mark>**:  Only documents with the following file types will be imported**:
+<mark style="color:red;">**Note**</mark>:  Only documents with the following file types will be imported:
 
 * `.pdf`
 * `.tiff` / `.tif`
@@ -121,7 +121,7 @@ You can click the three dots in the **Action** column to access the following op
 1.  To add a new OAuth Office365 connection, click the **Add** button in the **Email Import** section.
 
     <figure><img src="../../../../.gitbook/assets/email_1.png" alt=""><figcaption></figcaption></figure>
-2.  Select **OAuth Office365** as the protocol, then click on "Authenticate."
+2.  Select **OAuth Office365** as the protocol, then click on **Authenticate**.
 
     <figure><img src="../../../../.gitbook/assets/email_3.png" alt=""><figcaption></figcaption></figure>
 3.  You will be redirected to a Microsoft page where you’ll be asked to enter a code. To retrieve this code, return to DocBits—the code will be displayed there, as shown below. Copy the code and enter it on the Microsoft page. Afterward, you will be prompted to enter your Microsoft credentials.
