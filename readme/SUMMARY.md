@@ -22,6 +22,7 @@
   * [Infor M3 (M3 Integration)](overview-and-basics/faq/infor-m3-m3-integration/README.md)
     * [Costing elements are not properly configured. Please ask your admin to configure it.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
   * [Mandatory PDP/PPF Channels – PEPPOL as Transport Only for France’s 2026 E-Invoicing](overview-and-basics/faq/mandatory-pdp-ppf-channels-peppol-as-transport-only-for-frances-2026-e-invoicing.md)
+  * [Test](overview-and-basics/faq/test.md)
 
 ## End User and Partner Section
 
