@@ -25,7 +25,7 @@
   * **Caso de Uso:** Use esta función para automatizar tareas como la extracción de datos o la validación de formatos, mejorando la eficiencia del flujo de trabajo.
 
 {% hint style="info" %}
-Vea aquí agregar [Script en DocBits](../../../advanced-functions-and-tools/scripting-in-docbits/)
+Vea aquí agregar [Script en DocBits](../../../administration-and-setup/settings/global-settings/document-types/script/scripting-in-docbits/)
 {% endhint %}
 
 ### **Campos Difusos:**
