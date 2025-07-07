@@ -22,7 +22,6 @@
   * [Infor M3 (M3 Integration)](overview-and-basics/faq/infor-m3-m3-integration/README.md)
     * [Costing elements are not properly configured. Please ask your admin to configure it.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
   * [Mandatory PDP/PPF Channels – PEPPOL as Transport Only for France’s 2026 E-Invoicing](overview-and-basics/faq/mandatory-pdp-ppf-channels-peppol-as-transport-only-for-frances-2026-e-invoicing.md)
-  * [Test](overview-and-basics/faq/test.md)
 
 ## End User and Partner Section
 
@@ -297,6 +296,7 @@
     * [Export Configuration for Supplier Portal for M3](administration-and-setup/settings/supplier-setting/export-configuration-for-supplier-portal-for-m3.md)
     * [Supplier Permissions](administration-and-setup/settings/supplier-setting/supplier-permissions.md)
   * [Cache Management](administration-and-setup/settings/cache-management.md)
+  * [Test](administration-and-setup/settings/test.md)
 * [Workflow](administration-and-setup/workflow/README.md)
   * [Release](administration-and-setup/workflow/release.md)
   * [When](administration-and-setup/workflow/when/README.md)
