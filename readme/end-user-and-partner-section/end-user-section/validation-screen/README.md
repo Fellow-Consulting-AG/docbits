@@ -25,7 +25,7 @@
   * **Przypadek użycia:** Użyj tej funkcji, aby zautomatyzować zadania takie jak ekstrakcja danych lub walidacja formatu, zwiększając efektywność pracy.
 
 {% hint style="info" %}
-Zobacz tutaj dodaj [Skrypt w DocBits](../../../advanced-functions-and-tools/scripting-in-docbits/)
+Zobacz tutaj dodaj [Skrypt w DocBits](../../../administration-and-setup/settings/global-settings/document-types/script/scripting-in-docbits/)
 {% endhint %}
 
 ### **Pola rozmyte:**
