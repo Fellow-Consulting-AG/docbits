@@ -170,6 +170,7 @@
     * [Email Vorlagen editieren](administration-and-setup/settings/supplier-setting/editing-email-templates.md)
     * [Export Konfiguration für Lieferanten Portal M3](administration-and-setup/settings/supplier-setting/export-configuration-for-supplier-portal-for-m3.md)
   * [Cache Management](admin-section/settings/cache-management.md)
+  * [Test](administration-and-setup/settings/test.md)
 * [Workflow](overview/workflow/README.md)
   * [When](overview/workflow/when/README.md)
     * [Card description](overview/workflow/when/card-description.md)
