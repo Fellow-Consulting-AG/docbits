@@ -1,6 +1,6 @@
 # Script
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.43.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.43.25.png" alt=""><figcaption></figcaption></figure>
 
 #### Overview
 
@@ -17,4 +17,4 @@ Scripts in Docbits are typically written in a scripting language supported by th
    * Provides an interface where scripts can be written and edited. The editor typically supports syntax highlighting, error highlighting, and other features to assist in script development.
    * **Example Script**: Scripts can include operations such as looping through invoice lines to validate totals or to remove entries that do not meet certain criteria.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.43.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.43.37.png" alt=""><figcaption></figcaption></figure>

@@ -25,7 +25,7 @@
   * **Use Case:** Use this feature to automate tasks like data extraction or format validation, enhancing workflow efficiency.
 
 {% hint style="info" %}
-See here add[ Script in DocBits](../../../advanced-functions-and-tools/scripting-in-docbits/)
+See here add[ Script in DocBits](../../../administration-and-setup/settings/global-settings/document-types/script/scripting-in-docbits/)
 {% endhint %}
 
 ### **Fuzzy Fields:**
