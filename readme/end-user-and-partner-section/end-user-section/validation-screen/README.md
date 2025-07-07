@@ -29,7 +29,7 @@ dfg
   * **Anwendungsfall:** Verwenden Sie diese Funktion, um Aufgaben wie die Datenextraktion oder Formatvalidierung zu automatisieren und die Workflow-Effizienz zu steigern.
 
 {% hint style="info" %}
-Siehe hier [Scripting in DocBits](../../../setup/scripting-in-docbits/)
+Siehe hier [Scripting in DocBits](../../../administration-and-setup/settings/global-settings/document-types/script/scripting-in-docbits/)
 {% endhint %}
 
 ### **Unscharfe Felder:**
