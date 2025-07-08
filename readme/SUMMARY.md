@@ -53,7 +53,7 @@
     * [E-Mail](end-user-section/how-to-import-documents/email/README.md)
       * [IMAP](end-user-section/how-to-import-documents/email/imap.md)
       * [OAuth Office365](end-user-section/how-to-import-documents/email/oauth-office365.md)
-  * [Fehler](end-user-and-partner-section/end-user-section/fehler.md)
+  * [Fehler](end-user-and-partner-section/end-user-section/error-page.md)
   * [Technischer Support in DocBits](end-user-section/technical-support-in-docbits/README.md)
     * [Ticket erstellen](end-user-section/technical-support-in-docbits/create-a-ticket.md)
     * [Hilfe-Symbole](end-user-section/technical-support-in-docbits/help-icons.md)
