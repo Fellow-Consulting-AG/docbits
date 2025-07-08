@@ -68,6 +68,16 @@ Możesz kliknąć trzy kropki w kolumnie **Akcja**, aby uzyskać dostęp do nast
 
 Możesz skonfigurować import e-mail, który automatycznie importuje dokumenty z twojej skrzynki odbiorczej, gdy tylko przyjdą. Możesz wybrać skonfigurowanie połączenia IMAP lub OAuth.
 
+<mark style="color:red;">**Uwaga**</mark>: Tylko dokumenty o następujących typach plików będą importowane:
+
+* `.pdf`
+* `.tiff` / `.tif`
+* `.eml`
+* `.dat`
+* `.xml`
+* `.edi`
+* `.purchaseorder`
+
 ### Dodaj nowe połączenie IMAP
 
 1.  Aby dodać nowe połączenie IMAP, kliknij przycisk **Dodaj** w sekcji **Import e-mail**.
