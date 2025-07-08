@@ -68,6 +68,16 @@ Sie können auf die drei Punkte in der **Aktion**-Spalte klicken, um auf die fol
 
 Sie können einen E-Mail-Import einrichten, der automatisch Dokumente aus Ihrem Posteingang importiert, sobald sie ankommen. Sie können wählen, ob Sie eine IMAP- oder eine OAuth-Verbindung konfigurieren möchten.
 
+<mark style="color:red;">**Hinweis**</mark>: Nur Dokumente mit den folgenden Dateitypen werden importiert:
+
+* `.pdf`
+* `.tiff` / `.tif`
+* `.eml`
+* `.dat`
+* `.xml`
+* `.edi`
+* `.purchaseorder`
+
 ### Neue IMAP-Verbindung hinzufügen
 
 1.  Um eine neue IMAP-Verbindung hinzuzufügen, klicken Sie auf die Schaltfläche **Hinzugefügt** im **E-Mail-Import**-Bereich.
