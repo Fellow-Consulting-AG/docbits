@@ -83,4 +83,4 @@ W wielu przypadkach ponowne uruchomienie dokumentu może rozwiązać problem i u
 Jeśli błąd nadal występuje po ponownym uruchomieniu, możesz skontaktować się z naszym zespołem wsparcia w celu uzyskania dalszej pomocy.\
 Proszę podać jak najwięcej informacji, aby pomóc naszemu zespołowi skutecznie rozwiązać problem (np. ID dokumentu, wiadomość o błędzie, podjęte działania).
 
-Instrukcje dotyczące przesyłania zgłoszenia wsparcia można znaleźć [tutaj](supplier-portal/supplier-registration.md).
+Instrukcje dotyczące przesyłania zgłoszenia wsparcia można znaleźć [tutaj](ressources-and-support/user-support.md).
