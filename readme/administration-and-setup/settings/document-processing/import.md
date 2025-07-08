@@ -68,6 +68,16 @@ Puedes hacer clic en los tres puntos en la columna de **Acción** para acceder a
 
 Puedes configurar una importación de correo electrónico que importe automáticamente documentos de tu bandeja de entrada tan pronto como lleguen. Puedes elegir configurar una conexión IMAP o una conexión OAuth.
 
+<mark style="color:red;">**Nota**</mark>: Solo se importarán documentos con los siguientes tipos de archivo:
+
+* `.pdf`
+* `.tiff` / `.tif`
+* `.eml`
+* `.dat`
+* `.xml`
+* `.edi`
+* `.purchaseorder`
+
 ### Agregar nueva conexión IMAP
 
 1.  Para agregar una nueva conexión IMAP, haz clic en el botón **Agregar** en la sección **Importación de correo electrónico**.
