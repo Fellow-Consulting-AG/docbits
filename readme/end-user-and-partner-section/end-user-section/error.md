@@ -1,8 +1,8 @@
-# Error Page
+# Error
 
 ## Overview
 
-If an error occurs during your document workflow, the document will enter the **"Error"** state. When this happens, you can click on the document to:
+If an error occurs during your document workflow, the document will enter the **Error** state. When this happens, you can click on the document to:
 
 * View critical details explaining why the error occurred
 * Add notes to the document
@@ -21,7 +21,7 @@ Below the error message, the **Exception** is displayed, showing where the error
 
 ## Editing Options
 
-On the **left side of the page**, your document is displayed along with several tools for interaction and review.
+On the left side of the page, your document is displayed along with several tools for interaction and review.
 
 <figure><img src="../../.gitbook/assets/error_3 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -29,7 +29,7 @@ On the **left side of the page**, your document is displayed along with several 
 
 <figure><img src="../../.gitbook/assets/error_4.png" alt=""><figcaption></figcaption></figure>
 
-The toolbar on the **left** side of the page provides tools to interact with the document:
+The toolbar on the left side of the page provides tools to interact with the document:
 
 * **Toggle Thumbnail View**\
   Show or hide the sidebar that displays all document pages as thumbnails for easy navigation.
@@ -52,7 +52,7 @@ The toolbar on the **left** side of the page provides tools to interact with the
 
 <figure><img src="../../.gitbook/assets/error_5.png" alt=""><figcaption></figcaption></figure>
 
-The toolbar on the **right** side of the page offers additional functionality:
+The toolbar on the right side of the page offers additional functionality:
 
 * **Download the Document**\
   Save the document to your device, with or without annotations.
@@ -73,7 +73,7 @@ In many cases, restarting the document can resolve the issue and allow processin
 
 *   To restart the document:
 
-    1. Click the **three dots** in the **Actions** column.
+    1. Click the three dots in the **Actions** column.
     2. Select **Restart** from the menu.
 
     <figure><img src="../../.gitbook/assets/error_1.png" alt=""><figcaption></figcaption></figure>
