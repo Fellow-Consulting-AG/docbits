@@ -83,4 +83,4 @@ En muchos casos, reiniciar el documento puede resolver el problema y permitir qu
 Si el error persiste después de reiniciar, puede contactar a nuestro equipo de soporte para obtener más ayuda.\
 Por favor, proporcione la mayor cantidad de información posible para ayudar a nuestro equipo a resolver el problema de manera eficiente (por ejemplo, ID del documento, mensaje de error, acciones realizadas).
 
-Las instrucciones para enviar un ticket de soporte se pueden encontrar [aquí](supplier-portal/supplier-registration.md).
+Las instrucciones para enviar un ticket de soporte se pueden encontrar [aquí](ressources-and-support/user-support.md).
