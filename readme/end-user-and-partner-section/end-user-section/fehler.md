@@ -83,4 +83,4 @@ In vielen Fällen kann das Neustarten des Dokuments das Problem lösen und die V
 Wenn der Fehler nach dem Neustart weiterhin besteht, können Sie unser Support-Team für weitere Unterstützung kontaktieren.\
 Bitte geben Sie so viele Informationen wie möglich an, um unserem Team zu helfen, das Problem effizient zu lösen (z. B. Dokument-ID, Fehlermeldung, durchgeführte Aktionen).
 
-Anleitungen zum Einreichen eines Support-Tickets finden Sie hier.
+Anleitungen zum Einreichen eines Support-Tickets finden Sie [hier](ressources-and-support/user-support.md).
