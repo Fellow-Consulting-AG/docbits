@@ -2,7 +2,7 @@
 
 ## Overview
 
-If an error occurs during your document workflow, the document will enter the **Error** state. When this happens, you can click on the document to:
+If an error occurs during your document workflow, the document will enter the **Error** status. When this happens, you can click on the document to:
 
 * View critical details explaining why the error occurred
 * Add notes to the document
