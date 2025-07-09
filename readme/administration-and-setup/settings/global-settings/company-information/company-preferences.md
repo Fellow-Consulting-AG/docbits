@@ -58,8 +58,7 @@ After making your changes, click the **Save** button in the bottom-right corner 
 
 <figure><img src="../../../../.gitbook/assets/company_preferences_5.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note**</mark>: This setting controls how amounts are displayed throughout **DocBits**.\
-The amount format on documents (such as invoices) is determined by the document’s **origin** setting, which can be viewed in the **validation** screen.
+<mark style="color:red;">**Note**</mark>: This setting controls how amounts are displayed throughout **DocBits**. The **amount format** in the **Field Validation screen** is determined by the document’s **origin** setting.
 
 ## New Version Info Dialog
 
