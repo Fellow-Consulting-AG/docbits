@@ -32,7 +32,7 @@ I seguenti segnaposto sono utilizzati nel modello di data:
 * `%Y` – Anno completo (ad es., 2025)
 * `%y` – Anno a due cifre (ad es., 25)
 
-#### **Esempi di formati:**
+#### **Formati di esempio:**
 
 * `%d.%m.%Y` → 07.07.2025
 * `%m/%d/%y` → 07/07/25
@@ -47,7 +47,7 @@ Dopo aver apportato le modifiche, fai clic sul pulsante **Risparmiare** nell'ang
 
 Questa impostazione ti consente di definire come vengono formattati gli importi in tutta l'applicazione, ad esempio, se utilizzare una virgola ( , ) o un punto ( . ) come separatore decimale.
 
-#### **Esempi di formati:**
+#### **Formati di esempio:**
 
 * `1,000.00` (formato USA)
 * `1.000,00` (formato europeo)
@@ -66,9 +66,7 @@ Questa impostazione ti consente di abilitare una notifica popup quando viene ril
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_4.png)
 
-Fai clic su **Aggiorna per chiudere** nella finestra di dialogo. L'applicazione si ricaricherà e si aprirà con l'ultima versione.
-
-Questo assicura che gli utenti stiano sempre lavorando con le funzionalità, i miglioramenti e le correzioni di bug più recenti.
+Fai clic su **Aggiorna per chiudere** nella finestra di dialogo. **DocBits** si ricaricherà e si aprirà con l'ultima versione. Questo assicura che gli utenti stiano sempre lavorando con le funzionalità, i miglioramenti e le correzioni di bug più recenti.
 
 Dopo aver attivato o disattivato l'impostazione, fai clic sul pulsante **Risparmiare** nell'angolo in basso a destra per applicare le tue modifiche.
 
