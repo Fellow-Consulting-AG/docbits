@@ -66,9 +66,7 @@ This setting allows you to enable a popup notification when a new version of the
 
 <figure><img src="../../../../.gitbook/assets/company_preferences_4.png" alt=""><figcaption></figcaption></figure>
 
-Click **Refresh to Close** in the dialog window. The application will reload and open with the most recent version.
-
-This ensures users are always working with the latest features, improvements, and bug fixes.
+Click **Refresh to Close** in the dialog window. **DocBits** will reload and open with the most recent version. This ensures users are always working with the latest features, improvements, and bug fixes.
 
 After toggling the setting on or off, click the **Save** button in the bottom-right corner to apply your changes.
 
