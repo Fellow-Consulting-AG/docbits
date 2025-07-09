@@ -2,7 +2,7 @@
 
 ## Aperçu
 
-Dans les **Préférences de l'entreprise**, vous pouvez configurer les paramètres de formatage et de notification clés pour l'application. Cela inclut :
+Dans les **Préférences de l'entreprise**, vous pouvez configurer des paramètres clés de formatage et de notification pour l'application. Ceux-ci incluent :
 
 * Choisir le **modèle de date** à utiliser dans toute l'application
 * Définir le **format des montants** (par exemple, séparateurs décimaux, regroupement des chiffres)
@@ -21,7 +21,7 @@ Pour accéder aux **Préférences de l'entreprise** :
 
 ## Modèle de date
 
-Dans ce paramètre, vous pouvez choisir le **format de date** à utiliser dans **DocBits**. Plusieurs options de formatage sont disponibles, vous permettant de personnaliser l'affichage des dates.
+Dans ce paramètre, vous pouvez choisir le **format de date** à utiliser dans **DocBits**. Plusieurs options de formatage sont disponibles, vous permettant de personnaliser la façon dont les dates sont affichées.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_2.png)
 
@@ -39,13 +39,13 @@ Les espaces réservés suivants sont utilisés dans le modèle de date :
 
 Sélectionnez le format qui correspond le mieux à vos exigences organisationnelles ou régionales.
 
-Après avoir effectué vos modifications, cliquez sur le bouton **Sauvegarder** dans le coin inférieur droit pour les appliquer.
+Après avoir apporté vos modifications, cliquez sur le bouton **Sauvegarder** dans le coin inférieur droit pour les appliquer.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_5.png)
 
 ## Format des montants
 
-Ce paramètre vous permet de définir comment les montants sont formatés dans toute l'application—par exemple, s'il faut utiliser une virgule ( , ) ou un point ( . ) comme séparateur décimal.
+Ce paramètre vous permet de définir comment les montants sont formatés dans toute l'application, par exemple, s'il faut utiliser une virgule ( , ) ou un point ( . ) comme séparateur décimal.
 
 #### **Exemples de formats :**
 
@@ -54,11 +54,11 @@ Ce paramètre vous permet de définir comment les montants sont formatés dans t
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_3.png)
 
-Après avoir effectué vos modifications, cliquez sur le bouton **Sauvegarder** dans le coin inférieur droit pour les appliquer.
+Après avoir apporté vos modifications, cliquez sur le bouton **Sauvegarder** dans le coin inférieur droit pour les appliquer.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_5.png)
 
-<mark style="color:red;">**Remarque**</mark>: Ce paramètre contrôle comment les montants sont affichés dans **DocBits**. Le **format des montants** dans l'écran de **Validation des champs** est déterminé par le paramètre **origine** du document.
+<mark style="color:red;">**Remarque**</mark> : Ce paramètre contrôle comment les montants sont affichés dans **DocBits**. Le **format des montants** dans l'écran de **Validation des champs** est déterminé par le paramètre **origine** du document.
 
 ## Nouvelle boîte de dialogue d'information sur la version
 
@@ -66,9 +66,7 @@ Ce paramètre vous permet d'activer une notification popup lorsqu'une nouvelle v
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_4.png)
 
-Cliquez sur **Actualiser pour fermer** dans la fenêtre de dialogue. L'application se rechargera et s'ouvrira avec la version la plus récente.
-
-Cela garantit que les utilisateurs travaillent toujours avec les dernières fonctionnalités, améliorations et corrections de bogues.
+Cliquez sur **Actualiser pour fermer** dans la fenêtre de dialogue. **DocBits** se rechargera et s'ouvrira avec la version la plus récente. Cela garantit que les utilisateurs travaillent toujours avec les dernières fonctionnalités, améliorations et corrections de bogues.
 
 Après avoir activé ou désactivé le paramètre, cliquez sur le bouton **Sauvegarder** dans le coin inférieur droit pour appliquer vos modifications.
 
