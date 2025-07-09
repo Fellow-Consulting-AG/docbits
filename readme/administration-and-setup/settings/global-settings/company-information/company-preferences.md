@@ -25,7 +25,7 @@ Nesta configuração, você pode escolher o **formato de data** a ser usado em t
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_2.png)
 
-Os seguintes espaços reservados são usados no padrão de data:
+Os seguintes marcadores são usados no padrão de data:
 
 * `%d` – Dia (por exemplo, 07)
 * `%m` – Mês (por exemplo, 07)
@@ -66,9 +66,7 @@ Esta configuração permite que você habilite uma notificação pop-up quando u
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_4.png)
 
-Clique em **Atualizar para fechar** na janela da caixa de diálogo. O aplicativo será recarregado e aberto com a versão mais recente.
-
-Isso garante que os usuários estejam sempre trabalhando com os recursos, melhorias e correções de bugs mais recentes.
+Clique em **Atualizar para fechar** na janela de diálogo. **DocBits** será recarregado e aberto com a versão mais recente. Isso garante que os usuários estejam sempre trabalhando com os recursos, melhorias e correções de bugs mais recentes.
 
 Após alternar a configuração para ativar ou desativar, clique no botão **Salvar** no canto inferior direito para aplicar suas alterações.
 
