@@ -21,7 +21,7 @@ Para acceder a las **Preferencias de la empresa**:
 
 ## Patrón de fecha
 
-En este ajuste, puedes elegir el **formato de fecha** que se utilizará en **DocBits**. Hay varias opciones de formato disponibles, lo que te permite personalizar cómo se muestran las fechas.
+En esta configuración, puedes elegir el **formato de fecha** que se utilizará en **DocBits**. Hay varias opciones de formato disponibles, lo que te permite personalizar cómo se muestran las fechas.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_2.png)
 
@@ -45,7 +45,7 @@ Después de realizar tus cambios, haz clic en el botón **Guardar** en la esquin
 
 ## Formato de cantidad
 
-Este ajuste te permite definir cómo se formatean las cantidades en toda la aplicación; por ejemplo, si usar una coma ( , ) o un punto ( . ) como separador decimal.
+Esta configuración te permite definir cómo se formatean las cantidades en toda la aplicación; por ejemplo, si usar una coma ( , ) o un punto ( . ) como separador decimal.
 
 #### **Ejemplos de formatos:**
 
@@ -58,18 +58,16 @@ Después de realizar tus cambios, haz clic en el botón **Guardar** en la esquin
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_5.png)
 
-<mark style="color:red;">**Nota**</mark>: Este ajuste controla cómo se muestran las cantidades en **DocBits**. El **formato de cantidad** en la **pantalla de Validación de campos** se determina por el ajuste de **origen** del documento.
+<mark style="color:red;">**Nota**</mark>: Esta configuración controla cómo se muestran las cantidades en **DocBits**. El **formato de cantidad** en la **pantalla de Validación de campos** se determina por la configuración de **origen** del documento.
 
 ## Nuevo cuadro de diálogo de información sobre la versión
 
-Este ajuste te permite habilitar una notificación emergente cuando se lanza una nueva versión de la aplicación. Cuando está activado, un cuadro de diálogo aparecerá automáticamente si hay una actualización disponible. Para aplicar la actualización:
+Esta configuración te permite habilitar una notificación emergente cuando se lanza una nueva versión de la aplicación. Cuando se activa, un cuadro de diálogo aparecerá automáticamente si hay una actualización disponible. Para aplicar la actualización:
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_4.png)
 
-Haz clic en **Actualizar para cerrar** en la ventana del cuadro de diálogo. La aplicación se recargará y se abrirá con la versión más reciente.
+Haz clic en **Actualizar para cerrar** en la ventana del cuadro de diálogo. **DocBits** se recargará y se abrirá con la versión más reciente. Esto asegura que los usuarios siempre estén trabajando con las últimas características, mejoras y correcciones de errores.
 
-Esto asegura que los usuarios siempre estén trabajando con las últimas funciones, mejoras y correcciones de errores.
-
-Después de activar o desactivar el ajuste, haz clic en el botón **Guardar** en la esquina inferior derecha para aplicar tus cambios.
+Después de activar o desactivar la configuración, haz clic en el botón **Guardar** en la esquina inferior derecha para aplicar tus cambios.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_5.png)
