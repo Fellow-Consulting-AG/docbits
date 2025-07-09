@@ -66,10 +66,8 @@ To ustawienie pozwala włączyć powiadomienie popup, gdy nowa wersja aplikacji 
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_4.png)
 
-Kliknij **Odśwież, aby zamknąć** w oknie dialogowym. Aplikacja zostanie przeładowana i otwarta z najnowszą wersją.
+Kliknij **Odśwież, aby zamknąć** w oknie dialogowym. **DocBits** zostanie przeładowane i otworzy się z najnowszą wersją. Zapewnia to, że użytkownicy zawsze pracują z najnowszymi funkcjami, ulepszeniami i poprawkami błędów.
 
-Zapewnia to, że użytkownicy zawsze pracują z najnowszymi funkcjami, ulepszeniami i poprawkami błędów.
-
-Po przełączeniu ustawienia włącz/wyłącz kliknij przycisk **Ratować** w prawym dolnym rogu, aby zastosować zmiany.
+Po przełączeniu ustawienia włączone/wyłączone kliknij przycisk **Ratować** w prawym dolnym rogu, aby zastosować zmiany.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_5.png)
