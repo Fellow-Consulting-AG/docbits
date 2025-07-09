@@ -91,6 +91,7 @@
 * [Settings](administration-and-setup/settings/README.md)
   * [Global Settings](administration-and-setup/settings/global-settings/README.md)
     * [Company Information](administration-and-setup/settings/global-settings/company-information/README.md)
+      * [Company Preferences](administration-and-setup/settings/global-settings/company-information/company-preferences.md)
       * [Defining App Color in Company Settings](administration-and-setup/settings/global-settings/company-information/defining-app-color-in-company-settings.md)
     * [Groups, Users and Permissions](administration-and-setup/settings/global-settings/groups-users-and-permissions/README.md)
       * [Users](administration-and-setup/settings/global-settings/groups-users-and-permissions/users/README.md)
