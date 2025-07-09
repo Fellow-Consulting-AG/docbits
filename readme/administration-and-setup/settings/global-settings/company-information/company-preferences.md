@@ -45,7 +45,7 @@ Nachdem Sie Ihre Änderungen vorgenommen haben, klicken Sie auf die Schaltfläch
 
 ## Betragsformatierung
 
-Diese Einstellung ermöglicht es Ihnen, zu definieren, wie Beträge in der gesamten Anwendung formatiert werden – zum Beispiel, ob ein Komma ( , ) oder ein Punkt ( . ) als Dezimaltrennzeichen verwendet werden soll.
+Diese Einstellung ermöglicht es Ihnen, festzulegen, wie Beträge in der gesamten Anwendung formatiert werden – zum Beispiel, ob ein Komma ( , ) oder ein Punkt ( . ) als Dezimaltrennzeichen verwendet werden soll.
 
 #### **Beispiel Formate:**
 
@@ -66,9 +66,7 @@ Diese Einstellung ermöglicht es Ihnen, eine Popup-Benachrichtigung zu aktiviere
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/company_preferences_4.png)
 
-Klicken Sie im Dialogfenster auf **Aktualisieren zum Schließen**. Die Anwendung wird neu geladen und öffnet sich mit der neuesten Version.
-
-Dies stellt sicher, dass die Benutzer immer mit den neuesten Funktionen, Verbesserungen und Fehlerbehebungen arbeiten.
+Klicken Sie im Dialogfenster auf **Aktualisieren zum Schließen**. **DocBits** wird neu geladen und mit der neuesten Version geöffnet. Dies stellt sicher, dass die Benutzer immer mit den neuesten Funktionen, Verbesserungen und Fehlerbehebungen arbeiten.
 
 Nachdem Sie die Einstellung ein- oder ausgeschaltet haben, klicken Sie auf die Schaltfläche **Speichern** in der unteren rechten Ecke, um Ihre Änderungen anzuwenden.
 
