@@ -1,6 +1,6 @@
 # Firmeninformationen
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2008.18.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2008.18.42.png" alt=""><figcaption></figcaption></figure>
 
 1. **Firmenname**: Der rechtliche Name der Firma, wie eingetragen.
 2. **Straße + Nummer**: Die physische Adresse des Hauptbüros oder Hauptsitzes der Firma.
