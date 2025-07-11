@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **AI Model s**etting allows you to define which AI model should be used by default for **AI** **table extraction** during document processing. You can also view the token cost for each model and see which model is currently assigned to each supplier.
+The **AI Model** setting allows you to define which AI model should be used by default for **AI** **table extraction** during document processing. You can also view the token cost for each model and see which model is currently assigned to each supplier.
 
 ## How to Access
 
