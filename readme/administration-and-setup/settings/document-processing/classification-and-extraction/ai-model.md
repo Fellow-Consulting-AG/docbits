@@ -29,7 +29,7 @@ The table displays the AI model settings for each supplier, including the follow
 
 * **Supplier ID** – The unique identifier of the supplier
 * **AI Model** – The AI model currently assigned to the supplier
-* **E-Text** – Indicates whether E-Text settings are enabled
+* **E-Text**: Indicates whether the E-Text feature is enabled (`On` or `Off`).
 * **Action** – Contains the option to delete the entry
 
 <figure><img src="../../../../.gitbook/assets/ai_model_3.png" alt=""><figcaption></figcaption></figure>
