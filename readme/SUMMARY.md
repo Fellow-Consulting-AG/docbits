@@ -275,7 +275,8 @@
 
 ## Funzioni e strumenti avanzati <a href="#advanced-functions-and-tools" id="advanced-functions-and-tools"></a>
 
-* [Postman for DocBits](advanced-functions-and-tools/postman-for-docbits.md)
+* [Postman for DocBits](advanced-functions-and-tools/postman-for-docbits/README.md)
+  * [Testa la tua connessione BOD con Postman](advanced-functions-and-tools/postman-for-docbits/test-your-bod-connection-with-postman.md)
 * [Importazione dei Dati di Fornitori e Ordini di Acquisto in DocBits da File CSV](advanced-functions-and-tools/importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md)
 * [Operatore DocBits](advanced-functions-and-tools/docbits-operator/README.md)
   * [Guida alla Scrittura dei Prompts](advanced-functions-and-tools/docbits-operator/prompt-writing-guide.md)
