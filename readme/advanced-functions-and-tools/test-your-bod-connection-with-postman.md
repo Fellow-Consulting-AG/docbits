@@ -23,7 +23,7 @@ This page explains how to verify the successful processing of your BOD (Business
 2.  In the **Actions** column of the relevant export entry, click the three-dot menu and select **Edit**.
 
     <figure><img src="../.gitbook/assets/test_bod_connection_postman_2.png" alt=""><figcaption></figcaption></figure>
-3.  Locate the BOD mapping file and click the **Download** button to save it.
+3.  Locate the **BOD Mapping File** and click the **Download** button to save it.
 
     <figure><img src="../.gitbook/assets/test_bod_connection_postman_3.png" alt=""><figcaption></figcaption></figure>
 
