@@ -49,11 +49,11 @@ This page explains how to verify the successful processing of your BOD (Business
 
     <figure><img src="../../.gitbook/assets/test_bod_connection_postman_5.png" alt=""><figcaption></figcaption></figure>
 2.  **Set the API Key**\
-    Go to the **Headers** tab, locate the `X-API-KEY` header, and paste your API key in the value field.
+    Go to the **Headers** tab, locate the `X-API-KEY` header, and paste your API key into the **Value** column.
 
     <figure><img src="../../.gitbook/assets/test_bod_connection_postman_6.png" alt=""><figcaption></figcaption></figure>
 3.  **Upload the BOD File**\
-    Go to the **Body** tab, locate the `file` key, then click **Select Files** in the value field and upload your BOD XML file.
+    Go to the **Body** tab, locate the `file` key, then click **Select Files** in the **Value** column and upload your BOD XML file.
 
     <figure><img src="../../.gitbook/assets/test_bod_connection_postman_7.png" alt=""><figcaption></figcaption></figure>
 4.  **Send the Request**\
