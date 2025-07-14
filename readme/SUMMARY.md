@@ -279,5 +279,6 @@
   * [Guia de Escrita de Prompt](advanced-functions-and-tools/docbits-operator/prompt-writing-guide.md)
   * [Acionar Prompts com um Fluxo de Trabalho](advanced-functions-and-tools/docbits-operator/triggering-prompts-with-a-workflow/README.md)
     * [Fluxo de Execução On-Premise](advanced-functions-and-tools/docbits-operator/triggering-prompts-with-a-workflow/on-premise-execution-flow.md)
-* [Postman for DocBits](advanced-functions-and-tools/postman-for-docbits.md)
+* [Postman for DocBits](advanced-functions-and-tools/postman-for-docbits/README.md)
+  * [Teste sua conexão BOD com Postman](advanced-functions-and-tools/postman-for-docbits/test-your-bod-connection-with-postman.md)
 * [Importando Dados de Fornecedor e Pedido de Compra no DocBits a partir de Arquivos CSV](advanced-functions-and-tools/importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md)
