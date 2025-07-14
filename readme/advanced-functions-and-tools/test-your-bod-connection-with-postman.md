@@ -11,7 +11,7 @@ This page explains how to verify the successful processing of your BOD (Business
 1.  Go to **Settings → Global Settings → Integration & SSO**.
 
     <figure><img src="../.gitbook/assets/settings_integration.png" alt=""><figcaption></figcaption></figure>
-2.  You can either manually copy your API key or click the copy button to copy it to your clipboard.
+2.  You can either manually copy your **API key** or click the copy button to copy it to your clipboard.
 
     <figure><img src="../.gitbook/assets/test_bod_connection_postman_1.png" alt=""><figcaption></figcaption></figure>
 
