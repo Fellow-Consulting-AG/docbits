@@ -1,15 +1,146 @@
 # List Of Values
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.20.51.png" alt=""><figcaption></figcaption></figure>
+## Overview
 
-The "List of Values" setting in your document processing system is essentially a central repository for managing predefined values that can be used across various forms and fields within the system. This setting is particularly useful for standardizing data entry and ensuring consistency across documents processed by the system.
+The **List of Values** feature allows you to create and manage predefined sets of values. This is particularly useful for configuring dropdown menus in the **Fields** section, which can later be used for field validation. These lists can be customized based on different sub-organizations and can support multiple languages, providing flexibility across **DocBits**.
 
-1. **Segmentation by Type**: Each section, such as "ISO\_Currency", "Invoice\_Sub\_Type", "Invoice\_Type", and "Test", represents a different category of predefined values. These categories are used to manage different types of data inputs relevant to their specific contexts within the system.
-2. **Values and Synonyms**: Under each category, you can define multiple values. For example, under "Invoice\_Sub\_Type", values like "Cost Invoice" and "Purchase Invoice" are listed. Additionally, you have the capability to assign synonyms to these values, enhancing the flexibility and reach of data capture. For example, "Cost Invoice" has synonyms like "Kostenrechnung" and "Cost Invoice".
-3. **Usage Across Sub-Organizations**: These values can also be made specific to certain sub-organizations within your setup, allowing for customization and localization of document processing workflows.
-4.  **Adding and Managing Values**: When you press the action button, you are presented with two options for adding values to your list. The first option is to add rows manually. By clicking the **Add Row** button, a popup appears that lets you introduce new values along with any synonyms. If you need to add multiple entries, you can simply click **Add More Values** to generate another row.\
+## How to Access?
 
+You can access the **List of Values** by navigating to **Settings → Document Processing → List of Values**.
 
-    The second option is to upload a CSV file. To do this, click the **Upload CSV** button, select a **CSV** file you wish to import, choose the correct delimiter to ensure the data is parsed accurately, and then click **Upload** to complete the process.
+<figure><img src="../../../.gitbook/assets/settings_list_of_values.png" alt=""><figcaption></figcaption></figure>
 
-    In addition, each row includes an action button that allows you to edit or delete an existing entry as needed.&#x20;
+## How to Add a New List
+
+To create a new List of Values:
+
+1.  Click **New** in the upper-right corner of the screen.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_1.png" alt=""><figcaption></figcaption></figure>
+2. Enter a **name** for your list.
+3. _(Optional)_ Select a **Sub-Organization** for which the list should be active.
+4.  Click **Save** to create the list.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_2.png" alt=""><figcaption></figcaption></figure>
+
+## How to Add Values to an Existing List&#x20;
+
+You can add values to an existing List of Values using one of the following methods:
+
+* **Manually add values** – Enter values individually through the interface.
+* **Import values from a CSV file** – Upload a CSV file to add multiple values at once.
+
+### **Manually add values**
+
+1.  Click on the list you desire to add values to
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_3.png" alt=""><figcaption></figcaption></figure>
+2.  Click on **Actions**
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_4.png" alt=""><figcaption></figcaption></figure>
+3.  Click on **Add Row**
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_5.png" alt=""><figcaption></figcaption></figure>
+
+Now you can specify multiple properties for each entry:
+
+<figure><img src="../../../.gitbook/assets/list_of_values_6.png" alt=""><figcaption></figcaption></figure>
+
+**Value**: This is how the item will be stored internally within **DocBits**. It remains the same across all languages and also serves as the default display text during field validation if no label is specified for the selected language.
+
+**Label**: This is the text displayed on the validation screen, based on the selected language. If no label is available for the active language in DocBits, the system will default to displaying the **Value**.
+
+**Language**: Defines the language for which the label will be shown.
+
+**Sub-Organizations**: Specifies which **sub-organization** the row should be active for. If left blank, the row will be available for all organizations.
+
+**Synonyms**: Here you can specify additional values that help train your document.\
+For example, if **EUR** is your primary **value**, you can add EURO and € as **synonyms**. When the document is trained using any of these **synonyms**, **DocBits** will automatically recognize and select EUR as the corresponding value from your list.
+
+4.  After specifying all the desired properties, save your new row by clicking the **Save** button.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_11.png" alt=""><figcaption></figcaption></figure>
+
+### Import Values from a CSV File
+
+To import values into an existing list using a CSV file:
+
+1.  Click on the list you want to add values to.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_3.png" alt=""><figcaption></figcaption></figure>
+2.  Click **Actions**.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_4.png" alt=""><figcaption></figcaption></figure>
+3.  Click on **Upload CSV**.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_7.png" alt=""><figcaption></figcaption></figure>
+4. Click **File** to browse and select the CSV file you want to upload.
+5. Choose the appropriate **delimiter** used in the CSV file (`;` or `,`).
+6.  Click **Upload** to import the values.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_8.png" alt=""><figcaption></figcaption></figure>
+
+## How to Edit a Row
+
+1. Locate the row you want to edit.
+2. Click the **three dots** in the **Actions** column.
+3.  Select **Edit** from the dropdown menu.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_10.png" alt=""><figcaption></figcaption></figure>
+4. Make the required changes.
+5.  Click **Save** to apply your changes.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_11.png" alt=""><figcaption></figcaption></figure>
+
+## Add Translations to Your List Items
+
+You can add as many translations as there are supported languages in **DocBits**.
+
+To add a translation:
+
+1.  Click the **plus (+)** icon.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_14.png" alt=""><figcaption></figcaption></figure>
+2.  Select a language from the dropdown menu.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_15.png" alt=""><figcaption></figcaption></figure>
+3.  Enter the desired translation in the **Label** field.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_16.png" alt=""><figcaption></figcaption></figure>
+4.  To add another translation, click the **plus (+)** icon again.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_17.png" alt=""><figcaption></figcaption></figure>
+5.  To remove a translation, click the **trash can** icon.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_18.png" alt=""><figcaption></figcaption></figure>
+6.  When finished, click the **Save** button to save your translations.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_19.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Note**</mark>: If no label is available for the active language, DocBits will default to displaying the **Value**.
+
+## System-Defined Lists and Rows
+
+Some lists are pre-created by the system and are marked with the **Standard** tag. These lists cannot be deleted, but you can add new rows to them and remove those newly added rows if necessary.
+
+<figure><img src="../../../.gitbook/assets/list_of_values_9.png" alt=""><figcaption></figcaption></figure>
+
+Within these standard lists, certain rows are marked with the **Default** tag—these are system-defined entries. You can add new **labels** in different languages, but these default rows cannot be deleted.
+
+## How to Delete a Row
+
+1. Locate the row you want to delete.
+2. Click the **three dots** in the **Actions** column.
+3.  Select **Delete** from the dropdown menu.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_12.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Note**</mark>: The row will be deleted immediately. Rows marked with the **Default** tag cannot be deleted.
+
+## How to Delete a List
+
+To delete a list you can simply click on the trashcan icon of the corresponding list
+
+<figure><img src="../../../.gitbook/assets/list_of_values_13.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Note**</mark>: The list will be deleted immediately. Lists marked with the **Standard** tag cannot be deleted.
