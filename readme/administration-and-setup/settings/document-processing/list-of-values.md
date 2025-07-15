@@ -10,9 +10,9 @@ You can access the **List of Values** by navigating to **Settings → Document P
 
 <figure><img src="../../../.gitbook/assets/settings_list_of_values.png" alt=""><figcaption></figcaption></figure>
 
-## How to Add a New List
+## How to Add/Delete a List
 
-To create a new List of Values:
+### How To create a new List of Values:
 
 1.  Click **New** in the upper-right corner of the screen.
 
@@ -23,7 +23,15 @@ To create a new List of Values:
 
     <figure><img src="../../../.gitbook/assets/list_of_values_2.png" alt=""><figcaption></figcaption></figure>
 
-## How to Add Values to an Existing List&#x20;
+### How to Delete a List
+
+To delete a list you can simply click on the trashcan icon of the corresponding list
+
+<figure><img src="../../../.gitbook/assets/list_of_values_13.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Note**</mark>: The list will be deleted immediately. Lists marked with the **Standard** tag cannot be deleted.
+
+## How to Add/Edit/Remove Values to an Existing List&#x20;
 
 You can add values to an existing List of Values using one of the following methods:
 
@@ -80,7 +88,7 @@ To import values into an existing list using a CSV file:
 
     <figure><img src="../../../.gitbook/assets/list_of_values_8.png" alt=""><figcaption></figcaption></figure>
 
-## How to Edit a Row
+## How to Edit existing Values
 
 1. Locate the row you want to edit.
 2. Click the **three dots** in the **Actions** column.
@@ -91,6 +99,16 @@ To import values into an existing list using a CSV file:
 5.  Click **Save** to apply your changes.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_11.png" alt=""><figcaption></figcaption></figure>
+
+### How to Delete Values
+
+1. Locate the row you want to delete.
+2. Click the **three dots** in the **Actions** column.
+3.  Select **Delete** from the dropdown menu.
+
+    <figure><img src="../../../.gitbook/assets/list_of_values_12.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Note**</mark>: The row will be deleted immediately. Rows marked with the **Default** tag cannot be deleted.
 
 ## Add Translations to Your List Items
 
@@ -126,21 +144,3 @@ Some lists are pre-created by the system and are marked with the **Standard** ta
 <figure><img src="../../../.gitbook/assets/list_of_values_9.png" alt=""><figcaption></figcaption></figure>
 
 Within these standard lists, certain rows are marked with the **Default** tag—these are system-defined entries. You can add new **labels** in different languages, but these default rows cannot be deleted.
-
-## How to Delete a Row
-
-1. Locate the row you want to delete.
-2. Click the **three dots** in the **Actions** column.
-3.  Select **Delete** from the dropdown menu.
-
-    <figure><img src="../../../.gitbook/assets/list_of_values_12.png" alt=""><figcaption></figcaption></figure>
-
-<mark style="color:red;">**Note**</mark>: The row will be deleted immediately. Rows marked with the **Default** tag cannot be deleted.
-
-## How to Delete a List
-
-To delete a list you can simply click on the trashcan icon of the corresponding list
-
-<figure><img src="../../../.gitbook/assets/list_of_values_13.png" alt=""><figcaption></figcaption></figure>
-
-<mark style="color:red;">**Note**</mark>: The list will be deleted immediately. Lists marked with the **Standard** tag cannot be deleted.
