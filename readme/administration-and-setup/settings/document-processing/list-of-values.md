@@ -88,7 +88,7 @@ To import values into an existing list using a CSV file:
 
     <figure><img src="../../../.gitbook/assets/list_of_values_8.png" alt=""><figcaption></figcaption></figure>
 
-## How to Edit existing Values
+### How to Edit existing Values
 
 1. Locate the row you want to edit.
 2. Click the **three dots** in the **Actions** column.
@@ -110,7 +110,7 @@ To import values into an existing list using a CSV file:
 
 <mark style="color:red;">**Note**</mark>: The row will be deleted immediately. Rows marked with the **Default** tag cannot be deleted.
 
-## Add Translations to Your List Items
+## Add Translations to Your Values
 
 You can add as many translations as there are supported languages in **DocBits**.
 
