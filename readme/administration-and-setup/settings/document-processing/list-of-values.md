@@ -119,7 +119,7 @@ You can add as many translations as there are supported languages in **DocBits**
 
 To add a translation:
 
-1.  Click the **plus (+)** icon.
+1.  Click the plus (+) icon.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_14.png" alt=""><figcaption></figcaption></figure>
 2.  Select a language from the dropdown menu.
@@ -138,7 +138,7 @@ To add a translation:
 
     <figure><img src="../../../.gitbook/assets/list_of_values_19.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note**</mark>: If no label is available for the active language, DocBits will default to displaying the **Value**.
+<mark style="color:red;">**Note**</mark>: If no **Label** is available for the active language, DocBits will default to displaying the **Value**.
 
 ## System-Defined Lists and Rows
 
