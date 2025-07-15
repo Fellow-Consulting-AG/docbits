@@ -66,7 +66,8 @@ A more detailed explanation can be found [here](list-of-values.md#add-translatio
 **Sub-Organizations**: Specifies which **sub-organization** the row should be active for. If left blank, the row will be available for all organizations.
 
 **Synonyms**: Here you can specify additional values that help train your document.\
-For example, if **EUR** is your primary **value**, you can add EURO and € as **synonyms**. When the document is trained using any of these **synonyms**, **DocBits** will automatically recognize and select EUR as the corresponding value from your list.
+For example, if **EUR** is your primary **value**, you can add EURO and € as **synonyms**. When the document is trained using any of these **synonyms**, **DocBits** will automatically recognize and select EUR as the corresponding value from your list.\
+<mark style="color:red;">**Note**</mark>: Each synonym must be confirmed by pressing **Enter** to add it to the list.
 
 4.  After entering all desired properties, click the **Save** button to add the row.
 
