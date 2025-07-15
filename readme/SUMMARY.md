@@ -511,6 +511,7 @@
   * [M3 Export](advanced-functions-and-tools/course/m3-export.md)
   * [Sync Flex Dimensions: Infor to DocBits](advanced-functions-and-tools/course/sync-flex-dimensions-infor-to-docbits.md)
 * [Postman for DocBits](advanced-functions-and-tools/postman-for-docbits/README.md)
+  * [Test](advanced-functions-and-tools/postman-for-docbits/test.md)
   * [Test your BOD connection with Postman](advanced-functions-and-tools/postman-for-docbits/test-your-bod-connection-with-postman.md)
 * [SQL Access](advanced-functions-and-tools/sql-access.md)
 * [Importing Supplier and Purchase Order Data into DocBits from CSV Files](advanced-functions-and-tools/importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md)
