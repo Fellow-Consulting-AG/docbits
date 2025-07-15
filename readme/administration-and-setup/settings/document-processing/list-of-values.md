@@ -86,7 +86,7 @@ To add multiple values at once via CSV import:
 
     <figure><img src="../../../.gitbook/assets/list_of_values_7.png" alt=""><figcaption></figcaption></figure>
 4. Click **File** to browse and select the CSV file you want to upload.
-5. Choose the appropriate **delimiter** used in the CSV file (`;` or `,`).
+5. Choose the appropriate **Delimiter** used in the CSV file (`;` or `,`).
 6.  Click **Upload** to import the values.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_8.png" alt=""><figcaption></figcaption></figure>
@@ -94,7 +94,7 @@ To add multiple values at once via CSV import:
 ### Edit Existing Values
 
 1. Locate the row you want to edit.
-2. Click the **three dots** in the **Actions** column.
+2. Click the three dots in the **Actions** column.
 3.  Select **Edit** from the dropdown menu.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_10.png" alt=""><figcaption></figcaption></figure>
@@ -106,7 +106,7 @@ To add multiple values at once via CSV import:
 ### Delete Values
 
 1. Locate the row you want to delete.
-2. Click the **three dots** in the **Actions** column.
+2. Click the three dots in the **Actions** column.
 3.  Select **Delete** from the dropdown menu.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_12.png" alt=""><figcaption></figcaption></figure>
