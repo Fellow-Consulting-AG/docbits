@@ -2,7 +2,9 @@
 
 ## Overview
 
-The **List of Values** feature allows you to create and manage predefined sets of values. This is particularly useful for configuring dropdown menus in the **Fields** section, which can later be used for field validation. These lists can be customized based on different sub-organizations and can support multiple languages, providing flexibility across **DocBits**.
+The **List of Values** feature allows you to create and manage predefined sets of values. This is particularly useful for configuring dropdown menus in the [**Fields**](../global-settings/document-types/fields/) section, which can later be used in **Field Validation**.
+
+These lists can be customized for different sub-organizations and support multiple languages, providing flexibility across **DocBits**.
 
 ## How to Access?
 
@@ -10,9 +12,9 @@ You can access the **List of Values** by navigating to **Settings → Document P
 
 <figure><img src="../../../.gitbook/assets/settings_list_of_values.png" alt=""><figcaption></figcaption></figure>
 
-## How to Add/Delete a List
+## How to Add or Delete a List
 
-### How To create a new List of Values:
+### Create a New List of Values
 
 1.  Click **New** in the upper-right corner of the screen.
 
@@ -25,28 +27,28 @@ You can access the **List of Values** by navigating to **Settings → Document P
 
 ### How to Delete a List
 
-To delete a list you can simply click on the trashcan icon of the corresponding list
+To delete a list, click the trash can icon next to the corresponding list.
 
 <figure><img src="../../../.gitbook/assets/list_of_values_13.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note**</mark>: The list will be deleted immediately. Lists marked with the **Standard** tag cannot be deleted.
+<mark style="color:red;">**Note**</mark>: The list will be deleted immediately. Lists marked with the [**Standard**](list-of-values.md#system-defined-lists-and-rows) tag cannot be deleted.
 
-## How to Add/Edit/Remove Values to an Existing List&#x20;
+## How to Add, Edit, or Remove Values from an Existing List&#x20;
 
-You can add values to an existing List of Values using one of the following methods:
+You can manage values in an existing **List of Values** using one of the following methods:
 
 * **Manually add values** – Enter values individually through the interface.
 * **Import values from a CSV file** – Upload a CSV file to add multiple values at once.
 
-### **Manually add values**
+### Manually Add Values
 
-1.  Click on the list you desire to add values to
+1.  Click on the list you want to modify.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_3.png" alt=""><figcaption></figcaption></figure>
-2.  Click on **Actions**
+2.  Click on **Actions.**
 
     <figure><img src="../../../.gitbook/assets/list_of_values_4.png" alt=""><figcaption></figcaption></figure>
-3.  Click on **Add Row**
+3.  Click on **Add Row.**
 
     <figure><img src="../../../.gitbook/assets/list_of_values_5.png" alt=""><figcaption></figcaption></figure>
 
@@ -58,22 +60,23 @@ Now you can specify multiple properties for each entry:
 
 **Label**: This is the text displayed on the validation screen, based on the selected language. If no label is available for the active language in DocBits, the system will default to displaying the **Value**.
 
-**Language**: Defines the language for which the label will be shown.
+**Language**: Specifies the language in which the label will be displayed.\
+A more detailed explanation can be found [here](list-of-values.md#add-translations-to-your-values).
 
 **Sub-Organizations**: Specifies which **sub-organization** the row should be active for. If left blank, the row will be available for all organizations.
 
 **Synonyms**: Here you can specify additional values that help train your document.\
 For example, if **EUR** is your primary **value**, you can add EURO and € as **synonyms**. When the document is trained using any of these **synonyms**, **DocBits** will automatically recognize and select EUR as the corresponding value from your list.
 
-4.  After specifying all the desired properties, save your new row by clicking the **Save** button.
+4.  After entering all desired properties, click the **Save** button to add the row.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_11.png" alt=""><figcaption></figcaption></figure>
 
 ### Import Values from a CSV File
 
-To import values into an existing list using a CSV file:
+To add multiple values at once via CSV import:
 
-1.  Click on the list you want to add values to.
+1.  Click on the list you want to update.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_3.png" alt=""><figcaption></figcaption></figure>
 2.  Click **Actions**.
@@ -88,7 +91,7 @@ To import values into an existing list using a CSV file:
 
     <figure><img src="../../../.gitbook/assets/list_of_values_8.png" alt=""><figcaption></figcaption></figure>
 
-### How to Edit existing Values
+### Edit Existing Values
 
 1. Locate the row you want to edit.
 2. Click the **three dots** in the **Actions** column.
@@ -100,7 +103,7 @@ To import values into an existing list using a CSV file:
 
     <figure><img src="../../../.gitbook/assets/list_of_values_11.png" alt=""><figcaption></figcaption></figure>
 
-### How to Delete Values
+### Delete Values
 
 1. Locate the row you want to delete.
 2. Click the **three dots** in the **Actions** column.
@@ -108,7 +111,7 @@ To import values into an existing list using a CSV file:
 
     <figure><img src="../../../.gitbook/assets/list_of_values_12.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note**</mark>: The row will be deleted immediately. Rows marked with the **Default** tag cannot be deleted.
+<mark style="color:red;">**Note**</mark>: The row will be deleted immediately. Rows marked with the [**Default**](list-of-values.md#system-defined-lists-and-rows) tag cannot be deleted.
 
 ## Add Translations to Your Values
 
@@ -125,10 +128,10 @@ To add a translation:
 3.  Enter the desired translation in the **Label** field.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_16.png" alt=""><figcaption></figcaption></figure>
-4.  To add another translation, click the **plus (+)** icon again.
+4.  To add another translation, click the plus (+) icon again.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_17.png" alt=""><figcaption></figcaption></figure>
-5.  To remove a translation, click the **trash can** icon.
+5.  To remove a translation, click the trash can icon.
 
     <figure><img src="../../../.gitbook/assets/list_of_values_18.png" alt=""><figcaption></figcaption></figure>
 6.  When finished, click the **Save** button to save your translations.
