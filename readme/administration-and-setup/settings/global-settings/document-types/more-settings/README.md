@@ -43,7 +43,7 @@ Na seção "Mais Configurações", você pode encontrar várias opções relacio
 * **Aprovar antes da exportação V2**: Habilita a Aprovação V2, permitindo o uso de campos dinâmicos em vez de estáticos. Você também pode personalizar o modelo da tela de aprovação.
 * **Segunda Aprovação**: Adiciona uma camada adicional de aprovação para validação adicional, aprimorando o controle sobre o processamento de documentos. Você também pode personalizar o modelo usado para a tela de aprovação.
 * [**Selo de Aprovação**](approval/approval-stamp.md): Adiciona um selo ao documento quando ele é aprovado.
-* **Histórico de Aprovação**: Permite a exibição do histórico de aprovação tanto na tela de aprovação quanto na validação de campos.
+* [**Histórico de Aprovação**](approval/approval-history.md): Permite a exibição do histórico de aprovação tanto na tela de aprovação quanto na validação de campos.
 
 ## Ordem de Compra
 

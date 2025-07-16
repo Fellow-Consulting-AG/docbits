@@ -120,6 +120,7 @@
         * [Tratamento de Documentos Duplicados](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
         * [Aprovação](administration-and-setup/settings/global-settings/document-types/more-settings/approval/README.md)
           * [Selo de Aprovação](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md)
+          * [Histórico de Aprovação](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-history.md)
         * [Ordem de compra](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/README.md)
           * [Tabela de PO no Construtor de Layout](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/po-table-in-layout-builder.md)
           * [Verificação automática de atualizações de PO](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/auto-check-for-po-updates.md)
