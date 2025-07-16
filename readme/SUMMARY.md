@@ -120,6 +120,7 @@
         * [Detección de duplicados](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
         * [Aprobación](administration-and-setup/settings/global-settings/document-types/more-settings/approval/README.md)
           * [Sello de aprobación](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md)
+          * [Historial de aprobaciones](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-history.md)
         * [Orden de compra](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/README.md)
           * [Tabla de PO en el Constructor de Diseño](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/po-table-in-layout-builder.md)
           * [Verificación automática de actualizaciones de OC](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/auto-check-for-po-updates.md)
