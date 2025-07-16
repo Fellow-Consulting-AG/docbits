@@ -17,7 +17,7 @@ Gdy funkcja E-Text jest włączona, tekst, który pojawia się na obrazach lub l
 
 ## **Rozwiązanie**
 
-Aby rozwiązać ten problem, wyłącz funkcję E-Text—dla [**konkretnego dostawcy**](brakujacy-tekst-w-ekstrakcji-ocr.md#wylacz-e-text-dla-konkretnego-dostawcy) lub dla [całej organizacji](brakujacy-tekst-w-ekstrakcji-ocr.md#wylacz-e-text-dla-calej-organizacji). Po dezaktywowaniu E-Text, DocBits będzie polegać wyłącznie na OCR, który jest w stanie wyodrębnić tekst z obrazów i logo w dokumencie.
+Aby rozwiązać ten problem, wyłącz funkcję E-Text—dla [**konkretnego dostawcy**](missing-text-in-ocr-extraction.md#wylacz-e-text-dla-konkretnego-dostawcy) lub dla [całej organizacji](missing-text-in-ocr-extraction.md#wylacz-e-text-dla-calej-organizacji). Po dezaktywowaniu E-Text, DocBits będzie polegać wyłącznie na OCR, który jest w stanie wyodrębnić tekst z obrazów i logo w dokumencie.
 
 ### **Wyłącz E-Text dla konkretnego dostawcy**
 
