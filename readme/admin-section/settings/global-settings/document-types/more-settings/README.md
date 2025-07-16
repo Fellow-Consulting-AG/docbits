@@ -43,7 +43,7 @@ Im Abschnitt "Weitere Einstellungen" finden Sie verschiedene Optionen zu einzeln
 * **Vor dem Export genehmigen V2**: Aktiviert Genehmigung V2, die die Verwendung von dynamischen Feldern anstelle von statischen ermöglicht. Sie können auch die Vorlage für den Genehmigungsbildschirm anpassen.
 * **Zweite Genehmigung**: Fügt eine zusätzliche Genehmigungsebene für weitere Validierung hinzu, um die Kontrolle über die Dokumentenverarbeitung zu verbessern. Sie können auch die Vorlage für den Genehmigungsbildschirm anpassen.
 * [**Genehmigungsstempel**](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md): Fügt dem Dokument einen Stempel hinzu, wenn es genehmigt wird.
-* **Genehmigungsverlauf**: Ermöglicht die Anzeige des Genehmigungsverlaufs sowohl im Genehmigungsbildschirm als auch in der Feldvalidierung.
+* [**Genehmigungsverlauf**](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-history.md): Ermöglicht die Anzeige des Genehmigungsverlaufs sowohl im Genehmigungsbildschirm als auch in der Feldvalidierung.
 
 ## Bestellung
 

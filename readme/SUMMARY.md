@@ -135,6 +135,7 @@
         * [Erkennung von Duplikaten](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
         * [Zulassung](administration-and-setup/settings/global-settings/document-types/more-settings/approval/README.md)
           * [Genehmigungsstempel](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md)
+          * [Genehmigungsverlauf](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-history.md)
         * [Bestellung](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/README.md)
           * [Auftragstabelle im Layout-Builder](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/po-table-in-layout-builder.md)
           * [Automatische Prüfung auf PO-Aktualisierungen](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/auto-check-for-po-updates.md)
