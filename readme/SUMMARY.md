@@ -161,7 +161,7 @@
       * [Automatische Erfassung des Steuercodes](administration-and-setup/settings/document-processing/classification-and-extraction/automatische-erfassung-des-steuercodes.md)
       * [AI-Modell](administration-and-setup/settings/document-processing/classification-and-extraction/ai-model.md)
     * [Master Data Lookup](admin-section/settings/document-processing/master-data-lookup.md)
-    * [List Of Values](admin-section/settings/document-processing/list-of-values.md)
+    * [Liste von Werten](admin-section/settings/document-processing/list-of-values.md)
     * [Export](admin-section/settings/document-processing/export.md)
     * [Module](admin-section/settings/document-processing/module/README.md)
       * [Anmerkungsmodus](administration-and-setup/settings/document-processing/module/annotation-mode.md)
