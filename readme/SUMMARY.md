@@ -161,7 +161,7 @@
       * [Extracción de tablas para el elemento de costos](administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md)
       * [Modelo de IA](administration-and-setup/settings/document-processing/classification-and-extraction/ai-model.md)
     * [Master Data Lookup](administration-and-setup/settings/document-processing/master-data-lookup.md)
-    * [List Of Values](administration-and-setup/settings/document-processing/list-of-values.md)
+    * [Lista de valores](administration-and-setup/settings/document-processing/list-of-values.md)
     * [Exportar](administration-and-setup/settings/document-processing/export.md)
     * [Module](administration-and-setup/settings/document-processing/module/README.md)
       * [Modo de Anotación](administration-and-setup/settings/document-processing/module/annotation-mode.md)
