@@ -37,8 +37,8 @@ Um eine Liste zu löschen, klicken Sie auf das Papierkorb-Symbol neben der entsp
 
 Sie können Werte in einer bestehenden **Liste von Werten** mit einer der folgenden Methoden verwalten:
 
-* **Werte manuell hinzufügen** – Geben Sie Werte einzeln über die Benutzeroberfläche ein.
-* **Werte aus einer CSV-Datei importieren** – Laden Sie eine CSV-Datei hoch, um mehrere Werte auf einmal hinzuzufügen.
+* [**Werte manuell hinzufügen**](list-of-values.md#werte-manuell-hinzufugen) – Geben Sie Werte einzeln über die Benutzeroberfläche ein.
+* [**Werte aus einer CSV-Datei importieren**](list-of-values.md#werte-aus-einer-csv-datei-importieren) – Laden Sie eine CSV-Datei hoch, um mehrere Werte auf einmal hinzuzufügen.
 
 ### Werte manuell hinzufügen
 
