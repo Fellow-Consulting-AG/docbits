@@ -17,7 +17,7 @@ When the **E-Text** feature is enabled, text that appears on images or logos is 
 
 ## **Fix**
 
-To resolve this issue, disable the **E-Text** feature—either for the [specific supplier](missing-text-in-ocr-extraction.md#disable-e-text-for-a-specific-supplier) or for the [entire organization](missing-text-in-ocr-extraction.md#disable-e-text-for-the-entire-organization). Once E-Text is deactivated, DocBits will rely solely on OCR, which is capable of extracting text from images and logos within the document.
+To resolve this issue, disable the E-Text feature—either for the [specific supplier](missing-text-in-ocr-extraction.md#disable-e-text-for-a-specific-supplier) or for the [entire organization](missing-text-in-ocr-extraction.md#disable-e-text-for-the-entire-organization). Once E-Text is deactivated, DocBits will rely solely on OCR, which is capable of extracting text from images and logos within the document.
 
 ### **Disable E-Text for a Specific Supplier**
 
