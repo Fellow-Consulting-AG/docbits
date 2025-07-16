@@ -42,6 +42,8 @@
     * [Datos Difusos](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [Códigos QR](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
     * [Atajos de Teclado](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
+    * [Solución de problemas](end-user-and-partner-section/end-user-section/validation-screen/troubleshooting/README.md)
+      * [Texto faltante en la extracción de OCR](end-user-and-partner-section/end-user-section/validation-screen/troubleshooting/missing-text-in-ocr-extraction.md)
   * [Propósito y uso](end-user-and-partner-section/end-user-section/proposito-y-uso.md)
   * [Pantalla de Coincidencia de Órdenes de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
     * [Herramientas de coincidencia de órdenes de compra](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
