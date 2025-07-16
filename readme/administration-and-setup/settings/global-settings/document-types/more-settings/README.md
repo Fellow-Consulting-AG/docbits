@@ -43,7 +43,7 @@ Nella sezione "Altre impostazioni", puoi trovare varie opzioni relative ai singo
 * **Approvare prima dell'esportazione V2**: Abilita l'Approvazione V2, consentendo l'uso di campi dinamici invece di quelli statici. Puoi anche personalizzare il modello dello schermo di approvazione.
 * **Seconda approvazione**: Aggiunge un ulteriore livello di approvazione per una convalida aggiuntiva, migliorando il controllo sul processo di elaborazione dei documenti. Puoi anche personalizzare il modello utilizzato per lo schermo di approvazione.
 * [**Timbro di approvazione**](approval/approval-stamp.md): Aggiunge un timbro al documento quando viene approvato.
-* **Storia dell'approvazione**: Abilita la visualizzazione della storia dell'approvazione sia nello schermo di approvazione che nella convalida dei campi.
+* [**Storia dell'approvazione**](approval/approval-history.md): Abilita la visualizzazione della storia dell'approvazione sia nello schermo di approvazione che nella convalida dei campi.
 
 ## Ordine di acquisto
 
