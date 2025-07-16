@@ -2,9 +2,9 @@
 
 ## Descripción general
 
-La función de **Lista de valores** te permite crear y gestionar conjuntos de valores predefinidos. Esto es particularmente útil para configurar menús desplegables en la sección de [**Campos**](../global-settings/document-types/fields/), que luego pueden ser utilizados en la **Validación de campos**.
+La función **Lista de valores** te permite crear y gestionar conjuntos de valores predefinidos. Esto es particularmente útil para configurar menús desplegables en la sección de [**Campos**](../global-settings/document-types/fields/), que luego pueden ser utilizados en la **Validación de campos**.
 
-Estas listas pueden ser personalizadas para diferentes sub-organizaciones y soportan múltiples idiomas, proporcionando flexibilidad a través de **DocBits**.
+Estas listas se pueden personalizar para diferentes sub-organizaciones y admiten múltiples idiomas, proporcionando flexibilidad en **DocBits**.
 
 ## ¿Cómo acceder?
 
@@ -31,7 +31,7 @@ Para eliminar una lista, haz clic en el ícono de la papelera junto a la lista c
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_13.png)
 
-<mark style="color:red;">**Nota**</mark>: La lista se eliminará inmediatamente. Las listas marcadas con la etiqueta [**Estándar**](list-of-values.md#listas-y-filas-definidas-por-el-sistema) no pueden ser eliminadas.
+<mark style="color:red;">**Nota**</mark>: La lista se eliminará inmediatamente. Las listas marcadas con la etiqueta [**Estándar**](list-of-values.md#listas-y-filas-definidas-por-el-sistema) no se pueden eliminar.
 
 ## ¿Cómo añadir, editar o eliminar valores de una lista existente?
 
@@ -60,10 +60,10 @@ Ahora puedes especificar múltiples propiedades para cada entrada:
 
 **Etiqueta**: Este es el texto que se muestra en la pantalla de validación, basado en el idioma seleccionado. Si no hay etiqueta disponible para el idioma activo en DocBits, el sistema mostrará por defecto el **Valor**.
 
-**Idioma**: Especifica el idioma en el cual se mostrará la etiqueta.\
+**Idioma**: Especifica el idioma en el que se mostrará la etiqueta.\
 Una explicación más detallada se puede encontrar [aquí](list-of-values.md#anadir-traducciones-a-tus-valores).
 
-**Sub-organizaciones**: Especifica para qué **sub-organización** la fila debería estar activa. Si se deja en blanco, la fila estará disponible para todas las organizaciones.
+**Sub-organizaciones**: Especifica para qué **sub-organización** debe estar activa la fila. Si se deja en blanco, la fila estará disponible para todas las organizaciones.
 
 **Sinónimos**: Aquí puedes especificar valores adicionales que ayudan a entrenar tu documento.\
 Por ejemplo, si **EUR** es tu **valor** principal, puedes añadir EURO y € como **sinónimos**. Cuando el documento se entrena utilizando cualquiera de estos **sinónimos**, **DocBits** reconocerá y seleccionará automáticamente EUR como el valor correspondiente de tu lista.\
@@ -75,7 +75,7 @@ Por ejemplo, si **EUR** es tu **valor** principal, puedes añadir EURO y € com
 
 ### Importar valores desde un archivo CSV
 
-Para añadir múltiples valores a la vez mediante la importación de CSV:
+Para añadir múltiples valores a la vez mediante importación CSV:
 
 1.  Haz clic en la lista que deseas actualizar.
 
@@ -99,7 +99,7 @@ Para añadir múltiples valores a la vez mediante la importación de CSV:
 3.  Selecciona **Editar** del menú desplegable.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_10.png)
-4. Realiza los cambios requeridos.
+4. Realiza los cambios necesarios.
 5.  Haz clic en **Guardar** para aplicar tus cambios.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_11.png)
@@ -112,11 +112,11 @@ Para añadir múltiples valores a la vez mediante la importación de CSV:
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_12.png)
 
-<mark style="color:red;">**Nota**</mark>: La fila se eliminará inmediatamente. Las filas marcadas con la etiqueta [**Defecto**](list-of-values.md#listas-y-filas-definidas-por-el-sistema) no pueden ser eliminadas.
+<mark style="color:red;">**Nota**</mark>: La fila se eliminará inmediatamente. Las filas marcadas con la etiqueta [**Defecto**](list-of-values.md#listas-y-filas-definidas-por-el-sistema) no se pueden eliminar.
 
 ## Añadir traducciones a tus valores
 
-Puedes añadir tantas traducciones como idiomas soportados en **DocBits**.
+Puedes añadir tantas traducciones como idiomas admitidos en **DocBits**.
 
 Para añadir una traducción:
 
@@ -143,10 +143,10 @@ Para añadir una traducción:
 
 ## Listas y filas definidas por el sistema
 
-Algunas listas son pre-creadas por el sistema y están marcadas con la etiqueta **Estándar**. Estas listas no pueden ser eliminadas, pero puedes añadir nuevas filas a ellas y eliminar esas filas recién añadidas si es necesario.
+Algunas listas son pre-creadas por el sistema y están marcadas con la etiqueta **Estándar**. Estas listas no se pueden eliminar, pero puedes añadir nuevas filas a ellas y eliminar esas filas recién añadidas si es necesario.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_9.png)
 
-Dentro de estas listas estándar, ciertas filas están marcadas con la etiqueta **Defecto**—estas son entradas definidas por el sistema. Puedes añadir nuevas **etiquetas** en diferentes idiomas, pero estas filas por defecto no pueden ser eliminadas.
+Dentro de estas listas estándar, ciertas filas están marcadas con la etiqueta **Defecto**—estas son entradas definidas por el sistema. Puedes añadir nuevas **etiquetas** en diferentes idiomas, pero estas filas por defecto no se pueden eliminar.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_20.png)
