@@ -120,6 +120,7 @@
         * [Détection des doublons](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
         * [Approbation](administration-and-setup/settings/global-settings/document-types/more-settings/approval/README.md)
           * [Cachet d'approbation](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md)
+          * [Historique de l'approbation](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-history.md)
         * [Commande d'achat](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/README.md)
           * [Table PO dans le Constructeur de Mise en Page](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/po-table-in-layout-builder.md)
           * [Vérification automatique des mises à jour de CA](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/auto-check-for-po-updates.md)

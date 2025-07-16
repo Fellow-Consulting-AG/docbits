@@ -43,7 +43,7 @@ Dans la section "Plus de paramètres", vous pouvez trouver diverses options lié
 * **Approuver avant l'exportation V2** : Active l'Approbation V2, permettant l'utilisation de champs dynamiques au lieu de statiques. Vous pouvez également personnaliser le modèle de l'écran d'approbation.
 * **Deuxième approbation** : Ajoute une couche d'approbation supplémentaire pour une validation supplémentaire, améliorant le contrôle sur le traitement des documents. Vous pouvez également personnaliser le modèle utilisé pour l'écran d'approbation.
 * [**Cachet d'approbation**](approval/approval-stamp.md) : Ajoute un cachet au document lorsqu'il est approuvé.
-* **Historique de l'approbation** : Permet l'affichage de l'historique des approbations à la fois dans l'écran d'approbation et la validation des champs.
+* [**Historique de l'approbation**](approval/approval-history.md) : Permet l'affichage de l'historique des approbations à la fois dans l'écran d'approbation et la validation des champs.
 
 ## Bon de commande
 
