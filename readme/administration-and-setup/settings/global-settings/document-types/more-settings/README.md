@@ -43,7 +43,7 @@ W sekcji "Więcej ustawień" znajdziesz różne opcje związane z poszczególnym
 * **Zatwierdź przed eksportem V2**: Włącza Zatwierdzenie V2, umożliwiając użycie dynamicznych pól zamiast statycznych. Możesz również dostosować szablon ekranu zatwierdzenia.
 * **Drugie zatwierdzenie**: Dodaje dodatkową warstwę zatwierdzenia dla dalszej walidacji, zwiększając kontrolę nad przetwarzaniem dokumentów. Możesz również dostosować szablon używany dla ekranu zatwierdzenia.
 * [**Stempel zatwierdzenia**](approval/approval-stamp.md): Dodaje stempel do dokumentu, gdy jest on zatwierdzony.
-* **Historia zatwierdzeń**: Umożliwia wyświetlanie historii zatwierdzeń zarówno na ekranie zatwierdzenia, jak i w walidacji pól.
+* [**Historia zatwierdzeń**](approval/approval-history.md): Umożliwia wyświetlanie historii zatwierdzeń zarówno na ekranie zatwierdzenia, jak i w walidacji pól.
 
 ## Zamówienie zakupu
 
