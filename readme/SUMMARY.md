@@ -39,6 +39,8 @@
     * [Unscharfe Daten](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [QR-Codes](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
     * [Tastenkombinationen](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
+    * [Fehlerbehebung](end-user-and-partner-section/end-user-section/validation-screen/troubleshooting/README.md)
+      * [Fehlender Text in der OCR-Extraktion](end-user-and-partner-section/end-user-section/validation-screen/troubleshooting/missing-text-in-ocr-extraction.md)
   * [Zweck und Verwendung](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Bestellnummer Abgleich Bildschirm](end-user-section/purchase-order-matching/README.md)
     * [Bestellnummer-Abgleich-Tools](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
