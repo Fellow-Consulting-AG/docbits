@@ -66,7 +66,8 @@ Eine detailliertere Erklärung finden Sie [hier](list-of-values.md#fugen-sie-ube
 **Unterorganisationen**: Gibt an, für welche **Unterorganisation** die Zeile aktiv sein soll. Wenn das Feld leer gelassen wird, ist die Zeile für alle Organisationen verfügbar.
 
 **Synonyme**: Hier können Sie zusätzliche Werte angeben, die helfen, Ihr Dokument zu trainieren.\
-Wenn **EUR** Ihr primärer **Wert** ist, können Sie EURO und € als **Synonyme** hinzufügen. Wenn das Dokument mit einem dieser **Synonyme** trainiert wird, erkennt **DocBits** automatisch EUR als den entsprechenden Wert aus Ihrer Liste. <mark style="color:red;">**Hinweis**</mark>: Jedes Synonym muss durch Drücken von **Enter** bestätigt werden, um es zur Liste hinzuzufügen.
+Wenn **EUR** Ihr primärer **Wert** ist, können Sie EURO und € als **Synonyme** hinzufügen. Wenn das Dokument mit einem dieser **Synonyme** trainiert wird, erkennt **DocBits** automatisch EUR als den entsprechenden Wert aus Ihrer Liste.\
+<mark style="color:red;">**Hinweis**</mark>: Jedes Synonym muss durch Drücken von **Enter** bestätigt werden, um es zur Liste hinzuzufügen.
 
 4.  Nachdem Sie alle gewünschten Eigenschaften eingegeben haben, klicken Sie auf die Schaltfläche **Speichern**, um die Zeile hinzuzufügen.
 
