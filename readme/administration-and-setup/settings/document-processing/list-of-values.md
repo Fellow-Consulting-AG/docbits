@@ -66,7 +66,8 @@ Una explicación más detallada se puede encontrar [aquí](list-of-values.md#ana
 **Sub-organizaciones**: Especifica para qué **sub-organización** la fila debería estar activa. Si se deja en blanco, la fila estará disponible para todas las organizaciones.
 
 **Sinónimos**: Aquí puedes especificar valores adicionales que ayudan a entrenar tu documento.\
-Por ejemplo, si **EUR** es tu **valor** principal, puedes añadir EURO y € como **sinónimos**. Cuando el documento se entrena utilizando cualquiera de estos **sinónimos**, **DocBits** reconocerá y seleccionará automáticamente EUR como el valor correspondiente de tu lista. <mark style="color:red;">**Nota**</mark>: Cada sinónimo debe ser confirmado presionando **Enter** para añadirlo a la lista.
+Por ejemplo, si **EUR** es tu **valor** principal, puedes añadir EURO y € como **sinónimos**. Cuando el documento se entrena utilizando cualquiera de estos **sinónimos**, **DocBits** reconocerá y seleccionará automáticamente EUR como el valor correspondiente de tu lista.\
+<mark style="color:red;">**Nota**</mark>: Cada sinónimo debe ser confirmado presionando **Enter** para añadirlo a la lista.
 
 4.  Después de ingresar todas las propiedades deseadas, haz clic en el botón **Guardar** para añadir la fila.
 
