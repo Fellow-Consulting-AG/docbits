@@ -17,7 +17,7 @@ Quando la funzione E-Text è attivata, il testo che appare su immagini o loghi n
 
 ## **Soluzione**
 
-Per risolvere questo problema, disabilita la funzione E-Text—sia per il [**fornitore specifico**](missing-text-in-ocr-extraction.md#disabilita-e-text-per-un-fornitore-specifico) sia per [l'intera organizzazione](missing-text-in-ocr-extraction.md#disabilita-e-text-per-lintera-organizzazione). Una volta disattivato E-Text, DocBits si baserà esclusivamente su OCR, che è in grado di estrarre testo da immagini e loghi all'interno del documento.
+Per risolvere questo problema, disabilita la funzione E-Text—sia per il [fornitore specifico](missing-text-in-ocr-extraction.md#disabilita-e-text-per-un-fornitore-specifico) sia per [l'intera organizzazione](missing-text-in-ocr-extraction.md#disabilita-e-text-per-lintera-organizzazione). Una volta disattivato E-Text, DocBits si baserà esclusivamente su OCR, che è in grado di estrarre testo da immagini e loghi all'interno del documento.
 
 ### **Disabilita E-Text per un Fornitore Specifico**
 
