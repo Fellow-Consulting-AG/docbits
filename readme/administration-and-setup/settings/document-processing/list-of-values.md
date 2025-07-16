@@ -1,4 +1,4 @@
-# List Of Values
+# Liste de valeurs
 
 ## Aperçu
 
@@ -65,8 +65,8 @@ Une explication plus détaillée peut être trouvée [ici](list-of-values.md#ajo
 
 **Sous-organisations** : Spécifie pour quelle **sous-organisation** la ligne doit être active. Si laissé vide, la ligne sera disponible pour toutes les organisations.
 
-**Synonymes** : Ici, vous pouvez spécifier des valeurs supplémentaires qui aident à former votre document.\
-Par exemple, si **EUR** est votre **valeur** principale, vous pouvez ajouter EURO et € comme **synonymes**. Lorsque le document est formé en utilisant l'un de ces **synonymes**, **DocBits** reconnaîtra automatiquement et sélectionnera EUR comme valeur correspondante de votre liste. \
+**Synonymes** : Ici, vous pouvez spécifier des valeurs supplémentaires qui aident à entraîner votre document.\
+Par exemple, si **EUR** est votre **valeur** principale, vous pouvez ajouter EURO et € comme **synonymes**. Lorsque le document est entraîné en utilisant l'un de ces **synonymes**, **DocBits** reconnaîtra automatiquement et sélectionnera EUR comme valeur correspondante de votre liste.\
 <mark style="color:red;">**Remarque**</mark>: Chaque synonyme doit être confirmé en appuyant sur **Entrée** pour l'ajouter à la liste.
 
 4.  Après avoir entré toutes les propriétés souhaitées, cliquez sur le bouton **Sauvegarder** pour ajouter la ligne.
@@ -143,10 +143,10 @@ Pour ajouter une traduction :
 
 ## Listes et lignes définies par le système
 
-Certaines listes sont pré-créées par le système et sont marquées avec le tag **Standard**. Ces listes ne peuvent pas être supprimées, mais vous pouvez y ajouter de nouvelles lignes et supprimer ces nouvelles lignes si nécessaire.
+Certaines listes sont pré-créées par le système et sont marquées avec le tag **Standard**. Ces listes ne peuvent pas être supprimées, mais vous pouvez y ajouter de nouvelles lignes et supprimer ces lignes nouvellement ajoutées si nécessaire.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_9.png)
 
-Au sein de ces listes standard, certaines lignes sont marquées avec le tag **Par défaut**—ce sont des entrées définies par le système. Vous pouvez ajouter de nouvelles **étiquettes** dans différentes langues, mais ces lignes par défaut ne peuvent pas être supprimées.
+Dans ces listes standard, certaines lignes sont marquées avec le tag **Par défaut**—ce sont des entrées définies par le système. Vous pouvez ajouter de nouvelles **étiquettes** dans différentes langues, mais ces lignes par défaut ne peuvent pas être supprimées.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_20.png)
