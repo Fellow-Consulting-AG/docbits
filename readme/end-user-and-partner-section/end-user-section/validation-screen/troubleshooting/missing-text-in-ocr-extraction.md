@@ -13,7 +13,7 @@ Per verificare questo, fai clic sul pulsante **Vista OCR** nella barra degli str
 ## **Causa**
 
 La causa più probabile è che il testo che stai cercando di estrarre fa parte di un'immagine (ad es. un logo o una sezione scansionata) all'interno del documento.\
-Quando la funzione **E-Text** è attivata, il testo che appare su immagini o loghi non è incluso nel livello di testo estratto. Di conseguenza, questo testo non può essere accessibile o estratto tramite la logica di estrazione standard.
+Quando la funzione E-Text è attivata, il testo che appare su immagini o loghi non è incluso nel livello di testo estratto. Di conseguenza, questo testo non può essere accessibile o estratto tramite la logica di estrazione standard.
 
 ## **Soluzione**
 
