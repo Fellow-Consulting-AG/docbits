@@ -13,7 +13,7 @@ To verify this, click the **OCR View** button in the toolbar on the right. If th
 ## **Cause**
 
 The most likely cause is that the text you’re trying to extract is part of an image (e.g. a logo or scanned section) within the document.\
-When the **E-Text** feature is enabled, text that appears on images or logos is not included in the extracted text layer. As a result, this text cannot be accessed or extracted through standard extraction logic.
+When the E-Text feature is enabled, text that appears on images or logos is not included in the extracted text layer. As a result, this text cannot be accessed or extracted through standard extraction logic.
 
 ## **Fix**
 
