@@ -42,6 +42,8 @@
     * [Dados Fuzzy](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [Códigos QR](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
     * [Atalhos de Teclado](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
+    * [Solução de Problemas](end-user-and-partner-section/end-user-section/validation-screen/troubleshooting/README.md)
+      * [Texto Ausente na Extração de OCR](end-user-and-partner-section/end-user-section/validation-screen/troubleshooting/missing-text-in-ocr-extraction.md)
   * [Propósito e Uso](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Tela de Correspondência de Ordem de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
     * [Ferramentas de Correspondência de Ordem de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
