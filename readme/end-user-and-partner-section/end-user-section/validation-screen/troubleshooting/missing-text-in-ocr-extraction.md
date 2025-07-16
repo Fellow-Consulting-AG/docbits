@@ -1,4 +1,4 @@
-# Page
+# Texte manquant dans l'extraction OCR
 
 ## **Problème**
 
@@ -17,7 +17,7 @@ Lorsque la fonctionnalité **E-Text** est activée, le texte qui apparaît sur l
 
 ## **Solution**
 
-Pour résoudre ce problème, désactivez la fonctionnalité E-Text—soit pour le [fournisseur spécifique](page.md#desactiver-e-text-pour-un-fournisseur-specifique), soit pour [l'ensemble de l'organisation](page.md#desactiver-e-text-pour-lensemble-de-lorganisation). Une fois E-Text désactivé, DocBits s'appuiera uniquement sur l'OCR, qui est capable d'extraire du texte à partir d'images et de logos dans le document.
+Pour résoudre ce problème, désactivez la fonctionnalité E-Text—soit pour le [fournisseur spécifique](missing-text-in-ocr-extraction.md#desactiver-e-text-pour-un-fournisseur-specifique), soit pour [l'ensemble de l'organisation](missing-text-in-ocr-extraction.md#desactiver-e-text-pour-lensemble-de-lorganisation). Une fois E-Text désactivé, DocBits s'appuiera uniquement sur l'OCR, qui est capable d'extraire du texte à partir d'images et de logos dans le document.
 
 ### **Désactiver E-Text pour un Fournisseur Spécifique**
 

@@ -43,7 +43,7 @@
     * [Codes QR](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
     * [Raccourcis Clavier](end-user-and-partner-section/end-user-section/validation-screen/keyboard-shortcuts.md)
     * [Dépannage](end-user-and-partner-section/end-user-section/validation-screen/troubleshooting/README.md)
-      * [Page](end-user-and-partner-section/end-user-section/validation-screen/troubleshooting/page.md)
+      * [Texte manquant dans l'extraction OCR](end-user-and-partner-section/end-user-section/validation-screen/troubleshooting/missing-text-in-ocr-extraction.md)
   * [Objectif et Utilisation](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Écran de Correspondance des Bons de Commande](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
     * [Outils de Correspondance de Bon de Commande](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
