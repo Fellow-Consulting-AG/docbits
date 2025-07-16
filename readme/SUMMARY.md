@@ -162,7 +162,7 @@
       * [Extraction automatique du code fiscal](administration-and-setup/settings/document-processing/classification-and-extraction/auto-extract-tax-code.md)
       * [Modèle d'IA](administration-and-setup/settings/document-processing/classification-and-extraction/ai-model.md)
     * [Master Data Lookup](administration-and-setup/settings/document-processing/master-data-lookup.md)
-    * [List Of Values](administration-and-setup/settings/document-processing/list-of-values.md)
+    * [Liste de valeurs](administration-and-setup/settings/document-processing/list-of-values.md)
     * [Export](administration-and-setup/settings/document-processing/export.md)
     * [Module](administration-and-setup/settings/document-processing/module/README.md)
       * [Mode Annotation](administration-and-setup/settings/document-processing/module/annotation-mode.md)
