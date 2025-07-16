@@ -37,8 +37,8 @@ To delete a list, click the trash can icon next to the corresponding list.
 
 You can manage values in an existing **List of Values** using one of the following methods:
 
-* **Manually add values** – Enter values individually through the interface.
-* **Import values from a CSV file** – Upload a CSV file to add multiple values at once.
+* [**Manually add values**](list-of-values.md#manually-add-values) – Enter values individually through the interface.
+* [**Import values from a CSV file**](list-of-values.md#import-values-from-a-csv-file) – Upload a CSV file to add multiple values at once.
 
 ### Manually Add Values
 
