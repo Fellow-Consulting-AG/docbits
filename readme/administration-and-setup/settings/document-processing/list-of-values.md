@@ -2,7 +2,7 @@
 
 ## Panoramica
 
-La funzionalità **Elenco dei valori** consente di creare e gestire set di valori predefiniti. Questo è particolarmente utile per configurare i menu a discesa nella sezione [**Campi**](../global-settings/document-types/fields/), che possono essere utilizzati successivamente nella **Validazione dei campi**.
+La funzione **Elenco dei valori** consente di creare e gestire set di valori predefiniti. Questo è particolarmente utile per configurare i menu a discesa nella sezione [**Campi**](../global-settings/document-types/fields/), che possono essere utilizzati in seguito nella **Validazione dei campi**.
 
 Questi elenchi possono essere personalizzati per diverse sotto-organizzazioni e supportano più lingue, offrendo flessibilità attraverso **DocBits**.
 
@@ -20,7 +20,7 @@ Puoi accedere all'**Elenco dei valori** navigando su **Impostazioni → Elaboraz
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_1.png)
 2. Inserisci un **Nome** per il tuo elenco.
-3. _(Opzionale)_ Seleziona una **Sotto-Organizzazione** per la quale l'elenco dovrebbe essere attivo.
+3. _(Opzionale)_ Seleziona una **Sotto-organizzazione** per la quale l'elenco dovrebbe essere attivo.
 4.  Clicca su **Risparmiare** per creare l'elenco.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_2.png)
@@ -56,17 +56,17 @@ Ora puoi specificare più proprietà per ogni voce:
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_6.png)
 
-**Valore**: Questo è il modo in cui l'elemento sarà memorizzato internamente in **DocBits**. Rimane lo stesso in tutte le lingue e funge anche da testo di visualizzazione predefinito durante la validazione dei campi se non viene specificata alcuna etichetta per la lingua selezionata.
+**Valore**: Questo è il modo in cui l'elemento verrà memorizzato internamente all'interno di **DocBits**. Rimane lo stesso in tutte le lingue e funge anche da testo di visualizzazione predefinito durante la validazione dei campi se non viene specificata alcuna etichetta per la lingua selezionata.
 
-**Etichetta**: Questo è il testo visualizzato nella schermata di validazione, in base alla lingua selezionata. Se non è disponibile alcuna etichetta per la lingua attiva in DocBits, il sistema visualizzerà per impostazione predefinita il **Valore**.
+**Etichetta**: Questo è il testo visualizzato nella schermata di validazione, in base alla lingua selezionata. Se non è disponibile alcuna etichetta per la lingua attiva in DocBits, il sistema predefinirà la visualizzazione del **Valore**.
 
-**Lingua**: Specifica la lingua in cui l'etichetta sarà visualizzata.\
+**Lingua**: Specifica la lingua in cui verrà visualizzata l'etichetta.\
 Una spiegazione più dettagliata può essere trovata [qui](list-of-values.md#aggiungere-traduzioni-ai-tuoi-valori).
 
-**Sotto-Organizzazioni**: Specifica per quale **sotto-organizzazione** la riga dovrebbe essere attiva. Se lasciata vuota, la riga sarà disponibile per tutte le organizzazioni.
+**Sotto-organizzazioni**: Specifica per quale **sotto-organizzazione** la riga dovrebbe essere attiva. Se lasciata vuota, la riga sarà disponibile per tutte le organizzazioni.
 
 **Sinonimi**: Qui puoi specificare valori aggiuntivi che aiutano a formare il tuo documento.\
-Ad esempio, se **EUR** è il tuo **valore** principale, puoi aggiungere EURO e € come **sinonimi**. Quando il documento viene addestrato utilizzando uno di questi **sinonimi**, **DocBits** riconoscerà automaticamente e selezionerà EUR come valore corrispondente dal tuo elenco. <mark style="color:red;">**Nota**</mark>: Ogni sinonimo deve essere confermato premendo **Enter** per aggiungerlo all'elenco.
+Ad esempio, se **EUR** è il tuo **valore** principale, puoi aggiungere EURO e € come **sinonimi**. Quando il documento viene addestrato utilizzando uno di questi **sinonimi**, **DocBits** riconoscerà automaticamente e selezionerà EUR come valore corrispondente dal tuo elenco. <mark style="color:red;">**Nota**</mark>: Ogni sinonimo deve essere confermato premendo **Invio** per aggiungerlo all'elenco.
 
 4.  Dopo aver inserito tutte le proprietà desiderate, clicca sul pulsante **Risparmiare** per aggiungere la riga.
 
@@ -119,7 +119,7 @@ Puoi aggiungere quante più traduzioni ci sono lingue supportate in **DocBits**.
 
 Per aggiungere una traduzione:
 
-1.  Clicca sull'icona più (+).
+1.  Clicca sull'icona del più (+).
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_14.png)
 2.  Seleziona una lingua dal menu a discesa.
@@ -128,7 +128,7 @@ Per aggiungere una traduzione:
 3.  Inserisci la traduzione desiderata nel campo **Etichetta**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_16.png)
-4.  Per aggiungere un'altra traduzione, clicca di nuovo sull'icona più (+).
+4.  Per aggiungere un'altra traduzione, clicca di nuovo sull'icona del più (+).
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_17.png)
 5.  Per rimuovere una traduzione, clicca sull'icona del cestino.
@@ -138,7 +138,7 @@ Per aggiungere una traduzione:
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_19.png)
 
-<mark style="color:red;">**Nota**</mark>: Se non è disponibile alcuna **Etichetta** per la lingua attiva, DocBits visualizzerà per impostazione predefinita il **Valore**.
+<mark style="color:red;">**Nota**</mark>: Se non è disponibile alcuna **Etichetta** per la lingua attiva, DocBits predefinirà la visualizzazione del **Valore**.
 
 ## Elenchi e Righe Definiti dal Sistema
 
