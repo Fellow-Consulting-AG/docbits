@@ -13,13 +13,13 @@ To enable the DocBits Operator, follow these steps:
    *   Select **Document Processing** and then choose **Module**.\
 
 
-       <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 2. **Enable the Feature**:
    * Scroll down to locate the **DocBits Operator** option.
    *   Toggle the slider to enable the  **DocBits Operator**.\
 
 
-       <div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+       <div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Accessing the Interface
 

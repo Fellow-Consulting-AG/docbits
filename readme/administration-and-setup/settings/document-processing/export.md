@@ -48,7 +48,7 @@ However, it is possible to have:
 To create a new export:
 
 1. Click on the **“New”** button.\
-   ![](<../../../.gitbook/assets/image (1) (1).png>)
+   ![](<../../../.gitbook/assets/image (1) (1) (1).png>)
 2. Select the **Export Type** you want to configure (e.g., Infor, IDM, SFTP).
 3. Fill in the required fields based on the export type.
 4. Save the configuration.

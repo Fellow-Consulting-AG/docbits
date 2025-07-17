@@ -14,7 +14,7 @@ When enabled, the **PO Status** column on the dashboard is automatically updated
 3.  In the **Purchase Order** section, navigate to the **Update Document Purchase Order Status** option.\
 
 
-    <figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How It Works
 

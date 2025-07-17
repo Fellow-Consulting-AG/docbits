@@ -59,7 +59,7 @@ The **Preview Function** allows you to test and preview how an uploaded EDI file
 
 This is especially useful for debugging XSLT mappings and ensuring the final XML structure meets your format requirements.
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 6. Video Walkthrough
 
