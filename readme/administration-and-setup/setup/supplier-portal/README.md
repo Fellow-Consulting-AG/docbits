@@ -19,13 +19,13 @@ Once the **Supplier Portal** feature is enabled, a new **Supplier Settings** sec
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-[**Supplier General Settings**](../../settings/supplier-setting/supplier-general-settings.md): Here, you can customize the **Supplier Portal** by uploading your company logo—displayed in the header of all email templates—and by managing legal documents such as the **Terms of Use** and **Privacy Policy**.
+[**Supplier General Settings**](../../settings/supplier-setting/supplier-general-settings.md): Here, you can customize the **Supplier Portal** by uploading your company logo—displayed in the header of all email templates—and by managing legal documents such as the Terms of Use and Privacy Policy.
 
-[**Email Templates**](../../settings/supplier-setting/editing-email-templates.md)**:** Here you can create and test the **invitation email templates** that will be sent to invited suppliers.
+[**Email Templates**](../../settings/supplier-setting/editing-email-templates.md)**:** Here you can create and test the invitation email templates that will be sent to invited suppliers.
 
 [**Supplier Layout**](../../settings/supplier-setting/supplier-layout.md)**:** Here you can create and manage the layouts that define which information new suppliers must provide during the registration process.
 
-[**Export Configuration**](../../settings/supplier-setting/export-configuration-for-supplier-portal-for-m3.md): Here you can define how data is mapped and synchronized between the **Supplier Portal** and the **Infor M3** system using **ION** and **IDM mapping files**.
+[**Export Configuration**](../../settings/supplier-setting/export-configuration-for-supplier-portal-for-m3.md): Here you can define how data is mapped and synchronized between the **Supplier Portal** and the **Infor M3** system using ION and IDM mapping files.
 
 [**Supplier Permissions**](../../settings/supplier-setting/supplier-permissions.md): Here you can configure the permissions that suppliers will have within the **Supplier Portal**. You can also group suppliers, making it easier to manage access and settings across multiple suppliers.
 
