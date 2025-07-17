@@ -83,7 +83,7 @@ Click this button to refresh the dashboard and load the most up-to-date data and
 
 <figure><img src="../../../.gitbook/assets/supplier_portal_4.png" alt=""><figcaption></figcaption></figure>
 
-Click this button to open a menu where you can manage the visibility of columns in the purchase order table. Use the checkboxes and arrow buttons to move columns between the **Visible** and **Hidden** sections. You can also reorder columns by dragging and dropping the column names. Click **Done** to save your changes.
+Click this button to open a menu where you can manage the visibility of columns in the purchase order table. Use the checkboxes and arrow buttons to move columns between the visible and hidden sections. You can also reorder columns by dragging and dropping the column names. Click **Done** to save your changes.
 
 <figure><img src="../../../.gitbook/assets/supplier_portal_7.png" alt=""><figcaption></figcaption></figure>
 
