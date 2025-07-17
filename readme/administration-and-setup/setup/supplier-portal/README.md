@@ -111,7 +111,7 @@ Click on any category to apply a filter and view only those suppliers.
 ### **To send a registration email to an existing supplier:**
 
 1. Locate the supplier in the **Supplier Dashboard**.
-2. Click the **three-dot menu** in the **Actions** column.
+2. Click the three-dot menu in the **Actions** column.
 3.  Select **Magic Link**.
 
     <figure><img src="../../../.gitbook/assets/supplier_portal_12.png" alt=""><figcaption></figcaption></figure>
