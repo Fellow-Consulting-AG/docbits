@@ -43,11 +43,11 @@ All of your created Suppliers are displayed here.
 
 ## Filter for Suppliers
 
-You can search for suppliers by **name** or **number**, or use the **advanced filters** to narrow results by:
+You can search for suppliers by N**ame** or N**umber**, or use the advanced filters to narrow results by:
 
 * **Supplier Groups**
 * **Status**
-* **Creation Date**
+* **Created On**
 
 You can also specify how many suppliers should be displayed per page.
 
