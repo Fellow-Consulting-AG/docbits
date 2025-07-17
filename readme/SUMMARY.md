@@ -84,7 +84,7 @@
   * [Global Settings](administration-and-setup/settings/global-settings/README.md)
     * [Informazioni sulla Società](administration-and-setup/settings/global-settings/company-information/README.md)
       * [Preferenze aziendali](administration-and-setup/settings/global-settings/company-information/company-preferences.md)
-      * [Definire il Colore dell'App nelle Impostazioni Aziendali](administration-and-setup/settings/global-settings/company-information/defining-app-color-in-company-settings.md)
+      * [Definire il Colore dell'App nelle Impostazioni della Società](administration-and-setup/settings/global-settings/company-information/defining-app-color-in-company-settings.md)
     * [Custom Filters](administration-and-setup/settings/global-settings/custom-filters.md)
     * [Document Expiry](administration-and-setup/settings/global-settings/document-expiry.md)
     * [Document Types](administration-and-setup/settings/global-settings/document-types/README.md)
