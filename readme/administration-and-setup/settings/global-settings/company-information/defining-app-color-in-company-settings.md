@@ -1,19 +1,19 @@
 # Defining App Color in Company Settings
 
-### Overview
+## Overview
 
 The **App Color** setting allows administrators to define the color scheme of the application interface. This feature is particularly useful for distinguishing between different environments such as testing, sandbox, and production. By assigning distinct colors to each environment, users can easily identify which environment they are working in, reducing the risk of performing critical actions in the wrong environment.
 
 <figure><img src="../../../../.gitbook/assets/AppColor.png" alt=""><figcaption></figcaption></figure>
 
-### Accessing the App Color Setting
+## Accessing the App Color Setting
 
 1. **Navigate to Company Settings**:
    * From the main menu, click on the **Company Information** section.
 2. **Locate the App Color Section**:
    * Scroll down to the **App Color** section within the Company Information settings.
 
-### Setting the App Color
+## Setting the App Color
 
 1. **Choose a Color**:
    * Click on the color box or enter a hex code directly into the text field.
@@ -25,7 +25,7 @@ The **App Color** setting allows administrators to define the color scheme of th
 3. **Reset to Default**:
    * If you wish to revert to the default color, click the **Reset** button.
 
-### Best Practices for Environment Colors
+## Best Practices for Environment Colors
 
 To avoid confusion, it is recommended to establish a standard color scheme for each environment:
 
@@ -33,10 +33,10 @@ To avoid confusion, it is recommended to establish a standard color scheme for e
 * **Testing**: Use a bright or alerting color, such as **#ffcc00** (yellow) or **#ffa500** (orange), to indicate a testing environment.
 * **Sandbox**: Use a distinct color, such as **#007bff** (blue) or **#6c757d** (grey), to indicate a sandbox or development environment.
 
-### Subscription Plan Notice
+## Subscription Plan Notice
 
 Under the App Color section, administrators will also see information related to the **Subscription Plan**. This includes the current plan, its status, and the remaining days of subscription.
 
-### Importance of App Color
+## Importance of App Color
 
 The App Color setting is a simple yet effective tool to help users quickly recognize the environment they are working in. By carefully selecting and managing these colors, organizations can minimize errors and improve workflow efficiency.
