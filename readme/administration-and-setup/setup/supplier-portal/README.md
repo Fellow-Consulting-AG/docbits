@@ -91,7 +91,7 @@ Click this button to open a menu where you can manage the visibility of columns 
 
 <figure><img src="../../../.gitbook/assets/supplier_portal_5.png" alt=""><figcaption></figcaption></figure>
 
-Clicking this button will open a new section showing how many **suppliers** are set to expire and when.\
+Clicking this button will open a new section showing how many suppliers are set to expire and when.\
 Click on any category to apply a filter and view only those suppliers.
 
 <figure><img src="../../../.gitbook/assets/supplier_portal_8.png" alt=""><figcaption></figcaption></figure>
