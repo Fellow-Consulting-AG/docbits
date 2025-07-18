@@ -160,7 +160,7 @@
     * [Ocr Settings](admin-section/settings/document-processing/ocr-settings.md)
     * [Klassifizierung und Extraktion](admin-section/settings/document-processing/classification-and-extraction/README.md)
       * [Tabellenextraktion für Kostenelemente](admin-section/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md)
-      * [Automatische Erfassung des Steuercodes](administration-and-setup/settings/document-processing/classification-and-extraction/automatische-erfassung-des-steuercodes.md)
+      * [Automatische Erfassung des Steuercodes](administration-and-setup/settings/document-processing/classification-and-extraction/auto-extract-tax-code.md)
       * [AI-Modell](administration-and-setup/settings/document-processing/classification-and-extraction/ai-model.md)
     * [Master Data Lookup](admin-section/settings/document-processing/master-data-lookup.md)
     * [Liste von Werten](admin-section/settings/document-processing/list-of-values.md)
