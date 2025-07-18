@@ -3,7 +3,7 @@
 ### **Where to Enable It**
 
 1. Go to **Settings → Document Processing → Classification and Extraction**.
-2. Enable **Automatic Tax Code Population**.
+2. Enable **Auto extract tax code**.
 
 <figure><img src="../../../../.gitbook/assets/auto_extract_tax_code_1.png" alt=""><figcaption></figcaption></figure>
 
