@@ -19,17 +19,17 @@ Uma vez que o recurso **Portal do Fornecedor** está ativado, uma nova seção *
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_suppplier_settings.png)
 
-[**Configurações gerais do fornecedor**](../../settings/supplier-setting/supplier-general-settings.md): Aqui, você pode personalizar o **Portal do Fornecedor** fazendo o upload do logotipo da sua empresa—exibido no cabeçalho de todos os modelos de e-mail—e gerenciando documentos legais, como os Termos de Uso e a Política de Privacidade.
+[**Configurações gerais do fornecedor**](../settings/supplier-setting/supplier-general-settings.md): Aqui, você pode personalizar o **Portal do Fornecedor** fazendo o upload do logotipo da sua empresa—exibido no cabeçalho de todos os modelos de e-mail—e gerenciando documentos legais, como os Termos de Uso e a Política de Privacidade.
 
-[**Modelos de e-mail**](../../settings/supplier-setting/editing-email-templates.md)**:** Aqui você pode criar e testar os modelos de e-mail de convite que serão enviados aos fornecedores convidados.
+[**Modelos de e-mail**](../settings/supplier-setting/editing-email-templates.md)**:** Aqui você pode criar e testar os modelos de e-mail de convite que serão enviados aos fornecedores convidados.
 
 **Layout do Fornecedor:** Aqui você pode criar e gerenciar os layouts que definem quais informações novos fornecedores devem fornecer durante o processo de registro.
 
-[**Configuração de exportação**](../../settings/supplier-setting/export-configuration-for-supplier-portal-for-m3.md): Aqui você pode definir como os dados são mapeados e sincronizados entre o **Portal do Fornecedor** e o sistema **Infor M3** usando arquivos de mapeamento ION e IDM.
+[**Configuração de exportação**](../settings/supplier-setting/export-configuration-for-supplier-portal-for-m3.md): Aqui você pode definir como os dados são mapeados e sincronizados entre o **Portal do Fornecedor** e o sistema **Infor M3** usando arquivos de mapeamento ION e IDM.
 
 **Permissões do Fornecedor**: Aqui você pode configurar as permissões que os fornecedores terão dentro do **Portal do Fornecedor**. Você também pode agrupar fornecedores, facilitando a gestão de acesso e configurações entre vários fornecedores.
 
-Um guia detalhado sobre todas as Configurações do Fornecedor pode ser encontrado [aqui](../../settings/supplier-setting/).
+Um guia detalhado sobre todas as Configurações do Fornecedor pode ser encontrado [aqui](../settings/supplier-setting/).
 
 ## Painel do Fornecedor <a href="#supplier-permissions" id="supplier-permissions"></a>
 
@@ -122,4 +122,4 @@ Clique em qualquer categoria para aplicar um filtro e visualizar apenas aqueles 
 
 Após o envio de um e-mail de convite, o fornecedor deve completar o processo de registro para acessar o **Portal do Fornecedor**.
 
-Um guia detalhado passo a passo sobre o processo de registro pode ser encontrado [aqui](supplier-registration.md).
+Um guia detalhado passo a passo sobre o processo de registro pode ser encontrado [aqui](../../end-user-and-partner-section/end-user-section/supplier-portal/supplier-registration.md).
