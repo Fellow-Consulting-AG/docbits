@@ -20,7 +20,7 @@ Im Menü für die erweiterten Einstellungen stehen Ihnen folgende Optionen zur V
 
 ### Weitere Einstellungen
 
-Verwenden Sie diese Schaltfläche, um auf die Admin-Einstellungen für das Dashboard zuzugreifen. Die vollständige Dokumentation zu diesen Einstellungen finden Sie [hier](../../admin-section/settings/global-settings/dashboard.md).
+Verwenden Sie diese Schaltfläche, um auf die Admin-Einstellungen für das Dashboard zuzugreifen. Die vollständige Dokumentation zu diesen Einstellungen finden Sie [hier](../../administration-and-setup/settings/global-settings/dashboard/).
 
 <figure><img src="../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
 
