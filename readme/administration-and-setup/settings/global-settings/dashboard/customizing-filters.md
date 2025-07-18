@@ -67,7 +67,7 @@ Using filters allows users to quickly find relevant information and reduce the a
 
 
 
-#### **Removing Filters**
+**Removing Filters**
 
 * Open the Filters menu.
 * Step 2: Clear or remove the applied filters by clicking "Clear Filters", the X icon next to the selected filter either in the Filters menu or below the Filters bar.
