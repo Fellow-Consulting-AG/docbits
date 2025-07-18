@@ -166,6 +166,7 @@
     * [Eksport](administration-and-setup/settings/document-processing/export.md)
     * [Module](administration-and-setup/settings/document-processing/module/README.md)
       * [Tryb adnotacji](administration-and-setup/settings/document-processing/module/annotation-mode.md)
+      * [Wiadomości e-mail przychodzące](administration-and-setup/settings/document-processing/module/inbound-emails.md)
       * [Approval Before Export](administration-and-setup/settings/document-processing/module/approval-before-export.md)
       * [Doc Scan](administration-and-setup/settings/document-processing/module/doc-scan.md)
       * [Doc Script](administration-and-setup/settings/document-processing/module/doc-script.md)
