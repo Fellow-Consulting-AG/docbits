@@ -152,7 +152,7 @@
     * [Integration](overview/settings/global-settings/integration/README.md)
       * [API Calls and Examples](overview/settings/global-settings/integration/api-calls-and-examples.md)
     * [Dashboard](administration-and-setup/settings/global-settings/dashboard/README.md)
-      * [Anpassen von Filtern](administration-and-setup/settings/global-settings/dashboard/filtering-documents.md)
+      * [Anpassen von Filtern](administration-and-setup/settings/global-settings/dashboard/customizing-filters.md)
   * [Dokumentenverarbeitung](admin-section/settings/document-processing/README.md)
     * [Dokumentenablauf](admin-section/settings/document-processing/documents-expiry.md)
     * [Import](admin-section/settings/document-processing/import.md)
