@@ -241,7 +241,7 @@
     * [Auto Accounting](setup/testing/auto-accounting/README.md)
       * [LN](setup/testing/auto-accounting/ln.md)
       * [M3](setup/testing/auto-accounting/m3.md)
-  * [Lieferantenportal](administration-and-setup/setup/supplier-portal/README.md)
+  * [Lieferanten-Portal](administration-and-setup/setup/supplier-portal/README.md)
     * [Lieferantenregistrierung](administration-and-setup/setup/supplier-portal/supplier-registration.md)
   * [WatchDog Installation](administration-and-setup/setup/watchdog-installation.md)
   * [SSO Configuration](setup/sso-configuration.md)
