@@ -5,13 +5,13 @@
 1. Go to **Settings → Document Processing → Classification and Extraction**.
 2. Enable **Automatic Tax Code Population**.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/auto_extract_tax_code_1.png" alt=""><figcaption></figcaption></figure>
 
 ### **What Does It Do?**
 
 * When enabled, the system **automatically populates the tax code field** in the **Validation Screen**, provided that a **tax code field** is set up.
 
-<figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250214111226.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/auto_extract_tax_code_2.png" alt=""><figcaption></figcaption></figure>
 
 * The logic used to determine the tax code is outlined in the table below.
 
