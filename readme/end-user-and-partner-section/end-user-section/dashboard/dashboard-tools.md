@@ -20,7 +20,7 @@ No menu de Configurações Avançadas, as seguintes opções estarão disponíve
 
 ### Mais configurações
 
-Use este botão para acessar as Configurações de Admin para o painel. A documentação completa para essas configurações pode ser encontrada [aqui](../../../administration-and-setup/settings/global-settings/dashboard.md).
+Use este botão para acessar as Configurações de Admin para o painel. A documentação completa para essas configurações pode ser encontrada [aqui](../../../administration-and-setup/settings/global-settings/dashboard/).
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
 
