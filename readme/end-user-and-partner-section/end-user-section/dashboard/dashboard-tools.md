@@ -20,7 +20,7 @@ En el menú de Ajustes Avanzados estarán disponibles las siguientes opciones:
 
 ### Más ajustes
 
-Utiliza este botón para acceder a los Ajustes de Administración para el panel. La documentación completa para estos ajustes se puede encontrar [aquí](../../../administration-and-setup/settings/global-settings/dashboard.md).
+Utiliza este botón para acceder a los Ajustes de Administración para el panel. La documentación completa para estos ajustes se puede encontrar [aquí](../../../administration-and-setup/settings/global-settings/dashboard/).
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
 
