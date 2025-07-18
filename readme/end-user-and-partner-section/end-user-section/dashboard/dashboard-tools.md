@@ -20,7 +20,7 @@ W menu Ustawienia zaawansowane będą dostępne następujące opcje:
 
 ### Więcej ustawień
 
-Użyj tego przycisku, aby uzyskać dostęp do Ustawień administratora dla pulpitu. Pełna dokumentacja dotycząca tych ustawień znajduje się [tutaj](../../../administration-and-setup/settings/global-settings/dashboard.md).
+Użyj tego przycisku, aby uzyskać dostęp do Ustawień administratora dla pulpitu. Pełna dokumentacja dotycząca tych ustawień znajduje się [tutaj](../../../administration-and-setup/settings/global-settings/dashboard/).
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
 
