@@ -20,7 +20,7 @@ Dans le menu des Paramètres avancés, les options suivantes seront disponibles 
 
 ### Plus de paramètres
 
-Utilisez ce bouton pour accéder aux Paramètres Admin pour le tableau de bord. La documentation complète pour ces paramètres peut être trouvée [ici](../../../administration-and-setup/settings/global-settings/dashboard.md).
+Utilisez ce bouton pour accéder aux Paramètres Admin pour le tableau de bord. La documentation complète pour ces paramètres peut être trouvée [ici](../../../administration-and-setup/settings/global-settings/dashboard/).
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
 
