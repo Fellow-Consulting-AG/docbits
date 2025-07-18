@@ -1,37 +1,19 @@
-# Export Module
+# Módulo de Exportação
 
-The export module is located, on the Dashboard, under Settings → Document Processing → Export.
+## Visão Geral
 
-![](https://lh7-us.googleusercontent.com/7GH6OyAiULSyLe\_90LEqy5UoekWKy6HfHjs\_XfGLATUd91u\_3ZneLRTTNjyQSo-WqOUjcFNlJt7cHH90iWXLGlqhkywf0E61FnE8\_R8oZzLHbwTPDXJPLkmOTLyPD6t4aa8XLMVXC8GdxLVL\_E-c5RI)
+A página de Exportação exibe todas as configurações de exportação configuradas, incluindo se estão ativas ou inativas. A partir daqui, os usuários podem:
 
-![](https://lh7-us.googleusercontent.com/yChxnitltZkmAT6defdVKlyRUA0sM-1dpE8x7i\_drFAHsNPYGywhj6S5ZqcNIVEQRFpCOp3DyRKZ9iJ2x4x5W9V2TwbfUuNuR6DFijVYE0PSUCTB6NyN912nT35uAuIJgh9ljnMr8epIM4cgyUA7lig)
+* Visualizar e gerenciar as configurações de exportação existentes
+* Criar novas conexões de exportação (por exemplo, para **Infor**, **Infor & IDM**, **Webhook** ou **SFTP**)
+* Editar ou excluir as configurações de exportação existentes
 
-## New Export
+## Onde Encontrar
 
-To add a new export configuration, select “+ New”&#x20;
+Você pode encontrá-lo em: **Configurações** → **Processamento de Documentos** → **Exportação**
 
-![](https://lh7-us.googleusercontent.com/WIgkQYOGRxpcBeA-fFL-uXMfOh-jAf2Tis1rrOdOtZipjkbWEJJ11Osao0SW0lbIoa5xbBePAGWlxZ4iVHu\_QjYcwVa04wNegpbWlRDMf-HHLuKU5hN\_162pJT0O6WZt7W76LyRehijqPdbDMXtHpvI)
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fn6ldlcI2sVUEgDdWb9U4%252Fimage.png%3Falt%3Dmedia%26token%3D8368818d-c899-4bee-ad21-a631d6be5c20\&width=768\&dpr=4\&quality=100\&sign=fbfcbd0c\&sv=2)
 
-Select the method you would like to use for your export configuration.
+Para instruções detalhadas sobre como configurar cada tipo de exportação, incluindo capturas de tela e descrições de campos, visite o guia completo:
 
-![](https://lh7-us.googleusercontent.com/DW9Iapybj7gi-YxSgToHXcxUM6XUZm6RfMdf1vjbKqyiG1gwprMQccXRuJ5A3aTPMX1WBbin\_YZIRBXa5LjbpiSrZ0WmOfQ6XRozucbYmD49RC33vnQDxxdRY21k3acROm4DYvrdnDhHyN217ROFuCk)
-
-Once you have selected the method you would like to use, you will need to upload the various information and files required for that method of exporting.
-
-## Activate/Deactivate
-
-Once you have one or many export configurations in your DocBits, you have the option to activate or deactivate configurations depending on your needs.
-
-The configuration below is activated, indicated by the green dot to the left of the configuration name.
-
-![](https://lh7-us.googleusercontent.com/bzcV62GoOeLQ2Xy7wRBmtmgxtFXCPF-4Mj9bBofhZFdPzyYDdxQ4jhmQ3XUoJ-YnwP3cWYKpg1v9jt39PiAXP-UnslcQ-DSyTpFEEi7PanZCQEp56rpgf0CcOjwUsRV6JgJxrgt1ieztK3heAeVix50)
-
-To deactivate the export configuration, select the options button to the right of the configuration as shown below.
-
-![](https://lh7-us.googleusercontent.com/oZ150Wzf2\_nBtR5iEcWCbzUkxKXZbFvUM3hVfUnhk0uLIcoLumRAPR9DoieW9sdD6ZES1\_IWxguRbyFiExe1fMtR\_Tg5zRUcLjDllxGnLAtnpyFzi96Ac-xCta3HWDYlW4I0TU\_zJb9PPJMGUtC7dbw)
-
-You are given three options
-
-* Deactivate: The export configuration will no longer be functional (indicated by a red dot next to the configuration name).
-* Edit: Make changes to the details of the configuration.
-* Delete: Delete the configuration.
+[Visualizar Guia de Configuração de Exportação](../../administration-and-setup/settings/document-processing/export.md)
