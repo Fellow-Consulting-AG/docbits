@@ -72,9 +72,6 @@
   * [Risorse e supporto](end-user-and-partner-section/end-user-section/ressources-and-support/README.md)
     * [Supporto utenti](end-user-and-partner-section/end-user-section/ressources-and-support/user-support.md)
     * [Stato del Portale di Supporto](end-user-and-partner-section/end-user-section/ressources-and-support/support-portal-status.md)
-  * [Portale Fornitori](end-user-and-partner-section/end-user-section/supplier-portal/README.md)
-    * [Registrazione Fornitore](end-user-and-partner-section/end-user-section/supplier-portal/supplier-registration.md)
-    * [Stato del Fornitore](end-user-and-partner-section/end-user-section/supplier-portal/supplier-satuts.md)
 * [Sezione Partner](end-user-and-partner-section/partner-section/README.md)
   * [Automazione dei Test delle Fatture con DocBits](end-user-and-partner-section/partner-section/invoice-automation-testing-with-docbits.md)
 
@@ -245,8 +242,9 @@
     * [Auto Accounting](administration-and-setup/setup/testing/auto-accounting/README.md)
       * [LN](administration-and-setup/setup/testing/auto-accounting/ln.md)
       * [M3](administration-and-setup/setup/testing/auto-accounting/m3.md)
+  * [Portale fornitori](administration-and-setup/setup/supplier-portal/README.md)
+    * [Registrazione Fornitore](administration-and-setup/setup/supplier-portal/supplier-registration.md)
   * [Installazione di WatchDog](administration-and-setup/setup/watchdog-installation.md)
-  * [Portale Fornitori](administration-and-setup/setup/supplier-portal.md)
 * [Pagina del Report](administration-and-setup/report-page.md)
 
 ## Infor Integration and Configuration
