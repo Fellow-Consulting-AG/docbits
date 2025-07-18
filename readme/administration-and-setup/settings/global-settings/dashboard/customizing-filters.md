@@ -6,9 +6,9 @@ If you are looking for one or more specific documents, the following options are
 
 Using filters allows users to quickly find relevant information and reduce the amount of data to the essentials.
 
-### How to customize and apply filters in DocBits
+## How to customize and apply filters in DocBits
 
-#### Accessing the filter settings Opening the dashboard:&#x20;
+**Accessing the filter settings Opening the dashboard:**&#x20;
 
 * Log in to DocBits and open the dashboard that contains the data you want to filter.&#x20;
 
@@ -18,9 +18,9 @@ Using filters allows users to quickly find relevant information and reduce the a
 
 <figure><img src="../../../../.gitbook/assets/customizing_filters_2.png" alt=""><figcaption></figcaption></figure>
 
-#### Customizing filters
+### Customizing filters
 
-**Using predefined filters**
+#### **Using predefined filters**
 
 * Open the filter menu.
 * Choose from the predefined filter options (e.g. Date, Document Type, Assigned Person).
@@ -28,7 +28,7 @@ Using filters allows users to quickly find relevant information and reduce the a
 
 
 
-**Create your own filters**
+#### **Create your own filters**
 
 * Open the filter menu in the settings under Dashboard and click on "Filters".
 
@@ -50,7 +50,7 @@ Using filters allows users to quickly find relevant information and reduce the a
 
 <figure><img src="../../../../.gitbook/assets/customizing_filters_7.png" alt=""><figcaption></figcaption></figure>
 
-**Use combined filters**
+#### **Use combined filters**
 
 * Open the filter menu and select multiple filter criteria at once.
 * Combine filter criteria.
@@ -59,7 +59,7 @@ Using filters allows users to quickly find relevant information and reduce the a
 
 
 
-**Applying and Managing Filters**&#x20;
+#### **Applying and Managing Filters**&#x20;
 
 **Applying Filters**
 
@@ -67,7 +67,7 @@ Using filters allows users to quickly find relevant information and reduce the a
 
 
 
-**Removing Filters**
+#### **Removing Filters**
 
 * Open the Filters menu.
 * Step 2: Clear or remove the applied filters by clicking "Clear Filters", the X icon next to the selected filter either in the Filters menu or below the Filters bar.
