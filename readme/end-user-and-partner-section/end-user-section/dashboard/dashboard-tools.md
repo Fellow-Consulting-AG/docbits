@@ -20,7 +20,7 @@ Nel menu delle Impostazioni avanzate saranno disponibili le seguenti opzioni:
 
 ### Altre impostazioni
 
-Usa questo pulsante per accedere alle Impostazioni Admin per la scheda. La documentazione completa per queste impostazioni può essere trovata [qui](../../../administration-and-setup/settings/global-settings/dashboard.md).
+Usa questo pulsante per accedere alle Impostazioni Admin per la scheda. La documentazione completa per queste impostazioni può essere trovata [qui](../../../administration-and-setup/settings/global-settings/dashboard/).
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
 
