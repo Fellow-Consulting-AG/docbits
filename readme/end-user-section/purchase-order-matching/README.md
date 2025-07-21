@@ -134,7 +134,7 @@ Dieser Abschnitt bietet einen visuellen Überblick darüber, wie viel für jedes
 
 ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2R9tB3JySdIMk8meRSVZ%252FPO-Shipment-Order-1.jpg%3Falt%3Dmedia%26token%3D70aa50f4-84cd-4a55-b580-037b893d1f5b\&width=768\&dpr=4\&quality=100\&sign=e4619335\&sv=2)
 
-Weitere Details finden Sie auf der [**Seite zur Versandauftrags-Einstellung**](../../administration-and-setup/settings/document-processing/module/po-versandauftragseinstellung.md).
+Weitere Details finden Sie auf der [**Seite zur Versandauftrags-Einstellung**](../../administration-and-setup/settings/document-processing/module/po-shipment-order-setting.md).
 
 ## Toleranzen akzeptieren
 
