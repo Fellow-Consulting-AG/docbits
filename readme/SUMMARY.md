@@ -172,7 +172,7 @@
       * [Doc Script](administration-and-setup/settings/document-processing/module/doc-script.md)
       * [IDM ACL Updater](administration-and-setup/settings/document-processing/module/idm-acl-updater.md)
       * [Swiss QR Code](administration-and-setup/settings/document-processing/module/swiss-qr-code.md)
-      * [Ustawienia zamówienia wysyłki PO](administration-and-setup/settings/document-processing/module/ustawienia-zamowienia-wysylki-po.md)
+      * [Ustawienia zamówienia wysyłki PO](administration-and-setup/settings/document-processing/module/po-shipment-order-setting.md)
     * [Drzewa Decyzyjne](administration-and-setup/settings/document-processing/decision-trees.md)
   * [Log Settings](administration-and-setup/settings/log-settings/README.md)
     * [Zarządzanie Zadaniami](administration-and-setup/settings/log-settings/task-management.md)
