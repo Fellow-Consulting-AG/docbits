@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Fuzzy Data Configuration with List of Values
 
 ### **Overview**
