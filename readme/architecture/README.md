@@ -1,20 +1,20 @@
 # Architektur
 
-## Cloud-Kunde:
+## Cloud-Kunde
 
 <figure><img src="../.gitbook/assets/architecture1.avif" alt=""><figcaption></figcaption></figure>
 
-## Vor Ort:
+## On-Premise-Kunde
 
 <figure><img src="../.gitbook/assets/architecture2.avif" alt=""><figcaption></figcaption></figure>
 
 Doc**Bits** integriert sich nahtlos mit Infor LN/M3 über die ION API, ION Desk und Infor Standard BODs. Unsere API-Integration ermöglicht es uns, Daten an Infor zu exportieren und die Stammdatenvalidierung in Doc**Bits** durchzuführen.
 
-## **DocBits Operator** Architektu&#x72;**:**
+## **DocBits Operator** Architektur
 
 Alle Verbindungen zwischen den Komponenten sind durch branchenübliche Verschlüsselungsprotokolle gesichert. SSH, HTTPS und andere sichere Kanäle gewährleisten die Integrität und Vertraulichkeit der Daten im gesamten System.
 
-**Vor Ort:**&#x20;
+**On-Premise:**&#x20;
 
 <figure><img src="../.gitbook/assets/Operator  (2).png" alt=""><figcaption></figcaption></figure>
 
