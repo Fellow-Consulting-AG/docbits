@@ -1,16 +1,16 @@
 # Architecture
 
-**DocBits Cloud customer:**
+## **DocBits Cloud customer**
 
 <figure><img src="../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 
-### DocBits On premise:
+## DocBits On premise
 
 <figure><img src="../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 
 Doc**Bits** seamlessly integrates with Infor LN/M3 through ION API, ION Desk, and Infor Standard BODs. Our API integration allows us to export data to Infor and perform master data validation in Doc**Bits**.
 
-## **DocBits Operator Architecture:**
+## **DocBits Operator Architecture**
 
 All connections between components are secured using industry-standard encryption protocols. SSH, HTTPS, and other secure channels ensure data integrity and confidentiality throughout the system.
 
@@ -43,3 +43,7 @@ To identify the supplier or compare/match purchase order lines, we activate a tr
 {% hint style="info" %}
 [Master Data Validation](../../infor-integration-and-configuration/importing-customer-master-data/)
 {% endhint %}
+
+## Email-Import O365
+
+<figure><img src="../../.gitbook/assets/o365_architecture.png" alt=""><figcaption></figcaption></figure>
