@@ -1,10 +1,10 @@
 # Architettura
 
-Cliente cloud:
+## Cliente cloud
 
 <figure><img src="../../.gitbook/assets/architecture1.avif" alt=""><figcaption></figcaption></figure>
 
-In sede:
+## In sede
 
 <figure><img src="../../.gitbook/assets/architecture2 (1).avif" alt=""><figcaption></figcaption></figure>
 
@@ -27,3 +27,7 @@ Per identificare il fornitore o confrontare/corrispondere le righe degli ordini 
 {% hint style="info" %}
 [Validazione dei Dati Master](../../infor-integration-and-configuration/importing-customer-master-data/)
 {% endhint %}
+
+## Importazione Email OAuth Office365
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/o365_architecture.png)
