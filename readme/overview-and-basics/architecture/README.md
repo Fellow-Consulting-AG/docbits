@@ -28,6 +28,6 @@ Para identificar al proveedor o comparar/igualar líneas de órdenes de compra, 
 [Validación de Datos Maestros](../../infor-integration-and-configuration/importing-customer-master-data/)
 {% endhint %}
 
-## E-Mail-Import OAuth Office365
+## Importación de Correos Electrónicos OAuth Office365
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/o365_architecture.png)
