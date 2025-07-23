@@ -44,6 +44,6 @@ To identify the supplier or compare/match purchase order lines, we activate a tr
 [Master Data Validation](../../infor-integration-and-configuration/importing-customer-master-data/)
 {% endhint %}
 
-## Email-Import O365
+## Email Import OAuth Office365
 
 <figure><img src="../../.gitbook/assets/o365_architecture.png" alt=""><figcaption></figcaption></figure>
