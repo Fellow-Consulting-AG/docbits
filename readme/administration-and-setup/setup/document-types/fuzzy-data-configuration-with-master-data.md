@@ -8,7 +8,7 @@ Each document type has its own default configurations and must be set up separat
 
 Settings → Global Settings → Document Types → Invoice → Fields → Master Data Settings → Lookup Master Data
 
-<figure><img src="../../../.gitbook/assets/image (454).png" alt=""><figcaption></figcaption></figure>
+<div align="center"><figure><img src="../../../.gitbook/assets/fuzzy_data_config_1.png" alt="" width="454"><figcaption></figcaption></figure></div>
 
 ### **Default Lookups**
 
@@ -19,7 +19,7 @@ There are **four default lookup groups** for invoices:
 3. **Supplier**
 4. **Tax Code**
 
-<figure><img src="../../../.gitbook/assets/image (455).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/fuzzy_data_config_2.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Each group contains specific fields. Click on a group to **expand** it and view the fields. Default lookup groups are labeled with a **"Default" tag**.
 
@@ -51,27 +51,28 @@ Each lookup group is **activated by default** but can be modified by clicking th
 
 There are **two ways** to create a lookup configuration:
 
-1.  **Duplicate an existing lookup**\
+1.  **Duplicate an existing lookup**
 
 
-    <figure><img src="../../../.gitbook/assets/image (458).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../../.gitbook/assets/fuzzy_data_config_3.png" alt=""><figcaption></figcaption></figure>
 
     * This copies all information and fields from an existing group.
     * You only need to provide a **new name**.
-
-
 2.  **Create a lookup from scratch**\
 
 
-    <figure><img src="../../../.gitbook/assets/image (459).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/fuzzy_data_config_4.png" alt=""><figcaption></figcaption></figure>
 
     * Click **"Create Lookup Configuration"**.
     * Fill in the required details:
       * **Configuration Name**
       * **Lookup Table** (Master Data Table to be used)
       * **Conflict Handler** (Choose one: Best Score, Return None, Return First)
-      * **Context Type** <mark style="color:red;">(Header or Line) need context</mark>
-      * **Match All** <mark style="color:red;">(Checkbox option) need context</mark>&#x20;
+      * **Context Type** → Defines where the lookup is applied:
+        * **Header** → Used for document-level fields such as Invoice Number, Date, etc.
+        * **Line** → Used for line item fields within the invoice table. If **Line** is selected, the user must also specify **which invoice table** should be used.
+      * **Match All** → When enabled, only results that match **all** filter conditions will be returned.
 
 ### **Managing Fields Within a Lookup Group**
 
@@ -82,7 +83,7 @@ Each group contains fields that can be **added, removed, edited, or viewed**, de
 *   Marked with a **"Default" tag**.\
 
 
-    <div align="left"><figure><img src="../../../.gitbook/assets/image (456).png" alt="" width="290"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../.gitbook/assets/fuzzy_data_config_5.png" alt="" width="251"><figcaption></figcaption></figure></div>
 * **Can only be viewed**, not edited or deleted.
 
 #### **Non-Default Fields**
@@ -91,18 +92,18 @@ Each group contains fields that can be **added, removed, edited, or viewed**, de
 
 #### **Adding a New Field**
 
-<mark style="color:red;">**Note:**</mark> You can create fields inside a default Lookup configurations.w
+<mark style="color:red;">**Note:**</mark> You can create fields inside a default Lookup configurations.
 
 To add a new field within a group:
 
 1.  Click **"Create"** inside the relevant group.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (460).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/fuzzy_data_config_6.png" alt=""><figcaption></figcaption></figure>
 2. Provide the following details:
    * **Lookup Field** → Column name from the master data lookup table.
    * **Validation Field** → Corresponding DocBits field.
-   * **Parent Field** → _<mark style="color:red;">(More details needed)</mark>_
+   * **Parent Field** →&#x20;
    * **Search Operator** → Choose one:
      * Smart
      * Contains
@@ -110,7 +111,7 @@ To add a new field within a group:
      * Starts with
      * Ends with
    * **Checkboxes:**
-     * **Auto Trigger** → When enabled, if another field in a different lookup configuration shares the same column, this field will update **automatically** whenever the other field is updated
+     * **Auto Trigger** → When enabled, the field will automatically trigger the lookup process during extraction. That means as soon as the related DocBits field is populated, the system will  populate the remaining fields **automatically**.
      * **Searchable** → Enables the field as a **Fuzzy Data** field, allowing searches in the master data lookup (blue icon in validation screen).
 
 ### **Final Step: Adding Fields to the Layout**
