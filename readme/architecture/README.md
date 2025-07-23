@@ -1,16 +1,16 @@
 # Architektur
 
-Cloud-Kunde:
+## Cloud-Kunde:
 
 <figure><img src="../.gitbook/assets/architecture1.avif" alt=""><figcaption></figcaption></figure>
 
-Vor Ort:
+## Vor Ort:
 
 <figure><img src="../.gitbook/assets/architecture2.avif" alt=""><figcaption></figcaption></figure>
 
 Doc**Bits** integriert sich nahtlos mit Infor LN/M3 über die ION API, ION Desk und Infor Standard BODs. Unsere API-Integration ermöglicht es uns, Daten an Infor zu exportieren und die Stammdatenvalidierung in Doc**Bits** durchzuführen.
 
-## **DocBits Operator Architekture:**&#x20;
+## **DocBits Operator** Architektu&#x72;**:**
 
 Alle Verbindungen zwischen den Komponenten sind durch branchenübliche Verschlüsselungsprotokolle gesichert. SSH, HTTPS und andere sichere Kanäle gewährleisten die Integrität und Vertraulichkeit der Daten im gesamten System.
 
@@ -39,3 +39,7 @@ Um den Lieferanten zu identifizieren oder Einkaufsbestellzeilen zu vergleichen/a
 {% hint style="info" %}
 [Stammdatenvalidierung](../setup/importing-customer-master-data/)
 {% endhint %}
+
+## E-Mail-Import OAuth Office365
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/o365_architecture.png)
