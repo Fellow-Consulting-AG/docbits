@@ -1,15 +1,25 @@
 # Training Header Fields
 
-Once you have uploaded your document and it is ready for validation, you will enter. the validation screen.
+After uploading your document, you'll be taken to the validation screen.\
+Some fields may already be populated — this is thanks to DocBits' swarm intelligence. However, other fields might remain empty. This typically means the document type hasn’t been fully trained yet, so DocBits doesn't yet know where to extract that information from.
 
-You will notice some fields are already extracted, this is due to DocBits swarm intelligence, but other fields still remain empty. This is due to this document not being correctly trained yet, meaning DocBits is unsure where to extract the information for those empty fields.
+You can help train DocBits to recognize these fields by manually identifying the correct data. \
+**Please note:** if a field remains empty, it might simply be because the information is not present in the uploaded document.
 
-&#x20;![](https://lh7-us.googleusercontent.com/4xwqOa-brYegZ-5GiX0CCXbZ3KpHK0DqafFukBiCHVodWKzIOpQ8zg6J\_QoEUddQQDwq7loGEBlN87kuXZph3\_tmX8kzqMd5pFy9deUQvEfY7zxXWULbMn\_SKas9K1Wb3R6-FX0dm3BToyWNYOv4WE4)
+<figure><img src="../../../.gitbook/assets/header_field_training_0.png" alt=""><figcaption></figcaption></figure>
 
-However, with your help, you can train DocBits to know where to search for this data on that specific type of document. Do keep in mind that some fields may be empty due to the required information not being present on the document you uploaded, but if the information is present on your document then it can be trained by doing the following.
+### To train a field:
 
-Click on the field you would like to train and either double click on the information on the document or, using your cursor, create a block around the information to populate the field.
+1. Click on the field you want to train.
+2. Then either:
+   * **Double-click** on the relevant data within the document, or
+   * **Draw a selection box** around the data using your cursor.
 
-Repeat this until you have populated all the fields you require and then your document is ready to be exported, once exported, DocBits will remember this document type in future meaning that you will not need to manually train these fields again as DocBits learns where to extract this data.
+<figure><img src="../../../.gitbook/assets/header_field_training_1.png" alt=""><figcaption></figcaption></figure>
 
+Repeat this process for all required fields.\
+Once all necessary fields have been populated, **click "Save Rules"** to store the training. This ensures that DocBits learns where to find each piece of information for similar documents in the future.
 
+<div align="left"><figure><img src="../../../.gitbook/assets/header_field_training_2.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+After saving, your document is ready to be exported — and next time, DocBits will automatically extract the trained fields.

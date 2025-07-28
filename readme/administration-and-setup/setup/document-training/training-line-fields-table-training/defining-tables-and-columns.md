@@ -1,51 +1,75 @@
 # Defining Tables and Columns
 
-## Define Tables
+Use this guide to manually define tables and columns for line-item extraction in DocBits. This is especially useful when automatic detection doesn't fully capture the table structure, or when you need to add custom fields.
 
-To define tables and columns on a document please import a document, open it and go to the table extraction view like already known (via “Line Items”).
+### 1. Access the Table Extraction View
 
-<figure><img src="../../../../.gitbook/assets/image (330).png" alt=""><figcaption></figcaption></figure>
+Open your document in DocBits and click the **“Table Training”** button to enter the table extraction view.
 
-You will end up in following screen where you can activate the Training Mode:
+<figure><img src="../../../../.gitbook/assets/define_tables_and_columns_1.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (332).png" alt=""><figcaption></figcaption></figure>
+### 2. Activate Training Mode
 
-Via the “Edit” button table selection mode will be activated and you will be able to edit the document shown on the left side:
+To manually define or modify tables and columns, click **“TRAINING MODE.”**
 
-<figure><img src="../../../../.gitbook/assets/image (333).png" alt=""><figcaption></figcaption></figure>
+<div align="center"><figure><img src="../../../../.gitbook/assets/define_tables_and_columns_2.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-In general your are now able to use the autodetect tables functionality and the system will automatically define the tables on the document:
+### 3. Define the Table Area
 
-<figure><img src="../../../../.gitbook/assets/image (334).png" alt=""><figcaption></figcaption></figure>
+After entering Training Mode, you can define where the table is on the document. You have two options:
 
-If the system is not able to find the tables automatically you can manually define the tables on the document like shown in the video below:
+#### Option 1: Use Auto-Detect
 
-## Define Columns
+Click the **“Auto-Detect Tables”** button to let DocBits try to identify the table area on its own.
 
-Once the tables are defined you can manually define the columns via the following button:
+<figure><img src="../../../../.gitbook/assets/define_tables_and_columns_3.png" alt="" width="375"><figcaption></figcaption></figure>
 
-![add-column](https://lh7-us.googleusercontent.com/SQLCady2fdxWrkdN3O6sIvhR-KRguBruTy_z_CF0sWpQOXBjd6Vihp3QgZGoJzAfojwe328i6qSkNArkXhXSHr2QBuzPy1nzcVkfprGK7r1NqZvTnRLrbpNGL3OmeI964QjD3r_L64zTMx6iO2ZBKQ4)
+If detection is successful, the table outline will be displayed automatically. You can then proceed to define the columns.
+
+#### Option 2: Define Table Manually
+
+If auto-detection fails or is inaccurate, you can manually define the table:
+
+1. Click the **“Edit”** button to activate table selection mode.
+2. Draw a rectangle around the table area on the left-hand document view.
+
+<figure><img src="../../../../.gitbook/assets/define_tables_and_columns_4.png" alt="" width="563"><figcaption></figcaption></figure>
+
+### 4. Add and Define Columns
+
+Once the tables are defined you can manually define the columns via the following button:\
+
+
+<figure><img src="../../../../.gitbook/assets/define_tables_and_columns_5.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Define and sort the columns via drag and drop on the document. Repeat this for the tables on the other pages as well. As an alternative if the tables are equal on each page you can use the following button to use the same column for all tables defined in the document. This functionality copies the columns that you have defined to all other pages as well:
 
-![restore-extracted-tables](https://lh7-us.googleusercontent.com/nkweDxlMVrFI5KmhuzfcUkFtJgzCkusWMrzSCpoujOatFtnP-scXxGsmVn1cPyCy8BZTH5zjzRPbrr9tH8yIdtQooNCpReFXTxt6q-1AAdA7gdabCkyFjmykI4zLNAiXIyKWTWD1K7okC_foH8m14Ho)
+<figure><img src="../../../../.gitbook/assets/define_tables_and_columns_6.png" alt="" width="563"><figcaption></figcaption></figure>
 
-If the document is very confusing, it can be zoomed in and out using the “Zoom in” and “Zoom out” functionality. This is helpful, for example, when a lot of information is close together and this makes it difficult to define the columns:
+Use the **zoom** feature to better define columns on cluttered or complex documents, for example, when a lot of information is close together and this makes it difficult to define the columns:
 
-![zoom](https://lh7-us.googleusercontent.com/JSi0zXqBlVcNIDfzwuFD0dWYQrrk7mnEs3CoAragmloEtmT8OYIJ0TIVE1NIbI2_KWN8R0ejJyx-LuOxINRuPFx6lp3x-jaL5ab6L_0nbOQmLFmoFH9RUj0mXRjcbLDKE4nvsHSBu4nArWLYCI70QD0)
+<figure><img src="../../../../.gitbook/assets/define_tables_and_columns_7.png" alt="" width="277"><figcaption></figcaption></figure>
 
 If you defined a column by mistake it can be selected by clicking it and deleted via the following button:
 
-![delete-column](https://lh7-us.googleusercontent.com/EkeURGmRZhKcBl-sLsohkn7P7XQqNoSLsRXZNs2Ba7xgJEfYqHiNVSZCGx6X2eKOj9afb7LSNWDN73vk3O5IvCqxv46_JvN8iTU_i4H_OHyfH8coFKkDrkeVM-pVhWzQkdeb6hwI3yPJvsBPc0EXWXY)
+<figure><img src="../../../../.gitbook/assets/define_tables_and_columns_9.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Note: The button is only visible if the column is selected.
+<mark style="color:red;">**Note**</mark>: The button is only visible if the column is selected.
 
 If you are done defining all tables and all columns on your document use the “Save” button to activate your changes and to extract the data from the document:
 
-![](https://lh7-us.googleusercontent.com/xp2mdwrGmuAZ_vGsH-hKIn8k77rIPumDRZUX8z_0BgezUghZUdkkrbghAhWPqEDIW6hjeC5_MvQ7N8y2VN1LS6vxxDUkbZ7FcqFdWD8ufwzaTC_xsSUFHEECS8t2p5Rs3HjKCO3fqSw9LzIcIDeYzHE)
+<figure><img src="../../../../.gitbook/assets/define_tables_and_columns_8.png" alt="" width="563"><figcaption></figcaption></figure>
 
 The data of all defined areas will be extracted and shown on the right side:
 
-![extracted columns](https://lh7-us.googleusercontent.com/2oydJFwY2q19XmWx-uUib_EBsRHMDKrFww4SJn1nZ0u2fcdWrGnJUPSyM4pKkW7g077AAT3YnUdvXZsdMiZ4dlNHBqMPUELNZTk6O7POMqY7Vu3uQxzLaa5Roz08-8xr6cXmWRb5MawH_A8YuywTTBM)
+<figure><img src="../../../../.gitbook/assets/define_tables_and_columns_10.png" alt="" width="375"><figcaption></figcaption></figure>
 
-In the next section you will learn how to adjust the data that has been extracted.
+### 6. Save and Extract
+
+Click **“Save Rules”** once all tables and columns have been defined.
+
+* This tells DocBits where to find table data for this specific supplier.
+* The next time a document from the same supplier is uploaded, DocBits will automatically extract the table using the saved rules.
+
+<mark style="color:red;">**Note**</mark>: This training is supplier-specific. It will not apply to documents from other suppliers.
+
