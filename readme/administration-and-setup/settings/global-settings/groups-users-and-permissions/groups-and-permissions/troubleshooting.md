@@ -1,40 +1,72 @@
-# Solución de problemas
+# Solución de Problemas de Control de Acceso y Problemas de Permisos
 
-#### Si tiene problemas con los permisos y no puede acceder a ciertos documentos o realizar acciones que cree que debería poder hacer, los siguientes consejos de solución de problemas pueden ayudar:
+Si los usuarios experimentan restricciones de acceso inesperadas, como documentos faltantes, incapacidad para editar campos o acciones denegadas, utilice la siguiente lista de verificación para identificar y resolver el problema según cómo estén configurados los permisos en DocBits.
 
-**Verifique la configuración de permisos:**
+### 1. Verificar si el Control de Acceso está Habilitado
 
-* Verifique la configuración de permisos para los documentos o recursos en cuestión para asegurarse de que los usuarios tengan los permisos necesarios.
-* Asegúrese de que los usuarios tengan acceso ya sea directamente o a través de la membresía en grupos.
+La configuración de Control de Acceso solo se aplica si la función está **habilitada**.
 
-**Verifique la membresía en grupos:**
+* Navegar a: `Configuración` > `Procesamiento de Documentos` > `Módulo`.
+* Asegurarse de que el interruptor de **Control de Acceso** esté activado.
+* Si está desactivado, todos los usuarios suelen tener acceso irrestricto independientemente de los permisos de grupo o campo.
 
-* Verifique que los usuarios afectados sean realmente miembros de los grupos que han recibido acceso.
-* Asegúrese de que los usuarios no hayan sido eliminados accidentalmente de los grupos relevantes.
+### 2. Verificar Asignaciones de Grupo
 
-**Verifique los permisos individuales:**
+Asegurarse de que el usuario esté asignado correctamente al grupo apropiado(s):
 
-* Verifique que los permisos individuales se hayan establecido a nivel de usuario y que puedan anular los permisos de grupo.
-* Asegúrese de que estos permisos individuales estén configurados correctamente.
+* Navegar a: `Configuración` > `Configuración Global` > `Grupos, Usuarios y Permisos`.
+* Seleccionar **Grupos y Permisos**.
+* Confirmar que el usuario esté listado bajo el grupo esperado.
+* Si el grupo utiliza control de acceso específico, la falta de asignación de grupo bloqueará el acceso a documentos y acciones.
 
-**Verifique la configuración de herencia:**
+### 3. Revisar Permisos de Acceso de Grupo
 
-* Asegúrese de que los permisos se hereden correctamente y no estén bloqueados por carpetas principales u otras configuraciones.
+El acceso se otorga por tipo de documento y por acción:
 
-**Verifique el historial de permisos:**
+* En la pantalla de **Control de Acceso** para el grupo, verificar el tipo de documento (por ejemplo, Factura, Orden de Compra).
+* Validar permisos como:
+  * **Listar**, **Ver**, **Editar**, **Eliminar**, **Actualización Masiva**
+  * **Niveles de Aprobación** (1º, 2º), **Desbloquear Documento**
+* Asegurarse de que el nivel de acceso no esté limitado a **Propietario** o **Administrador** a menos que sea apropiado.
 
-* Verifique el historial de permisos o los registros para ver si ha habido cambios recientes en los permisos que podrían estar causando los problemas actuales.
+### 4. Confirmar Permisos a Nivel de Campo
 
-**Pruebe con una cuenta de usuario diferente:**
+El acceso también puede estar restringido a nivel de **campo**, lo que puede bloquear la edición o visibilidad:
 
-* Intente acceder a los documentos afectados con una cuenta de usuario diferente para ver si el problema es específico de un usuario o afecta a todos los usuarios.
+* En la configuración de Control de Acceso del grupo, navegar al tipo de documento y verificar la configuración a nivel de campo.
+* Confirmar si los campos están configurados como:
+  * **Leer/Escribir**, **Solo Lectura**, **Escritura de Propietario**, **Ninguno**
+* Ajustar si es necesario según el rol del usuario.
 
-**Verifique los mensajes de error:**
+### 5. Verificar la Configuración de "Solo Documentos Asignados"
 
-* Asegúrese de que los usuarios estén recibiendo mensajes de error precisos que indiquen problemas de permisos. Esto puede ayudarle a identificar y diagnosticar el problema con mayor precisión.
+Esta configuración global limita la visibilidad de documentos:
 
-**Actualice los permisos:**
+* Navegar a: `Configuración` > `Configuración Global` > `Grupos, Usuarios y Permisos`.
+* Si **Solo Documentos Asignados** está **habilitado**, los usuarios solo pueden ver documentos asignados explícitamente a ellos o a su grupo.
+* Si los usuarios no pueden ver los documentos esperados:
+  * Verificar las asignaciones de documentos.
+  * Deshabilitar temporalmente la configuración para probar si es la causa raíz.
 
-* Si todas las demás soluciones fallan, intente reconfigurar los permisos para los usuarios o grupos afectados y asegúrese de que se otorguen correctamente todos los permisos requeridos.
+### 6. Probar con un Usuario o Grupo con Funcionamiento Conocido
 
-Al seguir estos consejos de solución de problemas, puede identificar y resolver problemas relacionados con los permisos para garantizar que los usuarios tengan los derechos de acceso requeridos y puedan trabajar de manera efectiva.
+Para aislar el problema:
+
+* Iniciar sesión con un usuario de un grupo que tenga acceso confirmado.
+* Comparar la visibilidad de documentos y las acciones disponibles.
+* Esto ayuda a determinar si el problema es específico del usuario, del grupo o de todo el sistema.
+
+### 7. Revisar Asignaciones de Documentos
+
+Si "Solo Documentos Asignados" está **habilitado**, asegurarse de que:
+
+* El documento esté **asignado** al usuario o a uno de sus grupos.
+* Utilizar los controles de asignación en la vista detallada del documento para hacer o revisar asignaciones.
+
+### 8. Restablecer o Reconfigurar Permisos
+
+Si los permisos se cambiaron recientemente o los usuarios se movieron entre grupos:
+
+* Confirmar que la configuración de Control de Acceso refleje las nuevas configuraciones de grupo.
+* Ajustar los permisos de campo y documento según sea necesario.
+* Si tiene dudas, crear un grupo de prueba con permisos amplios y probar el comportamiento de acceso antes de aplicar cambios a grupos en producción.
