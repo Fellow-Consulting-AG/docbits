@@ -60,4 +60,4 @@ Po włączeniu to ustawienie pozwala zdefiniować tolerancje dla **Transportu**,
     * **Procent:** Tolerancja jest definiowana jako procent.
     * **Wartość:** Tolerancja jest definiowana jako stała kwota.
 
-<figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

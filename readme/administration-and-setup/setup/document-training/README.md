@@ -1,3 +1,3 @@
-# Document Training
+# Szkolenie dokumentów
 
-A guide to training new documnets with DocBits.
+Przewodnik po szkoleniu nowych dokumentów za pomocą DocBits.

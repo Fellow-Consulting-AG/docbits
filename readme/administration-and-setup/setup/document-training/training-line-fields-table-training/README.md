@@ -1,21 +1,59 @@
-# Training Line Fields/Table Training
+# Szkolenie Pól Linii/Szkolenie Tabeli
 
-## Training Mode vs Correction Mode
+## Szkolenie Tabeli: Kiedy i Jak Je Używać
 
-When using our table extraction tool, you can choose between training mode and correction mode. Here’s what you need to know about each mode:
+DocBits domyślnie korzysta z ekstrakcji tabel opartej na sztucznej inteligencji, która działa w przypadku różnych dostawców. Jednakże, gdy potrzebujesz większej kontroli nad tym, jak elementy linii są ekstrahowane dla konkretnego dostawcy, możesz użyć **Szkolenia Tabeli** do ręcznego zdefiniowania struktury.
 
-### Training Mode
+#### **Ważne: Szkolenie Specyficzne dla Dostawcy**
 
-In training mode, mapped columns are read-only, and you cannot manually change the text. Additionally, the delete row button is not visible.
+Szkolenie tabeli jest **specyficzne dla każdego dostawcy**. Jeśli przeszkolisz układ tabeli dla jednego dostawcy, zasady będą obowiązywać tylko w dokumentach tego dostawcy.\
+Inni dostawcy będą nadal korzystać z ekstrakcji tabel opartej na sztucznej inteligencji, chyba że zostaną przeszkoleni oddzielnie.
 
-![](https://lh7-us.googleusercontent.com/4kLjviYxCQDKZ79f8WhFxD1-6fu4kwHuubU5bJ\_gUIeC8YMof5uZyo4fGjlpqLJavKsDKyritUiRBEPqHKtgbZfJF7-iEgg0dKq9Uij\_tPGLWcNgwubi5ntYw7sMj2TMrzrw\_RUptwK0vXqY7vy4f9Q)
+#### Kiedy Należy Użyć Szkolenia Tabeli?
 
-### Correction Mode
+Użyj Szkolenia Tabeli **tylko wtedy, gdy układ dokumentu jest stabilny**, i chcesz zapewnić spójną, wysokiej jakości ekstrakcję. Najlepiej nadaje się dla dostawców, którzy:
 
-In correction mode, you can delete and add rows, and you can manually change the text of mapped columns.
+* Używają **ustalonego formatu faktury** w czasie.
+* Wymagają **precyzyjnego mapowania** elementów linii do konkretnych pól.
+* Są **dostawcami o dużym wolumenie**, gdzie spójna automatyzacja jest cenna.
 
-![](https://lh7-us.googleusercontent.com/nOtjJPzPjMakpEZs0apOukqMeRbDg8fQJ131vKiSGhEc9klU-6pQFWc7lmwz\_3zn4H4TXdooN8miUUHf8e9YKo-p1iCW8o4OuJvMdIISH65RW3KceESRM0\_YVAX9ienQqJAbFjgRebeyIcHSALhooxg)
+#### Kiedy Nie Używać Szkolenia Tabeli
 
-Here’s an example of a table in correction mode, with the first row deleted and a new row added:
+Unikaj korzystania ze Szkolenia Tabeli jeśli:
 
-![correction mode](https://lh7-us.googleusercontent.com/3C5zN2Uxh-MVUi1WwC70EZeoYtJAoDiCZjqBIGvaSVSCn9SU7wZENHTvaFIV55KckB94MFEDbn46T-oIClqcHesSJfrBSpCkLaMroVONR5380vzBMRsJ3nJxLlGE6GlISIJpYwQDHdJ\_NuMvAD1kN\_c)
+* Dostawca **często zmienia układ swojej faktury** (np. co kilka miesięcy).
+* Nie otrzymujesz regularnie dokumentów od tego dostawcy.
+* Domyślna ekstrakcja oparta na sztucznej inteligencji działa **wystarczająco dobrze** bez ręcznego szkolenia.
+
+W takich przypadkach wielokrotne przeszkolenie tabeli byłoby nieskuteczne i czasochłonne.
+
+## Jak Je Używać:
+
+**Tryb Szkolenia** służy do nauczenia DocBits, jak poprawnie ekstrahować elementy linii z układu dokumentu konkretnego dostawcy.
+
+Gdy jesteś w Trybie Szkolenia, definiujesz:
+
+* **Gdzie znajduje się tabela** na dokumencie.
+* **Które obszary odpowiadają każdej kolumnie** (np. Ilość, Opis, Cena Jednostkowa).
+
+Ten tryb tworzy **szablon ekstrakcji do ponownego użycia** dla tego dostawcy, dzięki czemu przyszłe dokumenty o tym samym układzie będą przetwarzane automatycznie — nie trzeba ponownie szkolić.
+
+**Kluczowe Cechy:**
+
+* **Zmapowane kolumny są tylko do odczytu** — nie można ręcznie zmieniać tekstu.
+* **Nie można dodawać ani usuwać wierszy**.
+* Skupiasz się na **mapowaniu pozycji**, a nie na poprawianiu wartości.
+* Gdy zakończysz mapowanie tabeli i jej kolumn, kliknij **"Zapisz Zasady"**, aby DocBits nauczył się i zastosował to szkolenie do podobnych dokumentów od tego samego dostawcy.
+
+**Tryb Korekty** pozwala ci **poprawić błędy ekstrakcji** w danych tabeli dla bieżącego dokumentu. Jest używany, gdy DocBits już próbował ekstrahować tabelę, ale wyniki wymagają niewielkich poprawek.
+
+Użyj Trybu Korekty, gdy:
+
+* Niektóre **wartości są brakujące lub źle wyrównane**.
+* Wyekstrahowano **pusty lub zduplikowany wiersz**, który trzeba usunąć.
+
+**Co Możesz Zrobić w Trybie Korekty:**
+
+* **Ręcznie dostosować wartości** w zmapowanych kolumnach (np. naprawić przemieszczenia).
+* **Usunąć wiersze**, które nie powinny być częścią tabeli.
+* **Dodać wiersze**, które zostały pominięte podczas ekstrakcji.

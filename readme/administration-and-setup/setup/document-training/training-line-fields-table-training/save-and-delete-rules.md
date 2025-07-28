@@ -1,19 +1,22 @@
-# Save and Delete Rules
+# Zapisywanie i Usuwanie Reguł
 
-If you’re using DocBits for document/table extraction, it’s important to save and delete rules properly to ensure your data is extracted accurately. This guide will walk you through the process.
+Po zakończeniu szkolenia lub korekty tabeli ważne jest **zapisanie swoich reguł**, aby DocBits mógł automatycznie je zastosować do przyszłych dokumentów od tego samego dostawcy.
 
-## Save Rules
+## Zapisywanie Reguł
 
-Once you’ve trained a document in DocBits and defined all the rules for table extraction, you can save those rules for future imports. This means that the tables in your documents will be extracted automatically, without any manual training required.
+Po zdefiniowaniu wszystkich kolumn i korekt:
 
-To save your rules, simply click the “SAVE RULES” button. You’ll see a rule indicator that shows how many rules have been defined and saved for that document.
+1. Kliknij przycisk **ZAPISZ REGUŁY** na górze.
+2. Licznik reguł potwierdzi, ile reguł ekstrakcji zostało zapisanych.
 
-![save rules](https://lh7-us.googleusercontent.com/zVn\_mYiL7PwiILj2gJ4sxaPKpEUNOfKwryiZJ2Umk2SpvGHZ8OVUznBReJHqCM7UstWTt6nq0azJrtPDK\_2q4jVUZgsE7bf6toT9kl57wByn4EG3JqafBfZt5G54OZ8okUfpLUH1tvHb0mZIC119I4k)
+To zapewnia, że DocBits automatycznie użyje twojego przeszkolonego układu, gdy następnym razem zobaczy podobny dokument.
 
-## Delete Rules
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2Flh7-us.googleusercontent.com%2FzVn_mYiL7PwiILj2gJ4sxaPKpEUNOfKwryiZJ2Umk2SpvGHZ8OVUznBReJHqCM7UstWTt6nq0azJrtPDK_2q4jVUZgsE7bf6toT9kl57wByn4EG3JqafBfZt5G54OZ8okUfpLUH1tvHb0mZIC119I4k\&width=768\&dpr=4\&quality=100\&sign=dc056624\&sv=2)
 
-If you need to delete rules for a document, you can do so using the “DELETE RULES” button. This may be necessary if rules have been saved incorrectly or if you need to retrain a document.
+## Usuwanie Reguł
 
-However, it’s important to note that deleting rules will affect all documents with the same or similar format. This means that you’ll need to retrain those documents from scratch. So, be sure to use this feature with caution.
+Możesz usunąć zapisane reguły, korzystając z przycisku **USUŃ REGUŁY**, jeśli zostały skonfigurowane nieprawidłowo lub jeśli układ dokumentu zmienił się znacząco.
 
-![](https://lh7-us.googleusercontent.com/KyfMBBv2ghBgSmqTZ4zMVsHKaoAVwcha8XRhUPNPrVMNwsmHXCDMDSsmkJYE2EYWynD1SzMcf57dmqvGIC4u3UpQohRxZW3A2RNICsNyI6Du0-jd3ZibupkTwRnYoD\_XUAbfypZ5iQj-9Z0XN\_SreUs)
+**Ostrzeżenie**: Usunięcie reguł wpłynie na wszystkie dokumenty od tego samego dostawcy o tym samym układzie. Będziesz musiał **ponownie przeszkolić ekstrakcję tabeli od zera**.
+
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2Flh7-us.googleusercontent.com%2FKyfMBBv2ghBgSmqTZ4zMVsHKaoAVwcha8XRhUPNPrVMNwsmHXCDMDSsmkJYE2EYWynD1SzMcf57dmqvGIC4u3UpQohRxZW3A2RNICsNyI6Du0-jd3ZibupkTwRnYoD_XUAbfypZ5iQj-9Z0XN_SreUs\&width=768\&dpr=4\&quality=100\&sign=1a65fb86\&sv=2)
