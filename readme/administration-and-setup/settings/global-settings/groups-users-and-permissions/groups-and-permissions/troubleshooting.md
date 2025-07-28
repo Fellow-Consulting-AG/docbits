@@ -1,40 +1,72 @@
-# Resolução de Problemas
+# Resolução de Problemas de Controle de Acesso e Permissões
 
-#### Se você está tendo problemas com permissões e não consegue acessar certos documentos ou realizar ações que acredita que deveria conseguir, as seguintes dicas de resolução de problemas podem ajudar:
+Se os usuários estiverem enfrentando restrições de acesso inesperadas, como documentos ausentes, incapacidade de editar campos ou ações negadas, use a seguinte lista de verificação para identificar e resolver o problema com base na configuração das permissões no DocBits.
 
-**Verifique as configurações de permissão:**
+### 1. Verificar Se o Controle de Acesso Está Habilitado
 
-* Verifique as configurações de permissão para os documentos ou recursos em questão para garantir que os usuários tenham as permissões necessárias.
-* Certifique-se de que os usuários tenham acesso, seja diretamente ou por meio da associação a grupos.
+As configurações de Controle de Acesso se aplicam apenas se o recurso estiver **habilitado**.
 
-**Verifique a associação a grupos:**
+* Navegue até: `Configurações` > `Processamento de Documentos` > `Módulo`.
+* Certifique-se de que a chave de **Controle de Acesso** esteja ligada.
+* Se desativado, todos os usuários geralmente têm acesso irrestrito, independentemente das permissões de grupo ou campo.
 
-* Verifique se os usuários afetados são realmente membros dos grupos que receberam acesso.
-* Certifique-se de que os usuários não foram removidos acidentalmente de grupos relevantes.
+### 2. Verificar Atribuições de Grupo
 
-**Verifique as permissões individuais:**
+Certifique-se de que o usuário esteja corretamente atribuído ao(s) grupo(s) apropriado(s):
 
-* Verifique se as permissões individuais foram definidas no nível do usuário que poderiam substituir as permissões do grupo.
-* Certifique-se de que essas permissões individuais estão configuradas corretamente.
+* Navegue até: `Configurações` > `Configurações Globais` > `Grupos, Usuários e Permissões`.
+* Selecione **Grupos e Permissões**.
+* Confirme se o usuário está listado sob o grupo esperado.
+* Se o grupo usar controle de acesso específico, a falta de atribuição de grupo bloqueará o acesso a documentos e ações.
 
-**Verifique as configurações de herança:**
+### 3. Revisar Permissões de Acesso do Grupo
 
-* Certifique-se de que as permissões estão sendo herdadas corretamente e não estão bloqueadas por pastas pai ou outras configurações.
+O acesso é concedido por tipo de documento e por ação:
 
-**Verifique o histórico de permissões:**
+* Na tela de **Controle de Acesso** do grupo, verifique o tipo de documento (por exemplo, Fatura, Ordem de Compra).
+* Valide permissões como:
+  * **Listar**, **Visualizar**, **Editar**, **Excluir**, **Atualização em Massa**
+  * **Níveis de Aprovação** (1º, 2º), **Desbloquear Documento**
+* Certifique-se de que o nível de acesso não esteja limitado a **Proprietário** ou **Administrador**, a menos que seja apropriado.
 
-* Verifique o histórico de permissões ou logs para ver se houve alguma alteração recente nas permissões que poderia estar causando os problemas atuais.
+### 4. Confirmar Permissões de Nível de Campo
 
-**Teste com uma conta de usuário diferente:**
+O acesso também pode ser restrito no **nível de campo**, o que pode bloquear a edição ou visibilidade:
 
-* Tente acessar os documentos afetados com uma conta de usuário diferente para ver se o problema é específico do usuário ou afeta todos os usuários.
+* Na configuração de Controle de Acesso do grupo, navegue até o tipo de documento e verifique as configurações de nível de campo.
+* Confirme se os campos estão definidos como:
+  * **Ler/Escrever**, **Somente Leitura**, **Escrita do Proprietário**, **Nenhum**
+* Ajuste, se necessário, com base na função do usuário.
 
-**Verifique as mensagens de erro:**
+### 5. Verificar a Configuração "Apenas Documentos Atribuídos"
 
-* Certifique-se de que os usuários estão recebendo mensagens de erro precisas indicando problemas de permissão. Isso pode ajudar a identificar e diagnosticar o problema com mais precisão.
+Essa configuração global limita a visibilidade do documento:
 
-**Atualize as permissões:**
+* Navegue até: `Configurações` > `Configurações Globais` > `Grupos, Usuários e Permissões`.
+* Se **Apenas Documentos Atribuídos** estiver **habilitado**, os usuários só podem ver documentos atribuídos explicitamente a eles ou ao seu grupo.
+* Se os usuários não puderem ver os documentos esperados:
+  * Verifique as atribuições de documentos.
+  * Desative temporariamente a configuração para testar se é a causa raiz.
 
-* Se todas as outras soluções falharem, tente reconfigurar as permissões para os usuários ou grupos afetados e garanta que todas as permissões necessárias sejam concedidas corretamente.
+### 6. Testar com um Usuário ou Grupo com Funcionamento Conhecido
 
-Seguindo essas dicas de resolução de problemas, você pode identificar e resolver questões relacionadas a permissões para garantir que os usuários tenham os direitos de acesso necessários e possam trabalhar de forma eficaz.
+Para isolar o problema:
+
+* Faça login com um usuário de um grupo que tenha acesso confirmado.
+* Compare a visibilidade do documento e as ações disponíveis.
+* Isso ajuda a determinar se o problema é específico do usuário, do grupo ou do sistema.
+
+### 7. Revisar Atribuições de Documentos
+
+Se "Apenas Documentos Atribuídos" estiver **habilitado**, certifique-se de que:
+
+* O documento esteja **atribuído** ao usuário ou a um dos seus grupos.
+* Use os controles de atribuição na visualização detalhada do documento para fazer ou revisar as atribuições.
+
+### 8. Redefinir ou Reconfigurar Permissões
+
+Se as permissões foram alteradas recentemente ou os usuários foram movidos entre grupos:
+
+* Confirme se as configurações de Controle de Acesso refletem as novas configurações de grupo.
+* Ajuste as permissões de campo e documento conforme necessário.
+* Se estiver inseguro, crie um grupo de teste com permissões amplas e teste o comportamento de acesso antes de aplicar alterações aos grupos ativos.
