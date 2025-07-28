@@ -6,7 +6,7 @@ Dans la section "Plus de paramètres", vous pouvez trouver diverses options lié
 
 ## Comment accéder
 
-1.  Accédez à **Paramètres** -> **Paramètres globaux** -> **Types de documents**.
+1.  Naviguez vers **Paramètres** → **Paramètres globaux** → **Types de documents**.
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1_fr.png" alt=""><figcaption></figcaption></figure>
 2.  Sélectionnez le type de document souhaité et cliquez sur **Plus de paramètres**.
@@ -15,7 +15,7 @@ Dans la section "Plus de paramètres", vous pouvez trouver diverses options lié
 
 ## Extraction de table
 
-* **Ignorer la validation du tableau** : Permet de contourner le processus de validation des données de tableau, ce qui peut être utile dans des scénarios où la validation des données doit être flexible.
+* **Ignorer la validation du tableau** : Permet de contourner le processus de validation standard pour les données de tableau. Cette option est utile dans les scénarios où une gestion des données flexible est requise ou lorsque certaines étapes de validation peuvent être ignorées pour améliorer les performances lors du traitement des données.
 
 ## Détection des doublons
 
@@ -23,15 +23,11 @@ Dans la section "Plus de paramètres", vous pouvez trouver diverses options lié
 
 ## En révision
 
-* **Concevoir le formulaire d'examen** : Configure la mise en page et les champs qui apparaissent dans les formulaires d'examen utilisés lors du processus de révision des documents.
+* **Formulaire de conception en cours d'examen** : Configurez la mise en page des formulaires de révision à l'aide du **Module de création de mise en page**. Cette mise en page détermine comment le contenu est présenté lors du processus de révision du document. Pour des instructions détaillées sur l'utilisation du **Module de création de mise en page**, cliquez [ici](../../../../setup/document-types/layout-builder.md).
 
 ## Rejeter
 
-* **Concevoir le formulaire de rejet** : Configure la mise en page et les champs affichés dans le formulaire de rejet utilisé lors du processus de révision des documents.
-
-## Génération PDF
-
-* **Modèle de conception** : Spécifie le modèle utilisé pour générer des versions PDF des documents, ce qui peut être crucial pour l'archivage ou la communication externe.
+* **Concevoir le formulaire de rejet** : Configurez la mise en page à l'aide du **Module de création de mise en page** pour le formulaire de rejet affiché lors du processus de révision du document. Pour des instructions détaillées sur l'utilisation du **Module de création de mise en page**, cliquez [ici](../../../../setup/document-types/layout-builder.md).
 
 ## Exporter le format PDF
 
@@ -39,9 +35,9 @@ Dans la section "Plus de paramètres", vous pouvez trouver diverses options lié
 
 ## Approbation
 
-* **Approuver avant l'exportation** : Assure que les documents doivent être approuvés avant de pouvoir être exportés du système. De plus, vous pouvez concevoir le modèle utilisé pour l'écran d'approbation.
-* **Approuver avant l'exportation V2** : Active l'Approbation V2, permettant l'utilisation de champs dynamiques au lieu de statiques. Vous pouvez également personnaliser le modèle de l'écran d'approbation.
-* **Deuxième approbation** : Ajoute une couche d'approbation supplémentaire pour une validation supplémentaire, améliorant le contrôle sur le traitement des documents. Vous pouvez également personnaliser le modèle utilisé pour l'écran d'approbation.
+* **Approuver avant l'exportation** : Assure que les documents doivent être approuvés avant de pouvoir être exportés du système. Vous pouvez également configurer la mise en page de l'écran d'approbation à l'aide du **Module de création de mise en page**. Pour des instructions détaillées sur l'utilisation du **Module de création de mise en page**, cliquez [ici](../../../../setup/document-types/layout-builder.md).
+* **Approuver avant l'exportation V2** : Active l'Approbation V2, qui prend en charge l'utilisation de champs dynamiques à la place de champs statiques. Vous pouvez également personnaliser la mise en page de l'écran d'approbation à l'aide du **Module de création de mise en page**. Pour des instructions détaillées sur l'utilisation du **Module de création de mise en page**, cliquez [ici](../../../../setup/document-types/layout-builder.md).
+* **Deuxième approbation** : Ajoute une couche d'approbation supplémentaire pour une validation améliorée et un meilleur contrôle sur le traitement des documents. Vous pouvez également personnaliser la mise en page de l'écran d'approbation à l'aide du **Module de création de mise en page**. Pour des instructions détaillées sur l'utilisation du **Module de création de mise en page**, cliquez [ici](../../../../setup/document-types/layout-builder.md).
 * [**Cachet d'approbation**](approval/approval-stamp.md) : Ajoute un cachet au document lorsqu'il est approuvé.
 * [**Historique de l'approbation**](approval/approval-history.md) : Permet l'affichage de l'historique des approbations à la fois dans l'écran d'approbation et la validation des champs.
 
