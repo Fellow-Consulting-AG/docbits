@@ -1,40 +1,72 @@
-# Dépannage
+# Résolution des problèmes de contrôle d'accès et de permissions
 
-#### Si vous rencontrez des problèmes de permissions et que vous ne pouvez pas accéder à certains documents ou effectuer des actions que vous pensez pouvoir faire, les conseils de dépannage suivants peuvent vous aider :
+Si les utilisateurs rencontrent des restrictions d'accès inattendues, telles que des documents manquants, l'incapacité à modifier des champs ou des actions refusées, utilisez la liste de contrôle suivante pour identifier et résoudre le problème en fonction de la configuration des autorisations dans DocBits.
 
-**Vérifiez les paramètres de permission :**
+### 1. Vérifier si le contrôle d'accès est activé
 
-* Vérifiez les paramètres de permission pour les documents ou ressources en question afin de vous assurer que les utilisateurs disposent des permissions nécessaires.
-* Assurez-vous que les utilisateurs ont accès soit directement, soit par le biais de l'appartenance à un groupe.
+Les paramètres de contrôle d'accès s'appliquent uniquement si la fonctionnalité est **activée**.
 
-**Vérifiez l'appartenance au groupe :**
+* Accédez à : `Paramètres` > `Traitement de documents` > `Module`.
+* Assurez-vous que le commutateur **Contrôle d'accès** est activé.
+* Si désactivé, tous les utilisateurs ont généralement un accès illimité indépendamment des autorisations de groupe ou de champ.
 
-* Vérifiez que les utilisateurs concernés sont bien membres des groupes qui ont été autorisés à accéder.
-* Assurez-vous que les utilisateurs n'ont pas été accidentellement retirés des groupes pertinents.
+### 2. Vérifier les affectations de groupe
 
-**Vérifiez les permissions individuelles :**
+Assurez-vous que l'utilisateur est correctement affecté au(x) groupe(s) approprié(s) :
 
-* Vérifiez que les permissions individuelles ont été définies au niveau de l'utilisateur et pourraient remplacer les permissions de groupe.
-* Assurez-vous que ces permissions individuelles sont configurées correctement.
+* Accédez à : `Paramètres` > `Paramètres globaux` > `Groupes, utilisateurs et autorisations`.
+* Sélectionnez **Groupes et autorisations**.
+* Confirmez que l'utilisateur est répertorié sous le groupe attendu.
+* Si le groupe utilise un contrôle d'accès spécifique, une affectation de groupe manquante bloquera l'accès aux documents et aux actions.
 
-**Vérifiez les paramètres d'héritage :**
+### 3. Examiner les autorisations d'accès au groupe
 
-* Assurez-vous que les permissions sont héritées correctement et ne sont pas bloquées par des dossiers parents ou d'autres paramètres.
+L'accès est accordé par type de document et par action :
 
-**Vérifiez l'historique des permissions :**
+* Dans l'écran de **Contrôle d'accès** pour le groupe, vérifiez le type de document (par ex. : Facture, Bon de commande).
+* Validez des autorisations telles que :
+  * **Liste**, **Affichage**, **Modification**, **Suppression**, **Mise à jour en masse**
+  * **Niveaux d'approbation** (1er, 2ème), **Déverrouiller le document**
+* Assurez-vous que le niveau d'accès n'est pas limité à **Propriétaire** ou **Administrateur** sauf si approprié.
 
-* Vérifiez l'historique des permissions ou les journaux pour voir s'il y a eu des changements récents dans les permissions qui pourraient causer les problèmes actuels.
+### 4. Confirmer les autorisations au niveau des champs
 
-**Testez avec un autre compte utilisateur :**
+L'accès peut également être restreint au niveau des **champs**, ce qui peut bloquer la modification ou la visibilité :
 
-* Essayez d'accéder aux documents concernés avec un autre compte utilisateur pour voir si le problème est spécifique à l'utilisateur ou s'il affecte tous les utilisateurs.
+* Dans la configuration de contrôle d'accès du groupe, accédez au type de document et vérifiez les paramètres au niveau des champs.
+* Confirmez si les champs sont définis comme :
+  * **Lecture/Écriture**, **Lecture seule**, **Écriture propriétaire**, **Aucun**
+* Ajustez si nécessaire en fonction du rôle de l'utilisateur.
 
-**Vérifiez les messages d'erreur :**
+### 5. Vérifier le paramètre "Uniquement les documents assignés"
 
-* Assurez-vous que les utilisateurs reçoivent des messages d'erreur précis indiquant des problèmes de permission. Cela peut vous aider à identifier et à diagnostiquer le problème plus précisément.
+Ce paramètre global limite la visibilité des documents :
 
-**Mettez à jour les permissions :**
+* Accédez à : `Paramètres` > `Paramètres globaux` > `Groupes, utilisateurs et autorisations`.
+* Si **Uniquement les documents assignés** sont **activés**, les utilisateurs ne peuvent voir que les documents qui leur sont explicitement assignés ou à leur groupe.
+* Si les utilisateurs ne peuvent pas voir les documents attendus :
+  * Vérifiez les affectations de documents.
+  * Désactivez temporairement le paramètre pour tester s'il est à l'origine du problème.
 
-* Si toutes les autres solutions échouent, essayez de reconfigurer les permissions pour les utilisateurs ou groupes concernés et assurez-vous que toutes les permissions requises sont accordées correctement.
+### 6. Tester avec un utilisateur ou un groupe dont le fonctionnement est connu
 
-En suivant ces conseils de dépannage, vous pouvez identifier et résoudre les problèmes liés aux permissions pour garantir que les utilisateurs disposent des droits d'accès nécessaires et peuvent travailler efficacement.
+Pour isoler le problème :
+
+* Connectez-vous avec un utilisateur d'un groupe ayant un accès confirmé.
+* Comparez la visibilité des documents et les actions disponibles.
+* Cela aide à déterminer si le problème est spécifique à l'utilisateur, au groupe ou à l'ensemble du système.
+
+### 7. Vérifier à nouveau les affectations de documents
+
+Si "Uniquement les documents assignés" est **activé**, assurez-vous que :
+
+* Le document est **assigné** à l'utilisateur ou à l'un de ses groupes.
+* Utilisez les contrôles d'affectation dans la vue détaillée du document pour effectuer ou revoir les affectations.
+
+### 8. Réinitialiser ou reconfigurer les autorisations
+
+Si les autorisations ont été récemment modifiées ou si les utilisateurs ont été déplacés entre les groupes :
+
+* Vérifiez à nouveau que les paramètres de contrôle d'accès reflètent les nouvelles configurations de groupe.
+* Ajustez les autorisations des champs et des documents si nécessaire.
+* En cas de doute, créez un groupe de test avec des autorisations étendues et testez le comportement d'accès avant d'appliquer des modifications aux groupes en production.
