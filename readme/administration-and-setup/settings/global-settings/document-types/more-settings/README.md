@@ -27,7 +27,7 @@ In the "More Settings" section, you can find various options related to individu
 
 ## Reject
 
-* **Design in Reject Form**: Configure the layout using the **Layout Builder** for the reject form displayed during the document review process. For detailed instructions on how to use the **Layout Builder**, click [here](../../../../setup/document-types/layout-builder.md).
+* **Design Reject Form**: Configure the layout using the **Layout Builder** for the reject form displayed during the document review process. For detailed instructions on how to use the **Layout Builder**, click [here](../../../../setup/document-types/layout-builder.md).
 
 ## Export PDF Format
 
