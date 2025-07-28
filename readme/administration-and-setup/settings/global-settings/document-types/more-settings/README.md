@@ -6,7 +6,7 @@ Na seção "Mais Configurações", você pode encontrar várias opções relacio
 
 ## Como Acessar
 
-1.  Navegue até **Configurações** -> **Configurações Globais** -> **Tipos de Documentos**.
+1.  Navegue até **Configurações** → **Configurações globais** → **Tipos de documentos**.
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1.png" alt=""><figcaption></figcaption></figure>
 2.  Selecione o tipo de documento desejado e clique em **Mais Configurações**.
@@ -15,7 +15,7 @@ Na seção "Mais Configurações", você pode encontrar várias opções relacio
 
 ## Extração de Tabelas
 
-* **Ignorar validação de tabela**: Permite contornar o processo de validação para dados de tabela, o que pode ser útil em cenários onde a validação de dados precisa ser flexível.
+* **Ignorar validação de tabela**: Permite ignorar o processo de validação padrão para dados de tabela. Esta opção é útil em cenários onde é necessário um manuseio de dados flexível ou quando certos passos de validação podem ser pulados para melhorar o desempenho durante o processamento de dados.
 
 ## Detecção de Duplicados
 
@@ -23,15 +23,11 @@ Na seção "Mais Configurações", você pode encontrar várias opções relacio
 
 ## Em Revisão
 
-* **Design no Formulário de Revisão**: Configura o layout e os campos que aparecem nos formulários de revisão usados durante o processo de revisão do documento.
+* **Design em forma de revisão**: Configure o layout dos formulários de revisão usando o **Construtor de layout**. Este layout determina como o conteúdo é apresentado durante o processo de revisão do documento. Para instruções detalhadas sobre como usar o **Construtor de layout**, clique [aqui](../../../../setup/document-types/layout-builder.md).
 
 ## Rejeitar
 
-* **Design no Formulário de Rejeição**: Configura o layout e os campos exibidos no formulário de rejeição usado durante o processo de revisão do documento.
-
-## Geração de PDF
-
-* **Modelo de Design**: Especifica o modelo usado para gerar versões em PDF dos documentos, o que pode ser crucial para arquivamento ou comunicação externa.
+* **Formulário de rejeição de design**: Configure o layout usando o **Construtor de layout** para o formulário de rejeição exibido durante o processo de revisão do documento. Para instruções detalhadas sobre como usar o **Construtor de layout**, clique [aqui](../../../../setup/document-types/layout-builder.md).
 
 ## Exportar Formato PDF
 
@@ -39,9 +35,9 @@ Na seção "Mais Configurações", você pode encontrar várias opções relacio
 
 ## Aprovação
 
-* **Aprovar antes da exportação**: Garante que os documentos devem ser aprovados antes de serem exportados do sistema. Além disso, você pode projetar o modelo usado para a tela de aprovação.
-* **Aprovar antes da exportação V2**: Habilita a Aprovação V2, permitindo o uso de campos dinâmicos em vez de estáticos. Você também pode personalizar o modelo da tela de aprovação.
-* **Segunda Aprovação**: Adiciona uma camada adicional de aprovação para validação adicional, aprimorando o controle sobre o processamento de documentos. Você também pode personalizar o modelo usado para a tela de aprovação.
+* **Aprovar antes de exportar**: Garante que os documentos devem ser aprovados antes de serem exportados do sistema. Você também pode configurar o layout da tela de aprovação usando o **Construtor de layout**. Para instruções detalhadas sobre como usar o **Construtor de layout**, clique [aqui](../../../../setup/document-types/layout-builder.md).
+* **Aprovar antes da exportação V2**: Ativa a Aprovação V2, que suporta o uso de campos dinâmicos em vez de estáticos. Você também pode personalizar o layout da tela de aprovação usando o **Construtor de layout**. Para instruções detalhadas sobre como usar o **Construtor de layout**, clique [aqui](../../../../setup/document-types/layout-builder.md).
+* **Segunda Aprovação**: Adiciona uma camada adicional de aprovação para validação aprimorada e maior controle sobre o processamento de documentos. Você também pode personalizar o layout da tela de aprovação usando o **Construtor de layout**. Para instruções detalhadas sobre como usar o **Construtor de layout**, clique [aqui](../../../../setup/document-types/layout-builder.md).
 * [**Selo de Aprovação**](approval/approval-stamp.md): Adiciona um selo ao documento quando ele é aprovado.
 * [**Histórico de Aprovação**](approval/approval-history.md): Permite a exibição do histórico de aprovação tanto na tela de aprovação quanto na validação de campos.
 
