@@ -6,7 +6,7 @@ W sekcji "Więcej ustawień" znajdziesz różne opcje związane z poszczególnym
 
 ## Jak uzyskać dostęp
 
-1.  Przejdź do **Ustawienia** -> **Ustawienia globalne** -> **Typy dokumentów**.
+1.  Przejdź do **Ustawienia** → **Ustawienia globalne** → **Typy dokumentów**.
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1.png" alt=""><figcaption></figcaption></figure>
 2.  Wybierz żądany typ dokumentu i kliknij **Więcej ustawień**.
@@ -15,7 +15,7 @@ W sekcji "Więcej ustawień" znajdziesz różne opcje związane z poszczególnym
 
 ## Ekstrakcja tabeli
 
-* **Pomiń walidację tabeli**: Umożliwia pominięcie procesu walidacji danych tabeli, co może być przydatne w scenariuszach, gdzie walidacja danych musi być elastyczna.
+* **Pomiń walidację tabeli**: Umożliwia pominięcie standardowego procesu walidacji danych tabeli. Ta opcja jest przydatna w scenariuszach, w których wymagana jest elastyczna obsługa danych lub gdy niektóre kroki walidacji można pominąć, aby poprawić wydajność podczas przetwarzania danych.
 
 ## Wykrywanie duplikatów
 
@@ -23,15 +23,11 @@ W sekcji "Więcej ustawień" znajdziesz różne opcje związane z poszczególnym
 
 ## W recenzji
 
-* **Projekt w formularzu recenzji**: Konfiguruje układ i pola, które pojawiają się w formularzach recenzji używanych podczas procesu przeglądu dokumentów.
+* **Formularz przeglądu projektu**: Skonfiguruj układ formularzy przeglądowych za pomocą **Kreatora układów**. Ten układ określa, jak treść jest prezentowana podczas procesu przeglądu dokumentu. Aby uzyskać szczegółowe instrukcje dotyczące korzystania z **Kreatora układów**, kliknij [tutaj](../../../../setup/document-types/layout-builder.md).
 
 ## Odrzuć
 
-* **Projekt w formularzu odrzucenia**: Konfiguruje układ i pola wyświetlane w formularzu odrzucenia używanym podczas procesu przeglądu dokumentów.
-
-## Generowanie PDF
-
-* **Szablon projektu**: Określa szablon używany do generowania wersji PDF dokumentów, co może być kluczowe dla archiwizacji lub komunikacji zewnętrznej.
+* **Formularz odrzucenia projektu**: Skonfiguruj układ za pomocą **Kreatora układów** dla formularza odrzucenia wyświetlanego podczas procesu przeglądu dokumentu. Aby uzyskać szczegółowe instrukcje dotyczące korzystania z **Kreatora układów**, kliknij [tutaj](../../../../setup/document-types/layout-builder.md).
 
 ## Eksport formatu PDF
 
@@ -39,9 +35,9 @@ W sekcji "Więcej ustawień" znajdziesz różne opcje związane z poszczególnym
 
 ## Zatwierdzenie
 
-* **Zatwierdź przed eksportem**: Zapewnia, że dokumenty muszą być zatwierdzone przed ich eksportem z systemu. Dodatkowo możesz zaprojektować szablon używany dla ekranu zatwierdzenia.
-* **Zatwierdź przed eksportem V2**: Włącza Zatwierdzenie V2, umożliwiając użycie dynamicznych pól zamiast statycznych. Możesz również dostosować szablon ekranu zatwierdzenia.
-* **Drugie zatwierdzenie**: Dodaje dodatkową warstwę zatwierdzenia dla dalszej walidacji, zwiększając kontrolę nad przetwarzaniem dokumentów. Możesz również dostosować szablon używany dla ekranu zatwierdzenia.
+* **Zatwierdź przed eksportem**: Zapewnia, że dokumenty muszą być zatwierdzone przed ich eksportem z systemu. Możesz również skonfigurować układ ekranu zatwierdzenia za pomocą **Kreatora układów**. Aby uzyskać szczegółowe instrukcje dotyczące korzystania z **Kreatora układów**, kliknij [tutaj](../../../../setup/document-types/layout-builder.md).
+* **Zatwierdź przed eksportem V2**: Aktywuje Aprobata V2, która wspiera użycie dynamicznych pól zamiast statycznych. Możesz również dostosować układ ekranu zatwierdzenia za pomocą **Kreatora układów**. Aby uzyskać szczegółowe instrukcje dotyczące korzystania z **Kreatora układów**, kliknij [tutaj](../../../../setup/document-types/layout-builder.md).
+* **Drugie zatwierdzenie**: Dodaje dodatkową warstwę zatwierdzenia dla lepszej walidacji i większej kontroli nad przetwarzaniem dokumentów. Możesz również dostosować układ ekranu zatwierdzenia za pomocą **Kreatora układów**. Aby uzyskać szczegółowe instrukcje dotyczące korzystania z **Kreatora układów**, kliknij [tutaj](../../../../setup/document-types/layout-builder.md).
 * [**Stempel zatwierdzenia**](approval/approval-stamp.md): Dodaje stempel do dokumentu, gdy jest on zatwierdzony.
 * [**Historia zatwierdzeń**](approval/approval-history.md): Umożliwia wyświetlanie historii zatwierdzeń zarówno na ekranie zatwierdzenia, jak i w walidacji pól.
 
