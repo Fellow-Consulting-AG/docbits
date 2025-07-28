@@ -110,7 +110,6 @@
           * [Przewodnik po pliku ścieżek ekstrakcji EDI](administration-and-setup/settings/global-settings/document-types/edi/edi/edi-extraction-paths-file-guide.md)
         * [eSLOG 1.6 i 2.0](administration-and-setup/settings/global-settings/document-types/edi/eslog-1.6-and-2.0.md)
       * [Więcej ustawień](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
-        * [Cel i zastosowanie](administration-and-setup/settings/global-settings/document-types/more-settings/purpose-and-use.md)
         * [Najlepsze praktyki](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Rozwiązywanie problemów](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
         * [Obsługa Duplikatów Dokumentów](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
