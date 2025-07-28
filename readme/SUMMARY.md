@@ -127,7 +127,6 @@
           * [EDI Extraktionspfad-Datei-Leitfaden](administration-and-setup/settings/global-settings/document-types/edi/edi/edi-extraction-paths-file-guide.md)
         * [e-SLOG 1.6 und 2.0](administration-and-setup/settings/global-settings/document-types/edi/eslog-1.6-and-2.0.md)
       * [Weitere Einstellungen ](admin-section/settings/global-settings/document-types/more-settings/README.md)
-        * [Zweck und Verwendung](administration-and-setup/settings/global-settings/document-types/more-settings/purpose-and-use.md)
         * [Best Practices](admin-section/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Fehlerbehebung](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
         * [Erkennung von Duplikaten](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)

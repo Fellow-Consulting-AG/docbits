@@ -6,7 +6,7 @@ Im Abschnitt "Weitere Einstellungen" finden Sie verschiedene Optionen zu einzeln
 
 ## So greifen Sie zu
 
-1.  Navigieren Sie zu **Einstellungen** -> **Globale Einstellungen** -> **Dokumenttypen**.
+1.  Navigieren Sie zu **Einstellungen** → **Globale Einstellungen** → **Dokumenttypen**.
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1_de (1).png" alt=""><figcaption></figcaption></figure>
 2.  Wählen Sie den gewünschten Dokumenttyp aus und klicken Sie auf **Weitere Einstellungen**.
@@ -15,7 +15,7 @@ Im Abschnitt "Weitere Einstellungen" finden Sie verschiedene Optionen zu einzeln
 
 ## Tabelle Extraktion
 
-* **Tabellenvalidierung überspringen**: Ermöglicht das Umgehen des Validierungsprozesses für Tabellendaten, was in Szenarien nützlich sein kann, in denen die Datenvalidierung flexibel sein muss.
+* **Tabellenvalidierung überspringen**: Ermöglicht das Umgehen des Standardvalidierungsprozesses für Tabellendaten. Diese Option ist nützlich in Szenarien, in denen eine flexible Datenverarbeitung erforderlich ist oder wenn bestimmte Validierungsschritte übersprungen werden können, um die Leistung während der Datenverarbeitung zu verbessern.
 
 ## Erkennung von Duplikaten
 
@@ -23,15 +23,11 @@ Im Abschnitt "Weitere Einstellungen" finden Sie verschiedene Optionen zu einzeln
 
 ## In Überprüfung
 
-* **Entwerfen des Überprüfungsformulars**: Konfiguriert das Layout und die Felder, die in den Überprüfungsformularen erscheinen, die während des Dokumentenüberprüfungsprozesses verwendet werden.
+* **Entwerfen des Überprüfungsformulars**: Konfigurieren Sie das Layout der Überprüfungsformulare mit dem **Layout-Ersteller**. Dieses Layout bestimmt, wie Inhalte während des Dokumentenüberprüfungsprozesses präsentiert werden. Für detaillierte Anweisungen zur Verwendung des **Layout-Erstellers** klicken Sie [hier](../../../../../setup/document-types/layout-builder.md).
 
 ## Ablehnen
 
-* **Entwerfen Sie das Ablehnungsformular**: Konfiguriert das Layout und die Felder, die im Ablehnungsformular angezeigt werden, das während des Dokumentenüberprüfungsprozesses verwendet wird.
-
-## PDF-Generation
-
-* **Design-Vorlage**: Gibt die Vorlage an, die zur Erstellung von PDF-Versionen der Dokumente verwendet wird, was für die Archivierung oder externe Kommunikation entscheidend sein kann.
+* **Entwerfen Sie das Ablehnungsformular**: Konfigurieren Sie das Layout mit dem **Layout-Ersteller** für das Ablehnungsformular, das während des Dokumentenüberprüfungsprozesses angezeigt wird. Für detaillierte Anweisungen zur Verwendung des **Layout-Erstellers** klicken Sie [hier](../../../../../setup/document-types/layout-builder.md).
 
 ## PDF-Format exportieren
 
@@ -39,9 +35,9 @@ Im Abschnitt "Weitere Einstellungen" finden Sie verschiedene Optionen zu einzeln
 
 ## Genehmigung
 
-* **Erste Genehmigung**: Stellt sicher, dass Dokumente genehmigt werden müssen, bevor sie aus dem System exportiert werden können. Darüber hinaus können Sie die Vorlage für den Genehmigungsbildschirm entwerfen.
-* **Vor dem Export genehmigen V2**: Aktiviert Genehmigung V2, die die Verwendung von dynamischen Feldern anstelle von statischen ermöglicht. Sie können auch die Vorlage für den Genehmigungsbildschirm anpassen.
-* **Zweite Genehmigung**: Fügt eine zusätzliche Genehmigungsebene für weitere Validierung hinzu, um die Kontrolle über die Dokumentenverarbeitung zu verbessern. Sie können auch die Vorlage für den Genehmigungsbildschirm anpassen.
+* **Erste Genehmigung**: Stellt sicher, dass Dokumente genehmigt werden müssen, bevor sie aus dem System exportiert werden können. Sie können auch das Layout des Genehmigungsbildschirms mit dem **Layout-Ersteller** konfigurieren. Für detaillierte Anweisungen zur Verwendung des **Layout-Erstellers** klicken Sie [hier](../../../../../setup/document-types/layout-builder.md).
+* **Vor dem Export genehmigen V2**: Aktiviert Genehmigung V2, die die Verwendung von dynamischen Feldern anstelle von statischen unterstützt. Sie können auch das Layout des Genehmigungsbildschirms mit dem **Layout-Ersteller** anpassen. Für detaillierte Anweisungen zur Verwendung des **Layout-Erstellers** klicken Sie [hier](../../../../../setup/document-types/layout-builder.md).
+* **Zweite Genehmigung**: Fügt eine zusätzliche Genehmigungsebene für eine verbesserte Validierung und mehr Kontrolle über die Dokumentenverarbeitung hinzu. Sie können auch das Layout des Genehmigungsbildschirms mit dem **Layout-Ersteller** anpassen. Für detaillierte Anweisungen zur Verwendung des **Layout-Erstellers** klicken Sie [hier](../../../../../setup/document-types/layout-builder.md).
 * [**Genehmigungsstempel**](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md): Fügt dem Dokument einen Stempel hinzu, wenn es genehmigt wird.
 * [**Genehmigungsverlauf**](../../../../../administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-history.md): Ermöglicht die Anzeige des Genehmigungsverlaufs sowohl im Genehmigungsbildschirm als auch in der Feldvalidierung.
 
