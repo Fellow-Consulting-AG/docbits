@@ -6,7 +6,7 @@ Nella sezione "Altre impostazioni", puoi trovare varie opzioni relative ai singo
 
 ## Come accedere
 
-1.  Naviga su **Impostazioni** -> **Impostazioni globali** -> **Tipi di documenti**.
+1.  Naviga su **Impostazioni** → **Impostazioni globali** → **Tipi di documenti**.
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1_it.png" alt=""><figcaption></figcaption></figure>
 2.  Seleziona il tipo di documento desiderato e fai clic su **Altre impostazioni**.
@@ -15,7 +15,7 @@ Nella sezione "Altre impostazioni", puoi trovare varie opzioni relative ai singo
 
 ## Estrazione della tabella
 
-* **Saltare la convalida della tabella**: Consente di bypassare il processo di convalida per i dati della tabella, il che può essere utile in scenari in cui la convalida dei dati deve essere flessibile.
+* **Saltare la convalida della tabella**: Abilita il bypass del processo di convalida standard per i dati della tabella. Questa opzione è utile in scenari in cui è richiesta una gestione dei dati flessibile o quando alcuni passaggi di convalida possono essere saltati per migliorare le prestazioni durante l'elaborazione dei dati.
 
 ## Rilevamento dei duplicati
 
@@ -23,15 +23,11 @@ Nella sezione "Altre impostazioni", puoi trovare varie opzioni relative ai singo
 
 ## In revisione
 
-* **Progetta il modulo di revisione**: Configura il layout e i campi che appaiono nei moduli di revisione utilizzati durante il processo di revisione del documento.
+* **Modulo di revisione del progetto**: Configura il layout dei moduli di revisione utilizzando il **Costruttore di layout**. Questo layout determina come viene presentato il contenuto durante il processo di revisione del documento. Per istruzioni dettagliate su come utilizzare il **Costruttore di layout**, fai clic [qui](../../../../setup/document-types/layout-builder.md).
 
 ## Rifiuto
 
-* **Progettare il modulo di rifiuto**: Configura il layout e i campi visualizzati nel modulo di rifiuto utilizzato durante il processo di revisione del documento.
-
-## Generazione PDF
-
-* **Modello di design**: Specifica il modello utilizzato per generare versioni PDF dei documenti, che può essere cruciale per l'archiviazione o la comunicazione esterna.
+* **Modulo di rifiuto del design**: Configura il layout utilizzando il **Costruttore di layout** per il modulo di rifiuto visualizzato durante il processo di revisione del documento. Per istruzioni dettagliate su come utilizzare il **Costruttore di layout**, fai clic [qui](../../../../setup/document-types/layout-builder.md).
 
 ## Esportazione in formato PDF
 
@@ -39,9 +35,9 @@ Nella sezione "Altre impostazioni", puoi trovare varie opzioni relative ai singo
 
 ## Approvazione
 
-* **Approvare prima dell'esportazione**: Garantisce che i documenti debbano essere approvati prima di poter essere esportati dal sistema. Inoltre, puoi progettare il modello utilizzato per lo schermo di approvazione.
-* **Approvare prima dell'esportazione V2**: Abilita l'Approvazione V2, consentendo l'uso di campi dinamici invece di quelli statici. Puoi anche personalizzare il modello dello schermo di approvazione.
-* **Seconda approvazione**: Aggiunge un ulteriore livello di approvazione per una convalida aggiuntiva, migliorando il controllo sul processo di elaborazione dei documenti. Puoi anche personalizzare il modello utilizzato per lo schermo di approvazione.
+* **Approvare prima dell'esportazione**: Garantisce che i documenti debbano essere approvati prima di poter essere esportati dal sistema. Puoi anche configurare il layout della schermata di approvazione utilizzando il **Costruttore di layout**. Per istruzioni dettagliate su come utilizzare il **Costruttore di layout**, fai clic [qui](../../../../setup/document-types/layout-builder.md).
+* **Approvare prima dell'esportazione V2**: Attiva l'Approvazione V2, che supporta l'uso di campi dinamici al posto di quelli statici. Puoi anche personalizzare il layout della schermata di approvazione utilizzando il **Costruttore di layout**. Per istruzioni dettagliate su come utilizzare il **Costruttore di layout**, fai clic [qui](../../../../setup/document-types/layout-builder.md).
+* **Seconda approvazione**: Aggiunge un ulteriore livello di approvazione per una convalida migliorata e un maggiore controllo sull'elaborazione dei documenti. Puoi anche personalizzare il layout della schermata di approvazione utilizzando il **Costruttore di layout**. Per istruzioni dettagliate su come utilizzare il **Costruttore di layout**, fai clic [qui](../../../../setup/document-types/layout-builder.md).
 * [**Timbro di approvazione**](approval/approval-stamp.md): Aggiunge un timbro al documento quando viene approvato.
 * [**Storia dell'approvazione**](approval/approval-history.md): Abilita la visualizzazione della storia dell'approvazione sia nello schermo di approvazione che nella convalida dei campi.
 
