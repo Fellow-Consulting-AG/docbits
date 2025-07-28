@@ -90,7 +90,7 @@
         * [Gruppen hinzufügen/bearbeiten](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/adding-editing-groups.md)
         * [Berechtigungen aktivieren](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/activating-permissions.md)
         * [Zugangskontrolle](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/access-control.md)
-        * [Fehlerbehebung](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
+        * [Fehlerbehebung bei Zugriffssteuerung und Berechtigungsproblemen](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
     * [Best Practices](admin-section/settings/global-settings/best-practices.md)
     * [Integration](admin-section/settings/global-settings/integration/README.md)
       * [API-Schlüssel](admin-section/settings/global-settings/integration/api-schlussel.md)
