@@ -37,7 +37,7 @@ In the "More Settings" section, you can find various options related to individu
 
 * **Approve before export**: Ensures that documents must be approved before they can be exported from the system. You can also configure the layout of the approval screen using the **Layout Builder**. For detailed instructions on how to use the **Layout Builder**, click [here](../../../../setup/document-types/layout-builder.md).
 * **Approve before export V2**: Activates Approval V2, which supports the use of dynamic fields in place of static ones. You can also customize the layout of the approval screen using the **Layout Builder**. For detailed instructions on how to use the **Layout Builder**, click [here](../../../../setup/document-types/layout-builder.md).
-* **Second Approval**: Adds an additional layer of approval for further validation, enhancing control over document processing. You can also customize the template used for the approval screen.
+* **Second Approval**: Adds an additional layer of approval for enhanced validation and greater control over document processing. You can also customize the layout of the approval screen using the **Layout Builder**. For detailed instructions on how to use the **Layout Builder**, click [here](../../../../setup/document-types/layout-builder.md).
 * [**Approval Stamp**](approval/approval-stamp.md): Adds a stamp to the document when it is approved.
 * [**Approval History**](approval/approval-history.md): Enables the display of approval history in both the approval screen and field validation.
 
