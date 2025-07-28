@@ -6,7 +6,7 @@ En la sección "Más ajustes", puedes encontrar varias opciones relacionadas con
 
 ## Cómo acceder
 
-1.  Navega a **Ajustes** -> **Ajustes globales** -> **Tipos de documentos**.
+1.  Navega a **Ajustes** → **Ajustes globales** → **Tipos de documentos**.
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1_es.png" alt=""><figcaption></figcaption></figure>
 2.  Selecciona el tipo de documento deseado y haz clic en **Más ajustes**.
@@ -15,7 +15,7 @@ En la sección "Más ajustes", puedes encontrar varias opciones relacionadas con
 
 ## Extracción de tabla
 
-* **Saltar validación de tabla**: Permite omitir el proceso de validación para los datos de la tabla, lo que puede ser útil en escenarios donde la validación de datos necesita ser flexible.
+* **Saltar validación de tabla**: Permite omitir el proceso de validación estándar para los datos de la tabla. Esta opción es útil en escenarios donde se requiere un manejo de datos flexible o cuando ciertos pasos de validación pueden omitirse para mejorar el rendimiento durante el procesamiento de datos.
 
 ## Detección de duplicados
 
@@ -23,15 +23,11 @@ En la sección "Más ajustes", puedes encontrar varias opciones relacionadas con
 
 ## En revisión
 
-* **Diseñar el formulario de revisión**: Configura el diseño y los campos que aparecen en los formularios de revisión utilizados durante el proceso de revisión de documentos.
+* **Formulario de diseño en revisión**: Configura el diseño de los formularios de revisión utilizando el **Creador de diseño**. Este diseño determina cómo se presenta el contenido durante el proceso de revisión del documento. Para instrucciones detalladas sobre cómo usar el **Creador de diseño**, haz clic [aquí](../../../../setup/document-types/layout-builder.md).
 
-## Rechazar
+## Rechazo
 
-* **Diseñar el formulario de rechazo**: Configura el diseño y los campos que se muestran en el formulario de rechazo utilizado durante el proceso de revisión de documentos.
-
-## Generación PDF
-
-* **Plantilla de diseño**: Especifica la plantilla utilizada para generar versiones PDF de los documentos, lo que puede ser crucial para el archivo o la comunicación externa.
+* **Diseñar el formulario de rechazo**: Configura el diseño utilizando el **Creador de diseño** para el formulario de rechazo que se muestra durante el proceso de revisión del documento. Para instrucciones detalladas sobre cómo usar el **Creador de diseño**, haz clic [aquí](../../../../setup/document-types/layout-builder.md).
 
 ## Exportar formato PDF
 
@@ -39,9 +35,9 @@ En la sección "Más ajustes", puedes encontrar varias opciones relacionadas con
 
 ## Aprobación
 
-* **Aprobar antes de la exportación**: Asegura que los documentos deben ser aprobados antes de que puedan ser exportados del sistema. Además, puedes diseñar la plantilla utilizada para la pantalla de aprobación.
-* **Aprobar antes de la exportación V2**: Habilita la Aprobación V2, permitiendo el uso de campos dinámicos en lugar de estáticos. También puedes personalizar la plantilla de la pantalla de aprobación.
-* **Segunda aprobación**: Agrega una capa adicional de aprobación para una validación adicional, mejorando el control sobre el procesamiento de documentos. También puedes personalizar la plantilla utilizada para la pantalla de aprobación.
+* **Aprobar antes de la exportación**: Asegura que los documentos deben ser aprobados antes de que puedan ser exportados del sistema. También puedes configurar el diseño de la pantalla de aprobación utilizando el **Creador de diseño**. Para instrucciones detalladas sobre cómo usar el **Creador de diseño**, haz clic [aquí](../../../../setup/document-types/layout-builder.md).
+* **Aprobar antes de la exportación V2**: Activa la Aprobación V2, que admite el uso de campos dinámicos en lugar de estáticos. También puedes personalizar el diseño de la pantalla de aprobación utilizando el **Creador de diseño**. Para instrucciones detalladas sobre cómo usar el **Creador de diseño**, haz clic [aquí](../../../../setup/document-types/layout-builder.md).
+* **Segunda aprobación**: Agrega una capa adicional de aprobación para una validación mejorada y un mayor control sobre el procesamiento de documentos. También puedes personalizar el diseño de la pantalla de aprobación utilizando el **Creador de diseño**. Para instrucciones detalladas sobre cómo usar el **Creador de diseño**, haz clic [aquí](../../../../setup/document-types/layout-builder.md).
 * [**Sello de aprobación**](approval/approval-stamp.md): Agrega un sello al documento cuando es aprobado.
 * [**Historial de aprobaciones**](approval/approval-history.md): Permite la visualización del historial de aprobaciones tanto en la pantalla de aprobación como en la validación de campos.
 
