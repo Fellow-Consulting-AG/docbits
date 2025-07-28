@@ -1,40 +1,72 @@
-# Rozwiązywanie problemów
+# Rozwiązywanie problemów z kontrolą dostępu i uprawnieniami
 
-#### Jeśli masz problemy z uprawnieniami i nie możesz uzyskać dostępu do niektórych dokumentów lub wykonać działań, które uważasz, że powinieneś móc wykonać, poniższe wskazówki dotyczące rozwiązywania problemów mogą pomóc:
+Jeśli użytkownicy napotykają nieoczekiwane ograniczenia dostępu - takie jak brakujące dokumenty, niemożność edycji pól lub odmowy działań - skorzystaj z poniższej listy kontrolnej, aby zidentyfikować i rozwiązać problem na podstawie konfiguracji uprawnień w DocBits.
 
-**Sprawdź ustawienia uprawnień:**
+### 1. Sprawdź, czy kontrola dostępu jest włączona
 
-* Sprawdź ustawienia uprawnień dla dokumentów lub zasobów, aby upewnić się, że użytkownicy mają niezbędne uprawnienia.
-* Upewnij się, że użytkownicy mają dostęp bezpośrednio lub poprzez członkostwo w grupie.
+Ustawienia kontroli dostępu mają zastosowanie tylko wtedy, gdy funkcja jest **włączona**.
 
-**Sprawdź członkostwo w grupie:**
+* Przejdź do: `Ustawienia` > `Przetwarzanie dokumentów` > `Moduł`.
+* Upewnij się, że przełącznik **Kontroli dostępu** jest włączony.
+* Jeśli jest wyłączony, wszyscy użytkownicy zazwyczaj mają nieograniczony dostęp bez względu na uprawnienia grupy lub pola.
 
-* Sprawdź, czy dotknięci użytkownicy są rzeczywiście członkami grup, którym przyznano dostęp.
-* Upewnij się, że użytkownicy nie zostali przypadkowo usunięci z odpowiednich grup.
+### 2. Sprawdź przypisania grup
 
-**Sprawdź indywidualne uprawnienia:**
+Upewnij się, że użytkownik jest poprawnie przypisany do odpowiednich grup:
 
-* Sprawdź, czy indywidualne uprawnienia zostały ustawione na poziomie użytkownika, które mogą nadpisywać uprawnienia grupowe.
-* Upewnij się, że te indywidualne uprawnienia są skonfigurowane poprawnie.
+* Przejdź do: `Ustawienia` > `Ustawienia globalne` > `Grupy, Użytkownicy i Uprawnienia`.
+* Wybierz **Grupy i Uprawnienia**.
+* Potwierdź, że użytkownik jest wymieniony w oczekiwanej grupie.
+* Jeśli grupa korzysta z określonej kontroli dostępu, brak przypisania do grupy zablokuje dostęp do dokumentów i działań.
 
-**Sprawdź ustawienia dziedziczenia:**
+### 3. Przejrzyj uprawnienia dostępu grupy
 
-* Upewnij się, że uprawnienia są dziedziczone poprawnie i nie są blokowane przez foldery nadrzędne lub inne ustawienia.
+Dostęp jest udzielany na podstawie typu dokumentu i działania:
 
-**Sprawdź historię uprawnień:**
+* Na ekranie **Kontroli dostępu** dla grupy sprawdź typ dokumentu (np. Faktura, Zamówienie zakupu).
+* Zweryfikuj uprawnienia takie jak:
+  * **Lista**, **Wyświetl**, **Edytuj**, **Usuń**, **Masowa aktualizacja**
+  * **Poziomy zatwierdzenia** (1., 2.), **Odblokuj dokument**
+* Upewnij się, że poziom dostępu nie jest ograniczony do **Właściciela** lub **Administratora**, chyba że jest to odpowiednie.
 
-* Sprawdź historię uprawnień lub dzienniki, aby zobaczyć, czy były jakieś ostatnie zmiany w uprawnieniach, które mogą powodować obecne problemy.
+### 4. Potwierdź uprawnienia na poziomie pól
 
-**Przetestuj z innym kontem użytkownika:**
+Dostęp może być również ograniczony na poziomie **pola**, co może blokować edycję lub widoczność:
 
-* Spróbuj uzyskać dostęp do dotkniętych dokumentów z innym kontem użytkownika, aby sprawdzić, czy problem dotyczy konkretnego użytkownika, czy wszystkich użytkowników.
+* W konfiguracji Kontroli dostępu grupy przejdź do typu dokumentu i sprawdź ustawienia na poziomie pól.
+* Zweryfikuj, czy pola są ustawione na:
+  * **Odczyt/Zapis**, **Tylko odczyt**, **Zapis Właściciela**, **Brak**
+* Dostosuj, jeśli konieczne, w zależności od roli użytkownika.
 
-**Sprawdź komunikaty o błędach:**
+### 5. Sprawdź ustawienie "Tylko przypisane dokumenty"
 
-* Upewnij się, że użytkownicy otrzymują dokładne komunikaty o błędach wskazujące na problemy z uprawnieniami. Może to pomóc w precyzyjnym zlokalizowaniu i zdiagnozowaniu problemu.
+To globalne ustawienie ogranicza widoczność dokumentów:
 
-**Zaktualizuj uprawnienia:**
+* Przejdź do: `Ustawienia` > `Ustawienia globalne` > `Grupy, Użytkownicy i Uprawnienia`.
+* Jeśli **Tylko przypisane dokumenty** są **włączone**, użytkownicy mogą widzieć tylko dokumenty przypisane bezpośrednio do nich lub ich grupy.
+* Jeśli użytkownicy nie widzą oczekiwanych dokumentów:
+  * Sprawdź przypisanie dokumentów.
+  * Tymczasowo wyłącz ustawienie, aby sprawdzić, czy jest to główna przyczyna.
 
-* Jeśli wszystkie inne rozwiązania zawiodą, spróbuj ponownie skonfigurować uprawnienia dla dotkniętych użytkowników lub grup i upewnij się, że wszystkie wymagane uprawnienia są przyznane poprawnie.
+### 6. Przetestuj z znanym użytkownikiem lub grupą, które działają poprawnie
 
-Postępując zgodnie z tymi wskazówkami dotyczącymi rozwiązywania problemów, możesz zidentyfikować i rozwiązać problemy związane z uprawnieniami, aby zapewnić użytkownikom wymagane prawa dostępu i umożliwić im skuteczną pracę.
+Aby zlokalizować problem:
+
+* Zaloguj się jako użytkownik z grupy, która ma potwierdzony dostęp.
+* Porównaj widoczność dokumentów i dostępne działania.
+* To pomoże określić, czy problem dotyczy konkretnego użytkownika, konkretnej grupy czy całego systemu.
+
+### 7. Ponownie sprawdź przypisanie dokumentów
+
+Jeśli "Tylko przypisane dokumenty" są **włączone**, upewnij się, że:
+
+* Dokument jest **przypisany** do użytkownika lub jednej z ich grup.
+* Użyj kontrolek przypisania w widoku szczegółów dokumentu, aby dokonać lub przejrzeć przypisania.
+
+### 8. Zresetuj lub ponownie skonfiguruj uprawnienia
+
+Jeśli uprawnienia zostały niedawno zmienione lub użytkownicy zostali przeniesieni między grupami:
+
+* Ponownie potwierdź, że ustawienia Kontroli dostępu odzwierciedlają nowe konfiguracje grup.
+* Dostosuj uprawnienia pól i dokumentów, jeśli jest to konieczne.
+* W razie wątpliwości utwórz grupę testową z szerokimi uprawnieniami i przetestuj zachowanie dostępu przed zastosowaniem zmian w grupach produkcyjnych.
