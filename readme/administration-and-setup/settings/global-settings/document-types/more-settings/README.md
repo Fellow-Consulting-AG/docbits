@@ -25,7 +25,7 @@ En la sección "Más ajustes", puedes encontrar varias opciones relacionadas con
 
 * **Formulario de diseño en revisión**: Configura el diseño de los formularios de revisión utilizando el **Creador de diseño**. Este diseño determina cómo se presenta el contenido durante el proceso de revisión del documento. Para instrucciones detalladas sobre cómo usar el **Creador de diseño**, haz clic [aquí](../../../../setup/document-types/layout-builder.md).
 
-## Rechazo
+## Rechazar
 
 * **Diseñar el formulario de rechazo**: Configura el diseño utilizando el **Creador de diseño** para el formulario de rechazo que se muestra durante el proceso de revisión del documento. Para instrucciones detalladas sobre cómo usar el **Creador de diseño**, haz clic [aquí](../../../../setup/document-types/layout-builder.md).
 
