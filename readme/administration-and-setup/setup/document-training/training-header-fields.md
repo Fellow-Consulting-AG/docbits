@@ -1,13 +1,22 @@
-# Training Header Fields
+# Campos de Encabezado de Entrenamiento
 
-Once you have uploaded your document and it is ready for validation, you will enter. the validation screen.
+Después de cargar su documento, será llevado a la pantalla de validación. Algunos campos pueden estar ya completados, esto es gracias a la inteligencia colectiva de DocBits. Sin embargo, otros campos podrían permanecer vacíos. Esto suele significar que el tipo de documento aún no ha sido completamente entrenado, por lo que DocBits aún no sabe de dónde extraer esa información.
 
-You will notice some fields are already extracted, this is due to DocBits swarm intelligence, but other fields still remain empty. This is due to this document not being correctly trained yet, meaning DocBits is unsure where to extract the information for those empty fields.
+Puede ayudar a entrenar a DocBits para reconocer estos campos identificando manualmente los datos correctos. **Por favor, tenga en cuenta:** si un campo permanece vacío, podría ser simplemente porque la información no está presente en el documento cargado.
 
-&#x20;![](https://lh7-us.googleusercontent.com/4xwqOa-brYegZ-5GiX0CCXbZ3KpHK0DqafFukBiCHVodWKzIOpQ8zg6J\_QoEUddQQDwq7loGEBlN87kuXZph3\_tmX8kzqMd5pFy9deUQvEfY7zxXWULbMn\_SKas9K1Wb3R6-FX0dm3BToyWNYOv4WE4)
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/header_field_training_0.png)
 
-However, with your help, you can train DocBits to know where to search for this data on that specific type of document. Do keep in mind that some fields may be empty due to the required information not being present on the document you uploaded, but if the information is present on your document then it can be trained by doing the following.
+### Para entrenar un campo:
 
-Click on the field you would like to train and either double click on the information on the document or, using your cursor, create a block around the information to populate the field.
+1. Haga clic en el campo que desea entrenar.
+2. Luego, ya sea:
+   * **Haga doble clic** en los datos relevantes dentro del documento, o
+   * **Dibuje un cuadro de selección** alrededor de los datos usando su cursor.
 
-Repeat this until you have populated all the fields you require and then your document is ready to be exported, once exported, DocBits will remember this document type in future meaning that you will not need to manually train these fields again as DocBits learns where to extract this data.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/header_field_training_1.png)
+
+Repita este proceso para todos los campos requeridos. Una vez que todos los campos necesarios hayan sido completados, **haga clic en "Guardar Reglas"** para almacenar el entrenamiento. Esto asegura que DocBits aprenda dónde encontrar cada pieza de información para documentos similares en el futuro.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/header_field_training_2.png)
+
+Después de guardar, su documento estará listo para ser exportado, y la próxima vez, DocBits extraerá automáticamente los campos entrenados.
