@@ -111,7 +111,6 @@
           * [Guide du fichier des chemins d'extraction EDI](administration-and-setup/settings/global-settings/document-types/edi/edi/edi-extraction-paths-file-guide.md)
         * [eSLOG 1.6 et 2.0](administration-and-setup/settings/global-settings/document-types/edi/eslog-1.6-and-2.0.md)
       * [Plus de paramètres](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
-        * [Objectif et utilisation](administration-and-setup/settings/global-settings/document-types/more-settings/purpose-and-use.md)
         * [Meilleures pratiques](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Dépannage](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
         * [Détection des doublons](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
