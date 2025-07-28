@@ -147,7 +147,7 @@
         * [Aggiunta/Modifica dei Gruppi](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/adding-editing-groups.md)
         * [Attivazione dei Permessi](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/activating-permissions.md)
         * [Controllo Accessi](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/access-control.md)
-        * [Risoluzione dei problemi](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
+        * [Risoluzione dei Problemi relativi al Controllo degli Accessi e alle Autorizzazioni](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
     * [Integrazione](administration-and-setup/settings/global-settings/integration/README.md)
       * [API Calls and Examples](administration-and-setup/settings/global-settings/integration/api-calls-and-examples.md)
     * [Dashboard](administration-and-setup/settings/global-settings/dashboard/README.md)
