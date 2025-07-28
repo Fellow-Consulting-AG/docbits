@@ -1,13 +1,25 @@
-# Training Header Fields
+# Champs d'en-tête de formation
 
-Once you have uploaded your document and it is ready for validation, you will enter. the validation screen.
+Après avoir téléchargé votre document, vous serez redirigé vers l'écran de validation.\
+Certains champs peuvent déjà être pré-remplis — ceci est grâce à l'intelligence collective de DocBits. Cependant, d'autres champs pourraient rester vides. Cela signifie généralement que le type de document n'a pas encore été entièrement formé, donc DocBits ne sait pas encore d'où extraire ces informations.
 
-You will notice some fields are already extracted, this is due to DocBits swarm intelligence, but other fields still remain empty. This is due to this document not being correctly trained yet, meaning DocBits is unsure where to extract the information for those empty fields.
+Vous pouvez aider à former DocBits à reconnaître ces champs en identifiant manuellement les données correctes.\
+**Veuillez noter :** si un champ reste vide, cela pourrait simplement signifier que l'information n'est pas présente dans le document téléchargé.
 
-&#x20;![](https://lh7-us.googleusercontent.com/4xwqOa-brYegZ-5GiX0CCXbZ3KpHK0DqafFukBiCHVodWKzIOpQ8zg6J\_QoEUddQQDwq7loGEBlN87kuXZph3\_tmX8kzqMd5pFy9deUQvEfY7zxXWULbMn\_SKas9K1Wb3R6-FX0dm3BToyWNYOv4WE4)
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/header_field_training_0.png)
 
-However, with your help, you can train DocBits to know where to search for this data on that specific type of document. Do keep in mind that some fields may be empty due to the required information not being present on the document you uploaded, but if the information is present on your document then it can be trained by doing the following.
+### Pour former un champ :
 
-Click on the field you would like to train and either double click on the information on the document or, using your cursor, create a block around the information to populate the field.
+1. Cliquez sur le champ que vous souhaitez former.
+2. Puis soit :
+   * **Double-cliquez** sur les données pertinentes dans le document, ou
+   * **Dessinez une zone de sélection** autour des données en utilisant votre curseur.
 
-Repeat this until you have populated all the fields you require and then your document is ready to be exported, once exported, DocBits will remember this document type in future meaning that you will not need to manually train these fields again as DocBits learns where to extract this data.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/header_field_training_1.png)
+
+Répétez ce processus pour tous les champs requis.\
+Une fois que tous les champs nécessaires ont été pré-remplis, **cliquez sur "Enregistrer les règles"** pour sauvegarder la formation. Cela garantit que DocBits apprend où trouver chaque information pour des documents similaires à l'avenir.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/header_field_training_2.png)
+
+Après avoir sauvegardé, votre document est prêt à être exporté — et la prochaine fois, DocBits extraira automatiquement les champs formés.
