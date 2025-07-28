@@ -218,7 +218,6 @@
         * [ZUGFeRD 1.0, 2.1 and 2.3](administration-and-setup/settings/global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md)
         * [eSLOG 1.6 and 2.0](administration-and-setup/settings/global-settings/document-types/edi/eslog-1.6-and-2.0.md)
       * [More Settings](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
-        * [Purpose and use](administration-and-setup/settings/global-settings/document-types/more-settings/purpose-and-use.md)
         * [Best practices](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Troubleshooting](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
         * [Duplicate Detection](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)

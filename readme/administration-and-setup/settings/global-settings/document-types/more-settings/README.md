@@ -15,7 +15,7 @@ In the "More Settings" section, you can find various options related to individu
 
 ## Table Extraction
 
-* **Skip table validation**: Allows bypassing the validation process for table data, which can be useful in scenarios where data validation needs to be flexible.
+* **Skip table validation**: Enables bypassing the standard validation process for table data. This option is useful in scenarios where flexible data handling is required or when certain validation steps can be skipped to improve performance during data processing.
 
 ## Duplicate Detection
 
@@ -23,15 +23,11 @@ In the "More Settings" section, you can find various options related to individu
 
 ## In Review
 
-* **Design in Review Form**: Configures the layout and fields that appear in the review forms used during the document review process.
+* **Design in Review Form**: Configures the layout and fields that appear in the review forms used during the document review process. For detailed instructions on how to use the **Layout Builder**, click [here](../../../../setup/document-types/layout-builder.md).
 
 ## Reject
 
-* **Design in Reject Form**: Configures the layout and fields displayed in the reject form used during the document review process.
-
-## PDF Generation
-
-* **Design Template**: Specifies the template used for generating PDF versions of the documents, which can be crucial for archiving or external communication.
+* **Design in Reject Form**: Configures the layout and fields displayed in the reject form used during the document review process. For detailed instructions on how to use the **Layout Builder**, click [here](../../../../setup/document-types/layout-builder.md).
 
 ## Export PDF Format
 
@@ -39,8 +35,8 @@ In the "More Settings" section, you can find various options related to individu
 
 ## Approval
 
-* **Approve before export**: Ensures that documents must be approved before they can be exported from the system. Additionally, you can design the template used for the approval screen.
-* **Approve before export V2**: Enables Approval V2, allowing the use of dynamic fields instead of static ones. You can also customize the approval screen template.
+* **Approve before export**: Ensures that documents must be approved before they can be exported from the system. Additionally, you can design the template used for the approval screen. For detailed instructions on how to use the **Layout Builder**, click [here](../../../../setup/document-types/layout-builder.md).
+* **Approve before export V2**: Enables Approval V2, allowing the use of dynamic fields instead of static ones. You can also customize the approval screen template. For detailed instructions on how to use the **Layout Builder**, click [here](../../../../setup/document-types/layout-builder.md).
 * **Second Approval**: Adds an additional layer of approval for further validation, enhancing control over document processing. You can also customize the template used for the approval screen.
 * [**Approval Stamp**](approval/approval-stamp.md): Adds a stamp to the document when it is approved.
 * [**Approval History**](approval/approval-history.md): Enables the display of approval history in both the approval screen and field validation.
