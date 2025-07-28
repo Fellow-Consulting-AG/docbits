@@ -6,7 +6,7 @@ In the "More Settings" section, you can find various options related to individu
 
 ## How to Access
 
-1.  Navigate to **Settings** -> **Global Settings** -> **Document Types**.
+1.  Navigate to **Settings** → **Global Settings** → **Document Types**.
 
     <figure><img src="../../../../../.gitbook/assets/disablpe_po_status_1.png" alt=""><figcaption></figcaption></figure>
 2.  Select the desired document type and click on **More Settings**.
