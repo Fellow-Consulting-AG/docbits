@@ -1,43 +1,72 @@
-# Troubleshooting
+# Troubleshooting Access Control & Permissions Issues
 
-### If you are having problems with permissions and are unable to access certain documents or perform actions you believe you should be able to, the following troubleshooting tips may help:
+If users are experiencing unexpected access restrictions—such as missing documents, inability to edit fields, or denied actions—use the following checklist to identify and resolve the issue based on how permissions are configured in DocBits.
 
-#### **Check permission settings:**&#x20;
+### 1. Verify If Access Control Is Enabled
 
-* Check the permission settings for the documents or resources in question to ensure that users have the necessary permissions.&#x20;
-* Make sure that users have access either directly or through group membership.
+Access Control settings only apply if the feature is **enabled**.
 
-#### Check group membership:&#x20;
+* Navigate to: `Settings` > `Document Processing` > `Module`.
+* Ensure the **Access Control** switch is turned **on**.
+* If disabled, all users typically have unrestricted access regardless of group or field permissions.
 
-* Check that the affected users are actually members of the groups that have been granted access.&#x20;
-* Make sure that users have not been accidentally removed from relevant groups.
+### 2. Check Group Assignments
 
-#### Check individual permissions:&#x20;
+Ensure the user is correctly assigned to the appropriate group(s):
 
-* Check that individual permissions have been set at the user level that could override group permissions.&#x20;
-* Make sure that these individual permissions are configured correctly.
+* Navigate to: `Settings` > `Global Settings` > `Groups, Users and Permissions`.
+* Select **Groups and Permissions**.
+* Confirm the user is listed under the expected group.
+* If the group uses specific access control, missing group assignment will block access to documents and actions.
 
-#### Check inheritance settings:&#x20;
+### 3. Review Group Access Permissions
 
-* Make sure that permissions are inherited correctly and are not blocked by parent folders or other settings.
+Access is granted per document type and per action:
 
-#### Check permission history:&#x20;
+* In the **Access Control** screen for the group, check the document type (e.g., Invoice, Purchase Order).
+* Validate permissions like:
+  * **List**, **View**, **Edit**, **Delete**, **Mass Update**
+  * **Approval Levels** (1st, 2nd), **Unlock Document**
+* Ensure the access level is not limited to **Owner** or **Admin** unless appropriate.
 
-* Check permission history or logs to see if there have been any recent changes to permissions that could be causing the current issues.
+### 4. Confirm Field-Level Permissions
 
-#### Test with a different user account:&#x20;
+Access can also be restricted at the **field level**, which may block editing or visibility:
 
-* Try accessing the affected documents with a different user account to see if the issue is user-specific or affects all users.
+* In the group’s Access Control configuration, navigate to the document type and check field-level settings.
+* Confirm whether fields are set to:
+  * **Read/Write**, **Read Only**, **Owner Write**, **None**
+* Adjust if necessary based on the user's role.
 
-#### Check error messages:&#x20;
+### 5. Check the "Only Assigned Documents" Setting
 
-* Make sure users are getting accurate error messages indicating permission issues. This can help you pinpoint and diagnose the problem more accurately.
+This global setting limits document visibility:
 
-#### Update permissions:&#x20;
+* Navigate to: `Settings` > `Global Settings` > `Groups, Users and Permissions`.
+* If **Only Assigned Documents** is **enabled**, users can only see documents explicitly assigned to them or their group.
+* If users can’t see expected documents:
+  * Check document assignments.
+  * Disable the setting temporarily to test if it’s the root cause.
 
-* If all other solutions fail, try reconfiguring permissions for the affected users or groups and ensure that all required permissions are granted correctly.
+### 6. Test with a Known-Working User or Group
 
+To isolate the issue:
 
+* Log in with a user from a group that has confirmed access.
+* Compare document visibility and available actions.
+* This helps determine if the issue is user-specific, group-specific, or system-wide.
 
-By following these troubleshooting tips, you can identify and resolve permission-related issues to ensure that users have the required access rights and can work effectively.
+### 7. Recheck Document Assignments
 
+If “Only Assigned Documents” is **enabled**, ensure:
+
+* The document is **assigned** to the user or one of their groups.
+* Use the assignment controls in the document detail view to make or review assignments.
+
+### 8. Reset or Reconfigure Permissions
+
+If permissions were recently changed or users were moved between groups:
+
+* Reconfirm that Access Control settings reflect the new group configurations.
+* Adjust field and document permissions as needed.
+* If unsure, create a test group with broad permissions and test access behavior before applying changes to live groups.

@@ -103,7 +103,7 @@
         * [Adding/Editing Groups](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/adding-editing-groups.md)
         * [Activating Permissions](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/activating-permissions.md)
         * [Access Control](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/access-control.md)
-        * [Troubleshooting](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
+        * [Troubleshooting Access Control & Permissions Issues](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
     * [Integration](administration-and-setup/settings/global-settings/integration/README.md)
       * [API Key](administration-and-setup/settings/global-settings/integration/api-key.md)
       * [API Calls and Examples](administration-and-setup/settings/global-settings/integration/api-calls-and-examples.md)
