@@ -1,21 +1,59 @@
-# Training Line Fields/Table Training
+# Treinamento de Campos de Linha/Tabela de Treinamento
 
-## Training Mode vs Correction Mode
+## Tabela de Treinamento: Quando e Como Usar
 
-When using our table extraction tool, you can choose between training mode and correction mode. Here’s what you need to know about each mode:
+O DocBits utiliza extração de tabela baseada em IA por padrão, que funciona em todos os fornecedores. No entanto, quando você precisa de mais controle sobre como os itens de linha são extraídos para um fornecedor específico, você pode usar o **Treinamento de Tabela** para definir a estrutura manualmente.
 
-### Training Mode
+#### **Importante: Treinamento Específico do Fornecedor**
 
-In training mode, mapped columns are read-only, and you cannot manually change the text. Additionally, the delete row button is not visible.
+O treinamento de tabela é **específico para cada fornecedor**. Se você treinar um layout de tabela para um fornecedor, as regras se aplicarão apenas aos documentos desse fornecedor.\
+Outros fornecedores continuarão a usar a extração de tabela baseada em IA, a menos que sejam treinados separadamente.
 
-![](https://lh7-us.googleusercontent.com/4kLjviYxCQDKZ79f8WhFxD1-6fu4kwHuubU5bJ\_gUIeC8YMof5uZyo4fGjlpqLJavKsDKyritUiRBEPqHKtgbZfJF7-iEgg0dKq9Uij\_tPGLWcNgwubi5ntYw7sMj2TMrzrw\_RUptwK0vXqY7vy4f9Q)
+#### Quando Deve Usar o Treinamento de Tabela?
 
-### Correction Mode
+Use o Treinamento de Tabela **apenas quando o layout do documento for estável**, e você deseja garantir uma extração consistente e de alta qualidade. É mais adequado para fornecedores que:
 
-In correction mode, you can delete and add rows, and you can manually change the text of mapped columns.
+* Utilizam um **formato de fatura fixo** ao longo do tempo.
+* Exigem um **mapeamento preciso** dos itens de linha para campos específicos.
+* São **fornecedores de alto volume**, onde a automação consistente é valiosa.
 
-![](https://lh7-us.googleusercontent.com/nOtjJPzPjMakpEZs0apOukqMeRbDg8fQJ131vKiSGhEc9klU-6pQFWc7lmwz\_3zn4H4TXdooN8miUUHf8e9YKo-p1iCW8o4OuJvMdIISH65RW3KceESRM0\_YVAX9ienQqJAbFjgRebeyIcHSALhooxg)
+#### Quando Não Usar o Treinamento de Tabela
 
-Here’s an example of a table in correction mode, with the first row deleted and a new row added:
+Evite usar o Treinamento de Tabela se:
 
-![correction mode](https://lh7-us.googleusercontent.com/3C5zN2Uxh-MVUi1WwC70EZeoYtJAoDiCZjqBIGvaSVSCn9SU7wZENHTvaFIV55KckB94MFEDbn46T-oIClqcHesSJfrBSpCkLaMroVONR5380vzBMRsJ3nJxLlGE6GlISIJpYwQDHdJ\_NuMvAD1kN\_c)
+* O fornecedor **altera frequentemente o layout de sua fatura** (por exemplo, a cada dois meses).
+* Você não recebe documentos regularmente desse fornecedor.
+* A extração baseada em IA padrão funciona **suficientemente bem** sem treinamento manual.
+
+Em tais casos, re-treinar a tabela repetidamente seria ineficiente e demorado.
+
+## Como Usar:
+
+O **Modo de Treinamento** é usado para ensinar ao DocBits como extrair corretamente os itens de linha do layout de documento de um fornecedor específico.
+
+Quando você está no Modo de Treinamento, você define:
+
+* **Onde a tabela está localizada** no documento.
+* **Quais áreas correspondem a cada coluna** (por exemplo, Quantidade, Descrição, Preço Unitário).
+
+Este modo cria um **modelo de extração reutilizável** para esse fornecedor, então documentos futuros com o mesmo layout serão processados automaticamente — sem a necessidade de re-treinamento.
+
+**Características Chave:**
+
+* **As colunas mapeadas são somente leitura** — você não pode alterar manualmente o texto.
+* Você **não pode adicionar ou excluir linhas**.
+* O foco está em **mapear posições**, não em corrigir valores.
+* Depois de terminar de mapear a tabela e suas colunas, clique em **“Salvar Regras”** para que o DocBits aprenda e aplique esse treinamento a documentos semelhantes do mesmo fornecedor.
+
+O **Modo de Correção** permite que você **corrija erros de extração** nos dados da tabela para o documento atual. É usado quando o DocBits já tentou extrair a tabela, mas os resultados precisam de pequenas correções.
+
+Use o Modo de Correção quando:
+
+* Alguns **valores estão faltando ou desalinhados**.
+* Uma **linha vazia ou duplicada** foi extraída e precisa ser removida.
+
+**O Que Você Pode Fazer no Modo de Correção:**
+
+* **Ajustar manualmente valores** nas colunas mapeadas (por exemplo, corrigir deslocamentos).
+* **Excluir linhas** que não devem fazer parte da tabela.
+* **Adicionar linhas** que foram completamente perdidas durante a extração.
