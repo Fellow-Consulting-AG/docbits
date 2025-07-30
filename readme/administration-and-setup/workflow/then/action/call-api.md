@@ -1,6 +1,6 @@
 # Call Api
 
-<figure><img src="../../../../.gitbook/assets/image (310).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Then_Call_API.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Purpose:
 
