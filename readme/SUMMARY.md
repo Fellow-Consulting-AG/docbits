@@ -8,6 +8,7 @@
   * [DocBits Infor Cliente On Premise](overview-and-basics/architecture/docbits-infor-on-premise-customer.md)
   * [Certificaciones](overview-and-basics/architecture/certifications.md)
 * [Infraestructura de Infor](overview-and-basics/infor-infrastructure.md)
+* [Notas de versión](overview-and-basics/release-notes.md)
 * [FAQ](overview-and-basics/faq/README.md)
   * [Información General](overview-and-basics/faq/general-information.md)
   * [Procesamiento de Documentos](overview-and-basics/faq/document-processing/README.md)
@@ -19,10 +20,6 @@
   * [Infor M3 (Integración M3)](overview-and-basics/faq/infor-m3-m3-integration/README.md)
     * [Los elementos de costeo no están configurados correctamente. Por favor, pida a su administrador que lo configure.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
     * [Guía de diagnóstico de exportación de la API M3](overview-and-basics/faq/infor-m3-m3-integration/m3-api-export-diagnostic-guide.md)
-
-***
-
-* [Notas de versión](release-notes.md)
 
 ## Sección de usuarios finales y socios <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
 
