@@ -8,10 +8,18 @@
   * [DocBits Informações sobre Cliente On-Premise](overview-and-basics/architecture/docbits-infor-on-premise-customer.md)
   * [Certificações](overview-and-basics/architecture/certifications.md)
 * [Infraestrutura Infor](overview-and-basics/infor-infrastructure.md)
-
-***
-
-* [Notas de versão](release-notes.md)
+* [Notas de versão](overview-and-basics/release-notes.md)
+* [FAQ](overview-and-basics/faq/README.md)
+  * [Informações Gerais](overview-and-basics/faq/general-information.md)
+  * [Processamento de Documentos](overview-and-basics/faq/document-processing/README.md)
+    * [Resolução de Problemas de Extração de Tabelas](overview-and-basics/faq/document-processing/table-extraction-troubleshoot.md)
+  * [Infor LN (Integração LN)](overview-and-basics/faq/infor-ln-ln-integration/README.md)
+    * [Erro de Exportação: "Erro ao Exportar Documento para LN. Código de Status: 500"](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/README.md)
+      * [não encontrado no débito direto](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/not-found-in-direct-debit.md)
+      * [o valor deve ser numérico.](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/request-validation-attr.-receiptline-value-the-value-must-be-numeric..md)
+  * [Infor M3 (Integração M3)](overview-and-basics/faq/infor-m3-m3-integration/README.md)
+    * [Os elementos de custo não estão configurados corretamente. Por favor, peça ao seu administrador para configurá-los.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
+    * [Guia de Diagnóstico de Exportação da API M3](overview-and-basics/faq/infor-m3-m3-integration/m3-api-export-diagnostic-guide.md)
 
 ## Secção Utilizador Final e Parceiro <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
 
