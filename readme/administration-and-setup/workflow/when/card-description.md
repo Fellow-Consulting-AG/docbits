@@ -1,23 +1,11 @@
-# Card description
+# Descrizione della carta
 
-## **When Cards: Document type**
+## **Quando le carte: Tipo di documento**
 
+Un flusso di lavoro può essere avviato con queste due carte. Qui puoi decidere con quale tipo di documento inizia il flusso di lavoro o se non dovrebbe influenzare i tipi di documento selezionati.
 
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FiIZr88WhSUuQOapVf26m%252Fimage.png%3Falt%3Dmedia%26token%3Dd8663cac-f96f-4846-b162-eee36783d641\&width=768\&dpr=4\&quality=100\&sign=b41876a9\&sv=2)
 
-<figure><img src="https://lh7-us.googleusercontent.com/Vb3nEDgmp9WAd8060aW6nWlu3D8Yo5KPXl7nmTE07OERu4JgBuEyZ-wQURt1RZkQbwujpQw13-ETDK4ZYP536AEEfdKMGdgnlvfWaAoQFwHiwKEU_k_cCRBxEmIIizmlR0gfal8jXdnYiJZBIHvo6wg" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FEhK3CvWgc8csG21vmgUb%252Fimage.png%3Falt%3Dmedia%26token%3D6613e890-02ff-4f76-8ba7-5a5201480ede\&width=768\&dpr=4\&quality=100\&sign=89683411\&sv=2)
 
-<figure><img src="https://lh7-us.googleusercontent.com/8Pt-riQL3WjD0KiWKQhHIEYfnsvTRWcLkNcAReJVEf5ESegVWxLfkxhq9myJv_uzlnbnSFZ9Q32-1EIb0GIFQyC5TylOFBl3x0PMJz3w1N5EUbwZEl5xfRkB3M1jMRZvQ61tqTwdFPL8dsSE6NYlmEU" alt=""><figcaption></figcaption></figure>
-
-A workflow can be started with these two cards. Here you can decide with which document type the workflow begins or whether it should not affect selected document types.
-
-\
-
-
-<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-
-This card can also be used to specify multiple document types that the workflow should affect.
-
-
-
+Questa carta può anche essere utilizzata per specificare più tipi di documento che il flusso di lavoro dovrebbe influenzare.
