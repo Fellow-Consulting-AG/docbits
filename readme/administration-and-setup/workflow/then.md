@@ -1,70 +1,80 @@
-# Then
+---
+hidden: true
+---
 
-## Overview of "Then..." Action Cards
+# Entonces
 
-**1. Document Field Actions:**
+## Resumen de las Tarjetas de Acción "Entonces..."
 
-* **Invert Checkbox:** This action toggles the state of a checkbox field in a document.
-* **Set Checkbox:** This sets the state of a checkbox field to either true (checked) or false (unchecked).
-* **Set Field to Text:** This action sets a specified document field to a given text value.
+### **1. Acciones de Campo de Documento:**
 
-<figure><img src="../../../.gitbook/assets/then1.png" alt=""><figcaption></figcaption></figure>
+* **Invertir Casilla de Verificación:** Esta acción cambia el estado de una casilla de verificación en un documento.
+* **Establecer Casilla de Verificación:** Establece el estado de una casilla de verificación a verdadero (marcado) o falso (desmarcado).
+* **Establecer Campo a Texto:** Esta acción establece un campo de documento especificado con un valor de texto dado.
 
-**2. Document Actions:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FQVUhksYr3IAndhsFptO4%252Fthen1.png%3Falt%3Dmedia%26token%3D8e2e36b2-3a10-4337-a4c5-a269c4f4ca44\&width=768\&dpr=2\&quality=100\&sign=123b9fcc\&sv=2)
 
-* **Approve the Document:** Marks a document as approved within the system.
-* **Start Export:** Initiates the export process for a document.
-* **Reject the Document:** Marks a document as rejected.
+### **2. Acciones de Documento:**
 
-<figure><img src="../../../.gitbook/assets/then2.png" alt=""><figcaption></figcaption></figure>
+* **Aprobar el Documento:** Marca un documento como aprobado dentro del sistema.
+* **Rechazar el Documento:** Marca un documento como rechazado.
 
-**3. Status Actions:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FiEyGq6bDKWHAYV527boE%252Fimage.png%3Falt%3Dmedia%26token%3Dcc3cdbd5-e939-4ad7-a745-9315d1d25e75\&width=768\&dpr=2\&quality=100\&sign=68574128\&sv=2)
 
-* **Change Status:** Changes the status of a document or task to a specified new status.
+### **3. Acciones de Exportación:**
 
-<figure><img src="../../../.gitbook/assets/then3.png" alt=""><figcaption></figcaption></figure>
+* **Exportar documento con configuración de exportación:** Inicia el proceso de exportación con una configuración de exportación específica.
+* **Iniciar Exportación:** Inicia el proceso de exportación.
 
-**4. Task Actions:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F5H2IGwrSrBG8uM0JjfLk%252Fimage.png%3Falt%3Dmedia%26token%3D13a06657-d31a-45fc-a8d3-4f09575b2377\&width=768\&dpr=2\&quality=100\&sign=6873dafe\&sv=2)
 
-* Assignments and notifications:
-  * **Assign Task:** Creates and assigns a task with specific details to an individual or group, including options to notify them via email.
-  * **Create a New Task:** Similar to assign but focused on setting up a completely new task within the system.
+### **4. Acciones de Estado:**
 
-<figure><img src="../../../.gitbook/assets/then4.png" alt=""><figcaption></figcaption></figure>
+* **Cambiar Estado:** Cambia el estado de un documento o tarea a un nuevo estado especificado.
 
-**5. Table Actions:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fc8n3k2U83SIXapQW4Qgd%252Fthen3.png%3Falt%3Dmedia%26token%3D1d4b0395-89bc-4089-a6af-c7a0a85d875f\&width=768\&dpr=2\&quality=100\&sign=96c49797\&sv=2)
 
-* **Calculate in Table:** Performs calculations on table data based on specified conditions and stores the results in a designated column.
-* **Change Entries:** Updates entries in a table based on specified conditions.
+### **5. Acciones de Tarea:**
 
-<figure><img src="../../../.gitbook/assets/then5.png" alt=""><figcaption></figcaption></figure>
+* Asignaciones y notificaciones:
+  * **Asignar Tarea:** Crea y asigna una tarea con detalles específicos a un individuo o grupo, incluyendo opciones para notificarlos por correo electrónico.
+  * **Crear una Nueva Tarea:** Similar a asignar pero enfocado en configurar una tarea completamente nueva dentro del sistema.
 
-**6. Assignee Actions:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FL5JcOIHokf8smzfvAA1u%252Fthen4.png%3Falt%3Dmedia%26token%3Db445f1b6-d416-4ce4-a200-2b66f431fe6a\&width=768\&dpr=2\&quality=100\&sign=a77867bc\&sv=2)
 
-* **Assign User from Field:** Assigns a user to a task or document based on user data stored in a specific field, with an option for a fallback user if the primary is unavailable.
-* **Assign Document to User or Group:** Directly assigns a document to a user or group, ensuring responsibility is designated appropriately.
+### **6. Acciones de Tabla:**
 
-<figure><img src="../../../.gitbook/assets/then6.png" alt=""><figcaption></figcaption></figure>
+* **Calcular en Tabla:** Realiza cálculos en datos de tabla basados en condiciones especificadas y almacena los resultados en una columna designada.
+* **Cambiar Entradas:** Actualiza entradas en una tabla basándose en condiciones especificadas.
 
-**7. External Interaction Actions:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FPyZaJ8MO0fLrdo6I1tiS%252Fthen5.png%3Falt%3Dmedia%26token%3De3a4280a-4351-4264-9c46-d2e6c6eef1d2\&width=768\&dpr=2\&quality=100\&sign=403dcf50\&sv=2)
 
-* **Call API:** Sends a request to an external API, which can be customized with specific methods, parameters, and data.
-* **Send HTTPS Request:** Similar to API calls but specifically formatted for HTTPS protocols.
+### **7. Acciones de Asignatario:**
 
-<figure><img src="../../../.gitbook/assets/then7.png" alt=""><figcaption></figcaption></figure>
+* **Asignar Usuario desde Campo:** Asigna un usuario a una tarea o documento basándose en datos de usuario almacenados en un campo específico, con una opción de usuario alternativo si el principal no está disponible.
+* **Asignar Documento a Usuario o Grupo:** Asigna directamente un documento a un usuario o grupo, asegurando que la responsabilidad esté designada adecuadamente.
 
-**8. Advanced Processing:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FhORGHCS98nJIU1rWeKrW%252Fthen6.png%3Falt%3Dmedia%26token%3D4055d4f2-f9e6-40a0-a45f-d93bee10cd73\&width=768\&dpr=2\&quality=100\&sign=d25b560b\&sv=2)
 
-* **Run Workflow:** Triggers another workflow within the system, allowing for complex process chaining.
+### **8. Acciones de Interacción Externa:**
 
-#### Practical Application
+* **Llamar API:** Envía una solicitud a una API externa, que puede ser personalizada con métodos específicos, parámetros y datos.
+* **Enviar Solicitud HTTPS:** Similar a las llamadas de API pero específicamente formateadas para protocolos HTTPS.
 
-These action cards are used to automate responses based on specific triggers identified in the earlier parts of the workflow setup. For instance:
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FXJHjmEvFExyz8wFQ1GL5%252Fthen7.png%3Falt%3Dmedia%26token%3Da4098460-b139-4327-931d-316eba6cd74a\&width=768\&dpr=2\&quality=100\&sign=fd10ee39\&sv=2)
 
-* If a document is identified as needing review, the "Approve the Document" action can be automatically triggered once it passes all specified conditions.
-* For data management tasks, "Set Checkbox" or "Set Field to Text" actions ensure that document fields are updated automatically, reducing manual data entry and the potential for errors.
-* Complex tasks like API interactions or status changes streamline interactions not only within the ERP system but also with external services and tools, enhancing integration and functionality.
+### **9. Procesamiento Avanzado:**
 
-#### Conclusion
+* **Ejecutar Flujo de Trabajo:** Activa otro flujo de trabajo dentro del sistema, permitiendo encadenamientos de procesos complejos.
 
-The "Then..." section in your workflow system provides robust tools for defining precise actions that should occur as a result of conditions being met in the workflow. By effectively using these actions, businesses can automate routine processes, ensure data accuracy, and respond dynamically to changing information and system states. Understanding how to configure and utilize these actions is key to maximizing the efficiency and effectiveness of your ERP system's workflow capabilities.
+#### Aplicación Práctica
+
+Estas tarjetas de acción se utilizan para automatizar respuestas basadas en desencadenantes específicos identificados en las partes anteriores de la configuración del flujo de trabajo. Por ejemplo:
+
+* Si se identifica que un documento necesita revisión, la acción "Aprobar el Documento" puede activarse automáticamente una vez que cumple todas las condiciones especificadas.
+* Para tareas de gestión de datos, las acciones "Establecer Casilla" o "Establecer Campo a Texto" aseguran que los campos de documento se actualicen automáticamente, reduciendo la entrada de datos manual y el potencial de errores.
+* Tareas complejas como interacciones con API o cambios de estado agilizan las interacciones no solo dentro del sistema ERP, sino también con servicios y herramientas externas, mejorando la integración y funcionalidad.
+
+### Conclusión
+
+La sección "Entonces..." en su sistema de flujo de trabajo proporciona herramientas sólidas para definir acciones precisas que deben ocurrir como resultado de que se cumplan condiciones en el flujo de trabajo. Al utilizar eficazmente estas acciones, las empresas pueden automatizar procesos rutinarios, garantizar la precisión de los datos y responder dinámicamente a la información cambiante y los estados del sistema. Comprender cómo configurar y utilizar estas acciones es clave para maximizar la eficiencia y efectividad de las capacidades de flujo de trabajo de su sistema ERP.
