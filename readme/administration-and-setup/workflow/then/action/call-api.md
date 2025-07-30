@@ -9,7 +9,7 @@ The **"Call API"** workflow card allows users to make HTTP requests to specified
 ## Components of the Card:
 
 1. **API Endpoint**
-   * **Description:** The URL of the API to be called.
+   * **Description:** The target endpoint of the **DocBits API** that this card will interact with.
    * **Detail:** A text field where users specify the endpoint for the API request.
 2. **HTTP Method**
    * **Description:** The type of HTTP request to be made.
@@ -23,7 +23,7 @@ The **"Call API"** workflow card allows users to make HTTP requests to specified
    * **Detail:** A text field or list for entering key-value pairs for the request URL.
 4. **Data**
    1. **Description:** The payload to be sent in the body of the API request (applicable for POST and PUT methods).
-   2. **Detail:** A field for entering the data in JSON or other structured formats.
+   2. **Detail:** A field for entering the data in JSON.
 
 ## Functionality:
 

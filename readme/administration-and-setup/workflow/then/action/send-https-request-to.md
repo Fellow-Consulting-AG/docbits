@@ -13,7 +13,7 @@ The **"Send HTTPS Request"** workflow card enables users to send HTTPS requests 
    * **Detail:** Enter the full URL of the API or web service to connect with.
 2. **Headers**
    * **Description:** Defines the headers to be included in the HTTPS request.
-   * **Detail:** Provide key-value pairs for any required headers, such as authentication tokens or content types.
+   * **Detail:** Provide **key-value pairs** in a **valid JSON format** to specify headers such as authentication tokens or content types. Example: {"Authorization": "Bearer example\_value"}
 3. **Method**
    * **Description:** Specifies the HTTP method to be used for the request.
    * **Options:**
@@ -23,10 +23,10 @@ The **"Send HTTPS Request"** workflow card enables users to send HTTPS requests 
      * **DELETE:** Removes resources from the endpoint.
 4. **Parameters**
    * **Description:** Key-value pairs to be included in the URL as query parameters.
-   * **Detail:** Use this to send filters or additional data required by the endpoint.
+   * **Detail:** Use this to send filters or additional data required by the endpoint a valid JSON formant. See example for Headers.
 5. **Data**
    * **Description:** The body of the HTTPS request.
-   * **Detail:** Provide the payload in JSON or other acceptable formats for the selected method (e.g., POST or PUT).
+   * **Detail:** Provide the payload in a valid JSON formant. See example for Headers.
 
 ## Functionality:
 
@@ -43,6 +43,10 @@ The **"Send HTTPS Request"** workflow card enables users to send HTTPS requests 
 4. **Add Parameters:** Specify any query parameters required by the endpoint.
 5. **Provide Data Payload:** Enter the request body in the required format (e.g., JSON) if needed.
 6. **Configure Conditions:** Define the **"Where"** and **"And Sections"** to ensure the request is sent only when specific conditions are met.
+
+## Example Card:
+
+<figure><img src="../../../../.gitbook/assets/Then_Send_HTTPS_2.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Conclusion:
 
