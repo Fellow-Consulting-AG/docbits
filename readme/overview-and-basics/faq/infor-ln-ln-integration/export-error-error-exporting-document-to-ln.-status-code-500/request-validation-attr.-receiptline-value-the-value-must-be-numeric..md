@@ -49,7 +49,7 @@ Se l'**Ordine di Acquisto** sembra corretto e contiene i dettagli necessari, puo
 
 Dovrebbe apparire come segue:
 
-!\[]"https://578966019-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FpalaolFCJLkAi37t6GN7%2Fimage.png?alt=media\&token=6d608aca-a920-46a9-bad2-f015d2f031c2"
+<figure><img src="../../../../.gitbook/assets/ReceiptLine.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Passo 4: Aggiungi il File Aggiornato a DocBits**
 
