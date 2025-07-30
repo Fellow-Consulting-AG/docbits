@@ -8,10 +8,18 @@
   * [DocBits Infor sur le client sur site](overview-and-basics/architecture/docbits-infor-on-premise-customer.md)
   * [Certifications](overview-and-basics/architecture/certifications.md)
 * [Infrastructure Infor](overview-and-basics/infor-infrastructure.md)
-
-***
-
-* [Notes de version](release-notes.md)
+* [Notes de version](overview-and-basics/release-notes.md)
+* [FAQ](overview-and-basics/faq/README.md)
+  * [Informations Générales](overview-and-basics/faq/general-information.md)
+  * [Traitement de document](overview-and-basics/faq/document-processing/README.md)
+    * [Dépannage de l'extraction de table](overview-and-basics/faq/document-processing/table-extraction-troubleshoot.md)
+  * [Infor LN (Intégration LN)](overview-and-basics/faq/infor-ln-ln-integration/README.md)
+    * [Erreur d'exportation : "Erreur lors de l'exportation du document vers LN. Code d'état : 500"](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/README.md)
+      * [la valeur doit être numérique.](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/request-validation-attr.-receiptline-value-the-value-must-be-numeric..md)
+      * [non trouvé dans le prélèvement automatique](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/not-found-in-direct-debit.md)
+  * [Infor M3 (Intégration M3)](overview-and-basics/faq/infor-m3-m3-integration/README.md)
+    * [Guide de diagnostic d'exportation de l'API M3](overview-and-basics/faq/infor-m3-m3-integration/m3-api-export-diagnostic-guide.md)
+    * [votre administrateur de le configurer.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
 
 ## Section utilisateurs et partenaires <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
 
