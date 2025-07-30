@@ -8,22 +8,30 @@
 
 Para preguntas comunes y orientación sobre cómo funciona DocBits, cómo configurar su cuenta y consejos básicos de solución de problemas.
 
-[Información general](https://docs.docbits.com/overview-and-basics/faq/general-information)
+{% content-ref url="general-information.md" %}
+[general-information.md](general-information.md)
+{% endcontent-ref %}
 
 ## **2. Procesamiento de documentos**
 
 Todo lo relacionado con la extracción, manejo y procesamiento de documentos en DocBits.
 
-[Procesamiento de documentos](https://docs.docbits.com/overview-and-basics/faq/document-processing)
+{% content-ref url="document-processing/" %}
+[document-processing](document-processing/)
+{% endcontent-ref %}
 
 ## **3. Infor LN (Integración LN)**
 
 Directrices y preguntas frecuentes relacionadas con la integración de DocBits con Infor LN, importación de documentos y configuraciones específicas para LN.
 
-[Infor LN (Integración LN)](https://docs.docbits.com/overview-and-basics/faq/infor-ln-ln-integration)
+{% content-ref url="infor-ln-ln-integration/" %}
+[infor-ln-ln-integration](infor-ln-ln-integration/)
+{% endcontent-ref %}
 
 ## **4. Infor M3 (Integración M3)**
 
 Directrices y preguntas frecuentes relacionadas con la integración de DocBits con Infor M3, importación de documentos y configuraciones específicas para M3.
 
-[Infor M3 (Integración M3)](https://docs.docbits.com/overview-and-basics/faq/infor-m3-m3-integration)
+{% content-ref url="infor-m3-m3-integration/" %}
+[infor-m3-m3-integration](infor-m3-m3-integration/)
+{% endcontent-ref %}
