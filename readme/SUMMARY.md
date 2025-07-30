@@ -8,10 +8,18 @@
   * [DocBits Infor on Premise Customer](overview-and-basics/architecture/docbits-infor-on-premise-customer.md)
   * [Certificazioni](overview-and-basics/architecture/certifications.md)
 * [Infor Infrastruttura](overview-and-basics/infor-infrastructure.md)
-
-***
-
-* [Note della versione](release-notes.md)
+* [Note della versione](overview-and-basics/release-notes.md)
+* [FAQ](overview-and-basics/faq/README.md)
+  * [Informazioni generali](overview-and-basics/faq/general-information.md)
+  * [Elaborazione del documento](overview-and-basics/faq/document-processing/README.md)
+    * [Risoluzione dei Problemi di Estrazione delle Tabelle](overview-and-basics/faq/document-processing/table-extraction-troubleshoot.md)
+  * [Infor LN (Integrazione LN)](overview-and-basics/faq/infor-ln-ln-integration/README.md)
+    * [Errore di esportazione: "Errore durante l'esportazione del documento su LN. Codice di stato: 500"](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/README.md)
+      * [il valore deve essere numerico.](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/request-validation-attr.-receiptline-value-the-value-must-be-numeric..md)
+      * [non trovato nel addebito diretto](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/not-found-in-direct-debit.md)
+  * [Infor M3 (Integrazione M3)](overview-and-basics/faq/infor-m3-m3-integration/README.md)
+    * [Gli elementi di costo non sono configurati correttamente. Si prega di chiedere all'amministratore di configurarli.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
+    * [Guida diagnostica all'esportazione dell'API M3](overview-and-basics/faq/infor-m3-m3-integration/m3-api-export-diagnostic-guide.md)
 
 ## Sezione Utenti finali e partner <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
 
