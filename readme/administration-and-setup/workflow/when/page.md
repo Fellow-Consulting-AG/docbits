@@ -1,37 +1,31 @@
-# Document Type Operation
+# Opération de Type de Document
 
-<figure><img src="../../../../.gitbook/assets/userlmn_5cc120c265b7a237929e829ce781b452.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FPy27j6G21QsBB7O6rq7O%252Fuserlmn_5cc120c265b7a237929e829ce781b452.png%3Falt%3Dmedia%26token%3D1c0d9baf-4135-46d2-93c5-8feb4cdaf979\&width=768\&dpr=2\&quality=100\&sign=c54ef7b3\&sv=2)
 
-**Purpose**
+## **Objectif:**
 
-This workflow card is specifically designed to perform predefined operations on documents categorized by type. It streamlines the handling of various document forms within an ERP system, ensuring that each type is processed according to its unique requirements and organizational policies.
+Cette carte de flux de travail est spécifiquement conçue pour effectuer des opérations prédéfinies sur des documents catégorisés par type. Elle rationalise la gestion de diverses formes de documents au sein d'un système ERP, garantissant que chaque type est traité selon ses exigences uniques et les politiques organisationnelles.
 
-**Components of the Card**
+## **Fonctionnalités:**
 
-1. **Operator**
-   * **Description**: Specifies the action to be executed on the document.
-   * **Examples**: Common operations include "Validate", "Store", "Process", "Send", etc. Each operator defines a set of tasks that the system automates based on the document type.
-2. **Document Type**
-   * **Description**: Identifies the category of the document to which the operation will apply.
-   * **Detail**: Types could include invoices, purchase orders, contracts, employee records, etc. Each type has specific rules and workflows associated with it.
+* **Validation du Type de Document**: Cette carte vérifie si un document correspond à un type particulier, permettant aux utilisateurs de confirmer sa catégorisation.
+* **Opérateur**: Les utilisateurs peuvent définir des conditions pour déterminer le type de document. Les opérateurs disponibles incluent:
+  * **Est**: Confirme que le document correspond au type de document spécifié.
+  * **N'est pas**: Veille à ce que le document ne corresponde pas au type de document spécifié.
+* **Types de Document**: Les types de documents pris en charge comprennent:
+  * **Facture**
+  * **Note de Débit**
+  * **Note de Crédit**
+  * **Bon de Commande**
+  * **Confirmation de Commande**
+  * **Avis d'Expédition Avancée**
 
-**Functionality**
+## **Utilisation**:
 
-* **Document Classification**: Automatically identifies and classifies documents as they enter the ERP system based on their metadata, content, or other identifiers.
-* **Operation Execution**: Executes the specified operation for documents of the identified type. This execution could involve:
-  * **Validate**: Checking the document for completeness, correctness, and compliance with standards.
-  * **Store**: Saving the document in the designated repository with proper indexing.
-  * **Process**: Applying business logic to the document, such as calculating totals on an invoice or updating database records.
-  * **Send**: Distributing the document to other business units or external partners based on workflow requirements.
-* **Compliance and Security**: Ensures that all operations adhere to regulatory compliance and security protocols specific to the document type.
-* **Automation and Integration**: Seamlessly integrates with other workflows in the ERP system, facilitating automated transitions between different operational stages.
+Cette carte est utile pour les gestionnaires de documents et les administrateurs qui doivent s'assurer que les documents sont correctement classés pour un traitement rationalisé. La validation des types de documents améliore l'automatisation des flux de travail, permet des actions spécifiques aux documents et maintient les enregistrements organisés.
 
-**User Interactions**
+## **Scénario Exemple**:
 
-* **Setup and Configuration**: Users configure the card by defining both the operator and the document type. Additional parameters might be set depending on the complexity of the operation.
-* **Monitoring and Reporting**: Users can monitor the operations applied to various document types through a dashboard that provides real-time status updates, logs, and reports.
-* **Error Handling and Overrides**: Provides mechanisms for handling errors or exceptions during operation execution. Users can intervene manually if necessary, adjusting processes or rerouting documents.
+* Un utilisateur télécharge un document étiqueté comme "Note de Débit." En utilisant l'opérateur "Est", la carte confirme que le type de document est effectivement "Note de Débit", permettant au système d'appliquer des règles de traitement pertinentes et de le catégoriser de manière appropriée.
 
-#### Conclusion
-
-The "Document Type Operation" workflow card is a vital component for managing document-based processes within an ERP system efficiently. It automates routine tasks, reduces errors, and ensures consistency across similar types of documents, thereby enhancing overall productivity and compliance. Documenting this card effectively in your system's manual will assist users in understanding its functionality and how to leverage it to optimize document management processes in their daily operations. If there are additional specific details or examples that need to be included based on your ERP system's capabilities or industry-specific needs, those should be tailored accordingly.
+En déployant la carte "Type de Document", les organisations peuvent automatiser la classification des documents, garantir la cohérence dans la gestion des documents et améliorer l'efficacité des flux de travail de gestion des documents.
