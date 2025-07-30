@@ -31,7 +31,7 @@ Si la **Correspondance automatique** est définie sur **Correspondre à la réce
 
 Il devrait ressembler à ceci :
 
-!\[]"https://578966019-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2F7KPrHh34LzTPxeMamtWY%2Fimage.png?alt=media\&token=57cb4467-a145-4a43-bca0-e8536d9a7022"
+<figure><img src="../../../../.gitbook/assets/PackingSlip.png" alt=""><figcaption></figcaption></figure>
 
 ## **Étape 4: Ajouter le fichier mis à jour à DocBits**
 
