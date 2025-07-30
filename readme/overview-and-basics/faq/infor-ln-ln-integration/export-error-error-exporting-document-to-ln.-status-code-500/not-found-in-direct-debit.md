@@ -31,7 +31,7 @@ Se a **Correspondência Automática** estiver definida como **Correspondência c
 
 Deve ficar como o seguinte:
 
-!\[]"https://578966019-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2F7KPrHh34LzTPxeMamtWY%2Fimage.png?alt=media\&token=57cb4467-a145-4a43-bca0-e8536d9a7022"
+<figure><img src="../../../../.gitbook/assets/PackingSlip.png" alt=""><figcaption></figcaption></figure>
 
 ## **Passo 4: Adicionar o Arquivo Atualizado de Volta ao DocBits**
 
