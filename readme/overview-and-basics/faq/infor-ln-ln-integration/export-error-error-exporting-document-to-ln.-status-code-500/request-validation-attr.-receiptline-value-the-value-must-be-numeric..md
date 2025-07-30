@@ -31,7 +31,7 @@ Wenn der **Automatische Abgleich** auf **Mit Wareneingangsschein abgleichen** ei
 
 Es sollte wie folgt aussehen:
 
-!\[]"https://578966019-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2F7KPrHh34LzTPxeMamtWY%2Fimage.png?alt=media\&token=57cb4467-a145-4a43-bca0-e8536d9a7022"
+<figure><img src="../../../../.gitbook/assets/image (20).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Schritt 4: Die aktualisierte Datei wieder zu DocBits hinzufügen**
 
