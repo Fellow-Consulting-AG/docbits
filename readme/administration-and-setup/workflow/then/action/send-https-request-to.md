@@ -1,6 +1,6 @@
 # Send HTTPS request to
 
-<figure><img src="../../../../.gitbook/assets/image (308).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Then_Send_HTTPS_1.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Purpose:
 
