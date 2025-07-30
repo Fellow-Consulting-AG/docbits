@@ -31,7 +31,7 @@ Wenn der **Automatische Abgleich** auf **Mit Wareneingangsschein abgleichen** ei
 
 Es sollte wie folgt aussehen:
 
-<figure><img src="../../../../.gitbook/assets/image (20).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/PackingSlip.png" alt=""><figcaption></figcaption></figure>
 
 ## **Schritt 4: Die aktualisierte Datei wieder zu DocBits hinzufügen**
 
