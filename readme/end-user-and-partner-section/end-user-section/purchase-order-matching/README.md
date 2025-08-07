@@ -98,7 +98,7 @@ Para hacer coincidir un artículo de línea de orden de compra con un artículo 
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Flsdom16blO6pMF5rtQYS%252Fpo_tools_new_5.png%3Falt%3Dmedia%26token%3D616d6600-ff52-478a-9282-518212360106\&width=768\&dpr=4\&quality=100\&sign=ad47d853\&sv=2)
 
-También puedes seleccionar **varias líneas de órdenes de compra** y hacerlas coincidir con una **única línea** en la tabla extraída.
+También puedes seleccionar **varias líneas de órdenes de compra** y hacerlas coincidir con una **única línea** en la tabla extraída. Para más detalles, haz clic [aquí](./#coincidencias-multiples).
 
 ## ¿Qué columnas se están coincidiendo?
 
@@ -178,7 +178,24 @@ Varios indicadores están disponibles para ayudarte a verificar si un artículo 
 
 ## Coincidencias Múltiples
 
-Si un solo artículo de línea se coincide con múltiples líneas, puedes ver información detallada haciendo clic en el ícono más (+) junto al artículo de línea respectivo.
+La coincidencia múltiple permite que varias líneas de una tabla se coincidan con una única línea en la tabla correspondiente (opuesta).
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/po_match_20.png)
+
+Esta función es particularmente útil para escenarios donde los detalles están divididos en varios artículos de línea.
+
+### Criterios de Coincidencia
+
+Las líneas se considerarán una coincidencia si se cumplen las siguientes condiciones agregadas:
+
+* **Precio Unitario**:\
+  Se calcula el precio unitario promedio de las múltiples líneas y se compara con el precio unitario en la tabla opuesta.
+* **Cantidad**:\
+  La suma de las cantidades a través de las líneas coincidentes debe coincidir con la cantidad en la tabla opuesta.
+* **Requisitos Adicionales**:\
+  Cualquier [criterio de coincidencia adicional](./#que-columnas-se-estan-coincidiendo) también debe ser satisfecho.
+
+Si un solo artículo de línea se coincide con múltiples líneas, puedes ver información detallada haciendo clic en el ícono de más (+) junto al artículo de línea respectivo.
 
 Esto expande la vista para mostrar todas las entradas coincidentes, ayudándote a verificar y gestionar múltiples coincidencias de manera efectiva.
 
