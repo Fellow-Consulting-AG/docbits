@@ -98,7 +98,7 @@ To match a purchase order line item with a line item extracted from the document
 
     <figure><img src="../../../.gitbook/assets/po_tools_new_5.png" alt=""><figcaption></figcaption></figure>
 
-You can also select **multiple purchase order lines** and match them to a **single line** in the extracted table.
+You can also select **multiple purchase order lines** and match them to a **single line** in the extracted table. For more details, click [here](./#multi-matches).
 
 ## Which columns are being matched?
 
@@ -181,6 +181,23 @@ Several indicators are available to help you verify whether a line item has been
     <figure><img src="../../../.gitbook/assets/po_match_new_4.png" alt=""><figcaption></figcaption></figure>
 
 ## Multi Matches
+
+Multi-matching allows multiple lines from one table to be matched against a **single line** in the corresponding (opposite) table.
+
+<figure><img src="../../../.gitbook/assets/po_match_20.png" alt=""><figcaption></figcaption></figure>
+
+This feature is particularly useful for scenarios where details are split across several line items.
+
+### Matching Criteria
+
+Lines will be considered a match if the following aggregated conditions are met:
+
+* **Unit Price**:\
+  The average unit price of the multiple lines is calculated and compared against the unit price in the opposite table.
+* **Quantity**:\
+  The sum of the quantities across the matched lines must match the quantity in the opposite table.
+* **Additional Requirements**:\
+  Any additional [matching criteria](./#which-columns-are-being-matched) must also be satisfied.
 
 If a single line item is matched to multiple lines, you can view detailed information by clicking the plus (+) icon next to the respective line item.
 
