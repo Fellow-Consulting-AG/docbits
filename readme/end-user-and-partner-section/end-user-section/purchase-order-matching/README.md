@@ -182,7 +182,7 @@ Several indicators are available to help you verify whether a line item has been
 
 ## Multi Matches
 
-Multi-matching allows multiple lines from one table to be matched against a **single line** in the corresponding (opposite) table.
+Multi-matching allows multiple lines from one table to be matched against a single line in the corresponding (opposite) table.
 
 <figure><img src="../../../.gitbook/assets/po_match_20.png" alt=""><figcaption></figcaption></figure>
 
