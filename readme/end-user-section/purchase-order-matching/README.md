@@ -98,7 +98,7 @@ Um einen Bestellposten mit einem aus dem Dokument extrahierten Posten abzugleich
 
     ![](../../.gitbook/assets/po_tools_new_5_de.png)
 
-Sie können auch **mehrere Bestellposten** auswählen und diese mit einem **einzelnen Posten** in der extrahierten Tabelle abgleichen.
+Sie können auch **mehrere Bestellposten** auswählen und diese mit einem **einzelnen Posten** in der extrahierten Tabelle abgleichen. Für weitere Details klicken Sie [hier](./#mehrfachabgleiche).
 
 ## Welche Spalten werden abgeglichen?
 
@@ -177,6 +177,23 @@ Mehrere Indikatoren stehen zur Verfügung, um Ihnen zu helfen zu überprüfen, o
     ![](../../.gitbook/assets/po_match_new_4_de.png)
 
 ## Mehrfachabgleiche
+
+Der Mehrfachabgleich ermöglicht es, mehrere Zeilen aus einer Tabelle mit einer einzelnen Zeile in der entsprechenden (entgegengesetzten) Tabelle abzugleichen.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/po_match_20.png)
+
+Diese Funktion ist besonders nützlich für Szenarien, in denen Details über mehrere Positionen verteilt sind.
+
+### Abgleichkriterien
+
+Zeilen werden als übereinstimmend betrachtet, wenn die folgenden aggregierten Bedingungen erfüllt sind:
+
+* **Stückpreis**:\
+  Der durchschnittliche Stückpreis der mehreren Zeilen wird berechnet und mit dem Stückpreis in der entgegengesetzten Tabelle verglichen.
+* **Menge**:\
+  Die Summe der Mengen über die abgeglichenen Zeilen muss mit der Menge in der entgegengesetzten Tabelle übereinstimmen.
+* **Zusätzliche Anforderungen**:\
+  Alle zusätzlichen [Abgleichkriterien](./#welche-spalten-werden-abgeglichen) müssen ebenfalls erfüllt sein.
 
 Wenn ein einzelner Posten mit mehreren Zeilen abgeglichen wird, können Sie detaillierte Informationen anzeigen, indem Sie auf das Plus (+) Symbol neben dem jeweiligen Posten klicken.
 
