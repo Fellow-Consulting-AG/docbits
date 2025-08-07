@@ -98,7 +98,7 @@ Pour faire correspondre une ligne de bon de commande avec une ligne extraite du 
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Flsdom16blO6pMF5rtQYS%252Fpo_tools_new_5.png%3Falt%3Dmedia%26token%3D616d6600-ff52-478a-9282-518212360106\&width=768\&dpr=4\&quality=100\&sign=ad47d853\&sv=2)
 
-Vous pouvez également sélectionner **plusieurs lignes de bon de commande** et les faire correspondre à une **ligne unique** dans le tableau extrait.
+Vous pouvez également sélectionner **plusieurs lignes de bon de commande** et les faire correspondre à une **ligne unique** dans le tableau extrait. Pour plus de détails, cliquez [ici](./#correspondances-multiples).
 
 ## Quelles colonnes sont correspondantes ?
 
@@ -178,9 +178,26 @@ Plusieurs indicateurs sont disponibles pour vous aider à vérifier si un articl
 
     ![](../../../.gitbook/assets/po_match_new_4.png)
 
-## Correspondances Multiples
+## Correspondances multiples
 
-Si un seul article est associé à plusieurs lignes, vous pouvez voir des informations détaillées en cliquant sur l'icône plus (+) à côté de l'article respectif.
+La correspondance multiple permet de faire correspondre plusieurs lignes d'un tableau à une ligne unique dans le tableau correspondant (opposé).
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/po_match_20.png)
+
+Cette fonctionnalité est particulièrement utile pour les scénarios où les détails sont répartis sur plusieurs lignes d'articles.
+
+### Critères de correspondance
+
+Les lignes seront considérées comme une correspondance si les conditions agrégées suivantes sont remplies :
+
+* **Prix unitaire** :\
+  Le prix unitaire moyen des lignes multiples est calculé et comparé au prix unitaire dans le tableau opposé.
+* **Quantité** :\
+  La somme des quantités des lignes correspondantes doit correspondre à la quantité dans le tableau opposé.
+* **Exigences supplémentaires** :\
+  Tout [critère de correspondance](./#quelles-colonnes-sont-correspondantes) supplémentaire doit également être satisfait.
+
+Si un seul article est mis en correspondance avec plusieurs lignes, vous pouvez voir des informations détaillées en cliquant sur l'icône plus (+) à côté de l'article respectif.
 
 Cela développe la vue pour montrer toutes les entrées correspondantes, vous aidant à vérifier et à gérer efficacement les correspondances multiples.
 
