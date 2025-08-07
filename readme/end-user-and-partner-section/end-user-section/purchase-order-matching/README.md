@@ -98,7 +98,7 @@ Para corresponder um item de linha de ordem de compra com um item de linha extra
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Flsdom16blO6pMF5rtQYS%252Fpo_tools_new_5.png%3Falt%3Dmedia%26token%3D616d6600-ff52-478a-9282-518212360106\&width=768\&dpr=4\&quality=100\&sign=ad47d853\&sv=2)
 
-Você também pode selecionar **várias linhas de ordem de compra** e correspondê-las a uma **única linha** na tabela extraída.
+Você também pode selecionar **várias linhas de ordem de compra** e correspondê-las a uma **única linha** na tabela extraída. Para mais detalhes, clique [aqui](./#correspondencias-multiplas).
 
 ## Quais colunas estão sendo correspondidas?
 
@@ -176,7 +176,24 @@ Vários indicadores estão disponíveis para ajudá-lo a verificar se um item de
 
     ![](../../../.gitbook/assets/po_match_new_4.png)
 
-## Múltiplas Correspondências
+## Correspondências Múltiplas
+
+A correspondência múltipla permite que várias linhas de uma tabela sejam correspondidas a uma única linha na tabela correspondente (oposta).
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/po_match_20.png)
+
+Esse recurso é particularmente útil para cenários onde os detalhes estão divididos em vários itens de linha.
+
+### Critérios de Correspondência
+
+As linhas serão consideradas uma correspondência se as seguintes condições agregadas forem atendidas:
+
+* **Preço Unitário**:\
+  O preço unitário médio das várias linhas é calculado e comparado ao preço unitário na tabela oposta.
+* **Quantidade**:\
+  A soma das quantidades nas linhas correspondidas deve corresponder à quantidade na tabela oposta.
+* **Requisitos Adicionais**:\
+  Quaisquer [critérios de correspondência](./#quais-colunas-estao-sendo-correspondidas) adicionais também devem ser atendidos.
 
 Se um único item de linha for correspondido a várias linhas, você pode visualizar informações detalhadas clicando no ícone de mais (+) ao lado do respectivo item de linha.
 
