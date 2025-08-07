@@ -98,7 +98,7 @@ Aby dopasować pozycję zamówienia zakupu z pozycją wyodrębnioną z dokumentu
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Flsdom16blO6pMF5rtQYS%252Fpo_tools_new_5.png%3Falt%3Dmedia%26token%3D616d6600-ff52-478a-9282-518212360106\&width=768\&dpr=4\&quality=100\&sign=ad47d853\&sv=2)
 
-Możesz również wybrać **wiele linii zamówienia zakupu** i dopasować je do **jednej linii** w wyodrębnionej tabeli.
+Możesz również wybrać **wiele linii zamówienia zakupu** i dopasować je do **jednej linii** w wyodrębnionej tabeli. Aby uzyskać więcej szczegółów, kliknij [tutaj](./#wiele-dopasowan).
 
 ## Które kolumny są dopasowywane?
 
@@ -176,9 +176,26 @@ Dostępnych jest kilka wskaźników, które pomogą Ci zweryfikować, czy pozycj
 
     ![](../../../.gitbook/assets/po_match_new_4.png)
 
-## Wielokrotne dopasowania
+## Wiele dopasowań
 
-Jeśli pojedyncza pozycja jest dopasowywana do wielu linii, możesz zobaczyć szczegółowe informacje, klikając ikonę plus (+) obok odpowiedniej pozycji.
+Wiele dopasowań pozwala na dopasowanie wielu linii z jednej tabeli do jednej linii w odpowiadającej (przeciwnej) tabeli.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/po_match_20.png)
+
+Ta funkcja jest szczególnie przydatna w scenariuszach, w których szczegóły są rozdzielone na kilka pozycji.
+
+### Kryteria dopasowania
+
+Linie będą uznawane za dopasowane, jeśli spełnione są następujące skumulowane warunki:
+
+* **Cena jednostkowa**:\
+  Średnia cena jednostkowa wielu linii jest obliczana i porównywana z ceną jednostkową w przeciwnej tabeli.
+* **Ilość**:\
+  Suma ilości w dopasowanych liniach musi odpowiadać ilości w przeciwnej tabeli.
+* **Dodatkowe wymagania**:\
+  Jakiekolwiek dodatkowe [kryteria dopasowania](./#ktore-kolumny-sa-dopasowywane) muszą być również spełnione.
+
+Jeśli pojedyncza pozycja jest dopasowana do wielu linii, możesz zobaczyć szczegółowe informacje, klikając ikonę plus (+) obok odpowiedniej pozycji.
 
 To rozszerza widok, aby pokazać wszystkie dopasowane wpisy, co pomaga w weryfikacji i zarządzaniu wieloma dopasowaniami skutecznie.
 
