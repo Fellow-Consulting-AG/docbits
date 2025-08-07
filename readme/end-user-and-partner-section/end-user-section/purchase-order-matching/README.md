@@ -98,7 +98,7 @@ Per abbinare un articolo di un ordine di acquisto con un articolo estratto dal d
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Flsdom16blO6pMF5rtQYS%252Fpo_tools_new_5.png%3Falt%3Dmedia%26token%3D616d6600-ff52-478a-9282-518212360106\&width=768\&dpr=4\&quality=100\&sign=ad47d853\&sv=2)
 
-Puoi anche selezionare **più righe di ordine di acquisto** e abbinarle a una **singola riga** nella tabella estratta.
+Puoi anche selezionare **più righe di ordine di acquisto** e abbinarle a una **singola riga** nella tabella estratta. Per ulteriori dettagli, fai clic [qui](./#abbinamenti-multipli).
 
 ## Quali colonne vengono abbinate?
 
@@ -176,7 +176,24 @@ Diversi indicatori sono disponibili per aiutarti a verificare se un articolo è 
 
     ![](../../../.gitbook/assets/po_match_new_4.png)
 
-## Multi Abbinamenti
+## Abbinamenti Multipli
+
+L'abbinamento multiplo consente di abbinare più righe da una tabella a una singola riga nella tabella corrispondente (opposta).
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/po_match_20.png)
+
+Questa funzione è particolarmente utile per scenari in cui i dettagli sono suddivisi su più righe.
+
+### Criteri di Abbinamento
+
+Le righe saranno considerate un abbinamento se le seguenti condizioni aggregate sono soddisfatte:
+
+* **Prezzo unitario**:\
+  Il prezzo unitario medio delle righe multiple viene calcolato e confrontato con il prezzo unitario nella tabella opposta.
+* **Quantità**:\
+  La somma delle quantità delle righe abbinate deve corrispondere alla quantità nella tabella opposta.
+* **Requisiti Aggiuntivi**:\
+  Qualsiasi ulteriore [criterio di abbinamento](./#quali-colonne-vengono-abbinate) deve essere soddisfatto.
 
 Se un singolo articolo è abbinato a più righe, puoi visualizzare informazioni dettagliate facendo clic sull'icona più (+) accanto all'articolo rispettivo.
 
