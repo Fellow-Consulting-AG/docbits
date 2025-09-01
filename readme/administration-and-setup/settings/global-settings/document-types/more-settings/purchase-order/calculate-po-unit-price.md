@@ -12,7 +12,7 @@ Puedes optar por calcular automáticamente el **precio unitario** dividiendo el 
 2.  Selecciona el tipo de documento deseado y haz clic en **Más ajustes**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Calculate_PO_unit_price_2.png)
-3.  En la sección de **Orden de compra**, activa la opción **Calcular el precio unitario del pedido**.
+3.  En la sección de **Orden de compra**, habilita la opción **Calcular el precio unitario del pedido**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Calculate_PO_unit_price_3.png)
 
@@ -23,5 +23,5 @@ Puedes optar por calcular automáticamente el **precio unitario** dividiendo el 
 En este caso, el precio unitario (sin el descuento) se extrae del documento, mientras que la orden de compra en Infor almacena el precio unitario con el descuento aplicado. Esto resulta en una discrepancia en el precio unitario.
 
 Una vez que se activa la configuración, el precio unitario se recalculará de la siguiente manera:\
-&#xNAN;**`Unit Price = Total Amount ÷ Quantity * Unit Price Per`**\
+&#xNAN;**`Precio unitario = Importe total factura ÷ Cantidad * Precio unitario por`**\
 Esto asegura que el precio unitario sea consistente y coincida con el valor previsto.
