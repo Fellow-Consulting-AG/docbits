@@ -34,7 +34,7 @@ Within these settings you can then make the desired configurations to ensure you
 
 <figure><img src="../../../../.gitbook/assets/image (41) (1).png" alt="" width="264"><figcaption></figcaption></figure>
 
-*   **Select email template**: Choose a preconfigured template from the dropdown menu. Templates can be created or modified in [Email Templates settings](../../../../advanced-functions-and-tools/powerbi/sql-access/email-template.md).\
+*   **Select email template**: Choose a preconfigured template from the dropdown menu. Templates can be created or modified in [Email Templates settings](../../../../advanced-functions-and-tools/sql-access/sql-access/email-template.md).\
 
 
     <figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
