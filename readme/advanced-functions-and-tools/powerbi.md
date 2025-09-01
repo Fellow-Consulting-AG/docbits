@@ -6,7 +6,9 @@ description: How to configure PowerBI
 
 You can connect DocBits data to Power BI in two different ways. The right method depends on how you want to use the data.
 
-#### Which Method Should I Use?
+
+
+### Connection Methods:
 
 * **Method 1: Connect via ClickHouse**&#x20;
 
