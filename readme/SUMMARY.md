@@ -295,3 +295,6 @@
   * [Guida alla Scrittura dei Prompts](advanced-functions-and-tools/docbits-operator/prompt-writing-guide.md)
   * [Attivazione dei Prompts con un Workflow](advanced-functions-and-tools/docbits-operator/triggering-prompts-with-a-workflow/README.md)
     * [Flusso di Esecuzione On-Premise](advanced-functions-and-tools/docbits-operator/triggering-prompts-with-a-workflow/on-premise-execution-flow.md)
+* [Collegare DocBits a Power BI](advanced-functions-and-tools/collegare-docbits-a-power-bi/README.md)
+  * [Connettersi tramite ClickHouse](advanced-functions-and-tools/collegare-docbits-a-power-bi/connettersi-tramite-clickhouse.md)
+  * [Connettersi tramite Database in sola lettura](advanced-functions-and-tools/collegare-docbits-a-power-bi/connettersi-tramite-database-in-sola-lettura.md)
