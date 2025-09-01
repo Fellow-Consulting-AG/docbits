@@ -128,7 +128,7 @@
           * [Tabela PO w Kreatorze Układów](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/po-table-in-layout-builder.md)
           * [Automatyczne sprawdzanie aktualizacji PO](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/auto-check-for-po-updates.md)
           * [Status linii zamówienia PO](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/consumed-po-line-status.md)
-          * [Oblicz cenę jednostkową PO](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/calculate-po-unit-price.md)
+          * [Oblicz cenę jednostkową zamówienia](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/calculate-po-unit-price.md)
           * [Zamówienie zakupu](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order.md)
           * [Eksport niepasujących linii PO](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/export-not-matched-po-lines.md)
           * [Ustawienia tolerancji zamówienia zakupu / Dodatkowa tolerancja zamówienia zakupu](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
