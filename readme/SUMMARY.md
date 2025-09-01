@@ -295,3 +295,6 @@
   * [Guide d'écriture de prompt](advanced-functions-and-tools/docbits-operator/prompt-writing-guide.md)
   * [Déclenchement des invites avec un flux de travail](advanced-functions-and-tools/docbits-operator/triggering-prompts-with-a-workflow/README.md)
     * [Flux d'exécution sur site](advanced-functions-and-tools/docbits-operator/triggering-prompts-with-a-workflow/on-premise-execution-flow.md)
+* [Power BI](advanced-functions-and-tools/power-bi/README.md)
+  * [Se connecter via ClickHouse](advanced-functions-and-tools/power-bi/se-connecter-via-clickhouse.md)
+  * [Se connecter via la base de données en lecture seule](advanced-functions-and-tools/power-bi/se-connecter-via-la-base-de-donnees-en-lecture-seule.md)
