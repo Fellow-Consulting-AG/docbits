@@ -1,15 +1,21 @@
 # Verbindung von DocBits mit Power BI
 
-So konfigurieren Sie PowerBI
-
 Sie können DocBits-Daten auf zwei verschiedene Arten mit Power BI verbinden. Die richtige Methode hängt davon ab, wie Sie die Daten verwenden möchten.
 
-## Verbindungsmethoden:
+### Wann welche Verbindung verwendet werden soll:
 
 * **Methode 1: Verbindung über ClickHouse**
+  * **Analyse großer Datenmengen**.
+  * **Historische Trends und Dashboards**.
 
-[Verbindung über ClickHouse](https://docs.docbits.com/advanced-functions-and-tools/powerbi/powerbi)
+{% content-ref url="verbindung-uber-clickhouse.md" %}
+[verbindung-uber-clickhouse.md](verbindung-uber-clickhouse.md)
+{% endcontent-ref %}
 
 * **Methode 2: Verbindung über eine schreibgeschützte Datenbank**
+  * **Betriebs- oder nahezu Echtzeitdaten**.
+  * **Direkter Zugriff auf aktuelle DocBits-Tabellen**.
 
-[Verbindung über eine schreibgeschützte Datenbank](https://docs.docbits.com/advanced-functions-and-tools/powerbi/connect-via-read-only-database)
+{% content-ref url="verbindung-uber-schreibgeschutzte-datenbank-herstellen.md" %}
+[verbindung-uber-schreibgeschutzte-datenbank-herstellen.md](verbindung-uber-schreibgeschutzte-datenbank-herstellen.md)
+{% endcontent-ref %}
