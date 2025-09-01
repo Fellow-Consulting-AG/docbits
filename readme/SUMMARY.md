@@ -129,7 +129,7 @@
           * [Tabela de PO no Construtor de Layout](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/po-table-in-layout-builder.md)
           * [Verificação automática de atualizações de PO](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/auto-check-for-po-updates.md)
           * [Estado da Linha de PO Consumida](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/estado-da-linha-de-po-consumida.md)
-          * [Calcular preço unitário do PO](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/calculate-po-unit-price.md)
+          * [Calcular preço unitário do pedido de compra](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/calculate-po-unit-price.md)
           * [Ordem de compra](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order.md)
           * [Exportar linhas de PO não correspondidas](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/export-not-matched-po-lines.md)
           * [Configurações de tolerância de pedido de compra / Tolerância adicional de pedido de compra](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md)
