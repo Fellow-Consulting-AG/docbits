@@ -2,7 +2,7 @@
 
 ## **Übersicht**
 
-Sie können wählen, den Einzelpreis manuell zu berechnen, indem Sie den Nettobetrag durch die Menge teilen, anstatt ihn automatisch aus dem Dokument zu extrahieren. Dies ist besonders nützlich, wenn der Einzelpreis in der Bestellnummer (in Infor) von dem Preis abweicht, der aus dem Dokument extrahiert wird. Solche Abweichungen können auftreten, wenn ein Rabatt auf den Einzelpreis in der Infor-Bestellnummer angewendet wird, während das Dokument den Rabatt nur auf den Nettobetrag anwendet.
+Sie können wählen, den **Einzelpreis** automatisch zu berechnen, indem Sie die **Summe Rechnungsbetrag** durch die **Menge** teilen und dann mit dem **Einzelpreis pro** Wert multiplizieren, anstatt den Einzelpreis direkt aus dem Dokument zu extrahieren. Dies ist besonders nützlich, wenn der Einzelpreis in der Bestellnummer (in Infor) von dem Preis abweicht, der aus dem Dokument extrahiert wird. Solche Abweichungen können auftreten, wenn ein Rabatt auf den Einzelpreis in der Infor-Bestellnummer angewendet wird, während das Dokument den Rabatt nur auf den Nettobetrag anwendet.
 
 ## **Aktivierungsschritte**
 
@@ -23,5 +23,5 @@ Sie können wählen, den Einzelpreis manuell zu berechnen, indem Sie den Nettobe
 In diesem Fall wird der Einzelpreis (ohne Rabatt) aus dem Dokument extrahiert, während die Bestellnummer in Infor den Einzelpreis mit angewendetem Rabatt speichert. Dies führt zu einer Diskrepanz im Einzelpreis.
 
 Sobald die Einstellung aktiviert ist, wird der Einzelpreis wie folgt neu berechnet:\
-**Einzelpreis = Nettobetrag ÷ Menge**\
+&#xNAN;**`Einzelpreis = Summe Rechnungsbetrag ÷ Menge * Einzelpreis pro`**\
 Dies stellt sicher, dass der Einzelpreis konsistent ist und dem beabsichtigten Wert entspricht.
