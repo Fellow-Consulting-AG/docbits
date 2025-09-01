@@ -294,3 +294,6 @@
   * [Anleitung zur Erstellung von Aufforderungen](advanced-functions-and-tools/docbits-operator/prompt-writing-guide.md)
   * [Auslösen von Aufforderungen mit einem Workflow](advanced-functions-and-tools/docbits-operator/triggering-prompts-with-a-workflow/README.md)
     * [On-Premise Ausführungsablauf](advanced-functions-and-tools/docbits-operator/triggering-prompts-with-a-workflow/on-premise-execution-flow.md)
+* [Verbindung von DocBits mit Power BI](advanced-functions-and-tools/verbindung-von-docbits-mit-power-bi/README.md)
+  * [Verbindung über ClickHouse](advanced-functions-and-tools/verbindung-von-docbits-mit-power-bi/verbindung-uber-clickhouse.md)
+  * [Verbindung über schreibgeschützte Datenbank herstellen](advanced-functions-and-tools/verbindung-von-docbits-mit-power-bi/verbindung-uber-schreibgeschutzte-datenbank-herstellen.md)
