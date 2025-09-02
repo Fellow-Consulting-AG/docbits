@@ -55,6 +55,7 @@
   * [Zweck und Verwendung](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Bestellnummer Abgleich Bildschirm](end-user-section/purchase-order-matching/README.md)
     * [Bestellnummer-Abgleich-Tools](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
+    * [Rabatte](end-user-and-partner-section/end-user-section/purchase-order-matching/rabatte.md)
     * [Automatischer Bestelldatenabgleich](end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Lieferanten-Artikelnummern-Zuordnung](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
     * [Tastenkombinationen](end-user-and-partner-section/end-user-section/purchase-order-matching/keyboard-shortcuts.md)

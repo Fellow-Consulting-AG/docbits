@@ -147,6 +147,10 @@ Wenn Toleranzen in den Systemeinstellungen konfiguriert sind, können Sie diese 
 
 Für weitere Informationen zur Konfiguration und Verwendung von Toleranzen siehe die [detaillierte Dokumentation](../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md).
 
+## Rabatte
+
+Wenn Rabatte in Ihrer extrahierten Tabelle vorhanden sind, werden sie automatisch auf den Einzelpreis vor dem Abgleich angewendet – es sei denn, es werden [Mehrfachabgleiche](./#mehrfachabgleiche) verwendet. Weitere Informationen zu Rabatten finden Sie [hier](../../end-user-and-partner-section/end-user-section/purchase-order-matching/rabatte.md).
+
 ## Status deaktivieren
 
 Sie können bestimmte Zeilen mit bestimmten Status vom Abgleich ausschließen. Für weitere Informationen siehe die [detaillierte Dokumentation](../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md).
