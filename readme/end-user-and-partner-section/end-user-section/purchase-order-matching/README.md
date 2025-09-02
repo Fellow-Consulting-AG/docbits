@@ -147,6 +147,10 @@ Se as tolerâncias estiverem configuradas nas configurações do sistema, você 
 
 Para mais informações sobre como configurar e usar tolerâncias, consulte a [documentação detalhada](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md).
 
+## Descontos
+
+Se os descontos estiverem presentes na sua tabela extraída, eles serão aplicados automaticamente ao preço unitário antes da correspondência—exceto ao usar [correspondências múltiplas](./#correspondencias-multiplas). Mais informações sobre descontos podem ser encontradas [aqui](discounts.md).
+
 ## Desativar status
 
 Você pode excluir linhas específicas com certos status de serem correspondidas. Para mais informações, consulte a [documentação detalhada](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md).
