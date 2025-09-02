@@ -147,6 +147,10 @@ Jeśli tolerancje są skonfigurowane w ustawieniach systemu, możesz je dostosow
 
 Aby uzyskać więcej informacji na temat konfigurowania i korzystania z tolerancji, zapoznaj się z [szczegółową dokumentacją](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md).
 
+## Rabaty
+
+Jeśli rabaty są obecne w twojej wyodrębnionej tabeli, zostaną automatycznie zastosowane do ceny jednostkowej przed dopasowaniem—z wyjątkiem sytuacji, gdy używane są [Wiele dopasowań](./#wiele-dopasowan). Więcej informacji na temat rabatów można znaleźć [tutaj](discounts.md).
+
 ## Wyłącz statusy
 
 Możesz wykluczyć konkretne linie z określonymi statusami z dopasowania. Aby uzyskać więcej informacji, zapoznaj się z [szczegółową dokumentacją](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md).

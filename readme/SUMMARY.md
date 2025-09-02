@@ -55,6 +55,7 @@
   * [Cel i Zastosowanie](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Ekran dopasowywania zamówień zakupu](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
     * [Narzędzia dopasowywania zamówień zakupu](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
+    * [Rabaty](end-user-and-partner-section/end-user-section/purchase-order-matching/discounts.md)
     * [Automatyczne Dopasowywanie Danych Zamówień Zakupu](end-user-and-partner-section/end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Mapa Numerów Przedmiotów Dostawcy](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
     * [Skróty Klawiaturowe](end-user-and-partner-section/end-user-section/purchase-order-matching/keyboard-shortcuts.md)
