@@ -147,6 +147,10 @@ Si se configuran tolerancias en la configuración del sistema, puedes ajustarlas
 
 Para más información sobre cómo configurar y usar tolerancias, consulta la [documentación detallada](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md).
 
+## Descuentos
+
+Si hay descuentos presentes en su tabla extraída, se aplicarán automáticamente al precio unitario antes de la coincidencia, excepto cuando se utilicen [coincidencias múltiples](./#coincidencias-multiples). Más información sobre los descuentos se puede encontrar [aquí](discounts.md).
+
 ## Deshabilitar estados
 
 Puedes excluir líneas específicas con ciertos estados de ser coincidentes. Para más información, consulta la [documentación detallada](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md).

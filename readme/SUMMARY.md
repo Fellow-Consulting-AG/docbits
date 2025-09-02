@@ -55,6 +55,7 @@
   * [Propósito y uso](end-user-and-partner-section/end-user-section/proposito-y-uso.md)
   * [Pantalla de Coincidencia de Órdenes de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
     * [Herramientas de coincidencia de órdenes de compra](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
+    * [Descuentos](end-user-and-partner-section/end-user-section/purchase-order-matching/discounts.md)
     * [Conciliación Automática de Datos de Órdenes de Compra](end-user-and-partner-section/end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Mapa de número de artículo del proveedor](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
     * [Atajos de Teclado](end-user-and-partner-section/end-user-section/purchase-order-matching/keyboard-shortcuts.md)
