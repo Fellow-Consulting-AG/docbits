@@ -151,6 +151,10 @@ If tolerances are configured in the system settings, you can adjust them for the
 
 For more information on configuring and using tolerances, see the [detailed documentation](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md).
 
+## Discounts
+
+If discounts are present in your extracted table, they will be automatically applied to the **unit price** before matching—except when using [multi-matches](./#multi-matches). More information on discounts can be found [here](./#discounts).
+
 ## Disable statuses
 
 You can exclude specific lines with certain statuses from being matched. For more information, refer to the [detailed documentation](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md).

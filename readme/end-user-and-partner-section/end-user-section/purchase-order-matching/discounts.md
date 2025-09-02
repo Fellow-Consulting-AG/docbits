@@ -1,0 +1,29 @@
+# Discounts
+
+## **Overview**
+
+If your extracted table contains the Discount or Discount Percent column, **DocBits** will automatically apply the corresponding discount to the Unit Price during processing in the [**Purchase Order Matching screen**](./).
+
+## Exceptions
+
+Discounts will not be automatically applied when multiple table lines are matched to a single purchase order line. More information can be found [here](./#multi-matches).
+
+## Discount Calculation
+
+When the **Discount** field is present, the discounted unit price is calculated by simply subtracting the discount amount from the unit price:
+
+```
+UNIT_PRICE_DISCOUNTED = UNIT_PRICE - DISCOUNT
+```
+
+## Discount Percent Calculation
+
+When using a percentage-based discount, the discounted unit price is calculated as follows:
+
+```
+UNIT_PRICE_DISCOUNTED = UNIT_PRICE * (1 - DISCOUNT_PERCENT / 100)
+```
+
+## Rounding
+
+All discounted unit price results are rounded to four decimal places for consistency in downstream processing.
