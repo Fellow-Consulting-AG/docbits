@@ -10,15 +10,15 @@ Discounts will not be automatically applied when the multi-match feature is used
 
 ## Discount Calculation
 
-When the **Discount** field is present, the discounted unit price is calculated by simply subtracting the discount amount from the unit price:
+When a **Discount** is present, the discounted unit price is calculated by subtracting the discount amount from the unit price:
 
 ```
 UNIT_PRICE_DISCOUNTED = UNIT_PRICE - DISCOUNT
 ```
 
-## Discount Percent Calculation
+## Discount Percentage Calculation
 
-When using a percentage-based discount, the discounted unit price is calculated as follows:
+When a **Discount Percentage** is present, the discounted unit price is calculated using the following formula:
 
 ```
 UNIT_PRICE_DISCOUNTED = UNIT_PRICE * (1 - DISCOUNT_PERCENT / 100)
