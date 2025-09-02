@@ -149,6 +149,10 @@ Si des tolérances sont configurées dans les paramètres du système, vous pouv
 
 Pour plus d'informations sur la configuration et l'utilisation des tolérances, consultez la [documentation détaillée](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md).
 
+## Remises
+
+Si des remises sont présentes dans votre tableau extrait, elles seront automatiquement appliquées au prix unitaire avant la correspondance—sauf lors de l'utilisation de [correspondances multiples](./#correspondances-multiples). Plus d'informations sur les remises peuvent être trouvées [ici](discounts.md).
+
 ## Désactiver les statuts
 
 Vous pouvez exclure des lignes spécifiques avec certains statuts de la correspondance. Pour plus d'informations, reportez-vous à la [documentation détaillée](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md).

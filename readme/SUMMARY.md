@@ -55,6 +55,7 @@
   * [Objectif et Utilisation](end-user-and-partner-section/end-user-section/purpose-and-use.md)
   * [Écran de Correspondance des Bons de Commande](end-user-and-partner-section/end-user-section/purchase-order-matching/README.md)
     * [Outils de Correspondance de Bon de Commande](end-user-and-partner-section/end-user-section/purchase-order-matching/purchase-order-matching-tools.md)
+    * [Remises](end-user-and-partner-section/end-user-section/purchase-order-matching/discounts.md)
     * [Correspondance Automatique des Données de Bon de Commande](end-user-and-partner-section/end-user-section/purchase-order-matching/automatic-purchase-order-data-matching.md)
     * [Correspondance des numéros d'article du fournisseur](end-user-and-partner-section/end-user-section/purchase-order-matching/supplier-item-number-map.md)
     * [Raccourcis Clavier](end-user-and-partner-section/end-user-section/purchase-order-matching/keyboard-shortcuts.md)
