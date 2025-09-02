@@ -149,7 +149,7 @@ Für weitere Informationen zur Konfiguration und Verwendung von Toleranzen siehe
 
 ## Rabatte
 
-Wenn Rabatte in Ihrer extrahierten Tabelle vorhanden sind, werden sie automatisch auf den Einzelpreis vor dem Abgleich angewendet – es sei denn, es werden [Mehrfachabgleiche](./#mehrfachabgleiche) verwendet. Weitere Informationen zu Rabatten finden Sie [hier](../../end-user-and-partner-section/end-user-section/purchase-order-matching/rabatte.md).
+Wenn Rabatte in Ihrer extrahierten Tabelle vorhanden sind, werden sie automatisch auf den Einzelpreis vor dem Abgleich angewendet – es sei denn, es werden [Mehrfachabgleiche](./#mehrfachabgleiche) verwendet. Weitere Informationen zu Rabatten finden Sie [hier](../../end-user-and-partner-section/end-user-section/purchase-order-matching/discounts.md).
 
 ## Status deaktivieren
 
