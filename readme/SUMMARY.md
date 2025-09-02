@@ -295,3 +295,6 @@
 * [Postman for DocBits](advanced-functions-and-tools/postman-for-docbits/README.md)
   * [Teste sua conexão BOD com Postman](advanced-functions-and-tools/postman-for-docbits/test-your-bod-connection-with-postman.md)
 * [Importando Dados de Fornecedor e Pedido de Compra no DocBits a partir de Arquivos CSV](advanced-functions-and-tools/importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md)
+* [Conectar DocBits ao Power BI](advanced-functions-and-tools/conectar-docbits-ao-power-bi/README.md)
+  * [Conectar via ClickHouse](advanced-functions-and-tools/conectar-docbits-ao-power-bi/conectar-via-clickhouse.md)
+  * [Conectar via Banco de Dados Somente Leitura](advanced-functions-and-tools/conectar-docbits-ao-power-bi/conectar-via-banco-de-dados-somente-leitura.md)
