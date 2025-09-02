@@ -147,6 +147,10 @@ Se le tolleranze sono configurate nelle impostazioni di sistema, puoi regolarle 
 
 Per ulteriori informazioni sulla configurazione e sull'uso delle tolleranze, consulta la [documentazione dettagliata](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md).
 
+## Sconti
+
+Se sono presenti sconti nella tua tabella estratta, verranno applicati automaticamente al prezzo unitario prima dell'abbinamento, tranne quando si utilizzano [abbinamenti multipli](./#abbinamenti-multipli). Maggiori informazioni sugli sconti possono essere trovate [qui](discounts.md).
+
 ## Disabilita stati
 
 Puoi escludere righe specifiche con determinati stati dall'essere abbinate. Per ulteriori informazioni, fai riferimento alla [documentazione dettagliata](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-disable-statuses.md).
