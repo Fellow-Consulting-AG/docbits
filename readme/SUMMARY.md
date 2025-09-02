@@ -288,3 +288,6 @@
   * [Przewodnik po pisaniu poleceń](advanced-functions-and-tools/docbits-operator/prompt-writing-guide.md)
   * [Uruchamianie monitów za pomocą przepływu pracy](advanced-functions-and-tools/docbits-operator/triggering-prompts-with-a-workflow/README.md)
     * [Przepływ Wykonywania Lokalnie](advanced-functions-and-tools/docbits-operator/triggering-prompts-with-a-workflow/on-premise-execution-flow.md)
+* [Łączenie DocBits z Power BI](advanced-functions-and-tools/laczenie-docbits-z-power-bi/README.md)
+  * [Połączenie poprzez bazę danych tylko do odczytu](advanced-functions-and-tools/laczenie-docbits-z-power-bi/polaczenie-poprzez-baze-danych-tylko-do-odczytu.md)
+  * [Połączenie za pomocą ClickHouse](advanced-functions-and-tools/laczenie-docbits-z-power-bi/polaczenie-za-pomoca-clickhouse.md)
