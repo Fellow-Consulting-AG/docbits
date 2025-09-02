@@ -6,7 +6,7 @@ Se la tua tabella estratta contiene la colonna **Sconto** o **Percentuale di sco
 
 ## Eccezioni
 
-Gli sconti non verranno applicati automaticamente quando viene utilizzata la funzione di abbinamenti multipli. Maggiori informazioni sulla funzione di [abbinamenti multipli](./#abbinamenti-multipli) possono essere trovate qui.
+Gli sconti non verranno applicati automaticamente quando viene utilizzata la funzione di abbinamenti multipli. Maggiori informazioni sulla funzione di abbinamenti multipli possono essere trovate [qui](./#abbinamenti-multipli).
 
 ## Calcolo dello Sconto
 
