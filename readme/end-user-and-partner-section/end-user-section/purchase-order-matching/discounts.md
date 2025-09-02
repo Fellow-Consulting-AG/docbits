@@ -2,11 +2,11 @@
 
 ## **Overview**
 
-If your extracted table contains the Discount or Discount Percent column, **DocBits** will automatically apply the corresponding discount to the Unit Price during processing in the [**Purchase Order Matching screen**](./).
+If your extracted table contains the **Discount** or **Discount Percentage** column, **DocBits** will automatically apply the corresponding discount to the Unit Price during processing in the [**Purchase Order Matching screen**](./).
 
 ## Exceptions
 
-Discounts will not be automatically applied when multiple table lines are matched to a single purchase order line. More information can be found [here](./#multi-matches).
+Discounts will not be automatically applied when the multi-match feature is used. More information about the multi-match feature can be found [here](./#multi-matches).
 
 ## Discount Calculation
 
