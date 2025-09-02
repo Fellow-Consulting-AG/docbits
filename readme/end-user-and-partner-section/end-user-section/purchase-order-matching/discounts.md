@@ -6,7 +6,7 @@ Jeśli twoja wyodrębniona tabela zawiera kolumnę **Rabat** lub **Procent rabat
 
 ## Wyjątki
 
-Rabaty nie będą automatycznie stosowane, gdy używana jest funkcja Wiele dopasowań. Więcej informacji na temat funkcji Wiele dopasowań można znaleźć [tutaj](./#wiele-dopasowan).
+Rabaty nie będą automatycznie stosowane, gdy używana jest funkcja wiele dopasowań. Więcej informacji na temat funkcji Wiele dopasowań można znaleźć [tutaj](./#wiele-dopasowan).
 
 ## Obliczanie rabatu
 

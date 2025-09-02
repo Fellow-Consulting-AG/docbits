@@ -149,7 +149,7 @@ Aby uzyskać więcej informacji na temat konfigurowania i korzystania z toleranc
 
 ## Rabaty
 
-Jeśli rabaty są obecne w twojej wyodrębnionej tabeli, zostaną automatycznie zastosowane do ceny jednostkowej przed dopasowaniem—z wyjątkiem sytuacji, gdy używane są [Wiele dopasowań](./#wiele-dopasowan). Więcej informacji na temat rabatów można znaleźć [tutaj](discounts.md).
+Jeśli rabaty są obecne w twojej wyodrębnionej tabeli, zostaną automatycznie zastosowane do ceny jednostkowej przed dopasowaniem—z wyjątkiem sytuacji, gdy używane są [wiele dopasowań](./#wiele-dopasowan). Więcej informacji na temat rabatów można znaleźć [tutaj](discounts.md).
 
 ## Wyłącz statusy
 
