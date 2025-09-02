@@ -153,7 +153,7 @@ For more information on configuring and using tolerances, see the [detailed docu
 
 ## Discounts
 
-If discounts are present in your extracted table, they will be automatically applied to the **unit price** before matching—except when using [multi-matches](./#multi-matches). More information on discounts can be found [here](./#discounts).
+If discounts are present in your extracted table, they will be automatically applied to the **unit price** before matching—except when using [multi matches](./#multi-matches). More information on discounts can be found [here](./#discounts).
 
 ## Disable statuses
 
