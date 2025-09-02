@@ -2,7 +2,7 @@
 
 ## **Aperçu**
 
-Si votre tableau extrait contient la colonne **Remise** ou **Pourcentage de remise**, **DocBits** appliquera automatiquement la remise correspondante au Prix unitaire lors du traitement dans l'écran de [**Correspondance de bon de commande**](./).
+Si votre tableau extrait contient la colonne **Remise** ou **Pourcentage de remise**, **DocBits** appliquera automatiquement la remise correspondante au Prix unitaire lors du traitement dans l'écran de [**correspondance de bon de commande**](./).
 
 ## Exceptions
 
