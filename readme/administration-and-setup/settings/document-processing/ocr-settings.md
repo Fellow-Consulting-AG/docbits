@@ -1,14 +1,61 @@
 # Ustawienia OCR
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.01.00.png" alt=""><figcaption></figcaption></figure>
+## Przegląd
 
-1. **Jakość OCR**:
-* To ustawienie pozwala zdefiniować minimalny wymagany procent jakości OCR dla automatycznej obróbki dokumentu. Zawiera suwak, który można dostosować, aby ustawić próg, na przykład 75%, poniżej którego system nie może zagwarantować udanej ekstrakcji. Jeśli jakość OCR dokumentu spadnie poniżej tego progu, można wybrać, aby system podjął konkretne działania, takie jak ponowne uruchomienie OCR po ręcznym potwierdzeniu.
-2. **Ogólne ustawienia OCR**:
-* **Użyj tekstu elektronicznego, jeśli jest dostępny**: Ta opcja, gdy jest włączona, pozwala systemowi wykorzystać tekst elektroniczny osadzony w plikach PDF lub innych typach dokumentów w celu poprawy dokładności.
-* **Użyj DESKEW, jeśli jest dostępny**: Ta funkcja koryguje wyrównanie dokumentu, co pomaga poprawić dokładność OCR poprzez wyprostowanie skośnych skanów.
-3. **Ustawienia OCR dla tabel**:
-* **Użyj danych AI dla tabel, jeśli są dostępne**: To ustawienie umożliwia wykorzystanie technologii AI do lepszego rozpoznawania i ekstrakcji tabel z zeskanowanych dokumentów, wykorzystując modele uczenia maszynowego do dokładnego identyfikowania i strukturyzowania danych tabelarycznych.
-4. **Ustawienia OCR dla pól nagłówka**:
-* **Użyj ekstrakcji reguł**: Gdy jest włączone, to ustawienie pozwala systemowi zastosować predefiniowane reguły do ekstrakcji danych z pól nagłówka, co może być kluczowe dla poprawnego identyfikowania sekcji dokumentów, takich jak numery faktur, daty, itp.
-* **Użyj ekstrakcji AI**: Ta opcja wykorzystuje modele AI do inteligentnej ekstrakcji pól nagłówka, co może być bardziej elastyczne wobec zmian w układach i stylach dokumentów.
+W ustawieniach **OCR (Optical Character Recognition)** możesz skonfigurować, jak OCR jest stosowane podczas przetwarzania dokumentów. Obejmuje to określenie minimalnej wymaganej jakości, wybór, czy używać tekstu osadzonego (e-text), wybór wersji OCR i inne. Ta strona zawiera szczegółowe wyjaśnienie wszystkich dostępnych ustawień.
+
+## Jak uzyskać dostęp do ustawień OCR
+
+Aby uzyskać dostęp do ustawień OCR:
+
+*   Przejdź do: **Ustawienia** → **Przetwarzanie dokumentów** → **Ustawienia OCR**
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_ocr.png)
+
+## Jakość OCR
+
+W tej sekcji możesz ustawić minimalną jakość dokumentu wymaganą do przetwarzania OCR, dostosowując suwak jakości. Przesuń suwak w lewo lub w prawo, aby odpowiednio zmniejszyć lub zwiększyć próg jakości.
+
+Jeśli dokument nie spełnia zdefiniowanego poziomu jakości, DocBits oferuje trzy opcje jego obsługi:
+
+* **Biegnij mimo wszystko**\
+  Dokument zostanie przetworzony niezależnie od jego jakości.
+* **Uruchom ponownie po potwierdzeniu**\
+  **DocBits** zatrzyma się i poprosi o potwierdzenie, czy kontynuować przetwarzanie.
+* **Wyrzuć błąd**\
+  Przetwarzanie dokumentu całkowicie się zatrzyma, a na ekranie pojawi się komunikat o błędzie, wskazujący, że dokument nie spełnia wymaganego progu jakości.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ocr_settings_1.png)
+
+## Ogólne ustawienia OCR
+
+* **Użyj E-Textu, jeśli jest dostępny**\
+  Po włączeniu **DocBits** użyje osadzonego tekstu elektronicznego (np. z PDF-ów) zamiast przeprowadzać OCR. To poprawia zarówno szybkość, jak i dokładność, ponieważ tekst jest wyodrębniany bezpośrednio bez potrzeby przetwarzania OCR.
+* **Użyj DESKEW, jeśli jest dostępny**\
+  Ta opcja automatycznie koryguje wyrównanie zeskanowanych dokumentów. Proste obrazki pomagają poprawić dokładność OCR.
+*   **Wersja AI OCR**\
+    Pozwala na wybór konkretnej wersji silnika OCR opartego na AI.\
+    Może to być przydatne, jeśli:
+
+    * Nie osiągasz pożądanych wyników z aktualnie wybraną wersją.
+    * Rozwiązujesz problemy związane z wydajnością lub dokładnością OCR.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ocr_settings_2.png)
+
+## Ustawienia OCR dla tabel
+
+* **Jeśli są dostępne, użyj danych AI w tabelach**\
+  Po włączeniu DocBits użyje danych OCR dla tabel zamiast osadzonego tekstu elektronicznego (E-Text) — nawet jeśli ustawienie **Użyj E-Textu, jeśli jest dostępny** jest włączone.
+
+## Ustawienia OCR dla pól nagłówka
+
+* **Użyj ekstrakcji reguł**\
+  DocBits zastosuje Twoje zdefiniowane reguły ekstrakcji do identyfikacji pól nagłówka.
+* **Użyj ekstrakcji AI**\
+  DocBits użyje AI do automatycznego wykrywania i wyodrębniania pól nagłówka.
+
+**Kolejność wykonania:**\
+Jeśli obie opcje są włączone, **DocBits** przeprowadzi ekstrakcję w następującej kolejności:\
+**Ekstrakcja reguł → Ekstrakcja AI**\
+\
+<mark style="color:red;">**Uwaga**</mark>: Aby uzyskać najlepsze wyniki i spójną zachowanie, włącz obie opcje. Pozwoli to **DocBits** na wykorzystanie zarówno metod opartych na regułach, jak i metod opartych na AI w połączeniu podczas ekstrakcji nagłówków.
