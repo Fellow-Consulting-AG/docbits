@@ -165,7 +165,7 @@
     * [Documents Expiry](administration-and-setup/settings/document-processing/documents-expiry.md)
     * [Importar](administration-and-setup/settings/document-processing/import.md)
     * [Gestor de Reglas](administration-and-setup/settings/document-processing/rule-manager.md)
-    * [Ocr Settings](administration-and-setup/settings/document-processing/ocr-settings.md)
+    * [Configuración de OCR](administration-and-setup/settings/document-processing/ocr-settings.md)
     * [Clasificación y extracción](administration-and-setup/settings/document-processing/classification-and-extraction/README.md)
       * [Extracción de tablas para el elemento de costos](administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md)
       * [Auto extraer código de impuestos](administration-and-setup/settings/document-processing/classification-and-extraction/auto-extract-tax-code.md)
