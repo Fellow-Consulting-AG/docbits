@@ -274,7 +274,7 @@
         * [Case 8a, 9a: Quantity Outside Tolerance (Approved), Unit Price Within Tolerance](administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-8a-9a-quantity-outside-tolerance-approved-unit-price-within-tolerance.md)
         * [Case 15: Header Charge - Charge Per Unit Outside Tolerance (Rejected)](administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-15-header-charge-charge-per-unit-outside-tolerance-rejected.md)
         * [Tax Lines](administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/tax-lines.md)
-    * [Ocr Settings](administration-and-setup/settings/document-processing/ocr-settings.md)
+    * [OCR Settings](administration-and-setup/settings/document-processing/ocr-settings.md)
     * [Classification And Extraction](administration-and-setup/settings/document-processing/classification-and-extraction/README.md)
       * [Table extraction for costing element](administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md)
       * [Auto extract tax code](administration-and-setup/settings/document-processing/classification-and-extraction/auto-extract-tax-code.md)

@@ -1,16 +1,61 @@
-# Ocr Settings
+# OCR Settings
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.01.00.png" alt=""><figcaption></figcaption></figure>
+## Overview
 
-1. **OCR Quality**:
-   * This setting allows you to define the minimum required OCR quality percentage for a document to be processed automatically. It includes a slider that you can adjust to set the threshold, such as 75%, below which the system cannot guarantee a successful extraction. If the OCR quality of a document falls below this threshold, you can choose to have the system take specific actions, such as re-running the OCR after manual confirmation.
-2. **General OCR settings**:
-   * **Use E-Text if available**: This option, when enabled, allows the system to use electronic text embedded within PDFs or other document types to enhance accuracy.
-   * **Use DESKEW if available**: This feature corrects document alignment, which helps in improving the OCR accuracy by straightening any skewed scans.
-3. **OCR settings for tables**:
-   * **Use AI data for tables if available**: This setting enables the use of AI technologies to better recognize and extract tables from scanned documents, leveraging machine learning models to identify and structure tabular data accurately.
-4. **OCR settings for the header fields**:
-   * **Use Rules Extraction**: When enabled, this setting allows the system to apply predefined rules to extract data from header fields, which can be critical for correctly identifying document sections like invoice numbers, dates, etc.
-   * **Use AI Extraction**: This option uses AI models to intelligently extract header fields, which can be more adaptable to variations in document layouts and styles.
+In the **OCR (Optical Character Recognition)** settings, you can configure how OCR is applied during document processing. This includes specifying the minimum required quality, choosing whether to use embedded text (e-text), selecting the OCR version, and more. This page provides a detailed explanation of all available settings.
 
-{% embed url="https://youtu.be/zkW8zj0H5Ko" %}
+## How to Access OCR Settings
+
+To access the OCR settings:
+
+*   Navigate to: **Settings** → **Document Processing** → **OCR Settings**
+
+    <figure><img src="../../../.gitbook/assets/settings_ocr.png" alt=""><figcaption></figcaption></figure>
+
+## OCR Quality
+
+In this section, you can set the minimum document quality required for OCR processing by adjusting the quality slider. Move the slider left or right to decrease or increase the quality threshold, respectively.
+
+If a document does not meet the defined quality level, DocBits provides three options for handling it:
+
+* **Run Anyway**\
+  The document will be processed regardless of its quality.
+* **Run Again After Confirmation**\
+  The system will pause and prompt you to confirm whether to proceed with processing.
+* **Throw Error**\
+  Document processing will stop entirely, and an error message will be displayed, indicating that the document did not meet the required quality threshold.
+
+<figure><img src="../../../.gitbook/assets/ocr_settings_1.png" alt=""><figcaption></figcaption></figure>
+
+## General OCR Settings
+
+* **Use E-Text if Available**\
+  When enabled, **DocBits** will use embedded electronic text (e.g., from PDFs) instead of performing OCR. This improves both speed and accuracy, as the text is extracted directly without requiring OCR processing.
+* **Use DESKEW if Available**\
+  This option automatically corrects the alignment of scanned documents. Straightening skewed images helps improve OCR accuracy.
+*   **AI OCR Version**\
+    Allows you to select a specific version of the AI-based OCR engine.\
+    This can be useful if:
+
+    * You are not achieving the desired results with the currently selected version.
+    * You are troubleshooting issues related to OCR performance or accuracy.
+
+    <figure><img src="../../../.gitbook/assets/ocr_settings_2 (1).png" alt=""><figcaption></figcaption></figure>
+
+## OCR Settings for Tables
+
+* **Use AI Data for Tables if Available**\
+  When enabled, DocBits will use OCR data for tables instead of embedded electronic text (E-Text) — even if the **Use E-Text if Available** setting is turned on.
+
+## OCR Settings for Header Fields
+
+* **Use Rules Extraction**\
+  DocBits will apply your predefined extraction rules for identifying header fields.
+* **Use AI Extraction**\
+  DocBits will use AI to automatically detect and extract header fields.
+
+**Execution Order:**\
+If both options are enabled, **DocBits** will perform extraction in the following order:\
+**Rules Extraction → AI Extraction**\
+\
+<mark style="color:red;">**Note**</mark>: For best results and consistent behavior, enable both options. This allows **DocBits** to use both rule-based and AI-based methods in combination during header extraction.
