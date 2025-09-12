@@ -21,7 +21,7 @@ If a document does not meet the defined quality level, DocBits provides three op
 * **Run Anyway**\
   The document will be processed regardless of its quality.
 * **Run Again After Confirmation**\
-  The system will pause and prompt you to confirm whether to proceed with processing.
+  **DocBits** will pause and prompt you to confirm whether to proceed with processing.
 * **Throw Error**\
   Document processing will stop entirely, and an error message will be displayed, indicating that the document did not meet the required quality threshold.
 
