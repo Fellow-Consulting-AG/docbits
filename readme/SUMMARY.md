@@ -121,7 +121,7 @@
       * [Więcej ustawień](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
         * [Najlepsze praktyki](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Rozwiązywanie problemów](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
-        * [Obsługa Duplikatów Dokumentów](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
+        * [Wykrywanie duplikatów](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
         * [Zatwierdzenie](administration-and-setup/settings/global-settings/document-types/more-settings/approval/README.md)
           * [Stempel Zatwierdzenia](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md)
           * [Historia zatwierdzeń](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-history.md)
