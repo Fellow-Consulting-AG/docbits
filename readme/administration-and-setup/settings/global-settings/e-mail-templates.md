@@ -42,7 +42,7 @@ Email Templates allow you to customize automated email notifications sent from D
     * **Variable Field Option**: Select from a dropdown.
     * **Manual Entry**: Type `{{FieldID}}` (e.g., `{{InvoiceNumber}}`).
 
-    <figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/email_templates_4.png" alt=""><figcaption></figcaption></figure>
 
 #### **3 Saving**
 
