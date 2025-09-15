@@ -37,13 +37,18 @@ Once **Duplicate Detection** is enabled, two dropdown menus will be available fo
     Select the fields that should be used to identify duplicates (e.g., Supplier ID, Date, Invoice Number, etc.). Documents matching these fields will be flagged as duplicates.
 
     <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_4.png" alt=""><figcaption></figcaption></figure>
-*   **Duplicate Detection Interval**\
-    Define the time range within which duplicate detection should occur. Available options:
+*   **Duplicate Detection Interval**
+
+    Use this setting to define the time range within which duplicates are detected. Documents uploaded within the selected interval will be compared against each other based on the selected fields.
+
+    **Available options:**
 
     * 1 Month
-    * 3 Months
+    * 3 Months (Recommended)
     * 6 Months
     * 1 Year
+
+    <mark style="color:red;">**Note**</mark>: A 3-month interval is recommended to ensure optimal performance. Selecting a longer interval may lead to slower dashboard loading times.
 
     <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_6.png" alt=""><figcaption></figcaption></figure>
 
