@@ -1,5 +1,11 @@
 # Duplicate Detection
 
+## Overview
+
+In **DocBits**, you can filter for duplicate documents by specifying which fields must match and by defining a time interval during which duplicates should be detected.
+
+This page provides a detailed guide on how to enable and use the **Duplicate Detection** feature effectively.
+
 ## Enabling Duplicate Detection
 
 To enable duplicate document detection in DocBits, follow these steps:
@@ -12,7 +18,7 @@ To enable duplicate document detection in DocBits, follow these steps:
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
 3.  Go to the **Duplicate Detection** section.
 
-    <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_3 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_3.png" alt=""><figcaption></figcaption></figure>
 
 DocBits provides two options for identifying duplicate documents:
 
@@ -45,7 +51,7 @@ Once Duplicate Detection is enabled, any documents identified as duplicates will
 
 *   Click the **Show Duplicates** icon to open duplicate records in a side-by-side split-screen view for easy comparison.
 
-    <figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_7.png" alt=""><figcaption></figcaption></figure>
 *   When viewing a flagged document, a warning bar will appear at the top, indicating that the document is a duplicate.
 
     <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_5.png" alt=""><figcaption></figcaption></figure>
