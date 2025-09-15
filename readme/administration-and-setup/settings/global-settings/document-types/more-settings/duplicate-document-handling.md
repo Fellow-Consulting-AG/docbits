@@ -56,7 +56,8 @@ Gdy **Wykrywanie duplikatów** jest włączone, dostępne będą dwa menu rozwij
 
 Gdy **Wykrywanie duplikatów** jest włączone, wszelkie dokumenty zidentyfikowane jako duplikaty będą wyświetlać ikonę wskaźnika duplikatu na panelu.
 
-*   Kliknij tę ikonę, aby otworzyć pasujące rekordy w widoku podzielonego ekranu obok siebie dla łatwego porównania. <mark style="color:red;">**Uwaga**</mark>: Ikona pojawi się tylko wtedy, gdy dla dokumentu wykryto przynajmniej jeden duplikat.
+*   Kliknij tę ikonę, aby otworzyć pasujące rekordy w widoku podzielonego ekranu obok siebie dla łatwego porównania.\
+    <mark style="color:red;">**Uwaga**</mark>: Ikona pojawi się tylko wtedy, gdy dla dokumentu wykryto przynajmniej jeden duplikat.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/DuplicateDocument_7.png)
 *   Podczas przeglądania oznaczonego dokumentu, na górze pojawi się pasek ostrzegawczy, wskazujący, że dokument jest duplikatem.
