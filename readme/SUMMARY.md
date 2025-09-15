@@ -122,7 +122,7 @@
       * [Mais Configurações](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
         * [Melhores práticas](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Resolução de Problemas](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
-        * [Tratamento de Documentos Duplicados](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
+        * [Detecção de duplicatas](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
         * [Aprovação](administration-and-setup/settings/global-settings/document-types/more-settings/approval/README.md)
           * [Selo de Aprovação](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md)
           * [Histórico de Aprovação](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-history.md)
