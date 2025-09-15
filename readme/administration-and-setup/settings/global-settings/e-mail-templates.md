@@ -39,7 +39,7 @@ Szablony e-maili pozwalają na dostosowanie automatycznych powiadomień e-mail w
     * **Opcję pola zmiennego**: Wybierz z listy rozwijanej.
     * **Ręczne wprowadzenie**: Wpisz `{{FieldID}}` (np. `{{NumerFaktury}}`).
 
-    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FFE1lZlOTyWH0yaGTZnvO%252Fimage.png%3Falt%3Dmedia%26token%3D428f9277-7ad7-4c37-b2e9-578b82d64f91\&width=768\&dpr=4\&quality=100\&sign=2a17ce28\&sv=2)
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/email_templates_4.png)
 
 ### **3 Zapisywanie**
 
