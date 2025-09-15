@@ -56,7 +56,8 @@ Uma vez que a **Detecção de duplicatas** esteja habilitada, dois menus suspens
 
 Uma vez que a **Detecção de duplicatas** esteja habilitada, quaisquer documentos identificados como duplicados exibirão um ícone de indicador de duplicata no painel.
 
-*   Clique neste ícone para abrir os registros correspondentes em uma visualização de tela dividida lado a lado para fácil comparação. <mark style="color:red;">**Nota**</mark>: O ícone só aparecerá se pelo menos uma duplicata tiver sido detectada para o documento.
+*   Clique neste ícone para abrir os registros correspondentes em uma visualização de tela dividida lado a lado para fácil comparação.\
+    <mark style="color:red;">**Nota**</mark>: O ícone só aparecerá se pelo menos uma duplicata tiver sido detectada para o documento.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/DuplicateDocument_7.png)
 *   Ao visualizar um documento sinalizado, uma barra de aviso aparecerá na parte superior, indicando que o documento é uma duplicata.
