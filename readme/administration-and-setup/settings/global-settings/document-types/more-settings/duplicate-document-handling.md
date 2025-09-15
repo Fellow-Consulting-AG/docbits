@@ -2,7 +2,7 @@
 
 ## Enabling Duplicate Detection
 
-To enable duplicate document handling, follow these steps:
+To enable duplicate document detection in DocBits, follow these steps:
 
 1.  Navigate to **Settings** → **Global Settings** → **Document Types**.
 
@@ -14,7 +14,7 @@ To enable duplicate document handling, follow these steps:
 
     <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_3 (1).png" alt=""><figcaption></figcaption></figure>
 
-You have two options for detecting duplicate documents:
+DocBits provides two options for identifying duplicate documents:
 
 1. **Duplicate Document Detection**: \
    This feature checks for duplicate documents uploaded to DocBits based on the selected criteria. If any document matches the selected criteria across other documents, it will be flagged as a duplicate.
@@ -23,18 +23,29 @@ You have two options for detecting duplicate documents:
 
     <mark style="color:red;">**Note**</mark>: Using the **Duplicate Invoice Detection** feature will result in an additional credit charge.
 
-Once the setting is activated, you can select the specific criteria for duplicate detection.
+## Filter which documents should be detected as duplicate
 
-<figure><img src="../../../../../.gitbook/assets/DuplicateDocument_4.png" alt=""><figcaption></figcaption></figure>
+Once Duplicate Detection is enabled, you can:
+
+*   Specify Matching Criteria: Choose which attributes should be used to identify duplicates (e.g., supplier id, date, invoice number, etc.).
+
+    <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_4.png" alt=""><figcaption></figcaption></figure>
+*   Set the Detection Interval: Define the time range during which duplicates are detected. Options include:
+
+    * 1 Month
+    * 3 Months
+    * 6 Months
+    * 1 Year
+
+    <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_6.png" alt=""><figcaption></figcaption></figure>
 
 ## Viewing Duplicate Documents on the Dashboard
 
-After enabling Duplicate Detection, the dashboard will display an icon for any documents identified as duplicates based on the selected criteria. Clicking this icon will open the duplicate records in a split-screen view for easy comparison.
+Once Duplicate Detection is enabled, any documents identified as duplicates will display the **Show Duplicates** icon on the dashboard.
 
-<figure><img src="../../../../../.gitbook/assets/DuplicateDomuent_6.png" alt="" width="329"><figcaption></figcaption></figure>
+*   Click the **Show Duplicates** icon to open duplicate records in a side-by-side split-screen view for easy comparison.
 
-<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
+*   When viewing a flagged document, a warning bar will appear at the top, indicating that the document is a duplicate.
 
-When viewing a document, a warning bar will appear to indicate that the document is a duplicate
-
-<figure><img src="../../../../../.gitbook/assets/DuplicateDocument_5.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_5.png" alt=""><figcaption></figcaption></figure>
