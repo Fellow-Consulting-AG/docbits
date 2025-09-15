@@ -54,9 +54,10 @@ Once **Duplicate Detection** is enabled, two dropdown menus will be available fo
 
 ## Viewing Duplicate Documents on the Dashboard
 
-Once Duplicate Detection is enabled, any documents identified as duplicates will display the **Show Duplicates** icon on the dashboard.
+Once **Duplicate Detection** is enabled, any documents identified as duplicates will display a duplicate indicator icon on the dashboard.
 
-*   Click the **Show Duplicates** icon to open duplicate records in a side-by-side split-screen view for easy comparison.
+*   Click this icon to open the matching records in a side-by-side split-screen view for easy comparison.\
+    <mark style="color:red;">**Note**</mark>: The icon will only appear if at least one duplicate has been detected for the document.
 
     <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_7.png" alt=""><figcaption></figcaption></figure>
 *   When viewing a flagged document, a warning bar will appear at the top, indicating that the document is a duplicate.
