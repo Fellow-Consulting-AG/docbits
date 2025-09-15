@@ -8,7 +8,7 @@ This page provides a detailed guide on how to enable and use the **Duplicate Det
 
 ## Enabling Duplicate Detection
 
-To enable duplicate document detection in DocBits, follow these steps:
+To enable duplicate document detection in **DocBits**, follow these steps:
 
 1.  Navigate to **Settings** → **Global Settings** → **Document Types**.
 
@@ -23,7 +23,7 @@ To enable duplicate document detection in DocBits, follow these steps:
 DocBits provides two options for identifying duplicate documents:
 
 1. **Duplicate Document Detection**: \
-   This feature checks for duplicate documents uploaded to DocBits based on the selected criteria. If any document matches the selected criteria across other documents, it will be flagged as a duplicate.
+   This feature checks for duplicate documents uploaded to **DocBits** based on the selected criteria. If any document matches the selected criteria across other documents, it will be flagged as a duplicate.
 2.  **Duplicate Invoice Detection** (Only available for the **Invoice** document type):\
     This feature requires syncing Supplier Invoices from Infor to DocBits. It compares the invoice numbers in the DocBits dashboard with those in Infor. If the same invoice number appears more than once, it will be flagged as a duplicate.
 
@@ -31,12 +31,14 @@ DocBits provides two options for identifying duplicate documents:
 
 ## Filter which documents should be detected as duplicate
 
-Once Duplicate Detection is enabled, you can:
+Once **Duplicate Detection** is enabled, two dropdown menus will be available for configuration:
 
-*   Specify Matching Criteria: Choose which attributes should be used to identify duplicates (e.g., supplier id, date, invoice number, etc.).
+*   **Duplicate Detection Fields**\
+    Select the fields that should be used to identify duplicates (e.g., Supplier ID, Date, Invoice Number, etc.). Documents matching these fields will be flagged as duplicates.
 
     <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_4.png" alt=""><figcaption></figcaption></figure>
-*   Set the Detection Interval: Define the time range during which duplicates are detected. Options include:
+*   **Duplicate Detection Interval**\
+    Define the time range within which duplicate detection should occur. Available options:
 
     * 1 Month
     * 3 Months
