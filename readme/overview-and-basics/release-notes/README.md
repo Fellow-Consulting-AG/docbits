@@ -30,7 +30,7 @@
     Support for additional e-invoice formats has been introduced. The system can now process and generate e-SLOG versions 1.6 and 2.0, expanding compatibility with partners and regulatory requirements.
 *   #### Duplicate Detection Enhancements:
 
-    Duplicate detection has been upgraded with two powerful configuration options. The **duplicate detection interval** allows you to define a time range to check for duplicates more precisely, while the **disallow export of duplicates** setting automatically prevents the export of documents that are detected as duplicates. Together, these enhancements provide more control and ensure higher data accuracy.\
+    Duplicate detection has been upgraded with two powerful configuration options. The **Duplicate Detection Interval** allows you to define a time range to check for duplicates more precisely, while the **Disallow Export of Duplicates** setting automatically prevents the export of documents that are detected as duplicates. Together, these enhancements provide more control and ensure higher data accuracy.\
 
 
     <figure><img src="../../.gitbook/assets/image (478).png" alt=""><figcaption></figcaption></figure>
@@ -50,7 +50,7 @@
 ### Bug Fixes
 
 * Fixed an issue where old data was included when exporting documents.
-* Corrected the filter for **Export Errors**, which previously showed other statuses as well.
+* Corrected the filter for Export Errors, which previously showed other statuses as well.
 * Resolved a table-validation mismatch where “Unit Price” triggered errors but “Unit Price Per” did not, despite values being correct.
 * Fixed a problem where adding a new column to the dashboard failed.
 * Corrected an issue where tasks were not visible in the dashboard task column.
