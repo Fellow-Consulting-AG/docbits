@@ -1,5 +1,69 @@
 # Release-Notizen
 
+## Release Autumn Summit 15. Oktober 2025
+
+### DocBits-Verbesserungen:
+
+*   #### Verbesserungen im E-Mail-Vorlagendesign:
+
+    Der E-Mail-Vorlagen-Editor wurde neu gestaltet, um eine klarere Struktur und ein reibungsloseres Erlebnis zu bieten. Die Auswahl von Dokumentfeldern ist jetzt intuitiver, und Anhänge können direkt in Vorlagen eingefügt werden. Diese Verbesserungen machen es schneller und einfacher, professionelle, maßgeschneiderte E-Mails zu erstellen.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fdv4oDlfkRyD0W9yWGAA4%252Fimage.png%3Falt%3Dmedia%26token%3D14bf7ebd-d886-4758-8184-d7b94447518a\&width=768\&dpr=4\&quality=100\&sign=88405d9c\&sv=2)
+*   #### Dashboard-Verbesserungen:
+
+    Das Dashboard wurde erweitert, um die Navigation und Anpassung zu verbessern. Mit neuen Registerkarten können Benutzer schneller zwischen verschiedenen Dokumenttypen wechseln und so die Zeit für die Suche nach der richtigen Ansicht verkürzen.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FmpO7WSIrkL0I8Rje3HQt%252Fimage.png%3Falt%3Dmedia%26token%3D77d03fe7-e626-4645-b191-e332715a25fb\&width=768\&dpr=4\&quality=100\&sign=93fa9925\&sv=2)
+*   #### Benutzerdefinierte Filter-Dashboards:
+
+    Darüber hinaus können Dashboards jetzt nach individuellen Vorlieben angepasst und gefiltert werden. Diese benutzerdefinierten Dashboards können auch mit Kollegen geteilt werden, um die Erstellung konsistenter teamweiter Berichtsansichten zu erleichtern.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fn5rPvGnRltT3mTIDoJwV%252Fimage.png%3Falt%3Dmedia%26token%3D22d065e3-81eb-4f16-828c-7f9134c25b1b\&width=768\&dpr=4\&quality=100\&sign=eb11d3a3\&sv=2)
+*   #### E-Mail-Benachrichtigungsprotokolle:
+
+    Eine neue Protokollfunktion steht für alle E-Mail-Benachrichtigungen zur Verfügung. Benutzer können jetzt eine Historie der gesendeten Benachrichtigungen überprüfen, was es einfacher macht, Lieferungen zu überprüfen und Probleme zu beheben, wenn E-Mails nicht empfangen werden.
+*   #### E-Rechnungsunterstützung: e-SLOG 1.6 & 2.0:
+
+    Die Unterstützung für zusätzliche E-Rechnungsformate wurde eingeführt. Das System kann jetzt e-SLOG-Versionen 1.6 und 2.0 verarbeiten und generieren, was die Kompatibilität mit Partnern und behördlichen Anforderungen erweitert.
+*   #### Duplikaterkennungsverbesserungen:
+
+    Die Duplikaterkennung wurde mit zwei leistungsstarken Konfigurationsoptionen aktualisiert. Das **Duplikaterkennungsintervall** ermöglicht es Ihnen, einen Zeitraum festzulegen, um Duplikate genauer zu überprüfen, während die Einstellung **Export von Duplikaten verbieten** automatisch das Exportieren von Dokumenten verhindert, die als Duplikate erkannt wurden. Zusammen bieten diese Verbesserungen mehr Kontrolle und gewährleisten eine höhere Datenpräzision.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FXHRKTmuSxTlDt9lDEkE7%252Fimage.png%3Falt%3Dmedia%26token%3D96b56af6-c644-4b0f-a488-8bc16a03c11f\&width=768\&dpr=4\&quality=100\&sign=9b723b7f\&sv=2)
+*   #### Entscheidungsbaum-Verbesserungen:
+
+    Entscheidungsbäume sind jetzt vielseitiger und können Dokumentfeldwerte zurückgeben. Dies ermöglicht eine fortschrittlichere Automatisierungslogik, die Workflows basierend auf tatsächlichen Dokumentdaten Entscheidungen treffen lässt.
+*   #### Neue Workflow-Karten:
+
+    Zwei neue Workflow-Karten erweitern die Automatisierungsmöglichkeiten. Die erste ermöglicht es Ihnen zu überprüfen, ob ein Dokument zu einer bestimmten Unterorganisation gehört, was die Handhabung von Multi-Entity-Setups erleichtert. Die zweite führt eine Lieferdatumstoleranzprüfung ein, die Liefertermine gegen das aktuelle Datum in Arbeitstagen vergleicht, um die Verwaltung und Durchsetzung von Lieferanforderungen effektiver zu gestalten.
+*   #### CSV-Exportverbesserungen:
+
+    Die CSV-Exportfunktion wurde erheblich verbessert. Anstatt nur die auf der aktuellen Seite angezeigten Dokumente zu exportieren, exportiert das System jetzt alle Dokumente in einem Datensatz. Jeder Export erstellt einen Protokolleintrag, und die resultierende CSV wird automatisch per E-Mail gesendet, was einen vollständigeren und zuverlässigeren Exportprozess bietet.
+*   #### Zeitrahmen für den Löschvorgang von Bestellungen:
+
+    Eine neue Konfigurationsoption ermöglicht es Administratoren, einen Zeitrahmen für das Löschen von Bestellungen festzulegen. Diese Verbesserung bietet Flexibilität und Kontrolle über die Datenaufbewahrungspolitik und stellt sicher, dass Bestellungen nur entfernt werden, wenn dies angemessen ist.
+
+### Fehlerbehebungen
+
+* Ein Problem wurde behoben, bei dem alte Daten beim Exportieren von Dokumenten enthalten waren.
+* Der Filter für Exportfehler wurde korrigiert, der zuvor auch andere Status angezeigt hatte.
+* Ein Tabellenvalidierungsfehler wurde behoben, bei dem "Stückpreis" Fehler auslöste, "Stückpreis pro" jedoch nicht, obwohl die Werte korrekt waren.
+* Ein Problem wurde behoben, bei dem das Hinzufügen einer neuen Spalte zum Dashboard fehlschlug.
+* Ein Problem wurde behoben, bei dem Aufgaben in der Dashboard-Aufgabenspalte nicht sichtbar waren.
+* Das zufällige Sortierverhalten wurde behoben, sodass Listen jetzt einer konsistenten Reihenfolge folgen.
+* Ein Problem wurde behoben, bei dem das Ändern der Spaltenbreite nicht gestoppt werden konnte.
+* Ein Fehler wurde behoben, der das manuelle Zeilenabgleichen im PO-Matching-Bildschirm verhinderte.
+* Ein Problem wurde behoben, bei dem die E-Mail-Anhangsoption nach dem Speichern zurückgesetzt wurde.
+* Ein Problem wurde behoben, bei dem die automatische Kontierung anfangs Datenbank-IDs anzeigte, wenn sie zum ersten Mal geöffnet wurde.
+* Das unscharfe Feldverhalten wurde korrigiert, sodass Werte nicht mehr falsch überschrieben werden.
+* Ein Problem wurde behoben, bei dem Felder in der automatischen Kontierung nach dem Löschen des Inhalts verschwanden.
+* Ein Fehler wurde behoben, bei dem der Benutzer "Vorname" und "Nachname" im Einstellungspopup nicht umbenennen konnte.
+* Ein Problem wurde behoben, bei dem Dokumente im Status "Workflow in Bearbeitung" stecken bleiben konnten.
+* Ein Menüsymbolfarbenproblem wurde behoben, bei dem ausgewählte Organisationsfarben nicht korrekt angewendet wurden.
+* Ein Problem wurde behoben, bei dem QR-Codes manchmal nicht erkannt wurden.
+* Ein Problem wurde behoben, bei dem Konten nicht mit der Rücktaste entfernt werden konnten, um ein anderes einzugeben.
+* Ein Sprachproblem wurde behoben, nachdem nach dem Produktionspush eingeloggt wurde.
+
 ## Release Summer Bloom Juni 2025
 
 ### DocBits Verbesserungen:
