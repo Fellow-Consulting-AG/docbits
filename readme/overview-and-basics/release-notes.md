@@ -1,5 +1,69 @@
 # Notas de versión
 
+## Release Autumn Summit 15 de Octubre de 2025
+
+### Mejoras en DocBits:
+
+*   #### Mejoras en el Diseño de Plantillas de Correo Electrónico:
+
+    El editor de plantillas de correo electrónico ha sido rediseñado para proporcionar una estructura más clara y una experiencia más fluida. Ahora es más intuitivo seleccionar campos de documentos, y los adjuntos se pueden incluir directamente dentro de las plantillas. Estas mejoras hacen que sea más rápido y fácil crear correos electrónicos profesionales y personalizados.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fdv4oDlfkRyD0W9yWGAA4%252Fimage.png%3Falt%3Dmedia%26token%3D14bf7ebd-d886-4758-8184-d7b94447518a\&width=768\&dpr=4\&quality=100\&sign=88405d9c\&sv=2)
+*   #### Mejoras en el Panel de Control:
+
+    El panel de control se ha ampliado para mejorar la navegación y personalización. Con nuevas pestañas, los usuarios pueden cambiar más rápidamente entre diferentes tipos de documentos, reduciendo el tiempo dedicado a buscar la vista correcta.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FmpO7WSIrkL0I8Rje3HQt%252Fimage.png%3Falt%3Dmedia%26token%3D77d03fe7-e626-4645-b191-e332715a25fb\&width=768\&dpr=4\&quality=100\&sign=93fa9925\&sv=2)
+*   #### Paneles de Filtro Personalizados:
+
+    Además, los paneles de control ahora se pueden personalizar y filtrar según las preferencias individuales. Estos paneles personalizados también se pueden compartir con colegas, lo que facilita la creación de vistas de informes consistentes para todo el equipo.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fn5rPvGnRltT3mTIDoJwV%252Fimage.png%3Falt%3Dmedia%26token%3D22d065e3-81eb-4f16-828c-7f9134c25b1b\&width=768\&dpr=4\&quality=100\&sign=eb11d3a3\&sv=2)
+*   #### Registros de Notificaciones por Correo Electrónico:
+
+    Una nueva función de registro está disponible para todas las notificaciones por correo electrónico. Los usuarios ahora pueden revisar un historial de notificaciones enviadas, lo que facilita verificar las entregas y solucionar problemas si los correos electrónicos no se reciben.
+*   #### Soporte para Facturas Electrónicas: e-SLOG 1.6 y 2.0:
+
+    Se ha introducido soporte para formatos adicionales de facturas electrónicas. El sistema ahora puede procesar y generar las versiones e-SLOG 1.6 y 2.0, ampliando la compatibilidad con socios y requisitos regulatorios.
+*   #### Mejoras en la Detección de Duplicados:
+
+    La detección de duplicados se ha mejorado con dos opciones de configuración potentes. El **Intervalo de Detección de Duplicados** le permite definir un rango de tiempo para verificar duplicados de manera más precisa, mientras que la configuración **No Permitir Exportar Duplicados** evita automáticamente la exportación de documentos detectados como duplicados. Juntas, estas mejoras brindan más control y garantizan una mayor precisión de los datos.
+
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FXHRKTmuSxTlDt9lDEkE7%252Fimage.png%3Falt%3Dmedia%26token%3D96b56af6-c644-4b0f-a488-8bc16a03c11f\&width=768\&dpr=4\&quality=100\&sign=9b723b7f\&sv=2)
+*   #### Mejoras en Árboles de Decisión:
+
+    Los árboles de decisión son ahora más versátiles, con la capacidad de devolver valores de campos de documentos. Esto permite una lógica de automatización más avanzada, lo que permite a los flujos de trabajo tomar decisiones basadas en datos reales de documentos.
+*   #### Nuevas Tarjetas de Flujo de Trabajo:
+
+    Dos nuevas tarjetas de flujo de trabajo amplían las capacidades de automatización. La primera le permite verificar si un documento pertenece a una suborganización específica, lo que facilita el manejo de configuraciones multi-entidad. La segunda introduce una verificación de tolerancia de fecha de entrega, que compara las fechas de entrega con la fecha actual en días laborables para ayudar a gestionar y hacer cumplir los requisitos de entrega de manera más efectiva.
+*   #### Mejoras en la Exportación CSV:
+
+    La función de exportación CSV se ha mejorado significativamente. En lugar de exportar solo los documentos mostrados en la página actual, el sistema ahora exporta todos los documentos en un conjunto de datos. Cada exportación crea una entrada de registro, y el CSV resultante se envía automáticamente por correo electrónico, lo que proporciona un proceso de exportación más completo y confiable.
+*   #### Marco de Tiempo para Eliminación de Órdenes de Compra:
+
+    Una nueva opción de configuración permite a los administradores definir un marco de tiempo para la eliminación de órdenes de compra. Esta mejora añade flexibilidad y control sobre las políticas de retención de datos, asegurando que las órdenes de compra solo se eliminen cuando sea apropiado.
+
+### Correcciones de Errores
+
+* Se corrigió un problema donde se incluían datos antiguos al exportar documentos.
+* Se corrigió el filtro para Errores de Exportación, que anteriormente mostraba también otros estados.
+* Se resolvió una discrepancia de validación de tabla donde "Precio Unitario" provocaba errores pero "Precio Unitario Por" no, a pesar de que los valores eran correctos.
+* Se corrigió un problema donde agregar una nueva columna al panel de control fallaba.
+* Se corrigió un problema donde las tareas no eran visibles en la columna de tareas del panel de control.
+* Se corrigió el comportamiento de ordenación aleatoria para que las listas sigan ahora un orden consistente.
+* Se resolvió un problema donde no se podía detener el cambio de tamaño de columna.
+* Se corrigió un error que impedía la coincidencia manual de líneas en la pantalla de Coincidencia de Órdenes de Compra.
+* Se corrigió un problema donde la opción de adjuntar correo electrónico se restablecía después de guardar.
+* Se corrigió un problema donde la contabilidad automática mostraba inicialmente IDs de base de datos al abrirse por primera vez.
+* Se corrigió el comportamiento de campo difuso para que los valores ya no se sobrescriban incorrectamente.
+* Se corrigió un problema donde los campos en la cuenta automática desaparecían después de eliminar el contenido.
+* Se corrigió un error donde el usuario no podía cambiar el nombre de "Nombre" y "Apellido" en el cuadro de configuración.
+* Se resolvió un problema donde los documentos podían quedar atascados en "flujo de trabajo en progreso."
+* Se corrigió un problema de color de icono de menú donde los colores de organización seleccionados no se aplicaban correctamente.
+* Se corrigió un problema donde a veces los códigos QR no eran reconocidos.
+* Se corrigió un problema donde las cuentas no se podían eliminar con retroceso para ingresar una diferente.
+* Se resolvió una confusión de idioma después de iniciar sesión tras la actualización de producción.
+
 ## Lanzamiento Spring Bloom – 23 de abril de 2025
 
 ### Mejoras en DocBits:
