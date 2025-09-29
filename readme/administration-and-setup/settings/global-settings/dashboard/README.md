@@ -2,42 +2,66 @@
 
 ## Resumen
 
-La configuración del Panel está diseñada para ayudar a los administradores a controlar la presentación de datos y la interacción dentro del panel de DocBits. Estas configuraciones determinan qué información está disponible inmediatamente al iniciar sesión, asegurando que los usuarios tengan acceso rápido a los datos más relevantes para sus tareas.
+Los ajustes del Panel están diseñados para ayudar a los administradores a controlar la presentación de datos y la interacción dentro del panel de DocBits. Estos ajustes determinan qué información está disponible de inmediato al iniciar sesión, asegurando que los usuarios tengan acceso rápido a los datos más relevantes para sus tareas.
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings1_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_1.png)
 
-## Características y opciones clave
+## Accediendo a los Ajustes del Panel
 
-### **Configuraciones Generales del Panel**:
+Para acceder a los ajustes del panel, navega a:\
+**Ajustes → Ajustes globales → Panel**
 
-* **Restablecer filtros**: Permite la configuración de cuándo deben restablecerse los filtros del panel, como después de la carga de documentos, reinicio de documentos o exportación de documentos. Esto ayuda a mantener una pizarra limpia para la visualización de datos según las etapas específicas del flujo de trabajo.
-* **Datos del panel**: Controla si el panel debe cargar automáticamente los datos al acceder el usuario, lo que puede ayudar a reducir los tiempos de carga y mejorar la experiencia del usuario al cargar solo los datos cuando sea necesario.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_dashboard.png)
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings2_es.png" alt=""><figcaption></figcaption></figure>
+## **General**:
 
-### **Acción:**
+* **Restablecer filtros**: Permite la configuración de cuándo deben restablecerse los filtros del panel, como después de la carga de documentos, reinicio de documentos o exportación de documentos. Esto ayuda a mantener un lienzo limpio para la visualización de datos según las etapas específicas del flujo de trabajo.
+* **Datos del tablero**:
+  * **Cargar automáticamente el tablero de instrumentos**: Controla si el panel debe cargar automáticamente los datos al acceder el usuario, lo que puede ayudar a reducir los tiempos de carga y mejorar la experiencia del usuario al cargar datos solo cuando sea necesario.
+  *   **Exportar datos del cuadro de mandos**: Esta función añade un nuevo botón de **Exportar** a la barra de herramientas del panel, permitiéndote exportar la vista actual del panel como un archivo **.csv** o **.xlsx**.
 
-* **Asignar a:** Esta función permite a los usuarios definir permisos para la asignación de documentos
-  * **Only for Admin:** Solo los usuarios administradores pueden asignar documentos, independientemente de los permisos otorgados a los usuarios no administradores.
-  * **All Users:** Todos los usuarios que han recibido los permisos necesarios pueden asignar documentos.
-* **Reiniciar:** Esta función permite a los usuarios definir [permisos](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) para reiniciar documentos
-  * **Only for Admin:** Solo los usuarios con privilegios de Admin pueden reiniciar documentos, independientemente de los permisos otorgados a los usuarios no administradores.
-  * **Only Admin and Assignee:** Solo los usuarios con privilegios de Admin y el usuario asignado pueden reiniciar el documento.
-  * **All Users:** Todos los usuarios que han recibido los [permisos](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) necesarios pueden reiniciar documentos.
+      ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings3_es.png" alt=""><figcaption></figcaption></figure>
+## **Historial de exportaciones**
 
-### **Filtros**:
+En el **Historial de exportaciones**, verás una tabla que lista todas las exportaciones pasadas junto con información clave sobre cada solicitud.
 
-* **Estilo del filtro de estado**: Determina el estilo de presentación de los filtros de estado, que se puede establecer como predeterminado o personalizado según el enfoque operativo de los usuarios.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_4.png)
+
+Los siguientes detalles están incluidos:
+
+* **Correo electrónico**: La dirección de correo electrónico desde la cual se solicitó la exportación.
+* **Estado**: El estado actual de la exportación (Pendiente, Completado).
+* **Solicitado en**: La fecha y hora en que se inició la exportación.
+* **Completado en**: La fecha y hora en que se completó la exportación.
+* **Formato**: El formato de archivo utilizado para la exportación (CSV, XLSX).
+* **Filtros utilizados**: Cualquier filtro que se aplicó al panel en el momento de la exportación.
+
+<mark style="color:red;">**Nota**</mark>: Para exportar tablas, la opción Exportar datos del cuadro de mandos en la sección [General](./#general) debe estar activa.
+
+## **Acción**
+
+* **Asignar a**: Esta función permite a los usuarios definir permisos para la asignación de documentos.
+  * **Solo para Admin**: Solo los usuarios administradores pueden asignar documentos, independientemente de los permisos otorgados a los usuarios no administradores.
+  * **Todos los Usuarios**: Todos los usuarios que han recibido los [permisos](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) necesarios pueden asignar documentos.
+* **Reanudar**: Esta función permite a los usuarios definir permisos para reiniciar documentos.
+  * **Solo para Admin**: Solo los usuarios con privilegios de Admin pueden reiniciar documentos, independientemente de los permisos otorgados a los usuarios no administradores.
+  * **Solo Admin y Asignado**: Solo los usuarios con privilegios de Admin y el usuario asignado pueden reiniciar el documento.
+  * **Todos los Usuarios**: Todos los usuarios que han recibido los [permisos](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) necesarios pueden reiniciar documentos.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_2.png)
+
+## **Filtros**
+
+* **Estilo de filtro de estado**: Determina el estilo de presentación de los filtros de estado, que se puede establecer como predeterminado o personalizado según el enfoque operativo de los usuarios.
 * **Filtro de estado personalizado**: Permite la creación y aplicación de filtros personalizados que pueden dirigirse a estados de documentos específicos como "Nuevo", "Validando" o "Exportando". Esto permite a los usuarios acceder rápidamente a documentos en etapas específicas de procesamiento.
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings4_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_5.png)
 
-### Cuadro de mandos de envíos anticipados:
+## Cuadro de mandos de envíos anticipados
 
-* **Delivered Orders Visibility:** Esta función permite al usuario especificar la duración durante la cual los pedidos entregados serán visibles.
+* **Visibilidad de pedidos entregados**: Esta función permite al usuario especificar la duración durante la cual los pedidos entregados serán visibles.
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings5_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_6.png)
 
-Estas configuraciones del panel son cruciales para asegurar que la plataforma DocBits sea lo más receptiva y útil posible, proporcionando a los usuarios una herramienta poderosa para monitorear y gestionar las actividades de procesamiento de documentos directamente desde el panel.
+Estos ajustes del panel son cruciales para garantizar que la plataforma DocBits sea lo más receptiva y útil posible, proporcionando a los usuarios una herramienta poderosa para monitorear y gestionar actividades de procesamiento de documentos directamente desde el panel.
