@@ -108,13 +108,14 @@ Wenn Sie auf diese Schaltfläche klicken, wird Ihr E-Mail-Posteingang gemäß de
 
 ## Diese Tabelle exportieren
 
-Verwenden Sie diese Schaltfläche, um alle Dokumente, die derzeit im Dashboard angezeigt werden, basierend auf der Anzahl der pro Seite angezeigten Dokumente zu exportieren.
+Verwenden Sie diese Schaltfläche, um alle Dokumente, die derzeit im Dashboard angezeigt werden, basierend auf der Anzahl der pro Seite angezeigten Dokumente zu exportieren.\
+Sie können die Tabelle als **.csv** oder **.xlsx**-Datei exportieren.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
-<mark style="color:red;">**Hinweis:**</mark> Diese Funktion muss unter _**Einstellungen -> Verarbeitung von Dokumenten/Modul -> Dokumenttyp/Dashboard-Daten exportieren**_ aktiviert werden
+<mark style="color:red;">**Hinweis:**</mark> Diese Funktion muss unter _**Einstellungen → Globale Einstellungen → Dashboard → Allgemein → Dashboard-Daten exportieren**_ aktiviert sein.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_26_de.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_26.png)
 
 ## Hochladen
 
