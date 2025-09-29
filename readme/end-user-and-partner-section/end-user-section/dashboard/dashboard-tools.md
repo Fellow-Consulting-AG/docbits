@@ -108,7 +108,8 @@ Clicking this button will check your email inbox, according to the email import 
 
 ## Export this table
 
-Use this button to export all documents currently displayed on the dashboard, based on the number of documents shown per page.
+Use this button to export all documents currently displayed on the dashboard, based on the number of documents shown per page.\
+You can export the table as a **.csv** or **.xlsx** file.
 
 <figure><img src="../../../.gitbook/assets/dashboard_settings_3.png" alt=""><figcaption></figcaption></figure>
 
@@ -132,8 +133,6 @@ You can activate debugging mode to receive an additional option.\
 To access debug mode simply add to the url `?debug=true` . Now you should have an additional option
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_24.png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### Show loading times
 
