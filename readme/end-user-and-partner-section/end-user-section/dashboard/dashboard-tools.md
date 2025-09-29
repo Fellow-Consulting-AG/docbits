@@ -110,7 +110,7 @@ Clicking this button will check your email inbox, according to the email import 
 
 Use this button to export all documents currently displayed on the dashboard, based on the number of documents shown per page.
 
-<figure><img src="../../../.gitbook/assets/dashboqrd_settings_3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dashboard_settings_3.png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**Note:**</mark> This feature must be activated under _**Settings -> Global Settings -> Dashboard -> General -> Export Dashboard Data**_
 
