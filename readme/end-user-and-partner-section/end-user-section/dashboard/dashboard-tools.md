@@ -108,13 +108,14 @@ Cliccando su questo pulsante verrà controllata la tua casella di posta elettron
 
 ## Esportazione della tabella
 
-Usa questo pulsante per esportare tutti i documenti attualmente visualizzati sulla scheda, in base al numero di documenti mostrati per pagina.
+Usa questo pulsante per esportare tutti i documenti attualmente visualizzati nel cruscotto, in base al numero di documenti mostrati per pagina.\
+Puoi esportare la tabella come file **.csv** o **.xlsx**.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
-<mark style="color:red;">**Nota:**</mark> Questa funzione deve essere attivata sotto _**Impostazioni -> Elaborazione dei documenti/Modulo -> Tipi di documenti/Esportazione dei dati del dashboard**_
+<mark style="color:red;">**Nota:**</mark> Questa funzione deve essere attivata sotto _**Impostazioni -> Impostazioni globali -> Cruscotto -> Generale -> Esportazione dei dati del cruscotto**_
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_26_it.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_26.png)
 
 ## Caricare
 
