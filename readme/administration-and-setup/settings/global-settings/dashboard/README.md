@@ -6,6 +6,13 @@ The Dashboard settings are designed to help administrators control the data pres
 
 <figure><img src="../../../../.gitbook/assets/dashboard_settings_1.png" alt=""><figcaption></figcaption></figure>
 
+## Accessing the Dashboard Settings
+
+To access the dashboard settings, navigate to:\
+**Settings → Global Settings → Dashboard**
+
+<figure><img src="../../../../.gitbook/assets/settings_dashboard.png" alt=""><figcaption></figcaption></figure>
+
 ## **General Dashboard Settings**:
 
 * **Reset filters**: Allows for the configuration of when dashboard filters should reset, such as after document upload, document restart, or document export. This helps in maintaining a clean slate for data viewing according to specific workflow stages.
@@ -42,8 +49,6 @@ The following details are included:
   * **Only Admin and Assignee**: Only users with Admin privileges and the assigned user can restart the document.
   * **All Users**: All users who have been granted the necessary [permissions](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) can restart documents.
 
-
-
 <figure><img src="../../../../.gitbook/assets/dashboard_settings_2.png" alt=""><figcaption></figcaption></figure>
 
 ## **Filters**:
@@ -60,4 +65,3 @@ The following details are included:
 <figure><img src="../../../../.gitbook/assets/dashboard_settings_6.png" alt=""><figcaption></figcaption></figure>
 
 These dashboard settings are crucial for ensuring that the DocBits platform is as responsive and useful as possible, providing users with a powerful tool to monitor and manage document processing activities directly from the dashboard.
-
