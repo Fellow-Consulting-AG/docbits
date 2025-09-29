@@ -108,11 +108,14 @@ Cliquer sur ce bouton vérifiera votre boîte de réception e-mail, selon la con
 
 ## Exporter ce tableau
 
-Utilisez ce bouton pour exporter tous les documents actuellement affichés sur le tableau de bord, en fonction du nombre de documents affichés par page.
+Utilisez ce bouton pour exporter tous les documents actuellement affichés sur le tableau de bord, en fonction du nombre de documents affichés par page.\
+Vous pouvez exporter le tableau en tant que fichier **.csv** ou **.xlsx**.
 
-<mark style="color:red;">**Remarque :**</mark> Cette fonctionnalité doit être activée sous _**Paramètres -> Traitement des documents/Module -> Type de document/Exporter les données du tableau de bord**_
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_26_fr.png" alt=""><figcaption></figcaption></figure>
+<mark style="color:red;">**Remarque :**</mark> Cette fonctionnalité doit être activée sous _**Paramètres -> Paramètres globaux -> Tableau de bord -> Général -> Exporter les données du tableau de bord**_
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_26.png)
 
 ## Télécharger
 
