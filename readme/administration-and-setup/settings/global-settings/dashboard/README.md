@@ -13,7 +13,7 @@ Para acceder a los ajustes del panel, navega a:\
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_dashboard.png)
 
-## **General**:
+## **General**
 
 * **Restablecer filtros**: Permite la configuración de cuándo deben restablecerse los filtros del panel, como después de la carga de documentos, reinicio de documentos o exportación de documentos. Esto ayuda a mantener un lienzo limpio para la visualización de datos según las etapas específicas del flujo de trabajo.
 * **Datos del tablero**:
