@@ -41,13 +41,13 @@ Die folgenden Details sind enthalten:
 
 ## **Aktion**
 
-* **Zuweisen an:** Diese Funktion ermöglicht es Benutzern, Berechtigungen für die Dokumentenzuweisung festzulegen.
-  * **Nur für Admin:** Nur Admin-Benutzer können Dokumente zuweisen, unabhängig von den Berechtigungen, die nicht-Admin-Benutzern gewährt wurden.
+* **Zuweisen an**: Diese Funktion ermöglicht es Benutzern, Berechtigungen für die Dokumentenzuweisung festzulegen.
+  * **Nur für Admin**: Nur Admin-Benutzer können Dokumente zuweisen, unabhängig von den Berechtigungen, die nicht-Admin-Benutzern gewährt wurden.
   * **Alle Benutzer**: Alle Benutzer, die die erforderlichen [Berechtigungen](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) erhalten haben, können Dokumente zuweisen.
-* **Neustart:** Diese Funktion ermöglicht es Benutzern, [Berechtigungen](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) für den Neustart von Dokumenten festzulegen.
+* **Neustart**: Diese Funktion ermöglicht es Benutzern, Berechtigungen für den Neustart von Dokumenten festzulegen.
   * **Nur für Admin**: Nur Benutzer mit Administratorrechten können Dokumente neu starten, unabhängig von den Berechtigungen, die nicht-Admin-Benutzern gewährt wurden.
   * **Nur Admin und Zuweisung**: Nur Benutzer mit Administratorrechten und der zugewiesene Benutzer können das Dokument neu starten.
-  * **Alle Benutzer**: Alle Benutzer, die die erforderlichen Berechtigungen erhalten haben, können Dokumente neu starten.
+  * **Alle Benutzer**: Alle Benutzer, die die erforderlichen [Berechtigungen](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) erhalten haben, können Dokumente neu starten.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_2.png)
 
@@ -60,7 +60,7 @@ Die folgenden Details sind enthalten:
 
 ## Versand-Dashboard
 
-* **Sichtbarkeit gelieferter Bestellungen:** Diese Funktion ermöglicht es dem Benutzer, die Dauer anzugeben, für die gelieferte Bestellungen sichtbar sind.
+* **Sichtbarkeit gelieferter Bestellungen**: Diese Funktion ermöglicht es dem Benutzer, die Dauer anzugeben, für die gelieferte Bestellungen sichtbar sind.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_6.png)
 
