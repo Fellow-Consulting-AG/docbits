@@ -4,7 +4,7 @@
 
 The Dashboard settings are designed to help administrators control the data presentation and interaction within the DocBits dashboard. These settings determine what information is immediately available upon logging in, ensuring that users have quick access to the most relevant data for their tasks.
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dashboard_settings_1.png" alt=""><figcaption></figcaption></figure>
 
 ## **General Dashboard Settings**:
 
@@ -44,20 +44,20 @@ The following details are included:
 
 
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dashboard_settings_2.png" alt=""><figcaption></figcaption></figure>
 
 ## **Filters**:
 
 * **Status filter style**: Determines the presentation style of status filters, which can be set to default or customized according to the operational focus of the users.
 * **Custom status filter**: Enables the creation and application of custom filters that can target specific document statuses like "New", "Validating", or "Exporting". This allows users to quickly access documents in specific stages of processing.
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dashboard_settings_5.png" alt=""><figcaption></figcaption></figure>
 
 ## Advance Shipment Dashboar&#x64;**:**
 
 * **Delivered Orders Visibility:** This feature allows the user to specify the duration for which delivered orders will be visible.
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dashboard_settings_6.png" alt=""><figcaption></figcaption></figure>
 
 These dashboard settings are crucial for ensuring that the DocBits platform is as responsive and useful as possible, providing users with a powerful tool to monitor and manage document processing activities directly from the dashboard.
 
