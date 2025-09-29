@@ -108,13 +108,14 @@ Kliknięcie tego przycisku sprawdzi Twoją skrzynkę e-mailową, zgodnie z konfi
 
 ## Eksportuj tę tabelę
 
-Użyj tego przycisku, aby wyeksportować wszystkie dokumenty aktualnie wyświetlane na pulpicie, w zależności od liczby dokumentów pokazanych na stronie.
+Użyj tego przycisku, aby eksportować wszystkie dokumenty aktualnie wyświetlane na panelu, na podstawie liczby dokumentów pokazanych na stronie.\
+Możesz eksportować tabelę jako plik **.csv** lub **.xlsx**.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
-<mark style="color:red;">**Uwaga:**</mark> Ta funkcja musi być aktywowana w _**Ustawienia -> Przetwarzanie dokumentów/Moduł -> Typ dokumentu/Eksportuj dane pulpitu**_
+<mark style="color:red;">**Uwaga:**</mark> Ta funkcja musi być aktywowana w _**Ustawienia → Ustawienia globalne → Panel → Ogólny → Eksportuj dane pulpitu nawigacyjnego**_
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_26.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_26.png)
 
 ## Prześlij
 
