@@ -108,13 +108,14 @@ Clicar neste botão verificará sua caixa de entrada de e-mail, de acordo com a 
 
 ## Exportar esta tabela
 
-Use este botão para exportar todos os documentos atualmente exibidos no painel, com base no número de documentos mostrados por página.
+Use este botão para exportar todos os documentos atualmente exibidos no painel, com base no número de documentos mostrados por página.\
+Você pode exportar a tabela como um arquivo **.csv** ou **.xlsx**.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
-<mark style="color:red;">**Nota:**</mark> Este recurso deve ser ativado em _**Configurações -> Processamento de Documentos/Módulo -> Tipo de Documento/Exportar Dados do Painel**_
+<mark style="color:red;">**Nota:**</mark> Este recurso deve ser ativado em _**Configurações -> Configurações globais -> Painel -> Em geral -> Exportar dados do painel**_
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_26.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_26.png)
 
 ## Carregar
 

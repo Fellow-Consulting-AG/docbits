@@ -159,7 +159,7 @@
         * [Resolução de Problemas de Controle de Acesso e Permissões](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
     * [Integração](administration-and-setup/settings/global-settings/integration/README.md)
       * [API Calls and Examples](administration-and-setup/settings/global-settings/integration/api-calls-and-examples.md)
-    * [Painel de Controle](administration-and-setup/settings/global-settings/dashboard/README.md)
+    * [Painel](administration-and-setup/settings/global-settings/dashboard/README.md)
       * [Personalizando Filtros](administration-and-setup/settings/global-settings/dashboard/customizing-filters.md)
   * [Processamento de documentos](administration-and-setup/settings/document-processing/README.md)
     * [Documents Expiry](administration-and-setup/settings/document-processing/documents-expiry.md)
