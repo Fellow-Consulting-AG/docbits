@@ -13,7 +13,7 @@ The Dashboard settings are designed to help administrators control the data pres
   * **Auto load dashboard upload**: Controls whether the dashboard should automatically load data upon user access, which can help in reducing load times and improving user experience by only loading data when needed.
   *   **Export Dashboard Data**: This feature adds a new **Export** button to the dashboard toolbar, allowing you to export the current dashboard view as a **.csv** or **.xlsx** file.
 
-      <figure><img src="../../../../.gitbook/assets/dashboqrd_settings_3.png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../../.gitbook/assets/dashboard_settings_3.png" alt=""><figcaption></figcaption></figure>
 
 ## **Export History**
 
