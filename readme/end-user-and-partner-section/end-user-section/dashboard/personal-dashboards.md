@@ -20,7 +20,7 @@ To create a new dashboard:
 
 1.  Click the filter button below the search bar.
 
-    <figure><img src="../../../.gitbook/assets/personal_dahsboards_1.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/personal_dashboards_1.png" alt=""><figcaption></figcaption></figure>
 2.  Click **Create New Dashboard**.
 
     <figure><img src="../../../.gitbook/assets/personal_dashboards_2.png" alt=""><figcaption></figcaption></figure>
@@ -54,7 +54,7 @@ To edit your personal or shared dashboard:
 
 1.  Click the filter button below the search bar.
 
-    <figure><img src="../../../.gitbook/assets/personal_dahsboards_1.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/personal_dashboards_1.png" alt=""><figcaption></figcaption></figure>
 2. Click on the name of the personal dashboard you want to edit.
 3. Make the desired changes, such as:
    * Changing the column order
@@ -75,7 +75,7 @@ To rename a personal or shared dashboard:
 
 1.  Click the filter button below the search bar.
 
-    <figure><img src="../../../.gitbook/assets/personal_dahsboards_1.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/personal_dashboards_1.png" alt=""><figcaption></figcaption></figure>
 2.  Select the dashboard you want to rename.
 
     <figure><img src="../../../.gitbook/assets/personal_dashboards_7.png" alt=""><figcaption></figcaption></figure>
@@ -94,7 +94,7 @@ To delete a personal dashboard:
 
 1.  Click the filter button below the search bar.
 
-    <figure><img src="../../../.gitbook/assets/personal_dahsboards_1.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/personal_dashboards_1.png" alt=""><figcaption></figcaption></figure>
 2. Hover over the dashboard you want to delete.
 3.  Click the trash can icon next to it.
 
