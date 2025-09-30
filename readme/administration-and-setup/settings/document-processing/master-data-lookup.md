@@ -25,7 +25,8 @@ To access the **Master Data Lookup** section, navigate to:\
 
 ## **Settings**
 
-You can access the settings for the **Master Data Lookup** by clicking on the **Settings** icon located in the lower-left corner of the **Master Data Lookup** screen. The following configuration options are available:
+To access the settings for the **Master Data Lookup**, click **Settings** located in the lower-left corner of the **Master Data Lookup** screen.\
+The following configuration options are available:
 
 <figure><img src="../../../.gitbook/assets/master_data_lookup_2.png" alt=""><figcaption></figcaption></figure>
 
