@@ -25,7 +25,8 @@ Per accedere alla sezione **Ricerca dei dati master**, vai a:\
 
 ## **Impostazioni**
 
-Puoi accedere alle impostazioni per la **Ricerca dei dati master** cliccando sull'icona **Impostazioni** situata nell'angolo in basso a sinistra della schermata **Ricerca dei dati master**. Sono disponibili le seguenti opzioni di configurazione:
+Per accedere alle impostazioni della **Ricerca dei dati master**, fai clic su **Impostazioni** nell’angolo in basso a sinistra della schermata **Ricerca dei dati master**.\
+Sono disponibili le seguenti opzioni di configurazione:
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_2.png)
 
