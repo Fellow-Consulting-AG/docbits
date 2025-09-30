@@ -31,11 +31,11 @@ You can access the settings for the **Master Data Lookup** by clicking on the **
 
 ### **Supplier BOD**
 
-* **Allow Multiple Supplier Accounts Sync**
+* **Allow Multiple Supplier Accounts Sync**:
   * **Enabled**:\
-    A single supplier may have multiple `<FinancialParty>` elements in the BOD (Business Object Document), often due to multiple associated IBANs or financial accounts. When this setting is enabled, all `<FinancialParty>` entries for the supplier will be extracted and saved to the `supplier` table, allowing multiple financial attributes to be stored.
+    A single supplier may have multiple `<FinancialParty>` elements in the BOD (Business Object Document), often due to multiple associated IBANs or financial accounts. When this setting is enabled, all `<FinancialParty>` entries for the supplier will be extracted and saved to the supplier table, allowing multiple financial attributes to be stored.
   * **Disabled**:\
-    Only the last **`<FinancialParty>`** element found for the supplier in the BOD will be extracted. Any previous financial attributes (e.g., additional IBANs) will be ignored, and only the data from the last occurrence will be saved to the `supplier` table.
+    Only the last `<FinancialParty>` element found for the supplier in the BOD will be extracted. Any previous financial attributes (e.g., additional IBANs) will be ignored, and only the data from the last occurrence will be saved to the supplier table.
 
 ### **Purchase Order Deletion**
 
