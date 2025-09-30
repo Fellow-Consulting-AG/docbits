@@ -25,7 +25,8 @@ Aby przejść do sekcji **Wyszukiwanie danych głównych**, przejdź do:\
 
 ## **Ustawienia**
 
-Dostęp do ustawień dla **Wyszukiwanie danych głównych** uzyskasz, klikając ikonę **Ustawienia** w lewym dolnym rogu ekranu **Wyszukiwanie danych głównych**. Dostępne są następujące opcje konfiguracji:
+Aby uzyskać dostęp do ustawień dla **Wyszukiwania danych głównych**, kliknij **Ustawienia** znajdujące się w lewym dolnym rogu ekranu **Wyszukiwanie danych głównych**.\
+Dostępne są następujące opcje konfiguracji:
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_2.png)
 
