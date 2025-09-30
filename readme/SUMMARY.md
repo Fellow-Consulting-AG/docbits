@@ -170,7 +170,7 @@
       * [Extração de tabela para elemento de custo](administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md)
       * [Extração automática do código tributário](administration-and-setup/settings/document-processing/classification-and-extraction/auto-extract-tax-code.md)
       * [Modelo de IA](administration-and-setup/settings/document-processing/classification-and-extraction/ai-model.md)
-    * [Master Data Lookup](administration-and-setup/settings/document-processing/master-data-lookup.md)
+    * [Consulta de Dados Mestres](administration-and-setup/settings/document-processing/master-data-lookup.md)
     * [Lista de Valores](administration-and-setup/settings/document-processing/list-of-values.md)
     * [Exportar](administration-and-setup/settings/document-processing/export.md)
     * [Module](administration-and-setup/settings/document-processing/module/README.md)
