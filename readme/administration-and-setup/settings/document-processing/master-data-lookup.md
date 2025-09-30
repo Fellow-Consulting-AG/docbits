@@ -19,7 +19,7 @@ See here how to [Import Master Data](../../../infor-integration-and-configuratio
 ## **Accessing Master Data Lookup**
 
 To access the **Master Data Lookup** section, navigate to:\
-**Settings → Document Processing → Dashboard**
+**Settings → Document Processing → Master Data Lookup**
 
 <figure><img src="../../../.gitbook/assets/settings_mater_data_lookup.png" alt=""><figcaption></figcaption></figure>
 
