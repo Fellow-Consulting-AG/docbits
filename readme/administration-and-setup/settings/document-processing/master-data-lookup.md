@@ -25,7 +25,8 @@ Para acessar a seção **Consulta de Dados Mestres**, navegue até:\
 
 ## **Configurações**
 
-Você pode acessar as configurações da **Consulta de Dados Mestres** clicando no ícone de **Configurações** localizado no canto inferior esquerdo da tela de **Consulta de Dados Mestres**. As seguintes opções de configuração estão disponíveis:
+Para acessar as Configurações da **Consulta de Dados Mestres**, clique em **Configurações** localizado no canto inferior esquerdo da tela de **Consulta de Dados Mestres**.\
+As seguintes opções de configuração estão disponíveis:
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_2.png)
 
