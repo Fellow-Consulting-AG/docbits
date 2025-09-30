@@ -11,7 +11,7 @@ Die "Stammdaten" in Ihren Einstellungen zur Verarbeitung von Dokumenten ermögli
 5. **Effizienz in der Verarbeitung von Dokumenten**: Mit direkt verknüpften und laufend aktualisierten Stammdaten wird die Verarbeitung von Dokumenten effizienter. Dokumente können automatisch klassifiziert und anhand der in den Stammdaten definierten Kriterien weitergeleitet werden, z. B. spezifische Lieferantenkonditionen oder steuerliche Vorschriften, die für unterschiedliche Transaktionsarten gelten.
 
 {% hint style="info" %}
-Hier erfahren Sie, wie Sie Stammdaten importieren
+Hier erfahren Sie, wie Sie [Stammdaten importieren](../../../setup/importing-customer-master-data/)
 {% endhint %}
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_1.png)
