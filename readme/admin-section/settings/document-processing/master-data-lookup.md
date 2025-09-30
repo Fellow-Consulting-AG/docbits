@@ -25,7 +25,8 @@ Um den Bereich **Stammdaten** aufzurufen, navigieren Sie zu:\
 
 ## **Einstellungen**
 
-Sie greifen auf die Einstellungen für die **Stammdaten** zu, indem Sie auf das Symbol **Einstellungen** in der unteren linken Ecke des **Stammdaten**-Bildschirms klicken. Die folgenden Konfigurationsoptionen stehen zur Verfügung:
+Um die Einstellungen für **Stammdaten** zu öffnen, klicken Sie auf **Einstellungen** in der unteren linken Ecke der **Stammdaten**-Ansicht.\
+Die folgenden Konfigurationsoptionen sind verfügbar:
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_2.png)
 
