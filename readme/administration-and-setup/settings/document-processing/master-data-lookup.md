@@ -39,5 +39,7 @@ You can access the settings for the **Master Data Lookup** by clicking on the **
 
 ### **Purchase Order Deletion**
 
-* **Delete Purchase Orders After**\
-  Specify when closed Purchase Orders should be deleted. After the selected time span, the records will be removed automatically.
+*   **Delete Purchase Orders After**\
+    Specify when closed Purchase Orders should be deleted. After the selected time span, the records will be removed automatically.
+
+    <figure><img src="../../../.gitbook/assets/master_data_lookup_3.png" alt=""><figcaption></figcaption></figure>
