@@ -25,7 +25,8 @@ Para acceder a la sección de **Búsqueda de datos maestro**, navega a:\
 
 ## **Ajustes**
 
-Puedes acceder a los Ajustes de la **Búsqueda de datos maestro** haciendo clic en el icono de **Ajustes** ubicado en la esquina inferior izquierda de la pantalla de **Búsqueda de datos maestro**. Están disponibles las siguientes opciones de configuración:
+Para acceder a los ajustes de la Búsqueda de datos maestro, haz clic en Ajustes ubicado en la esquina inferior izquierda de la pantalla de Búsqueda de datos maestro.\
+Están disponibles las siguientes opciones de configuración:
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_2.png)
 
