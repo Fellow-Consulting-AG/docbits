@@ -40,6 +40,7 @@
     * [Best Practice](end-user-and-partner-section/end-user-section/dashboard/best-practice.md)
     * [Troubleshooting](end-user-and-partner-section/end-user-section/dashboard/troubleshooting.md)
     * [Keyboard Shortcuts](end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md)
+    * [Personal Dashboards](end-user-and-partner-section/end-user-section/dashboard/personal-dashboards.md)
   * [Tasks](end-user-and-partner-section/end-user-section/tasks.md)
   * [Advance Shipment Dashboard](end-user-and-partner-section/end-user-section/advance-shipment-dashboard.md)
   * [Purchase Order Dashboard](end-user-and-partner-section/end-user-section/purchase-order-dashboard.md)
