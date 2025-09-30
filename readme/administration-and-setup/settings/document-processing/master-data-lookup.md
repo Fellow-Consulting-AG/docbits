@@ -1,4 +1,4 @@
-# Master Data Lookup
+# Validation des données fournisseur
 
 ## Vue d'ensemble
 
@@ -25,7 +25,8 @@ Pour accéder à la section **Validation des données fournisseur**, accédez à
 
 ## **Paramètres**
 
-Vous pouvez accéder aux paramètres de la **Validation des données fournisseur** en cliquant sur l'icône **Paramètres** située dans le coin inférieur gauche de l'écran **Validation des données fournisseur**. Les options de configuration suivantes sont disponibles :
+Pour accéder aux paramètres de la **Validation des données fournisseur**, cliquez sur **Paramètres** situé dans le coin inférieur gauche de l'écran **Validation des données fournisseur**.\
+Les options de configuration suivantes sont disponibles :
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_2.png)
 
