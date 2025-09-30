@@ -42,11 +42,11 @@ To create a new dashboard:
 To switch between dashboards:
 
 1. Click the filter button below the search bar.
-2.  In the dropdown menu, select a dashboard from the list of **Personal** or **Shared** dashboards.
+2.  In the dropdown menu, select a dashboard from the list of personal or shared dashboards.
 
     <figure><img src="../../../.gitbook/assets/personal_dashboards_6.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note**</mark>: You can identify whether a dashboard is **Personal** or **Shared** by checking the icon in front of the dashboard name.
+<mark style="color:red;">**Note**</mark>: You can identify whether a dashboard is personal or shared by checking the icon in front of the dashboard name.
 
 ## Editing/Deleting a Personal Dashboard
 
@@ -55,7 +55,9 @@ To edit your personal or shared dashboard:
 1.  Click the filter button below the search bar.
 
     <figure><img src="../../../.gitbook/assets/personal_dashboards_1.png" alt=""><figcaption></figcaption></figure>
-2. Click on the name of the personal dashboard you want to edit.
+2.  Click on the name of the personal dashboard you want to edit.
+
+    <figure><img src="../../../.gitbook/assets/personal_dashboards_7.png" alt=""><figcaption></figcaption></figure>
 3. Make the desired changes, such as:
    * Changing the column order
    * Adjusting the visibility of columns
@@ -63,11 +65,11 @@ To edit your personal or shared dashboard:
 
 ### **Saving Dashboard Changes**
 
-Once you've made your changes, you can save them by clicking the **Saved Dashboards** button, then select **Save Dashboard Changes**.
+Once you've made your changes, click the filter button below the search bar, then select **Save Dashboard Changes**.
 
 <figure><img src="../../../.gitbook/assets/personal_dashboards_11.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note**</mark>: Only **Personal** dashboards can be edited. **Shared** dashboards can only be edited by their original creator.
+<mark style="color:red;">**Note**</mark>: Only personal dashboards can be edited. Shared dashboards can only be edited by their original creator.
 
 ### **Renaming a Dashboard**
 
@@ -86,7 +88,7 @@ To rename a personal or shared dashboard:
 
     <figure><img src="../../../.gitbook/assets/personal_dashboards_9.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note**</mark>: Only **personal dashboards** can be renamed. **Shared dashboards** can only be renamed by their original creator.
+<mark style="color:red;">**Note**</mark>: Only personal dashboards can be renamed. Shared dashboards can only be renamed by their original creator.
 
 ### Delete a Dashboard
 
@@ -103,4 +105,4 @@ To delete a personal dashboard:
 
     <figure><img src="../../../.gitbook/assets/personal_dashboards_13.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note**</mark>: Only **personal dashboards** can be deleted. **Shared dashboards** can only be deleted by their original creator.
+<mark style="color:red;">**Note**</mark>: Only personal dashboards can be deleted. Shared dashboards can only be deleted by their original creator.
