@@ -1,143 +1,133 @@
 # Dashboard-Tools
 
-Rechts von der Suchleiste finden Sie einige Dashboard-Tools.
+Rechts neben der Suchleiste finden Sie einige Dashboard-Tools.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_1_de.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_1.png)
 
-## Tabelle aktualisieren
+## Dashboard aktualisieren
 
-Klicken Sie auf diese Schaltfläche, um das Dashboard zu aktualisieren und die aktuellsten Daten und Status zu laden.
+Klicken Sie auf diese Schaltfläche, um das Dashboard zu aktualisieren und die neuesten Daten und Status zu laden.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_2.png)
 
 ## Erweiterte Einstellungen
 
-Klicken Sie auf das Zahnrad-Symbol, um das Menü für die erweiterten Einstellungen zu öffnen.
+Klicken Sie auf das Zahnradsymbol, um das Menü Erweiterte Einstellungen zu öffnen.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_8_de.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_8.png)
 
-Im Menü für die erweiterten Einstellungen stehen Ihnen folgende Optionen zur Verfügung:
+Im Menü Erweiterte Einstellungen stehen folgende Optionen zur Verfügung:
 
 ### Weitere Einstellungen
 
-Verwenden Sie diese Schaltfläche, um auf die Admin-Einstellungen für das Dashboard zuzugreifen. Die vollständige Dokumentation zu diesen Einstellungen finden Sie [hier](../../administration-and-setup/settings/global-settings/dashboard/).
+Verwenden Sie diese Schaltfläche, um die Admin-Einstellungen für das Dashboard aufzurufen. Die vollständige Dokumentation für diese Einstellungen finden Sie [hier](../../administration-and-setup/settings/global-settings/dashboard/).
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_3.png)
 
 ### Tastaturkurzbefehle
 
-Verwenden Sie diese Schaltfläche, um alle Tastaturkurzbefehle für das Dashboard anzuzeigen. Detaillierte Erklärungen zu jedem Kurzbefehlen finden Sie [hier](../../end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md).
+Verwenden Sie diese Schaltfläche, um alle Tastaturkurzbefehle für das Dashboard anzuzeigen. Ausführliche Erläuterungen zu jedem Kurzbefehl finden Sie [hier](../../end-user-and-partner-section/end-user-section/dashboard/keyboard-shortcuts.md).
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_9.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_9.png)
 
-### Import-Log
+### Importprotokoll
 
-Verwenden Sie diese Schaltfläche, um eine Tabelle zu öffnen, die alle kürzlich per E-Mail importierten Dokumente sowie relevante Informationen für jedes anzeigt.
+Verwenden Sie diese Schaltfläche, um eine Tabelle zu öffnen, die alle kürzlich per E‑Mail importierten Dokumente samt relevanter Informationen anzeigt.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_10.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_10.png)
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_15_de.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_15.png)
 
-Sie können die Protokolle nach Betreff oder Absender filtern, die Spalten in aufsteigender oder absteigender Reihenfolge sortieren, indem Sie auf die Spaltenüberschriften klicken, und sie mit Drag-and-Drop neu anordnen.
+Sie können die Protokolle nach Betreff oder Absender filtern, Spalten durch Klicken auf die Spaltenüberschriften auf- oder absteigend sortieren und sie per Drag-and-drop neu anordnen.
 
 ### Tabellenspalten für die Organisation festlegen
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_11.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_11.png)
 
-Klicken Sie auf diese Schaltfläche, um ein Menü zu öffnen, in dem Sie die Sichtbarkeit der Dashboard-Spalten verwalten können. Wählen Sie Spaltennamen aus und verwenden Sie die Pfeile, um sie zur Dashboard-Ansicht hinzuzufügen oder zu entfernen. Klicken Sie auf 'Erledigt', um Ihre Änderungen zu speichern.
+Klicken Sie auf diese Schaltfläche, um ein Menü zu öffnen, in dem Sie die Sichtbarkeit der Dashboard-Spalten verwalten. Wählen Sie Spaltennamen aus und verwenden Sie die Pfeile, um sie der Dashboard-Ansicht hinzuzufügen oder daraus zu entfernen. Klicken Sie auf **Fertig**, um Ihre Änderungen zu speichern.
 
-<figure><img src="../../.gitbook/assets/dashborad_tools_22_de.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashborad_tools_22.png)
 
 Sie können die Spaltenreihenfolge festlegen, indem Sie auf die Punkte neben einem Spaltennamen klicken und ihn an die gewünschte Position ziehen.
 
-#### Fügen Sie Felder aus einem Dokumenttyp als Spalten im Dashboard hinzu.
+#### Felder aus einem Dokumenttyp als Spalten im Dashboard hinzufügen
 
-Sie haben auch die Möglichkeit, zusätzliche Spalten aus bestimmten Feldern bestimmter Dokumenttypen hinzuzufügen, um Ihre Dashboard-Ansicht anzupassen. Klicken Sie dazu einfach auf 'Feld aus Dokumenttyp hinzufügen'.
+Sie können zusätzliche Spalten aus bestimmten Feldern bestimmter Dokumenttypen hinzufügen, um Ihre Dashboard-Ansicht anzupassen. Klicken Sie dazu einfach auf **Feld aus Dokumenttyp hinzufügen**.
 
-<figure><img src="../../.gitbook/assets/dashborad_tools_21_de.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashborad_tools_21.png)
 
-Wählen Sie einen Dokumenttyp aus, um zu sehen, welche Felder für den ausgewählten Typ verfügbar sind. Für jeden Dokumenttyp gibt es unterschiedliche Felder, die Sie hinzufügen können. Sie können ein bestimmtes Feld mit der Suchleiste oben suchen.
+Wählen Sie einen Dokumenttyp, um zu sehen, welche Felder für den ausgewählten Typ verfügbar sind. Für jeden Dokumenttyp gibt es unterschiedliche Felder, die Sie hinzufügen können. Über die Suchleiste oben können Sie nach einem bestimmten Feld suchen.
 
-<figure><img src="../../.gitbook/assets/dashborad_tools_19_de.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_19.png)
 
-Wählen Sie die Felder aus, die Sie als Spalten anzeigen möchten, und klicken Sie dann auf 'Zu sichtbaren Spalten hinzufügen'. Die ausgewählten Felder erscheinen als Spalten im Dashboard und zeigen ihre entsprechenden Werte an.
-
-### Dashboard-Sortierung für die Organisation festlegen
-
-<figure><img src="../../.gitbook/assets/dashboard_tools_12.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/dashboard_tools_18_de.png" alt=""><figcaption></figcaption></figure>
-
-Verwenden Sie diese Schaltfläche, um die Standard-Sortierreihenfolge für Spalten im Dashboard festzulegen. Wählen Sie die Spalte aus und wählen Sie die Sortierreihenfolge (aufsteigend oder absteigend), und klicken Sie dann auf 'Erledigt'. Sie können die Sortierung für alle aktiven Spalten im Dashboard konfigurieren.
-
-### Dokumente filtern
-
-Sie können Dokumente nach Tag, Woche, Monat, Jahr filtern oder alle anzeigen, indem Sie auf den gewünschten Zeitraum klicken. Die Filterung basiert auf der Importzeit des Dokuments.
-
-<figure><img src="../../.gitbook/assets/dashboard_tools_13_de.png" alt=""><figcaption></figcaption></figure>
+Wählen Sie die Felder aus, die Sie als Spalten anzeigen möchten, und klicken Sie anschließend auf **Zu sichtbaren Spalten hinzufügen**. Die ausgewählten Felder erscheinen als Spalten im Dashboard und zeigen die entsprechenden Werte an.
 
 ## Dokument scannen
 
 Verwenden Sie diese Schaltfläche, um ein Dokument direkt zu scannen.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_4.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_4.png)
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_17_de.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_17.png)
 
-Um diese Funktion zu nutzen, müssen Sie einen Scanner an Ihr System angeschlossen haben. Wenn ein Scanner verfügbar ist, können Sie ihn rechts auswählen, Ihr Dokument benennen und auf 'Scannen' klicken. Optional können Sie die Scaneinstellungen rechts anpassen, bevor Sie den Vorgang starten.
+Um diese Funktion zu verwenden, muss ein Scanner mit Ihrem System verbunden sein. Wenn ein Scanner verfügbar ist, können Sie ihn rechts auswählen, Ihr Dokument benennen und auf **Scannen** klicken. Optional können Sie rechts vor dem Start die Scan-Einstellungen anpassen.
 
-<mark style="color:red;">**Hinweis:**</mark> Diese Funktion muss unter _**Einstellungen -> Verarbeitung von Dokumenten/Modul -> Dokumenttyp/Scannen von Dokumenten**_ aktiviert werden
+<mark style="color:red;">**Hinweis**</mark>: Diese Funktion muss unter **Einstellungen -> Verarbeitung von Dokumenten -> Module -> Dokumenttyp -> Scannen von Dokumenten** aktiviert werden.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_27_de.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_27.png)
 
 ## Analytik
 
-Wenn Sie auf diese Schaltfläche klicken, wird ein neuer Bereich angezeigt, der die aktuelle Anzahl der Dokumente in jeder Kategorie anzeigt.
+Durch Klicken auf diese Schaltfläche wird ein neuer Bereich angezeigt, der die aktuelle Anzahl der Dokumente in jeder Kategorie zeigt.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_5.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_14.png)
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_14_de.png" alt=""><figcaption></figcaption></figure>
-
-Klicken Sie auf eine beliebige Kategorie, um die Dokumente nach dieser spezifischen Kategorie zu filtern.
+Klicken Sie auf eine Kategorie, um die Dokumente nach dieser Kategorie zu filtern.
 
 ## E-Mail-Import starten
 
-Wenn Sie auf diese Schaltfläche klicken, wird Ihr E-Mail-Posteingang gemäß der E-Mail-Importkonfiguration überprüft und alle neuen Dokumente importiert.
+Durch Klicken auf diese Schaltfläche wird Ihr E‑Mail‑Posteingang gemäß der E‑Mail-Import-Konfiguration geprüft und alle neuen Dokumente werden importiert.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_6.png)
 
 ## Diese Tabelle exportieren
 
-Verwenden Sie diese Schaltfläche, um alle Dokumente, die derzeit im Dashboard angezeigt werden, basierend auf der Anzahl der pro Seite angezeigten Dokumente zu exportieren.\
-Sie können die Tabelle als **.csv** oder **.xlsx**-Datei exportieren.
+Verwenden Sie diese Schaltfläche, um alle derzeit auf dem Dashboard angezeigten Dokumente zu exportieren, basierend auf der Anzahl der pro Seite angezeigten Dokumente.\
+Sie können die Tabelle als **.csv**- oder **.xlsx**-Datei exportieren.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
-<mark style="color:red;">**Hinweis:**</mark> Diese Funktion muss unter _**Einstellungen → Globale Einstellungen → Dashboard → Allgemein → Dashboard-Daten exportieren**_ aktiviert sein.
+<mark style="color:red;">**Hinweis**</mark>: Diese Funktion muss unter **Einstellungen -> Globale Einstellungen -> Dashboard -> Allgemein -> Dashboard-Daten exportieren** aktiviert werden.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_26.png)
 
-## Hochladen
+## Upload
 
-Klicken Sie auf diese Schaltfläche, um manuell eine oder mehrere Dateien hochzuladen.
+Klicken Sie auf diese Schaltfläche, um eine oder mehrere Dateien manuell hochzuladen.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_7_de.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_7.png)
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_16_de.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_16.png)
 
-Sie können Dateien entweder in das Popup-Fenster ziehen und ablegen oder auf 'Dokumente hochladen' klicken, um sie im Datei-Explorer auszuwählen.
+Sie können Dateien entweder per Drag-and-drop in das Pop-up-Fenster ziehen oder auf **Dokumente hochladen** klicken, um sie im Datei-Explorer auszuwählen.
+
+Wenn Sie den Dokumenttyp lieber manuell festlegen möchten, anstatt ihn vom System automatisch klassifizieren zu lassen, aktivieren Sie die Option **Klassifizieren als:** und wählen Sie den passenden Dokumenttyp aus der Liste.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_5.png)
+
+Nachdem Sie Ihre Dateien ausgewählt haben, klicken Sie auf **Upload**, um den Upload zu starten.
 
 ## Debugging-Modus
 
 Sie können den Debugging-Modus aktivieren, um eine zusätzliche Option zu erhalten.\
-Um auf den Debug-Modus zuzugreifen, fügen Sie einfach `?debug=true` zur URL hinzu. Jetzt sollten Sie eine zusätzliche Option haben.
+Um den Debug-Modus aufzurufen, fügen Sie der URL einfach `?debug=true` hinzu. Nun sollten Sie eine zusätzliche Option haben.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_24.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_24.png)
 
-### Show loading times
+### Ladezeiten anzeigen
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_20.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_20.png)
 
-Wenn Sie auf diese Schaltfläche klicken, wird ein Popup-Fenster geöffnet, das die Ladezeiten für jeden Dienst anzeigt, wobei die gesamte Ladezeit unten angezeigt wird.
+Durch Klicken auf diese Schaltfläche öffnet sich ein Pop-up-Fenster, das die Ladezeiten für jeden Service anzeigt; die gesamte Ladezeit wird unten angezeigt.
 
-<figure><img src="../../.gitbook/assets/dashboard_tools_23.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_23.png)
