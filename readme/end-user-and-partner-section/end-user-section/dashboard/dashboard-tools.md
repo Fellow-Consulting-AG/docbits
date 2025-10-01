@@ -111,7 +111,7 @@ Haz clic en este botón para subir manualmente uno o más archivos.
 
 Puedes arrastrar y soltar archivos en la ventana emergente o hacer clic en **Subir documentos** para seleccionarlos desde tu explorador de archivos.
 
-Si prefieres especificar manualmente el Tipo de Documento en lugar de permitir que el sistema lo clasifique automáticamente, activa la opción **Clasificar como** y selecciona el Tipo de Documento correspondiente de la lista.
+Si prefieres especificar manualmente el tipo de documento en lugar de permitir que **DocBits** lo clasifique automáticamente, activa la opción **Clasificar como** y selecciona el tipo de documento adecuado de la lista.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_5.png)
 
