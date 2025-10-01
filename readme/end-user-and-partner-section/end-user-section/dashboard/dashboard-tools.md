@@ -1,119 +1,103 @@
 # Herramientas del Panel
 
-A la derecha de la barra de búsqueda, encontrarás algunas herramientas del panel.
+A la derecha de la barra de búsqueda, encontrarás algunas herramientas del Panel.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_1_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_1.png)
 
 ## Refrescar Tabla
 
-Haz clic en este botón para refrescar el panel y cargar los datos y estados más actualizados.
+Haz clic en este botón para refrescar el Panel y cargar los datos y estados más actualizados.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_2.png)
 
 ## Ajustes avanzados
 
-Haz clic en el ícono de engranaje para abrir el menú de Ajustes Avanzados.
+Haz clic en el icono de engranaje para abrir el menú de Ajustes avanzados.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_8_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_8.png)
 
-En el menú de Ajustes Avanzados estarán disponibles las siguientes opciones:
+En el menú de Ajustes avanzados estarán disponibles las siguientes opciones:
 
 ### Más ajustes
 
-Utiliza este botón para acceder a los Ajustes de Administración para el panel. La documentación completa para estos ajustes se puede encontrar [aquí](../../../administration-and-setup/settings/global-settings/dashboard/).
+Usa este botón para acceder a los Ajustes de administrador del Panel. La documentación completa para estos ajustes se puede encontrar [aquí](../../../administration-and-setup/settings/global-settings/dashboard/).
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_3.png)
 
 ### Atajos de teclado
 
-Utiliza este botón para mostrar todos los atajos de teclado para el panel. Las explicaciones detalladas para cada atajo se pueden encontrar [aquí](keyboard-shortcuts.md).
+Usa este botón para mostrar todos los atajos de teclado del Panel. Explicaciones detalladas para cada atajo se pueden encontrar [aquí](keyboard-shortcuts.md).
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_9.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_9.png)
 
 ### Registro de importación
 
-Utiliza este botón para abrir una tabla que muestra todos los documentos importados recientemente por correo electrónico, junto con la información relevante para cada uno.
+Usa este botón para abrir una tabla que muestra todos los documentos importados recientemente por correo electrónico, junto con la información relevante de cada uno.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_10.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_10.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_15_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_15.png)
 
-Puedes filtrar los registros por asunto o remitente, ordenar las columnas en orden ascendente o descendente haciendo clic en los encabezados de columna, y reorganizarlas utilizando arrastrar y soltar.
+Puedes filtrar los registros por asunto o remitente, ordenar columnas en orden ascendente o descendente haciendo clic en los encabezados de columna y reordenarlas usando arrastrar y soltar.
 
 ### Establecer columnas de tabla para la organización
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_11.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_11.png)
 
-Haz clic en este botón para abrir un menú donde puedes gestionar la visibilidad de las columnas del panel. Selecciona los nombres de las columnas y utiliza las flechas para agregarlas o eliminarlas de la vista del panel. Haz clic en 'Hecho' para guardar tus cambios.
+Haz clic en este botón para abrir un menú donde puedes gestionar la visibilidad de las columnas del Panel. Selecciona nombres de columnas y usa las flechas para agregarlas o eliminarlas de la vista del Panel. Haz clic en **Hecho** para guardar tus cambios.
 
-<figure><img src="../../../.gitbook/assets/dashborad_tools_22_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashborad_tools_22.png)
 
-Puedes establecer el orden de las columnas haciendo clic en los puntos junto a un nombre de columna y arrastrándolo a la posición deseada.
+Puedes establecer el orden de las columnas haciendo clic en los puntos junto al nombre de una columna y arrastrándola a la posición deseada.
 
-#### Agregar campo desde el tipo de documento como columnas en el panel.
+#### Agregar campos desde un Tipo de Documento como columnas en el Panel
 
-También tienes la opción de agregar columnas adicionales desde campos específicos de tipos de documentos específicos para personalizar la vista de tu panel. Para hacer esto, simplemente haz clic en 'Agregar campo desde el tipo de documento'.
+También tienes la opción de agregar columnas adicionales a partir de campos específicos de Tipos de Documento específicos para personalizar la vista de tu Panel. Para hacerlo, simplemente haz clic en **Agregar campo desde el tipo de documento**.
 
-<figure><img src="../../../.gitbook/assets/dashborad_tools_21_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashborad_tools_21.png)
 
-Elige un tipo de documento para ver qué campos están disponibles para el tipo seleccionado. Para cada tipo de documento hay diferentes campos que puedes agregar. Puedes buscar un campo específico utilizando la barra de búsqueda en la parte superior.
+Elige un Tipo de Documento para ver qué campos están disponibles para el tipo seleccionado. Para cada Tipo de Documento hay diferentes campos que puedes agregar. Puedes buscar un campo específico usando la barra de búsqueda en la parte superior.
 
-<figure><img src="../../../.gitbook/assets/dashborad_tools_19_es.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_19.png)
 
-Selecciona los campos que deseas mostrar como columnas, luego haz clic en 'Agregar a columnas visibles'. Los campos seleccionados aparecerán como columnas en el panel, mostrando sus valores correspondientes.
-
-### Establezca la clasificación del tablero para la organización
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_12.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_18_es.png" alt="" width="563"><figcaption></figcaption></figure>
-
-Utiliza este botón para establecer el orden de clasificación predeterminado para las columnas en el panel. Selecciona la columna y elige el orden de clasificación (ascendente o descendente), luego haz clic en 'Hecho'. Puedes configurar la clasificación para todas las columnas activas en el panel.
-
-### Filtrar documentos:
-
-Puedes filtrar documentos por día, semana, mes, año, o ver todos haciendo clic en tu período de tiempo deseado. El filtrado se basa en el tiempo de importación del documento.
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_13_es.png" alt="" width="522"><figcaption></figcaption></figure>
+Selecciona los campos que deseas mostrar como columnas y luego haz clic en **Agregar a columnas visibles**. Los campos seleccionados aparecerán como columnas en el Panel, mostrando sus valores correspondientes.
 
 ## Escanear documento
 
-Utiliza este botón para escanear un documento directamente.
+Usa este botón para escanear un documento directamente.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_4.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_4.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_17_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_17.png)
 
-Para utilizar esta función, necesitas tener un escáner conectado a tu sistema. Si hay un escáner disponible, puedes seleccionarlo a la derecha, nombrar tu documento y hacer clic en 'Escanear'. Opcionalmente, puedes ajustar la configuración de escaneo a la derecha antes de comenzar el proceso.
+Para usar esta función, necesitas tener un escáner conectado a tu sistema. Si hay un escáner disponible, puedes seleccionarlo a la derecha, nombrar tu documento y hacer clic en **Escanear**. Opcionalmente, puedes ajustar las opciones de escaneo a la derecha antes de iniciar el proceso.
 
-<mark style="color:red;">**Nota:**</mark> Esta función debe ser activada en _**Ajustes -> Procesamiento de documentos/Módulo -> Tipo de documento/Escaneado de documentos**_
+<mark style="color:red;">**Nota**</mark>: Esta función debe activarse en **Ajustes -> Procesamiento de documentos -> Módulo -> Tipo de Documento -> Escaneado de documentos**
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_27_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_27.png)
 
 ## Analítica
 
-Hacer clic en este botón mostrará un nuevo área que muestra el conteo actual de documentos en cada categoría.
+Al hacer clic en este botón, se mostrará una nueva área con el conteo actual de documentos en cada categoría.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_5.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_14_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_14.png)
 
 Haz clic en cualquier categoría para filtrar los documentos por esa categoría específica.
 
 ## Iniciar importación de correo electrónico
 
-Hacer clic en este botón revisará tu bandeja de entrada de correo electrónico, de acuerdo con la configuración de importación de correo electrónico, e importará cualquier documento nuevo.
+Al hacer clic en este botón, se revisará tu bandeja de entrada, de acuerdo con la configuración de importación de correo electrónico, e importará los nuevos documentos.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_6.png)
 
 ## Exportar esta tabla
 
-Utiliza este botón para exportar todos los documentos actualmente mostrados en el panel, según el número de documentos mostrados por página.\
+Usa este botón para exportar todos los documentos que se muestran actualmente en el Panel, según la cantidad de documentos mostrados por página.\
 Puedes exportar la tabla como un archivo **.csv** o **.xlsx**.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
-<mark style="color:red;">**Nota:**</mark> Esta función debe estar activada en _**Ajustes -> Ajustes globales -> Panel -> General -> Exportar datos del cuadro de mandos**_
+<mark style="color:red;">**Nota**</mark>: Esta función debe activarse en **Ajustes -> Ajustes globales -> Panel -> General -> Exportar datos del cuadro de mandos**
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_26.png)
 
@@ -121,23 +105,29 @@ Puedes exportar la tabla como un archivo **.csv** o **.xlsx**.
 
 Haz clic en este botón para subir manualmente uno o más archivos.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_7_es.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_7.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_16_es.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_16.png)
 
-Puedes arrastrar y soltar archivos en la ventana emergente o hacer clic en 'Subir Documentos' para seleccionarlos desde el explorador de archivos.
+Puedes arrastrar y soltar archivos en la ventana emergente o hacer clic en **Subir documentos** para seleccionarlos desde tu explorador de archivos.
+
+Si prefieres especificar manualmente el Tipo de Documento en lugar de permitir que el sistema lo clasifique automáticamente, activa la opción **Clasificar como** y selecciona el Tipo de Documento correspondiente de la lista.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_5.png)
+
+Después de seleccionar tus archivos, haz clic en **Subir** para iniciar el proceso de subida.
 
 ## Modo de depuración
 
 Puedes activar el modo de depuración para recibir una opción adicional.\
-Para acceder al modo de depuración simplemente agrega a la url `?debug=true`. Ahora deberías tener una opción adicional.
+Para acceder al modo de depuración, simplemente añade a la url `?debug=true`. Ahora deberías tener una opción adicional.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_24.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_24.png)
 
 ### Mostrar tiempos de carga
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_20.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_20.png)
 
-Hacer clic en este botón abrirá una ventana emergente que muestra los tiempos de carga para cada servicio, con el tiempo total de carga mostrado en la parte inferior.
+Al hacer clic en este botón, se abrirá una ventana emergente que muestra los tiempos de carga de cada servicio, con el tiempo de carga total mostrado en la parte inferior.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_23.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_23.png)
