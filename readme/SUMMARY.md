@@ -30,6 +30,7 @@
     * [Fusion de Documents](end-user-and-partner-section/end-user-section/dashboard/document-merging.md)
     * [Statut du document](end-user-and-partner-section/end-user-section/dashboard/document-status.md)
     * [Filtrage des documents](end-user-and-partner-section/end-user-section/dashboard/filtering-documents.md)
+    * [Tableaux de bord personnels](end-user-and-partner-section/end-user-section/dashboard/personal-dashboards.md)
     * [Aperçu des documents téléchargés](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Compteur de tâches](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Champs extraits validés](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)
