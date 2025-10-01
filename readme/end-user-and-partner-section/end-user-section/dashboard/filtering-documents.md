@@ -50,3 +50,7 @@ Para filtrar por tipos específicos de documento:
 3.  Após selecionar um tipo de documento, você pode alternar entre os filtros usando as abas na parte superior do Painel.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_7.png)
+
+Para remover um filtro específico, passe o mouse sobre a tag do filtro e clique no X vermelho. Isso removerá o filtro da lista de abas.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_8.png)
