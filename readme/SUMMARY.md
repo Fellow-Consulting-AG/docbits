@@ -25,7 +25,7 @@
 
 * [Sekcja użytkownika końcowego](end-user-and-partner-section/end-user-section/README.md)
   * [Pulpit](end-user-and-partner-section/end-user-section/dashboard/README.md)
-    * [Pulpit Narzędzia](end-user-and-partner-section/end-user-section/dashboard/dashboard-tools.md)
+    * [Narzędzia panelu](end-user-and-partner-section/end-user-section/dashboard/dashboard-tools.md)
     * [Zmiana Kolumn Dokumentu](end-user-and-partner-section/end-user-section/dashboard/change-document-columns.md)
     * [Scalanie Dokumentów](end-user-and-partner-section/end-user-section/dashboard/document-merging.md)
     * [Status Dokumentu](end-user-and-partner-section/end-user-section/dashboard/document-status.md)
@@ -159,7 +159,7 @@
         * [Rozwiązywanie problemów z kontrolą dostępu i uprawnieniami](administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions/troubleshooting.md)
     * [Integracja](administration-and-setup/settings/global-settings/integration/README.md)
       * [API Calls and Examples](administration-and-setup/settings/global-settings/integration/api-calls-and-examples.md)
-    * [Pulpit](administration-and-setup/settings/global-settings/dashboard/README.md)
+    * [Panel](administration-and-setup/settings/global-settings/dashboard/README.md)
       * [Dostosowywanie filtrów](administration-and-setup/settings/global-settings/dashboard/customizing-filters.md)
   * [Document Processing](administration-and-setup/settings/document-processing/README.md)
     * [Documents Expiry](administration-and-setup/settings/document-processing/documents-expiry.md)

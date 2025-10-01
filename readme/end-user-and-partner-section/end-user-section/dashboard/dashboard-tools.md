@@ -1,143 +1,133 @@
-# Pulpit Narzędzia
+# Narzędzia panelu
 
-Po prawej stronie paska wyszukiwania znajdziesz kilka narzędzi pulpitu.
+Po prawej stronie paska wyszukiwania znajdziesz kilka narzędzi panelu.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_1.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_1.png)
 
 ## Odśwież tabelę
 
-Kliknij ten przycisk, aby odświeżyć pulpit i załadować najnowsze dane i statusy.
+Kliknij ten przycisk, aby odświeżyć Panel i wczytać najnowsze dane i statusy.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_2.png)
 
 ## Ustawienia zaawansowane
 
 Kliknij ikonę koła zębatego, aby otworzyć menu Ustawienia zaawansowane.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_8.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_8.png)
 
-W menu Ustawienia zaawansowane będą dostępne następujące opcje:
+W menu Ustawienia zaawansowane dostępne będą następujące opcje:
 
 ### Więcej ustawień
 
-Użyj tego przycisku, aby uzyskać dostęp do Ustawień administratora dla pulpitu. Pełna dokumentacja dotycząca tych ustawień znajduje się [tutaj](../../../administration-and-setup/settings/global-settings/dashboard/).
+Użyj tego przycisku, aby przejść do Ustawienia administratora dla Panelu. Pełną dokumentację tych ustawień znajdziesz [tutaj](../../../administration-and-setup/settings/global-settings/dashboard/).
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_3.png)
 
 ### Skróty klawiaturowe
 
-Użyj tego przycisku, aby wyświetlić wszystkie skróty klawiaturowe dla pulpitu. Szczegółowe wyjaśnienia dla każdego skrótu można znaleźć [tutaj](keyboard-shortcuts.md).
+Użyj tego przycisku, aby wyświetlić wszystkie skróty klawiaturowe dla Panelu. Szczegółowe objaśnienia każdego skrótu znajdziesz [tutaj](keyboard-shortcuts.md).
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_9.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_9.png)
 
-### Dziennik importu
+### Importuj dziennik
 
-Użyj tego przycisku, aby otworzyć tabelę wyświetlającą wszystkie ostatnio importowane dokumenty za pośrednictwem e-maila, wraz z odpowiednimi informacjami dla każdego z nich.
+Użyj tego przycisku, aby otworzyć tabelę wyświetlającą wszystkie ostatnio zaimportowane dokumenty przez e-mail wraz z odpowiednimi informacjami dla każdego z nich.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_10.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_10.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_15.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_15.png)
 
-Możesz filtrować dzienniki według tematu lub nadawcy, sortować kolumny w porządku rosnącym lub malejącym, klikając nagłówki kolumn, oraz przestawiać je za pomocą przeciągania i upuszczania.
+Możesz filtrować dzienniki według tematu lub nadawcy, sortować kolumny rosnąco lub malejąco, klikając nagłówki kolumn, oraz zmieniać ich kolejność metodą drag-and-drop.
 
 ### Ustaw kolumny tabeli dla organizacji
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_11.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_11.png)
 
-Kliknij ten przycisk, aby otworzyć menu, w którym możesz zarządzać widocznością kolumn pulpitu. Wybierz nazwy kolumn i użyj strzałek, aby dodać je lub usunąć z widoku pulpitu. Kliknij 'Gotowe', aby zapisać zmiany.
+Kliknij ten przycisk, aby otworzyć menu, w którym możesz zarządzać widocznością kolumn panelu. Wybierz nazwy kolumn i użyj strzałek, aby dodać je do widoku panelu lub usunąć z niego. Kliknij **Zrobione**, aby zapisać zmiany.
 
-<figure><img src="../../../.gitbook/assets/dashborad_tools_22.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashborad_tools_22.png)
 
-Możesz ustawić kolejność kolumn, klikając kropki obok nazwy kolumny i przeciągając ją na żądane miejsce.
+Możesz ustawić kolejność kolumn, klikając kropki obok nazwy kolumny i przeciągając ją w żądane miejsce.
 
-#### Dodaj pola z typu dokumentu jako kolumny w pulpicie.
+#### Dodaj pola z typu dokumentu jako kolumny w panelu
 
-Masz również możliwość dodania dodatkowych kolumn z konkretnych pól określonych typów dokumentów, aby dostosować widok pulpitu. Aby to zrobić, po prostu kliknij 'Dodaj pole z typu dokumentu'.
+Masz również możliwość dodania dodatkowych kolumn z określonych pól wybranych typów dokumentów, aby dostosować widok panelu. Aby to zrobić, po prostu kliknij **Dodaj pole z typu dokumentu**.
 
-<figure><img src="../../../.gitbook/assets/dashborad_tools_21.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashborad_tools_21.png)
 
-Wybierz typ dokumentu, aby zobaczyć, które pola są dostępne dla wybranego typu. Dla każdego typu dokumentu dostępne są różne pola, które możesz dodać. Możesz wyszukiwać konkretne pole, używając paska wyszukiwania na górze.
+Wybierz typ dokumentu, aby zobaczyć, które pola są dostępne dla wybranego typu. Dla każdego typu dokumentu dostępne są różne pola, które możesz dodać. Możesz wyszukać konkretne pole, używając paska wyszukiwania u góry.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_19.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_19.png)
 
-Wybierz pola, które chcesz wyświetlić jako kolumny, a następnie kliknij 'Dodaj do widocznych kolumn'. Wybrane pola pojawią się jako kolumny na pulpicie, pokazując ich odpowiadające wartości.
-
-### Ustaw sortowanie pulpitu dla organizacji
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_12.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_18.png" alt="" width="563"><figcaption></figcaption></figure>
-
-Użyj tego przycisku, aby ustawić domyślną kolejność sortowania dla kolumn w pulpicie. Wybierz kolumnę i wybierz kolejność sortowania (rosnąca lub malejąca), a następnie kliknij 'Gotowe'. Możesz skonfigurować sortowanie dla wszystkich aktywnych kolumn w pulpicie.
-
-### Filtrowanie dokumentów
-
-Możesz filtrować dokumenty według dnia, tygodnia, miesiąca, roku lub wyświetlić wszystkie, klikając na żądany okres czasu. Filtrowanie opiera się na czasie importu dokumentu.
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_13.png" alt="" width="536"><figcaption></figcaption></figure>
+Wybierz pola, które chcesz wyświetlać jako kolumny, a następnie kliknij **Dodaj do widocznych kolumn**. Wybrane pola pojawią się jako kolumny na panelu, pokazując odpowiadające im wartości.
 
 ## Skanuj dokument
 
 Użyj tego przycisku, aby bezpośrednio zeskanować dokument.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_4.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_4.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_17.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_17.png)
 
-Aby skorzystać z tej funkcji, musisz mieć skaner podłączony do swojego systemu. Jeśli skaner jest dostępny, możesz go wybrać po prawej stronie, nadać nazwę swojemu dokumentowi i kliknąć 'Skanuj'. Opcjonalnie możesz dostosować ustawienia skanowania po prawej stronie przed rozpoczęciem procesu.
+Aby skorzystać z tej funkcji, musisz mieć podłączony do systemu skaner. Jeśli skaner jest dostępny, możesz wybrać go po prawej stronie, nazwać swój dokument i kliknąć **Skanuj**. Opcjonalnie możesz dostosować ustawienia skanowania po prawej stronie przed rozpoczęciem procesu.
 
-<mark style="color:red;">**Uwaga:**</mark> Ta funkcja musi być aktywowana w _**Ustawienia -> Przetwarzanie dokumentów/Moduł -> Typ dokumentu/Skanowanie dokumentu**_
+<mark style="color:red;">**Uwaga**</mark>: Tę funkcję należy aktywować w **Ustawienia -> Przetwarzanie dokumentów -> Moduł -> Typ dokumentu -> Skanowanie dokumentów**
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_27.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_27.png)
 
-## Analiza
+## Analityka
 
-Kliknięcie tego przycisku wyświetli nowy obszar pokazujący bieżącą liczbę dokumentów w każdej kategorii.
+Kliknięcie tego przycisku spowoduje wyświetlenie nowego obszaru z bieżącą liczbą dokumentów w każdej kategorii.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_5.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_14.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_14.png" alt=""><figcaption></figcaption></figure>
+Kliknij dowolną kategorię, aby przefiltrować dokumenty według tej kategorii.
 
-Kliknij dowolną kategorię, aby filtrować dokumenty według tej konkretnej kategorii.
+## Rozpocznij importowanie wiadomości e-mail
 
-## Rozpocznij import e-maili
+Kliknięcie tego przycisku spowoduje sprawdzenie skrzynki odbiorczej e-mail zgodnie z konfiguracją importu e-mail i zaimportowanie nowych dokumentów.
 
-Kliknięcie tego przycisku sprawdzi Twoją skrzynkę e-mailową, zgodnie z konfiguracją importu e-maili, i zaimportuje wszelkie nowe dokumenty.
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_6.png)
 
 ## Eksportuj tę tabelę
 
-Użyj tego przycisku, aby eksportować wszystkie dokumenty aktualnie wyświetlane na panelu, na podstawie liczby dokumentów pokazanych na stronie.\
-Możesz eksportować tabelę jako plik **.csv** lub **.xlsx**.
+Użyj tego przycisku, aby wyeksportować wszystkie dokumenty aktualnie wyświetlane na panelu zgodnie z liczbą dokumentów pokazywanych na stronę.\
+Możesz wyeksportować tabelę jako plik **.csv** lub **.xlsx**.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
-<mark style="color:red;">**Uwaga:**</mark> Ta funkcja musi być aktywowana w _**Ustawienia → Ustawienia globalne → Panel → Ogólny → Eksportuj dane pulpitu nawigacyjnego**_
+<mark style="color:red;">**Uwaga**</mark>: Tę funkcję należy aktywować w **Ustawienia -> Ustawienia globalne -> Panel -> Ogólny -> Eksportuj dane pulpitu nawigacyjnego**
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_26.png)
 
-## Prześlij
+## Wgrywać
 
-Kliknij ten przycisk, aby ręcznie przesłać jeden lub więcej plików.
+Kliknij ten przycisk, aby ręcznie wgrać jeden lub więcej plików.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_7.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_7.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_16.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_16.png)
 
-Możesz przeciągnąć i upuścić pliki do okna pop-up lub kliknąć 'Prześlij dokumenty', aby wybrać je z eksploratora plików.
+Możesz przeciągnąć i upuścić pliki do okna pop-up lub kliknąć **Prześlij dokumenty**, aby wybrać je w eksploratorze plików.
+
+Jeśli wolisz ręcznie określić typ dokumentu zamiast pozwolić systemowi na automatyczną klasyfikację, przełącz opcję **Klasyfikuj jako:** i wybierz odpowiedni typ dokumentu z listy.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_5.png)
+
+Po wybraniu plików kliknij **Wgrywać**, aby rozpocząć proces wgrywania.
 
 ## Tryb debugowania
 
-Możesz aktywować tryb debugowania, aby otrzymać dodatkową opcję.\
-Aby uzyskać dostęp do trybu debugowania, po prostu dodaj do adresu URL `?debug=true`. Teraz powinieneś mieć dodatkową opcję.
+Możesz aktywować tryb debugowania, aby uzyskać dodatkową opcję.\
+Aby uzyskać dostęp do trybu debugowania, po prostu dodaj do adresu URL `?debug=true`. Teraz powinieneś/powinnaś mieć dodatkową opcję
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_24.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_24.png)
 
 ### Pokaż czasy ładowania
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_20.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_20.png)
 
-Kliknięcie tego przycisku otworzy okno pop-up wyświetlające czasy ładowania dla każdej usługi, z całkowitym czasem ładowania pokazanym na dole.
+Kliknięcie tego przycisku otworzy okno pop-up wyświetlające czasy ładowania dla każdej usługi, a łączny czas ładowania zostanie pokazany na dole.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_23.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_23.png)
