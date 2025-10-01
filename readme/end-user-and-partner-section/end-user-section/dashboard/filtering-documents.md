@@ -50,3 +50,7 @@ Pour filtrer par types de document spécifiques :
 3.  Après avoir sélectionné un type de document, vous pouvez basculer entre les filtres à l'aide des onglets en haut du Tableau de bord.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_7.png)
+
+Pour supprimer un filtre spécifique, survolez l’étiquette de filtre et cliquez sur le X rouge. Cela supprimera le filtre de la liste des onglets.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_8.png)
