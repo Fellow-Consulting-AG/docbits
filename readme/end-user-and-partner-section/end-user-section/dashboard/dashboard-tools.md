@@ -111,7 +111,7 @@ Fare clic su questo pulsante per caricare manualmente uno o più file.
 
 È possibile trascinare e rilasciare i file nella finestra pop-up oppure fare clic su **Caricare i documenti** per selezionarli dal file explorer.
 
-Se preferisci specificare manualmente il tipo di documento invece di consentire al sistema di classificarlo automaticamente, attiva l'opzione **Classificare come** e seleziona il tipo di documento appropriato dall'elenco.
+Se si preferisce specificare manualmente il tipo di documento invece di consentire a **DocBits** di classificarlo automaticamente, attivare l'opzione **Classificare come:** e selezionare il tipo di documento appropriato dall'elenco.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_5.png)
 
