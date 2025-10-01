@@ -50,3 +50,7 @@ To filter by specific document types:
 3.  After selecting a document type, you can switch between filters using the tabs at the top of the dashboard.
 
     <figure><img src="../../../.gitbook/assets/FilteringDocs_7.png" alt=""><figcaption></figcaption></figure>
+
+To remove a specific filter, hover over the filter tag and click the red X. This will remove the filter from the tab list.
+
+<figure><img src="../../../.gitbook/assets/FilteringDocs_8.png" alt=""><figcaption></figcaption></figure>
