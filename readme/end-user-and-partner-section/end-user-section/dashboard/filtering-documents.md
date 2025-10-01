@@ -1,4 +1,4 @@
-# Filtrar documentos
+# Filtrado de documentos
 
 ## Opciones de filtrado predeterminadas
 
@@ -50,3 +50,7 @@ Para filtrar por tipos específicos de documento:
 3.  Después de seleccionar un tipo de documento, puedes alternar entre filtros usando las pestañas en la parte superior del Panel.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_7.png)
+
+Para eliminar un filtro específico, pase el cursor sobre la etiqueta del filtro y haga clic en la X roja. Esto eliminará el filtro de la lista de pestañas.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_8.png)
