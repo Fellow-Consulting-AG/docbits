@@ -111,7 +111,7 @@ Kliknij ten przycisk, aby ręcznie wgrać jeden lub więcej plików.
 
 Możesz przeciągnąć i upuścić pliki do okna pop-up lub kliknąć **Prześlij dokumenty**, aby wybrać je w eksploratorze plików.
 
-Jeśli wolisz ręcznie określić typ dokumentu zamiast pozwolić systemowi na automatyczną klasyfikację, przełącz opcję **Klasyfikuj jako:** i wybierz odpowiedni typ dokumentu z listy.
+Jeśli wolisz ręcznie określić typ dokumentu zamiast pozwalać, aby **DocBits** sklasyfikował go automatycznie, przełącz opcję **Klasyfikuj jako** i wybierz odpowiedni typ dokumentu z listy.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_5.png)
 
