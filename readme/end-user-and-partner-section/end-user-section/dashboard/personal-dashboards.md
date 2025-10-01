@@ -2,17 +2,12 @@
 
 ## Overview
 
-You can create and manage custom dashboards designed to meet your specific needs. These dashboards allow you to:
+You can create and manage custom dashboards tailored to your specific needs. These dashboards allow you to:
 
 * Define a custom column order
 * Select only the columns relevant to your use case
 * Apply and save personalized filters
-
-Custom dashboards have three visibility options:
-
-* **Visible only to me** – accessible only by you
-* **Visible to all users** – accessible to everyone in the system
-* **Shared with groups and users** – accessible only to selected collaborators
+* Share dashboards with team members
 
 ## Create new Dashboard
 
