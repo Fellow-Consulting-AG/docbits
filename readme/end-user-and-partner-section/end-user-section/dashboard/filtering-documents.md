@@ -50,3 +50,7 @@ Per filtrare per specifici tipi di documento:
 3.  Dopo aver selezionato un tipo di documento, puoi passare da un filtro all'altro usando le schede nella parte superiore del Cruscotto.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_7.png)
+
+Per rimuovere un filtro specifico, passa il cursore sull'etichetta del filtro e fai clic sulla X rossa. In questo modo il filtro verrà rimosso dall'elenco delle schede.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_8.png)
