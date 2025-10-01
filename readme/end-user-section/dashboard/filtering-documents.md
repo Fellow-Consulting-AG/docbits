@@ -50,3 +50,7 @@ So filtern Sie nach bestimmten Dokumenttypen:
 3.  Nachdem Sie einen Dokumenttyp ausgewählt haben, können Sie mithilfe der Tabs oben im Dashboard zwischen Filtern wechseln.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_7.png)
+
+Um einen bestimmten Filter zu entfernen, fahren Sie mit der Maus über das Filter-Tag und klicken Sie auf das rote X. Dadurch wird der Filter aus der Tab-Liste entfernt.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_8.png)
