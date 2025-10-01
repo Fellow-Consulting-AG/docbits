@@ -30,6 +30,7 @@
     * [Scalanie Dokumentów](end-user-and-partner-section/end-user-section/dashboard/document-merging.md)
     * [Status Dokumentu](end-user-and-partner-section/end-user-section/dashboard/document-status.md)
     * [Filtrowanie Dokumentów](end-user-and-partner-section/end-user-section/dashboard/filtering-documents.md)
+    * [Osobiste Panele](end-user-and-partner-section/end-user-section/dashboard/personal-dashboards.md)
     * [Przegląd Przesłanych Dokumentów](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Licznik Zadań](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
     * [Zweryfikowane Wyodrębnione Pola](end-user-and-partner-section/end-user-section/dashboard/validated-extracted-fields.md)
