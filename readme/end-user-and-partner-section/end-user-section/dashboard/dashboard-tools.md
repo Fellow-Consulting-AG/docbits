@@ -111,7 +111,7 @@ Click this button to manually upload one or more files.
 
 You can either drag and drop files into the pop-up window or click **Upload Documents** to select them from your file explorer.
 
-If you prefer to manually specify the document type instead of allowing the system to auto-classify it, toggle the **Classify As** option and select the appropriate document type from the list.
+If you prefer to manually specify the document type instead of allowing **DocBits** to auto-classify it, toggle the **Classify As** option and select the appropriate document type from the list.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_5.png" alt=""><figcaption></figcaption></figure>
 
