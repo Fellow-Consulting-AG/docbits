@@ -23,7 +23,7 @@ Click **Apply** to apply the selected filters, or **Clear Filters** to reset the
 
 ## Time-Based Filtering
 
-To filter documents by **import date**, use the **time filter dropdown** located to the right of the search bar. You can choose from the following preset time ranges:
+To filter documents by import date, use the time filter located to the right of the search bar. You can choose from the following preset time ranges:
 
 * **30 Days**
 * **90 Days**
@@ -41,9 +41,9 @@ You can also select a custom date range by clicking **Custom**, then specifying 
 
 ## Filter by Document Type
 
-**To filter by specific document types:**
+To filter by specific document types:
 
-1.  Click the **plus (+)** icon in the search bar.
+1.  Click the plus (+) icon at the top of the dashboard.
 
     <figure><img src="../../../.gitbook/assets/FilteringDocs_6.png" alt=""><figcaption></figcaption></figure>
 2. Select a document type from the list.
