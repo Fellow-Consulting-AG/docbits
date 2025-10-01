@@ -110,7 +110,7 @@ Cliquez sur ce bouton pour télécharger manuellement un ou plusieurs fichiers.
 
 Vous pouvez soit faire glisser et déposer des fichiers dans la fenêtre contextuelle, soit cliquer sur **Télécharger des documents** pour les sélectionner depuis votre explorateur de fichiers.
 
-Si vous préférez spécifier manuellement le type de document au lieu de laisser le système le classifier automatiquement, activez l’option **Classer comme :** et sélectionnez le type de document approprié dans la liste.
+Si vous préférez spécifier manuellement le type de document au lieu de laisser **DocBits** le classer automatiquement, activez l'option **Classer comme** et sélectionnez le type de document approprié dans la liste.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_5.png)
 
