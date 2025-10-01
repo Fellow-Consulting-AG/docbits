@@ -29,7 +29,7 @@
     * [Cambiar columnas del documento](end-user-and-partner-section/end-user-section/dashboard/change-document-columns.md)
     * [Unir Documentos](end-user-and-partner-section/end-user-section/dashboard/document-merging.md)
     * [Estado del documento](end-user-and-partner-section/end-user-section/dashboard/document-status.md)
-    * [Filtrar documentos](end-user-and-partner-section/end-user-section/dashboard/filtering-documents.md)
+    * [Filtrado de documentos](end-user-and-partner-section/end-user-section/dashboard/filtering-documents.md)
     * [Paneles personales](end-user-and-partner-section/end-user-section/dashboard/personal-dashboards.md)
     * [Resumen de documentos cargados](end-user-and-partner-section/end-user-section/dashboard/overview-of-uploaded-documents.md)
     * [Contador de tareas](end-user-and-partner-section/end-user-section/dashboard/task-counter.md)
