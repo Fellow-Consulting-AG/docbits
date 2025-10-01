@@ -50,3 +50,7 @@ Aby filtrować według konkretnych typów dokumentów:
 3.  Po wybraniu typu dokumentu możesz przełączać się między filtrami za pomocą kart u góry Panelu.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_7.png)
+
+Aby usunąć konkretny filtr, najedź kursorem na etykietę filtra i kliknij czerwony X. Spowoduje to usunięcie filtra z listy kart.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_8.png)
