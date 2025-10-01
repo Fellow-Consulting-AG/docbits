@@ -44,15 +44,15 @@ You can filter the logs by subject or sender, sort columns in ascending or desce
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_11.png" alt=""><figcaption></figcaption></figure>
 
-Click this button to open a menu where you can manage the visibility of dashboard columns. Select column names and use the arrows to add or remove them from the dashboard view. Click 'Done' to save your changes.
+Click this button to open a menu where you can manage the visibility of dashboard columns. Select column names and use the arrows to add or remove them from the dashboard view. Click **Done** to save your changes.
 
 <figure><img src="../../../.gitbook/assets/dashborad_tools_22.png" alt=""><figcaption></figcaption></figure>
 
 You can set the column order by clicking the dots next to a column name and dragging it to the desired position.
 
-#### Add fields from a document type as columns in the dashboard.
+#### Add fields from a document type as columns in the dashboard
 
-You also have the option to add additional columns from specific fields of specific document types to customize your dashboard view. To do this, simply click 'Add Field from Document Type'.
+You also have the option to add additional columns from specific fields of specific document types to customize your dashboard view. To do this, simply click **Add Field from Document Type**.
 
 <figure><img src="../../../.gitbook/assets/dashborad_tools_21.png" alt=""><figcaption></figcaption></figure>
 
@@ -60,7 +60,7 @@ Choose a document type to see which fields are available for the selected type. 
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_19.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Select the fields you want to display as columns, then click 'Add to Visible Columns'. The selected fields will appear as columns on the dashboard, showing their corresponding values.
+Select the fields you want to display as columns, then click **Add to Visible Columns**. The selected fields will appear as columns on the dashboard, showing their corresponding values.
 
 ## Scan document
 
@@ -70,7 +70,7 @@ Use this button to scan a document directly.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_17.png" alt=""><figcaption></figcaption></figure>
 
-To use this feature, you need to have a scanner connected to your system. If a scanner is available, you can select it on the right, name your document, and click 'Scan'. Optionally, you can adjust scanning settings on the right before starting the process.
+To use this feature, you need to have a scanner connected to your system. If a scanner is available, you can select it on the right, name your document, and click **Scan**. Optionally, you can adjust scanning settings on the right before starting the process.
 
 <mark style="color:red;">**Note**</mark>: This feature must be activated under **Settings -> Document Processing -> Module -> Document Type -> Document scan**
 
@@ -84,7 +84,7 @@ Clicking this button will display a new area showing the current count of docume
 
 Click any category to filter the documents by that specific category.
 
-## Start email import
+## Start e-mail import
 
 Clicking this button will check your email inbox, according to the email import configuration, and import any new documents.
 
@@ -109,7 +109,7 @@ Click this button to manually upload one or more files.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_16.png" alt="" width="563"><figcaption></figcaption></figure>
 
-You can either **drag and drop files** into the pop-up window or click **Upload Documents** to select them from your file explorer.
+You can either drag and drop files into the pop-up window or click **Upload Documents** to select them from your file explorer.
 
 If you prefer to manually specify the document type instead of allowing the system to auto-classify it, toggle the **Classify As** option and select the appropriate document type from the list.
 
