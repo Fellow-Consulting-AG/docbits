@@ -1,20 +1,52 @@
-# Filtrare Documenti
+# Filtraggio dei documenti
 
-Puoi cercare documenti specifici inserendo il nome o l'ID del documento nella barra di ricerca, come mostrato di seguito.
+## Opzioni di filtraggio predefinite
 
-<figure><img src="../../../.gitbook/assets/FilteringDocs_1_it.png" alt=""><figcaption></figcaption></figure>
+Puoi cercare documenti specifici inserendo il nome del documento o l'ID nella barra di ricerca situata nella parte superiore del Cruscotto.
 
-Per un filtraggio più raffinato, fai clic sull'icona sul lato destro della barra di ricerca per selezionare criteri specifici per la ricerca dei documenti.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_1.png)
 
-<figure><img src="../../../.gitbook/assets/FilteringDocs_2_it.png" alt=""><figcaption></figcaption></figure>
+Per un filtraggio più raffinato, fai clic sull'icona del filtro situata sul lato destro della barra di ricerca per selezionare criteri specifici per la ricerca dei documenti.
 
-Le seguenti opzioni di filtro saranno disponibili per te.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_2.png)
 
-* **Tipo di Documento**: Tipo del documento (ad es., Fattura, Ordine di acquisto).
-* **Stato**: Stato di elaborazione (ad es., Pronto per la validazione, Rifiutato).
-* **Assegnato a**: Utente a cui è assegnato il documento.
-* **Assegnato al gruppo**: Gruppo a cui è assegnato il documento.
-* **Data di inizio / Data di fine**: Intervallo di date in cui i documenti sono stati importati.
-* **Riavvio richiesto**: Documenti che richiedono un riavvio.
+Sono disponibili le seguenti opzioni di filtro:
 
-Fai clic su "Applica" per applicare i filtri, oppure fai clic su "Cancella filtri" per reimpostarli.
+* **Stato**: Filtra per stato di elaborazione (ad es., Pronto per la convalida, Rifiutato).
+* **Assegnato a**: Filtra per l'utente a cui è assegnato il documento.
+* **Assegnato al gruppo**: Filtra per il gruppo assegnato al documento.
+* **Riavvio richiesto**: Filtra i documenti che richiedono un riavvio.
+
+Fai clic su **Applicare** per applicare i filtri selezionati, oppure su **Cancella i filtri** per reimpostarli.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_3.png)
+
+## Filtraggio basato sul tempo
+
+Per filtrare i documenti per data di importazione, usa il filtro temporale situato a destra della barra di ricerca. Puoi scegliere tra i seguenti intervalli di tempo preimpostati:
+
+* **30D**
+* **90D**
+* **180D**
+* **365D**
+* **Tutti**
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_4.png)
+
+Puoi anche selezionare un intervallo di date personalizzato facendo clic su **Custom**, quindi specificando una **Data di inizio** e una **Data di fine**. Dopo di che, fai clic su **Applicare** per attivare il filtro.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_5.png)
+
+<mark style="color:red;">**Nota**</mark>: Selezionare un periodo di tempo più lungo potrebbe comportare tempi di caricamento più lenti.
+
+## Filtra per tipo di documento
+
+Per filtrare per specifici tipi di documento:
+
+1.  Fai clic sull'icona più (+) nella parte superiore del Cruscotto.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_6.png)
+2. Seleziona un tipo di documento dall'elenco.
+3.  Dopo aver selezionato un tipo di documento, puoi passare da un filtro all'altro usando le schede nella parte superiore del Cruscotto.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_7.png)
