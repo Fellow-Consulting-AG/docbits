@@ -25,7 +25,7 @@
 
 * [Secção Utilizador Final](end-user-and-partner-section/end-user-section/README.md)
   * [Painel](end-user-and-partner-section/end-user-section/dashboard/README.md)
-    * [Ferramentas do Painel](end-user-and-partner-section/end-user-section/dashboard/dashboard-tools.md)
+    * [Ferramentas do painel](end-user-and-partner-section/end-user-section/dashboard/dashboard-tools.md)
     * [Alterar Colunas do Documento](end-user-and-partner-section/end-user-section/dashboard/change-document-columns.md)
     * [Fusão de Documentos](end-user-and-partner-section/end-user-section/dashboard/document-merging.md)
     * [Status do Documento](end-user-and-partner-section/end-user-section/dashboard/document-status.md)
