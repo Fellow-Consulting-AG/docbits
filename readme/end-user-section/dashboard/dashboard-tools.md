@@ -111,7 +111,7 @@ Klicken Sie auf diese Schaltfläche, um eine oder mehrere Dateien manuell hochzu
 
 Sie können Dateien entweder per Drag-and-drop in das Pop-up-Fenster ziehen oder auf **Dokumente hochladen** klicken, um sie im Datei-Explorer auszuwählen.
 
-Wenn Sie den Dokumenttyp manuell festlegen möchten, anstatt DocBits automatisch klassifizieren zu lassen, aktivieren Sie die Option **Klassifizieren als** und wählen Sie den passenden Dokumenttyp aus der Liste.
+Wenn Sie den Dokumenttyp manuell festlegen möchten, anstatt **DocBits** automatisch klassifizieren zu lassen, aktivieren Sie die Option **Klassifizieren als** und wählen Sie den passenden Dokumenttyp aus der Liste.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_5.png)
 
