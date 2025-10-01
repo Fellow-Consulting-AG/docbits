@@ -8,11 +8,11 @@ You can create and manage custom dashboards designed to meet your specific needs
 * Select only the columns relevant to your use case
 * Apply and save personalized filters
 
-Dashboards can be:
+Custom dashboards have three visibility options:
 
-* **Private** – visible only to you
-* **Shared with everyone** – accessible to all users
-* **Shared with specific users or groups** – limited to selected collaborators
+* **Visible only to me** – accessible only by you
+* **Visible to all users** – accessible to everyone in the system
+* **Shared with groups and users** – accessible only to selected collaborators
 
 ## Create new Dashboard
 
