@@ -62,20 +62,6 @@ Choose a document type to see which fields are available for the selected type. 
 
 Select the fields you want to display as columns, then click 'Add to Visible Columns'. The selected fields will appear as columns on the dashboard, showing their corresponding values.
 
-### Set dashboard sorting for organization
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_12.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_18.png" alt="" width="563"><figcaption></figcaption></figure>
-
-Use this button to set the default sorting order for columns in the dashboard. Select the column and choose the sorting order (ascending or descending), then click 'Done'. You can configure sorting for all active columns in the dashboard.
-
-### Filter documents
-
-You can filter documents by day, week, month, year, or view all by clicking on your desired time period. The filtering is based on the document import time.
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_13.png" alt="" width="536"><figcaption></figcaption></figure>
-
 ## Scan document
 
 Use this button to scan a document directly.
@@ -86,15 +72,13 @@ Use this button to scan a document directly.
 
 To use this feature, you need to have a scanner connected to your system. If a scanner is available, you can select it on the right, name your document, and click 'Scan'. Optionally, you can adjust scanning settings on the right before starting the process.
 
-<mark style="color:red;">**Note:**</mark> This feature must be activated under _**Settings -> Document Processing/Module -> Document Type/Document scan**_
+<mark style="color:red;">**Note**</mark>: This feature must be activated under **Settings -> Document Processing -> Module -> Document Type -> Document scan**
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_27.png" alt=""><figcaption></figcaption></figure>
 
 ## Analytics
 
 Clicking this button will display a new area showing the current count of documents in each category.
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_5.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_14.png" alt=""><figcaption></figcaption></figure>
 
@@ -113,7 +97,7 @@ You can export the table as a **.csv** or **.xlsx** file.
 
 <figure><img src="../../../.gitbook/assets/dashboard_settings_3.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note:**</mark> This feature must be activated under _**Settings -> Global Settings -> Dashboard -> General -> Export Dashboard Data**_
+<mark style="color:red;">**Note**</mark>: This feature must be activated under **Settings -> Global Settings -> Dashboard -> General -> Export Dashboard Data**
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_26.png" alt=""><figcaption></figcaption></figure>
 
@@ -125,7 +109,13 @@ Click this button to manually upload one or more files.
 
 <figure><img src="../../../.gitbook/assets/dashboard_tools_16.png" alt="" width="563"><figcaption></figcaption></figure>
 
-You can either drag and drop files into the pop-up window or click 'Upload Documents' to select them from the file explorer.
+You can either **drag and drop files** into the pop-up window or click **Upload Documents** to select them from your file explorer.
+
+If you prefer to manually specify the document type instead of allowing the system to auto-classify it, toggle the **Classify As** option and select the appropriate document type from the list.
+
+<figure><img src="../../../.gitbook/assets/dashboard_tools_5.png" alt=""><figcaption></figcaption></figure>
+
+After selecting your files, click **Upload** to begin the upload process.
 
 ## Debugging mode
 
