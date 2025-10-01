@@ -1,20 +1,52 @@
 # Dokumente filtern
 
-Sie können nach bestimmten Dokumenten suchen, indem Sie den Dokumentnamen oder die ID in die Suchleiste eingeben, wie unten gezeigt.
+## Standard-Filteroptionen
 
-<figure><img src="../../.gitbook/assets/FilteringDocs_1_de.png" alt=""><figcaption></figcaption></figure>
+Sie können nach bestimmten Dokumenten suchen, indem Sie den Dokumentnamen oder die ID in die Suchleiste oben im Dashboard eingeben.
 
-Für eine verfeinerte Filterung klicken Sie auf das Symbol auf der rechten Seite der Suchleiste, um spezifische Kriterien für die Dokumentensuche auszuwählen.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_1.png)
 
-<figure><img src="../../.gitbook/assets/FilteringDocs_2_de.png" alt=""><figcaption></figcaption></figure>
+Für eine präzisere Filterung klicken Sie auf das Filtersymbol rechts neben der Suchleiste, um spezifische Kriterien für die Suche nach Dokumenten auszuwählen.
 
-Die folgenden Filteroptionen stehen Ihnen zur Verfügung.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_2.png)
 
-* **Art des Dokuments**: Typ des Dokuments (z. B. Rechnung, Bestellung).
-* **Status**: Verarbeitungsstatus (z. B. Bereit zur Validierung, Abgelehnt).
-* **Zuständig**: Benutzer, dem das Dokument zugewiesen ist.
-* **Zugewiesen an Gruppe**: Gruppe, der das Dokument zugewiesen ist.
-* **Startdatum / Enddatum**: Datumsbereich, in dem die Dokumente importiert wurden.
-* **Neustart erforderlich**: Dokumente, die einen Neustart erfordern.
+Die folgenden Filteroptionen sind verfügbar:
 
-Klicken Sie auf "Anwenden", um die Filter anzuwenden, oder klicken Sie auf "Filter löschen", um sie zurückzusetzen.
+* **Status**: Nach Verarbeitungsstatus filtern (z. B. Ready for validation, Rejected).
+* **Zugewiesen an**: Nach dem Benutzer filtern, dem das Dokument zugewiesen ist.
+* **Der Gruppe zugewiesen**: Nach der Gruppe filtern, der das Dokument zugewiesen ist.
+* **Neustart erforderlich**: Nach Dokumenten filtern, für die ein Neustart erforderlich ist.
+
+Klicken Sie auf **Anwenden**, um die ausgewählten Filter zu übernehmen, oder auf **Filter löschen**, um sie zurückzusetzen.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_3.png)
+
+## Zeitbasierte Filterung
+
+Um Dokumente nach Importdatum zu filtern, verwenden Sie den Zeitfilter rechts neben der Suchleiste. Sie können aus den folgenden vordefinierten Zeiträumen wählen:
+
+* **30 Tage**
+* **90 Tage**
+* **180 Tage**
+* **365 Tage**
+* **Alle**
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_4.png)
+
+Sie können auch einen benutzerdefinierten Datumsbereich auswählen, indem Sie auf **Benutzerdefiniert** klicken und dann **Start** und **Ende** festlegen. Klicken Sie anschließend auf **Anwenden**, um den Filter zu aktivieren.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_5.png)
+
+<mark style="color:red;">**Hinweis**</mark>: Die Auswahl eines längeren Zeitraums kann zu langsameren Ladezeiten führen.
+
+## Nach Dokumenttyp filtern
+
+So filtern Sie nach bestimmten Dokumenttypen:
+
+1.  Klicken Sie oben im Dashboard auf das Plus-Symbol (+).
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_6.png)
+2. Wählen Sie einen Dokumenttyp aus der Liste.
+3.  Nachdem Sie einen Dokumenttyp ausgewählt haben, können Sie mithilfe der Tabs oben im Dashboard zwischen Filtern wechseln.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_7.png)
