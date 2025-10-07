@@ -15,18 +15,18 @@ Der ZUGFeRD-Standard ist standardmäßig immer aktiv, kann aber bei Bedarf angep
 ### **Schritte zum Anpassen der ZUGFeRD-Einstellungen:**
 
 1. Navigieren Sie zu **Einstellungen → Globale Einstellungen → Dokumenttypen → Rechnung**.
-2.  Klicken Sie auf **E-Doc**.\\
+2.  Klicken Sie auf **E-Doc**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_1.png)
 3. Es erscheint eine Liste aller verfügbaren E-Docs.
-4.  Suchen Sie die **ZUGFeRD**-Version, die Sie ändern möchten.\\
+4.  Suchen Sie die **ZUGFeRD**-Version, die Sie ändern möchten.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_2.png)
 
 ## **Extraction Transformation und XML-Pfad-Konfiguration:**
 
 In den Einstellungen der **Extraction Transformation** können Sie den Pfad definieren, um bestimmte Informationen innerhalb der XML-Datei zu finden und sie in einer neuen Struktur zu speichern, wodurch der Zugriff auf die Daten erleichtert wird.\
-**Hinweis:** Wenn Sie diese Funktionalität verwenden, müssen Sie in der **Preview** und im **Extraction Path** die neu erstellten XML-Pfade verwenden, nicht die ursprünglichen XML-Pfade.
+<mark style="color:red;">**Hinweis**</mark>: Wenn Sie diese Funktionalität verwenden, müssen Sie in der **Preview** und im **Extraction Path** die neu erstellten XML-Pfade verwenden, nicht die ursprünglichen XML-Pfade.
 
 ### **Schritte zum Anpassen der Extraction Transformation Datei:**
 
