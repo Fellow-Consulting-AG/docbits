@@ -182,7 +182,7 @@ To edit a model:
 
 1.  Click the pen icon in the **Actions** column next to the model you want to edit.
 
-    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_10.png.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_10.png" alt=""><figcaption></figcaption></figure>
 2. Update the available fields:
    * **Next Model**: Select the model that should process the output from the current model.
    * **Document Type**: Choose the document type the model should classify the input as.
