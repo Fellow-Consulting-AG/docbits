@@ -168,7 +168,7 @@
     * [Importar](administration-and-setup/settings/document-processing/import.md)
     * [Gerenciador de Regras](administration-and-setup/settings/document-processing/rule-manager.md)
     * [Configurações de OCR](administration-and-setup/settings/document-processing/ocr-settings.md)
-    * [Classificação e extração](administration-and-setup/settings/document-processing/classification-and-extraction/README.md)
+    * [Classificação e Extração](administration-and-setup/settings/document-processing/classification-and-extraction/README.md)
       * [Extração de tabela para elemento de custo](administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md)
       * [Extração automática do código tributário](administration-and-setup/settings/document-processing/classification-and-extraction/auto-extract-tax-code.md)
       * [Modelo de IA](administration-and-setup/settings/document-processing/classification-and-extraction/ai-model.md)
