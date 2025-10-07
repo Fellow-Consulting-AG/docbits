@@ -26,13 +26,20 @@ In the **Document Splitting** section, you can configure whether an uploaded doc
 
 To activate this feature:
 
-1. Click **Split Documents**.
-2. Select **Split by Barcode/QR Code**.
+1. Go to the **Document Splitting** section.
+2.  Open the dropdown menu.
+
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_14.png" alt=""><figcaption></figcaption></figure>
+3.  Select **Split by Barcode/QR Code**.
+
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_15.png" alt=""><figcaption></figcaption></figure>
 
 You will then have the option to:
 
-* **Select one or more barcode types** to be detected.
-* **Specify a regex pattern** that the barcode must match in order to trigger document splitting.
+* Select one or more barcode types to be detected.
+*   Specify a regex pattern that the barcode must match in order to trigger document splitting.
+
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_16.png" alt=""><figcaption></figcaption></figure>
 
 ## Amount Formatting
 
