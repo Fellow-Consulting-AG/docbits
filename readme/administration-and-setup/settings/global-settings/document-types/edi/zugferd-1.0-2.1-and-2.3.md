@@ -15,11 +15,11 @@ El estándar ZUGFeRD está siempre activo de forma predeterminada, pero puedes h
 ### **Pasos para modificar los Ajustes de ZUGFeRD:**
 
 1. Ve a **Ajustes → Ajustes globales → Tipos de documentos → Factura**.
-2.  Haz clic en **E-Doc**.\\
+2.  Haz clic en **E-Doc**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_1.png)
 3. Aparecerá una lista de todos los e-docs disponibles.
-4.  Ubica la versión de **ZUGFeRD** que deseas modificar.\\
+4.  Ubica la versión de **ZUGFeRD** que deseas modificar.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_2.png)
 
@@ -64,7 +64,7 @@ La **Configuración de Extraction Paths** se utiliza para extraer datos y comple
 2. Crea un nuevo borrador haciendo clic en el **icono de lápiz**.
 3. Selecciona el borrador recién creado.
 4. Crea un campo nuevo o modifica uno existente.
-5.  El lado izquierdo representa el **ID de campo de DocBits**, que se puede encontrar en **Ajustes → Ajustes globales → Tipos de documentos → Factura → Campos**.\\
+5.  El lado izquierdo representa el **ID de campo de DocBits**, que se puede encontrar en **Ajustes → Ajustes globales → Tipos de documentos → Factura → Campos**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_3.png)
 
