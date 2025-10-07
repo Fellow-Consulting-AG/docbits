@@ -16,7 +16,7 @@ Both eSLOG versions are enabled by default.
 *   Click on **E-Doc**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (375).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/zugferd_1.png" alt=""><figcaption></figcaption></figure>
 * A list of all available e-docs will appear.
 *   Locate the eSLOG version you want to modify.\
 
@@ -63,8 +63,8 @@ The **Extraction Paths Configuration** is used to extract data and populate fiel
 5.  The left side represents the **DocBits field ID**, which can be found in the  **Settings → Global Settings → Document Types → Invoice → Fields**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (379).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/zugferd_3.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../../../.gitbook/assets/image (378).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/zugferd_4.png" alt=""><figcaption></figcaption></figure>
 6. The right side represents the **path to the field** created in the Transformation.
 7. Click **Save**.
