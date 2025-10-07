@@ -15,18 +15,18 @@ Lo standard ZUGFeRD è sempre attivo per impostazione predefinita, ma puoi modif
 ### **Passaggi per modificare le Impostazioni di ZUGFeRD:**
 
 1. Vai a **Impostazioni → Impostazioni globali → Tipi di documenti → Fattura**.
-2.  Clicca su **E-Doc**.\\
+2.  Clicca su **E-Doc**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_1.png)
 3. Apparirà un elenco di tutti gli e-doc disponibili.
-4.  Individua la versione di **ZUGFeRD** che vuoi modificare.\\
+4.  Individua la versione di **ZUGFeRD** che vuoi modificare.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_2.png)
 
 ## **Configurazione di Extraction Transformation e percorso XML:**
 
 Nelle **impostazioni di Extraction Transformation**, puoi definire il percorso per individuare informazioni specifiche all'interno del file XML e salvarle in una nuova struttura, facilitando l'accesso ai dati.\
-**Nota:** Se utilizzi questa funzionalità, devi usare i nuovi percorsi XML creati, non i percorsi XML originali, in **Preview** e **Extraction Path**.
+<mark style="color:red;">**Nota**</mark> : Se utilizzi questa funzionalità, devi usare i nuovi percorsi XML creati, non i percorsi XML originali, in **Preview** e **Extraction Path**.
 
 ### **Passaggi per modificare il file di Extraction Transformation:**
 
@@ -64,7 +64,7 @@ La **Configurazione di Extraction Paths** è utilizzata per estrarre i dati e po
 2. Crea una nuova bozza cliccando sull'**icona della matita**.
 3. Seleziona la bozza appena creata.
 4. Crea un nuovo campo o modifica uno esistente.
-5.  La parte sinistra rappresenta l'**ID del campo DocBits**, che si trova in **Impostazioni → Impostazioni globali → Tipi di documenti → Fattura → Campi**.\\
+5.  La parte sinistra rappresenta l'**ID del campo DocBits**, che si trova in **Impostazioni → Impostazioni globali → Tipi di documenti → Fattura → Campi**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_3.png)
 
