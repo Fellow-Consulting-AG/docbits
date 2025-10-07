@@ -26,7 +26,7 @@ Lo standard ZUGFeRD è sempre attivo per impostazione predefinita, ma puoi modif
 ## **Configurazione di Extraction Transformation e percorso XML:**
 
 Nelle **impostazioni di Extraction Transformation**, puoi definire il percorso per individuare informazioni specifiche all'interno del file XML e salvarle in una nuova struttura, facilitando l'accesso ai dati.\
-<mark style="color:red;">**Nota**</mark> : Se utilizzi questa funzionalità, devi usare i nuovi percorsi XML creati, non i percorsi XML originali, in **Preview** e **Extraction Path**.
+<mark style="color:red;">**Nota**</mark>: Se utilizzi questa funzionalità, devi usare i nuovi percorsi XML creati, non i percorsi XML originali, in **Preview** e **Extraction Path**.
 
 ### **Passaggi per modificare il file di Extraction Transformation:**
 
