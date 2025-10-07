@@ -26,7 +26,7 @@ El estándar ZUGFeRD está siempre activo de forma predeterminada, pero puedes h
 ## **Extraction Transformation y Configuración de rutas XML:**
 
 En los **ajustes de Extraction Transformation**, puedes definir la ruta para localizar información específica dentro del archivo XML y guardarla en una nueva estructura, facilitando el acceso a los datos.\
-**Nota:** Si usas esta funcionalidad, debes usar las rutas XML recién creadas, no las rutas XML originales, en el **Preview** y **Extraction Path**.
+<mark style="color:red;">**Nota**</mark>: Si usas esta funcionalidad, debes usar las rutas XML recién creadas, no las rutas XML originales, en el **Preview** y **Extraction Path**.
 
 ### **Pasos para modificar el archivo de Extraction Transformation:**
 
