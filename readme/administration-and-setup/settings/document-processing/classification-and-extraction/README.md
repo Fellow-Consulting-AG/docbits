@@ -78,15 +78,11 @@ You’ll also see a table showing:
 
 This setting is explained in detail [here](ai-model.md).
 
-
-
 ## Electronic Document
 
 **Process Unsupported ZUGFeRD PDF:** If enabled, unsupported **ZUGFeRD** versions will be processed as standard PDFs, and the embedded XML will be ignored.
 
 The list of supported **ZUGFeRD** versions can be found [here](../../global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md).
-
-
 
 ## **Classification Rules**
 
@@ -96,7 +92,7 @@ To access this section, click the **Classification Rules** tab at the top of the
 
 <figure><img src="../../../../.gitbook/assets/classification_and_extraction_1.png" alt=""><figcaption></figcaption></figure>
 
-#### **Add a New Classification Rule**
+### **Add a New Classification Rule**
 
 To create a new rule:
 
@@ -115,7 +111,7 @@ To create a new rule:
 
     <figure><img src="../../../../.gitbook/assets/classification_and_extraction_4.png" alt=""><figcaption></figcaption></figure>
 
-#### **Edit a Classification Rule**
+### **Edit a Classification Rule**
 
 To edit an existing rule:
 
@@ -130,7 +126,7 @@ To edit an existing rule:
 
     <figure><img src="../../../../.gitbook/assets/classification_and_extraction_4.png" alt=""><figcaption></figcaption></figure>
 
-#### **Delete a Classification Rule**
+### **Delete a Classification Rule**
 
 To delete a rule:
 
