@@ -119,6 +119,7 @@
           * [Guida al File di Trasformazione EDI](administration-and-setup/settings/global-settings/document-types/e-docs/edi/edi-transformation-file-guide.md)
           * [Guida al File Anteprima EDI](administration-and-setup/settings/global-settings/document-types/e-docs/edi/edi-preview-file-guide.md)
           * [Guida al File dei Percorsi di Estrazione EDI](administration-and-setup/settings/global-settings/document-types/e-docs/edi/edi-extraction-paths-file-guide.md)
+        * [ZUGFeRD 1.0, 2.1 e 2.3](administration-and-setup/settings/global-settings/document-types/e-docs/zugferd-1.0-2.1-and-2.3.md)
         * [eSLOG 1.6 e 2.0](administration-and-setup/settings/global-settings/document-types/e-docs/eslog-1.6-and-2.0.md)
       * [Altre impostazioni](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
         * [Migliori pratiche](administration-and-setup/settings/global-settings/document-types/more-settings/purpose-and-use.md)
