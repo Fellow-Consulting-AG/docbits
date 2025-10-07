@@ -74,7 +74,7 @@ You’ll also see a table showing:
 
 * Which **suppliers** are using which AI model
 * Whether they use E-Text
-* Options to delete an entry and reset training data
+* Options to delete an entry or reset the training data
 
 This setting is explained in detail [here](ai-model.md).
 
@@ -82,7 +82,7 @@ This setting is explained in detail [here](ai-model.md).
 
 ## Electronic Document
 
-**Process Unsupported ZUGFeRD PDFs:** If enabled, unsupported **ZUGFeRD** versions will be processed as standard PDFs, and the embedded XML will be ignored.
+**Process Unsupported ZUGFeRD PDF:** If enabled, unsupported **ZUGFeRD** versions will be processed as standard PDFs, and the embedded XML will be ignored.
 
 The list of supported **ZUGFeRD** versions can be found [here](../../global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md).
 
@@ -90,7 +90,7 @@ The list of supported **ZUGFeRD** versions can be found [here](../../global-sett
 
 ## **Classification Rules**
 
-In the **Classification Rules** section, you can define specific **regex patterns** and criteria to help the system automatically classify documents during processing.
+In the **Classification Rules** section, you can define specific **regex** patterns and criteria to help the system automatically classify documents during processing.
 
 To access this section, click the **Classification Rules** tab at the top of the page.
 
@@ -106,9 +106,9 @@ To create a new rule:
 2. Fill in the following fields:
    * **Pattern**: The regex pattern the system should search for to trigger classification.
    * **Type**: Where the pattern should be searched (e.g., **Barcode**).
-   * **Sub-Organization** _(optional)_: Specify which sub-organization the rule applies to.
+   * **Sub Organization** _(optional)_: Specify which sub organization the rule applies to.
    * **Document Type**: Define the document type to assign when the pattern is matched.
-   *   **Sub-Document Type** _(optional)_: Specify a sub-type for more detailed classification.
+   *   **Sub Document Type** _(optional)_: Specify a sub type for more detailed classification.
 
        <figure><img src="../../../../.gitbook/assets/classification_and_extraction_3.png" alt=""><figcaption></figcaption></figure>
 3.  Click **Save** to save your classification rule.
@@ -171,7 +171,7 @@ All models within a category are listed in a table, which includes the following
 * **Name**: The name of the model.
 * **Next Model**: The model that will further process the output of the current model.
 * **Document Type**: The primary document type assigned by the model during classification.
-* **Document Sub-Types**: The sub-types into which the document is further classified.
+* **Document Sub Types**: The sub types into which the document is further classified.
 * **Priority**: The priority level that determines the model’s position in the classification queue.
 
 <figure><img src="../../../../.gitbook/assets/classification_and_extraction_11.png" alt=""><figcaption></figcaption></figure>
