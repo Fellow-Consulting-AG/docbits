@@ -63,7 +63,7 @@ Learn more about manual training [here](../../../setup/document-training/trainin
 
 **AI Table Extraction:** Uses AI to automatically extract tables. If the results are not accurate enough, it's recommended to switch to manual **Table Extraction** for better control and training.
 
-**Table Extraction for Costing Elements:** When enabled, DocBits can extract costing elements from tables at the line level and classify them accordingly.\
+**Table Extraction for Costing Element:** When enabled, DocBits can extract costing elements from tables at the line level and classify them accordingly.\
 Detailed explanation available [here](table-extraction-for-costing-element.md).
 
 **Auto Extract Tax Code:** When enabled, the system automatically fills the **Tax Code** field on the Validation Screen—provided that a tax code field is configured.\
@@ -82,9 +82,9 @@ This setting is explained in detail [here](ai-model.md).
 
 ## Electronic Document
 
-**Process Unsupported ZUGFeRD PDFs:** If enabled, unsupported ZUGFeRD versions will be processed as standard PDFs, and the embedded XML will be ignored.
+**Process Unsupported ZUGFeRD PDFs:** If enabled, unsupported **ZUGFeRD** versions will be processed as standard PDFs, and the embedded XML will be ignored.
 
-The list of supported ZUGFeRD versions can be found [here](../../global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md).
+The list of supported **ZUGFeRD** versions can be found [here](../../global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md).
 
 
 
@@ -134,7 +134,7 @@ To edit an existing rule:
 
 To delete a rule:
 
-1.  Click the **three dots** in the **Actions** column.
+1.  Click the three dots in the **Actions** column.
 
     <figure><img src="../../../../.gitbook/assets/classification_and_extraction_5.png" alt=""><figcaption></figcaption></figure>
 2.  Select **Delete**.
