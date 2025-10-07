@@ -15,20 +15,18 @@ The ZUGFeRD standard is always active by default, but you can make modifications
 ### **Steps to Modify ZUGFeRD Settings:**
 
 1. Navigate to **Settings → Global Settings → Document Types → Invoice**.
-2.  Click on **E-Doc**.\
-
+2.  Click on **E-Doc**.\\
 
     <figure><img src="../../../../../.gitbook/assets/zugferd_1.png" alt=""><figcaption></figcaption></figure>
 3. A list of all available e-docs will appear.
-4.  Locate the **ZUGFeRD** version you want to modify.\
-
+4.  Locate the **ZUGFeRD** version you want to modify.\\
 
     <figure><img src="../../../../../.gitbook/assets/zugferd_2.png" alt=""><figcaption></figcaption></figure>
 
 ## **Transformation and XML Path Configuration:**
 
 In the **transformation settings**, you can define the path to locate specific information within the XML file and save it in a new structure, making it easier to access the data.\
-**Note:** If you use this functionality, you must use the newly created XML paths, not the original XML paths, in the **Preview** and **Extraction Path**.
+<mark style="color:red;">**Note**</mark>: If you use this functionality, you must use the newly created XML paths, not the original XML paths, in the **Preview** and **Extraction Path**.
 
 ### **Steps to Modify Transformation File:**
 
@@ -66,8 +64,7 @@ The **Extraction Paths Configuration** is used to extract data and populate fiel
 2. Create a new draft by clicking the **pencil icon**.
 3. Select the newly created draft.
 4. Create a new field or modify an existing one.
-5.  The left side represents the **DocBits field ID**, which can be found in the  **Settings → Global Settings → Document Types → Invoice → Fields**.\
-
+5.  The left side represents the **DocBits field ID**, which can be found in the **Settings → Global Settings → Document Types → Invoice → Fields**.\\
 
     <figure><img src="../../../../../.gitbook/assets/zugferd_3.png" alt=""><figcaption></figcaption></figure>
 
