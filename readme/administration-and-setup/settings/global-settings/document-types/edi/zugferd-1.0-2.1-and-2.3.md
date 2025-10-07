@@ -64,7 +64,7 @@ Die **Extraction Paths Konfiguration** wird verwendet, um Daten zu extrahieren u
 2. Erstellen Sie einen neuen Entwurf, indem Sie auf das **Stiftsymbol** klicken.
 3. Wählen Sie den neu erstellten Entwurf aus.
 4. Erstellen Sie ein neues Feld oder bearbeiten Sie ein bestehendes.
-5.  Die linke Seite steht für die **DocBits Feld-ID**, welche Sie finden unter **Einstellungen → Globale Einstellungen → Dokumenttypen → Rechnung → Felder**.\\
+5.  Die linke Seite steht für die **DocBits Feld-ID**, welche Sie finden unter **Einstellungen → Globale Einstellungen → Dokumenttypen → Rechnung → Felder**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_3.png)
 
