@@ -15,18 +15,18 @@ Le standard ZUGFeRD est toujours actif par défaut, mais vous pouvez le modifier
 ### **Étapes pour modifier les Paramètres de ZUGFeRD :**
 
 1. Accédez à **Paramètres → Paramètres globaux → Types de documents → Facture**.
-2.  Cliquez sur **E-Doc**.\\
+2.  Cliquez sur **E-Doc**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_1.png)
 3. Une liste de tous les e-docs disponibles s’affiche.
-4.  Repérez la version **ZUGFeRD** que vous souhaitez modifier.\\
+4.  Repérez la version **ZUGFeRD** que vous souhaitez modifier.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_2.png)
 
 ## **Extraction Transformation and XML Path Configuration:**
 
 Dans les **paramètres de l’Extraction Transformation**, vous pouvez définir le chemin pour localiser des informations spécifiques dans le fichier XML et les enregistrer dans une nouvelle structure, afin de faciliter l’accès aux données.\
-**Remarque :** Si vous utilisez cette fonctionnalité, vous devez utiliser les nouveaux XML paths créés, et non les XML paths d’origine, dans le **Preview** et **Extraction Path**.
+<mark style="color:red;">**Remarque**</mark> : Si vous utilisez cette fonctionnalité, vous devez utiliser les nouveaux XML paths créés, et non les XML paths d’origine, dans le **Preview** et **Extraction Path**.
 
 ### **Étapes pour modifier le fichier d’Extraction Transformation :**
 
@@ -64,7 +64,7 @@ La **Extraction Paths Configuration** est utilisée pour extraire des données e
 2. Créez un nouveau brouillon en cliquant sur l’**icône crayon**.
 3. Sélectionnez le brouillon nouvellement créé.
 4. Créez un nouveau champ ou modifiez un champ existant.
-5.  Le côté gauche représente l’**ID du champ DocBits**, que vous pouvez trouver dans **Paramètres → Paramètres globaux → Types de documents → Facture → Champs**.\\
+5.  Le côté gauche représente l’**ID du champ DocBits**, que vous pouvez trouver dans **Paramètres → Paramètres globaux → Types de documents → Facture → Champs**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_3.png)
 
