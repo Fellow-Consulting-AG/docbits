@@ -44,7 +44,7 @@ Para crear una nueva configuración de búsqueda para Datos maestros:
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_3.png)
 3. Configura las siguientes opciones:
-   * **Buscar nombre**\
+   * **Nombre de búsqueda**\
      El nombre de la configuración de búsqueda.
    * **Nombre del conjunto de datos**\
      Selecciona el conjunto de datos que debe usarse para esta configuración de búsqueda.
@@ -135,6 +135,8 @@ Para añadir un nuevo campo a tu configuración de búsqueda:
        Cuando está habilitado, los usuarios pueden buscar manualmente datos maestros durante la validación de campos.
 
        ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_12.png)
+
+
 
        ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_13.png)
 4.  Haz clic en **Guardar** para crear el nuevo campo.
