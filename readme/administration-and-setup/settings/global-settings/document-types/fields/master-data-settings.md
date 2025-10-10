@@ -44,7 +44,7 @@ Um eine neue Lookup-Konfiguration für Stammdaten zu erstellen:
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_3.png)
 3. Konfigurieren Sie die folgenden Optionen:
-   * **Nachschlagen Name**\
+   * **Nachschlagename**\
      Der Name der Lookup-Konfiguration.
    * **Lookup Dataset Name**\
      Wählen Sie das Dataset aus, das für diese Lookup-Konfiguration verwendet werden soll.
