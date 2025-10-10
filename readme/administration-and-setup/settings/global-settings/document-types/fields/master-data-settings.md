@@ -134,7 +134,7 @@ Aby dodać nowe pole do konfiguracji wyszukiwania:
    *   **Przeszukiwalny** (opcjonalne)\
        Po włączeniu użytkownicy mogą ręcznie wyszukiwać dane główne podczas walidacji pól.
 
-       !\[]\(https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields\_master\_data\_settings\_12 (1).png)
+       ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_12.png)
 
        ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_13.png)
 4.  Kliknij **Ratować**, aby utworzyć nowe pole.
