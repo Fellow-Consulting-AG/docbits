@@ -134,7 +134,7 @@ To add a new field to your lookup config:
    *   **Searchable** (optional)\
        When enabled, users can manually search for master data during field validation.
 
-       <figure><img src="../../../../../.gitbook/assets/fields_master_data_settings_12.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/fields_master_data_settings_12 (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -283,4 +283,3 @@ To manage an existing field within a lov lookup config, click the three dots in 
     Permanently removes the field after confirmation.
 
     <figure><img src="../../../../../.gitbook/assets/fields_master_data_settings_20.png" alt=""><figcaption></figcaption></figure>
-
