@@ -134,7 +134,7 @@ Para añadir un nuevo campo a tu configuración de búsqueda:
    *   **Buscable** (opcional)\
        Cuando está habilitado, los usuarios pueden buscar manualmente datos maestros durante la validación de campos.
 
-       !\[]\(https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields\_master\_data\_settings\_12 (1).png)
+       ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_12.png)
 
        ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_13.png)
 4.  Haz clic en **Guardar** para crear el nuevo campo.
