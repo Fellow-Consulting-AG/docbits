@@ -134,7 +134,7 @@ Pour ajouter un nouveau champ à votre configuration de consultation :
    *   **Consultable** (facultatif)\
        Lorsqu’il est activé, les utilisateurs peuvent rechercher manuellement des données de base lors de la validation des champs.
 
-       !\[]\(https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields\_master\_data\_settings\_12 (1).png)
+       ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_12.png)
 
        ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_13.png)
 4.  Cliquez sur **Sauvegarder** pour créer le nouveau champ.
