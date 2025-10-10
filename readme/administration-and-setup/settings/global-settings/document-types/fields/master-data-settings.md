@@ -215,7 +215,7 @@ A lov lookup config defines how dropdown options are sourced from a master data 
 
     <figure><img src="../../../../../.gitbook/assets/fields_master_data_settings_18.png" alt=""><figcaption></figcaption></figure>
 
-#### Actions on Existing Lookup Config
+### Actions on Existing Lookup Config
 
 To manage an existing lov lookup config, click the three dots in the top-right corner of the configuration.
 
@@ -238,7 +238,7 @@ To manage an existing lov lookup config, click the three dots in the top-right c
 
     <figure><img src="../../../../../.gitbook/assets/fields_master_data_settings_20.png" alt=""><figcaption></figcaption></figure>
 
-#### Create New Field
+### Create New Field
 
 Within each lov lookup config, you can define additional fields as dropdowns that act as pre-filters for the main lov logic.
 
@@ -269,7 +269,7 @@ In addition to creating new fields, you can also use existing fields as pre-filt
 
     <figure><img src="../../../../../.gitbook/assets/fields_master_data_settings_23.png" alt=""><figcaption></figcaption></figure>
 
-#### Actions on Existing Field
+### Actions on Existing Field
 
 To manage an existing field within a lov lookup config, click the three dots in the **Actions** column next to the field.
 
