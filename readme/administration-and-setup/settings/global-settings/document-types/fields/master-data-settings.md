@@ -134,7 +134,7 @@ Per aggiungere un nuovo campo alla tua configurazione di ricerca:
    *   **Ricercabile** (opzionale)\
        Quando abilitato, gli utenti possono cercare manualmente i dati master durante la convalida dei campi.
 
-       !\[]\(https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields\_master\_data\_settings\_12 (1).png)
+       ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_12.png)
 
        ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_13.png)
 4.  Clic **Salva** per creare il nuovo campo.
