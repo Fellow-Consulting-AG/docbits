@@ -153,6 +153,7 @@
         * [Best practices](administration-and-setup/settings/global-settings/document-types/fields/best-practices-3.md)
         * [Troubleshooting](administration-and-setup/settings/global-settings/document-types/fields/troubleshooting-2.md)
         * [New Fields with Charges](administration-and-setup/settings/global-settings/document-types/fields/new-fields-with-charges.md)
+        * [Master Data Settings](administration-and-setup/settings/global-settings/document-types/fields/master-data-settings.md)
       * [Model Training](administration-and-setup/settings/global-settings/document-types/model-training/README.md)
         * [Purpose and Use: Model Training](administration-and-setup/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md)
         * [Import Data: Model Training](administration-and-setup/settings/global-settings/document-types/model-training/import-data-model-training.md)
