@@ -134,7 +134,7 @@ So fügen Sie Ihrer Lookup-Konfiguration ein neues Feld hinzu:
    *   **Suchbar** (optional)\
        Wenn aktiviert, können Benutzer während der Feldvalidierung manuell nach Stammdaten suchen.
 
-       !\[]\(https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields\_master\_data\_settings\_12 (1).png)
+       !\[]\(https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields\_master\_data\_settings\_12.png)
 
        ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_13.png)
 4.  Klicken Sie auf **Speichern**, um das neue Feld zu erstellen.
