@@ -44,7 +44,7 @@ Per creare una nuova configurazione di ricerca per i dati master:
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_3.png)
 3. Configura le seguenti opzioni:
-   * **Nome della ricerca**\
+   * **Cerca nome**\
      Il nome della configurazione di ricerca.
    * **Nome del set di dati di ricerca**\
      Seleziona il set di dati che deve essere utilizzato per questa configurazione di ricerca.
@@ -135,6 +135,8 @@ Per aggiungere un nuovo campo alla tua configurazione di ricerca:
        Quando abilitato, gli utenti possono cercare manualmente i dati master durante la convalida dei campi.
 
        ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_12.png)
+
+
 
        ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_13.png)
 4.  Clic **Salva** per creare il nuovo campo.
