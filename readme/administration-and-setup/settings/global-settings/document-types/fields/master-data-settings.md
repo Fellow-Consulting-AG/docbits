@@ -59,7 +59,7 @@ To create a new lookup config for Master Data:
 
        **HEADER**
 
-       The lookup is used in **field validation**. Configure the following:
+       The lookup is used in field validation. Configure the following:
 
        * **Match All**\
          When enabled, all fields in the lookup config must match during the search by default.
@@ -185,7 +185,7 @@ A lov lookup config defines how dropdown options are sourced from a master data 
 
        **HEADER**
 
-       The lov lookup config is used in **field validation**. Configure the following:
+       The lov lookup config is used in field validation. Configure the following:
 
        * **Lookup Label Field**\
          Select the column whose value will be displayed in the dropdown.
