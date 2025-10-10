@@ -120,6 +120,7 @@
       * [Table Columns](admin-section/settings/global-settings/document-types/table-columns.md)
       * [Fields](administration-and-setup/settings/global-settings/document-types/fields/README.md)
         * [Hinzufügen und Bearbeiten von Feldern](administration-and-setup/settings/global-settings/document-types/fields/adding-and-editing-fields.md)
+        * [Stammdaten-Einstellungen](administration-and-setup/settings/global-settings/document-types/fields/master-data-settings.md)
       * [Model Training](admin-section/settings/global-settings/document-types/model-training.md)
       * [Regex](admin-section/settings/global-settings/document-types/regex.md)
       * [Script](administration-and-setup/settings/global-settings/document-types/script/README.md)
