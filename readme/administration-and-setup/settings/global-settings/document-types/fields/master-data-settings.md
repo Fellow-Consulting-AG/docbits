@@ -192,7 +192,7 @@ A lov lookup config defines how dropdown options are sourced from a master data 
        * **Lookup Value Field**\
          Select the column whose value will be stored internally and used for filtering when a selection is made. This value is not displayed to the user.
        * **Out Field**\
-         Defines the field in validation that will receive the selected label from the dropdown.
+         Defines the field in field validation that will receive the selected label from the dropdown.
 
        <figure><img src="../../../../../.gitbook/assets/fields_master_data_settings_16.png" alt=""><figcaption></figcaption></figure>
 
