@@ -134,7 +134,7 @@ To add a new field to your lookup config:
    *   **Searchable** (optional)\
        When enabled, users can manually search for master data during field validation.
 
-       <figure><img src="../../../../../.gitbook/assets/fields_master_data_settings_12 (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/fields_master_data_settings_12.png" alt=""><figcaption></figcaption></figure>
 
 
 
