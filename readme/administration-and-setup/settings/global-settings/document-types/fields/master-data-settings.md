@@ -2,7 +2,7 @@
 
 ## Overview
 
-In the **Master Data Settings** section of the **Fields** settings for a specific Document Type, you can view and configure master data mappings to fields used in **field validation**, using data from [**Master Data Lookup**](../../../document-processing/master-data-lookup.md).
+In the **Master Data Settings** section of the **Fields** settings for a specific Document Type, you can view and configure master data mappings to fields used in field validation, using data from [**Master Data Lookup**](../../../document-processing/master-data-lookup.md).
 
 These mappings define how master data is applied to individual fields during validation. This page provides a detailed guide on how to configure and manage these mappings.
 
