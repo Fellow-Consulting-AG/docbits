@@ -2,7 +2,7 @@
 
 ## Descripción general
 
-En la sección de **Ajustes de datos maestros** de los **Campos** para un **Tipo de Documento** específico, puedes ver y configurar asignaciones de datos maestros a campos utilizados en la validación de campos, usando datos de **Búsqueda de datos maestro**.
+En la sección de **Ajustes de datos maestros** de los **Campos** para un **Tipo de Documento** específico, puedes ver y configurar asignaciones de datos maestros a campos utilizados en la validación de campos, usando datos de [**Búsqueda de datos maestro**](../../../document-processing/master-data-lookup.md).
 
 Estas asignaciones definen cómo se aplican los datos maestros a campos individuales durante la validación. Esta página proporciona una guía detallada sobre cómo configurar y gestionar estas asignaciones.
 
