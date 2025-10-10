@@ -134,7 +134,7 @@ Para adicionar um novo Campo à sua configuração de pesquisa:
    *   **Pesquisável** (opcional)\
        Quando habilitado, os usuários podem pesquisar manualmente dados mestres durante a validação de campos.
 
-       !\[]\(https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields\_master\_data\_settings\_12 (1).png)
+       ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_12.png)
 
        ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/fields_master_data_settings_13.png)
 4.  Clique em **Salvar** para criar o novo Campo.
