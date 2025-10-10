@@ -101,6 +101,7 @@
       * [Table Columns](administration-and-setup/settings/global-settings/document-types/table-columns.md)
       * [Fields](administration-and-setup/settings/global-settings/document-types/fields/README.md)
         * [Navigare il Layout Manager](administration-and-setup/settings/global-settings/document-types/fields/adding-and-editing-fields.md)
+        * [Impostazioni dei dati master](administration-and-setup/settings/global-settings/document-types/fields/master-data-settings.md)
       * [Model Training](administration-and-setup/settings/global-settings/document-types/model-training.md)
       * [Regex](administration-and-setup/settings/global-settings/document-types/regex.md)
       * [Script](administration-and-setup/settings/global-settings/document-types/script/README.md)
