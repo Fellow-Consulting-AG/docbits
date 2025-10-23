@@ -1,3 +1,10 @@
-# Licences API
+# FR - TRANSLATED
 
-Dans les paramètres "Licences API", vous trouverez une liste de tous les packages utilisés, la version du package utilisé et les licences associées.
+**Translated to Français**
+
+---
+
+# API Licenses
+
+In the "API Licenses" settings, you will find a list of all packages used, the version of the package used and the associated licenses.
+...
