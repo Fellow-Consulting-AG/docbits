@@ -1,14 +1,20 @@
-# Date d'expiration des documents
+
+# (Français)
+
+# Documents Expiry
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.17.png" alt=""><figcaption></figcaption></figure>
 
-Dans le paramètre "Date d'expiration des documents" sous la section "TRAITEMENT DES DOCUMENTS", vous pouvez configurer les plannings de suppression automatique de vos documents dans le système. Cette fonctionnalité est particulièrement utile pour gérer les politiques de conservation des données et garantir la conformité aux normes légales ou organisationnelles en matière de stockage de documents.
+In the "Documents Expiry" setting under the "DOCUMENT PROCESSING" section, you can configure the automatic deletion schedules for your documents within the system. This feature is particularly useful for managing data retention policies and ensuring compliance with legal or organizational standards regarding document storage.
 
-Voici ce que chaque paramètre fait :
+Here’s what each setting does:
 
-1. **Supprimer le document après** : Cette liste déroulante vous permet de définir la période après laquelle un document traité sera automatiquement supprimé du système. Vous pouvez choisir parmi des options prédéfinies telles que 48 heures, 1 semaine, 2 semaines ou 4 semaines. Cela aide à gérer l'espace et à maintenir les politiques de cycle de vie des documents.
-2. **Supprimer le document terminé après** : Similaire au paramètre précédent, mais cible spécifiquement les documents terminés ou entièrement traités. Il permet les mêmes options de délai pour la suppression, garantissant que les documents terminés ne sont pas stockés plus longtemps que nécessaire.
+1. **Delete document after**: This dropdown allows you to set the time frame after which a document that has been processed will be automatically deleted from the system. You can choose from predefined options like 48 Hours, 1 Week, 2 Weeks, or 4 Weeks. This helps in managing space and maintaining document lifecycle policies.
+2. **Delete finished document after**: Similar to the previous setting, but specifically targets the finished or fully processed documents. It allows the same time frame options for deletion, ensuring that completed documents are not stored longer than necessary.
 
-Les deux paramètres garantissent que les documents ne sont pas conservés indéfiniment dans votre système, aidant à éviter une utilisation de stockage inutile et à maintenir le flux de travail de traitement des documents sans encombre. Ces paramètres sont essentiels pour les organisations devant respecter des exigences réglementaires spécifiques en matière de conservation des documents.
+Both settings ensure that documents are not kept indefinitely on your system, helping to avoid unnecessary storage use and keeping the document processing workflow clutter-free. These settings are vital for organizations needing to adhere to specific regulatory requirements about document retention.
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.27.png" alt=""><figcaption></figcaption></figure>
+
+
+
