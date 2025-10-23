@@ -1,59 +1,62 @@
-# Exportar
 
-## Visión general
+# (Español)
 
-La página de Exportar muestra todas las configuraciones de exportación configuradas, incluido si están activas o inactivas. Desde aquí, los usuarios pueden:
+# Export
 
-* Ver y gestionar las configuraciones de exportación existentes
-* Crear nuevas conexiones de exportación (por ejemplo, a **Infor**, **Infor & IDM**, **Webhook** o **SFTP**)
-* Editar o eliminar las configuraciones de exportación existentes
+## Overview
 
-## Dónde encontrarlo
+The Export page displays all configured export setups, including whether they are active or inactive. From here, users can:
 
-Puedes encontrarlo en: **Configuración** → **Procesamiento de documentos** → **Exportar**
+* View and manage existing export configurations
+* Create new export connections (e.g., to **Infor**, **Infor & IDM**, **Webhook**, or **SFTP**)
+* Edit or delete existing export configurations
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fn6ldlcI2sVUEgDdWb9U4%252Fimage.png%3Falt%3Dmedia%26token%3D8368818d-c899-4bee-ad21-a631d6be5c20\&width=768\&dpr=4\&quality=100\&sign=fbfcbd0c\&sv=2)
+## Where to Find It
 
-## **Usando la página de Exportar**
+You can find it under: **Settings** → **Document Processing** → **Export**
 
-Cuando abres la página de Exportar, verás una lista de todas las configuraciones de exportación existentes.
+<figure><img src="../../../.gitbook/assets/image (442).png" alt=""><figcaption></figcaption></figure>
 
-Cada fila en la lista muestra:
+## **Using the Export Page**
 
-* **Indicador de estado**
-  * **Verde** significa que la exportación está activa
-  * **Rojo** significa que la exportación está desactivada
-* **Nombre** – el nombre de la configuración de exportación
-* **Tipo de documento** – el tipo de documento para el que se ha configurado la exportación
-* **Sub-Organización** – si la exportación está limitada a una sub-organización específica
-* **Método de exportación** – dónde se enviará el documento (por ejemplo, Infor, IDM, SFTP)
-* **Acciones** – botones para **editar, eliminar** o **activar/desactivar** la configuración
+When you open the Export page, you’ll see a list of all existing export configurations.
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FyN87I5gzXxwGoAqC6zMF%252Fimage.png%3Falt%3Dmedia%26token%3D7df9d573-7e57-4ace-99c6-15a83691b926\&width=768\&dpr=4\&quality=100\&sign=6221cb80\&sv=2)
+Each row in the list shows:
 
-#### **Reglas importantes para la configuración de exportación**
+* **Status Indicator**
+  * **Green** means the export is active
+  * **Red** means the export is deactivated
+* **Name** – the name of the export configuration
+* **Document Type** – the type of document the export is configured for
+* **Sub-Organization** – if the export is limited to a specific sub-organization
+* **Export Method** – where the document will be sent (e.g., Infor, IDM, SFTP)
+* **Actions** – buttons to **edit, delete** or **activate/deactivate** the configuration
 
-Para cada **tipo de documento** **dentro de una organización o suborganización dada**, se aplican las siguientes reglas:
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-* Puedes tener **solo una exportación activa de Infor**
-* Puedes tener **solo una exportación activa que no sea de Infor** (por ejemplo, Webhook, SFTP)
+#### **Important Rules for Export Configuration**
 
-Sin embargo, es posible tener:
+For each **document type** **within a given organization or sub-organization**, the following rules apply:
 
-* **Una exportación activa de Infor** _y_ **una exportación activa que no sea de Infor** al mismo tiempo para el mismo tipo de documento
-* **Diferentes configuraciones de exportación para diferentes suborganizaciones** — por ejemplo, una exportación de Infor para Sub-Org A y otra exportación de Infor para Sub-Org B
+* You can have **only one active Infor export**
+* You can have **only one active non-Infor export** (e.g., Webhook, SFTP)
 
-## **Creando una nueva exportación**
+However, it is possible to have:
 
-Para crear una nueva exportación:
+* **One active Infor export** _and_ **one active non-Infor export** at the same time for the same document type
+* **Different export configurations for different sub-organizations** — for example, one Infor export for Sub-Org A and another Infor export for Sub-Org B
 
-1. Haz clic en el botón **“Nuevo”**.\
-   &#x20;![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FTsHrIAUpe7EqenIzNAaJ%252Fimage.png%3Falt%3Dmedia%26token%3Dd2dbc996-b129-443c-a8df-9927a6f43a36\&width=300\&dpr=4\&quality=100\&sign=8769c331\&sv=2)
-2. Selecciona el **Tipo de exportación** que deseas configurar (por ejemplo, Infor, IDM, SFTP).
-3. Completa los campos requeridos según el tipo de exportación.
-4. Guarda la configuración.
+## **Creating a New Export**
 
-## Opciones de Exportación
+To create a new export:
+
+1. Click on the **“New”** button.\
+   ![](<../../../.gitbook/assets/image (1) (1) (1).png>)
+2. Select the **Export Type** you want to configure (e.g., Infor, IDM, SFTP).
+3. Fill in the required fields based on the export type.
+4. Save the configuration.
+
+## Export Options&#x20;
 
 #### Webhook
 
@@ -61,18 +64,21 @@ Para crear una nueva exportación:
 
 <summary>Webhook</summary>
 
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
+#### **Field Descriptions**
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FCwXUqFdCbRI5lRW49ymw%252Fimage.png%3Falt%3Dmedia%26token%3D798c0f40-6c4a-4650-9320-af2c17634fe9\&width=768\&dpr=4\&quality=100\&sign=15836833\&sv=2)
-
-#### **Descripciones de Campos**
-
-* **Título** El nombre de la configuración de exportación. Esto aparecerá en la lista de exportaciones.
-* **Sub-Organización** _(opcional)_ Un menú desplegable con todas las sub-organizaciones disponibles.
-  * Si se deja vacío: se aplica a la organización principal.
-  * Si se selecciona: la exportación solo se aplicará a la sub-organización elegida.
-* **Tipo de Documento** Menú desplegable con todos los tipos de documentos disponibles. Esto determina a qué tipo de documento se aplica esta configuración de exportación.
-* **URL de Exportación** La URL de destino donde se debe exportar el documento.
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
+* **Export URL** \
+  The destination URL where the document should be exported.
 
 </details>
 
@@ -82,51 +88,70 @@ Para crear una nueva exportación:
 
 <summary>SFTP</summary>
 
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
+**Field Descriptions**
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FzwUCWTdFETTvuTGl8qAn%252Fimage.png%3Falt%3Dmedia%26token%3D3f94b210-0128-4710-ae69-150a1363ce49\&width=768\&dpr=4\&quality=100\&sign=4ecd353\&sv=2)
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
 
-#### **Descripciones de Campo**
+- **Username**\
+  The username used to authenticate against the SFTP server.
+- **Password**\
+  The corresponding password for the SFTP account. Ensure the account has write access to the specified folder.
+- **Server URL**\
+  The hostname or IP address of the target SFTP server.
+- **Port**\
+  The port used to connect to the SFTP server.
+- **Folder**\
+  The path on the SFTP server where documents should be uploaded (e.g., `/incoming/invoices/`).\
+  Must exist and be writable.
+-   **XSLT File (Optional)**
 
-* **Título** El nombre de la configuración de exportación. Esto aparecerá en la lista de exportaciones.
-* **Sub-Organización** _(opcional)_ Un menú desplegable con todas las sub-organizaciones disponibles.
-  * Si se deja vacío: se aplica a la organización principal.
-  * Si se selecciona: la exportación solo se aplicará a la sub-organización elegida.
-* **Tipo de Documento** Menú desplegable que lista todos los tipos de documentos disponibles. Esto determina a qué tipo de documento se aplica esta configuración de exportación.
-* **Nombre de Usuario** El nombre de usuario utilizado para autenticarse en el servidor SFTP.
-* **Contraseña** La contraseña correspondiente para la cuenta SFTP. Asegúrese de que la cuenta tenga acceso de escritura a la carpeta especificada.
-* **URL del Servidor** El nombre de host o la dirección IP del servidor SFTP de destino.
-* **Puerto** El puerto utilizado para conectarse al servidor SFTP.
-* **Carpeta** La ruta en el servidor SFTP donde se deben cargar los documentos (por ejemplo, `/incoming/invoices/`). Debe existir y ser escribible.
-*   **Archivo XSLT (Opcional)**
+    The **XSLT file** allows for transformation of the default DocBits export format.
 
-    El **archivo XSLT** permite la transformación del formato de exportación predeterminado de DocBits.
-
-    * **Cuándo usar:** Solo si el sistema receptor requiere una estructura diferente o un formato específico que difiere del predeterminado de DocBits.
-    * **Déjelo vacío** si el formato de exportación predeterminado cumple con los requisitos.
+    * **When to use:**\
+      Only if the receiving system requires a different structure or specific formatting that differs from the DocBits default.
+    * **Leave it empty** if the default export format meets the requirements.
 
 </details>
 
-#### Exportación de Infor a SFTP
+#### Infor Export to SFTP
 
 <details>
 
-<summary>Exportación de Infor a SFTP</summary>
+<summary>Infor Export to SFTP</summary>
 
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
+**Field Descriptions**
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FU0W4Qdy7ZlNoCn3E9wX5%252Fimage.png%3Falt%3Dmedia%26token%3D33673a12-55c4-479b-8ca8-b7c95e7a6a89\&width=768\&dpr=4\&quality=100\&sign=4af07f48\&sv=2)
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
 
-#### **Descripciones de Campos**
-
-* **Título** El nombre de la configuración de exportación. Esto aparecerá en la lista de exportaciones.
-* **Sub-Organización** _(opcional)_ Un menú desplegable con todas las sub-organizaciones disponibles.
-  * Si se deja vacío: se aplica a la organización principal.
-  * Si se selecciona: la exportación solo se aplicará a la sub-organización elegida.
-* **Tipo de Documento** Menú desplegable con todos los tipos de documentos disponibles. Esto determina a qué tipo de documento se aplica esta configuración de exportación.
-* **Archivo de Mapeo IDM** Seleccione un archivo de mapeo desde el administrador de archivos. [¿Necesita ayuda para crear uno? Consulte la Guía de Mapeo IDM](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file)
-* **Archivo de Mapeo BOD** Seleccione un archivo de mapeo desde el administrador de archivos. [¿Necesita ayuda para crear uno? Consulte la Guía de Mapeo BOD](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file)
-* **Carpeta** La ruta en el servidor SFTP donde se deben cargar los documentos (por ejemplo, `/incoming/invoices/`). Debe existir y ser escribible.
+- **IDM Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+- **BOD Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
+- **Folder**\
+  The path on the SFTP server where documents should be uploaded (e.g., `/incoming/invoices/`).\
+  Must exist and be writable.
 
 </details>
 
@@ -136,53 +161,70 @@ Para crear una nueva exportación:
 
 <summary>SMB</summary>
 
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
+#### **Field Descriptions**
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F6e4B9BWQWgHvcHhduXKb%252Fimage.png%3Falt%3Dmedia%26token%3D09e9534e-9268-4221-bd7b-89b621c80670\&width=768\&dpr=4\&quality=100\&sign=b03835a\&sv=2)
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
 
-#### **Descripciones de Campo**
+- **Username**\
+  The username used to connect to the SMB share.
+- **Password**\
+  The corresponding password for SMB authentication.
+- **Server URL**\
+  The address of the SMB server.
+- **Port**\
+  Port number used to access the SMB share.
+- **Folder**\
+  The folder path within the SMB share where documents should be saved(e.g., `/incoming/invoices/`).\
+  Must exist and be writable.
+-   **JPL Mapping File (Optional)**
 
-* **Título** El nombre de la configuración de exportación. Esto aparecerá en la lista de exportación.
-* **Sub-Organización** _(opcional)_ Un menú desplegable con todas las sub-organizaciones disponibles.
-  * Si se deja vacío: se aplica a la organización principal.
-  * Si se selecciona: la exportación solo se aplicará a la sub-organización elegida.
-* **Tipo de Documento** Menú desplegable que lista todos los tipos de documento disponibles. Esto determina a qué tipo de documento se aplica esta configuración de exportación.
-* **Nombre de Usuario** El nombre de usuario utilizado para conectarse a la carpeta compartida SMB.
-* **Contraseña** La contraseña correspondiente para la autenticación SMB.
-* **URL del Servidor** La dirección del servidor SMB.
-* **Puerto** Número de puerto utilizado para acceder a la carpeta compartida SMB.
-* **Carpeta** La ruta de la carpeta dentro de la carpeta compartida SMB donde se deben guardar los documentos (por ejemplo, `/incoming/invoices/`). Debe existir y ser escribible.
-*   **Archivo de Mapeo JPL (Opcional)**
+    The **JPL file** is used to define a transformation of the exported data before it is written to the SMB share.
 
-    El **archivo JPL** se utiliza para definir una transformación de los datos exportados antes de que se escriban en la carpeta compartida SMB.
-
-    * **Cuándo usar:** Solo cuando los datos del documento exportado necesitan ajustarse para que coincidan con el formato externo o las expectativas del sistema.
-    * **Déjelo vacío** si no es necesaria ninguna transformación.
+    * **When to use:**\
+      Only when the exported document data needs to be adjusted to match external formatting or system expectations.
+    * **Leave it empty** if no transformation is necessary.
 
 </details>
 
-#### **Infor IDM**
+#### **Infor IDM**&#x20;
 
 <details>
 
-<summary>Infor IDM</summary>
+<summary>Infor IDM </summary>
 
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
+#### **Field Descriptions**
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FQ1AtdmTRZr1sGkH6oLwP%252Fimage.png%3Falt%3Dmedia%26token%3D720a4184-3f91-4b70-b3da-b846f3cce030\&width=768\&dpr=4\&quality=100\&sign=dc678c2c\&sv=2)
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
 
-#### **Descripciones de Campos**
-
-* **Título** El nombre de la configuración de exportación. Esto aparecerá en la lista de exportaciones.
-* **Sub-Organización** _(opcional)_ Un menú desplegable con todas las sub-organizaciones disponibles.
-  * Si se deja vacío: se aplica a la organización principal.
-  * Si se selecciona: la exportación solo se aplicará a la sub-organización elegida.
-* **Tipo de Documento** Menú desplegable que lista todos los tipos de documento disponibles. Esto determina a qué tipo de documento se aplica esta configuración de exportación.
-* **Archivo de Mapeo ION** Selecciona un archivo de mapeo desde el administrador de archivos.
-* **Archivo de Mapeo IDM** Selecciona un archivo de mapeo desde el administrador de archivos. [¿Necesitas ayuda para crear uno? Consulta la Guía de Mapeo IDM](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file)
-* **Nube / Alternar On-Prem** Un interruptor para indicar el tipo de implementación de Infor:
-  * **Nube**: Selecciona esto si eres cliente de Infor CloudSuite.
-  * **On-Prem**: Selecciona esto si Infor es autohospedado.
+- **ION Mapping File**\
+  Select a mapping file from the file manager.
+- **IDM Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+- **Cloud / On-Prem Toggle**\
+  A switch to indicate the Infor deployment type:
+  * **Cloud**: Select this if  Infor CloudSuite customer.
+  * **On-Prem**: Select this if Infor is self-hosted.
 
 </details>
 
@@ -192,22 +234,29 @@ Para crear una nueva exportación:
 
 <summary>Infor ION</summary>
 
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
+#### **Field Descriptions**
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FcYDXwDYH4RSc5vcY4fmr%252Fimage.png%3Falt%3Dmedia%26token%3Da9cfac80-9795-4e8f-a664-e268c9b4856c\&width=768\&dpr=4\&quality=100\&sign=5a4b0bd0\&sv=2)
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
 
-#### **Descripciones de Campo**
-
-* **Título** El nombre de la configuración de exportación. Esto aparecerá en la lista de exportaciones.
-* **Sub-Organización** _(opcional)_ Un menú desplegable con todas las sub-organizaciones disponibles.
-  * Si se deja vacío: se aplica a la organización principal.
-  * Si se selecciona: la exportación solo se aplicará a la sub-organización elegida.
-* **Tipo de Documento** Menú desplegable con todos los tipos de documentos disponibles. Esto determina a qué tipo de documento se aplica esta configuración de exportación.
-* **Archivo de Mapeo ION** Selecciona un archivo de mapeo desde el administrador de archivos.
-* **Archivo de Mapeo BOD** Selecciona un archivo de mapeo desde el administrador de archivos. [¿Necesitas ayuda para crear uno? Consulta la Guía de Mapeo BOD](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file)
-* **Nube / Alternar On-Prem** Un interruptor para indicar el tipo de implementación de Infor:
-  * **Nube**: Selecciona esto si eres cliente de Infor CloudSuite.
-  * **On-Prem**: Selecciona esto si Infor está autohospedado.
+- **ION Mapping File**\
+  Select a mapping file from the file manager.
+- **BOD Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
+- **Cloud / On-Prem Toggle**\
+  A switch to indicate the Infor deployment type:
+  * **Cloud**: Select this if  Infor CloudSuite customer.
+  * **On-Prem**: Select this if Infor is self-hosted.
 
 </details>
 
@@ -217,71 +266,97 @@ Para crear una nueva exportación:
 
 <summary>Infor IDM + ION BOD</summary>
 
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
+#### **Field Descriptions**
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FY13EX2xxOKLZzliAAHB0%252Fimage.png%3Falt%3Dmedia%26token%3D94335922-6342-405f-8c6d-29fdf2f31a2e\&width=768\&dpr=4\&quality=100\&sign=c0322806\&sv=2)
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
 
-#### **Descripciones de Campo**
-
-* **Título** El nombre de la configuración de exportación. Esto aparecerá en la lista de exportaciones.
-* **Sub-Organización** _(opcional)_ Un menú desplegable con todas las suborganizaciones disponibles.
-  * Si se deja vacío: se aplica a la organización principal.
-  * Si se selecciona: la exportación solo se aplicará a la suborganización elegida.
-* **Tipo de Documento** Menú desplegable que lista todos los tipos de documentos disponibles. Esto determina a qué tipo de documento se aplica esta configuración de exportación.
-* **Archivo de Mapeo ION** Selecciona un archivo de mapeo desde el administrador de archivos.
-* **Archivo de Mapeo IDM** Selecciona un archivo de mapeo desde el administrador de archivos. [¿Necesitas ayuda para crear uno? Consulta la Guía de Mapeo IDM](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file)
-* **Archivo de Mapeo BOD** Selecciona un archivo de mapeo desde el administrador de archivos. [¿Necesitas ayuda para crear uno? Consulta la Guía de Mapeo BOD](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file)
-* **Alternar Nube / Local** Un interruptor para indicar el tipo de implementación de Infor:
-  * **Nube**: Selecciona esto si eres cliente de Infor CloudSuite.
-  * **Local**: Selecciona esto si Infor está alojado en tu propio servidor.
-
-</details>
-
-### Para clientes de Infor CloudSuite
-
-#### Infor IDM + LN
-
-<details>
-
-<summary>Infor IDM + LN</summary>
-
-
-
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F4SfGDqhA4KDrPfJ5vcsT%252Fimage.png%3Falt%3Dmedia%26token%3D4833c0dc-af8b-48a1-a977-6cc8ded20277\&width=768\&dpr=4\&quality=100\&sign=6301596\&sv=2)
-
-#### **Descripciones de campos**
-
-* **Título** El nombre de la configuración de exportación. Esto aparecerá en la lista de exportaciones.
-* **Sub-Organización** _(opcional)_ Un menú desplegable con todas las sub-organizaciones disponibles.
-  * Si se deja vacío: se aplica a la organización principal.
-  * Si se selecciona: la exportación solo se aplicará a la sub-organización elegida.
-* **Tipo de documento** Menú desplegable que lista todos los tipos de documentos disponibles. Esto determina a qué tipo de documento se aplica esta configuración de exportación.
-* **Archivo de mapeo ION** Seleccione un archivo de mapeo desde el administrador de archivos.
-* **Archivo de mapeo IDM** Seleccione un archivo de mapeo desde el administrador de archivos. [¿Necesita ayuda para crear uno? Vea la Guía de Mapeo IDM](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file)
-* **Archivo de mapeo LN** Seleccione un archivo de mapeo desde el administrador de archivos. [¿Necesita ayuda para crear uno? Vea el Ejemplo de Mapeo LN](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/ln/example-export-ln)
+- **ION Mapping File**\
+  Select a mapping file from the file manager.
+- **IDM Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+- **BOD Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
+- **Cloud / On-Prem Toggle**\
+  A switch to indicate the Infor deployment type:
+  * **Cloud**: Select this if  Infor CloudSuite customer.
+  * **On-Prem**: Select this if Infor is self-hosted.
 
 </details>
 
-#### Infor IDM + M3
+### For Infor CloudSuite customers
+
+#### Infor IDM + LN&#x20;
 
 <details>
 
-<summary>Infor IDM + M3</summary>
+<summary>Infor IDM + LN </summary>
 
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
+#### **Field Descriptions**
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FAN4T0aQEoogbUA8PUgy9%252Fimage.png%3Falt%3Dmedia%26token%3Da2b91153-858f-4711-abcc-4ed7ad60d49a\&width=768\&dpr=4\&quality=100\&sign=bb6bda83\&sv=2)
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
 
-#### **Descripciones de Campo**
+- **ION Mapping File**\
+  Select a mapping file from the file manager.
+- **IDM Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
 
-* **Título** El nombre de la configuración de exportación. Esto aparecerá en la lista de exportaciones.
-* **Sub-Organización** _(opcional)_ Un menú desplegable con todas las sub-organizaciones disponibles.
-  * Si se deja vacío: se aplica a la organización principal.
-  * Si se selecciona: la exportación solo se aplicará a la sub-organización elegida.
-* **Tipo de Documento** Menú desplegable que enumera todos los tipos de documentos disponibles. Esto determina a qué tipo de documento se aplica esta configuración de exportación.
-* **Archivo de Mapeo ION** Seleccione un archivo de mapeo del administrador de archivos.
-* **Archivo de Mapeo IDM** Seleccione un archivo de mapeo del administrador de archivos. [¿Necesita ayuda para crear uno? Vea la Guía de Mapeo IDM](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file)
-* **Archivo de Mapeo M3** Seleccione un archivo de mapeo del administrador de archivos. [¿Necesita ayuda para crear uno? Vea el Ejemplo de Mapeo M3](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/m3/example-export-m3)
+* **LN Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the LN Mapping Example](../../../infor-integration-and-configuration/exporting-to-infor/ln/example-export-ln/)&#x20;
+
+</details>
+
+#### Infor IDM + M3&#x20;
+
+<details>
+
+<summary>Infor IDM + M3 </summary>
+
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+#### **Field Descriptions**
+
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
+
+- **ION Mapping File**\
+  Select a mapping file from the file manager.
+- **IDM Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+- **M3 Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the M3 Mapping Example](../../../infor-integration-and-configuration/exporting-to-infor/m3/example-export-m3.md)&#x20;
 
 </details>
 
@@ -291,19 +366,28 @@ Para crear una nueva exportación:
 
 <summary>Infor IDM + M3 (toml)</summary>
 
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
+#### **Field Descriptions**
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FCdoduCkkbnomw3ahZgul%252Fimage.png%3Falt%3Dmedia%26token%3D4e5c7d08-5eaf-4c3e-9918-5cce58d8e3b3\&width=768\&dpr=4\&quality=100\&sign=e984c4e0\&sv=2)
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
 
-#### **Descripciones de Campo**
-
-* **Título** El nombre de la configuración de exportación. Esto aparecerá en la lista de exportaciones.
-* **Sub-Organización** _(opcional)_ Un menú desplegable con todas las sub-organizaciones disponibles.
-  * Si se deja vacío: se aplica a la organización principal.
-  * Si se selecciona: la exportación solo se aplicará a la sub-organización elegida.
-* **Tipo de Documento** Menú desplegable que lista todos los tipos de documentos disponibles. Esto determina a qué tipo de documento se aplica esta configuración de exportación.
-* **Archivo de Mapeo ION** Seleccione un archivo de mapeo del administrador de archivos.
-* **Archivo de Mapeo IDM** Seleccione un archivo de mapeo del administrador de archivos. [¿Necesita ayuda para crear uno? Vea la Guía de Mapeo IDM](https://docs.docbits.com/infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file)
-* **Archivo de Mapeo M3 toml** Seleccione un archivo de mapeo del administrador de archivos o use la opción seleccionar Toml para usar un toml creado con el administrador de reglas. [¿Necesita ayuda para crear uno? Vea la Guía del Administrador de Reglas](https://docs.docbits.com/administration-and-setup/settings/document-processing/rule-manager)
+- **ION Mapping File**\
+  Select a mapping file from the file manager.
+- **IDM Mapping File**\
+  Select a mapping file from the file manager.\
+  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+- **M3 toml Mapping File**\
+  Select a mapping file from the file manager or use the select Toml option to use a toml created with the rule manager. \
+  [Need help creating one? View the Rule Manager Guide](rule-manager/)
 
 </details>
+
