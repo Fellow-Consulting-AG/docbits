@@ -6,14 +6,16 @@ Ce guide explique comment importer un API Connection Template pour configurer ra
 
 <mark style="color:red;">**Remarque**</mark> : Pour une configuration détaillée de domaines spécifiques tels que Auto Accounting, Supplier Integration, Purchase Orders, ou Table Extraction pour les éléments de costing, reportez-vous à la documentation correspondante :
 
-* Comptabilité automatique
-* Fournisseurs et bons de commande
-* Comment importer tous les fournisseurs
-* Extraction de tableaux pour le calcul des coûts
+* [Comptabilité automatique](auto-accounting.md)
+* [Fournisseurs et bons de commande](suppliers-and-purchase-orders.md)
+* [Comment importer tous les fournisseurs](how-to-import-all-suppliers.md)
+* [Extraction de tableaux pour le calcul des coûts](table-extraction-for-costing-element.md)
 
 ### **Download the Template**
 
 Avant l’import, téléchargez le Connection Template requis à l’aide du fichier ci-dessous :
+
+{% file src="../../../.gitbook/assets/DocBits-Dev-Import-Template.xml" %}
 
 ### Importing Template
 
