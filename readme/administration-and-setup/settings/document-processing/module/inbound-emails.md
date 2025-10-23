@@ -1,57 +1,60 @@
-# E-mails entrants
 
-## Activation des E-mails entrants pour le Traitement des documents
+# (Français)
 
-Pour commencer à utiliser les e-mails entrants pour le traitement des documents, suivez ces étapes :
+# Inbound Emails
 
-1. **Allez dans Paramètres** : Commencez par naviguer vers le menu **Paramètres** de l'application.
-2. **Sélectionnez Traitement des documents** : Sous les paramètres, choisissez **Traitement des documents** pour accéder aux options de configuration associées.
-3. **Ouvrez le Module** : Dans la section Traitement des documents, cliquez sur **Module**.
-4. **Faites défiler jusqu'au Type de document** : Faites défiler vers le bas jusqu'à ce que vous trouviez **Type de document**.
-5. **Activez E-mail entrant** : Trouvez **E-mail entrant** et activez-le en basculant l'interrupteur.
+## Activating Inbound Email for Document Processing
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/inbound_emails_1.png)
+To begin using inbound email for document processing, follow these steps:
 
-## Configuration de l'E-mail entrant pour l'Importation de documents
+1. **Go to Settings**: Start by navigating to the app’s **Settings** menu.
+2. **Select Document Processing**: Under settings, choose **Document Processing** to access related configuration options.
+3. **Open Modules**: In the Document Processing section, click on **Modules**.
+4. **Scroll to Document Type**: Scroll down until you find **Document Type**.
+5. **Activate Inbound Email**: Find **Inbound Email** and activate it by toggling the switch.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/inbound_emails_2.png)
+<figure><img src="../../../../.gitbook/assets/inbound_emails_1.png" alt=""><figcaption></figcaption></figure>
 
-Après avoir activé l'e-mail entrant, configurez les paramètres pour contrôler comment les documents sont importés. Voici comment :
+## Configuring Inbound Email for Document Import
 
-1. **Retournez au Traitement des documents** : Dans les paramètres, naviguez vers **Traitement des documents**.
-2.  **Sélectionnez Importer** : Choisissez **Importer** pour accéder aux paramètres des e-mails entrants.
+<figure><img src="../../../../.gitbook/assets/inbound_emails_2.png" alt=""><figcaption></figcaption></figure>
 
-    Vous verrez les options suivantes :
+After activating inbound email, configure the settings to control how documents are imported. Here’s how:
 
-    * **Champ E-mail** : Ce champ affiche une adresse e-mail unique, générée par le système, basée sur l'ID de votre organisation. Le format est `org_id@environment.inbound.docbits.com`. Envoyez ou transférez des e-mails avec des documents à cette adresse pour une importation automatisée.
-    * **Importation de documents uniquement à partir d'e-mails prédéfinis** : Activez cette option pour restreindre les importations aux e-mails reçus uniquement d'adresses spécifiques et prédéfinies.
-    * **Répondre à cet e-mail si l'importation ne peut être effectuée** : Activez cette option si vous souhaitez que le système réponde automatiquement lorsqu'une tentative d'importation échoue.
-3. **Sauvegarder les paramètres** : Après avoir configuré ces options, cliquez sur **Sauvegarder** pour les appliquer.
+1. **Go back Document Processing**: In the settings, navigate to **Document Processing**.
+2.  **Select Import**: Choose **Import** to access inbound email settings.
 
-## E-mail(s) prédéfini(s)
+    You’ll see the following options:
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/inbound_emails_3.png)
+    * **Email Field**: This field displays a unique, system-generated email address based on your organization ID. The format is `org_id@environment.inbound.docbits.com`. Send or forward emails with documents to this address for automated import.
+    * **Import Document Only from Predefined E-Mail(s)**: Toggle this option to restrict imports to emails received only from specific, predefined addresses.
+    * **Reply to this Email if Import Cannot Be Done**: Toggle this option if you want the system to automatically reply when an import attempt fails.
+3. **Save Settings**: After configuring these options, click **Save** to apply them.
 
-Lorsque l'option **Importation de documents uniquement à partir d'e-mails prédéfinis** est activée, vous pouvez gérer quelles adresses e-mail sont autorisées à envoyer des documents à l'e-mail entrant.
+## Predefined E-Mail(s)
 
-1. **Entrez les E-mails autorisés** : Dans le champ **Mettre l'e-mail ici**, tapez chaque adresse e-mail que vous souhaitez autoriser.
-2. **Attribuer à une sous-organisation (facultatif)** :
-   * Si aucune sous-organisation n'est sélectionnée, le document sera attribué à l'organisation principale.
-   * Si une sous-organisation est sélectionnée, le document sera dirigé uniquement vers cette sous-organisation.
-3. **Ajouter un E-mail** : Cliquez sur **Ajouter** pour sauvegarder chaque e-mail dans la liste des adresses autorisées.
-4. **Supprimer un E-mail** : Pour retirer un e-mail autorisé, cliquez sur **Supprimer** à côté de l'entrée de l'e-mail.
+<figure><img src="../../../../.gitbook/assets/inbound_emails_3.png" alt=""><figcaption></figcaption></figure>
 
-Avec cette configuration, les documents provenant d'adresses e-mail non autorisées seront ignorés, garantissant que seules des sources spécifiques peuvent envoyer des documents pour importation.
+When the **Import Document Only from Predefined E-Mail(s)** option is enabled, you can manage which email addresses are authorized to send documents to the inbound email.
 
-## **Répondre à cet e-mail si l'importation ne peut être effectuée**
+1. **Enter Authorized Emails**: In the **Put E-mail here** field, type each email address you want to authorize.
+2. **Assign to Sub-Organization (Optional)**:
+   * If no sub-organization is selected, the document will be assigned to the main organization.
+   * If a sub-organization is selected, the document will be directed to that sub-organization only.
+3. **Add Email**: Click **Add** to save each email to the list of authorized addresses.
+4. **Delete Email**: To remove an authorized email, click **Delete** next to the email entry.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/inbound_emails_4.png)
+With this setup, documents from unauthorized email addresses will be ignored, ensuring only specific sources can send documents for import.
 
-Si vous activez **Répondre à cet e-mail si l'importation ne peut être effectuée**, un champ supplémentaire apparaît où vous pouvez entrer une adresse e-mail. Cette adresse e-mail recevra une notification si une tentative d'importation de document échoue, vous permettant de rester informé de tout problème dans le processus d'importation.
+## **Reply to this email if import can not be done**
 
-1. **Activer la notification d'échec** : Activez **Répondre à cet e-mail si l'importation ne peut être effectuée**.
-2. **Entrez l'E-mail de notification** : Dans le nouveau champ, entrez l'adresse e-mail où vous souhaitez recevoir les notifications d'échec.
+<figure><img src="../../../../.gitbook/assets/inbound_emails_4.png" alt=""><figcaption></figcaption></figure>
 
-Avec cette fonctionnalité activée, toute tentative d'importation échouée déclenchera une réponse automatique à l'e-mail spécifié, vous aidant à résoudre rapidement les problèmes d'importation.
+If you enable **Reply to this email if import can not be done**, an additional field appears where you can enter an email address. This email address will receive a notification if any document import attempt fails, allowing you to stay informed of any issues in the import process.
 
-**Après avoir configuré tous les paramètres, n'oubliez pas de cliquer sur Sauvegarder pour appliquer vos modifications.**
+1. **Enable Failure Notification**: Toggle on **Reply to this email if import can not be done**.
+2. **Enter Notification Email**: In the new field, enter the email address where you’d like to receive failure notifications.
+
+With this feature enabled, any failed import attempts will trigger an automatic reply to the specified email, helping you quickly address import issues.
+
+**After configuring all settings, don’t forget to click Save to apply your changes.**
