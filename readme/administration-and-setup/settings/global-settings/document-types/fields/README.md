@@ -1,30 +1,30 @@
+
+# (Polski)
+
 # Fields
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2009.02.31.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.02.31.png" alt=""><figcaption></figcaption></figure>
 
-#### Przegląd
+## Overview
 
-Ustawienie Pola zapewnia interfejs użytkownika, w którym administratorzy mogą zarządzać właściwościami i zachowaniem poszczególnych pól danych powiązanych z typem dokumentu. Każde pole można dostosować, aby zoptymalizować dokładność i wydajność przechwytywania danych oraz walidacji.
+The Fields setting provides a user interface where administrators can manage the properties and behavior of individual data fields associated with a document type. Each field can be adjusted to optimize the accuracy and efficiency of data capture and validation.
 
-#### Główne funkcje i opcje
+{% hint style="info" %}
+[Fields with Charges](new-fields-with-charges.md)
+{% endhint %}
 
-1. **Konfiguracja pól**:
+## Key Features and Options
 
-* **Nazwy pól**: Wyświetla nazwy pól, zazwyczaj odpowiadające elementom danych w dokumencie, takie jak "Numer faktury" lub "Data zamówienia".
-* **Wymagane**: Administratorzy mogą oznaczyć pola jako wymagane, zapewniając, że dane muszą zostać wprowadzone lub przechwycone, aby ukończyć przetwarzanie dokumentu.
-* **Tylko do odczytu**: Pola można ustawić jako tylko do odczytu, aby zapobiec modyfikacji po przechwyceniu danych lub podczas określonych etapów przetwarzania dokumentu.
-* **Ukryte**: Pola można ukryć w interfejsie użytkownika, co jest przydatne dla poufnych informacji lub w celu uproszczenia procesów użytkownika.
-
-2. **Zaawansowane ustawienia**:
-
-* **Wymuszenie walidacji**: Zapewnia, że dane wprowadzone do pola przechodzą określone reguły walidacji przed zaakceptowaniem.
-* **OCR (Optyczne rozpoznawanie znaków)**: Ten przełącznik można włączyć, aby umożliwić przetwarzanie OCR dla określonego pola, co jest przydatne do automatycznego wyodrębniania danych zeskanowanych lub cyfrowych dokumentów.
-* **Wynik dopasowania**: Administratorzy mogą zdefiniować wynik dopasowania, czyli próg używany do określenia poziomu pewności rozpoznawania lub dopasowania danych, wpływający na sposób wykonywania walidacji danych i kontroli jakości.
-
-3. **Przyciski akcji**:
-
-* **Utwórz nowe pole**: Umożliwia dodanie nowych pól do typu dokumentu.
-* **Ikony edycji**: Każde pole ma ikonę edycji, która umożliwia administratorom dalszą konfigurację ustawień specyficznych dla pola, takich jak typ danych, wartości domyślne lub powiązana logika biznesowa.
-* **Zapisz ustawienia**: Zatwierdza dokonane zmiany w konfiguracjach pola.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2494" %}
+1. **Fields Configuration**:
+   * **Field Names**: Lists the names of the fields, typically corresponding to the data elements within the document, like "Invoice Number" or "Purchase Order Date".
+   * **Required**: Administrators can mark fields as required, making sure that data must be entered or captured for these fields to complete the document processing.
+   * **Read Only**: Fields can be set to read-only to prevent modification after data capture or during certain stages of document processing.
+   * **Hidden**: Fields can be hidden from view in the user interface, useful for sensitive information or for simplifying user workflows.
+2. **Advanced Settings**:
+   * **Force Validation**: Ensures that data entered into a field passes certain validation rules before being accepted.
+   * **OCR (Optical Character Recognition)**: This toggle can be switched on to enable OCR processing for a specific field, useful for automated data extraction from scanned or digital documents.
+   * **Match Score**: Administrators can define a match score, a threshold used to determine the confidence level of data recognition or matching, impacting how data validation and quality checks are performed.
+3. **Action Buttons**:
+   * **Create New Field**: Allows adding new fields to the document type.
+   * **Edit Icons**: Each field has an edit icon that allows administrators to further configure field-specific settings, such as data type, default values, or connected business logic.
+   * **Save Settings**: Commits the changes made to the field configuration
