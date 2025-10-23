@@ -1,1 +1,9 @@
-# Script de Documentación
+
+# (Español)
+
+---
+hidden: true
+---
+
+# Doc Script
+
