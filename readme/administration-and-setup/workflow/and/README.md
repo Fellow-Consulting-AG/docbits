@@ -1,6 +1,3 @@
-
-# (Polski)
-
 # And
 
 ## Understanding "And" Cards

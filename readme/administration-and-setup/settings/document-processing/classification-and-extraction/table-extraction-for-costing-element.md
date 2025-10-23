@@ -1,6 +1,3 @@
-
-# (Polski)
-
 # Table extraction for costing element
 
 ### **What Does It Do?**

@@ -1,6 +1,3 @@
-
-# (Polski)
-
 # Master Data Lookup
 
 ## Overview

@@ -1,6 +1,3 @@
-
-# (Polski)
-
 # Email Notification
 
 <figure><img src="../../../../.gitbook/assets/E-Mail Notifications.png" alt=""><figcaption></figcaption></figure>

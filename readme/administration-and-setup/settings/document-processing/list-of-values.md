@@ -1,6 +1,3 @@
-
-# (Polski)
-
 # List Of Values
 
 ## Overview

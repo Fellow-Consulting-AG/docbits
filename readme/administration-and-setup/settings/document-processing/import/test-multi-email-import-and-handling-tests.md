@@ -1,6 +1,3 @@
-
-# (Polski)
-
 # Test: Email Import and Handling Tests
 
 ## What's Being Tested?
