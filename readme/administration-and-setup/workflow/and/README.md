@@ -1,3 +1,7 @@
+---
+description: Konfiguracja warunków I w przepływach pracy DocBits
+---
+
 # And
 
 ## Understanding "And" Cards

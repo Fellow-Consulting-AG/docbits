@@ -1,3 +1,7 @@
+---
+description: Konfiguracja wyzwalacza Kiedy w przepływach pracy DocBits
+---
+
 # Kiedy
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 16.25.45.png" alt=""><figcaption></figcaption></figure>

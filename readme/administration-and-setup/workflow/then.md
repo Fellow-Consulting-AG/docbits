@@ -1,3 +1,7 @@
+---
+description: Konfiguracja akcji Wtedy w przepływach pracy DocBits
+---
+
 # Then
 
 ## Overview of "Then..." Action Cards
