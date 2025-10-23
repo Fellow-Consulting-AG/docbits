@@ -1,31 +1,45 @@
-# Módulo
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.42.png" alt=""><figcaption></figcaption></figure>
+# (Português)
 
-* **Contabilidade Automática**: O DocBits oferece funcionalidade de contabilidade automatizada, simplificando o processo de lidar com transações financeiras associadas a pedidos de compra (POs) e outros documentos.
-* **Integração com M3**: Integração com o M3, uma solução de software ERP, permitindo interação perfeita entre o DocBits e o M3 para aprimoramento da gestão e processamento de documentos.
-* **Painel de PO**: Um painel centralizado dentro do DocBits especificamente projetado para gerenciar e monitorar pedidos de compra, fornecendo insights e análises para um acompanhamento e tomada de decisão eficientes.
-* **Painel de Ordem de Envio**: Semelhante ao Painel de PO, esse recurso foca em gerenciar e monitorar ordens de envio, facilitando operações logísticas suaves.
+# Module
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.52.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
 
-* **Painéis v2**: Uma versão atualizada da interface do painel, provavelmente com uma experiência de usuário aprimorada e recursos adicionais para uma usabilidade aprimorada.
-* **Painel de Envio Avançado**: Um painel especializado para monitoramento avançado e gerenciamento de atividades relacionadas ao envio, oferecendo insights e funcionalidades mais aprofundadas.
+* **M3 Integration**: Integration with M3, an ERP software solution, allowing seamless interaction between DocBits and M3 for enhanced document management and processing.
+* **PO Dashboard**: A centralized dashboard within DocBits specifically designed to manage and monitor purchase orders, providing insights and analytics for efficient tracking and decision-making.
+* **Shipment Order Dashboard**: Similar to the PO Dashboard, this feature focuses on managing and monitoring shipment orders, facilitating smooth logistics operations.
+
+<figure><img src="../../../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
+
+* **Auto Accounting**: DocBits offers automated accounting functionality, streamlining the process of handling financial transactions associated with purchase orders (POs) and other documents.
+
+<figure><img src="../../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+
+* **Advance Shipment Dashboard**: A specialized dashboard for advanced monitoring and management of shipment-related activities, offering deeper insights and functionalities.
+* **Invoice Dashboard:** A specialized dashboard for advanced monitoring and management of invoices-related activities, offering deeper insights and functionalities.
+
+<figure><img src="../../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+
+* **Dashboards v2**: An updated version of the dashboard interface, likely with improved user experience and additional features for enhanced usability.
+* [**SQL Direct access:** A direct access to the Database.](how-to-create-database-access-for-a-specific-organization-user/)
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02.png" alt=""><figcaption></figcaption></figure>
 
-* **Portal de Fornecedores**: Um portal dentro do DocBits dedicado aos fornecedores, permitindo que eles interajam e colaborem com o sistema, aprimorando a comunicação e eficiência na cadeia de suprimentos.
+<figure><img src="../../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.17.png" alt=""><figcaption></figcaption></figure>
-
-* **Construtor de Fluxo de Trabalho**: Uma ferramenta para criar e personalizar fluxos de trabalho dentro do DocBits, permitindo que os usuários definam processos específicos e automatizem o manuseio de documentos de acordo com seus requisitos comerciais exclusivos.
-* **Construtor de Layout**: Permite aos usuários projetar e personalizar o layout de documentos dentro do DocBits, garantindo alinhamento com padrões de marca e usabilidade.
-* **Modo de Anotação**: Um recurso que permite aos usuários fazer anotações e marcações diretamente na interface do DocBits, facilitando a colaboração e feedback.
-* **Mostrar relatório**: Funcionalidade para gerar e exibir relatórios dentro do DocBits, fornecendo insights e análises sobre vários aspectos do processamento e gerenciamento de documentos.
-* **Modelos e Etiquetas**: Ferramentas para definir e configurar modelos de reconhecimento de documentos e etiquetas dentro do DocBits, aprimorando a precisão e eficiência no processamento de documentos.
-* **Script de Documento**: Provavelmente um recurso para script e automatizar ações ou processos específicos relacionados ao manuseio de documentos dentro do DocBits.
-* **Digitalização de Documentos**: Capacidade de digitalizar documentos físicos e importá-los para o DocBits para processamento e gerenciamento digital.
-* **Extração de QR-Code**: Um recurso para extrair informações de códigos QR incorporados em documentos, permitindo a captura e processamento automatizados de dados.
-* **Dados Mestres Personalizados**: Permite aos usuários definir e gerenciar campos e atributos de dados mestres personalizados dentro do DocBits, adaptando o sistema às necessidades comerciais específicas.
-* **Tarefas e Notificações**: Funcionalidade para gerenciar tarefas e receber notificações dentro do DocBits, garantindo ação e comunicação oportuna em relação às atividades de processamento de documentos.
-* **Atualizador de ACL do IDM**: Este módulo provavelmente lida com a atualização e gerenciamento de listas de controle de acesso (ACLs) dentro do DocBits, garantindo permissões adequadas e segurança para acesso e manuseio de documentos.
+* **Supplier Portal**: A portal within DocBits dedicated to suppliers, enabling them to interact and collaborate with the system, enhancing communication and efficiency in the supply chain.
+* **Workflow Builder**: A tool for creating and customizing workflows within DocBits, allowing users to define specific processes and automate document handling according to their unique business requirements.
+* **Run Workflows in Celery:** This feature lets you run workflows in Celery.
+* **Layout Builder**: Enables users to design and customize the layout of documents within DocBits, ensuring alignment with branding and usability standards.
+* **Inbound Emails:** This feature gives you the ability to handle your Inbound Emails.
+* **Annotation Mode**: A feature that allows users to annotate and mark up documents directly within the DocBits interface, facilitating collaboration and feedback.
+* **Show report**: Functionality to generate and display reports within DocBits, providing insights and analytics on various aspects of document processing and management.
+* **Models & Labels**: Tools for defining and configuring document recognition models and labels within DocBits, enhancing accuracy and efficiency in document processing.
+* **Document script**: Likely a feature for scripting and automating specific actions or processes related to document handling within DocBits.
+* **Document scan**: Capability to scan physical documents and import them into DocBits for digital processing and management.
+* **QR-Code extraction**: A feature for extracting information from QR codes embedded in documents, enabling automated data capture and processing.
+* **Custom Master Data**: Allows users to define and manage custom master data fields and attributes within DocBits, tailoring the system to their specific business needs.
+* **Tasks & Notifications**: Functionality for managing tasks and receiving notifications within DocBitsGBT, ensuring timely action and communication regarding document processing activities.
+* **IDM ACL Updater**: This module likely deals with updating and managing access control lists (ACLs) within DocBits, ensuring proper permissions and security for document access and handling.
