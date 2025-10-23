@@ -1,45 +1,48 @@
-# Wyszukiwanie danych głównych
 
-## Przegląd
+# (Polski)
 
-" Wyszukiwanie danych głównych" w Twoich ustawieniach przetwarzania dokumentów umożliwia kompleksowe i zintegrowane podejście do zarządzania danymi dokumentów i ich walidacji poprzez synchronizację z systemem Infor ERP. Oto, jak pomaga usprawnić weryfikację i wzbogacanie przetwarzania dokumentów w środowisku ERP:
+# Master Data Lookup
 
-1. **Scentralizowane zarządzanie danymi**: Ta funkcja pełni rolę centralnego repozytorium, w którym mogą być przechowywane i zarządzane dane z różnych źródeł, takich jak dostawcy, adresy klientów, kody podatkowe i inne. Zapewnia pojedynczy punkt odniesienia dla wszystkich danych głównych, gwarantując spójność i dokładność w całej organizacji.
-2. **Weryfikacja względem danych ERP**: Synchronizując dane główne, takie jak informacje o dostawcach, z Infor do DocBits, możesz automatycznie weryfikować dane wyodrębnione z dokumentów względem danych z ERP. Zapewnia to zgodność przetwarzanych informacji (np. nazwy dostawców, adresy, kody podatkowe) z danymi przechowywanymi w systemie ERP, minimalizując błędy i rozbieżności.
-3. **Ułatwia automatyzację**: Solidny system wyszukiwania danych głównych pomaga automatyzować przetwarzanie napływających dokumentów. Na przykład zamówienia zakupu lub faktury mogą być automatycznie sprawdzane pod kątem poprawności danych dostawcy, zatwierdzane, jeśli się zgadzają, lub oznaczane do weryfikacji w przypadku wykrycia rozbieżności.
-4. **Zwiększa integralność danych**: Regularne aktualizacje z systemu ERP do Wyszukiwania danych głównych zapewniają, że dane używane do przetwarzania dokumentów są aktualne. Zmniejsza to ryzyko przetwarzania dokumentów na podstawie nieaktualnych informacji, zwiększając integralność transakcji biznesowych.
-5. **Większa efektywność w przetwarzaniu dokumentów**: Dzięki bezpośredniemu i stałemu powiązaniu z danymi głównymi przetwarzanie dokumentów staje się bardziej wydajne. Dokumenty mogą być automatycznie klasyfikowane i kierowane na podstawie określonych w danych głównych kryteriów, takich jak warunki współpracy z dostawcą czy przepisy podatkowe mające zastosowanie do różnych typów transakcji.
+## Overview
+
+The "Master Data Lookup" in your document processing settings allows for a comprehensive and integrated approach to managing and validating your document data by syncing it with your Infor ERP system. Here’s how it helps streamline the validation and enhancement of document processing within your ERP environment:
+
+1. **Centralized Data Management**: This feature acts as a central repository where data from various sources like suppliers, customer addresses, tax codes, and more can be stored and managed. It provides a single point of reference for all master data, ensuring consistency and accuracy across your organization.
+2. **Validation Against ERP Data**: By syncing master data such as supplier information from Infor to DocBits, you can automatically validate the data extracted from documents against your ERP data. This ensures that the information processed (like supplier names, addresses, and tax codes) matches the data held in your ERP system, minimizing errors and discrepancies.
+3. **Facilitates Automation**: Having a robust master data lookup system helps in automating the processing of incoming documents. For instance, purchase orders or invoices can be automatically checked for supplier data correctness, approved if they match, or flagged for review if discrepancies are found.
+4. **Enhances Data Integrity**: Regular updates from your ERP system to the master data lookup ensure that the data used for document processing is up-to-date. This reduces the risk of processing documents based on outdated information, thus enhancing the overall integrity of business transactions.
+5. **Efficiency in Document Processing**: With master data directly linked and constantly refreshed, document processing becomes more efficient. Documents can be automatically classified and routed based on the specific criteria set in the master data, such as specific supplier terms or tax regulations applicable to different types of transactions.
 
 {% hint style="info" %}
-Zobacz tutaj, jak [zaimportować dane główne](../../../infor-integration-and-configuration/importing-customer-master-data/)
+See here how to [Import Master Data](../../../infor-integration-and-configuration/importing-customer-master-data/)
 {% endhint %}
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_1.png)
+<figure><img src="../../../.gitbook/assets/master_data_lookup_1.png" alt=""><figcaption></figcaption></figure>
 
-## **Dostęp do Wyszukiwania danych głównych**
+## **Accessing Master Data Lookup**
 
-Aby przejść do sekcji **Wyszukiwanie danych głównych**, przejdź do:\
-**Ustawienia → Przetwarzanie dokumentów → Wyszukiwanie danych głównych**
+To access the **Master Data Lookup** section, navigate to:\
+**Settings → Document Processing → Master Data Lookup**
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_mater_data_lookup.png)
+<figure><img src="../../../.gitbook/assets/settings_mater_data_lookup.png" alt=""><figcaption></figcaption></figure>
 
-## **Ustawienia**
+## **Settings**
 
-Aby uzyskać dostęp do ustawień dla **Wyszukiwania danych głównych**, kliknij **Ustawienia** znajdujące się w lewym dolnym rogu ekranu **Wyszukiwanie danych głównych**.\
-Dostępne są następujące opcje konfiguracji:
+To access the settings for the **Master Data Lookup**, click **Settings** located in the lower-left corner of the **Master Data Lookup** screen.\
+The following configuration options are available:
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_2.png)
+<figure><img src="../../../.gitbook/assets/master_data_lookup_2.png" alt=""><figcaption></figcaption></figure>
 
-### **BOD dostawcy**
+### **Supplier BOD**
 
-* **Zezwól na synchronizację wielu kont dostawców**:
-  * **Włączone**:\
-    Jeden dostawca może mieć wiele elementów `<FinancialParty>` w BOD (Business Object Document), często z powodu wielu powiązanych IBAN-ów lub rachunków finansowych. Gdy ta opcja jest włączona, wszystkie wpisy `<FinancialParty>` dla dostawcy zostaną wyodrębnione i zapisane w tabeli dostawców, co pozwala przechowywać wiele atrybutów finansowych.
-  * **Wyłączone**:\
-    Tylko ostatni element `<FinancialParty>` znaleziony dla danego dostawcy w BOD zostanie wyodrębniony. Wszelkie wcześniejsze atrybuty finansowe (np. dodatkowe IBAN-y) zostaną pominięte, a do tabeli dostawców zostaną zapisane wyłącznie dane z ostatniego wystąpienia.
+* **Allow Multiple Supplier Accounts Sync**:
+  * **Enabled**:\
+    A single supplier may have multiple `<FinancialParty>` elements in the BOD (Business Object Document), often due to multiple associated IBANs or financial accounts. When this setting is enabled, all `<FinancialParty>` entries for the supplier will be extracted and saved to the supplier table, allowing multiple financial attributes to be stored.
+  * **Disabled**:\
+    Only the last `<FinancialParty>` element found for the supplier in the BOD will be extracted. Any previous financial attributes (e.g., additional IBANs) will be ignored, and only the data from the last occurrence will be saved to the supplier table.
 
-### **Usunięcie zamówienia zakupu**
+### **Purchase Order Deletion**
 
-*   **Usuń zamówienie zakupu po**: Określ, kiedy zamknięte zamówienia zakupu powinny zostać usunięte. Po upływie wybranego okresu rekordy zostaną usunięte automatycznie.
+*   **Delete Purchase Orders After**: Specify when closed Purchase Orders should be deleted. After the selected time span, the records will be removed automatically.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_3.png)
+    <figure><img src="../../../.gitbook/assets/master_data_lookup_3.png" alt=""><figcaption></figcaption></figure>
