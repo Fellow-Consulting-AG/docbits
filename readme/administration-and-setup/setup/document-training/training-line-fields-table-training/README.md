@@ -1,59 +1,63 @@
-# Formation des Champs de Ligne/Table de Formation
+# Training Line Fields/Table Training
 
-## Table de Formation : Quand et Comment l'Utiliser
+## Table Training: When and How to Use It
 
-DocBits utilise par défaut une extraction de table basée sur l'IA, qui fonctionne avec tous les fournisseurs. Cependant, lorsque vous avez besoin d'un contrôle plus précis sur la façon dont les éléments de ligne sont extraits pour un fournisseur spécifique, vous pouvez utiliser **la Formation de Table** pour définir manuellement la structure.
+DocBits uses AI-based table extraction by default, which works across suppliers. However, when you need more control over how line items are extracted for a specific supplier, you can use **Table Training** to define the structure manually.
 
-#### **Important : Formation Spécifique au Fournisseur**
+#### &#x20;**Important: Supplier-Specific Training**
 
-La formation de table est **spécifique à chaque fournisseur**. Si vous formez une mise en page de table pour un fournisseur, les règles s'appliquent uniquement aux documents de ce fournisseur.\
-Les autres fournisseurs continueront à utiliser l'extraction de table basée sur l'IA à moins d'être formés séparément.
+Table training is **specific to each supplier**. If you train a table layout for one supplier, the rules apply only to that supplier’s documents.\
+Other suppliers will continue to use AI-based table extraction unless trained separately.
 
-#### Quand Devriez-vous Utiliser la Formation de Table ?
+#### When Should You Use Table Training?
 
-Utilisez la Formation de Table **uniquement lorsque la mise en page du document est stable**, et que vous souhaitez garantir une extraction cohérente et de haute qualité. Elle est particulièrement adaptée aux fournisseurs qui :
+Use Table Training **only when the document layout is stable**, and you want to ensure consistent, high-quality extraction. It is best suited for suppliers who:
 
-* Utilisent un **format de facture fixe** dans le temps.
-* Nécessitent un **mappage précis** des éléments de ligne vers des champs spécifiques.
-* Sont des fournisseurs **à volume élevé**, où l'automatisation constante est précieuse.
+* Use a **fixed invoice format** over time.
+* Require **precise mapping** of line items to specific fields.
+* Are **high-volume suppliers**, where consistent automation is valuable.
 
-#### Quand ne pas Utiliser la Formation de Table
+#### When Not to Use Table Training
 
-Évitez d'utiliser la Formation de Table si :
+Avoid using Table Training if:
 
-* Le fournisseur **change fréquemment la mise en page de sa facture** (par exemple, tous les quelques mois).
-* Vous ne recevez pas régulièrement des documents de ce fournisseur.
-* L'extraction par IA par défaut fonctionne **suffisamment bien** sans formation manuelle.
+* The supplier **frequently changes their invoice layout** (e.g., every couple of months).
+* You do not regularly receive documents from that supplier.
+* The default AI extraction works **well enough** without manual training.
 
-Dans de tels cas, reformer la table de manière répétée serait inefficace et chronophage.
+In such cases, retraining the table repeatedly would be inefficient and time-consuming.
 
-## Comment l'Utiliser :
 
-Le **Mode de Formation** est utilisé pour apprendre à DocBits comment extraire correctement les éléments de ligne de la mise en page d'un document spécifique d'un fournisseur.
 
-Lorsque vous êtes en Mode de Formation, vous définissez :
+## How to use It:
 
-* **Où se trouve la table** sur le document.
-* **Quelles zones correspondent à chaque colonne** (par exemple, Quantité, Description, Prix unitaire).
+**Training Mode** is used to teach DocBits how to correctly extract line items from a specific supplier’s document layout.
 
-Ce mode crée un **modèle d'extraction réutilisable** pour ce fournisseur, de sorte que les futurs documents avec la même mise en page seront traités automatiquement, pas besoin de reformer.
+When you're in Training Mode, you define:
 
-**Caractéristiques Clés :**
+* **Where the table is located** on the document.
+* **Which areas correspond to each column** (e.g., Quantity, Description, Unit Price).
 
-* Les **colonnes mappées sont en lecture seule** — vous ne pouvez pas modifier manuellement le texte.
-* Vous **ne pouvez pas ajouter ou supprimer des lignes**.
-* L'accent est mis sur **le mappage des positions**, pas sur la correction des valeurs.
-* Une fois que vous avez terminé de mapper la table et ses colonnes, cliquez sur **"Enregistrer les Règles"** pour que DocBits apprenne et applique cette formation à des documents similaires du même fournisseur.
+This mode creates a **reusable extraction template** for that supplier, so future documents with the same layout will be processed automatically — no need to retrain.
 
-Le **Mode de Correction** vous permet de **corriger les erreurs d'extraction** dans les données de la table pour le document en cours. Il est utilisé lorsque DocBits a déjà tenté d'extraire la table, mais que les résultats nécessitent de petites corrections.
+**Key Characteristics:**
 
-Utilisez le Mode de Correction lorsque :
+* **Mapped columns are read-only** — you can’t manually change the text.
+* You **cannot add or delete rows**.
+* The focus is on **mapping positions**, not correcting values.
+* Once you’ve finished mapping the table and its columns, click **“Save Rules”** so DocBits learns and applies this training to similar documents from the same supplier.
 
-* Certains **valeurs manquent ou sont mal alignées**.
-* Une **ligne vide ou en double** a été extraite et doit être supprimée.
 
-**Ce que Vous Pouvez Faire en Mode de Correction :**
 
-* **Ajuster manuellement les valeurs** dans les colonnes mappées (par exemple, corriger les mauvais positionnements).
-* **Supprimer des lignes** qui ne devraient pas faire partie de la table.
-* **Ajouter des lignes** qui ont été entièrement manquées lors de l'extraction.
+**Correction Mode** allows you to **fix extraction errors** in the table data for the current document. It’s used when DocBits has already attempted to extract the table, but the results need small corrections.
+
+Use Correction Mode when:
+
+* Some **values are missing or misaligned**.
+* An **empty or duplicate line** was extracted and needs to be removed.
+
+**What You Can Do in Correction Mode:**
+
+* **Manually adjust values** in mapped columns (e.g., fix misplacements).
+* **Delete rows** that shouldn’t be part of the table.
+* **Add rows** that were missed entirely during extraction.
