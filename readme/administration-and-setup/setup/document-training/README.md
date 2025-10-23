@@ -1,3 +1,5 @@
-# Treinamento de documentos
+# Document Training
 
-Um guia para treinar novos documentos com DocBits.
+A guide to training new documnets with DocBits.
+
+
