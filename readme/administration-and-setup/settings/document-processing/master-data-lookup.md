@@ -1,45 +1,48 @@
-# Búsqueda de datos maestro
 
-## Descripción general
+# (Español)
 
-La "Búsqueda de datos maestro" en tus Ajustes de Procesamiento de documentos permite un enfoque integral e integrado para gestionar y validar los datos de tus documentos sincronizándolos con tu sistema Infor ERP. Así ayuda a agilizar la validación y la mejora del procesamiento de documentos dentro de tu entorno ERP:
+# Master Data Lookup
 
-1. **Gestión de datos centralizada**: Esta función actúa como un repositorio central donde se pueden almacenar y gestionar datos de diversas fuentes como proveedores, direcciones de clientes, códigos fiscales y más. Proporciona un único punto de referencia para todos los datos maestros, garantizando la coherencia y la exactitud en toda tu organización.
-2. **Validación contra los datos del ERP**: Al sincronizar datos maestros como la información de proveedores desde Infor a DocBits, puedes validar automáticamente los datos extraídos de los documentos contra los datos de tu ERP. Esto garantiza que la información procesada (como nombres de proveedores, direcciones y códigos fiscales) coincida con los datos almacenados en tu sistema ERP, minimizando errores y discrepancias.
-3. **Facilita la automatización**: Contar con un sistema sólido de búsqueda de datos maestro ayuda a automatizar el procesamiento de documentos entrantes. Por ejemplo, las órdenes de compra o las facturas pueden verificarse automáticamente para comprobar la corrección de los datos del proveedor, aprobarse si coinciden o marcarse para revisión si se encuentran discrepancias.
-4. **Mejora la integridad de los datos**: Las actualizaciones periódicas desde tu sistema ERP hacia la búsqueda de datos maestro aseguran que los datos usados para el procesamiento de documentos estén actualizados. Esto reduce el riesgo de procesar documentos basados en información desactualizada, mejorando así la integridad general de las transacciones comerciales.
-5. **Eficiencia en el procesamiento de documentos**: Con los datos maestros vinculados directamente y actualizándose constantemente, el procesamiento de documentos se vuelve más eficiente. Los documentos pueden clasificarse y enrutarse automáticamente según los criterios específicos definidos en los datos maestros, como condiciones particulares de proveedores o normativas fiscales aplicables a distintos tipos de transacciones.
+## Overview
+
+The "Master Data Lookup" in your document processing settings allows for a comprehensive and integrated approach to managing and validating your document data by syncing it with your Infor ERP system. Here’s how it helps streamline the validation and enhancement of document processing within your ERP environment:
+
+1. **Centralized Data Management**: This feature acts as a central repository where data from various sources like suppliers, customer addresses, tax codes, and more can be stored and managed. It provides a single point of reference for all master data, ensuring consistency and accuracy across your organization.
+2. **Validation Against ERP Data**: By syncing master data such as supplier information from Infor to DocBits, you can automatically validate the data extracted from documents against your ERP data. This ensures that the information processed (like supplier names, addresses, and tax codes) matches the data held in your ERP system, minimizing errors and discrepancies.
+3. **Facilitates Automation**: Having a robust master data lookup system helps in automating the processing of incoming documents. For instance, purchase orders or invoices can be automatically checked for supplier data correctness, approved if they match, or flagged for review if discrepancies are found.
+4. **Enhances Data Integrity**: Regular updates from your ERP system to the master data lookup ensure that the data used for document processing is up-to-date. This reduces the risk of processing documents based on outdated information, thus enhancing the overall integrity of business transactions.
+5. **Efficiency in Document Processing**: With master data directly linked and constantly refreshed, document processing becomes more efficient. Documents can be automatically classified and routed based on the specific criteria set in the master data, such as specific supplier terms or tax regulations applicable to different types of transactions.
 
 {% hint style="info" %}
-Consulta aquí cómo [Importar datos maestros](../../../infor-integration-and-configuration/importing-customer-master-data/)
+See here how to [Import Master Data](../../../infor-integration-and-configuration/importing-customer-master-data/)
 {% endhint %}
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_1.png)
+<figure><img src="../../../.gitbook/assets/master_data_lookup_1.png" alt=""><figcaption></figcaption></figure>
 
-## **Acceso a Búsqueda de datos maestro**
+## **Accessing Master Data Lookup**
 
-Para acceder a la sección de **Búsqueda de datos maestro**, navega a:\
-**Ajustes → Procesamiento de documentos → Búsqueda de datos maestro**
+To access the **Master Data Lookup** section, navigate to:\
+**Settings → Document Processing → Master Data Lookup**
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_mater_data_lookup.png)
+<figure><img src="../../../.gitbook/assets/settings_mater_data_lookup.png" alt=""><figcaption></figcaption></figure>
 
-## **Ajustes**
+## **Settings**
 
-Para acceder a los ajustes de **Búsqueda de datos maestro**, haz clic en **Ajustes** ubicado en la esquina inferior izquierda de la pantalla de **Búsqueda de datos maestro**.\
-Las siguientes opciones de configuración están disponibles:
+To access the settings for the **Master Data Lookup**, click **Settings** located in the lower-left corner of the **Master Data Lookup** screen.\
+The following configuration options are available:
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_2.png)
+<figure><img src="../../../.gitbook/assets/master_data_lookup_2.png" alt=""><figcaption></figcaption></figure>
 
-### **Proveedor BOD**
+### **Supplier BOD**
 
-* **Permitir la sincronización de varias cuentas de proveedores**:
-  * **Habilitado**:\
-    Un único proveedor puede tener múltiples elementos `<FinancialParty>` en el BOD (Business Object Document), a menudo debido a varios IBAN o cuentas financieras asociadas. Cuando este ajuste está habilitado, todas las entradas `<FinancialParty>` del proveedor se extraerán y guardarán en la tabla de proveedores, permitiendo almacenar múltiples atributos financieros.
-  * **Deshabilitado**:\
-    Solo se extraerá el último elemento `<FinancialParty>` encontrado para el proveedor en el BOD. Cualquier atributo financiero previo (p. ej., IBAN adicionales) será ignorado y solo los datos de la última ocurrencia se guardarán en la tabla de proveedores.
+* **Allow Multiple Supplier Accounts Sync**:
+  * **Enabled**:\
+    A single supplier may have multiple `<FinancialParty>` elements in the BOD (Business Object Document), often due to multiple associated IBANs or financial accounts. When this setting is enabled, all `<FinancialParty>` entries for the supplier will be extracted and saved to the supplier table, allowing multiple financial attributes to be stored.
+  * **Disabled**:\
+    Only the last `<FinancialParty>` element found for the supplier in the BOD will be extracted. Any previous financial attributes (e.g., additional IBANs) will be ignored, and only the data from the last occurrence will be saved to the supplier table.
 
-### **Eliminación de orden de compra**
+### **Purchase Order Deletion**
 
-*   **Eliminar orden de compra después**: Especifica cuándo deben eliminarse las órdenes de compra cerradas. Transcurrido el período seleccionado, los registros se eliminarán automáticamente.
+*   **Delete Purchase Orders After**: Specify when closed Purchase Orders should be deleted. After the selected time span, the records will be removed automatically.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_3.png)
+    <figure><img src="../../../.gitbook/assets/master_data_lookup_3.png" alt=""><figcaption></figcaption></figure>
