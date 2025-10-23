@@ -1,187 +1,190 @@
-# Classificação e Extração
 
-## Visão geral
+# (Português)
 
-Nas configurações de **Classificação e Extração**, você pode:
+# Classification And Extraction
 
-* Ativar a **Divisão de documentos** baseada em QR codes
-* Configurar a **Formatação de Quantidade**
-* Configurar a **Extração de tabela**
-* Alternar o processamento de arquivos **ZUGFeRD** não suportados
-* Definir regras de classificação especiais
-* Monitorar **Modelos de IA** treinados sob medida usados no processo de classificação
+## Overview
 
-Esta página fornece uma explicação detalhada de todas as configurações disponíveis.
+In the **Classification and Extraction** settings, you can:
 
-## **Acessando as Configurações de Classificação e Extração**
+* Enable **Document Splitting** based on QR codes
+* Configure **amount formatting**
+* Set up **table extraction**
+* Toggle processing of unsupported **ZUGFeRD** files
+* Define special classification rules
+* Monitor Custom-Trained **AI Models** used in the classification process
 
-Para acessar as configurações de **Classificação e Extração**, vá para:\
-**Configurações → Processamento de documentos → Classificação e Extração**
+This page provides a detailed explanation of all available settings.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_classification_and_extraction.png)
+## **Accessing Classification and Extraction Settings**
 
-## Divisão de documentos
+To access the **Classification and Extraction** settings, go to:\
+**Settings → Document Processing → Classification and Extraction**
 
-Na seção **Divisão de documentos**, você pode configurar se um documento enviado deve ser dividido em vários documentos sempre que um **código de barras** aparecer em uma de suas páginas.
+<figure><img src="../../../../.gitbook/assets/settings_classification_and_extraction.png" alt=""><figcaption></figcaption></figure>
 
-Para ativar este recurso:
+## Document Splitting
 
-1. Vá para a seção **Divisão de documentos**.
-2.  Abra o menu suspenso.
+In the **Document Splitting** section, you can configure whether an uploaded document should be split into multiple documents whenever a **barcode** appears on one of its pages.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_14.png)
-3.  Selecione **Dividido por código de barras/QR-Code**.
+To activate this feature:
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_15.png)
+1. Go to the **Document Splitting** section.
+2.  Open the dropdown menu.
 
-Você terá então a opção de:
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_14.png" alt=""><figcaption></figcaption></figure>
+3.  Select **Split by Barcode/QR Code**.
 
-* Selecionar um ou mais tipos de código de barras a serem detectados.
-*   Especificar um padrão regex que o código de barras deve corresponder para acionar a divisão de documentos.
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_15.png" alt=""><figcaption></figcaption></figure>
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_16.png)
+You will then have the option to:
 
-## Formatação de Quantidade
+* Select one or more barcode types to be detected.
+*   Specify a regex pattern that the barcode must match in order to trigger document splitting.
 
-Na seção **Formatação de Quantidade**, você tem duas opções:
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_16.png" alt=""><figcaption></figcaption></figure>
 
-* **Permitir arredondamento durante comparação de valores:**\
-  Se ativado, é permitida uma tolerância de ±0,5 durante a comparação de valores.\
-  Se desativado, aplica-se uma tolerância padrão de ±0,05.
-* **Exigir correspondência exata para comparação de valores:**\
-  Se ativado, os valores devem corresponder exatamente com tolerância zero.\
-  Se desativado, é permitida uma tolerância de ±0,05.
+## Amount Formatting
 
-<mark style="color:red;">**Nota**</mark>: Apenas uma dessas configurações pode estar ativa por vez.
+In the **Amount Formatting** section, you have two options:
 
-## Extração de tabela
+* **Allow Rounding During Amount Comparison:**\
+  If enabled, a tolerance of ±0.5 is allowed during amount comparison.\
+  If disabled, a default tolerance of ±0.05 applies.
+* **Require Exact Match for Amount Comparison:**\
+  If enabled, amounts must match exactly with zero tolerance.\
+  If disabled, a tolerance of ±0.05 is allowed.
 
-Você pode extrair tabelas de documentos ativando **Extração de tabela** ou **Extração de tabela de IA**. Uma tabela treinada—seja baseada em IA ou manual—sempre será vinculada a um fornecedor específico.
+<mark style="color:red;">**Note**</mark>: Only one of these settings can be active at a time.
 
-**Extração de tabela:** Ativa a **extração de tabela** manual. As tabelas devem ser treinadas manualmente.\
-Saiba mais sobre o treinamento manual [aqui](../../../setup/document-training/training-line-fields-table-training/defining-tables-and-columns.md).
+## Table Extraction
 
-**Extração de tabela de IA:** Usa IA para extrair tabelas automaticamente. Se os resultados não forem suficientemente precisos, recomenda-se alternar para a **Extração de tabela** manual para melhor controle e treinamento.
+You can extract tables from documents by enabling either **Table Extraction** or **AI Table Extraction**. A trained table—whether AI-based or manual—will always be linked to a specific supplier.
 
-**Extração de tabela para elemento de custeio:** Quando ativado, o DocBits pode extrair elementos de custeio das tabelas no nível de linha e classificá-los adequadamente.\
-Explicação detalhada disponível [aqui](table-extraction-for-costing-element.md).
+**Table Extraction:** Activates manual **table extraction**. Tables must be trained manually.\
+Learn more about manual training [here](../../../setup/document-training/training-line-fields-table-training/defining-tables-and-columns.md).
 
-**Extração automática do código tributário:** Quando ativado, o sistema preenche automaticamente o campo **Código tributário** na Tela de Validação—desde que um campo de código tributário esteja configurado.\
-Mais informações sobre esta configuração [aqui](auto-extract-tax-code.md).
+**AI Table Extraction:** Uses AI to automatically extract tables. If the results are not accurate enough, it's recommended to switch to manual **Table Extraction** for better control and training.
 
-**Modelo de IA:** Permite especificar qual **modelo de IA** é usado para a extração de tabelas.\
-Você também verá uma tabela mostrando:
+**Table Extraction for Costing Element:** When enabled, DocBits can extract costing elements from tables at the line level and classify them accordingly.\
+Detailed explanation available [here](table-extraction-for-costing-element.md).
 
-* Quais **Fornecedores** estão usando qual modelo de IA
-* Se usam E-Text
-* Opções para excluir uma entrada ou redefinir os dados de treinamento
+**Auto Extract Tax Code:** When enabled, the system automatically fills the **Tax Code** field on the Validation Screen—provided that a tax code field is configured.\
+More information on this setting [here](auto-extract-tax-code.md).
 
-Esta configuração é explicada em detalhes [aqui](ai-model.md).
+**AI Model:** Allows you to specify which **AI model** is used for table extraction.\
+You’ll also see a table showing:
 
-## Documento eletrônico
+* Which **suppliers** are using which AI model
+* Whether they use E-Text
+* Options to delete an entry or reset the training data
 
-**Processo não suportado ZUGFeRD PDF:** Se ativado, versões **ZUGFeRD** não suportadas serão processadas como PDFs padrão, e o XML incorporado será ignorado.
+This setting is explained in detail [here](ai-model.md).
 
-A lista de versões **ZUGFeRD** suportadas pode ser encontrada [aqui](../../global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md).
+## Electronic Document
 
-## **Regras de Classificação**
+**Process Unsupported ZUGFeRD PDF:** If enabled, unsupported **ZUGFeRD** versions will be processed as standard PDFs, and the embedded XML will be ignored.
 
-Na seção **Regras de Classificação**, você pode definir **padrões regex** e critérios específicos para ajudar o sistema a classificar documentos automaticamente durante o processamento.
+The list of supported **ZUGFeRD** versions can be found [here](../../global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md).
 
-Para acessar esta seção, clique na guia **Regras de Classificação** na parte superior da página.
+## **Classification Rules**
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_1.png)
+In the **Classification Rules** section, you can define specific **regex** patterns and criteria to help the system automatically classify documents during processing.
 
-### **Adicionar uma nova regra de classificação**
+To access this section, click the **Classification Rules** tab at the top of the page.
 
-Para criar uma nova regra:
+<figure><img src="../../../../.gitbook/assets/classification_and_extraction_1.png" alt=""><figcaption></figcaption></figure>
 
-1.  Clique em **Adicionar** no canto superior direito.
+### **Add a New Classification Rule**
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_2.png)
-2. Preencha os seguintes campos:
-   * **Padrão**: O padrão regex que o sistema deve procurar para acionar a classificação.
-   * **Tipo**: Onde o padrão deve ser procurado (por exemplo, **Código de barras**).
-   * **Suborganização** _(opcional)_: Especifique a suborganização à qual a regra se aplica.
-   * **Tipo de documento**: Defina o tipo de documento a ser atribuído quando o padrão for correspondido.
-   *   **Tipo de subdocumento** _(opcional)_: Especifique um subtipo para uma classificação mais detalhada.
+To create a new rule:
 
-       ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_3.png)
-3.  Clique em **Salvar** para salvar sua regra de classificação.
+1.  Click **Add** in the top-right corner.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_4.png)
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_2.png" alt=""><figcaption></figcaption></figure>
+2. Fill in the following fields:
+   * **Pattern**: The regex pattern the system should search for to trigger classification.
+   * **Type**: Where the pattern should be searched (e.g., **Barcode**).
+   * **Sub Organization** _(optional)_: Specify which sub organization the rule applies to.
+   * **Document Type**: Define the document type to assign when the pattern is matched.
+   *   **Sub Document Type** _(optional)_: Specify a sub type for more detailed classification.
 
-### **Editar uma regra de classificação**
+       <figure><img src="../../../../.gitbook/assets/classification_and_extraction_3.png" alt=""><figcaption></figcaption></figure>
+3.  Click **Save** to save your classification rule.
 
-Para editar uma regra existente:
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_4.png" alt=""><figcaption></figcaption></figure>
 
-1.  Clique nos três pontos na coluna **Ações**.
+### **Edit a Classification Rule**
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_5.png)
-2.  Selecione **Editar**.
+To edit an existing rule:
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_6.png)
-3. Faça as alterações desejadas.
-4.  Clique em **Salvar** para aplicar as atualizações.
+1.  Click the three dots in the **Actions** column.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_4.png)
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_5.png" alt=""><figcaption></figcaption></figure>
+2.  Select **Edit**.
 
-### **Excluir uma regra de classificação**
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_6.png" alt=""><figcaption></figcaption></figure>
+3. Make your desired changes.
+4.  Click **Save** to apply the updates.
 
-Para excluir uma regra:
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_4.png" alt=""><figcaption></figcaption></figure>
 
-1.  Clique nos três pontos na coluna **Ações**.
+### **Delete a Classification Rule**
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_5.png)
-2.  Selecione **Excluir**.
+To delete a rule:
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_7.png)
+1.  Click the three dots in the **Actions** column.
 
-## Modelos de IA
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_5.png" alt=""><figcaption></figcaption></figure>
+2.  Select **Delete**.
 
-A seção **Modelos de IA** exibe todos os modelos personalizados treinados que foram especificamente ajustados para suas necessidades.
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_7.png" alt=""><figcaption></figcaption></figure>
 
-### Acessando a seção Modelos de IA
+## AI Models
 
-Para abrir esta seção, clique na guia **Modelos de IA** localizada na parte superior da página.
+The **AI Models** section displays all custom-trained models that have been specifically fine-tuned for your needs.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_8.png)
+### Accessing the AI Models Section
 
-### Categorias de modelos
+To open this section, click the **AI Models** tab located at the top of the page.
 
-Os modelos são organizados em categorias. Abaixo do nome de cada categoria, é exibido o número de modelos que ela contém.\
-Clique em uma categoria para ver seus detalhes.
+<figure><img src="../../../../.gitbook/assets/classification_and_extraction_8.png" alt=""><figcaption></figcaption></figure>
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_9.png)
+### Model Categories
 
-Na parte superior da página da categoria selecionada, você verá informações-chave sobre cada modelo:
+Models are organized into categories. Below each category name, the number of models it contains is shown.\
+Click on a category to view its details.
 
-* **Tipo**: O tipo de modelo.
-* **Somente a primeira página**: Indica se o modelo processa apenas a primeira página de um documento.
-* **Versão**: O número da versão do modelo.
+<figure><img src="../../../../.gitbook/assets/classification_and_extraction_9.png" alt=""><figcaption></figcaption></figure>
 
-### Tabela de modelos
+At the top of the selected category page, you’ll see key information about each model:
 
-Todos os modelos dentro de uma categoria são listados em uma tabela, que inclui as seguintes informações:
+* **Type**: The type of model.
+* **First Page Only**: Indicates whether the model processes only the first page of a document.
+* **Version**: The version number of the model.
 
-* **Nome**: O nome do modelo.
-* **Próximo modelo**: O modelo que continuará processando a saída do modelo atual.
-* **Tipo de documento**: O tipo de documento principal atribuído pelo modelo durante a classificação.
-* **Subtipos de documentos**: Os subtipos nos quais o documento é ainda mais classificado.
-* **Prioridade**: O nível de prioridade que determina a posição do modelo na fila de classificação.
+### Model Table
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_11.png)
+All models within a category are listed in a table, which includes the following information:
 
-### Editando um modelo
+* **Name**: The name of the model.
+* **Next Model**: The model that will further process the output of the current model.
+* **Document Type**: The primary document type assigned by the model during classification.
+* **Document Sub Types**: The sub types into which the document is further classified.
+* **Priority**: The priority level that determines the model’s position in the classification queue.
 
-Para editar um modelo:
+<figure><img src="../../../../.gitbook/assets/classification_and_extraction_11.png" alt=""><figcaption></figcaption></figure>
 
-1.  Clique no ícone de lápis na coluna **Ações** ao lado do modelo que deseja editar.
+### Editing a Model
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_10.png)
-2. Atualize os campos disponíveis:
-   * **Próximo modelo**: Selecione o modelo que deve processar a saída do modelo atual.
-   * **Tipo de documento**: Escolha o tipo de documento que o modelo deve classificar a entrada.
-3.  Clique em **Salvar** para aplicar suas alterações.
+To edit a model:
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/classification_and_extraction_12.png)
+1.  Click the pen icon in the **Actions** column next to the model you want to edit.
+
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_10.png" alt=""><figcaption></figcaption></figure>
+2. Update the available fields:
+   * **Next Model**: Select the model that should process the output from the current model.
+   * **Document Type**: Choose the document type the model should classify the input as.
+3.  Click **Save** to apply your changes.
+
+    <figure><img src="../../../../.gitbook/assets/classification_and_extraction_12.png" alt=""><figcaption></figcaption></figure>
