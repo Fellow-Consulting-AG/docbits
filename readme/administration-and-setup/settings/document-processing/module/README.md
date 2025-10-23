@@ -1,6 +1,3 @@
-
-# (Italiano)
-
 # Module
 
 <figure><img src="../../../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>

@@ -1,6 +1,3 @@
-
-# (Italiano)
-
 # Rule Manager
 
 \

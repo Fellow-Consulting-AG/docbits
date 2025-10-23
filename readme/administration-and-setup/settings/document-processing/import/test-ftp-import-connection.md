@@ -1,6 +1,3 @@
-
-# (Italiano)
-
 # Test: FTP Import Connection
 
 #### Purpose

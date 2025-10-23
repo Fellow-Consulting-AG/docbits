@@ -1,6 +1,3 @@
-
-# (Italiano)
-
 # List Of Values
 
 ## Overview

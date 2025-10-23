@@ -1,6 +1,3 @@
-
-# (Italiano)
-
 ---
 description: DocBits Workflow Engine
 ---

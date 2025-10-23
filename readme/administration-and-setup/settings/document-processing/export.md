@@ -1,6 +1,3 @@
-
-# (Italiano)
-
 # Export
 
 ## Overview

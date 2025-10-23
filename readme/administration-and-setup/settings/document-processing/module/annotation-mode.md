@@ -1,6 +1,3 @@
-
-# (Italiano)
-
 # Annotation Mode
 
 ## Overview

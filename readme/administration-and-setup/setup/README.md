@@ -1,6 +1,3 @@
-
-# (Italiano)
-
 # Setup
 
 

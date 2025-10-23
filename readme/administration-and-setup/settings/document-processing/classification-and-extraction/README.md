@@ -1,6 +1,3 @@
-
-# (Italiano)
-
 # Classification And Extraction
 
 ## Overview

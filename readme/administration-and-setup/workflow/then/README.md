@@ -1,6 +1,3 @@
-
-# (Italiano)
-
 # Then
 
 ## Overview of "Then..." Action Cards
