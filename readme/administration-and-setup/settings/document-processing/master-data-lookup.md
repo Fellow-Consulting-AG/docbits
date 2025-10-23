@@ -1,45 +1,48 @@
-# Validation des données fournisseur
 
-## Vue d'ensemble
+# (Français)
 
-La "Validation des données fournisseur" dans vos Paramètres de Traitement des documents permet une approche complète et intégrée de la gestion et de la validation de vos données de documents en les synchronisant avec votre système Infor ERP. Voici comment elle contribue à rationaliser la validation et l'amélioration du traitement des documents au sein de votre environnement ERP :
+# Master Data Lookup
 
-1. **Gestion centralisée des données**: Cette fonction agit comme un référentiel central où les données provenant de diverses sources telles que les fournisseurs, les adresses clients, les codes fiscaux, etc., peuvent être stockées et gérées. Elle fournit un point de référence unique pour toutes les données de référence, garantissant cohérence et exactitude dans toute votre organisation.
-2. **Validation par rapport aux données ERP**: En synchronisant des données de référence telles que les informations fournisseurs d'Infor vers DocBits, vous pouvez valider automatiquement les données extraites des documents par rapport à vos données ERP. Cela garantit que les informations traitées (comme les noms de fournisseurs, les adresses et les codes fiscaux) correspondent aux données détenues dans votre système ERP, minimisant ainsi les erreurs et les divergences.
-3. **Facilite l'automatisation**: Disposer d'un système robuste de validation des données de référence aide à automatiser le traitement des documents entrants. Par exemple, les bons de commande ou factures peuvent être automatiquement vérifiés pour l'exactitude des données fournisseur, approuvés s'ils correspondent, ou signalés pour examen en cas d'écarts.
-4. **Améliore l'intégrité des données**: Des mises à jour régulières de votre système ERP vers la validation des données de référence garantissent que les données utilisées pour le traitement des documents sont à jour. Cela réduit le risque de traiter des documents sur la base d'informations obsolètes, améliorant ainsi l'intégrité globale des transactions commerciales.
-5. **Efficacité dans le traitement des documents**: Avec des données de référence directement liées et constamment actualisées, le traitement des documents devient plus efficace. Les documents peuvent être automatiquement classés et acheminés en fonction de critères spécifiques définis dans les données de référence, tels que des conditions fournisseur particulières ou des réglementations fiscales applicables à différents types de transactions.
+## Overview
+
+The "Master Data Lookup" in your document processing settings allows for a comprehensive and integrated approach to managing and validating your document data by syncing it with your Infor ERP system. Here’s how it helps streamline the validation and enhancement of document processing within your ERP environment:
+
+1. **Centralized Data Management**: This feature acts as a central repository where data from various sources like suppliers, customer addresses, tax codes, and more can be stored and managed. It provides a single point of reference for all master data, ensuring consistency and accuracy across your organization.
+2. **Validation Against ERP Data**: By syncing master data such as supplier information from Infor to DocBits, you can automatically validate the data extracted from documents against your ERP data. This ensures that the information processed (like supplier names, addresses, and tax codes) matches the data held in your ERP system, minimizing errors and discrepancies.
+3. **Facilitates Automation**: Having a robust master data lookup system helps in automating the processing of incoming documents. For instance, purchase orders or invoices can be automatically checked for supplier data correctness, approved if they match, or flagged for review if discrepancies are found.
+4. **Enhances Data Integrity**: Regular updates from your ERP system to the master data lookup ensure that the data used for document processing is up-to-date. This reduces the risk of processing documents based on outdated information, thus enhancing the overall integrity of business transactions.
+5. **Efficiency in Document Processing**: With master data directly linked and constantly refreshed, document processing becomes more efficient. Documents can be automatically classified and routed based on the specific criteria set in the master data, such as specific supplier terms or tax regulations applicable to different types of transactions.
 
 {% hint style="info" %}
-Voir ici comment Importer [les données de référence](../../../infor-integration-and-configuration/importing-customer-master-data/)
+See here how to [Import Master Data](../../../infor-integration-and-configuration/importing-customer-master-data/)
 {% endhint %}
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_1.png)
+<figure><img src="../../../.gitbook/assets/master_data_lookup_1.png" alt=""><figcaption></figcaption></figure>
 
-## **Accéder à la Validation des données fournisseur**
+## **Accessing Master Data Lookup**
 
-Pour accéder à la section **Validation des données fournisseur**, accédez à :\
-**Paramètres → Traitement des documents → Validation des données fournisseur**
+To access the **Master Data Lookup** section, navigate to:\
+**Settings → Document Processing → Master Data Lookup**
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_mater_data_lookup.png)
+<figure><img src="../../../.gitbook/assets/settings_mater_data_lookup.png" alt=""><figcaption></figcaption></figure>
 
-## **Paramètres**
+## **Settings**
 
-Pour accéder aux paramètres de la **Validation des données fournisseur**, cliquez sur **Paramètres** situé dans le coin inférieur gauche de l'écran **Validation des données fournisseur**.\
-Les options de configuration suivantes sont disponibles :
+To access the settings for the **Master Data Lookup**, click **Settings** located in the lower-left corner of the **Master Data Lookup** screen.\
+The following configuration options are available:
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_2.png)
+<figure><img src="../../../.gitbook/assets/master_data_lookup_2.png" alt=""><figcaption></figcaption></figure>
 
-### **BOD du fournisseur**
+### **Supplier BOD**
 
-* **Autoriser la synchronisation de plusieurs comptes fournisseurs**:
-  * **Activé**:\
-    Un même fournisseur peut avoir plusieurs éléments `<FinancialParty>` dans le BOD (Business Object Document), souvent en raison de plusieurs IBAN ou comptes financiers associés. Lorsque ce paramètre est activé, toutes les entrées `<FinancialParty>` du fournisseur seront extraites et enregistrées dans la table des fournisseurs, permettant de stocker plusieurs attributs financiers.
-  * **Désactivé**:\
-    Seul le dernier élément `<FinancialParty>` trouvé pour le fournisseur dans le BOD sera extrait. Tous les attributs financiers précédents (par exemple, des IBAN supplémentaires) seront ignorés, et seules les données de la dernière occurrence seront enregistrées dans la table des fournisseurs.
+* **Allow Multiple Supplier Accounts Sync**:
+  * **Enabled**:\
+    A single supplier may have multiple `<FinancialParty>` elements in the BOD (Business Object Document), often due to multiple associated IBANs or financial accounts. When this setting is enabled, all `<FinancialParty>` entries for the supplier will be extracted and saved to the supplier table, allowing multiple financial attributes to be stored.
+  * **Disabled**:\
+    Only the last `<FinancialParty>` element found for the supplier in the BOD will be extracted. Any previous financial attributes (e.g., additional IBANs) will be ignored, and only the data from the last occurrence will be saved to the supplier table.
 
-### **Suppression du bon de commande**
+### **Purchase Order Deletion**
 
-*   **Supprimer le bon de commande après**: Spécifiez quand les bons de commande clôturés doivent être supprimés. Après la période sélectionnée, les enregistrements seront supprimés automatiquement.
+*   **Delete Purchase Orders After**: Specify when closed Purchase Orders should be deleted. After the selected time span, the records will be removed automatically.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/master_data_lookup_3.png)
+    <figure><img src="../../../.gitbook/assets/master_data_lookup_3.png" alt=""><figcaption></figcaption></figure>
