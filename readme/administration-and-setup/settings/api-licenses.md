@@ -1,3 +1,10 @@
-# Licencje API
+# PL - TRANSLATED
 
-W ustawieniach "Licencje API" znajdziesz listę wszystkich używanych pakietów, wersję używanego pakietu oraz powiązane licencje.
+**Translated to Polski**
+
+---
+
+# API Licenses
+
+In the "API Licenses" settings, you will find a list of all packages used, the version of the package used and the associated licenses.
+...
