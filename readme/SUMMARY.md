@@ -21,7 +21,7 @@
     * [Kostenelemente sind nicht ordnungsgemäß konfiguriert. Bitte fragen Sie Ihren Administrator, es zu konfigurieren.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
     * [M3 API Export Diagnoseleitfaden](overview-and-basics/faq/infor-m3-m3-integration/m3-api-export-diagnostic-guide.md)
 
-## Endnutzer und Partner Bereich  <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
+## Endnutzer und Partner Bereich <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
 
 * [Endbenutzer Abschnitt](end-user-section/README.md)
   * [Dashboard](end-user-section/dashboard/README.md)
@@ -141,7 +141,7 @@
           * [EDI Extraktionspfad-Datei-Leitfaden](administration-and-setup/settings/global-settings/document-types/edi/edi/edi-extraction-paths-file-guide.md)
         * [ZUGFeRD 1.0, 2.1 und 2.3](administration-and-setup/settings/global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md)
         * [e-SLOG 1.6 und 2.0](administration-and-setup/settings/global-settings/document-types/edi/eslog-1.6-and-2.0.md)
-      * [Weitere Einstellungen ](admin-section/settings/global-settings/document-types/more-settings/README.md)
+      * [Weitere Einstellungen](admin-section/settings/global-settings/document-types/more-settings/README.md)
         * [Best Practices](admin-section/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Fehlerbehebung](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
         * [Erkennung von Duplikaten](administration-and-setup/settings/global-settings/document-types/more-settings/duplicate-document-handling.md)
@@ -244,7 +244,7 @@
     * [Origin Layouts](setup/document-types/origin-layouts.md)
     * [Regex Manager](setup/document-types/regex-manager.md)
     * [Fuzzy Data Konfiguration mit Masterdaten](administration-and-setup/setup/document-types/fuzzy-data-configuration-with-master-data.md)
-  * [Dokumenten Training ](administration-and-setup/setup/document-training/README.md)
+  * [Dokumenten Training](administration-and-setup/setup/document-training/README.md)
     * [Schulung Kopffelder](administration-and-setup/setup/document-training/training-header-fields.md)
     * [Schulung Linienfelder/Tabelle Schulung](administration-and-setup/setup/document-training/training-line-fields-table-training/README.md)
       * [Definieren von Tabellen und Spalten](administration-and-setup/setup/document-training/training-line-fields-table-training/defining-tables-and-columns.md)
@@ -262,7 +262,7 @@
   * [SSO Configuration](setup/sso-configuration.md)
 * [Berichtsseite](administration-and-setup/report-page.md)
 
-## Infor Integration und  Konfiguration <a href="#infor-integration-and-configuration" id="infor-integration-and-configuration"></a>
+## Infor Integration und Konfiguration <a href="#infor-integration-and-configuration" id="infor-integration-and-configuration"></a>
 
 * [Importing Master Data](setup/importing-customer-master-data/README.md)
   * [Field Mappings](setup/importing-customer-master-data/field-mappings.md)
@@ -273,6 +273,7 @@
   * [M3](setup/importing-customer-master-data/m3/README.md)
     * [Auto Accounting](setup/importing-customer-master-data/m3/auto-accounting.md)
     * [Suppliers and Purchase Orders](setup/importing-customer-master-data/m3/suppliers-and-purchase-orders.md)
+    * [So importieren Sie alle Lieferanten](infor-integration-and-configuration/importing-customer-master-data/m3/how-to-import-all-suppliers.md)
     * [Tabellenextraktion für Kostenelemente](admin-section/setup/importing-customer-master-data/m3/table-extraction-for-costing-element.md)
 * [Exporting in DocBits](setup/exporting-in-docbits/README.md)
   * [Export Module](setup/exporting-in-docbits/export-module.md)
