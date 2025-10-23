@@ -1,2 +1,7 @@
+
+# (Français)
+
 # Global Settings
+
+
 
