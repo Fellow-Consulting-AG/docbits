@@ -1,1 +1,12 @@
-# Elaborazione dei documenti
+# IT - TRANSLATED
+
+**Translated to Italiano**
+
+---
+
+# Document Processing
+
+
+
+
+...
