@@ -1,27 +1,52 @@
-# Unterorganisationen
 
-Die Erstellung von Unterorganisationen innerhalb eines Dokumentenmanagementsystems dient dazu, die Struktur und Verwaltung von Benutzerkonten, Dokumenten und Arbeitsabläufen innerhalb einer Organisation weiter zu organisieren und zu differenzieren. Hier sind einige Zwecke und Vorteile der Erstellung von Unterorganisationen:
+# (Deutsch)
 
-**Strukturierung und Organisation:** Unterorganisationen ermöglichen es, eine hierarchische Struktur innerhalb des Dokumentenmanagementsystems zu schaffen. Dies kann helfen, Benutzerkonten und Dokumente nach Abteilung, Team, Standort oder anderen relevanten Kriterien zu organisieren, was zu einer klareren und effizienteren Verwaltung führt.
+# Sub-Organizations
 
-**Berechtigungsmanagement:** Durch die Erstellung von Unterorganisationen können Administratoren granulare Berechtigungen und Zugriffskontrollen für verschiedene Benutzergruppen festlegen. Das bedeutet, dass bestimmte Benutzer oder Gruppen nur auf die Dokumente und Ressourcen zugreifen können, die für ihre jeweilige Unterorganisation relevant sind, was die Sicherheit und den Datenschutz verbessert.
+Creating suborganizations within a document management system serves to further organize and differentiate the structure and management of user accounts, documents, and workflows within an organization. Here are some purposes and benefits of creating suborganizations:
 
-**Arbeitsabläufe und Zusammenarbeit:** Unterorganisationen können die Zusammenarbeit und Kommunikation innerhalb spezifischer Teams oder Abteilungen fördern, indem der Zugriff auf gemeinsame Dokumente, Projekte oder Aufgaben zentralisiert wird. Dies fördert die Effizienz und Koordination bei der Zusammenarbeit an gemeinsamen Projekten oder Arbeitsabläufen.
+* **Structuring and organization:** Suborganizations make it possible to create a hierarchical structure within the document management system. This can help organize user accounts and documents by department, team, location, or other relevant criteria for clearer and more efficient management.
+* **Permission management:** By creating suborganizations, administrators can set granular permissions and access controls for different groups of users. This means that specific users or groups can only access the documents and resources relevant to their respective sub-organization, improving security and privacy.
+* **Workflows and Collaboration:** Suborganizations can facilitate collaboration and communication within specific teams or departments by centralizing access to shared documents, projects, or tasks. This promotes efficiency and coordination when collaborating on common projects or workflows.
+* **Reporting and analysis:** By organizing user accounts and documents into sub-organizations, detailed reports and analysis can be created on the activities and performance of individual teams or departments. This allows administrators and managers to gain insight into document management system usage at an organizational level.
+* **Scalability and Flexibility:** Sub-organizations provide a scalable structure that can grow with the organization's growth and changes. New teams or departments can be easily added and appropriately integrated into the existing sub-organizational scheme without affecting the overall structure of the document management system.
 
-**Berichterstattung und Analyse:** Durch die Organisation von Benutzerkonten und Dokumenten in Unterorganisationen können detaillierte Berichte und Analysen über die Aktivitäten und Leistungen einzelner Teams oder Abteilungen erstellt werden. Dies ermöglicht es Administratoren und Managern, Einblicke in die Nutzung des Dokumentenmanagementsystems auf organisatorischer Ebene zu gewinnen.
+Overall, suborganizations enable more effective management and organization of user accounts, documents, and workflows within a document management system by improving structure, security, and collaboration.
 
-**Skalierbarkeit und Flexibilität:** Unterorganisationen bieten eine skalierbare Struktur, die mit dem Wachstum und den Veränderungen der Organisation wachsen kann. Neue Teams oder Abteilungen können problemlos hinzugefügt und angemessen in das bestehende Unterorganisationenschema integriert werden, ohne die Gesamtstruktur des Dokumentenmanagementsystems zu beeinträchtigen.
+## How to access this feature
 
-Insgesamt ermöglichen Unterorganisationen ein effektiveres Management und eine bessere Organisation von Benutzerkonten, Dokumenten und Arbeitsabläufen innerhalb eines Dokumentenmanagementsystems, indem sie die Struktur, Sicherheit und Zusammenarbeit verbessern.
+In Settings, Global Settings → Groups, Users and Permissions → Sub-Organizations as shown below.
 
-### **So greifen Sie auf diese Funktion zu:**&#x20;
+<figure><img src="../../../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Settings</p></figcaption></figure>
 
-Navigieren Sie zu Einstellungen, Globale Einstellungen → Gruppen, Benutzer und Berechtigungen → Unterorganisationen, wie unten gezeigt.
+You will then be taken to a page that looks similar to this:\\
 
-<figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
-Sie werden dann zu einer Seite weitergeleitet, die ähnlich aussieht wie diese:
+This is where you will find your previously created sub-organizations, as well as where you can create new sub-organizations.
 
-<figure><img src="../../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-Hier finden Sie Ihre zuvor erstellten Unterorganisationen sowie die Möglichkeit, neue Unterorganisationen zu erstellen.
+
+### Cross Sub-Organisations Access
+
+**Overview:**\
+For organizations with multiple sub-organizations enabled, DocBits introduces the **Cross Sub-Organisations** feature. This enhancement allows users to manage documents across all sub-organizations under a single umbrella. **Both administrative and non-administrative users** can now access and view documents from every sub-organization without the need to switch between them individually.
+
+**Benefits:**
+
+* Centralized visibility of all documents across sub-organizations.
+* Simplified navigation to locate specific files.
+* Maintains a comprehensive overview of document activity.
+
+**How to Use:**
+
+1. **Enable Cross Sub-Organisations:**
+   * Navigate to the dashboard.
+   * On the top-right corner, where sub-organizations can be switched, select **Cross**.
+   * The page will reload, granting you access to all documents across all sub-organizations.
+2. **Disable Cross Sub-Organisations (if not needed):**
+   * Return to the top-right corner of the dashboard.
+   * Deselect the **Cross** option to return to viewing a single sub-organization.
+
+<figure><img src="../../../../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
+
