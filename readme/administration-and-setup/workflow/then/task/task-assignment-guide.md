@@ -4,6 +4,19 @@
 
 ---
 
+## 📌 Version Information
+
+**Most Evolved Card:** tasks_create (4 versions, v4 latest)
+**Other Multi-Version Cards:** ACTION_TASK_FOR_GROUP (v4), ACTION_ASSIGN_TASK_TO_PROCUREMENT_GROUP (v3), ACTION_ASSIGN_TASK_TO_USER_FROM_FIELD_WITH_FALLBACK (v3), ACTION_DECISION_TREE_CREATE_TASKS (v3)
+
+**Key Changes:**
+- **v3 → v4 Evolution:** Removed decision tree approach, added generic work item types (Task, Ticket, Issue)
+- **v2 → v3 Migration:** Added decision tree support (now mostly deprecated)
+
+📖 [Complete Version History](../../../changelog/release.md#-task-management-cards) | [Card Version Database](../../../../DocFlow/docs/card_version.md)
+
+---
+
 ## Overview
 
 Task cards create work assignments for team members. When an invoice needs approval, you can automatically create a task and assign it to the right person.

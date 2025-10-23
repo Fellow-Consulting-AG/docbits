@@ -1,5 +1,22 @@
 # Call External API
 
+---
+
+## 📌 Version Information
+
+**Current Version:** v2 (Latest & Recommended)
+**Status:** ✅ Active
+
+**Version History:**
+- v1 → Basic API call (no longer recommended)
+- **v2 → CURRENT** (added multi-language support)
+
+**What Changed:** v2 added internationalization (i18n) support with translation keys. Functionality remains identical.
+
+📖 [Version History & Changes](../../../changelog/release.md#1-call_api) | [Complete Card Database](../../../../DocFlow/docs/card_version.md#call_api)
+
+---
+
 ## Purpose
 This card allows you to send data to an external website or service and receive information back. Think of it like sending a question to an external service and getting an answer that you can use in your workflow.
 

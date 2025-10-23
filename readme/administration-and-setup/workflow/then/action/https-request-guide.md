@@ -1,5 +1,22 @@
 # Send HTTPS Request
 
+---
+
+## 📌 Version Information
+
+**Current Version:** v2 (Latest & Recommended)
+**Status:** ✅ Active
+
+**Version History:**
+- v1 → Simple HTTP request (no longer recommended)
+- **v2 → CURRENT** (added multi-language support)
+
+**What Changed:** v2 added internationalization (i18n) support. Core webhook/request functionality remains unchanged.
+
+📖 [Version History & Changes](../../../changelog/release.md#2-https-request-https_request) | [Complete Card Database](../../../../DocFlow/docs/card_version.md)
+
+---
+
 ## Purpose
 This card sends a secure message to a website or service and can receive a response back. It's simpler than the "Call API" card and is useful for quick integrations.
 
