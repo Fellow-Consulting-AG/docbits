@@ -6,38 +6,36 @@ description: DocBits Workflow Engine
 
 <figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.42.57.png" alt=""><figcaption></figcaption></figure>
 
-## DocBits Workflow Engine: Simplifying Process Automation
+## Motor de Fluxo de Trabalho DocBits: Simplificando a Automação de Processos
 
-### Introduction
+### Introdução
 
-In the realm of process automation, the DocBits Workflow Engine stands out for its straightforward and intuitive approach. This engine streamlines the creation and management of workflows through a clear and simple rule-based structure. The core principle behind its design is the "Easy When-And-Then" rule, which breaks down the automation process into three fundamental components: Trigger, Condition, and Action. This guide explains how each component functions within the system and how they work together to facilitate seamless automation.
+No campo da automação de processos, o Motor de Fluxo de Trabalho DocBits se destaca por sua abordagem direta e intuitiva. Este motor simplifica a criação e gestão de fluxos de trabalho através de uma estrutura clara e simples baseada em regras. O princípio fundamental por trás de seu design é a regra "Easy When-And-Then" (Fácil Quando-E-Então), que divide o processo de automação em três componentes fundamentais: Gatilho, Condição e Ação. Este guia explica como cada componente funciona dentro do sistema e como eles trabalham juntos para facilitar a automação perfeita.
 
-### The "Easy When-And-Then" Rule Explained
+### A Regra "Easy When-And-Then" Explicada
 
-The DocBits Workflow Engine operates on a basic yet powerful principle that makes workflow automation accessible to users of all skill levels. This principle is encapsulated in the "Easy When-And-Then" rule, which can be broken down as follows:
+O Motor de Fluxo de Trabalho DocBits opera em um princípio básico, mas poderoso, que torna a automação de fluxos de trabalho acessível a usuários de todos os níveis de habilidade. Este princípio está encapsulado na regra "Easy When-And-Then", que pode ser dividida da seguinte forma:
 
-#### [When](./#when-trigger) (Trigger)
+#### [When](./#when-trigger) (Gatilho)
 
-* **Definition**: The "When" component represents the _Trigger_ of the workflow. This is the event or condition that initiates the execution of the workflow. Triggers can be a variety of occurrences such as the arrival of a new email, a specific date and time, or the creation of a new document.
-* **Example**: "When a new customer form is submitted..."
+* **Definição**: O componente "When" (Quando) representa o _Gatilho_ do fluxo de trabalho. Este é o evento ou condição que inicia a execução do fluxo de trabalho. Os gatilhos podem ser uma variedade de ocorrências, como a chegada de um novo e-mail, uma data e hora específicas ou a criação de um novo documento.
+* **Exemplo**: "Quando um novo formulário de cliente é enviado..."
 
-#### [And](./#and-condition) (Condition)
+#### [And](./#and-condition) (Condição)
 
-* **Definition**: The "And" component introduces the _Condition_ that must be met for the action to proceed. Conditions serve as filters or criteria that refine the trigger, ensuring that the workflow is executed only under certain circumstances.
-* **Example**: "...and the customer is from the 'Enterprise' segment..."
+* **Definição**: O componente "And" (E) introduz a _Condição_ que deve ser atendida para que a ação prossiga. As condições servem como filtros ou critérios que refinam o gatilho, garantindo que o fluxo de trabalho seja executado apenas sob certas circunstâncias.
+* **Exemplo**: "...e o cliente é do segmento 'Enterprise'..."
 
-#### [Then](./#then-action) (Action)
+#### [Then](./#then-action) (Ação)
 
-* **Definition**: Finally, the "Then" part specifies the _Action_ to be taken once the trigger occurs and the condition is satisfied. Actions are the tasks or operations executed by the workflow, such as sending an email, updating a database, or creating a task in a project management tool.
-* **Example**: "...then assign the lead to the enterprise sales team and send a welcome email."
+* **Definição**: Finalmente, a parte "Then" (Então) especifica a _Ação_ a ser tomada uma vez que o gatilho ocorre e a condição é satisfeita. As ações são as tarefas ou operações executadas pelo fluxo de trabalho, como enviar um e-mail, atualizar um banco de dados ou criar uma tarefa em uma ferramenta de gerenciamento de projetos.
+* **Exemplo**: "...então atribuir o lead à equipe de vendas empresariais e enviar um e-mail de boas-vindas."
 
-### Combining Components for Powerful Automations
+### Combinando Componentes para Automações Poderosas
 
-By assembling these three components—Trigger, Condition, and Action—the DocBits Workflow Engine allows users to create highly customized and efficient workflows. This modular approach not only simplifies the process of setting up automations but also offers the flexibility to create complex workflows capable of handling a wide range of tasks and processes.
+Ao reunir esses três componentes—Gatilho, Condição e Ação—o Motor de Fluxo de Trabalho DocBits permite aos usuários criar fluxos de trabalho altamente personalizados e eficientes. Esta abordagem modular não apenas simplifica o processo de configuração de automações, mas também oferece a flexibilidade para criar fluxos de trabalho complexos capazes de lidar com uma ampla gama de tarefas e processos.
 
-### Conclusion
+### Conclusão
 
-The DocBits Workflow Engine's "Easy When-And-Then" rule exemplifies the engine's commitment to providing a user-friendly platform for automating processes. This straightforward rule, by breaking down automation into the essential elements of Trigger, Condition, and Action, makes it easier for users to conceptualize, create, and manage workflows. Whether you are new to workflow automation or an experienced professional, the DocBits Workflow Engine offers an efficient and accessible tool to enhance productivity and streamline operations.
-
-
+A regra "Easy When-And-Then" do Motor de Fluxo de Trabalho DocBits exemplifica o compromisso do motor em fornecer uma plataforma amigável ao usuário para automatizar processos. Esta regra direta, ao dividir a automação nos elementos essenciais de Gatilho, Condição e Ação, torna mais fácil para os usuários conceituar, criar e gerenciar fluxos de trabalho. Seja você novo na automação de fluxos de trabalho ou um profissional experiente, o Motor de Fluxo de Trabalho DocBits oferece uma ferramenta eficiente e acessível para aumentar a produtividade e otimizar as operações.
 
