@@ -1,5 +1,5 @@
 ---
-description: Configuração de Workflow DocBits
+description: Configuração do gatilho Quando nos fluxos de trabalho DocBits
 ---
 
 # Quando

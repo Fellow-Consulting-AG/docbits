@@ -1,3 +1,7 @@
+---
+description: Configuração das condições E nos fluxos de trabalho DocBits
+---
+
 # And
 
 ## Understanding "And" Cards

@@ -1,5 +1,5 @@
 ---
-description: Configuração de Workflow DocBits
+description: Configuração das ações Então nos fluxos de trabalho DocBits
 ---
 
 # Então
