@@ -1,152 +1,155 @@
-# Liste de valeurs
 
-## Aperçu
+# (Français)
 
-La fonctionnalité **Liste de valeurs** vous permet de créer et de gérer des ensembles de valeurs prédéfinies. Cela est particulièrement utile pour configurer des menus déroulants dans la section [**Champs**](../global-settings/document-types/fields/), qui peuvent ensuite être utilisés dans la **Validation des champs**.
+# List Of Values
 
-Ces listes peuvent être personnalisées pour différentes sous-organisations et prennent en charge plusieurs langues, offrant ainsi une flexibilité à travers **DocBits**.
+## Overview
 
-## Comment accéder ?
+The **List of Values** feature allows you to create and manage predefined sets of values. This is particularly useful for configuring dropdown menus in the [**Fields**](../global-settings/document-types/fields/) section, which can later be used in **Field Validation**.
 
-Vous pouvez accéder à la **Liste de valeurs** en naviguant vers **Paramètres → Traitement des documents → Liste de valeurs**.
+These lists can be customized for different sub-organizations and support multiple languages, providing flexibility across **DocBits**.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_list_of_values.png)
+## How to Access?
 
-## Comment ajouter ou supprimer une liste
+You can access the **List of Values** by navigating to **Settings → Document Processing → List of Values**.
 
-### Créer une nouvelle liste de valeurs
+<figure><img src="../../../.gitbook/assets/settings_list_of_values.png" alt=""><figcaption></figcaption></figure>
 
-1.  Cliquez sur **Nouveau** dans le coin supérieur droit de l'écran.
+## How to Add or Delete a List
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_1.png)
-2. Entrez un **Nom** pour votre liste.
-3. _(Optionnel)_ Sélectionnez une **Sous-organisation** pour laquelle la liste doit être active.
-4.  Cliquez sur **Sauvegarder** pour créer la liste.
+### Create a New List of Values
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_2.png)
+1.  Click **New** in the upper-right corner of the screen.
 
-### Comment supprimer une liste
+    <figure><img src="../../../.gitbook/assets/list_of_values_1.png" alt=""><figcaption></figcaption></figure>
+2. Enter a **Name** for your list.
+3. _(Optional)_ Select a **Sub-Organization** for which the list should be active.
+4.  Click **Save** to create the list.
 
-Pour supprimer une liste, cliquez sur l'icône de la corbeille à côté de la liste correspondante.
+    <figure><img src="../../../.gitbook/assets/list_of_values_2.png" alt=""><figcaption></figcaption></figure>
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_13.png)
+### How to Delete a List
 
-<mark style="color:red;">**Remarque**</mark>: La liste sera supprimée immédiatement. Les listes marquées avec le tag [**Standard**](list-of-values.md#listes-et-lignes-definies-par-le-systeme) ne peuvent pas être supprimées.
+To delete a list, click the trash can icon next to the corresponding list.
 
-## Comment ajouter, éditer ou supprimer des valeurs d'une liste existante
+<figure><img src="../../../.gitbook/assets/list_of_values_13.png" alt=""><figcaption></figcaption></figure>
 
-Vous pouvez gérer les valeurs dans une **Liste de valeurs** existante en utilisant l'une des méthodes suivantes :
+<mark style="color:red;">**Note**</mark>: The list will be deleted immediately. Lists marked with the [**Standard**](list-of-values.md#system-defined-lists-and-rows) tag cannot be deleted.
 
-* [**Ajouter des valeurs manuellement**](list-of-values.md#ajouter-des-valeurs-manuellement) – Entrez les valeurs individuellement via l'interface.
-* [**Importer des valeurs à partir d'un fichier CSV**](list-of-values.md#importer-des-valeurs-a-partir-dun-fichier-csv) – Télécharger un fichier CSV pour ajouter plusieurs valeurs à la fois.
+## How to Add, Edit, or Remove Values from an Existing List&#x20;
 
-### Ajouter des valeurs manuellement
+You can manage values in an existing **List of Values** using one of the following methods:
 
-1.  Cliquez sur la liste que vous souhaitez modifier.
+* [**Manually add values**](list-of-values.md#manually-add-values) – Enter values individually through the interface.
+* [**Import values from a CSV file**](list-of-values.md#import-values-from-a-csv-file) – Upload a CSV file to add multiple values at once.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_3.png)
-2.  Cliquez sur **Actions**.
+### Manually Add Values
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_4.png)
-3.  Cliquez sur **Ajouter une ligne**.
+1.  Click on the list you want to modify.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_5.png)
+    <figure><img src="../../../.gitbook/assets/list_of_values_3.png" alt=""><figcaption></figcaption></figure>
+2.  Click on **Actions.**
 
-Maintenant, vous pouvez spécifier plusieurs propriétés pour chaque entrée :
+    <figure><img src="../../../.gitbook/assets/list_of_values_4.png" alt=""><figcaption></figcaption></figure>
+3.  Click on **Add Row.**
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_6.png)
+    <figure><img src="../../../.gitbook/assets/list_of_values_5.png" alt=""><figcaption></figcaption></figure>
 
-**Valeur** : C'est ainsi que l'élément sera stocké en interne dans **DocBits**. Il reste le même dans toutes les langues et sert également de texte d'affichage par défaut lors de la validation des champs si aucune étiquette n'est spécifiée pour la langue sélectionnée.
+Now you can specify multiple properties for each entry:
 
-**Étiquette** : C'est le texte affiché sur l'écran de validation, basé sur la langue sélectionnée. Si aucune étiquette n'est disponible pour la langue active dans DocBits, le système affichera par défaut la **Valeur**.
+<figure><img src="../../../.gitbook/assets/list_of_values_6.png" alt=""><figcaption></figcaption></figure>
 
-**Langue** : Spécifie la langue dans laquelle l'étiquette sera affichée.\
-Une explication plus détaillée peut être trouvée [ici](list-of-values.md#ajouter-des-traductions-a-vos-valeurs).
+**Value**: This is how the item will be stored internally within **DocBits**. It remains the same across all languages and also serves as the default display text during field validation if no label is specified for the selected language.
 
-**Sous-organisations** : Spécifie pour quelle **sous-organisation** la ligne doit être active. Si laissé vide, la ligne sera disponible pour toutes les organisations.
+**Label**: This is the text displayed on the validation screen, based on the selected language. If no label is available for the active language in DocBits, the system will default to displaying the **Value**.
 
-**Synonymes** : Ici, vous pouvez spécifier des valeurs supplémentaires qui aident à entraîner votre document.\
-Par exemple, si **EUR** est votre **valeur** principale, vous pouvez ajouter EURO et € comme **synonymes**. Lorsque le document est entraîné en utilisant l'un de ces **synonymes**, **DocBits** reconnaîtra automatiquement et sélectionnera EUR comme valeur correspondante de votre liste.\
-<mark style="color:red;">**Remarque**</mark>: Chaque synonyme doit être confirmé en appuyant sur **Entrée** pour l'ajouter à la liste.
+**Language**: Specifies the language in which the label will be displayed.\
+A more detailed explanation can be found [here](list-of-values.md#add-translations-to-your-values).
 
-4.  Après avoir entré toutes les propriétés souhaitées, cliquez sur le bouton **Sauvegarder** pour ajouter la ligne.
+**Sub-Organizations**: Specifies which **sub-organization** the row should be active for. If left blank, the row will be available for all organizations.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_11.png)
+**Synonyms**: Here you can specify additional values that help train your document.\
+For example, if **EUR** is your primary **value**, you can add EURO and € as **synonyms**. When the document is trained using any of these **synonyms**, **DocBits** will automatically recognize and select EUR as the corresponding value from your list.\
+<mark style="color:red;">**Note**</mark>: Each synonym must be confirmed by pressing **Enter** to add it to the list.
 
-### Importer des valeurs à partir d'un fichier CSV
+4.  After entering all desired properties, click the **Save** button to add the row.
 
-Pour ajouter plusieurs valeurs à la fois via l'importation CSV :
+    <figure><img src="../../../.gitbook/assets/list_of_values_11.png" alt=""><figcaption></figcaption></figure>
 
-1.  Cliquez sur la liste que vous souhaitez mettre à jour.
+### Import Values from a CSV File
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_3.png)
-2.  Cliquez sur **Actions**.
+To add multiple values at once via CSV import:
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_4.png)
-3.  Cliquez sur **Télécharger le CSV**.
+1.  Click on the list you want to update.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_7.png)
-4. Cliquez sur **Fichier** pour parcourir et sélectionner le fichier CSV que vous souhaitez télécharger.
-5. Choisissez le **Délimiteur** approprié utilisé dans le fichier CSV (`;` ou `,`).
-6.  Cliquez sur **Télécharger** pour importer les valeurs.
+    <figure><img src="../../../.gitbook/assets/list_of_values_3.png" alt=""><figcaption></figcaption></figure>
+2.  Click **Actions**.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_8.png)
+    <figure><img src="../../../.gitbook/assets/list_of_values_4.png" alt=""><figcaption></figcaption></figure>
+3.  Click on **Upload CSV**.
 
-### Éditer des valeurs existantes
+    <figure><img src="../../../.gitbook/assets/list_of_values_7.png" alt=""><figcaption></figcaption></figure>
+4. Click **File** to browse and select the CSV file you want to upload.
+5. Choose the appropriate **Delimiter** used in the CSV file (`;` or `,`).
+6.  Click **Upload** to import the values.
 
-1. Localisez la ligne que vous souhaitez éditer.
-2. Cliquez sur les trois points dans la colonne **Actions**.
-3.  Sélectionnez **Éditer** dans le menu déroulant.
+    <figure><img src="../../../.gitbook/assets/list_of_values_8.png" alt=""><figcaption></figcaption></figure>
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_10.png)
-4. Apportez les modifications nécessaires.
-5.  Cliquez sur **Sauvegarder** pour appliquer vos modifications.
+### Edit Existing Values
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_11.png)
+1. Locate the row you want to edit.
+2. Click the three dots in the **Actions** column.
+3.  Select **Edit** from the dropdown menu.
 
-### Supprimer des valeurs
+    <figure><img src="../../../.gitbook/assets/list_of_values_10.png" alt=""><figcaption></figcaption></figure>
+4. Make the required changes.
+5.  Click **Save** to apply your changes.
 
-1. Localisez la ligne que vous souhaitez supprimer.
-2. Cliquez sur les trois points dans la colonne **Actions**.
-3.  Sélectionnez **Supprimer** dans le menu déroulant.
+    <figure><img src="../../../.gitbook/assets/list_of_values_11.png" alt=""><figcaption></figcaption></figure>
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_12.png)
+### Delete Values
 
-<mark style="color:red;">**Remarque**</mark>: La ligne sera supprimée immédiatement. Les lignes marquées avec le tag [**Par défaut**](list-of-values.md#listes-et-lignes-definies-par-le-systeme) ne peuvent pas être supprimées.
+1. Locate the row you want to delete.
+2. Click the three dots in the **Actions** column.
+3.  Select **Delete** from the dropdown menu.
 
-## Ajouter des traductions à vos valeurs
+    <figure><img src="../../../.gitbook/assets/list_of_values_12.png" alt=""><figcaption></figcaption></figure>
 
-Vous pouvez ajouter autant de traductions qu'il y a de langues prises en charge dans **DocBits**.
+<mark style="color:red;">**Note**</mark>: The row will be deleted immediately. Rows marked with the [**Default**](list-of-values.md#system-defined-lists-and-rows) tag cannot be deleted.
 
-Pour ajouter une traduction :
+## Add Translations to Your Values
 
-1.  Cliquez sur l'icône plus (+).
+You can add as many translations as there are supported languages in **DocBits**.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_14.png)
-2.  Sélectionnez une langue dans le menu déroulant.
+To add a translation:
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_15.png)
-3.  Entrez la traduction souhaitée dans le champ **Étiquette**.
+1.  Click the plus (+) icon.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_16.png)
-4.  Pour ajouter une autre traduction, cliquez à nouveau sur l'icône plus (+).
+    <figure><img src="../../../.gitbook/assets/list_of_values_14.png" alt=""><figcaption></figcaption></figure>
+2.  Select a language from the dropdown menu.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_17.png)
-5.  Pour supprimer une traduction, cliquez sur l'icône de la corbeille.
+    <figure><img src="../../../.gitbook/assets/list_of_values_15.png" alt=""><figcaption></figcaption></figure>
+3.  Enter the desired translation in the **Label** field.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_18.png)
-6.  Lorsque vous avez terminé, cliquez sur le bouton **Sauvegarder** pour enregistrer vos traductions.
+    <figure><img src="../../../.gitbook/assets/list_of_values_16.png" alt=""><figcaption></figcaption></figure>
+4.  To add another translation, click the plus (+) icon again.
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_19.png)
+    <figure><img src="../../../.gitbook/assets/list_of_values_17.png" alt=""><figcaption></figcaption></figure>
+5.  To remove a translation, click the trash can icon.
 
-<mark style="color:red;">**Remarque**</mark>: Si aucune **Étiquette** n'est disponible pour la langue active, DocBits affichera par défaut la **Valeur**.
+    <figure><img src="../../../.gitbook/assets/list_of_values_18.png" alt=""><figcaption></figcaption></figure>
+6.  When finished, click the **Save** button to save your translations.
 
-## Listes et lignes définies par le système
+    <figure><img src="../../../.gitbook/assets/list_of_values_19.png" alt=""><figcaption></figcaption></figure>
 
-Certaines listes sont pré-créées par le système et sont marquées avec le tag **Standard**. Ces listes ne peuvent pas être supprimées, mais vous pouvez y ajouter de nouvelles lignes et supprimer ces lignes nouvellement ajoutées si nécessaire.
+<mark style="color:red;">**Note**</mark>: If no **Label** is available for the active language, DocBits will default to displaying the **Value**.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_9.png)
+## System-Defined Lists and Rows
 
-Dans ces listes standard, certaines lignes sont marquées avec le tag **Par défaut**—ce sont des entrées définies par le système. Vous pouvez ajouter de nouvelles **étiquettes** dans différentes langues, mais ces lignes par défaut ne peuvent pas être supprimées.
+Some lists are pre-created by the system and are marked with the **Standard** tag. These lists cannot be deleted, but you can add new rows to them and remove those newly added rows if necessary.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/list_of_values_20.png)
+<figure><img src="../../../.gitbook/assets/list_of_values_9.png" alt=""><figcaption></figcaption></figure>
+
+Within these standard lists, certain rows are marked with the **Default** tag—these are system-defined entries. You can add new **labels** in different languages, but these default rows cannot be deleted.
+
+<figure><img src="../../../.gitbook/assets/list_of_values_20.png" alt=""><figcaption></figcaption></figure>
