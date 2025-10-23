@@ -1,28 +1,30 @@
+
+# (Español)
+
 # Fields
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2009.02.31.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.02.31.png" alt=""><figcaption></figcaption></figure>
 
-#### Visión general
+## Overview
 
-La configuración de Campos proporciona una interfaz de usuario donde los administradores pueden gestionar las propiedades y el comportamiento de los campos de datos individuales asociados con un tipo de documento. Cada campo se puede ajustar para optimizar la precisión y eficiencia de la captura y validación de datos.
+The Fields setting provides a user interface where administrators can manage the properties and behavior of individual data fields associated with a document type. Each field can be adjusted to optimize the accuracy and efficiency of data capture and validation.
 
-#### Funciones clave y opciones
+{% hint style="info" %}
+[Fields with Charges](new-fields-with-charges.md)
+{% endhint %}
 
-1. **Configuración de Campos**:
+## Key Features and Options
 
-* **Nombres de Campo**: Enumera los nombres de los campos, que suelen corresponder a los elementos de datos dentro del documento, como "Número de Factura" o "Fecha de Orden de Compra".
-* **Requerido**: Los administradores pueden marcar campos como obligatorios, asegurando que los datos deben ser ingresados o capturados para que estos campos completen el procesamiento del documento.
-* **Solo Lectura**: Los campos se pueden establecer como de solo lectura para evitar modificaciones después de la captura de datos o durante ciertas etapas del procesamiento del documento.
-* **Oculto**: Los campos se pueden ocultar de la vista en la interfaz de usuario, útil para información sensible o para simplificar los flujos de trabajo del usuario.
-
-2. **Configuraciones Avanzadas**:
-
-* **Forzar Validación**: Asegura que los datos ingresados en un campo cumplan ciertas reglas de validación antes de ser aceptados.
-* **OCR (Reconocimiento Óptico de Caracteres)**: Este interruptor se puede activar para habilitar el procesamiento OCR para un campo específico, útil para la extracción automatizada de datos de documentos escaneados o digitales.
-* **Puntuación de Coincidencia**: Los administradores pueden definir una puntuación de coincidencia, un umbral utilizado para determinar el nivel de confianza en el reconocimiento o coincidencia de datos, lo que afecta cómo se realizan las validaciones de datos y controles de calidad.
-
-3. **Botones de Acción**:
-
-* **Crear Nuevo Campo**: Permite agregar nuevos campos al tipo de documento.
-* **Iconos de Edición**: Cada campo tiene un icono de edición que permite a los administradores configurar aún más ajustes específicos del campo, como tipo de datos, valores predeterminados o lógica empresarial conectada.
-* **Guardar Configuraciones**: Guarda los cambios realizados en las configuraciones de campo.
+1. **Fields Configuration**:
+   * **Field Names**: Lists the names of the fields, typically corresponding to the data elements within the document, like "Invoice Number" or "Purchase Order Date".
+   * **Required**: Administrators can mark fields as required, making sure that data must be entered or captured for these fields to complete the document processing.
+   * **Read Only**: Fields can be set to read-only to prevent modification after data capture or during certain stages of document processing.
+   * **Hidden**: Fields can be hidden from view in the user interface, useful for sensitive information or for simplifying user workflows.
+2. **Advanced Settings**:
+   * **Force Validation**: Ensures that data entered into a field passes certain validation rules before being accepted.
+   * **OCR (Optical Character Recognition)**: This toggle can be switched on to enable OCR processing for a specific field, useful for automated data extraction from scanned or digital documents.
+   * **Match Score**: Administrators can define a match score, a threshold used to determine the confidence level of data recognition or matching, impacting how data validation and quality checks are performed.
+3. **Action Buttons**:
+   * **Create New Field**: Allows adding new fields to the document type.
+   * **Edit Icons**: Each field has an edit icon that allows administrators to further configure field-specific settings, such as data type, default values, or connected business logic.
+   * **Save Settings**: Commits the changes made to the field configuration
