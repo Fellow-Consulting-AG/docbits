@@ -1,28 +1,35 @@
----
-coverY: 0
----
 
-# Usuarios
+# (Español)
 
-La Configuración de Usuario es un área en un sistema donde los usuarios pueden ajustar preferencias personales, configuraciones de cuenta y configuraciones de seguridad. Típicamente, la configuración de usuario incluye opciones como cambios de contraseña, información del perfil, preferencias de notificación y posiblemente permisos individuales para acceder a ciertas características o datos.
+# Users
 
-En la mayoría de las organizaciones, solo las personas autorizadas tienen acceso a la configuración de usuario, generalmente administradores o administradores del sistema. Esto se debe a que las configuraciones pueden contener información sensible que podría comprometer la seguridad del sistema si son modificadas por personas no autorizadas. Los administradores pueden gestionar la configuración de usuario para asegurar que cumpla con las políticas y requisitos organizacionales y que se mantenga la integridad del sistema.
+User Settings is an area in a system where users can adjust personal preferences, account settings, and security settings. Typically, user settings include options such as password changes, profile information, notification preferences, and possibly individual permissions to access certain features or data.
 
-1. **Barra de Búsqueda**: Permite a los administradores encontrar rápidamente usuarios buscando sus nombres u otros detalles.
-2. **Lista de Usuarios**: Muestra una lista de usuarios con las siguientes columnas:
-   * **Nombre**: El nombre completo del usuario.
-   * **Correo Electrónico**: La dirección de correo electrónico del usuario, que probablemente se utiliza como su identificador de inicio de sesión.
-   * **Admin**: Una casilla de verificación que indica si el usuario tiene privilegios administrativos. Los administradores generalmente tienen acceso a todas las configuraciones y pueden gestionar otras cuentas de usuario.
-   * **Acciones**: Esta columna generalmente incluye botones o enlaces para realizar acciones como editar detalles del usuario, restablecer contraseñas o eliminar la cuenta del usuario.
-3. **Botón Agregar Usuario**: Este botón se utiliza para crear nuevas cuentas de usuario. Hacer clic en él normalmente abriría un formulario donde puedes ingresar los detalles del nuevo usuario, como su nombre, correo electrónico y si debe tener derechos de administrador.
+In most organizations, only authorized people have access to user settings, usually administrators or system administrators. This is because the settings may contain sensitive information that could compromise the security of the system if changed by unauthorized persons. Administrators are able to manage user settings to ensure that they comply with organizational policies and requirements and that the integrity of the system is maintained.
 
-### Instrucciones paso a paso para agregar un nuevo usuario:
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
 
-* **Acceder a la Gestión de Usuarios:** Navega a Configuración - Configuración Global - Grupos, Usuario y Permisos - Usuario, donde puedes agregar nuevos usuarios.
-* **Agregar nuevo usuario:** En la configuración de usuario, haz clic en “Agregar usuario”
-* **Rellenar el formulario:** Aparecerá un formulario donde puedes ingresar la información del nuevo usuario. La información típica incluye:
-* **Nombre de Usuario:** Nombre único para el usuario utilizado para iniciar sesión.
-* **Nombre y Apellido:** Nombre del usuario.
-* **Dirección de Correo Electrónico:** La dirección de correo electrónico del usuario utilizada para comunicaciones y notificaciones.
-* **Contraseña**: Una contraseña para el usuario que debe cumplir con las políticas de seguridad.
-* **Rol del Usuario:** Establecer el rol del usuario, por ejemplo, usuario estándar o administrador.
+1. **Search Bar**: Allows administrators to quickly find users by searching for their names or other details.
+2. **User List**: Displays a list of users with the following columns:
+   * **Name**: The full name of the user.
+   * **Email**: The user's email address, which is likely used as their login identifier.
+   * **Admin**: A checkbox indicating whether the user has administrative privileges. Admins typically have access to all settings and can manage other user accounts.
+   * **Actions**: This column typically includes buttons or links for performing actions such as editing user details, resetting passwords, or deleting the user account.
+3. **Add User Button**: This button is used to create new user accounts. Clicking on it would typically bring up a form where you can enter the new user's details, such as their name, email, and whether they should have admin rights.
+
+## Step-by-step instructions to add a new user:
+
+* **Access User Management:** Navigate to Settings - Global Settings - Groups, User and Permissions - User, where you can add new users.
+* **Add new user:** In the user settings, click on “Add user”
+
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
+
+* **Filling out the form:** A form will appear where you can enter the information for the new user. Typical information includes:
+
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
+
+* **Username:** Unique name for the user used to log in.
+* **First Name and Last Name:** Name of the user.
+* **Email Address:** The user's email address used for communications and notifications.
+* **Password**: A password for the user that should comply with security policies.
+* **User Role:** Set the user's role, e.g. B. Standard user or administrator.
