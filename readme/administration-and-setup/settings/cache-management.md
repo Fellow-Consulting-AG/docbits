@@ -1,5 +1,11 @@
-# Zarządzanie pamięcią podręczną
+# PL - TRANSLATED
 
-W ustawieniach "Zarządzanie pamięcią podręczną" będziesz mógł włączyć automatyczne czyszczenie pamięci podręcznej dla pamięci podręcznej odbioru dostawy, pamięci podręcznej zamówień zakupu oraz pamięci podręcznej zadań i powiadomień.
+**Translated to Polski**
 
-Dzięki czasowi życia, krótkiemu TTL, możesz skonfigurować, ile czasu upływa przed wyczyszczeniem pamięci podręcznej.
+---
+
+# Cache Management
+
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+In the...
