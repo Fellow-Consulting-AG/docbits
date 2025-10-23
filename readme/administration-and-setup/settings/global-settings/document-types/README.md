@@ -1,29 +1,28 @@
+
+# (Português)
+
 # Document Types
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2008.44.19.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-24 um 22.39.42.png" alt="Document Types"><figcaption><p>Document Types Screenshot </p></figcaption></figure>
 
-#### Visão Geral
+#### Overview
 
-A seção Tipos de Documentos lista todos os tipos de documentos reconhecidos e processados pelo DocBits. Os administradores podem gerenciar vários aspectos, como layout, definições de campos, regras de extração e muito mais para cada tipo de documento. Essa personalização é fundamental para garantir o manuseio preciso de dados e conformidade com os padrões organizacionais.
+The Document Types section lists all document types recognized and processed by Docbits. Administrators can manage various aspects such as layout, field definitions, extraction rules, and more for each type of document. This customization is key to ensuring accurate data handling and compliance with organizational standards.
 
-#### Recursos e Opções Principais
+#### Key Features and Options
 
-1. **Lista de Tipos de Documentos**:
-
-* Cada linha representa um tipo de documento, como Fatura, Nota de Crédito, Nota de Entrega, etc.
-* Os tipos de documentos podem ser padrão ou personalizados, conforme indicado por rótulos como "Padrão".
-
-2. **Editar layout**: Esta opção permite aos administradores modificar as configurações de layout do documento, que incluem definir como o documento aparece e onde os campos de dados estão localizados.
-3. **Subtipos de Documentos**: Se algum tipo de documento tiver subcategorias, esta opção permite que os administradores configurem configurações específicas para cada subtipo.
-4. **Colunas da Tabela**: Personalize quais colunas de dados devem aparecer quando o tipo de documento é visualizado em listas ou relatórios.
-5. **Campos**: Gerencie os campos de dados associados ao tipo de documento, incluindo adicionar novos campos ou modificar os existentes.
-6. **Treinamento do Modelo**: Configure e treine o modelo usado para reconhecer e extrair dados dos documentos. Isso pode envolver a definição de parâmetros para modelos de aprendizado de máquina que melhoram com o tempo e mais dados.
-7. **Regex**: Configure expressões regulares que são usadas para extrair dados dos documentos com base em padrões. Isso é particularmente útil para extração de dados estruturados.
-8. **Scripts**: Escreva ou modifique scripts que executam regras de processamento personalizadas ou fluxos de trabalho para documentos deste tipo.
-9. **EDI (Intercâmbio Eletrônico de Dados)**: Configure configurações relacionadas à troca de documentos em formatos eletrônicos padronizados.
+1. **Document Type List**:
+   * Each row represents a document type such as Invoice, Credit Note, Delivery Note, etc.
+   * Document types can be standard or custom, as indicated by labels like "Standard."
+2. **Edit layout**: This option allows administrators to modify the document layout settings, which include defining how the document appears and where data fields are located.
+3. **Document Sub Types**: If any document types have subcategories, this option lets admins configure settings specific to each subtype.
+4. **Table columns**: Customize which data columns should appear when the document type is viewed in lists or reports.
+5. **Fields**: Manage the data fields associated with the document type, including adding new fields or modifying existing ones.
+6. **Model Training**: Configure and train the model used for recognizing and extracting data from the documents. This may involve setting parameters for machine learning models that improve over time with more data.
+7. **Regex**: Set up regular expressions that are used to extract data from documents based on patterns. This is particularly useful for structured data extraction.
+8. **Scripts**: Write or modify scripts that run custom processing rules or workflows for documents of this type.
+9. **E-DOC**: Configure settings related to the exchange of documents in standardized electronic formats. You can configure XRechnung, EDI, FakturaPA or EDI
 
 {% hint style="info" %}
-Veja [Configuração do Tipo de Documento](../../../../admin-section/setup/document-types/)
+See [Setup Document Type](../../../setup/document-types/)
 {% endhint %}
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2489" %}
