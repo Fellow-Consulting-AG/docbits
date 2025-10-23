@@ -1,30 +1,30 @@
+
+# (Français)
+
 # Fields
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2009.02.31.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.02.31.png" alt=""><figcaption></figcaption></figure>
 
-#### Aperçu
+## Overview
 
-Le paramètre Champs fournit une interface utilisateur où les administrateurs peuvent gérer les propriétés et le comportement des champs de données individuels associés à un type de document. Chaque champ peut être ajusté pour optimiser la précision et l'efficacité de la capture et de la validation des données.
+The Fields setting provides a user interface where administrators can manage the properties and behavior of individual data fields associated with a document type. Each field can be adjusted to optimize the accuracy and efficiency of data capture and validation.
 
-#### Fonctionnalités clés et Options
+{% hint style="info" %}
+[Fields with Charges](new-fields-with-charges.md)
+{% endhint %}
 
-1. **Configuration des Champs**:
+## Key Features and Options
 
-* **Noms des Champs**: Liste les noms des champs, correspondant généralement aux éléments de données dans le document, tels que "Numéro de Facture" ou "Date de Commande".
-* **Requis**: Les administrateurs peuvent marquer les champs comme requis, s'assurant que des données doivent être saisies ou capturées pour que ces champs complètent le traitement du document.
-* **Lecture Seule**: Les champs peuvent être définis en lecture seule pour empêcher toute modification après la capture des données ou pendant certaines étapes du traitement du document.
-* **Caché**: Les champs peuvent être masqués dans l'interface utilisateur, utile pour les informations sensibles ou pour simplifier les flux de travail des utilisateurs.
-
-2. **Paramètres Avancés**:
-
-* **Forcer la Validation**: Garantit que les données saisies dans un champ respectent certaines règles de validation avant d'être acceptées.
-* **OCR (Reconnaissance Optique de Caractères)**: Ce commutateur peut être activé pour permettre le traitement OCR pour un champ spécifique, utile pour l'extraction automatique de données à partir de documents numérisés ou numériques.
-* **Score de Correspondance**: Les administrateurs peuvent définir un score de correspondance, un seuil utilisé pour déterminer le niveau de confiance de la reconnaissance ou de la correspondance des données, impactant la manière dont la validation des données et les contrôles de qualité sont effectués.
-
-3. **Boutons d'Action**:
-
-* **Créer un Nouveau Champ**: Permet d'ajouter de nouveaux champs au type de document.
-* **Icônes d'Édition**: Chaque champ a une icône d'édition qui permet aux administrateurs de configurer davantage les paramètres spécifiques au champ, tels que le type de données, les valeurs par défaut ou la logique métier connectée.
-* **Enregistrer les Paramètres**: Valide les modifications apportées aux configurations des champs.
-
-{% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2494" %}
+1. **Fields Configuration**:
+   * **Field Names**: Lists the names of the fields, typically corresponding to the data elements within the document, like "Invoice Number" or "Purchase Order Date".
+   * **Required**: Administrators can mark fields as required, making sure that data must be entered or captured for these fields to complete the document processing.
+   * **Read Only**: Fields can be set to read-only to prevent modification after data capture or during certain stages of document processing.
+   * **Hidden**: Fields can be hidden from view in the user interface, useful for sensitive information or for simplifying user workflows.
+2. **Advanced Settings**:
+   * **Force Validation**: Ensures that data entered into a field passes certain validation rules before being accepted.
+   * **OCR (Optical Character Recognition)**: This toggle can be switched on to enable OCR processing for a specific field, useful for automated data extraction from scanned or digital documents.
+   * **Match Score**: Administrators can define a match score, a threshold used to determine the confidence level of data recognition or matching, impacting how data validation and quality checks are performed.
+3. **Action Buttons**:
+   * **Create New Field**: Allows adding new fields to the document type.
+   * **Edit Icons**: Each field has an edit icon that allows administrators to further configure field-specific settings, such as data type, default values, or connected business logic.
+   * **Save Settings**: Commits the changes made to the field configuration
