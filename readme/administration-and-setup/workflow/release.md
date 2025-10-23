@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Release
 
 ## Version 8.5.2024
