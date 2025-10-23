@@ -1,61 +1,64 @@
-# Configurações de OCR
 
-## Visão Geral
+# (Português)
 
-Nas **Configurações de OCR (Reconhecimento Óptico de Caracteres)**, você pode configurar como o OCR é aplicado durante o processamento de documentos. Isso inclui especificar a qualidade mínima necessária, escolher se deve usar texto incorporado (e-text), selecionar a versão do OCR e mais. Esta página fornece uma explicação detalhada de todas as configurações disponíveis.
+# OCR Settings
 
-## Como Acessar as Configurações de OCR
+## Overview
 
-Para acessar as configurações de OCR:
+In the **OCR (Optical Character Recognition)** settings, you can configure how OCR is applied during document processing. This includes specifying the minimum required quality, choosing whether to use embedded text (e-text), selecting the OCR version, and more. This page provides a detailed explanation of all available settings.
 
-*   Navegue até: **Configurações** → **Processamento de documentos** → **Configurações de OCR**
+## How to Access OCR Settings
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_ocr.png)
+To access the OCR settings:
 
-## Qualidade OCR
+*   Navigate to: **Settings** → **Document Processing** → **OCR Settings**
 
-Nesta seção, você pode definir a qualidade mínima do documento necessária para o processamento de OCR ajustando o controle deslizante de qualidade. Mova o controle deslizante para a esquerda ou para a direita para diminuir ou aumentar o limite de qualidade, respectivamente.
+    <figure><img src="../../../.gitbook/assets/settings_ocr.png" alt=""><figcaption></figcaption></figure>
 
-Se um documento não atender ao nível de qualidade definido, DocBits fornece três opções para lidar com isso:
+## OCR Quality
 
-* **Corra de qualquer maneira**\
-  O documento será processado independentemente de sua qualidade.
-* **Executar novamente após confirmação**\
-  **DocBits** fará uma pausa e solicitará que você confirme se deseja prosseguir com o processamento.
-* **Erro de lançamento**\
-  O processamento do documento será interrompido completamente, e uma mensagem de erro será exibida, indicando que o documento não atendeu ao limite de qualidade necessário.
+In this section, you can set the minimum document quality required for OCR processing by adjusting the quality slider. Move the slider left or right to decrease or increase the quality threshold, respectively.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ocr_settings_1.png)
+If a document does not meet the defined quality level, DocBits provides three options for handling it:
 
-## Configurações Gerais de OCR
+* **Run Anyway**\
+  The document will be processed regardless of its quality.
+* **Run Again After Confirmation**\
+  **DocBits** will pause and prompt you to confirm whether to proceed with processing.
+* **Throw Error**\
+  Document processing will stop entirely, and an error message will be displayed, indicating that the document did not meet the required quality threshold.
 
-* **Use E-Text se Disponível**\
-  Quando ativado, **DocBits** usará texto eletrônico incorporado (por exemplo, de PDFs) em vez de realizar OCR. Isso melhora tanto a velocidade quanto a precisão, pois o texto é extraído diretamente sem exigir processamento de OCR.
-* **Use DESKEW se Disponível**\
-  Esta opção corrige automaticamente o alinhamento de documentos digitalizados. Endireitar imagens inclinadas ajuda a melhorar a precisão do OCR.
-*   **Versão OCR de IA**\
-    Permite que você selecione uma versão específica do mecanismo de OCR baseado em IA.\
-    Isso pode ser útil se:
+<figure><img src="../../../.gitbook/assets/ocr_settings_1.png" alt=""><figcaption></figcaption></figure>
 
-    * Você não está alcançando os resultados desejados com a versão atualmente selecionada.
-    * Você está solucionando problemas relacionados ao desempenho ou precisão do OCR.
+## General OCR Settings
 
-    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ocr_settings_2.png)
+* **Use E-Text if Available**\
+  When enabled, **DocBits** will use embedded electronic text (e.g., from PDFs) instead of performing OCR. This improves both speed and accuracy, as the text is extracted directly without requiring OCR processing.
+* **Use DESKEW if Available**\
+  This option automatically corrects the alignment of scanned documents. Straightening skewed images helps improve OCR accuracy.
+*   **AI OCR Version**\
+    Allows you to select a specific version of the AI-based OCR engine.\
+    This can be useful if:
 
-## Configurações de OCR para Tabelas
+    * You are not achieving the desired results with the currently selected version.
+    * You are troubleshooting issues related to OCR performance or accuracy.
 
-* **Use dados de IA para tabelas, se disponíveis**\
-  Quando ativado, DocBits usará dados de OCR para tabelas em vez de texto eletrônico incorporado (E-Text) — mesmo que a configuração **Use E-Text se disponível** esteja ativada.
+    <figure><img src="../../../.gitbook/assets/ocr_settings_2.png" alt=""><figcaption></figcaption></figure>
 
-## Configurações de OCR para Campos de Cabeçalho
+## OCR Settings for Tables
 
-* **Extração de regras de uso**\
-  DocBits aplicará suas regras de extração predefinidas para identificar campos de cabeçalho.
-* **Use extração de IA**\
-  DocBits usará IA para detectar e extrair automaticamente campos de cabeçalho.
+* **Use AI Data for Tables if Available**\
+  When enabled, DocBits will use OCR data for tables instead of embedded electronic text (E-Text) — even if the **Use E-Text if Available** setting is turned on.
 
-**Ordem de Execução:**\
-Se ambas as opções estiverem ativadas, **DocBits** realizará a extração na seguinte ordem:\
-**Extração de regras → Extração de IA**\
+## OCR Settings for Header Fields
+
+* **Use Rules Extraction**\
+  DocBits will apply your predefined extraction rules for identifying header fields.
+* **Use AI Extraction**\
+  DocBits will use AI to automatically detect and extract header fields.
+
+**Execution Order:**\
+If both options are enabled, **DocBits** will perform extraction in the following order:\
+**Rules Extraction → AI Extraction**\
 \
-<mark style="color:red;">**Nota**</mark>: Para melhores resultados e comportamento consistente, ative ambas as opções. Isso permite que **DocBits** use métodos baseados em regras e baseados em IA em combinação durante a extração de cabeçalhos.
+<mark style="color:red;">**Note**</mark>: For best results and consistent behavior, enable both options. This allows **DocBits** to use both rule-based and AI-based methods in combination during header extraction.
