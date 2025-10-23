@@ -4,6 +4,17 @@
 
 ---
 
+## 📌 Version Information
+
+**Multi-Version Cards:** CALC_COLUMNS (v2), CALC_COLUMNS_REGEX (v2), EDIT_COLUMN (v2), AI_CALC_MTZ_ETZ (v2)
+
+**Version Pattern:** All field manipulation cards follow v1 → v2 pattern
+**Key Change:** v2 adds internationalization (i18n) support with translation keys
+
+📖 [Complete Version History](../../../changelog/release.md#-data-manipulation-cards) | [Card Version Database](../../../../DocFlow/docs/card_version.md)
+
+---
+
 # Document Field Manipulation
 
 ## Card: ACTION_SET_FIELD_TO_TEXT / Set Field to Text Value

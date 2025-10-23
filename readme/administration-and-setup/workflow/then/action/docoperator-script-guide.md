@@ -1,5 +1,23 @@
 # Run DocOperator Prompt (Automation Script)
 
+---
+
+## 📌 Version Information
+
+**Current Version:** v3 (Latest & Recommended)
+**Status:** ✅ Active
+
+**Version History:**
+- v2 → Original DocOperator implementation
+- **v3 → CURRENT** (added execution control parameter)
+- v4 → Deprecated (features reverted)
+
+**What Changed:** v3 added optional "Execute the prompt" parameter for more control. v4 attempted to revert this but was deprecated.
+
+📖 [Version History & Changes](../../../changelog/release.md#3-action_run_docoperator_script--) | [Complete Card Database](../../../../DocFlow/docs/card_version.md#action_run_docoperator_script)
+
+---
+
 ## Purpose
 This card runs an automated browser action or script using DocOperator. Think of it as a robot that can interact with websites or systems exactly like a human would - clicking buttons, filling forms, extracting data, etc.
 

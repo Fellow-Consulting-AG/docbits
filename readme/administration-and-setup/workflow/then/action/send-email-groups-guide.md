@@ -1,5 +1,17 @@
 # Send Email to Groups
 
+---
+
+## 📌 Version Information
+
+**Status:** ✅ Single Version (No Breaking Changes)
+**Latest Version:** v1 (Active)
+**Note:** This card uses single version model with multi-language support via translation keys.
+
+📖 [Complete Card Database](../../../../DocFlow/docs/card_version.md)
+
+---
+
 ## Purpose
 This card automatically sends email notifications to groups of users. Instead of assigning work to individual people, you send the message to a group, and all members of that group receive it.
 
