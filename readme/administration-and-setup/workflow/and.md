@@ -1,5 +1,5 @@
 ---
-description: Configuração de Workflow DocBits
+description: Configurazione delle condizioni E nei workflow DocBits
 ---
 
 # E

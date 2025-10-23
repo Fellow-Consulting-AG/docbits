@@ -1,5 +1,5 @@
 ---
-description: Configuração de Workflow DocBits
+description: Configurazione del trigger Quando nei workflow DocBits
 ---
 
 # Quando
