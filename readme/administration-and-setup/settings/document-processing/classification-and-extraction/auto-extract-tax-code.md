@@ -1,18 +1,21 @@
-# Automatyczne wyodrębnianie kodu podatkowego
 
-### **Gdzie to włączyć**
+# (Polski)
 
-* Przejdź do **Ustawienia → Przetwarzanie dokumentów → Klasyfikacja i wyodrębnianie**.
-* Włącz **Automatyczne wypełnianie kodu podatkowego**.
+# Auto extract tax code
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FNFjemAlDwyst2ChlvSYC%2Fimage.png?alt=media\&token=14b2e7bf-6a38-4f1e-8fc4-a282b8aef6b7)
+## **Where to Enable It**
 
-### **Co to robi?**
+1. Go to **Settings → Document Processing → Classification and Extraction**.
+2. Enable **Auto extract tax code**.
 
-* Po włączeniu system **automatycznie wypełnia pole kodu podatkowego** na **Ekranie walidacji**, pod warunkiem, że pole **kod podatkowy** jest skonfigurowane.​
+<figure><img src="../../../../.gitbook/assets/auto_extract_tax_code_1.png" alt=""><figcaption></figcaption></figure>
 
-![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2Fud4AaaVUJKnxLjJKn78y%2FiScreen%20Shoter%20-%20Google%20Chrome%20-%20250214111226.jpg?alt=media\&token=f8e2571f-1160-4125-b29a-5e2ee3d9bbb3)
+## **What Does It Do?**
 
-* Logika używana do określenia kodu podatkowego jest opisana w tabeli poniżej.
+* When enabled, the system **automatically populates the tax code field** in the **Validation Screen**, provided that a **tax code field** is set up.
+
+<figure><img src="../../../../.gitbook/assets/auto_extract_tax_code_2.png" alt=""><figcaption></figcaption></figure>
+
+* The logic used to determine the tax code is outlined in the table below.
 
 <table data-full-width="true"><thead><tr><th>Invoice Document type</th><th></th><th>Tax Code</th><th>Or in Text field</th><th>PO number</th><th>Country of supplier</th><th>Rule</th></tr></thead><tbody><tr><td>Cost Invoice</td><td>With Tax amount</td><td>NAGDH</td><td>LD + % (rounded to highest ABS amount)</td><td>empty</td><td>Can be the 2 first digits of the TaX  Id <br>or country of address of supplier tccom120.cadr  -->  tccom130.cadr field tcom130.ccty</td><td>When country is company country</td></tr><tr><td>Cost Invoice</td><td>Without Tax amount</td><td>NAGD0</td><td>LD + % (rounded to highest ABS amount)</td><td>empty</td><td>Can be the 2 first digits of the TaX  Id <br>or country of address of supplier tccom120.cadr  -->  tccom130.cadr field tcom130.ccty</td><td>When country is company country</td></tr><tr><td>Cost Invoice</td><td>Without Tax amount</td><td>EUDH</td><td>ED 0 %</td><td>empty</td><td>Can be the 2 first digits of the TaX  Id <br>or country of address of supplier tccom120.cadr  -->  tccom130.cadr field tcom130.ccty</td><td>When country is different from company country and EU country in country table (tcmcs010)</td></tr><tr><td>Order invoice</td><td>With Tax Amount</td><td>NAHGH</td><td>IG + % (rounded to highest ABS amount)</td><td>Not empty</td><td>Can be the 2 first digits of the TaX  Id <br>or country of address of supplier tccom120.cadr  -->  tccom130.cadr field tcom130.ccty</td><td>When country is company country</td></tr><tr><td>Order invoice</td><td>Without Tax Amount</td><td>NAHG0</td><td>IG + % (rounded to highest ABS amount)</td><td>Not empty</td><td>Can be the 2 first digits of the TaX  Id <br>or country of address of supplier tccom120.cadr  -->  tccom130.cadr field tcom130.ccty</td><td>When country is company country</td></tr><tr><td>Order invoice</td><td>With Tax Amount</td><td>EUGH</td><td>ED 0 %</td><td>Not empty</td><td>Can be the 2 first digits of the TaX  Id <br>or country of address of supplier tccom120.cadr  -->  tccom130.cadr field tcom130.ccty</td><td>When country is different from company country and EU country in country table (tcmcs010)</td></tr><tr><td>Cost Invoice</td><td>Without Tax amount</td><td>IMGD</td><td>ID 0 %</td><td>empty</td><td>Can be the 2 first digits of the TaX  Id <br>or country of address of supplier tccom120.cadr  -->  tccom130.cadr field tcom130.ccty</td><td>When country is different from company country and is not an EU member in the country table (tcmcs010)</td></tr><tr><td>Order invoice</td><td>With Tax Amount</td><td>IMHG</td><td>IG 0 %</td><td>Not empty</td><td>Can be the 2 first digits of the TaX  Id <br>or country of address of supplier tccom120.cadr  -->  tccom130.cadr field tcom130.ccty</td><td>When country is different from company country and is not an EU member in the country table (tcmcs010)</td></tr></tbody></table>
