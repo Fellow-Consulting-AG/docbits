@@ -1,14 +1,20 @@
-# Wygaśnięcie dokumentów
+
+# (Polski)
+
+# Documents Expiry
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.17.png" alt=""><figcaption></figcaption></figure>
 
-W ustawieniu "Wygaśnięcie dokumentów" w sekcji "PRZETWARZANIE DOKUMENTÓW" możesz skonfigurować harmonogramy automatycznego usuwania dokumentów z systemu. Ta funkcja jest szczególnie przydatna do zarządzania politykami retencji danych i zapewnienia zgodności z prawem lub standardami organizacyjnymi dotyczącymi przechowywania dokumentów.
+In the "Documents Expiry" setting under the "DOCUMENT PROCESSING" section, you can configure the automatic deletion schedules for your documents within the system. This feature is particularly useful for managing data retention policies and ensuring compliance with legal or organizational standards regarding document storage.
 
-Oto co robi każde ustawienie:
+Here’s what each setting does:
 
-1. **Usuń dokument po**: To rozwijane menu pozwala ustawić ramy czasowe, po których dokument przetworzony zostanie automatycznie usunięty z systemu. Możesz wybrać spośród predefiniowanych opcji, takich jak 48 godzin, 1 tydzień, 2 tygodnie lub 4 tygodnie. Pomaga to w zarządzaniu przestrzenią i utrzymaniu polityk cyklu życia dokumentu.
-2. **Usuń ukończony dokument po**: Podobnie jak poprzednie ustawienie, ale skierowane specjalnie do ukończonych lub w pełni przetworzonych dokumentów. Pozwala na te same opcje ram czasowych dla usuwania, zapewniając, że ukończone dokumenty nie są przechowywane dłużej niż konieczne.
+1. **Delete document after**: This dropdown allows you to set the time frame after which a document that has been processed will be automatically deleted from the system. You can choose from predefined options like 48 Hours, 1 Week, 2 Weeks, or 4 Weeks. This helps in managing space and maintaining document lifecycle policies.
+2. **Delete finished document after**: Similar to the previous setting, but specifically targets the finished or fully processed documents. It allows the same time frame options for deletion, ensuring that completed documents are not stored longer than necessary.
 
-Oba ustawienia zapewniają, że dokumenty nie są przechowywane na stałe w systemie, pomagając uniknąć niepotrzebnego zużycia miejsca i utrzymując porządek w przepływie pracy z dokumentami. Te ustawienia są istotne dla organizacji, które muszą przestrzegać określonych wymagań regulacyjnych dotyczących retencji dokumentów.
+Both settings ensure that documents are not kept indefinitely on your system, helping to avoid unnecessary storage use and keeping the document processing workflow clutter-free. These settings are vital for organizations needing to adhere to specific regulatory requirements about document retention.
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.27.png" alt=""><figcaption></figcaption></figure>
+
+
+
