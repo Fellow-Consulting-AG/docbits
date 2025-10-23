@@ -1,5 +1,5 @@
 ---
-hidden: true
+description: Configuration des actions Ensuite dans les workflows DocBits
 ---
 
 # Ensuite

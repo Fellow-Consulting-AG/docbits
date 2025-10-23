@@ -1,5 +1,5 @@
 ---
-hidden: true
+description: Configuration du déclencheur Quand dans les workflows DocBits
 ---
 
 # Quand

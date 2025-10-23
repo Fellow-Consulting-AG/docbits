@@ -1,5 +1,5 @@
 ---
-hidden: true
+description: Configuration des conditions Et dans les workflows DocBits
 ---
 
 # Et
