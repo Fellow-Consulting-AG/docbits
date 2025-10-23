@@ -1,6 +1,3 @@
-
-# (Français)
-
 # Test: File Import 1
 
 ## Purpose

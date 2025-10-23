@@ -1,6 +1,3 @@
-
-# (Français)
-
 # Auto Export if PO Matched 100%
 
 ### Overview

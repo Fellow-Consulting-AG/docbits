@@ -1,6 +1,3 @@
-
-# (Français)
-
 # Export Dashboard Data
 
 1.  **Navigate to Settings**: Go to **Settings → Module**.\

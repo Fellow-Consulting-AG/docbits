@@ -1,6 +1,3 @@
-
-# (Français)
-
 # List Of Values
 
 ## Overview

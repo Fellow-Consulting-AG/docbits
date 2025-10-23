@@ -1,6 +1,3 @@
-
-# (Français)
-
 # Documents Expiry
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.17.png" alt=""><figcaption></figcaption></figure>

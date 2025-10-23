@@ -1,6 +1,3 @@
-
-# (Français)
-
 # Test: Email Import and Handling Tests
 
 ## Purpose

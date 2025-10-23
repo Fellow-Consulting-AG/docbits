@@ -1,6 +1,3 @@
-
-# (Français)
-
 # Import
 
 ## Overview
