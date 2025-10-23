@@ -1,17 +1,25 @@
-# Integrazione
 
-Le impostazioni di integrazione giocano un ruolo cruciale nell'efficienza e nella funzionalità di Docbits poiché consentono di garantire un'interazione senza soluzione di continuità con altri strumenti e servizi. Ecco alcune ragioni per cui configurare correttamente le impostazioni di integrazione è importante:
+# (Italiano)
 
-### Chiave API
+# Integration
+
+The integration settings play a crucial role in the efficiency and functionality of Docbits as they allow to ensure seamless interaction with other tools and services. Here are some reasons why properly configuring the integration settings is important:
+
+## API Key
 
 <figure><img src="https://lh7-us.googleusercontent.com/lFBSwUxiK35KkhYh46gw35BsD10rvHK6_1_Tnf449-jd2WJleDhxPzHpUmNdbP1mst5TkLBpGj5iJyiR_Dxpbta6S9p4Rb3FWj7RIc628Kw-RgqpVvLDYggagjuFI1DdLfOJqkTWHBE0JLQRolTWvOc" alt="" width="563"><figcaption></figcaption></figure>
 
-Le impostazioni di integrazione giocano un ruolo cruciale nell'efficienza e nella funzionalità di DocBits poiché consentono di garantire un'interazione senza soluzione di continuità con altri strumenti e servizi. Ecco alcune ragioni per cui configurare correttamente le impostazioni di integrazione è importante:
+The integration settings play a crucial role in the efficiency and functionality of DocBits as they allow to ensure seamless interaction with other tools and services. Here are some reasons why properly configuring the integration settings is important:
 
-* **Maggiore efficienza:** L'integrazione con altri strumenti e servizi può semplificare i flussi di lavoro e aumentare l'efficienza. Ad esempio, i documenti possono essere scambiati automaticamente tra Docbits e un sistema CRM, riducendo l'inserimento manuale e aumentando la produttività.
-* **Coerenza dei dati:** L'integrazione consente lo scambio di dati senza soluzione di continuità tra diversi sistemi, migliorando la coerenza e l'accuratezza dei dati. Questo evita incoerenze o inserimenti duplicati di dati che potrebbero portare a errori.
-* **Aggiornamenti in tempo reale:** L'integrazione consente aggiornamenti in tempo reale tra diverse piattaforme in modo che gli utenti abbiano sempre le informazioni più recenti. Questo è particolarmente importante per i processi aziendali critici che richiedono informazioni in tempo reale.
-* **Automazione delle attività:** L'integrazione consente di automatizzare le attività di routine, risparmiando tempo e risorse. Ad esempio, le notifiche possono essere attivate automaticamente quando si verifica un certo evento in un altro sistema senza la necessità di intervento manuale.
-* **Miglioramento dell'esperienza utente:** Un'integrazione ben configurata garantisce un'esperienza utente senza soluzione di continuità poiché gli utenti non devono passare tra diversi sistemi per accedere alle informazioni rilevanti. Questo migliora la soddisfazione degli utenti e contribuisce all'efficienza.
+* **Increased efficiency:** Integration with other tools and services can streamline workflows and increase efficiency. For example, documents can be automatically exchanged between Docbits and a CRM system, reducing manual entry and increasing productivity
+* **Data consistency:** Integration allows data to be exchanged seamlessly between different systems, improving data consistency and accuracy. This avoids inconsistencies or duplicate data entry that could lead to errors.
+* **Real-time updates**: Integration enables real-time updates between different platforms so that users always have the latest information. This is especially important for critical business processes that require real-time information.
+* **Task automation:** Integration allows routine tasks to be automated, saving time and resources. For example, notifications can be triggered automatically when a certain event occurs in another system without the need for manual intervention.
+* **Improved user experience:** A well-configured integration ensures a seamless user experience as users do not have to switch between different systems to access relevant information. This improves user satisfaction and contributes to efficiency.
 
-Per configurare correttamente le impostazioni di integrazione, è importante comprendere i requisiti dell'organizzazione e garantire che l'integrazione sia perfettamente integrata nei flussi di lavoro e nei processi esistenti. Questo richiede una pianificazione, configurazione e monitoraggio approfonditi dell'integrazione per garantire che funzioni senza intoppi e fornisca il valore desiderato.
+To properly configure the integration settings, it is important to understand the organization's requirements and ensure that the integration is seamlessly integrated into existing workflows and processes. This requires thorough planning, configuration, and monitoring of the integration to ensure that it works smoothly and delivers the desired value.
+
+
+
+
+
