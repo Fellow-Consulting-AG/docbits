@@ -1,6 +1,3 @@
-
-# (Español)
-
 # Integration
 
 The integration settings play a crucial role in the efficiency and functionality of Docbits as they allow to ensure seamless interaction with other tools and services. Here are some reasons why properly configuring the integration settings is important:

@@ -1,6 +1,3 @@
-
-# (Español)
-
 # Export
 
 ## Overview

@@ -1,6 +1,3 @@
-
-# (Español)
-
 ---
 hidden: true
 ---

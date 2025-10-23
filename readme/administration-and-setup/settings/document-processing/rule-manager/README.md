@@ -1,6 +1,3 @@
-
-# (Español)
-
 # Rule Manager
 
 \

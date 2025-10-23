@@ -1,6 +1,3 @@
-
-# (Español)
-
 # Decision Trees
 
 ## Overview

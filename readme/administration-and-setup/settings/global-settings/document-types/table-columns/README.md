@@ -1,6 +1,3 @@
-
-# (Español)
-
 # Table Columns
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.57.49.png" alt=""><figcaption></figcaption></figure>

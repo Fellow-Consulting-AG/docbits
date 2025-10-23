@@ -1,6 +1,3 @@
-
-# (Español)
-
 # Fields
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.02.31.png" alt=""><figcaption></figcaption></figure>

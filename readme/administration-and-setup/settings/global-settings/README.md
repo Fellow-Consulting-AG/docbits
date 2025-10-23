@@ -1,6 +1,3 @@
-
-# (Español)
-
 # Global Settings
 
 
