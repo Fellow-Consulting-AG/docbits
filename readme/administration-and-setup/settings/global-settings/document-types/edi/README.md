@@ -1,19 +1,22 @@
+
+# (Italiano)
+
 # e-docs
 
-![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FhmpbDAscmIwTlIbIVZba%252FBildschirmfoto%25202024-05-08%2520um%252009.49.21.png%3Falt%3Dmedia%26token%3Dea170703-c172-40a0-98f1-5f3cdb662b3a\&width=768\&dpr=4\&quality=100\&sign=f6f00ea\&sv=2)
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.49.21.png" alt=""><figcaption></figcaption></figure>
 
-### Panoramica
+#### Overview
 
-In Docbits, le impostazioni EDI forniscono strumenti per definire e gestire la struttura e il formato dei messaggi EDI che corrispondono a vari tipi di documenti, come fatture o ordini di acquisto. Le impostazioni consentono la personalizzazione dei messaggi EDI per conformarsi agli standard e ai requisiti specifici dei diversi partner commerciali e settori.
+In Docbits, the EDI settings provide tools for defining and managing the structure and format of EDI messages that correspond to various document types, such as invoices or purchase orders. The settings enable the customization of EDI messages to comply with the standards and requirements specific to different trading partners and industries.
 
-### Caratteristiche e Opzioni Chiave
+#### Key Features and Options
 
-1. **Elementi di Configurazione EDI**:
-   * **Descrittore di Struttura**: Definisce la struttura di base del documento EDI, inclusi l'ordinamento dei segmenti, i campi obbligatori e i qualificatori necessari affinché il documento EDI sia valido.
-   * **Trasformazione**: Specifica le trasformazioni applicate per convertire i dati del documento in un messaggio formattato EDI. Questo comporta tipicamente la specifica delle mappature dai campi del documento ai segmenti e agli elementi EDI.
-   * **Anteprima**: Consente agli amministratori di visualizzare come apparirà il messaggio EDI dopo la trasformazione, aiutando a garantire l'accuratezza prima della trasmissione.
-   * **Percorsi di Estrazione**: Mostra i percorsi utilizzati per estrarre i valori dal documento, che vengono poi utilizzati per popolare il messaggio EDI.
-2. **Editor XSLT**:
-   * Utilizzato per modificare e convalidare l'XSLT (eXtensible Stylesheet Language Transformations) utilizzato nel processo di trasformazione. L'XSLT è un linguaggio potente progettato per trasformare documenti XML in altri documenti XML o in altri formati come HTML, testo o anche altre strutture XML.
+1. **EDI Configuration Elements**:
+   * **Structure Descriptor**: Defines the basic structure of the EDI document, including segment ordering, mandatory fields, and qualifiers necessary for the EDI document to be valid.
+   * **Transformation**: Specifies the transformations applied to convert the document data into an EDI formatted message. This typically involves specifying mappings from document fields to EDI segments and elements.
+   * **Preview**: Allows administrators to view how the EDI message will look after transformation, helping to ensure accuracy before transmission.
+   * **Extraction Paths**: Shows the paths used to extract values from the document, which are then used to populate the EDI message.
+2. **XSLT Editor**:
+   * Used for editing and validating the XSLT (eXtensible Stylesheet Language Transformations) used in the transformation process. XSLT is a powerful language designed for transforming XML documents into other XML documents or other formats like HTML, text, or even other XML structures.
 
-<figure><img src="../../../../../.gitbook/assets/e-docs.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.49.59.png" alt=""><figcaption></figcaption></figure>
