@@ -1,6 +1,9 @@
 readme/overview/.DS_Store
 readme/.DS_Store
 venv
+.env
+.env.local
+.env.*.local
 readme/admin-section/.DS_Store
 readme/admin-section/course/.DS_Store
 readme/admin-section/settings/.DS_Store
