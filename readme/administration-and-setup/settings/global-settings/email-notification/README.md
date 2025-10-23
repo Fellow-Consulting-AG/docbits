@@ -1,27 +1,32 @@
-# Notificação por Email
 
-Configurar notificações por email é fundamental. As notificações por email no DocBits podem ser configuradas para notificar os usuários sobre vários eventos relacionados a documentos, como: conclusão de processamento, erros de importação ou exportação, ou solicitações de intervenção do usuário. Esta ferramenta é essencial para manter uma comunicação eficaz e a continuidade operacional em ambientes de processamento de documentos. Aqui estão algumas razões pelas quais isso é importante:
+# (Português)
 
-**Comunicação em tempo real:**
+# Email Notification
 
-* Alertas por email permitem que os usuários sejam notificados imediatamente sobre eventos ou mudanças importantes em seu sistema de gerenciamento de documentos. Isso garante que todas as partes relevantes sejam informadas imediatamente sobre atualizações importantes.
+<figure><img src="../../../../.gitbook/assets/E-Mail Notifications.png" alt=""><figcaption></figcaption></figure>
 
-**Transparência e rastreabilidade:**
+Configuring email notifications is critical. Email notifications in DocBits can be configured to notify users of various document-related events, such as: Processing completion, import or export errors, or user intervention requests. This tool is essential for maintaining effective communication and operational continuity in document processing environments. Here are some reasons why this is important:
 
-* Ao configurar notificações por email, os usuários podem rastrear e monitorar o status dos eventos de processamento de documentos. Isso melhora a transparência e a rastreabilidade no sistema de gerenciamento de documentos.
+**Real-time communication:**
 
-**Reações oportunas:**
+* Email alerts allow users to be immediately notified of important events or changes in their document management system. This ensures that all relevant parties are immediately informed of important updates.
 
-* A notificação automática de eventos como liberações de documentos, comentários ou aprovações permite que os usuários respondam rapidamente a solicitações ou atualizações. Isso ajuda a aumentar a eficiência e a produtividade.
+**Transparency and traceability:**
 
-**Automação de fluxos de trabalho:**
+* By configuring email notifications, users can track and monitor the status of document processing events. This improves transparency and traceability in the document management system.
 
-* As notificações por email podem ser integradas a fluxos de trabalho para enviar automaticamente notificações aos usuários relevantes quando certas ações são realizadas. Isso possibilita a automação contínua dos processos de negócios.
+**Timely reactions:**
 
-**Lembretes e prazos:**
+* Automatic notification of events such as document releases, comments, or approvals allows users to quickly respond to requests or updates. This helps increase efficiency and productivity.
 
-* A configuração de notificações por email pode ser usada para lembrar os usuários sobre prazos próximos ou tarefas pendentes. Isso ajuda a garantir que tarefas importantes sejam concluídas a tempo.
+**Automation of workflows:**
 
-No geral, a configuração de notificações por email desempenha um papel importante na melhoria da comunicação, no aumento da eficiência e na garantia de que os eventos de processamento de documentos sejam gerenciados de maneira oportuna e eficaz. Ao automatizar as notificações, as organizações podem garantir que informações importantes não sejam perdidas e que todas as partes relevantes estejam sempre atualizadas.
+* Email notifications can be integrated into workflows to automatically send notifications to relevant users when certain actions are taken. This enables seamless automation of business processes.
 
-Esta configuração é crítica para garantir que as partes interessadas sejam mantidas informadas sobre o status de processamento de documentos importantes, o que ajuda na tomada de decisões rápidas e na gestão eficiente dos fluxos de trabalho de documentos.
+**Reminders and deadlines:**
+
+* Email notification configuration can be used to remind users of upcoming deadlines or outstanding tasks. This helps ensure important tasks are completed on time.
+
+Overall, email notification configuration plays an important role in improving communication, increasing efficiency, and ensuring that document processing events are managed in a timely and effective manner. By automating notifications, organizations can ensure that important information is not lost and that all relevant parties are always kept up to date.
+
+This setting is critical for ensuring that stakeholders are kept informed about the processing status of important documents, which aids in rapid decision-making and efficient management of document workflows.
