@@ -46,12 +46,25 @@ The DocBits Workflow Engine implements robust version control for all workflow c
 #### 1. CALL_API
 **Versions:** v1, v2 (Current: v2)
 
+📖 **Guide:** [Call External API Guide](../then/action/call-api-guide.md)
+
 | Version | Translation | Status | Key Changes |
 |---------|-------------|--------|-------------|
 | v1 | No | Active | Basic API call without translation keys |
 | v2 | Yes | ✅ Current | Added `trnsl_%call_api` for multi-language support |
 
 **What Changed:** Added internationalization (i18n) support with translation keys. Functionality remains identical.
+
+**Before (v1):**
+```
+Call Api: [endpoint] with method: [method], params: [params], data: [data]
+```
+
+**After (v2):**
+```
+trnsl_%call_api trnsl_be_% Call Api: [endpoint] with method: [method], params: [params], data: [data]
+```
+
 **Recommendation:** Use v2 for all new workflows (includes language support)
 **Backward Compatibility:** ✅ v1 still works
 
@@ -93,6 +106,8 @@ The DocBits Workflow Engine implements robust version control for all workflow c
 #### 4. ACTION_TASK_FOR_GROUP
 **Versions:** v2, v3 (Deprecated), v4 (Current)
 
+📖 **Guide:** [Task Assignment Guide](../then/task/task-assignment-guide.md)
+
 | Version | Changes | Status | Type Parameter |
 |---------|---------|--------|-----------------|
 | v2 | Original implementation | Active | "Task" (fixed) |
@@ -100,6 +115,19 @@ The DocBits Workflow Engine implements robust version control for all workflow c
 | v4 | - Decision tree, + Generic type | ✅ Current | Generic type (flexible) |
 
 **Evolution:** v2 → v3 (decision tree experiment) → v4 (generic types, decision tree removed)
+
+**v2 → v3 Change (Decision Tree Experiment):**
+```
+Before: "Create a new Task with the title: [param] ... and assign to group [param]"
+After:  "Create a new Task with the title: [param] ... and assign to group [param].
+         Use decision tree, if available: [param]"
+```
+
+**v3 → v4 Change (Generic Types + Decision Tree Removal):**
+```
+Before (v3): "Create a new Task with the title: [param] ... "
+After (v4):  "Create a new [param] with the title: [param] ... "
+```
 
 **What Changed:**
 - v2 → v3: Added `decision tree, if available: [param]` parameter
@@ -139,6 +167,8 @@ The DocBits Workflow Engine implements robust version control for all workflow c
 #### 1. CONDITION_DOC_TO_PO_UNIT_PRICE ⭐ (Most Evolved - 5 Versions)
 **Versions:** v2, v3, v4, v5 (Current)
 
+📖 **Guide:** [PO Matching Complete Guide](../and/compare-with-purchase-order/po-matching-complete-guide.md#2-unit-price-comparison-document-vs-po)
+
 | Version | Changes | Status | Tolerance | Comparison |
 |---------|---------|--------|-----------|------------|
 | v2 | Basic price comparison | Active | ❌ No | Basic |
@@ -148,12 +178,28 @@ The DocBits Workflow Engine implements robust version control for all workflow c
 
 **Evolution Path:** v2 → v3 (no change) → v4 (comparison modes) → v5 (tolerance thresholds)
 
+**v2 → v3:** No functional change (same translation key)
+
+**v3 → v4 Change (Comparison Mode Added):**
+```
+Before: "[document] unit price is [operator] to purchase order"
+After:  "[document] unit price is [operator] to purchase order. Compare as [mode]"
+```
+
+**v4 → v5 Change (Tolerance Parameters Added):**
+```
+Before: "[document] unit price is [operator] to purchase order. Compare as [mode]"
+After:  "[document] unit price is [operator] to purchase order, with tolerance of [amount] [unit].
+         Compare as [mode]"
+```
+
 **What Changed:**
 - **v2 → v3:** No functional change
 - **v3 → v4:** Added `Compare as [param]` - Support different comparison operators
 - **v4 → v5:** Added tolerance parameters:
   - `with tolerance of [amount] [unit]`
   - Example: "with tolerance of 2 %" or "with tolerance of 100 EUR"
+  - Supports: %, EUR, $, and other currencies
 
 **Use Cases:**
 - v2/v3: Strict matching (exact prices only)
@@ -305,6 +351,8 @@ The DocBits Workflow Engine implements robust version control for all workflow c
 #### 1. tasks_create ⭐ (Most Evolved Task Card - 4 Versions)
 **Versions:** v1 (Deprecated), v2 (Deprecated), v3 (Deprecated), v4 (Current)
 
+📖 **Guide:** [Task Assignment Guide](../then/task/task-assignment-guide.md#card-tasks_create--create-task-and-assign-to-user)
+
 | Version | Translation | Decision Tree | Work Item Type | Status |
 |---------|-------------|---------------|-----------------|--------|
 | v1 | No | No | "Task" (fixed) | ❌ DEPRECATED |
@@ -321,6 +369,25 @@ v2 (with i18n)
 v3 (+ decision tree, BUT deprecated after this)
   ↓ (remove decision tree, add generic types)
 v4 (CURRENT - flexible work items)
+```
+
+**v1 → v2 Change (Translation Keys Added):**
+```
+Before: "Create a new Task with the title: [param] ... and assign to user [param]"
+After:  "trnsl_%tasks_create trnsl_be_% Create a new Task with the title: [param] ... and assign to user [param]"
+```
+
+**v2 → v3 Change (Decision Tree Experiment):**
+```
+Before: "Create a new Task with the title: [param] ... and assign to user [param]"
+After:  "Create a new Task with the title: [param] ... and assign it to the user [param].
+         Use decision tree, if available: [param]"
+```
+
+**v3 → v4 Change (Generic Types + Decision Tree Removal):**
+```
+Before: "Create a new Task with the title: [param] ... "
+After:  "Create a new [param] with the title: [param] ... "
 ```
 
 **What Changed:**
