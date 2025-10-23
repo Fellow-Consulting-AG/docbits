@@ -1,34 +1,34 @@
+
+# (Polski)
+
 # Layout Manager
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2008.46.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.46.24.png" alt=""><figcaption></figcaption></figure>
 
-#### Przegląd
+#### Overview
 
-Menedżer układu umożliwia administratorom wizualną konfigurację i modyfikację układu typów dokumentów poprzez ustawianie właściwości dla różnych pól danych i grup w dokumencie. Ten interfejs pomaga zapewnić, że modele ekstrakcji i punkty ręcznego wprowadzania danych są dokładnie zgodne z strukturą dokumentu zeskanowanego lub przesłanego do DocBits.
+The Layout Manager allows administrators to visually configure and modify the layout of document types by setting properties for various data fields and groups within a document. This interface helps ensure that the extraction models and manual data entry points align precisely with the document's structure as scanned or uploaded into Docbits.
 
-#### Główne składniki
+#### Key Components
 
-1. **Grupy i pola**:
-
-* **Grupy**: Jednostki organizacyjne w obrębie typu dokumentu, które kategoryzują powiązane pola (np. Szczegóły faktury, Szczegóły płatności). Mogą być rozszerzane lub zwijane oraz ustawiane tak, aby odzwierciedlać logiczne grupowanie w rzeczywistym dokumencie.
-* **Pola**: Indywidualne punkty danych w każdej grupie (np. Numer faktury, Warunki płatności). Każde pole może być dostosowane pod kątem sposobu przechwytywania, wyświetlania i przetwarzania danych.
-
-2. **Panel właściwości**:
-
-* Ten panel wyświetla właściwości wybranego pola lub grupy, umożliwiając szczegółową konfigurację, taką jak:
-* **Etykieta**: Widoczna etykieta pola w interfejsie użytkownika.
-* **Nazwa pola**: Techniczny identyfikator używany w systemie.
-* **Szerokość elementu w procentach**: Określa szerokość pola w stosunku do układu dokumentu.
-* **Indeks zakładki**: Kontroluje kolejność przemieszczania się za pomocą klawiszy TAB.
-* **Uruchom skrypt po zmianie**: Czy ma zostać wykonany skrypt po zmianie wartości pola.
-* **Wyświetl etykietę po lewej**: Czy etykieta ma być wyświetlana po lewej stronie pola czy nad nim.
-* **Jest polem tekstowym**: Określa, czy pole powinno być polem tekstowym, dostosowującym się do większych ilości tekstu.
-* **Wybierz typ modelu**: Opcja wyboru, który typ modelu będzie obsługiwał ekstrakcję tego pola.
-* **Długość pola**: Maksymalna długość danych do zaakceptowania w tym polu.
-* **Zabronione słowa kluczowe**: Słowa kluczowe niedozwolone w polu.
-
-3. **Podgląd szablonu**:
-
-* Pokazuje podgląd w czasie rzeczywistym, jak będzie wyglądał dokument na podstawie bieżącej konfiguracji układu. Pomaga to w zapewnieniu, że układ odpowiada rzeczywistej strukturze dokumentu i jest kluczowy do testowania i udoskonalania konfiguracji przetwarzania dokumentów.
+1. **Groups and Fields**:
+   * **Groups**: Organizational units within a document type that categorize related fields (e.g., Invoice Details, Payment Details). These can be expanded or collapsed and arranged to mirror the logical grouping in the actual document.
+   * **Fields**: Individual data points within each group (e.g., Invoice Number, Payment Terms). Each field can be customized for how data is captured, displayed, and processed.
+2. **Properties Panel**:
+   * This panel displays the properties of the selected field or group, allowing for detailed configuration, such as:
+     * **Label**: The visible label for the field in the user interface.
+     * **Field Name**: The technical identifier used within the system.
+     * **Element Width in Percentage**: Determines the width of the field in relation to the document layout.
+     * **Tab Index**: Controls the tabbing order for navigation.
+     * **Run Script on Change**: Whether to execute a script when the field value changes.
+     * **Display Label On Left**: Whether the label is displayed to the left of the field or above it.
+     * **Is Textarea**: Specifies if the field should be a textarea, accommodating larger amounts of text.
+     * **Select Model Type**: Option to select which model type will handle the extraction of this field.
+     * **Field Length**: Maximum length of data to be accepted in this field.
+     * **Banned Keywords**: Keywords that are not allowed within the field.
+3. **Template Preview**:
+   * Shows a real-time preview of how the document will appear based on the current layout configuration. This helps in ensuring that the layout matches the actual document structure and is vital for testing and refining the document processing setup.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2490" %}
+
+
