@@ -4,6 +4,20 @@
 
 ---
 
+## 📌 Version Information
+
+**Most Evolved Card:** CONDITION_DOC_TO_PO_UNIT_PRICE (5 versions, v5 latest)
+**Other Complex Cards:** CONDITION_OC_TO_PO_ITEMS (v4), CONDITION_LESS_THAN_TOLERANCE_AS_VALUE_OF_ORDERED_QUANTITY (v4)
+
+**Key Patterns:**
+- **v2 → v3+:** Addition of tolerance parameters for flexible matching
+- **v3 → v4:** Addition of comparison mode parameters
+- **v4 → v5:** Enhanced tolerance with multiple units (%, EUR, $, etc.)
+
+📖 [Complete Version History](../../../changelog/release.md#-po-comparison--validation-cards) | [Card Version Database](../../../../DocFlow/docs/card_version.md)
+
+---
+
 ## Understanding PO Matching
 
 When you receive an invoice, it should match the Purchase Order (PO) placed earlier. PO matching cards automatically check if invoice data matches PO data.

@@ -4,6 +4,18 @@
 
 ---
 
+## 📌 Version Information
+
+**Status:** Most condition cards are stable with single or dual-version structures
+**Version Pattern:** Most follow v1 → v2 pattern (adding i18n support)
+**Multi-Version Example:** CONDITION_DECISION_TREE_DATA (v2-v3)
+
+**Note:** Some PO comparison condition cards have 4-5 versions (see PO Matching Guide for details)
+
+📖 [Complete Version History](../../../changelog/release.md) | [Card Version Database](../../../../DocFlow/docs/card_version.md) | [PO Matching Guide](../compare-with-purchase-order/po-matching-complete-guide.md)
+
+---
+
 # Document State & Status Conditions
 
 ## Card: CONDITION_DOC_STATUS_IS_ISNOT / Document Status Check

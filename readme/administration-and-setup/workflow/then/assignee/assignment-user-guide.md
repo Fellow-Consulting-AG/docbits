@@ -4,6 +4,17 @@
 
 ---
 
+## 📌 Version Information
+
+**Multi-Version Cards:** DOC_USER_ASSIGN (v2 latest, v3 deprecated), DOC_GROUP_ASSIGN (v2 latest, v3 deprecated), OC_ASSIGN_DOC (v2)
+
+**Important:** v3 versions added decision tree support but are now deprecated
+**Recommendation:** Use v2 for both DOC_USER_ASSIGN and DOC_GROUP_ASSIGN
+
+📖 [Complete Version History](../../../changelog/release.md#-assignment--routing-cards) | [Card Version Database](../../../../DocFlow/docs/card_version.md)
+
+---
+
 # Basic Document Assignment
 
 ## Card: DOC_USER_ASSIGN / Assign Document to User
