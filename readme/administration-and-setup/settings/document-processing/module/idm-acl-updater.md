@@ -1,6 +1,3 @@
-
-# (Português)
-
 # IDM ACL Updater
 
 ## Overview

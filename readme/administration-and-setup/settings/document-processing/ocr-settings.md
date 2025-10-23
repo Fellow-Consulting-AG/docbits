@@ -1,6 +1,3 @@
-
-# (Português)
-
 # OCR Settings
 
 ## Overview

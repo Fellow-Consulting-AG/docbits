@@ -1,6 +1,3 @@
-
-# (Português)
-
 # Import
 
 ## Overview

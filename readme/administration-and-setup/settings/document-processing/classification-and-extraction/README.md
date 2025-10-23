@@ -1,6 +1,3 @@
-
-# (Português)
-
 # Classification And Extraction
 
 ## Overview

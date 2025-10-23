@@ -1,6 +1,3 @@
-
-# (Português)
-
 # Users
 
 User Settings is an area in a system where users can adjust personal preferences, account settings, and security settings. Typically, user settings include options such as password changes, profile information, notification preferences, and possibly individual permissions to access certain features or data.
