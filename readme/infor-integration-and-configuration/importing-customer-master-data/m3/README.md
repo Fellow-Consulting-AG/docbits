@@ -15,7 +15,7 @@ This guide explains how to import an API Connection Template to quickly configur
 
 Before importing, download the required connection template using the file below:
 
-{% file src="../../../.gitbook/assets/DocBits-Dev-Import-Template.xml" %}
+{% file src="../../../.gitbook/assets/DocBits-Dev-Import-Template (1).xml" %}
 
 ### Importing Template
 
@@ -32,7 +32,7 @@ Before importing, download the required connection template using the file below
    * Select the appropriate **Template File** from your local system.
    *   Click **OK** to begin the import process.
 
-       <figure><img src="../../../.gitbook/assets/m3_import_3.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/m3_import_3.png" alt="" width="327"><figcaption></figcaption></figure>
 3. **Confirmation:**
    *   If the import is successful, a confirmation message will be displayed.
 
