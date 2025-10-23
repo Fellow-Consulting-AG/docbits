@@ -1,5 +1,5 @@
 ---
-hidden: true
+description: Configuração de Workflow DocBits
 ---
 
 # Poi
