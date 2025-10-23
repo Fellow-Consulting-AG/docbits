@@ -1,6 +1,3 @@
-
-# (Deutsch)
-
 # Annotation Mode
 
 ## Overview

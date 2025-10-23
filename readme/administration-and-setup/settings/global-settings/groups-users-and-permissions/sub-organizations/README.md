@@ -1,6 +1,3 @@
-
-# (Deutsch)
-
 # Sub-Organizations
 
 Creating suborganizations within a document management system serves to further organize and differentiate the structure and management of user accounts, documents, and workflows within an organization. Here are some purposes and benefits of creating suborganizations:

@@ -1,6 +1,3 @@
-
-# (Deutsch)
-
 # Classification And Extraction
 
 ## Overview

@@ -1,6 +1,3 @@
-
-# (Deutsch)
-
 ---
 hidden: true
 ---

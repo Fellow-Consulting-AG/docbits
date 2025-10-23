@@ -1,6 +1,3 @@
-
-# (Deutsch)
-
 # Master Data Lookup
 
 ## Overview

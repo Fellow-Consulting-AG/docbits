@@ -1,6 +1,3 @@
-
-# (Deutsch)
-
 ---
 description: Doc Scan offers very easy Document creation via your local Scanner.
 ---

@@ -1,6 +1,3 @@
-
-# (Deutsch)
-
 # Inbound Emails
 
 ## Activating Inbound Email for Document Processing

@@ -1,6 +1,3 @@
-
-# (Deutsch)
-
 # Test: Email Import and Handling Tests
 
 ## Purpose
