@@ -1,34 +1,34 @@
+
+# (Español)
+
 # Layout Manager
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2008.46.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.46.24.png" alt=""><figcaption></figcaption></figure>
 
-#### Visión general
+#### Overview
 
-El Gestor de Diseño permite a los administradores configurar y modificar visualmente el diseño de los tipos de documento al establecer propiedades para varios campos de datos y grupos dentro de un documento. Esta interfaz ayuda a garantizar que los modelos de extracción y los puntos de entrada de datos manuales se alineen precisamente con la estructura del documento escaneado o cargado en DocBits.
+The Layout Manager allows administrators to visually configure and modify the layout of document types by setting properties for various data fields and groups within a document. This interface helps ensure that the extraction models and manual data entry points align precisely with the document's structure as scanned or uploaded into Docbits.
 
-#### Componentes clave
+#### Key Components
 
-1. **Grupos y Campos**:
-
-* **Grupos**: Unidades organizativas dentro de un tipo de documento que categorizan campos relacionados (por ejemplo, Detalles de la Factura, Detalles de Pago). Estos pueden expandirse o contraerse y organizarse para reflejar el agrupamiento lógico en el documento real.
-* **Campos**: Puntos de datos individuales dentro de cada grupo (por ejemplo, Número de Factura, Términos de Pago). Cada campo se puede personalizar para la captura, visualización y procesamiento de datos.
-
-2. **Panel de Propiedades**:
-
-* Este panel muestra las propiedades del campo o grupo seleccionado, permitiendo una configuración detallada, como:
-* **Etiqueta**: La etiqueta visible para el campo en la interfaz de usuario.
-* **Nombre del Campo**: El identificador técnico utilizado dentro del sistema.
-* **Ancho del Elemento en Porcentaje**: Determina el ancho del campo en relación con el diseño del documento.
-* **Índice de Pestaña**: Controla el orden de tabulación para la navegación.
-* **Ejecutar Script al Cambiar**: Si se debe ejecutar un script cuando cambia el valor del campo.
-* **Mostrar Etiqueta a la Izquierda**: Si la etiqueta se muestra a la izquierda del campo o encima de él.
-* **Es Textarea**: Especifica si el campo debe ser un área de texto, que permite cantidades mayores de texto.
-* **Seleccionar Tipo de Modelo**: Opción para seleccionar qué tipo de modelo manejará la extracción de este campo.
-* **Longitud del Campo**: Longitud máxima de datos que se aceptarán en este campo.
-* **Palabras Clave Prohibidas**: Palabras clave que no están permitidas dentro del campo.
-
-3. **Vista Previa de la Plantilla**:
-
-* Muestra una vista previa en tiempo real de cómo se verá el documento según la configuración de diseño actual. Esto ayuda a garantizar que el diseño coincida con la estructura real del documento y es vital para probar y refinar la configuración de procesamiento del documento.
+1. **Groups and Fields**:
+   * **Groups**: Organizational units within a document type that categorize related fields (e.g., Invoice Details, Payment Details). These can be expanded or collapsed and arranged to mirror the logical grouping in the actual document.
+   * **Fields**: Individual data points within each group (e.g., Invoice Number, Payment Terms). Each field can be customized for how data is captured, displayed, and processed.
+2. **Properties Panel**:
+   * This panel displays the properties of the selected field or group, allowing for detailed configuration, such as:
+     * **Label**: The visible label for the field in the user interface.
+     * **Field Name**: The technical identifier used within the system.
+     * **Element Width in Percentage**: Determines the width of the field in relation to the document layout.
+     * **Tab Index**: Controls the tabbing order for navigation.
+     * **Run Script on Change**: Whether to execute a script when the field value changes.
+     * **Display Label On Left**: Whether the label is displayed to the left of the field or above it.
+     * **Is Textarea**: Specifies if the field should be a textarea, accommodating larger amounts of text.
+     * **Select Model Type**: Option to select which model type will handle the extraction of this field.
+     * **Field Length**: Maximum length of data to be accepted in this field.
+     * **Banned Keywords**: Keywords that are not allowed within the field.
+3. **Template Preview**:
+   * Shows a real-time preview of how the document will appear based on the current layout configuration. This helps in ensuring that the layout matches the actual document structure and is vital for testing and refining the document processing setup.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2490" %}
+
+
