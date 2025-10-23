@@ -1,5 +1,5 @@
 ---
-description: Configuração de Workflow DocBits
+description: Configuración del disparador Cuando en los workflows DocBits
 ---
 
 # Cuando

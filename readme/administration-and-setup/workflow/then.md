@@ -1,5 +1,5 @@
 ---
-description: Configuração de Workflow DocBits
+description: Configuración de las acciones Entonces en los workflows DocBits
 ---
 
 # Entonces
