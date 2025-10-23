@@ -1,35 +1,35 @@
-# Benutzer
 
-**Benutzereinstellungen** sind ein Bereich in einem System, in dem Benutzer persönliche Präferenzen, Kontoeinstellungen und Sicherheitseinstellungen anpassen können. Typischerweise umfassen die Benutzereinstellungen Optionen wie Passwortänderungen, Profilinformationen, Benachrichtigungseinstellungen und möglicherweise individuelle Berechtigungen zum Zugriff auf bestimmte Funktionen oder Daten.
+# (Deutsch)
 
-In den meisten Organisationen haben nur autorisierte Personen Zugang zu den Benutzereinstellungen, normalerweise Administratoren oder Systemadministratoren. Dies liegt daran, dass die Einstellungen sensible Informationen enthalten können, die die Sicherheit des Systems gefährden könnten, wenn sie von unbefugten Personen geändert werden. Administratoren können die Benutzereinstellungen verwalten, um sicherzustellen, dass sie den Richtlinien und Anforderungen der Organisation entsprechen und die Integrität des Systems gewahrt bleibt.
+# Users
 
-<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+User Settings is an area in a system where users can adjust personal preferences, account settings, and security settings. Typically, user settings include options such as password changes, profile information, notification preferences, and possibly individual permissions to access certain features or data.
 
-**Suchleiste:** Ermöglicht Administratoren, Benutzer schnell zu finden, indem sie nach deren Namen oder anderen Details suchen.
+In most organizations, only authorized people have access to user settings, usually administrators or system administrators. This is because the settings may contain sensitive information that could compromise the security of the system if changed by unauthorized persons. Administrators are able to manage user settings to ensure that they comply with organizational policies and requirements and that the integrity of the system is maintained.
 
-**Benutzerliste:** Zeigt eine Liste von Benutzern mit den folgenden Spalten an:
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
 
-* **Name:** Der vollständige Name des Benutzers.
-* **E-Mail:** Die E-Mail-Adresse des Benutzers, die wahrscheinlich als Anmeldekennzeichen verwendet wird.
-* **Admin:** Ein Kontrollkästchen, das anzeigt, ob der Benutzer über administrative Berechtigungen verfügt. Administratoren haben in der Regel Zugriff auf alle Einstellungen und können andere Benutzerkonten verwalten.
-* **Aktionen:** Diese Spalte umfasst typischerweise Schaltflächen oder Links zum Ausführen von Aktionen wie Bearbeiten von Benutzerdaten, Zurücksetzen von Passwörtern oder Löschen des Benutzerkontos.
+1. **Search Bar**: Allows administrators to quickly find users by searching for their names or other details.
+2. **User List**: Displays a list of users with the following columns:
+   * **Name**: The full name of the user.
+   * **Email**: The user's email address, which is likely used as their login identifier.
+   * **Admin**: A checkbox indicating whether the user has administrative privileges. Admins typically have access to all settings and can manage other user accounts.
+   * **Actions**: This column typically includes buttons or links for performing actions such as editing user details, resetting passwords, or deleting the user account.
+3. **Add User Button**: This button is used to create new user accounts. Clicking on it would typically bring up a form where you can enter the new user's details, such as their name, email, and whether they should have admin rights.
 
-**Benutzer hinzufügen:** Diese Schaltfläche wird verwendet, um neue Benutzerkonten zu erstellen. Ein Klick darauf öffnet typischerweise ein Formular, in dem Sie die Details des neuen Benutzers eingeben können, wie z. B. Name, E-Mail und ob er administrative Rechte haben soll.
+## Step-by-step instructions to add a new user:
 
-**Schritt-für-Schritt-Anleitung zum Hinzufügen eines neuen Benutzers:**
+* **Access User Management:** Navigate to Settings - Global Settings - Groups, User and Permissions - User, where you can add new users.
+* **Add new user:** In the user settings, click on “Add user”
 
-1. **Zugriff auf das Benutzermanagement:** Navigieren Sie zu Einstellungen - Globale Einstellungen - Gruppen, Benutzer und Berechtigungen - Benutzer, wo Sie neue Benutzer hinzufügen können.
-2. **Neuen Benutzer hinzufügen:** Klicken Sie in den Benutzereinstellungen auf „Benutzer hinzufügen“.
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+* **Filling out the form:** A form will appear where you can enter the information for the new user. Typical information includes:
 
-3. **Ausfüllen des Formulars:** Es erscheint ein Formular, in das Sie die Informationen für den neuen Benutzer eingeben können. Typische Informationen sind:
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-
-* **Benutzername:** Eindeutiger Name für den Benutzer, der zur Anmeldung verwendet wird.
-* **Vorname und Nachname:** Name des Benutzers.
-* **E-Mail-Adresse:** Die E-Mail-Adresse des Benutzers, die für Kommunikation und Benachrichtigungen verwendet wird.
-* **Passwort:** Ein Passwort für den Benutzer, das den Sicherheitsrichtlinien entsprechen sollte.
-* **Benutzerrolle:** Legen Sie die Rolle des Benutzers fest, z. B. Standardbenutzer oder Administrator.
+* **Username:** Unique name for the user used to log in.
+* **First Name and Last Name:** Name of the user.
+* **Email Address:** The user's email address used for communications and notifications.
+* **Password**: A password for the user that should comply with security policies.
+* **User Role:** Set the user's role, e.g. B. Standard user or administrator.
