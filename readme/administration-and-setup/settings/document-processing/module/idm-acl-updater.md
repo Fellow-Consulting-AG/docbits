@@ -1,29 +1,33 @@
-# Mise à jour de l'ACL IDM
 
-## Aperçu
+# (Français)
 
-Le module ACL-Updater est responsable de la mise à jour et de la gestion des listes de contrôle d'accès (ACL) au sein de DocBits. Cela garantit que les autorisations appropriées et les mesures de sécurité sont en place pour l'accès et le traitement des documents.
+# IDM ACL Updater
 
-## Instructions d'activation
+## Overview
 
-Pour activer le module ACL-Updater, suivez ces étapes :
+The ACL-Updater module is responsible for updating and managing Access Control Lists (ACLs) within DocBits. This ensures that appropriate permissions and security measures are in place for document access and handling.
 
-1. Accédez à **Paramètres**.
-2. Sélectionnez **Traitement des documents**.
-3. Sélectionnez **Module**.
-4. Allez à **Type de document**.
-5. Activez le **Mise à jour de l'ACL IDM** en activant le curseur correspondant.
+## Activation Instructions
 
-Une fois le module activé, vous pouvez sélectionner un **Fichier de mappage ION** à utiliser.
+To activate the ACL-Updater module, follow these steps:
 
-<figure><img src="../../../../.gitbook/assets/IDM-ACL-UPDATER1_fr.png" alt=""><figcaption></figcaption></figure>
+1. Navigate to **Settings**.
+2. Select **Document Processing**.
+3. Select **Module**.
+4. Go to **Document Type**.
+5. Activate the **IDM ACL-Updater** by enabling the corresponding slider.
 
-### Ajout d'informations ACL
+Once the module is activated, you can select an **ION Mapping File** to use.
 
-Pour ajouter des informations ACL, cliquez sur le bouton **Ajouter**. Vous pouvez ensuite spécifier les détails suivants :
+<figure><img src="../../../../.gitbook/assets/IDM-ACL-UPDATER1.png" alt=""><figcaption></figcaption></figure>
 
-* **Type de document IDM**
-* **Statut ACL IDM actuel**
-* **Nouveau statut ACL IDM**
+### Adding ACL Information
 
-<figure><img src="../../../../.gitbook/assets/IDM-ACL-UPDATER2_fr.png" alt="" width="563"><figcaption></figcaption></figure>
+To add ACL information, click the **Add** button. You can then specify the following details:
+
+* **IDM Document Type**
+* **Current IDM ACL Status**
+* **New IDM ACL Status**
+
+<figure><img src="../../../../.gitbook/assets/IDM-ACL-UPDATER2.png" alt="" width="563"><figcaption></figcaption></figure>
+
