@@ -1,59 +1,63 @@
-# Szkolenie Pól Linii/Szkolenie Tabeli
+# Training Line Fields/Table Training
 
-## Szkolenie Tabeli: Kiedy i Jak Je Używać
+## Table Training: When and How to Use It
 
-DocBits domyślnie korzysta z ekstrakcji tabel opartej na sztucznej inteligencji, która działa w przypadku różnych dostawców. Jednakże, gdy potrzebujesz większej kontroli nad tym, jak elementy linii są ekstrahowane dla konkretnego dostawcy, możesz użyć **Szkolenia Tabeli** do ręcznego zdefiniowania struktury.
+DocBits uses AI-based table extraction by default, which works across suppliers. However, when you need more control over how line items are extracted for a specific supplier, you can use **Table Training** to define the structure manually.
 
-#### **Ważne: Szkolenie Specyficzne dla Dostawcy**
+#### &#x20;**Important: Supplier-Specific Training**
 
-Szkolenie tabeli jest **specyficzne dla każdego dostawcy**. Jeśli przeszkolisz układ tabeli dla jednego dostawcy, zasady będą obowiązywać tylko w dokumentach tego dostawcy.\
-Inni dostawcy będą nadal korzystać z ekstrakcji tabel opartej na sztucznej inteligencji, chyba że zostaną przeszkoleni oddzielnie.
+Table training is **specific to each supplier**. If you train a table layout for one supplier, the rules apply only to that supplier’s documents.\
+Other suppliers will continue to use AI-based table extraction unless trained separately.
 
-#### Kiedy Należy Użyć Szkolenia Tabeli?
+#### When Should You Use Table Training?
 
-Użyj Szkolenia Tabeli **tylko wtedy, gdy układ dokumentu jest stabilny**, i chcesz zapewnić spójną, wysokiej jakości ekstrakcję. Najlepiej nadaje się dla dostawców, którzy:
+Use Table Training **only when the document layout is stable**, and you want to ensure consistent, high-quality extraction. It is best suited for suppliers who:
 
-* Używają **ustalonego formatu faktury** w czasie.
-* Wymagają **precyzyjnego mapowania** elementów linii do konkretnych pól.
-* Są **dostawcami o dużym wolumenie**, gdzie spójna automatyzacja jest cenna.
+* Use a **fixed invoice format** over time.
+* Require **precise mapping** of line items to specific fields.
+* Are **high-volume suppliers**, where consistent automation is valuable.
 
-#### Kiedy Nie Używać Szkolenia Tabeli
+#### When Not to Use Table Training
 
-Unikaj korzystania ze Szkolenia Tabeli jeśli:
+Avoid using Table Training if:
 
-* Dostawca **często zmienia układ swojej faktury** (np. co kilka miesięcy).
-* Nie otrzymujesz regularnie dokumentów od tego dostawcy.
-* Domyślna ekstrakcja oparta na sztucznej inteligencji działa **wystarczająco dobrze** bez ręcznego szkolenia.
+* The supplier **frequently changes their invoice layout** (e.g., every couple of months).
+* You do not regularly receive documents from that supplier.
+* The default AI extraction works **well enough** without manual training.
 
-W takich przypadkach wielokrotne przeszkolenie tabeli byłoby nieskuteczne i czasochłonne.
+In such cases, retraining the table repeatedly would be inefficient and time-consuming.
 
-## Jak Je Używać:
 
-**Tryb Szkolenia** służy do nauczenia DocBits, jak poprawnie ekstrahować elementy linii z układu dokumentu konkretnego dostawcy.
 
-Gdy jesteś w Trybie Szkolenia, definiujesz:
+## How to use It:
 
-* **Gdzie znajduje się tabela** na dokumencie.
-* **Które obszary odpowiadają każdej kolumnie** (np. Ilość, Opis, Cena Jednostkowa).
+**Training Mode** is used to teach DocBits how to correctly extract line items from a specific supplier’s document layout.
 
-Ten tryb tworzy **szablon ekstrakcji do ponownego użycia** dla tego dostawcy, dzięki czemu przyszłe dokumenty o tym samym układzie będą przetwarzane automatycznie — nie trzeba ponownie szkolić.
+When you're in Training Mode, you define:
 
-**Kluczowe Cechy:**
+* **Where the table is located** on the document.
+* **Which areas correspond to each column** (e.g., Quantity, Description, Unit Price).
 
-* **Zmapowane kolumny są tylko do odczytu** — nie można ręcznie zmieniać tekstu.
-* **Nie można dodawać ani usuwać wierszy**.
-* Skupiasz się na **mapowaniu pozycji**, a nie na poprawianiu wartości.
-* Gdy zakończysz mapowanie tabeli i jej kolumn, kliknij **"Zapisz Zasady"**, aby DocBits nauczył się i zastosował to szkolenie do podobnych dokumentów od tego samego dostawcy.
+This mode creates a **reusable extraction template** for that supplier, so future documents with the same layout will be processed automatically — no need to retrain.
 
-**Tryb Korekty** pozwala ci **poprawić błędy ekstrakcji** w danych tabeli dla bieżącego dokumentu. Jest używany, gdy DocBits już próbował ekstrahować tabelę, ale wyniki wymagają niewielkich poprawek.
+**Key Characteristics:**
 
-Użyj Trybu Korekty, gdy:
+* **Mapped columns are read-only** — you can’t manually change the text.
+* You **cannot add or delete rows**.
+* The focus is on **mapping positions**, not correcting values.
+* Once you’ve finished mapping the table and its columns, click **“Save Rules”** so DocBits learns and applies this training to similar documents from the same supplier.
 
-* Niektóre **wartości są brakujące lub źle wyrównane**.
-* Wyekstrahowano **pusty lub zduplikowany wiersz**, który trzeba usunąć.
 
-**Co Możesz Zrobić w Trybie Korekty:**
 
-* **Ręcznie dostosować wartości** w zmapowanych kolumnach (np. naprawić przemieszczenia).
-* **Usunąć wiersze**, które nie powinny być częścią tabeli.
-* **Dodać wiersze**, które zostały pominięte podczas ekstrakcji.
+**Correction Mode** allows you to **fix extraction errors** in the table data for the current document. It’s used when DocBits has already attempted to extract the table, but the results need small corrections.
+
+Use Correction Mode when:
+
+* Some **values are missing or misaligned**.
+* An **empty or duplicate line** was extracted and needs to be removed.
+
+**What You Can Do in Correction Mode:**
+
+* **Manually adjust values** in mapped columns (e.g., fix misplacements).
+* **Delete rows** that shouldn’t be part of the table.
+* **Add rows** that were missed entirely during extraction.
