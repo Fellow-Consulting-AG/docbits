@@ -1,14 +1,20 @@
-# Scadenza dei documenti
+
+# (Italiano)
+
+# Documents Expiry
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.17.png" alt=""><figcaption></figcaption></figure>
 
-Nell'impostazione "Scadenza dei documenti" sotto la sezione "ELABORAZIONE DOCUMENTI", è possibile configurare gli orari di eliminazione automatica per i documenti all'interno del sistema. Questa funzionalità è particolarmente utile per gestire le politiche di conservazione dei dati e garantire la conformità alle normative legali o organizzative riguardanti l'archiviazione dei documenti.
+In the "Documents Expiry" setting under the "DOCUMENT PROCESSING" section, you can configure the automatic deletion schedules for your documents within the system. This feature is particularly useful for managing data retention policies and ensuring compliance with legal or organizational standards regarding document storage.
 
-Ecco cosa fa ciascuna impostazione:
+Here’s what each setting does:
 
-1. **Elimina documento dopo**: Questo menu a discesa consente di impostare l'intervallo di tempo dopo il quale un documento elaborato verrà eliminato automaticamente dal sistema. È possibile scegliere tra opzioni predefinite come 48 ore, 1 settimana, 2 settimane o 4 settimane. Questo aiuta a gestire lo spazio e a mantenere le politiche sul ciclo di vita dei documenti.
-2. **Elimina documento completato dopo**: Simile all'impostazione precedente, ma mira specificamente ai documenti completati o completamente elaborati. Consente le stesse opzioni di intervallo di tempo per l'eliminazione, garantendo che i documenti completati non vengano conservati più a lungo del necessario.
+1. **Delete document after**: This dropdown allows you to set the time frame after which a document that has been processed will be automatically deleted from the system. You can choose from predefined options like 48 Hours, 1 Week, 2 Weeks, or 4 Weeks. This helps in managing space and maintaining document lifecycle policies.
+2. **Delete finished document after**: Similar to the previous setting, but specifically targets the finished or fully processed documents. It allows the same time frame options for deletion, ensuring that completed documents are not stored longer than necessary.
 
-Entrambe le impostazioni garantiscono che i documenti non vengano conservati indefinitamente nel sistema, aiutando a evitare un uso di archiviazione non necessario e mantenendo il flusso di lavoro di elaborazione dei documenti privo di confusione. Queste impostazioni sono fondamentali per le organizzazioni che devono attenersi a specifici requisiti normativi sulla conservazione dei documenti.
+Both settings ensure that documents are not kept indefinitely on your system, helping to avoid unnecessary storage use and keeping the document processing workflow clutter-free. These settings are vital for organizations needing to adhere to specific regulatory requirements about document retention.
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.27.png" alt=""><figcaption></figcaption></figure>
+
+
+
