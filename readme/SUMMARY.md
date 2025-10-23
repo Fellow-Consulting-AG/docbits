@@ -276,6 +276,7 @@
   * [M3](infor-integration-and-configuration/importing-customer-master-data/m3/README.md)
     * [Auto Accounting](infor-integration-and-configuration/importing-customer-master-data/m3/auto-accounting.md)
     * [Suppliers and Purchase Orders](infor-integration-and-configuration/importing-customer-master-data/m3/suppliers-and-purchase-orders.md)
+    * [Cómo importar todos los proveedores](infor-integration-and-configuration/importing-customer-master-data/m3/how-to-import-all-suppliers.md)
     * [Extracción de tablas para el elemento de costos](infor-integration-and-configuration/importing-customer-master-data/m3/table-extraction-for-costing-element.md)
 * [Exporting in DocBits](infor-integration-and-configuration/exporting-in-docbits/README.md)
   * [Export Module](infor-integration-and-configuration/exporting-in-docbits/export-module.md)
