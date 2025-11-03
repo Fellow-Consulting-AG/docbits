@@ -9,15 +9,15 @@
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093427.png" alt=""><figcaption></figcaption></figure>
 
-3\. Under the \*\*Manage\*\* section, select \*\*App registrations\*\*.
+3\. Under the **Manage** section, select **App registrations**.
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093406.png" alt=""><figcaption></figcaption></figure>
 
-4\. In the App registrations screen, click \*\*+ New registration\*\*.
+4\. In the App registrations screen, click **+ New registration**.
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093346.png" alt=""><figcaption></figcaption></figure>
 
-5\. The \*\*Register an application\*\* screen displays. Enter the user-facing display name for the App in \*\*Name\*\*.
+5\. The **Register an application** screen displays. Enter the user-facing display name for the App in **Name**.
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093234.png" alt=""><figcaption></figcaption></figure>
 
@@ -45,7 +45,7 @@ From left panel, select **Certificates & secrets**:
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093128.png" alt=""><figcaption></figcaption></figure>
 
-11\. In the \*\*Certificates & secrets\*\* screen, click on \*\*+ New client secret\*\* button under \*\*Client secrets\*\* section:
+11\. In the **Certificates & secrets** screen, click on **+ New client secret** button under **Client secrets** section:
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093117.png" alt=""><figcaption></figcaption></figure>
 
@@ -60,13 +60,13 @@ The newly generated client secret will be visible. Copy this client secret to be
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093414.png" alt=""><figcaption></figcaption></figure>
 
-\*\*Important:\*\* Ensure that you have copied the client secret as the client secret will not display again once it is closed.
+**Important:** Ensure that you have copied the client secret as the client secret will not display again once it is closed.
 
 Select **Authentication** on the left panel. This will present the **Authentication** screen on the right-hand side.
 
 <figure><img src="../../../../.gitbook/assets/word-image-34.png" alt=""><figcaption></figcaption></figure>
 
-15\. In the \*\*Advanced settings\*\* section, click \*\*Yes\*\* for \*\*Default client type\*\*.
+15\. In the **Advanced settings** section, click **Yes** for **Default client type**.
 
 <figure><img src="../../../../.gitbook/assets/word-image-33.png" alt=""><figcaption></figcaption></figure>
 
