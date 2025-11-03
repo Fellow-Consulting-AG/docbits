@@ -16,13 +16,11 @@ This preview is displayed during **field validation** and is also included when 
 
 #### **Accessing the File:**
 
-1.  Go to **Settings** → **Document Type** → _\[Your Document (e.g., Purchase Order)]_ → **E-Doc**.\
+1.  Go to **Settings** → **Document Type** → _\[Your Document (e.g., Purchase Order)]_ → **E-Doc**.\\
 
-
-    <figure><img src="../../../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/image (2) (1) (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
 2. Under the **E-Doc** tab, select your format (e.g., **EDI**).
-3.  Click **Preview** to view or edit the file.\
-
+3.  Click **Preview** to view or edit the file.\\
 
     <figure><img src="../../../../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -59,9 +57,7 @@ The Preview Function allows you to test and verify how an EDI document is render
   \
   ![](<../../../../../../.gitbook/assets/image (7) (1) (1).png>)
 * Enter the Document ID and click **Test**.
-*   The rendered PDF-style preview will be displayed using the HTML/CSS/XSLT setup.
-
-
+* The rendered PDF-style preview will be displayed using the HTML/CSS/XSLT setup.
 
 This feature is crucial for debugging data bindings, refining layout, and ensuring the document is both accurate and visually clear for users and downstream systems like **IDM**.
 
@@ -69,5 +65,5 @@ This feature is crucial for debugging data bindings, refining layout, and ensuri
 
 ## 6. Video Walkthrough
 
-A video guide for this file type is available on the  [Videos page.](edi-videos.md)\
+A video guide for this file type is available on the [Videos page.](edi-videos.md)\
 Use it to follow along with setup, editing, and previewing.

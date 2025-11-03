@@ -4,7 +4,7 @@
 
 This feature enables automatic detection of barcodes on documents. When activated, all supported barcode types are scanned and extracted during processing.
 
-## How to Enable Bar-Code Extraction&#x20;
+## How to Enable Bar-Code Extraction
 
 To enable the Bar-Code Extraction feature, follow these steps:
 
@@ -13,10 +13,9 @@ To enable the Bar-Code Extraction feature, follow these steps:
    * Select **Document Processing** and then choose **Module**.
 2. **Enable the Feature**:
    * Scroll down to locate the **Bar-Code Extraction** option.
-   *   Toggle the slider to enable Bar-Code Extraction.\
+   *   Toggle the slider to enable Bar-Code Extraction.\\
 
-
-       <figure><img src="../../../../../.gitbook/assets/image (445).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../.gitbook/assets/image (443) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Additional Settings**
 
@@ -24,7 +23,7 @@ To enable the Bar-Code Extraction feature, follow these steps:
 
 #### **Purpose:** Allows validators to manually assign an extracted barcode value to a specific document field during field validation.
 
-#### How to Enable **Barcode Assignment**&#x20;
+#### How to Enable **Barcode Assignment**
 
 To enable the **Barcode Assignment** feature, follow these steps:
 
@@ -33,19 +32,16 @@ To enable the **Barcode Assignment** feature, follow these steps:
    * Select **Document Processing** and then choose **Module**.
 2. **Enable the Feature**:
    * Scroll down to locate the **Barcode Assignment** option.
-   *   Toggle the slider to enable **Barcode Assignment**.\
-
+   *   Toggle the slider to enable **Barcode Assignment**.\\
 
        <figure><img src="../../../../../.gitbook/assets/image (446).png" alt=""><figcaption></figcaption></figure>
 
 #### **How it works:**
 
-*   Enables an “Assign Barcode” option in the field validation screen.\
-
+*   Enables an “Assign Barcode” option in the field validation screen.\\
 
     <div align="left"><figure><img src="../../../../../.gitbook/assets/image (450).png" alt="" width="185"><figcaption></figcaption></figure></div>
-*   Users can select a detected barcode value and map it to a document field like PO Number or Invoice Number.\
-
+*   Users can select a detected barcode value and map it to a document field like PO Number or Invoice Number.\\
 
     <div align="left"><figure><img src="../../../../../.gitbook/assets/image (451).png" alt="" width="315"><figcaption></figcaption></figure> <figure><img src="../../../../../.gitbook/assets/SCreen.jpg" alt="" width="280"><figcaption></figcaption></figure></div>
 
@@ -56,7 +52,7 @@ Automatically splits multi-page documents into separate documents based on the p
 
 #### How to Enable Split of Document by Barcode / QR Code
 
-To enable the  **Split of Document by Barcode / QR Code feature**, follow these steps:
+To enable the **Split of Document by Barcode / QR Code feature**, follow these steps:
 
 1. **Navigate to Settings**:
    * From the Dashboard, go to **Settings**.

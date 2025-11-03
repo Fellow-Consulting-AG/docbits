@@ -1,6 +1,6 @@
 # Purchase Invoice - 2nd Approval Quantity
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.56.54.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.56.54 (1).png" alt=""><figcaption></figcaption></figure>
 
 This title indicates that the rule pertains specifically to handling purchase invoices during a secondary approval phase, with a focus on verifying the accuracy of the quantities listed.
 
@@ -24,6 +24,3 @@ This title indicates that the rule pertains specifically to handling purchase in
 * **Enhanced Financial Oversight**: Requiring a secondary approval for quantity verifications strengthens financial controls and accountability within the organization.
 
 This setup exemplifies how workflow automation can be utilized to enhance operational efficiency and ensure financial integrity, particularly in managing complex purchase processes within a company.
-
-
-

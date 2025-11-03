@@ -18,7 +18,7 @@ Within these settings you can then make the desired configurations to ensure you
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 01.28.41.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Key Features and Options
 
@@ -34,8 +34,7 @@ Within these settings you can then make the desired configurations to ensure you
 
 <figure><img src="../../../../.gitbook/assets/image (41) (1).png" alt="" width="264"><figcaption></figcaption></figure>
 
-*   **Select email template**: Choose a preconfigured template from the dropdown menu. Templates can be created or modified in [Email Templates settings](../../../../advanced-functions-and-tools/sql-access/sql-access/email-template.md).\
-
+*   **Select email template**: Choose a preconfigured template from the dropdown menu. Templates can be created or modified in [Email Templates settings](../../../../advanced-functions-and-tools/sql-access/sql-access/email-template.md).\\
 
     <figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 * **Status**: Specify the status or condition that should trigger a notification when it changes. This could be a specific workflow status, an approval status, an error status, or any other relevant status.

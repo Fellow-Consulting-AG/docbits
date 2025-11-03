@@ -29,6 +29,6 @@ To enable the QR Code Extraction feature, follow these steps:
    * Scroll down to locate the **QR Code Extraction** option.
    * Toggle the slider to enable QR Code Extraction.
 
-<figure><img src="../../../../../.gitbook/assets/image (444).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (443) (1).png" alt=""><figcaption></figcaption></figure>
 
 For a full list of supported code types, see the [Barcode & QR Code Overview ](./)page.

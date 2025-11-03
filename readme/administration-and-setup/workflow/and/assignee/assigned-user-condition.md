@@ -1,6 +1,6 @@
 # Assigned User Condition
 
-<figure><img src="../../../../.gitbook/assets/userlmn_5e16e9b23626ec1211c753fec5333513.png" alt="" width="552"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/userlmn_5e16e9b23626ec1211c753fec5333513 (1).png" alt="" width="552"><figcaption></figcaption></figure>
 
 **Purpose**
 
@@ -25,7 +25,7 @@ This workflow card manages the execution of operations based on whether a task o
   * Using the **IS NOT** operator, the card ensures the assigned user is not among those listed.
 * **Action Execution**:
   * **True Condition**: If the user assignment meets the condition (either IS or IS NOT), relevant actions are triggered, such as notifications, task initiations, approvals, or other workflow steps.
-  * **False Condition**:  If the condition is not met, the workflow will not continue.
+  * **False Condition**: If the condition is not met, the workflow will not continue.
 
 **User Interactions**
 

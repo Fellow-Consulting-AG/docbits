@@ -35,7 +35,7 @@ To open the Prompt Variables popup, click the **cogwheel icon** located next to 
 
 ### Popup Layout and Controls
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (12).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (11) (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 * **Key Input Field:** Enter the variable name here (without curly braces).
 * **Value Input Field:** Enter the value to be used for this variable when the prompt runs.

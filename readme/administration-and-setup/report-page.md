@@ -1,10 +1,8 @@
 # Report Page
 
-
-
 {% embed url="https://www.youtube.com/watch?v=ar9jXYJo_AM" %}
 
-### 1. How enable the Report Page&#x20;
+### 1. How enable the Report Page
 
 Go to **Settings** → **Document Processing** → **Module** → **Document Type** → **Show Report**\
 Toggle the button to enable this setting.
@@ -20,7 +18,7 @@ Follow these steps to access the **Report Page** in DocBits:
 2. **Click on the Report Icon**
    * On the left sidebar, find and click the **Report** icon (depicted as a graph or chart).
 
-<figure><img src="../.gitbook/assets/image (312).png" alt="" width="314"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (311) (1).png" alt="" width="314"><figcaption></figcaption></figure>
 
 ### **3. Using the Time Unit Filter**
 
@@ -30,11 +28,7 @@ Follow these steps to access the **Report Page** in DocBits:
     * **Last 7 Days**
     * **Custom Time Frame** (custom date range)
 
-
-
     <figure><img src="../.gitbook/assets/image (318).png" alt="" width="563"><figcaption></figcaption></figure>
-
-
 
 ### **4. New Documents Display**
 
@@ -44,7 +38,7 @@ Follow these steps to access the **Report Page** in DocBits:
 
 ### **5. Average System Time Display**
 
-* Following the **New Documents** label, you will find the **Average System Time** display. This shows the average time, in seconds, that the system took to process a new document during the selected timeframe.&#x20;
+* Following the **New Documents** label, you will find the **Average System Time** display. This shows the average time, in seconds, that the system took to process a new document during the selected timeframe.
 
 <figure><img src="../.gitbook/assets/image (320).png" alt="" width="437"><figcaption></figcaption></figure>
 
@@ -53,13 +47,13 @@ Follow these steps to access the **Report Page** in DocBits:
 * Below the time-related information, you will find the **Changed Fields** section. This section displays a diagram showing how frequently each document field was manually modified by users during the selected timeframe.
 * Each field is displayed with the corresponding number of changes, shown as bars in the diagram.
 
-<figure><img src="../.gitbook/assets/image (322).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (321) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * **Download Options for the Diagram**
   * On the right side of the **Changed Fields** diagram, there is a small menu that allows you to download the diagram in various formats. You can download the diagram as:
-    * **SVG**&#x20;
-    * **PNG**&#x20;
-    * **CSV**&#x20;
+    * **SVG**
+    * **PNG**
+    * **CSV**
   * To download the diagram, click on the menu and select your preferred file format.
 
 ### **7. Additional Report Sections**
@@ -77,7 +71,7 @@ Below the **Changed Fields** section, you will find four additional buttons that
     * This button shows the daily average count of documents processed, categorized by document type.
     * When you click the button, it expands to show the document types and their corresponding daily average count.
 
-    <figure><img src="../.gitbook/assets/image (325).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (324) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 3.  **Status Statistic**
 
     * This button shows the status distribution for each document type (e.g., Invoice, Purchase Order, etc.). When clicked, it expands to display the status of documents within each document type, showing how many documents are in each status category.

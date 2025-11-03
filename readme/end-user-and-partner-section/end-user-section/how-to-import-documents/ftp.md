@@ -36,4 +36,4 @@ Once you have entered all the necessary details of your SFTP, click SAVE.
 3. **Save Changes**
    * Click the **Save** button to apply the changes.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ftp_3 (1).png" alt=""><figcaption></figcaption></figure>

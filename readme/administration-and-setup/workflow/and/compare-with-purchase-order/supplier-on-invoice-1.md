@@ -4,7 +4,7 @@ hidden: true
 
 # Supplier on Invoice
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Purpose**
 
@@ -17,7 +17,7 @@ This DocBits card allows detailed comparison, comparing the supplier of the invo
   * **Is (=):** Checks whether the supplier in the invoice matches the supplier in the order confirmation.
   * **Is not (≠):** Ensures that the supplier who issued the invoice is the same as in the order confirmation.
 
-## **Usage:**&#x20;
+## **Usage:**
 
 This Card is helpful to ensure the entire process is handled with the same supplier and everything fits together. This ensures that if there are discrepancies, attention is drawn to checking these discrepancies and not paying the invoice to an incorrect supplier who has nothing to do with the order and order confirmation.
 

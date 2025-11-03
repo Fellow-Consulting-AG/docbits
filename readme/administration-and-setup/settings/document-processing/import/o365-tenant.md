@@ -1,17 +1,5 @@
 # O365 Tenant
 
-> Migrated from Confluence (page: "O365 Tenant"). Images referenced in the original page remain linked to Confluence blob URLs. If you want the images embedded locally in the repository, I can download the attachments and place them in a nearby `assets/` folder and update the image links. See the notes at the end.
-
----
-migrated-from: "Confluence - O365 Tenant"
-migration-ticket: DOCB-8610
-date: 2025-11-03
----
-
-# O365 Tenant
-
-> Migrated from Confluence (page: "O365 Tenant"). Images have been moved to `.gitbook/assets/o365-tenant/`. Use the included script `scripts/download_o365_attachments.sh` to fetch the files from Confluence into that folder (needs Atlassian username + API token).
-
 ## Register App on Azure AD
 
 **Note:** The permissions may require authorization from an administrator.
@@ -20,13 +8,16 @@ date: 2025-11-03
 2. From Azure services, locate and open Azure Active Directory (also known as Azure AD).
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093427.png" alt=""><figcaption></figcaption></figure>
-3. Under the **Manage** section, select **App registrations**.
+
+3\. Under the \*\*Manage\*\* section, select \*\*App registrations\*\*.
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093406.png" alt=""><figcaption></figcaption></figure>
-4. In the App registrations screen, click **+ New registration**.
+
+4\. In the App registrations screen, click \*\*+ New registration\*\*.
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093346.png" alt=""><figcaption></figcaption></figure>
-5. The **Register an application** screen displays. Enter the user-facing display name for the App in **Name**.
+
+5\. The \*\*Register an application\*\* screen displays. Enter the user-facing display name for the App in \*\*Name\*\*.
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093234.png" alt=""><figcaption></figcaption></figure>
 
@@ -53,7 +44,8 @@ In the App screen, locate the **Application (client) ID**. Copy it to be used wh
 From left panel, select **Certificates & secrets**:
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093128.png" alt=""><figcaption></figcaption></figure>
-11. In the **Certificates & secrets** screen, click on **+ New client secret** button under **Client secrets** section:
+
+11\. In the \*\*Certificates & secrets\*\* screen, click on \*\*+ New client secret\*\* button under \*\*Client secrets\*\* section:
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093117.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,18 +53,20 @@ In the **Add a client secret** dialog box, click the **Add** button:
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093435.png" alt=""><figcaption></figcaption></figure>
 
-It is recommended to fill in a description to identify this secret among many (as of now the limit is 2 secrets per App).  
+It is recommended to fill in a description to identify this secret among many (as of now the limit is 2 secrets per App).\
 **Note:** Select this expiration date according to your company policy. Once expired, a new client secret will need to be created and specified for each email configuration where it was used previously.
 
 The newly generated client secret will be visible. Copy this client secret to be used when configuring email import for DocBits
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093414.png" alt=""><figcaption></figcaption></figure>
-**Important:** Ensure that you have copied the client secret as the client secret will not display again once it is closed.
+
+\*\*Important:\*\* Ensure that you have copied the client secret as the client secret will not display again once it is closed.
 
 Select **Authentication** on the left panel. This will present the **Authentication** screen on the right-hand side.
 
 <figure><img src="../../../../.gitbook/assets/word-image-34.png" alt=""><figcaption></figcaption></figure>
-15. In the **Advanced settings** section, click **Yes** for **Default client type**.
+
+15\. In the \*\*Advanced settings\*\* section, click \*\*Yes\*\* for \*\*Default client type\*\*.
 
 <figure><img src="../../../../.gitbook/assets/word-image-33.png" alt=""><figcaption></figcaption></figure>
 
@@ -110,7 +104,7 @@ This will enable the **Add permissions** button at the bottom of the panel. Clic
 
 <figure><img src="../../../../.gitbook/assets/word-image-25.png" alt=""><figcaption></figcaption></figure>
 
-This will add the **Mail.ReadWrite** permission to the list of **Configured permissions** for the App.  
+This will add the **Mail.ReadWrite** permission to the list of **Configured permissions** for the App.\
 **Note:** Administrator permissions may be required. The administrator will have to authorize the App for using these permissions. Once authorized the granted status will be indicated as follows:
 
 <figure><img src="../../../../.gitbook/assets/word-image-24.png" alt=""><figcaption></figcaption></figure>

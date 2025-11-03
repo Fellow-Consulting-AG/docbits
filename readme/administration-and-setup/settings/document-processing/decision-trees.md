@@ -34,7 +34,7 @@ The Decision Tree Designer allows you to configure rules that govern how decisio
 
 This decision tree evaluates the **Total Amount** field and assigns it to different groups based on predefined conditions. Each rule compares the total amount against a specific value, and based on which condition is true, the corresponding **Group** is returned.
 
-<figure><img src="../../../.gitbook/assets/image (337).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (335) (1).png" alt=""><figcaption></figcaption></figure>
 
 This decision tree evaluates two key conditions to determine which group should be assigned: **Total Amount** and **Warehouse Status**. The tree uses thresholds based on the total amount to define which group is returned, with the additional distinction of whether the warehouse is designated as "Warehouse Main," "Warehouse Sub," or "Not Warehouse Main."
 
@@ -271,7 +271,7 @@ The decision tree designer includes a test feature to validate the logic of the 
     * The system highlights the rule(s) that match the provided inputs.
 
     <figure><img src="../../../.gitbook/assets/image (342).png" alt="" width="563"><figcaption></figcaption></figure>
-5. &#x20;**Review Feedback for No Match:**
+5. **Review Feedback for No Match:**
    * If no rule is highlighted, the system will display feedback explaining why no rule matched.
    * Use this feedback to adjust inputs or review the tree's configuration for potential issues.
 

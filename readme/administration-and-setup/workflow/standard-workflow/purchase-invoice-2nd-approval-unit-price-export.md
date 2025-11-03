@@ -1,6 +1,6 @@
 # Purchase Invoice - 2nd Approval Unit Price Export
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.59.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.59.02 (1).png" alt=""><figcaption></figcaption></figure>
 
 This title indicates that the rule is set up to manage the second approval phase of purchase invoices with a focus on the unit price, ensuring it matches the agreed terms.
 
@@ -24,6 +24,3 @@ This title indicates that the rule is set up to manage the second approval phase
 * **Enhance Compliance and Oversight**: Requiring a second approval for price verification adds an extra layer of oversight, which is crucial for compliance with financial policies and controls.
 
 This rule is an example of how workflow automation can be effectively utilized to ensure precise and efficient handling of financial documents within an organization, particularly in the context of large volumes of transactions that require meticulous validation.
-
-
-

@@ -1,6 +1,6 @@
 # Above Max Amount
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42 (1).png" alt=""><figcaption></figcaption></figure>
 
 This title indicates that the rule is designed to manage cases where the invoice total is greater than the maximum amount an approver is authorized to handle.
 
@@ -26,6 +26,3 @@ This title indicates that the rule is designed to manage cases where the invoice
 The purpose of this rule is to ensure that invoices which exceed certain financial thresholds are reviewed by approvers with the appropriate authorization levels. This helps in maintaining financial control and oversight, ensuring that expenditures are reviewed by personnel with the requisite approval limits, thereby safeguarding the organization against unauthorized or inappropriate expenditures.
 
 This rule, like the previous one, helps automate the workflow, reducing manual effort and enhancing compliance with the organization's financial policies. It is an example of how workflow automation can be effectively used to manage complex financial processes within a company.
-
-
-

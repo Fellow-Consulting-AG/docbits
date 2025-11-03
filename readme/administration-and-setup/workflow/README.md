@@ -4,7 +4,7 @@ description: DocBits Workflow Engine
 
 # Workflow
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.42.57.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.42.57 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## DocBits Workflow Engine: Simplifying Process Automation
 
@@ -38,6 +38,3 @@ By assembling these three components—Trigger, Condition, and Action—the DocB
 ### Conclusion
 
 The DocBits Workflow Engine's "Easy When-And-Then" rule exemplifies the engine's commitment to providing a user-friendly platform for automating processes. This straightforward rule, by breaking down automation into the essential elements of Trigger, Condition, and Action, makes it easier for users to conceptualize, create, and manage workflows. Whether you are new to workflow automation or an experienced professional, the DocBits Workflow Engine offers an efficient and accessible tool to enhance productivity and streamline operations.
-
-
-

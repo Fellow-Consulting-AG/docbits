@@ -10,7 +10,7 @@
 * **Navigate:** Go to Settings.
 * **Document Types:** Find the "Document Types" section.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 13.35.39 (2).png" alt=""><figcaption><p>Settings</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 13.35.39 (1).png" alt=""><figcaption><p>Settings</p></figcaption></figure>
 
 ### Adding a new document type
 
@@ -40,8 +40,6 @@
 
 <figure><img src="../../../../.gitbook/assets/image (159).png" alt=""><figcaption><p>Upload &#x26; Train</p></figcaption></figure>
 
-
-
 **Add Groups**
 
 * Click the "Add" button and enter the group name.
@@ -60,19 +58,15 @@
 
 <figure><img src="../../../../.gitbook/assets/image (162).png" alt="" width="278"><figcaption><p>Create New Field</p></figcaption></figure>
 
-
-
 **Finish**
 
 * Once all the details are entered, click "Finish" and the new document type is created
 
 <figure><img src="../../../../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### Edit an existing document type
 
-**Select a document type:**&#x20;
+**Select a document type:**
 
 * Select the document type you want to edit from the list of existing document types.
 * Under the document type you will find various editing options, for example editing the layout, fields, table columns, etc.
@@ -96,19 +90,13 @@
 * Go to the Extraction Rules section.
 * Create rules that specify how to extract data from documents. This may include using regular expressions or other pattern recognition techniques.
 
-
-
 **Test rules:**
 
 * Test the extraction rules with sample documents to ensure that the data is correctly recognized and extracted.
 
-
-
 **Fine-tuning:**
 
 * Adjust the extraction rules based on the test results to improve accuracy and efficiency.
-
-
 
 ### Training and Documentation
 
@@ -116,9 +104,6 @@
 
 * Inform users of the new or changed document type and provide training if necessary.
 
-
-
 **Documentation:**
 
 Update system documentation to describe the new or changed document types and their usage. By carefully setting up and managing document types in DocBits, you can ensure that documents are correctly classified and processed efficiently. This improves the overall performance of the document management system and contributes to the accuracy and productivity of your organization.
-

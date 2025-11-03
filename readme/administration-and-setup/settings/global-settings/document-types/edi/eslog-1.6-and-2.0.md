@@ -13,15 +13,13 @@ Both eSLOG versions are enabled by default.
 **Configure eSLOG:**
 
 * Navigate to **Settings → Global Settings → Document Types → Invoice**.
-*   Click on **E-Doc**.\
-
+*   Click on **E-Doc**.\\
 
     <figure><img src="../../../../../.gitbook/assets/zugferd_1.png" alt=""><figcaption></figcaption></figure>
 * A list of all available e-docs will appear.
-*   Locate the eSLOG version you want to modify.\
+*   Locate the eSLOG version you want to modify.\\
 
-
-    <figure><img src="../../../../../.gitbook/assets/image (384).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (383) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Transformation and XML Path Configuration:**
 
@@ -60,8 +58,7 @@ The **Extraction Paths Configuration** is used to extract data and populate fiel
 2. Create a new draft by clicking the **pencil icon**.
 3. Select the newly created draft.
 4. Create a new field or modify an existing one.
-5.  The left side represents the **DocBits field ID**, which can be found in the  **Settings → Global Settings → Document Types → Invoice → Fields**.\
-
+5.  The left side represents the **DocBits field ID**, which can be found in the **Settings → Global Settings → Document Types → Invoice → Fields**.\\
 
     <figure><img src="../../../../../.gitbook/assets/zugferd_3.png" alt=""><figcaption></figcaption></figure>
 

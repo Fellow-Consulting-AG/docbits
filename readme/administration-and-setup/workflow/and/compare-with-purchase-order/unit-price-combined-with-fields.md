@@ -1,6 +1,6 @@
 # Unit Price Combined with Fields
 
-<figure><img src="../../../../.gitbook/assets/image (27).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (26) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Purpose:**
 
@@ -42,6 +42,3 @@ This workflow card is designed to evaluate whether the unit price, when combined
 ## **Conclusion:**
 
 The "Unit Price Combined with Fields" workflow card ensures that pricing conditions are met by evaluating the combined value of the unit price and a specified field. By automating this comparison, organizations can ensure consistency and flag discrepancies in pricing or quantities before proceeding with approval, helping to streamline procurement and financial processes.
-
-
-

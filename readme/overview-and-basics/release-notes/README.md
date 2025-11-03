@@ -4,46 +4,42 @@
 
 ### DocBits enhancements:
 
-*   #### Email Template Design Improvements:
+*   **Email Template Design Improvements:**
 
-    The email template editor has been redesigned to provide a clearer structure and smoother experience. Selecting document fields is now more intuitive, and attachments can be included directly within templates. These improvements make it faster and easier to create professional, tailored emails.\
-
+    The email template editor has been redesigned to provide a clearer structure and smoother experience. Selecting document fields is now more intuitive, and attachments can be included directly within templates. These improvements make it faster and easier to create professional, tailored emails.\\
 
     <figure><img src="../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
-*   #### Dashboard Enhancements:
+*   **Dashboard Enhancements:**
 
-    The dashboard has been extended to improve navigation and customization. With new tabs, users can switch more quickly between different document types, reducing the time spent searching for the right view.\
+    The dashboard has been extended to improve navigation and customization. With new tabs, users can switch more quickly between different document types, reducing the time spent searching for the right view.\\
 
-
-    <figure><img src="../../.gitbook/assets/image (476).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (474) (1).png" alt=""><figcaption></figcaption></figure>
 *   **Custom FilterDashboards:**\
-    In addition, dashboards can now be customized and filtered according to individual             preferences. These custom dashboards can also be shared with colleagues, making it \
-    easier to create consistent team-wide reporting views.\
-
+    In addition, dashboards can now be customized and filtered according to individual preferences. These custom dashboards can also be shared with colleagues, making it\
+    easier to create consistent team-wide reporting views.\\
 
     <figure><img src="../../.gitbook/assets/image (477).png" alt=""><figcaption></figcaption></figure>
 *   **Email Notification Logs:**
 
     A new logging feature is available for all email notifications. Users can now review a history of sent notifications, making it easier to verify deliveries and troubleshoot issues if emails are not received.
-*   #### E-Invoice Support: e-SLOG 1.6 & 2.0:
+*   **E-Invoice Support: e-SLOG 1.6 & 2.0:**
 
     Support for additional e-invoice formats has been introduced. The system can now process and generate e-SLOG versions 1.6 and 2.0, expanding compatibility with partners and regulatory requirements.
-*   #### Duplicate Detection Enhancements:
+*   **Duplicate Detection Enhancements:**
 
-    Duplicate detection has been upgraded with two powerful configuration options. The **Duplicate Detection Interval** allows you to define a time range to check for duplicates more precisely, while the **Disallow Export of Duplicates** setting automatically prevents the export of documents that are detected as duplicates. Together, these enhancements provide more control and ensure higher data accuracy.\
-
+    Duplicate detection has been upgraded with two powerful configuration options. The **Duplicate Detection Interval** allows you to define a time range to check for duplicates more precisely, while the **Disallow Export of Duplicates** setting automatically prevents the export of documents that are detected as duplicates. Together, these enhancements provide more control and ensure higher data accuracy.\\
 
     <figure><img src="../../.gitbook/assets/image (478).png" alt=""><figcaption></figcaption></figure>
-*   #### Decision Tree Enhancements:
+*   **Decision Tree Enhancements:**
 
     Decision trees are now more versatile, with the ability to return document field values. This allows for more advanced automation logic, enabling workflows to make decisions based on actual document data.
-*   #### New Workflow Cards:
+*   **New Workflow Cards:**
 
     Two new workflow cards expand automation capabilities. The first allows you to check whether a document belongs to a specific sub-organization, making it easier to handle multi-entity setups. The second introduces a delivery date tolerance check, which compares delivery dates against the current date in business days to help manage and enforce delivery requirements more effectively.
-*   #### CSV Export Improvements:
+*   **CSV Export Improvements:**
 
     The CSV export feature has been significantly improved. Instead of only exporting the documents displayed on the current page, the system now exports all documents in a dataset. Each export creates a log entry, and the resulting CSV is automatically sent via email, providing a more complete and reliable export process.
-*   #### Purchase Order Deletion Timeframe:
+*   **Purchase Order Deletion Timeframe:**
 
     A new configuration option allows administrators to define a timeframe for purchase order deletion. This improvement adds flexibility and control over data retention policies, ensuring purchase orders are only removed when appropriate.
 
@@ -71,8 +67,7 @@
 \
 \
 \
-\
-
+\\
 
 ## Release **Summer Bloom** July 2025
 
@@ -83,7 +78,7 @@
 *   **Multi-Language Support for List of Values :**\
     We've expanded multi-language capabilities to the List of Values feature. Administrators can now define labels in multiple languages, ensuring that the correct label is automatically displayed based on the user's system language settings. This enhancement promotes greater accessibility and localization, making it easier for users worldwide to interact with the platform in their native language.
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (13) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 * **User Detail Enhancements in Settings:**\
   The settings interface now displays comprehensive user information. Administrators can easily view group affiliations, sub-organization details, and additional key data, enabling better management of user roles and a clearer understanding of team structures. Furthermore Admins can now create a System Admin for the Organization.
 * **Auto Accounting Information on the Approval Screen:**\
@@ -100,17 +95,15 @@
 * **Microservices Architecture Implementation:**\
   We've restructured the platform by splitting core components into dedicated microservices. This architectural shift enhances scalability, improves system performance, and enables faster, more modular development and deployment cycles.
 *   **Walkthrough:**\
-    A guided walkthrough is now available to help users navigate and understand different parts of the application more easily. This is especially useful for onboarding new users or exploring unfamiliar features.\
+    A guided walkthrough is now available to help users navigate and understand different parts of the application more easily. This is especially useful for onboarding new users or exploring unfamiliar features.\\
 
-
-    <figure><img src="../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (430) (1).png" alt=""><figcaption></figcaption></figure>
 * **Decision Tree Improvements:**\
   Enhancements have been made to the decision tree interface, including a more intuitive row addition feature — now located at the top of the tree — to simplify maintenance and editing.
 * **DocOperator**\
   New AI-powered tools like DocOperator help automate repetitive tasks, improving efficiency and reducing manual effort across document workflows.
 *   **Electronic Document Preview Option:**\
-    A preview feature has been added for electronic documents (eDocs), allowing users to test and view changes directly within the settings before deploying them.\
-
+    A preview feature has been added for electronic documents (eDocs), allowing users to test and view changes directly within the settings before deploying them.\\
 
     <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **New Language Support – Chinese:**\
@@ -131,8 +124,7 @@
 * **New Workflow Cards:**\
   New workflow cards have been introduced, including ones for running workflows on new purchase orders and quote-related events. These provide more automation options.
 *   **Watchdog Improvements:**\
-    Watchdog configuration has been moved into the main application UI, making it easier to manage. Additional functionalities have also been introduced for better monitoring and control.\
-
+    Watchdog configuration has been moved into the main application UI, making it easier to manage. Additional functionalities have also been introduced for better monitoring and control.\\
 
     <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **Line Rejection Enhancements:**\
@@ -140,8 +132,7 @@
 * **Supplier AI Model List in Settings:**\
   A new settings view displays the AI models assigned to specific suppliers, along with an option to reset them. This improves transparency and manageability of supplier-based AI configurations.
 *   **Document Log Improvements:**\
-    The document logs now include more detailed information to support better auditing and troubleshooting.\
-
+    The document logs now include more detailed information to support better auditing and troubleshooting.\\
 
     <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **PNG and JPG Support:**\
@@ -150,7 +141,7 @@
   The export format for PDFs in IDM can now be configured, giving users more control over how documents are generated.
 * **New eDoc Type – EDIFACT INVOIC02:**\
   We now support the EDIFACT INVOIC02 electronic document type, expanding compatibility with standardized invoice formats.
-*   #### **Email Notification and Template Options**
+*   **Email Notification and Template Options**
 
     DocBits now offers enhanced control over email notifications, including:
 
@@ -180,18 +171,18 @@
 * Updated the ClickHouse host information.
 * Resolved an issue where duplicate documents were not recognized as duplicates.
 * Fixed export issues caused by booking references that were too long.
-* Fixed the predictions given for  auto accounting.&#x20;
-* Resolved an issue where readonly checkboxes where not readonly&#x20;
-* Fixed an issue where Users can be added to a sub-organization twice&#x20;
+* Fixed the predictions given for auto accounting.
+* Resolved an issue where readonly checkboxes where not readonly
+* Fixed an issue where Users can be added to a sub-organization twice
 * Fixed an issue where changing the sub-organization for a document caused to reset the assigned user or group
 * Resolved some issues with auto.accounting Screen
-* Fixed an issue where users are unable to add FTP configuration&#x20;
+* Fixed an issue where users are unable to add FTP configuration
 * Fixed an issue with the SSO login
 * Fixed some issues related to Inbound Emails
-* Fixed an issue with documents getting a wrong name when downloading them&#x20;
+* Fixed an issue with documents getting a wrong name when downloading them
 * Fixed an wissue where the decision tree returns incorrect result
 
-## Release Hot Fix Winter Frost  10th April 2025
+## Release Hot Fix Winter Frost 10th April 2025
 
 ### DocBits enhancements:
 
@@ -206,17 +197,15 @@
 ### Bug Fixes
 
 * Fixed an issue on a script function.
-* Resolved an issue where Purchase orders had a wrong status after they where updated&#x20;
+* Resolved an issue where Purchase orders had a wrong status after they where updated
 
-
-
-## Release Hot Fix Winter Frost  17th March 2025
+## Release Hot Fix Winter Frost 17th March 2025
 
 ### Bug Fixes
 
 * Improved the shortcuts.
 
-## Release Hot Fix Winter Frost  11th March 2025
+## Release Hot Fix Winter Frost 11th March 2025
 
 ### DocBits enhancements:
 
@@ -227,15 +216,15 @@
 
 * Fixed an issue where users could not be added to a group.
 * Fixed an issue with email import failures.
-* Resolved an issue with the field training on documents with more than page&#x20;
+* Resolved an issue with the field training on documents with more than page
 * Fixed an issue where scripts didn’t work properly.
-* Resolved an issue where document data didn't get displayed correctly&#x20;
-* Fixed an issue with the auto update purchase order setting&#x20;
-* Fixed an issue where the subscription tokens got displayed wrong&#x20;
-* Resolved an issue where the task screen displayed an outdated document version&#x20;
-* Fixed an issue that caused documents to not change their status &#x20;
+* Resolved an issue where document data didn't get displayed correctly
+* Fixed an issue with the auto update purchase order setting
+* Fixed an issue where the subscription tokens got displayed wrong
+* Resolved an issue where the task screen displayed an outdated document version
+* Fixed an issue that caused documents to not change their status
 
-## Release Hot Fix Winter Frost  3rd February 2025
+## Release Hot Fix Winter Frost 3rd February 2025
 
 ### **DocBits Enhancements:**
 
@@ -251,8 +240,8 @@
 DocBits now includes full support for ZUGFeRD versions 2.1 and above, enabling seamless handling and processing of ZUGFeRD-compliant electronic invoices. The integration ensures:
 
 * **Compatibility**: DocBits is capable of managing ZUGFeRD invoices in both their structured (XML) and unstructured (PDF) formats, maintaining compliance with EU standards such as EN 16931 for e-invoicing.
-* &#x20;**Efficiency**: Users can effortlessly import, validate, and extract data from ZUGFeRD e-invoices, minimizing manual data entry and reducing processing time.&#x20;
-* **Flexibility**: Whether you're working with basic, comfort, or extended profiles within the ZUGFeRD standard, DocBits provides tools to manage each level of invoice complexity.&#x20;
+* **Efficiency**: Users can effortlessly import, validate, and extract data from ZUGFeRD e-invoices, minimizing manual data entry and reducing processing time.
+* **Flexibility**: Whether you're working with basic, comfort, or extended profiles within the ZUGFeRD standard, DocBits provides tools to manage each level of invoice complexity.
 * **Future-Proofing**: With support for newer versions, DocBits ensures that businesses remain compliant with evolving e-invoicing regulations across EU member states and beyond.
 
 By incorporating ZUGFeRD 2.1 and newer standards, DocBits simplifies cross-border transactions and aligns with modern business needs, making it an essential tool for organizations prioritizing digital transformation and regulatory compliance. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3)
@@ -283,8 +272,8 @@ DocBits introduces a powerful Sequential Workflow and Approval History feature, 
 
 **Approval History:**
 
-* A complete log of all actions taken on the document is available in the Validation and Approval views. This includes:&#x20;
-  * User actions (e.g., "approved" "rejected")&#x20;
+* A complete log of all actions taken on the document is available in the Validation and Approval views. This includes:
+  * User actions (e.g., "approved" "rejected")
   * Timestamps for each action
   * Comments or notes added by users during review
 * The history ensures transparency and provides an audit trail for compliance and troubleshooting. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/document-types/more-settings/approval-history)
@@ -305,8 +294,8 @@ This feature enhances tax handling capabilities by enabling detailed classificat
 
 * DocBits now supports the addition of multiple tax sections under each tax type, such as:
   * Full Tax: Standard VAT or sales tax rates.
-  * Reduced Tax: Lower rates for specific goods or services (e.g., essential items).&#x20;
-  * Tax-Free: Exemptions for eligible transactions.&#x20;
+  * Reduced Tax: Lower rates for specific goods or services (e.g., essential items).
+  * Tax-Free: Exemptions for eligible transactions.
 * These sections allow precise categorization of tax amounts, ensuring compliance with tax regulations and accounting standards.
 
 **Dynamic Auto Accounting Integration**:
@@ -361,7 +350,7 @@ DocBits introduces several usability improvements to the PO Matching Screen, des
 
 ## Release Hot Fix Feast 17th December 2024
 
-### **DocBits Enhancements:**&#x20;
+### **DocBits Enhancements:**
 
 #### Email Import Enhancements
 
@@ -476,10 +465,6 @@ DocBits now offers the ability to change the OCR (Optical Character Recognition)
 
 {% embed url="https://youtu.be/zkW8zj0H5Ko" %}
 
-
-
-
-
 ## Release Sunset 12th August 2024
 
 ### New Features:
@@ -582,7 +567,7 @@ DocBits now processes XRechnung (electronic invoices) seamlessly by first creati
 
 #### 1. PO Search Functionality
 
-• Issue: PO search was not working.&#x20;
+• Issue: PO search was not working.
 
 • Status: This issue has been identified and will not be addressed in this release.
 
@@ -687,7 +672,9 @@ This update brings exciting new features and bug fixes to Junebug:
 * **Origin Identification (AI):** Junebug introduces a powerful AI feature that automatically learns the origin of documents. This saves you time and effort in document classification.
 *
 
-    <div><figure><img src="../../.gitbook/assets/POShipmentTable.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/ApprovalScreen2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/ApprovalScreen1.png" alt=""><figcaption></figcaption></figure></div>
+```
+<div><figure><img src="../../.gitbook/assets/POShipmentTable.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/ApprovalScreen2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/ApprovalScreen1.png" alt=""><figcaption></figcaption></figure></div>
+```
 
 **Bug Fixes:**
 

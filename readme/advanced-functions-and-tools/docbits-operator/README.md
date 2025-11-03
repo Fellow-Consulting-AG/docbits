@@ -10,21 +10,18 @@ To enable the DocBits Operator, follow these steps:
 
 1. **Navigate to Settings**:
    * From the Dashboard, go to **Settings**.
-   *   Select **Document Processing** and then choose **Module**.\
-
+   *   Select **Document Processing** and then choose **Module**.\\
 
        <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 2. **Enable the Feature**:
    * Scroll down to locate the **DocBits Operator** option.
-   *   Toggle the slider to enable the  **DocBits Operator**.\
-
+   *   Toggle the slider to enable the **DocBits Operator**.\\
 
        <div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Accessing the Interface
 
-*   Once the feature is enabled, open the **DocBits Operator** from the main navigation menu.\
-
+*   Once the feature is enabled, open the **DocBits Operator** from the main navigation menu.\\
 
     <figure><img src="../../.gitbook/assets/image (463).png" alt=""><figcaption></figcaption></figure>
 
@@ -47,15 +44,13 @@ For detailed guidance on how to write effective prompts—including syntax, vari
 ### **2. Sidebar Navigation**
 
 Use the top-left icon to open or close the sidebar.\
-The sidebar shows saved prompts, organized in two categories:\
+The sidebar shows saved prompts, organized in two categories:\\
 
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (467).png" alt="" width="370"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (466) (1).png" alt="" width="370"><figcaption></figcaption></figure></div>
 
 * **Organization Prompts**: Editable and reusable within your organization.
 * **Global Prompts**: Shared across all tenants. These cannot store variables and cannot be edited or deleted.
-  *   A global prompt is still editable and deletable by the **organization that created it**, where it appears under Organization Prompts.\
-
+  *   A global prompt is still editable and deletable by the **organization that created it**, where it appears under Organization Prompts.\\
 
       <div align="left"><figure><img src="../../.gitbook/assets/image (468).png" alt="" width="357"><figcaption></figcaption></figure></div>
 * **Search Functionality:** a search bar at the top of the sidebar allows users to quickly find saved prompts by name or keyword.
@@ -66,8 +61,7 @@ The sidebar shows saved prompts, organized in two categories:\
 
 ### 3. Save Prompt
 
-Clicking the **Save Prompt** button opens a popup where you can save the current prompt for future use.\
-
+Clicking the **Save Prompt** button opens a popup where you can save the current prompt for future use.\\
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (14).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
@@ -85,8 +79,6 @@ Clicking the **Save Prompt** button opens a popup where you can save the current
 
 * **Cancel:** Closes the popup without saving.
 * **Save:** Saves the prompt using the specified name and visibility setting.
-
-
 
 ### 4. Prompt Execution Controls
 
@@ -106,8 +98,6 @@ When a prompt is running, users have several control options to manage or interv
   This is useful if the operator gets stuck or misinterprets a step.\
   Taking control **automatically pauses** the prompt and switches to manual mode until you choose to resume or cancel.
 
-
-
 ### 5. Operator Detail View
 
 Once a prompt is started, an additional button becomes available that allows users to switch to a **detailed execution view**.\
@@ -124,4 +114,3 @@ In the detail view, users can:
 * Use the same **Pause**, **Resume**, **Cancel**, and **Take Control** actions.
 
 <div align="left"><figure><img src="../../.gitbook/assets/detailed view 2 .jpg" alt="" width="563"><figcaption></figcaption></figure></div>
-

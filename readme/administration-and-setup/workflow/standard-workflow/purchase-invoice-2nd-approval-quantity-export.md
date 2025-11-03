@@ -1,6 +1,6 @@
 # Purchase Invoice - 2nd Approval Quantity Export
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 15.00.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 15.00.53 (1).png" alt=""><figcaption></figcaption></figure>
 
 This title indicates that the rule is set up to manage the second approval phase for purchase invoices with an emphasis on the quantity details, ensuring that the quantities on the invoice match those on the original purchase order.
 
@@ -24,6 +24,3 @@ This title indicates that the rule is set up to manage the second approval phase
 * **Enhance Compliance and Oversight**: Requiring a second approval for quantity verification adds an extra layer of oversight, crucial for compliance with financial policies and controls.
 
 This rule is a clear example of how workflow automation can be effectively used to ensure precise and efficient handling of financial documents within an organization, particularly in the context of purchase processes that involve large volumes of transactions requiring meticulous validation.
-
-
-

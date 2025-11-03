@@ -1,6 +1,6 @@
 # Docfield is
 
-<figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## **Purpose:**
 
@@ -30,7 +30,7 @@ This workflow card is designed to automate actions by comparing a specified docu
   * **False Condition:**\
     If the document field's value does not meet the specified condition, alternative actions or no actions are executed, based on the workflow configuration.
 
-## **Setup and Configuration:**&#x20;
+## **Setup and Configuration:**
 
 * The user selects the field name of the relevant document and chooses the operator from the drop-down menu. The user then specifies the reference field value to complete the configuration.
 

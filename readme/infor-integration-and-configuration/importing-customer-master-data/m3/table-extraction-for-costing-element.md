@@ -14,13 +14,12 @@ _**"Costing elements are not properly configured. Please ask your admin to confi
    * From the M3 homepage, press `Command + R` and search for **PPS280**.
    * Select any/all lines from the results.
 2. **Export the Data:**
-   *   In the next menu, click **TOOLS → Export to Excel**.\
+   *   In the next menu, click **TOOLS → Export to Excel**.\\
 
-
-       <figure><img src="../../../.gitbook/assets/image (434).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/image (433) (1).png" alt=""><figcaption></figcaption></figure>
    *   Choose **Export All Rows**, then press **EXPORT**.
 
-       <figure><img src="../../../.gitbook/assets/image (436).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/image (435) (1).png" alt=""><figcaption></figcaption></figure>
 3. **Modify the Excel File:**\
    Open the downloaded Excel file and make the following changes:
    * **Rename columns:**
@@ -38,7 +37,7 @@ _**"Costing elements are not properly configured. Please ask your admin to confi
    Below are examples of the Excel file _before_ and _after_ applying the required modifications:
    *   **Before Modification:**
 
-       <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
    *   **After Modification:**
 
        <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -47,19 +46,14 @@ _**"Costing elements are not properly configured. Please ask your admin to confi
 6. **Upload to DocBits:**
 
 * Go to **Settings → Document Processing → Master Data Lookup**
-*   Click on the Plus next to imported&#x20;
+*   Click on the Plus next to imported
 
     <figure><img src="../../../.gitbook/assets/image (437).png" alt=""><figcaption></figcaption></figure>
-*   Fill in the required informations&#x20;
+* Fill in the required informations
+  * **Data Type**: `costing_element`
+  * **File**: Select your modified `.csv` file
+  * **Delimiter**: `comma`
+  * **On Conflict**: Choose a conflict resolution strategy
+  *   **Auto-generate ID**: Make sure this option is **checked**\\
 
-    * **Data Type**: `costing_element`
-    * **File**: Select your modified `.csv` file
-    * **Delimiter**: `comma`
-    * **On Conflict**: Choose a conflict resolution strategy
-    *   **Auto-generate ID**: Make sure this option is **checked**\
-
-
-        <figure><img src="../../../.gitbook/assets/image (439).png" alt=""><figcaption></figcaption></figure>
-
-
-
+      <figure><img src="../../../.gitbook/assets/image (438) (1).png" alt=""><figcaption></figcaption></figure>

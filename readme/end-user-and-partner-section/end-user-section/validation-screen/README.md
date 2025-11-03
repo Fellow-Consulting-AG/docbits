@@ -8,7 +8,7 @@
 
 ## **Save Button:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Save Button:**
   * **Purpose:** Saves the current state of the document or script being worked on.
@@ -32,12 +32,9 @@ See here add[ Script in DocBits](../../../administration-and-setup/settings/glob
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
 
-*   **Fuzzy Fields:**
-
-    * **Purpose:** Helps in identifying and correcting fields where the data may not be a perfect match but is close enough.
-    * **Use Case:** Useful in data validation processes where exact matches are not always possible, such as slightly misspelled names or addresses.
-
-
+* **Fuzzy Fields:**
+  * **Purpose:** Helps in identifying and correcting fields where the data may not be a perfect match but is close enough.
+  * **Use Case:** Useful in data validation processes where exact matches are not always possible, such as slightly misspelled names or addresses.
 
 ### **Required fields:**
 
@@ -69,33 +66,21 @@ Use the tool tip to find out if:
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.03.46.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### **Open new window:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.26.png" alt="" width="130"><figcaption></figcaption></figure>
 
-*   **Open New Window:**
-
-    * **Purpose:** Opens a new window for side-by-side document comparison or multitasking.
-    * **Use Case:** Useful when comparing two documents or when referencing additional information without leaving the current document.
-
-
+* **Open New Window:**
+  * **Purpose:** Opens a new window for side-by-side document comparison or multitasking.
+  * **Use Case:** Useful when comparing two documents or when referencing additional information without leaving the current document.
 
 ### **Keyboard shortcuts:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.42.png" alt="" width="145"><figcaption></figcaption></figure>
 
-1.  **Keyboard Shortcuts:**
-
-    * **Purpose:** Allows users to perform actions quickly using keyboard combinations.
-    * **Use Case:** Enhances speed and efficiency in document navigation and processing by minimizing reliance on mouse navigation.
-
-
-
-
-
-
+1. **Keyboard Shortcuts:**
+   * **Purpose:** Allows users to perform actions quickly using keyboard combinations.
+   * **Use Case:** Enhances speed and efficiency in document navigation and processing by minimizing reliance on mouse navigation.
 
 ### **Tasks:**
 
@@ -136,8 +121,6 @@ You can leave annotations on a document. This can be helpful to leave informatio
   * **Purpose:** Lets users leave notes or annotations directly on the document.
   * **Use Case:** Useful for providing feedback, instructions, or important notes to other team members who will work on the document later.
 
-
-
 ### **Merge:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
@@ -147,8 +130,6 @@ Documents can be merged here, for example if a page of an invoice was missing, t
 * **Merge Documents:**
   * **Purpose:** Combines multiple documents into a single file.
   * **Use Case:** Handy in scenarios where parts of a document are scanned separately and need to be consolidated.
-
-
 
 ### **OCR view:**
 
@@ -162,8 +143,6 @@ In the OCR view, the text is automatically filtered from the document. This is u
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
 
-
-
 ### **Create ticket:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
@@ -176,8 +155,6 @@ Unlike tasks that are passed on internally within the company, this support tick
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
 
-
-
 ### **Document skript Logs:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
@@ -189,8 +166,6 @@ Scripts can be created in the settings under Document Types; this information wi
   * **Use Case:** Useful for tracking and debugging script actions on documents, helping users understand the automated processes and correct any issues.
 
 <figure><img src="../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### **More settings:**
 
@@ -219,8 +194,3 @@ There you will find the flow of the document
 
 * **Purpose:** Allows selection between three different AI models to optimize extraction results for a specific supplier.
 * **Use Case:** Ensures better extraction accuracy by choosing the most suitable AI model for each supplier’s document structure and content.
-
-
-
-
-

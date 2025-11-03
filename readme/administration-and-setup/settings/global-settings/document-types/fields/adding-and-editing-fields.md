@@ -6,7 +6,7 @@
 
 * Log in and access Document Management:
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 13.35.39.png" alt=""><figcaption><p>Settings</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 13.35.39 (1).png" alt=""><figcaption><p>Settings</p></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 13.38.53.png" alt=""><figcaption><p>Settings Document Types</p></figcaption></figure>
 
@@ -39,9 +39,7 @@
   * A checkbox labeled **Enable Charges Element** can be selected.
   * If checked, you must select a charge element from a dropdown list.
   * **Important:** Charge elements must be configured beforehand.
-    * [Charge Elements Configuration](../../../../../infor-integration-and-configuration/importing-customer-master-data/m3/table-extraction-for-costing-element.md)&#x20;
-
-
+    * [Charge Elements Configuration](../../../../../infor-integration-and-configuration/importing-customer-master-data/m3/table-extraction-for-costing-element.md)
 
 **Advanced Configuration:**
 

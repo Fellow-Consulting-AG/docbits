@@ -1,6 +1,6 @@
 # Cost Invoice - Export
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.53.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.53.28 (1).png" alt=""><figcaption></figcaption></figure>
 
 This title indicates that the rule is specifically configured for managing cost invoices and involves an export action, possibly for reporting, further processing, or integration with other systems.
 
@@ -23,6 +23,3 @@ This title indicates that the rule is specifically configured for managing cost 
 * **Integration and Reporting**: The export action suggests that once invoices are fully approved, they may be integrated into other systems for further processing or analysis, which is critical for financial reporting and audits.
 
 This kind of rule is vital for organizations that deal with various types of invoices and need to ensure that each type is handled according to specific protocols. It reduces the risk of errors and ensures compliance with internal controls and external regulations.
-
-
-
