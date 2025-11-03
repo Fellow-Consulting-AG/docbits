@@ -2,7 +2,7 @@
 
 ## Register App on Azure AD
 
-**Note:** The permissions may require authorization from an administrator.
+<mark style="color:red;">**Note**</mark>: The permissions may require authorization from an administrator.
 
 1. Sign in to the [Azure Portal](https://portal.azure.com/) using your credentials.
 2. From Azure services, locate and open Azure Active Directory (also known as Azure AD).
@@ -37,7 +37,7 @@ Leave the option **Redirect URI (optional)** as is.
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093213.png" alt=""><figcaption></figcaption></figure>
 
-In the App screen, locate the **Application (client) ID**. Copy it to be used when configuring email import for Docbits.
+In the App screen, locate the **Application (client) ID**. Copy it to be used when configuring email import for **DocBits**.
 
 <figure><img src="../../../../.gitbook/assets/image-20251030-093203.png" alt=""><figcaption></figcaption></figure>
 
@@ -105,6 +105,6 @@ This will enable the **Add permissions** button at the bottom of the panel. Clic
 <figure><img src="../../../../.gitbook/assets/word-image-25.png" alt=""><figcaption></figcaption></figure>
 
 This will add the **Mail.ReadWrite** permission to the list of **Configured permissions** for the App.\
-**Note:** Administrator permissions may be required. The administrator will have to authorize the App for using these permissions. Once authorized the granted status will be indicated as follows:
+<mark style="color:red;">**Note**</mark>: Administrator permissions may be required. The administrator will have to authorize the App for using these permissions. Once authorized the granted status will be indicated as follows:
 
 <figure><img src="../../../../.gitbook/assets/word-image-24.png" alt=""><figcaption></figcaption></figure>
