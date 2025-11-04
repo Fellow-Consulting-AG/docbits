@@ -1,22 +1,22 @@
 # Release Notes
 
-## Release Autumn Summit 15th October 2025
+## Release Autumn Summit 22nd October 2025
 
 ### DocBits enhancements:
 
 *   **Email Template Design Improvements:**
 
-    The email template editor has been redesigned to provide a clearer structure and smoother experience. Selecting document fields is now more intuitive, and attachments can be included directly within templates. These improvements make it faster and easier to create professional, tailored emails.\\
+    The email template editor has been redesigned to provide a clearer structure and smoother experience. Selecting document fields is now more intuitive, and attachments can be included directly within templates. These improvements make it faster and easier to create professional, tailored emails.
 
     <figure><img src="../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
 *   **Dashboard Enhancements:**
 
-    The dashboard has been extended to improve navigation and customization. With new tabs, users can switch more quickly between different document types, reducing the time spent searching for the right view.\\
+    The dashboard has been extended to improve navigation and customization. With new tabs, users can switch more quickly between different document types, reducing the time spent searching for the right view.
 
     <figure><img src="../../.gitbook/assets/image (474) (1).png" alt=""><figcaption></figcaption></figure>
 *   **Custom FilterDashboards:**\
     In addition, dashboards can now be customized and filtered according to individual preferences. These custom dashboards can also be shared with colleagues, making it\
-    easier to create consistent team-wide reporting views.\\
+    easier to create consistent team-wide reporting views.
 
     <figure><img src="../../.gitbook/assets/image (477).png" alt=""><figcaption></figcaption></figure>
 *   **Email Notification Logs:**
@@ -27,7 +27,7 @@
     Support for additional e-invoice formats has been introduced. The system can now process and generate e-SLOG versions 1.6 and 2.0, expanding compatibility with partners and regulatory requirements.
 *   **Duplicate Detection Enhancements:**
 
-    Duplicate detection has been upgraded with two powerful configuration options. The **Duplicate Detection Interval** allows you to define a time range to check for duplicates more precisely, while the **Disallow Export of Duplicates** setting automatically prevents the export of documents that are detected as duplicates. Together, these enhancements provide more control and ensure higher data accuracy.\\
+    Duplicate detection has been upgraded with two powerful configuration options. The **Duplicate Detection Interval** allows you to define a time range to check for duplicates more precisely, while the **Disallow Export of Duplicates** setting automatically prevents the export of documents that are detected as duplicates. Together, these enhancements provide more control and ensure higher data accuracy.
 
     <figure><img src="../../.gitbook/assets/image (478).png" alt=""><figcaption></figcaption></figure>
 *   **Decision Tree Enhancements:**
@@ -63,11 +63,6 @@
 * Corrected an issue where QR codes were sometimes not recognized.
 * Fixed a problem where accounts could not be removed with backspace to enter a different one.
 * Resolved a language mix-up after logging in following the production push.
-
-\
-\
-\
-\\
 
 ## Release **Summer Bloom** July 2025
 
