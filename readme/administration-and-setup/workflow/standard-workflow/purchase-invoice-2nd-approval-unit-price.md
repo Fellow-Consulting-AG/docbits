@@ -22,6 +22,3 @@ This title indicates that the rule is set up to manage the second approval phase
 * **Ensure Accuracy and Compliance**: This rule is critical in ensuring that the invoicing process is accurate and complies with agreed terms. By triggering a review when there is a discrepancy in unit prices, the system helps prevent financial errors or potential fraud.
 * **Streamline Approvals**: Automating the assignment for review based on specific discrepancies helps streamline the approval process and ensures that issues are promptly addressed by the appropriate personnel.
 * **Financial Oversight**: Requiring a second approval, especially based on price matching, reinforces financial controls and accountability within the organization.
-
-
-

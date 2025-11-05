@@ -1,20 +1,19 @@
-# Technical Support in DocBits
+# Technische Ondersteuning in DocBits
 
-### Technical Support in DocBits <a href="#hy7z6t7p8psl" id="hy7z6t7p8psl"></a>
+### Technische Ondersteuning in DocBits <a href="#hy7z6t7p8psl" id="hy7z6t7p8psl"></a>
 
-### **Help Icons** <a href="#gvm1kp4bwvnd" id="gvm1kp4bwvnd"></a>
+### **Help-iconen** <a href="#gvm1kp4bwvnd" id="gvm1kp4bwvnd"></a>
 
-Help icons have been placed all around DocBits in order to assist you in learning and understanding what a feature really does and how it can assist you with your document processing.
+Help-iconen zijn overal in DocBits geplaatst om je te helpen bij het leren en begrijpen wat een functie echt doet en hoe het je kan helpen bij het verwerken van je documenten.
 
-These help icons look as follows
+Deze help-iconen zien er als volgt uit
 
-### **Create a Ticket** <a href="#id-2mb0mw2kxioz" id="id-2mb0mw2kxioz"></a>
+### **Maak een Ticket aan** <a href="#id-2mb0mw2kxioz" id="id-2mb0mw2kxioz"></a>
 
-This is a tool available to you, on the validation screen, in the event of some sort of issue occurring when validating your document in DocBits.
+Dit is een hulpmiddel dat voor jou beschikbaar is op het validatiescherm, voor het geval er een probleem optreedt bij het valideren van je document in DocBits.
 
-This feature is located in the menu above the document preview area, like below
+Deze functie bevindt zich in het menu boven het documentvoorbeeldgebied, zoals hieronder
 
-Once clicked, the following ticket form will be displayed to you.
+Zodra je klikt, wordt het volgende ticketformulier aan je getoond.
 
-This is where you will fill in your details as well as describe the error. You can also ,if applicable, attach a screenshot of the issue and attach a relevant file.
-
+Hier vul je je gegevens in en beschrijf je de fout. Je kunt ook, indien van toepassing, een screenshot van het probleem bijvoegen en een relevant bestand toevoegen.

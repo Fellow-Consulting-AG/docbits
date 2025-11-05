@@ -1,18 +1,17 @@
-# Auto check for PO updates
+# Automatische controle op PO-updates
 
-### Where to Find It
+#### Waar te Vinden
 
-Go to **Settings** → **General Settings** → **Document Types** → **More Settings** → **Purchase Order Section** → **Auto Check for PO Updates**\
-Toggle the button to enable this setting.
+Ga naar **Instellingen** → **Algemene Instellingen** → **Documenttypen** → **Meer Instellingen** → **Aankooporder Sectie** → **Automatische Controle op PO-updates** Zet de knop om deze instelling in te schakelen.
 
-<div align="center" data-full-width="false"><figure><img src="../../../../../../.gitbook/assets/image (398).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207104507.jpg" alt=""><figcaption></figcaption></figure>
 
-### How It Works
+#### Hoe Het Werkt
 
-When enabled, the system provides a **visual indicator** in the **Purchase Order Matching** screen whenever a purchase order has been updated. This icon indicates that the purchase order should be refreshed to ensure users are working with the most **up-to-date information** before making decisions.
+Wanneer ingeschakeld, biedt het systeem een **visuele indicator** in het **Aankooporder Matching** scherm telkens wanneer een aankooporder is bijgewerkt. Dit pictogram geeft aan dat de aankooporder moet worden vernieuwd om ervoor te zorgen dat gebruikers werken met de meest **actuele informatie** voordat ze beslissingen nemen.
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FF8XWBZv8qYmgX4AlJCTw%2Fimage.png?alt=media&#x26;token=c298b346-b1bc-4513-8bb7-520384fe0b1b" alt=""></div>
 
-To refresh the purchase order, click the **refresh icon** next to the purchase order number (see picture below).
+Om de aankooporder te vernieuwen, klik je op het **ververspictogram** naast het aankoopordernummer (zie afbeelding hieronder).
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (402).png" alt=""><figcaption></figcaption></figure></div>
+![](<../../../../../../.gitbook/assets/image (254).png>)

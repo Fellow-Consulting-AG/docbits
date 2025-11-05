@@ -1,3 +1,3 @@
-# Data Synchronization
+# Gegevenssynchronisatie
 
-In the "Data Synchronization" setting under "Log Settings" section, you will be able to see what data has been synchronized and when it was last synchronized.&#x20;
+In de instelling "Gegevenssynchronisatie" onder de sectie "Loginstellingen" kun je zien welke gegevens zijn gesynchroniseerd en wanneer ze voor het laatst zijn gesynchroniseerd.

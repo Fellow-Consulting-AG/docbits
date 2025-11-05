@@ -1,24 +1,24 @@
-# Export Configuration for Supplier Portal
+# Exportconfiguratie voor Leverancierportaal voor M3
 
-## Overview
+## Overzicht
 
-The export configuration file is a crucial component in the supplier portal, defining how data is mapped between the supplier portal and the ERP system. This configuration ensures that data is accurately transferred and synchronized across systems, enabling smooth and efficient operations.
+Het exportconfiguratiebestand is een cruciaal onderdeel van het leveranciersportaal, dat definieert hoe gegevens worden gemapt tussen het leveranciersportaal en het ERP-systeem. Deze configuratie zorgt ervoor dat gegevens nauwkeurig worden overgedragen en gesynchroniseerd tussen systemen, wat zorgt voor soepele en efficiënte operaties.
 
-## Structure of the Configuration File
+## Structuur van het Configuratiebestand
 
-The export configuration file is structured as a JSON object that contains multiple mappings. Each mapping is associated with a specific program in the ERP system and defines the actions to be performed, the fields to be mapped, and any conditions to be applied.
+Het exportconfiguratiebestand is gestructureerd als een JSON-object dat meerdere mappings bevat. Elke mapping is gekoppeld aan een specifiek programma in het ERP-systeem en definieert de uit te voeren acties, de te mappen velden en eventuele toe te passen voorwaarden.
 
-## Key Components
+## Belangrijke Componenten
 
-### 1. Program
+### 1. Programma
 
-* **Definition**: Specifies the ERP program that the mapping applies to.
-* **Example**: `"program": "CRS620MI"`
+* **Definitie**: Geeft het ERP-programma aan waarop de mapping van toepassing is.
+* **Voorbeeld**: `"program": "CRS620MI"`
 
-### 2. Actions
+### 2. Acties
 
-* **Definition**: Defines the actions that can be performed, such as adding or updating records.
-*   **Example**:
+* **Definitie**: Definieert de acties die kunnen worden uitgevoerd, zoals het toevoegen of bijwerken van records.
+*   **Voorbeeld**:
 
     ```json
     "actions": {
@@ -29,19 +29,19 @@ The export configuration file is structured as a JSON object that contains multi
 
 ### 3. Mapping
 
-• Definition: Specifies the mapping between fields in the ERP system and fields in the supplier portal.
+• Definitie: Geeft de mapping aan tussen velden in het ERP-systeem en velden in het leveranciersportaal.
 
-• Components:
+• Componenten:
 
-• erp\_field\_name: The field name in the ERP system.
+• erp\_field\_name: De veldnaam in het ERP-systeem.
 
-• value\_field\_name: The corresponding field name in the supplier portal.
+• value\_field\_name: De bijbehorende veldnaam in het leveranciersportaal.
 
-• value: A static value to be used if no corresponding field exists in the supplier portal.
+• value: Een statische waarde die moet worden gebruikt als er geen bijbehorend veld in het leveranciersportaal bestaat.
 
-• if\_conditions: Optional conditions that determine the value based on certain criteria.
+• if\_conditions: Optionele voorwaarden die de waarde bepalen op basis van bepaalde criteria.
 
-• Example:
+• Voorbeeld:
 
 ```json
 {
@@ -50,19 +50,19 @@ The export configuration file is structured as a JSON object that contains multi
 }
 ```
 
-### 4. Conditional Logic (if\_conditions)
+### 4. Voorwaardelijke Logica (if\_conditions)
 
-• Definition: Specifies conditions that must be met for a particular value to be used.
+• Definitie: Geeft voorwaarden aan die moeten worden vervuld om een bepaalde waarde te gebruiken.
 
-• Components:
+• Componenten:
 
-• field\_name: The field name in the supplier portal that is evaluated.
+• field\_name: De veldnaam in het leveranciersportaal die wordt geëvalueerd.
 
-• field\_value: The value that triggers the condition.
+• field\_value: De waarde die de voorwaarde activeert.
 
-• then\_value: The value to use if the condition is met.
+• then\_value: De waarde die moet worden gebruikt als aan de voorwaarde is voldaan.
 
-• Example:
+• Voorbeeld:
 
 ```json
 {
@@ -76,21 +76,21 @@ The export configuration file is structured as a JSON object that contains multi
 }
 ```
 
-### 5. Loops (loop\_on)
+### 5. Lussen (loop\_on)
 
-• Definition: Defines the sections where the configuration should iterate over a list of items, such as address or reference details.
+• Definitie: Definieert de secties waar de configuratie over een lijst van items moet itereren, zoals adres- of referentiedetails.
 
-• Example:
+• Voorbeeld:
 
 ```json
 "loop_on": "address_details"
 ```
 
-### 6. Calculated Fields (value\_field\_calculated)
+### 6. Gecalculeerde Velden (value\_field\_calculated)
 
-• Definition: Specifies fields that should be calculated at runtime, such as generating the current date.
+• Definitie: Geeft velden aan die tijdens runtime moeten worden berekend, zoals het genereren van de huidige datum.
 
-• Example:
+• Voorbeeld:
 
 ```json
 {
@@ -99,38 +99,38 @@ The export configuration file is structured as a JSON object that contains multi
 }
 ```
 
-### 7. Field Mappings with Lists (mapping\_field\_name and mapping\_list)
+### 7. Veldmappings met Lijsten (mapping\_field\_name en mapping\_list)
 
-• Definition: Maps specific values from the supplier portal to corresponding values in the ERP system based on a predefined list.
+• Definitie: Maakt specifieke waarden van het leveranciersportaal aan de bijbehorende waarden in het ERP-systeem op basis van een vooraf gedefinieerde lijst.
 
-• Components:
+• Componenten:
 
-• mapping\_field\_name: The field that determines the mapping.
+• mapping\_field\_name: Het veld dat de mapping bepaalt.
 
-• mapping\_list: A dictionary that translates values from the supplier portal to the ERP system.
+• mapping\_list: Een woordenboek dat waarden van het leveranciersportaal naar het ERP-systeem vertaalt.
 
-• Example:
+• Voorbeeld:
 
 ```json
 {
     "erp_field_name": "RFID",
     "mapping_field_name": "reference_type",
     "mapping_list": {
-        "10": "PURCHASING",
+        "10": "AANKOOP",
         "15": "DLVRY PHN#",
         "20": "COA",
         "25": "QA",
-        "30": "FINANCE",
-        "35": "SALES"
+        "30": "FINANCIËN",
+        "35": "VERKOOP"
     }
 }
 ```
 
-## Example Configuration Breakdown
+## Voorbeeldconfiguratie Uiteenzetting
 
-### Supplier Addition and Update (CRS620MI)
+### Leverancier Toevoegen en Bijwerken (CRS620MI)
 
-• Program: CRS620MI
+•  Program: CRS620MI
 
 • Actions:
 
@@ -148,9 +148,9 @@ The export configuration file is structured as a JSON object that contains multi
 
 • TINO → tax\_id
 
-• Additional fields include static values and conditional mappings.
+• Extra velden omvatten statische waarden en voorwaardelijke mappings.
 
-### Address Details (CRS620MI)
+### Adresdetails (CRS620MI)
 
 • Loop On: _**address\_details**_
 
@@ -168,9 +168,9 @@ The export configuration file is structured as a JSON object that contains multi
 
 • TOWN → city
 
-• Additional fields include calculated fields like now() for the current date.
+• Extra velden omvatten gecalculeerde velden zoals now() voor de huidige datum.
 
-### Reference Details (CRS620MI)
+### Referentiedetails (CRS620MI)
 
 • Loop On: _**reference\_details**_
 
@@ -186,37 +186,37 @@ The export configuration file is structured as a JSON object that contains multi
 
 • RFTY → reference\_type
 
-• RFID is mapped using a list to translate types like “PURCHASING”, “QA”, and “FINANCE”.
+• RFID wordt gemapt met behulp van een lijst om types zoals “PURCHASING”, “QA” en “FINANCE” te vertalen.
 
-## Using the Export Configuration
+## Gebruik van de Exportconfiguratie
 
-### 1. Uploading the Configuration File
+### 1. Het Configuratiebestand Uploaden
 
-#### 1. Navigate to Export Configuration:
+#### **1. Navigeer naar Exportconfiguratie:**
 
-• Go to the Export Configuration section from the main menu.
+• Ga naar de sectie Exportconfiguratie vanuit het hoofdmenu.
 
-#### 2. Upload the Configuration File:
+#### **2. Upload het Configuratiebestand:**
 
-• Click on the ION-Mapping File or IDM Mapping File sections to upload the respective configuration file.
+• Klik op de secties ION-Mapping Bestand of IDM Mapping Bestand om het respectieve configuratiebestand te uploaden.
 
-#### 3. Save the Configuration:
+#### **3. Sla de Configuratie op:**
 
-• After uploading, click the Save button to apply the configuration.
+• Klik na het uploaden op de Opslaan-knop om de configuratie toe te passen.
 
-### 2. Using Default Templates
+### 2. Standaard Sjablonen Gebruiken
 
-• Click on the Use Default Template button if you wish to revert to the default configuration template provided by the system.
+• Klik op de knop Gebruik Standaard Sjabloon als je wilt terugkeren naar het standaardconfiguratiesjabloon dat door het systeem wordt aangeboden.
 
-### 3. Formatting the JSON
+### 3. Het JSON Formatteren
 
-• Use the Format button to automatically format the JSON code for better readability.
+• Gebruik de knop Formatteren om de JSON-code automatisch te formatteren voor betere leesbaarheid.
 
-## Conclusion
+## Conclusie
 
-This configuration file is essential for ensuring that data between the supplier portal and the ERP system is correctly mapped and synchronized. By understanding the structure and key components, administrators can effectively manage and customize the export process to meet their specific business requirements.
+Dit configuratiebestand is essentieel om ervoor te zorgen dat gegevens tussen het leveranciersportaal en het ERP-systeem correct worden gemapt en gesynchroniseerd. Door de structuur en belangrijke componenten te begrijpen, kunnen beheerders het exportproces effectief beheren en aanpassen aan hun specifieke zakelijke vereisten.
 
-## Full Example&#x20;
+## Volledig Voorbeeld
 
 ```json
 [{
@@ -348,12 +348,12 @@ This configuration file is essential for ensuring that data between the supplier
         "erp_field_name": "RFID",
         "mapping_field_name": "reference_type",
         "mapping_list": {
-            "10": "PURCHASING",
+            "10": "AANKOOP",
             "15": "DLVRY PHN#",
             "20": "COA",
             "25": "QA",
-            "30": "FINANCE",
-            "35": "SALES"
+            "30": "FINANCIËN",
+            "35": "VERKOOP"
         }
     }, {
         "erp_field_name": "YRE1",

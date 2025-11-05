@@ -1,13 +1,11 @@
-# Costing elements are not properly configured. Please ask your admin to configure it.
+# Kostenelementen zijn niet correct geconfigureerd. Vraag uw beheerder om het te configureren.
 
-If you encounter the error message **"Costing elements are not properly configured. Please ask your admin to configure it,"** it could be due to one of the following reasons:
+Als u de foutmelding **"Kostenelementen zijn niet correct geconfigureerd. Vraag uw beheerder om het te configureren,"** tegenkomt, kan dit te wijten zijn aan een van de volgende redenen:
 
-1. **Accidental Activation:** The **Table Extraction for Costing** setting might have been turned on accidentally.
-   * To resolve this, go to **Settings → Document Processing → Classification and Extraction**, and turn off the **Table Extraction for Costing** setting.
-2. **Missing Configuration:** The costing elements have not been configured yet.
-   * In this case, go to the configuration page and set up the required costing elements.
-   * Configuration page:
+1. **Per ongeluk geactiveerd:** De instelling **Tabel Extractie voor Kostprijsberekening** is mogelijk per ongeluk ingeschakeld.
+   * Om dit op te lossen, ga naar **Instellingen → Documentverwerking → Classificatie en Extractie**, en schakel de instelling **Tabel Extractie voor Kostprijsberekening** uit.
+2. **Ontbrekende configuratie:** De kostenelementen zijn nog niet geconfigureerd.
+   * In dit geval, ga naar de configuratiepagina en stel de vereiste kostenelementen in.
+   * Configuratiepagina:
 
-{% content-ref url="../../../infor-integration-and-configuration/importing-customer-master-data/m3/table-extraction-for-costing-element.md" %}
-[table-extraction-for-costing-element.md](../../../infor-integration-and-configuration/importing-customer-master-data/m3/table-extraction-for-costing-element.md)
-{% endcontent-ref %}
+[Tabel Extractie voor kostenelement](https://docs.docbits.com/infor-integration-and-configuration/importing-customer-master-data/m3/table-extraction-for-costing-element)

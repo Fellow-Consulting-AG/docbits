@@ -1,144 +1,133 @@
-# Dashboard Tools
+# Dashboard-hulpmiddelen
 
-To the right of the search bar, you will find some dashboard tools.
+Rechts van de zoekbalk vindt u enkele dashboard-hulpmiddelen.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_1.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_1.png)
 
-## Refresh table
+## Tabel vernieuwen
 
-Click this button to refresh the dashboard and load the most up-to-date data and statuses.
+Klik op deze knop om het dashboard te vernieuwen en de meest actuele gegevens en statussen te laden.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_2.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_2.png)
 
-## Advanced settings
+## Geavanceerde instellingen
 
-Click the gear icon to open the Advanced Settings menu.
+Klik op het tandwielpictogram om het menu Geavanceerde instellingen te openen.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_8.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_8.png)
 
-In the Advanced Settings menu the following options will be available:
+In het menu Geavanceerde instellingen zijn de volgende opties beschikbaar:
 
-### More settings
+### Meer instellingen
 
-Use this button to access the Admin Settings for the dashboard. Full documentation for these settings can be found [here](../../../administration-and-setup/settings/global-settings/dashboard/).
+Gebruik deze knop om toegang te krijgen tot de Beheerinstellingen voor het dashboard. Volledige documentatie voor deze instellingen vindt u [hier](../../../administration-and-setup/settings/global-settings/dashboard/).
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_3.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_3.png)
 
-### Keyboard shortcuts
+### Sneltoetsen
 
-Use this button to display all keyboard shortcuts for the dashboard. Detailed explanations for each shortcut can be found [here](keyboard-shortcuts.md).
+Gebruik deze knop om alle sneltoetsen voor het dashboard weer te geven. Gedetailleerde uitleg voor elke sneltoets vindt u [hier](keyboard-shortcuts.md).
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_9.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_9.png)
 
-### Import log
+### Importlogboek
 
-Use this button to open a table displaying all recently imported documents via email, along with relevant information for each.
+Gebruik deze knop om een tabel te openen met alle recent via e-mail geïmporteerde documenten, inclusief relevante informatie per document.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_10.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_10.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_15.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_15.png)
 
-You can filter the logs by subject or sender, sort columns in ascending or descending order by clicking the column headers, and rearrange them using drag-and-drop.
+U kunt de logboeken filteren op onderwerp of afzender, kolommen oplopend of aflopend sorteren door op de kolomkoppen te klikken en ze rangschikken met slepen-en-neerzetten.
 
-### Set table columns for organization
+### Tabelkolommen instellen voor organisatie
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_11 (2).png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_11.png)
 
-Click this button to open a menu where you can manage the visibility of dashboard columns. Select column names and use the arrows to add or remove them from the dashboard view. Click 'Done' to save your changes.
+Klik op deze knop om een menu te openen waarmee u de zichtbaarheid van dashboardkolommen kunt beheren. Selecteer kolomnamen en gebruik de pijlen om ze toe te voegen aan of te verwijderen uit de dashboardweergave. Klik op **Klaar** om uw wijzigingen op te slaan.
 
-<figure><img src="../../../.gitbook/assets/dashborad_tools_22.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashborad_tools_22.png)
 
-You can set the column order by clicking the dots next to a column name and dragging it to the desired position.
+U kunt de kolomvolgorde instellen door op de puntjes naast een kolomnaam te klikken en deze naar de gewenste positie te slepen.
 
-#### Add fields from a document type as columns in the dashboard.
+#### Velden uit een documenttype als kolommen aan het dashboard toevoegen
 
-You also have the option to add additional columns from specific fields of specific document types to customize your dashboard view. To do this, simply click 'Add Field from Document Type'.
+U hebt ook de mogelijkheid om extra kolommen toe te voegen vanuit specifieke velden van specifieke documenttypes om uw dashboardweergave aan te passen. Klik hiervoor op **Veld toevoegen vanuit documenttype**.
 
-<figure><img src="../../../.gitbook/assets/dashborad_tools_21.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashborad_tools_21.png)
 
-Choose a document type to see which fields are available for the selected type. For each document type there are different fields that you can add. You can search for a specific field using the search bar at the top.
+Kies een documenttype om te zien welke velden beschikbaar zijn voor het geselecteerde type. Voor elk documenttype zijn er verschillende velden die u kunt toevoegen. U kunt naar een specifiek veld zoeken via de zoekbalk bovenaan.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_19.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_19.png)
 
-Select the fields you want to display as columns, then click 'Add to Visible Columns'. The selected fields will appear as columns on the dashboard, showing their corresponding values.
+Selecteer de velden die u als kolommen wilt weergeven en klik vervolgens op **Toevoegen aan zichtbare kolommen**. De geselecteerde velden verschijnen als kolommen op het dashboard en tonen hun bijbehorende waarden.
 
-### Set dashboard sorting for organization
+## Document scannen
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_12.png" alt=""><figcaption></figcaption></figure>
+Gebruik deze knop om direct een document te scannen.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_18.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_4.png)
 
-Use this button to set the default sorting order for columns in the dashboard. Select the column and choose the sorting order (ascending or descending), then click 'Done'. You can configure sorting for all active columns in the dashboard.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_17.png)
 
-### Filter documents
+Om deze functie te gebruiken, moet er een scanner op uw systeem zijn aangesloten. Als er een scanner beschikbaar is, kunt u die rechts selecteren, uw document een naam geven en op **Scannen** klikken. Optioneel kunt u rechts de scaninstellingen aanpassen voordat u het proces start.
 
-You can filter documents by day, week, month, year, or view all by clicking on your desired time period. The filtering is based on the document import time.
+<mark style="color:red;">**Opmerking**</mark>: Deze functie moet worden geactiveerd onder **Instellingen -> Documentverwerking -> Module -> Documenttype -> Document scannen**
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_13.png" alt="" width="536"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_27.png)
 
-## Scan document
+## Analyse
 
-Use this button to scan a document directly.
+Door op deze knop te klikken verschijnt er een nieuw gebied met het huidige aantal documenten per categorie.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_4.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_14.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_17.png" alt=""><figcaption></figcaption></figure>
+Klik op een categorie om de documenten op die specifieke categorie te filteren.
 
-To use this feature, you need to have a scanner connected to your system. If a scanner is available, you can select it on the right, name your document, and click 'Scan'. Optionally, you can adjust scanning settings on the right before starting the process.
+## E-mail importeren starten
 
-<mark style="color:red;">**Note:**</mark> This feature must be activated under _**Settings -> Document Processing/Module -> Document Type/Document scan**_
+Door op deze knop te klikken wordt uw e-mailinbox gecontroleerd op basis van de configuratie voor e-mailimport en worden nieuwe documenten geïmporteerd.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_27.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_6.png)
 
-## Analytics
+## Exporteer deze tabel
 
-Clicking this button will display a new area showing the current count of documents in each category.
+Gebruik deze knop om alle documenten te exporteren die momenteel op het dashboard worden weergegeven, op basis van het aantal documenten dat per pagina wordt getoond.\
+U kunt de tabel exporteren als een **.csv**- of **.xlsx**-bestand.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_5.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_14.png" alt=""><figcaption></figcaption></figure>
+<mark style="color:red;">**Opmerking**</mark>: Deze functie moet worden geactiveerd onder **Instellingen -> Algemene instellingen -> Dashboard -> Algemeen -> Dashboardgegevens exporteren**
 
-Click any category to filter the documents by that specific category.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_26.png)
 
-## Start email import
+## Uploaden
 
-Clicking this button will check your email inbox, according to the email import configuration, and import any new documents.
+Klik op deze knop om handmatig een of meer bestanden te uploaden.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_6.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_7.png)
 
-## Export this table
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_16.png)
 
-Use this button to export all documents currently displayed on the dashboard, based on the number of documents shown per page.
+U kunt bestanden naar het pop-upvenster slepen en neerzetten of klikken op **Documenten uploaden** om ze te selecteren via uw bestandsverkenner.
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_25.png" alt=""><figcaption></figcaption></figure>
+Als je liever handmatig het documenttype opgeeft in plaats van **DocBits** het automatisch te laten classificeren, schakel dan de optie **Classificeren als** in en selecteer het juiste documenttype uit de lijst.
 
-<mark style="color:red;">**Note:**</mark> This feature must be activated under _**Settings -> Document Processing/Module -> Document Type/Export Dashboard Data**_
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_5.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_26.png" alt=""><figcaption></figcaption></figure>
+Klik na het selecteren van uw bestanden op **Uploaden** om het uploadproces te starten.
 
-## Upload
+## Debugmodus
 
-Click this button to manually upload one or more files.
+U kunt de debugmodus activeren om een extra optie te krijgen.\
+Voeg om de debugmodus te openen eenvoudig aan de URL `?debug=true` toe. Nu zou u een extra optie moeten hebben
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_7.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_24.png)
 
-<figure><img src="../../../.gitbook/assets/dashboard_tools_16.png" alt="" width="563"><figcaption></figcaption></figure>
+### Laadtijden weergeven
 
-You can either drag and drop files into the pop-up window or click 'Upload Documents' to select them from the file explorer.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_20.png)
 
-## Debugging mode
+Door op deze knop te klikken, wordt een pop-upvenster geopend met de laadtijden per service, met onderaan de totale laadtijd.
 
-You can activate debugging mode to receive an additional option.\
-To access debug mode simply add to the url `?debug=true` . Now you should have an additional option
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_24.png" alt=""><figcaption></figcaption></figure>
-
-
-
-### Show loading times
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_20.png" alt=""><figcaption></figcaption></figure>
-
-Clicking this button will open a pop-up window displaying the loading times for each service, with the total loading time shown at the bottom.
-
-<figure><img src="../../../.gitbook/assets/dashboard_tools_23.png" alt="" width="375"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_tools_23.png)

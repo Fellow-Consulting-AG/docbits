@@ -1,5 +1,5 @@
-# Invoice Dashboard
+# Factuurdashboard
 
-This section offers a detailed overview of all invoices. It includes a search bar with various filters that you can select to quickly narrow down your results. Additionally, you can customize the arrangement of the column headers by using the drag-and-drop functionality for a more tailored viewing experience.
+Deze sectie biedt een gedetailleerd overzicht van alle facturen. Het bevat een zoekbalk met verschillende filters die je kunt selecteren om snel je resultaten te verfijnen. Daarnaast kun je de indeling van de kolomkoppen aanpassen met de slepen-en-neerzetten functionaliteit voor een meer op maat gemaakte kijkervaring.
 
-<figure><img src="../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/invoice-dashboard.png" alt=""><figcaption></figcaption></figure>

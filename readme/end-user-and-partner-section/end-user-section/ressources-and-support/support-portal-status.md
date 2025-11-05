@@ -1,30 +1,30 @@
 # Support Portal Status
 
-To give you better visibility into your requests, here’s what each ticket status means and when you’ll see it used:
+Om je beter inzicht te geven in je verzoeken, hier is wat elke ticketstatus betekent en wanneer je deze zult zien:
 
 * **New**\
-  – We’ve received your request and it’s awaiting review.
+  – We hebben je verzoek ontvangen en het wacht op beoordeling.
 * **Open**\
-  – Your ticket has been reviewed and queued for action.
+  – Je ticket is beoordeeld en in de wachtrij voor actie.
 * **In Progress**\
-  – DocBits is actively working on your issue.
+  – DocBits werkt actief aan je probleem.
 * **Waiting on Customer Response**\
-  – We need more information or clarification from you. You’ll see this when we’ve asked questions or requested files.
+  – We hebben meer informatie of verduidelijking van jou nodig. Je zult dit zien wanneer we vragen hebben gesteld of bestanden hebben aangevraagd.
 * **Waiting for Customer Confirmation**\
-  – We’ve implemented a fix or provided guidance and are waiting for you to confirm the issue is resolved.
+  – We hebben een oplossing geïmplementeerd of begeleiding gegeven en wachten op jouw bevestiging dat het probleem is opgelost.
 * **Waiting on Product Team**\
-  – Your request is a feature suggestion or involves a known product issue and has been logged for the Product team’s roadmap.
+  – Je verzoek is een functievoorstel of betreft een bekend productprobleem en is geregistreerd voor de roadmap van het Productteam.
 * **Closed – Resolved**\
-  – The issue is fully resolved and confirmed, or no further action is needed.
+  – Het probleem is volledig opgelost en bevestigd, of er is geen verdere actie nodig.
 * **Closed – No Response**\
-  – After multiple follow-ups with no reply, we close the ticket. You can always reopen it by responding.
+  – Na meerdere follow-ups zonder antwoord sluiten we het ticket. Je kunt het altijd opnieuw openen door te reageren.
 * **Closed – Known Issue**\
-  – This ticket tracks a known product bug that’s already on our backlog. It’s closed here but remains visible in our internal planning.
+  – Dit ticket volgt een bekend productbug dat al op onze backlog staat. Het is hier gesloten, maar blijft zichtbaar in onze interne planning.
 * **Closed – Logged as Idea**\
-  – Your suggestion has been noted for future consideration by our Product team.
+  – Je suggestie is genoteerd voor toekomstige overweging door ons Productteam.
 * **Duplicate**\
-  – We’ve merged this ticket into an existing one covering the same issue.
+  – We hebben dit ticket samengevoegd met een bestaand ticket dat hetzelfde probleem dekt.
 * **Not Planned**\
-  – This request is valid but isn’t in our current roadmap. We’ll keep it on file for future prioritization.
+  – Dit verzoek is geldig, maar staat niet op onze huidige roadmap. We zullen het archiveren voor toekomstige prioritering.
 * **Spam**\
-  – This ticket was identified as non–product-related (e.g. bot or unrelated inquiry) and has been closed.
+  – Dit ticket is geïdentificeerd als niet-productgerelateerd (bijv. bot of niet-gerelateerde vraag) en is gesloten.

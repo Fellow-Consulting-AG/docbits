@@ -1,56 +1,56 @@
-# Supplier General Settings
+# Leverancier Algemene Instellingen
 
-### Overview
+## Overzicht
 
-The **Supplier General Settings** interface provides administrators with essential tools to customize the supplier portal. Key features include the ability to upload a company logo and define the policy and privacy statement. These settings are crucial for maintaining brand consistency and ensuring compliance with legal requirements.
+De **Leverancier Algemene Instellingen** interface biedt beheerders essentiële tools om het leveranciersportaal aan te passen. Belangrijke functies zijn onder andere de mogelijkheid om een bedrijfslogo te uploaden en het definiëren van het beleid en de privacyverklaring. Deze instellingen zijn cruciaal voor het behouden van merkconsistentie en het waarborgen van naleving van wettelijke vereisten.
 
-### Upload Logo
+## Logo Uploaden
 
-#### Purpose
+### **Doel**
 
-The **Upload Logo** feature allows administrators to customize the supplier portal by uploading their company's logo. This enhances brand recognition and provides a consistent visual experience for users accessing the portal.
+De **Logo Uploaden** functie stelt beheerders in staat om het leveranciersportaal aan te passen door het logo van hun bedrijf te uploaden. Dit verbetert de merkherkenning en biedt een consistente visuele ervaring voor gebruikers die toegang hebben tot het portaal.
 
-#### Steps to Upload a Logo
+### **Stappen om een Logo te Uploaden**
 
-1. **Access Supplier General Settings**:
-   * Navigate to the **Supplier General Settings** section from the main menu.
-2. **Locate the Upload Logo Section**:
-   * Scroll down to the **Upload Logo** section within the settings page.
-3. **Upload a New Logo**:
-   * Click on the **Upload Logo** area to open the file selection dialog.
-   * Select the image file you wish to upload. Supported formats typically include `.png`, `.jpg`, or `.jpeg`.
-   * The uploaded logo will be displayed in the preview area.
-4. **Save the Uploaded Logo**:
-   * Once the logo is uploaded, click the **Save** button to apply the changes.
-   * The new logo will now be displayed across the supplier portal.
+1. **Toegang tot Leverancier Algemene Instellingen**:
+   * Navigeer naar de sectie **Leverancier Algemene Instellingen** vanuit het hoofdmenu.
+2. **Zoek de Sectie Logo Uploaden**:
+   * Scroll naar beneden naar de sectie **Logo Uploaden** binnen de instellingenpagina.
+3. **Upload een Nieuw Logo**:
+   * Klik op het gebied **Logo Uploaden** om het dialoogvenster voor bestandsselectie te openen.
+   * Selecteer het afbeeldingsbestand dat u wilt uploaden. Ondersteunde indelingen zijn doorgaans `.png`, `.jpg` of `.jpeg`.
+   * Het geüploade logo wordt weergegeven in het voorbeeldgebied.
+4. **Sla het Geüploade Logo op**:
+   * Zodra het logo is geüpload, klik op de knop **Opslaan** om de wijzigingen toe te passen.
+   * Het nieuwe logo wordt nu weergegeven in het leveranciersportaal.
 
-#### Best Practices
+### **Beste Praktijken**
 
-* **Logo Dimensions**: Ensure that the logo's dimensions are optimized for both desktop and mobile views. The system might offer guidelines or automatic resizing.
-* **File Size**: Use a compressed image file to reduce load times and enhance user experience.
-* **Brand Consistency**: Use the same logo across all platforms to maintain a consistent brand identity.
+* **Logo Afmetingen**: Zorg ervoor dat de afmetingen van het logo zijn geoptimaliseerd voor zowel desktop- als mobiele weergaven. Het systeem kan richtlijnen of automatische resizing aanbieden.
+* **Bestandsgrootte**: Gebruik een gecomprimeerd afbeeldingsbestand om laadtijden te verkorten en de gebruikerservaring te verbeteren.
+* **Merkconsistentie**: Gebruik hetzelfde logo op alle platforms om een consistente merkidentiteit te behouden.
 
-### Policy and Privacy Statement
+## Beleid en Privacyverklaring
 
-#### Purpose
+### **Doel**
 
-The **Policy and Privacy Statement** section allows administrators to upload or define the legal documents that govern the use of the supplier portal. These documents are critical for compliance with legal and regulatory requirements, outlining the terms of use, data protection policies, and other essential information for users.
+De sectie **Beleid en Privacyverklaring** stelt beheerders in staat om de juridische documenten te uploaden of te definiëren die het gebruik van het leveranciersportaal regelen. Deze documenten zijn cruciaal voor de naleving van wettelijke en regelgevende vereisten, en schetsen de gebruiksvoorwaarden, gegevensbeschermingsbeleid en andere essentiële informatie voor gebruikers.
 
-#### Steps to Upload Policy and Privacy Statement
+### **Stappen om Beleid en Privacyverklaring te Uploaden**
 
-1. **Access Supplier General Settings**:
-   * Navigate to the **Supplier General Settings** section from the main menu.
-2. **Locate the Policy and Privacy Statement Section**:
-   * Scroll down to the **Policy and Privacy Statement** section.
-3. **Upload or Update the Documents**:
-   * Click on the **Upload Document** button to select the relevant file(s).
-   * Choose the document file from your local storage. Supported formats typically include `.pdf`, `.docx`, or `.txt`.
-   * Uploaded documents will be listed in this section for review.
-4. **Save the Changes**:
-   * After uploading or updating the documents, click the **Save** button to ensure the new policies are applied.
+1. **Toegang tot Leverancier Algemene Instellingen**:
+   * Navigeer naar de sectie **Leverancier Algemene Instellingen** vanuit het hoofdmenu.
+2. **Zoek de Sectie Beleid en Privacyverklaring**:
+   * Scroll naar beneden naar de sectie **Beleid en Privacyverklaring**.
+3. **Upload of Werk de Documenten Bij**:
+   * Klik op de knop **Document Uploaden** om de relevante bestanden te selecteren.
+   * Kies het documentbestand van uw lokale opslag. Ondersteunde indelingen zijn doorgaans `.pdf`, `.docx` of `.txt`.
+   * Geüploade documenten worden in deze sectie weergegeven ter beoordeling.
+4. **Sla de Wijzigingen op**:
+   * Na het uploaden of bijwerken van de documenten, klik op de knop **Opslaan** om ervoor te zorgen dat de nieuwe beleidsregels worden toegepast.
 
-#### Best Practices
+### **Beste Praktijken**
 
-* **Regular Updates**: Regularly review and update the Policy and Privacy Statement to ensure they comply with the latest legal requirements and company policies.
-* **Clarity and Accessibility**: Ensure that the uploaded documents are clear, concise, and accessible to all users. Consider providing translations if your supplier base is international.
-* **Legal Review**: Have all documents reviewed by legal counsel before uploading to ensure compliance with relevant laws and regulations.
+* **Regelmatige Updates**: Beoordeel en werk de Beleid en Privacyverklaring regelmatig bij om ervoor te zorgen dat ze voldoen aan de nieuwste wettelijke vereisten en bedrijfsbeleid.
+* **Duidelijkheid en Toegankelijkheid**: Zorg ervoor dat de geüploade documenten duidelijk, beknopt en toegankelijk zijn voor alle gebruikers. Overweeg om vertalingen te bieden als uw leveranciersbasis internationaal is.
+* **Juridische Beoordeling**: Laat alle documenten door een juridisch adviseur beoordelen voordat u ze uploadt om ervoor te zorgen dat ze voldoen aan relevante wetten en regelgeving.

@@ -1,13 +1,13 @@
-# Creating an IDM Mapping File
+# Een IDM Mappingbestand maken
 
-## Fields for IDM Mapping File
+## Vereiste Velden voor IDM Mapping Bestand
 
-When creating an IDM mapping file, the following fields are required:
+Bij het aanmaken van een IDM mapping bestand zijn de volgende velden vereist:
 
-* **Document Type Definition**
-  * Ensure the document type code in DocBits matches the name used in the URL of the field settings, similar to the BOD Mapping File.
-  * Verify that the document type name in IDM aligns with your system configuration. For example, in M3, it may be **M3\_SupplierInvoice**, while in LN, it will be different based on your setup.
-    * A Guide on how to navigate in IDM can be found at Document Manager in IDM on this page.
+* **Documenttype Definitie**
+  * Zorg ervoor dat de documenttypecode in DocBits overeenkomt met de naam die in de URL van de veldinstellingen wordt gebruikt, vergelijkbaar met het BOD Mapping Bestand.
+  * Controleer of de documenttypename in IDM overeenkomt met uw systeemconfiguratie. Bijvoorbeeld, in M3 kan dit **M3\_SupplierInvoice** zijn, terwijl het in LN anders zal zijn, afhankelijk van uw setup.
+    * Een gids over hoe te navigeren in IDM is te vinden in Document Manager in IDM op deze pagina.
 
 ```properties
 #Define Name of document
@@ -16,20 +16,18 @@ When creating an IDM mapping file, the following fields are required:
 INVOICE=M3_SupplierInvoice
 ```
 
-*   **Static Values**
+* **Statische Waarden**
+  *   Definieer eerst alle statische waarden in één regel met de **Static\_Values** sleutel:
 
-    * First, define all static values in a single line using the **Static\_Values** key:
+      ```properties
+      Static_Values=FileNameSeparator,ACLString
+      ```
+  *   Wijs vervolgens waarden toe aan elke statische variabele met de **SV\_** prefix:
 
-    ```properties
-    Static_Values=FileNameSeparator,ACLString
-    ```
-
-    * Then, assign values to each static variable using the **SV\_** prefix:
-
-    ```properties
-    SV_FileNameSeparator=_ 
-    SV_ACLString=Public
-    ```
+      ```properties
+      SV_FileNameSeparator=_
+      SV_ACLString=Public
+      ```
 
 ```properties
 #Define mappings for the static values
@@ -40,46 +38,24 @@ SV_FileNameSeparator=_
 SV_ACLString=Public
 ```
 
-* **Static Fields**
-  * Static fields are used to set specific, unchanging values across all documents. These values remain consistent across documents.
-  *   Start by listing all the **Static** fields used, specifying the **IDMAttributeId** and type.
-
-      ```properties
-      Static_Fields=BOD_AccountingEntityID:STRING,M3_Company:STRING,M3_Division:STRING
-      ```
-  *   Then, assign static values to each field using the `SF_` prefix:
-
-      ```properties
-      SF_BOD_AccountingEntityID=921_VVB
-      SF_M3_Company=921
-      SF_M3_Division=VVB
-      ```
+* **ACL Veld Definitie**
 
 ```properties
-#Define mappings for the static fields
-#Example: Static_Fields=<IDMAttributeId>:<type>
-Static_Fields=BOD_AccountingEntityID:STRING,M3_Company:STRING,M3_Division:STRING
-#Example: SF_<IDMAttributeId> = StaticValue
-#SF_MDS_EntityType=InforERPEnterpriseFinancialsReceivedInvoice
-SF_BOD_AccountingEntityID=921_VVB
-SF_M3_Company=921
-SF_M3_Division=VVB
+#Define ACL Field value
+#Example: ACL_Fields= Concatenation of other defined fields that together should be a valid ACL in IDM
+ACL_Fields=SV_ACLString
 ```
 
-* **Index Fields**&#x20;
-  *   Start by listing all the index fields used, specifying the **IDMAttributeId** and type.
+* **Doorzoekbare Naam in IDM**
+  * De **Doorzoekbare PDF Naam** zal de documentnaam in IDM zijn.
 
-      ```properties
-      Index_Fields=delivery_note_id:STRING,delivery_date:STRING,CORRELATION_ID:STRING,ACCOUNTING_ENTITY:STRING,GROUP_ACCOUNTING_ENTITY:STRING,supplier_name:STRING,supplier_id:STRING,purchase_order:STRING
-      ```
-  *   Each mapped field follows the format:
+```properties
+#Define Resource Mapping
+#Example: Searchable_PDF_Name= Concatenation of other defined fields
+Searchable_PDF_Name=IF_INVOICE_ID
+```
 
-      ```properties
-      IF_<DocBitsFieldID> = <IDMAttributeId>
-      ```
-
-      * Confirm that **IndexFieldFromDocBits = IDMAttributeID**, ensuring that the field mapping in DocBits aligns with the attributes in IDM (Document Type → Attributes).\
-        A Guide on how to navigate in IDM can be found at Document Manager in IDM on this page.
+## Veld Mapping
 
 ```properties
 #Define index fields
@@ -96,44 +72,38 @@ IF_SUPPLIER_ID=BOD_RemitToPartyID
 IF_SUPPLIER_NAME=BOD_SupplierPartyID
 ```
 
-* **ACL Field Definition**
+*   Begin met het opsommen van alle indexvelden die worden gebruikt, met vermelding van de veld-ID en het type.
 
-```properties
-#Define ACL Field value
-#Example: ACL_Fields= Concatenation of other defined fields that together should be a valid ACL in IDM
-ACL_Fields=SV_ACLString
+    ```properties
+    Index_Fields=INVOICE_ID:STRING,INVOICE_DATE:STRING,COMPANY:STRING,DIVISION:STRING,DIVISION_NO:STRING,CORRELATION_ID:STRING,SUPPLIER_ID:STRING,SUPPLIER_NAME:STRING
+    ```
+*   Elk gemapt veld volgt het formaat:
+
+    ```properties
+    IF_<DocBitsFieldID> = <IDMAttributeId>
+    ```
+
+    * Bevestig dat **IndexFieldFromDocBits = IDMAttributeID**, zodat de veldmapping in DocBits overeenkomt met de attributen in IDM (Documenttype → Attributen). Een gids over hoe te navigeren in IDM is te vinden in Document Manager in IDM op deze pagina.
+
+![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FT2n2w4uDCJvv7CJ5zrdk%2Fuploads%2FzT9MMKlFCSBJtRW1pf4s%2Fimage.png?alt=media\&token=ea2f6ae2-f9f2-48d3-98e3-ed06dcda69f1)
+
+### XML- en EDI-bestandsexport
+
+Om het originele XML/EDI-bestand samen met de gegenereerde PDF te exporteren, moet je het IDM Mappingbestand aanpassen in de exportconfiguratie. Werk eerst de sectie **Static\_Values** bij door het bestandsvoorvoegsel en de extensie toe te voegen. Voeg daarna de daadwerkelijke mapping toe om de juiste exportconfiguratie te waarborgen.
+
+Als er al een export voor facturen naar IDM is ingesteld, zou de gegenereerde PDF al in de export moeten zijn opgenomen. Als je het XML-bestand niet nodig hebt, kun je het volgende deel overslaan. Als je echter het XML-bestand wel nodig hebt, volg dan de onderstaande stappen.
+
+#### De statische waarden bijwerken:
+
+Zoek het veld **Static\_Values** en voeg het volgende toe:
+
 ```
-
-* **Searchable Name in IDM**&#x20;
-  * The **Searchable PDF Name** will be the document name in IDM.
-
-```properties
-#Define Resource Mapping
-#Example: Searchable_PDF_Name= Concatenation of other defined fields
-Searchable_PDF_Name=IF_INVOICE_ID 
-```
-
-
-
-<figure><img src="../../.gitbook/assets/image (428).png" alt=""><figcaption></figcaption></figure>
-
-## XML and EDI  file export&#x20;
-
-To export the original XML/EDI file along with the generated PDF, you need to modify the IDM Mapping file, in the export configuration. First, update the **Static\_Values** section by adding the file prefix and extension. After that, define the actual mapping to ensure the correct export configuration.
-
-If an export for invoices to IDM is already set up, the generated PDF should already be included in the export. If you don’t need the XML file, you can skip the next part. However, if you do need the XML file, follow the steps below.
-
-### Updating the Static Values:
-
-Find the **Static\_Values** field and add the following:a
-
-```properties
 ,EDI_FILE_PREFIX,XML_FILE_PREFIX,PDF_FILE_PREFIX,PDF_FILE_EXTENSION,EDI_FILE_EXTENSION,XML_FILE_EXTENSION
 ```
 
-Then, add the following entries below **SV\_ACLString**:
+Voeg vervolgens de volgende vermeldingen toe onder **SV\_ACLString**:
 
-```properties
+```
 SV_EDI_FILE_PREFIX=EDI_810_
 SV_XML_FILE_PREFIX=XML_810_
 SV_PDF_FILE_PREFIX=INV_EDI_
@@ -142,31 +112,34 @@ SV_EDI_FILE_EXTENSION=.xml
 SV_XML_FILE_EXTENSION=.xml
 ```
 
-<figure><img src="../../.gitbook/assets/image (371).png" alt=""><figcaption></figcaption></figure>
+Voeg daarna de daadwerkelijke mapping toe, zorg ervoor dat het exportdocumenttype overeenkomt met het IDM-leverancierstype.
 
-### XML Mapping
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F6k18wa4zSaSZkvfEKMwW%252Fimage.png%3Falt%3Dmedia%26token%3De6c49d36-44b9-4d18-9d22-63d30205dbd5\&width=768\&dpr=4\&quality=100\&sign=3ac8bc32\&sv=2)
 
-Add the following mapping at the bottom of the file:
+#### XML-mapping
 
-<pre class="language-properties"><code class="lang-properties"><strong>EMBEDDED_FILES_EXPORT = TRANSFORMED, XML
-</strong>EFE_TRANSFORMED_SOURCE_NAME = Transformed.xml
+Voeg de volgende mapping onderaan het bestand toe:
+
+```
+EMBEDDED_FILES_EXPORT = TRANSFORMED, XML
+EFE_TRANSFORMED_SOURCE_NAME = Transformed.xml
 EFE_TRANSFORMED_EXPORT_DOC_TYPE = M3_SupplierInvoice
 EFE_TRANSFORMED_EXPORT_FILENAME = SV_XML_FILE_PREFIX+IF_INVOICE_ID+SV_XML_FILE_EXTENSION
 
 EFE_XML_SOURCE_NAME = XML_DOCUMENT.xml
 EFE_XML_EXPORT_DOC_TYPE = M3_SupplierInvoice
 EFE_XML_EXPORT_FILENAME = SV_XML_FILE_PREFIX+IF_INVOICE_ID+SV_XML_FILE_EXTENSION
-</code></pre>
+```
 
-Note: Ensure that **export\_doc\_type** is set to the IDM invoice type. In this example, it is set for **M3**.
+Opmerking: Zorg ervoor dat **export\_doc\_type** is ingesteld op het IDM-factuurtype. In dit voorbeeld is het ingesteld voor **M3**.
 
-<figure><img src="../../.gitbook/assets/image (373).png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FlXToG368VI7Fc7HDguCn%252Fimage.png%3Falt%3Dmedia%26token%3Dcb153977-34e1-4f5f-a416-60e3141b4aca\&width=768\&dpr=4\&quality=100\&sign=b7d9585c\&sv=2)
 
-### EDI Mapping
+#### EDI-mapping
 
-Add the following mapping at the bottom of the file:
+Voeg de volgende mapping onderaan het bestand toe:
 
-```properties
+```
 EMBEDDED_FILES_EXPORT = TRANSFORMED, EDI
 EFE_TRANSFORMED_SOURCE_NAME = Transformed.xml
 EFE_TRANSFORMED_EXPORT_DOC_TYPE = M3_SupplierInvoice
@@ -177,28 +150,28 @@ EFE_EDI_EXPORT_DOC_TYPE = M3_SupplierInvoice
 EFE_EDI_EXPORT_FILENAME = SV_EDI_FILE_PREFIX+IF_INVOICE_NUMBER+SV_EDI_FILE_EXTENSION
 ```
 
-Note: Ensure that **export\_doc\_type** is set to the IDM invoice type. In this example, it is set for **M3**.
+Opmerking: Zorg ervoor dat **export\_doc\_type** is ingesteld op het IDM-factuurtype. In dit voorbeeld is het ingesteld voor **M3**.
 
-<figure><img src="../../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FSrF54zkGq6aYYuJq1KAI%252Fimage.png%3Falt%3Dmedia%26token%3D403c9bfa-7e97-4d3c-a4b0-1bb82b98fe50\&width=768\&dpr=4\&quality=100\&sign=a768865f\&sv=2)
 
-### Document Manager in Infor
+#### Document Manager in Infor
 
-Go to Document Manager and select the name of the current document type you are trying to export, for example, Supplier Invoice.
+Ga naar Document Manager en selecteer de naam van het huidige documenttype dat je probeert te exporteren, bijvoorbeeld Leveranciersfactuur.
 
-![](https://lh7-us.googleusercontent.com/EV3uw3R1L6_RRANB7FRLwtUFMbv_KGtL4x6kAk6lEYhwI90UeG2uWqFD2Azpxv-SRFl9zfvdratOZbXxp2D1-SryLo3Boj2x9Xc4PQXJ6vUhX5c9pvhv4XHuCk-qMK51DZ885vRUJ5dwES7k84uhoyk)
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2Flh7-us.googleusercontent.com%2FEV3uw3R1L6_RRANB7FRLwtUFMbv_KGtL4x6kAk6lEYhwI90UeG2uWqFD2Azpxv-SRFl9zfvdratOZbXxp2D1-SryLo3Boj2x9Xc4PQXJ6vUhX5c9pvhv4XHuCk-qMK51DZ885vRUJ5dwES7k84uhoyk\&width=768\&dpr=4\&quality=100\&sign=a2f25ec9\&sv=2)
 
-Click the above icon and then click Administration → Document Type and then find the document type you need in the list
+Klik op het bovenstaande pictogram en klik vervolgens op Beheer → Documenttype en zoek het documenttype dat je nodig hebt in de lijst.
 
-![](https://lh7-us.googleusercontent.com/ldsuINS9SCUQm3E57s8j_95gzBGwHQFavcf6d3myg6tuVxRoQHtq8R-6we5OEJ63swDxwPc9w7hbySWqWdfaMsGdQpn99m6EchPY5f5DzXEj-8mjocwPNtdJVNP34CuPvw0JIImDgFX1Q05M8-ogZo8)
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2Flh7-us.googleusercontent.com%2FldsuINS9SCUQm3E57s8j_95gzBGwHQFavcf6d3myg6tuVxRoQHtq8R-6we5OEJ63swDxwPc9w7hbySWqWdfaMsGdQpn99m6EchPY5f5DzXEj-8mjocwPNtdJVNP34CuPvw0JIImDgFX1Q05M8-ogZo8\&width=768\&dpr=4\&quality=100\&sign=a1149783\&sv=2)
 
-As shown below, you will then see the doc type name as it is in INFOR
+Zoals hieronder weergegeven, zie je dan de naam van het documenttype zoals deze in INFOR is.
 
-![](https://lh7-us.googleusercontent.com/KSreWGS7TqdMP64BqtufM24xk0RDnNDHUZapnPsSuRj_umPJ3icll89KI2RYpbtet2F6ccL8QfYbl27-2j1nQPwQ0z-Nq873c4Tv72ee9AJhKMxynIUxmJKKsQQCupW_dpRfw_5BXm0WvAnw4HOALmw)
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2Flh7-us.googleusercontent.com%2FKSreWGS7TqdMP64BqtufM24xk0RDnNDHUZapnPsSuRj_umPJ3icll89KI2RYpbtet2F6ccL8QfYbl27-2j1nQPwQ0z-Nq873c4Tv72ee9AJhKMxynIUxmJKKsQQCupW_dpRfw_5BXm0WvAnw4HOALmw\&width=768\&dpr=4\&quality=100\&sign=62bfe0a6\&sv=2)
 
-Make sure this is how the name is shown in the IDM Mapping File
+Zorg ervoor dat dit is hoe de naam wordt weergegeven in het IDM Mappingbestand.
 
-## Upload File to DocBits
+### Bestand uploaden naar DocBits
 
-Once the file is prepared, upload it to your export configuration in DocBits. This is available at Settings → Export.
+Zodra het bestand is voorbereid, upload je het naar je exportconfiguratie in DocBits. Dit is beschikbaar onder Instellingen → Exporteren.
 
-![](https://lh7-us.googleusercontent.com/rUHhvImiWamK6JxnWSPL4JEioAJq3AmvdsubJDo-DoDV9F_i5mZ42YDnjqZUYKYSJu1Cetc_4fLwlvvmoZXYIzmBf3hoyW6RjfP9HQ8FkNDhW1IbLHvNTCHWFRaeCECdZ97u79-Eu37TvzqnqGPEayM)
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2Flh7-us.googleusercontent.com%2FrUHhvImiWamK6JxnWSPL4JEioAJq3AmvdsubJDo-DoDV9F_i5mZ42YDnjqZUYKYSJu1Cetc_4fLwlvvmoZXYIzmBf3hoyW6RjfP9HQ8FkNDhW1IbLHvNTCHWFRaeCECdZ97u79-Eu37TvzqnqGPEayM\&width=768\&dpr=4\&quality=100\&sign=a13b8c88\&sv=2)

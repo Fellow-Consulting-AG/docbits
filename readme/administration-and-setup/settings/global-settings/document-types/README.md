@@ -1,24 +1,24 @@
-# Document Types
+# Documenttypes
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-24 um 22.39.42.png" alt="Document Types"><figcaption><p>Document Types Screenshot </p></figcaption></figure>
 
-#### Overview
+## **Overzicht**
 
-The Document Types section lists all document types recognized and processed by Docbits. Administrators can manage various aspects such as layout, field definitions, extraction rules, and more for each type of document. This customization is key to ensuring accurate data handling and compliance with organizational standards.
+De sectie Documenttypes vermeldt alle documenttypes die door Docbits worden herkend en verwerkt. Beheerders kunnen verschillende aspecten beheren, zoals lay-out, velddefinities, extractieregels en meer voor elk type document. Deze aanpassing is essentieel voor een nauwkeurige gegevensverwerking en naleving van de organisatorische normen.
 
-#### Key Features and Options
+## **Belangrijkste Kenmerken en Opties**
 
-1. **Document Type List**:
-   * Each row represents a document type such as Invoice, Credit Note, Delivery Note, etc.
-   * Document types can be standard or custom, as indicated by labels like "Standard."
-2. **Edit layout**: This option allows administrators to modify the document layout settings, which include defining how the document appears and where data fields are located.
-3. **Document Sub Types**: If any document types have subcategories, this option lets admins configure settings specific to each subtype.
-4. **Table columns**: Customize which data columns should appear when the document type is viewed in lists or reports.
-5. **Fields**: Manage the data fields associated with the document type, including adding new fields or modifying existing ones.
-6. **Model Training**: Configure and train the model used for recognizing and extracting data from the documents. This may involve setting parameters for machine learning models that improve over time with more data.
-7. **Regex**: Set up regular expressions that are used to extract data from documents based on patterns. This is particularly useful for structured data extraction.
-8. **Scripts**: Write or modify scripts that run custom processing rules or workflows for documents of this type.
-9. **E-DOC**: Configure settings related to the exchange of documents in standardized electronic formats. You can configure XRechnung, EDI, FakturaPA or EDI
+1. **Documenttype Lijst**:
+   * Elke rij vertegenwoordigt een documenttype zoals Factuur, Creditnota, Leveringsbon, enz.
+   * Documenttypes kunnen standaard of op maat zijn, zoals aangegeven door labels zoals "Standaard."
+2. **Lay-out bewerken**: Deze optie stelt beheerders in staat om de instellingen voor de documentlay-out te wijzigen, waaronder het definiëren van hoe het document eruitziet en waar de gegevensvelden zich bevinden.
+3. **Document Subtypes**: Als er documenttypes zijn met subcategorieën, kan deze optie beheerders in staat stellen om instellingen specifiek voor elk subtype te configureren.
+4. **Tabelkolommen**: Pas aan welke datakolommen moeten verschijnen wanneer het documenttype in lijsten of rapporten wordt bekeken.
+5. **Velden**: Beheer de gegevensvelden die aan het documenttype zijn gekoppeld, inclusief het toevoegen van nieuwe velden of het wijzigen van bestaande.
+6. **Modeltraining**: Configureer en train het model dat wordt gebruikt voor het herkennen en extraheren van gegevens uit de documenten. Dit kan inhouden dat parameters worden ingesteld voor machine learning-modellen die in de loop van de tijd verbeteren met meer gegevens.
+7. **Regex**: Stel reguliere expressies in die worden gebruikt om gegevens uit documenten te extraheren op basis van patronen. Dit is bijzonder nuttig voor gestructureerde gegevensextractie.
+8. **Scripts**: Schrijf of wijzig scripts die aangepaste verwerkingsregels of workflows voor documenten van dit type uitvoeren.
+9. **E-DOC**: Configureer instellingen met betrekking tot de uitwisseling van documenten in gestandaardiseerde elektronische formaten. U kunt XRechnung, EDI, FakturaPA of EDI configureren.
 
 {% hint style="info" %}
 See [Setup Document Type](../../../setup/document-types/)

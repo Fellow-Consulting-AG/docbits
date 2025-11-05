@@ -1,13 +1,12 @@
-# Manual Import
+# Handmatige Import
 
-If you’re looking to import documents manually into DocBits, follow these simple steps:
+Als je documenten handmatig wilt importeren in DocBits, volg dan deze eenvoudige stappen:
 
-* Click on the Upload button on the DocBits Dashboard.
-* A window will appear where you can upload your documents via file browser or drag and drop. You can upload up to 10 documents at once.
-* To upload documents via file browser, click on the Upload Documents button and select the files you want to upload. Once you’ve selected the files, click on Confirm to start the upload process.
-* Alternatively, you can drag and drop your files onto the DocBits import window.
-* After the files have been uploaded, they will have the initial status of “Running”. During this time, the upload is being processed and editing the file is not possible. The processing time may vary depending on the size and complexity of the file.
-* Once the file has been processed, it will receive the status of “Ready For Validation”. You can now start the validation process.
+* Klik op de Upload-knop op het DocBits Dashboard.
+* Er verschijnt een venster waar je je documenten kunt uploaden via de bestandsbrowser of door te slepen en neer te zetten. Je kunt tot 10 documenten tegelijk uploaden.
+* Om documenten te uploaden via de bestandsbrowser, klik je op de Upload Documenten-knop en selecteer je de bestanden die je wilt uploaden. Zodra je de bestanden hebt geselecteerd, klik je op Bevestigen om het uploadproces te starten.
+* Als alternatief kun je je bestanden slepen en neerzetten in het DocBits importvenster.
+* Nadat de bestanden zijn geüpload, krijgen ze de initiële status "Running". Tijdens deze tijd wordt de upload verwerkt en is het niet mogelijk om het bestand te bewerken. De verwerkingstijd kan variëren afhankelijk van de grootte en complexiteit van het bestand.
+* Zodra het bestand is verwerkt, krijgt het de status "Ready For Validation". Je kunt nu het validatieproces starten.
 
 <figure><img src="../../../.gitbook/assets/manual-import1.png" alt=""><figcaption></figcaption></figure>
-

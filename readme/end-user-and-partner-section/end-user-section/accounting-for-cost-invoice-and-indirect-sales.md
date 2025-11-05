@@ -1,103 +1,101 @@
-# Accounting for Cost Invoice and Indirect Sales
+# Boekhouding voor Kostfactuur en Indirecte Verkoop
 
-## Introduction
+## Introductie
 
-Welcome to the Accounting for Cost Invoice and Indirect Sales module! This module is designed to help you efficiently manage and reconcile your financial transactions within your ERP system. With features like automatic data extraction, document matching, and detailed tracking, you can ensure that your financial records are accurate and up-to-date.
+Welkom bij de module Boekhouding voor Kostfactuur en Indirecte Verkoop! Deze module is ontworpen om u te helpen uw financiële transacties binnen uw ERP-systeem efficiënt te beheren en af te stemmen. Met functies zoals automatische gegevensextractie, documentmatching en gedetailleerde tracking, kunt u ervoor zorgen dat uw financiële gegevens nauwkeurig en up-to-date zijn.
 
-<figure><img src="../../.gitbook/assets/image (14) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
-## Getting Started
+## Aan de Slag
 
-To start using the accounting module, make sure you have the necessary permissions set up by your system administrator. You will need access to both the cost accounting and sales accounting modules within the ERP system.
+Om de boekhoudmodule te gebruiken, moet u ervoor zorgen dat u de benodigde rechten hebt ingesteld door uw systeembeheerder. U hebt toegang nodig tot zowel de kostprijsboekhouding als de verkoopboekhoudmodules binnen het ERP-systeem.
 
-## System Requirements
+## Systeemvereisten
 
-* Access to the cost accounting and sales accounting modules within the ERP system.
-* Appropriate user permissions for viewing and processing financial documents.
+* Toegang tot de kostprijsboekhouding en verkoopboekhoudmodules binnen het ERP-systeem.
+* Geschikte gebruikersrechten voor het bekijken en verwerken van financiële documenten.
 
-## Key Features
+## Belangrijkste Functies
 
-1. **Automatic Data Extraction**: Automatically extracts and interprets data from digital invoices and other documents.
-2. **Data Comparison**: Compares extracted invoice data against existing purchase order data.
-3. **Match Verification**: Verifies matches based on predefined rules and tolerances.
-4. **Discrepancy Reporting**: Identifies and reports any discrepancies between invoices and purchase orders.
-5. **Audit Trail**: Maintains a log of all actions for compliance and review.
-6. **Document Training**: Train the system to recognize new documents with minimal effort, typically only once.
-7. **Amount Splitting**: Split amounts by department for detailed financial tracking.
-8. **Ledger Account Definition**: The APS (Accounting and Procurement System) team can define the ledger account once the data is extracted.
+1. **Automatische Gegevensextractie**: Extraheert en interpreteert automatisch gegevens van digitale facturen en andere documenten.
+2. **Gegevensvergelijking**: Vergelijkt geëxtraheerde factuurgegevens met bestaande inkoopordergegevens.
+3. **Matchverificatie**: Verifieert matches op basis van vooraf gedefinieerde regels en toleranties.
+4. **Afwijkingsrapportage**: Identificeert en rapporteert eventuele afwijkingen tussen facturen en inkooporders.
+5. **Audit Trail**: Houdt een logboek bij van alle acties voor naleving en controle.
+6. **Documenttraining**: Train het systeem om nieuwe documenten te herkennen met minimale inspanning, meestal slechts één keer.
+7. **Bedragssplitsing**: Splits bedragen per afdeling voor gedetailleerde financiële tracking.
+8. **Grootboekrekeningdefinitie**: Het APS (Accounting and Procurement System) team kan de grootboekrekening definiëren zodra de gegevens zijn geëxtraheerd.
 
-## User Interface
+## Gebruikersinterface
 
-The accounting module interface typically includes the following components:
+De interface van de boekhoudmodule bevat doorgaans de volgende componenten:
 
-* **Dashboard**: Overview of invoice and sales status, and recent activity.
-* **Search and Filter Tools**: Capabilities to search and filter invoices and sales records.
-* **Matched Records**: Section displaying successfully matched records.
-* **Discrepancies**: Section showing records with discrepancies needing review or action.
-* **Reports**: Access to detailed reports and export options.
+* **Dashboard**: Overzicht van factuur- en verkoopstatus en recente activiteiten.
+* **Zoek- en Filtertools**: Mogelijkheden om facturen en verkooprecords te zoeken en filteren.
+* **Gematchede Records**: Sectie die succesvol gematchte records weergeeft.
+* **Afwijkingen**: Sectie die records toont met afwijkingen die moeten worden beoordeeld of aangepakt.
+* **Rapporten**: Toegang tot gedetailleerde rapporten en exportopties.
 
-## Step-by-Step Guide to Using the Accounting Module
+## Stapsgewijze Handleiding voor het Gebruik van de Boekhoudmodule
 
-### 1. Access the Accounting Module
+### 1. Toegang tot de Boekhoudmodule
 
-Navigate to the accounting module from the main menu of your ERP system.
+Navigeer naar de boekhoudmodule vanuit het hoofdmenu van uw ERP-systeem.
 
-### 2. Import or Access Invoices
+### 2. Importeer of Toegang tot Facturen
 
-* **Automated Import**: If your system is set up for automated data capture, invoices will be imported automatically into the system.
-* **Manual Upload**: If necessary, manually upload invoice files into the system using the provided interface.
+* **Geautomatiseerde Import**: Als uw systeem is ingesteld voor geautomatiseerde gegevensvastlegging, worden facturen automatisch in het systeem geïmporteerd.
+* **Handmatige Upload**: Indien nodig, upload handmatig factuurbestanden in het systeem via de verstrekte interface.
 
-### 3. Review Automatically Matched Invoices
+### 3. Automatisch Gematchte Facturen Beoordelen
 
-* Review invoices that have been automatically matched with purchase orders.
-* Verify the details of the match, including item numbers, quantities, and prices.
+* Beoordeel facturen die automatisch zijn gematcht met inkooporders.
+* Verifieer de details van de match, inclusief artikelnummers, hoeveelheden en prijzen.
 
-### 4. Handle Discrepancies
+### 4. Afwijkingen Behandelen
 
-* Access the Discrepancies section to review any invoices that could not be automatically matched.
-* Manually adjust quantities or prices as needed, or flag the invoice for further review.
+* Ga naar de sectie Afwijkingen om facturen te beoordelen die niet automatisch konden worden gematcht.
+* Pas indien nodig handmatig hoeveelheden of prijzen aan, of markeer de factuur voor verdere beoordeling.
 
-### 5. Manual Matching
+### 5. Handmatige Matching
 
-For invoices not automatically matched:
+Voor facturen die niet automatisch zijn gematcht:
 
-* Use the search and filter tools to find the corresponding purchase order.
-* Manually verify and match the invoice to the purchase order.
+* Gebruik de zoek- en filtertools om de bijbehorende inkooporder te vinden.
+* Verifieer en match de factuur handmatig met de inkooporder.
 
-### 6. Train the System
+### 6. Train het Systeem
 
-* For new document types, train the system to recognize them by providing a sample.
-* Typically, you only need to train the system once for it to accurately recognize similar documents in the future.
+* Voor nieuwe documenttypen, train het systeem om ze te herkennen door een voorbeeld te geven.
+* Meestal hoeft u het systeem slechts één keer te trainen om vergelijkbare documenten in de toekomst nauwkeurig te herkennen.
 
-### 7. Record Bookings
+### 7. Boekingen Registreren
 
-* Navigate to the "Line items" tab to view and record bookings for each invoice.
-* Allocate the amounts to the appropriate accounts, cost centers, and dimensions specific to Infor LN/M3.
+* Navigeer naar het tabblad "Regelitems" om boekingen voor elke factuur te bekijken en te registreren.
+* Wijs de bedragen toe aan de juiste rekeningen, kostenplaatsen en dimensies specifiek voor Infor LN/M3.
 
-#### **Example: Booking a Cost Invoice**
+**Voorbeeld: Een Kostfactuur Boeken**
 
-1. **Select Line Item**: Choose the line item for the cost invoice.
-2. **Assign Account**: Assign the appropriate account, such as "71200 - Non-Operating Expense".
-3. **Set Dimensions**: Set additional dimensions like cost center, product group, and project.
-4. **Split Amount**: If necessary, split the amount by department for more detailed tracking.
-5. **Enter Amount**: Enter the amount for the line item.
+1. **Selecteer Regelitem**: Kies het regelitem voor de kostfactuur.
+2. **Wijs Rekening Toe**: Wijs de juiste rekening toe, zoals "71200 - Niet-operationele Kosten".
+3. **Stel Dimensies In**: Stel aanvullende dimensies in zoals kostenplaats, productgroep en project.
+4. **Bedrag Splitsen**: Splits indien nodig het bedrag per afdeling voor gedetailleerdere tracking.
+5. **Voer Bedrag In**: Voer het bedrag voor het regelitem in.
 
-### 8. Define Ledger Accounts
+### 8. Grootboekrekeningen Definiëren
 
-* Once the data is extracted, the APS team can define the ledger accounts.
-* This ensures that each transaction is recorded under the correct account for accurate financial reporting.
+* Zodra de gegevens zijn geëxtraheerd, kan het APS-team de grootboekrekeningen definiëren.
+* Dit zorgt ervoor dat elke transactie onder de juiste rekening wordt geregistreerd voor nauwkeurige financiële rapportage.
 
-### 9. Generate Reports
+### 9. Rapporten Genereren
 
-* Access the "Reports" section to generate detailed reports on financial transactions.
-* Use export options to save reports for further analysis or record-keeping.
+* Ga naar de sectie "Rapporten" om gedetailleerde rapporten over financiële transacties te genereren.
+* Gebruik exportopties om rapporten op te slaan voor verdere analyse of archivering.
 
-### Example Usage
+### Voorbeeld Gebruik
 
-1. **Uploading Documents**: Users can upload various documents (invoices, delivery notes, etc.) to the system.
-2. **Automatic Matching**: The system automatically matches the uploaded documents with existing purchase orders.
-3. **Reviewing Matches**: Users can review the matches, verify details, and see status indicators.
-4. **Resolving Discrepancies**: Any mismatches or discrepancies are highlighted for the user to manually review and correct.
-5. **Exporting Data**: Matched data can be exported for further processing or record-keeping.
-
-\\
+1. **Documenten Uploaden**: Gebruikers kunnen verschillende documenten (facturen, afleverbonnen, etc.) naar het systeem uploaden.
+2. **Automatische Matching**: Het systeem matcht automatisch de geüploade documenten met bestaande inkooporders.
+3. **Matches Beoordelen**: Gebruikers kunnen de matches beoordelen, details verifiëren en statusindicatoren bekijken.
+4. **Afwijkingen Oplossen**: Eventuele mismatches of afwijkingen worden gemarkeerd voor de gebruiker om handmatig te beoordelen en te corrigeren.
+5. **Gegevens Exporteren**: Gematchte gegevens kunnen worden geëxporteerd voor verdere verwerking of archivering.

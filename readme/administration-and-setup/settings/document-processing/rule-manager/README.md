@@ -1,194 +1,184 @@
-# Rule Manager
+# Regelbeheerder
 
 \
+Dit document biedt een diepgaande uitleg van de regels voor geschillenbeslechting die worden gebruikt in het DocBits factureringssysteem. Deze regels zijn ontworpen om automatisch om te gaan met discrepanties tussen factuurgegevens en inkoopordedata (PO), en zorgen voor een nauwkeurige financiële reconciliatie. Het systeem past deze regels toe om factuurregels, kosten en belastingen te verwerken en genereert indien nodig passende aanpassingen of notities.
+
+## Structuur van de Regels
+
+### 1. Metadata
+
+• versie: Identificeert de versie van het mappingbestand.
+
+• revisie: Revisienummer voor het bijhouden van wijzigingen.
+
+• auteur: Geeft de maker van het mappingbestand aan.
+
+• beschrijving: Een korte beschrijving van het doel van het bestand.
+
+• created\_at & updated\_at: Tijdstempels voor wanneer het bestand is gemaakt en voor het laatst is bijgewerkt.
+
+### 2. Exportconfiguratie
+
+De exportconfiguratie-sectie definieert de mapping tussen de datavelden in het systeem en de overeenkomstige velden in de exportbestanden.
+
+• Header: Definieert de headervelden voor de geëxporteerde factuurgegevens.
+
+• Belastingregels: Specificeert de velden voor belastingregelitems in de export.
+
+• Orderheaderkosten: Maakt velden gerelateerd aan extra kosten op het niveau van de orderheader.
+
+• Ontvangstregels: Maakt velden voor individuele regelitems in een ontvangst.
+
+• Orderregelkosten: Definieert de velden voor kosten gerelateerd aan specifieke orderregels.
+
+• Kostenregels: Specificeert velden voor kostenallocatieregels.
+
+• Debetnota & Creditnota: Definieert velden voor het genereren van debet- en creditnota's in geval van discrepanties.
+
+### 3. Regels voor Geschillenbeslechting
+
+Deze regels behandelen discrepanties tussen factuurgegevens en de overeenkomstige PO-gegevens. Elke regel bestaat uit verschillende componenten:
+
+• Naam: De beschrijvende naam van de regel, die aangeeft welk type discrepantie deze behandelt.
+
+• Sectie: Geeft aan welk deel van de factuur (bijv. ontvangst\_regels, lijn\_kosten) de regel van toepassing is.
+
+• Actief: Booleaanse waarde (waar of niet waar) die aangeeft of de regel momenteel actief is.
+
+• Matchcriteria: Voorwaarden die de regel activeren op basis van vergelijkingen tussen de werkelijke factuurgegevens en de verwachte PO-gegevens.
+
+• Acties: Definieert wat het systeem moet doen wanneer de regel wordt geactiveerd, inclusief het aanpassen van waarden, het toepassen van kosten of het genereren van credit/debetnota's.
+
+## Gemeenschappelijke Elementen in de Regels
+
+### Vergelijkingsoperatoren
+
+Deze operatoren definiëren hoe de werkelijke factuurwaarden worden vergeleken met de verwachte PO-waarden:
+
+• gelijk
+
+• groter dan
+
+• groter dan of gelijk aan
+
+• kleiner dan
+
+• kleiner dan of gelijk aan
+
+• binnen tolerantie
+
+• buiten tolerantie
 
 
-This document provides an in-depth explanation of the conflict resolution rules used in the DocBits invoicing system. These rules are designed to automatically handle discrepancies between invoice details and purchase order (PO) data, ensuring accurate financial reconciliation. The system applies these rules to process invoice lines, charges, and taxes, and generates appropriate adjustments or notes when necessary.
 
-## Structure of the Rules
+### Goedkeuringsstatus
 
-### &#x20;1. Metadata
+Geeft aan of een discrepantie goedgekeurd is of niet:
 
-• version: Identifies the version of the mapping file.
+• goedgekeurd
 
-• revision: Revision number for tracking changes.
+• afgewezen
 
-• author: Indicates the creator of the mapping file.
-
-• description: A brief description of the file’s purpose.
-
-• created\_at & updated\_at: Timestamps for when the file was created and last updated.
-
-### &#x20;2. Export Configuration
-
-The export configuration section defines the mapping between the data fields in the system and the corresponding fields in the export files.
-
-• Header: Defines the header fields for the exported invoice data.
-
-• Tax Lines: Specifies the fields for tax line items in the export.
-
-• Order Header Charges: Maps fields related to additional charges at the order header level.
-
-• Receipt Lines: Maps fields for individual line items in a receipt.
-
-• Order Line Charges: Defines the fields for charges related to specific order lines.
-
-• Cost Lines: Specifies fields for cost allocation lines.
-
-• Debit Note & Credit Note: Defines fields for generating debit and credit notes in cases of discrepancies.
-
-### 3. Conflict Resolution Rules
-
-These rules handle discrepancies between invoice data and the corresponding PO data. Each rule is composed of several components:
-
-• Name: The rule’s descriptive name, indicating the type of discrepancy it addresses.
-
-• Section: Indicates which part of the invoice (e.g., receipt\_lines, line\_charges) the rule applies to.
-
-• Active: Boolean value (true or false) indicating if the rule is currently active.
-
-• Match Criteria: Conditions that trigger the rule based on comparisons between actual invoice data and expected PO data.
-
-• Actions: Defines what the system should do when the rule is triggered, including adjusting values, applying charges, or generating credit/debit notes.
-
-## Common Elements in the Rules
-
-### Comparison Operators
-
-These operators define how the actual invoice values are compared to the expected PO values:
-
-• equal
-
-• greater than
-
-• greater than or equal to
-
-• less than
-
-• less than or equal to
-
-• within tolerance
-
-• outside tolerance
-
-\
+• elk
 
 
-### Approval Status
 
-Indicates whether a discrepancy is approved or not:
+### Actietypen
 
-• approved
-
-• rejected
-
-• any
-
-\
-
-
-### Action Types
-
-Defines specific actions to take when a discrepancy is detected:
+Definieert specifieke acties die moeten worden ondernomen wanneer een discrepantie wordt gedetecteerd:
 
 \
-• receipt line
+• ontvangstregel
 
-• cost line
+• kostenregel
 
-• header charge
+• headerkosten
 
-• line charge
+• lijnkosten
 
-• tax line
+• belastingregel
 
-• debit note receipt line
+• debetnota ontvangstregel
 
-• debit note cost line
+• debetnota kostenregel
 
-• debit note header charge
+• debetnota headerkosten
 
-• debit note line charge
+• debetnota lijnkosten
 
-• credit note receipt line
+• creditnota ontvangstregel
 
-• credit note cost line
+• creditnota kostenregel
 
-• credit note header charge
+• creditnota headerkosten
 
-• credit note line charge
+• creditnota lijnkosten
 
-• credit note tax line
-
-\
-
-
-### Rule Examples
-
-#### [Case 1, 2, 3: Quantity and Unit Price Within Tolerance](transactionconfig-pro-template/case-1-2-3-quantity-and-unit-price-within-tolerance.md)
-
-\
-• Purpose: Handles scenarios where both the quantity and unit price on the invoice are within the accepted tolerance limits compared to the PO.
-
-• Action: The system accepts the invoice values and calculates the total amount.
+• creditnota belastingregel
 
 
 
-#### [Case 4, 5: Quantity Within Tolerance, Unit Price Outside Tolerance (Approved)](./#case-4-5-quantity-within-tolerance-unit-price-outside-tolerance-approved)
+### Voorbeelden van Regels
 
-• Purpose: Applies when the quantity is within tolerance but the unit price is outside tolerance and has been approved.
-
-• Action: The system adjusts the unit price to match the PO and applies any necessary line charges.
+**Geval 1, 2, 3: Hoeveelheid en Eenheidsprijs Binnen Tolerantie**
 
 \
+• Doel: Behandelt scenario's waarin zowel de hoeveelheid als de eenheidsprijs op de factuur binnen de geaccepteerde tolerantielimieten liggen in vergelijking met de PO.
+
+• Actie: Het systeem accepteert de factuurwaarden en berekent het totale bedrag.
+
+**Geval 4, 5: Hoeveelheid Binnen Tolerantie, Eenheidsprijs Buiten Tolerantie (Goedgekeurd)**
+
+• Doel: Van toepassing wanneer de hoeveelheid binnen tolerantie is, maar de eenheidsprijs buiten tolerantie ligt en is goedgekeurd.
+
+• Actie: Het systeem past de eenheidsprijs aan om overeen te komen met de PO en past eventuele noodzakelijke lijnkosten toe.
 
 
-#### [Case 6: Quantity Within Tolerance, Unit Price Outside Negative Tolerance (Rejected)](transactionconfig-pro-template/case-6-quantity-within-tolerance-unit-price-outside-negative-tolerance-rejected.md)&#x20;
 
-• Purpose: Deals with cases where the unit price is less than expected and outside the tolerance range, leading to rejection.
+**Geval 6: Hoeveelheid Binnen Tolerantie, Eenheidsprijs Buiten Negatieve Tolerantie (Afgewezen)**
 
-• Action: The system adjusts the unit price to match the PO, generates a credit note for the difference, and applies header charges as needed.
+• Doel: Behandelt gevallen waarin de eenheidsprijs lager is dan verwacht en buiten het tolerantiebereik ligt, wat leidt tot afwijzing.
 
+• Actie: Het systeem past de eenheidsprijs aan om overeen te komen met de PO, genereert een creditnota voor het verschil en past headerkosten toe indien nodig.
 
+### Behandeling van Kosten en Belastingen
 
-### Handling Charges and Taxes
+### Kosten Per Eenheid Tolerantie
 
-### Charge Per Unit Tolerance
+• Regels onder deze categorie behandelen discrepanties in kosten per eenheid, met specifieke acties op basis van of de kosten binnen of buiten de tolerantie liggen en of deze zijn goedgekeurd of afgewezen.
 
-• Rules under this category handle discrepancies in charges per unit, with specific actions based on whether the charge is within or outside the tolerance and whether it is approved or rejected.
+### Aanpassingen van Belastingregels
 
-### Tax Line Adjustments
+• Deze regels beheren belastingdiscrepanties door de belastingregels aan te passen of overeenkomstige credit- of debetnota's te genereren op basis van de verschillen tussen factuur- en PO-belastinggegevens.
 
-• These rules manage tax discrepancies by adjusting the tax lines or generating corresponding credit or debit notes based on the differences between invoice and PO tax data.
+### Enums en Opties
 
-### Enums and Options
+• Enums: Vooraf gedefinieerde lijsten van waarden die consistentie over de regels waarborgen (bijv. vergelijkingsoperatoren, goedkeuringssoorten).
 
-• Enums: Predefined lists of values ensuring consistency across the rules (e.g., comparison operators, approval types).
+• Opties: Vooraf gedefinieerde keuzes voor het omgaan met hoeveelheden of eenheidsprijzen, die flexibiliteit bieden in de definitie van regels.
 
-• Options: Predefined choices for handling quantities or unit prices, offering flexibility in rule definitions.
+## Uitleg van Screenshots
 
-## Screenshots Explanation
-
-### Screenshot 1: Rule Management Interface
+### Screenshot 1: Regelbeheerinterface
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.20.56.png" alt=""><figcaption></figcaption></figure>
 
-This screenshot shows the Rule Management interface where administrators can view and manage all conflict resolution rules. Key elements include:
+Deze screenshot toont de Regelbeheerinterface waar beheerders alle regels voor geschillenbeslechting kunnen bekijken en beheren. Belangrijke elementen zijn:
 
-• Add Rule Button: Allows adding new rules.
+• Voeg Regel Toe Knop: Maakt het mogelijk om nieuwe regels toe te voegen.
 
-• List of Rules: Displays all active rules with details such as name, section, and active status.
+• Lijst van Regels: Toont alle actieve regels met details zoals naam, sectie en actieve status.
 
-• Section Dropdown: Filters the rules based on the section they apply to (e.g., Receipt Lines, Line Charges).
+• Sectie Dropdown: Filtert de regels op basis van de sectie waarop ze van toepassing zijn (bijv. Ontvangstregels, Lijnkosten).
 
-### Screenshot 2: Detailed Rule Editing
+### Screenshot 2: Gedetailleerde Regelbewerking
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.21.06.png" alt=""><figcaption></figcaption></figure>
 
-his screenshot illustrates the detailed view of a specific rule being edited. Key elements include:
+Deze screenshot illustreert het gedetailleerde overzicht van een specifieke regel die wordt bewerkt. Belangrijke elementen zijn:
 
-• Criteria Section: Defines the conditions under which the rule is triggered. For example, the criteria might specify that if the quantity and unit price differ from the PO but are within tolerance, the rule should be applied.
+• Criteria Sectie: Definieert de voorwaarden waaronder de regel wordt geactiveerd. Bijvoorbeeld, de criteria kunnen specificeren dat als de hoeveelheid en eenheidsprijs verschillen van de PO maar binnen tolerantie liggen, de regel moet worden toegepast.
 
-• Actions Section: Specifies what actions should be taken when the criteria are met. This can include adjusting the invoice lines, generating credit or debit notes, or applying additional charges.
+• Acties Sectie: Specificeert welke acties moeten worden ondernomen wanneer aan de criteria wordt voldaan. Dit kan het aanpassen van de factuurregels, het genereren van credit- of debetnota's, of het toepassen van extra kosten omvatten.
 
-• Document Type and Costing Elements: Allows the administrator to map specific actions to document types and costing elements, providing flexibility in handling different scenarios.
+• Documenttype en Kosten Elementen: Maakt het de beheerder mogelijk om specifieke acties te koppelen aan documenttypes en kostenelementen, wat flexibiliteit biedt bij het omgaan met verschillende scenario's.

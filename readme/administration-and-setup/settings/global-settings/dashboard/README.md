@@ -1,46 +1,67 @@
 # Dashboard
 
-## Overview
+## Overzicht
 
-The Dashboard settings are designed to help administrators control the data presentation and interaction within the DocBits dashboard. These settings determine what information is immediately available upon logging in, ensuring that users have quick access to the most relevant data for their tasks.
+De instellingen voor het Dashboard zijn ontworpen om beheerders te helpen de gegevenspresentatie en interactie binnen het DocBits-dashboard te controleren. Deze instellingen bepalen welke informatie onmiddellijk beschikbaar is bij het inloggen, zodat gebruikers snel toegang hebben tot de meest relevante gegevens voor hun taken.
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings0.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_1.png)
 
-## Key Features and Options
+## Toegang tot de Dashboard Instellingen
 
-### **General Dashboard Settings**:
+Om toegang te krijgen tot de dashboardinstellingen, navigeer naar:\
+**Instellingen → Globale instellingen → Dashboard**
 
-* **Reset filters**: Allows for the configuration of when dashboard filters should reset, such as after document upload, document restart, or document export. This helps in maintaining a clean slate for data viewing according to specific workflow stages.
-* **Dashboard data**: Controls whether the dashboard should automatically load data upon user access, which can help in reducing load times and improving user experience by only loading data when needed.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_dashboard.png)
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings.png" alt=""><figcaption></figcaption></figure>
+## **Algemeen**
 
-### **Action:**
+* **Filters resetten**: Hiermee kan worden geconfigureerd wanneer dashboardfilters moeten worden gereset, zoals na documentupload, documentherstart of documentexport. Dit helpt bij het behouden van een schone lei voor gegevensweergave volgens specifieke workflowfasen.
+* **Dashboardgegevens**:
+  * **Automatisch uploaden van dashboard**: Beheert of het dashboard automatisch gegevens moet laden bij toegang door de gebruiker, wat kan helpen om laadtijden te verminderen en de gebruikerservaring te verbeteren door alleen gegevens te laden wanneer dat nodig is.
+  *   **Dashboardgegevens exporteren**: Deze functie voegt een nieuwe **Exporteer**-knop toe aan de dashboardwerkbalk, waarmee je de huidige dashboardweergave kunt exporteren als een **.csv** of **.xlsx**-bestand.
 
-* **Assign to:** This feature allows users to define permissions for document assignment
-  * **Only for Admin:** Only admin-users can assign documents, regardless of permissions granted to non-admin users.
-  * **All Users**: All users who have been granted the necessary [permissions](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) can assign documents.
-* **Restart:** This feature allows users to define permissions for restarting documents
-  * **Only for Admin**: Only users with Admin privileges can restart documents, regardless of permissions granted to non-admin users.
-  * **Only Admin and Assignee**: Only users with Admin privileges and the assigned user can restart the document.
-  * **All Users**: All users who have been granted the necessary [permissions](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) can restart documents.
+      ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_3.png)
 
+## **Exportgeschiedenis**
 
+In de **Exportgeschiedenis** zie je een tabel met alle eerdere exports, samen met belangrijke informatie over elk verzoek.
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings3 (1).png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_4.png)
 
-### **Filters**:
+De volgende details zijn inbegrepen:
 
-* **Status filter style**: Determines the presentation style of status filters, which can be set to default or customized according to the operational focus of the users.
-* **Custom status filter**: Enables the creation and application of custom filters that can target specific document statuses like "New", "Validating", or "Exporting". This allows users to quickly access documents in specific stages of processing.
+* **E-mail**: Het e-mailadres van waaruit de export is aangevraagd.
+* **Status**: De huidige status van de export (In afwachting, Voltooid).
+* **Aangevraagd op**: De datum en tijd waarop de export is gestart.
+* **Voltooid op**: De datum en tijd waarop de export is voltooid.
+* **Formaat**: Het bestandsformaat dat is gebruikt voor de export (CSV, XLSX).
+* **Gebruikte filters**: Eventuele filters die op het dashboard zijn toegepast op het moment van export.
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings3.png" alt=""><figcaption></figcaption></figure>
+<mark style="color:red;">**Opmerking**</mark>: Om tabellen te exporteren, moet de optie Dashboardgegevens exporteren in de [Algemeen](./#algemeen) sectie actief zijn.
 
-### Advance Shipment Dashboar&#x64;**:**
+## **Actie**
 
-* **Delivered Orders Visibility:** This feature allows the user to specify the duration for which delivered orders will be visible.
+* **Toewijzen aan**: Deze functie stelt gebruikers in staat om machtigingen voor documenttoewijzing te definiëren.
+  * **Alleen voor Admin**: Alleen admin-gebruikers kunnen documenten toewijzen, ongeacht de machtigingen die aan niet-admin gebruikers zijn verleend.
+  * **Alle gebruikers**: Alle gebruikers die de nodige [machtigingen](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) hebben gekregen, kunnen documenten toewijzen.
+* **Opnieuw starten**: Deze functie stelt gebruikers in staat om machtigingen voor het opnieuw starten van documenten te definiëren.
+  * **Alleen voor Admin**: Alleen gebruikers met Admin-rechten kunnen documenten opnieuw starten, ongeacht de machtigingen die aan niet-admin gebruikers zijn verleend.
+  * **Alleen Admin en Toegewezen**: Alleen gebruikers met Admin-rechten en de toegewezen gebruiker kunnen het document opnieuw starten.
+  * **Alle gebruikers**: Alle gebruikers die de nodige [machtigingen](../groups-users-and-permissions/groups-and-permissions/activating-permissions.md) hebben gekregen, kunnen documenten opnieuw starten.
 
-<figure><img src="../../../../.gitbook/assets/dashboard-settings4.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_2.png)
 
-These dashboard settings are crucial for ensuring that the DocBits platform is as responsive and useful as possible, providing users with a powerful tool to monitor and manage document processing activities directly from the dashboard.
+## **Filters**
 
+* **Statusfilterstijl**: Bepaalt de presentatie stijl van statusfilters, die kan worden ingesteld op standaard of aangepast volgens de operationele focus van de gebruikers.
+* **Aangepast statusfilter**: Maakt het mogelijk om aangepaste filters te creëren en toe te passen die specifieke documentstatussen zoals "Nieuw", "Valideren" of "Exporteren" kunnen targeten. Dit stelt gebruikers in staat om snel toegang te krijgen tot documenten in specifieke fasen van verwerking.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_5.png)
+
+## Dashboard voor geavanceerde verzending
+
+* **Zichtbaarheid van geleverde bestellingen**: Deze functie stelt de gebruiker in staat om de duur op te geven waarvoor geleverde bestellingen zichtbaar zullen zijn.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/dashboard_settings_6.png)
+
+Deze dashboardinstellingen zijn cruciaal om ervoor te zorgen dat het DocBits-platform zo responsief en nuttig mogelijk is, en gebruikers een krachtig hulpmiddel biedt om documentverwerkingsactiviteiten rechtstreeks vanuit het dashboard te monitoren en te beheren.

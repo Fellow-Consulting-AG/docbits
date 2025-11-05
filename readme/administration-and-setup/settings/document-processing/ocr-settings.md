@@ -1,16 +1,61 @@
-# Ocr Settings
+# OCR-instellingen
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 11.01.00.png" alt=""><figcaption></figcaption></figure>
+## Overzicht
 
-1. **OCR Quality**:
-   * This setting allows you to define the minimum required OCR quality percentage for a document to be processed automatically. It includes a slider that you can adjust to set the threshold, such as 75%, below which the system cannot guarantee a successful extraction. If the OCR quality of a document falls below this threshold, you can choose to have the system take specific actions, such as re-running the OCR after manual confirmation.
-2. **General OCR settings**:
-   * **Use E-Text if available**: This option, when enabled, allows the system to use electronic text embedded within PDFs or other document types to enhance accuracy.
-   * **Use DESKEW if available**: This feature corrects document alignment, which helps in improving the OCR accuracy by straightening any skewed scans.
-3. **OCR settings for tables**:
-   * **Use AI data for tables if available**: This setting enables the use of AI technologies to better recognize and extract tables from scanned documents, leveraging machine learning models to identify and structure tabular data accurately.
-4. **OCR settings for the header fields**:
-   * **Use Rules Extraction**: When enabled, this setting allows the system to apply predefined rules to extract data from header fields, which can be critical for correctly identifying document sections like invoice numbers, dates, etc.
-   * **Use AI Extraction**: This option uses AI models to intelligently extract header fields, which can be more adaptable to variations in document layouts and styles.
+In de **OCR (Optische Karakterherkenning)** instellingen kun je configureren hoe OCR wordt toegepast tijdens documentverwerking. Dit omvat het specificeren van de minimaal vereiste kwaliteit, het kiezen of je ingebedde tekst (e-tekst) wilt gebruiken, het selecteren van de OCR-versie, en meer. Deze pagina biedt een gedetailleerde uitleg van alle beschikbare instellingen.
 
-{% embed url="https://youtu.be/zkW8zj0H5Ko" %}
+## Hoe toegang te krijgen tot OCR-instellingen
+
+Om toegang te krijgen tot de OCR-instellingen:
+
+*   Navigeer naar: **Instellingen** → **Documentverwerking** → **OCR-instellingen**
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_ocr.png)
+
+## OCR-kwaliteit
+
+In deze sectie kun je de minimale documentkwaliteit instellen die vereist is voor OCR-verwerking door de kwaliteitsregelaar aan te passen. Beweeg de regelaar naar links of rechts om de kwaliteitsdrempel respectievelijk te verlagen of te verhogen.
+
+Als een document niet voldoet aan het gedefinieerde kwaliteitsniveau, biedt DocBits drie opties voor de verwerking:
+
+* **Ren toch maar**\
+  Het document wordt verwerkt, ongeacht de kwaliteit.
+* **Opnieuw uitvoeren na bevestiging**\
+  **DocBits** zal pauzeren en je vragen om te bevestigen of je door wilt gaan met de verwerking.
+* **Gooi fout**\
+  De documentverwerking stopt volledig en er wordt een foutmelding weergegeven, waarin staat dat het document niet voldeed aan de vereiste kwaliteitsdrempel.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ocr_settings_1.png)
+
+## Algemene OCR-instellingen
+
+* **Gebruik E-tekst indien beschikbaar**\
+  Wanneer ingeschakeld, zal **DocBits** ingebedde elektronische tekst (bijv. uit PDF's) gebruiken in plaats van OCR uit te voeren. Dit verbetert zowel de snelheid als de nauwkeurigheid, aangezien de tekst rechtstreeks wordt geëxtraheerd zonder dat OCR-verwerking nodig is.
+* **Gebruik DESKEW indien beschikbaar**\
+  Deze optie corrigeert automatisch de uitlijning van gescande documenten. Het rechtzetten van scheve afbeeldingen helpt de OCR-nauwkeurigheid te verbeteren.
+*   **AI OCR-versie**\
+    Hiermee kun je een specifieke versie van de AI-gebaseerde OCR-engine selecteren.\
+    Dit kan nuttig zijn als:
+
+    * Je de gewenste resultaten niet behaalt met de momenteel geselecteerde versie.
+    * Je problemen oplost die verband houden met de OCR-prestaties of nauwkeurigheid.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ocr_settings_2.png)
+
+## OCR-instellingen voor tabellen
+
+* **Gebruik AI-gegevens voor tabellen indien beschikbaar**\
+  Wanneer ingeschakeld, zal DocBits OCR-gegevens voor tabellen gebruiken in plaats van ingebedde elektronische tekst (E-tekst) — zelfs als de instelling **Gebruik E-tekst indien beschikbaar** is ingeschakeld.
+
+## OCR-instellingen voor headervelden
+
+* **Gebruik regels extractie**\
+  DocBits zal je vooraf gedefinieerde extractieregels toepassen voor het identificeren van headervelden.
+* **Gebruik AI-extractie**\
+  DocBits zal AI gebruiken om headervelden automatisch te detecteren en te extraheren.
+
+**Uitvoeringsvolgorde:**\
+Als beide opties zijn ingeschakeld, zal **DocBits** extractie uitvoeren in de volgende volgorde:\
+**Regels Extractie → AI Extractie**\
+\
+<mark style="color:red;">**Opmerking**</mark>: Voor de beste resultaten en consistente gedrag, schakel beide opties in. Dit stelt **DocBits** in staat om zowel regelgebaseerde als AI-gebaseerde methoden in combinatie te gebruiken tijdens de headerextractie.

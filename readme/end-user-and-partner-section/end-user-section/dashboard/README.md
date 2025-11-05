@@ -1,11 +1,9 @@
----
-description: DocBits Dashboard Guide
----
-
 # Dashboard
 
-After logging in with your credentials, you will be redirected to the DocBits Dashboard homepage. This is the main page where you can see and manage all your imported documents.
+Na het inloggen met uw inloggegevens, wordt u doorgestuurd naar de startpagina van het DocBits Dashboard. Dit is de hoofdpagina waar u al uw geïmporteerde documenten kunt bekijken en beheren.
 
 <figure><img src="../../../.gitbook/assets/dashboard.png" alt=""><figcaption></figcaption></figure>
+
+
 
 {% embed url="https://www.youtube.com/watch?v=n5s5cQPncUY" %}

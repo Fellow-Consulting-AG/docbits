@@ -1,41 +1,41 @@
-# Our Document Priority System
+# Ons Document Prioriteit Systeem
 
-In our document processing system, we handle a large volume of documents from multiple customers daily. To ensure that every customer's documents are processed in a timely manner, we have implemented a sophisticated priority system. This system dynamically adjusts priorities based on the number of pending documents a customer has, ensuring **fairness** and **efficiency**. Let's dive into how this priority system works and when the task counter is reset.
+In ons documentverwerkingssysteem verwerken we dagelijks een groot aantal documenten van meerdere klanten. Om ervoor te zorgen dat de documenten van elke klant tijdig worden verwerkt, hebben we een geavanceerd prioriteitssysteem geïmplementeerd. Dit systeem past de prioriteiten dynamisch aan op basis van het aantal uitstaande documenten dat een klant heeft, wat zorgt voor **eerlijkheid** en **efficiëntie**. Laten we bekijken hoe dit prioriteitssysteem werkt en wanneer de taakcounter wordt gereset.
 
-**Key Concepts of the Priority System**
+**Belangrijke Concepten van het Prioriteitssysteem**
 
-Our priority system revolves around a few key concepts:
+Ons prioriteitssysteem draait om een paar belangrijke concepten:
 
-1. **Pending Documents**: This is a count of the documents a customer has submitted but are yet to be processed.
-2. **Reset Interval**: The system periodically resets the pending document count to zero to ensure that no customer can monopolize the processing resources indefinitely.
+1. **Uitstaande Documenten**: Dit is een telling van de documenten die een klant heeft ingediend maar nog niet zijn verwerkt.
+2. **Resetinterval**: Het systeem reset periodiek de telling van uitstaande documenten naar nul om ervoor te zorgen dat geen enkele klant de verwerkingsbronnen eindeloos kan monopoliseren.
 
-**How the Priority is Determined**
+**Hoe de Prioriteit Wordt Bepaald**
 
-Here's a step-by-step explanation of how the priority for processing documents is determined:
+Hier is een stapsgewijze uitleg van hoe de prioriteit voor het verwerken van documenten wordt bepaald:
 
-1. **Tracking Pending Docuemnts**: Each customer has a count of pending documents. This count helps us know how many documents are waiting to be processed for each customer.
-2. **Resetting the Count**: To maintain fairness, we reset the pending documents count to zero if a set amount of time (the reset interval) has passed since the last update. This interval is set to 1500 seconds (or 25 minutes) by default.
-3. **Updating the Count**: If the reset interval hasn't passed, we reduce the pending documents count by one each time we check, simulating the processing of a document.
-4. **Setting Priorities**: The priority for processing tasks is based on the number of pending documents. The fewer the pending documents, the higher the priority, meaning those tasks will be processed sooner. We have specific thresholds to assign priority levels from 1 (highest priority) to 9 (lowest priority).
+1. **Bijhouden van Uitstaande Documenten**: Elke klant heeft een telling van uitstaande documenten. Deze telling helpt ons te weten hoeveel documenten wachten om te worden verwerkt voor elke klant.
+2. **Resetten van de Telling**: Om eerlijkheid te waarborgen, resetten we de telling van uitstaande documenten naar nul als er een bepaalde tijd (het resetinterval) is verstreken sinds de laatste update. Dit interval is standaard ingesteld op 1500 seconden (of 25 minuten).
+3. **Bijwerken van de Telling**: Als het resetinterval nog niet is verstreken, verminderen we de telling van uitstaande documenten met één elke keer dat we controleren, wat de verwerking van een document simuleert.
+4. **Instellen van Prioriteiten**: De prioriteit voor het verwerken van taken is gebaseerd op het aantal uitstaande documenten. Hoe minder uitstaande documenten, hoe hoger de prioriteit, wat betekent dat die taken eerder worden verwerkt. We hebben specifieke drempels om prioriteitsniveaus toe te wijzen van 1 (hoogste prioriteit) tot 9 (laagste prioriteit).
 
-**Priority Levels**
+**Prioriteitsniveaus**
 
-The priority levels are assigned based on the pending documents count as follows:
+De prioriteitsniveaus worden toegewezen op basis van de telling van uitstaande documenten als volgt:
 
-* **Priority 9**: If the pending documents count is less than -20
-* **Priority 8**: If the pending documents count is less than -14
-* **Priority 7**: If the pending documents count is less than -12
-* **Priority 6**: If the pending documents count is less than -10
-* **Priority 5**: If the pending documents count is less than -8
-* **Priority 4**: If the pending documents count is less than -6
-* **Priority 3**: If the pending documents count is less than -4
-* **Priority 2**: If the pending documents count is less than -2
-* **Priority 1**: If the pending documents count is greater than or equal to -2
+* **Prioriteit 9**: Als de telling van uitstaande documenten minder is dan -20
+* **Prioriteit 8**: Als de telling van uitstaande documenten minder is dan -14
+* **Prioriteit 7**: Als de telling van uitstaande documenten minder is dan -12
+* **Prioriteit 6**: Als de telling van uitstaande documenten minder is dan -10
+* **Prioriteit 5**: Als de telling van uitstaande documenten minder is dan -8
+* **Prioriteit 4**: Als de telling van uitstaande documenten minder is dan -6
+* **Prioriteit 3**: Als de telling van uitstaande documenten minder is dan -4
+* **Prioriteit 2**: Als de telling van uitstaande documenten minder is dan -2
+* **Prioriteit 1**: Als de telling van uitstaande documenten groter is dan of gelijk aan -2
 
 {% hint style="info" %}
-In simpler terms, as the number of pending documents increases, the priority level lowers, meaning those documents are processed later compared to others with higher priorities.
+In eenvoudigere termen, naarmate het aantal uitstaande documenten toeneemt, daalt het prioriteitsniveau, wat betekent dat die documenten later worden verwerkt in vergelijking met andere met hogere prioriteiten.
 {% endhint %}
 
-**When the Counter is Reset**
+**Wanneer de Telling Wordt Gereset**
 
-The pending documents counter is reset to zero if more than the reset interval (**1500** seconds) has passed since the last update. This mechanism ensures that no customer can accumulate pending documents endlessly and hog the system resources. By periodically resetting the counter, we guarantee that every customer gets a fair share of processing time.
+De teller van uitstaande documenten wordt op nul gezet als er meer dan het resetinterval (**1500** seconden) is verstreken sinds de laatste update. Dit mechanisme zorgt ervoor dat geen enkele klant eindeloos uitstaande documenten kan accumuleren en de systeembronnen kan monopolizeren. Door de teller periodiek te resetten, garanderen we dat elke klant een eerlijke hoeveelheid verwerkingstijd krijgt.

@@ -1,73 +1,68 @@
-# Access Control
+# Toegangscontrole
 
-## Overview
+## Overzicht
 
-This guide explains how administrators can define access control settings for different user groups in DocBits. Each group can be configured with custom permissions at the document and field level.
+Deze gids legt uit hoe beheerders toegangscontrole-instellingen kunnen definiëren voor verschillende gebruikersgroepen in DocBits. Elke groep kan worden geconfigureerd met aangepaste machtigingen op document- en veldniveau.
 
-## Access Control Groups
+## Toegangscontrolegroepen
 
-The access control panel allows the admin to manage user groups and their respective permissions. Each group can have specific configurations related to:
+Het toegangscontrolepaneel stelt de beheerder in staat om gebruikersgroepen en hun respectieve machtigingen te beheren. Elke groep kan specifieke configuraties hebben met betrekking tot:
 
-* **Document Access**: Whether the group can access a document type.
-* **Field-Level Permissions**: Whether the group can read, write, or view certain fields within a document.
-* **Action Permissions**: What actions the group can perform, such as edit, delete, mass update, and approve documents.
+* **Documenttoegang**: Of de groep toegang heeft tot een documenttype.
+* **Veldniveau-machtigingen**: Of de groep bepaalde velden binnen een document kan lezen, schrijven of bekijken.
+* **Actiemachtigingen**: Welke acties de groep kan uitvoeren, zoals bewerken, verwijderen, massaal bijwerken en goedkeuren van documenten.
 
+## Activatie
 
+1. Navigeer naar **Instellingen**.
+2. Selecteer **Documentverwerking**.
+3. Selecteer **Module.**
+4. Activeer **Toegangscontrole** door de schuifregelaar in te schakelen.
 
-## Activation
+<figure><img src="../../../../../.gitbook/assets/Access-Control3_nl.png" alt=""><figcaption></figcaption></figure>
 
-1. Navigate to **Settings**.
-2. Select Document **Processing**.
-3. Select **Module.**
-4. Activate **Access Control** by enabling the slider.
+## **Groepsinstellingen openen**
 
-<figure><img src="../../../../../.gitbook/assets/Access-Control3.png" alt=""><figcaption></figcaption></figure>
+1. Navigeer naar **Instellingen**.
+2. Navigeer **Algemene Instellingen**.
+3. Selecteer **Groepen, Gebruikers en Machtigingen**.
+4. Selecteer **Groepen en rechten**.
+5. Om machtigingen voor een groep, zoals PROCUREMENT\_DIRECTOR, te beheren, klik op de drie stippen aan de rechterkant van het scherm.
+6. Selecteer **Toegangscontrole Weergeven**.
 
-## Accessing Group Settings
+<figure><img src="../../../../../.gitbook/assets/Access-Control_nl.png" alt=""><figcaption></figcaption></figure>
 
-1. Navigate to **Settings**.
-2. Go to **Global Settings.**
-3. Select **Groups, Users and Permissions.**
-4. Select **Groups and Permissions**.
-5. To manage permissions for a group, such as PROCUREMENT\_DIRECTOR, click the three dots on the right side of the screen.
-6. Select **View Access Control**.
+## Machtigingen voor groepen configureren
 
-<figure><img src="../../../../../.gitbook/assets/Access-Control1 (1).png" alt=""><figcaption></figcaption></figure>
+1.  **Overzicht van Toegangscontrole**:
 
-## Configuring Permissions for Groups
+    * In deze sectie kunt u de toegang voor alle documenttypes inschakelen of uitschakelen, zoals **Invoice**, **Credit Note**, **Purchase Order**, en meer.
+    * U kunt toegangslevels definiëren zoals:
+      * **Toegang**: Geeft toegang tot het documenttype.
+      * **Lijst**: Bepaalt of het documenttype zichtbaar is in de lijstweergave.
+      * **Weergave**: Specificeert de standaardweergave voor het document.
+      * **Bewerken**: Geeft toestemming om het document te bewerken.
+      * **Verwijderen**: Staat de groep toe documenten te verwijderen.
+      * **Massa-update**: Maakt massa-update van het documenttype mogelijk.
+      * **Goedkeuringsniveaus**: Stelt het vermogen van de groep in om documenten goed te keuren (Eerste en Tweede goedkeuring).
+      * **Document ontgrendelen**: Bepaalt of de groep een document kan ontgrendelen voor verdere bewerkingen.
+    * **Machtigingsniveaus:**
+      * **Normal**: Alle gebruikers kunnen deze actie uitvoeren.
+      * **Owner**: Alleen de toegewezen gebruiker heeft toestemming om deze actie uit te voeren.
+      * **Admin**: Alleen gebruikers met administratieve bevoegdheden kunnen deze actie uitvoeren.
 
-1.  **Access Control Overview**:
+    Voorbeeldinstellingen voor **PROCUREMENT\_DIRECTOR**:
 
-    * In this section, you can enable or disable access for all document types, such as **Invoice**, **Credit Note**, **Purchase Order**, and more.
-    * You can define access levels such as:
-      * **Enabled**: Grants access to the document type.
-      * **List**: Defines whether the document type is visible in the list view.
-      * **View**: Specifies the default view for the document.
-      * **Edit**: Grants permission to edit the document.
-      * **Delete**: Allows the group to delete documents.
-      * **Mass Update**: Enables mass updating of the document type.
-      * **Approval Levels**: Sets the group’s ability to approve documents (First and Second level approval).
-      * **Unlock Document**: Defines whether the group can unlock a document for further use.
-    * **Permission Levels:**
-      * **Normal**: All users can perform this action.
-      * **Owner**: Only the assigned user has permission to perform this action.
-      * **Admin**: Only users with administrative privileges can perform this action.
+    * **Invoice**: Ingeschakeld voor alle machtigingen, inclusief bewerken en verwijderen.
+    * **Purchase Order**: Ingeschakeld met normale machtigingen voor alle acties.
+2. **Veldniveau-machtigingen**:
+   * Binnen elk documenttype kunnen specifieke velden worden geconfigureerd met verschillende niveaus van machtigingen.
+   * Machtigingen omvatten:
+     * **Lezen/Schrijven**: Gebruikers kunnen zowel lezen als schrijven naar het veld.
+     * **Lezen/Eigenaar Schrijven**: Alleen de eigenaar van het document of veld kan schrijven, anderen kunnen lezen.
+     * **Alleen Lezen**: Gebruikers kunnen het veld alleen bekijken maar niet wijzigen.
+     * **Eigenaar Lezen/ Eigenaar Schrijven:** Alleen de eigenaar van het document of veld kan schrijven en lezen.
+     * **Goedkeuring:** Wijzigingen moeten worden goedgekeurd door bevoegde gebruikers of de beheerder.
+     * **Geen**: Er zijn geen specifieke machtigingen van toepassing op het veld.
 
-    Example settings for **PROCUREMENT\_DIRECTOR**:
-
-    * **Invoice**: Enabled for all permissions, including edit and delete.
-    * **Purchase Order**: Enabled with normal permissions for all actions.
-2. **Field-Level Permissions**:
-   * Inside each document type, specific fields can be configured with different levels of permissions.
-   *   Permissions include:
-
-       * **Read/Write**: Users can both read and write to the field.
-       * **Read/Owner Write**: Only the owner of the document or field can write, others can read.
-       * **Read Only**: Users can only view the field but not modify it.
-       * **Owner Read/ Owner Write:** Only the owner of the document or field can write and read.
-       * **Approval:** Changes must be approved by authorized users or admin.
-       * **None**: No specific permissions are applied to the field.
-
-
-
-<figure><img src="../../../../../.gitbook/assets/Access-Control2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Access-Control2_nl (1).png" alt=""><figcaption></figcaption></figure>

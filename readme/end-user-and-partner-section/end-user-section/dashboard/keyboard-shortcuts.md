@@ -1,10 +1,8 @@
-# Keyboard Shortcuts
+# Toetsenbord Sneltoetsen
 
-## Dashboard Shortcuts
+### Dashboard Sneltoetsen
 
-The dashboard includes the following shortcuts to enhance navigation and interaction:
+Het dashboard bevat de volgende sneltoetsen om de navigatie en interactie te verbeteren:
 
-* **Control + K** – Opens the keyboard shortcut menu, providing a list of available shortcuts within the application.
-* **Control + Q** – Refreshes the dashboard table, ensuring that the latest data is displayed without needing to manually reload the page.
-* **Control + H** – Opens the documentation page for more information and assistance.
-
+* **Option + K** – Opent het sneltoetsmenu, dat een lijst van beschikbare sneltoetsen binnen de applicatie biedt.
+* **Option + Q** – Vernieuwt de dashboardtabel, zodat de nieuwste gegevens worden weergegeven zonder de pagina handmatig te herladen.

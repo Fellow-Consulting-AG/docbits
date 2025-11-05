@@ -17,15 +17,7 @@
 
 
 
-<div>
-
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-06-07 um 17.00.52.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-06-07 um 17.01.11.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-06-07 um 17.00.52.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-06-07 um 17.01.11.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Step 2: Add a New Field
 

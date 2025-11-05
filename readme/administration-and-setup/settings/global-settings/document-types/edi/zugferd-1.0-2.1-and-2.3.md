@@ -1,78 +1,75 @@
-# ZUGFeRD 1.0, 2.1 and 2.3
+# ZUGFeRD 1.0, 2.1 en 2.3
 
-## **Supported Versions of ZUGFeRD**
+## **Ondersteunde versies van ZUGFeRD**
 
-Currently supported versions of ZUGFeRD are:
+Momenteel ondersteunde versies van ZUGFeRD zijn:
 
 * **1.0**
-* **2.1** (compliant with FACTUR-X 1.0.05)
-* **2.3** (compliant with FACTUR-X 1.07.2)
+* **2.1** (conform FACTUR-X 1.0.05)
+* **2.3** (conform FACTUR-X 1.07.2)
 
-#### Standard Activation and Modification
+#### Standaardactivatie en -wijziging
 
-The ZUGFeRD standard is always active by default, but you can make modifications to it if needed.
+De ZUGFeRD-standaard is standaard altijd actief, maar je kunt deze indien nodig aanpassen.
 
-### **Steps to Modify ZUGFeRD Settings:**
+### **Stappen om ZUGFeRD Instellingen te wijzigen:**
 
-1. Navigate to **Settings → Global Settings → Document Types → Invoice**.
-2.  Click on **E-Doc**.\
+1. Navigeer naar **Instellingen → Globale instellingen → Documenttypen → Factuur**.
+2.  Klik op **E-Doc**.
 
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_1.png)
+3. Er verschijnt een lijst met alle beschikbare e-docs.
+4.  Zoek de **ZUGFeRD**-versie die je wilt wijzigen.
 
-    <figure><img src="../../../../../.gitbook/assets/image (375).png" alt=""><figcaption></figcaption></figure>
-3. A list of all available e-docs will appear.
-4.  Locate the **ZUGFeRD** version you want to modify.\
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_2.png)
 
+## **Extraction Transformation and XML Path Configuratie:**
 
-    <figure><img src="../../../../../.gitbook/assets/image (376).png" alt=""><figcaption></figcaption></figure>
+In de **Extraction Transformation-instellingen** kun je het pad definiëren om specifieke informatie in het XML-bestand te vinden en deze op te slaan in een nieuwe structuur, zodat de data makkelijker toegankelijk is.\
+<mark style="color:red;">**Opmerking**</mark>: Als je deze functionaliteit gebruikt, moet je de nieuw aangemaakte XML paths gebruiken, niet de originele XML paths, in de **Preview** en **Extraction Path**.
 
-## **Transformation and XML Path Configuration:**
+### **Stappen om het Extraction Transformation-bestand te wijzigen:**
 
-In the **transformation settings**, you can define the path to locate specific information within the XML file and save it in a new structure, making it easier to access the data.\
-**Note:** If you use this functionality, you must use the newly created XML paths, not the original XML paths, in the **Preview** and **Extraction Path**.
+1. Open de **Extraction Transformation**.
+2. Maak een nieuw concept door op het **potloodpictogram** te klikken.
+3. Selecteer het nieuw aangemaakte concept.
+4. Maak een nieuw veld aan of wijzig een bestaand veld.
+5. Stel het gewenste pad in voor data-extractie.
+6. Klik op **Opslaan**.
 
-### **Steps to Modify Transformation File:**
+### Belangrijke opmerkingen:
 
-1. Open the **Transformation**.
-2. Create a new draft by clicking the **pencil icon**.
-3. Select the newly created draft.
-4. Either create a new field or modify an existing one.
-5. Set the desired path for data extraction.
-6. Click **Save**.
+* Het **Preview-bestand** wordt alleen gebruikt voor **FACTUR-X** en niet voor **ZUGFeRD**. ZUGFeRD gebruikt het originele **PDF**.
 
-### Important Notes:
+## Preview PDF Configuratie
 
-* The **preview file** is used only for **FACTUR-X** and not for **ZUGFeRD**. ZUGFeRD will use the original **PDF**.
+De **Preview PDF Configuratie** wordt gebruikt om een door de gebruiker leesbare versie van het document te genereren. Je kunt deze met HTML aanpassen aan je behoeften.
 
-## Preview PDF Configuration
+### **Stappen om het Preview-bestand te wijzigen:**
 
-The **Preview PDF Configuration** is used to generate a user-readable version of the document. You can customize it with HTML to match your needs.
+1. Open de **Preview**.
+2. Maak een nieuw concept door op het **potloodpictogram** te klikken.
+3. Selecteer het nieuw aangemaakte concept.
+4. Maak een nieuw veld aan of wijzig een bestaand veld.
+5. Stel het gewenste pad in voor data-extractie.
+6. Klik op **Opslaan**.
 
-### **Steps to Modify Preview File:**
+## Extraction Paths Configuratie
 
-1. Open the **Preview**.
-2. Create a new draft by clicking the **pencil icon**.
-3. Select the newly created draft.
-4. Either create a new field or modify an existing one.
-5. Set the desired path for data extraction.
-6. Click **Save**.
+De **Extraction Paths Configuratie** wordt gebruikt om data te extraheren en velden in het **validatiescherm** te vullen, zoals de factuurtabel of velden die in de factuurlay-out zijn geconfigureerd.
 
-## Extraction Paths Configuration
+### **Stappen om** **Extraction Paths** **te wijzigen**:
 
-The **Extraction Paths Configuration** is used to extract data and populate fields in the **validation screen**, such as the invoice table or fields configured in the invoice layout.
+1. Open de **Extraction Paths**.
+2. Maak een nieuw concept door op het **potloodpictogram** te klikken.
+3. Selecteer het nieuw aangemaakte concept.
+4. Maak een nieuw veld aan of wijzig een bestaand veld.
+5.  De linkerkant vertegenwoordigt de **DocBits field ID**, die je kunt vinden in **Instellingen → Globale instellingen → Documenttypen → Factuur → Velden**.
 
-### **Steps to Modify** **Extraction Paths**:
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_3.png)
 
-1. Open the **Extraction Paths**.
-2. Create a new draft by clicking the **pencil icon**.
-3. Select the newly created draft.
-4. Create a new field or modify an existing one.
-5.  The left side represents the **DocBits field ID**, which can be found in the  **Settings → Global Settings → Document Types → Invoice → Fields**.\
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/zugferd_4.png)
+6. De rechterkant vertegenwoordigt het **pad naar het veld** dat is gemaakt in de Extraction Transformation.
+7. Klik op **Opslaan**.
 
-
-    <figure><img src="../../../../../.gitbook/assets/image (379).png" alt=""><figcaption></figcaption></figure>
-
-    <figure><img src="../../../../../.gitbook/assets/image (378).png" alt=""><figcaption></figcaption></figure>
-6. The right side represents the **path to the field** created in the Transformation.
-7. Click **Save**.
-
-By following these steps, you can ensure accurate data extraction and validation for ZUGFeRD invoices.
+Door deze stappen te volgen, zorg je voor nauwkeurige data-extractie en validatie voor ZUGFeRD-facturen.

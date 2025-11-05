@@ -1,9 +1,7 @@
 # AI Table
 
-Explore the revolutionary capabilities of **DocBits**, a state-of-the-art document handling tool that simplifies the complexities of table extraction, Purchase Order (PO) matching, and cost invoice management.
+Verken de revolutionaire mogelijkheden van **DocBits**, een geavanceerde documentverwerkingstool die de complexiteit van tabelextractie, inkooporder (PO) matching en kostenfactuurbeheer vereenvoudigt.
 
 {% embed url="https://youtu.be/89uEFyKKLCk" %}
 
-In this video, we delve into the unique features of **DocBits**, focusing on the AI table extraction that effortlessly handles even the most intricate table layouts. With an accuracy rate of up to 95%, the system automates extraction, allowing you to focus on what truly matters.
-
-\\
+In deze video duiken we in de unieke functies van **DocBits**, met de focus op de AI tabelextractie die moeiteloos zelfs de meest complexe tabelindelingen aanpakt. Met een nauwkeurigheidspercentage van tot wel 95% automatiseert het systeem de extractie, zodat je je kunt concentreren op wat echt belangrijk is.

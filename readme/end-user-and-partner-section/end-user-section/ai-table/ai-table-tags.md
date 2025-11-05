@@ -1,159 +1,150 @@
-# AI Table Tags
+# AI Tabel Tags
 
-<figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXd_JRCxSEUPggV-LximBfdNvxZ76rbU6WQ6u6dfMMzEuGEnhY7I5wxCQnsoE9keW-tN7b0aFYhzfrTrwGVdDaYpoM2Ra--35o4gaMqQ4w1MMkw0GgH3ETMsW3munJM6FAq0iNlN3q_2iU3p1u3ZlksMUD8?key=fI2fX6i_3kqGWFGjP_52vw" alt=""><figcaption></figcaption></figure>
+### Stapsgewijze instructies voor het toevoegen van tags aan een tabel:
 
-### Step-by-step instructions on how to add tags to a table:
+**Stap 1:** Kies kolomnamen (tags)
 
+* **Selecteer kolomnamen:** Bekijk de kolomnamen van uw tabel en beslis welke tags u wilt toevoegen.
 
+<figure><img src="../../../.gitbook/assets/ai-table-tags1.png" alt=""><figcaption></figcaption></figure>
 
-**Step 1:** Choose column names (tags)&#x20;
+**Stap 2:** Druk op de knop "Toepassen"
 
-* **Select column names:** Review the column names of your table and decide which tags to add.
+* **Druk op de knop:** Zodra u de juiste tag voor een kolom heeft geselecteerd, drukt u op de knop "Toepassen" naast de geselecteerde kolom en tag.
 
-<figure><img src="../../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
+**Stap 3:** Voeg tag toe aan de tabel
 
-**Step 2:** Press "Apply" button&#x20;
+* **Voeg tag toe:** De geselecteerde tag wordt toegevoegd aan de tabel als een extra kolom naast de bijbehorende kolom.
 
-* **Press button:** Once you have selected the appropriate tag for a column, press the "Apply" button next to the selected column and tag.
+<figure><img src="../../../.gitbook/assets/ai-table-tags2.png" alt=""><figcaption></figcaption></figure>
 
+**Stap 4:** Sla Tag op of Verwijder Tag
 
+* **Sla Tag op**: Druk op de knop Opslaan om de gewenste tag op te slaan
+* **Verwijder Tag:** Om de geselecteerde tag te verwijderen, drukt u op de knop Verwijderen
 
-**Step 3:** Add tag to the table&#x20;
+### Hier is een gedetailleerde uitleg van elke kolom en de mogelijke tags:
 
-* **Add tag:** The selected tag will be added to the table as an additional column next to the corresponding column.
+<figure><img src="../../../.gitbook/assets/ai-table-tags3.png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
+### **Positie:**
 
-**Step 4:** Save or Delete Tag&#x20;
+**Beschrijving:** Positie of volgorde van het item binnen de bestelling.
 
-* **Save Tag**: Press the Save button to save the desired tag
-* **Delete Tag:** To delete the selected tag, press the Delete button
+**Tag:** Geheel getal
 
-### Here is a detailed explanation of each column and the possible tags:
+**Voorbeeld:** 1, 2, 3...
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-31 um 12.12.16.png" alt="" width="375"><figcaption></figcaption></figure>
+### **Beschrijving:**
 
-### **Position:**
+**Beschrijving:** Korte beschrijving van het item.
 
-**Description:** Position or order of the item within the order.
+**Tag:** Tekst
 
-**Tag:** Integer&#x20;
+**Voorbeeld:** Schroef, Moer, Widget...
 
-**Example:** 1, 2, 3...
+### Inkooporder:
 
-### **Description:**
+**Beschrijving:** Het nummer van de bijbehorende bestelling.
 
-**Description:** Short description of the item.
+**Tag:** Alfanumeriek
 
-**Tag:** Text&#x20;
+**Voorbeeld:** PO12345, PO98765...
 
-**Example:** Screw, Nut, Widget...
+### Hoeveelheid:
 
-### Purchase Order:
+**Beschrijving:** Aantal bestelde eenheden.
 
-**Description:** The number of the associated order.
+**Tag:** Nummer
 
-**Tag:** Alphanumeric&#x20;
+**Voorbeeld:** 100, 50, 200...
 
-**Example:** PO12345, PO98765...
+### Eenheid:
 
-### Quantity:
+**Beschrijving:** Eenheid van meting (bijv. stuk, kilogram).
 
-**Description:** Number of units ordered.
+**Tag:** Tekst
 
-**Tag:** Number&#x20;
+**Voorbeeld:** Stk, kg, l...
 
-**Example:** 100, 50, 200...
+### Eenheidsprijs:
 
-### Unit:
+**Beschrijving:** Prijs per eenheid van het item.
 
-**Description:** Unit of measurement (e.g., piece, kilogram).
+**Tag:** Valuta
 
-**Tag:** Text&#x20;
+**Voorbeeld:** €10,00, €5,50, €100,00...
 
-**Example:** Pcs, kg, l...
+### Netto Bedrag:
 
-### Unit Price:
+**Beschrijving:** Totale prijs vóór aftrekken en belastingen (berekend als hoeveelheid \* eenheidsprijs).
 
-**Description:** Price per unit of the item.&#x20;
+**Tag:** Valuta
 
-**Tag:** Currency&#x20;
+**Voorbeeld:** €1.000,00, €275,00, €10.000,00...
 
-**Example:** €10.00, €5.50, €100.00...&#x20;
+### Korting:
 
-### Net Amount:
+**Beschrijving:** Absoluut kortingsbedrag toegepast op het netto bedrag.
 
-**Description:** Total price before deductions and taxes (calculated as quantity \* unit price).&#x20;
+**Tag:** Valuta
 
-**Tag:** Currency&#x20;
+**Voorbeeld:** €50,00, €20,00, €500,00...
 
-**Example:** €1,000.00, €275.00, €10,000.00...&#x20;
+### Korting Percentage:
 
-### Discount:
+**Beschrijving:** Korting percentage toegepast op het netto bedrag.
 
-**Description:** Absolute discount amount applied to the net amount.&#x20;
+**Tag:** Percentage
 
-**Tag:** Currency&#x20;
+**Voorbeeld:** 5%, 10%, 15%...
 
-**Example:** €50.00, €20.00, €500.00...&#x20;
+### BTW:
 
-### Discount Percentage:
+**Beschrijving:** Bedrag van de BTW toegepast op het item.
 
-**Description:** Discount percentage applied to the net amount.&#x20;
+**Tag:** Valuta
 
-**Tag:** Percent&#x20;
+**Voorbeeld:** €200,00, €55,00, €1.900,00...
 
-**Example:** 5%, 10%, 15%...&#x20;
+### Totaal Bedrag:
 
-### VAT:
+**Beschrijving**: Eindbedrag nadat de korting is afgetrokken en de BTW is toegevoegd.
 
-**Description:** Amount of VAT applied to the item.&#x20;
+**Tag:** Valuta
 
-**Tag:** Currency&#x20;
+**Voorbeeld:** €1.150,00, €310,00, €11.400,00...
 
-**Example:** €200.00, €55.00, €1,900.00...&#x20;
+### Land van Herkomst:
 
-### Total Amount:
+**Beschrijving:** Land waar het item is vervaardigd of verzonden.
 
-**Description**: Final amount after discount is deducted and VAT is added.&#x20;
+**Tag:** Tekst
 
-**Tag:** Currency&#x20;
+**Voorbeeld:** VS, Duitsland, China...
 
-**Example:** €1,150.00, €310.00, €11,400.00...&#x20;
+### Artikelnummer:
 
-### Country of Origin:
+**Beschrijving:** Unieke identificatie of SKU voor het item.
 
-**Description:** Country where the item was manufactured or shipped.&#x20;
+**Tag:** Alfanumeriek
 
-**Tag:** Text&#x20;
+**Voorbeeld:** 987654, A12345, Z98765...
 
-**Example:** USA, Germany, China...&#x20;
+### Leveringsbonnummer:
 
-### Item Number:
+**Beschrijving:** Nummer van de bijbehorende leveringsbon.
 
-**Description:** Unique identifier or SKU for the item.&#x20;
+**Tag:** Alfanumeriek
 
-**Tag:** Alphanumeric&#x20;
+**Voorbeeld:** DN56789, DN12345...
 
-**Example:** 987654, A12345, Z98765...&#x20;
+### Zin (aanvullende informatie):
 
-### Delivery Note Number:
+**Beschrijving:** Aanvullende opmerkingen, codes of relevante informatie.
 
-**Description:** Number of the associated delivery note.&#x20;
+**Tag:** Tekst
 
-**Tag:** Alphanumeric&#x20;
+**Voorbeeld:** Opmerking, Specificatie...
 
-**Example:** DN56789, DN12345...&#x20;
-
-### Sentence (additional information):
-
-**Description:** Additional comments, codes or relevant information.&#x20;
-
-**Tag:** Text&#x20;
-
-**Example:** Comment, Specification...
-
-
-
-With this structure and tags, the table is more clearly defined and the information can be better categorized and processed.
-
+Met deze structuur en tags is de tabel duidelijker gedefinieerd en kan de informatie beter worden gecategoriseerd en verwerkt.

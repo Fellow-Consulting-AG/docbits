@@ -1,107 +1,106 @@
-# Purchase Order Matching Tools
+# Inkooporder Matching Tools
 
-## Overview
+## Overzicht
 
-To the right of the search bar, you’ll find several useful tools related to the purchase order matching process.\
-This page provides a detailed explanation of each tool and its functionality.
+Aan de rechterkant van de zoekbalk vind je verschillende nuttige tools die verband houden met het inkooporder matching proces.\
+Deze pagina biedt een gedetailleerde uitleg van elke tool en zijn functionaliteit.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_0.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FxPOM1IzmTGgCCAE4tAQg%252Fpo_match_tools_0.png%3Falt%3Dmedia%26token%3D420e0d50-d5c8-4b7b-8ec6-26ca9e2d7a68\&width=768\&dpr=4\&quality=100\&sign=5d32419c\&sv=2)
 
-## Help
+## Hulp
 
-Use this button to navigate to the documentation page for the Purchase Order Matching section.
+Gebruik deze knop om naar de documentatiepagina voor de Inkooporder Matching sectie te navigeren.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_1.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FaCmR8UlFph044QbGC0md%252Fpo_tools_new_1.png%3Falt%3Dmedia%26token%3D52c9dcf2-09f3-43b6-ae57-29c74269fae7\&width=768\&dpr=4\&quality=100\&sign=91566cfd\&sv=2)
 
-## Keyboard shortcuts
+## Sneltoetsen
 
-Use this button to display all keyboard shortcuts for the dashboard. Detailed explanations for each shortcut can be found [here](keyboard-shortcuts.md).
+Gebruik deze knop om alle sneltoetsen voor het dashboard weer te geven. Gedetailleerde uitleg voor elke sneltoets is te vinden [hier](keyboard-shortcuts.md).
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_2.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FnBYimOUtsJ2pc9D0kpnh%252Fpo_tools_new_2.png%3Falt%3Dmedia%26token%3De5f39a8f-08af-4855-ae6e-df320cccadc2\&width=768\&dpr=4\&quality=100\&sign=f56aaa68\&sv=2)
 
-## Turn on/off training mode
+## Zet training mode aan/uit
 
-This button allows you to activate or deactivate Training Mode.
+Met deze knop kun je de Trainingsmodus activeren of deactiveren.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_3.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FSRhb270xd4USa8ekUfrC%252Fpo_tools_new_3.png%3Falt%3Dmedia%26token%3D8cd33e2e-d8f2-43b5-9a35-2f11898374df\&width=768\&dpr=4\&quality=100\&sign=647faf64\&sv=2)
 
-When **Training Mode** is enabled, you can create exact copies of purchase order line items in the extracted table.\
-This feature is designed to help you practice and better understand how the purchase order matching process works in a safe, test environment.
+Wanneer **Training Mode** is ingeschakeld, kun je exacte kopieën van inkooporderregelitems in de geëxtraheerde tabel maken.\
+Deze functie is ontworpen om je te helpen oefenen en beter te begrijpen hoe het inkooporder matching proces werkt in een veilige, testomgeving.
 
-To create a copy, simply drag and drop a purchase order line item into the extracted table.
+Om een kopie te maken, sleep je eenvoudig een inkooporderregelitem naar de geëxtraheerde tabel.
 
-## Auto Accounting
+## Automatische boekhouding
 
-Click this button to be redirected to the Auto Accounting section.
+Klik op deze knop om te worden doorgestuurd naar de sectie Automatische boekhouding.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_12.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FDWhY584i0OUo1no12E2v%252Fpo_match_tools_12.png%3Falt%3Dmedia%26token%3D818d1ea7-974d-40a0-85e3-4531a83400c2\&width=768\&dpr=4\&quality=100\&sign=cd60c9b6\&sv=2)
 
-<mark style="color:red;">**Note**</mark>: This feature is only available if **Auto Accounting** is activated for your organization.
+<mark style="color:red;">**Opmerking**</mark>: Deze functie is alleen beschikbaar als **Automatische boekhouding** is geactiveerd voor jouw organisatie.
 
-## Tasks
+## Taken
 
-Click this button to be redirected to the task section related to the document you are currently working on.
+Klik op deze knop om te worden doorgestuurd naar de taaksectie die verband houdt met het document waaraan je momenteel werkt.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_11.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FmoDaPQZ9RlYHuLdfiHAB%252Fpo_tools_new_11.png%3Falt%3Dmedia%26token%3D55d0e964-c847-4919-ae65-93da52160408\&width=768\&dpr=4\&quality=100\&sign=37af2a94\&sv=2)
 
-## Create task
+## Taak maken
 
-Use this button to create tasks directly related to the current document.
+Gebruik deze knop om taken te maken die direct verband houden met het huidige document.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_4.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FCHDqycIesIISTqORnhBr%252Fpo_tools_new_4.png%3Falt%3Dmedia%26token%3D4d1855d4-1acb-439b-a822-da683e02d7a7\&width=768\&dpr=4\&quality=100\&sign=af2d0353\&sv=2)
 
-To create a valid task, you must enter a name, provide a description, and assign it to a user or group. Optionally, you can mark the task as notification-only, set its priority (Low, Medium, or High), define its status, and specify a deadline.
+Om een geldige taak te creëren, moet je een naam invoeren, een beschrijving geven en deze toewijzen aan een gebruiker of groep. Optioneel kun je de taak als alleen notificatie markeren, de prioriteit instellen (Laag, Medium of Hoog), de status definiëren en een deadline specificeren.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_9.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FRKfrTkWs0IZ6lqEHPPTn%252Fpo_match_tools_9.png%3Falt%3Dmedia%26token%3D3ac2c7a0-454d-4337-9195-1eaaa6fdb8ad\&width=768\&dpr=4\&quality=100\&sign=99ef14d1\&sv=2)
 
-## Auto PO match
+## Automatische PO-match
 
-Click this button to automatically perform the Purchase Order matching.
+Klik op deze knop om automatisch de Inkooporder matching uit te voeren.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_5.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Flsdom16blO6pMF5rtQYS%252Fpo_tools_new_5.png%3Falt%3Dmedia%26token%3D616d6600-ff52-478a-9282-518212360106\&width=768\&dpr=4\&quality=100\&sign=ad47d853\&sv=2)
 
-## Save
+## Redden
 
-Click this button to save the matched Purchase Order lines.
+Klik op deze knop om de gematchte Inkooporderregels op te slaan.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_6.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FZ9ou72AJwvme2F7RWG7P%252Fpo_tools_new_6.png%3Falt%3Dmedia%26token%3D1d8ef55e-5ff1-4ee7-ac81-b76ff583a353\&width=768\&dpr=4\&quality=100\&sign=a17e5c90\&sv=2)
 
-## Sync Data
+## Gegevens synchroniseren
 
-Click this button to manually synchronize data for a specified Purchase Order number between DocBits and Infor.
+Klik op deze knop om handmatig gegevens te synchroniseren voor een opgegeven Inkoopordernummer tussen DocBits en Infor.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_7.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FcceZaArRjBdKpI5r5u1v%252Fpo_tools_new_7.png%3Falt%3Dmedia%26token%3D49e25f09-de07-42b7-ab3d-a43a35e567c5\&width=768\&dpr=4\&quality=100\&sign=c6e75393\&sv=2)
 
-You need to provide a valid Purchase Order number, then select which of the available options you want to synchronize. After that, you can proceed to synchronize your data.
+Je moet een geldig Inkoopordernummer opgeven, en vervolgens selecteren welke van de beschikbare opties je wilt synchroniseren. Daarna kun je doorgaan met het synchroniseren van je gegevens.
 
-<figure><img src="../../../.gitbook/assets/po_match_tools_10.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FqRWhRKZV6cbDnXWvhYZ1%252Fpo_match_tools_10.png%3Falt%3Dmedia%26token%3Dd3bcac16-a954-4d96-a750-58b90e32525f\&width=768\&dpr=4\&quality=100\&sign=612664bf\&sv=2)
 
-<mark style="color:red;">**Note**</mark>: This feature is only available if your matching process is based on **Received Delivery Open Quantity**.\
-You can change this setting by navigating to:\
-**Settings → Global Settings → Document Types → More Settings → Purchase Order Section → Purchase Order**.
+<mark style="color:red;">**Opmerking**</mark>: Deze functie is alleen beschikbaar als jouw matchingproces is gebaseerd op **Ontvangen levering Open hoeveelheid**.\
+Je kunt deze instelling wijzigen door te navigeren naar:\
+**Instellingen → Globale instellingen → Documenttypen → Meer instellingen → Inkooporder sectie → Inkooporder**.
 
-## Export
+## Exporteren
 
-Click **Export** to export the document after completing the PO matching process.\
-If multiple export options are available, the first option will be used by default.\
-To view and select from all available export options, click the small arrow next to the Export button.
+Klik op **Exporteren** om het document te exporteren na het voltooien van het PO-matchingproces.\
+Als er meerdere exportopties beschikbaar zijn, wordt de eerste optie standaard gebruikt.\
+Om alle beschikbare exportopties te bekijken en te selecteren, klik je op de kleine pijl naast de Exporteren-knop.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_8.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fzc78lqQthkeTIpANlIAc%252Fpo_tools_new_8.png%3Falt%3Dmedia%26token%3Debdb58e9-b775-40a6-b7bc-82aa66f8811b\&width=768\&dpr=4\&quality=100\&sign=14ac5a25\&sv=2)
 
-## Auto Export if PO matched 100%
+## Automatische export indien inkooporder 100% overeenkomt
 
-If enabled, documents are automatically matched and exported when the purchase order number exactly matches the information extracted from the document.
+Als ingeschakeld, worden documenten automatisch gematcht en geëxporteerd wanneer het inkoopordernummer exact overeenkomt met de informatie die uit het document is geëxtraheerd.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_9.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FMXEEO2olxd76yb7VrDBO%252Fpo_tools_new_9.png%3Falt%3Dmedia%26token%3Dd325d795-326c-459b-b359-bad854bed94b\&width=768\&dpr=4\&quality=100\&sign=4742a938\&sv=2)
 
-## Set PO Table Columns for Organization
+## PO-tabelkolommen instellen voor organisatie
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_10.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F4nQ5loSdHlIebOh4vJ1m%252Fpo_tools_new_10.png%3Falt%3Dmedia%26token%3D84991cc8-f7ae-40f1-ba6c-cdd66722b898\&width=768\&dpr=4\&quality=100\&sign=ec34b898\&sv=2)
 
-Click this button to open a menu where you can manage the visibility of columns in the purchase order table.\
-Use the checkboxes and arrow buttons to move columns between the **Visible** and **Hidden** sections.\
-You can also reorder columns by dragging and dropping the column names.\
-Click **Done** to save your changes.
+Klik op deze knop om een menu te openen waar je de zichtbaarheid van kolommen in de inkoopordertabel kunt beheren.\
+Gebruik de selectievakjes en pijlknoppen om kolommen tussen de **Zichtbaar** en **Verborgen** secties te verplaatsen.\
+Je kunt ook kolommen opnieuw ordenen door de kolomnamen te slepen en neer te zetten.\
+Klik op **Klaar** om je wijzigingen op te slaan.
 
-<figure><img src="../../../.gitbook/assets/po_match_6.png" alt=""><figcaption></figcaption></figure>
-
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fry7dGuhxUG9GcMaYMLGg%252Fpo_match_6.png%3Falt%3Dmedia%26token%3D2362a18a-4f20-40b1-b1be-5b244290100c\&width=768\&dpr=4\&quality=100\&sign=155df965\&sv=2)

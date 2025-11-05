@@ -1,62 +1,59 @@
-# More Settings
+# Meer Instellingen
 
-## Overview
+## Overzicht
 
-In the "More Settings" section, you can find various options related to individual document types. Once a setting is activated, it will apply only to that specific document type. This page provides a brief overview of what each setting does.
+In de sectie "Meer instellingen" vind je verschillende opties met betrekking tot individuele documenttypen. Zodra een instelling is geactiveerd, is deze alleen van toepassing op dat specifieke documenttype. Deze pagina biedt een kort overzicht van wat elke instelling doet.
 
-## How to Access
+## Toegang
 
-1.  Navigate to **Settings** -> **Global Settings** -> **Document Types**.
+1.  Navigeer naar **Instellingen** → **Globale instellingen** → **Documenttypen**.
 
-    <figure><img src="../../../../../.gitbook/assets/disablpe_po_status_1.png" alt=""><figcaption></figcaption></figure>
-2.  Select the desired document type and click on **More Settings**.
+    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1_nl.png" alt=""><figcaption></figcaption></figure>
+2.  Selecteer het gewenste documenttype en klik op **Meer instellingen**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2_nl.png" alt=""><figcaption></figcaption></figure>
 
-## Table Extraction
+## Tabel extractie
 
-* **Skip table validation**: Allows bypassing the validation process for table data, which can be useful in scenarios where data validation needs to be flexible.
+* **Tabelvalidatie overslaan**: Hiermee kun je het standaard validatieproces voor tabelgegevens omzeilen. Deze optie is nuttig in scenario's waarin flexibele gegevensverwerking vereist is of wanneer bepaalde validatiestappen kunnen worden overgeslagen om de prestaties tijdens gegevensverwerking te verbeteren.
 
-## Duplicate Detection
+## Duplicaatdetectie
 
-* [**Duplicate Document Detection**](duplicate-document-handling.md): This allows you to detect and handle duplicate documents.
+* [**Detectie van dubbele documenten**](duplicate-document-handling.md): Hiermee kun je dubbele documenten detecteren en verwerken.
 
-## In Review
+## In recensie
 
-* **Design in Review Form**: Configures the layout and fields that appear in the review forms used during the document review process.
+Configureer de lay-out van beoordelingsformulieren met behulp van de **Lay-outbouwer**. Deze lay-out bepaalt hoe de inhoud wordt gepresenteerd tijdens het documentbeoordelingsproces. Voor gedetailleerde instructies over het gebruik van de **Lay-outbouwer**, klik [hier](../../../../setup/document-types/layout-builder.md).
 
-## Reject
+## Afwijzen
 
-* **Design in Reject Form**: Configures the layout and fields displayed in the reject form used during the document review process.
+* **Ontwerp afwijzingsformulier**: Configureer de lay-out met behulp van de **Lay-outbouwer** voor het afwijzingsformulier dat wordt weergegeven tijdens het documentbeoordelingsproces. Voor gedetailleerde instructies over het gebruik van de **Lay-outbouwer**, klik [hier](../../../../setup/document-types/layout-builder.md).
 
-## PDF Generation
+## PDF-formaat exporteren
 
-* **Design Template**: Specifies the template used for generating PDF versions of the documents, which can be crucial for archiving or external communication.
+* **Exportbestandsformaat**: Hiermee kun je het PDF-formaat specificeren dat moet worden gebruikt bij het exporteren van documenten.
 
-## Export PDF Format
+## Goedkeuring
 
-* **Export File Format**: Allows you to specify the PDF format to be used when exporting documents.
+* **Goedkeuren vóór export**: Zorgt ervoor dat documenten goedgekeurd moeten worden voordat ze uit het systeem kunnen worden geëxporteerd. Je kunt ook de lay-out van het goedkeuringsscherm configureren met behulp van de **Lay-outbouwer**. Voor gedetailleerde instructies over het gebruik van de **Lay-outbouwer**, klik [hier](../../../../setup/document-types/layout-builder.md).
+* **Goedkeuren voor export V2**: Activeert Goedkeuring V2, die het gebruik van dynamische velden in plaats van statische ondersteunt. Je kunt ook de lay-out van het goedkeuringsscherm aanpassen met behulp van de **Lay-outbouwer**. Voor gedetailleerde instructies over het gebruik van de **Lay-outbouwer**, klik [hier](../../../../setup/document-types/layout-builder.md).
+* **Tweede goedkeuring**: Voegt een extra laag van goedkeuring toe voor verbeterde validatie en meer controle over documentverwerking. Je kunt ook de lay-out van het goedkeuringsscherm aanpassen met behulp van de **Lay-outbouwer**. Voor gedetailleerde instructies over het gebruik van de **Lay-outbouwer**, klik [hier](../../../../setup/document-types/layout-builder.md).
+* [**Goedkeuringsstempel**](approval/approval-stamp.md): Voegt een stempel toe aan het document wanneer het is goedgekeurd.
+* [**Goedkeuringsgeschiedenis**](approval/approval-history.md): Maakt het mogelijk om de goedkeuringsgeschiedenis weer te geven in zowel het goedkeuringsscherm als de veldvalidatie.
 
-## Approval
+## Inkooporder
 
-* **Approve before export**: Ensures that documents must be approved before they can be exported from the system. Additionally, you can design the template used for the approval screen.
-* **Approve before export V2**: Enables Approval V2, allowing the use of dynamic fields instead of static ones. You can also customize the approval screen template.
-* **Second Approval**: Adds an additional layer of approval for further validation, enhancing control over document processing. You can also customize the template used for the approval screen.
-* [**Approval Stamp**](approval/approval-stamp.md): Adds a stamp to the document when it is approved.
-* [**Approval History**](approval/approval-history.md): Enables the display of approval history in both the approval screen and field validation.
-
-## Purchase Order
-
-* [**PO table in layout builder**](purchase-order/po-table-in-layout-builder.md): Enables the inclusion of purchase order tables in the layout builder for customized document layouts.
-* [**Auto check for PO updates**](purchase-order/auto-check-for-po-updates.md): When enabled, the system displays a visual indicator in the Purchase Order Matching screen to show when a purchase order has been updated, prompting users to refresh for the latest information.
-* **Auto update PO data**: Activating this will automatically update the PO data when new data is available.
-* **Consumed PO line status**: Activating this will disable the colored tint on the purchase order lines.
-* [**Calculate PO unit price**](purchase-order/calculate-po-unit-price.md): This lets you calculate the PO unit price using the net amount and quantity, instead of extracting it.
-* [**Purchase Order**](purchase-order/purchase-order.md): Toggles whether the document should be processed in the Purchase Order Matching screen. You can also specify which quantity term the matching process should be based on.
-* [**Export not matched PO lines**](purchase-order/export-not-matched-po-lines.md): This feature controls the export of purchase order lines. When disabled, only matched lines are exported. When enabled, all purchase order lines are exported, even if they are not matched to an order confirmation line.
-* [**PO Tolerance Setting**](purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md): This feature lets you set tolerance levels for quantity and unit price, accommodating minor discrepancies without flagging them as mismatches.
-* [**Additional PO Tolerance Setting**](purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md#setting-to-configure-additional-purchase-order-tolerance-settings): This feature lets you set additional tolerance levels for freight, charges, and taxes, accommodating minor discrepancies without flagging them as mismatches.
-* **Alternate Export**: This allows you to set up an alternative export for specific statuses.
-* [**PO disable statuses**](purchase-order/purchase-order-disable-statuses.md): Allows you to disable specific statuses from being considered in the matching process.
-* **Ignore Already Matched Lines**: Activating this will skip lines that have already been matched during a new matching process.
-* [**Supplier Item Number Map**](purchase-order/supplier-item-number-map-admin-documentation.md): A utility setting that maps supplier item numbers to internal item numbers, ensuring accuracy in inventory and purchase order management.
+* [**PO-tabel in layout builder**](purchase-order/po-table-in-layout-builder.md): Maakt het mogelijk om inkoopordertabellen op te nemen in de layout builder voor aangepaste documentlay-outs.
+* [**Automatische controle op PO-updates**](purchase-order/auto-check-for-po-updates.md): Wanneer ingeschakeld, toont het systeem een visuele indicator in het scherm Inkoopordermatching om aan te geven wanneer een inkooporder is bijgewerkt, waardoor gebruikers worden aangespoord om te verversen voor de laatste informatie.
+* **Automatische update PO-gegevens**: Het activeren hiervan zal de PO-gegevens automatisch bijwerken wanneer nieuwe gegevens beschikbaar zijn.
+* [**Status van verbruikte PO-regel**](purchase-order/consumed-po-line-status.md): Deze instelling verbetert het Inkooporder Matching-scherm door kleurcodering toe te passen op inkooporderregels.
+* [**Bereken PO-eenheidsprijs**](purchase-order/calculate-po-unit-price.md): Hiermee kun je de PO-eenheidsprijs berekenen met behulp van het netto bedrag en de hoeveelheid, in plaats van deze te extraheren.
+* [**Inkooporder**](purchase-order/purchase-order.md): Schakelt in of het document moet worden verwerkt in het scherm Inkoopordermatching. Je kunt ook specificeren op welke hoeveelheidsterm de matching moet worden gebaseerd.
+* [**Exporteer niet-overeenkomende inkooporderregels**](purchase-order/export-not-matched-po-lines.md): Deze functie regelt de export van inkooporderregels. Wanneer uitgeschakeld, worden alleen overeenkomende regels geëxporteerd. Wanneer ingeschakeld, worden alle inkooporderregels geëxporteerd, zelfs als ze niet zijn gematcht met een orderbevestigingsregel.
+* [**PO-tolerantie-instelling**](purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md): Deze functie stelt je in staat om tolerantieniveaus voor hoeveelheid en eenheidsprijs in te stellen, zodat kleine afwijkingen niet als mismatches worden gemarkeerd.
+* [**Extra PO-tolerantie-instelling**](purchase-order/purchase-order-tolerance-settings-additional-purchase-order-tolerance.md#instelling-om-extra-aankooporder-tolerantie-instellingen-te-configureren): Deze functie stelt je in staat om extra tolerantieniveaus voor vracht, kosten en belastingen in te stellen, zodat kleine afwijkingen niet als mismatches worden gemarkeerd.
+* [**Alternatieve export**](purchase-order/alternate-export.md): Hiermee kun je een alternatieve export instellen voor specifieke statussen.
+* [**PO-uitschakelstatussen**](purchase-order/purchase-order-disable-statuses.md): Hiermee kun je specifieke statussen uitschakelen zodat ze niet worden overwogen in het matchingproces.
+* **Negeer reeds overeenkomende regels**: Het activeren hiervan zal regels overslaan die al zijn gematcht tijdens een nieuw matchingproces.
+* [**Status van documentinkooporder bijwerken**](purchase-order/update-document-purchase-order-status.md): Wanneer ingeschakeld, wordt de **PO-status** kolom op het dashboard automatisch bijgewerkt wanneer de status van de inkooporder verandert.
+* [**Leveranciersartikelnummerkaart**](purchase-order/supplier-item-number-map-admin-documentation.md): Een hulpprogramma-instelling die leveranciersartikelnummerkaarten aan interne artikelnummerkaarten koppelt, waardoor nauwkeurigheid in voorraad- en inkooporderbeheer wordt gewaarborgd.

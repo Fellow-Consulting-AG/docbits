@@ -1,43 +1,23 @@
-# Activating Permissions
+# Machtigingen activeren
 
-Enabling or disabling the permission system using the switch has various effects on the functionality in DocBits.
+Het in- of uitschakelen van het machtigingssysteem met de schakelaar heeft verschillende effecten op de functionaliteit in DocBits.
 
-## **Enabling the permission system:**
+## **Het machtigingssysteem inschakelen:**
 
 <figure><img src="../../../../../.gitbook/assets/activation-permissions1.png" alt=""><figcaption></figcaption></figure>
 
-* When the permission system is enabled, the access permissions for users and groups are applied.
-* Users are only granted access to the resources they are explicitly authorized to access based on the permissions assigned.
-* Administrators can manage the permissions for individual users and groups and ensure that only authorized people can view or edit the data.
+* Wanneer het machtigingssysteem is ingeschakeld, worden de toegangsrechten voor gebruikers en groepen toegepast.
+* Gebruikers krijgen alleen toegang tot de bronnen waarvoor ze expliciet zijn geautoriseerd op basis van de toegewezen machtigingen.
+* Beheerders kunnen de machtigingen voor individuele gebruikers en groepen beheren en ervoor zorgen dat alleen geautoriseerde personen de gegevens kunnen bekijken of bewerken.
 
 <figure><img src="../../../../../.gitbook/assets/activation-permissions2.png" alt=""><figcaption></figcaption></figure>
 
-## Only Assigned Documents&#x20;
-
-<figure><img src="../../../../../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure>
-
-The **Only Assigned Documents** toggle button controls the visibility of documents for users based on their group assignments. When enabled, users can only view documents that are specifically assigned to them or a group they belong to. When disabled, users with the appropriate view permission can see all documents, regardless of assignment.
-
-#### Functionality
-
-* **Off State (Default)**:
-  * When the toggle is off, users who are part of a group can view all documents if they have the appropriate view permission. Document assignment does not affect visibility.
-* **On State**:
-  * When the toggle is on, users can only view documents that are explicitly assigned to them or a group they are a part of. This enforces stricter document visibility based on group assignments.
-
-#### Example Scenario
-
-1. **Default (Off State)**:
-   * A user who is part of the "Sales" group can see all documents in the system that they have permission to view, even if they are not assigned to those documents.
-2. **Enabled (On State)**:
-   * A user in the "Sales" group can only view documents that are assigned to them or the "Sales" group, restricting access to documents outside of their assignments.
-
-## Disabling the permission system:
+## Het machtigingssysteem uitschakelen:
 
 <figure><img src="../../../../../.gitbook/assets/activation-permissions3.png" alt=""><figcaption></figcaption></figure>
 
-* When the permission system is disabled, all access permissions are removed and users typically have unrestricted access to all resources.
-* This can be useful when open collaboration is temporarily required without the restrictions of access control.
-* However, there may be an increased risk of data leakage or unauthorized access as users may be able to access sensitive information they are not authorized to access.
+* Wanneer het machtigingssysteem is uitgeschakeld, worden alle toegangsrechten verwijderd en hebben gebruikers doorgaans onbeperkte toegang tot alle bronnen.
+* Dit kan nuttig zijn wanneer open samenwerking tijdelijk vereist is zonder de beperkingen van toegangscontrole.
+* Er kan echter een verhoogd risico zijn op gegevenslekken of ongeautoriseerde toegang, aangezien gebruikers mogelijk toegang hebben tot gevoelige informatie waarvoor ze niet zijn geautoriseerd.
 
-Enabling or disabling the permission system is an important decision based on the security requirements and the way the organization operates. In environments where privacy and access control are critical, it is common to leave the permission system enabled to ensure data integrity and confidentiality. In other cases, disabling the permission system may be temporarily necessary to facilitate collaboration, but should be used with caution to minimize potential security risks.
+Het in- of uitschakelen van het machtigingssysteem is een belangrijke beslissing op basis van de beveiligingseisen en de manier waarop de organisatie opereert. In omgevingen waar privacy en toegangscontrole cruciaal zijn, is het gebruikelijk om het machtigingssysteem ingeschakeld te laten om de integriteit en vertrouwelijkheid van gegevens te waarborgen. In andere gevallen kan het tijdelijk noodzakelijk zijn om het machtigingssysteem uit te schakelen om samenwerking te vergemakkelijken, maar dit moet met voorzichtigheid worden gedaan om mogelijke beveiligingsrisico's te minimaliseren.

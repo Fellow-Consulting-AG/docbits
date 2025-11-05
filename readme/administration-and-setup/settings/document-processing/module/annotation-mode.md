@@ -1,69 +1,64 @@
-# Annotation Mode
+# Annotatiemodus
 
-## Overview
+## Overzicht
 
-The **Annotation Mode** setting allows users to create and manage annotations directly on the PDF. If a document contains annotations, they will be included when **exporting to IDM**.
+De instelling **Annotatiemodus** stelt gebruikers in staat om annotaties rechtstreeks op de PDF te maken en te beheren. Als een document annotaties bevat, worden deze opgenomen bij het exporteren naar IDM.
 
-## Location
+## Locatie
 
-You can find this setting under: **Settings → Document Processing → Module → Document Type → Annotation Mode**
+Je kunt deze instelling vinden onder: **Instellingen → Documentverwerking → Module → Documenttype → Annotatiemodus**
 
-<figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224104758.jpg" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FHNnNsYz9tcEbr4GXr11s%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250224104758.jpg%3Falt%3Dmedia%26token%3Dedd16bcd-d4f9-425c-a648-8b406f81e9a4\&width=768\&dpr=4\&quality=100\&sign=f1772756\&sv=2)
 
-## How to Use Annotation Mode
+## Hoe de Annotatiemodus te Gebruiken
 
-### 1. Enabling Annotation Mode
+### 1. Annotatiemodus Inschakelen
 
-* Navigate to the **Validation Screen**.
-* Click on the **speech bubble** icon on the right to enter Annotation Mode.
+* Navigeer naar het **Validatiescherm**.
+* Klik op het **spraakballon**-icoon aan de rechterkant om de Annotatiemodus in te schakelen.
 
-<div align="center"><figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224105047.jpg" alt=""><figcaption></figcaption></figure></div>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FAIQdTYrAOgceAtUu0PNf%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250224105047.jpg%3Falt%3Dmedia%26token%3D3e79f03b-205e-4e89-96e6-76fd24678b7f\&width=768\&dpr=4\&quality=100\&sign=9dc03134\&sv=2)
 
-### 2. Creating an Annotation
+### 2. Een Annotatie Maken
 
-* Select an area on the PDF where you want to place an annotation.
-* Click the **pen** icon to write text.
-* Click the **document** icon to save the annotation.
-* Click the **trash can** icon to delete the annotation.
+* Selecteer een gebied op de PDF waar je een annotatie wilt plaatsen.
+* Klik op het **pen**-icoon om tekst te schrijven.
+* Klik op het **document**-icoon om de annotatie op te slaan.
+* Klik op het **prullenbak**-icoon om de annotatie te verwijderen.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224105556.jpg" alt=""><figcaption></figcaption></figure></div>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FTdV1fsLkhBYNhAhIMlik%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250224105556.jpg%3Falt%3Dmedia%26token%3D751ffda3-3511-4b25-bb18-9c60f6c535eb\&width=768\&dpr=4\&quality=100\&sign=d7e00cfe\&sv=2)
 
-*   Customize the text using:
+*   Pas de tekst aan met:
 
-    * **Size** adjustment
-    * **Bold**
-    * _**Italic**_
-    * <mark style="color:purple;">**Color**</mark>
-    * **Font selection**
+    * **Grootte** aanpassing
+    * **Vet**
+    * _**Cursief**_
+    * **Kleur**
+    * **Lettertype selectie**
 
-    <div align="left"><figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224105351.jpg" alt=""><figcaption></figcaption></figure></div>
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FMkAobvoRelI0VejPIgbW%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250224105351.jpg%3Falt%3Dmedia%26token%3Df33f2f0a-4d1b-4bc4-a010-41e3bf1ac7df\&width=768\&dpr=4\&quality=100\&sign=2192f5a3\&sv=2)
 
-### 3. Managing Annotations
+### 3. Annotaties Beheren
 
-* **Move an annotation** by clicking and holding the left mouse button.
-* **Create multiple annotations** within the same document.
-* **Annotations are only visible** when Annotation Mode is enabled.
-* Annotations **will be included** when exporting the document to **IDM.**
-* If a document contains annotations, the **speech bubble icon** will display a small **exclamation mark** to indicate their presence.
+* **Verplaats een annotatie** door de linkermuisknop ingedrukt te houden en te slepen.
+* **Maak meerdere annotaties** binnen hetzelfde document.
+* **Annotaties zijn alleen zichtbaar** wanneer de Annotatiemodus is ingeschakeld.
+* Annotaties **worden opgenomen** bij het exporteren van het document naar **IDM.**
+* Als een document annotaties bevat, zal het **spraakballon-icoon** een klein **uitroepteken** tonen om hun aanwezigheid aan te geven.
 
-<figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224105935.jpg" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FgpoMvEHMfN4rQHzQ7vR2%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250224105935.jpg%3Falt%3Dmedia%26token%3D981d4c25-80e8-4e11-ab06-cf2663bf815f\&width=768\&dpr=4\&quality=100\&sign=5f51c005\&sv=2)
 
-*
+<mark style="color:red;">**Opmerking**</mark>**:** Annotaties kunnen ook rechtstreeks binnen het **Goedkeuringsscherm** worden bekeken, toegevoegd en gewijzigd, zodat gebruikers de nodige aanpassingen kunnen maken tijdens het goedkeuringsproces.
 
-<mark style="color:red;">**Note:**</mark> Annotations can also be viewed, added, and modified directly within the **Approval Screen**, allowing users to make necessary adjustments during the approval process.
+### 4. PDF's Downloaden met of zonder Annotaties
 
-### 4. Downloading PDFs with or without Annotations
+* Als een document annotaties heeft, kun je ervoor kiezen om de PDF met of zonder de annotaties te downloaden.
+* Om dit te doen, ga naar het **Dashboard**.
+* Klik op de **drie stippen** in de **Actie**-kolom.
+* Selecteer een van de twee beschikbare downloadopties:
+  * **Downloaden met Annotaties**
+  * **Downloaden zonder Annotaties**
 
-* If a document has annotations, you can choose to download the PDF either with or without the annotations.
-* To do this, go to the **Dashboard**.
-* Click on the **three dots** in the **Action** column.
-* Select one of the two available download options:
-  * **Download with Annotations**
-  * **Download without Annotations**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FL5WHYoX2o80Pzn4eTGcj%252FiScreen%2520Shoter%2520-%2520Google%2520Chrome%2520-%2520250224115302.jpg%3Falt%3Dmedia%26token%3D3cbdf1d3-f8e1-41ae-adb3-12a0c85767ad\&width=768\&dpr=4\&quality=100\&sign=9dcd165f\&sv=2)
 
-<figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224115302.jpg" alt=""><figcaption></figcaption></figure>
-
-By enabling and using Annotation Mode, users can efficiently add, edit, and manage annotations directly on PDFs, enhancing document collaboration and review.
-
-
-
+Door de Annotatiemodus in te schakelen en te gebruiken, kunnen gebruikers efficiënt annotaties toevoegen, bewerken en beheren rechtstreeks op PDF's, wat de samenwerking en beoordeling van documenten verbetert.

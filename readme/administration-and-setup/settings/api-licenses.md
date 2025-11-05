@@ -1,3 +1,3 @@
-# API Licenses
+# API-Licenties
 
-In the "API Licenses" settings, you will find a list of all packages used, the version of the package used and the associated licenses.
+In de instellingen voor "API-Licenties" vindt u een lijst van alle gebruikte pakketten, de versie van het gebruikte pakket en de bijbehorende licenties.

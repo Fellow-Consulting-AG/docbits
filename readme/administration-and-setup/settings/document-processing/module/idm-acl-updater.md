@@ -1,30 +1,29 @@
 # IDM ACL Updater
 
-## Overview
+## Overzicht
 
-The ACL-Updater module is responsible for updating and managing Access Control Lists (ACLs) within DocBits. This ensures that appropriate permissions and security measures are in place for document access and handling.
+De ACL-Updater module is verantwoordelijk voor het bijwerken en beheren van Access Control Lists (ACL's) binnen DocBits. Dit zorgt ervoor dat de juiste machtigingen en beveiligingsmaatregelen aanwezig zijn voor documenttoegang en -verwerking.
 
-## Activation Instructions
+## Activatie-instructies
 
-To activate the ACL-Updater module, follow these steps:
+Om de ACL-Updater module te activeren, volg je deze stappen:
 
-1. Navigate to **Settings**.
-2. Select **Document Processing**.
-3. Select **Module**.
-4. Go to **Document Type**.
-5. Activate the **IDM ACL-Updater** by enabling the corresponding slider.
+1. Navigeer naar **Instellingen**.
+2. Selecteer **Documentverwerking**.
+3. Selecteer **Module**.
+4. Ga naar **Documenttype**.
+5. Activeer de **IDM ACL-Updater** door de bijbehorende schuifregelaar in te schakelen.
 
-Once the module is activated, you can select an **ION Mapping File** to use.
+Zodra de module is geactiveerd, kun je een **ION Mapping File** selecteren om te gebruiken.
 
-<figure><img src="../../../../.gitbook/assets/IDM-ACL-UPDATER1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/IDM-ACL-UPDATER1_nl.png" alt=""><figcaption></figcaption></figure>
 
-### Adding ACL Information
+### ACL-informatie toevoegen
 
-To add ACL information, click the **Add** button. You can then specify the following details:
+Om ACL-informatie toe te voegen, klik je op de **Toevoegen** knop. Je kunt vervolgens de volgende details opgeven:
 
 * **IDM Document Type**
-* **Current IDM ACL Status**
-* **New IDM ACL Status**
+* **Current IDM ACL status**
+* **New IDM ACL status**
 
 <figure><img src="../../../../.gitbook/assets/IDM-ACL-UPDATER2.png" alt="" width="563"><figcaption></figcaption></figure>
-

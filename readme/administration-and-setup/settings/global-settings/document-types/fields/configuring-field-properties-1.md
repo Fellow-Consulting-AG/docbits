@@ -4,7 +4,7 @@
 
 ### Required:
 
-<figure><img src="../../../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 If a field is marked as Required, it means that this field must be filled in before the document can be saved or processed.
 
@@ -19,7 +19,7 @@ If a field is marked as Required, it means that this field must be filled in bef
 
 ### Read Only:
 
-<figure><img src="../../../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
 If a field is marked as Read Only, it means that users can view the contents of this field, but cannot make any changes to it.
 
@@ -33,7 +33,7 @@ If a field is marked as Read Only, it means that users can view the contents of 
 
 ### Hidden:
 
-<figure><img src="../../../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 If a field is marked as "Hidden", it means that the field will be hidden in the user interface and users will not be able to see or access it.
 
@@ -48,7 +48,7 @@ If a field is marked as "Hidden", it means that the field will be hidden in the 
 
 ### OCR (Optical Character Recognition):
 
-<figure><img src="../../../../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
 If a field is configured for OCR, it means that the system will try to extract the text from the document and insert it into this field. This setting is usually used for fields that are intended to be auto-filled.
 
@@ -63,7 +63,7 @@ If a field is configured for OCR, it means that the system will try to extract t
 
 ### Forced validation:
 
-<figure><img src="../../../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
 Configure the validation rules accordingly, such as numeric limits, regular expressions, or relationships with other fields.
 
@@ -77,7 +77,7 @@ Configure the validation rules accordingly, such as numeric limits, regular expr
 
 ### Match Score:
 
-<figure><img src="../../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
 By comparing input data with reference data, the Match Score can help confirm the accuracy and validity of the data. If the Match Score exceeds a certain threshold, the match is considered successful.
 
@@ -90,6 +90,6 @@ By comparing input data with reference data, the Match Score can help confirm th
 
 * The Match Score is used to evaluate the accuracy of matches between input data and reference values. If the score obtained exceeds the set threshold, the match is considered successful. This is especially useful for fields that require data validation or data matching, such as fields with a name, email address, or e-mail address. B. when checking customer data.
 
-<figure><img src="../../../../../.gitbook/assets/image (117).png" alt="" width="258"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (138).png" alt="" width="258"><figcaption></figcaption></figure>
 
 By carefully configuring these field properties, you can optimize document processing workflows and ensure that your data is correctly captured, protected, and processed efficiently.

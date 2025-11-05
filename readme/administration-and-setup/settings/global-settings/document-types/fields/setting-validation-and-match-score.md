@@ -6,7 +6,7 @@ Here are instructions for using the Force Validation and Match Value settings to
 
 ### Force Validation:
 
-<figure><img src="../../../../../.gitbook/assets/image (118).png" alt="" width="151"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (139).png" alt="" width="151"><figcaption></figcaption></figure>
 
 This setting allows you to set rules that check whether the data entered meets certain criteria.
 
@@ -16,9 +16,9 @@ This setting allows you to set rules that check whether the data entered meets c
 * Enable the Force Validation option.
 * Define the validation rules to check. These can be, for example, numeric limits, regular expressions for text fields, or relationships to other fields.
 
-<figure><img src="../../../../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (119).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (140).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Impact:**
 
@@ -26,7 +26,7 @@ This setting allows you to set rules that check whether the data entered meets c
 
 ### Match Score:
 
-<figure><img src="../../../../../.gitbook/assets/image (121).png" alt="" width="116"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (142).png" alt="" width="116"><figcaption></figcaption></figure>
 
 This setting allows you to match the entered value against a predefined reference value.
 

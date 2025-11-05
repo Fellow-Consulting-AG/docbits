@@ -1,32 +1,32 @@
-# Users
+# Gebruikers
 
-User Settings is an area in a system where users can adjust personal preferences, account settings, and security settings. Typically, user settings include options such as password changes, profile information, notification preferences, and possibly individual permissions to access certain features or data.
+Gebruikersinstellingen is een gebied in een systeem waar gebruikers persoonlijke voorkeuren, accountinstellingen en beveiligingsinstellingen kunnen aanpassen. Typisch omvatten gebruikersinstellingen opties zoals wachtwoordwijzigingen, profielinformatie, meldingsvoorkeuren en mogelijk individuele machtigingen om toegang te krijgen tot bepaalde functies of gegevens.
 
-In most organizations, only authorized people have access to user settings, usually administrators or system administrators. This is because the settings may contain sensitive information that could compromise the security of the system if changed by unauthorized persons. Administrators are able to manage user settings to ensure that they comply with organizational policies and requirements and that the integrity of the system is maintained.
+In de meeste organisaties hebben alleen geautoriseerde personen toegang tot gebruikersinstellingen, meestal beheerders of systeembeheerders. Dit komt omdat de instellingen gevoelige informatie kunnen bevatten die de beveiliging van het systeem in gevaar kan brengen als deze door ongeautoriseerde personen worden gewijzigd. Beheerders kunnen gebruikersinstellingen beheren om ervoor te zorgen dat ze voldoen aan de beleidslijnen en vereisten van de organisatie en dat de integriteit van het systeem behouden blijft.
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
 
-1. **Search Bar**: Allows administrators to quickly find users by searching for their names or other details.
-2. **User List**: Displays a list of users with the following columns:
-   * **Name**: The full name of the user.
-   * **Email**: The user's email address, which is likely used as their login identifier.
-   * **Admin**: A checkbox indicating whether the user has administrative privileges. Admins typically have access to all settings and can manage other user accounts.
-   * **Actions**: This column typically includes buttons or links for performing actions such as editing user details, resetting passwords, or deleting the user account.
-3. **Add User Button**: This button is used to create new user accounts. Clicking on it would typically bring up a form where you can enter the new user's details, such as their name, email, and whether they should have admin rights.
+1. **Zoekbalk**: Hiermee kunnen beheerders snel gebruikers vinden door naar hun namen of andere details te zoeken.
+2. **Gebruikerslijst**: Toont een lijst van gebruikers met de volgende kolommen:
+   * **Naam**: De volledige naam van de gebruiker.
+   * **E-mail**: Het e-mailadres van de gebruiker, dat waarschijnlijk wordt gebruikt als hun inlogidentificatie.
+   * **Beheerder**: Een selectievakje dat aangeeft of de gebruiker administratieve bevoegdheden heeft. Beheerders hebben doorgaans toegang tot alle instellingen en kunnen andere gebruikersaccounts beheren.
+   * **Acties**: Deze kolom bevat doorgaans knoppen of links voor het uitvoeren van acties zoals het bewerken van gebruikersgegevens, het resetten van wachtwoorden of het verwijderen van het gebruikersaccount.
+3. **Gebruiker toevoegen-knop**: Deze knop wordt gebruikt om nieuwe gebruikersaccounts aan te maken. Door erop te klikken verschijnt doorgaans een formulier waarin je de gegevens van de nieuwe gebruiker kunt invoeren, zoals hun naam, e-mail en of ze beheerdersrechten moeten hebben.
 
-## Step-by-step instructions to add a new user:
+## Stapsgewijze instructies om een nieuwe gebruiker toe te voegen:
 
-* **Access User Management:** Navigate to Settings - Global Settings - Groups, User and Permissions - User, where you can add new users.
-* **Add new user:** In the user settings, click on “Add user”
+* **Toegang tot gebruikersbeheer:** Navigeer naar Instellingen - Globale instellingen - Groepen, Gebruiker en Machtigingen - Gebruiker, waar je nieuwe gebruikers kunt toevoegen.
+* **Nieuwe gebruiker toevoegen:** Klik in de gebruikersinstellingen op “Voeg gebruiker toe”
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
 
-* **Filling out the form:** A form will appear where you can enter the information for the new user. Typical information includes:
+* **Vul het formulier in:** Er verschijnt een formulier waarin je de informatie voor de nieuwe gebruiker kunt invoeren. Typische informatie omvat:
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
 
-* **Username:** Unique name for the user used to log in.
-* **First Name and Last Name:** Name of the user.
-* **Email Address:** The user's email address used for communications and notifications.
-* **Password**: A password for the user that should comply with security policies.
-* **User Role:** Set the user's role, e.g. B. Standard user or administrator.
+* **Gebruikersnaam:** Unieke naam voor de gebruiker die wordt gebruikt om in te loggen.
+* **Voornaam en Achternaam:** Naam van de gebruiker.
+* **E-mailadres:** Het e-mailadres van de gebruiker dat wordt gebruikt voor communicatie en meldingen.
+* **Wachtwoord**: Een wachtwoord voor de gebruiker dat moet voldoen aan de beveiligingsbeleid.
+* **Gebruikersrol:** Stel de rol van de gebruiker in, bijv. Standaard gebruiker of beheerder.

@@ -1,29 +1,29 @@
-# Email Notification
+# E-mailmelding
 
 <figure><img src="../../../../.gitbook/assets/E-Mail Notifications.png" alt=""><figcaption></figcaption></figure>
 
-Configuring email notifications is critical. Email notifications in DocBits can be configured to notify users of various document-related events, such as: Processing completion, import or export errors, or user intervention requests. This tool is essential for maintaining effective communication and operational continuity in document processing environments. Here are some reasons why this is important:
+Het configureren van e-mailmeldingen is cruciaal. E-mailmeldingen in DocBits kunnen worden geconfigureerd om gebruikers te informeren over verschillende documentgerelateerde gebeurtenissen, zoals: Voltooiing van verwerking, import- of exportfouten, of verzoeken om gebruikersinterventie. Deze tool is essentieel voor het handhaven van effectieve communicatie en operationele continuïteit in documentverwerkingsomgevingen. Hier zijn enkele redenen waarom dit belangrijk is:
 
-**Real-time communication:**
+**Communicatie in real-time:**
 
-* Email alerts allow users to be immediately notified of important events or changes in their document management system. This ensures that all relevant parties are immediately informed of important updates.
+* E-mailalerts stellen gebruikers in staat om onmiddellijk op de hoogte te worden gesteld van belangrijke gebeurtenissen of wijzigingen in hun documentbeheersysteem. Dit zorgt ervoor dat alle relevante partijen onmiddellijk op de hoogte zijn van belangrijke updates.
 
-**Transparency and traceability:**
+**Transparantie en traceerbaarheid:**
 
-* By configuring email notifications, users can track and monitor the status of document processing events. This improves transparency and traceability in the document management system.
+* Door e-mailmeldingen te configureren, kunnen gebruikers de status van documentverwerkingsgebeurtenissen volgen en monitoren. Dit verbetert de transparantie en traceerbaarheid in het documentbeheersysteem.
 
-**Timely reactions:**
+**Tijdige reacties:**
 
-* Automatic notification of events such as document releases, comments, or approvals allows users to quickly respond to requests or updates. This helps increase efficiency and productivity.
+* Automatische melding van gebeurtenissen zoals documentvrijgaven, opmerkingen of goedkeuringen stelt gebruikers in staat om snel te reageren op verzoeken of updates. Dit helpt de efficiëntie en productiviteit te verhogen.
 
-**Automation of workflows:**
+**Automatisering van workflows:**
 
-* Email notifications can be integrated into workflows to automatically send notifications to relevant users when certain actions are taken. This enables seamless automation of business processes.
+* E-mailmeldingen kunnen worden geïntegreerd in workflows om automatisch meldingen te sturen naar relevante gebruikers wanneer bepaalde acties worden ondernomen. Dit maakt naadloze automatisering van bedrijfsprocessen mogelijk.
 
-**Reminders and deadlines:**
+**Herinneringen en deadlines:**
 
-* Email notification configuration can be used to remind users of upcoming deadlines or outstanding tasks. This helps ensure important tasks are completed on time.
+* De configuratie van e-mailmeldingen kan worden gebruikt om gebruikers te herinneren aan aankomende deadlines of openstaande taken. Dit helpt ervoor te zorgen dat belangrijke taken op tijd worden voltooid.
 
-Overall, email notification configuration plays an important role in improving communication, increasing efficiency, and ensuring that document processing events are managed in a timely and effective manner. By automating notifications, organizations can ensure that important information is not lost and that all relevant parties are always kept up to date.
+Over het algemeen speelt de configuratie van e-mailmeldingen een belangrijke rol bij het verbeteren van communicatie, het verhogen van de efficiëntie en het waarborgen dat documentverwerkingsgebeurtenissen tijdig en effectief worden beheerd. Door meldingen te automatiseren, kunnen organisaties ervoor zorgen dat belangrijke informatie niet verloren gaat en dat alle relevante partijen altijd op de hoogte blijven.
 
-This setting is critical for ensuring that stakeholders are kept informed about the processing status of important documents, which aids in rapid decision-making and efficient management of document workflows.
+Deze instelling is cruciaal om ervoor te zorgen dat belanghebbenden op de hoogte worden gehouden van de verwerkingsstatus van belangrijke documenten, wat helpt bij snelle besluitvorming en efficiënt beheer van documentworkflows.

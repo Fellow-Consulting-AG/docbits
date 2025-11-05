@@ -5,35 +5,22 @@ noIndex: true
 
 # FTP
 
-If you would like to integrate your SFTP with DocBits in order to import documents.
+Als u uw SFTP wilt integreren met DocBits om documenten te importeren.
 
-Requirements
+Vereisten
 
-* Correctly configured, Linux compatible SFTP Server
-* SFTP Hostname, Username and Password
-* Dedicated Import folder
+* Correct geconfigureerde, Linux-compatibele SFTP-server
+* SFTP-hostnaam, gebruikersnaam en wachtwoord
+* Toegewijde importmap
 
-**Import Configuration**
+**Importconfiguratie**
 
-From the Dashboard, open Settings and navigate to Import. Under FTP Import, select to add a new configuration.
+Open Instellingen vanaf het Dashboard en navigeer naar Importeren. Selecteer onder FTP-import om een nieuwe configuratie toe te voegen.
 
 <figure><img src="../../../.gitbook/assets/ftp1.png" alt=""><figcaption></figcaption></figure>
 
-Enter SFTP credentials in the given spaces and select save (The API Key field will automatically be filled with the API Key of the environment you are working on).
+Voer SFTP-referenties in de gegeven velden in en selecteer opslaan (Het API-sleutelveeld wordt automatisch gevuld met de API-sleutel van de omgeving waarin u werkt).
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+![](https://lh7-us.googleusercontent.com/m11trSpnDmv9aco98vPG6xuIhYxngp6TauG7lDYEWB2VguNmX0ypXMi3Fc4Ey6V4Iy_YwOy4Zooh3rj_WoAQ3PQgVIjw5vqToOuq_lIxN7IqPE2fv1puzsnEO96y5mn5FHjFtC1wYrEf9sxjHk1GL2I)
 
-Once you have entered all the necessary details of your SFTP, click SAVE.
-
-### **FTP File Archiving**
-
-1. **Enable File Archiving**
-   * Locate the "File Archiving" option.
-   * Toggle the switch to the "On" position to enable archiving.
-2. **Select the Archive Directory**
-   * Once the "File Archiving" switch is enabled, a field will appear allowing you to specify the directory path for archived files.
-   * Select the desired folder path on the SFTP/FTP server where the archived files should be stored.
-3. **Save Changes**
-   * Click the **Save** button to apply the changes.
-
-<figure><img src="../../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
+Zodra u alle benodigde gegevens van uw SFTP hebt ingevoerd, klikt u op OPSLAAN.

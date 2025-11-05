@@ -1,42 +1,42 @@
-# Defining App Color in Company Settings
+# Het definiëren van App-kleur in Bedrijfsinstellingen
 
-### Overview
+## Overzicht
 
-The **App Color** setting allows administrators to define the color scheme of the application interface. This feature is particularly useful for distinguishing between different environments such as testing, sandbox, and production. By assigning distinct colors to each environment, users can easily identify which environment they are working in, reducing the risk of performing critical actions in the wrong environment.
+De **App-kleur** instelling stelt beheerders in staat om het kleurenschema van de applicatie-interface te definiëren. Deze functie is bijzonder nuttig om onderscheid te maken tussen verschillende omgevingen zoals testen, sandbox en productie. Door verschillende kleuren aan elke omgeving toe te wijzen, kunnen gebruikers gemakkelijk identificeren in welke omgeving ze werken, waardoor het risico op het uitvoeren van kritieke acties in de verkeerde omgeving wordt verminderd.
 
-<figure><img src="../../../../.gitbook/assets/AppColor.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/AppColor.png)
 
-### Accessing the App Color Setting
+## Toegang tot de App-kleur Instelling
 
-1. **Navigate to Company Settings**:
-   * From the main menu, click on the **Company Information** section.
-2. **Locate the App Color Section**:
-   * Scroll down to the **App Color** section within the Company Information settings.
+1. **Navigeer naar Bedrijfsinstellingen**:
+   * Klik vanuit het hoofdmenu op de sectie **Bedrijfsinformatie**.
+2. **Zoek de App-kleur Sectie**:
+   * Scroll naar beneden naar de sectie **App-kleur** binnen de instellingen van Bedrijfsinformatie.
 
-### Setting the App Color
+## De App-kleur Instellen
 
-1. **Choose a Color**:
-   * Click on the color box or enter a hex code directly into the text field.
-   * A color picker will appear, allowing you to select the desired color.
-   * You can enter a specific hex code if you have a predetermined color for the environment.
-2. **Save the Color**:
-   * Once you have selected the color, click on the **Save** button to apply the change.
-   * The application interface will immediately update to reflect the new color.
-3. **Reset to Default**:
-   * If you wish to revert to the default color, click the **Reset** button.
+1. **Kies een Kleur**:
+   * Klik op het kleurvak of voer een hex-code direct in het tekstveld in.
+   * Een kleurenkiezer verschijnt, waarmee je de gewenste kleur kunt selecteren.
+   * Je kunt een specifieke hex-code invoeren als je een vooraf bepaalde kleur voor de omgeving hebt.
+2. **Sla de Kleur op**:
+   * Zodra je de kleur hebt geselecteerd, klik je op de **Opslaan** knop om de wijziging toe te passen.
+   * De applicatie-interface wordt onmiddellijk bijgewerkt om de nieuwe kleur weer te geven.
+3. **Reset naar Standaard**:
+   * Als je wilt terugkeren naar de standaardkleur, klik dan op de **Reset** knop.
 
-### Best Practices for Environment Colors
+## Beste Praktijken voor Omgevingskleuren
 
-To avoid confusion, it is recommended to establish a standard color scheme for each environment:
+Om verwarring te voorkomen, wordt aanbevolen om een standaard kleurenschema voor elke omgeving vast te stellen:
 
-* **Production**: Use a neutral or default color, such as **#FFFFFF** (white) or **#f0f0f0** (light grey), to indicate the live environment.
-* **Testing**: Use a bright or alerting color, such as **#ffcc00** (yellow) or **#ffa500** (orange), to indicate a testing environment.
-* **Sandbox**: Use a distinct color, such as **#007bff** (blue) or **#6c757d** (grey), to indicate a sandbox or development environment.
+* **Productie**: Gebruik een neutrale of standaardkleur, zoals **#FFFFFF** (wit) of **#f0f0f0** (lichtgrijs), om de live omgeving aan te geven.
+* **Testen**: Gebruik een heldere of waarschuwingskleur, zoals **#ffcc00** (geel) of **#ffa500** (oranje), om een testomgeving aan te geven.
+* **Sandbox**: Gebruik een onderscheidende kleur, zoals **#007bff** (blauw) of **#6c757d** (grijs), om een sandbox of ontwikkelomgeving aan te geven.
 
-### Subscription Plan Notice
+## Kennisgeving Abonnementsplan
 
-Under the App Color section, administrators will also see information related to the **Subscription Plan**. This includes the current plan, its status, and the remaining days of subscription.
+Onder de App-kleur sectie zullen beheerders ook informatie zien met betrekking tot het **Abonnementsplan**. Dit omvat het huidige plan, de status ervan en het aantal resterende dagen van het abonnement.
 
-### Importance of App Color
+## Belang van App-kleur
 
-The App Color setting is a simple yet effective tool to help users quickly recognize the environment they are working in. By carefully selecting and managing these colors, organizations can minimize errors and improve workflow efficiency.
+De App-kleur instelling is een eenvoudige maar effectieve tool om gebruikers te helpen snel de omgeving te herkennen waarin ze werken. Door deze kleuren zorgvuldig te selecteren en te beheren, kunnen organisaties fouten minimaliseren en de workflow-efficiëntie verbeteren.

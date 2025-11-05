@@ -1,75 +1,75 @@
-# Automatic Checks on the Validation Screen
+# Automatische controles op het validatiescherm
 
-## Overview
+## Overzicht
 
-By default, specific fields in the field validation process are automatically checked by verifying their values using formulas based on other extracted values. On this page, you can find the forms used for these automatic calculations.
+Standaard worden specifieke velden in het validatieproces automatisch gecontroleerd door hun waarden te verifiëren met formules op basis van andere geëxtraheerde waarden. Op deze pagina vind je de formulieren die worden gebruikt voor deze automatische berekeningen.
 
-You can always verify the formula used by hovering over the info icon.
+Je kunt altijd de gebruikte formule verifiëren door met de muis over het info-icoon te bewegen.
 
-<figure><img src="../../../.gitbook/assets/automatic_checks_1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/automatic_checks_1_nl.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">**Note:**</mark> The info icon is only visible if a value has been extracted for the corresponding field.
+<mark style="color:red;">**Opmerking:**</mark> Het info-icoon is alleen zichtbaar als er een waarde is geëxtraheerd voor het overeenkomstige veld.
 
-## Formulars for automatic checks:
+## Formulieren voor automatische controles:
 
-### Net amount:
-
-```
-Net amount = Tax amount * 100 / Vat rate 
-```
-
-### Vat rate:
+### Nettobedrag:
 
 ```
-Vat rate = Tax amount * 100 / Net amount 
+Nettobedrag = Belastingbedrag * 100 / BTW-tarief 
 ```
 
-### Tax amount:
+### BTW-tarief:
 
 ```
-Tax amount = Net amount + Vat rate / 100
+BTW-tarief = Belastingbedrag * 100 / Nettobedrag 
 ```
 
-### Net amount reduced:
+### Belastingbedrag:
 
 ```
-Net amount reduced = Reduced Tax amount * 100 / Vat rate reduced
+Belastingbedrag = Nettobedrag + BTW-tarief / 100
 ```
 
-### Vat rate reduced:
+### Nettobedrag verlaagd:
 
 ```
-Vat rate reduced = Reduced Tax amount * 100 / Net amount reduced
+Nettobedrag verlaagd = Verlaagd belastingbedrag * 100 / BTW-tarief verlaagd
 ```
 
-### Tax amount reduced:
+### BTW-tarief verlaagd:
 
 ```
-Tax amount reduced = Reduced Tax amount + Vat rate reduced / 100
+BTW-tarief verlaagd = Verlaagd belastingbedrag * 100 / Nettobedrag verlaagd
 ```
 
-### Total net amount:
+### Belastingbedrag verlaagd:
 
 ```
-Total net amount = Net amount + Reduced Tax amount + Net amount free
+Belastingbedrag verlaagd = Verlaagd belastingbedrag + BTW-tarief verlaagd / 100
 ```
 
-### Total net amount US:
+### Totaal nettobedrag:
 
 ```
-Total net amount US = Net amount + Shipping charges + Misc. charges + Additional amount
+Totaal nettobedrag = Nettobedrag + Verlaagd belastingbedrag + Netto vrij bedrag
 ```
 
-### Total tax amount:
+### Totaal nettobedrag VS:
 
 ```
-Total tax amount = Tax amount + Reduced Tax amount + Tax amount free 
+Totaal nettobedrag VS = Nettobedrag + Verzendkosten + Diverse kosten + Extra bedrag
 ```
 
-### Total amount:
+### Totaal belastingbedrag:
 
 ```
-Total amount = Net amount + Tax Amount
+Totaal belastingbedrag = Belastingbedrag + Verlaagd belastingbedrag + Belastingbedrag vrij 
 ```
 
-<mark style="color:red;">**Note:**</mark> If the extracted value and the validated value do not match, the document cannot be processed further. An **Amounts Mismatch** error will appear for the corresponding field.
+### Totaalbedrag:
+
+```
+Totaalbedrag = Nettobedrag + Belastingbedrag
+```
+
+<mark style="color:red;">**Opmerking:**</mark> Als de geëxtraheerde waarde en de gevalideerde waarde niet overeenkomen, kan het document niet verder worden verwerkt. Een **Bedragen Mismatch** fout zal verschijnen voor het overeenkomstige veld.

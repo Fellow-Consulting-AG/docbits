@@ -1,33 +1,27 @@
-# Troubleshooting
+# Problemen oplossen
 
-## Here are specific troubleshooting tips for common issues related to dashboard settings:
+## Hier zijn specifieke tips voor het oplossen van veelvoorkomende problemen met betrekking tot dashboardinstellingen:
 
+**Filters niet correct toegepast:**
 
+* Controleer eerst de filterinstellingen om ervoor te zorgen dat de juiste filters zijn toegepast en dat ze de gewenste gegevens weergeven.
+* Zorg ervoor dat filters logisch en consistent worden toegepast. Soms kan onjuiste filterlogica of onjuiste combinaties onverwachte resultaten opleveren.
+* Geef gebruikers richtlijnen over hoe ze filters correct kunnen gebruiken, zodat ze de filterfuncties effectief kunnen gebruiken.
 
-**Filters not applied correctly:**
+**Vertragingen bij het laden van gegevens:**
 
-* First, check the filter settings to make sure the correct filters have been applied and that they are displaying the desired data.
-* Make sure that filters are applied logically and consistently. Sometimes incorrect filter logic or incorrect combinations can produce unexpected results.
-* Provide users with guidance on how to use filters correctly to ensure they can use the filtering features effectively.
+* Controleer de netwerkverbinding om ervoor te zorgen dat deze stabiel is en geen vertragingen veroorzaakt.
+* Controleer de serverbelasting en de prestaties van de gegevensbron om te zien of dat het probleem is. Mogelijk moet u de gegevensbron optimaliseren of overstappen op een krachtigere infrastructuur.
+* Implementeer cachingmechanismen om laadtijden te verkorten, vooral voor vaak geraadpleegde gegevens. Moedig gebruikers aan hun gegevensquery's te optimaliseren door alleen de vereiste gegevensvelden op te halen en filters te gebruiken om de hoeveelheid gegevens te verminderen.
 
-**Delays in loading data:**
+**Browserproblemen:**
 
-* Check the network connection to make sure it is stable and not causing delays.
-* Check the server load and the performance of the data source to see if that is the problem. You may need to optimize the data source or switch to a more powerful infrastructure.
-* Implement caching mechanisms to reduce loading times, especially for frequently accessed data. Encourage users to optimize their data queries by retrieving only the required data fields and using filters to reduce the amount of data.
+* Zorg ervoor dat de browser die ze gebruiken compatibel is met het dashboard en dat alle vereiste updates zijn geïnstalleerd.
+* Raad gebruikers aan om regelmatig hun browsercache te wissen om geheugenproblemen te voorkomen en ervoor te zorgen dat ze de meest actuele gegevens krijgen.
+* Controleer op extensies of plug-ins in de browser die mogelijk interfereren met het dashboard en schakel ze indien nodig tijdelijk uit om problemen te isoleren.
 
-**Browser issues:**
+**Gebruikersspecifieke problemen:**
 
-* Make sure the browser they are using is compatible with the dashboard and has all required updates installed.
-* Recommend users to clear their browser cache regularly to avoid memory issues and ensure they are getting the most up-to-date data.
-* Check for extensions or plugins in the browser that might be interfering with the dashboard and temporarily disable them if necessary to isolate problems.
+* Bied individuele ondersteuning aan gebruikers die problemen blijven ondervinden. Mogelijk moet u hun specifieke instellingen, machtigingen of netwerkconfiguratie controleren om het probleem te identificeren en op te lossen.
 
-**User-specific issues:**
-
-* Offer individualized support for users who continue to have problems. You may need to check their specific settings, permissions, or network configuration to identify and resolve the issue.
-
-
-
-By providing users with these specific troubleshooting tips, you can help them effectively resolve common issues related to dashboard settings and increase their productivity.
-
-
+Door gebruikers deze specifieke tips voor probleemoplossing te bieden, kunt u hen helpen veelvoorkomende problemen met betrekking tot dashboardinstellingen effectief op te lossen en hun productiviteit te verhogen.

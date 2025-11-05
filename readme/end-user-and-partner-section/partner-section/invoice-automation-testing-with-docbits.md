@@ -1,58 +1,57 @@
-# Invoice Automation Testing with DocBits
+# Factuurautomatiseringstest met DocBits
 
-## Overview
+## Overzicht
 
-This document outlines the testing plan for invoice automation using DocBits with Infor LN or M3. It includes details of test cases, testing preparation, execution steps, and support processes.
+Dit document schetst het testplan voor factuurautomatisering met behulp van DocBits met Infor LN of M3. Het bevat details van testgevallen, testvoorbereiding, uitvoeringsstappen en ondersteuningsprocessen.
 
-## Testing Cases
+## Testgevallen
 
-| ID | Testing Case                                                               | Description                                                                                                                                                       | Status       |
-| -- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| 1  | Cost Invoices                                                              | Invoices with no purchase order are processed successfully in DocBits and exported to LN as “cost invoice”.                                                       | TO BE TESTED |
-| 2  | Purchase Order Related Invoice with Perfect Matching                       | Purchase order-related invoices are processed successfully in DocBits with a perfect match from invoice to PO, since item number, quantity, and unit price match. | TO BE TESTED |
-| 3  | Purchase Order Related Invoices with Different Quantity                    | Purchase order-related invoices are processed in DocBits but in the PO matching module, we have a mismatch on the quantity.                                       | TO BE TESTED |
-| 4  | Purchase Order Related Invoices with Different Unit Price                  | Purchase order-related invoices are processed in DocBits but in the PO matching module, we have a mismatch on the unit price.                                     | TO BE TESTED |
-| 5  | Purchase Order Related Invoices with Different or Non-Existing Item Number | Purchase order-related invoices are processed in DocBits but in the PO matching module, we have a mismatch or a non-existing item number.                         | TO BE TESTED |
-| 6  | Purchase Order Related Invoices with a Mismatch within Tolerance           | Purchase order-related invoices are processed in DocBits but in the PO matching module, we have a mismatch on quantity or unit price, but it’s within tolerance.  | TO BE TESTED |
-| 7  | Credit Notes                                                               | Credit notes are successfully processed in DocBits and exported to LN. Clarify whether amounts should be exported with a positive or negative sign.               | TO BE TESTED |
+| ID | Testgeval                                                                          | Beschrijving                                                                                                                                                                                          | Status    |
+| -- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| 1  | Kostenfacturen                                                                     | Facturen zonder inkooporder worden succesvol verwerkt in DocBits en geëxporteerd naar LN als “kostenfactuur”.                                                                                         | TE TESTEN |
+| 2  | Inkoopordergerelateerde factuur met perfecte overeenkomst                          | Inkoopordergerelateerde facturen worden succesvol verwerkt in DocBits met een perfecte overeenkomst van factuur naar inkooporder, aangezien artikelnummer, hoeveelheid en eenheidsprijs overeenkomen. | TE TESTEN |
+| 3  | Inkoopordergerelateerde facturen met verschillende hoeveelheden                    | Inkoopordergerelateerde facturen worden verwerkt in DocBits, maar in de inkooporderovereenkomstmodule hebben we een mismatch op de hoeveelheid.                                                       | TE TESTEN |
+| 4  | Inkoopordergerelateerde facturen met verschillende eenheidsprijzen                 | Inkoopordergerelateerde facturen worden verwerkt in DocBits, maar in de inkooporderovereenkomstmodule hebben we een mismatch op de eenheidsprijs.                                                     | TE TESTEN |
+| 5  | Inkoopordergerelateerde facturen met verschillende of niet-bestaande artikelnummer | Inkoopordergerelateerde facturen worden verwerkt in DocBits, maar in de inkooporderovereenkomstmodule hebben we een mismatch of een niet-bestaand artikelnummer.                                      | TE TESTEN |
+| 6  | Inkoopordergerelateerde facturen met een mismatch binnen toleranties               | Inkoopordergerelateerde facturen worden verwerkt in DocBits, maar in de inkooporderovereenkomstmodule hebben we een mismatch op hoeveelheid of eenheidsprijs, maar het is binnen de toleranties.      | TE TESTEN |
+| 7  | Creditnota's                                                                       | Creditnota's worden succesvol verwerkt in DocBits en geëxporteerd naar LN. Verduidelijk of bedragen met een positief of negatief teken moeten worden geëxporteerd.                                    | TE TESTEN |
 
-## Plan for Testing with Customer
+## Plan voor Testen met Klant
 
-### 1. Set Up
+### 1. Opzetten
 
-* **Initial Meeting**: Schedule a kickoff meeting with the customer to explain the testing process and objectives.
-* **Access and Permissions**: Ensure the customer has all necessary access to DocBits and Infor LN or M3 for testing purposes.
+* **Initiële Vergadering**: Plan een kick-off vergadering met de klant om het testproces en de doelstellingen uit te leggen.
+* **Toegang en Machtigingen**: Zorg ervoor dat de klant alle benodigde toegang heeft tot DocBits en Infor LN of M3 voor testdoeleinden.
 
-### 2. Testing Preparation
+### 2. Testvoorbereiding
 
-* **Training**: Provide comprehensive training to the customer’s team on how to use DocBits for invoice processing.
-* **Documentation**: Share detailed documentation on the testing procedures, including expected outcomes for each test case.
+* **Training**: Bied uitgebreide training aan het team van de klant over hoe DocBits te gebruiken voor factuurverwerking.
+* **Documentatie**: Deel gedetailleerde documentatie over de testprocedures, inclusief verwachte resultaten voor elk testgeval.
 
-### 3. Execution of Test Cases
+### 3. Uitvoering van Testgevallen
 
-* **Testing Environment**: Set up a testing environment that replicates the customer's production system as closely as possible.
-* **Step-by-Step Testing**: Work with the customer to execute each test case, ensuring they understand each step:
-  * Process invoices through DocBits.
-  * Verify the output in the PO matching module.
-  * Check the export results in LN or M3.
+* **Testomgeving**: Zet een testomgeving op die het productiesysteem van de klant zo nauwkeurig mogelijk nabootst.
+* **Stap-voor-Stap Testen**: Werk samen met de klant om elk testgeval uit te voeren, en zorg ervoor dat ze elke stap begrijpen:
+  * Verwerk facturen via DocBits.
+  * Controleer de output in de inkooporderovereenkomstmodule.
+  * Controleer de exportresultaten in LN of M3.
 
-### 4. Issue Resolution
+### 4. Probleemoplossing
 
-* **Tracking**: Use a tracking system (like Jira or a simple spreadsheet) to log any issues or mismatches that occur during testing.
-* **Support**: Provide immediate support to resolve issues and clarify any doubts.
+* **Tracking**: Gebruik een tracking systeem (zoals Jira of een eenvoudige spreadsheet) om eventuele problemen of mismatches die tijdens het testen optreden te registreren.
+* **Ondersteuning**: Bied onmiddellijke ondersteuning om problemen op te lossen en eventuele twijfels te verduidelijken.
 
-### 5. Verification and Feedback
+### 5. Verificatie en Feedback
 
-* **Verification**: After each test case, verify the results with the customer to ensure accuracy.
-* **Feedback Loop**: Collect feedback from the customer on the process and any improvements needed.
+* **Verificatie**: Verifieer na elk testgeval de resultaten met de klant om de nauwkeurigheid te waarborgen.
+* **Feedbackloop**: Verzamel feedback van de klant over het proces en eventuele verbeteringen die nodig zijn.
 
-### 6. Finalization
+### 6. Finalisatie
 
-* **Documentation of Results**: Document the results of each test case and provide a summary report to the customer.
-* **Review Meeting**: Conduct a review meeting to discuss the testing outcomes and any further steps required before going live.
+* **Documentatie van Resultaten**: Documenteer de resultaten van elk testgeval en geef een samenvattend rapport aan de klant.
+* **Reviewvergadering**: Voer een reviewvergadering uit om de testresultaten en eventuele verdere stappen te bespreken die nodig zijn voordat we live gaan.
 
-### 7. Go Live Preparation
+### 7. Voorbereiding op Livegang
 
-* **Training Refresh**: Offer a refresher training session if necessary.
-* **Support Plan**: Develop a support plan for the initial go-live phase to ensure smooth transition.
-
+* **Training Verfrissing**: Bied een opfristraining aan indien nodig.
+* **Ondersteuningsplan**: Ontwikkel een ondersteuningsplan voor de initiële livegangfase om een soepele overgang te waarborgen.

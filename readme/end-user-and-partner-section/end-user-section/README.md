@@ -1,23 +1,23 @@
-# End User Section
+# Eindgebruikerssectie
 
-### Getting Started
+### Aan de Slag
 
-* **Login and Navigation:** How to access Docbits and navigate through the interface.
-* **Initial Configuration:** Setting up Docbits for first-time use.
+* **Inloggen en Navigatie:** Hoe toegang te krijgen tot Docbits en door de interface te navigeren.
+* **Initiële Configuratie:** Docbits instellen voor eerste gebruik.
 
-### Daily Use
+### Dagelijks Gebruik
 
-* **Document Submission:** Instructions for submitting documents into Docbits.
-* **Document Review and Approval:**
-  * **Approving Orders:** Steps for reviewing and approving order forms.
-  * **Processing Invoices:** Guide on how to process incoming invoices for payment.
+* **Documentindiening:** Instructies voor het indienen van documenten in Docbits.
+* **Documentbeoordeling en Goedkeuring:**
+  * **Bestellingen Goedkeuren:** Stappen voor het beoordelen en goedkeuren van bestelformulieren.
+  * **Facturen Verwerken:** Gids over hoe binnenkomende facturen voor betaling te verwerken.
 
-### Managing Documents
+### Documenten Beheren
 
-* **Search and Retrieve:** How to find and access documents within Docbits.
-* **Edit and Update:** Editing documents and updating their status.
+* **Zoeken en Ophalen:** Hoe documenten binnen Docbits te vinden en te openen.
+* **Bewerken en Bijwerken:** Documenten bewerken en hun status bijwerken.
 
-### Troubleshooting
+### Probleemoplossing
 
-* **Common Issues:** Solutions to frequent problems encountered by users.
-* [**Support Contact**](ressources-and-support/user-support.md)**:** How to reach support for assistance.
+* **Veelvoorkomende Problemen:** Oplossingen voor frequente problemen die gebruikers tegenkomen.
+* [**Ondersteuning Contact**](ressources-and-support/user-support.md)**:** Hoe ondersteuning te bereiken voor hulp.

@@ -1,58 +1,63 @@
 # DocBits
 
-Welcome to DocBits
+Welkom bij DocBits
 
-Welcome to **DocBits**, your comprehensive source for documentation strategies and insights. At DocBits, we are dedicated to providing clear, concise, and up-to-date documentation resources for [enduser](end-user-and-partner-section/end-user-section/), [admins](administration-and-setup/settings/), and [partners](end-user-and-partner-section/partner-section/).
+Welkom bij DocBits, uw uitgebreide bron voor documentatiestrategieën en inzichten. Bij DocBits zijn we toegewijd aan het bieden van duidelijke, beknopte en up-to-date documentatieresources voor eindgebruikers, beheerders en partners.
 
-## DocBits with Workflow
+**DocBits met Workflow**
 
-{% @arcade/embed flowid="JqTpGV34UBKmI0iAumoX" url="https://app.arcade.software/share/JqTpGV34UBKmI0iAumoX" %}
+DocBits van FELLOWPRO AG is een geavanceerde intelligente documentverwerkingsoplossing (IDP) die is ontworpen om het verwerken van bedrijfsdocumenten te optimaliseren en te automatiseren. Hieronder vindt u een overzicht van de unieke kenmerken en voordelen:
 
-[**DocBits**](https://www.docbits.com) **by** [**FELLOWPRO AG**](https://www.fellowpro.com) is an advanced intelligent document processing (IDP) solution designed to optimize and automate the handling of business documents. Below is a summary of its unique features and benefits:
+**Belangrijkste kenmerken**
 
-## **Key Features**
+**Automatische Gegevensextractie**\
+Maakt gebruik van AI en OCR (Optical Character Recognition) technologie om gegevens uit verschillende documenttypen te halen.\
+Ondersteunt meer dan 120 talen.\
+In staat om ongestructureerde gegevens te extraheren op zowel hoofd- als regelniveau.
 
-1. **Automatic Data Extraction**
-   * Utilizes AI and OCR (Optical Character Recognition) technology to extract data from various document types.
-   * Supports over 120 languages.
-   * Capable of extracting unstructured data at both header and line levels.
-2. **Swarm Intelligence**
-   * Leverages the power of AI swarm intelligence to deliver communal benefits across customers.
-   * Enhances the training of classification and extraction models with input from a wide range of users.
-   * Provides over 96% accuracy in data extraction and classification.
-3. [**PO Matching**](end-user-and-partner-section/end-user-section/purchase-order-matching/)
-   * Automates the reconciliation of purchase orders with incoming invoices.
-   * Ensures accurate financial transactions and promptly addresses discrepancies.
-   * Supports matching of various document types, not limited to invoices.
-4. [**Auto Accounting**](end-user-and-partner-section/end-user-section/accounting-for-cost-invoice-and-indirect-sales.md)
-   * Facilitates automatic booking to ledger accounts.
-   * Allows splitting of amounts by department.
-   * Supports the definition of ledger accounts by the accounts payable team.
-5. **Integrated Validation and** [**Approval**](administration-and-setup/settings/document-processing/module/approval-before-export.md) **Processes**
-   * Provides integrated validation processes to ensure data accuracy.
-   * Features approval [workflows](administration-and-setup/workflow/) to streamline document handling.
-6. **Seamless Integration**
-   * Integrates seamlessly with Infor IDM (Intelligent Document Management) and Infor ERP (Enterprise Resource Planning) systems, including [M3](infor-integration-and-configuration/importing-customer-master-data/m3/) and [LN](infor-integration-and-configuration/importing-customer-master-data/ln/).
-   * Supports data import through [email](end-user-and-partner-section/end-user-section/how-to-import-documents/email/) or [FTP](end-user-and-partner-section/end-user-section/how-to-import-documents/ftp.md) connection and export to relevant ERP modules.
-7. **User-Friendly Interface**
-   * Offers a modern and simple UI that requires no IT resources for setup and maintenance.
-   * Features an interactive dashboard with unlimited document types and custom extracted columns.
-8. **Secure Cloud-Based Solution**
-   * Hosted on a secure cloud in Germany, ensuring data privacy and security.
-   * Facilitates easy migration from legacy solutions.
+**Zwermintelligentie**\
+Benut de kracht van AI-zwermintelligentie om gemeenschappelijke voordelen te bieden aan klanten.\
+Verbetert de training van classificatie- en extractiemodellen met input van een breed scala aan gebruikers.\
+Levert meer dan 96% nauwkeurigheid in gegevensextractie en classificatie.
 
-**Benefits**
+**PO Matching**\
+Automatiseert de afstemming van inkooporders met binnenkomende facturen.\
+Zorgt voor nauwkeurige financiële transacties en lost afwijkingen snel op.\
+Ondersteunt de afstemming van verschillende documenttypen, niet alleen facturen.
 
-* **Efficiency**: Automates repetitive tasks, reducing manual entry and errors.
-* **Accuracy**: High accuracy in data extraction and document classification.
-* **Scalability**: Can handle unlimited document types and volumes.
-* **Compliance**: Maintains an audit trail for compliance and review.
-* **Cost Savings**: Reduces the need for physical storage and manual processing.
+**Automatische Boekhouding**\
+Maakt automatische boeking naar grootboekrekeningen mogelijk.\
+Staat het splitsen van bedragen per afdeling toe.\
+Ondersteunt de toewijzing van grootboekrekeningen door het team voor crediteurenbeheer.
 
-**Use Cases**
+**Geïntegreerde Validatie- en Goedkeuringsprocessen**\
+Biedt geïntegreerde validatieprocessen om gegevensnauwkeurigheid te waarborgen.\
+Beschikt over goedkeuringsworkflows om het documentbeheer te stroomlijnen.
 
-* Suitable for a wide range of industries and document types, including invoices, delivery notes, order confirmations, and more.
-* Ideal for businesses looking to optimize their document capturing processes and enhance operational efficiency.
+**Naadloze Integratie**\
+Integreert naadloos met Infor IDM (Intelligent Document Management) en Infor ERP (Enterprise Resource Planning) systemen, waaronder M3 en LN.\
+Ondersteunt gegevensimport via e-mail of FTP-verbinding en export naar relevante ERP-modules.
+
+**Gebruiksvriendelijke Interface**\
+Biedt een moderne en eenvoudige gebruikersinterface die geen IT-bronnen vereist voor installatie en onderhoud.\
+Beschikt over een interactief dashboard met onbeperkte documenttypen en aangepaste geëxtraheerde kolommen.
+
+**Veilige Cloudgebaseerde Oplossing**\
+Gehost in een veilige cloud in Duitsland, wat zorgt voor gegevensprivacy en -beveiliging.\
+Vergemakkelijkt de eenvoudige migratie van verouderde oplossingen.
+
+**Voordelen**
+
+**Efficiëntie**: Automatiseert repetitieve taken, waardoor handmatige invoer en fouten worden verminderd.\
+**Nauwkeurigheid**: Hoge nauwkeurigheid bij gegevensextractie en documentclassificatie.\
+**Schaalbaarheid**: Kan onbeperkte documenttypen en -volumes verwerken.\
+**Naleving**: Handhaaft een controletraject voor naleving en beoordeling.\
+**Kostenbesparing**: Vermindert de noodzaak van fysieke opslag en handmatige verwerking.
+
+**Toepassingsgebieden**
+
+Geschikt voor een breed scala aan industrieën en documenttypen, waaronder facturen, afleverbonnen, orderbevestigingen en meer.\
+Ideaal voor bedrijven die hun documentcapturing-processen willen optimaliseren en hun operationele efficiëntie willen verbeteren.
 
 For more information, visit [FellowPRO AG](https://fellowpro.com/) or contact sales at sales@fellowpro.com. Follow us on [LinkedIn](https://www.linkedin.com/company/fellowpro).
 

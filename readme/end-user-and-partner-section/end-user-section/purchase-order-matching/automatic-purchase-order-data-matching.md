@@ -1,31 +1,31 @@
-# Automatic Purchase Order Data Matching
+# Automatische Afstemming van Inkoopordergegevens
 
-Docbits is an advanced system designed to automate the matching of purchase order data (POs) with incoming invoice documents. This tool is specifically designed for efficient management and processing of invoice data within ERP systems. This documentation explains the basics of automatic matching through Docbits and defines the specific rules required for successful matching.
+Docbits is een geavanceerd systeem dat is ontworpen om de afstemming van inkoopordergegevens (PO's) met binnenkomende factuurdocumenten te automatiseren. Deze tool is specifiek ontworpen voor efficiënt beheer en verwerking van factuurgegevens binnen ERP-systemen. Deze documentatie legt de basisprincipes van automatische afstemming via Docbits uit en definieert de specifieke regels die nodig zijn voor succesvolle afstemming.
 
 <figure><img src="../../../.gitbook/assets/Automatic Purchase Order Data Matching.svg" alt=""><figcaption></figcaption></figure>
 
-## **Fundamental Principles of Auto Matching in Docbits**
+## **Fundamentele Principes van Automatische Afstemming in Docbits**
 
-**Data Extraction:** Docbits begins the process by extracting relevant data from digitized invoice documents. Typically, this data includes item numbers, quantities, and unit prices of each invoice line. The precision of this extraction is crucial, as it forms the basis for the subsequent matching process.
+**Gegevensextractie:** Docbits begint het proces door relevante gegevens uit gedigitaliseerde factuurdocumenten te extraheren. Meestal omvatten deze gegevens artikelnummers, hoeveelheden en eenheidsprijzen van elke factuurregel. De nauwkeurigheid van deze extractie is cruciaal, omdat het de basis vormt voor het daaropvolgende afstemmingsproces.
 
-**Comparison with PO Data:** The extracted data are compared with the corresponding information in the stored purchase orders. Docbits checks whether the item numbers, quantities, and prices match those in the POs. For a successful match, the data in the invoices must correspond to the data in the purchase orders, considering defined tolerance thresholds.
+**Vergelijking met PO-gegevens:** De geëxtraheerde gegevens worden vergeleken met de overeenkomstige informatie in de opgeslagen inkooporders. Docbits controleert of de artikelnummers, hoeveelheden en prijzen overeenkomen met die in de PO's. Voor een succesvolle afstemming moeten de gegevens in de facturen overeenkomen met de gegevens in de inkooporders, rekening houdend met gedefinieerde tolerantiedrempels.
 
-**Automatic Matching:** Based on the comparison results, Docbits performs the matching. The system verifies whether the matching criteria fall within the set tolerance limits. If these criteria are met, the match is considered successful.
+**Automatische Afstemming:** Op basis van de vergelijkingsresultaten voert Docbits de afstemming uit. Het systeem controleert of de afstemmingscriteria binnen de ingestelde tolerantielimieten vallen. Als aan deze criteria wordt voldaan, wordt de afstemming als succesvol beschouwd.
 
-**Reporting:** After completing the matching process, Docbits generates reports that show the status of the matches. These reports inform about successfully matched invoices and identify those with discrepancies.
+**Rapportage:** Na voltooiing van het afstemmingsproces genereert Docbits rapporten die de status van de afstemmingen tonen. Deze rapporten informeren over succesvol afgestemde facturen en identificeren die met afwijkingen.
 
-## **Definition of Matching Rules**
+## **Definitie van Afstemmingsregels**
 
-**Item Number:** The item number on the invoice must exactly match the item number in the purchase order. There is no tolerance for deviations in item numbers.
+**Artikelnummer:** Het artikelnummer op de factuur moet exact overeenkomen met het artikelnummer in de inkooporder. Er is geen tolerantie voor afwijkingen in artikelnummers.
 
-**Quantities:** The quantity of goods delivered on the invoice may vary within a predefined tolerance range. Typically, a tolerance of ±5% might be acceptable to account for minor differences in delivery quantities.
+**Hoeveelheden:** De hoeveelheid geleverde goederen op de factuur kan variëren binnen een vooraf gedefinieerd tolerantiebereik. Meestal kan een tolerantie van ±5% acceptabel zijn om rekening te houden met kleine verschillen in leveringshoeveelheden.
 
-**Prices:** Price deviations are tolerable up to a set threshold. A common tolerance might be ±2% of the price to accept slight differences in price statements that arise from rounding differences or currency fluctuations.
+**Prijzen:** Prijsafwijkingen zijn toelaatbaar tot een ingestelde drempel. Een gebruikelijke tolerantie kan ±2% van de prijs zijn om kleine verschillen in prijsopgaven te accepteren die voortkomen uit afrondingsverschillen of valutafluctuaties.
 
-## **Match Status:**
+## **Afstemmingsstatus:**
 
-* **Full Match:** All data points (item number, quantity, and price) are within the set tolerance limits.
-* **Partial Match:** One or more data points deviate outside the tolerance limits, but the deviations are minimal and require manual review.
-* **No Match:** Significant deviations in one or more data points that require immediate correction or further investigation.
+* **Volledige Afstemming:** Alle gegevenspunten (artikelnummer, hoeveelheid en prijs) liggen binnen de ingestelde tolerantielimieten.
+* **Gedeeltelijke Afstemming:** Een of meer gegevenspunten wijken af buiten de tolerantielimieten, maar de afwijkingen zijn minimaal en vereisen handmatige controle.
+* **Geen Afstemming:** Significante afwijkingen in een of meer gegevenspunten die onmiddellijke correctie of verder onderzoek vereisen.
 
-The precise definition of these rules and the setting of tolerance limits are crucial for the efficiency of the automatic matching and the reduction of manual interventions. Docbits allows for flexible configuration of these parameters to meet the needs of various businesses and industries.
+De precieze definitie van deze regels en het instellen van tolerantielimieten zijn cruciaal voor de efficiëntie van de automatische afstemming en de vermindering van handmatige interventies. Docbits biedt flexibele configuratie van deze parameters om te voldoen aan de behoeften van verschillende bedrijven en industrieën.

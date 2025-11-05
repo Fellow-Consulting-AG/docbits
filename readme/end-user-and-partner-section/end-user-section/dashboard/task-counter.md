@@ -1,13 +1,13 @@
-# Task Counter
+# Taakenteller
 
-The task counter is located in the upper-right corner of the Dashboard home page.
+De taakenteller bevindt zich in de rechterbovenhoek van de startpagina van het Dashboard.
 
 <figure><img src="../../../.gitbook/assets/task-counter1.png" alt=""><figcaption></figcaption></figure>
 
-This is where you can see how many documents are in your queue for processing
+Hier kunt u zien hoeveel documenten er in uw wachtrij staan voor verwerking
 
 <figure><img src="../../../.gitbook/assets/task-counter2.png" alt="" width="563"><figcaption></figcaption></figure>
 
-and how many documents are now ready for validation.
+en hoeveel documenten nu klaar zijn voor validatie.
 
 <figure><img src="../../../.gitbook/assets/task-counter3.png" alt="" width="563"><figcaption></figcaption></figure>

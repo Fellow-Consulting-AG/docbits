@@ -1,38 +1,38 @@
-# Document Flow
+# Documentflow
 
-## **Overview:**
+## **Overzicht:**
 
-This page provides a graphical overview of the various steps a document has gone through up to this point.
+Deze pagina biedt een grafisch overzicht van de verschillende stappen die een document tot nu toe heeft doorlopen.
 
-## **How to Access:**
+## **Toegang:**
 
-### **Option 1:**
+### **Optie 1:**
 
-1.  Navigate to the actions column on the dashboard and click the three dots next to the document for which you want to view the document flow.
+1.  Navigeer naar de actieskolom op het Dashboard en klik op de drie stippen naast het document waarvan je de documentflow wilt bekijken.
 
-    <figure><img src="../../../.gitbook/assets/DocumentFlow_1.png" alt=""><figcaption></figcaption></figure>
-2.  Select **Document Flow**.
+    <figure><img src="../../../.gitbook/assets/DocumentFlow_1_nl.png" alt=""><figcaption></figcaption></figure>
+2.  Selecteer **Documentflow**.
 
-    <figure><img src="../../../.gitbook/assets/DocumentFlow_2.png" alt="" width="248"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/DocumentFlow_2_nl.png" alt="" width="278"><figcaption></figcaption></figure>
 
-### **Option 2:**
+### **Optie 2:**
 
-1. Open the document you want to view the document flow for.
-2.  Click the three dots on the right side of the Field Validation.
+1. Open het document waarvan je de documentflow wilt bekijken.
+2.  Klik op de drie stippen aan de rechterkant van de Veldvalidatie.
 
-    <figure><img src="../../../.gitbook/assets/DocumentFlow_3.png" alt=""><figcaption></figcaption></figure>
-3.  Select **Document Flow**.
+    <figure><img src="../../../.gitbook/assets/DocumentFlow_3_nl.png" alt=""><figcaption></figcaption></figure>
+3.  Selecteer **Documentflow**.
 
-    <figure><img src="../../../.gitbook/assets/DocumentFlow_4.png" alt="" width="288"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/DocumentFlow_4_nl.png" alt="" width="354"><figcaption></figcaption></figure>
 
-## **Description:**
+## **Beschrijving:**
 
-On the left side of the screen, you will see the individual steps of the document flow, listed from left to right.
+Aan de linkerkant van het scherm zie je de individuele stappen van de documentflow, van links naar rechts weergegeven.
 
-<figure><img src="../../../.gitbook/assets/DocumentFlow_6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/DocumentFlow_5_nl.png" alt=""><figcaption></figcaption></figure>
 
-* Steps that initiate the document flow process (such as import or restart) will appear in green.
-* To navigate through the steps, simply drag and drop them on the screen.
-*   When you click on a step, the name of the module and information about whether the step was successful or not will appear on the right side of the screen.
+* Stappen die het documentflowproces initiëren (zoals importeren of herstarten) worden in het groen weergegeven.
+* Om door de stappen te navigeren, sleep je ze eenvoudig op het scherm.
+*   Wanneer je op een stap klikt, verschijnt de naam van de module en informatie over of de stap succesvol was of niet aan de rechterkant van het scherm.
 
-    <figure><img src="../../../.gitbook/assets/DocumentFlow_7.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/DocumentFlow_6_nl.png" alt=""><figcaption></figcaption></figure>

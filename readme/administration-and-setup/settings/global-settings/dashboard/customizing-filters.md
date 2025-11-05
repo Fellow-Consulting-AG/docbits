@@ -1,84 +1,75 @@
-# Customizing Filters
+# Filters aanpassen
 
-If you are looking for one or more specific documents, the following options are available to you. Within the search bar, we have provided you with various tools to help you find the document you are looking for. To access them, select the following icon.&#x20;
+Als je op zoek bent naar een of meer specifieke documenten, zijn de volgende opties beschikbaar. Binnen de zoekbalk hebben we verschillende tools aangeboden om je te helpen het document te vinden dat je zoekt. Om toegang te krijgen tot deze tools, selecteer je het volgende pictogram.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-06-03 um 08.48.44.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/customizing_filters_1.png)
 
-Using filters allows users to quickly find relevant information and reduce the amount of data to the essentials.
+Het gebruik van filters stelt gebruikers in staat om snel relevante informatie te vinden en de hoeveelheid gegevens tot de essentie te reduceren.
 
-### How to customize and apply filters in DocBits
+## Hoe filters aan te passen en toe te passen in DocBits
 
-#### Accessing the filter settings Opening the dashboard:&#x20;
+### Toegang tot de filterinstellingen Dashboard openen:
 
-* Log in to DocBits and open the dashboard that contains the data you want to filter.&#x20;
+* Log in op DocBits en open het dashboard dat de gegevens bevat die je wilt filteren.
 
-**Accessing the filter menu:**&#x20;
+**Toegang tot het filtermenu:**
 
-* Click the filter icon or search field.
+* Klik op het filterpictogram of het zoekveld.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/customizing_filters_2.png)
 
-#### Customizing filters
+### Filters aanpassen
 
-**Using predefined filters**
+#### **Gebruik maken van vooraf gedefinieerde filters**
 
-* Open the filter menu.
-* Choose from the predefined filter options (e.g. Date, Document Type, Assigned Person).
-* Adjust the filter criteria by selecting or entering the appropriate values ​​(e.g. date range, specific document type).
+* Open het filtermenu.
+* Kies uit de vooraf gedefinieerde filteropties (bijv. Datum, Documenttype, Toegewezen Persoon).
+* Pas de filtercriteria aan door de juiste waarden te selecteren of in te voeren (bijv. datumbereik, specifiek documenttype).
 
+#### **Je eigen filters maken**
 
+* Open het filtermenu in de instellingen onder Dashboard en klik op "Filters".
 
-**Create your own filters**
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/customizing_filters_3.png)
 
-* Open the filter menu in the settings under Dashboard and click on "Filters".
+* Selecteer het veld dat gefilterd moet worden (bijv. Status).
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-06-03 um 09.01.06.png" alt="" width="375"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/customizing_filters_4.png)
 
-* Select the field to be filtered (e.g. Status).
+* Definieer de filtercriteria, bijv.: Status filterstijl.
 
-<div data-full-width="true"><figure><img src="../../../../.gitbook/assets/image (1) (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/customizing_filters_4.png)
 
-* Define the filter criteria, e.g.: Status filter style.
+* Dropdownmenu's: Kies uit vooraf gedefinieerde opties.
 
-<figure><img src="../../../../.gitbook/assets/image (2) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/customizing_filters_6.png)
 
-* Dropdown menus: Choose from predefined options.
+* Sla de aangepaste filter op door op "Toepassen" te klikken.
 
-<figure><img src="../../../../.gitbook/assets/image (3) (2).png" alt="" width="250"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/customizing_filters_7.png)
 
-* Save the custom filter by clicking "Apply".
+#### **Gebruik gecombineerde filters**
 
-<figure><img src="../../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+* Open het filtermenu en selecteer meerdere filtercriteria tegelijk.
+* Combineer filtercriteria.
+* **Voorbeeld:** Documenten die zijn aangemaakt door zowel de auteur "Max Mustermann" EN die zijn aangemaakt in de afgelopen maand.
+* Zodra je een filter hebt geselecteerd, wordt deze automatisch toegepast.
 
-**Use combined filters**
+#### **Filters toepassen en beheren**
 
-* Open the filter menu and select multiple filter criteria at once.
-* Combine filter criteria.
-* **Example:** Documents that were created by both the author "Max Mustermann" AND were created in the last month.
-* Once you have selected a filter, it will be applied automatically.
+**Filters toepassen**
 
+* Nadat je de gewenste filters hebt geselecteerd en aangepast, worden de filters automatisch toegepast.
 
+**Filters verwijderen**
 
-**Applying and Managing Filters**&#x20;
+* Open het Filters-menu.
+* Stap 2: Wis of verwijder de toegepaste filters door op "Filters wissen" te klikken, het X-pictogram naast de geselecteerde filter, hetzij in het Filters-menu of onder de Filters-balk.
 
-**Applying Filters**
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/customizing_filters_8.png)
 
-* After you select and adjust the desired filters, the filters are automatically applied.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/customizing_filters_9.png)
 
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/customizing_filters_10.png)
 
-
-**Removing Filters**
-
-* Open the Filters menu.
-* Step 2: Clear or remove the applied filters by clicking "Clear Filters", the X icon next to the selected filter either in the Filters menu or below the Filters bar.
-
-<figure><img src="../../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-06-03 um 09.16.50.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-06-03 um 09.19.52.png" alt=""><figcaption></figcaption></figure>
-
-* The data is displayed again without the previous filter criteria.
-
-
-
+* De gegevens worden opnieuw weergegeven zonder de vorige filtercriteria.

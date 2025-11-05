@@ -1,21 +1,22 @@
-# Save and Delete Rules
+# Regels Opslaan en Verwijderen
 
-If you’re using DocBits for document/table extraction, it’s important to save and delete rules properly to ensure your data is extracted accurately. This guide will walk you through the process.
+Zodra u de training of correctie van een tabel heeft voltooid, is het belangrijk om **uw regels op te slaan** zodat DocBits ze automatisch kan toepassen op toekomstige documenten van dezelfde leverancier.
 
-## Save Rules
+## Regels Opslaan
 
-Once you’ve trained a document in DocBits and defined all the rules for table extraction, you can save those rules for future imports. This means that the tables in your documents will be extracted automatically, without any manual training required.
+Nadat u alle kolommen en correcties heeft gedefinieerd:
 
-To save your rules, simply click the “SAVE RULES” button. You’ll see a rule indicator that shows how many rules have been defined and saved for that document.
+1. Klik op de knop **REGELS OPSLAAN** bovenaan.
+2. Een regelteller bevestigt hoeveel extractieregels er zijn opgeslagen.
 
-![save rules](https://lh7-us.googleusercontent.com/zVn\_mYiL7PwiILj2gJ4sxaPKpEUNOfKwryiZJ2Umk2SpvGHZ8OVUznBReJHqCM7UstWTt6nq0azJrtPDK\_2q4jVUZgsE7bf6toT9kl57wByn4EG3JqafBfZt5G54OZ8okUfpLUH1tvHb0mZIC119I4k)
+Dit zorgt ervoor dat DocBits automatisch uw getrainde lay-out zal gebruiken de volgende keer dat het een vergelijkbaar document ziet.
 
-## Delete Rules
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2Flh7-us.googleusercontent.com%2FzVn_mYiL7PwiILj2gJ4sxaPKpEUNOfKwryiZJ2Umk2SpvGHZ8OVUznBReJHqCM7UstWTt6nq0azJrtPDK_2q4jVUZgsE7bf6toT9kl57wByn4EG3JqafBfZt5G54OZ8okUfpLUH1tvHb0mZIC119I4k\&width=768\&dpr=4\&quality=100\&sign=dc056624\&sv=2)
 
-If you need to delete rules for a document, you can do so using the “DELETE RULES” button. This may be necessary if rules have been saved incorrectly or if you need to retrain a document.
+## Regels Verwijderen
 
-However, it’s important to note that deleting rules will affect all documents with the same or similar format. This means that you’ll need to retrain those documents from scratch. So, be sure to use this feature with caution.
+U kunt opgeslagen regels verwijderen met de knop **REGELS VERWIJDEREN** als ze verkeerd geconfigureerd waren of als de lay-out van het document aanzienlijk is gewijzigd.
 
-![](https://lh7-us.googleusercontent.com/KyfMBBv2ghBgSmqTZ4zMVsHKaoAVwcha8XRhUPNPrVMNwsmHXCDMDSsmkJYE2EYWynD1SzMcf57dmqvGIC4u3UpQohRxZW3A2RNICsNyI6Du0-jd3ZibupkTwRnYoD\_XUAbfypZ5iQj-9Z0XN\_SreUs)
+**Waarschuwing**: Het verwijderen van regels heeft invloed op alle documenten van dezelfde leverancier met dezelfde lay-out. U moet **de tabel extractie opnieuw trainen vanaf nul**.
 
-
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2Flh7-us.googleusercontent.com%2FKyfMBBv2ghBgSmqTZ4zMVsHKaoAVwcha8XRhUPNPrVMNwsmHXCDMDSsmkJYE2EYWynD1SzMcf57dmqvGIC4u3UpQohRxZW3A2RNICsNyI6Du0-jd3ZibupkTwRnYoD_XUAbfypZ5iQj-9Z0XN_SreUs\&width=768\&dpr=4\&quality=100\&sign=1a65fb86\&sv=2)

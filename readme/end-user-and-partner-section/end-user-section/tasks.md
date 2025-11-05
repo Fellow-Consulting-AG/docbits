@@ -1,7 +1,7 @@
-# Tasks
+# Taken
 
-This is where you can keep an eye on your tasks. You can pick between two different layouts – one is a bit more detailed than the other. You can also filter tasks by different criteria, like whether they're assigned to you or the status of the task.
+Dit is waar je een oogje in het zeil kunt houden op je taken. Je kunt kiezen tussen twee verschillende indelingen – de ene is iets gedetailleerder dan de andere. Je kunt ook taken filteren op verschillende criteria, zoals of ze aan jou zijn toegewezen of de status van de taak.
 
-<figure><img src="../../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tasks1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tasks2.png" alt=""><figcaption></figcaption></figure>

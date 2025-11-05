@@ -8,8 +8,6 @@ The role of an administrator is crucial for managing IT systems, networks and di
 
 In addition to these responsibilities, administrators are also tasked with managing sensitive settings and ensuring that systems meet compliance requirements and information security best practices. This includes managing sensitive data, configuring access controls and permissions, and monitoring and analyzing system logs to identify and address potential security risks.
 
-
-
 ## Security Best Practice
 
 Security is an essential aspect of any organization, especially when it comes to managing user accounts and access rights. Here are some best practices to maintain a secure user management protocol:
@@ -22,6 +20,3 @@ Security is an essential aspect of any organization, especially when it comes to
 * **Training and awareness:** Regularly train employees and administrators on security best practices and awareness of phishing attacks and other cyber threats. Make them aware of the importance of security and encourage them to report suspicious activity.
 
 By implementing these best practices, organizations can improve the security of their user management protocol and minimize the risk of security breaches and data loss. It is important to view security as an ongoing process and make regular updates and adjustments to keep up with ever-changing threats and security requirements.
-
-
-

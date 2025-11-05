@@ -4,41 +4,36 @@
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.54.08.png" alt=""><figcaption></figcaption></figure>
 
-#### Overview
+## **Overzicht**
 
-Document Sub Types are essentially specialized versions of the main document types. For example, under the main document type "Invoice", there might be sub-types like "Standard Invoice", "Pro-forma Invoice", and "Credit Invoice", each with slightly different data requirements or processing rules.
+Document Sub Types zijn in wezen gespecialiseerde versies van de hoofd documenttypes. Bijvoorbeeld, onder het hoofd documenttype "Factuur", kunnen er subtypes zijn zoals "Standaard Factuur", "Pro-forma Factuur" en "Credit Factuur", elk met iets andere gegevensvereisten of verwerkingsregels.
 
-**Here are some reasons why subtypes are important:**
+### **Hier zijn enkele redenen waarom subtypes belangrijk zijn:**
 
-* **Specific processing requirements:** Often, different variations of the same document type require different processing requirements. For example, different types of invoices may require specific fields, approval workflows, or validation rules based on a company's internal policies or the requirements of external partners.
-* **Organizational customization:** Using subtypes allows organizations to customize their document processing to their specific needs. They can create subtypes that are tailored precisely to their individual business processes, rather than relying on generic solutions that may not meet all requirements.
-* **Clear structuring:** Using subtypes allows for clearer structuring of document management. Users can more easily navigate between different variations of a document type and find the specific information they need without being distracted by irrelevant data or options.
-* **Consistency and accuracy:** Subtypes can help ensure consistency and accuracy in document capture and processing. By standardizing subtypes, organizations can ensure that all relevant information is captured and that data is structured in a uniform manner.
-* **Efficient processing:** Using subtypes can increase efficiency in document processing because users have access to pre-built templates and workflows optimized for specific types of documents. This reduces manual effort and minimizes errors or delays in the process.
+* **Specifieke verwerkingsvereisten:** Vaak vereisen verschillende variaties van hetzelfde documenttype verschillende verwerkingsvereisten. Bijvoorbeeld, verschillende soorten facturen kunnen specifieke velden, goedkeuringsworkflows of validatieregels vereisen op basis van de interne beleidslijnen van een bedrijf of de vereisten van externe partners.
+* **Organisatorische aanpassing:** Het gebruik van subtypes stelt organisaties in staat om hun documentverwerking aan te passen aan hun specifieke behoeften. Ze kunnen subtypes creëren die precies zijn afgestemd op hun individuele bedrijfsprocessen, in plaats van te vertrouwen op generieke oplossingen die mogelijk niet aan alle vereisten voldoen.
+* **Duidelijke structurering:** Het gebruik van subtypes zorgt voor een duidelijkere structurering van documentbeheer. Gebruikers kunnen gemakkelijker navigeren tussen verschillende variaties van een documenttype en de specifieke informatie vinden die ze nodig hebben zonder afgeleid te worden door irrelevante gegevens of opties.
+* **Consistentie en nauwkeurigheid:** Subtypes kunnen helpen om consistentie en nauwkeurigheid in documentcaptatie en -verwerking te waarborgen. Door subtypes te standaardiseren, kunnen organisaties ervoor zorgen dat alle relevante informatie wordt vastgelegd en dat gegevens op een uniforme manier zijn gestructureerd.
+* **Efficiënte verwerking:** Het gebruik van subtypes kan de efficiëntie in documentverwerking verhogen omdat gebruikers toegang hebben tot vooraf gebouwde sjablonen en workflows die zijn geoptimaliseerd voor specifieke documenttypes. Dit vermindert handmatige inspanning en minimaliseert fouten of vertragingen in het proces.
 
-Document subtypes in Docbits allow for more flexible and tailored management of document variations, resulting in improved efficiency, accuracy and adaptability. They provide a powerful way to manage the complexity of document processing and increase productivity within an organization.
+Document subtypes in Docbits stellen gebruikers in staat om flexibeler en op maat gemaakt om te gaan met documentvariaties, wat resulteert in verbeterde efficiëntie, nauwkeurigheid en aanpassingsvermogen. Ze bieden een krachtige manier om de complexiteit van documentverwerking te beheren en de productiviteit binnen een organisatie te verhogen.
 
+### **Belangrijkste Kenmerken en Opties**
 
+1. **Lijst van Sub Types**:
+   * Elke rij vertegenwoordigt een sub-type van een primair documenttype.
+   * Bevat de naam van het sub-type en een set acties die erop kunnen worden uitgevoerd.
+2. **Acties**:
 
-#### Key Features and Options
+<figure><img src="../../../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
-1. **List of Sub Types**:
-   * Each row represents a sub-type of a primary document type.
-   * Includes the name of the sub-type and a set of actions that can be performed on it.
-2. **Actions**:
+* **Velden**: Configureer welke gegevensvelden zijn opgenomen in het sub-type en hoe ze worden beheerd.
+* **Bewerk Lay-out**: Wijzig de visuele lay-out voor hoe informatie wordt weergegeven en ingevoerd voor dit sub-type.
+* **Scripts**: Koppel of bewerk scripts die specifieke bewerkingen uitvoeren wanneer documenten van dit sub-type worden verwerkt.
+* **Kopie**: Dupliceer een bestaande sub-type configuratie om als basis voor een nieuwe te gebruiken.
+* **Document Sub Type bewerken:** Bewerk de naam of titel van het sub-type.
+* **Verwijderen**: Verwijder het sub-type als het niet langer nodig is.
 
-<figure><img src="../../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+**Nieuwe Sub Types Toevoegen**:
 
-* **Fields**: Configure which data fields are included in the sub-type and how they are managed.
-* **Edit Layout**: Modify the visual layout for how information is displayed and entered for this sub-type.
-* **Scripts**: Attach or edit scripts that execute specific operations when documents of this sub-type are processed.
-* **Copy**: Duplicate an existing sub-type configuration to use as a basis for a new one.
-* **Editing document Sub Type:** Edit the name or title of the sub-type.
-* **Delete**: Remove the sub-type if it is no longer needed.
-
-**Adding New Sub Types**:
-
-* The "+ New" button allows administrators to create new sub-types, defining unique properties and rules as needed.
-
-
-
+* De "+ Nieuw" knop stelt beheerders in staat om nieuwe sub-types te creëren, waarbij unieke eigenschappen en regels worden gedefinieerd indien nodig.

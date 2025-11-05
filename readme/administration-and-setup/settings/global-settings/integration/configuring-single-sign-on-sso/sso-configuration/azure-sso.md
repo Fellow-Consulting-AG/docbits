@@ -10,29 +10,25 @@ Perform the following steps to add SAML SSO in Azure AD:
 
 *   In Azure, go to your \`Azure Active Directory\` console
 
-    ![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Azure\_1.png)
+    ![](https://docbits.com/wp-content/uploads/2023/09/DocBits_Azure_1.png)
 
 
 
 * In the left panel, click \`Enterprise applications\`
 
-![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Azure\_2.png)
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits_Azure_2.png)
 
 
 
 * Click \`+ New application
 
-<figure><img src="../../../../../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
 
 
 
 * Click \`+ Create your own application\`
 
-<div align="left">
-
-<figure><img src="../../../../../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure></div>
 
 * Enter a name for your application. Keep the remaining default selections.
 
@@ -62,13 +58,9 @@ Next, assign users or groups to the SSO configuration.
 * Click \`Select\`
 * When you’re satisfied with your selection, click \`Assign\`
 
-![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Azure\_8.png)
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits_Azure_8.png)
 
-<div align="left">
-
-<figure><img src="../../../../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure></div>
 
 * Go to the \`Groups\` view list and find the assigned groups.
 
@@ -79,15 +71,15 @@ Next, you need to finish setting up single-sign-on in Azure.\
 
 * In the left panel, click \`Single sign-on\`
 
-![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Azure\_10.png)
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits_Azure_10.png)
 
 * Click \`SAML\`
 
-![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Azure\_11.png)
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits_Azure_11.png)
 
 * Click \`Upload metadata file\`
 
-![](https://docbits.com/wp-content/uploads/2023/09/DocBits\_Azure\_12.png)
+![](https://docbits.com/wp-content/uploads/2023/09/DocBits_Azure_12.png)
 
 * Upload the DocBits **metadata.xml**, which you can find in the Settings menu **Integration** under **SSO Service Provider Settings** of your DocBits account.
 

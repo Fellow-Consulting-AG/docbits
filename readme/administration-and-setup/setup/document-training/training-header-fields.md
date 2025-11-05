@@ -1,15 +1,25 @@
 # Training Header Fields
 
-Once you have uploaded your document and it is ready for validation, you will enter. the validation screen.
+Na het uploaden van uw document wordt u naar het validatiescherm geleid.\
+Sommige velden kunnen al zijn ingevuld - dit is te danken aan de zwermintelligentie van DocBits. Andere velden kunnen echter leeg blijven. Dit betekent meestal dat het documenttype nog niet volledig is getraind, dus DocBits weet nog niet waaruit die informatie moet worden gehaald.
 
-You will notice some fields are already extracted, this is due to DocBits swarm intelligence, but other fields still remain empty. This is due to this document not being correctly trained yet, meaning DocBits is unsure where to extract the information for those empty fields.
+U kunt DocBits helpen om deze velden te herkennen door handmatig de juiste gegevens te identificeren.\
+**Let op:** als een veld leeg blijft, kan dit eenvoudigweg betekenen dat de informatie niet aanwezig is in het geüploade document.
 
-&#x20;![](https://lh7-us.googleusercontent.com/4xwqOa-brYegZ-5GiX0CCXbZ3KpHK0DqafFukBiCHVodWKzIOpQ8zg6J\_QoEUddQQDwq7loGEBlN87kuXZph3\_tmX8kzqMd5pFy9deUQvEfY7zxXWULbMn\_SKas9K1Wb3R6-FX0dm3BToyWNYOv4WE4)
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/header_field_training_0.png)
 
-However, with your help, you can train DocBits to know where to search for this data on that specific type of document. Do keep in mind that some fields may be empty due to the required information not being present on the document you uploaded, but if the information is present on your document then it can be trained by doing the following.
+### Om een veld te trainen:
 
-Click on the field you would like to train and either double click on the information on the document or, using your cursor, create a block around the information to populate the field.
+1. Klik op het veld dat u wilt trainen.
+2. Klik vervolgens op:
+   * **Dubbelklik** op de relevante gegevens in het document, of
+   * **Trek een selectievak** rond de gegevens met uw cursor.
 
-Repeat this until you have populated all the fields you require and then your document is ready to be exported, once exported, DocBits will remember this document type in future meaning that you will not need to manually train these fields again as DocBits learns where to extract this data.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/header_field_training_1.png)
 
+Herhaal dit proces voor alle vereiste velden.\
+Zodra alle noodzakelijke velden zijn ingevuld, **klik op "Regels opslaan"** om de training op te slaan. Hiermee leert DocBits waar elk stuk informatie te vinden is voor vergelijkbare documenten in de toekomst.
 
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/header_field_training_2.png)
+
+Na het opslaan is uw document klaar om te worden geëxporteerd - en de volgende keer zal DocBits automatisch de getrainde velden extraheren.

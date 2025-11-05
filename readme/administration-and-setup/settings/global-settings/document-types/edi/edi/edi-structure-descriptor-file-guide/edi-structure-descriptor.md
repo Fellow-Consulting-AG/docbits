@@ -1,41 +1,40 @@
-# EDI Structure descriptor
+# EDI Structuur beschrijving
 
-The primary goal of the structure descriptor is to outline the elements of an EDI message in a logical and organized manner, making it easier to manage and parse the data. By accurately reflecting the hierarchy of the message.
+Het primaire doel van de structuur beschrijving is om de elementen van een EDI-bericht op een logische en georganiseerde manier te schetsen, waardoor het gemakkelijker wordt om de gegevens te beheren en te parseren. Door nauwkeurig de hiërarchie van het bericht weer te geven.
 
-### Elements of the structure descriptor
+### Elementen van de structuur beschrijving
 
-**N1** – Contains the following fields:
+**N1** – Bevat de volgende velden:
 
-* **N1** – Name or Identifier of the entity (e.g., party, organization).
-* **N2** – Additional name information (usually a secondary name for the entity).
-* **N3** – Address information (typically the street address).
-* **N4** – Geographic location (city, state, ZIP code, country).\
+* **N1** – Naam of Identificatie van de entiteit (bijv., partij, organisatie).
+* **N2** – Aanvullende naam informatie (meestal een secundaire naam voor de entiteit).
+* **N3** – Adresinformatie (meestal het straatadres).
+* **N4** – Geografische locatie (stad, staat, postcode, land).
 
+**N9** – Bevat het volgende veld:
 
-**N9** – Contains the following field:
-
-* **N9** – Reference identifier (e.g., purchase order number or control number).
+* **N9** – Referentie identificatie (bijv., inkoopordernummer of controle nummer).
 * **Loops:**
-  * **MSG01** – Contains the following field:
-    * **MSG01** – Free-form message text (usually a note or special instruction related to the transaction).
+  * **MSG01** – Bevat het volgende veld:
+    * **MSG01** – Vrije tekstbericht (meestal een opmerking of speciale instructie met betrekking tot de transactie).
 
-**IT1** – Contains the following fields:
+**IT1** – Bevat de volgende velden:
 
-* **IT1** – Line item identifier (e.g., item number or product code).
-* **QTY** – Quantity of the item in the transaction (e.g., units ordered or shipped).
-* **TXI** – Tax information (e.g., tax rates, amounts, or classifications for the item).
-* **REF** – Reference information (e.g., lot number, serial number, or other identifiers related to the item).
+* **IT1** – Regelitem identificatie (bijv., artikelnummer of productcode).
+* **QTY** – Hoeveelheid van het item in de transactie (bijv., bestelde of verzonden eenheden).
+* **TXI** – Belastinginformatie (bijv., belastingtarieven, bedragen of classificaties voor het item).
+* **REF** – Referentie informatie (bijv., lotnummer, serienummer of andere identificatoren met betrekking tot het item).
 * **Loops:**
-  * **SAC** – Can repeat and contains the following fields:
-    * **SAC** – Service, promotion, allowance, or charge information (e.g., additional costs or discounts related to the item).
-    * **TXI** – Tax information related to SAC (e.g., taxes on charges or allowances).
+  * **SAC** – Kan herhaald worden en bevat de volgende velden:
+    * **SAC** – Service, promotie, toelage of kosteninformatie (bijv., extra kosten of kortingen met betrekking tot het item).
+    * **TXI** – Belastinginformatie met betrekking tot SAC (bijv., belastingen op kosten of toelagen).
 
-**SAC** – Contains the following fields:
+**SAC** – Bevat de volgende velden:
 
-* **SAC** – Service, promotion, allowance, or charge information (can be used independently or within the IT1 loop to represent additional charges/discounts).
-* **TXI** – Tax information related to SAC (e.g., taxes on charges or allowances).
+* **SAC** – Service, promotie, toelage of kosteninformatie (kan onafhankelijk worden gebruikt of binnen de IT1-loop om extra kosten/kortingen te vertegenwoordigen).
+* **TXI** – Belastinginformatie met betrekking tot SAC (bijv., belastingen op kosten of toelagen).
 
-### Here is the full example of a structure descriptor in a JSON format:
+### Hier is het volledige voorbeeld van een structuur beschrijving in een JSON-formaat:
 
 ```
 {
@@ -79,4 +78,3 @@ The primary goal of the structure descriptor is to outline the elements of an ED
     }
 }
 ```
-

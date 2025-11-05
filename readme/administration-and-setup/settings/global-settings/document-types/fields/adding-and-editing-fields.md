@@ -1,86 +1,84 @@
-# Adding and Editing Fields
+# Velden Toevoegen en Bewerken
 
-## Here are the steps to add a new field or modify existing fields in DocBits, including details on how to access advanced configuration options:
+## Hier zijn de stappen om een nieuw veld toe te voegen of bestaande velden in DocBits te wijzigen, inclusief details over hoe je toegang krijgt tot geavanceerde configuratieopties:
 
-### Add a new field
+#### Een nieuw veld toevoegen
 
-* Log in and access Document Management:
+* Log in en ga naar Documentbeheer:
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 13.35.39.png" alt=""><figcaption><p>Settings</p></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fx3R65rHE45OlNCmUWrws%252FBildschirmfoto%25202024-05-23%2520um%252013.35.39.png%3Falt%3Dmedia%26token%3D5955c7bc-60f1-462c-9a39-964a94a82a9e\&width=768\&dpr=4\&quality=100\&sign=d8b8226e\&sv=2)
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 13.38.53.png" alt=""><figcaption><p>Settings Document Types</p></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FaYWPJkffG6wnCbqyZPXj%252FBildschirmfoto%25202024-05-23%2520um%252013.38.53.png%3Falt%3Dmedia%26token%3Dcaa0a6ab-ca23-4602-83f2-e96956c25c00\&width=768\&dpr=4\&quality=100\&sign=942dc499\&sv=2)
 
-**Add a new field:**
+**Een nieuw veld toevoegen:**
 
-* Click the "Create Field" option.
+* Klik op de optie "Veld maken".
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 13.41.38.png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FWT32A6D02SxrepzTsBb2%252FBildschirmfoto%25202024-05-23%2520um%252013.41.38.png%3Falt%3Dmedia%26token%3De12b24d3-6f21-421c-ba46-d597c5ded908\&width=768\&dpr=4\&quality=100\&sign=b9c92149\&sv=2)
 
-**Basic Configuration:**
+**Basisconfiguratie:**
 
-<figure><img src="../../../../../.gitbook/assets/image (123).png" alt="" width="375"><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FVZmZsa7k7aaxNRLBmF5B%252Fimage.png%3Falt%3Dmedia%26token%3Db86d33a6-aeec-4336-926d-ad3a742af004\&width=768\&dpr=4\&quality=100\&sign=565e929b\&sv=2)
 
-* **Name**
-  * Choose a meaningful and descriptive name.
-  * The name must be unique.
-  * <mark style="color:red;">**Note:**</mark> **Once created, the name cannot be changed.**
-* **Title**
-  * This is the displayed name of the field.
-  * It defines how the field appears in the user interface.
-  * <mark style="color:red;">**Note:**</mark> **The title can be changed later if needed.**
-*   **Select Field Type**
+* **Naam**
+  * Kies een betekenisvolle en beschrijvende naam.
+  * De naam moet uniek zijn.
+  * <mark style="color:red;">**Opmerking:**</mark> **Eenmaal gemaakt, kan de naam niet meer worden gewijzigd.**
+* **Titel**
+  * Dit is de weergegeven naam van het veld.
+  * Het definieert hoe het veld verschijnt in de gebruikersinterface.
+  * <mark style="color:red;">**Opmerking:**</mark> **De titel kan later indien nodig worden gewijzigd.**
+*   **Selecteer Veldtype**
 
-    * Choose the type of field from a dropdown list.
-    * The available field types include various options to suit different data entry needs.
-    * <mark style="color:red;">**Note:**</mark> **Once created, the Type cannot be changed.**
+    * Kies het type veld uit een dropdownlijst.
+    * De beschikbare veldtypes omvatten verschillende opties om aan verschillende gegevensinvoerbehoeften te voldoen.
+    * <mark style="color:red;">**Opmerking:**</mark> **Eenmaal gemaakt, kan het Type niet meer worden gewijzigd.**
 
-    <figure><img src="../../../../../.gitbook/assets/image (124).png" alt="" width="375"><figcaption></figcaption></figure>
-* **Optional: Enable Charges Element**
-  * A checkbox labeled **Enable Charges Element** can be selected.
-  * If checked, you must select a charge element from a dropdown list.
-  * **Important:** Charge elements must be configured beforehand.
-    * [Charge Elements Configuration](../../../../../infor-integration-and-configuration/importing-customer-master-data/m3/table-extraction-for-costing-element.md)&#x20;
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FGdj3E8rrETfMp5fcEV2v%252Fimage.png%3Falt%3Dmedia%26token%3D7c0e6903-2204-447e-9d9b-c645f5a39067\&width=768\&dpr=4\&quality=100\&sign=3dd6efa8\&sv=2)
+* **Optioneel: Schakel Kosten Element in**
+  * Een selectievakje met de naam **Schakel Kosten Element in** kan worden geselecteerd.
+  * Als dit is aangevinkt, moet je een kosten element selecteren uit een dropdownlijst.
+  * **Belangrijk:** Kosten elementen moeten van tevoren worden geconfigureerd.
+    * [Configuratie Kosten Elementen](https://docs.docbits.com/infor-integration-and-configuration/importing-customer-master-data/m3/table-extraction-for-costing-element)
 
+**Geavanceerde Configuratie:**
 
+* Hier kun je andere eigenschappen instellen, zoals validatieregels, overeenkomende waarden, alleen-lezen modus, verbergen en OCR-instellingen.
 
-**Advanced Configuration:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FMxWT88mJzJ9aXmDED7Q4%252Fimage.png%3Falt%3Dmedia%26token%3D08c8867f-b560-44b3-8c23-e58bc6a31edd\&width=768\&dpr=4\&quality=100\&sign=635dad12\&sv=2)
 
-* Here you can set other properties such as validation rules, match values, read-only mode, hiding, and OCR settings.
+**Opslaan:**
 
-<figure><img src="../../../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+* Nadat je alle noodzakelijke configuraties hebt gemaakt, klik je op "Opslaan" of een vergelijkbare knop om het nieuwe veld te maken.
 
-**Save:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FN1fp3VvCI0z7Yfe9ab6Y%252Fimage.png%3Falt%3Dmedia%26token%3D6e465e61-7f18-4302-aa9d-1e7c7619d574\&width=768\&dpr=4\&quality=100\&sign=94a50871\&sv=2)
 
-* After you have made all the necessary configurations, click "Save" or a similar button to create the new field.
+#### Een bestaand veld bewerken
 
-<figure><img src="../../../../../.gitbook/assets/image (126).png" alt="" width="75"><figcaption></figcaption></figure>
+**Toegang tot veldbewerking:**
 
-### Edit an existing field
+* Navigeer naar de lijst met bestaande velden en vind het veld dat je wilt bewerken.
 
-**Access field editing:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F2PJ9r9cBuD1K9MILmfGg%252Fimage.png%3Falt%3Dmedia%26token%3D7228e55e-b499-4aa4-b93d-217461371e26\&width=768\&dpr=4\&quality=100\&sign=54b4ab44\&sv=2)
 
-* Navigate to the list of existing fields and find the field you want to edit.
+**Selecteer een veld:**
 
-<figure><img src="../../../../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
+* Klik op het juiste veld om toegang te krijgen tot de bewerkingsopties.
 
-**Select a field:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F5EYT3k6jASAJz4RDgf2k%252Fimage.png%3Falt%3Dmedia%26token%3D4133db05-50cc-45e4-9c47-2ab9039e91ae\&width=768\&dpr=4\&quality=100\&sign=eac7a82f\&sv=2)
 
-* Click the appropriate field to access the editing options.
+**Wijzig de configuratie:**
 
-<figure><img src="../../../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+* Wijzig de eigenschappen van het veld indien nodig. Dit kan het wijzigen van de naam, het veldtype, het toevoegen of verwijderen van validatieregels, het instellen van overeenkomende waarden of het aanpassen van andere geavanceerde instellingen omvatten.
 
-**Change the configuration:**
+**Opmerking:** Als je de **Titel** van een veld wijzigt, moet je het veld in de lay-outbouwer verwijderen en opnieuw toevoegen om de wijzigingen effect te laten hebben.
 
-* Change the properties of the field as needed. This may include changing the name, the field type, adding or removing validation rules, setting match values, or adjusting other advanced settings.
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FChH8vw1tSklCKJQRZTwn%252Fimage.png%3Falt%3Dmedia%26token%3D01f468df-aca1-464f-9609-9a460cc36735\&width=768\&dpr=4\&quality=100\&sign=6b4bd2da\&sv=2)
 
-<mark style="color:red;">**Note:**</mark> If you change the **Title** of a field, you must delete and re-add the field in the layout builder for the changes to take effect.
+**Opslaan:**
 
-<figure><img src="../../../../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
+* Klik op "Opslaan" om de wijzigingen die je aan het veld hebt aangebracht op te slaan.
 
-**Save:**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FOm9YrCnnYI3JWDj0RPjT%252Fimage.png%3Falt%3Dmedia%26token%3Dc4b0e2d7-8402-4acc-9cfb-11c360ca1aaf\&width=768\&dpr=4\&quality=100\&sign=9fbc3f36\&sv=2)
 
-* Click "Save" to save the changes you made to the field.
-
-<figure><img src="../../../../../.gitbook/assets/image (130).png" alt="" width="260"><figcaption><p>Save Settings</p></figcaption></figure>
-
-By providing steps to add new fields and edit existing fields, as well as access to advanced configuration options, you can maximize the flexibility and adaptability of your document processing system. This allows you to structure and process your data exactly as you need it.
+Door stappen te bieden om nieuwe velden toe te voegen en bestaande velden te bewerken, evenals toegang tot geavanceerde configuratieopties, kun je de flexibiliteit en aanpasbaarheid van je documentverwerkingssysteem maximaliseren. Dit stelt je in staat om je gegevens precies zo te structureren en te verwerken als je nodig hebt.

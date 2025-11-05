@@ -1,41 +1,41 @@
-# Editing Email Templates
+# E-mail Sjablonen Bewerken
 
-### Overview
+## Overzicht
 
-The Email Templates feature allows administrators to create and customize email communications that are automatically sent to suppliers. One of the key elements used in these templates is the `{{magic_link}}`, which provides a dynamic link tailored to each recipient.
+De functie E-mail Sjablonen stelt beheerders in staat om e-mailcommunicatie te maken en aan te passen die automatisch naar leveranciers wordt gestuurd. Een van de belangrijkste elementen die in deze sjablonen worden gebruikt, is de `{{magic_link}}`, die een dynamische link biedt die is afgestemd op elke ontvanger.
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.33.35.png" alt="Supplier Portal - Email Template"><figcaption></figcaption></figure>
 
-#### What is `{{magic_link}}`?
+**Wat is `{{magic_link}}`?**
 
-The `{{magic_link}}` is a placeholder that is dynamically replaced with a unique URL when the email is sent. This URL usually directs the recipient to complete an action, such as registration, approval, or accessing a specific part of the supplier portal.
+De `{{magic_link}}` is een tijdelijke aanduiding die dynamisch wordt vervangen door een unieke URL wanneer de e-mail wordt verzonden. Deze URL leidt de ontvanger meestal naar het voltooien van een actie, zoals registratie, goedkeuring of toegang tot een specifiek deel van het leveranciersportaal.
 
-### Editing Email Templates
+## E-mail Sjablonen Bewerken
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.35.53.png" alt=""><figcaption></figcaption></figure>
 
-#### Accessing the Email Template Editor
+**Toegang tot de E-mail Sjabloon Editor**
 
-1. **Navigate to Email Templates**:
-   * Go to the **Email Templates** section from the main menu.
-2. **Select a Template to Edit**:
-   * Choose the email template you want to edit by clicking on the template name (e.g., "Supplier Invitation Email").
-3. **Edit the Template**:
-   * The editor allows you to modify both the HTML code and the visual design of the email.
-   * You can switch between visual editing and code editing using the provided tabs.
+1. **Navigeer naar E-mail Sjablonen**:
+   * Ga naar het **E-mail Sjablonen** gedeelte vanuit het hoofdmenu.
+2. **Selecteer een Sjabloon om te Bewerken**:
+   * Kies het e-mail sjabloon dat je wilt bewerken door op de sjabloonnaam te klikken (bijv. "Leveranciersuitnodiging E-mail").
+3. **Bewerk het Sjabloon**:
+   * De editor stelt je in staat om zowel de HTML-code als het visuele ontwerp van de e-mail aan te passen.
+   * Je kunt schakelen tussen visuele bewerking en codebewerking met behulp van de beschikbare tabbladen.
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.36.41.png" alt=""><figcaption></figcaption></figure>
 
-#### Defining `{{magic_link}}` as a Link
+**`{{magic_link}}` als een Link Definiëren**
 
-To define `{{magic_link}}` as a clickable link in the email, you need to ensure that it is properly formatted in the HTML code of the template. Follow these steps:
+Om `{{magic_link}}` als een klikbare link in de e-mail te definiëren, moet je ervoor zorgen dat het correct is opgemaakt in de HTML-code van het sjabloon. Volg deze stappen:
 
-1. **Locate the Link Section in the HTML Code**:
-   * In the code editor, find the section where you want the magic link to appear. This is usually within an `<a>` (anchor) tag.
-2.  **Insert the `{{magic_link}}` Placeholder**:
+1. **Vind het Linkgedeelte in de HTML-code**:
+   * Zoek in de code-editor het gedeelte waar je de magic link wilt laten verschijnen. Dit is meestal binnen een `<a>` (anker) tag.
+2.  **Voeg de `{{magic_link}}` Placeholder in**:
 
-    * Replace the `href` attribute of the anchor tag with `{{magic_link}}`.
-    * Ensure the link is styled appropriately for the email template. Here's an example:
+    * Vervang het `href` attribuut van de anker tag door `{{magic_link}}`.
+    * Zorg ervoor dat de link passend is gestyled voor het e-mail sjabloon. Hier is een voorbeeld:
 
     ```html
     <a href="{{magic_link}}" target="_blank" style="
@@ -49,35 +49,34 @@ To define `{{magic_link}}` as a clickable link in the email, you need to ensure 
         text-decoration: none;
         display: inline-block;
         cursor: pointer;">
-        Complete Registration
+        Voltooi Registratie
     </a>
     ```
 
-### 3. Customize the Link Text:
+## 3. Pas de Linktekst aan:
 
-• Modify the text between the opening \<a> and closing \</a> tags to reflect the action you want the user to take. For example, “Complete Registration” or “Access Your Account”.
+• Wijzig de tekst tussen de opening \<a> en sluitende \</a> tags om de actie weer te geven die je wilt dat de gebruiker onderneemt. Bijvoorbeeld, “Voltooi Registratie” of “Toegang tot Uw Account”.
 
-4\. Save and Test the Template:
+4\. Sla op en Test het Sjabloon:
 
-• After making the changes, click the Save button.
+• Klik op de Opslaan-knop nadat je de wijzigingen hebt aangebracht.
 
-• You can use the Send Test button to send a test email to ensure that the link is working as expected.
+• Je kunt de Test Verzenden-knop gebruiken om een test-e-mail te verzenden om te controleren of de link werkt zoals verwacht.
 
-## Best Practices for Using \{{magic\_link\}}
+## Beste Praktijken voor het Gebruik van \{{magic\_link\}}
 
-• Link Placement: Place the \{{magic\_link\}} prominently in the email to ensure it is easily accessible to recipients.
+• Link Plaatsing: Plaats de \{{magic\_link\}} prominent in de e-mail om ervoor te zorgen dat deze gemakkelijk toegankelijk is voor ontvangers.
 
-• Clear Call to Action: The text within the link should be a clear call to action, such as “Complete Registration” or “Confirm Your Email.”
+• Duidelijke Oproep tot Actie: De tekst binnen de link moet een duidelijke oproep tot actie zijn, zoals “Voltooi Registratie” of “Bevestig Uw E-mail.”
 
-• Styling: Ensure that the link is styled consistently with the rest of the email template and stands out visually.
+• Styling: Zorg ervoor dat de link consistent is gestyled met de rest van het e-mail sjabloon en visueel opvalt.
 
-• Testing: Always send a test email after editing the template to verify that the \{{magic\_link\}} resolves correctly and the styling is appropriate.
+• Testen: Verstuur altijd een test-e-mail na het bewerken van het sjabloon om te verifiëren dat de \{{magic\_link\}} correct oplost en de styling geschikt is.
 
-## Conclusion
+## Conclusie
 
-By properly defining the \{{magic\_link\}} in your email templates, you can ensure that recipients receive a personalized and actionable email that guides them to the appropriate task within your supplier portal. This enhances the user experience and ensures smooth onboarding and communication processes.
-
-\
+Door de \{{magic\_link\}} correct te definiëren in je e-mail sjablonen, kun je ervoor zorgen dat ontvangers een gepersonaliseerde en actiegerichte e-mail ontvangen die hen naar de juiste taak binnen je leveranciersportaal leidt. Dit verbetert de gebruikerservaring en zorgt voor soepele onboarding- en communicatieprocessen.
 
 
-This documentation provides step-by-step instructions for administrators on how to define and use the \{{magic\_link\}} in email templates, ensuring that emails are both functional and visually appealing.
+
+Deze documentatie biedt stapsgewijze instructies voor beheerders over hoe de \{{magic\_link\}} te definiëren en te gebruiken in e-mail sjablonen, zodat e-mails zowel functioneel als visueel aantrekkelijk zijn.

@@ -1,21 +1,21 @@
-# Keyboard Shortcuts
+# Toetsenbord Sneltoetsen
 
-The PO matching screen has dedicated shortcuts to streamline the matching process:
+Het PO-matching scherm heeft speciale sneltoetsen om het matchingproces te stroomlijnen:
 
-* **Tab** – Moves between different menu points on the sidebar, allowing quick navigation without clicking.
-* **Control + M** – Moves between the buttons available in the PO matching section, helping users efficiently navigate action options.
-* **Enter** – Selects or clicks the currently focused button, confirming actions without needing to use the mouse.
-* **Control + H** – Opens the documentation for PO matching, providing immediate access to assistance.
-* **Control + K** – Opens the keyboard shortcuts menu, displaying all available shortcuts for this section.
-* **Control + D** – Enables or disables the purchase order training mode, allowing users to switch between normal and training modes.
-* **Control + A** – Performs automatic purchase order matching.
-* **Control + S** – Saves the document, ensuring all modifications are stored properly.
-* **Control + R** – Rejects the document, marking it for revision or additional verification.
-* **Control + E** – Exports the document, generating an export file based on the applied settings.
-* **Control + F** – Opens the purchase order search function, allowing users to quickly locate specific purchase orders.
-* **Control + P** – Selects the first row of the purchase order lines, making it easy to begin working with order data.
-* **Control + L** – Selects the first row of the invoice lines, allowing quick access to invoice details.
-* **Control + Left Click** – Selects or unselects rows of the purchase order, enabling flexible selection of multiple entries.
-* **Control + C / Alt + C** – Selects purchase order rows to begin mapping to invoice lines, setting up the mapping process.
-* **Control + V / Alt + V** – Maps the selected purchase order lines to the invoice lines, linking data efficiently.
-* **Option + Shift + Left Click** – Selects all purchase order lines between the first selected and the last selected row, simplifying the bulk selection process.
+* **Tab** – Verplaatst tussen verschillende menu-items op de zijbalk, waardoor snelle navigatie zonder klikken mogelijk is.
+* **Control + M** – Verplaatst tussen de knoppen die beschikbaar zijn in de PO-matching sectie, wat gebruikers helpt om efficiënt door actie-opties te navigeren.
+* **Enter** – Selecteert of klikt op de momenteel gefocuste knop, bevestigt acties zonder de muis te hoeven gebruiken.
+* **Control + H** – Opent de documentatie voor PO-matching, wat directe toegang tot hulp biedt.
+* **Control + K** – Opent het sneltoetsmenu, dat alle beschikbare sneltoetsen voor deze sectie weergeeft.
+* **Control + D** – Schakelt de inkooporder-trainingsmodus in of uit, zodat gebruikers tussen normale en trainingsmodi kunnen schakelen.
+* **Control + A** – Voert automatische inkooporder-matching uit.
+* **Control + S** – Slaat het document op, zodat alle wijzigingen correct worden opgeslagen.
+* **Control + R** – Weigert het document, markeert het voor herziening of aanvullende verificatie.
+* **Control + E** – Exporteert het document, genereert een exportbestand op basis van de toegepaste instellingen.
+* **Control + F** – Opent de zoekfunctie voor inkooporders, zodat gebruikers snel specifieke inkooporders kunnen vinden.
+* **Control + P** – Selecteert de eerste rij van de inkooporderregels, waardoor het gemakkelijk is om met ordergegevens te beginnen.
+* **Control + L** – Selecteert de eerste rij van de factuurregels, waardoor snelle toegang tot factuurdetails mogelijk is.
+* **Control + Left Click** – Selecteert of deselecteert rijen van de inkooporder, waardoor flexibele selectie van meerdere invoeren mogelijk is.
+* **Control + C** – Selecteert inkooporder rijen om te beginnen met mappen naar factuurregels, en zet het mappingproces op.
+* **Control + V** – Maakt de geselecteerde inkooporderregels aan de factuurregels, en koppelt gegevens efficiënt.
+* **Option + Shift + Left Click** – Selecteert alle inkooporderregels tussen de eerste geselecteerde en de laatste geselecteerde rij, wat het bulkselectieproces vereenvoudigt.

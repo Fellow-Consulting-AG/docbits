@@ -1,19 +1,17 @@
-# Export not matched PO lines
+# Export niet gematchte PO-regels
 
-## **Where to Find It**
+## **Waar te Vinden**
 
-Go to **Settings → General Settings → Document Types → More Settings → Purchase Order Section → Export Not Matched PO Lines**.\
-Toggle the button to enable this setting.
+Ga naar **Instellingen → Algemene Instellingen → Documenttypen → Meer Instellingen → Aankooporder Sectie → Export Niet Gematchte PO-regels**. Schakel de knop in om deze instelling in te schakelen.
 
-<figure><img src="../../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F1oYek9ovYpdxvJfOQLPf%252Fimage.png%3Falt%3Dmedia%26token%3D469348b8-eaad-4887-805a-ca14d573a227\&width=768\&dpr=4\&quality=100\&sign=d0b89044\&sv=2)
 
-## **How It Works**
+## **Hoe Het Werkt**
 
-* **When disabled**, the system only exports purchase order lines that are matched with an order confirmation line. Unmatched purchase order lines will not be included in the export.
-* **When enabled**, the system exports all purchase order lines, even if they are not matched to an order confirmation line.
+* **Wanneer uitgeschakeld**, exporteert het systeem alleen aankooporderregels die zijn gematcht met een orderbevestigingsregel. Ongematchte aankooporderregels worden niet opgenomen in de export.
+* **Wanneer ingeschakeld**, exporteert het systeem alle aankooporderregels, zelfs als ze niet zijn gematcht met een orderbevestigingsregel.
 
-For example, if a purchase order has **three lines**, but the supplier sends an **order confirmation with only one line**, you match that line to a purchase order line. The remaining two unmatched purchase order lines will be:
+Bijvoorbeeld, als een aankooporder **drie regels** heeft, maar de leverancier een **orderbevestiging met slechts één regel** stuurt, match je die regel met een aankooporderregel. De overige twee ongematchte aankooporderregels zullen zijn:
 
-* **Excluded from the export** if the setting is disabled.
-* **Included in the export** if the setting is enabled.
-
+* **Uitsluitend van de export** als de instelling is uitgeschakeld.
+* **Inbegrepen in de export** als de instelling is ingeschakeld.

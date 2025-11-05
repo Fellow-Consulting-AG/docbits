@@ -6,9 +6,7 @@ First of all, ensure that the Layout Builder feature is activated. This can be d
 
 ![](https://lh7-us.googleusercontent.com/I0VvFiFftKLoCB47jCAoosfTyqIQgXBoggMFp1QAeIj9xW4yiiIzyk5eIEHZ7duA251Yc4_ArUKA8e-LjDht13bckAnkAOHOvl1p5k1-Qj_UkEp2cSZwxHz_PXe8IQ4_jglzCtjAJg5pd9m_hNZEhXA)
 
-### Edit Layouts
-
-After this is done you can access the Layout Builder via Settings → Document Types, once on this page, you can select from the various document types you have created and either select “**Edit** **Layout**” as shown below
+After this is done you can access the Layout Builder via Settings → Document Types, once on this page, you can select from the various document types you have created and either select “Edit Layout” as shown below
 
 ![](https://lh7-us.googleusercontent.com/WMD8M0qugnc64ZuyLuEYH5P63qk-Vo86useg32-QyOsP63FJA_Xh7UzwlwmUR3K9oTd19aXexSitZqQLVEKo26-i8hYWUS9CChzwAS8TgbWoqweFucJcNIgKBruzSd0mxn8zrh9i46lPxKMNDh-YEJ8)
 

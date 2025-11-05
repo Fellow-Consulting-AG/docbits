@@ -1,19 +1,19 @@
-# Company Information
+# Bedrijfsinformatie
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.18.42.png" alt=""><figcaption></figcaption></figure>
 
-1. **Company Name**: The legal name of the company as registered.
-2. **Street + Number**: The physical address of the company's main office or headquarters.
-3. **Postal code**: The ZIP or postal code for the company's address.
-4. **City**: The city in which the company is located.
-5. **State**: The state or region where the company is based.
-6. **Country**: The country of operation for the company.
-7. **Company ID**: A unique identifier for the company, which could be used internally or for integrations with other systems.
-8. **Tax-ID**: The tax identification number for the company, important for financial operations and reporting.
-9. **Commercial Register ID**: The registration number of the company in the commercial register, which could be important for legal and official documentation.
-10. **Official Company Phone Number**: The primary contact number for the company.
-11. **Official Company Email**: The main email address that will be used for official communications.
+1. **Bedrijfsnaam**: De juridische naam van het bedrijf zoals geregistreerd.
+2. **Straat + Nummer**: Het fysieke adres van het hoofdkantoor of de hoofdvestiging van het bedrijf.
+3. **Postcode**: De ZIP- of postcode voor het adres van het bedrijf.
+4. **Stad**: De stad waarin het bedrijf is gevestigd.
+5. **Staat**: De staat of regio waar het bedrijf is gevestigd.
+6. **Land**: Het land waar het bedrijf actief is.
+7. **Bedrijfs-ID**: Een unieke identificatie voor het bedrijf, die intern of voor integraties met andere systemen kan worden gebruikt.
+8. **BTW-ID**: Het belastingidentificatienummer voor het bedrijf, belangrijk voor financiële operaties en rapportage.
+9. **Handelsregister-ID**: Het registratienummer van het bedrijf in het handelsregister, wat belangrijk kan zijn voor juridische en officiële documentatie.
+10. **Officieel Bedrijfstelefoonnummer**: Het primaire contactnummer voor het bedrijf.
+11. **Officiële Bedrijfse-mail**: Het belangrijkste e-mailadres dat zal worden gebruikt voor officiële communicatie.
 
-The information entered here can be crucial for ensuring that documents such as invoices, official correspondence, and reports are properly formatted with the correct company details. It also helps in maintaining consistency in how the company is represented in various external communications and documents. After entering or updating the information, the administrator needs to save the changes by clicking the "Save" button to ensure all modifications are applied system-wide.
+De hier ingevoerde informatie kan cruciaal zijn voor het waarborgen dat documenten zoals facturen, officiële correspondentie en rapporten correct zijn opgemaakt met de juiste bedrijfsgegevens. Het helpt ook bij het handhaven van consistentie in de manier waarop het bedrijf wordt weergegeven in verschillende externe communicatie en documenten. Na het invoeren of bijwerken van de informatie moet de beheerder de wijzigingen opslaan door op de knop "Opslaan" te klikken om ervoor te zorgen dat alle aanpassingen systeemwijd worden toegepast.
 
-Additionally, the section provides a view of the subscription plan, showing how many days are left, start and end dates, and a subscription usage meter that tracks the consumption of service tokens against what's allocated in the plan. This can help administrators monitor and plan for the subscription renewals or upgrades based on the usage trends.
+Daarnaast biedt de sectie een overzicht van het abonnementsplan, met informatie over hoeveel dagen er nog over zijn, start- en einddata, en een abonnementsgebruikmeter die het verbruik van servicetokens bijhoudt ten opzichte van wat in het plan is toegewezen. Dit kan beheerders helpen bij het monitoren en plannen van de verlengingen of upgrades van het abonnement op basis van de gebruikstrends.

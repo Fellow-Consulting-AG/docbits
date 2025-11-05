@@ -1,7 +1,7 @@
-# Introduction
+# Introductie
 
 {% embed url="https://youtu.be/boBCaqVe7Jw" %}
 
-Welcome to the **DocBits** Beginner Course, your comprehensive guide to revolutionizing document management for your business!
+Welkom bij de **DocBits** Beginnerscursus, jouw uitgebreide gids voor het revolutioneren van documentbeheer voor je bedrijf!
 
-In today's complex financial environment, managing order confirmations, delivery bills, invoicing, and cost accounting is no small feat. That's where **DocBits** shines. With over 20 integrations and unparalleled compatibility with Infor CloudSuite, LN, and M3, **DocBits** stands apart from other solutions on the market.
+In de complexe financiële omgeving van vandaag is het beheren van orderbevestigingen, leveringsbonnen, facturering en kostprijsberekening geen geringe opgave. Daar blinkt **DocBits** in uit. Met meer dan 20 integraties en ongeëvenaarde compatibiliteit met Infor CloudSuite, LN en M3, onderscheidt **DocBits** zich van andere oplossingen op de markt.

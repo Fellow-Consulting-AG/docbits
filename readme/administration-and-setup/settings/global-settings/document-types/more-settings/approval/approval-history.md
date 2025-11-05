@@ -1,27 +1,24 @@
-# Approval History
+# Goedkeuringsgeschiedenis
 
-To enable the **Approval History** feature:
+Om de **Goedkeuringsgeschiedenis** functie in te schakelen:
 
-1. Go to **Settings** → **General Settings** → **Document Types** → **More Settings** → **Approval**.
-2. Turn on **Approval History**.
+1. Ga naar **Instellingen** → **Algemene instellingen** → **Documenttypen** → **Meer instellingen** → **Goedkeuring**.
+2. Zet **Goedkeuringsgeschiedenis** aan.
 
-Once enabled, the approval history will be visible in the **Pending Approval** screen. You can switch to the **Approval History** screen by clicking the button in the top left corner.
+Eenmaal ingeschakeld, zal de goedkeuringsgeschiedenis zichtbaar zijn op het **In afwachting van goedkeuring** scherm. Je kunt schakelen naar het **Goedkeuringsgeschiedenis** scherm door op de knop in de linkerbovenhoek te klikken.
 
-<figure><img src="../../../../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/approval_history_1.png)
 
-<figure><img src="../../../../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/approval_history_2.png)
 
-In the **Approval History** screen, you will see the following details:
+In het **Goedkeuringsgeschiedenis** scherm zie je de volgende details:
 
-* **Who** approved or rejected the document.
-* The **time** and **order** of approvals or rejections.
-* If set up, **comments** explaining the reasons behind the decisions.
-* **Red** indicates a **rejection**.
-* The color matching the environment (e.g., green) indicates **approval**.
+* **Wie** het document heeft goedgekeurd of afgewezen.
+* De **tijd** en **volgorde** van goedkeuringen of afwijzingen.
+* Als ingesteld, **opmerkingen** die de redenen achter de beslissingen uitleggen.
+* **Rood** geeft een **afwijzing** aan.
+* De kleur die overeenkomt met de omgeving (bijv. groen) geeft **goedkeuring** aan.
 
-<figure><img src="../../../../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/approval_history_3.png)
 
-This feature provides enhanced transparency by tracking and visualizing the approval process.
-
-
-
+Deze functie biedt verbeterde transparantie door het volgen en visualiseren van het goedkeuringsproces.

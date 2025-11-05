@@ -1,46 +1,41 @@
-# not found in direct debit
+# niet gevonden bij automatische incasso
 
-## **Step 1: Check LN Configuration**
+## **Stap 1: Controleer LN-configuratie**
 
-1. Log in to **LN CE**.
-2. Navigate to the **Options** menu and select **Run Program**.
-3. In the input field, type **ACP Parameters** and press Enter to open the program.
-4. Click on the arrow next to the **Actual Set** field to expand the settings.
-5. Go to the **Matching** section.
-   * **Check the Automatic Matching Setting:**
-     * If the **Automatic Matching** is set to **Match to Purchase Receipt**, proceed to the next step.
-     * If it is **not** set to **Match to Purchase Receipt**, but you still got this error, please contact us.
+1. Log in op **LN CE**.
+2. Ga naar het **Opties** menu en selecteer **Programma uitvoeren**.
+3. Typ in het invoerveld **ACP Parameters** en druk op Enter om het programma te openen.
+4. Klik op de pijl naast het veld **Huidige set** om de instellingen uit te vouwen.
+5. Ga naar de **Matching** sectie.
+   * **Controleer de instelling voor Automatische Matching:**
+     * Als de **Automatische Matching** is ingesteld op **Matchen met inkoopontvangst**, ga verder naar de volgende stap.
+     * Als het **niet** is ingesteld op **Matchen met inkoopontvangst**, maar je krijgt nog steeds deze foutmelding, neem dan contact met ons op.
 
-## **Step 2: Open DocBits Settings**
+## **Stap 2: Open DocBits-instellingen**
 
-If the **Automatic Matching** is set to **Match to Purchase Receipt**, proceed with the following steps in DocBits:
+Als de **Automatische Matching** is ingesteld op **Matchen met inkoopontvangst**, ga verder met de volgende stappen in DocBits:
 
-1. Open **DocBits** and go to the **Settings** section.
-2. Navigate to **Document Processing**.
-3. Select **Export**.
-4. In the **Export** section, click on the **three dots** icon next to the export that is not working and select **Edit**.
-5. In the **Edit Export Settings** menu, click **Download the LN-Mapping** file.
+1. Open **DocBits** en ga naar de **Instellingen** sectie.
+2. Navigeer naar **Documentverwerking**.
+3. Selecteer **Exporteren**.
+4. Klik in de **Exporteren** sectie op het **drie puntjes** icoon naast de export die niet werkt en selecteer **Bewerken**.
+5. In het menu **Exportinstellingen bewerken**, klik op **Download het LN-Mapping** bestand.
 
-## **Step 3: Edit LN-Mapping File**
+## **Stap 3: Bewerk LN-Mapping Bestand**
 
-1. Open the downloaded **LN-Mapping** file.
-2.  Search for the field **IRF\_PackingSlip**.
+1. Open het gedownloade **LN-Mapping** bestand.
+2. Zoek naar het veld **IRF\_PackingSlip**.
+   * Als het veld **IRF\_PackingSlip** aanwezig is en ingesteld op **niets** (leeg), update het naar **TF\_packing\_slip**.
+   * Als het veld **IRF\_PackingSlip** **niet aanwezig** is, voeg het toe aan het bestand en stel de waarde in op **TF\_packing\_slip**.
+3. Voeg voor het veld **InvoiceReceiptFields** **PackingSlip** toe aan de waarden.
 
-    * If the field **IRF\_PackingSlip** is present and set to **nothing** (empty), update it to **TF\_packing\_slip**.
-    * If the field **IRF\_PackingSlip** is **not present**, add it to the file and set its value to **TF\_packing\_slip**.&#x20;
+Het zou er als volgt uit moeten zien:
 
+<figure><img src="../../../../.gitbook/assets/PackingSlip.png" alt=""><figcaption></figcaption></figure>
 
-3. For the field **InvoiceReceiptFields** add **PackingSlip** to the values.
+## **Stap 4: Voeg het bijgewerkte bestand terug naar DocBits toe**
 
-It should look like the following:
+1. Ga terug naar de **Exporteren** sectie in DocBits waar je eerder het **LN-Mapping** bestand hebt gedownload.
+2. Upload het bewerkte **LN-Mapping** bestand met de nieuwe updates.
 
-<figure><img src="../../../../.gitbook/assets/image (328).png" alt=""><figcaption></figcaption></figure>
-
-
-
-## **Step 4: Add the Updated File Back to DocBits**
-
-1. Go back to the **Export** section in DocBits where you previously downloaded the **LN-Mapping** file.
-2. Upload the edited **LN-Mapping** file with the new updates.
-
-## If you still encounter the **Error exporting document to LN** with status code **500**, please contact us
+## Als je nog steeds de foutmelding **Fout bij exporteren van document naar LN** met statuscode **500** tegenkomt, neem dan contact met ons op

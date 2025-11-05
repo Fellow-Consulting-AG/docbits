@@ -1,22 +1,17 @@
-# General Information
+# Algemene Informatie
 
 <details>
 
-<summary>What types of documents does DocBits support?</summary>
+<summary>Welke soorten documenten ondersteunt DocBits?</summary>
 
-#### Supported document types
+#### Ondersteunde documenttypen
 
-* Invoice&#x20;
-
-- Credit Note&#x20;
-
-* Delivery Note
-
-- Order Confirmation
-
-* Purchase Order&#x20;
-
-- Custom Documents
+* Factuur
+* Creditnota
+* Afleveringsbon
+* Orderbevestiging
+* Inkooporder
+* Aangepaste documenten
 
 </details>
 
@@ -24,9 +19,9 @@
 
 <details>
 
-<summary>Does DocBits support custom document types ? </summary>
+<summary>Ondersteunt DocBits aangepaste documenttypen?</summary>
 
-* Yes Users are able to create there own document types.
+Ja, Gebruikers kunnen hun eigen documenttypen maken.
 
 </details>
 
@@ -34,15 +29,20 @@
 
 <details>
 
-<summary>What file types does DocBits support ? </summary>
+<summary>Welke bestandstypen ondersteunt DocBits?</summary>
 
-#### Supported File types are:&#x20;
+#### Ondersteunde bestandstypen zijn:
 
 * .pdf
 * .edi
 * .xml
-* .tiff  (.tif)
-* .jpeg  (.jpg)
+* .tiff (.tif)
+* .jpeg (.jpg)
 * .png
 
 </details>
+
+
+
+####
+

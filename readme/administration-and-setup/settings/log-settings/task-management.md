@@ -1,12 +1,12 @@
-# Task Management
+# Taakbeheer
 
-In the "Task Management" setting under "Log Settings" section, you will be given an overview of all celery tasks, their Intervals,  when the task was ran for the last time and when it will be run again. In addition, you will also have the option to run a task again. If you are in search of a specific task, you can use the search bar for it.&#x20;
+In de instelling "Taakbeheer" onder de sectie "Loginstellingen" krijg je een overzicht van alle celery-taken, hun intervallen, wanneer de taak voor het laatst is uitgevoerd en wanneer deze opnieuw zal worden uitgevoerd. Daarnaast heb je ook de optie om een taak opnieuw uit te voeren. Als je op zoek bent naar een specifieke taak, kun je de zoekbalk gebruiken.
 
 
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-You have the option to sort the list using the little arrows next to the column name.&#x20;
+Je hebt de optie om de lijst te sorteren met de kleine pijltjes naast de kolomnaam.
 
-Columns can be rearranged by holding down the left mouse button and dragging them into place.&#x20;
+Kolommen kunnen worden herschikt door de linkermuisknop ingedrukt te houden en ze naar de gewenste plaats te slepen.&#x20;
 

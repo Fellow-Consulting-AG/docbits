@@ -1,23 +1,23 @@
-# Settings
+# Instellingen
 
 <figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.14.35.png" alt=""><figcaption></figcaption></figure>
 
-1. **Global Settings**:
-   * **Company Information**: Define and edit basic details about the company, like name, address, and other identifiers.
-   * **Groups, Users and Permissions**: Manage user roles and permissions, allowing different levels of access to various features within DocBits.
-   * **Integration**: Set up and configure integrations with other software or systems, enhancing DocBits' functionality with external services.
-   * **Document Types**: Specify and manage different types of documents that DocBits will process, such as invoices, orders, etc.
-   * **Email Notification**: Configure settings for email alerts and notifications related to document processing activities.
-   * **Dashboard**: Customize the dashboard view with widgets and metrics that are important for the users.
-2. **Document Processing**:
-   * **Documents Expiry**: Set rules for how long documents are retained before being archived or deleted.
-   * **Import**: Configure how documents are imported into DocBits, including source settings and file types.
-   * **OCR Settings**: Adjust settings for Optical Character Recognition (OCR) that converts images of text into machine-encoded text.
-   * **Classification and Extraction**: Define how documents are categorized and how data is extracted from documents.
-   * **Master Data Lookup**: Set up lookups for validating or supplementing extracted data with pre-existing master data.
-   * **List of Values**: Manage predefined lists that are used in data entry and validation.
-   * **Export**: Configure how and where processed documents and data are exported.
-   * **Module**: Additional modules that can be configured to extend functionality.
-3. **API Licenses**: Manage API keys and monitor usage statistics for APIs used by DocBits.
-4. **Supplier Settings**: Configure and manage settings specific to suppliers, possibly integrating with supplier management systems.
-5. **Cache Management**: Adjust settings related to the caching of data to improve performance of the system.
+1. **Globale Instellingen**:
+   * **Bedrijfsinformatie**: Definieer en bewerk basisgegevens over het bedrijf, zoals naam, adres en andere identificatoren.
+   * **Groepen, Gebruikers en Machtigingen**: Beheer gebruikersrollen en machtigingen, zodat verschillende niveaus van toegang tot verschillende functies binnen DocBits mogelijk zijn.
+   * **Integratie**: Stel integraties met andere software of systemen in, waardoor de functionaliteit van DocBits wordt verbeterd met externe diensten.
+   * **Documenttypes**: Specificeer en beheer verschillende soorten documenten die DocBits zal verwerken, zoals facturen, bestellingen, enz.
+   * **E-mailnotificatie**: Configureer instellingen voor e-mailwaarschuwingen en meldingen met betrekking tot documentverwerkingsactiviteiten.
+   * **Dashboard**: Pas de dashboardweergave aan met widgets en statistieken die belangrijk zijn voor de gebruikers.
+2. **Documentverwerking**:
+   * **Documentverval**: Stel regels in voor hoe lang documenten worden bewaard voordat ze worden gearchiveerd of verwijderd.
+   * **Importeren**: Configureer hoe documenten in DocBits worden geïmporteerd, inclusief broninstellingen en bestandstypen.
+   * **OCR-instellingen**: Pas instellingen aan voor Optical Character Recognition (OCR) die afbeeldingen van tekst omzet in machine-gecodeerde tekst.
+   * **Classificatie en Extractie**: Definieer hoe documenten worden gecategoriseerd en hoe gegevens uit documenten worden geëxtraheerd.
+   * **Masterdata Lookup**: Stel opzoekingen in voor het valideren of aanvullen van geëxtraheerde gegevens met reeds bestaande masterdata.
+   * **Waardenlijst**: Beheer vooraf gedefinieerde lijsten die worden gebruikt bij gegevensinvoer en validatie.
+   * **Exporteren**: Configureer hoe en waar verwerkte documenten en gegevens worden geëxporteerd.
+   * **Module**: Extra modules die kunnen worden geconfigureerd om de functionaliteit uit te breiden.
+3. **API-licenties**: Beheer API-sleutels en monitor gebruiksstatistieken voor API's die door DocBits worden gebruikt.
+4. **Leverancierinstellingen**: Configureer en beheer instellingen die specifiek zijn voor leveranciers, mogelijk geïntegreerd met leveranciersbeheersystemen.
+5. **Cachebeheer**: Pas instellingen aan die verband houden met het cachen van gegevens om de prestaties van het systeem te verbeteren.

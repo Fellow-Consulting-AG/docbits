@@ -1,70 +1,69 @@
-# eSLOG 1.6 and 2.0
+# eSLOG 1.6 en 2.0
 
-## Supported eSLOG Invoice Versions
+### Ondersteunde eSLOG Factuurversies
 
-Currently, **eSLOG Invoice versions 1.6 and 2.0** are supported.
+Momenteel worden **eSLOG Factuurversies 1.6 en 2.0** ondersteund.
 
-For official eSLOG documentation, you can refer to [this link](https://epos.si/en/eslog).
+Voor officiële eSLOG-documentatie kunt u [deze link](https://epos.si/en/eslog) raadplegen.
 
-Both eSLOG versions are enabled by default.
+Beide eSLOG-versies zijn standaard ingeschakeld.
 
-## Steps to Modify eSLOG Configuration
+### Stappen om eSLOG-configuratie te Wijzigen
 
-**Configure eSLOG:**
+**Configureer eSLOG:**
 
-* Navigate to **Settings → Global Settings → Document Types → Invoice**.
-*   Click on **E-Doc**.\
-
-
-    <figure><img src="../../../../../.gitbook/assets/image (375).png" alt=""><figcaption></figcaption></figure>
-* A list of all available e-docs will appear.
-*   Locate the eSLOG version you want to modify.\
+* Navigeer naar **Instellingen → Globale Instellingen → Documenttypen → Factuur**.
+*   Klik op **E-Doc**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (384).png" alt=""><figcaption></figcaption></figure>
-
-## **Transformation and XML Path Configuration:**
-
-In the **transformation settings**, you can define the path to locate specific information within the XML file and save it in a new structure, making it easier to access the data.\
-**Note:** If you use this functionality, you must use the newly created XML paths, not the original XML paths, in the **Preview** and **Extraction Path**.
-
-### **Steps to Modify Transformation File:**
-
-1. Open the **Transformation**.
-2. Create a new draft by clicking the **pencil icon**.
-3. Select the newly created draft.
-4. Either create a new field or modify an existing one.
-5. Set the desired path for data extraction.
-6. Click **Save**.
-
-## Preview PDF Configuration
-
-The **Preview PDF Configuration** is used to generate a user-readable version of the document. You can customize it with HTML to match your needs.
-
-### **Steps to Modify Preview File:**
-
-1. Open the **Preview**.
-2. Create a new draft by clicking the **pencil icon**.
-3. Select the newly created draft.
-4. Either create a new field or modify an existing one.
-5. Set the desired path for data extraction.
-6. Click **Save**.
-
-## Extraction Paths Configuration
-
-The **Extraction Paths Configuration** is used to extract data and populate fields in the **validation screen**, such as the invoice table or fields configured in the invoice layout.
-
-### **Steps to Modify** **Extraction Paths**:
-
-1. Open the **Extraction Paths**.
-2. Create a new draft by clicking the **pencil icon**.
-3. Select the newly created draft.
-4. Create a new field or modify an existing one.
-5.  The left side represents the **DocBits field ID**, which can be found in the  **Settings → Global Settings → Document Types → Invoice → Fields**.\
+    <figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+* Een lijst van alle beschikbare e-docs verschijnt.
+*   Zoek de eSLOG-versie die u wilt wijzigen.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (379).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../../../.gitbook/assets/image (378).png" alt=""><figcaption></figcaption></figure>
-6. The right side represents the **path to the field** created in the Transformation.
-7. Click **Save**.
+### **Transformatie en XML-padconfiguratie:**
+
+In de **transformatiesettings** kunt u het pad definiëren om specifieke informatie binnen het XML-bestand te lokaliseren en deze op te slaan in een nieuwe structuur, waardoor het gemakkelijker wordt om toegang te krijgen tot de gegevens. **Opmerking:** Als u deze functionaliteit gebruikt, moet u de nieuw aangemaakte XML-paden gebruiken, niet de oorspronkelijke XML-paden, in de **Voorbeeld** en **Extractiepad**.
+
+#### **Stappen om Transformatie Bestand te Wijzigen:**
+
+1. Open de **Transformatie**.
+2. Maak een nieuw concept door op het **potloodicoon** te klikken.
+3. Selecteer het nieuw aangemaakte concept.
+4. Maak een nieuw veld aan of wijzig een bestaand veld.
+5. Stel het gewenste pad in voor gegevensextractie.
+6. Klik op **Opslaan**.
+
+### Voorbeeld PDF-configuratie
+
+De **Voorbeeld PDF-configuratie** wordt gebruikt om een gebruikersleesbare versie van het document te genereren. U kunt het aanpassen met HTML om aan uw behoeften te voldoen.
+
+#### **Stappen om Voorbeeld Bestand te Wijzigen:**
+
+1. Open de **Voorbeeld**.
+2. Maak een nieuw concept door op het **potloodicoon** te klikken.
+3. Selecteer het nieuw aangemaakte concept.
+4. Maak een nieuw veld aan of wijzig een bestaand veld.
+5. Stel het gewenste pad in voor gegevensextractie.
+6. Klik op **Opslaan**.
+
+### Extractiepadenconfiguratie
+
+De **Extractiepadenconfiguratie** wordt gebruikt om gegevens te extraheren en velden in het **validatiescherm** in te vullen, zoals de factuurtabel of velden die zijn geconfigureerd in de factuurlay-out.
+
+#### **Stappen om Extractiepaden te Wijzigen:**
+
+1. Open de **Extractiepaden**.
+2. Maak een nieuw concept door op het **potloodicoon** te klikken.
+3. Selecteer het nieuw aangemaakte concept.
+4. Maak een nieuw veld aan of wijzig een bestaand veld.
+5.  De linkerkant vertegenwoordigt de **DocBits veld-ID**, die te vinden is in de **Instellingen → Globale Instellingen → Documenttypen → Factuur → Velden**.\
+
+
+    <figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+6. De rechterkant vertegenwoordigt het **pad naar het veld** dat is aangemaakt in de Transformatie.
+7. Klik op **Opslaan**.

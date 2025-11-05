@@ -1,22 +1,15 @@
 # Integration
 
-The integration settings play a crucial role in the efficiency and functionality of Docbits as they allow to ensure seamless interaction with other tools and services. Here are some reasons why properly configuring the integration settings is important:
+De integratie-instellingen spelen een cruciale rol in de efficiëntie en functionaliteit van Docbits, omdat ze zorgen voor een naadloze interactie met andere tools en diensten. Hier zijn enkele redenen waarom het belangrijk is om de integratie-instellingen goed te configureren:
 
-## API Key
+## API-sleutel
 
-<figure><img src="https://lh7-us.googleusercontent.com/lFBSwUxiK35KkhYh46gw35BsD10rvHK6_1_Tnf449-jd2WJleDhxPzHpUmNdbP1mst5TkLBpGj5iJyiR_Dxpbta6S9p4Rb3FWj7RIc628Kw-RgqpVvLDYggagjuFI1DdLfOJqkTWHBE0JLQRolTWvOc" alt="" width="563"><figcaption></figcaption></figure>
+De integratie-instellingen spelen een cruciale rol in de efficiëntie en functionaliteit van DocBits, omdat ze zorgen voor een naadloze interactie met andere tools en diensten. Hier zijn enkele redenen waarom het belangrijk is om de integratie-instellingen goed te configureren:
 
-The integration settings play a crucial role in the efficiency and functionality of DocBits as they allow to ensure seamless interaction with other tools and services. Here are some reasons why properly configuring the integration settings is important:
+* **Verhoogde efficiëntie:** Integratie met andere tools en diensten kan workflows stroomlijnen en de efficiëntie verhogen. Bijvoorbeeld, documenten kunnen automatisch worden uitgewisseld tussen Docbits en een CRM-systeem, waardoor handmatige invoer wordt verminderd en de productiviteit toeneemt.
+* **Gegevensconsistentie:** Integratie maakt het mogelijk om gegevens naadloos uit te wisselen tussen verschillende systemen, wat de gegevensconsistentie en nauwkeurigheid verbetert. Dit voorkomt inconsistenties of dubbele gegevensinvoer die tot fouten kunnen leiden.
+* **Realtime updates:** Integratie maakt realtime updates mogelijk tussen verschillende platforms, zodat gebruikers altijd de meest actuele informatie hebben. Dit is vooral belangrijk voor kritieke bedrijfsprocessen die realtime informatie vereisen.
+* **Taakautomatisering:** Integratie maakt het mogelijk om routinetaken te automatiseren, wat tijd en middelen bespaart. Bijvoorbeeld, meldingen kunnen automatisch worden geactiveerd wanneer een bepaalde gebeurtenis zich in een ander systeem voordoet, zonder dat handmatige tussenkomst nodig is.
+* **Verbeterde gebruikerservaring:** Een goed geconfigureerde integratie zorgt voor een naadloze gebruikerservaring, aangezien gebruikers niet tussen verschillende systemen hoeven te schakelen om relevante informatie te verkrijgen. Dit verbetert de gebruikers tevredenheid en draagt bij aan de efficiëntie.
 
-* **Increased efficiency:** Integration with other tools and services can streamline workflows and increase efficiency. For example, documents can be automatically exchanged between Docbits and a CRM system, reducing manual entry and increasing productivity
-* **Data consistency:** Integration allows data to be exchanged seamlessly between different systems, improving data consistency and accuracy. This avoids inconsistencies or duplicate data entry that could lead to errors.
-* **Real-time updates**: Integration enables real-time updates between different platforms so that users always have the latest information. This is especially important for critical business processes that require real-time information.
-* **Task automation:** Integration allows routine tasks to be automated, saving time and resources. For example, notifications can be triggered automatically when a certain event occurs in another system without the need for manual intervention.
-* **Improved user experience:** A well-configured integration ensures a seamless user experience as users do not have to switch between different systems to access relevant information. This improves user satisfaction and contributes to efficiency.
-
-To properly configure the integration settings, it is important to understand the organization's requirements and ensure that the integration is seamlessly integrated into existing workflows and processes. This requires thorough planning, configuration, and monitoring of the integration to ensure that it works smoothly and delivers the desired value.
-
-
-
-
-
+Om de integratie-instellingen goed te configureren, is het belangrijk om de vereisten van de organisatie te begrijpen en ervoor te zorgen dat de integratie naadloos wordt geïntegreerd in bestaande workflows en processen. Dit vereist grondige planning, configuratie en monitoring van de integratie om ervoor te zorgen dat deze soepel werkt en de gewenste waarde levert.

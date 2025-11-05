@@ -1,20 +1,56 @@
-# Filtering Documents
+# Documenten filteren
 
-You can search for specific documents by entering the document name or ID into the search bar, as shown below.
+## Standaard filteropties
 
-<figure><img src="../../../.gitbook/assets/FilteringDocs_1.png" alt=""><figcaption></figcaption></figure>
+Je kunt naar specifieke documenten zoeken door de documentnaam of ID in te voeren in de zoekbalk bovenaan het Dashboard.
 
-For more refined filtering, click the icon on the right side of the search bar to select specific criteria for searching documents.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_1.png)
 
-<figure><img src="../../../.gitbook/assets/FilteringDocs_2.png" alt=""><figcaption></figcaption></figure>
+Voor verfijnder filteren klik je op het filterpictogram aan de rechterkant van de zoekbalk om specifieke criteria voor het zoeken naar documenten te selecteren.
 
-The following filter options will be available for you to use.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_2.png)
 
-* **Document Type**: Type of the document (e.g., Invoice, Purchase Order).
-* **Status**: Processing status (e.g., Ready for validation, Rejected).
-* **Assigned To**: User to whom the document is assigned.
-* **Assigned to group**: Group to which the document is assigned.
-* **Start date / End date**: Date range in which the documents were imported.
-* **Restart Required**: Documents that require a restart.
+De volgende filteropties zijn beschikbaar:
 
-Click "Apply" to apply the filters, or click "Clear Filters" to reset them.
+* **Status**: Filter op verwerkingsstatus (bijv. Ready for validation, Rejected).
+* **Toegewezen aan**: Filter op de gebruiker aan wie het document is toegewezen.
+* **Toegewezen aan groep**: Filter op de groep waaraan het document is toegewezen.
+* **Opnieuw opstarten vereist**: Filter op documenten waarvoor een herstart vereist is.
+
+Klik op **Toepassen** om de geselecteerde filters toe te passen, of **Filters wissen** om ze te resetten.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_3.png)
+
+## Tijdsgebaseerd filteren
+
+Om documenten te filteren op importdatum, gebruik je het tijdfilter rechts van de zoekbalk. Je kunt kiezen uit de volgende vooraf ingestelde perioden:
+
+* **30 dagen**
+* **90 dagen**
+* **180 dagen**
+* **365 dagen**
+* **Alle**
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_4.png)
+
+Je kunt ook een aangepast datumbereik selecteren door op **Aangepast** te klikken en vervolgens een **Startdatum** en **Einddatum** op te geven. Klik daarna op **Toepassen** om het filter te activeren.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_5.png)
+
+<mark style="color:red;">**Opmerking**</mark>: Het selecteren van een langere periode kan resulteren in langere laadtijden.
+
+## Filteren op documenttype
+
+Om te filteren op specifieke documenttypes:
+
+1.  Klik op het plus (+)-pictogram bovenaan het Dashboard.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_6.png)
+2. Selecteer een documenttype uit de lijst.
+3.  Na het selecteren van een documenttype kun je met de tabbladen bovenaan het Dashboard tussen filters schakelen.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_7.png)
+
+Om een specifiek filter te verwijderen, beweeg je de muis over het filterlabel en klik je op de rode X. Dit verwijdert het filter uit de tablijst.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_8.png)

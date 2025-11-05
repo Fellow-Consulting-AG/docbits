@@ -1,4 +1,3 @@
-# How to Import Documents
+# Hoe Documenten te Importeren
 
-A guide to uploading documents to DocBits.
-
+Een gids voor het uploaden van documenten naar DocBits.

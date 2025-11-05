@@ -1,27 +1,27 @@
-# Calculate PO unit price
+# Bereken PO-eenheidsprijs
 
-## **Overview**
+## **Overzicht**
 
-You can choose to calculate the unit price manually by dividing the net amount by the quantity, instead of automatically extracting it from the document. This is particularly useful when the unit price in the purchase order (in Infor) differs from the price extracted from the document. Such discrepancies may arise if a discount is applied to the unit price in the Infor purchase order, while the document only applies the discount to the net amount.
+U kunt ervoor kiezen om de **eenheidsprijs** automatisch te berekenen door het **totaalbedrag** te delen door de **hoeveelheid**, en dit vervolgens te vermenigvuldigen met de **eenheidsprijs per** waarde, in plaats van de eenheidsprijs rechtstreeks uit het document te halen. Dit is bijzonder nuttig wanneer de eenheidsprijs in de inkooporder (in Infor) verschilt van de prijs die uit het document is gehaald. Dergelijke discrepanties kunnen ontstaan als er een korting op de eenheidsprijs in de Infor inkooporder wordt toegepast, terwijl het document de korting alleen op het netto bedrag toepast.
 
-## **Activation Steps**
+## **Activatiestappen**
 
-1.  Navigate to **Settings** -> **Global Settings** -> **Document Types**.
+1.  Navigeer naar **Instellingen** -> **Globale instellingen** -> **Documenttypen**.
 
-    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1.png" alt=""><figcaption></figcaption></figure>
-2.  Select the desired document type and click on **More Settings**.
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Calculate_PO_unit_price_1.png)
+2.  Selecteer het gewenste documenttype en klik op **Meer instellingen**.
 
-    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
-3.  In the **Purchase Order** section, enable the option **Calculate PO Unit Price**.
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Calculate_PO_unit_price_2.png)
+3.  In de sectie **Inkooporder**, schakel de optie **Bereken PO-eenheidsprijs** in.
 
-    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_3.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Calculate_PO_unit_price_3.png)
 
-## Example:
+## Voorbeeld:
 
-<figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_4.png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Calculate_PO_unit_price_4.png)
 
-In this case, the unit price (without the discount) is extracted from the document, while the purchase order in Infor stores the unit price with the discount applied. This results in a mismatch in the unit price.
+In dit geval wordt de eenheidsprijs (zonder korting) uit het document gehaald, terwijl de inkooporder in Infor de eenheidsprijs met de toegepaste korting opslaat. Dit resulteert in een mismatch in de eenheidsprijs.
 
-Once the setting is activated, the unit price will be recalculated as follows:\
-**Unit Price = Net Amount ÷ Quantity**\
-This ensures that the unit price is consistent and matches the intended value.
+Zodra de instelling is geactiveerd, zal de eenheidsprijs als volgt worden herberekend:\
+&#xNAN;**`Eenheidsprijs = Totaalbedrag ÷ Hoeveelheid * Eenheidsprijs per`**\
+Dit zorgt ervoor dat de eenheidsprijs consistent is en overeenkomt met de bedoelde waarde.

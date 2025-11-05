@@ -1,2 +1,2 @@
-# Approval
+# Goedkeuring
 

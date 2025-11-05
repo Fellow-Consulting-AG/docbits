@@ -1,40 +1,37 @@
 # FAQ
 
-## FAQ - Frequently Asked Questions
+## FAQ - Veelgestelde vragen
 
-Welcome to the FAQ page! Below you will find links to various categories that can help you quickly find the information you need.
+Welkom op de FAQ-pagina! Hieronder vindt u links naar verschillende categorieën die u kunnen helpen snel de informatie te vinden die u nodig heeft.
 
-## **1. General Information**
+## **1. Algemene Informatie**
 
-For common questions and guidance on how DocBits works, how to set up your account, and basic troubleshooting tips.
+Voor veelgestelde vragen en begeleiding over hoe DocBits werkt, hoe u uw account kunt instellen en basisoplossingen voor problemen.
 
 {% content-ref url="general-information.md" %}
 [general-information.md](general-information.md)
 {% endcontent-ref %}
 
-## **2. Document Processing**
+## **2. Documentverwerking**
 
-Everything related to the extraction, handling, and processing of documents in DocBits.
+Alles wat te maken heeft met de extractie, verwerking en verwerking van documenten in DocBits.
 
 {% content-ref url="document-processing/" %}
 [document-processing](document-processing/)
 {% endcontent-ref %}
 
-## **3. Infor LN (LN Integration)**
+## **3. Infor LN (LN Integratie)**
 
-Guidelines and FAQs related to integrating DocBits with Infor LN, document imports, and specific configurations for LN.
+Richtlijnen en veelgestelde vragen met betrekking tot het integreren van DocBits met Infor LN, documentimporten en specifieke configuraties voor LN.
 
 {% content-ref url="infor-ln-ln-integration/" %}
 [infor-ln-ln-integration](infor-ln-ln-integration/)
 {% endcontent-ref %}
 
-## **4. Infor M3 (M3 Integration)**
+## **4. Infor M3 (M3 Integratie)**
 
-Guidelines and FAQs related to integrating DocBits with Infor M3, document imports, and specific configurations for M3.
+Richtlijnen en veelgestelde vragen met betrekking tot het integreren van DocBits met Infor M3, documentimporten en specifieke configuraties voor M3.
 
 {% content-ref url="infor-m3-m3-integration/" %}
 [infor-m3-m3-integration](infor-m3-m3-integration/)
 {% endcontent-ref %}
-
-
-

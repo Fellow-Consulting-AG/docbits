@@ -1,51 +1,50 @@
-# Purchase order disable statuses
+# PO-uitschakelstatussen
 
-## **Overview**
+## **Overzicht**
 
-The **PO Disable Statuses** setting allows users to specify purchase order (PO) statuses that prevent invoices from being matched to those POs. If a purchase order has a status listed in this setting, it **cannot** be used for invoice matching in the PO matching screen, stopping further processing of related invoices until the PO's status changes to one that is not disabled.\
+De **PO-uitschakelstatussen** instelling stelt gebruikers in staat om inkooporder (PO) statussen op te geven die voorkomen dat facturen aan die PO's worden gekoppeld. Als een inkooporder een status heeft die in deze instelling is vermeld, kan deze **niet** worden gebruikt voor factuurmatching in het PO-matching scherm, waardoor verdere verwerking van gerelateerde facturen wordt stopgezet totdat de status van de PO verandert in een die niet is uitgeschakeld.\
 \
-By using this setting, users can ensure that purchase orders with specific statuses do not undergo further invoice processing, reducing errors and preventing unnecessary payments.
+Door deze instelling te gebruiken, kunnen gebruikers ervoor zorgen dat inkooporders met specifieke statussen geen verdere factuurverwerking ondergaan, wat fouten vermindert en onnodige betalingen voorkomt.
 
-## **Activation Steps**&#x20;
+## **Activatiestappen**
 
-1.  Go to **Settings → Global Settings → Document Types**
+1.  Ga naar **Instellingen → Globale instellingen → Documenttypen**
 
-    <figure><img src="../../../../../../.gitbook/assets/disablpe_po_status_1.png" alt=""><figcaption></figcaption></figure>
-2.  Select the desired document type and click on **More Settings**.
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_1_nl.png" alt=""><figcaption></figcaption></figure>
+2.  Selecteer het gewenste documenttype en klik op **Meer instellingen**.
 
-    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
-3.  In the **Purchase Order** section, navigate to the **PO Disable Statuses** option.
+    <figure><img src="../../../../../../.gitbook/assets/Calculate_PO_unit_price_2_nl.png" alt=""><figcaption></figcaption></figure>
+3.  Ga in de sectie **Inkooporder** naar de optie **PO-uitschakelstatussen**.
 
-    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_3.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_3_nl.png" alt=""><figcaption></figcaption></figure>
 
-### **How to Identify a Disabled Purchase Order**
+### **Hoe een uitgeschakelde inkooporder te identificeren**
 
-In the **PO Matching** screen, a disabled purchase order appears **crossed out**. This visually indicates that the PO is currently restricted from being matched due to its status.
+In het **PO-matching** scherm verschijnt een uitgeschakelde inkooporder **doorgehaald**. Dit geeft visueel aan dat de PO momenteel beperkt is in het matchen vanwege zijn status.
 
-<figure><img src="../../../../../../.gitbook/assets/image (390).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/disable_po_status_6.png" alt=""><figcaption></figcaption></figure>
 
-### **How to set it up**&#x20;
+### **Hoe het in te stellen**
 
-1. In the **PO Disable Statuses** setting, you will see a selection field on the left side.
-2.  Clicking this field opens a dropdown list of available PO statuses.\
+1. In de instelling **PO-uitschakelstatussen** zie je een selectievak aan de linkerkant.
+2.  Door op dit vak te klikken, opent een dropdownlijst met beschikbare PO-statussen.
 
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_4_nl.png" alt="" width="261"><figcaption></figcaption></figure>
+3. Selecteer een of meer statussen door erop te klikken. Klik opnieuw om te deselecteren.
+4.  Klik op de knop **Toepassen** om je wijzigingen op te slaan.
 
-    <div align="center"><figure><img src="../../../../../../.gitbook/assets/image (389).png" alt="" width="372"><figcaption></figcaption></figure></div>
-3. Select one or more statuses by clicking on them. Click again to deselect.
-4.  Click the **Apply** button to save your changes.
+    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_5_nl.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../../../../.gitbook/assets/disable_po_status_5 (1).png" alt=""><figcaption></figcaption></figure>
+**Beschikbare statussen**
 
-**Available Statuses**
-
-* Canceled&#x20;
-* Deleted
-* Invoiced&#x20;
+* Geannuleerd
+* Verwijderd
+* Gefactureerd
 * Open
-* Partially Invoiced&#x20;
-* Partially Received&#x20;
-* Received&#x20;
-* Rejected
-* Unapproved&#x20;
-* Hold
-* Closed
+* Gedeeltelijk gefactureerd
+* Gedeeltelijk ontvangen
+* Ontvangen
+* Afgewezen
+* Niet goedgekeurd
+* Uitstel
+* Gesloten

@@ -1,34 +1,32 @@
-# User Configuration Options
+# Gebruikersconfiguratie-opties
 
-To configure your settings, click on the User Icon located in the bottom-left corner of the screen. Here you can customize several options:
+Om uw instellingen te configureren, klikt u op het gebruikerspictogram in de linkerbenedenhoek van het scherm. Hier kunt u verschillende opties aanpassen:
 
-<figure><img src="../../.gitbook/assets/User-Config.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/user-config.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="308"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/user_config_options_2.png" alt="" width="308"><figcaption></figcaption></figure>
 
+**Taal**
 
-
-**Language**
-
-* **Select Preferred Language:** Choose your desired language from the available options.
+* **Selecteer Voorkeurs Taal:** Kies uw gewenste taal uit de beschikbare opties.
 
 **Dark Mode**
 
-* **Switch to Dark Mode:** Enable or disable Dark Mode for a more comfortable viewing experience.
+* **Schakel Dark Mode in:** Schakel de Dark Mode in of uit voor een comfortabelere kijkervaring.
 
-**User Settings**
+**Gebruikersinstellingen**
 
-In this section, you can adjust the following preferences:
+In dit gedeelte kunt u de volgende voorkeuren aanpassen:
 
-* **Date Pattern:** Customize how dates are displayed.
-* **Amount Formatting:** Set your preferred format for numerical values.
-* **Name:** Update your name.
-* **Password:** Change your password for account security.
-* **Font Size:** Adjust the text size for better readability.
-* **Dual Monitor Mode:** Enable this feature if you’re using two monitors.
+* **Datum Patroon:** Pas aan hoe datums worden weergegeven.
+* **Bedrag Opmaak:** Stel uw voorkeur in voor numerieke waarden.
+* **Naam:** Werk uw naam bij.
+* **Wachtwoord:** Wijzig uw wachtwoord voor de beveiliging van uw account.
+* **Lettergrootte:** Pas de tekstgrootte aan voor betere leesbaarheid.
+* **Dual Monitor Modus:** Schakel deze functie in als u twee monitoren gebruikt.
 
 <figure><img src="../../.gitbook/assets/user-config3.png" alt=""><figcaption></figcaption></figure>
 
-**Logout**
+**Uitloggen**
 
-* **Logout:** Click here to securely log out of your account.
+* **Uitloggen:** Klik hier om veilig uit te loggen uit uw account.

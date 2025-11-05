@@ -1,46 +1,46 @@
-# Table Extraction Troubleshoot
+# Tabel Extractie Probleemoplossing
 
-## **Step 1: Open OCR View for Bad Extraction Results**
+## **Stap 1: Open OCR-weergave voor Slechte Extractieresultaten**
 
-If the table extraction training results are not good:
+Als de resultaten van de tabel extractietraining niet goed zijn:
 
-1. Open the **OCR View** by clicking on the magnifying glass icon with **OCR** written on it.
-2. Review the extraction results and see if the OCR process can improve the data capture.
-3. If the results still look bad, try a different document to verify if the issue is document-specific.
-4. If the issue is document-specific, use another document for extraction.
-   * If the issue persists, follow the next steps.
+1. Open de **OCR-weergave** door te klikken op het vergrootglaspictogram met **OCR** erop geschreven.
+2. Bekijk de extractieresultaten en zie of het OCR-proces de gegevensvastlegging kan verbeteren.
+3. Als de resultaten er nog steeds slecht uitzien, probeer dan een ander document om te controleren of het probleem documentspecifiek is.
+4. Als het probleem documentspecifiek is, gebruik dan een ander document voor extractie.
+   * Als het probleem aanhoudt, volg dan de volgende stappen.
 
-## **Step 2: Check for E-Text Availability**
+## **Stap 2: Controleer de Beschikbaarheid van E-tekst**
 
-1. Check if the document has **e-text** available.
-   * You can verify this using a tool like **Adobe Acrobat**.
-   * If the document contains e-text, follow **Step 3.**
-   * If the document does not contain e-text, follow **Step 4.**
+1. Controleer of het document **e-tekst** beschikbaar heeft.
+   * U kunt dit controleren met een tool zoals **Adobe Acrobat**.
+   * Als het document e-tekst bevat, volg dan **Stap 3.**
+   * Als het document geen e-tekst bevat, volg dan **Stap 4.**
 
-## **Step 3: Turn On E-Text Extraction**
+## **Stap 3: Schakel E-tekst Extractie In**
 
-If the document contains e-text, you have two options:
+Als het document e-tekst bevat, heeft u twee opties:
 
-1. **Turn on e-text extraction for just this supplier**:
-   * Go back to the **Documents Field Validation**.
-   * Click the square with the three dots in the left-side toolbar.
-   * Here, activate the **Use E-text if available** option to turn it on for just this supplier.
-2. **Turn on e-text extraction for all suppliers**:
-   * Go to **Settings** > **Document Processing** > **OCR Settings**.
-   * In this section, you will find the **Use E-text if available** option and can turn it on for all suppliers.
-3. After enabling e-text extraction, retry the **table extraction training**.
-   * If the results improve, the issue is resolved.
-   * If the results are still not good, proceed to **Step 4**.
+1. **Schakel e-tekst extractie in voor alleen deze leverancier**:
+   * Ga terug naar de **Documenten Veldvalidatie**.
+   * Klik op het vierkantje met de drie puntjes in de linkerwerkbalk.
+   * Activeer hier de optie **Gebruik E-tekst indien beschikbaar** om het in te schakelen voor alleen deze leverancier.
+2. **Schakel e-tekst extractie in voor alle leveranciers**:
+   * Ga naar **Instellingen** > **Documentverwerking** > **OCR-instellingen**.
+   * In dit gedeelte vindt u de optie **Gebruik E-tekst indien beschikbaar** en kunt u het inschakelen voor alle leveranciers.
+3. Na het inschakelen van e-tekst extractie, probeer de **tabel extractietraining** opnieuw.
+   * Als de resultaten verbeteren, is het probleem opgelost.
+   * Als de resultaten nog steeds niet goed zijn, ga verder naar **Stap 4**.
 
-## **Step 4: No E-Text Available - Change AI OCR Version**
+## **Stap 4: Geen E-tekst Beschikbaar - Verander AI OCR Versie**
 
-If the document does not have e-text available:
+Als het document geen e-tekst heeft:
 
-1. Go to **Settings** > **Document Processing** > **OCR Settings**.
-2. Change the **AI OCR Version** to a different version.
-3. Go back to the **Table Extraction Training** and try again.
-4. If the result is better:
-   * Check other documents from different suppliers to ensure the extraction results for those suppliers are not impacted by this change.
-   * **Be cautious, as this change can affect other suppliers' extraction results.**
-   * This change can impact other suppliers, so make sure to verify the results thoroughly to ensure it does not negatively affect other suppliers’ document extractions.
-5. If the result did not improve after changing the AI OCR version, please **contact us** for further assistance.
+1. Ga naar **Instellingen** > **Documentverwerking** > **OCR-instellingen**.
+2. Verander de **AI OCR Versie** naar een andere versie.
+3. Ga terug naar de **Tabel Extractie Training** en probeer opnieuw.
+4. Als het resultaat beter is:
+   * Controleer andere documenten van verschillende leveranciers om ervoor te zorgen dat de extractieresultaten voor die leveranciers niet worden beïnvloed door deze verandering.
+   * **Wees voorzichtig, aangezien deze verandering de extractieresultaten van andere leveranciers kan beïnvloeden.**
+   * Deze verandering kan andere leveranciers beïnvloeden, dus zorg ervoor dat u de resultaten grondig controleert om ervoor te zorgen dat het de documentextracties van andere leveranciers niet negatief beïnvloedt.
+5. Als het resultaat niet verbeterde na het veranderen van de AI OCR versie, neem dan **contact met ons op** voor verdere assistentie.

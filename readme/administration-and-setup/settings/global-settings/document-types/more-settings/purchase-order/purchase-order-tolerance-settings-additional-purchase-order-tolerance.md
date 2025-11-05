@@ -1,63 +1,64 @@
-# Purchase order tolerance settings / Additional purchase order tolerance
+# Aankooporder tolerantie-instellingen / Extra aankooporder tolerantie
 
-## **Setting to configure Purchase Order Tolerances**&#x20;
+### **Instelling om Aankooporder Toleranties te configureren**
 
-Go to **Settings → General Settings → Document Types → More Settings → Purchase Order Section → PO Tolerance Setting**
+Ga naar **Instellingen → Algemene Instellingen → Documenttypen → Meer Instellingen → Aankooporder Sectie → PO Tolerantie Instelling**
 
-### **How It Works**
+#### **Hoe Het Werkt**
 
-When enabled, this setting allows you to define tolerances for **Quantity** and/or **Unit Price**. These tolerances can be set either as a percentage or as a fixed value. This means that an invoice can deviate from the purchase order (PO) within the specified tolerance range without being flagged as a mismatch, providing flexibility while ensuring seamless processing.
+Wanneer ingeschakeld, stelt deze instelling je in staat om toleranties voor **Hoeveelheid** en/of **Eenheidsprijs** te definiëren. Deze toleranties kunnen worden ingesteld als een percentage of als een vast bedrag. Dit betekent dat een factuur kan afwijken van de aankooporder (PO) binnen het opgegeven tolerantiebereik zonder als een mismatch te worden gemarkeerd, wat flexibiliteit biedt terwijl een naadloze verwerking wordt gegarandeerd.
 
-<mark style="color:red;">**NOTE**</mark>**:** Tolerances work in both directions; that is, the invoice value may be either higher or lower than the PO value within the allowed range.
+<mark style="color:red;">**OPMERKING**</mark>: Toleranties werken in beide richtingen; dat wil zeggen, de factuurwaarde kan zowel hoger als lager zijn dan de PO-waarde binnen het toegestane bereik.
 
-### **Setting It Up**
+#### **Instelling Configureren**
 
-1. **Enable the Setting:**
-   * Turn on the PO Tolerance Setting using the toggle button.
-2. **Configure Tolerances:**
-   * Four fields will appear:
-     * One field for the **Quantity Tolerance Amount**.
-     * One field for the **Unit Price Tolerance Amount**.
-   * Behind each field, there is a dropdown menu where you can select the tolerance type:
-     * **Percent:** Indicates a percentage tolerance.
-     * **Value:** Indicates a fixed amount by which the value can differ.
+* **Schakel de Instelling In:**
+  * Zet de PO Tolerantie Instelling aan met de schakelaar.
+* **Configureer Toleranties:**
+  * Er verschijnen vier velden:
+    * Eén veld voor het **Hoeveelheid Tolerantie Bedrag**.
+    * Eén veld voor het **Eenheidsprijs Tolerantie Bedrag**.
+  * Achter elk veld is er een dropdownmenu waar je het type tolerantie kunt selecteren:
+    * **Percentage:** Geeft een percentage tolerantie aan.
+    * **Waarde:** Geeft een vast bedrag aan waar het bedrag van kan afwijken.
 
-<figure><img src="../../../../../../.gitbook/assets/image (394).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207103448 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-### **Example Scenario:**
+#### **Voorbeeldscenario:**
 
-* Suppose the **Unit Price Tolerance** is set to **5%**.
-* The purchase order includes two lines:
-  * **Line 1:** Unit Price = **$5.00**
-  * **Line 2:** Unit Price = **$2.00**
-* On the invoice:
-  * **Line 1:** The unit price is adjusted to **$4.80** (**within** the 5% tolerance).
-  * **Line 2:** The unit price is adjusted to **$2.20** (**outside** the 5% tolerance).
-* **Outcome:**
-  * Line 1 is **not flagged** as a mismatch because $4.80 is within 5% of $5.00.
-  * Line 2 **is flagged** as a mismatch because $2.20 exceeds the allowed 5% deviation from $2.00. The user is now required to take action to resolve the mismatch before the invoice can be processed further.
+* Stel dat de **Eenheidsprijs Tolerantie** is ingesteld op **5%**.
+* De aankooporder bevat twee regels:
+  * **Regel 1:** Eenheidsprijs = **$5.00**
+  * **Regel 2:** Eenheidsprijs = **$2.00**
+* Op de factuur:
+  * **Regel 1:** De eenheidsprijs is aangepast naar **$4.80** (**binnen** de 5% tolerantie).
+  * **Regel 2:** De eenheidsprijs is aangepast naar **$2.20** (**buiten** de 5% tolerantie).
+* **Resultaat:**
+  * Regel 1 is **niet gemarkeerd** als een mismatch omdat $4.80 binnen 5% van $5.00 ligt.
+  * Regel 2 **is gemarkeerd** als een mismatch omdat $2.20 de toegestane 5% afwijking van $2.00 overschrijdt. De gebruiker moet nu actie ondernemen om de mismatch op te lossen voordat de factuur verder kan worden verwerkt.
 
-<figure><img src="../../../../../../.gitbook/assets/image (395).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207103729.jpg" alt=""><figcaption></figcaption></figure>
 
-## Setting to configure Additional Purchase Order Tolerance Settings
+### Instelling om Extra Aankooporder Tolerantie-instellingen te configureren
 
-Go to **Settings → General Settings → Document Types → More Settings → Purchase Order Section → Additional PO Tolerance Setting**
+Ga naar **Instellingen → Algemene Instellingen → Documenttypen → Meer Instellingen → Aankooporder Sectie → Extra PO Tolerantie Instelling**
 
-### **How It Works**
+#### **Hoe Het Werkt**
 
-When enabled, this setting allows you to define tolerances for **Freight**, **Charges**, and/or **Tax**. These tolerances can be set either as a percentage or as a fixed value, enabling invoices to vary slightly from the PO values without being flagged as mismatches. This provides additional flexibility and ensures that minor differences do not interrupt the workflow.
+Wanneer ingeschakeld, stelt deze instelling je in staat om toleranties voor **Vracht**, **Kosten**, en/of **Belasting** te definiëren. Deze toleranties kunnen worden ingesteld als een percentage of als een vast bedrag, waardoor facturen iets kunnen afwijken van de PO-waarden zonder als mismatches te worden gemarkeerd. Dit biedt extra flexibiliteit en zorgt ervoor dat kleine verschillen de workflow niet onderbreken.
 
-<mark style="color:red;">**NOTE**</mark>**:** Just like the standard tolerance settings, these tolerances apply in both directions—allowing for increases or decreases within the set limits.
+<mark style="color:red;">**OPMERKING**</mark>: Net als de standaard tolerantie-instellingen, zijn deze toleranties van toepassing in beide richtingen—waardoor verhogingen of verlagingen binnen de ingestelde limieten zijn toegestaan.
 
-### **Setting It Up**
+#### **Instelling Configureren**
 
-1. **Enable the Setting:**
-   * Turn on the Additional PO Tolerance Setting using the toggle button.
-2. **Configure Tolerances:**
-   * Six fields will become visible:
-     * One field each for the tolerance amounts for **Freight**, **Charges**, and **Tax**.
-   * Each field has an accompanying dropdown menu where you can choose the tolerance type:
-     * **Percent:** The tolerance is defined as a percentage.
-     * **Value:** The tolerance is defined as a fixed amount.
+* **Schakel de Instelling In:**
+  * Zet de Extra PO Tolerantie Instelling aan met de schakelaar.
+* **Configureer Toleranties:**
+  * Zes velden worden zichtbaar:
+    * Eén veld voor de tolerantiebedragen voor **Vracht**, **Kosten**, en **Belasting**.
+  * Elk veld heeft een bijbehorend dropdownmenu waar je het type tolerantie kunt kiezen:
+    * **Percentage:** De tolerantie wordt gedefinieerd als een percentage.
+    * **Waarde:** De tolerantie wordt gedefinieerd als een vast bedrag.
 
-<figure><img src="../../../../../../.gitbook/assets/image (396).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207103618.jpg" alt=""><figcaption></figcaption></figure>
+

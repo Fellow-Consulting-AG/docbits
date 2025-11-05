@@ -1,10 +1,5 @@
+# Overzicht van Geüploade Documenten
 
+Het tweede deel van het dashboard is een overzicht van alle geüploade documenten. Je kunt alle documenten bekijken of alleen de documenten die aan jou zijn toegewezen. Je kunt ook zoeken naar documenten op naam.
 
-# Overview of Uploaded Documents
-
-The second part of the dashboard is an overview of all the uploaded documents. You can view all documents or just the ones assigned to you. You can also search for documents by name.
-
-Data will be extracted within seconds, and the status will change from “Running” to “Ready for Validation”.
-
-
-
+Gegevens worden binnen enkele seconden geëxtraheerd en de status zal veranderen van "Loopt" naar "Klaar voor validatie".

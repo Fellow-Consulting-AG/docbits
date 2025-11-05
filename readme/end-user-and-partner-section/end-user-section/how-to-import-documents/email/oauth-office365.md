@@ -4,32 +4,32 @@
 
 {% embed url="https://youtu.be/Vvy38N_5g3Y" %}
 
-Here you just need to enter your desired sub organization and press ‘Authenticate’
+Hier hoef je alleen je gewenste suborganisatie in te voeren en op 'Authenticate' te drukken.
 
 ![](https://lh7-us.googleusercontent.com/9G20nHREc07d9zo5hVLly4SSoxi9J1TqXxrWeqz5YS50cht3L9th76sd9hYU20IWrktlZNhO1yyjhbvraus-4w32TLyprjtKwgyi9lFAJceGK8KFzCNUytmofDGhZKShu1zFds6QKJ9lM4MYMSgvg7E)
 
-You will be taken to this Microsoft page and you will need to enter a code.
+Je wordt naar deze Microsoft-pagina gebracht en je moet een code invoeren.
 
 ![](https://lh7-us.googleusercontent.com/Q76mIMXr5bWCrcu_6TOKDrh6yQIMESIrFvEcfvqg7mJp-K_4ES2e5ekPY4Ghhwxym-uRKz_QVCHyqk2u5onyoCCmg7fMbt3mnIUyCrc8XT4jBGn9ueEYij3DRg1-oODWHd-vDfM9FfbU3omF6RJJKsE)
 
-This code can be found by clicking back to DocBits and the code will be displayed there like below, simply copy the code and enter it into the Microsoft page. Thereafter you will need to enter your own Microsoft credentials.
+Deze code kan worden gevonden door terug te klikken naar DocBits en de code wordt daar weergegeven zoals hieronder, kopieer eenvoudig de code en voer deze in op de Microsoft-pagina. Daarna moet je je eigen Microsoft-gegevens invoeren.
 
 ![](https://lh7-us.googleusercontent.com/hr9w8r49gmHgELBAbDRAlsQ0VvwCiXerINt5nSAwwdjvOQFfHF5Q7rwEscT0VVyemqo9RQWxc9bl5aHb9jbD0s-bu461lkdWK1DZzsIgTPf6V-HqmzCq36cijOWZbVB0MEVVVVWVjL70baSo75lYyvo)
 
-Press the FINISH AUTHENTICATION button and you will be taken to this menu
+Druk op de knop FINISH AUTHENTICATION en je wordt naar dit menu gebracht.
 
 ![](https://lh7-us.googleusercontent.com/bCd4hqZc1Syli70kvlzqDkLfa1QYqq96K6K1EDc-6DabCceBmVl_LkRb5Z2AZrHAOdDpxPzUw61oR3Bw5EklLNZp3iXoVlirlCR763m75ZFNfQlTc4g9iShfrtXFpBXnZv7B6835h57jKVcITo31-Gk)
 
-**Use Folder**
+**Gebruik Map**
 
-If you are using a folder other than your inbox, enter the folder name after enabling the slider.
+Als je een andere map dan je inbox gebruikt, voer dan de mapnaam in nadat je de schuifregelaar hebt ingeschakeld.
 
-**Use Shared Mailbox**
+**Gebruik Gedeelde Postvak**
 
-If you want the email import to access an inbox or a folder of a shared mailbox, input the email address here after enabling the slider.
+Als je wilt dat de e-mailimport toegang krijgt tot een inbox of een map van een gedeeld postvak, voer dan hier het e-mailadres in nadat je de schuifregelaar hebt ingeschakeld.
 
-**Move imported emails to trash**
+**Verplaats geïmporteerde e-mails naar prullenbak**
 
-If you want to import all emails, not just the unread ones, and have them moved to trash then activate this. If not, it will only check for unread emails, import the documents, set the email to read and leave it in its current place.
+Als je alle e-mails wilt importeren, niet alleen de ongelezen, en ze naar de prullenbak wilt verplaatsen, activeer dit dan. Zo niet, dan controleert het alleen op ongelezen e-mails, importeert de documenten, stelt de e-mail in op gelezen en laat het op de huidige plaats.
 
-In the event of you receiving an error message indicating you do not have the rights to establish such a connection, someone with admin rights within Azure would need to authorize this connection. For more information, visit the following page: https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#grant-tenant-wide-admin-consent-in-enterprise-apps
+In het geval dat je een foutmelding ontvangt die aangeeft dat je niet de rechten hebt om zo'n verbinding tot stand te brengen, moet iemand met beheerdersrechten binnen Azure deze verbinding autoriseren. Voor meer informatie, bezoek de volgende pagina: [https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#grant-tenant-wide-admin-consent-in-enterprise-apps](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#grant-tenant-wide-admin-consent-in-enterprise-apps)

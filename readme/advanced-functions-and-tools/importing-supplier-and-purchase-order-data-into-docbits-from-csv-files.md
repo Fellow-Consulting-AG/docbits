@@ -1,32 +1,32 @@
-# Importing Supplier and Purchase Order Data into DocBits from CSV Files
+# Leverancier- en Inkoopordergegevens importeren in DocBits vanuit CSV-bestanden
 
-## Overview
+## Overzicht
 
-This Page describes how to import Supplier and Purchase Order data into DocBits using a Comma Separated Values (.csv) file.
+Deze pagina beschrijft hoe je leverancier- en inkoopordergegevens in DocBits kunt importeren met behulp van een Comma Separated Values (.csv) bestand.
 
-**Important:** Before importing any data, it is crucial to **review the .csv file thoroughly** to ensure data accuracy and proper configuration. Importing incorrect data can lead to inconsistencies. Refer to the [**CSV Specifications for Purchase Order**](importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md#csv-specifications-for-purchase-order) or [**CSV Specifications for Supplier**](importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md#csv-specifications-for-supplier) sections for details on required and optional fields. If required fields are missing, the import process will fail.
+**Belangrijk:** Voordat je gegevens importeert, is het cruciaal om het .csv-bestand grondig te **controleren** om de nauwkeurigheid van de gegevens en de juiste configuratie te waarborgen. Het importeren van onjuiste gegevens kan leiden tot inconsistenties. Raadpleeg de [**CSV-specificaties voor Inkooporder**](importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md#csv-specificaties-voor-inkooporder) of [**CSV-specificaties voor Leverancier**](importing-supplier-and-purchase-order-data-into-docbits-from-csv-files.md#csv-specificaties-voor-leverancier) secties voor details over vereiste en optionele velden. Als vereiste velden ontbreken, zal het importproces mislukken.
 
-**Validation:** Always verify that your .csv file contains all the necessary columns as outlined in the respective specifications section before attempting the import.
+**Validatie:** Controleer altijd of je .csv-bestand alle noodzakelijke kolommen bevat zoals uiteengezet in de respectieve specificatiesectie voordat je probeert te importeren.
 
-## Generall Requirements:
+## Algemene Vereisten:
 
-**Date Format:**
+**Datumformaat:**
 
-All dates provided in the .csv sheet **must** adhere to the following format:
+Alle data die in het .csv-blad worden verstrekt, **moeten** voldoen aan het volgende formaat:
 
 YYYY-MM-DD HH:MM:SS
 
-**Required Fields:**
+**Vereiste Velden:**
 
-For both Supplier and Purchase Order imports, all columns marked as "Required" in their respective specifications **must exist in the .csv file and must contain a value in each row**. If any required field is missing or empty for a row, the import process will fail.
+Voor zowel leverancier- als inkooporderimporten moeten alle kolommen die als "Vereist" zijn gemarkeerd in hun respectieve specificaties **bestaan in het .csv-bestand en moeten ze een waarde bevatten in elke rij**. Als een verplicht veld ontbreekt of leeg is voor een rij, zal het importproces mislukken.
 
-### CSV Specifications for Purchase Order
+### CSV-specificaties voor Inkooporder
 
-**Fields which are Required** - (column with name must exist & must contain data)
+**Velden die Vereist zijn** - (kolom met naam moet bestaan & moet gegevens bevatten)
 
 * `purchase_order_number`
 
-**Fields which can be included**
+**Velden die kunnen worden opgenomen**
 
 * `warehouse_id`
 * `location_id`
@@ -88,16 +88,16 @@ For both Supplier and Purchase Order imports, all columns marked as "Required" i
 * `geo_code`
 * `delivery_method`
 
-### CSV Specifications for Supplier
+### CSV-specificaties voor Leverancier
 
-**Fields which are Required** - (column with name must exist & must contain data)
+**Velden die Vereist zijn** - (kolom met naam moet bestaan & moet gegevens bevatten)
 
 * `customer_number`
 * `supplier_number`
 * `supplier_name`
 * `country_code`
 
-**Fields which can be included**
+**Velden die kunnen worden opgenomen**
 
 * `address_1`
 * `address_2`
@@ -133,55 +133,47 @@ For both Supplier and Purchase Order imports, all columns marked as "Required" i
 * `iban`
 * `currency`
 
-## Access Endpoint
+## Toegangseindpunt
 
-To import data, follow these steps:
+Om gegevens te importeren, volg je deze stappen:
 
-1. Visit: [https://api.docbits.com/](https://api.docbits.com/)
-2.  Click the **"Authorize"** button.
+1. Bezoek: [https://api.docbits.com/](https://api.docbits.com/)
+2.  Klik op de **"Authorize"** knop.
 
     <figure><img src="../.gitbook/assets/import_csv_1.png" alt=""><figcaption></figcaption></figure>
-3.  Enter the API-Key and click **"Authorize"**
+3.  Voer de API-Key in en klik op **"Authorize"**
 
-    * The API-Key can be found in DocBits in Settings -> Global Settings -> Integration&#x20;
-    * **Note:** The API key provided in your request determines the target organization and the user context under which the data will be imported.
+    * De API-Key kan worden gevonden in DocBits in Instellingen -> Algemene Instellingen -> Integratie
+    * **Opmerking:** De API-sleutel die in je verzoek is opgegeven, bepaalt de doelorganisatie en de gebruikerscontext waaronder de gegevens worden geïmporteerd.
 
-
-
-    <figure><img src="../.gitbook/assets/import_csv_api.png" alt=""><figcaption></figcaption></figure>
-
-
+    <figure><img src="../.gitbook/assets/import_csv_api_nl.png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../.gitbook/assets/import_csv_2.png" alt="" width="563"><figcaption></figcaption></figure>
-
-
-
-1. Press **CTRL + F** (or **CMD + F** on Mac) to open the search function, and search for `/master_data_lookup/import_data`.
-2.  Click on the request to view its details, then click on "**Try it out"** to proceed.
+4. Druk op **CTRL + F** (of **CMD + F** op Mac) om de zoekfunctie te openen en zoek naar `/master_data_lookup/import_data`.
+5.  Klik op het verzoek om de details te bekijken, klik vervolgens op "**Try it out"** om verder te gaan.
 
     <figure><img src="../.gitbook/assets/import_csv_3.png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../.gitbook/assets/import_csv_6.png" alt=""><figcaption></figcaption></figure>
-3.  You can now enter the required parameters in the Request Body.\
+6.  Je kunt nu de vereiste parameters in het Verzoek Lichaam invoeren.\\
 
+    **Verzoekparameters:**
 
-    **Request Parameters:**
+    Bij het doen van het importverzoek moeten de volgende parameters worden opgegeven:
 
-    When making the import request, the following parameters need to be specified:
+    * **sub\_org\_id:** Verwijder alle tekst uit het tekstveld om ervoor te zorgen dat de optie "Send empty value" is ingeschakeld.
+    * **data\_type:** Deze parameter specificeert het type gegevens dat wordt geïmporteerd. Het kan `supplier` of `purchase_order` zijn, afhankelijk van de inhoud van je .csv-bestand.
+    * **replace\_all:** Deze boolean parameter bepaalt of alle bestaande gegevens in de respectieve database tabel (`supplier` of `purchase_order`) voor de opgegeven organisatie moeten worden verwijderd voordat de nieuwe gegevens uit het .csv-bestand worden ingevoegd. Stel dit in op `true` om alle bestaande gegevens te vervangen of `false` om toe te voegen of bij te werken met de nieuwe gegevens.
+    *   **delimiter:** Deze parameter specificeert het teken dat wordt gebruikt om de individuele waarden binnen elke rij van je gegevensbestand te scheiden. **Het is essentieel om de juiste delimiter te identificeren die in je bestand wordt gebruikt.** Veelvoorkomende delimiters zijn de komma (`,`) en de puntkomma (`;`).
 
-    * **sub\_org\_id:** Remove any text from the text field to ensure the "Send empty value" option is enabled.
-    * **data\_type:** This parameter specifies the type of data being imported. It can be either `supplier` or `purchase_order` depending on the content of your .csv file.
-    * **replace\_all:** This boolean parameter determines whether all existing data in the respective database table (`supplier` or `purchase_order`) for the specified organization should be deleted before inserting the new data from the .csv file. Set this to `true` to replace all existing data or `false` to append or update with the new data.
-    *   **delimiter:** This parameter specifies the character used to separate the individual values within each row of your data file. **It is essential to identify the correct delimiter used in your file.** Common delimiters are the comma (`,`) and the semicolon (`;`).
+        **Hoe de delimiter te controleren:**
 
-        **How to check the delimiter:**
-
-        1. Open your data file (e.g., the `.csv` file) with a plain text editor (like Notepad on Windows, TextEdit on Mac, or similar).
-        2. Examine the first few rows of data. Look for the character that consistently appears between the different pieces of information in each row. This character is your delimiter.
-        3. Set the `delimiter` parameter in your import request to this identified character (either `,` or `;`). Using the wrong delimiter will prevent the data from being parsed correctly and will result in a failed import.
-    * **on\_conflict & auto\_generate\_id:** The functionality for handling data conflicts (`on_conflict`) and automatically generating IDs (`auto_generate_id`) is currently **not implemented** for these data types.
+        1. Open je gegevensbestand (bijv. het `.csv` bestand) met een eenvoudige teksteditor (zoals Kladblok op Windows, TextEdit op Mac of vergelijkbaar).
+        2. Bekijk de eerste paar rijen van gegevens. Zoek naar het teken dat consistent tussen de verschillende stukken informatie in elke rij verschijnt. Dit teken is je delimiter.
+        3. Stel de `delimiter` parameter in je importverzoek in op dit geïdentificeerde teken (ofwel `,` of `;`). Het gebruik van de verkeerde delimiter voorkomt dat de gegevens correct worden geparsed en resulteert in een mislukte import.
+    * **on\_conflict & auto\_generate\_id:** De functionaliteit voor het omgaan met gegevensconflicten (`on_conflict`) en het automatisch genereren van ID's (`auto_generate_id`) is momenteel **niet geïmplementeerd** voor deze datatypes.
 
     <figure><img src="../.gitbook/assets/import_csv_4.png" alt=""><figcaption></figcaption></figure>
-4.  If you have verified that all the information is correct, you can initiate the import process by clicking the **"Execute"** button.
+7.  Als je hebt gecontroleerd dat alle informatie correct is, kun je het importproces starten door op de **"Execute"** knop te klikken.
 
     <figure><img src="../.gitbook/assets/import_csv_5.png" alt=""><figcaption></figcaption></figure>

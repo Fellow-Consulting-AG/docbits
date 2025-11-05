@@ -1,40 +1,65 @@
-# Duplicate Detection
+# Duplicaatdetectie
 
-## Enabling Duplicate Detection
+## Overzicht
 
-To enable duplicate document handling, follow these steps:
+In **DocBits** kun je filteren op dubbele documenten door aan te geven welke velden moeten overeenkomen en door een tijdsinterval te definiëren waarin duplicaten moeten worden gedetecteerd.
 
-1.  Navigate to **Settings** → **Global Settings** → **Document Types**.
+Deze pagina biedt een gedetailleerde gids over hoe je de functie **Duplicaatdetectie** effectief kunt inschakelen en gebruiken.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1.png" alt=""><figcaption></figcaption></figure>
-2.  Select the desired **Document Type** and click on **More Settings**.
+## Duplicaatdetectie inschakelen
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2.png" alt=""><figcaption></figcaption></figure>
-3.  Go to the **Duplicate Detection** section.
+Om de detectie van dubbele documenten in **DocBits** in te schakelen, volg je deze stappen:
 
-    <figure><img src="../../../../../.gitbook/assets/DuplicateDocument_3 (1).png" alt=""><figcaption></figcaption></figure>
+1.  Navigeer naar **Instellingen** → **Globale instellingen** → **Documenttypen**.
 
-You have two options for detecting duplicate documents:
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Calculate_PO_unit_price_1.png)
+2.  Selecteer het gewenste **Documenttype** en klik op **Meer instellingen**.
 
-1. **Duplicate Document Detection**: \
-   This feature checks for duplicate documents uploaded to DocBits based on the selected criteria. If any document matches the selected criteria across other documents, it will be flagged as a duplicate.
-2.  **Duplicate Invoice Detection** (Only available for the **Invoice** document type):\
-    This feature requires syncing Supplier Invoices from Infor to DocBits. It compares the invoice numbers in the DocBits dashboard with those in Infor. If the same invoice number appears more than once, it will be flagged as a duplicate.
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Calculate_PO_unit_price_2.png)
+3.  Ga naar de sectie **Duplicaatdetectie**.
 
-    <mark style="color:red;">**Note**</mark>: Using the **Duplicate Invoice Detection** feature will result in an additional credit charge.
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/DuplicateDocument_3.png)
 
-Once the setting is activated, you can select the specific criteria for duplicate detection.
+DocBits biedt twee opties voor het identificeren van dubbele documenten:
 
-<figure><img src="../../../../../.gitbook/assets/DuplicateDocument_4.png" alt=""><figcaption></figcaption></figure>
+1. **Detectie van dubbele documenten**:\
+   Deze functie controleert op dubbele documenten die zijn geüpload naar **DocBits** op basis van de geselecteerde criteria. Als een document overeenkomt met de geselecteerde criteria in andere documenten, wordt het gemarkeerd als een duplicaat.
+2.  **Detectie van dubbele facturen** (Alleen beschikbaar voor het **Factuur** documenttype):\
+    Deze functie vereist het synchroniseren van leveranciersfacturen van Infor naar DocBits. Het vergelijkt de factuurnummers in het DocBits-dashboard met die in Infor. Als hetzelfde factuurnummer meer dan eens voorkomt, wordt het gemarkeerd als een duplicaat.
 
-## Viewing Duplicate Documents on the Dashboard
+    <mark style="color:red;">**Opmerking**</mark>: Het gebruik van de functie **Detectie van dubbele facturen** resulteert in een extra kredietkosten.
 
-After enabling Duplicate Detection, the dashboard will display an icon for any documents identified as duplicates based on the selected criteria. Clicking this icon will open the duplicate records in a split-screen view for easy comparison.
+## Filter welke documenten als duplicaat moeten worden gedetecteerd
 
-<figure><img src="../../../../../.gitbook/assets/DuplicateDomuent_6.png" alt="" width="329"><figcaption></figcaption></figure>
+Zodra **Duplicaatdetectie** is ingeschakeld, zijn er twee dropdown-menu's beschikbaar voor configuratie:
 
-<figure><img src="../../../../../.gitbook/assets/duplicate_invoice handling2.png" alt=""><figcaption></figcaption></figure>
+*   **Duplicaatdetectievelden**\
+    Selecteer de velden die moeten worden gebruikt om duplicaten te identificeren (bijv. Leveranciers-ID, Datum, Factuurnummer, enz.). Documenten die overeenkomen met deze velden worden gemarkeerd als duplicaten.
 
-When viewing a document, a warning bar will appear to indicate that the document is a duplicate
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/DuplicateDocument_4.png)
+*   **Duplicaatdetectie-interval**
 
-<figure><img src="../../../../../.gitbook/assets/DuplicateDocument_5.png" alt=""><figcaption></figcaption></figure>
+    Gebruik deze instelling om het tijdsbereik te definiëren waarin duplicaten worden gedetecteerd. Documenten die binnen het geselecteerde interval zijn geüpload, worden met elkaar vergeleken op basis van de geselecteerde velden.
+
+    **Beschikbare opties:**
+
+    * 1 maand
+    * 3 maanden (Aanbevolen)
+    * 6 maanden
+    * 1 jaar
+
+    <mark style="color:red;">**Opmerking**</mark>: Een interval van 3 maanden wordt aanbevolen om optimale prestaties te garanderen. Het selecteren van een langer interval kan leiden tot langzamere laadtijden van het dashboard.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/DuplicateDocument_6.png)
+
+## Dubbele documenten bekijken op het Dashboard
+
+Zodra **Duplicaatdetectie** is ingeschakeld, worden documenten die als duplicaten zijn geïdentificeerd, weergegeven met een duplicaatindicatorpictogram op het dashboard.
+
+*   Klik op dit pictogram om de overeenkomende records in een zij-aan-zij gesplitst scherm te openen voor gemakkelijke vergelijking.\
+    <mark style="color:red;">**Opmerking**</mark>: Het pictogram verschijnt alleen als er minstens één duplicaat is gedetecteerd voor het document.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/DuplicateDocument_7.png)
+*   Wanneer je een gemarkeerd document bekijkt, verschijnt er een waarschuwingsbalk bovenaan, die aangeeft dat het document een duplicaat is.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/DuplicateDocument_5.png)

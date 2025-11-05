@@ -1,33 +1,33 @@
-# Supplier Item Number Map
+# Leverancier Artikelnummer Map
 
-## **Overview**
+## **Overzicht**
 
-This feature helps you manage and reconcile item numbers between your system and your suppliers. Often, the item numbers you use internally may not match the item numbers your suppliers use. Docbits makes it easier to handle these discrepancies by creating a mapping between your item numbers and those of your suppliers.
+Deze functie helpt je bij het beheren en reconciliëren van artikelnummers tussen je systeem en je leveranciers. Vaak komen de artikelnummers die je intern gebruikt niet overeen met de artikelnummers die je leveranciers gebruiken. Docbits maakt het gemakkelijker om deze discrepanties te beheren door een mapping te creëren tussen jouw artikelnummers en die van je leveranciers.
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17.png" alt=""><figcaption></figcaption></figure>
 
-## **How It Works**
+## **Hoe Het Werkt**
 
-1. **Manual Matching:**
-   * The first time you encounter a discrepancy between your item number and your supplier's item number, you need to match them manually.
-   * You can do this by entering the correct supplier item number corresponding to your internal item number.
-2. **Automatic Matching:**
-   * Once you have manually matched an item number with its supplier's item number, Docbits remembers this mapping.
-   * The next time the same item appears, Docbits will automatically match it based on the stored mapping, saving you time and reducing errors.
+1. **Handmatige Matching:**
+   * De eerste keer dat je een discrepantie tegenkomt tussen jouw artikelnummer en het artikelnummer van je leverancier, moet je ze handmatig matchen.
+   * Dit kun je doen door het juiste leverancier artikelnummer in te voeren dat overeenkomt met jouw interne artikelnummer.
+2. **Automatische Matching:**
+   * Zodra je een artikelnummer handmatig hebt gematcht met het artikelnummer van de leverancier, onthoudt Docbits deze mapping.
+   * De volgende keer dat hetzelfde artikel verschijnt, zal Docbits het automatisch matchen op basis van de opgeslagen mapping, waardoor je tijd bespaart en fouten vermindert.
 
-## **Interface Breakdown**
+## **Interface Uitleg**
 
-* **Supplier ID:** The unique identifier for the supplier.
-* **Item Number:** Your internal item number for the product.
-* **Supplier Item Number:** The corresponding item number used by the supplier.
-* **Action:** Options to manage the mappings, such as deleting incorrect mappings.
+* **Leverancier ID:** De unieke identificatiecode voor de leverancier.
+* **Artikelnummer:** Jouw interne artikelnummer voor het product.
+* **Leverancier Artikelnummer:** Het overeenkomstige artikelnummer dat door de leverancier wordt gebruikt.
+* **Actie:** Opties om de mappings te beheren, zoals het verwijderen van onjuiste mappings.
 
 {% hint style="info" %}
-See here the [Admin Section](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/supplier-item-number-map-admin-documentation.md) as well
+Zie hier ook de [Beheer Sectie](broken-reference)
 {% endhint %}
 
-## **Benefits**
+### **Voordelen**
 
-* **Efficiency:** Reduces the need for repeated manual entry, making the process faster.
-* **Accuracy:** Minimizes errors by ensuring that item numbers are correctly matched.
-* **Convenience:** Simplifies the workflow by automating the matching process after the initial manual entry.
+* **Efficiëntie:** Vermindert de noodzaak voor herhaalde handmatige invoer, waardoor het proces sneller verloopt.
+* **Nauwkeurigheid:** Minimaliseert fouten door ervoor te zorgen dat artikelnummers correct worden gematcht.
+* **Gemak:** Vereenvoudigt de workflow door het matchingproces te automatiseren na de eerste handmatige invoer.

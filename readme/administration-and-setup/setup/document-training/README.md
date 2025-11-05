@@ -1,5 +1,3 @@
-# Document Training
+# Documenttraining
 
-A guide to training new documnets with DocBits.
-
-
+Een gids voor het trainen van nieuwe documenten met DocBits.

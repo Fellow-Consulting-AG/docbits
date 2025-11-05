@@ -1,88 +1,81 @@
-# Report Page
+# Rapport Pagina
 
-{% embed url="https://www.youtube.com/watch?v=ar9jXYJo_AM" %}
+## 1. Hoe de Rapport Pagina inschakelen
 
-### 1. How enable the Report Page&#x20;
+Ga naar **Instellingen** → **Document Verwerking** → **Module** → **Document Type** → Schakel de knop om de instelling in te schakelen.
 
-Go to **Settings** → **Document Processing** → **Module** → **Document Type** → **Show Report**\
-Toggle the button to enable this setting.
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FrFhJhMpPIpjVG8tTBWQg%252Fimage.png%3Falt%3Dmedia%26token%3D3b3e434e-a1f1-48e1-b143-cc77b6b15eb5\&width=768\&dpr=4\&quality=100\&sign=da674fae\&sv=2)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+## 2. **Hoe toegang krijgen tot de Rapport Pagina**
 
-### 2. **How to Access the Report Page**
+Volg deze stappen om toegang te krijgen tot de **Rapport Pagina** in DocBits:
 
-Follow these steps to access the **Report Page** in DocBits:
+1. **Log in op DocBits**
+   * Open DocBits en log in met uw referenties.
+2. **Klik op het Rapport Icoon**
+   * Aan de linkerkant, zoek en klik op het **Rapport** icoon (afgebeeld als een grafiek of diagram).
 
-1. **Login to DocBits**
-   * Open DocBits and log in with your credentials.
-2. **Click on the Report Icon**
-   * On the left sidebar, find and click the **Report** icon (depicted as a graph or chart).
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FZoVXkhMetw2tSOxr7hwm%252Fimage.png%3Falt%3Dmedia%26token%3Df34e3503-b51b-465b-82eb-83e1932d2c7e\&width=768\&dpr=4\&quality=100\&sign=bd6d6fdf\&sv=2)
 
-<figure><img src="../.gitbook/assets/image (312).png" alt="" width="314"><figcaption></figcaption></figure>
+## **3. Gebruik van de Tijdseenheid Filter**
 
-### **3. Using the Time Unit Filter**
+*   Bovenaan de pagina kunt u de **Tijdseenheid** filter aanpassen om het tijdsbereik voor uw rapport te selecteren:
 
-*   At the top of the page, you can adjust the **Time Unit** filter to select the time range for your report:
+    * **Laatste 30 Dagen**
+    * **Laatste 7 Dagen**
+    * **Aangepast Tijdsbestek** (aangepast datumbereik)
 
-    * **Last 30 Days**
-    * **Last 7 Days**
-    * **Custom Time Frame** (custom date range)
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fwvc6buYYssqhBZ9PhmlZ%252Fimage.png%3Falt%3Dmedia%26token%3D36e476be-41d5-4228-aac5-f380685adc41\&width=768\&dpr=4\&quality=100\&sign=dd45a28b\&sv=2)
 
+## **4. Weergave Nieuwe Documenten**
 
+* Naast de **Tijdseenheid** filter, is er een informatieweergave met de naam **Nieuwe Documenten**. Dit toont het aantal nieuwe documenten dat is geïmporteerd tijdens het geselecteerde tijdsbestek.
 
-    <figure><img src="../.gitbook/assets/image (318).png" alt="" width="563"><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F4Kmp6wx16x8thEEVVlpp%252Fimage.png%3Falt%3Dmedia%26token%3D90418c4b-5f39-4749-be46-a0efd30502d5\&width=768\&dpr=4\&quality=100\&sign=7dfef60e\&sv=2)
 
+## **5. Gemiddelde Systeemtijd Weergave**
 
+* Na de **Nieuwe Documenten** label, vindt u de **Gemiddelde Systeemtijd** weergave. Dit toont de gemiddelde tijd, in seconden, die het systeem nodig had om een nieuw document te verwerken tijdens het geselecteerde tijdsbestek.
 
-### **4. New Documents Display**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FlhHdV0vXDzkWC4jZYvqk%252Fimage.png%3Falt%3Dmedia%26token%3D167caeba-b75d-404a-8e52-54014b5eb980\&width=768\&dpr=4\&quality=100\&sign=10e01de0\&sv=2)
 
-* Next to the **Time Unit** filter, there is an information display labeled **New Documents**. This shows the number of new documents that were imported during the selected timeframe.
+## **6. Gewijzigde Velden Sectie**
 
-<figure><img src="../.gitbook/assets/image (319).png" alt="" width="315"><figcaption></figcaption></figure>
+* Onder de tijdgerelateerde informatie, vindt u de **Gewijzigde Velden** sectie. Deze sectie toont een diagram dat laat zien hoe vaak elk documentveld handmatig is gewijzigd door gebruikers tijdens het geselecteerde tijdsbestek.
+* Elk veld wordt weergegeven met het overeenkomstige aantal wijzigingen, weergegeven als balken in het diagram.
 
-### **5. Average System Time Display**
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FTXhCeKcLoyhG8luDxZwl%252Fimage.png%3Falt%3Dmedia%26token%3D3c76ddd1-31ed-401c-8305-44a1743118b4\&width=768\&dpr=4\&quality=100\&sign=d907ec72\&sv=2)
 
-* Following the **New Documents** label, you will find the **Average System Time** display. This shows the average time, in seconds, that the system took to process a new document during the selected timeframe.&#x20;
+* **Download Opties voor het Diagram**
+  * Aan de rechterkant van het **Gewijzigde Velden** diagram, is er een klein menu waarmee u het diagram in verschillende formaten kunt downloaden. U kunt het diagram downloaden als:
+    * **SVG**
+    * **PNG**
+    * **CSV**
+  * Om het diagram te downloaden, klikt u op het menu en selecteert u uw voorkeursbestandsindeling.
 
-<figure><img src="../.gitbook/assets/image (320).png" alt="" width="437"><figcaption></figcaption></figure>
+## **7. Aanvullende Rapport Secties**
 
-### **6. Changed Fields Section**
+Onder de **Gewijzigde Velden** sectie, vindt u vier extra knoppen die meer gedetailleerde informatie bieden wanneer erop wordt geklikt. Elke knop breidt uit om meer informatie te tonen wanneer erop wordt geklikt.
 
-* Below the time-related information, you will find the **Changed Fields** section. This section displays a diagram showing how frequently each document field was manually modified by users during the selected timeframe.
-* Each field is displayed with the corresponding number of changes, shown as bars in the diagram.
+1.  **Totaal Documenten per Type**
 
-<figure><img src="../.gitbook/assets/image (322).png" alt="" width="563"><figcaption></figcaption></figure>
+    * Deze knop toont het totale aantal documenten voor elk documenttype (bijv. Factuur, Inkooporder, enz.) tijdens het geselecteerde tijdsbestek.
+    * Wanneer u op de knop klikt, breidt deze uit om een lijst van documenttypen te tonen en het overeenkomstige aantal documenten van elk type dat is verwerkt in het geselecteerde tijdsbestek.
 
-* **Download Options for the Diagram**
-  * On the right side of the **Changed Fields** diagram, there is a small menu that allows you to download the diagram in various formats. You can download the diagram as:
-    * **SVG**&#x20;
-    * **PNG**&#x20;
-    * **CSV**&#x20;
-  * To download the diagram, click on the menu and select your preferred file format.
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FuDsfH9AwYObR5ypnhbXz%252Fimage.png%3Falt%3Dmedia%26token%3D029f854d-db83-4e5f-8919-7a1068636ebe\&width=768\&dpr=4\&quality=100\&sign=8eae7861\&sv=2)
+2.  **Dagelijks Gemiddelde per Doctype**
 
-### **7. Additional Report Sections**
+    * Deze knop toont het dagelijkse gemiddelde aantal verwerkte documenten, gecategoriseerd per documenttype.
+    * Wanneer u op de knop klikt, breidt deze uit om de documenttypen en hun overeenkomstige dagelijkse gemiddelde te tonen.
 
-Below the **Changed Fields** section, you will find four additional buttons that provide more detailed information when clicked. Each button expands to show more information when clicked.
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FfqUOVDfb9TUhY900X3iF%252Fimage.png%3Falt%3Dmedia%26token%3D474ef6a4-970b-46fb-8d91-3e8f0dcf38fa\&width=768\&dpr=4\&quality=100\&sign=cbb8e97d\&sv=2)
+3.  **Status Statistiek**
 
-1.  **Total Documents per Type**
+    * Deze knop toont de statusverdeling voor elk documenttype (bijv. Factuur, Inkooporder, enz.). Wanneer erop wordt geklikt, wordt deze uitgebreid om de status van documenten binnen elk documenttype weer te geven, waarbij wordt getoond hoeveel documenten er in elke statuscategorie zijn.
 
-    * This button displays the total number of documents for each document type (e.g., Invoice, Purchase Order, etc.) during the selected timeframe.
-    * When you click the button, it expands to show a list of document types and the corresponding count of how many documents of each type were processed in the selected timeframe.
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FQZUyAFuy30WBGNSnuzww%252Fimage.png%3Falt%3Dmedia%26token%3D9ca5513b-0163-4067-9ef4-117e43075569\&width=768\&dpr=4\&quality=100\&sign=b23b87f2\&sv=2)
+4.  **Export Statistiek**
 
-    <figure><img src="../.gitbook/assets/image (323).png" alt="" width="563"><figcaption></figcaption></figure>
-2.  **Daily Average per Doctype**
+    * Deze knop stelt u in staat om exportstatistieken voor uw documenten te bekijken. Wanneer erop wordt geklikt, wordt deze uitgebreid om gegevens te verstrekken met betrekking tot documentexports, zoals het aantal exports, succes-/faalpercentages en andere relevante informatie.
 
-    * This button shows the daily average count of documents processed, categorized by document type.
-    * When you click the button, it expands to show the document types and their corresponding daily average count.
-
-    <figure><img src="../.gitbook/assets/image (325).png" alt="" width="563"><figcaption></figcaption></figure>
-3.  **Status Statistic**
-
-    * This button shows the status distribution for each document type (e.g., Invoice, Purchase Order, etc.). When clicked, it expands to display the status of documents within each document type, showing how many documents are in each status category.
-
-    <figure><img src="../.gitbook/assets/image (326).png" alt="" width="563"><figcaption></figcaption></figure>
-4.  **Export Statistic**
-
-    * This button allows you to view export statistics for your documents. When clicked, it will expand to provide data related to document exports, such as the number of exports, success/failure rates, and other relevant information.
-
-    <figure><img src="../.gitbook/assets/image (327).png" alt="" width="563"><figcaption></figcaption></figure>
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F3XMcZ35ZVpKBmP1M8sXO%252Fimage.png%3Falt%3Dmedia%26token%3Ddc89131a-de1c-4300-862a-1da99c96b742\&width=768\&dpr=4\&quality=100\&sign=21667099\&sv=2)

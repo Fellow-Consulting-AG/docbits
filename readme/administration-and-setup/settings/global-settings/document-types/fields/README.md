@@ -1,27 +1,23 @@
-# Fields
+# Velden
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.02.31.png" alt=""><figcaption></figcaption></figure>
 
-## Overview
+## Overzicht
 
-The Fields setting provides a user interface where administrators can manage the properties and behavior of individual data fields associated with a document type. Each field can be adjusted to optimize the accuracy and efficiency of data capture and validation.
+De instellingen voor Velden bieden een gebruikersinterface waar beheerders de eigenschappen en het gedrag van individuele gegevensvelden die aan een documenttype zijn gekoppeld, kunnen beheren. Elk veld kan worden aangepast om de nauwkeurigheid en efficiëntie van gegevensinvoer en validatie te optimaliseren.
 
-{% hint style="info" %}
-[Fields with Charges](new-fields-with-charges.md)
-{% endhint %}
+## Belangrijkste Kenmerken en Opties
 
-## Key Features and Options
-
-1. **Fields Configuration**:
-   * **Field Names**: Lists the names of the fields, typically corresponding to the data elements within the document, like "Invoice Number" or "Purchase Order Date".
-   * **Required**: Administrators can mark fields as required, making sure that data must be entered or captured for these fields to complete the document processing.
-   * **Read Only**: Fields can be set to read-only to prevent modification after data capture or during certain stages of document processing.
-   * **Hidden**: Fields can be hidden from view in the user interface, useful for sensitive information or for simplifying user workflows.
-2. **Advanced Settings**:
-   * **Force Validation**: Ensures that data entered into a field passes certain validation rules before being accepted.
-   * **OCR (Optical Character Recognition)**: This toggle can be switched on to enable OCR processing for a specific field, useful for automated data extraction from scanned or digital documents.
-   * **Match Score**: Administrators can define a match score, a threshold used to determine the confidence level of data recognition or matching, impacting how data validation and quality checks are performed.
-3. **Action Buttons**:
-   * **Create New Field**: Allows adding new fields to the document type.
-   * **Edit Icons**: Each field has an edit icon that allows administrators to further configure field-specific settings, such as data type, default values, or connected business logic.
-   * **Save Settings**: Commits the changes made to the field configuration
+1. **Configuratie van Velden**:
+   * **Veldnamen**: Lijst met de namen van de velden, die doorgaans overeenkomen met de gegevenselementen binnen het document, zoals "Factuurnummer" of "Inkoopordernummer".
+   * **Verplicht**: Beheerders kunnen velden als verplicht markeren, zodat ervoor gezorgd wordt dat gegevens moeten worden ingevoerd of vastgelegd voor deze velden om de documentverwerking te voltooien.
+   * **Alleen-lezen**: Velden kunnen als alleen-lezen worden ingesteld om wijziging na gegevensinvoer of tijdens bepaalde fasen van documentverwerking te voorkomen.
+   * **Verborgen**: Velden kunnen uit het zicht in de gebruikersinterface worden verborgen, nuttig voor gevoelige informatie of om gebruikersworkflows te vereenvoudigen.
+2. **Geavanceerde Instellingen**:
+   * **Dwing Validatie af**: Zorgt ervoor dat gegevens die in een veld worden ingevoerd voldoen aan bepaalde validatieregels voordat ze worden geaccepteerd.
+   * **OCR (Optische Karakterherkenning)**: Deze schakelaar kan worden ingeschakeld om OCR-verwerking voor een specifiek veld mogelijk te maken, nuttig voor geautomatiseerde gegevensextractie uit gescande of digitale documenten.
+   * **Overeenkomstscores**: Beheerders kunnen een overeenkomstscores definiëren, een drempel die wordt gebruikt om het vertrouwensniveau van gegevensherkenning of -overeenstemming te bepalen, wat van invloed is op hoe gegevensvalidatie en kwaliteitscontroles worden uitgevoerd.
+3. **Actieknoppen**:
+   * **Nieuw Veld Aanmaken**: Maakt het mogelijk om nieuwe velden aan het documenttype toe te voegen.
+   * **Bewerkpictogrammen**: Elk veld heeft een bewerkpictogram waarmee beheerders de veldspecifieke instellingen verder kunnen configureren, zoals gegevenstype, standaardwaarden of verbonden bedrijfslogica.
+   * **Instellingen Opslaan**: Bevestigt de aangebrachte wijzigingen in de veldconfiguraties.

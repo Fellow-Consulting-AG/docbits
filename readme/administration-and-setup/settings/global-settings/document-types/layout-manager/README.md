@@ -27,5 +27,3 @@ The Layout Manager allows administrators to visually configure and modify the la
    * Shows a real-time preview of how the document will appear based on the current layout configuration. This helps in ensuring that the layout matches the actual document structure and is vital for testing and refining the document processing setup.
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2490" %}
-
-

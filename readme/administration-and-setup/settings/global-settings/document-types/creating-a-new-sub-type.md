@@ -24,6 +24,3 @@
 * **Save the new subtype:** Once you have entered all the required information, save the new subtype to create it in the document management system.
 
 After the new subtype is created, users can add and manage documents of that type according to the initial settings you specified. Make sure you inform users about the new subtype and provide training or guidance, if necessary, to help them use it effectively.
-
-
-

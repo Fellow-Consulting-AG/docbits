@@ -1,17 +1,11 @@
-# Card description
+# Kaart beschrijving
 
-## **When Cards: Document type**
+## **Wanneer Kaarten: Document type**
 
-<figure><img src="https://lh7-us.googleusercontent.com/Vb3nEDgmp9WAd8060aW6nWlu3D8Yo5KPXl7nmTE07OERu4JgBuEyZ-wQURt1RZkQbwujpQw13-ETDK4ZYP536AEEfdKMGdgnlvfWaAoQFwHiwKEU_k_cCRBxEmIIizmlR0gfal8jXdnYiJZBIHvo6wg" alt=""><figcaption></figcaption></figure>
+Een workflow kan worden gestart met deze twee kaarten. Hier kunt u beslissen met welk documenttype de workflow begint of dat het geen invloed moet hebben op geselecteerde documenttypen.
 
-<figure><img src="https://lh7-us.googleusercontent.com/8Pt-riQL3WjD0KiWKQhHIEYfnsvTRWcLkNcAReJVEf5ESegVWxLfkxhq9myJv_uzlnbnSFZ9Q32-1EIb0GIFQyC5TylOFBl3x0PMJz3w1N5EUbwZEl5xfRkB3M1jMRZvQ61tqTwdFPL8dsSE6NYlmEU" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FiIZr88WhSUuQOapVf26m%252Fimage.png%3Falt%3Dmedia%26token%3Dd8663cac-f96f-4846-b162-eee36783d641\&width=768\&dpr=4\&quality=100\&sign=b41876a9\&sv=2)
 
-A workflow can be started with these two cards. Here you can decide with which document type the workflow begins or whether it should not affect selected document types.
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FEhK3CvWgc8csG21vmgUb%252Fimage.png%3Falt%3Dmedia%26token%3D6613e890-02ff-4f76-8ba7-5a5201480ede\&width=768\&dpr=4\&quality=100\&sign=89683411\&sv=2)
 
-\\
-
-<figure><img src="../../../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (20) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-This card can also be used to specify multiple document types that the workflow should affect.
+Deze kaart kan ook worden gebruikt om meerdere documenttypen te specificeren die de workflow moet beïnvloeden.

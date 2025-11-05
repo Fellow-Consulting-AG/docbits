@@ -1,40 +1,39 @@
-# Approval Stamp
+# Goedkeuringsstempel
 
-## **Overview:**
+## **Overzicht:**
 
-This feature automatically adds an approval stamp to a document when it is approved in the approval screen. If a document contains a approval stamp, it will be included when **exporting to IDM**.
+Deze functie voegt automatisch een goedkeuringsstempel toe aan een document wanneer het wordt goedgekeurd in het goedkeuringsscherm. Als een document een goedkeuringsstempel bevat, wordt deze opgenomen bij het **exporteren naar IDM**.
 
-## Activating the Approval Stamp Feature
+## Het inschakelen van de Goedkeuringsstempelfunctie
 
-To activate the Approval Stamp feature, follow these steps:
+Volg deze stappen om de goedkeuringsstempelfunctie in te schakelen:
 
-1.  Go to **Settings** → **Global Settings** → **Document Types**.
+1.  Ga naar **Instellingen** → **Algemene Instellingen** → **Documenttypen**.
 
-    <figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_1.png" alt=""><figcaption></figcaption></figure>
-2.  **Select the Document Type** for which you want to enable the stamp approval and click on **More Settings**.
+    <figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_1_nl.png" alt=""><figcaption></figcaption></figure>
+2.  **Selecteer het Documenttype** waarvoor je de stempelgoedkeuring wilt inschakelen en klik op **Meer Instellingen**.
 
-    <figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_2.png" alt=""><figcaption></figcaption></figure>
-3.  Under the **Approval** section, enable the **Approval Stamp** option.
+    <figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_2_nl.png" alt=""><figcaption></figcaption></figure>
+3.  Schakel onder de sectie **Goedkeuring** de optie **Goedkeuringsstempel** in.
 
-    <figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_3.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_3_nl.png" alt=""><figcaption></figcaption></figure>
 
+## Na Activatie:
 
+Zodra de functie is geactiveerd, ontvangt elk document in de status "in afwachting van goedkeuring" automatisch een goedkeuringsstempel zodra het is goedgekeurd. De stempel bevat het "Approved" logo, de naam van de gebruiker die het document heeft goedgekeurd, en het tijdstip waarop het document is goedgekeurd.
 
-## After Activation:
+<figure><img src="../../../../../../.gitbook/assets/ApprovalSettings_4_nl.png" alt=""><figcaption></figcaption></figure>
 
-Once the feature is activated, any document in the "pending approval" state will automatically receive an approval stamp once it is approved. The stamp will include the "Approved" logo, the name of the user who approved the document, and the time at which the document was approved.
+<figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_5.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_4 (1).png" alt=""><figcaption></figcaption></figure>
+### PDF's downloaden met of zonder de **Goedkeuringsstempel** <a href="#id-4.-downloading-pdfs-with-or-without-annotations" id="id-4.-downloading-pdfs-with-or-without-annotations"></a>
 
-<figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_5 (1).png" alt=""><figcaption></figcaption></figure>
+* Als een document een goedkeuringsstempel heeft, kun je ervoor kiezen om de PDF te downloaden met of zonder de goedkeuringsstempel.
+* Ga hiervoor naar het **Dashboard**.
+* Klik op de **drie stippen** in de **Actie** kolom.
+*   Selecteer een van de twee beschikbare downloadopties:
 
-### Downloading PDFs with or without the **Approval Stamp** <a href="#id-4.-downloading-pdfs-with-or-without-annotations" id="id-4.-downloading-pdfs-with-or-without-annotations"></a>
+    * **Downloaden met Annotaties**
+    * **Downloaden zonder Annotaties**
 
-* If a document has an approval stamp, you can choose to download the PDF either with or without the approval stamp.
-* To do this, go to the **Dashboard**.
-* Click on the **three dots** in the **Action** column.
-* Select one of the two available download options:
-  * **Download with Annotations**
-  * **Download without Annotations**
-
-<figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_6.png" alt="" width="247"><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/ApprovalStamp_6_nl.png" alt="" width="250"><figcaption></figcaption></figure>

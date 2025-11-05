@@ -19,6 +19,3 @@ In document processing, APIs can be used to automate various tasks such as extra
 <figure><img src="https://lh7-us.googleusercontent.com/wkZTLICbpBPKiSbZGN_rmF9gt47eTYRdkKWnAiuwMESzvsB0SBxok_VNjVc-FjyJmBIjBxUerBlnKzqhmMcPcs6Rg2BE2VlMTZLP4wBwBv3lWvHn426BfznfUbvhRi4cBR8Zlz-VDRH6a0c3FA_lNr4" alt=""><figcaption><p>This request uploads a document to the document management system.</p></figcaption></figure>
 
 These examples show how APIs can be used in document processing to automate various tasks and improve efficiency. The exact functionality and syntax of the API depends on the particular API and its specific features.
-
-
-

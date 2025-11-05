@@ -34,6 +34,3 @@
 * Throughout the workflow, there are various decision points where an invoice might be approved, rejected, or sent back for additional information. Notifications are sent out after delays, ensuring timely processing.
 
 These Workflows will be included in the Standard Workflow
-
-
-

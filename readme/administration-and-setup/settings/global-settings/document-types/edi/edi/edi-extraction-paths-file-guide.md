@@ -1,81 +1,80 @@
-# EDI Extraction Paths File Guide
+# EDI Extraction Paths Bestandsgids
 
-## 1. Overview
+## 1. Overzicht
 
-The **Extraction Paths File** defines how data is extracted from the **structured XML** into specific document fields and tables within the interface.\
-It maps **field IDs** to **XPath expressions**, which are evaluated to pull values from the XML into the corresponding document fields.\
-This file plays a critical role in ensuring that extracted data appears correctly during field validation and downstream processing.
+Het **Extraction Paths-bestand** bepaalt hoe gegevens worden geëxtraheerd uit de **gestructureerde XML** naar specifieke documentvelden en tabellen binnen de interface. Het koppelt **veld-ID's** aan **XPath-uitdrukkingen**, die worden geëvalueerd om waarden uit de XML te halen en in de overeenkomstige documentvelden te plaatsen. Dit bestand speelt een cruciale rol bij het garanderen dat geëxtraheerde gegevens correct verschijnen tijdens veldvalidatie en downstream verwerking.
 
-## 2. Purpose and Function
+## 2. Doel en Functie
 
-* Maps each document field and table column to a specific location in the structured XML using XPath expressions.
-* Ensures that the correct values are populated into fields such as `order_number`, `supplier_name`, and `total_amount`.
-* Supports both **single fields** (via a `fields` object) and **tables** (via a `tables` array with row paths and column mappings).
-* Enables precise control over how data is retrieved from the XML, including the use of XPath functions like `sum()`.
+* Koppelt elk documentveld en tabelkolom aan een specifieke locatie in de gestructureerde XML met behulp van XPath-uitdrukkingen.
+* Zorgt ervoor dat de juiste waarden worden ingevuld in velden zoals `order_number`, `supplier_name` en `total_amount`.
+* Ondersteunt zowel **enkele velden** (via een `fields` object) als **tabellen** (via een `tables` array met rijpaden en kolomkoppelingen).
+* Maakt nauwkeurige controle mogelijk over hoe gegevens worden opgehaald uit de XML, inclusief het gebruik van XPath-functies zoals `sum()`.
 
-Example field mapping:
+Voorbeeld veldkoppeling:
 
-```json
+Copy
+
+```
 "order_number": "//PURCHASE_ORDER/PURCHASE_ORDER/text()"
 ```
 
-## 3. Access & Basic Editing
+## 3. Toegang & Basisbewerking
 
-#### **Accessing the File:**
+#### **Toegang tot het bestand:**
 
-1.  Go to **Settings** → **Document Type** → _\[Your Document (e.g., Purchase Order)]_ → **E-Doc**.\
+1.  Ga naar **Instellingen** → **Documenttype** → _\[Uw Document (bijv. Inkooporder)]_ → **E-Doc**.
 
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Ff6zyL0AvmqSvrogZdnox%252Fimage.png%3Falt%3Dmedia%26token%3D6bc9ab55-6ee9-43d1-b576-4c5833c208cf\&width=768\&dpr=4\&quality=100\&sign=a23de442\&sv=2)
+2. Onder het tabblad **E-Doc** selecteert u uw formaat (bijv. **EDI**).
+3.  Klik op **Extraction Paths** om het bestand te bekijken of te bewerken.
 
-    <figure><img src="../../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-2. Under the **E-Doc** tab, select your format (e.g., **EDI**).
-3.  Click **Extraction Paths** to view or edit the file.\
+    ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FawwG5QnErp1yy1eYHrlX%252Fimage.png%3Falt%3Dmedia%26token%3D46a6d8b3-52d2-4c13-bc72-1a74955efd9f\&width=768\&dpr=4\&quality=100\&sign=e612882b\&sv=2)
 
+#### **Conceptbeheer:**
 
-    <figure><img src="../../../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-
-#### **Draft Management:**
-
-* **Create a Draft:** Click the ✏️ pencil icon.
-* **Delete Drafts:** Use the 🗑️ trashcan icon to remove unused drafts.
-* **Activate Changes:** Click the ✅ checkmark to publish a version.
-  * <mark style="color:red;">**Note**</mark>: Activating a new version will **automatically deactivate** the previous one.
+* **Maak een Concept:** Klik op het ✏️ potloodpictogram.
+* **Verwijder Concepten:** Gebruik het 🗑️ prullenbakpictogram om ongebruikte concepten te verwijderen.
+* **Wijzigingen Activeren:** Klik op het ✅ vinkje om een versie te publiceren.
+  * **Opmerking**: Het activeren van een nieuwe versie zal de vorige versie **automatisch deactiveren**.
 
 ## 4. Editor & Syntax
 
-The Extraction Paths File is written in **JSON** and contains two main components:
+Het Extraction Paths-bestand is geschreven in **JSON** en bevat twee hoofdcomponenten:
 
-* **fields**: A dictionary where each key is a field ID and each value is an XPath expression that defines how to extract the data.
-* **tables**: A list of table definitions that include:
-  * `name`: The table’s ID.
-  * `row_path`: An XPath that identifies each row of the table.
-  * `columns`: A list of column mappings (`name`, `path`).
+* **fields**: Een woordenboek waarbij elke sleutel een veld-ID is en elke waarde een XPath-uitdrukking is die bepaalt hoe de gegevens moeten worden geëxtraheerd.
+* **tables**: Een lijst met tabeldefinities die het volgende omvatten:
+  * `name`: Het ID van de tabel.
+  * `row_path`: Een XPath die elke rij van de tabel identificeert.
+  * `columns`: Een lijst met kolomkoppelingen (`name`, `path`).
 
-You can also use XPath functions (e.g., `sum()`) and expressions to calculate values dynamically from repeating elements.
+U kunt ook XPath-functies (bijv. `sum()`) en uitdrukkingen gebruiken om waarden dynamisch te berekenen uit herhalende elementen.
+
+Copy
 
 ```
 jsonCopyEdit"total_net_amount": "sum(//PURCHASE_ORDER/ORDER_LINES/ORDER_LINE/SUB_TOTAL)"
 ```
 
-## 5. Preview Function (Evaluate Extraction)
+## 5. Voorbeeldfunctie (Evaluatie-extractie)
 
-The **Preview Function** allows you to simulate how the extraction paths will behave with a real uploaded document.
+De **Voorbeeldfunctie** stelt u in staat om te simuleren hoe de extractiepaden zich zullen gedragen met een echt geüpload document.
 
-**Usage:**
+**Gebruik:**
 
-* Upload an EDI file through the standard upload process.
-* Copy the **Document ID**.
-* Go to the **Extraction Paths** interface.
-* Open the **Preview Function**.\
+* Upload een EDI-bestand via het standaard uploadproces.
+* Kopieer de **Document-ID**.
+* Ga naar de **Extraction Paths** interface.
+* Open de **Voorbeeldfunctie**.\
   \
-  ![](<../../../../../../.gitbook/assets/image (7).png>)
-* Enter the Document ID and click **Test**.
-* The result will show how each field and table is populated based on the configured paths.
+  &#x20;![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F9lddYJl2G4tzpdr9RD5F%252Fimage.png%3Falt%3Dmedia%26token%3Df7663f70-ef10-4e64-bbdc-41048ed8352a\&width=300\&dpr=4\&quality=100\&sign=36ce2b93\&sv=2)
+* Voer de Document-ID in en klik op **Test**.
+* Het resultaat toont hoe elk veld en elke tabel wordt ingevuld op basis van de geconfigureerde paden.
 
-This feature is essential for verifying that your XPath expressions are correctly defined and pulling the expected values before activating the draft.
+Deze functie is essentieel om te controleren of uw XPath-uitdrukkingen correct zijn gedefinieerd en de verwachte waarden ophalen voordat het concept wordt geactiveerd.
 
-<figure><img src="../../../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F81uvH6FFVBJsSZucanWY%252Fimage.png%3Falt%3Dmedia%26token%3Dde3ba545-1ee3-44b2-a629-9660d80174f2\&width=768\&dpr=4\&quality=100\&sign=43c8b507\&sv=2)
 
 ## 6. Video Walkthrough
 
-A video guide for this file type is available on the  [Videos page.](edi-videos.md)\
-Use it to follow along with setup, editing, and previewing.
+Een videogids voor dit bestandstype is beschikbaar op de [Videopagina.](https://docs.docbits.com/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-videos) Gebruik het om de installatie, bewerking en voorbeeldweergave te volgen.

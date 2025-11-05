@@ -1,22 +1,22 @@
-# Infor Infrastructure
+# Infor Infrastructuur
 
-### Open Port 443 & Secure Communication
+### Open Poort 443 & Veilige Communicatie
 
-We understand the importance of secure data transfer. That’s why we use open port 443, the standard port for HTTPS, ensuring that all data transferred is encrypted and secure. Our SSL-secured connections guarantee that your data is safe during every step of the process.
+We begrijpen het belang van veilige gegevensoverdracht. Daarom gebruiken we open poort 443, de standaardpoort voor HTTPS, wat ervoor zorgt dat alle overgedragen gegevens versleuteld en veilig zijn. Onze SSL-beveiligde verbindingen garanderen dat uw gegevens veilig zijn tijdens elke stap van het proces.
 
 <figure><img src="../.gitbook/assets/secure.svg" alt="Open Port 443 &#x26; Secure Communication - DocBits"><figcaption><p>Secure Data Transfer</p></figcaption></figure>
 
-### Communication With The Database
+### Communicatie Met De Database
 
-When it comes to database communication, we don’t take any chances. Our Kubernetes setup and databases reside within the same Virtual Private Cloud (VPC). This means we only access the database via local IP, ensuring that the transmitted data never leaves the local network. It’s like having a private highway just for your data.
+Als het gaat om databasecommunicatie nemen we geen risico's. Onze Kubernetes-configuratie en databases bevinden zich binnen dezelfde Virtual Private Cloud (VPC). Dit betekent dat we alleen via een lokaal IP-adres toegang tot de database hebben, waardoor de verzonden gegevens nooit het lokale netwerk verlaten. Het is alsof je een privé snelweg hebt alleen voor jouw gegevens.
 
-### Spaces
+### Ruimtes
 
-Document handling is a breeze with Docbits. All uploaded documents are securely stored in a dedicated ‘Space’. We use SSL encryption for data traffic and require multiple keys for file access, making sure your documents are as secure as a vault.
+Documentbeheer is een fluitje van een cent met Docbits. Alle geüploade documenten worden veilig opgeslagen in een speciale ‘Ruimte’. We gebruiken SSL-versleuteling voor dataverkeer en vereisen meerdere sleutels voor bestandsaccess, zodat uw documenten net zo veilig zijn als een kluis.
 
 ### Traffic Security
 
-We only allow HTTPS-secured connections for communicating with our servers. This ensures that all data transferred is encrypted, keeping your sensitive information safe and sound. It’s like having a security guard for your data, 24/7.
+We staan alleen HTTPS-beveiligde verbindingen toe voor communicatie met onze servers. Dit zorgt ervoor dat alle overgedragen gegevens versleuteld zijn, waardoor uw gevoelige informatie veilig en wel blijft. Het is alsof je een beveiligingsagent voor je gegevens hebt, 24/7.
 
 ### Infor Cloud
 
@@ -24,6 +24,6 @@ We only allow HTTPS-secured connections for communicating with our servers. This
 
 ### Infor On-Prem
 
-Flexibility is key, and we offer both cloud and on-premise solutions. With our on-premise option, there’s no need to open any ports, ensuring that your network security remains uncompromised. Whether you’re in the cloud or keeping things in-house, we’ve got you covered.
+Flexibiliteit is de sleutel, en we bieden zowel cloud- als on-premise oplossingen. Met onze on-premise optie is er geen behoefte om poorten te openen, waardoor de netwerkbeveiliging intact blijft. Of je nu in de cloud bent of alles intern houdt, wij hebben je gedekt.
 
 <figure><img src="../.gitbook/assets/DocBits_II_infra-on-prem-1024x355.webp" alt=""><figcaption></figcaption></figure>

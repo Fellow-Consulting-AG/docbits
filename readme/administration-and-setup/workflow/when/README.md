@@ -1,39 +1,43 @@
-# When
+---
+hidden: true
+---
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+# Wanneer
 
-#### Understanding the "When" in Workflow Configurations
+![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FKwAT37pCkZRziNLyWMsL%252Fimage.png%3Falt%3Dmedia%26token%3Db95d040f-e9e6-496d-97cd-d2c8f1c30d60\&width=768\&dpr=4\&quality=100\&sign=c323483b\&sv=2)
 
-**Purpose of "When"**
+#### Begrip van de "Wanneer" in Workflow Configuraties
 
-* The "When" section in a workflow configuration defines the trigger conditions that initiate a particular workflow action. These conditions are based on specified criteria related to document attributes or user activities within the ERP system.
+**Doel van "Wanneer"**
 
-**How It Works**
+* De "Wanneer" sectie in een workflow configuratie definieert de triggercondities die een bepaalde workflow-actie initiëren. Deze condities zijn gebaseerd op gespecificeerde criteria met betrekking tot documentattributen of gebruikersactiviteiten binnen het ERP-systeem.
 
-* In your interface, "When" appears to be a starting point where users can select different trigger cards. Each card specifies conditions under which subsequent actions (defined in "And" section) will be executed.
+**Hoe Het Werkt**
 
-**Document Type Condition Cards**
+* In jouw interface lijkt "Wanneer" een startpunt te zijn waar gebruikers verschillende triggerkaarten kunnen selecteren. Elke kaart specificeert condities waaronder daaropvolgende acties (gedefinieerd in de "En" sectie) zullen worden uitgevoerd.
 
-* The cards with the document icon displayed in the screenshot are variations of "Document Type" conditions, which are used to trigger workflows based on the type of document being processed. Here’s a breakdown of each type of condition card shown:
-  * **Document type (Operator) one of (Type)**: This card triggers an action when the type of a document matches one of the specified types in a list. The operator might include options like "is" or "is not," allowing for inclusive or exclusive conditions.
-  * **Document type (Operator) (Type)**: This simpler variant triggers based on a single document type condition. It would typically check if the document type "is" or "is not" a specific type, without the option to select from multiple types.
+**Document Type Condities Kaarten**
+
+* De kaarten met het documentpictogram weergegeven in de screenshot zijn variaties van "Document Type" condities, die worden gebruikt om workflows te activeren op basis van het type document dat wordt verwerkt. Hier is een uitleg van elk type conditiekaart dat wordt getoond:
+  * **Document type (Operator) een van (Type)**: Deze kaart activeert een actie wanneer het type van een document overeenkomt met een van de gespecificeerde types in een lijst. De operator kan opties bevatten zoals "is" of "is niet," waardoor inclusieve of exclusieve condities mogelijk zijn.
+  * **Document type (Operator) (Type)**: Deze eenvoudigere variant activeert op basis van een enkele documenttypeconditie. Het zou typisch controleren of het documenttype "is" of "is niet" een specifiek type is, zonder de optie om uit meerdere types te selecteren.
   *
 
 **Celery Beat**
 
-* The card with the clock icon in the screenshot is a "Celery Beat" condition, which is used to trigger workflows based on date and time.
+* De kaart met het klokpictogram in de screenshot is een "Celery Beat" conditie, die wordt gebruikt om workflows te activeren op basis van datum en tijd.
 
-#### Setting Up a "When" Trigger Card
+#### Instellen van een "Wanneer" Triggerkaart
 
-1. **Selection of Condition Type**: Users begin by selecting a condition type that is relevant to the workflow they want to automate. In this case, document types are the focus.
-2. **Defining the Operator**: Users must decide the logical operator—such as "is" or "is not"—which sets the basis for comparing actual document types against the defined conditions.
-3. **Specifying Document Types**: Depending on the card, users may select one or multiple document types that will trigger the workflow when documents of those types are processed.
-4. **Finalizing the Trigger**: Once the condition is set up, it becomes the basis for triggering specific actions defined in the workflow. If a document meets the set condition, the defined actions will automatically be initiated.
+1. **Selectie van Conditietype**: Gebruikers beginnen met het selecteren van een conditietype dat relevant is voor de workflow die ze willen automatiseren. In dit geval zijn documenttypes het focuspunt.
+2. **Definiëren van de Operator**: Gebruikers moeten de logische operator beslissen, zoals "is" of "is niet," die de basis vormt voor het vergelijken van daadwerkelijke documenttypes met de gedefinieerde condities.
+3. **Specificeren van Documenttypes**: Afhankelijk van de kaart kunnen gebruikers één of meerdere documenttypes selecteren die de workflow zullen activeren wanneer documenten van die types worden verwerkt.
+4. **Het Trigger Finaliseren**: Zodra de conditie is ingesteld, vormt het de basis voor het activeren van specifieke acties die zijn gedefinieerd in de workflow. Als een document aan de ingestelde conditie voldoet, zullen de gedefinieerde acties automatisch worden geïnitieerd.
 
-#### Practical Application
+#### Praktische Toepassing
 
-In practice, these trigger cards are crucial for automating processes like approvals, notifications, or any procedure that depends on the type of document being handled. For example, if a document type "is" an "Invoice," and it matches the conditions set in the "When" card, the workflow might automatically route the document for payment processing.
+In de praktijk zijn deze triggerkaarten cruciaal voor het automatiseren van processen zoals goedkeuringen, meldingen of enige procedure die afhankelijk is van het type document dat wordt behandeld. Bijvoorbeeld, als een documenttype "is" een "Factuur," en het voldoet aan de voorwaarden die zijn ingesteld in de "Wanneer" kaart, zou de workflow automatisch het document kunnen routeren voor betalingsverwerking.
 
-This setup ensures that workflows are not only efficient but also tailored to the specific operational needs of the organization, reducing manual oversight and speeding up document handling processes.
+Deze opstelling zorgt ervoor dat workflows niet alleen efficiënt zijn, maar ook zijn afgestemd op de specifieke operationele behoeften van de organisatie, waardoor handmatig toezicht wordt verminderd en documentverwerkingsprocessen worden versneld.
 
-In summary, the "When" part of your workflow configuration is about setting the stage for automated actions based on specific, predefined conditions. It’s a powerful tool for ensuring that your ERP system reacts dynamically to the needs of the business, enhancing both productivity and accuracy in document management.
+Samengevat, het "Wanneer" deel van jouw workflowconfiguratie draait om het instellen van het podium voor geautomatiseerde acties op basis van specifieke, vooraf gedefinieerde condities. Het is een krachtig instrument om ervoor te zorgen dat jouw ERP-systeem dynamisch reageert op de behoeften van het bedrijf, waardoor zowel productiviteit als nauwkeurigheid in documentbeheer worden verbeterd.
