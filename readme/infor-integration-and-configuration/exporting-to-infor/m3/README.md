@@ -98,14 +98,14 @@
 ### On-Premise:
 
 1. Otwórz **DocBits**.
-2.  Przejdź do **Settings > Document Processing > Export**.
+2.  Przejdź do **Ustawienia > Przetwarzanie dokumentów > Eksportuj**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_export.png)
 3. Utwórz nowy eksport:
-   * **Select**: **Infor IDM + ION BOD**.
-   * **Title**: Wybierz znaczący tytuł.
-   * **Document Type**: Ustaw na **Invoice**.
-   * **Sub-Organization**: Może być pozostawione puste lub ustawione na konkretną Sub-Organization, jeśli jest to wymagane.
+   * **Wybierz**: **Infor IDM + ION BOD**.
+   * **Tytuł**: Wybierz znaczący tytuł.
+   * **Typ dokumentu**: Ustaw na **Faktura**.
+   * **Podorganizacja**: Może być pozostawione puste lub ustawione na konkretną podorganizację, jeśli jest to wymagane.
 4. **Prześlij wymagane pliki**:
    * **ION Mapping File**: Można go znaleźć w **Infor OS → API Gateway → Authorized Apps**. Wyszukaj aplikację **DocBits**, otwórz ją i pobierz dane uwierzytelniające.
    * **IDM Mapping File**: (Podaj odpowiednią ścieżkę pliku lub lokalizację).
@@ -114,14 +114,14 @@
 ### Cloud:
 
 1. Otwórz **DocBits**.
-2.  Przejdź do **Settings > Document Processing > Export**.
+2.  Przejdź do **Ustawienia > Przetwarzanie dokumentów > Eksportuj**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_export.png)
 3. Utwórz nowy eksport:
-   * **Select**: **Infor IDM + M3 (API)**.
-   * **Title**: Wybierz znaczący tytuł.
-   * **Document Type**: Ustaw na **Invoice**.
-   * **Sub-Organization**: Może być pozostawione puste lub ustawione na konkretną Sub-Organization, jeśli jest to wymagane.
+   * **Wybierz**: **Infor IDM + M3 (API)**.
+   * **Tytuł**: Wybierz znaczący tytuł.
+   * **Typ dokumentu**: Ustaw na **Faktura**.
+   * **Podorganizacja**: Może być pozostawione puste lub ustawione na konkretną podorganizację, jeśli jest to wymagane.
 4. **Prześlij wymagane pliki**:
    * **ION Mapping File**: Można go znaleźć w **Infor OS → API Gateway → Authorized Apps**. Wyszukaj aplikację **DocBits**, otwórz ją i pobierz dane uwierzytelniające.
    * **IDM Mapping File**: (Podaj odpowiednią ścieżkę pliku lub lokalizację).
@@ -130,14 +130,14 @@
 ### Cloud z toml:
 
 1. Otwórz **DocBits**.
-2.  Przejdź do **Settings > Document Processing > Export**.
+2.  Przejdź do **Ustawienia > Przetwarzanie dokumentów > Eksportuj**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_export.png)
 3. Utwórz nowy eksport:
-   * **Select**: **Infor IDM + M3 (API)**.
-   * **Title**: Wybierz znaczący tytuł.
-   * **Document Type**: Ustaw na **Invoice**.
-   * **Sub-Organization**: Może być pozostawione puste lub ustawione na konkretną Sub-Organization, jeśli jest to wymagane.
+   * **Wybierz**: **Infor IDM + M3 (API)**.
+   * **Tytuł**: Wybierz znaczący tytuł.
+   * **Typ dokumentu**: Ustaw na **Faktura**.
+   * **Podorganizacja**: Może być pozostawione puste lub ustawione na konkretną podorganizację, jeśli jest to wymagane.
 4. **Prześlij wymagane pliki**:
    * **ION Mapping File**: Można go znaleźć w **Infor OS → API Gateway → Authorized Apps**. Wyszukaj aplikację **DocBits**, otwórz ją i pobierz dane uwierzytelniające.
    * **IDM Mapping File**: (Podaj odpowiednią ścieżkę pliku lub lokalizację).
