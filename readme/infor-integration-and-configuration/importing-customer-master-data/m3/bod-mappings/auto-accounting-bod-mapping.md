@@ -2,7 +2,7 @@
 
 ## Sync.CodeDefinition
 
-→ DocBits Stammdaten Tabelle: m3flexdimension
+→ DocBits Master Data Lookup Table: **m3flexdimension**
 
 ```json
 {
@@ -16,7 +16,7 @@
 
 ## Sync.ChartOfAccounts
 
-→ DocBits Stammdaten Tabelle: **ChartOfAccounts**
+→ DocBits Master Data Lookup Table: **ChartOfAccounts**
 
 ```json
 {

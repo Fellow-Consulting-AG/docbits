@@ -1,8 +1,8 @@
 # Purchase Order BOD Mapping
 
-Line Mapping:
+## Line Mapping:
 
-→ DocBits Stammdaten Tabelle: **Bestellung**
+→ DocBits Master Data Lookup Table: **Purchase Order**
 
 ```python
 line_mappings = {
@@ -45,9 +45,9 @@ line_mappings = {
 
 ‌
 
-Header Mapping:
+## Header Mapping:
 
-→ DocBits Stammdaten Tabelle: **PURCHASE_ORDER_HEADER**
+→ DocBits Master Data Lookup Table: **PURCHASE\_ORDER\_HEADER**
 
 ```python
 header_mappings = {
