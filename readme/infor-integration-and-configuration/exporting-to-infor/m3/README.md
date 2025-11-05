@@ -98,14 +98,14 @@
 ### On-Premise:
 
 1. Öffnen Sie **DocBits**.
-2.  Navigieren Sie zu **Settings > Document Processing > Export**.
+2.  Navigieren Sie zu **Einstellungen > Dokumentenverarbeitung > Export**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_export.png)
 3. Erstellen Sie einen neuen Export:
-   * **Select**: **Infor IDM + ION BOD**.
-   * **Title**: Wählen Sie einen aussagekräftigen Titel.
-   * **Document Type**: Setzen Sie auf **Invoice**.
-   * **Sub-Organization**: Kann leer gelassen werden oder auf eine bestimmte Sub-Organization gesetzt werden, falls erforderlich.
+   * **Auswählen**: **Infor IDM + ION BOD**.
+   * **Titel**: Wählen Sie einen aussagekräftigen Titel.
+   * **Dokumenttyp**: Setzen Sie auf **Rechnung**.
+   * **Unterorganisation**: Kann leer gelassen werden oder auf eine bestimmte Unterorganisation gesetzt werden, falls erforderlich.
 4. **Laden Sie die erforderlichen Dateien hoch**:
    * **ION Mapping File**: Diese finden Sie unter **Infor OS → API Gateway → Authorized Apps**. Suchen Sie nach der **DocBits** App, öffnen Sie sie und laden Sie die Credentials herunter.
    * **IDM Mapping File**: (Geben Sie den relevanten Dateipfad oder Speicherort an).
@@ -114,14 +114,14 @@
 ### Cloud:
 
 1. Öffnen Sie **DocBits**.
-2.  Navigieren Sie zu **Settings > Document Processing > Export**.
+2.  Navigieren Sie zu **Einstellungen > Dokumentenverarbeitung > Export**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_export.png)
 3. Erstellen Sie einen neuen Export:
-   * **Select**: **Infor IDM + M3 (API)**.
-   * **Title**: Wählen Sie einen aussagekräftigen Titel.
-   * **Document Type**: Setzen Sie auf **Invoice**.
-   * **Sub-Organization**: Kann leer gelassen werden oder auf eine bestimmte Sub-Organization gesetzt werden, falls erforderlich.
+   * **Auswählen**: **Infor IDM + M3 (API)**.
+   * **Titel**: Wählen Sie einen aussagekräftigen Titel.
+   * **Dokumenttyp**: Setzen Sie auf **Rechnung**.
+   * **Unterorganisation**: Kann leer gelassen werden oder auf eine bestimmte Unterorganisation gesetzt werden, falls erforderlich.
 4. **Laden Sie die erforderlichen Dateien hoch**:
    * **ION Mapping File**: Diese finden Sie unter **Infor OS → API Gateway → Authorized Apps**. Suchen Sie nach der **DocBits** App, öffnen Sie sie und laden Sie die Credentials herunter.
    * **IDM Mapping File**: (Geben Sie den relevanten Dateipfad oder Speicherort an).
@@ -130,14 +130,14 @@
 ### Cloud mit toml:
 
 1. Öffnen Sie **DocBits**.
-2.  Navigieren Sie zu **Settings > Document Processing > Export**.
+2.  Navigieren Sie zu **Einstellungen > Dokumentenverarbeitung > Export**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_export.png)
 3. Erstellen Sie einen neuen Export:
-   * **Select**: **Infor IDM + M3 (API)**.
-   * **Title**: Wählen Sie einen aussagekräftigen Titel.
-   * **Document Type**: Setzen Sie auf **Invoice**.
-   * **Sub-Organization**: Kann leer gelassen werden oder auf eine bestimmte Sub-Organization gesetzt werden, falls erforderlich.
+   * **Auswählen**: **Infor IDM + M3 (API)**.
+   * **Titel**: Wählen Sie einen aussagekräftigen Titel.
+   * **Dokumenttyp**: Setzen Sie auf **Rechnung**.
+   * **Unterorganisation**: Kann leer gelassen werden oder auf eine bestimmte Unterorganisation gesetzt werden, falls erforderlich.
 4. **Laden Sie die erforderlichen Dateien hoch**:
    * **ION Mapping File**: Diese finden Sie unter **Infor OS → API Gateway → Authorized Apps**. Suchen Sie nach der **DocBits** App, öffnen Sie sie und laden Sie die Credentials herunter.
    * **IDM Mapping File**: (Geben Sie den relevanten Dateipfad oder Speicherort an).
