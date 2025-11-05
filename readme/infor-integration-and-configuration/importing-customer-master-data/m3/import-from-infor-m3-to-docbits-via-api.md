@@ -14,9 +14,11 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_1.png" alt=""><figcaption></figcaption></figure>
+
 4. Add a **Target Endpoint**:
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_2.png" alt=""><figcaption></figcaption></figure>
+
 * **Target Endpoint URL**: Use the appropriate URL for your environment:
 
     * `https://stage.api.docbits.com`
@@ -29,6 +31,7 @@
 * **Proxy Security**: Select **OAuth 2.0**.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_3.png" alt=""><figcaption></figcaption></figure>
+
 * **Target Endpoint Security**:
 
     * **Authentication Type**: API Key
@@ -39,11 +42,13 @@
 * Save the target endpoint configuration.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_4.png" alt=""><figcaption></figcaption></figure>
+
 5. Add API Documentation:
 
 * Return to the API documentation section by clicking **Documentation Icon** in the created Endpoint.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_5.png" alt=""><figcaption></figcaption></figure>
+
 * Scroll down to the **Documentation** section and click **+ Add Documentation**.
 
     * **Name**: `DocBits-Stage`, `DocBits-Sandbox`, `DocBits-Prod`, or `DocBits-Demo` (matching the environment).
@@ -68,6 +73,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_7.png" alt=""><figcaption></figcaption></figure>
+
 ## Step 2: Create an API Connection Point
 
 1. Navigate to **OS** > **ION** > **Connect** > **Connection Point**.
@@ -89,6 +95,7 @@
 1. Navigate to the **Documents** tab in the API Connection Point.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png" alt=""><figcaption></figcaption></figure>
+
 2. Click **Add New Document** and fill in the following details:
 
     * **Scenario**: `Send to API`
@@ -96,6 +103,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_8.png" alt=""><figcaption></figcaption></figure>
+
 3. Configure the ION API:
 
     * **API Call Name**: `Sync.SupplierPartyMaster`
@@ -112,17 +120,20 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_9.png" alt=""><figcaption></figcaption></figure>
+
 4. Set the **Request Body**:
 
     * For **File**, select **Input Document = No Compression**.
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_10.png" alt=""><figcaption></figcaption></figure>
+
 ## Sync.RemitToPartyMaster
 
 1. Navigate to the **Documents** tab in the API Connection Point.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png" alt=""><figcaption></figcaption></figure>
+
 2. **Click Add New Document** and fill in the following details:
 
     * **Scenario**: `Send to API`
@@ -130,6 +141,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_11.png" alt=""><figcaption></figcaption></figure>
+
 3. **Configure the ION API**:
 
     * **API Call Name**: `Sync.RemitToPartyMaster`
@@ -144,24 +156,28 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_12.png" alt=""><figcaption></figcaption></figure>
+
 4. **Configure the Request Body**:
 
     * For **File**, select **Input Document = No Compression**.
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_13.png" alt=""><figcaption></figcaption></figure>
+
 ## Acknowledge.SupplierInvoice
 
 1. Navigate to the **Documents** tab in the API Connection Point.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png" alt=""><figcaption></figcaption></figure>
+
 2. **Click Add New Document** and fill in the following details:
 
     * **Scenario**: `Send to API`
     * **Documents**: `Acknowledge.SupplierInvoice`
 
 
-<figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_14.png" alt=""
+
 3. **Configure the ION API**:
 
     * **API Call Name**: `Acknowledge.SupplierInvoice`
@@ -176,6 +192,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_15.png" alt=""><figcaption></figcaption></figure>
+
 4. **Configure the Request Body**:
   Add the following values in the **Request Body** section:
 
@@ -195,11 +212,13 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_16.png" alt=""><figcaption></figcaption></figure>
+
 ## Sync.PurchaseOrder
 
 1. Navigate to the **Documents** tab in the API Connection Point.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png" alt=""><figcaption></figcaption></figure>
+
 2. **Click Add New Document** and fill in the following details:
 
     * **Scenario**: `Send to API`
@@ -207,6 +226,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_17.png" alt=""><figcaption></figcaption></figure>
+
 3. **Configure the ION API**:
 
     * **API Call Name**: `Sync.PurchaseOrder`
@@ -221,17 +241,20 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_18.png" alt=""><figcaption></figcaption></figure>
+
 4. **Configure the Request Body**:
 
     * For **File**, set **Input Document = No Compression**.
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_19.png" alt=""><figcaption></figcaption></figure>
+
 ## Sync.ReceiveDelivery
 
 1. Navigate to the **Documents** tab in the API Connection Point.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png" alt=""><figcaption></figcaption></figure>
+
 2. **Click Add New Document** and fill in the following details:
 
     * **Scenario**: `Send to API`
@@ -239,6 +262,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_20.png" alt=""><figcaption></figcaption></figure>
+
 3. **Configure the ION API**:
 
     * **API Call Name**: `Sync.ReceiveDelivery`
@@ -260,12 +284,14 @@
     * For **File**, set **Input Document = No Compression**.
 
 
-<figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_22.png" alt=""
+
 ## Sync.AdvanceShipNotice
 
 1. Navigate to the **Documents** tab in the API Connection Point.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png" alt=""><figcaption></figcaption></figure>
+
 2. **Click Add New Document** and fill in the following details:
 
     * **Scenario**: `Send to API`
@@ -273,6 +299,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_23.png" alt=""><figcaption></figcaption></figure>
+
 3. **Configure the ION API**:
 
     * **API Call Name**: `Sync.AdvanceShipNotice`
@@ -286,6 +313,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_24.png" alt=""><figcaption></figcaption></figure>
+
 4. **Configure the Request Body**:
 
     * For **data_type**, set **Value** = `AdvanceShipNotice`
@@ -298,11 +326,13 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_25.png" alt=""><figcaption></figcaption></figure>
+
 ## Sync.ChartOfAccounts
 
 1. Navigate to the **Documents** tab in the API Connection Point.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png" alt=""><figcaption></figcaption></figure>
+
 2. **Click Add New Document** and fill in the following details:
 
     * **Scenario**: `Send to API`
@@ -310,6 +340,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_26.png" alt=""><figcaption></figcaption></figure>
+
 3. **Configure the ION API**:
 
     * **API Call Name**: `Sync.ChartOfAccounts`
@@ -323,6 +354,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_27.png" alt=""><figcaption></figcaption></figure>
+
 4. **Configure the Request Body**:
 
     * For **data_type**, set Value = `ChartOfAccounts`
@@ -355,11 +387,13 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_28.png" alt=""><figcaption></figcaption></figure>
+
 ## Sync.CodeDefinition-AccountingDimension
 
 1. Navigate to the **Documents** tab in the API Connection Point.
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png" alt=""><figcaption></figcaption></figure>
+
 2. **Click Add New Document** and fill in the following details:
 
     * **Scenario**: `Send to API`
@@ -367,6 +401,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_29.png" alt=""><figcaption></figcaption></figure>
+
 3. **Configure the ION API**:
 
     * **API Call Name**: `Sync.CodeDefinition-AccountingDimension`
@@ -380,6 +415,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_30.png" alt=""><figcaption></figcaption></figure>
+
 4. **Configure the Request Body**:
 
     * For **data_type**, set Value = `M3Dimension`
@@ -398,6 +434,7 @@
 
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_31.png" alt=""><figcaption></figcaption></figure>
+
 ## Step 3: Create the Document Flow
 
 1. Navigate to **OS** > **ION** > **Connect** > **Data Flows**.
