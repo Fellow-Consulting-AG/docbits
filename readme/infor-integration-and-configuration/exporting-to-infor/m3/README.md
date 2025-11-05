@@ -106,7 +106,7 @@
    * **Title**: Choose a meaningful title.
    * **Document Type**: Set to **Invoice**.
    * **Sub-Organization**: Can be left empty, or set to a specific sub-organization if needed.
-4. **Upload the required files**:
+4. Upload the required files:
    * **ION Mapping File**: This can be found in **Infor OS → API Gateway → Authorized Apps**. Look for the **DocBits** app, open it, and download the credentials.
    * **IDM Mapping File**: (Provide the relevant file path or location).
    * **BOD Mapping File**: (Provide the relevant file path or location).
@@ -122,7 +122,7 @@
    * **Title**: Choose a meaningful title.
    * **Document Type**: Set to **Invoice**.
    * **Sub-Organization**: Can be left empty, or set to a specific sub-organization if needed.
-4. **Upload the required files**:
+4. Upload the required files:
    * **ION Mapping File**: This can be found in **Infor OS → API Gateway → Authorized Apps**. Look for the **DocBits** app, open it, and download the credentials.
    * **IDM Mapping File**: (Provide the relevant file path or location).
    * **M3 Mapping File**: (Provide the relevant file path or location).
@@ -138,7 +138,7 @@
    * **Title**: Choose a meaningful title.
    * **Document Type**: Set to **Invoice**.
    * **Sub-Organization**: Can be left empty, or set to a specific sub-organization if needed.
-4. **Upload the required files**:
+4. Upload the required files:
    * **ION Mapping File**: This can be found in **Infor OS → API Gateway → Authorized Apps**. Look for the **DocBits** app, open it, and download the credentials.
    * **IDM Mapping File**: (Provide the relevant file path or location).
    * **M3 toml Mapping File**: (Provide the relevant file path or location).
