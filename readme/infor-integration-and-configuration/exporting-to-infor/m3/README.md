@@ -98,14 +98,14 @@
 ### On-Premise:
 
 1. Open **DocBits**.
-2.  Navigeer naar **Settings > Document Processing > Export**.
+2.  Navigeer naar **Instellingen > Documentverwerking > Exporteren**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_export.png)
 3. Maak een nieuwe export aan:
-   * **Select**: **Infor IDM + ION BOD**.
-   * **Title**: Kies een betekenisvolle titel.
-   * **Document Type**: Stel in op **Invoice**.
-   * **Sub-Organization**: Kan leeg gelaten worden of ingesteld worden op een specifieke Sub-Organization indien nodig.
+   * **Selecteren**: **Infor IDM + ION BOD**.
+   * **Titel**: Kies een betekenisvolle titel.
+   * **Documenttype**: Stel in op **Factuur**.
+   * **Suborganisatie**: Kan leeg gelaten worden of ingesteld worden op een specifieke suborganisatie indien nodig.
 4. **Upload de vereiste bestanden**:
    * **ION Mapping File**: Deze kan worden gevonden in **Infor OS → API Gateway → Authorized Apps**. Zoek naar de **DocBits** app, open deze en download de credentials.
    * **IDM Mapping File**: (Geef het relevante bestandspad of locatie op).
@@ -114,14 +114,14 @@
 ### Cloud:
 
 1. Open **DocBits**.
-2.  Navigeer naar **Settings > Document Processing > Export**.
+2.  Navigeer naar **Instellingen > Documentverwerking > Exporteren**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_export.png)
 3. Maak een nieuwe export aan:
-   * **Select**: **Infor IDM + M3 (API)**.
-   * **Title**: Kies een betekenisvolle titel.
-   * **Document Type**: Stel in op **Invoice**.
-   * **Sub-Organization**: Kan leeg gelaten worden of ingesteld worden op een specifieke Sub-Organization indien nodig.
+   * **Selecteren**: **Infor IDM + M3 (API)**.
+   * **Titel**: Kies een betekenisvolle titel.
+   * **Documenttype**: Stel in op **Factuur**.
+   * **Suborganisatie**: Kan leeg gelaten worden of ingesteld worden op een specifieke suborganisatie indien nodig.
 4. **Upload de vereiste bestanden**:
    * **ION Mapping File**: Deze kan worden gevonden in **Infor OS → API Gateway → Authorized Apps**. Zoek naar de **DocBits** app, open deze en download de credentials.
    * **IDM Mapping File**: (Geef het relevante bestandspad of locatie op).
@@ -130,14 +130,14 @@
 ### Cloud met toml:
 
 1. Open **DocBits**.
-2.  Navigeer naar **Settings > Document Processing > Export**.
+2.  Navigeer naar **Instellingen > Documentverwerking > Exporteren**.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/settings_export.png)
 3. Maak een nieuwe export aan:
-   * **Select**: **Infor IDM + M3 (API)**.
-   * **Title**: Kies een betekenisvolle titel.
-   * **Document Type**: Stel in op **Invoice**.
-   * **Sub-Organization**: Kan leeg gelaten worden of ingesteld worden op een specifieke Sub-Organization indien nodig.
+   * **Selecteren**: **Infor IDM + M3 (API)**.
+   * **Titel**: Kies een betekenisvolle titel.
+   * **Documenttype**: Stel in op **Factuur**.
+   * **Suborganisatie**: Kan leeg gelaten worden of ingesteld worden op een specifieke suborganisatie indien nodig.
 4. **Upload de vereiste bestanden**:
    * **ION Mapping File**: Deze kan worden gevonden in **Infor OS → API Gateway → Authorized Apps**. Zoek naar de **DocBits** app, open deze en download de credentials.
    * **IDM Mapping File**: (Geef het relevante bestandspad of locatie op).
