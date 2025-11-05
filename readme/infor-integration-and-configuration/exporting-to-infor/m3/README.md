@@ -43,7 +43,7 @@
    * **Name**: `DocBits_Export_to_M3`
 4. Add nodes to the flow:
 
-### Application Node
+#### Application Node
 
 1. Add an **Application Node** to the flow.
    * **Name**: `DocBits` or `DocBits-Export`.
@@ -56,7 +56,7 @@
 
 <figure><img src="../../../.gitbook/assets/export_to_m3_from_docbits_6.png" alt=""><figcaption></figcaption></figure>
 
-### Mapping Node
+#### Mapping Node
 
 1. Add a **Mapping Node** to the right of the application node.
    * **Name**: `Capt2process`.
@@ -64,7 +64,7 @@
 
 <figure><img src="../../../.gitbook/assets/export_to_m3_from_docbits_7.png" alt=""><figcaption></figcaption></figure>
 
-### Application Node
+#### Application Node
 
 1. Add an **Application Node** to the right of the previous mapping node.
    * **Name**: `M3`.
@@ -77,7 +77,7 @@
 
 <figure><img src="../../../.gitbook/assets/export_to_m3_from_docbits_9.png" alt=""><figcaption></figcaption></figure>
 
-### API Node
+#### API Node
 
 1. Add an **API Node** to the right of the application node.
    * **Name**: `DocBits-Error`.
@@ -86,7 +86,7 @@
 
 <figure><img src="../../../.gitbook/assets/export_to_m3_from_docbits_10.png" alt=""><figcaption></figcaption></figure>
 
-### Save and Activate the Flow
+#### Save and Activate the Flow
 
 * Once all nodes are added and configured, click **Save**.
 * Activate the flow to complete the setup.
