@@ -374,19 +374,15 @@
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_33.png" alt=""><figcaption></figcaption></figure>
 
-```
 * Click the **+** button and select the customer's connection point.
-```
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_34.png" alt=""><figcaption></figcaption></figure>
 
-```
 * Click on the **Document** icon next to the application node.
 
     * Select all the documents you want to export/sync from LN to DocBits.
     * Ensure these documents match the ones selected in **Step 2: Create an API Connection Point**.
     * If any documents are missing, they must be added to the customer's connection point.
-```
 
 <figure><img src="../../../.gitbook/assets/import_from_infor_m3_to_docbits_via_api_35.png" alt=""><figcaption></figcaption></figure>
 
