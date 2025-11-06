@@ -2,7 +2,7 @@
 
 ## Sync.SupplierPartyMaster
 
-→ DocBits Master Data Lookup Table: **SUPPLIER**
+→ DocBits Stammdaten Tabelle: **SUPPLIER**
 
 Mapping in API:
 
@@ -28,7 +28,7 @@ header_mappings = {
 
 ## Sync.RemitToPartyMaster
 
-→ DocBits Master Data Lookup Table: **SUPPLIER**
+→ DocBits Stammdaten Tabelle: **SUPPLIER**
 
 ```python
 header_mappings = {
