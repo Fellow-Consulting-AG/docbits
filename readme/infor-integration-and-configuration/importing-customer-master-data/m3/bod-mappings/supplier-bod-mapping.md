@@ -4,7 +4,7 @@
 
 → Tabella di Ricerca Dati Master DocBits: **SUPPLIER**
 
-Mapping in API:
+Mappatura nell'API:
 
 ```python
 header_mappings = {
