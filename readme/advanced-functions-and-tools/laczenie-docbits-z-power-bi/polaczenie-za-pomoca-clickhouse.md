@@ -70,4 +70,4 @@ Ten przewodnik prowadzi Cię przez połączenie **ClickHouse** z **Power BI Desk
 
 ### 7. Przykładowe pulpity nawigacyjne i widoki danych
 
-![](../../.gitbook/assets/example_4.avif)![](../../.gitbook/assets/example_3.avif)![](../../.gitbook/assets/example_2.avif)![](../../.gitbook/assets/example_1.avif)
+![](<../../.gitbook/assets/example_4 (1).avif>) ![](<../../.gitbook/assets/example_3 (1).avif>) ![](<../../.gitbook/assets/example_2 (1).avif>) ![](<../../.gitbook/assets/example_1 (1).avif>)
