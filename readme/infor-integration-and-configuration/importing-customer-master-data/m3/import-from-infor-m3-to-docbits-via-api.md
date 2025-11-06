@@ -3,828 +3,401 @@
 ## Krok 1: Utwórz API
 
 1. Otwórz **Infor OS** i przejdź do **API Gateway** > **Available APIs**.
-2. Kliknij **Add**, a następnie wybierz **Create New**.
+2. Kliknij **Add**, następnie wybierz **Create New**.
 3. Wypełnij szczegóły API:
    * **Application Name**: `DocBits-Stage`, `DocBits-Sandbox`, `DocBits-Prod` lub `DocBits-Demo` (w zależności od środowiska).
-   * **Description**: `DocBits Demo`, `DocBits Prod`, `DocBits Sandbox` lub `DocBits Stage` (w zależności od środowiska).
-   * **API Specification Type**: `OAGIS`.
+   * **Suite Name**: To samo co nazwa aplikacji.
+   * **API Context**: To samo co nazwa aplikacji.
+   * **Description**: To samo co nazwa aplikacji.
+   * **Icon**: Wybierz niebieską ikonę dokumentu.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_1.png)
 
-4. Kliknij **Add** i **Save and Deploy**, aby zakończyć.
+4. Dodaj **Target Endpoint**:
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_2.png)
 
-## Krok 2: Utwórz punkt połączenia API
-
-### Sync.SupplierPartyMaster
-
-1. Przejdź do **API Gateway** > **Connection Points**.
-2. Kliknij **Add**, a następnie **Create New**.
-3. Wypełnij szczegóły jak pokazano poniżej:
-   * **Name**: `Sync.SupplierPartyMaster`
-   * **Source Application Name**: `DocBits-Demo`, `DocBits-Prod`, `DocBits-Sandbox` lub `DocBits-Stage` (w zależności od środowiska).
-   * **Noun**: `SupplierPartyMaster`
-   * **Verb**: `Sync`
-   * **Is enabled**: Zaznacz pole.
-   * **Cloud Suite Version**: Wybierz wersję Cloud Suite.
-   * **Program**: `MMS024MI`
-   * **Transaction**: `Get`
+* **Target Endpoint URL**: Użyj odpowiedniego adresu URL dla swojego środowiska:
+  * `https://stage.api.docbits.com`
+  * `https://sandbox.api.docbits.com`
+  * `https://api.docbits.com`
+  * `https://demo.api.docbits.com`
+* **Target Endpoint Description**: `Stage`, `Sandbox`, `Prod` lub `Demo` (zgodnie ze środowiskiem).
+* **Proxy Context**: To samo co środowisko (`Stage`, `Sandbox`, `Prod` lub `Demo`).
+* **Proxy Security**: Wybierz **OAuth 2.0**.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_3.png)
 
-4. Przejdź do sekcji **Mappings** i wklej XML:
-
-```xml
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-  <SOAP-ENV:Header/>
-  <SOAP-ENV:Body>
-    <oa:Sync xmlns:oa="http://www.openapplications.org/oagis/10" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openapplications.org/oagis/10 BODs/Sync_SupplierPartyMaster.xsd">
-      <oa:ApplicationArea>
-        <oa:Sender>
-          <oa:LogicalID></oa:LogicalID>
-        </oa:Sender>
-        <oa:CreationDateTime></oa:CreationDateTime>
-      </oa:ApplicationArea>
-      <oa:DataArea>
-        <oa:Sync>
-          <oa:TenantID></oa:TenantID>
-          <oa:AccountingEntityID></oa:AccountingEntityID>
-        </oa:Sync>
-        <oa:SupplierPartyMaster>
-          <oa:SupplierHeader>
-            <oa:PartyIDs>
-              <oa:ID>
-                <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='IDSUNO']"/>
-              </oa:ID>
-            </oa:PartyIDs>
-            <oa:Name>
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='SUNM']"/>
-            </oa:Name>
-            <oa:TaxInformation>
-              <oa:TaxID>
-                <oa:ID>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='VRNO']"/>
-                </oa:ID>
-              </oa:TaxID>
-            </oa:TaxInformation>
-            <oa:Location>
-              <oa:Address>
-                <oa:LineOne>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='SDA1']"/>
-                </oa:LineOne>
-                <oa:LineTwo>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='SDA2']"/>
-                </oa:LineTwo>
-                <oa:LineThree>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='SDA3']"/>
-                </oa:LineThree>
-                <oa:LineFour>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='SDA4']"/>
-                </oa:LineFour>
-                <oa:CityName>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='TOWN']"/>
-                </oa:CityName>
-                <oa:CountryCode>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='CSCD']"/>
-                </oa:CountryCode>
-                <oa:StateOrProvince>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='ECAR']"/>
-                </oa:StateOrProvince>
-                <oa:PostalCode>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS024MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PONO']"/>
-                </oa:PostalCode>
-              </oa:Address>
-            </oa:Location>
-          </oa:SupplierHeader>
-        </oa:SupplierPartyMaster>
-      </oa:DataArea>
-    </oa:Sync>
-  </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-```
+* **Target Endpoint Security**:
+  * **Authentication Type**: API Key
+  * **Key Mode**: Header
+  * **Key Name**: `X-API-KEY`
+  * **Key Value**: Pobierz klucz API z **DocBits**, przechodząc do **Settings** > **Global Settings** > **Integration**, następnie skopiuj klucz API i wklej go jako wartość klucza.
+* Zapisz konfigurację target endpoint.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_4.png)
 
-5. Skopiuj **URL** **Endpoint** i zapisz go. Będzie potrzebny później podczas tworzenia **Document Flow**.
+5. Dodaj dokumentację API:
+
+* Wróć do sekcji dokumentacji API, klikając **Documentation Icon** w utworzonym Endpoint.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_5.png)
 
-6. Kliknij **Save and Deploy**.
-
-***
-
-### Sync.RemitToPartyMaster
-
-1. Przejdź do **API Gateway** > **Connection Points**.
-2. Kliknij **Add** i wybierz **Create New**.
-3. Wypełnij szczegóły jak pokazano poniżej:
-   * **Name**: `Sync.RemitToPartyMaster`
-   * **Source Application Name**: `DocBits-Demo`, `DocBits-Prod`, `DocBits-Sandbox` lub `DocBits-Stage` (w zależności od środowiska).
-   * **Noun**: `RemitToPartyMaster`
-   * **Verb**: `Sync`
-   * **Is enabled**: Zaznacz pole.
-   * **Cloud Suite Version**: Wybierz wersję Cloud Suite.
-   * **Program**: `CRS610MI`
-   * **Transaction**: `GetAddress`
+* Przewiń w dół do sekcji **Documentation** i kliknij **+ Add Documentation**.
+  * **Name**: `DocBits-Stage`, `DocBits-Sandbox`, `DocBits-Prod` lub `DocBits-Demo` (zgodnie ze środowiskiem).
+  * **Type**: Swagger
+  * **Enter URL or Upload Swagger JSON/YAML**: Użyj odpowiedniego adresu URL pliku Swagger dla swojego środowiska:
+    * `https://stage.api.docbits.com/openapi.json`
+    * `https://sandbox.api.docbits.com/openapi.json`
+    * `https://api.docbits.com/openapi.json`
+    * `https://demo.api.docbits.com/openapi.json`
+  * Upewnij się, że na końcu adresu URL nie ma spacji.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_6.png)
 
-4. Przejdź do sekcji **Mappings** i wklej XML:
-
-```xml
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-  <SOAP-ENV:Header/>
-  <SOAP-ENV:Body>
-    <oa:Sync xmlns:oa="http://www.openapplications.org/oagis/10" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openapplications.org/oagis/10 BODs/Sync_RemitToPartyMaster.xsd">
-      <oa:ApplicationArea>
-        <oa:Sender>
-          <oa:LogicalID></oa:LogicalID>
-        </oa:Sender>
-        <oa:CreationDateTime></oa:CreationDateTime>
-      </oa:ApplicationArea>
-      <oa:DataArea>
-        <oa:Sync>
-          <oa:TenantID></oa:TenantID>
-          <oa:AccountingEntityID></oa:AccountingEntityID>
-        </oa:Sync>
-        <oa:RemitToPartyMaster>
-          <oa:RemitToHeader>
-            <oa:PartyIDs>
-              <oa:ID>
-                <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS610MI_GetAddress_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PYNO']"/>
-              </oa:ID>
-            </oa:PartyIDs>
-            <oa:Name>
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS610MI_GetAddress_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='CUNM']"/>
-            </oa:Name>
-            <oa:TaxInformation>
-              <oa:TaxID>
-                <oa:ID></oa:ID>
-              </oa:TaxID>
-            </oa:TaxInformation>
-            <oa:Location>
-              <oa:Address>
-                <oa:LineOne>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS610MI_GetAddress_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='CUA1']"/>
-                </oa:LineOne>
-                <oa:LineTwo>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS610MI_GetAddress_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='CUA2']"/>
-                </oa:LineTwo>
-                <oa:LineThree>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS610MI_GetAddress_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='CUA3']"/>
-                </oa:LineThree>
-                <oa:LineFour>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS610MI_GetAddress_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='CUA4']"/>
-                </oa:LineFour>
-                <oa:CityName>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS610MI_GetAddress_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='TOWN']"/>
-                </oa:CityName>
-                <oa:CountryCode>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS610MI_GetAddress_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='CSCD']"/>
-                </oa:CountryCode>
-                <oa:StateOrProvince>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS610MI_GetAddress_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='ECAR']"/>
-                </oa:StateOrProvince>
-                <oa:PostalCode>
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS610MI_GetAddress_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PONO']"/>
-                </oa:PostalCode>
-              </oa:Address>
-            </oa:Location>
-          </oa:RemitToHeader>
-        </oa:RemitToPartyMaster>
-      </oa:DataArea>
-    </oa:Sync>
-  </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-```
+* Dokumentacja API zostanie automatycznie dodana, a odświeżenie metadanych zostanie uruchomione.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_7.png)
 
-5. Skopiuj **URL** **Endpoint** i zapisz go. Będzie potrzebny później podczas tworzenia **Document Flow**.
+## Krok 2: Utwórz API Connection Point
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_5.png)
+1. Przejdź do **OS** > **ION** > **Connect** > **Connection Point**.
+2. Kliknij **Add** i wybierz **API** jako typ połączenia.
+3. Wypełnij wymagane szczegóły:
+   * **Name**: `DocBits_Import`
+   * **Description**: `DocBits_Import`
+   * **Service Account**: Prześlij plik konta usługi, który został utworzony wcześniej.
 
-6. Kliknij **Save and Deploy**.
+### Krok 2.1: Dodaj i skonfiguruj dokumenty
 
-***
+* Nie musisz dodawać wszystkich dokumentów—tylko niezbędne.
+* Dokumenty **Sync.ChartOfAccounts** i **Sync.CodeDefinition** są wymagane do automatycznego księgowania.
 
-### Acknowledge.SupplierInvoice
+## Sync.SupplierPartyMaster
 
-1. Przejdź do **API Gateway** > **Connection Points**.
-2. Kliknij **Add** i wybierz **Create New**.
-3. Wypełnij szczegóły jak pokazano poniżej:
-   * **Name**: `Acknowledge.SupplierInvoice`
-   * **Source Application Name**: `DocBits-Demo`, `DocBits-Prod`, `DocBits-Sandbox` lub `DocBits-Stage` (w zależności od środowiska).
-   * **Noun**: `SupplierInvoice`
-   * **Verb**: `Acknowledge`
-   * **Is enabled**: Zaznacz pole.
-   * **Cloud Suite Version**: Wybierz wersję Cloud Suite.
-   * **Program**: `APS450MI`
-   * **Transaction**: `AddInvoiceLin`
+1. Przejdź do zakładki **Documents** w API Connection Point.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png)
+
+2. Kliknij **Add New Document** i wypełnij następujące szczegóły:
+   * **Scenario**: `Send to API`
+   * **Documents**: `Sync.SupplierPartyMaster`
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_8.png)
 
-4. Przejdź do sekcji **Mappings** i wklej XML:
+3. Skonfiguruj ION API:
+   * **API Call Name**: `Sync.SupplierPartyMaster`
+   * **Click on Select**
+   * Dla **Product** wybierz endpoint API utworzony w **Krok 1: Utwórz API**.
+   *   Znajdź i wybierz:
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<IONRequest xmlns="http://schema.infor.com/InforOAGIS/2">
-  <APIInvoke xmlns="http://schema.infor.com/InforOAGIS/2">
-    <Credentials/>
-    <m3api:M3APIRequest xmlns:m3api="http://schema.infor.com/m3api">
-      <m3api:Program>APS450MI</m3api:Program>
-      <m3api:Transaction>AddInvoiceLin</m3api:Transaction>
-      <m3api:Record>
-        <m3api:NameValue name="DIVI">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Header/Party[PartyID/ID[@accountingEntity='Division']]/PartyID/ID[@accountingEntity='Division']"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="INBN">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Header/DocumentReference/DocumentIDs/DocumentID[ID[@accountingEntity='InvoiceBatchNumber']]/ID[@accountingEntity='InvoiceBatchNumber']"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="TRNO">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/LineNumber[@sequence]"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="SUNO">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Header/SupplierParty/PartyID/ID[@accountingEntity='SupplierID']"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="SINO">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Header/DocumentReference/DocumentIDs/DocumentID[ID[@accountingEntity='SupplierInvoiceNumber']]/ID[@accountingEntity='SupplierInvoiceNumber']"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="IVDT">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Header/DocumentDateTime[@qualifier='Actual']"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="BSCD">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Header/Status/Code"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="CUCD">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Header/TotalAmount/@currencyID"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="VTCD">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/LineType/Code"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="PUUN">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/OrderQuantity[@unitOfMeasure]/@unitOfMeasure"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="IVQA">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/OrderQuantity[@unitOfMeasure]"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="GRPI">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/ReceiptLineReference/DocumentReference/DocumentIDs/DocumentID[ID[@accountingEntity='GoodsReceiptNumber']]/ID[@accountingEntity='GoodsReceiptNumber']"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="PUNO">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/PurchaseOrderLineReference/DocumentReference/DocumentIDs/DocumentID[ID[@accountingEntity='PurchaseOrderNumber']]/ID[@accountingEntity='PurchaseOrderNumber']"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="PNLI">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/PurchaseOrderLineReference/LineNumber[@sequence]"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="PNLS">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/PurchaseOrderLineReference/SubLineNumber"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="NLAM">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/TotalAmount"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="IVAM">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Header/TotalAmount"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="VTAM">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Header/Tax/TaxableAmount"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="AIT1">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/Dimension[1]/DimensionCode"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="AIT2">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/Dimension[2]/DimensionCode"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="AIT3">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/Dimension[3]/DimensionCode"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="AIT4">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/Dimension[4]/DimensionCode"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="AIT5">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/Dimension[5]/DimensionCode"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="AIT6">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/Dimension[6]/DimensionCode"/>
-          </m3api:Value>
-        </m3api:NameValue>
-        <m3api:NameValue name="AIT7">
-          <m3api:Value>
-            <xsl:value-of select="/API_CONNECTION_POINT_INPUT/BODY/Acknowledge/DataArea/SupplierInvoice[1]/Line[1]/Dimension[7]/DimensionCode"/>
-          </m3api:Value>
-        </m3api:NameValue>
-      </m3api:Record>
-    </m3api:M3APIRequest>
-  </APIInvoke>
-</IONRequest>
-```
+       ```
+       CustomerApi/DocBits-Sandbox/Sandbox/import/supplier_bod
+       ```
+   * Kliknij **OK**, aby potwierdzić wybór.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_9.png)
 
-5. Skopiuj **URL** **Endpoint** i zapisz go. Będzie potrzebny później podczas tworzenia **Document Flow**.
-
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_5.png)
-
-6. Kliknij **Save and Deploy**.
-
-***
-
-### Sync.PurchaseOrder
-
-1. Przejdź do **API Gateway** > **Connection Points**.
-2. Kliknij **Add** i wybierz **Create New**.
-3. Wypełnij szczegóły jak pokazano poniżej:
-   * **Name**: `Sync.PurchaseOrder`
-   * **Source Application Name**: `DocBits-Demo`, `DocBits-Prod`, `DocBits-Sandbox` lub `DocBits-Stage` (w zależności od środowiska).
-   * **Noun**: `PurchaseOrder`
-   * **Verb**: `Sync`
-   * **Is enabled**: Zaznacz pole.
-   * **Cloud Suite Version**: Wybierz wersję Cloud Suite.
-   * **Program**: `PPS200MI`
-   * **Transaction**: `GetLine`
+4. Skonfiguruj **Request Body**:
+   * Dla **File** wybierz **Input Document = No Compression**.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_10.png)
 
-4. Przejdź do sekcji **Mappings** i wklej XML:
+## Sync.RemitToPartyMaster
 
-```xml
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-  <SOAP-ENV:Header/>
-  <SOAP-ENV:Body>
-    <oa:Sync xmlns:oa="http://www.openapplications.org/oagis/10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.openapplications.org/oagis/10 BODs/Sync_PurchaseOrder.xsd">
-      <oa:ApplicationArea>
-        <oa:Sender>
-          <oa:LogicalID></oa:LogicalID>
-        </oa:Sender>
-        <oa:CreationDateTime></oa:CreationDateTime>
-      </oa:ApplicationArea>
-      <oa:DataArea>
-        <oa:Sync>
-          <oa:TenantID></oa:TenantID>
-          <oa:AccountingEntityID></oa:AccountingEntityID>
-        </oa:Sync>
-        <oa:PurchaseOrder>
-          <oa:PurchaseOrderHeader>
-            <oa:DocumentID>
-              <oa:ID accountingEntity="PurchaseOrderNumber">
-                <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS200MI_GetLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PUNO']"/>
-              </oa:ID>
-            </oa:DocumentID>
-          </oa:PurchaseOrderHeader>
-          <oa:Line>
-            <oa:LineNumber sequence="">
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS200MI_GetLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PNLI']"/>
-            </oa:LineNumber>
-            <oa:SubLineNumber>
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS200MI_GetLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PNLS']"/>
-            </oa:SubLineNumber>
-            <oa:Status>
-              <oa:Code></oa:Code>
-            </oa:Status>
-            <oa:LineType>
-              <oa:Code></oa:Code>
-            </oa:LineType>
-            <oa:Item>
-              <oa:ItemID>
-                <oa:ID></oa:ID>
-              </oa:ItemID>
-            </oa:Item>
-            <oa:Description></oa:Description>
-            <oa:OrderQuantity unitOfMeasure="">
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS200MI_GetLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='ORQA']"/>
-            </oa:OrderQuantity>
-            <oa:OrderQuantity unitOfMeasure="" quantityType="Received">
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS200MI_GetLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='RVQA']"/>
-            </oa:OrderQuantity>
-            <oa:OrderQuantity unitOfMeasure="" quantityType="Invoiced">
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS200MI_GetLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='IVQA']"/>
-            </oa:OrderQuantity>
-            <oa:UnitPrice>
-              <oa:Amount currencyID="">
-                <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS200MI_GetLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PUPR']"/>
-              </oa:Amount>
-            </oa:UnitPrice>
-            <oa:TotalAmount currencyID="">
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS200MI_GetLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='NLAM']"/>
-            </oa:TotalAmount>
-          </oa:Line>
-        </oa:PurchaseOrder>
-      </oa:DataArea>
-    </oa:Sync>
-  </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-```
+1. Przejdź do zakładki **Documents** w API Connection Point.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png)
+
+2. **Kliknij Add New Document** i wypełnij następujące szczegóły:
+   * **Scenario**: `Send to API`
+   * **Documents**: `Sync.RemitToPartyMaster`
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_11.png)
 
-5. Skopiuj **URL** **Endpoint** i zapisz go. Będzie potrzebny później podczas tworzenia **Document Flow**.
+3. **Skonfiguruj ION API**:
+   * **API Call Name**: `Sync.RemitToPartyMaster`
+   * **Click on Select**
+   * Dla **Product** wybierz endpoint API utworzony w **Krok 1: Utwórz API**.
+   *   Znajdź i wybierz:
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_5.png)
-
-6. Kliknij **Save and Deploy**.
-
-***
-
-### Sync.ReceiveDelivery
-
-1. Przejdź do **API Gateway** > **Connection Points**.
-2. Kliknij **Add** i wybierz **Create New**.
-3. Wypełnij szczegóły jak pokazano poniżej:
-   * **Name**: `Sync.ReceiveDelivery`
-   * **Source Application Name**: `DocBits-Demo`, `DocBits-Prod`, `DocBits-Sandbox` lub `DocBits-Stage` (w zależności od środowiska).
-   * **Noun**: `ReceiveDelivery`
-   * **Verb**: `Sync`
-   * **Is enabled**: Zaznacz pole.
-   * **Cloud Suite Version**: Wybierz wersję Cloud Suite.
-   * **Program**: `PPS300MI`
-   * **Transaction**: `GetTransLine`
+       ```
+       CustomerApi/DocBits-Sandbox/Sandbox/import/supplier_bod
+       ```
+   * **Kliknij OK**, aby potwierdzić konfigurację.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_12.png)
 
-4. Przejdź do sekcji **Mappings** i wklej XML:
-
-```xml
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-  <SOAP-ENV:Header/>
-  <SOAP-ENV:Body>
-    <oa:Sync xmlns:oa="http://www.openapplications.org/oagis/10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.openapplications.org/oagis/10 BODs/Sync_ReceiveDelivery.xsd">
-      <oa:ApplicationArea>
-        <oa:Sender>
-          <oa:LogicalID></oa:LogicalID>
-        </oa:Sender>
-        <oa:CreationDateTime></oa:CreationDateTime>
-      </oa:ApplicationArea>
-      <oa:DataArea>
-        <oa:Sync>
-          <oa:TenantID></oa:TenantID>
-          <oa:AccountingEntityID></oa:AccountingEntityID>
-        </oa:Sync>
-        <oa:ReceiveDelivery>
-          <oa:ReceiveDeliveryHeader>
-            <oa:DocumentID>
-              <oa:ID accountingEntity="GoodsReceiptNumber">
-                <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS300MI_GetTransLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='REPN']"/>
-              </oa:ID>
-            </oa:DocumentID>
-            <oa:DocumentDateTime qualifier="Actual">
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS300MI_GetTransLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='TRDT']"/>
-            </oa:DocumentDateTime>
-          </oa:ReceiveDeliveryHeader>
-          <oa:Line>
-            <oa:LineNumber sequence="">
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS300MI_GetTransLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='RELP']"/>
-            </oa:LineNumber>
-            <oa:PurchaseOrderLineReference>
-              <oa:DocumentReference>
-                <oa:DocumentIDs>
-                  <oa:DocumentID>
-                    <oa:ID accountingEntity="PurchaseOrderNumber">
-                      <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS300MI_GetTransLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PUNO']"/>
-                    </oa:ID>
-                  </oa:DocumentID>
-                </oa:DocumentIDs>
-              </oa:DocumentReference>
-              <oa:LineNumber sequence="">
-                <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS300MI_GetTransLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PNLI']"/>
-              </oa:LineNumber>
-              <oa:SubLineNumber>
-                <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS300MI_GetTransLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PNLS']"/>
-              </oa:SubLineNumber>
-            </oa:PurchaseOrderLineReference>
-            <oa:Item>
-              <oa:ItemID>
-                <oa:ID></oa:ID>
-              </oa:ItemID>
-            </oa:Item>
-            <oa:Description></oa:Description>
-            <oa:ReceivedQuantity unitOfMeasure="">
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS300MI_GetTransLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='RVQA']"/>
-            </oa:ReceivedQuantity>
-            <oa:ReceivedQuantity unitOfMeasure="" quantityType="Invoiced">
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS300MI_GetTransLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='IVQA']"/>
-            </oa:ReceivedQuantity>
-            <oa:TotalAmount currencyID="">
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='PPS300MI_GetTransLine_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='NLAM']"/>
-            </oa:TotalAmount>
-          </oa:Line>
-        </oa:ReceiveDelivery>
-      </oa:DataArea>
-    </oa:Sync>
-  </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-```
+4. **Skonfiguruj Request Body**:
+   * Dla **File** wybierz **Input Document = No Compression**.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_13.png)
 
-5. Skopiuj **URL** **Endpoint** i zapisz go. Będzie potrzebny później podczas tworzenia **Document Flow**.
+## Acknowledge.SupplierInvoice
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_5.png)
+1. Przejdź do zakładki **Documents** w API Connection Point.
 
-6. Kliknij **Save and Deploy**.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png)
 
-***
+2. **Kliknij Add New Document** i wypełnij następujące szczegóły:
+   * **Scenario**: `Send to API`
+   * **Documents**: `Acknowledge.SupplierInvoice`
+3. **Skonfiguruj ION API**:
+   * **API Call Name**: `Acknowledge.SupplierInvoice`
+   * **Click on Select**
+   * Dla **Product** wybierz endpoint API utworzony w **Krok 1: Utwórz API**.
+   *   Znajdź i wybierz:
 
-### Sync.AdvanceShipNotice
-
-1. Przejdź do **API Gateway** > **Connection Points**.
-2. Kliknij **Add** i wybierz **Create New**.
-3. Wypełnij szczegóły jak pokazano poniżej:
-   * **Name**: `Sync.AdvanceShipNotice`
-   * **Source Application Name**: `DocBits-Demo`, `DocBits-Prod`, `DocBits-Sandbox` lub `DocBits-Stage` (w zależności od środowiska).
-   * **Noun**: `AdvanceShipNotice`
-   * **Verb**: `Sync`
-   * **Is enabled**: Zaznacz pole.
-   * **Cloud Suite Version**: Wybierz wersję Cloud Suite.
-   * **Program**: `MMS100MI`
-   * **Transaction**: `GetHead`
-
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_14.png)
-
-4. Przejdź do sekcji **Mappings** i wklej XML:
-
-```xml
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-  <SOAP-ENV:Header/>
-  <SOAP-ENV:Body>
-    <oa:Sync xmlns:oa="http://www.openapplications.org/oagis/10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.openapplications.org/oagis/10 BODs/Sync_AdvanceShipNotice.xsd">
-      <oa:ApplicationArea>
-        <oa:Sender>
-          <oa:LogicalID></oa:LogicalID>
-        </oa:Sender>
-        <oa:CreationDateTime></oa:CreationDateTime>
-      </oa:ApplicationArea>
-      <oa:DataArea>
-        <oa:Sync>
-          <oa:TenantID></oa:TenantID>
-          <oa:AccountingEntityID></oa:AccountingEntityID>
-        </oa:Sync>
-        <oa:AdvanceShipNotice>
-          <oa:AdvanceShipNoticeHeader>
-            <oa:DocumentID>
-              <oa:ID accountingEntity="AdvanceShipNoticeNumber">
-                <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS100MI_GetHead_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='DLIX']"/>
-              </oa:ID>
-            </oa:DocumentID>
-            <oa:ShipToParty>
-              <oa:PartyID>
-                <oa:ID accountingEntity="CustomerNumber">
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS100MI_GetHead_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='CUNO']"/>
-                </oa:ID>
-              </oa:PartyID>
-            </oa:ShipToParty>
-            <oa:BillToParty>
-              <oa:PartyID>
-                <oa:ID accountingEntity="PayerNumber">
-                  <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='MMS100MI_GetHead_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='PYNO']"/>
-                </oa:ID>
-              </oa:PartyID>
-            </oa:BillToParty>
-          </oa:AdvanceShipNoticeHeader>
-        </oa:AdvanceShipNotice>
-      </oa:DataArea>
-    </oa:Sync>
-  </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-```
+       ```
+       CustomerApi/DocBits-Sandbox/Sandbox/infor/idm/handle_ack_bod
+       ```
+   * **Kliknij OK**, aby potwierdzić konfigurację.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_15.png)
 
-5. Skopiuj **URL** **Endpoint** i zapisz go. Będzie potrzebny później podczas tworzenia **Document Flow**.
+4. **Skonfiguruj Request Body**: Dodaj następujące wartości w sekcji **Request Body**:
+   * Dla **idm\_doc\_type** ustaw **Value** = `M3_SupplierInvoice`
+   * Dla **idm\_bod\_id\_field\_name** ustaw **Value** = `BOD_AlternateDocumentID_1`
+   *   Dla **attributes\_map** ustaw **Value** =
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_5.png)
-
-6. Kliknij **Save and Deploy**.
-
-***
-
-### Sync.ChartOfAccounts
-
-1. Przejdź do **API Gateway** > **Connection Points**.
-2. Kliknij **Add** i wybierz **Create New**.
-3. Wypełnij szczegóły jak pokazano poniżej:
-   * **Name**: `Sync.ChartOfAccounts`
-   * **Source Application Name**: `DocBits-Demo`, `DocBits-Prod`, `DocBits-Sandbox` lub `DocBits-Stage` (w zależności od środowiska).
-   * **Noun**: `ChartOfAccounts`
-   * **Verb**: `Sync`
-   * **Is enabled**: Zaznacz pole.
-   * **Cloud Suite Version**: Wybierz wersję Cloud Suite.
-   * **Program**: `CRS630MI`
-   * **Transaction**: `Get`
+       ```
+       {"Export": "Success"}
+       ```
+   * Dla **acl\_from** ustaw **Value** = `Public`
+   * Dla **acl\_to** ustaw **Value** = `Private`
+   * Dla **set\_to\_error\_on\_rejected** ustaw **Value** = `True`
+   * Dla **delete\_from\_idm\_on\_rejected** ustaw **Value** = `True`
+   * Dla **File** ustaw **Input Document = No Compression**.
+   * Dla **ionapi\_json**: Dodaj zawartość pliku ionapi.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_16.png)
 
-4. Przejdź do sekcji **Mappings** i wklej XML:
+## Sync.PurchaseOrder
 
-```xml
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-  <SOAP-ENV:Header/>
-  <SOAP-ENV:Body>
-    <oa:Sync xmlns:oa="http://www.openapplications.org/oagis/10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.openapplications.org/oagis/10 BODs/Sync_ChartOfAccounts.xsd">
-      <oa:ApplicationArea>
-        <oa:Sender>
-          <oa:LogicalID></oa:LogicalID>
-        </oa:Sender>
-        <oa:CreationDateTime></oa:CreationDateTime>
-      </oa:ApplicationArea>
-      <oa:DataArea>
-        <oa:Sync>
-          <oa:TenantID></oa:TenantID>
-          <oa:AccountingEntityID></oa:AccountingEntityID>
-        </oa:Sync>
-        <oa:ChartOfAccounts>
-          <oa:GLEntity>
-            <oa:GLEntityID></oa:GLEntityID>
-            <oa:AccountID>
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS630MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='KODA']"/>
-            </oa:AccountID>
-            <oa:Description>
-              <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS630MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='TX40']"/>
-            </oa:Description>
-          </oa:GLEntity>
-        </oa:ChartOfAccounts>
-      </oa:DataArea>
-    </oa:Sync>
-  </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-```
+1. Przejdź do zakładki **Documents** w API Connection Point.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png)
+
+2. **Kliknij Add New Document** i wypełnij następujące szczegóły:
+   * **Scenario**: `Send to API`
+   * **Documents**: `Sync.PurchaseOrder`
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_17.png)
 
-5. Skopiuj **URL** **Endpoint** i zapisz go. Będzie potrzebny później podczas tworzenia **Document Flow**.
+3. **Skonfiguruj ION API**:
+   * **API Call Name**: `Sync.PurchaseOrder`
+   * **Click on Select**
+   * Dla **Product** wybierz endpoint API utworzony w **Krok 1: Utwórz API**.
+   *   Znajdź i wybierz:
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_5.png)
-
-6. Kliknij **Save and Deploy**.
-
-***
-
-### Sync.CodeDefinition-AccountingDimension
-
-1. Przejdź do **API Gateway** > **Connection Points**.
-2. Kliknij **Add** i wybierz **Create New**.
-3. Wypełnij szczegóły jak pokazano poniżej:
-   * **Name**: `Sync.CodeDefinition-AccountingDimension`
-   * **Source Application Name**: `DocBits-Demo`, `DocBits-Prod`, `DocBits-Sandbox` lub `DocBits-Stage` (w zależności od środowiska).
-   * **Noun**: `CodeDefinition-AccountingDimension`
-   * **Verb**: `Sync`
-   * **Is enabled**: Zaznacz pole.
-   * **Cloud Suite Version**: Wybierz wersję Cloud Suite.
-   * **Program**: `CRS105MI`
-   * **Transaction**: `Get`
+       ```
+       CustomerApi/DocBits-Sandbox/Sandbox/import/purchase_order_bod
+       ```
+   * **Kliknij OK**, aby potwierdzić konfigurację.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_18.png)
 
-4. Przejdź do sekcji **Mappings** i wklej XML:
-
-```xml
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-  <SOAP-ENV:Header/>
-  <SOAP-ENV:Body>
-    <oa:Sync xmlns:oa="http://www.openapplications.org/oagis/10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.openapplications.org/oagis/10 BODs/Sync_CodeDefinition-AccountingDimension.xsd">
-      <oa:ApplicationArea>
-        <oa:Sender>
-          <oa:LogicalID></oa:LogicalID>
-        </oa:Sender>
-        <oa:CreationDateTime></oa:CreationDateTime>
-      </oa:ApplicationArea>
-      <oa:DataArea>
-        <oa:Sync>
-          <oa:TenantID></oa:TenantID>
-          <oa:AccountingEntityID></oa:AccountingEntityID>
-        </oa:Sync>
-        <oa:CodeDefinition typeCode="AccountingDimension">
-          <oa:CodeID>
-            <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS105MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='STAT']"/>
-          </oa:CodeID>
-          <oa:Description>
-            <xsl:value-of select="/API_CONNECTION_POINT_OUTPUT/API_OUTPUT/TRANSACTION_RESULT/ELEMENT[TYPE='Output']/DATA_SEGMENT[NAME='CRS105MI_Get_Output']/ELEMENT[TYPE='Element']/ELEMENT_VALUE[FIELD='TX40']"/>
-          </oa:Description>
-        </oa:CodeDefinition>
-      </oa:DataArea>
-    </oa:Sync>
-  </SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-```
+4. **Skonfiguruj Request Body**:
+   * Dla **File** ustaw **Input Document = No Compression**.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_19.png)
 
-5. Skopiuj **URL** **Endpoint** i zapisz go. Będzie potrzebny później podczas tworzenia **Document Flow**.
+## Sync.ReceiveDelivery
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_5.png)
+1. Przejdź do zakładki **Documents** w API Connection Point.
 
-6. Kliknij **Save and Deploy**.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png)
 
-***
+2. **Kliknij Add New Document** i wypełnij następujące szczegóły:
+   * **Scenario**: `Send to API`
+   * **Documents**: `Sync.ReceiveDelivery`
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_20.png)
+
+3. **Skonfiguruj ION API**:
+   * **API Call Name**: `Sync.ReceiveDelivery`
+   * **Click on Select**
+   * Dla **Product** wybierz endpoint API utworzony w **Krok 1: Utwórz API**.
+   *   Znajdź i wybierz:
+
+       ```
+       CustomerApi/DocBits-Sandbox/Sandbox/import/receive_delivery_bod
+       ```
+   * **Kliknij OK**, aby potwierdzić konfigurację.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_21.png)
+
+4. **Skonfiguruj Request Body**:
+   * Dla **File** ustaw **Input Document = No Compression**.
+
+## Sync.AdvanceShipNotice
+
+1. Przejdź do zakładki **Documents** w API Connection Point.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png)
+
+2. **Kliknij Add New Document** i wypełnij następujące szczegóły:
+   * **Scenario**: `Send to API`
+   * **Documents**: `Sync.AdvanceShipNotice`
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_23.png)
+
+3. **Skonfiguruj ION API**:
+   * **API Call Name**: `Sync.AdvanceShipNotice`
+   * Dla **Product** wybierz endpoint API utworzony w **Krok 1: Utwórz API**.
+   *   Znajdź i wybierz:
+
+       ```
+       CustomerApi/DocBits-Sandbox/Sandbox/master_data_lookup/xml/import_xml_file
+       ```
+   * **Kliknij OK**, aby potwierdzić konfigurację.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_24.png)
+
+4. **Skonfiguruj Request Body**:
+   * Dla **data\_type** ustaw **Value** = `AdvanceShipNotice`
+   *   Dla **field\_mappings** ustaw **Value** =
+
+       ```
+       { "ID": "//DataArea/LnTaxCode/DocumentID/ID" }
+       ```
+   * Dla **File** ustaw **Input Document = No Compression**.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_25.png)
+
+## Sync.ChartOfAccounts
+
+1. Przejdź do zakładki **Documents** w API Connection Point.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png)
+
+2. **Kliknij Add New Document** i wypełnij następujące szczegóły:
+   * **Scenario**: `Send to API`
+   * **Documents**: `Sync.ChartOfAccounts`
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_26.png)
+
+3. **Skonfiguruj ION API**:
+   * **API Call Name**: `Sync.ChartOfAccounts`
+   * Dla **Product** wybierz endpoint API utworzony w **Krok 1: Utwórz API**.
+   *   Znajdź i wybierz:
+
+       ```
+       CustomerApi/DocBits-Sandbox/Sandbox/master_data_lookup/xml/import_xml_file
+       ```
+   * **Kliknij OK**, aby potwierdzić konfigurację.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_27.png)
+
+4. **Skonfiguruj Request Body**:
+   * Dla **data\_type** ustaw Value = `ChartOfAccounts`
+   *   Dla **field\_mappings** ustaw Value =
+
+       ```
+       {
+           "ID": "//DataArea/ChartOfAccounts/IDs/ID",
+           "NominalAccount": "//DataArea/ChartOfAccounts/BaseChartOfAccounts/GLNominalAccount",
+           "AccountType": "//DataArea/ChartOfAccounts/BaseChartOfAccounts/AccountType",
+           "Description": "//DataArea/ChartOfAccounts/BaseChartOfAccounts/Description",
+           "DimensionProfile": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/ID",
+           "Dimension1": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[0]/ListID",
+           "Usage1": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[0]/Usage",
+           "Dimension2": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[1]/ListID",
+           "Usage2": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[1]/Usage",
+           "Dimension3": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[2]/ListID",
+           "Usage3": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[2]/Usage",
+           "Dimension4": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[3]/ListID",
+           "Usage4": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[3]/Usage",
+           "Dimension5": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[4]/ListID",
+           "Usage5": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[4]/Usage",
+           "Dimension6": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[5]/ListID",
+           "Usage6": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[5]/Usage",
+           "Dimension7": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[6]/ListID",
+           "Usage7": "//DataArea/ChartOfAccounts/DimensionProfileSet/DimensionProfile/DimensionUsage[6]/Usage"
+       }
+       ```
+   * Dla **File** ustaw **Input Document = No Compression**.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_28.png)
+
+## Sync.CodeDefinition-AccountingDimension
+
+1. Przejdź do zakładki **Documents** w API Connection Point.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_32.png)
+
+2. **Kliknij Add New Document** i wypełnij następujące szczegóły:
+   * **Scenario**: `Send to API`
+   * **Documents**: `Sync.CodeDefinition`
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_29.png)
+
+3. **Skonfiguruj ION API**:
+   * **API Call Name**: `Sync.CodeDefinition-AccountingDimension`
+   * Dla **Product** wybierz endpoint API utworzony w **Krok 1: Utwórz API**.
+   *   Znajdź i wybierz:
+
+       ```
+       CustomerApi/DocBits-Sandbox/Sandbox/master_data_lookup/xml/import_xml_file
+       ```
+   * **Kliknij OK**, aby potwierdzić konfigurację.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_30.png)
+
+4. **Skonfiguruj Request Body**:
+   * Dla **data\_type** ustaw Value = `M3Dimension`
+   *   Dla **field\_mappings** ustaw Value =
+
+       ```
+       {
+           "ID": "//DataArea/CodeDefinition/DocumentID/ID",
+           "Dimension": "substring(//DataArea/CodeDefinition/CodeValue/@listID,21)",
+           "ListID": "//DataArea/CodeDefinition/ListID",
+           "CodeValue": "//DataArea/CodeDefinition/CodeValue",
+           "Description": "//DataArea/CodeDefinition/Description"
+       }
+       ```
+   * Dla **File** ustaw **Input Document = No Compression**
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_31.png)
 
 ## Krok 3: Utwórz Document Flow
 
-1. Otwórz **DocBits** i przejdź do **Settings** > **Document Flow**.
-2. Kliknij **Add Document Flow**.
-3. Wypełnij pole **Document Flow Name** i kliknij **Add**.
-4. Wybierz **Document Flow**, który właśnie utworzyłeś.
-5. Kliknij **Add Node** i wybierz **API Call**.
-6. Wypełnij pola:
-   * **Name**: `Get Supplier Data`
-   * **Trigger Type**: `Manual with Document`, `Automated with Button Click` lub `Automated with Status` (w zależności od potrzeb).
-   * **URL**: Wklej URL **Endpoint**, który wcześniej skopiowałeś dla `Sync.SupplierPartyMaster`.
-   * **HTTP Method**: `POST`
-   * **Authorization Type**: `Basic Auth`
-   * **Username**: Twoja nazwa użytkownika Infor.
-   * **Password**: Twoje hasło Infor.
-7. Kliknij **Request** i wklej XML w **Body**:
+1. Przejdź do **OS** > **ION** > **Connect** > **Data Flows**.
+2. Kliknij **Add** i wybierz **Document Flow**.
+3. Wypełnij wymagane pola:
+   * **Name**: Użyj nazwy specyficznej dla środowiska, takiej jak `M3-to-DocBits-Stage-Import-API`
+   * dla stage, `M3-to-DocBits-Sandbox-Import-API` dla sandbox lub `M3-to-DocBits-Prod-Import-API` dla produkcji.
+   * **Description**: To samo co nazwa powyżej.
+4. Skonfiguruj Application Node:
+   * W **Application** ustaw **Name** na `M3`.
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cred="http://schemas.infor.com/iam/security/Credentials/1" xmlns:ion="http://schema.infor.com/InforOAGIS/2" xmlns:head="http://schema.infor.com/ws-header">
-  <soapenv:Header>
-    <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
-      <wsse:UsernameToken>
-        <wsse:Username>{username}</wsse:Username>
-        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">{password}</wsse:Password>
-      </wsse:UsernameToken>
-    </wsse:Security>
-  </soapenv:Header>
-  <soapenv:Body>
-    <ion:APIRequest>
-      <head:APISessionContext>
-        <head:TenantID>infor</head:TenantID>
-        <head:UserContext>
-          <head:UserID/>
-          <head:DomainID/>
-          <head:AccountingEntityID>{DivisionID}</head:AccountingEntityID>
-        </head:UserContext>
-      </head:APISessionContext>
-      <ion:APIInvoke>
-        <cred:Credentials>
-          <cred:Company>{Division}</cred:Company>
-        </cred:Credentials>
-        <m3api:M3APIRequest xmlns:m3api="http://schema.infor.com/m3api">
-          <m3api:Program>MMS024MI</m3api:Program>
-          <m3api:Transaction>Get</m3api:Transaction>
-          <m3api:Record>
-            <m3api:NameValue name="IDSUNO">
-              <m3api:Value>{Supplier_ID}</m3api:Value>
-            </m3api:NameValue>
-          </m3api:Record>
-        </m3api:M3APIRequest>
-      </ion:APIInvoke>
-    </ion:APIRequest>
-  </soapenv:Body>
-</soapenv:Envelope>
-```
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_33.png)
 
-8. Kliknij **Save**.
-9. Powtórz kroki 5–8 dla pozostałych **Connection Points** (`Sync.RemitToPartyMaster`, `Acknowledge.SupplierInvoice`, `Sync.PurchaseOrder`, `Sync.ReceiveDelivery`, `Sync.AdvanceShipNotice`, `Sync.ChartOfAccounts`, `Sync.CodeDefinition-AccountingDimension`).
-10. Kliknij **Save**, aby zapisać **Document Flow**.
+* Kliknij przycisk **+** i wybierz connection point klienta.
 
-***
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_34.png)
 
-Pomyślnie skonfigurowałeś import danych z Infor M3 do DocBits przez API.
+* Kliknij ikonę **Document** obok application node.
+
+    * Wybierz wszystkie dokumenty, które chcesz eksportować/synchronizować z LN do DocBits.
+    * Upewnij się, że te dokumenty pasują do wybranych w **Krok 2: Utwórz API Connection Point**.
+    * Jeśli brakuje jakichkolwiek dokumentów, należy je dodać do connection point klienta.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_35.png)
+
+5. Skonfiguruj API Node:
+   * Dodaj węzeł **API** i umieść go po prawej stronie application node.
+   * Wypełnij wymagane pola:
+     * **Name**: `DocBits-API`
+     * **Description**: `DocBits-API`
+     * **ION API Connector**: Użyj connection point utworzonego w **Krok 2: Utwórz API Connection Point**.
+   * Kliknij ikonę **Document** obok stream node. Powinien być pusty.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_36.png)
+
+6. Sfinalizuj konfigurację:
+   * Zapisz konfigurację.
+   * Kliknij **Activate**, aby zakończyć konfigurację.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/import_from_infor_m3_to_docbits_via_api_37.png)
