@@ -6,7 +6,7 @@
 
 * **Selecteer kolomnamen:** Bekijk de kolomnamen van uw tabel en beslis welke tags u wilt toevoegen.
 
-<figure><img src="../../../.gitbook/assets/ai-table-tags1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (222) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Stap 2:** Druk op de knop "Toepassen"
 
@@ -16,7 +16,7 @@
 
 * **Voeg tag toe:** De geselecteerde tag wordt toegevoegd aan de tabel als een extra kolom naast de bijbehorende kolom.
 
-<figure><img src="../../../.gitbook/assets/ai-table-tags2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (223) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Stap 4:** Sla Tag op of Verwijder Tag
 

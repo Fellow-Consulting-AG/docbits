@@ -6,7 +6,7 @@ hidden: true
 
 Klik vanuit het Dashboard op het pictogram Geavanceerde Instellingen zoals hieronder weergegeven:
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption></figcaption></figure>
 
 Het volgende menu wordt dan weergegeven:
 

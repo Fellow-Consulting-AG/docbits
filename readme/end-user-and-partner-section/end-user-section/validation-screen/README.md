@@ -8,7 +8,7 @@
 
 ### **Opslaan knop:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Opslaan knop:**
   * **Doel:** Slaat de huidige staat van het document of script waar aan gewerkt wordt op.
@@ -35,8 +35,6 @@ Zie hier toevoegen [Script in DocBits](../../../administration-and-setup/setting
 * **Vage velden:**
   * **Doel:** Helpt bij het identificeren en corrigeren van velden waar de gegevens mogelijk niet perfect overeenkomen, maar dicht genoeg zijn.
   * **Gebruiksscenario:** Nuttig in gegevensvalidatieprocessen waar exacte overeenkomsten niet altijd mogelijk zijn, zoals licht verkeerd gespelde namen of adressen.
-
-
 
 ### **Verplichte velden:**
 
@@ -68,8 +66,6 @@ Gebruik de tooltips om te achterhalen of:
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.03.46.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### **Open nieuw venster:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.26.png" alt="" width="130"><figcaption></figcaption></figure>
@@ -77,8 +73,6 @@ Gebruik de tooltips om te achterhalen of:
 * **Open nieuw venster:**
   * **Doel:** Opent een nieuw venster voor zij-aan-zij documentvergelijking of multitasking.
   * **Gebruiksscenario:** Nuttig bij het vergelijken van twee documenten of wanneer aanvullende informatie moet worden geraadpleegd zonder het huidige document te verlaten.
-
-
 
 ### **Sneltoetsen:**
 
@@ -89,8 +83,6 @@ Gebruik de tooltips om te achterhalen of:
   * **Gebruiksscenario:** Verhoogt de snelheid en efficiëntie in documentnavigatie en -verwerking door de afhankelijkheid van muisnavigatie te minimaliseren.
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt="" width="239"><figcaption><p>Keyboard</p></figcaption></figure>
-
-
 
 ### **Taken:**
 
@@ -104,8 +96,6 @@ Om interne informatie te delen, kunt u taken aanmaken en deze toewijzen aan een 
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.21.27.png" alt="" width="218"><figcaption></figcaption></figure>
 
-
-
 ### **Annotatiemodus:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.21.png" alt="" width="187"><figcaption></figcaption></figure>
@@ -118,8 +108,6 @@ U kunt annotaties op een document achterlaten. Dit kan nuttig zijn om informatie
   * **Doel:** Laat gebruikers notities of annotaties direct op het document achterlaten.
   * **Gebruiksscenario:** Nuttig voor het geven van feedback, instructies of belangrijke notities aan andere teamleden die later aan het document zullen werken.
 
-
-
 ### **Samenvoegen:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
@@ -129,8 +117,6 @@ Documenten kunnen hier worden samengevoegd, bijvoorbeeld als een pagina van een 
 * **Documenten samenvoegen:**
   * **Doel:** Combineert meerdere documenten tot één bestand.
   * **Gebruiksscenario:** Handig in scenario's waarin delen van een document afzonderlijk zijn gescand en moeten worden samengevoegd.
-
-
 
 ### **OCR-weergave:**
 
@@ -144,8 +130,6 @@ In de OCR-weergave wordt de tekst automatisch gefilterd uit het document. Dit wo
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
 
-
-
 ### **Ticket aanmaken:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
@@ -158,8 +142,6 @@ In tegenstelling tot taken die intern binnen het bedrijf worden doorgegeven, is 
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
 
-
-
 ### **Document scriptlogs:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
@@ -171,8 +153,6 @@ Scripts kunnen worden aangemaakt in de instellingen onder Documenttypes; deze in
   * **Gebruiksscenario:** Nuttig voor het volgen en debuggen van scriptacties op documenten, wat gebruikers helpt de geautomatiseerde processen te begrijpen en eventuele problemen te corrigeren.
 
 <figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### **Meer instellingen:**
 
@@ -201,6 +181,3 @@ Daar vindt u de flow van het document.
 
 * **Doel:** Maakt selectie mogelijk tussen drie verschillende AI-modellen om de extractieresultaten voor een specifieke leverancier te optimaliseren.
 * **Gebruikscase:** Zorgt voor een betere extractie-accuraatheid door het meest geschikte AI-model te kiezen voor de documentstructuur en inhoud van elke leverancier.
-
-
-
