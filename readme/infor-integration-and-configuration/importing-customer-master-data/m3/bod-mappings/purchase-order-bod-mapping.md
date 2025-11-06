@@ -1,8 +1,8 @@
-# Purchase Order BOD Mapping
+# Mappatura BOD Purchase Order
 
-## Line Mapping:
+## Mappatura delle Righe:
 
-→ DocBits Master Data Lookup Table: **Purchase Order**
+→ Tabella dati anagrafici DocBits: **Purchase Order**
 
 ```python
 line_mappings = {
@@ -45,9 +45,9 @@ line_mappings = {
 
 ‌
 
-## Header Mapping:
+## Mappatura dell'Intestazione:
 
-→ DocBits Master Data Lookup Table: **PURCHASE\_ORDER\_HEADER**
+→ Tabella dati anagrafici DocBits: **PURCHASE\_ORDER\_HEADER**
 
 ```python
 header_mappings = {
