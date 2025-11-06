@@ -11,6 +11,7 @@
 * [Release-opmerkingen](overview-and-basics/release-notes.md)
 * [FAQ](overview-and-basics/faq/README.md)
   * [Algemene Informatie](overview-and-basics/faq/general-information.md)
+  * [Test](overview-and-basics/faq/test.md)
   * [Document Processing](overview-and-basics/faq/document-processing/README.md)
     * [Tabel Extractie Probleemoplossing](overview-and-basics/faq/document-processing/table-extraction-troubleshoot.md)
   * [Infor LN (LN Integratie)](overview-and-basics/faq/infor-ln-ln-integration/README.md)
