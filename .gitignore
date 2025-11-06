@@ -1,6 +1,7 @@
 readme/overview/.DS_Store
 readme/.DS_Store
 venv
+/i18n/*
 .env
 .env.local
 .env.*.local
