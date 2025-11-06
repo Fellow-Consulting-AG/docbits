@@ -25,7 +25,7 @@
 
 {% file src="../../../.gitbook/assets/CaptureDocument_to_ProcessSupplierInvoice.xml" %}
 
-1. Laden Sie die M3 Mapping Datei herunter
+1. Laden Sie die M3 Mapping Datei herunter.
 2. Navigieren Sie zu **Infor** > **OS** > **ION** > **Connect** > **Mappings**.
 3. Klicken Sie auf **Import** und wählen Sie die entsprechende Mapping Datei für **M3**.
 
@@ -91,7 +91,7 @@
 * Sobald alle Nodes hinzugefügt und konfiguriert sind, klicken Sie auf **Save**.
 * Aktivieren Sie den Flow, um die Einrichtung abzuschließen.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/export_to_m3_from_docbits_11%20(1).png)
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/export_to_m3_from_docbits_11%20\(1\).png)
 
 ## Schritt 4: Export in DocBits konfigurieren
 

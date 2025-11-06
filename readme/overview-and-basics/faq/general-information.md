@@ -4,7 +4,7 @@
 
 <summary>Welche Arten von Dokumenten unterstützt DocBits?</summary>
 
-### Unterstützte Dokumententypen
+#### Unterstützte Dokumententypen
 
 * Rechnung
 * Gutschrift
@@ -15,8 +15,6 @@
 
 </details>
 
-
-
 <details>
 
 <summary>Unterstützt DocBits benutzerdefinierte Dokumententypen?</summary>
@@ -25,25 +23,17 @@ Ja, Benutzer können ihre eigenen Dokumententypen erstellen.
 
 </details>
 
-
-
 <details>
 
 <summary>Welche Dateitypen unterstützt DocBits?</summary>
 
-### Unterstützte Dateitypen sind:
+#### Unterstützte Dateitypen sind:
 
 * .pdf
-
-- .edi
-
+* .edi
 * .xml
-
-- .tiff (.tif)
-
+* .tiff (.tif)
 * .jpeg (.jpg)
-
-- .png
+* .png
 
 </details>
-

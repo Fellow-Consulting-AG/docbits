@@ -4,42 +4,42 @@
 
 ### DocBits-Verbesserungen:
 
-*   #### Verbesserungen im E-Mail-Vorlagendesign:
+*   **Verbesserungen im E-Mail-Vorlagendesign:**
 
     Der E-Mail-Vorlagen-Editor wurde neu gestaltet, um eine klarere Struktur und ein reibungsloseres Erlebnis zu bieten. Die Auswahl von Dokumentfeldern ist jetzt intuitiver, und Anhänge können direkt in Vorlagen eingefügt werden. Diese Verbesserungen machen es schneller und einfacher, professionelle, maßgeschneiderte E-Mails zu erstellen.
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fdv4oDlfkRyD0W9yWGAA4%252Fimage.png%3Falt%3Dmedia%26token%3D14bf7ebd-d886-4758-8184-d7b94447518a\&width=768\&dpr=4\&quality=100\&sign=88405d9c\&sv=2)
-*   #### Dashboard-Verbesserungen:
+*   **Dashboard-Verbesserungen:**
 
     Das Dashboard wurde erweitert, um die Navigation und Anpassung zu verbessern. Mit neuen Registerkarten können Benutzer schneller zwischen verschiedenen Dokumenttypen wechseln und so die Zeit für die Suche nach der richtigen Ansicht verkürzen.
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FmpO7WSIrkL0I8Rje3HQt%252Fimage.png%3Falt%3Dmedia%26token%3D77d03fe7-e626-4645-b191-e332715a25fb\&width=768\&dpr=4\&quality=100\&sign=93fa9925\&sv=2)
-*   #### Benutzerdefinierte Filter-Dashboards:
+*   **Benutzerdefinierte Filter-Dashboards:**
 
     Darüber hinaus können Dashboards jetzt nach individuellen Vorlieben angepasst und gefiltert werden. Diese benutzerdefinierten Dashboards können auch mit Kollegen geteilt werden, um die Erstellung konsistenter teamweiter Berichtsansichten zu erleichtern.
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252Fn5rPvGnRltT3mTIDoJwV%252Fimage.png%3Falt%3Dmedia%26token%3D22d065e3-81eb-4f16-828c-7f9134c25b1b\&width=768\&dpr=4\&quality=100\&sign=eb11d3a3\&sv=2)
-*   #### E-Mail-Benachrichtigungsprotokolle:
+*   **E-Mail-Benachrichtigungsprotokolle:**
 
     Eine neue Protokollfunktion steht für alle E-Mail-Benachrichtigungen zur Verfügung. Benutzer können jetzt eine Historie der gesendeten Benachrichtigungen überprüfen, was es einfacher macht, Lieferungen zu überprüfen und Probleme zu beheben, wenn E-Mails nicht empfangen werden.
-*   #### E-Rechnungsunterstützung: e-SLOG 1.6 & 2.0:
+*   **E-Rechnungsunterstützung: e-SLOG 1.6 & 2.0:**
 
     Die Unterstützung für zusätzliche E-Rechnungsformate wurde eingeführt. Das System kann jetzt e-SLOG-Versionen 1.6 und 2.0 verarbeiten und generieren, was die Kompatibilität mit Partnern und behördlichen Anforderungen erweitert.
-*   #### Duplikaterkennungsverbesserungen:
+*   **Duplikaterkennungsverbesserungen:**
 
     Die Duplikaterkennung wurde mit zwei leistungsstarken Konfigurationsoptionen aktualisiert. Das **Duplikaterkennungsintervall** ermöglicht es Ihnen, einen Zeitraum festzulegen, um Duplikate genauer zu überprüfen, während die Einstellung **Export von Duplikaten verbieten** automatisch das Exportieren von Dokumenten verhindert, die als Duplikate erkannt wurden. Zusammen bieten diese Verbesserungen mehr Kontrolle und gewährleisten eine höhere Datenpräzision.
 
     ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FXHRKTmuSxTlDt9lDEkE7%252Fimage.png%3Falt%3Dmedia%26token%3D96b56af6-c644-4b0f-a488-8bc16a03c11f\&width=768\&dpr=4\&quality=100\&sign=9b723b7f\&sv=2)
-*   #### Entscheidungsbaum-Verbesserungen:
+*   **Entscheidungsbaum-Verbesserungen:**
 
     Entscheidungsbäume sind jetzt vielseitiger und können Dokumentfeldwerte zurückgeben. Dies ermöglicht eine fortschrittlichere Automatisierungslogik, die Workflows basierend auf tatsächlichen Dokumentdaten Entscheidungen treffen lässt.
-*   #### Neue Workflow-Karten:
+*   **Neue Workflow-Karten:**
 
     Zwei neue Workflow-Karten erweitern die Automatisierungsmöglichkeiten. Die erste ermöglicht es Ihnen zu überprüfen, ob ein Dokument zu einer bestimmten Unterorganisation gehört, was die Handhabung von Multi-Entity-Setups erleichtert. Die zweite führt eine Lieferdatumstoleranzprüfung ein, die Liefertermine gegen das aktuelle Datum in Arbeitstagen vergleicht, um die Verwaltung und Durchsetzung von Lieferanforderungen effektiver zu gestalten.
-*   #### CSV-Exportverbesserungen:
+*   **CSV-Exportverbesserungen:**
 
     Die CSV-Exportfunktion wurde erheblich verbessert. Anstatt nur die auf der aktuellen Seite angezeigten Dokumente zu exportieren, exportiert das System jetzt alle Dokumente in einem Datensatz. Jeder Export erstellt einen Protokolleintrag, und die resultierende CSV wird automatisch per E-Mail gesendet, was einen vollständigeren und zuverlässigeren Exportprozess bietet.
-*   #### Zeitrahmen für den Löschvorgang von Bestellungen:
+*   **Zeitrahmen für den Löschvorgang von Bestellungen:**
 
     Eine neue Konfigurationsoption ermöglicht es Administratoren, einen Zeitrahmen für das Löschen von Bestellungen festzulegen. Diese Verbesserung bietet Flexibilität und Kontrolle über die Datenaufbewahrungspolitik und stellt sicher, dass Bestellungen nur entfernt werden, wenn dies angemessen ist.
 
@@ -174,9 +174,7 @@
 * Ein Problem gelöst, bei dem der Aufgabenbildschirm eine veraltete Dokumentversion anzeigte
 * Ein Problem behoben, das dazu führte, dass Dokumente ihren Status nicht änderten
 
-Release Winter Frost – 22. Januar 2025\
-
-
+Release Winter Frost – 22. Januar 2025\\
 
 ### Neue Funktionen
 
@@ -197,7 +195,7 @@ DocBits bietet nun die Möglichkeit, externe APIs bei der Dokumentenverarbeitung
 
 Für Organisationen, die mit mehreren Unterorganisationen arbeiten, führt DocBits eine neue Funktion namens Cross Sub-Organisations ein. Damit können Administratoren die Dokumentenverwaltung für alle Unterorganisationen unter einem Dach vereinheitlichen.
 
-* &#x20;Admin-Benutzer können Dokumente aus allen Unterorganisationen einsehen, ohne zwischen ihnen wechseln zu müssen.
+* Admin-Benutzer können Dokumente aus allen Unterorganisationen einsehen, ohne zwischen ihnen wechseln zu müssen.
 * Diese zentrale Sicht erlaubt es Administratoren, alle Dokumente zugleich zu überblicken und schnell zu finden, was sie benötigen.
 
 <figure><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252F7ACd08FD5ORqjs15FD1L%252FCrossSubOrganisations.png%3Falt%3Dmedia%26token%3Daeab8cc8-e1dc-495e-ac45-10a10c5fbf29&#x26;width=768&#x26;dpr=2&#x26;quality=100&#x26;sign=b1383f40&#x26;sv=2" alt=""><figcaption></figcaption></figure>
@@ -212,16 +210,15 @@ DocBits erweitert die Steuerung der Dokumentensichtbarkeit, um den Zugriff für 
 
 <figure><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FyQ8h5SjkjoY861mevbiD%252FGroup%2520Based%2520Permission.png%3Falt%3Dmedia%26token%3D7f6ef368-1f27-4241-bfad-9ead54119586&#x26;width=768&#x26;dpr=2&#x26;quality=100&#x26;sign=6d0957ba&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-### Sequentieller Workflow und Freigabehistorie 
+### Sequentieller Workflow und Freigabehistorie
 
 Mit der neuen Funktion Sequentieller Workflow und Freigabehistorie steigert DocBits die Effizienz bei der Dokumentenverarbeitung und fördert die Nachverfolgbarkeit von Aktionen.
 
 #### Sequentielle Workflow-Steuerung:
 
-* &#x20;Dokumente können in einer festgelegten Reihenfolge an mehrere Benutzer zur Prüfung oder Freigabe übergeben werden.
-* &#x20;Jeder beteiligte Benutzer erhält eine Benachrichtigung, sobald er an der Reihe ist, was Missverständnisse und Verzögerungen reduziert.
-* Workflows lassen sich individuell an die Geschäftsprozesse anpassen.\
-
+* Dokumente können in einer festgelegten Reihenfolge an mehrere Benutzer zur Prüfung oder Freigabe übergeben werden.
+* Jeder beteiligte Benutzer erhält eine Benachrichtigung, sobald er an der Reihe ist, was Missverständnisse und Verzögerungen reduziert.
+* Workflows lassen sich individuell an die Geschäftsprozesse anpassen.\\
 
 Dadurch erhalten Benutzer nur die für ihre Aufgaben relevanten Dokumente, was für einen fokussierten und sicheren Workflow sorgt.
 
@@ -229,7 +226,7 @@ Dadurch erhalten Benutzer nur die für ihre Aufgaben relevanten Dokumente, was f
 
 * Ein vollständiges Protokoll aller Aktionen steht in den Ansichten „Validierung“ und „Freigabe“ zur Verfügung.
   * Es enthält Benutzeraktionen (z. B. „freigegeben“, „abgelehnt“)
-  * Zeitstempel&#x20;
+  * Zeitstempel
   * Kommentare/Notizen.
 * Die Historie erhöht die Transparenz und dient als Prüfpfad für Compliance und Fehlersuche.
 
@@ -249,8 +246,7 @@ Mehrere Steuerbereiche für Steuertypen und Export zu Infor LN
 
 Mit dieser Funktion erweitert DocBits die Handhabung von Steuerinformationen, indem sie detaillierte Klassifizierung und den Export der Daten an Infor LN ermöglicht (z. B. volle Steuer, reduzierte Steuer, steuerfrei). Dies unterstützt komplexe Steuerstrukturen und verbessert die Integration in Buchhaltungssysteme.
 
-\
-
+\\
 
 <figure><img src="https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FreOhCz7IXoNej2VRdkpt%252FSFTPArchieve.png%3Falt%3Dmedia%26token%3D90b802f5-670e-476f-99e8-847efefc376e&#x26;width=768&#x26;dpr=2&#x26;quality=100&#x26;sign=44ac45e8&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
@@ -260,7 +256,7 @@ Mit dieser Funktion erweitert DocBits die Handhabung von Steuerinformationen, in
   * Voller Steuersatz (z. B. Standard-Mehrwertsteuer).
   * Reduzierter Steuersatz (z. B. für bestimmte Güter oder Dienstleistungen).
   * Steuerfrei (z. B. Ausnahmen für bestimmte Transaktionen).
-* &#x20;Diese Unterteilung ermöglicht eine präzise Kategorisierung von Steuerbeträgen und gewährleistet die Einhaltung von Vorschriften und Buchhaltungsstandards.
+* Diese Unterteilung ermöglicht eine präzise Kategorisierung von Steuerbeträgen und gewährleistet die Einhaltung von Vorschriften und Buchhaltungsstandards.
 
 #### Dynamische Auto-Accounting-Integration:
 
@@ -286,7 +282,7 @@ Um den Prozess des Abgleichs von Bestellpositionen (PO) mit Rechnungen zu verein
 
 **Strg + Klick für einzelne Zeilenauswahl:**
 
-* &#x20;Benutzer können mit gedrückter Strg-Taste auf spezifische Zeilen klicken, um mehrere, nicht zusammenhängende Zeilen auszuwählen.
+* Benutzer können mit gedrückter Strg-Taste auf spezifische Zeilen klicken, um mehrere, nicht zusammenhängende Zeilen auszuwählen.
 
 **Shift + Klick für Bereichsauswahl:**
 
@@ -294,12 +290,12 @@ Um den Prozess des Abgleichs von Bestellpositionen (PO) mit Rechnungen zu verein
 
 **Automatische Erkennung veralteter Daten:**
 
-* &#x20;Ist die zu einer Rechnung gehörige Bestellinformation veraltet (basierend auf den Systemeinstellungen), wird ein Symbol angezeigt, um den Benutzer darauf hinzuweisen. So erkennen Anwender schnell, ob es sich um veraltete Daten handelt, die eventuell nicht den neuesten Stand wiedergeben.
+* Ist die zu einer Rechnung gehörige Bestellinformation veraltet (basierend auf den Systemeinstellungen), wird ein Symbol angezeigt, um den Benutzer darauf hinzuweisen. So erkennen Anwender schnell, ob es sich um veraltete Daten handelt, die eventuell nicht den neuesten Stand wiedergeben.
 
 ### Bug-Fixes
 
 * Ein Problem wurde behoben, um sicherzustellen, dass bei den Auto-Accounting-Prozessen alle möglichen Werte korrekt angezeigt werden.
-* &#x20;Das Benutzerinterface der Workflow-Logs wurde verbessert, um die Navigation und Bedienung intuitiver zu gestalten.
+* Das Benutzerinterface der Workflow-Logs wurde verbessert, um die Navigation und Bedienung intuitiver zu gestalten.
 * Die Dokumentenfelder zeigen nun weitere Informationen wie erforderliche oder ausgeblendete Flags direkt in der Benutzeroberfläche an.
 * Die Beschreibungen von Gruppen sind in den Gruppeneinstellungen nun sichtbar.
 * Die Zeichenlängenbeschränkung für Gruppennamen wird beim Erstellen angezeigt, um Fehler zu vermeiden.
@@ -332,8 +328,7 @@ Release Hot Fix Feast 27. November 2024
 
 Die Exportfunktionalität wird nun asynchron ausgeführt, was für reibungslosere Abläufe und ein insgesamt verbessertes Benutzererlebnis sorgt.
 
-\
-
+\\
 
 #### Workflow-Verbesserungen
 
@@ -367,7 +362,7 @@ Wir haben erweiterte Caching-Strategien im gesamten System implementiert, um Dat
 
 • Störungen bei der E-Mail-Import-Funktion in allen verfügbaren Optionen wurden behoben, um einen fehlerfreien Betrieb zu ermöglichen.
 
-## Änderungen vom  4. November 2024
+## Änderungen vom 4. November 2024
 
 ## Neue Funktionen:
 
@@ -375,7 +370,7 @@ Wir haben erweiterte Caching-Strategien im gesamten System implementiert, um Dat
 
 IMAP-E-Mail-Einstellungen wurden so konfiguriert, um Benachrichtigungen über Importergebnisse automatisch zu senden. Erfolgreiche Importbenachrichtigungen bestätigen die erfolgreiche Verarbeitung von Dateien, während Fehlermeldungen die Dateinamen und spezifische Fehlerdetails für eine schnelle Fehlersuche enthalten.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Überarbeitung der Stammdatenabfrage
 

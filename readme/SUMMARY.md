@@ -18,7 +18,7 @@
       * [nicht gefunden im Lastschriftverfahren](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/request-validation-attr.-receiptline-value-the-value-must-be-numeric..md)
       * [der Wert muss numerisch sein.](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/der-wert-muss-numerisch-sein..md)
   * [Infor M3 (M3 Integration)](overview-and-basics/faq/infor-m3-m3-integration/README.md)
-    * [Kostenelemente sind nicht ordnungsgemäß konfiguriert. Bitte fragen Sie Ihren Administrator, es zu konfigurieren.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
+    * [Kostenelemente sind nicht ordnungsgemäß konfiguriert. Bitte fragen Sie Ihren Administrator, es zu ko](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
     * [M3 API Export Diagnoseleitfaden](overview-and-basics/faq/infor-m3-m3-integration/m3-api-export-diagnostic-guide.md)
 
 ## Endnutzer und Partner Bereich <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
