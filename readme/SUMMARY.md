@@ -269,7 +269,7 @@
     * [BOD-Mappings](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/README.md)
       * [Mapowanie BOD Dostawcy](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/supplier-bod-mapping.md)
       * [Purchase Order BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/purchase-order-bod-mapping.md)
-      * [ReceiveDelivery BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/receivedelivery-bod-mapping.md)
+      * [Mapowanie BOD ReceiveDelivery](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/receivedelivery-bod.md)
       * [Auto Accounting BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/auto-accounting-bod-mapping.md)
     * [Automatyczne Księgowanie](infor-integration-and-configuration/importing-customer-master-data/m3/auto-accounting.md)
     * [Dostawcy i Zamówienia Zakupu](infor-integration-and-configuration/importing-customer-master-data/m3/suppliers-and-purchase-orders.md)
