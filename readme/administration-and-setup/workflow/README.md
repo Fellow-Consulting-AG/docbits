@@ -4,7 +4,7 @@ description: DocBits Workflow Engine
 
 # Workflow
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.42.57.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.42.57 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## DocBits Workflow Engine: Het Vereenvoudigen van Procesautomatisering
 

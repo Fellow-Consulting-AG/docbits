@@ -1,6 +1,6 @@
 # Document Operator for Sub-Organizations
 
-<figure><img src="../../../.gitbook/assets/userlmn_dbb4cc2e8f2f4b59ec15726545d9e502.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/userlmn_dbb4cc2e8f2f4b59ec15726545d9e502 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Purpose**
 

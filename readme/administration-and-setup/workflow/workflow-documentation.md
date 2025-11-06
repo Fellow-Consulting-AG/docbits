@@ -6,11 +6,11 @@ To keep an overview, you can give the workflows different headings so that you c
 
 Create a new Workflow: Click on + ADD WORKFLOW
 
-![](<../../.gitbook/assets/0 (1).png>)
+![](<../../../.gitbook/assets/0 (1).png>)
 
 You can use these workflows (Test 1,2,3) to automatically assign various documents to the right employee in the company.
 
-![](<../../.gitbook/assets/1 (1).png>)
+![](<../../../.gitbook/assets/1 (1).png>)
 
 If an invoice or other document exceeds a certain total amount that requires prior review and approval, these documents can be immediately assigned to the correct person.
 
@@ -24,7 +24,7 @@ And: **Document type is:** Invoice
 
 Then: **Assign document to:** Stefan Reppermund
 
-![](<../../.gitbook/assets/3 (1).png>)
+![](<../../../.gitbook/assets/3 (1).png>)
 
 **Test 2: Logic Card**
 
@@ -34,7 +34,7 @@ And: **Document type is:** Delivery Note
 
 Then: **Assign document to:** James Edwards
 
-![](<../../.gitbook/assets/4 (1).png>)
+![](<../../../.gitbook/assets/4 (1).png>)
 
 **Test 3: Logic Card**
 
@@ -44,11 +44,11 @@ Then: **Assign document to:** James Edwards
 
 **Then:** **Assign document to:** Anian Sollinger
 
-![](<../../.gitbook/assets/5 (1).png>)
+![](<../../../.gitbook/assets/5 (1).png>)
 
 It is also possible, if the document is not assigned to a single person, to assign it to a specific employee from the start.
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 For an easier overview of what should happen to a document, you can set the status for incoming documents in this workflow. This workflow makes it possible to immediately see whether there is, for example, a pending approval.
 
@@ -62,7 +62,7 @@ For an easier overview of what should happen to a document, you can set the stat
 
 <figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/8 (1).png>)
+![](<../../../.gitbook/assets/8 (1).png>)
 
 **Test 5: Logic Card**
 
@@ -72,13 +72,13 @@ And: **Assignee is:** Stefan Reppermund
 
 Then: **Change Status to:** Pending Second Approval
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/10 (1).png>)
+![](<../../../.gitbook/assets/10 (1).png>)
 
 If an invoice or other document exceeds a certain total amount that requires prior review and approval, these documents can be assigned to the right person immediately.
 
-![](<../../.gitbook/assets/11 (1).png>)
+![](<../../../.gitbook/assets/11 (1).png>)
 
 **Test 6: Logic Card**
 
@@ -88,9 +88,9 @@ And: Docfield **total\_amount** is **Greater than 500**
 
 Then: **Assign document to:** Asad Usman Khan
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/13 (1).png>)
+![](<../../../.gitbook/assets/13 (1).png>)
 
 It is also possible to enter the status into the workflow, so the assigned person can immediately see what status this document is and what should happen next with it.
 
@@ -104,13 +104,13 @@ It is also possible to enter the status into the workflow, so the assigned perso
 
 **Change Status to:** Pending Approval
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/15 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/15 (1).png" alt=""><figcaption></figcaption></figure>
 
 For example, if certain or important information is missing from a document, but is important and must be included for further processing, you can set up the workflow so that these documents are immediately forwarded to the buyer and a substitute (replacement).
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Test 9:**
 
@@ -118,9 +118,9 @@ The Workflow with these logic cards is designed to automatically verify that the
 
 You can give these documents a specific status or assign them to a specific employee.
 
-<div align="center"><figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Logic Card: Quantity or Unit Price or Discount Match**
 
@@ -143,7 +143,7 @@ This logic card is vital for ensuring that the details of an order confirmation 
 
 If you have a different calculation for surcharges, or only have them on some items, you can use the generic table calculation cards, some of them also allow to filter for regular expressions.
 
-<figure><img src="../../.gitbook/assets/19 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/19 (1).png" alt=""><figcaption></figcaption></figure>
 
 Above is a calculation example for MTZ with a filter for item numbers starting with 01, 06, 9, 001 or 000.
 
@@ -151,7 +151,7 @@ With a manual setup it’s advised to split calculations that depend on new colu
 
 **Run Workflow**
 
-<figure><img src="../../.gitbook/assets/20 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/20 (1).png" alt=""><figcaption></figcaption></figure>
 
 With this card you can specify the name of a workflow that is to be run after the current workflow if its conditions are met and after previous then cards of the current workflow. While it prioritises runnable, active workflows, it also allows you to run deactivated workflows if the document fulfills the workflows conditions.
 
@@ -165,6 +165,6 @@ If you want to add all surcharges as a negative discount into the discount colum
 
 After calculating the surcharges you might want to notify a specific user to authorize the order confirmation. For this you can use the notification card
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 Depending on settings, the user gets assigned a new task in DocBits and optionally an email to notify them of their new task.

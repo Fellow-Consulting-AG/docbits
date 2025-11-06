@@ -1,6 +1,6 @@
 # Single Document Status Condition
 
-<figure><img src="../../../.gitbook/assets/userlmn_928e514bc0e2aa775894e4ec5f992bd9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/userlmn_928e514bc0e2aa775894e4ec5f992bd9 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Purpose**
 

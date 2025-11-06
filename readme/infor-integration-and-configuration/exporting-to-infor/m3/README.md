@@ -25,7 +25,7 @@
 
 {% file src="../../../.gitbook/assets/CaptureDocument_to_ProcessSupplierInvoice.xml" %}
 
-1. Download het M3 Mapping bestand
+1. Download het M3 Mapping bestand.
 2. Navigeer naar **Infor** > **OS** > **ION** > **Connect** > **Mappings**.
 3. Klik op **Import** en selecteer het juiste mapping bestand voor **M3**.
 
@@ -91,7 +91,7 @@
 * Zodra alle nodes zijn toegevoegd en geconfigureerd, klik op **Save**.
 * Activeer de flow om de setup te voltooien.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/export_to_m3_from_docbits_11%20(1).png)
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/export_to_m3_from_docbits_11%20\(1\).png)
 
 ## Stap 4: Export configureren in DocBits
 
