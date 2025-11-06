@@ -1,0 +1,127 @@
+{
+  "$schema": "https://docs.tolgee.io/cli-schema.json",
+  "projectId": 2,
+  "format": "JSON_TOLGEE",
+  "patterns": ["./src/**/*.vue?(x)", "./src/**/*.ts?(x)"],
+  "strictNamespace": false,
+  "parser": "vue",
+  "push": {
+    "convertPlaceholdersToIcu": false,
+    "files": [
+      {
+        "path": "./i18n/en.json",
+        "language": "en"
+      },
+      {
+        "path": "./i18n/de.json",
+        "language": "de"
+      },
+      {
+        "path": "./i18n/fr.json",
+        "language": "fr"
+      },
+      {
+        "path": "./i18n/it.json",
+        "language": "it"
+      },
+      {
+        "path": "./i18n/es.json",
+        "language": "es"
+      },
+      {
+        "path": "./i18n/nl.json",
+        "language": "nl"
+      },
+      {
+        "path": "./i18n/zh.json",
+        "language": "zh"
+      },
+      {
+        "path": "./i18n/bg.json",
+        "language": "bg"
+      },
+      {
+        "path": "./i18n/cs.json",
+        "language": "cs"
+      },
+      {
+        "path": "./i18n/de-DE.json",
+        "language": "de-DE"
+      },
+      {
+        "path": "./i18n/hu-HU.json",
+        "language": "hu-HU"
+      },
+      {
+        "path": "./i18n/it-IT.json",
+        "language": "it-IT"
+      },
+      {
+        "path": "./i18n/ja.json",
+        "language": "ja"
+      },
+      {
+        "path": "./i18n/ko-KR.json",
+        "language": "ko-KR"
+      },
+      {
+        "path": "./i18n/nl-NL.json",
+        "language": "nl-NL"
+      },
+      {
+        "path": "./i18n/pl.json",
+        "language": "pl"
+      },
+      {
+        "path": "./i18n/pt.json",
+        "language": "pt"
+      },
+      {
+        "path": "./i18n/pt-BR.json",
+        "language": "pt-BR"
+      },
+      {
+        "path": "./i18n/ro.json",
+        "language": "ro"
+      },
+      {
+        "path": "./i18n/sk.json",
+        "language": "sk"
+      },
+      {
+        "path": "./i18n/sl.json",
+        "language": "sl"
+      },
+      {
+        "path": "./i18n/sv.json",
+        "language": "sv"
+      },
+      {
+        "path": "./i18n/th.json",
+        "language": "th"
+      },
+      {
+        "path": "./i18n/tr.json",
+        "language": "tr"
+      },
+      {
+        "path": "./i18n/vi.json",
+        "language": "vi"
+      }
+    ],
+    "forceMode": "NO_FORCE",
+    "removeOtherKeys": false,
+    "languages": ["en"]
+  },
+  "pull": {
+    "path": "./i18n/",
+    "emptyDir": true,
+    "fileStructureTemplate": "{languageTag}.{extension}"
+  },
+  "apiUrl": "https://tolgee.docbits.com",
+  "sync": {
+    "backup": "./backup-tolgee",
+    "continueOnWarning": true,
+    "removeUnused": false
+  }
+}
