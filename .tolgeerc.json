@@ -1,0 +1,59 @@
+{
+  "$schema": "https://docs.tolgee.io/cli-schema.json",
+  "projectId": 2,
+  "format": "JSON_TOLGEE",
+  "patterns": ["./src/**/*.vue?(x)", "./src/**/*.ts?(x)"],
+  "strictNamespace": false,
+  "parser": "vue",
+  "push": {
+    "convertPlaceholdersToIcu": false,
+    "files": [
+      {
+        "path": "./i18n/en.json",
+        "language": "en"
+      },
+      {
+        "path": "./i18n/de.json",
+        "language": "de"
+      },
+      {
+        "path": "./i18n/fr.json",
+        "language": "fr"
+      },
+      {
+        "path": "./i18n/it.json",
+        "language": "it"
+      },
+      {
+        "path": "./i18n/es.json",
+        "language": "es"
+      },
+      {
+        "path": "./i18n/nl.json",
+        "language": "nl"
+      },
+      {
+        "path": "./i18n/pl.json",
+        "language": "pl"
+      },
+      {
+        "path": "./i18n/pt.json",
+        "language": "pt"
+      }
+    ],
+    "forceMode": "NO_FORCE",
+    "removeOtherKeys": false,
+    "languages": ["en"]
+  },
+  "pull": {
+    "path": "./i18n/",
+    "emptyDir": true,
+    "fileStructureTemplate": "{languageTag}.{extension}"
+  },
+  "apiUrl": "https://tolgee.docbits.com",
+  "sync": {
+    "backup": "./backup-tolgee",
+    "continueOnWarning": true,
+    "removeUnused": false
+  }
+}
