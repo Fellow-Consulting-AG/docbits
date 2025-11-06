@@ -1,6 +1,8 @@
 readme/overview/.DS_Store
 readme/.DS_Store
 venv
+/i18n/*
+.env
 readme/admin-section/.DS_Store
 readme/admin-section/course/.DS_Store
 readme/admin-section/settings/.DS_Store
