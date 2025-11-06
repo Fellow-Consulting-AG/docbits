@@ -1,4 +1,4 @@
-# Export
+# Exportation
 
 ## Overview
 
@@ -12,7 +12,7 @@ The Export page displays all configured export setups, including whether they ar
 
 You can find it under: **Settings** → **Document Processing** → **Export**
 
-<figure><img src="../../../.gitbook/assets/image (442).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(442).png" alt=""><figcaption></figcaption></figure>
 
 ## **Using the Export Page**
 
@@ -29,7 +29,7 @@ Each row in the list shows:
 * **Export Method** – where the document will be sent (e.g., Infor, IDM, SFTP)
 * **Actions** – buttons to **edit, delete** or **activate/deactivate** the configuration
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(15).png" alt=""><figcaption></figcaption></figure>
 
 #### **Important Rules for Export Configuration**
 
@@ -48,12 +48,12 @@ However, it is possible to have:
 To create a new export:
 
 1. Click on the **“New”** button.\
-   ![](<../../../.gitbook/assets/image (1) (1) (1).png>)
+   ![](<../../../.gitbook/assets/user-support1 (1).png>)
 2. Select the **Export Type** you want to configure (e.g., Infor, IDM, SFTP).
 3. Fill in the required fields based on the export type.
 4. Save the configuration.
 
-## Export Options&#x20;
+## Export Options
 
 #### Webhook
 
@@ -61,31 +61,7 @@ To create a new export:
 
 <summary>Webhook</summary>
 
-<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### **Field Descriptions**
-
-* **Title**\
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_\
-  A dropdown with all available sub-organizations.
-  * If left empty: applies to the main organization.
-  * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**\
-  Dropdown listing all available document types.\
-  This determines which type of document this export configuration applies to.
-* **Export URL** \
-  The destination URL where the document should be exported.
-
-</details>
-
-#### SFTP
-
-<details>
-
-<summary>SFTP</summary>
-
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(15)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 **Field Descriptions**
 
@@ -98,19 +74,42 @@ To create a new export:
 * **Document Type**\
   Dropdown listing all available document types.\
   This determines which type of document this export configuration applies to.
+* **Export URL**\
+  The destination URL where the document should be exported.
 
-- **Username**\
+</details>
+
+#### SFTP
+
+<details>
+
+<summary>SFTP</summary>
+
+<figure><img src="../../../.gitbook/assets/image%20(16).png" alt=""><figcaption></figcaption></figure>
+
+**Field Descriptions**
+
+* **Title**\
+  The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_\
+  A dropdown with all available sub-organizations.
+  * If left empty: applies to the main organization.
+  * If selected: the export will only apply to the chosen sub-organization.
+* **Document Type**\
+  Dropdown listing all available document types.\
+  This determines which type of document this export configuration applies to.
+* **Username**\
   The username used to authenticate against the SFTP server.
-- **Password**\
+* **Password**\
   The corresponding password for the SFTP account. Ensure the account has write access to the specified folder.
-- **Server URL**\
+* **Server URL**\
   The hostname or IP address of the target SFTP server.
-- **Port**\
+* **Port**\
   The port used to connect to the SFTP server.
-- **Folder**\
+* **Folder**\
   The path on the SFTP server where documents should be uploaded (e.g., `/incoming/invoices/`).\
   Must exist and be writable.
--   **XSLT File (Optional)**
+*   **XSLT File (Optional)**
 
     The **XSLT file** allows for transformation of the default DocBits export format.
 
@@ -126,7 +125,7 @@ To create a new export:
 
 <summary>Infor Export to SFTP</summary>
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(5)%20(1).png" alt=""><figcaption></figcaption></figure>
 
 **Field Descriptions**
 
@@ -139,14 +138,13 @@ To create a new export:
 * **Document Type**\
   Dropdown listing all available document types.\
   This determines which type of document this export configuration applies to.
-
-- **IDM Mapping File**\
+* **IDM Mapping File**\
   Select a mapping file from the file manager.\
   [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-- **BOD Mapping File**\
+* **BOD Mapping File**\
   Select a mapping file from the file manager.\
   [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
-- **Folder**\
+* **Folder**\
   The path on the SFTP server where documents should be uploaded (e.g., `/incoming/invoices/`).\
   Must exist and be writable.
 
@@ -158,9 +156,9 @@ To create a new export:
 
 <summary>SMB</summary>
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(6)%20(1).png" alt=""><figcaption></figcaption></figure>
 
-#### **Field Descriptions**
+**Field Descriptions**
 
 * **Title**\
   The name of the export configuration. This will appear in the export list.
@@ -171,19 +169,18 @@ To create a new export:
 * **Document Type**\
   Dropdown listing all available document types.\
   This determines which type of document this export configuration applies to.
-
-- **Username**\
+* **Username**\
   The username used to connect to the SMB share.
-- **Password**\
+* **Password**\
   The corresponding password for SMB authentication.
-- **Server URL**\
+* **Server URL**\
   The address of the SMB server.
-- **Port**\
+* **Port**\
   Port number used to access the SMB share.
-- **Folder**\
+* **Folder**\
   The folder path within the SMB share where documents should be saved(e.g., `/incoming/invoices/`).\
   Must exist and be writable.
--   **JPL Mapping File (Optional)**
+*   **JPL Mapping File (Optional)**
 
     The **JPL file** is used to define a transformation of the exported data before it is written to the SMB share.
 
@@ -193,15 +190,15 @@ To create a new export:
 
 </details>
 
-#### **Infor IDM**&#x20;
+#### **Infor IDM**
 
 <details>
 
-<summary>Infor IDM </summary>
+<summary>Infor IDM</summary>
 
-<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(13)%20(1).png" alt=""><figcaption></figcaption></figure>
 
-#### **Field Descriptions**
+**Field Descriptions**
 
 * **Title**\
   The name of the export configuration. This will appear in the export list.
@@ -212,15 +209,14 @@ To create a new export:
 * **Document Type**\
   Dropdown listing all available document types.\
   This determines which type of document this export configuration applies to.
-
-- **ION Mapping File**\
+* **ION Mapping File**\
   Select a mapping file from the file manager.
-- **IDM Mapping File**\
+* **IDM Mapping File**\
   Select a mapping file from the file manager.\
   [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-- **Cloud / On-Prem Toggle**\
+* **Cloud / On-Prem Toggle**\
   A switch to indicate the Infor deployment type:
-  * **Cloud**: Select this if  Infor CloudSuite customer.
+  * **Cloud**: Select this if Infor CloudSuite customer.
   * **On-Prem**: Select this if Infor is self-hosted.
 
 </details>
@@ -231,9 +227,9 @@ To create a new export:
 
 <summary>Infor ION</summary>
 
-<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(11)%20(1).png" alt=""><figcaption></figcaption></figure>
 
-#### **Field Descriptions**
+**Field Descriptions**
 
 * **Title**\
   The name of the export configuration. This will appear in the export list.
@@ -244,15 +240,14 @@ To create a new export:
 * **Document Type**\
   Dropdown listing all available document types.\
   This determines which type of document this export configuration applies to.
-
-- **ION Mapping File**\
+* **ION Mapping File**\
   Select a mapping file from the file manager.
-- **BOD Mapping File**\
+* **BOD Mapping File**\
   Select a mapping file from the file manager.\
   [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
-- **Cloud / On-Prem Toggle**\
+* **Cloud / On-Prem Toggle**\
   A switch to indicate the Infor deployment type:
-  * **Cloud**: Select this if  Infor CloudSuite customer.
+  * **Cloud**: Select this if Infor CloudSuite customer.
   * **On-Prem**: Select this if Infor is self-hosted.
 
 </details>
@@ -263,9 +258,9 @@ To create a new export:
 
 <summary>Infor IDM + ION BOD</summary>
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(9)%20(1).png" alt=""><figcaption></figcaption></figure>
 
-#### **Field Descriptions**
+**Field Descriptions**
 
 * **Title**\
   The name of the export configuration. This will appear in the export list.
@@ -276,33 +271,32 @@ To create a new export:
 * **Document Type**\
   Dropdown listing all available document types.\
   This determines which type of document this export configuration applies to.
-
-- **ION Mapping File**\
+* **ION Mapping File**\
   Select a mapping file from the file manager.
-- **IDM Mapping File**\
+* **IDM Mapping File**\
   Select a mapping file from the file manager.\
   [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-- **BOD Mapping File**\
+* **BOD Mapping File**\
   Select a mapping file from the file manager.\
   [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
-- **Cloud / On-Prem Toggle**\
+* **Cloud / On-Prem Toggle**\
   A switch to indicate the Infor deployment type:
-  * **Cloud**: Select this if  Infor CloudSuite customer.
+  * **Cloud**: Select this if Infor CloudSuite customer.
   * **On-Prem**: Select this if Infor is self-hosted.
 
 </details>
 
 ### For Infor CloudSuite customers
 
-#### Infor IDM + LN&#x20;
+#### Infor IDM + LN
 
 <details>
 
-<summary>Infor IDM + LN </summary>
+<summary>Infor IDM + LN</summary>
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(17).png" alt=""><figcaption></figcaption></figure>
 
-#### **Field Descriptions**
+**Field Descriptions**
 
 * **Title**\
   The name of the export configuration. This will appear in the export list.
@@ -313,28 +307,26 @@ To create a new export:
 * **Document Type**\
   Dropdown listing all available document types.\
   This determines which type of document this export configuration applies to.
-
-- **ION Mapping File**\
+* **ION Mapping File**\
   Select a mapping file from the file manager.
-- **IDM Mapping File**\
+* **IDM Mapping File**\
   Select a mapping file from the file manager.\
   [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-
 * **LN Mapping File**\
   Select a mapping file from the file manager.\
-  [Need help creating one? View the LN Mapping Example](../../../infor-integration-and-configuration/exporting-to-infor/ln/example-export-ln/)&#x20;
+  [Need help creating one? View the LN Mapping Example](../../../infor-integration-and-configuration/exporting-to-infor/ln/example-export-ln/)
 
 </details>
 
-#### Infor IDM + M3&#x20;
+#### Infor IDM + M3
 
 <details>
 
-<summary>Infor IDM + M3 </summary>
+<summary>Infor IDM + M3</summary>
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(18).png" alt=""><figcaption></figcaption></figure>
 
-#### **Field Descriptions**
+**Field Descriptions**
 
 * **Title**\
   The name of the export configuration. This will appear in the export list.
@@ -345,15 +337,14 @@ To create a new export:
 * **Document Type**\
   Dropdown listing all available document types.\
   This determines which type of document this export configuration applies to.
-
-- **ION Mapping File**\
+* **ION Mapping File**\
   Select a mapping file from the file manager.
-- **IDM Mapping File**\
+* **IDM Mapping File**\
   Select a mapping file from the file manager.\
   [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-- **M3 Mapping File**\
+* **M3 Mapping File**\
   Select a mapping file from the file manager.\
-  [Need help creating one? View the M3 Mapping Example](../../../infor-integration-and-configuration/exporting-to-infor/m3/example-export-m3.md)&#x20;
+  [Need help creating one? View the M3 Mapping Example](../../../infor-integration-and-configuration/exporting-to-infor/m3/example-export-m3.md)
 
 </details>
 
@@ -363,9 +354,9 @@ To create a new export:
 
 <summary>Infor IDM + M3 (toml)</summary>
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(19).png" alt=""><figcaption></figcaption></figure>
 
-#### **Field Descriptions**
+**Field Descriptions**
 
 * **Title**\
   The name of the export configuration. This will appear in the export list.
@@ -376,15 +367,13 @@ To create a new export:
 * **Document Type**\
   Dropdown listing all available document types.\
   This determines which type of document this export configuration applies to.
-
-- **ION Mapping File**\
+* **ION Mapping File**\
   Select a mapping file from the file manager.
-- **IDM Mapping File**\
+* **IDM Mapping File**\
   Select a mapping file from the file manager.\
   [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-- **M3 toml Mapping File**\
-  Select a mapping file from the file manager or use the select Toml option to use a toml created with the rule manager. \
+* **M3 toml Mapping File**\
+  Select a mapping file from the file manager or use the select Toml option to use a toml created with the rule manager.\
   [Need help creating one? View the Rule Manager Guide](rule-manager/)
 
 </details>
-
