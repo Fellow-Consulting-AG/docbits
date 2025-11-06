@@ -360,7 +360,7 @@
   * [M3](infor-integration-and-configuration/importing-customer-master-data/m3/README.md)
     * [Import van Infor M3 naar DocBits via API](infor-integration-and-configuration/importing-customer-master-data/m3/import-from-infor-m3-to-docbits-via-api.md)
     * [BOD-Mappings](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/README.md)
-      * [Supplier BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/supplier-bod-mapping.md)
+      * [Leverancier BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/supplier-bod-mapping.md)
       * [Purchase Order BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/purchase-order-bod-mapping.md)
       * [ReceiveDelivery BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/receivedelivery-bod-mapping.md)
       * [Auto Accounting BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/auto-accounting-bod-mapping.md)
