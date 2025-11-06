@@ -4,7 +4,7 @@
 
 → Tabla de Búsqueda de Datos Maestros de DocBits: **SUPPLIER**
 
-Mapping in API:
+Mapeo en API:
 
 ```python
 header_mappings = {
