@@ -1,6 +1,8 @@
 readme/overview/.DS_Store
 readme/.DS_Store
 venv
+/i18n/*
+.env
 readme/admin-section/.DS_Store
 readme/admin-section/course/.DS_Store
 readme/admin-section/settings/.DS_Store
@@ -31,15 +33,6 @@ readme/setup/document-training/.DS_Store
 readme/setup/document-training/training-line-fields-table-training/.DS_Store
 readme/setup/document-types/.DS_Store
 readme/setup/exporting-in-docbits/.DS_Store
-api-reference/.DS_Store
-api-reference/acl-updater/.DS_Store
-api-reference/auto-test/.DS_Store
-api-reference/configurations/.DS_Store
-api-reference/configurations/oauth2/.DS_Store
-api-reference/preferences/.DS_Store
-api-reference/sub-organisation-user/.DS_Store
-api-reference/vendors/.DS_Store
-output/.DS_Store
 readme/setup/exporting-in-docbits/exporting-to-infor/.DS_Store
 readme/setup/importing-customer-master-data/.DS_Store
 readme/setup/importing-customer-master-data/ln/.DS_Store
