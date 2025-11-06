@@ -253,7 +253,7 @@
     * [Importar desde Infor M3 a DocBits via API](infor-integration-and-configuration/importing-customer-master-data/m3/import-from-infor-m3-to-docbits-via-api.md)
     * [BOD-Mappings](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/README.md)
       * [Mapeo de BOD de Proveedores](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/supplier-bod-mapping.md)
-      * [Purchase Order BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/purchase-order-bod-mapping.md)
+      * [Mapeo BOD de Purchase Order](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/purchase-order-bod-mapping.md)
       * [Mapeo BOD de ReceiveDelivery](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/receivedelivery-bod.md)
       * [Auto Accounting BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/auto-accounting-bod-mapping.md)
     * [Contabilidad Automática](infor-integration-and-configuration/importing-customer-master-data/m3/auto-accounting.md)
