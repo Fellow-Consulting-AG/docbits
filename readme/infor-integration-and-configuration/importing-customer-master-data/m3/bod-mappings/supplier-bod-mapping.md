@@ -4,7 +4,7 @@
 
 → Tabela Wyszukiwania Danych Głównych DocBits: **SUPPLIER**
 
-Mapping in API:
+Mapowanie w API:
 
 ```python
 header_mappings = {
