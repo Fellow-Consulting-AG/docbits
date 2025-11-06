@@ -1,15 +1,20 @@
-# Sync.ReceiveDelivery
+# ReceiveDelivery BOD Mapping
 
-`purchase_order_exists = True  when `
-`"//DataArea//PurchaseOrderReference/DocumentID/ID" exists`
+```python
+purchase_order_exists = True
+when "//DataArea//PurchaseOrderReference/DocumentID/ID" exists
+```
 
-`delivery_number = "//DataArea/ReceiveDelivery/ReceiveDeliveryHeader/DisplayID"`
-`OR`
-`"//DataArea/ReceiveDelivery/ReceiveDeliveryHeader/DocumentID/ID"`
+```python
+delivery_number = 
+"//DataArea/ReceiveDelivery/ReceiveDeliveryHeader/DisplayID"
+OR
+"//DataArea/ReceiveDelivery/ReceiveDeliveryHeader/DocumentID/ID"
+```
 
-**Note**: If the `DisplayID` is unavailable, the fallback XPath `DocumentID/ID` will be used.
+<mark style="color:red;">Note</mark>: If the `DisplayID` is unavailable, the fallback XPath `DocumentID/ID` will be used.
 
-```yaml
+```python
 ship_from_party_id = "//DataArea/ReceiveDelivery/ReceiveDeliveryHeader/ShipFromParty/PartyIDs/ID"
 ship_from_party_name= "//DataArea/ReceiveDelivery/ReceiveDeliveryHeader/ShipFromParty/Name"
 warehouse_id = "//DataArea/ReceiveDelivery/ReceiveDeliveryHeader/WarehouseLocation/ID"
@@ -22,7 +27,7 @@ status_effective_from = "//DataArea/ReceiveDelivery/ReceiveDeliveryHeader/Status
 
 ## **Line Items**
 
-```yaml
+```python
 line_number = "//ReceiveDeliveryItem[{index}]/LineNumber"
 sequence_number = "//ReceiveDeliveryItem[{index}]/CountSequence"
 item_id = "//ReceiveDeliveryItem[{index}]/ItemID/ID[not(@schemeName)]"
@@ -39,14 +44,23 @@ status = "//ReceiveDeliveryItem[{index}]/Status/Code"
 status_effective_from = "//ReceiveDeliveryItem[{index}]/Status/EffectiveDateTime"
 ```
 
-`invoiced_quantity = "//ns:ReceiveDeliveryItem[{index}]/ns:UserArea/ns:Property/ns:NameValue[@name='InvoicedQuantity']"`
+```python
+invoiced_quantity = "//ns:ReceiveDeliveryItem[{index}]/ns:UserArea/ns:Property/ns:NameValue[@name='InvoicedQuantity']"
+```
 
-**Note**: Only if node exists in UserArea with name InvoicedQuantity
+<mark style="color:red;">**Note**</mark>: Invoice Quantity will only be used if node exists in UserArea with name InvoicedQuantity.
 
-`purchase_order_sub_line_number = "//ns:ReceiveDeliveryItem[{index}]//ns:DataArea/ns:ReceiveDelivery/ns:ReceiveDeliveryHeader/ns:UserArea/ns:Property/ns:NameValue[@name='PO LineSubNumber']"`
-`OR`
-`"//ns:ReceiveDeliveryItem[{index}]/ns:PurchaseOrderReference/ns:SubLineNumber"`
-`OR`
-`"//ns:ReceiveDeliveryItem[{index}]/ns:PurchaseOrderReference/ns:ScheduleLineNumber"`
+`purchase_order_sub_line_number = "//ns:ReceiveDeliveryItem[{index}]//ns:DataArea/ns:ReceiveDelivery/ns:ReceiveDeliveryHeader/ns:UserArea/ns:Property/ns:NameValue[@name='PO LineSubNumber']"` \
+`OR`\
+`"//ns:ReceiveDeliveryItem[{index}]/ns:PurchaseOrderReference/ns:SubLineNumber"` `OR` `"//ns:ReceiveDeliveryItem[{index}]/ns:PurchaseOrderReference/ns:ScheduleLineNumber"`
 
-**Note**: If the XPath is unavailable, the fallback XPath will be used.
+```python
+purchase_order_sub_line_number = 
+"//ns:ReceiveDeliveryItem[{index}]//ns:DataArea/ns:ReceiveDelivery/ns:ReceiveDeliveryHeader/ns:UserArea/ns:Property/ns:NameValue[@name='PO LineSubNumber']" 
+OR
+"//ns:ReceiveDeliveryItem[{index}]/ns:PurchaseOrderReference/ns:SubLineNumber"
+OR
+"//ns:ReceiveDeliveryItem[{index}]/ns:PurchaseOrderReference/ns:ScheduleLineNumber"
+```
+
+<mark style="color:red;">**Note**</mark>: If the XPath is unavailable, the fallback XPath will be used.

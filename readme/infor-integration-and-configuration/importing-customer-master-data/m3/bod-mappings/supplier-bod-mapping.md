@@ -6,7 +6,7 @@
 
 Mapping in API:
 
-```
+```python
 header_mappings = {
             "sharedCONO": "//DataArea/Sync/AccountingEntityID",
             "sharedSUNO": "//SupplierPartyMaster/PartyIDs/ID",
@@ -30,7 +30,7 @@ header_mappings = {
 
 → DocBits Master Data Lookup Table: **SUPPLIER**
 
-```
+```python
 header_mappings = {
             "sharedCONO": "//DataArea/Sync/AccountingEntityID",
             "sharedSUNO": "//RemitToPartyMaster/PartyIDs/ID",
