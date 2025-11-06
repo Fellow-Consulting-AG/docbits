@@ -4,7 +4,7 @@
 
 → Table de Recherche des Données de Base DocBits: **SUPPLIER**
 
-Mapping in API:
+Mappage dans l'API:
 
 ```python
 header_mappings = {
