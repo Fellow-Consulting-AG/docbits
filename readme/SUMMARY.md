@@ -18,7 +18,7 @@
       * [el valor debe ser numérico.](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/request-validation-attr.-receiptline-value-the-value-must-be-numeric..md)
       * [no encontrado en débito directo](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/not-found-in-direct-debit.md)
   * [Infor M3 (Integración M3)](overview-and-basics/faq/infor-m3-m3-integration/README.md)
-    * [Los elementos de costeo no están configurados correctamente. Por favor, pida a su administrador que lo configure.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
+    * [Los elementos de costeo no están configurados correctamente. Por favor, pida a su administrador que](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
     * [Guía de diagnóstico de exportación de la API M3](overview-and-basics/faq/infor-m3-m3-integration/m3-api-export-diagnostic-guide.md)
 
 ## Sección de usuarios finales y socios <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>

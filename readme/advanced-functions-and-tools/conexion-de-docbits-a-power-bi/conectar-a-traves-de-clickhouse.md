@@ -70,4 +70,4 @@ Esta guía te lleva a través de la conexión de **ClickHouse** a **Power BI Des
 
 ### 7. Ejemplo de Tableros y Vistas de Datos
 
-![](../../.gitbook/assets/example_4.avif)![](../../.gitbook/assets/example_3.avif)![](../../.gitbook/assets/example_2.avif)![](../../.gitbook/assets/example_1.avif)
+![](<../../.gitbook/assets/example_4 (1).avif>) ![](<../../.gitbook/assets/example_3 (1).avif>) ![](<../../.gitbook/assets/example_2 (1).avif>) ![](<../../.gitbook/assets/example_1 (1).avif>)
