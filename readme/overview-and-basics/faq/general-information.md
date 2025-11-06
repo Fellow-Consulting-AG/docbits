@@ -4,7 +4,7 @@
 
 <summary>Che tipi di documenti supporta DocBits?</summary>
 
-### Tipi di documenti supportati
+#### Tipi di documenti supportati
 
 * Fattura
 * Nota di credito
@@ -15,8 +15,6 @@
 
 </details>
 
-
-
 <details>
 
 <summary>DocBits supporta tipi di documenti personalizzati?</summary>
@@ -25,13 +23,11 @@ Sì, gli utenti sono in grado di creare i propri tipi di documenti.
 
 </details>
 
-
-
 <details>
 
 <summary>Quali tipi di file supporta DocBits?</summary>
 
-#### I tipi di file supportati sono:
+**I tipi di file supportati sono:**
 
 * .pdf
 * .edi
@@ -41,4 +37,3 @@ Sì, gli utenti sono in grado di creare i propri tipi di documenti.
 * .png
 
 </details>
-

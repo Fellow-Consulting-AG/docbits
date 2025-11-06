@@ -18,7 +18,7 @@
       * [il valore deve essere numerico.](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/request-validation-attr.-receiptline-value-the-value-must-be-numeric..md)
       * [non trovato nel addebito diretto](overview-and-basics/faq/infor-ln-ln-integration/export-error-error-exporting-document-to-ln.-status-code-500/not-found-in-direct-debit.md)
   * [Infor M3 (Integrazione M3)](overview-and-basics/faq/infor-m3-m3-integration/README.md)
-    * [Gli elementi di costo non sono configurati correttamente. Si prega di chiedere all'amministratore di configurarli.](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
+    * [Gli elementi di costo non sono configurati correttamente. Si prega di chiedere all'amministratore di](overview-and-basics/faq/infor-m3-m3-integration/costing-elements-are-not-properly-configured.-please-ask-your-admin-to-configure-it..md)
     * [Guida diagnostica all'esportazione dell'API M3](overview-and-basics/faq/infor-m3-m3-integration/m3-api-export-diagnostic-guide.md)
 
 ## Sezione Utenti finali e partner <a href="#end-user-and-partner-section" id="end-user-and-partner-section"></a>
@@ -239,7 +239,7 @@
   * [Installazione di WatchDog](administration-and-setup/setup/watchdog-installation.md)
 * [Pagina del Report](administration-and-setup/report-page.md)
 
-## Integrazione e Configurazione Infor
+## Integrazione e Configurazione Infor <a href="#infor-integration-and-configuration" id="infor-integration-and-configuration"></a>
 
 * [Importazione Dati Master](infor-integration-and-configuration/importing-customer-master-data/README.md)
   * [Mappature dei Campi](infor-integration-and-configuration/importing-customer-master-data/field-mappings.md)
