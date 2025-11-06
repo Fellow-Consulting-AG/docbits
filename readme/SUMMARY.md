@@ -248,7 +248,7 @@
     * [Fornecedores e Pedidos de Compra](infor-integration-and-configuration/importing-customer-master-data/ln/suppliers-and-purchase-orders.md)
     * [Códigos Fiscais](infor-integration-and-configuration/importing-customer-master-data/ln/tax-codes.md)
   * [M3](infor-integration-and-configuration/importing-customer-master-data/m3/README.md)
-    * [Import from Infor M3 to DocBits via API](infor-integration-and-configuration/importing-customer-master-data/m3/import-from-infor-m3-to-docbits-via-api.md)
+    * [Importar do Infor M3 para o DocBits via API](infor-integration-and-configuration/importing-customer-master-data/m3/import-from-infor-m3-to-docbits-via-api.md)
     * [BOD-Mappings](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/README.md)
       * [Supplier BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/supplier-bod-mapping.md)
       * [Purchase Order BOD Mapping](infor-integration-and-configuration/importing-customer-master-data/m3/bod-mappings/purchase-order-bod-mapping.md)
