@@ -2,7 +2,7 @@
 
 ## Register App on Azure AD
 
-**Note:** The permissions may require authorization from an administrator.
+<mark style="color:red;">**Note**</mark>: The permissions may require authorization from an administrator.
 
 1. Sign in to the [Azure Portal](https://portal.azure.com/) using your credentials.
 2. From Azure services, locate and open Azure Active Directory (also known as Azure AD).
