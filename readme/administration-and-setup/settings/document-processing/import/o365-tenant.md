@@ -19,41 +19,41 @@
 
 5. The **Register an application** screen displays. Enter the user-facing display name for the App in **Name**.
 
-6. <figure><img src="../../../../.gitbook/assets/o365_tenant_4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_4.png" alt=""><figcaption></figcaption></figure>
 
-    Select one of the following account types depending on your needs:
+6. Select one of the following account types depending on your needs:
 
-* **Accounts in any organizational directory (Any Azure AD directory  Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)**
+* **Accounts in any organizational directory (Any Azure AD directory  Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)**
+* **Accounts in any organizational directory (Any Azure AD directory  Multitenant)**
 
-* <figure><img src="../../../../.gitbook/assets/o365_tenant_5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_5.png" alt=""><figcaption></figcaption></figure>
 
-    **Accounts in any organizational directory (Any Azure AD directory  Multitenant)**
+7. Leave the option **Redirect URI (optional)** as is.
 
-7. <figure><img src="../../../../.gitbook/assets/o365_tenant_6.png" alt=""><figcaption></figcaption></figure>
-
-    Leave the option **Redirect URI (optional)** as is.
+<figure><img src="../../../../.gitbook/assets/o365_tenant_6.png" alt=""><figcaption></figcaption></figure>
 
 8. Click **Register** to complete the App registration. This will return you to the screen for the new App.
 
-9. <figure><img src="../../../../.gitbook/assets/o365_tenant_7.png" alt=""><figcaption></figcaption></figure>
+9. In the App screen, locate the **Application (client) ID**. Copy it to be used when configuring email import for Docbits.
 
-    In the App screen, locate the **Application (client) ID**. Copy it to be used when configuring email import for Docbits.
+<figure><img src="../../../../.gitbook/assets/o365_tenant_7.png" alt=""><figcaption></figcaption></figure>
 
-10. <figure><img src="../../../../.gitbook/assets/o365_tenant_8.png" alt=""><figcaption></figcaption></figure>
+10. From left panel, select **Certificates & secrets**:
 
-    From left panel, select **Certificates & secrets**:
-
-<figure><img src="../../../../.gitbook/assets/o365_tenant_9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_8.png" alt=""><figcaption></figcaption></figure>
 
 11. In the **Certificates & secrets** screen, click on **+ New client secret** button under **Client secrets** section:
 
-12. <figure><img src="../../../../.gitbook/assets/o365_tenant_10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_9.png" alt=""><figcaption></figcaption></figure>
 
-    In the **Add a client secret** dialog box, click the **Add** button:
+12. In the **Add a client secret** dialog box, click the **Add** button:
+
+<figure><img src="../../../../.gitbook/assets/o365_tenant_10.png" alt=""><figcaption></figcaption></figure>
+
+It is recommended to fill in a description to identify this secret among many (as of now the limit is 2 secrets per App).
 
 <figure><img src="../../../../.gitbook/assets/o365_tenant_11.png" alt=""><figcaption></figcaption></figure>
 
-It is recommended to fill in a description to identify this secret among many (as of now the limit is 2 secrets per App).
 **Note:** Select this expiration date according to your company policy. Once expired, a new client secret will need to be created and specified for each email configuration where it was used previously.
 
 13. The newly generated client secret will be visible. Copy this client secret to be used when configuring email import for DocBits
@@ -68,43 +68,44 @@ It is recommended to fill in a description to identify this secret among many (a
 
 15. In the **Advanced settings** section, click **Yes** for **Default client type**.
 
-16. <figure><img src="../../../../.gitbook/assets/o365_tenant_14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_14.png" alt=""><figcaption></figcaption></figure>
 
-    Click **Save** to confirm changes.
+16. Click **Save** to confirm changes.
 
-    <figure><img src="../../../../.gitbook/assets/o365_tenant_15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_15.png" alt=""><figcaption></figcaption></figure>
 
 17. Select **API permissions** on the left panel. This will present the API permissions screen.
 
-    <figure><img src="../../../../.gitbook/assets/o365_tenant_16.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_16.png" alt=""><figcaption></figcaption></figure>
 
 18. By default the **User.Read** permission from **Microsoft Graph** is present, leave this as is.
 
-    <figure><img src="../../../../.gitbook/assets/o365_tenant_17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_17.png" alt=""><figcaption></figcaption></figure>
 
 **Note:** This is a required permission. If this permission is not available, then add the permission with the steps mentioned below for **Mail.ReadWrite** permission.
 
 19. Click **+ Add a permission**.This will open the **Request API permissions** panel.
 
-    <figure><img src="../../../../.gitbook/assets/o365_tenant_18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_18.png" alt=""><figcaption></figcaption></figure>
 
-20. <figure><img src="../../../../.gitbook/assets/o365_tenant_19.png" alt=""><figcaption></figcaption></figure>
+20. Click **Microsoft Graph**.
 
-    Click **Microsoft Graph**.
+<figure><img src="../../../../.gitbook/assets/o365_tenant_19.png" alt=""><figcaption></figcaption></figure>
 
 21. From the two sub-categories, select **Delegated permissions**.
 
-    <figure><img src="../../../../.gitbook/assets/o365_tenant_20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_20.png" alt=""><figcaption></figcaption></figure>
 
 22. Type **Mail.ReadWrite** in the search box. Select the **Mail.ReadWrite** checkbox for the permission.
 
-    <figure><img src="../../../../.gitbook/assets/o365_tenant_21.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_21.png" alt=""><figcaption></figcaption></figure>
 
 23. This will enable the **Add permissions** button at the bottom of the panel. Click **Add permissions**.
 
-    <figure><img src="../../../../.gitbook/assets/o365_tenant_22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/o365_tenant_22.png" alt=""><figcaption></figcaption></figure>
 
 24. This will add the **Mail.ReadWrite** permission to the list of **Configured permissions** for the App.
-  **Note:** Administrator permissions may be required. The administrator will have to authorize the App for using these permissions. Once authorized the granted status will be indicated as follows:
 
-    <figure><img src="../../../../.gitbook/assets/o365_tenant_23.png" alt=""><figcaption></figcaption></figure>
+**Note:** Administrator permissions may be required. The administrator will have to authorize the App for using these permissions. Once authorized the granted status will be indicated as follows:
+
+<figure><img src="../../../../.gitbook/assets/o365_tenant_23.png" alt=""><figcaption></figcaption></figure>
