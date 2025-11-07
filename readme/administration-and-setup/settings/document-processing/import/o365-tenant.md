@@ -23,8 +23,8 @@
 
 6. Select one of the following account types depending on your needs:
 
-* **Accounts in any organizational directory (Any Azure AD directory  Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)**
-* **Accounts in any organizational directory (Any Azure AD directory  Multitenant)**
+* **Accounts in any organizational directory (Any Azure AD directory Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)**
+* **Accounts in any organizational directory (Any Azure AD directory Multitenant)**
 
 <figure><img src="../../../../.gitbook/assets/o365_tenant_5.png" alt=""><figcaption></figcaption></figure>
 
@@ -33,8 +33,7 @@
 <figure><img src="../../../../.gitbook/assets/o365_tenant_6.png" alt=""><figcaption></figcaption></figure>
 
 8. Click **Register** to complete the App registration. This will return you to the screen for the new App.
-
-9. In the App screen, locate the **Application (client) ID**. Copy it to be used when configuring email import for Docbits.
+9. In the App screen, locate the **Application (client) ID**. Copy it to be used when configuring email import for **DocBits**.
 
 <figure><img src="../../../../.gitbook/assets/o365_tenant_7.png" alt=""><figcaption></figcaption></figure>
 
@@ -54,7 +53,7 @@ It is recommended to fill in a description to identify this secret among many (a
 
 <figure><img src="../../../../.gitbook/assets/o365_tenant_11.png" alt=""><figcaption></figcaption></figure>
 
-**Note:** Select this expiration date according to your company policy. Once expired, a new client secret will need to be created and specified for each email configuration where it was used previously.
+<mark style="color:red;">**Note**</mark>: Select this expiration date according to your company policy. Once expired, a new client secret will need to be created and specified for each email configuration where it was used previously.
 
 13. The newly generated client secret will be visible. Copy this client secret to be used when configuring email import for DocBits
 
@@ -82,7 +81,7 @@ It is recommended to fill in a description to identify this secret among many (a
 
 <figure><img src="../../../../.gitbook/assets/o365_tenant_17.png" alt=""><figcaption></figcaption></figure>
 
-**Note:** This is a required permission. If this permission is not available, then add the permission with the steps mentioned below for **Mail.ReadWrite** permission.
+<mark style="color:red;">**Note**</mark>: This is a required permission. If this permission is not available, then add the permission with the steps mentioned below for **Mail.ReadWrite** permission.
 
 19. Click **+ Add a permission**.This will open the **Request API permissions** panel.
 
@@ -106,6 +105,6 @@ It is recommended to fill in a description to identify this secret among many (a
 
 24. This will add the **Mail.ReadWrite** permission to the list of **Configured permissions** for the App.
 
-**Note:** Administrator permissions may be required. The administrator will have to authorize the App for using these permissions. Once authorized the granted status will be indicated as follows:
+<mark style="color:red;">**Note**</mark>: Administrator permissions may be required. The administrator will have to authorize the App for using these permissions. Once authorized the granted status will be indicated as follows:
 
 <figure><img src="../../../../.gitbook/assets/o365_tenant_23.png" alt=""><figcaption></figcaption></figure>
