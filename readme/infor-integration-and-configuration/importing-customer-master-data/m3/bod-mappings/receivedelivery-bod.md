@@ -50,10 +50,6 @@ invoiced_quantity = "//ns:ReceiveDeliveryItem[{index}]/ns:UserArea/ns:Property/n
 
 <mark style="color:red;">**Nota**</mark>: A quantidade faturada só será utilizada se o nó existir em UserArea com o nome InvoicedQuantity.
 
-`purchase_order_sub_line_number = "//ns:ReceiveDeliveryItem[{index}]//ns:DataArea/ns:ReceiveDelivery/ns:ReceiveDeliveryHeader/ns:UserArea/ns:Property/ns:NameValue[@name='PO LineSubNumber']"` \
-`OR`\
-`"//ns:ReceiveDeliveryItem[{index}]/ns:PurchaseOrderReference/ns:SubLineNumber"` `OR` `"//ns:ReceiveDeliveryItem[{index}]/ns:PurchaseOrderReference/ns:ScheduleLineNumber"`
-
 ```python
 purchase_order_sub_line_number =
 "//ns:ReceiveDeliveryItem[{index}]//ns:DataArea/ns:ReceiveDelivery/ns:ReceiveDeliveryHeader/ns:UserArea/ns:Property/ns:NameValue[@name='PO LineSubNumber']"
