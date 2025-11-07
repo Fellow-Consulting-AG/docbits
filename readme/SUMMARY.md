@@ -229,6 +229,7 @@
   * [Documentverwerking](administration-and-setup/settings/document-processing/README.md)
     * [Documents Expiry](administration-and-setup/settings/document-processing/documents-expiry.md)
     * [Importeren](administration-and-setup/settings/document-processing/import/README.md)
+      * [O365 Tenant](administration-and-setup/settings/document-processing/import/o365-tenant.md)
       * [Test: Multi Email Import and Handling Tests](administration-and-setup/settings/document-processing/import/test-multi-email-import-and-handling-tests.md)
       * [Test: Email Import and Handling Tests](administration-and-setup/settings/document-processing/import/test-email-import-and-handling-tests.md)
       * [Test: FTP Import Connection](administration-and-setup/settings/document-processing/import/test-ftp-import-connection.md)
