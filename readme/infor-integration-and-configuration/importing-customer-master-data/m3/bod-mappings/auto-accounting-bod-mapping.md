@@ -4,9 +4,23 @@
 
 → DocBits Master Data Lookup Table: **m3flexdimension**
 
+#### Caso 1: Lo stesso ID appare in più Dimensioni
+
 ```json
 {
     "ID": "concat(substring(//DataArea/CodeDefinition/CodeValue/@listID,21),'_',//DataArea/CodeDefinition/DocumentID/ID)",
+    "Dimension": "substring(//DataArea/CodeDefinition/CodeValue/@listID,21)",
+    "ListID": "//DataArea/CodeDefinition/ListID",
+    "CodeValue": "//DataArea/CodeDefinition/CodeValue",
+    "Description": "//DataArea/CodeDefinition/Description"
+}
+```
+
+#### Caso 2: L'ID appare in una singola Dimensione
+
+```json
+{
+    "ID": "//DataArea/CodeDefinition/DocumentID/ID",
     "Dimension": "substring(//DataArea/CodeDefinition/CodeValue/@listID,21)",
     "ListID": "//DataArea/CodeDefinition/ListID",
     "CodeValue": "//DataArea/CodeDefinition/CodeValue",
