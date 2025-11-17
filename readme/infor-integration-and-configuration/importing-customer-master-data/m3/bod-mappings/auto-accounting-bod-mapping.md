@@ -5,8 +5,10 @@
 → DocBits Master Data Lookup Table: **m3flexdimension**
 
 ```json
+concat(substring(//DataArea/CodeDefinition/CodeValue/@listID,21),'_',//DataArea/CodeDefinition/CodeValue)
+ 
 {
-    "ID": "//DataArea/CodeDefinition/DocumentID/ID",
+    "ID": "concat(substring(//DataArea/CodeDefinition/CodeValue/@listID,21),'_',//DataArea/CodeDefinition/DocumentID/ID)",
     "Dimension": "substring(//DataArea/CodeDefinition/CodeValue/@listID,21)",
     "ListID": "//DataArea/CodeDefinition/ListID",
     "CodeValue": "//DataArea/CodeDefinition/CodeValue",
