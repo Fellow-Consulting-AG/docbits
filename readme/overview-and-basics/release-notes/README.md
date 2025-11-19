@@ -1,5 +1,51 @@
 # Release Notes
 
+## Release Winter 10th December 2025
+
+### DocBits enhancements:
+
+*   **Support for Multiple Supplier Financial Accounts:**\
+    DocBits now supports multiple financial accounts for suppliers through the RemitToPartyMaster BOD from Infor. A new configuration setting is available to activate this feature.
+
+    <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
+*   **Add User Access to OCR Extraction Results:**\
+    The OCR View button on the Field Validation screen is now accessible to all users with validation access, not just administrators, allowing all users to review OCR extraction results and search for specific content across documents.
+
+    <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
+* **Dynamic Column Rendering in Approval Screens:**\
+  Enhanced approval views to dynamically display only the columns configured for comparison in each organization’s database preferences. Previously, columns like Unit Code and Promised Delivery Date would appear empty when not configured for comparison, causing confusion. Now, approval views only show fields that are actively being compared. This provides clearer, organization-specific approval screens without empty or irrelevant columns.
+* **Order Type Field Added to Master Data Lookup**:\
+  Purchase order header list now includes an "Order Type" (type\_code) column in master data lookup, providing additional categorization capabilities.
+* **Custom Filter Dashboard Improvements:**\
+  Enhanced dashboard sharing functionality by allowing shared users to edit dashboard filters. Users who have dashboards shared with them can now modify the filters for a more flexible and personalized view.
+* **Customizable Prefixes for Approval Screen Columns:**\
+  Added a configurable option to display prefixes before document columns on approval screens. The prefix can be set in the layout builder, allowing users to choose whether prefixes appear and which document types they apply to.\
+
+
+### General Improvements
+
+* Improved error logging for poorly trained tables in table extraction.
+* Added a sharing limit for dashboards of up to 10 users or 5 groups, along with a clear error message when the limit is reached.
+* Improved error handling for custom dashboards when a user attempts to create a dashboard with a name that already exists.
+
+### Bug Fixes:
+
+* Fixed an issue where emails appeared to send successfully from the Supplier Details section but were not delivered to recipients.
+* Fixed an issue where Dropdown fields added to approval/rejection screens didn't display.
+* Fixed an issue where all exported documents were marked as last updated by wrong user.
+* Fixed an issue where FTP imports were not picking up documents.
+* Fixed an issue where documents showed "Workflow in Progress" status but no workflows executed and log stayed empty.
+* Fixed an issue where unrelated users were being assigned to documents at export time without performing any work on them.
+* Fixed an issue where users with correct permissions were unable to reject assigned documents and received errors.
+* Fixed an issue where document flow icons were not displaying for some organizations.
+* Fixed an issue where a popup appeared when uploading documents with drag and drop to the dashboard.
+* Fixed an issue where E-TEXT flags were showing as enabled in the UI even though API response showed all values as false.
+* Fixed an issue where an error occurred when uploading documents containing blank pages.
+* Fixed an issue where task hyperlinks in email notifications were using the v2 approval URL instead of v3.
+* Fixed an issue where Master Data Lookup did not display any suppliers when "Cross" sub-org was selected, preventing users from viewing cross-organizational supplier data.
+* Fixed an issue where documents uploaded in Cross were not being assigned to a sub-org ID.
+* Fixed an issue where inbound email imports failed for senders with capital letters in their email addresses due to case-sensitive email comparison.
+
 ## Release Autumn Summit 22nd October 2025
 
 ### DocBits enhancements:
@@ -90,7 +136,7 @@
 * **Microservices Architecture Implementation:**\
   We've restructured the platform by splitting core components into dedicated microservices. This architectural shift enhances scalability, improves system performance, and enables faster, more modular development and deployment cycles.
 *   **Walkthrough:**\
-    A guided walkthrough is now available to help users navigate and understand different parts of the application more easily. This is especially useful for onboarding new users or exploring unfamiliar features.\\
+    A guided walkthrough is now available to help users navigate and understand different parts of the application more easily. This is especially useful for onboarding new users or exploring unfamiliar features.
 
     <figure><img src="../../.gitbook/assets/image (430) (1).png" alt=""><figcaption></figcaption></figure>
 * **Decision Tree Improvements:**\
@@ -127,7 +173,7 @@
 * **Supplier AI Model List in Settings:**\
   A new settings view displays the AI models assigned to specific suppliers, along with an option to reset them. This improves transparency and manageability of supplier-based AI configurations.
 *   **Document Log Improvements:**\
-    The document logs now include more detailed information to support better auditing and troubleshooting.\\
+    The document logs now include more detailed information to support better auditing and troubleshooting.
 
     <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * **PNG and JPG Support:**\
