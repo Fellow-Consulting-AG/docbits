@@ -1,6 +1,54 @@
 # Release-Notizen
 
-## Release Autumn Summit 15. Oktober 2025
+## Release Winter 10. Dezember 2025
+
+### DocBits-Verbesserungen:
+
+* **Erweiterte Anpassung der PO-Matching-Regeln:**\
+  DocBits bietet jetzt eine granulare Kontrolle über Bestellabgleichsregeln. Sie können genau festlegen, welche Spalten für jeden Dokumenttyp abgeglichen werden sollen, Toleranzen pro Spalte definieren und wählen, ob jede Regel für manuelles Abgleichen, automatisches Abgleichen oder beides gilt. Diese Verbesserungen geben Benutzern die Flexibilität, den Abgleichsprozess auf ihre spezifischen betrieblichen Anforderungen abzustimmen.
+*   **Unterstützung für mehrere Finanzkonten von Lieferanten:**\
+    DocBits unterstützt jetzt mehrere Finanzkonten für Lieferanten über das RemitToPartyMaster BOD von Infor. Eine neue Konfigurationseinstellung ist verfügbar, um diese Funktion zu aktivieren.
+
+    <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
+*   **Benutzerzugriff auf OCR-Extraktionsergebnisse hinzufügen:**\
+    Die Schaltfläche OCR-Ansicht auf dem Feldvalidierungsbildschirm ist jetzt für alle Benutzer mit Validierungszugriff zugänglich, nicht nur für Administratoren, sodass alle Benutzer OCR-Extraktionsergebnisse überprüfen und nach bestimmten Inhalten in Dokumenten suchen können.
+
+    <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
+* **Dynamische Spaltendarstellung in Genehmigungsbildschirmen:**\
+  Erweiterte Genehmigungsansichten, um dynamisch nur die Spalten anzuzeigen, die für den Vergleich in den Datenbankeinstellungen jeder Organisation konfiguriert sind. Zuvor wurden Spalten wie Unit Code und Promised Delivery Date leer angezeigt, wenn sie nicht für den Vergleich konfiguriert waren, was zu Verwirrung führte. Jetzt zeigen Genehmigungsansichten nur Felder an, die aktiv verglichen werden. Dies bietet klarere, organisationsspezifische Genehmigungsbildschirme ohne leere oder irrelevante Spalten.
+* **Bestelltyp-Feld zur Stammdatenabfrage hinzugefügt**:\
+  Die Bestellkopfliste enthält jetzt eine "Bestelltyp"-Spalte (type\_code) in der Stammdatenabfrage, die zusätzliche Kategorisierungsmöglichkeiten bietet.
+* **Verbesserungen des benutzerdefinierten Filter-Dashboards:**\
+  Erweiterte Dashboard-Freigabefunktionalität, indem freigegebenen Benutzern erlaubt wurde, Dashboard-Filter zu bearbeiten. Benutzer, für die Dashboards freigegeben wurden, können jetzt die Filter ändern, um eine flexiblere und personalisiertere Ansicht zu erhalten.
+* **Anpassbare Präfixe für Genehmigungsbildschirmspalten:**\
+  Eine konfigurierbare Option wurde hinzugefügt, um Präfixe vor Dokumentspalten auf Genehmigungsbildschirmen anzuzeigen. Das Präfix kann im Layout-Builder festgelegt werden, sodass Benutzer wählen können, ob Präfixe angezeigt werden und auf welche Dokumenttypen sie angewendet werden.\
+
+
+### Allgemeine Verbesserungen
+
+* Verbesserte Fehlerprotokollierung für schlecht trainierte Tabellen bei der Tabellenextraktion.
+* Eine Freigabegrenze für Dashboards von bis zu 10 Benutzern oder 5 Gruppen wurde hinzugefügt, zusammen mit einer klaren Fehlermeldung, wenn die Grenze erreicht ist.
+* Verbesserte Fehlerbehandlung für benutzerdefinierte Dashboards, wenn ein Benutzer versucht, ein Dashboard mit einem Namen zu erstellen, der bereits existiert.
+
+### Fehlerbehebungen:
+
+* Ein Problem wurde behoben, bei dem E-Mails erfolgreich aus dem Abschnitt Lieferantendetails gesendet zu werden schienen, aber nicht an Empfänger zugestellt wurden.
+* Ein Problem wurde behoben, bei dem Dropdown-Felder, die zu Genehmigungs-/Ablehnungsbildschirmen hinzugefügt wurden, nicht angezeigt wurden.
+* Ein Problem wurde behoben, bei dem alle exportierten Dokumente als zuletzt aktualisiert vom falschen Benutzer markiert wurden.
+* Ein Problem wurde behoben, bei dem FTP-Importe keine Dokumente abholten.
+* Ein Problem wurde behoben, bei dem Dokumente den Status "Workflow in Bearbeitung" anzeigten, aber keine Workflows ausgeführt wurden und das Protokoll leer blieb.
+* Ein Problem wurde behoben, bei dem nicht verwandte Benutzer Dokumenten zum Exportzeitpunkt zugewiesen wurden, ohne daran gearbeitet zu haben.
+* Ein Problem wurde behoben, bei dem Benutzer mit korrekten Berechtigungen zugewiesene Dokumente nicht ablehnen konnten und Fehler erhielten.
+* Ein Problem wurde behoben, bei dem Dokumentfluss-Symbole für einige Organisationen nicht angezeigt wurden.
+* Ein Problem wurde behoben, bei dem ein Popup erschien, wenn Dokumente per Drag & Drop auf das Dashboard hochgeladen wurden.
+* Ein Problem wurde behoben, bei dem E-TEXT-Flags in der Benutzeroberfläche als aktiviert angezeigt wurden, obwohl die API-Antwort alle Werte als falsch anzeigte.
+* Ein Problem wurde behoben, bei dem ein Fehler auftrat, wenn Dokumente mit leeren Seiten hochgeladen wurden.
+* Ein Problem wurde behoben, bei dem Aufgaben-Hyperlinks in E-Mail-Benachrichtigungen die v2-Genehmigungs-URL anstelle von v3 verwendeten.
+* Ein Problem wurde behoben, bei dem die Stammdatenabfrage keine Lieferanten anzeigte, wenn die "Cross"-Unterorganisation ausgewählt war, wodurch Benutzer daran gehindert wurden, organisationsübergreifende Lieferantendaten anzuzeigen.
+* Ein Problem wurde behoben, bei dem in Cross hochgeladene Dokumente keiner Unterorganisations-ID zugewiesen wurden.
+* Ein Problem wurde behoben, bei dem eingehende E-Mail-Importe für Absender mit Großbuchstaben in ihren E-Mail-Adressen aufgrund groß-/kleinschreibungssensitiver E-Mail-Vergleiche fehlschlugen.
+
+## Release Autumn Summit 22. Oktober 2025
 
 ### DocBits-Verbesserungen:
 
