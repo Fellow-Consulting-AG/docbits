@@ -4,27 +4,26 @@
 
 ### DocBits verbeteringen:
 
-* **Verbeterde PO-Matching Regel Aanpassing:**\
-  DocBits biedt nu nauwkeurige controle over inkooporder matching regels. U kunt precies configureren welke kolommen moeten worden gematcht voor elk documenttype, toleranties per kolom definiëren en kiezen of elke regel van toepassing is op handmatige matching, automatische matching of beide. Deze verbeteringen geven gebruikers de flexibiliteit om het matching proces af te stemmen op hun specifieke operationele behoeften.
-*   **Ondersteuning voor Meerdere Financiële Accounts voor Leveranciers:**\
-    DocBits ondersteunt nu meerdere financiële accounts voor leveranciers via de RemitToPartyMaster BOD van Infor. Een nieuwe configuratie-instelling is beschikbaar om deze functie te activeren.
+* **Verbeterde aanpassing van PO-matchingregels:**\
+  DocBits biedt nu meer gedetailleerde en aanpasbare controle over inkooporder-matchingregels. Beheerders kunnen precies configureren welke kolommen moeten worden geëvalueerd tijdens het matchingproces voor elk documenttype, waardoor ervoor wordt gezorgd dat alleen de meest relevante velden worden overwogen. Bovendien kunnen toleranties op kolomniveau worden gedefinieerd, wat meer flexibiliteit biedt bij het omgaan met kleine afwijkingen. Elke regel kan ook worden geconfigureerd om te worden toegepast op handmatige matching, automatische matching of beide, waardoor teams de mogelijkheid krijgen om de matchingworkflow af te stemmen op hun exacte operationele vereisten. Deze verbeteringen verbeteren de aanpasbaarheid en precisie van het inkooporder-matchingproces aanzienlijk.
+*   **Ondersteuning voor meerdere financiële accounts van leveranciers:**\
+    DocBits ondersteunt nu het beheren van meerdere financiële accounts voor leveranciers via de RemitToPartyMaster BOD die door Infor wordt geleverd. Deze verbetering stelt organisaties in staat om meerdere remit-to accountrecords voor een enkele leverancier bij te houden, wat de flexibiliteit en nauwkeurigheid bij betalingsverwerking verbetert. Er is een nieuwe configuratie-instelling geïntroduceerd om deze mogelijkheid in of uit te schakelen, waardoor beheerders de functie kunnen activeren op basis van hun operationele behoeften.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
-*   **Gebruikerstoegang Toevoegen aan OCR Extractie Resultaten:**\
-    De OCR Weergave knop op het Veldvalidatie scherm is nu toegankelijk voor alle gebruikers met validatietoegang, niet alleen beheerders, waardoor alle gebruikers OCR extractieresultaten kunnen bekijken en specifieke inhoud in documenten kunnen zoeken.
+*   **Gebruikerstoegang toegevoegd aan OCR-extractieresultaten:**\
+    De knop **OCR-weergave** op het veldvalidatiescherm is nu beschikbaar voor alle gebruikers die validatietoegang hebben, in plaats van beperkt te zijn tot beheerders. Met deze update kan elke geautoriseerde gebruiker OCR-extractieresultaten direct bekijken, waardoor het gemakkelijker wordt om de nauwkeurigheid van gegevens te valideren en de algehele OCR-prestaties te monitoren. Deze verbetering bevordert meer transparantie en verbetert de efficiëntie van de validatieworkflow.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
-* **Dynamische Kolomweergave in Goedkeuringsschermen:**\
-  Verbeterde goedkeuringsweergaven om alleen de kolommen dynamisch weer te geven die zijn geconfigureerd voor vergelijking in de databasevoorkeuren van elke organisatie. Eerder zouden kolommen zoals Unit Code en Beloofde Leverdatum leeg verschijnen wanneer ze niet waren geconfigureerd voor vergelijking, wat verwarring veroorzaakte. Nu tonen goedkeuringsweergaven alleen velden die actief worden vergeleken. Dit biedt duidelijkere, organisatie-specifieke goedkeuringsschermen zonder lege of irrelevante kolommen.
-* **Ordertype Veld Toegevoegd aan Master Data Lookup**:\
-  De lijst met inkooporder headers bevat nu een "Ordertype" (type\_code) kolom in de master data lookup, wat extra categorisatiemogelijkheden biedt.
-* **Aangepaste Filter Dashboard Verbeteringen:**\
-  Verbeterde dashboard deelfunctionaliteit door gedeelde gebruikers toe te staan dashboardfilters te bewerken. Gebruikers met wie dashboards worden gedeeld, kunnen nu de filters aanpassen voor een flexibeler en gepersonaliseerder overzicht.
-* **Aanpasbare Voorvoegsels voor Goedkeuringsscherm Kolommen:**\
-  Een configureerbare optie toegevoegd om voorvoegsels weer te geven voor documentkolommen op goedkeuringsschermen. Het voorvoegsel kan worden ingesteld in de layout builder, waardoor gebruikers kunnen kiezen of voorvoegsels verschijnen en op welke documenttypen ze van toepassing zijn.\
+* **Dynamische kolomweergave in goedkeuringsschermen:**\
+  Verbeterde goedkeuringsweergaven om dynamisch alleen de kolommen weer te geven die zijn geconfigureerd voor vergelijking in de databasevoorkeuren van elke organisatie. Eerder verschenen kolommen zoals Unit Code en Promised Delivery Date leeg wanneer ze niet waren geconfigureerd voor vergelijking, wat verwarring veroorzaakte. Nu tonen goedkeuringsweergaven alleen velden die actief worden vergeleken. Dit biedt duidelijkere, organisatie-specifieke goedkeuringsschermen zonder lege of irrelevante kolommen.
+* **Ordertypeveld toegevoegd aan masterdataopzoekfunctie**:\
+  De inkooporderkoplijst bevat nu een kolom "Order Type" (type\_code) in de masterdataopzoekfunctie, wat extra categorisatiemogelijkheden biedt.
+* **Verbeteringen aangepast filterdashboard:**\
+  De dashboard-deelfunctionaliteit is verbeterd om meer flexibiliteit te bieden aan gedeelde gebruikers. Personen met wie dashboards worden gedeeld, kunnen nu de dashboardfilters aanpassen en bewerken, waardoor ze de weergegeven informatie kunnen afstemmen op hun specifieke behoeften. Deze verbetering ondersteunt een meer gepersonaliseerde en interactieve kijkervaring, zodat gebruikers gemakkelijk de data-inzichten kunnen verfijnen die het meest relevant zijn voor hun taken.
+* **Aanpasbare voorvoegsels voor goedkeuringsschermkolommen:**\
+  Er is een nieuwe configureerbare optie geïntroduceerd om voorvoegsels weer te geven vóór documentkolommen op goedkeuringsschermen. Deze functie kan rechtstreeks binnen de layout builder worden beheerd, waardoor beheerders volledige controle hebben over of voorvoegsels worden weergegeven en op welke documenttypen ze van toepassing zijn. Door deze optie in te schakelen, krijgen gebruikers duidelijker context en verbeterde leesbaarheid bij het beoordelen van documenten tijdens het goedkeuringsproces.
 
-
-### Algemene Verbeteringen
+### Algemene verbeteringen
 
 * Verbeterde foutlogging voor slecht getrainde tabellen in tabel extractie.
 * Een deellimiet toegevoegd voor dashboards van maximaal 10 gebruikers of 5 groepen, samen met een duidelijke foutmelding wanneer de limiet is bereikt.
