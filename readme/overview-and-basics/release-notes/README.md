@@ -5,24 +5,23 @@
 ### DocBits-Verbesserungen:
 
 * **Erweiterte Anpassung der PO-Matching-Regeln:**\
-  DocBits bietet jetzt eine granulare Kontrolle über Bestellabgleichsregeln. Sie können genau festlegen, welche Spalten für jeden Dokumenttyp abgeglichen werden sollen, Toleranzen pro Spalte definieren und wählen, ob jede Regel für manuelles Abgleichen, automatisches Abgleichen oder beides gilt. Diese Verbesserungen geben Benutzern die Flexibilität, den Abgleichsprozess auf ihre spezifischen betrieblichen Anforderungen abzustimmen.
+  DocBits bietet nun eine präzisere und anpassbarere Kontrolle über Bestellabgleichsregeln. Administratoren können genau festlegen, welche Spalten während des Abgleichsprozesses für jeden Dokumenttyp ausgewertet werden sollen, um sicherzustellen, dass nur die relevantesten Felder berücksichtigt werden. Zusätzlich können Toleranzen auf Spaltenebene definiert werden, was eine größere Flexibilität bei der Behandlung kleinerer Abweichungen ermöglicht. Jede Regel kann so konfiguriert werden, dass sie für manuellen Abgleich, automatischen Abgleich oder beides gilt, wodurch Teams die Möglichkeit erhalten, den Abgleichsworkflow genau an ihre betrieblichen Anforderungen anzupassen. Diese Verbesserungen erhöhen die Anpassungsfähigkeit und Präzision des Bestellabgleichsprozesses erheblich.
 *   **Unterstützung für mehrere Finanzkonten von Lieferanten:**\
-    DocBits unterstützt jetzt mehrere Finanzkonten für Lieferanten über das RemitToPartyMaster BOD von Infor. Eine neue Konfigurationseinstellung ist verfügbar, um diese Funktion zu aktivieren.
+    DocBits unterstützt nun die Verwaltung mehrerer Finanzkonten für Lieferanten über die von Infor bereitgestellte RemitToPartyMaster BOD. Diese Verbesserung ermöglicht es Organisationen, mehrere Zahlungsempfänger-Kontodatensätze für einen einzelnen Lieferanten zu verwalten, was die Flexibilität und Genauigkeit bei der Zahlungsabwicklung verbessert. Eine neue Konfigurationseinstellung wurde eingeführt, um diese Funktion zu aktivieren oder zu deaktivieren, sodass Administratoren die Funktion basierend auf ihren betrieblichen Anforderungen aktivieren können.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
-*   **Benutzerzugriff auf OCR-Extraktionsergebnisse hinzufügen:**\
-    Die Schaltfläche OCR-Ansicht auf dem Feldvalidierungsbildschirm ist jetzt für alle Benutzer mit Validierungszugriff zugänglich, nicht nur für Administratoren, sodass alle Benutzer OCR-Extraktionsergebnisse überprüfen und nach bestimmten Inhalten in Dokumenten suchen können.
+*   **Benutzerzugriff auf OCR-Extraktionsergebnisse hinzugefügt:**\
+    Die Schaltfläche **OCR-Ansicht** auf dem Feldvalidierungsbildschirm ist jetzt für alle Benutzer verfügbar, die Validierungszugriff haben, und nicht mehr nur auf Administratoren beschränkt. Mit diesem Update kann jeder autorisierte Benutzer OCR-Extraktionsergebnisse direkt überprüfen, was die Validierung der Datengenauigkeit erleichtert und die Überwachung der gesamten OCR-Leistung verbessert. Diese Verbesserung fördert größere Transparenz und verbessert die Effizienz des Validierungsworkflows.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
-* **Dynamische Spaltendarstellung in Genehmigungsbildschirmen:**\
-  Erweiterte Genehmigungsansichten, um dynamisch nur die Spalten anzuzeigen, die für den Vergleich in den Datenbankeinstellungen jeder Organisation konfiguriert sind. Zuvor wurden Spalten wie Unit Code und Promised Delivery Date leer angezeigt, wenn sie nicht für den Vergleich konfiguriert waren, was zu Verwirrung führte. Jetzt zeigen Genehmigungsansichten nur Felder an, die aktiv verglichen werden. Dies bietet klarere, organisationsspezifische Genehmigungsbildschirme ohne leere oder irrelevante Spalten.
-* **Bestelltyp-Feld zur Stammdatenabfrage hinzugefügt**:\
-  Die Bestellkopfliste enthält jetzt eine "Bestelltyp"-Spalte (type\_code) in der Stammdatenabfrage, die zusätzliche Kategorisierungsmöglichkeiten bietet.
-* **Verbesserungen des benutzerdefinierten Filter-Dashboards:**\
-  Erweiterte Dashboard-Freigabefunktionalität, indem freigegebenen Benutzern erlaubt wurde, Dashboard-Filter zu bearbeiten. Benutzer, für die Dashboards freigegeben wurden, können jetzt die Filter ändern, um eine flexiblere und personalisiertere Ansicht zu erhalten.
+* **Dynamisches Spalten-Rendering in Genehmigungsbildschirmen:**\
+  Verbesserte Genehmigungsansichten zur dynamischen Anzeige nur der Spalten, die für den Vergleich in den Datenbankeinstellungen jeder Organisation konfiguriert sind. Zuvor erschienen Spalten wie Unit Code und Promised Delivery Date leer, wenn sie nicht für den Vergleich konfiguriert waren, was zu Verwirrung führte. Jetzt zeigen Genehmigungsansichten nur Felder an, die aktiv verglichen werden. Dies bietet klarere, organisationsspezifische Genehmigungsbildschirme ohne leere oder irrelevante Spalten.
+* **Bestelltypfeld zur Stammdatensuche hinzugefügt**:\
+  Die Bestellkopfliste enthält nun eine Spalte "Order Type" (type\_code) in der Stammdatensuche, die zusätzliche Kategorisierungsmöglichkeiten bietet.
+* **Verbesserungen am Dashboard für benutzerdefinierte Filter:**\
+  Die Dashboard-Freigabefunktion wurde verbessert, um freigegebenen Benutzern mehr Flexibilität zu bieten. Personen, für die Dashboards freigegeben wurden, können jetzt die Dashboard-Filter anpassen und bearbeiten, sodass sie die angezeigten Informationen an ihre spezifischen Bedürfnisse anpassen können. Diese Verbesserung unterstützt ein personalisierteres und interaktiveres Betrachtungserlebnis und stellt sicher, dass Benutzer die für ihre Aufgaben relevantesten Dateneinblicke einfach verfeinern können.
 * **Anpassbare Präfixe für Genehmigungsbildschirmspalten:**\
-  Eine konfigurierbare Option wurde hinzugefügt, um Präfixe vor Dokumentspalten auf Genehmigungsbildschirmen anzuzeigen. Das Präfix kann im Layout-Builder festgelegt werden, sodass Benutzer wählen können, ob Präfixe angezeigt werden und auf welche Dokumenttypen sie angewendet werden.\
-
+  Eine neue konfigurierbare Option wurde eingeführt, um Präfixe vor Dokumentspalten auf Genehmigungsbildschirmen anzuzeigen. Diese Funktion kann direkt im Layout-Builder verwaltet werden und gibt Administratoren die volle Kontrolle darüber, ob Präfixe angezeigt werden und auf welche Dokumenttypen sie angewendet werden. Durch Aktivierung dieser Option erhalten Benutzer einen klareren Kontext und eine verbesserte Lesbarkeit beim Überprüfen von Dokumenten während des Genehmigungsprozesses.
 
 ### Allgemeine Verbesserungen
 
