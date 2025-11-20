@@ -9,11 +9,11 @@
 *   **Support de Plusieurs Comptes Financiers Fournisseurs:**\
     DocBits prend désormais en charge plusieurs comptes financiers pour les fournisseurs via le BOD RemitToPartyMaster d'Infor. Un nouveau paramètre de configuration est disponible pour activer cette fonctionnalité.
 
-    <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
 *   **Ajouter l'Accès Utilisateur aux Résultats d'Extraction OCR:**\
     Le bouton Vue OCR sur l'écran de Validation des Champs est désormais accessible à tous les utilisateurs avec accès à la validation, pas seulement aux administrateurs, permettant à tous les utilisateurs de consulter les résultats d'extraction OCR et de rechercher du contenu spécifique dans les documents.
 
-    <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
 * **Rendu Dynamique des Colonnes dans les Écrans d'Approbation:**\
   Amélioration des vues d'approbation pour afficher dynamiquement uniquement les colonnes configurées pour la comparaison dans les préférences de base de données de chaque organisation. Auparavant, des colonnes comme Code Unité et Date de Livraison Promise apparaissaient vides lorsqu'elles n'étaient pas configurées pour la comparaison, causant de la confusion. Désormais, les vues d'approbation n'affichent que les champs activement comparés. Cela fournit des écrans d'approbation plus clairs et spécifiques à l'organisation sans colonnes vides ou non pertinentes.
 * **Champ Type de Commande Ajouté à la Recherche de Données de Base**:\
