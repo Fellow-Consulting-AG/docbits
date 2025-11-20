@@ -1,6 +1,54 @@
 # Notas de versión
 
-## Release Autumn Summit 15 de Octubre de 2025
+## Release Winter 10 de Diciembre de 2025
+
+### Mejoras en DocBits:
+
+* **Personalización Mejorada de Reglas de Coincidencia de Pedidos:**\
+  DocBits ahora ofrece un control granular sobre las reglas de coincidencia de órdenes de compra. Puede configurar exactamente qué columnas deben coincidir para cada tipo de documento, definir tolerancias por columna y elegir si cada regla se aplica a la coincidencia manual, automática o ambas. Estas mejoras brindan a los usuarios la flexibilidad para ajustar el proceso de coincidencia según sus necesidades operativas específicas.
+*   **Soporte para Múltiples Cuentas Financieras de Proveedores:**\
+    DocBits ahora admite múltiples cuentas financieras para proveedores a través del BOD RemitToPartyMaster de Infor. Está disponible una nueva configuración para activar esta función.
+
+    <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
+*   **Agregar Acceso de Usuario a Resultados de Extracción OCR:**\
+    El botón Vista OCR en la pantalla de Validación de Campos ahora es accesible para todos los usuarios con acceso de validación, no solo para administradores, lo que permite a todos los usuarios revisar los resultados de extracción OCR y buscar contenido específico en los documentos.
+
+    <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
+* **Renderizado Dinámico de Columnas en Pantallas de Aprobación:**\
+  Se mejoraron las vistas de aprobación para mostrar dinámicamente solo las columnas configuradas para comparación en las preferencias de base de datos de cada organización. Anteriormente, columnas como Código de Unidad y Fecha de Entrega Prometida aparecían vacías cuando no estaban configuradas para comparación, causando confusión. Ahora, las vistas de aprobación solo muestran campos que se están comparando activamente. Esto proporciona pantallas de aprobación más claras y específicas de la organización sin columnas vacías o irrelevantes.
+* **Campo Tipo de Pedido Agregado a la Búsqueda de Datos Maestros**:\
+  La lista de encabezados de órdenes de compra ahora incluye una columna "Tipo de Pedido" (type\_code) en la búsqueda de datos maestros, proporcionando capacidades de categorización adicionales.
+* **Mejoras en el Panel de Filtros Personalizados:**\
+  Se mejoró la funcionalidad de compartir paneles al permitir que los usuarios compartidos editen los filtros del panel. Los usuarios que tienen paneles compartidos con ellos ahora pueden modificar los filtros para una vista más flexible y personalizada.
+* **Prefijos Personalizables para Columnas de Pantalla de Aprobación:**\
+  Se agregó una opción configurable para mostrar prefijos antes de las columnas de documentos en las pantallas de aprobación. El prefijo se puede establecer en el constructor de diseño, lo que permite a los usuarios elegir si aparecen prefijos y a qué tipos de documentos se aplican.\
+
+
+### Mejoras Generales
+
+* Se mejoró el registro de errores para tablas mal entrenadas en la extracción de tablas.
+* Se agregó un límite de compartición para paneles de hasta 10 usuarios o 5 grupos, junto con un mensaje de error claro cuando se alcanza el límite.
+* Se mejoró el manejo de errores para paneles personalizados cuando un usuario intenta crear un panel con un nombre que ya existe.
+
+### Correcciones de Errores:
+
+* Se corrigió un problema donde los correos electrónicos parecían enviarse exitosamente desde la sección Detalles del Proveedor pero no se entregaban a los destinatarios.
+* Se corrigió un problema donde los campos desplegables agregados a las pantallas de aprobación/rechazo no se mostraban.
+* Se corrigió un problema donde todos los documentos exportados estaban marcados como actualizados por última vez por el usuario incorrecto.
+* Se corrigió un problema donde las importaciones FTP no recogían documentos.
+* Se corrigió un problema donde los documentos mostraban el estado "Flujo de trabajo en progreso" pero no se ejecutaban flujos de trabajo y el registro permanecía vacío.
+* Se corrigió un problema donde usuarios no relacionados eran asignados a documentos en el momento de la exportación sin realizar ningún trabajo en ellos.
+* Se corrigió un problema donde usuarios con permisos correctos no podían rechazar documentos asignados y recibían errores.
+* Se corrigió un problema donde los iconos de flujo de documentos no se mostraban para algunas organizaciones.
+* Se corrigió un problema donde aparecía una ventana emergente al cargar documentos con arrastrar y soltar en el panel.
+* Se corrigió un problema donde las banderas E-TEXT se mostraban como habilitadas en la interfaz de usuario aunque la respuesta de la API mostraba todos los valores como falsos.
+* Se corrigió un problema donde ocurría un error al cargar documentos que contenían páginas en blanco.
+* Se corrigió un problema donde los hipervínculos de tareas en las notificaciones por correo electrónico usaban la URL de aprobación v2 en lugar de v3.
+* Se corrigió un problema donde la Búsqueda de Datos Maestros no mostraba ningún proveedor cuando se seleccionaba la sub-organización "Cross", impidiendo que los usuarios vean datos de proveedores entre organizaciones.
+* Se corrigió un problema donde los documentos cargados en Cross no se asignaban a un ID de sub-organización.
+* Se corrigió un problema donde las importaciones de correo electrónico entrante fallaban para remitentes con letras mayúsculas en sus direcciones de correo electrónico debido a la comparación de correo electrónico sensible a mayúsculas y minúsculas.
+
+## Release Autumn Summit 22 de Octubre de 2025
 
 ### Mejoras en DocBits:
 
