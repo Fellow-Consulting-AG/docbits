@@ -5,13 +5,13 @@
 ### DocBits enhancements:
 
 * **Enhanced PO-Matching Rule Customization:**\
-  DocBits now offers granular control over purchase order matching rules. You can configure exactly which columns should be matched for each document type, define tolerances per column, and choose whether each rule applies to manual matching, automatic matching, or both. These enhancements give users the flexibility to fine-tune the matching process to fit their specific operational needs.
+  DocBits now provides more granular and customizable control over purchase order matching rules. Administrators can configure precisely which columns should be evaluated during the matching process for each document type, ensuring that only the most relevant fields are considered. In addition, tolerances can be defined at the column level, allowing for greater flexibility when handling minor discrepancies. Each rule can also be configured to apply to manual matching, automatic matching, or both, giving teams the ability to tailor the matching workflow to their exact operational requirements. These enhancements significantly improve the adaptability and precision of the purchase order matching process.
 *   **Support for Multiple Supplier Financial Accounts:**\
-    DocBits now supports multiple financial accounts for suppliers through the RemitToPartyMaster BOD from Infor. A new configuration setting is available to activate this feature.
+    DocBits now supports managing multiple financial accounts for suppliers through the RemitToPartyMaster BOD provided by Infor. This enhancement allows organizations to maintain several remit-to account records for a single supplier, improving flexibility and accuracy in payment processing. A new configuration setting has been introduced to enable or disable this capability, allowing administrators to activate the feature based on their operational needs.
 
     <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
 *   **Add User Access to OCR Extraction Results:**\
-    The OCR View button on the Field Validation screen is now accessible to all users with validation access, not just administrators, allowing all users to review OCR extraction results and search for specific content across documents.
+    The **OCR View** button on the Field Validation screen is now available to all users who have validation access, rather than being limited to administrators. With this update, any authorized user can review OCR extraction results directly, making it easier to validate data accuracy and monitor overall OCR performance. This enhancement promotes greater transparency and improves the efficiency of the validation workflow.
 
     <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
 * **Dynamic Column Rendering in Approval Screens:**\
@@ -19,10 +19,9 @@
 * **Order Type Field Added to Master Data Lookup**:\
   Purchase order header list now includes an "Order Type" (type\_code) column in master data lookup, providing additional categorization capabilities.
 * **Custom Filter Dashboard Improvements:**\
-  Enhanced dashboard sharing functionality by allowing shared users to edit dashboard filters. Users who have dashboards shared with them can now modify the filters for a more flexible and personalized view.
+  The dashboard sharing functionality has been enhanced to provide greater flexibility for shared users. Individuals who have dashboards shared with them can now adjust and edit the dashboard filters, enabling them to tailor the displayed information to their specific needs. This improvement supports a more personalized and interactive viewing experience, ensuring that users can easily refine the data insights most relevant to their tasks.
 * **Customizable Prefixes for Approval Screen Columns:**\
-  Added a configurable option to display prefixes before document columns on approval screens. The prefix can be set in the layout builder, allowing users to choose whether prefixes appear and which document types they apply to.\
-
+  A new configurable option has been introduced to display prefixes before document columns on approval screens. This feature can be managed directly within the layout builder, giving administrators full control over whether prefixes are shown and which document types they apply to. By enabling this option, users gain clearer context and improved readability when reviewing documents during the approval process.
 
 ### General Improvements
 
