@@ -1,6 +1,118 @@
 # Release Notes
 
-## Release **Summer Bloom** Juni 2025
+## Release Winter 10 december 2025
+
+### DocBits verbeteringen:
+
+* **Verbeterde PO-Matching Regel Aanpassing:**\
+  DocBits biedt nu nauwkeurige controle over inkooporder matching regels. U kunt precies configureren welke kolommen moeten worden gematcht voor elk documenttype, toleranties per kolom definiëren en kiezen of elke regel van toepassing is op handmatige matching, automatische matching of beide. Deze verbeteringen geven gebruikers de flexibiliteit om het matching proces af te stemmen op hun specifieke operationele behoeften.
+*   **Ondersteuning voor Meerdere Financiële Accounts voor Leveranciers:**\
+    DocBits ondersteunt nu meerdere financiële accounts voor leveranciers via de RemitToPartyMaster BOD van Infor. Een nieuwe configuratie-instelling is beschikbaar om deze functie te activeren.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
+*   **Gebruikerstoegang Toevoegen aan OCR Extractie Resultaten:**\
+    De OCR Weergave knop op het Veldvalidatie scherm is nu toegankelijk voor alle gebruikers met validatietoegang, niet alleen beheerders, waardoor alle gebruikers OCR extractieresultaten kunnen bekijken en specifieke inhoud in documenten kunnen zoeken.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
+* **Dynamische Kolomweergave in Goedkeuringsschermen:**\
+  Verbeterde goedkeuringsweergaven om alleen de kolommen dynamisch weer te geven die zijn geconfigureerd voor vergelijking in de databasevoorkeuren van elke organisatie. Eerder zouden kolommen zoals Unit Code en Beloofde Leverdatum leeg verschijnen wanneer ze niet waren geconfigureerd voor vergelijking, wat verwarring veroorzaakte. Nu tonen goedkeuringsweergaven alleen velden die actief worden vergeleken. Dit biedt duidelijkere, organisatie-specifieke goedkeuringsschermen zonder lege of irrelevante kolommen.
+* **Ordertype Veld Toegevoegd aan Master Data Lookup**:\
+  De lijst met inkooporder headers bevat nu een "Ordertype" (type\_code) kolom in de master data lookup, wat extra categorisatiemogelijkheden biedt.
+* **Aangepaste Filter Dashboard Verbeteringen:**\
+  Verbeterde dashboard deelfunctionaliteit door gedeelde gebruikers toe te staan dashboardfilters te bewerken. Gebruikers met wie dashboards worden gedeeld, kunnen nu de filters aanpassen voor een flexibeler en gepersonaliseerder overzicht.
+* **Aanpasbare Voorvoegsels voor Goedkeuringsscherm Kolommen:**\
+  Een configureerbare optie toegevoegd om voorvoegsels weer te geven voor documentkolommen op goedkeuringsschermen. Het voorvoegsel kan worden ingesteld in de layout builder, waardoor gebruikers kunnen kiezen of voorvoegsels verschijnen en op welke documenttypen ze van toepassing zijn.\
+
+
+### Algemene Verbeteringen
+
+* Verbeterde foutlogging voor slecht getrainde tabellen in tabel extractie.
+* Een deellimiet toegevoegd voor dashboards van maximaal 10 gebruikers of 5 groepen, samen met een duidelijke foutmelding wanneer de limiet is bereikt.
+* Verbeterde foutafhandeling voor aangepaste dashboards wanneer een gebruiker probeert een dashboard aan te maken met een naam die al bestaat.
+
+### Bugfixes:
+
+* Een probleem opgelost waarbij e-mails succesvol leken te verzenden vanuit de Leveranciersdetails sectie maar niet werden afgeleverd bij ontvangers.
+* Een probleem opgelost waarbij Dropdown velden toegevoegd aan goedkeurings-/afwijzingsschermen niet werden weergegeven.
+* Een probleem opgelost waarbij alle geëxporteerde documenten werden gemarkeerd als laatst bijgewerkt door de verkeerde gebruiker.
+* Een probleem opgelost waarbij FTP imports geen documenten ophaalden.
+* Een probleem opgelost waarbij documenten "Workflow in Uitvoering" status toonden maar geen workflows werden uitgevoerd en het log leeg bleef.
+* Een probleem opgelost waarbij niet-gerelateerde gebruikers aan documenten werden toegewezen op het moment van export zonder enig werk aan hen te hebben verricht.
+* Een probleem opgelost waarbij gebruikers met de juiste rechten niet in staat waren toegewezen documenten af te wijzen en fouten ontvingen.
+* Een probleem opgelost waarbij documentflow iconen niet werden weergegeven voor sommige organisaties.
+* Een probleem opgelost waarbij een popup verscheen bij het uploaden van documenten met drag and drop naar het dashboard.
+* Een probleem opgelost waarbij E-TEXT vlaggen als ingeschakeld werden weergegeven in de UI ondanks dat de API response alle waarden als false toonde.
+* Een probleem opgelost waarbij een fout optrad bij het uploaden van documenten met lege pagina's.
+* Een probleem opgelost waarbij taak hyperlinks in e-mail notificaties de v2 goedkeurings URL gebruikten in plaats van v3.
+* Een probleem opgelost waarbij Master Data Lookup geen leveranciers weergaf wanneer "Cross" sub-org was geselecteerd, waardoor gebruikers geen cross-organisatorische leveranciersgegevens konden bekijken.
+* Een probleem opgelost waarbij documenten geüpload in Cross niet werden toegewezen aan een sub-org ID.
+* Een probleem opgelost waarbij inkomende e-mail imports faalden voor afzenders met hoofdletters in hun e-mailadressen vanwege hoofdlettergevoelige e-mail vergelijking.
+
+## Release Autumn Summit 22 oktober 2025
+
+### DocBits verbeteringen:
+
+*   **E-mail Template Ontwerp Verbeteringen:**
+
+    De e-mail template editor is opnieuw ontworpen om een duidelijkere structuur en soepelere ervaring te bieden. Het selecteren van documentvelden is nu intuïtiever en bijlagen kunnen direct binnen templates worden toegevoegd. Deze verbeteringen maken het sneller en gemakkelijker om professionele, op maat gemaakte e-mails te creëren.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/image%20(310).png)
+*   **Dashboard Verbeteringen:**
+
+    Het dashboard is uitgebreid om navigatie en aanpassing te verbeteren. Met nieuwe tabbladen kunnen gebruikers sneller schakelen tussen verschillende documenttypen, waardoor de tijd die wordt besteed aan het zoeken naar de juiste weergave wordt verminderd.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/image%20(474)%20(1).png)
+*   **Aangepaste FilterDashboards:**\
+    Daarnaast kunnen dashboards nu worden aangepast en gefilterd volgens individuele voorkeuren. Deze aangepaste dashboards kunnen ook worden gedeeld met collega's, waardoor het\
+    gemakkelijker wordt om consistente teamrapportageweergaven te creëren.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/image%20(477).png)
+*   **E-mail Notificatie Logs:**
+
+    Een nieuwe logging functie is beschikbaar voor alle e-mail notificaties. Gebruikers kunnen nu een geschiedenis van verzonden notificaties bekijken, wat het gemakkelijker maakt om afleveringen te verifiëren en problemen op te lossen als e-mails niet worden ontvangen.
+*   **E-Factuur Ondersteuning: e-SLOG 1.6 & 2.0:**
+
+    Ondersteuning voor extra e-factuur formaten is geïntroduceerd. Het systeem kan nu e-SLOG versies 1.6 en 2.0 verwerken en genereren, wat compatibiliteit met partners en regelgevingsvereisten uitbreidt.
+*   **Duplicaat Detectie Verbeteringen:**
+
+    Duplicaat detectie is geüpgraded met twee krachtige configuratieopties. Het **Duplicaat Detectie Interval** stelt u in staat een tijdsbereik te definiëren om nauwkeuriger op duplicaten te controleren, terwijl de **Sta Export van Duplicaten Niet Toe** instelling automatisch voorkomt dat documenten die als duplicaat zijn gedetecteerd worden geëxporteerd. Samen bieden deze verbeteringen meer controle en zorgen voor hogere gegevensnauwkeurigheid.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/image%20(478).png)
+*   **Beslisboom Verbeteringen:**
+
+    Beslisbomen zijn nu veelzijdiger, met de mogelijkheid om documentveldwaarden te retourneren. Dit maakt geavanceerdere automatiseringslogica mogelijk, waardoor workflows beslissingen kunnen nemen op basis van daadwerkelijke documentgegevens.
+*   **Nieuwe Workflow Kaarten:**
+
+    Twee nieuwe workflow kaarten breiden automatiseringsmogelijkheden uit. De eerste stelt u in staat te controleren of een document tot een specifieke suborganisatie behoort, wat het gemakkelijker maakt om multi-entiteit setups te beheren. De tweede introduceert een leverdatum tolerantie controle, die leverdatums vergelijkt met de huidige datum in werkdagen om leververeisten effectiever te beheren en af te dwingen.
+*   **CSV Export Verbeteringen:**
+
+    De CSV export functie is aanzienlijk verbeterd. In plaats van alleen de documenten te exporteren die op de huidige pagina worden weergegeven, exporteert het systeem nu alle documenten in een dataset. Elke export creëert een logvermelding en de resulterende CSV wordt automatisch per e-mail verzonden, wat een completer en betrouwbaarder exportproces biedt.
+*   **Inkooporder Verwijdering Tijdsbestek:**
+
+    Een nieuwe configuratieoptie stelt beheerders in staat een tijdsbestek te definiëren voor het verwijderen van inkooporders. Deze verbetering voegt flexibiliteit en controle toe over gegevensretentiebeleid, zodat inkooporders alleen worden verwijderd wanneer dat gepast is.
+
+### Bugfixes
+
+* Een probleem opgelost waarbij oude gegevens werden opgenomen bij het exporteren van documenten.
+* Het filter voor Export Fouten gecorrigeerd, dat eerder ook andere statussen toonde.
+* Een tabelvalidatie mismatch opgelost waarbij "Unit Price" fouten triggerde maar "Unit Price Per" niet, ondanks dat de waarden correct waren.
+* Een probleem opgelost waarbij het toevoegen van een nieuwe kolom aan het dashboard mislukte.
+* Een probleem gecorrigeerd waarbij taken niet zichtbaar waren in de dashboard taak kolom.
+* Willekeurig sorteergedrag opgelost zodat lijsten nu een consistente volgorde volgen.
+* Een probleem opgelost waarbij het wijzigen van de kolomgrootte niet kon worden gestopt.
+* Een bug opgelost die handmatige regelmatching in het PO-Matching scherm verhinderde.
+* Een probleem gecorrigeerd waarbij de e-mail bijlage optie werd gereset na opslaan.
+* Een probleem opgelost waarbij auto accounting aanvankelijk database ID's weergaf wanneer voor de eerste keer geopend.
+* Fuzzy veldgedrag gecorrigeerd zodat waarden niet langer onjuist worden overschreven.
+* Een probleem opgelost waarbij velden in auto account verdwenen na het verwijderen van inhoud.
+* Een bug gecorrigeerd waarbij de gebruiker "Voornaam" en "Achternaam" niet kon hernoemen in de instellingen popup.
+* Een probleem opgelost waarbij documenten vast konden komen te zitten in "workflow in uitvoering."
+* Een menu icoon kleur probleem opgelost waarbij geselecteerde organisatiekleuren niet correct werden toegepast.
+* Een probleem gecorrigeerd waarbij QR codes soms niet werden herkend.
+* Een probleem opgelost waarbij accounts niet konden worden verwijderd met backspace om een andere in te voeren.
+* Een taalmix-up opgelost na inloggen na de productie push.
+
+## Release **Summer Bloom** Juli 2025
 
 ### DocBits verbeteringen:
 
