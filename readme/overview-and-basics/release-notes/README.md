@@ -9,11 +9,11 @@
 *   **Unterstützung für mehrere Finanzkonten von Lieferanten:**\
     DocBits unterstützt jetzt mehrere Finanzkonten für Lieferanten über das RemitToPartyMaster BOD von Infor. Eine neue Konfigurationseinstellung ist verfügbar, um diese Funktion zu aktivieren.
 
-    <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
 *   **Benutzerzugriff auf OCR-Extraktionsergebnisse hinzufügen:**\
     Die Schaltfläche OCR-Ansicht auf dem Feldvalidierungsbildschirm ist jetzt für alle Benutzer mit Validierungszugriff zugänglich, nicht nur für Administratoren, sodass alle Benutzer OCR-Extraktionsergebnisse überprüfen und nach bestimmten Inhalten in Dokumenten suchen können.
 
-    <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
 * **Dynamische Spaltendarstellung in Genehmigungsbildschirmen:**\
   Erweiterte Genehmigungsansichten, um dynamisch nur die Spalten anzuzeigen, die für den Vergleich in den Datenbankeinstellungen jeder Organisation konfiguriert sind. Zuvor wurden Spalten wie Unit Code und Promised Delivery Date leer angezeigt, wenn sie nicht für den Vergleich konfiguriert waren, was zu Verwirrung führte. Jetzt zeigen Genehmigungsansichten nur Felder an, die aktiv verglichen werden. Dies bietet klarere, organisationsspezifische Genehmigungsbildschirme ohne leere oder irrelevante Spalten.
 * **Bestelltyp-Feld zur Stammdatenabfrage hinzugefügt**:\
