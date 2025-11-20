@@ -9,11 +9,11 @@
 *   **Wsparcie dla Wielu Kont Finansowych Dostawców:**\
     DocBits obsługuje teraz wiele kont finansowych dla dostawców poprzez BOD RemitToPartyMaster z Infor. Dostępne jest nowe ustawienie konfiguracyjne do aktywacji tej funkcji.
 
-    <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
 *   **Dodanie Dostępu Użytkowników do Wyników Ekstrakcji OCR:**\
     Przycisk Widok OCR na ekranie Walidacji Pól jest teraz dostępny dla wszystkich użytkowników z dostępem do walidacji, a nie tylko dla administratorów, umożliwiając wszystkim użytkownikom przeglądanie wyników ekstrakcji OCR i wyszukiwanie określonych treści w dokumentach.
 
-    <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
 * **Dynamiczne Renderowanie Kolumn na Ekranach Zatwierdzania:**\
   Ulepszone widoki zatwierdzania, aby dynamicznie wyświetlać tylko kolumny skonfigurowane do porównania w preferencjach bazy danych każdej organizacji. Wcześniej kolumny takie jak Kod Jednostki i Obiecana Data Dostawy pojawiały się puste, gdy nie były skonfigurowane do porównania, powodując zamieszanie. Teraz widoki zatwierdzania pokazują tylko aktywnie porównywane pola. To zapewnia jaśniejsze, specyficzne dla organizacji ekrany zatwierdzania bez pustych lub nieistotnych kolumn.
 * **Pole Typ Zamówienia Dodane do Wyszukiwania Danych Podstawowych**:\
