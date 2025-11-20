@@ -1,30 +1,29 @@
 # Notas de versión
 
-## Release Winter 10 de Diciembre de 2025
+## Lanzamiento Invierno 10 de diciembre de 2025
 
-### Mejoras en DocBits:
+### Mejoras de DocBits:
 
-* **Personalización Mejorada de Reglas de Coincidencia de Pedidos:**\
-  DocBits ahora ofrece un control granular sobre las reglas de coincidencia de órdenes de compra. Puede configurar exactamente qué columnas deben coincidir para cada tipo de documento, definir tolerancias por columna y elegir si cada regla se aplica a la coincidencia manual, automática o ambas. Estas mejoras brindan a los usuarios la flexibilidad para ajustar el proceso de coincidencia según sus necesidades operativas específicas.
-*   **Soporte para Múltiples Cuentas Financieras de Proveedores:**\
-    DocBits ahora admite múltiples cuentas financieras para proveedores a través del BOD RemitToPartyMaster de Infor. Está disponible una nueva configuración para activar esta función.
+* **Personalización mejorada de reglas de coincidencia de OC:**\
+  DocBits ahora proporciona un control más granular y personalizable sobre las reglas de coincidencia de órdenes de compra. Los administradores pueden configurar con precisión qué columnas deben evaluarse durante el proceso de coincidencia para cada tipo de documento, asegurando que solo se consideren los campos más relevantes. Además, se pueden definir tolerancias a nivel de columna, lo que permite una mayor flexibilidad al manejar discrepancias menores. Cada regla también puede configurarse para aplicarse a la coincidencia manual, la coincidencia automática o ambas, brindando a los equipos la capacidad de adaptar el flujo de trabajo de coincidencia a sus requisitos operativos exactos. Estas mejoras mejoran significativamente la adaptabilidad y precisión del proceso de coincidencia de órdenes de compra.
+*   **Soporte para múltiples cuentas financieras de proveedores:**\
+    DocBits ahora admite la gestión de múltiples cuentas financieras para proveedores a través del RemitToPartyMaster BOD proporcionado por Infor. Esta mejora permite a las organizaciones mantener varios registros de cuentas de remisión para un solo proveedor, mejorando la flexibilidad y precisión en el procesamiento de pagos. Se ha introducido una nueva configuración para habilitar o deshabilitar esta capacidad, permitiendo a los administradores activar la función según sus necesidades operativas.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
-*   **Agregar Acceso de Usuario a Resultados de Extracción OCR:**\
-    El botón Vista OCR en la pantalla de Validación de Campos ahora es accesible para todos los usuarios con acceso de validación, no solo para administradores, lo que permite a todos los usuarios revisar los resultados de extracción OCR y buscar contenido específico en los documentos.
+*   **Agregar acceso de usuario a resultados de extracción OCR:**\
+    El botón **Vista OCR** en la pantalla de validación de campos ahora está disponible para todos los usuarios que tienen acceso de validación, en lugar de estar limitado a los administradores. Con esta actualización, cualquier usuario autorizado puede revisar los resultados de extracción OCR directamente, facilitando la validación de la precisión de los datos y monitoreando el rendimiento general del OCR. Esta mejora promueve una mayor transparencia y mejora la eficiencia del flujo de trabajo de validación.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
-* **Renderizado Dinámico de Columnas en Pantallas de Aprobación:**\
-  Se mejoraron las vistas de aprobación para mostrar dinámicamente solo las columnas configuradas para comparación en las preferencias de base de datos de cada organización. Anteriormente, columnas como Código de Unidad y Fecha de Entrega Prometida aparecían vacías cuando no estaban configuradas para comparación, causando confusión. Ahora, las vistas de aprobación solo muestran campos que se están comparando activamente. Esto proporciona pantallas de aprobación más claras y específicas de la organización sin columnas vacías o irrelevantes.
-* **Campo Tipo de Pedido Agregado a la Búsqueda de Datos Maestros**:\
-  La lista de encabezados de órdenes de compra ahora incluye una columna "Tipo de Pedido" (type\_code) en la búsqueda de datos maestros, proporcionando capacidades de categorización adicionales.
-* **Mejoras en el Panel de Filtros Personalizados:**\
-  Se mejoró la funcionalidad de compartir paneles al permitir que los usuarios compartidos editen los filtros del panel. Los usuarios que tienen paneles compartidos con ellos ahora pueden modificar los filtros para una vista más flexible y personalizada.
-* **Prefijos Personalizables para Columnas de Pantalla de Aprobación:**\
-  Se agregó una opción configurable para mostrar prefijos antes de las columnas de documentos en las pantallas de aprobación. El prefijo se puede establecer en el constructor de diseño, lo que permite a los usuarios elegir si aparecen prefijos y a qué tipos de documentos se aplican.\
+* **Representación dinámica de columnas en pantallas de aprobación:**\
+  Vistas de aprobación mejoradas para mostrar dinámicamente solo las columnas configuradas para comparación en las preferencias de base de datos de cada organización. Anteriormente, columnas como Unit Code y Promised Delivery Date aparecían vacías cuando no estaban configuradas para comparación, causando confusión. Ahora, las vistas de aprobación solo muestran campos que se están comparando activamente. Esto proporciona pantallas de aprobación más claras y específicas de la organización sin columnas vacías o irrelevantes.
+* **Campo de tipo de pedido agregado a la búsqueda de datos maestros**:\
+  La lista de encabezados de órdenes de compra ahora incluye una columna "Order Type" (type\_code) en la búsqueda de datos maestros, proporcionando capacidades adicionales de categorización.
+* **Mejoras del panel de control de filtros personalizados:**\
+  La funcionalidad de compartir panel de control se ha mejorado para proporcionar mayor flexibilidad a los usuarios compartidos. Las personas que tienen paneles compartidos con ellos ahora pueden ajustar y editar los filtros del panel, permitiéndoles adaptar la información mostrada a sus necesidades específicas. Esta mejora admite una experiencia de visualización más personalizada e interactiva, asegurando que los usuarios puedan refinar fácilmente los conocimientos de datos más relevantes para sus tareas.
+* **Prefijos personalizables para columnas de pantalla de aprobación:**\
+  Se ha introducido una nueva opción configurable para mostrar prefijos antes de las columnas de documentos en las pantallas de aprobación. Esta función se puede gestionar directamente dentro del constructor de diseño, otorgando a los administradores control total sobre si se muestran los prefijos y a qué tipos de documentos se aplican. Al habilitar esta opción, los usuarios obtienen un contexto más claro y una mejor legibilidad al revisar documentos durante el proceso de aprobación.
 
-
-### Mejoras Generales
+### Mejoras generales
 
 * Se mejoró el registro de errores para tablas mal entrenadas en la extracción de tablas.
 * Se agregó un límite de compartición para paneles de hasta 10 usuarios o 5 grupos, junto con un mensaje de error claro cuando se alcanza el límite.
