@@ -5,6 +5,7 @@ venv
 .env
 .env.local
 .env.*.local
+.claude/
 readme/admin-section/.DS_Store
 readme/admin-section/course/.DS_Store
 readme/admin-section/settings/.DS_Store
