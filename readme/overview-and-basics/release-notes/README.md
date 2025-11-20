@@ -1,30 +1,29 @@
 # Notes de version
 
-## Release Winter 10 décembre 2025
+## Version Hiver 10 décembre 2025
 
-### Améliorations de DocBits:
+### Améliorations de DocBits :
 
-* **Personnalisation Améliorée des Règles de Rapprochement de Commandes:**\
-  DocBits offre désormais un contrôle granulaire sur les règles de rapprochement des bons de commande. Vous pouvez configurer exactement quelles colonnes doivent être rapprochées pour chaque type de document, définir des tolérances par colonne et choisir si chaque règle s'applique au rapprochement manuel, automatique ou aux deux. Ces améliorations donnent aux utilisateurs la flexibilité d'ajuster le processus de rapprochement selon leurs besoins opérationnels spécifiques.
-*   **Support de Plusieurs Comptes Financiers Fournisseurs:**\
-    DocBits prend désormais en charge plusieurs comptes financiers pour les fournisseurs via le BOD RemitToPartyMaster d'Infor. Un nouveau paramètre de configuration est disponible pour activer cette fonctionnalité.
+* **Personnalisation améliorée des règles de rapprochement des commandes :**\
+  DocBits offre désormais un contrôle plus granulaire et personnalisable sur les règles de rapprochement des bons de commande. Les administrateurs peuvent configurer avec précision quelles colonnes doivent être évaluées pendant le processus de rapprochement pour chaque type de document, en s'assurant que seuls les champs les plus pertinents sont pris en compte. De plus, des tolérances peuvent être définies au niveau des colonnes, offrant une plus grande flexibilité lors du traitement des écarts mineurs. Chaque règle peut également être configurée pour s'appliquer au rapprochement manuel, au rapprochement automatique ou aux deux, donnant aux équipes la possibilité d'adapter le flux de travail de rapprochement à leurs exigences opérationnelles exactes. Ces améliorations améliorent considérablement l'adaptabilité et la précision du processus de rapprochement des bons de commande.
+*   **Prise en charge de plusieurs comptes financiers fournisseurs :**\
+    DocBits prend désormais en charge la gestion de plusieurs comptes financiers pour les fournisseurs via le RemitToPartyMaster BOD fourni par Infor. Cette amélioration permet aux organisations de maintenir plusieurs enregistrements de comptes de remise pour un seul fournisseur, améliorant la flexibilité et la précision du traitement des paiements. Un nouveau paramètre de configuration a été introduit pour activer ou désactiver cette capacité, permettant aux administrateurs d'activer la fonctionnalité en fonction de leurs besoins opérationnels.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
-*   **Ajouter l'Accès Utilisateur aux Résultats d'Extraction OCR:**\
-    Le bouton Vue OCR sur l'écran de Validation des Champs est désormais accessible à tous les utilisateurs avec accès à la validation, pas seulement aux administrateurs, permettant à tous les utilisateurs de consulter les résultats d'extraction OCR et de rechercher du contenu spécifique dans les documents.
+*   **Ajout de l'accès utilisateur aux résultats d'extraction OCR :**\
+    Le bouton **Vue OCR** sur l'écran de validation des champs est désormais accessible à tous les utilisateurs ayant un accès de validation, plutôt que d'être limité aux administrateurs. Avec cette mise à jour, tout utilisateur autorisé peut consulter directement les résultats d'extraction OCR, facilitant la validation de l'exactitude des données et le suivi des performances globales de l'OCR. Cette amélioration favorise une plus grande transparence et améliore l'efficacité du flux de travail de validation.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
-* **Rendu Dynamique des Colonnes dans les Écrans d'Approbation:**\
-  Amélioration des vues d'approbation pour afficher dynamiquement uniquement les colonnes configurées pour la comparaison dans les préférences de base de données de chaque organisation. Auparavant, des colonnes comme Code Unité et Date de Livraison Promise apparaissaient vides lorsqu'elles n'étaient pas configurées pour la comparaison, causant de la confusion. Désormais, les vues d'approbation n'affichent que les champs activement comparés. Cela fournit des écrans d'approbation plus clairs et spécifiques à l'organisation sans colonnes vides ou non pertinentes.
-* **Champ Type de Commande Ajouté à la Recherche de Données de Base**:\
-  La liste d'en-têtes de bons de commande inclut désormais une colonne "Type de Commande" (type\_code) dans la recherche de données de base, offrant des capacités de catégorisation supplémentaires.
-* **Améliorations du Tableau de Bord avec Filtres Personnalisés:**\
-  Amélioration de la fonctionnalité de partage de tableau de bord en permettant aux utilisateurs partagés de modifier les filtres du tableau de bord. Les utilisateurs qui ont des tableaux de bord partagés avec eux peuvent désormais modifier les filtres pour une vue plus flexible et personnalisée.
-* **Préfixes Personnalisables pour les Colonnes d'Écran d'Approbation:**\
-  Ajout d'une option configurable pour afficher des préfixes avant les colonnes de documents sur les écrans d'approbation. Le préfixe peut être défini dans le générateur de mise en page, permettant aux utilisateurs de choisir si les préfixes apparaissent et à quels types de documents ils s'appliquent.\
+* **Rendu dynamique des colonnes dans les écrans d'approbation :**\
+  Vues d'approbation améliorées pour afficher dynamiquement uniquement les colonnes configurées pour la comparaison dans les préférences de base de données de chaque organisation. Auparavant, des colonnes telles que Unit Code et Promised Delivery Date apparaissaient vides lorsqu'elles n'étaient pas configurées pour la comparaison, causant de la confusion. Désormais, les vues d'approbation n'affichent que les champs qui sont activement comparés. Cela fournit des écrans d'approbation plus clairs et spécifiques à l'organisation sans colonnes vides ou non pertinentes.
+* **Champ Type de commande ajouté à la recherche de données de référence** :\
+  La liste d'en-tête de bon de commande inclut désormais une colonne "Order Type" (type\_code) dans la recherche de données de référence, offrant des capacités de catégorisation supplémentaires.
+* **Améliorations du tableau de bord de filtres personnalisés :**\
+  La fonctionnalité de partage de tableau de bord a été améliorée pour offrir une plus grande flexibilité aux utilisateurs partagés. Les personnes avec lesquelles des tableaux de bord sont partagés peuvent désormais ajuster et modifier les filtres du tableau de bord, leur permettant d'adapter les informations affichées à leurs besoins spécifiques. Cette amélioration prend en charge une expérience de visualisation plus personnalisée et interactive, garantissant que les utilisateurs peuvent facilement affiner les informations sur les données les plus pertinentes pour leurs tâches.
+* **Préfixes personnalisables pour les colonnes d'écran d'approbation :**\
+  Une nouvelle option configurable a été introduite pour afficher des préfixes avant les colonnes de documents sur les écrans d'approbation. Cette fonctionnalité peut être gérée directement dans le générateur de mise en page, donnant aux administrateurs un contrôle total sur l'affichage des préfixes et les types de documents auxquels ils s'appliquent. En activant cette option, les utilisateurs bénéficient d'un contexte plus clair et d'une meilleure lisibilité lors de l'examen des documents pendant le processus d'approbation.
 
-
-### Améliorations Générales
+### Améliorations générales
 
 * Amélioration de la journalisation des erreurs pour les tableaux mal formés dans l'extraction de tableaux.
 * Ajout d'une limite de partage pour les tableaux de bord jusqu'à 10 utilisateurs ou 5 groupes, accompagnée d'un message d'erreur clair lorsque la limite est atteinte.
