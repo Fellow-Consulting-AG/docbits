@@ -1,6 +1,54 @@
 # Informacje o wersji
 
-## Release Autumn Summit 15 października 2025
+## Release Winter 10 grudnia 2025
+
+### Usprawnienia DocBits:
+
+* **Ulepszona Personalizacja Reguł Dopasowania Zamówień:**\
+  DocBits oferuje teraz szczegółową kontrolę nad regułami dopasowania zamówień zakupu. Możesz skonfigurować dokładnie, które kolumny powinny być dopasowane dla każdego typu dokumentu, zdefiniować tolerancje dla każdej kolumny i wybrać, czy każda reguła dotyczy dopasowania ręcznego, automatycznego czy obu. Te ulepszenia dają użytkownikom elastyczność w dostosowaniu procesu dopasowania do ich konkretnych potrzeb operacyjnych.
+*   **Wsparcie dla Wielu Kont Finansowych Dostawców:**\
+    DocBits obsługuje teraz wiele kont finansowych dla dostawców poprzez BOD RemitToPartyMaster z Infor. Dostępne jest nowe ustawienie konfiguracyjne do aktywacji tej funkcji.
+
+    <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
+*   **Dodanie Dostępu Użytkowników do Wyników Ekstrakcji OCR:**\
+    Przycisk Widok OCR na ekranie Walidacji Pól jest teraz dostępny dla wszystkich użytkowników z dostępem do walidacji, a nie tylko dla administratorów, umożliwiając wszystkim użytkownikom przeglądanie wyników ekstrakcji OCR i wyszukiwanie określonych treści w dokumentach.
+
+    <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
+* **Dynamiczne Renderowanie Kolumn na Ekranach Zatwierdzania:**\
+  Ulepszone widoki zatwierdzania, aby dynamicznie wyświetlać tylko kolumny skonfigurowane do porównania w preferencjach bazy danych każdej organizacji. Wcześniej kolumny takie jak Kod Jednostki i Obiecana Data Dostawy pojawiały się puste, gdy nie były skonfigurowane do porównania, powodując zamieszanie. Teraz widoki zatwierdzania pokazują tylko aktywnie porównywane pola. To zapewnia jaśniejsze, specyficzne dla organizacji ekrany zatwierdzania bez pustych lub nieistotnych kolumn.
+* **Pole Typ Zamówienia Dodane do Wyszukiwania Danych Podstawowych**:\
+  Lista nagłówków zamówień zakupu zawiera teraz kolumnę "Typ Zamówienia" (type\_code) w wyszukiwaniu danych podstawowych, zapewniając dodatkowe możliwości kategoryzacji.
+* **Ulepszenia Panelu z Niestandardowymi Filtrami:**\
+  Ulepszona funkcjonalność udostępniania panelu, umożliwiając użytkownikom, którym udostępniono panel, edycję filtrów panelu. Użytkownicy, którzy mają udostępnione panele, mogą teraz modyfikować filtry, aby uzyskać bardziej elastyczny i spersonalizowany widok.
+* **Konfigurowalne Prefiksy dla Kolumn Ekranu Zatwierdzania:**\
+  Dodano konfigurowalną opcję wyświetlania prefiksów przed kolumnami dokumentów na ekranach zatwierdzania. Prefiks można ustawić w konstruktorze układu, pozwalając użytkownikom wybrać, czy prefiksy się pojawiają i do jakich typów dokumentów się stosują.\
+
+
+### Ogólne Usprawnienia
+
+* Ulepszone rejestrowanie błędów dla źle wyszkolonych tabel w ekstrakcji tabel.
+* Dodano limit udostępniania dla paneli do 10 użytkowników lub 5 grup, wraz z wyraźnym komunikatem o błędzie po osiągnięciu limitu.
+* Ulepszona obsługa błędów dla niestandardowych paneli, gdy użytkownik próbuje utworzyć panel z nazwą, która już istnieje.
+
+### Poprawki Błędów:
+
+* Naprawiono problem, w którym e-maile wydawały się być wysyłane pomyślnie z sekcji Szczegóły Dostawcy, ale nie były dostarczane do odbiorców.
+* Naprawiono problem, w którym pola rozwijane dodane do ekranów zatwierdzania/odrzucania nie były wyświetlane.
+* Naprawiono problem, w którym wszystkie eksportowane dokumenty były oznaczone jako ostatnio zaktualizowane przez niewłaściwego użytkownika.
+* Naprawiono problem, w którym importy FTP nie pobierały dokumentów.
+* Naprawiono problem, w którym dokumenty pokazywały status "Workflow w toku", ale nie wykonywały się żadne workflow, a dziennik pozostawał pusty.
+* Naprawiono problem, w którym niepowiązani użytkownicy byli przypisywani do dokumentów w momencie eksportu bez wykonywania jakiejkolwiek pracy nad nimi.
+* Naprawiono problem, w którym użytkownicy z poprawnymi uprawnieniami nie mogli odrzucić przypisanych dokumentów i otrzymywali błędy.
+* Naprawiono problem, w którym ikony przepływu dokumentów nie były wyświetlane dla niektórych organizacji.
+* Naprawiono problem, w którym pojawiało się okienko pop-up podczas przesyłania dokumentów metodą przeciągnij i upuść na pulpit.
+* Naprawiono problem, w którym flagi E-TEXT były wyświetlane jako włączone w interfejsie użytkownika, mimo że odpowiedź API pokazywała wszystkie wartości jako fałszywe.
+* Naprawiono problem, w którym występował błąd podczas przesyłania dokumentów zawierających puste strony.
+* Naprawiono problem, w którym hiperłącza zadań w powiadomieniach e-mail używały adresu URL zatwierdzania v2 zamiast v3.
+* Naprawiono problem, w którym Wyszukiwanie Danych Podstawowych nie wyświetlało żadnych dostawców, gdy wybrana była podorganizacja "Cross", uniemożliwiając użytkownikom przeglądanie danych dostawców międzyorganizacyjnych.
+* Naprawiono problem, w którym dokumenty przesłane w Cross nie były przypisywane do identyfikatora podorganizacji.
+* Naprawiono problem, w którym importy przychodzących e-maili nie powiodły się dla nadawców z wielkimi literami w ich adresach e-mail z powodu porównania e-maili z rozróżnianiem wielkości liter.
+
+## Release Autumn Summit 22 października 2025
 
 ### Usprawnienia DocBits:
 
