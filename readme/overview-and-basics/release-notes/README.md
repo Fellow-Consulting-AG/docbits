@@ -1,704 +1,703 @@
 # Release Notes
 
-## Release **Summer Bloom** June 2025
+## Release **Summer Bloom** Juni 2025
 
-### DocBits enhancements:
+### DocBits verbeteringen:
 
-* **Filter Option for Email Import Log:**\
-  Users now have the ability to filter the import logs and sort the table for a clearer, more efficient overview. This enhancement streamlines the process of identifying and managing email entries, improving troubleshooting and overall log management.
-*   **Multi-Language Support for List of Values :**\
-    We've expanded multi-language capabilities to the List of Values feature. Administrators can now define labels in multiple languages, ensuring that the correct label is automatically displayed based on the user's system language settings. This enhancement promotes greater accessibility and localization, making it easier for users worldwide to interact with the platform in their native language.
+* **Filteroptie voor E-mail Import Log:**\
+  Gebruikers hebben nu de mogelijkheid om de importlogboeken te filteren en de tabel te sorteren voor een duidelijker, efficiënter overzicht. Deze verbetering stroomlijnt het proces van het identificeren en beheren van e-mailgegevens, wat troubleshooting en algemeen logbeheer verbetert.
+*   **Meertalige Ondersteuning voor Lijsten van Waarden:**\
+    We hebben de meertalige mogelijkheden uitgebreid naar de functie Lijsten van Waarden. Beheerders kunnen nu labels in meerdere talen definiëren, zodat het juiste label automatisch wordt weergegeven op basis van de systeemtaalinstellingen van de gebruiker. Deze verbetering bevordert grotere toegankelijkheid en lokalisatie, waardoor het voor gebruikers wereldwijd gemakkelijker wordt om met het platform in hun eigen taal te werken.
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-* **User Detail Enhancements in Settings:**\
-  The settings interface now displays comprehensive user information. Administrators can easily view group affiliations, sub-organization details, and additional key data, enabling better management of user roles and a clearer understanding of team structures.
-* **Auto Accounting Information on the Approval Screen:**\
-  The approval screen now presents auto accounting details alongside invoice information. This improvement provides deeper insight into transaction data, facilitating smoother review processes and more informed decision-making regarding invoices.
-* **Task Counter for Documents on the Dashboard View:**\
-  Documents on the dashboard can now indicate open tasks associated with them and display the total number of pending tasks. This feature provides users with a quick overview of outstanding actions, improving task management and workflow efficiency.
-* **Supplier-Based AI Model Selection:**\
-  Users can now select the AI model used for data extraction on a per-supplier basis. This enhancement allows for fine-tuned optimization, ensuring better extraction accuracy for different suppliers and improving overall data processing results. [Learn more](https://docs.docbits.com/end-user-and-partner-section/end-user-section/validation-screen#supplier-based-ai-model)
-* **Enhanced Workflow Logs for Decision Tree Cards:**\
-  The logs now display the output of the decision tree, making it easier to track and understand how decisions were made within workflows.
-*   **Introduction of New Auto-Testing Setup to Enhance System Functionality and Stability:**
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/image%20(1)%20(1)%20(1).png)
+* **Verbeteringen voor Gebruikersdetails in Instellingen:**\
+  De instellingeninterface toont nu uitgebreide gebruikersinformatie. Beheerders kunnen eenvoudig groepsaffiliaties, suborganisatiedetails en aanvullende belangrijke gegevens bekijken, wat beter beheer van gebruikersrollen mogelijk maakt en een duidelijker begrip van teamstructuren biedt.
+* **Auto Accounting Informatie op het Goedkeuringsscherm:**\
+  Het goedkeuringsscherm presenteert nu automatische boekhouddetails naast factuurinformatie. Deze verbetering biedt dieper inzicht in transactiegegevens, wat soepelere beoordelingsprocessen en beter geïnformeerde besluitvorming over facturen mogelijk maakt.
+* **Taakteller voor Documenten op het Dashboardweergave:**\
+  Documenten op het dashboard kunnen nu openstaande taken aangeven die ermee geassocieerd zijn en het totale aantal openstaande taken weergeven. Deze functie biedt gebruikers een snel overzicht van uitstaande acties, wat taakbeheer en workflowefficiëntie verbetert.
+* **Leverancier-gebaseerde AI Model Selectie:**\
+  Gebruikers kunnen nu het AI-model selecteren dat wordt gebruikt voor gegevensextractie op leveranciersbasis. Deze verbetering maakt fijnafgestemde optimalisatie mogelijk, wat zorgt voor betere extractienauwkeurigheid voor verschillende leveranciers en verbeterde algemene gegevensverwerkingsresultaten. [Leer meer](https://docs.docbits.com/end-user-and-partner-section/end-user-section/validation-screen#supplier-based-ai-model)
+* **Verbeterde Workflow Logs voor Beslisboomkaarten:**\
+  De logboeken tonen nu de output van de beslisboom, wat het gemakkelijker maakt om te volgen en begrijpen hoe beslissingen werden genomen binnen workflows.
+*   **Introductie van Nieuwe Auto-Testing Setup voor Verbeterde Systeemfunctionaliteit en Stabiliteit:**
 
-    We are excited to announce the implementation of a new automated testing system designed to improve the overall functionality and reliability of our platform. This new setup will run consistent, thorough checks on our system to identify any issues before they impact your experience. By automating these tests, we can ensure faster responses to potential problems and maintain the highest standards of quality for our system.
-* **Microservices Architecture Implementation:**\
-  We've restructured the platform by splitting core components into dedicated microservices. This architectural shift enhances scalability, improves system performance, and enables faster, more modular development and deployment cycles.
+    We zijn verheugd de implementatie aan te kondigen van een nieuw geautomatiseerd testsysteem dat is ontworpen om de algehele functionaliteit en betrouwbaarheid van ons platform te verbeteren. Deze nieuwe setup voert consistente, grondige controles uit op ons systeem om problemen te identificeren voordat ze uw ervaring beïnvloeden. Door deze tests te automatiseren, kunnen we snellere reacties op potentiële problemen garanderen en de hoogste kwaliteitsnormen voor ons systeem handhaven.
+* **Implementatie van Microservices Architectuur:**\
+  We hebben het platform geherstructureerd door kerncomponenten op te splitsen in specifieke microservices. Deze architectuurverschuiving verbetert schaalbaarheid, verbetert systeemprestaties en maakt snellere, meer modulaire ontwikkelings- en implementatiecycli mogelijk.
 *   **Walkthrough:**\
-    A guided walkthrough is now available to help users navigate and understand different parts of the application more easily. This is especially useful for onboarding new users or exploring unfamiliar features.\
-
-
-    <figure><img src="../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
-* **Decision Tree Improvements:**\
-  Enhancements have been made to the decision tree interface, including a more intuitive row addition feature — now located at the top of the tree — to simplify maintenance and editing.
-* **DocOperator, DocNet, and Extension Tools:**\
-  New AI-powered tools like DocOperator and DocNet help automate repetitive tasks, improving efficiency and reducing manual effort across document workflows.
-*   **Electronic Document Preview Option:**\
-    A preview feature has been added for electronic documents (eDocs), allowing users to test and view changes directly within the settings before deploying them.\
-
-
-    <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
-* **New Language Support – Chinese:**\
-  DocBits now supports Chinese, expanding accessibility and localization options for users across global markets.
-* **Improved Task Dashboard:**\
-  The task dashboard has been enhanced to display a larger number of tasks at once, giving users a clearer overview and improving task tracking.
-*   **PO Matching Improvements:**
-
-    Added visual indicators for different matching states
-
-    New setting to ignore already matched PO lines per document type
-
-    Improved auto-check for PO updates to ensure consistency
-* **Layout Builder Improvements:**\
-  You can now search for both field names and field titles, making it faster and easier to configure and locate layout components.
-* **Export and Next Button in Approval Screen:**\
-  A new button has been added to the approval screen that allows users to export a document and automatically proceed to the next one in the “Ready for Validation” queue.
-* **New Workflow Cards:**\
-  New workflow cards have been introduced, including ones for running workflows on new purchase orders and quote-related events. These provide more automation options.
-*   **Watchdog Improvements:**\
-    Watchdog configuration has been moved into the main application UI, making it easier to manage. Additional functionalities have also been introduced for better monitoring and control.\
+    Een begeleide walkthrough is nu beschikbaar om gebruikers te helpen verschillende delen van de applicatie gemakkelijker te navigeren en begrijpen. Dit is vooral nuttig voor het inwerken van nieuwe gebruikers of het verkennen van onbekende functies.\
+
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/image%20(431).png)
+* **Verbeteringen aan Beslisboom:**\
+  Er zijn verbeteringen aangebracht aan de beslisboominterface, inclusief een intuïtievere functie voor het toevoegen van rijen — nu bovenaan de boom geplaatst — om onderhoud en bewerking te vereenvoudigen.
+* **DocOperator, DocNet en Extension Tools:**\
+  Nieuwe AI-aangedreven tools zoals DocOperator en DocNet helpen bij het automatiseren van repetitieve taken, wat de efficiëntie verbetert en handmatige inspanning bij documentworkflows vermindert.
+*   **Elektronische Document Voorbeeld Optie:**\
+    Een voorbeeldfunctie is toegevoegd voor elektronische documenten (eDocs), waardoor gebruikers wijzigingen direct binnen de instellingen kunnen testen en bekijken voordat ze worden geïmplementeerd.\
+
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/image%20(3)%20(1)%20(1).png)
+* **Nieuwe Taalondersteuning – Chinees:**\
+  DocBits ondersteunt nu Chinees, wat toegankelijkheid en lokalisatieopties voor gebruikers over wereldwijde markten uitbreidt.
+* **Verbeterd Taakdashboard:**\
+  Het taakdashboard is verbeterd om een groter aantal taken tegelijk weer te geven, wat gebruikers een duidelijker overzicht geeft en taakopvolging verbetert.
+*   **PO Matching Verbeteringen:**
+
+    Visuele indicatoren toegevoegd voor verschillende matchingstatussen
+
+    Nieuwe instelling om reeds gematcht PO-regels per documenttype te negeren
+
+    Verbeterde auto-controle voor PO-updates om consistentie te garanderen
+* **Layout Builder Verbeteringen:**\
+  U kunt nu zoeken naar zowel veldnamen als veldtitels, wat het sneller en gemakkelijker maakt om lay-outcomponenten te configureren en te vinden.
+* **Export en Volgende Knop in Goedkeuringsscherm:**\
+  Een nieuwe knop is toegevoegd aan het goedkeuringsscherm waarmee gebruikers een document kunnen exporteren en automatisch naar het volgende document in de "Klaar voor Validatie" wachtrij kunnen gaan.
+* **Nieuwe Workflow Kaarten:**\
+  Nieuwe workflow kaarten zijn geïntroduceerd, inclusief kaarten voor het uitvoeren van workflows op nieuwe inkooporders en offertes-gerelateerde gebeurtenissen. Deze bieden meer automatiseringsopties.
+*   **Watchdog Verbeteringen:**\
+    Watchdog-configuratie is verplaatst naar de hoofdapplicatie-UI, wat het gemakkelijker maakt om te beheren. Extra functionaliteiten zijn ook geïntroduceerd voor betere monitoring en controle.\
+
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/image%20(4)%20(1)%20(1).png)
+* **Verbeteringen voor Regelafwijzing:**\
+  Het afwijzen van een regelitem vereist nu dat gebruikers een reden opgeven, wat betere traceerbaarheid en verantwoordelijkheid in beoordelingsworkflows garandeert.
+* **Leverancier AI Model Lijst in Instellingen:**\
+  Een nieuwe instellingenweergave toont de AI-modellen die zijn toegewezen aan specifieke leveranciers, samen met een optie om ze te resetten. Dit verbetert transparantie en beheerbaarheid van leverancier-gebaseerde AI-configuraties.
+*   **Verbeteringen aan Document Log:**\
+    De documentlogboeken bevatten nu meer gedetailleerde informatie om betere auditing en troubleshooting te ondersteunen.\
+
 
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/image%20(5)%20(1)%20(1).png)
+* **PNG en JPG Ondersteuning:**\
+  U kunt nu PNG- en JPG-bestanden uploaden, die automatisch worden geconverteerd naar PDF-formaat voor verwerking.
+* **IDM Export Documentformaat Configuratie:**\
+  Het exportformaat voor PDF's in IDM kan nu worden geconfigureerd, wat gebruikers meer controle geeft over hoe documenten worden gegenereerd.
+* **Nieuw eDoc Type – EDIFACT INVOIC02:**\
+  We ondersteunen nu het EDIFACT INVOIC02 elektronische documenttype, wat compatibiliteit met gestandaardiseerde factuurformaten uitbreidt.
 
-    <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
-* **Line Rejection Enhancements:**\
-  Rejecting a line item now requires users to provide a reason, ensuring better traceability and accountability in review workflows.
-* **Supplier AI Model List in Settings:**\
-  A new settings view displays the AI models assigned to specific suppliers, along with an option to reset them. This improves transparency and manageability of supplier-based AI configurations.
-*   **Document Log Improvements:**\
-    The document logs now include more detailed information to support better auditing and troubleshooting.\
+### Bugfixes
 
+* Een probleem opgelost waarbij taken niet verschenen op het validatie-/goedkeuringsscherm.
+* De positionering van de Volgende/Vorige knop gefixeerd zodat deze statisch blijft.
+* Scrollproblemen in de script- en beslisboomweergaven opgelost, zodat actieknoppen stationair blijven tijdens scrollen.
+* Het land van oorsprong veld verwijderd van e-facturen.
+* Een probleem opgelost met de taakteller die een onjuist aantal taken weergaf.
+* Ontbrekende vertalingen toegevoegd.
+* Aangepaste velden gecorrigeerd om beschrijvende namen weer te geven in plaats van ID's.
+* Een probleem opgelost waarbij documenten werden gedownload met een onjuiste bestandsnaam.
+* Sorteerinconsistenties in de factuurregel-tabel binnen PO-matching opgelost.
+* Een probleem opgelost dat de functionaliteit voor het aanmaken van taken beïnvloedde.
+* Een probleem opgelost in PO-matching waarbij de factuur-tabelsortering werd gereset bij het matchen van een regel.
+* Auto accounting problemen opgelost door ervoor te zorgen dat boekingsreferenties correct worden gesplitst wanneer een bedrag wordt verdeeld.
+* De ClickHouse host-informatie bijgewerkt.
+* Een probleem opgelost waarbij dubbele documenten niet als duplicaten werden herkend.
+* Exportproblemen opgelost veroorzaakt door boekingsreferenties die te lang waren.
+* Een probleem opgelost waarbij alleen-lezen checkboxen niet alleen-lezen waren
+* Een probleem opgelost waarbij gebruikers twee keer aan een suborganisatie konden worden toegevoegd
+* Een probleem opgelost waarbij het wijzigen van de suborganisatie voor een document de toegewezen gebruiker of groep resettte
+* Enkele problemen met het auto accounting scherm opgelost
+* Een probleem opgelost waarbij gebruikers geen FTP-configuratie konden toevoegen
+* Een probleem met de SSO-login opgelost
+* Enkele problemen met betrekking tot inkomende e-mails opgelost
+* Een probleem opgelost waarbij documenten een verkeerde naam kregen bij het downloaden
+* Een probleem opgelost waarbij de beslisboom een onjuist resultaat retourneerde
 
-    <figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
-* **PNG and JPG Support:**\
-  You can now upload PNG and JPG files, which will automatically be converted into PDF format for processing.
-* **IDM Export Document Format Configuration:**\
-  The export format for PDFs in IDM can now be configured, giving users more control over how documents are generated.
-* **New eDoc Type – EDIFACT INVOIC02:**\
-  We now support the EDIFACT INVOIC02 electronic document type, expanding compatibility with standardized invoice formats.
+## Release Hot Fix Winter Frost 10 april 2025
 
-### Bug Fixes
+### DocBits verbeteringen:
 
-* Resolved an issue where tasks were not appearing on the validation/approval screen.
-* Fixed the positioning of the Next/Previous button so that it remains static.
-* Fixed scrolling issues in the script and decision tree views, ensuring that action buttons remain stationary during scroll.
-* Removed the origin country field from e-invoices.
-* Fixed an issue with the task counter displaying an inaccurate number of tasks.
-* Added missing translations.
-* Corrected custom fields to display descriptive names instead of IDs.
-* Resolved an issue where documents were downloaded with an incorrect file name.
-* Fixed sorting inconsistencies in the invoice line table within PO matching.
-* Fixed an issue affecting task creation functionality.
-* Fixed an issue in PO matching where the invoice table sorting would reset when matching a line.
-* Resolved auto accounting issues by ensuring booking references split correctly when an amount is divided.
-* Updated the ClickHouse host information.
-* Resolved an issue where duplicate documents were not recognized as duplicates.
-* Fixed export issues caused by booking references that were too long.
-* Resolved an issue where readonly checkboxes where not readonly&#x20;
-* Fixed an issue where Users can be added to a sub-organization twice&#x20;
-* Fixed an issue where changing the sub-organization for a document caused to reset the assigned user or group
-* Resolved some issues with auto.accounting Screen
-* Fixed an issue where users are unable to add FTP configuration&#x20;
-* Fixed an issue with the SSO login
-* Fixed some issues related to Inbound Emails
-* Fixed an issue with documents getting a wrong name when downloading them&#x20;
-* Fixed an wissue where the decision tree returns incorrect result
+* **Verbeterde `set_column_date_value` Scriptfunctie:**\
+  De `set_column_date_value` functie bevat nu ondersteuning voor de `skip_weekend` optie, waardoor datumwaarden automatisch weekends kunnen overslaan wanneer toegepast.
+* **Verbeterde Bestandsupload Ondersteuning:**\
+  PNG- en JPEG-bestanden kunnen nu direct worden geüpload en worden automatisch geconverteerd naar PDF-formaat voor gestroomlijnde documentverwerking.
+* **Watchdog Functionaliteit Upgrades:**
+  * Ondersteunt nu export naar **Enaio** voor betere systeemintegratie.
+  * Verbeterde parseermogelijkheden om informatie uit `Sync.ContentDocument` XML-structuren te extraheren, wat efficiëntere gegevensverwerking mogelijk maakt.
 
-## Release Hot Fix Winter Frost  10th April 2025
+### Bugfixes
 
-### DocBits enhancements:
+* Een probleem met een scriptfunctie opgelost.
+* Een probleem opgelost waarbij inkooporders een verkeerde status hadden nadat ze werden bijgewerkt
 
-* **Enhanced `set_column_date_value` Script Function:**\
-  The `set_column_date_value` function now includes support for the `skip_weekend` option, allowing date values to automatically skip weekends when applied.
-* **Improved File Upload Support:**\
-  PNG and JPEG files can now be uploaded directly and are automatically converted into PDF format for streamlined document handling.
-* **Watchdog Functionality Upgrades:**
-  * Now supports export to **Enaio** for better system integration.
-  * Enhanced parsing capabilities to extract information from `Sync.ContentDocument` XML structures, enabling more efficient data processing.
+## Release Hot Fix Winter Frost 17 maart 2025
 
-### Bug Fixes
+### Bugfixes
 
-* Fixed an issue on a script function.
-* Resolved an issue where Purchase orders had a wrong status after they where updated&#x20;
+* De sneltoetsen verbeterd.
 
+## Release Hot Fix Winter Frost 11 maart 2025
 
+### DocBits verbeteringen:
 
-## Release Hot Fix Winter Frost  17th March 2025
+* **Verbeterde Data Extractie:** Een optie toegevoegd om het **Inkoopordernummer** of **Artikelnummer** uit een regel erboven of eronder te extraheren.
+* **Uitgebreide Cross Sub-Organisaties Toegang:** Niet-admin gebruikers hebben nu ook toegang tot de **Cross Sub-Organisaties** functie. [Leer meer](https://docs.docbits.com/administration-and-setup/settings/global-settings/groups-users-and-permissions/sub-organizations#cross-sub-organisations-access)
 
-### Bug Fixes
+### **Bugfixes:**
 
-* Improved the shortcuts.
+* Een probleem opgelost waarbij gebruikers niet aan een groep konden worden toegevoegd.
+* Een probleem met e-mail import fouten opgelost.
+* Een probleem opgelost met veldtraining op documenten met meer dan één pagina
+* Een probleem opgelost waarbij scripts niet goed werkten.
+* Een probleem opgelost waarbij documentgegevens niet correct werden weergegeven
+* Een probleem opgelost met de automatische inkooporder update instelling
+* Een probleem opgelost waarbij de abonnementstokens verkeerd werden weergegeven
+* Een probleem opgelost waarbij het taakscherm een verouderde documentversie toonde
+* Een probleem opgelost dat ervoor zorgde dat documenten hun status niet veranderden
 
-## Release Hot Fix Winter Frost  11th March 2025
+## Release Hot Fix Winter Frost 3 februari 2025
 
-### DocBits enhancements:
+### **DocBits Verbeteringen:**
 
-* **Improved Data Extraction:** Added an option to extract the **Purchase Order** or **Item Number** from a line above or below.
-* **Expanded Cross Sub-Organizations Access:** Non-admin users can now also access the **Cross Sub-Organizations** feature. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/groups-users-and-permissions/sub-organizations#cross-sub-organisations-access)
+* **Ondersteuning voor ISO-8859-1 voor ZUGFeRD:** Verbeterde compatibiliteit voor facturen met ISO-8859-1 karaktercodering.
+* **Geoptimaliseerd Logging Systeem:** Verbeterde tracking en diagnostiek voor snellere probleemidentificatie en oplossing.
 
-### **Bug Fixes:**
+## Release Winter Frost 22 januari 2025
 
-* Fixed an issue where users could not be added to a group.
-* Fixed an issue with email import failures.
-* Resolved an issue with the field training on documents with more than page&#x20;
-* Fixed an issue where scripts didn’t work properly.
-* Resolved an issue where document data didn't get displayed correctly&#x20;
-* Fixed an issue with the auto update purchase order setting&#x20;
-* Fixed an issue where the subscription tokens got displayed wrong&#x20;
-* Resolved an issue where the task screen displayed an outdated document version&#x20;
-* Fixed an issue that caused documents to not change their status &#x20;
+#### Nieuwe Functies
 
-## Release Hot Fix Winter Frost  3rd February 2025
+### Ondersteuning voor ZUGFeRD 2.1 en Nieuwer
 
-### **DocBits Enhancements:**
+DocBits bevat nu volledige ondersteuning voor ZUGFeRD versies 2.1 en hoger, wat naadloze verwerking van ZUGFeRD-compatibele elektronische facturen mogelijk maakt. De integratie garandeert:
 
-* **Support for ISO-8859-1 for ZUGFeRD:** Improved compatibility for invoices using ISO-8859-1 character encoding.
-* **Optimized Logging System:** Enhanced tracking and diagnostics for quicker issue identification and resolution.
+* **Compatibiliteit**: DocBits kan ZUGFeRD-facturen beheren in zowel hun gestructureerde (XML) als ongestructureerde (PDF) formaten, met behoud van naleving van EU-normen zoals EN 16931 voor e-facturering.
+* **Efficiëntie**: Gebruikers kunnen moeiteloos ZUGFeRD e-facturen importeren, valideren en gegevens extraheren, wat handmatige gegevensinvoer minimaliseert en verwerkingstijd vermindert.
+* **Flexibiliteit**: Of u nu werkt met basis-, comfort- of uitgebreide profielen binnen de ZUGFeRD-standaard, DocBits biedt tools om elk niveau van factuurcomplexiteit te beheren.
+* **Toekomstbestendig**: Met ondersteuning voor nieuwere versies zorgt DocBits ervoor dat bedrijven voldoen aan evoluerende e-factureringsregels in EU-lidstaten en daarbuiten.
 
-## Release Winter Frost 22nd January 2025
+Door ZUGFeRD 2.1 en nieuwere standaarden op te nemen, vereenvoudigt DocBits grensoverschrijdende transacties en sluit het aan bij moderne bedrijfsbehoeften, wat het een essentieel hulpmiddel maakt voor organisaties die prioriteit geven aan digitale transformatie en naleving van regelgeving. [Leer meer](https://docs.docbits.com/administration-and-setup/settings/global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3)
 
-#### New Features
+### Externe API Integratie voor Verbeterde Documentverwerking
 
-### Support for ZUGFeRD 2.1 and Newer
+DocBits introduceert een geavanceerde mogelijkheid om externe API's te gebruiken tijdens documentverwerking, wat de volledigheid en nauwkeurigheid van geëxtraheerde gegevens verbetert. Deze functie vermindert handmatige invoer aanzienlijk door ontbrekende velden te vullen met nauwkeurige, actuele informatie die in real-time wordt opgehaald uit vertrouwde bronnen. Het zorgt ervoor dat documenten sneller en met grotere consistentie worden verwerkt.
 
-DocBits now includes full support for ZUGFeRD versions 2.1 and above, enabling seamless handling and processing of ZUGFeRD-compliant electronic invoices. The integration ensures:
+### Cross Sub-Organisaties Toegang
 
-* **Compatibility**: DocBits is capable of managing ZUGFeRD invoices in both their structured (XML) and unstructured (PDF) formats, maintaining compliance with EU standards such as EN 16931 for e-invoicing.
-* &#x20;**Efficiency**: Users can effortlessly import, validate, and extract data from ZUGFeRD e-invoices, minimizing manual data entry and reducing processing time.&#x20;
-* **Flexibility**: Whether you're working with basic, comfort, or extended profiles within the ZUGFeRD standard, DocBits provides tools to manage each level of invoice complexity.&#x20;
-* **Future-Proofing**: With support for newer versions, DocBits ensures that businesses remain compliant with evolving e-invoicing regulations across EU member states and beyond.
+Voor organisaties met meerdere suborganisaties ingeschakeld, introduceert DocBits nu de Cross Sub-Organisaties functie. Deze verbetering stelt administratieve gebruikers in staat hun documentbeheer te stroomlijnen over alle suborganisaties onder één paraplu. Admin-gebruikers hebben nu toegang tot en kunnen alle documenten van elke suborganisatie bekijken zonder van suborganisatie te hoeven wisselen. Deze gecentraliseerde zichtbaarheid stelt admins in staat om alle documenten voor alle suborganisaties te zien, waardoor het gemakkelijk wordt om specifieke bestanden te vinden terwijl ze toch een vogelvluchtperspectief behouden. [Leer meer](https://docs.docbits.com/administration-and-setup/settings/global-settings/groups-users-and-permissions/sub-organizations#cross-sub-organisations-access)
 
-By incorporating ZUGFeRD 2.1 and newer standards, DocBits simplifies cross-border transactions and aligns with modern business needs, making it an essential tool for organizations prioritizing digital transformation and regulatory compliance. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3)
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/CrossSubOrganisations.png)
 
-### External API Integration for Enhanced Document Processing
+### Documentzichtbaarheid op Basis van Groepsrechten
 
-DocBits introduces an advanced capability to leverage external APIs during document processing, enhancing the completeness and accuracy of extracted data. This feature significantly reduces manual input by populating missing fields with accurate, up-to-date information retrieved in real time from trusted sources. It ensures that documents are processed faster and with greater consistency.
+DocBits introduceert verbeterde documentzichtbaarheidscontroles, die preciezer toegangsbeheer mogelijk maken voor niet-admin gebruikers via groep-gebaseerde rechten. Deze functie stelt beheerders in staat te definiëren welke documenten zichtbaar zijn voor specifieke gebruikers of groepen, wat gestroomlijnde workflows en verbeterde gegevensbeveiliging garandeert. Admin-gebruikers kunnen documenten toewijzen aan specifieke groepen, waarbij zichtbaarheid alleen wordt verleend aan gebruikers binnen die groepen. Dit zorgt ervoor dat gebruikers alleen de documenten zien die relevant zijn voor hun rol of team, wat rommel vermindert en focus verbetert. [Leer meer](https://docs.docbits.com/administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions)
 
-### Cross Sub-Organizations Access
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Group%20Based%20Permission.png)
 
-For organizations with multiple sub-organizations enabled, DocBits now introduces the Cross Sub-Organizations feature. This enhancement empowers administrative users to streamline their document management across all sub-organizations under a single umbrella. Admin users can now access and view all documents from every sub-organisation without needing to switch sub-organization. This centralized visibility enables admins to see all the documents for all the sub-organisations, making it easy to locate specific files while still maintaining a bird’s-eye view. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/groups-users-and-permissions/sub-organizations#cross-sub-organisations-access)
+### Sequentiële Workflow en Goedkeuringsgeschiedenis
 
-<figure><img src="../../.gitbook/assets/CrossSubOrganisations.png" alt=""><figcaption></figcaption></figure>
+DocBits introduceert een krachtige Sequentiële Workflow en Goedkeuringsgeschiedenis functie, ontworpen om de efficiëntie en verantwoordelijkheid van documentverwerking te verbeteren. Door documenten een vooraf gedefinieerde beslisboom te laten volgen, zorgt deze functie voor ordelijke beoordeling en goedkeuring terwijl een volledig overzicht van genomen acties wordt bijgehouden. Sequentieel Workflow Beheer:
 
-### Document Visibility Based on Group Permissions
+* Documenten kunnen worden toegewezen aan meerdere gebruikers in een vooraf gedefinieerde volgorde, zodat elke fase van beoordeling of validatie in de juiste volgorde plaatsvindt.
+* Elke gebruiker in de workflow wordt op de hoogte gesteld wanneer het hun beurt is om actie te ondernemen op het document, wat verwarring en vertragingen vermindert.
+* Workflows kunnen worden aangepast om specifieke bedrijfsprocessen te matchen
 
-DocBits introduces enhanced document visibility controls, enabling more precise access management for non-admin users through group-based permissions. This feature allows administrators to define which documents are visible to specific users or groups, ensuring streamlined workflows and improved data security. Admin users can assign documents to specific groups, granting visibility only to users within those groups. This ensures that users see only the documents relevant to their role or team, reducing clutter and enhancing focus. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/groups-users-and-permissions/groups-and-permissions)
+**Goedkeuringsgeschiedenis:**
 
-<figure><img src="../../.gitbook/assets/Group Based Permission.png" alt=""><figcaption></figcaption></figure>
+* Een volledig logboek van alle acties die op het document zijn ondernomen is beschikbaar in de Validatie- en Goedkeuringsweergaven. Dit omvat:
+  * Gebruikersacties (bijv. "goedgekeurd", "afgewezen")
+  * Tijdstempels voor elke actie
+  * Opmerkingen of notities toegevoegd door gebruikers tijdens beoordeling
+* De geschiedenis zorgt voor transparantie en biedt een auditspoor voor naleving en troubleshooting. [Leer meer](https://docs.docbits.com/administration-and-setup/settings/global-settings/document-types/more-settings/approval-history)
 
-### Sequential Workflow and Approval History
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Approval%20History.png)
 
-DocBits introduces a powerful Sequential Workflow and Approval History feature, designed to enhance document processing efficiency and accountability. By enabling documents to follow a predefined decision tree, this feature ensures orderly review and approval while maintaining a complete record of actions taken. Sequential Workflow Management:
+### SFTP/FTP Documenten Archief Verbetering
 
-* Documents can be assigned to multiple users in a predefined sequence, ensuring that each stage of review or validation occurs in the correct order.
-* Each user in the workflow is notified when it's their turn to act on the document, reducing confusion and delays.
-* Workflows can be customized to match specific business processes
+De SFTP/FTP Documenten Archief verbetering in DocBits bouwt voort op de bestaande importfunctionaliteit en introduceert een naadloze methode voor het archiveren van bestanden nadat ze zijn verwerkt. Een nieuwe instelling in de FTP-importconfiguratie stelt gebruikers in staat bestandsarchivering in of uit te schakelen. Zodra bestanden succesvol zijn ingested en verwerkt in DocBits, worden ze automatisch gearchiveerd naar een aangewezen map op de SFTP/FTP-server als de optie is ingeschakeld. Dit zorgt ervoor dat verwerkte bestanden worden bewaard voor administratie zonder de actieve importmappen te vervuilen. [Leer meer](https://docs.docbits.com/end-user-and-partner-section/end-user-section/how-to-import-documents/ftp)
 
-**Approval History:**
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/SFTPArchieve.png)
 
-* A complete log of all actions taken on the document is available in the Validation and Approval views. This includes:&#x20;
-  * User actions (e.g., "approved" "rejected")&#x20;
-  * Timestamps for each action
-  * Comments or notes added by users during review
-* The history ensures transparency and provides an audit trail for compliance and troubleshooting. [Learn more](https://docs.docbits.com/administration-and-setup/settings/global-settings/document-types/more-settings/approval-history)
+### Meerdere BTW Secties voor BTW Type en Export naar LN
 
-<figure><img src="../../.gitbook/assets/Approval History.png" alt=""><figcaption></figcaption></figure>
+Deze functie verbetert mogelijkheden voor BTW-verwerking door gedetailleerde classificatie en export van BTW-informatie naar Infor LN mogelijk te maken (Volledige BTW, Verlaagde BTW, BTW Vrij). Dit maakt betere afstemming met complexe BTW-structuren mogelijk en zorgt voor naadloze integratie met boekhoudsystemen.
 
-### SFTP/FTP Documents Archive Enhancement
+**Meerdere BTW Secties per Type**:
 
-The SFTP/FTP Documents Archive enhancement in DocBits builds on the existing import functionality, introducing a seamless method for archiving files after they’ve been processed. A new setting in the FTP import configuration allows users to enable or disable file archiving. Once files are successfully ingested and processed in DocBits, they will be automatically archived to a designated folder on the SFTP/FTP server if the option is enabled. This ensures processed files are preserved for record-keeping without cluttering the active import directories. [Learn more](https://docs.docbits.com/end-user-and-partner-section/end-user-section/how-to-import-documents/ftp)
+* DocBits ondersteunt nu het toevoegen van meerdere BTW-secties onder elk BTW-type, zoals:
+  * Volledige BTW: Standaard BTW- of omzetbelastingtarieven.
+  * Verlaagde BTW: Lagere tarieven voor specifieke goederen of diensten (bijv. essentiële artikelen).
+  * BTW-Vrij: Vrijstellingen voor in aanmerking komende transacties.
+* Deze secties maken nauwkeurige categorisatie van BTW-bedragen mogelijk, wat naleving van BTW-regelgeving en boekhoudnormen garandeert.
 
-<figure><img src="../../.gitbook/assets/SFTPArchieve.png" alt=""><figcaption></figcaption></figure>
+**Dynamische Auto Accounting Integratie**:
 
-### Multiple Tax Section for Tax Type and Export to LN
+* Op basis van de gegevens die tijdens documentverwerking zijn geëxtraheerd, worden de relevante BTW-secties automatisch weergegeven op het Auto Accounting Scherm.
+* Dit zorgt ervoor dat gebruikers BTW-invoeren snel kunnen valideren en aanpassen zonder handmatige berekening of herinvoer, wat de workflow stroomlijnt.
 
-This feature enhances tax handling capabilities by enabling detailed classification and export of tax information to Infor LN (Full Tax, Reduced Tax, Tax Free). This allows for better alignment with complex tax structures and ensures seamless integration with accounting systems.
+**Export naar Infor LN**:
 
-**Multiple Tax Sections per Type**:
+* De BTW-gegevens, inclusief alle relevante secties en classificaties, worden naadloos geëxporteerd naar Infor LN, wat consistentie garandeert tussen documentverwerking in DocBits en het ERP-systeem (Enterprise Resource Planning).
+* Geëxporteerde gegevens zijn gekoppeld aan de respectievelijke kostenregels in Infor LN, wat duidelijke traceerbaarheid en nauwkeurige financiële rapportage handhaaft.
 
-* DocBits now supports the addition of multiple tax sections under each tax type, such as:
-  * Full Tax: Standard VAT or sales tax rates.
-  * Reduced Tax: Lower rates for specific goods or services (e.g., essential items).&#x20;
-  * Tax-Free: Exemptions for eligible transactions.&#x20;
-* These sections allow precise categorization of tax amounts, ensuring compliance with tax regulations and accounting standards.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/MultipleTaxLInes.png)
 
-**Dynamic Auto Accounting Integration**:
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/MultipleTaxLineAuto%20Accounting.png)
 
-* Based on the data extracted during document processing, the relevant tax sections are automatically displayed on the Auto Accounting Screen.
-* This ensures that users can validate and adjust tax entries quickly without manual calculation or re-entry, streamlining the workflow.
+### Dashboard Verbeteringen
 
-**Export to Infor LN**:
+DocBits heeft aanzienlijke updates aan het dashboard geïntroduceerd, met focus op bruikbaarheid, efficiëntie en verbeterde gegevenszichtbaarheid. Deze verbeteringen omvatten een nieuw "Toegewezen aan Groep" filter en een geoptimaliseerde UI voor Document Logs, waardoor het gemakkelijker wordt voor gebruikers om met hun documenten te werken en ze te beheren.
 
-* The tax data, including all relevant sections and classifications, is seamlessly exported to Infor LN, ensuring consistency between document processing in - DocBits and the enterprise resource planning (ERP) system.
-* Exported data is linked to the respective cost lines in Infor LN, maintaining clear traceability and accurate financial reporting.
+### PO Matching Verbeteringen
 
-<figure><img src="../../.gitbook/assets/MultipleTaxLInes.png" alt=""><figcaption></figcaption></figure>
+DocBits introduceert verschillende bruikbaarheidsverbeteringen voor het PO Matching Scherm, ontworpen om het proces van het matchen van inkooporderregels (PO) met facturen te stroomlijnen. Deze verbeteringen bieden meer intuïtieve controles voor het selecteren van meerdere regels en bieden duidelijke visuele indicatoren voor het verwerken van verouderde PO-gegevens.
 
-<figure><img src="../../.gitbook/assets/MultipleTaxLineAuto Accounting.png" alt=""><figcaption></figcaption></figure>
+**Ctrl + Klik voor Individuele Regelselectie**:
 
-### Dashboard Enhancements
+* Gebruikers kunnen nu de Ctrl-toets ingedrukt houden en op specifieke regels klikken om meerdere, niet-aaneengesloten rijen op het PO-matchingscherm te selecteren.
 
-DocBits has introduced significant updates to the dashboard, focusing on usability, efficiency, and improved data visibility. These enhancements include a new "Assigned To Group" filter and an optimized UI for Document Logs, making it easier for users to interact with and manage their documents.
+**Shift + Klik voor Bereikselectie**:
 
-### PO Matching Enhancements
+* Gebruikers kunnen een reeks rijen selecteren door de Shift-toets ingedrukt te houden, op de eerste rij te klikken en vervolgens op de laatste rij. Alle rijen tussen de eerste en laatste selectie worden automatisch geselecteerd.
 
-DocBits introduces several usability improvements to the PO Matching Screen, designed to streamline the process of matching purchase order (PO) lines with invoices. These enhancements offer more intuitive controls for multi-line selection and provide clear visual indicators for handling outdated PO data.
+**Automatische Detectie van Verouderde Gegevens**:
 
-**Ctrl + Click for Individual Line Selection**:
+* Als de PO-gegevens die aan een factuur zijn gekoppeld oud zijn (op basis van systeeminstellingen), wordt een pictogram weergegeven om de gebruiker te waarschuwen. Deze visuele indicator zorgt ervoor dat gebruikers zich bewust zijn van verouderde gegevens die mogelijk niet de laatste updates in de inkooporder weerspiegelen.
 
-* Users can now hold the Ctrl key and click on specific lines to select multiple, non-contiguous rows on the PO matching screen.
+### Bugfixes
 
-**Shift + Click for Range Selection**:
+* Een probleem opgelost om ervoor te zorgen dat alle mogelijke waarden correct worden weergegeven tijdens auto-accountingprocessen
+* De gebruikersinterface van Workflow Logs verbeterd om navigatie en bruikbaarheid intuïtiever te maken
+* De documentvelden bijgewerkt om aanvullende informatie weer te geven, zoals vereiste en verborgen vlaggen, direct in de gebruikersinterface
+* Zichtbaarheid van groepsbeschrijvingen toegevoegd in de groepsinstellingen
+* Lengterestricties voor groepsnamen weergegeven tijdens het aanmaken om fouten te voorkomen
+* Problemen in de testfunctionaliteit van de beslisboom aangepakt en vertaalinconsistenties opgelost
+* De zoekfunctionaliteit in Workflow Logs verbeterd voor nauwkeurigere en effectievere zoekresultaten
+* Een probleem opgelost om te voorkomen dat gebruikers per ongeluk e-document concepten verwijderen
+* Bugs in het e-mail importproces opgelost om naadloze integratie en gegevensverwerking te garanderen
+* Problemen opgelost met het opslaan van AI-gegenereerde tags, wat consistente gegevensretentie garandeert
+* Een sorteerprobleem gecorrigeerd dat optrad bij het toepassen van sortering over verschillende pagina's van het dashboard
+* De documentteller verbeterd om het aantal documenten dat door DocBits is verwerkt nauwkeurig weer te geven
+* Vertalingen door de applicatie verbeterd om bruikbaarheid voor verschillende talen te verbeteren
 
-* Users can select a range of rows by holding the Shift key, clicking on the first row, and then clicking on the last row. All rows in between the first and last selection will be automatically selected.
+## Release Hot Fix Feast 17 december 2024
 
-**Automatic Outdated Data Detection**:
+### **DocBits Verbeteringen:**
 
-* If the PO data associated with an invoice is old (based on system settings), an icon will be displayed to notify the user. This visual indicator ensures that users are aware of stale data that may not reflect the latest updates in the purchase order.
+#### E-mail Import Verbeteringen
 
-### Bug Fixes
+* Gebruikers kunnen nu naadloos XML- en EDI-bestanden importeren via de E-mail Import functie.
 
-* Resolved an issue to ensure all possible values are displayed correctly during auto-accounting processes
-* Improved the user interface of Workflow Logs to make navigation and usability more intuitive
-* Updated the document fields to display additional information, such as required and hidden flags, directly in the user interface
-* Added visibility of group descriptions in the group settings
-* Displayed length restrictions for group names during creation to prevent errors
-* Addressed issues in the decision tree testing functionality and resolved translation inconsistencies
-* Improved the search functionality in Workflow Logs for more accurate and effective search results
-* Fixed an issue to prevent users from inadvertently deleting e-document drafts
-* Resolved bugs in the email import process to ensure seamless integration and data handling
-* Fixed issues with saving AI-generated tags, ensuring consistent data retention
-* Corrected a sorting issue that occurred when applying sorting across different pages of the dashboard
-* Enhanced the document counter to accurately display the number of documents processed by DocBits
-* Improved translations throughout the application to enhance usability for different languages
+## Release Hot Fix Feast 27 november 2024
 
-## Release Hot Fix Feast 17th December 2024
+### DocBits Verbeteringen:
 
-### **DocBits Enhancements:**&#x20;
+#### Verbeterde PO Optimalisatie
 
-#### Email Import Enhancements
+* **Geoptimaliseerd Opslagmechanisme**: Het opslagproces is gestroomlijnd om alleen plaats te vinden nadat de gebruiker de matching voltooit, wat redundante opslagen vermindert en efficiëntie verbetert.
+* **Verbeterde Asynchrone Export**: Exportfunctionaliteit draait nu asynchroon, wat soepelere bewerkingen en een verbeterde algehele gebruikerservaring garandeert.
 
-* Users can now seamlessly import XML and EDI files through the Email Import feature.
+#### Workflow Verbeteringen
 
-## Release Hot Fix Feast 27th November 2024
+De workflowfunctionaliteit is geüpgraded om een betere gebruikerservaring te bieden:
 
-### DocBits Enhancements:
+* **Verbeterde Logs**: Workflow logs hebben nu een schonere, intuïtievere interface, wat het gemakkelijker maakt om procesdetails te bekijken en begrijpen.
+* **Verbeterde Responsiviteit**: Workflow executieprocessen zijn geoptimaliseerd voor snellere en betrouwbaardere prestaties, wat snellere taakvoltooiing en verminderde vertragingen mogelijk maakt.
 
-#### Enhanced PO Optimisation
+#### Verbeterde Applicatie Caching
 
-* **Optimised Saving Mechanism**: The saving process has been streamlined to occur only after the user completes the matching, reducing redundant saves and improving efficiency.
-* **Enhanced Asynchronous Export**: Export functionality now runs asynchronously, ensuring smoother operations and an improved overall user experience.
+We hebben geavanceerde caching-strategieën over de applicatie geïmplementeerd om gegevensopvraging te optimaliseren en laadtijden te verminderen. Deze verbeteringen verbeteren de algehele bruikbaarheid door soepelere navigatie en een meer responsieve gebruikerservaring te garanderen, vooral voor vaak gebruikte functies.
 
-#### Workflow Enhancements
+#### Dashboard en UI Upgrades
 
-The workflow functionality has been upgraded to provide a better user experience:
+* **Dashboard Verbeteringen**: Het dashboard is vernieuwd met een verbeterde lay-out en extra functies om navigatie te vereenvoudigen en zichtbaarheid van belangrijke metrieken te verbeteren.
+* **UI Verbeteringen**: De gebruikersinterface over de applicatie is verfijnd voor een modernere, intuïtievere en gebruiksvriendelijkere ervaring, wat het voor gebruikers gemakkelijker maakt om hun taken met minimale inspanning te volbrengen.
 
-* **Improved Logs**: Workflow logs now feature a cleaner, more intuitive interface, making it easier to review and understand process details.
-* **Enhanced Responsiveness**: Workflow execution processes are optimized for faster and more reliable performance, enabling quicker task completion and reduced delays.
+### Bugfixes:
 
-#### Improved Application Caching
+1. De fuzzy logica verbeterd om nauwkeurigere en betrouwbaardere gegevenspopulatie na extractie te garanderen.
+2. Bekende bugs die groepen en rechten beïnvloedden opgelost, wat naadloos toegangsbeheer en rolfunctionaliteit garandeert.
+3. Inconsistenties in vertalingen over de applicatie aangepakt, wat duidelijkheid en lokalisatie verbetert.
+4. Lay-out-gerelateerde problemen opgelost, wat een consistente en geoptimaliseerde gebruikersinterface over alle configuraties garandeert.
+5. Fouten in de master data lookup-functionaliteit gecorrigeerd, wat nauwkeurige en betrouwbare gegevensopvraging garandeert.
+6. Problemen met e-mail importfunctionaliteit over alle beschikbare opties opgelost, wat soepele en foutloze bewerkingen garandeert.
 
-We’ve implemented advanced caching strategies across the application to optimize data retrieval and reduce load times. These improvements enhance overall usability by ensuring smoother navigation and a more responsive user experience, particularly for frequently accessed features.
+## Release Feast 4 november 2024
 
-#### Dashboard and UI Upgrades
+### Nieuwe Functies:
 
-* **Dashboard Enhancements**: The dashboard has been revamped with an improved layout and additional features to simplify navigation and enhance visibility of key metrics.
-* **UI Improvements**: The user interface across the application has been refined for a more modern, intuitive, and user-friendly experience, making it easier for users to accomplish their tasks with minimal effort.
+#### E-mail Import Verbeteringen
 
-### Bug Fixes:
+Geconfigureerde IMAP e-mailinstellingen om automatisch notificaties te verzenden voor importresultaten. Succesvolle importnotificaties bevestigen de verwerkte bestanden, terwijl foutmeldingen de bestandsnamen en specifieke foutdetails bevatten voor snelle troubleshooting.
 
-1. Enhanced the fuzzy logic to ensure more accurate and reliable data population following extraction.
-2. Fixed known bugs affecting groups and permissions, ensuring seamless access management and role functionality.
-3. Addressed inconsistencies in translations across the application, improving clarity and localization.
-4. Resolved layout-related issues, ensuring a consistent and optimized user interface across all configurations.
-5. Corrected errors in master data lookup functionality, ensuring accurate and reliable data retrieval.
-6. Resolved issues with email import functionality across all available options, ensuring smooth and error-free operations.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/EmailImport.png)
 
-## Release Feast 4th November 2024
+#### Master Data Lookup Vernieuwing
 
-### New Features:
+De master data lookup-instellingen zijn vernieuwd met verfijnde categorisatie, wat snellere en preciezere opvraging van diverse master data-types mogelijk maakt. Deze verbetering stroomlijnt gegevenstoegang door master data in verschillende categorieën te organiseren, wat zoekefficiëntie en nauwkeurigheid aanzienlijk verhoogt. Gebruikers kunnen nu sneller de relevante gegevens vinden, wat productiviteit en besluitvorming over de applicatie verbetert.
 
-#### Email Import Enhancements
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/MasterDataLookup.png)
 
-Configured IMAP email settings to automatically send notifications for import results. Successful import notifications will confirm the files processed, while failure alerts will include the filenames and specific error details for prompt troubleshooting.
+#### Prestatieverbeteringen
 
-<figure><img src="../../.gitbook/assets/EmailImport.png" alt=""><figcaption><p>Email Import Configurations</p></figcaption></figure>
+Een robuust caching-mechanisme geïmplementeerd om applicatieprestaties aanzienlijk te verhogen, vooral onder hoge verzoekdruk. Deze verbetering vermindert serververwerkingstijd door vaak geopende gegevens tijdelijk op te slaan, wat snellere responstijden en een soepelere gebruikerservaring mogelijk maakt. Het nieuwe caching-systeem beheert verhoogd verkeer efficiënt, wat betrouwbare en schaalbare prestaties garandeert, zelfs tijdens piekgebruiksperioden.
 
-#### Master Data Lookup Revamping
+#### Verbetering van Document Vergrendeling Functie
 
-Revamped the master data lookup settings with refined categorization, enabling faster and more precise retrieval of diverse master data types. This improvement streamlines data access by organizing master data into distinct categories, significantly boosting search efficiency and accuracy. Users can now locate the relevant data more quickly, enhancing productivity and decision-making across the application
+De documentvergrendelingsfunctionaliteit is geüpgraded om gelijktijdige bewerkingen te voorkomen, wat gegevensintegriteit garandeert en conflicten minimaliseert. Nu worden documenten automatisch vergrendeld tijdens actieve bewerking, wat gebruikers duidelijke indicatoren biedt wanneer een document in gebruik is en voorkomt dat anderen wijzigingen aanbrengen totdat de bewerkingssessie is voltooid. Deze verbetering stroomlijnt samenwerkende workflows en vermindert het risico op gegevensoverschrijvingen.
 
-<figure><img src="../../.gitbook/assets/MasterDataLookup.png" alt=""><figcaption><p>Master Data</p></figcaption></figure>
+#### Navigatie en Gebruikerservaring Verbeteringen
 
-#### Performance Improvements
+* **Breadcrumb Navigatie**: Breadcrumb trails toegevoegd over applicatiepagina's om navigatie te verbeteren, waardoor gebruikers eenvoudig eerdere secties kunnen volgen en naar teruggaan voor een intuïtievere browse-ervaring.
+* **Gestroomlijnde Gebruikersinterface**: De "nieuwe versie" pop-up notificatie verwijderd om een soepelere, ononderbroken workflow te creëren, wat afleidingen vermindert en algehele bruikbaarheid verbetert.
 
-Implemented a robust caching mechanism to significantly boost application performance, especially under high request loads. This improvement reduces server processing time by temporarily storing frequently accessed data, enabling faster response times and a smoother user experience. The new caching system efficiently manages increased traffic, ensuring reliable and scalable performance even during peak usage periods
+### Bugfixes:
 
-#### Document Lock Feature Enhancement
+* Gebruikersspecifieke problemen opgelost, zoals bijlageproblemen bij versleutelde of ondertekende e-mails.
+* Kaartweergave- en flowproblemen opgelost.
+* Routeringsproblemen met Volgende/Vorige knoppen gecorrigeerd.
+* Bugs met betrekking tot beslisboomtabellen aangepakt.
+* UI voor het wachtwoordveld bijgewerkt om bruikbaarheid te verbeteren.
+* Problemen met de taakteller die niet correct werd weergegeven opgelost.
+* Een gebruikersinterfaceprobleem met de AI-tabel gecorrigeerd.
+* Fouten met documentextractie tijdens tabeltraining opgelost.
+* Een waarschuwing toegevoegd wanneer een PO wordt gematcht tijdens herformattering, en ervoor gezorgd dat gematchte rijen worden verwijderd.
+* Datumformattering gecorrigeerd, zodat gegevens correct worden geladen per dag- en weekfilters, en ervoor gezorgd dat documenttypen correct worden weergegeven.
+* De weergave van documenten op dubbele monitors gecorrigeerd.
+* Een probleem opgelost waarbij het ontkoppelen van één PO-regel alle regels zou verwijderen.
+* Onjuiste vertalingen over de applicatie opgelost.
+* Het probleem opgelost waarbij lange beschrijvingen in regelbeheer scrollen op de lijst veroorzaakten.
+* Ontbrekende "Toewijzen aan" functionaliteit voor niet-admin gebruikers hersteld.
 
-Upgraded the document locking functionality to prevent simultaneous edits, ensuring data integrity and minimising conflicts. Now, documents are automatically locked during active editing, providing users with clear indicators when a document is in use and preventing others from making changes until the edit session is complete. This enhancement streamlines collaborative workflows and reduces the risk of data overwrites.
+## Release Harvest 9 september 2024
 
-#### Navigation and User Experience Improvements
+#### Nieuwe Functies
 
-* **Breadcrumb Navigation**: Added breadcrumb trails across application pages to enhance navigation, allowing users to easily track and return to previous sections for a more intuitive browsing experience.
-* **Streamlined User Interface**: Removed the "new version" pop-up notification to create a smoother, uninterrupted workflow, reducing distractions and improving overall usability.
+### Afhandeling van Dubbele Facturen
 
-### Bug Fixes:
-
-* Resolved user-specific problems, such as attachment failures from encrypted or signed emails.
-* Fixed card display and flow problems.
-* Corrected routing issues with Next/Previous buttons.
-* Addressed bugs related to decision tree tables.
-* Updated UI for the password field to improve usability.
-* Fixed issues with the task counter not displaying correctly.
-* Corrected a user interface problem with the AI table.
-* Resolved errors with document extraction during table training.
-* Added a warning when a PO is matched during reformatting, and ensured matched rows are removed.
-* Fixed date formatting, ensuring data loads correctly by day and week filters, and ensured document types are properly displayed.
-* Corrected the display of documents on dual monitors.
-* Fixed a problem where unlinking one PO line would remove all lines.
-* Resolved incorrect translations across the application.
-* Fixed the issue where lengthy descriptions in rule management caused scrolling on the list.
-* FeastRestored missing "Assign-To" functionality for non-admin users.
-
-## Release Harvest 9th September 2024
-
-#### New Features
-
-### Duplicate Invoice handling
-
-This feature allows users to identify if documents are duplicated across their system. This feature works by analyzing document fields that can be configured by the user. By selecting specific fields, users can customize the detection criteria to suit their needs, ensuring that only relevant duplicates are flagged. This helps to maintain data integrity and reduces the clutter of redundant documents, streamlining document management processes.
+Deze functie stelt gebruikers in staat om te identificeren of documenten gedupliceerd zijn in hun systeem. Deze functie werkt door documentvelden te analyseren die door de gebruiker kunnen worden geconfigureerd. Door specifieke velden te selecteren, kunnen gebruikers de detectiecriteria aanpassen aan hun behoeften, zodat alleen relevante duplicaten worden gemarkeerd. Dit helpt gegevensintegriteit te behouden en vermindert de rommel van redundante documenten, wat documentbeheerprocessen stroomlijnt.
 
 {% embed url="https://youtu.be/8CdBu7HN47I" %}
 
-### Decision Tree
+### Beslisboom
 
-The decision tree is a tool used to automate decision-making in a workflow by mapping out choices and their outcomes. By integrating decision trees, you can ensure consistent decisions based on specific criteria, streamline processes, and reduce errors. This approach enhances efficiency by automating complex decision points within the workflow.
+De beslisboom is een hulpmiddel dat wordt gebruikt om besluitvorming in een workflow te automatiseren door keuzes en hun uitkomsten in kaart te brengen. Door beslisbomen te integreren, kunt u consistente beslissingen garanderen op basis van specifieke criteria, processen stroomlijnen en fouten verminderen. Deze aanpak verbetert efficiëntie door complexe beslispunten binnen de workflow te automatiseren.
 
 {% embed url="https://youtu.be/E7cx8BDGTI0" %}
 
-### Choosing AI Models
+### AI Modellen Kiezen
 
-DocBits now allows users to switch between different AI models to better suit their needs. You can choose the AI model that best fits your specific use case, whether it's for document analysis, data extraction, or text classification. This flexibility enables you to optimize performance and achieve more accurate results, tailoring the AI's capabilities to your organization's unique requirements.
+DocBits stelt gebruikers nu in staat om te wisselen tussen verschillende AI-modellen om beter aan hun behoeften te voldoen. U kunt het AI-model kiezen dat het beste past bij uw specifieke use case, of het nu gaat om documentanalyse, gegevensextractie of tekstclassificatie. Deze flexibiliteit stelt u in staat prestaties te optimaliseren en nauwkeurigere resultaten te bereiken, waarbij de mogelijkheden van de AI worden afgestemd op de unieke vereisten van uw organisatie.
 
 {% embed url="https://youtu.be/YvgEVagPepY" %}
 
-### Choosing OCR Version
+### OCR Versie Kiezen
 
-DocBits now offers the ability to change the OCR (Optical Character Recognition) version used within the platform. Users can select different OCR versions based on their specific needs, ensuring better accuracy and compatibility with various document types. This feature allows for more precise text extraction from images and scanned documents, improving overall data quality and workflow efficiency.
+DocBits biedt nu de mogelijkheid om de OCR (Optical Character Recognition) versie te wijzigen die binnen het platform wordt gebruikt. Gebruikers kunnen verschillende OCR-versies selecteren op basis van hun specifieke behoeften, wat betere nauwkeurigheid en compatibiliteit met verschillende documenttypen garandeert. Deze functie maakt preciezere tekstextractie uit afbeeldingen en gescande documenten mogelijk, wat de algehele gegevenskwaliteit en workflow-efficiëntie verbetert.
 
 {% embed url="https://youtu.be/zkW8zj0H5Ko" %}
 
+## Release Sunset 12 augustus 2024
 
-
-
-
-## Release Sunset 12th August 2024
-
-### New Features:
+### Nieuwe Functies:
 
 ## Rule Manager
 
-[rule-manager](../../administration-and-setup/settings/document-processing/rule-manager/ "mention") provides the flexibility to create and edit conflict resolution rules tialored for DocBits invoicing system. These rules are designed to automatically handle discrepancies between invoice details and purchase order (PO) data, ensuring accurate financial reconciliation. The system applies these rules to process invoice lines, charges, and taxes, and generates appropriate adjustments or notes when necessary.
+[rule-manager](../../administration-and-setup/settings/document-processing/rule-manager/ "mention") biedt de flexibiliteit om conflictoplossingsregels te creëren en bewerken die zijn afgestemd op het DocBits factureringssysteem. Deze regels zijn ontworpen om automatisch discrepanties tussen factuurdetails en inkoopordergegevens (PO) af te handelen, wat nauwkeurige financiële reconciliatie garandeert. Het systeem past deze regels toe om factuurregels, kosten en belastingen te verwerken, en genereert waar nodig passende aanpassingen of notities.
 
-<figure><img src="../../.gitbook/assets/RuleManager.png" alt=""><figcaption><p>Rule Manager</p></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/RuleManager.png)
 
-### Syncing Data Using Stream
+### Gegevens Synchroniseren met Stream
 
-BOD syncing from Infor utilizes AWS Stream for real-time data processing, enhancing efficiency and significantly reducing data syncing time.
+BOD-synchronisatie van Infor maakt gebruik van AWS Stream voor real-time gegevensverwerking, wat efficiëntie verbetert en de synchronisatietijd van gegevens aanzienlijk vermindert.
 
 ### XRechnung
 
-DocBits now processes XRechnung (electronic invoices) seamlessly by first creating a user-friendly PDF, streamlining and simplifying the invoice processing workflow.
-
-<figure><img src="../../.gitbook/assets/XRECHNUNG.png" alt=""><figcaption></figcaption></figure>
-
-### Bug Fixes:
-
-1. PO Match Button Visibility\
-   Issue: PO Match button is available when there is no table or the table is deleted.\
-   Status: On field validation, PO Match will be hidden if there is no table or the table is deleted
-2. Table Drag & Drop Sorting\
-   Issue: Table Drag & drop for sorting on all Lists/Dashboards\
-   Resolution: User can now drag and drop to sort the table
-3. Validation Screen Toolbar\
-   Issue: Validation screen: toolbar right side not scrollable\
-   Resolution: Fixed
-4. Horizontal Scroll\
-   Issue: Horizontal Scroll on Approval Screen\
-   Resolution: Fixed
-5. Approval Screen Decision Clearing\
-   Issue: Ability to clear the approve/reject decision on approval screen\
-   Resolution: Fixed
-6. Task Display on Approval Screen\
-   Issue: Task shown on the Approval Screen\
-   Resolution: Toolbar is available which shows the tasks count of open/in progress
-7. PO Match Table Size\
-   Issue: PO Match table gets smaller after matching a line\
-   Resolution: Fixed
-8. Task Assignment based on Item Procurement Group\
-   Issue: Translation for procurement group assignment\
-   Resolution: Fixed
-9. Supplier Name and Id in Task Creation\
-   Issue: Adding Supplier Name and Id in Task creation\
-   Resolution: Supplier Name and Id will be picked from the document
-10. Document Subtype Copy\
-    Issue: Click on Copy Document Subtype from sub document type setting was not working\
-    Resolution: Fixed
-11. New Label Field\
-    Issue: New Label field in list of values to add label along with value and synonym\
-    Resolution: Fixed
-12. Country Origin Card in Workflow\
-    Issue: New Card in workflow that checks country origin of a supplier and create a task or continue porcessing docuemtn accordingly\
-    Resolution: Fixed
-13. Dark Mode Fix on settings searchbar\
-    Issue: This issue was previously identified\
-    Resolution: Fixed
-14. Extracted Table Column Visibility Indicator\
-    Issue: Indicator if Columns are hidden in extracted table on Field validation\
-    Resolution: Fixed
-15. Dashboard Assignment for Admins\
-    Issue: Make Assign to on the dashboard only for admins\
-    Resolution: Fixed
-16. Document Split Visibility\
-    Issue: Show Document split only when more pages\
-    Resolution: Fixed
-17. Invoice Dashboard Columns\
-    Issue: Additional columns on invoice dashboard\
-    Resolution: Fixed
-18. Field Validation Script Deactivation\
-    Issue: Field Validation- Deactivate script was not working correctly\
-    Resolution: Fixed
-19. Approval Layout Button Customization\
-    Issue: Cannot change the button type and style on approval layout builder\
-    Resolution: Fixed
-20. Data Sync Table\
-    Issue: Data Sync Table in settings\
-    Resolution: Fixed
-21. Dashboard Analytics Total Display\
-    Issue: Dashboard Analytics- display wrong total number\
-    Resolution: Fixed
+DocBits verwerkt nu XRechnung (elektronische facturen) naadloos door eerst een gebruiksvriendelijke PDF te creëren, wat de factuurverwerkingsworkflow stroomlijnt en vereenvoudigt.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/XRECHNUNG.png)
+
+### Bugfixes:
+
+1. PO Match Knop Zichtbaarheid\
+   Probleem: PO Match knop is beschikbaar wanneer er geen tabel is of de tabel is verwijderd.\
+   Status: Bij veldvalidatie wordt PO Match verborgen als er geen tabel is of de tabel is verwijderd
+2. Tabel Drag & Drop Sorteren\
+   Probleem: Tabel Drag & drop voor sorteren op alle Lijsten/Dashboards\
+   Oplossing: Gebruiker kan nu slepen en neerzetten om de tabel te sorteren
+3. Validatiescherm Toolbar\
+   Probleem: Validatiescherm: toolbar rechterkant niet scrollbaar\
+   Oplossing: Opgelost
+4. Horizontaal Scrollen\
+   Probleem: Horizontaal Scrollen op Goedkeuringsscherm\
+   Oplossing: Opgelost
+5. Goedkeuringsscherm Beslissing Wissen\
+   Probleem: Mogelijkheid om de goedkeur/afwijs beslissing op goedkeuringsscherm te wissen\
+   Oplossing: Opgelost
+6. Taakweergave op Goedkeuringsscherm\
+   Probleem: Taak getoond op het Goedkeuringsscherm\
+   Oplossing: Toolbar is beschikbaar die de taken telt van open/in uitvoering
+7. PO Match Tabel Grootte\
+   Probleem: PO Match tabel wordt kleiner na het matchen van een regel\
+   Oplossing: Opgelost
+8. Taaktoewijzing op basis van Artikel Inkoop Groep\
+   Probleem: Vertaling voor inkoop groep toewijzing\
+   Oplossing: Opgelost
+9. Leveranciersnaam en Id in Taak Aanmaken\
+   Probleem: Leveranciersnaam en Id toevoegen in Taak aanmaken\
+   Oplossing: Leveranciersnaam en Id worden uit het document gehaald
+10. Document Subtype Kopiëren\
+    Probleem: Klikken op Kopieer Document Subtype uit subdocument type instelling werkte niet\
+    Oplossing: Opgelost
+11. Nieuw Label Veld\
+    Probleem: Nieuw Label veld in lijst van waarden om label toe te voegen samen met waarde en synoniem\
+    Oplossing: Opgelost
+12. Land van Oorsprong Kaart in Workflow\
+    Probleem: Nieuwe Kaart in workflow die land van oorsprong van een leverancier controleert en een taak aanmaakt of doorgaat met het verwerken van document dienovereenkomstig\
+    Oplossing: Opgelost
+13. Dark Mode Fix op instellingen zoekbalk\
+    Probleem: Dit probleem was eerder geïdentificeerd\
+    Oplossing: Opgelost
+14. Geëxtraheerde Tabel Kolom Zichtbaarheid Indicator\
+    Probleem: Indicator als Kolommen zijn verborgen in geëxtraheerde tabel op Veldvalidatie\
+    Oplossing: Opgelost
+15. Dashboard Toewijzing voor Admins\
+    Probleem: Toewijzen aan op het dashboard alleen voor admins maken\
+    Oplossing: Opgelost
+16. Document Splitsen Zichtbaarheid\
+    Probleem: Document splitsen alleen tonen wanneer er meer pagina's zijn\
+    Oplossing: Opgelost
+17. Factuur Dashboard Kolommen\
+    Probleem: Extra kolommen op factuur dashboard\
+    Oplossing: Opgelost
+18. Veldvalidatie Script Deactivering\
+    Probleem: Veldvalidatie- Deactiveer script werkte niet correct\
+    Oplossing: Opgelost
+19. Goedkeuringslayout Knop Aanpassing\
+    Probleem: Kan het knoptype en stijl niet wijzigen op goedkeurings layout builder\
+    Oplossing: Opgelost
+20. Data Sync Tabel\
+    Probleem: Data Sync Tabel in instellingen\
+    Oplossing: Opgelost
+21. Dashboard Analytics Totaal Weergave\
+    Probleem: Dashboard Analytics- tonen verkeerd totaal nummer\
+    Oplossing: Opgelost
 
-## Release Firework Juli 8th, 2024
+## Release Firework 8 juli 2024
 
-### New Features
+### Nieuwe Functies
 
-**Line Charges Export to M3**
+**Regelkosten Export naar M3**
 
-• Export line charges to M3 with appropriate costing elements as per your business needs.
+• Exporteer regelkosten naar M3 met passende kostenlementen volgens uw bedrijfsbehoeften.
 
-**PO & Invoice Discrepancy Handling**
+**PO & Factuur Discrepantie Afhandeling**
 
-• Smart handling of discrepancies in quantity, prices, charges, and tax.
+• Slimme afhandeling van discrepanties in hoeveelheid, prijzen, kosten en belasting.
 
-### Key Bug Resolutions
+### Belangrijkste Bugoplossingen
 
-#### 1. PO Search Functionality
+#### 1. PO Zoekfunctionaliteit
 
-• Issue: PO search was not working.&#x20;
+• Probleem: PO-zoeken werkte niet.
 
-• Status: This issue has been identified and will not be addressed in this release.
+• Status: Dit probleem is geïdentificeerd en zal niet worden aangepakt in deze release.
 
-#### 2. PO Matching Connection
+#### 2. PO Matching Connectie
 
-• Issue: PO matching connection was not removing as expected.
+• Probleem: PO matching connectie werd niet verwijderd zoals verwacht.
 
-• Resolution: Fixed to ensure seamless PO matching operations.
+• Oplossing: Opgelost om naadloze PO matching bewerkingen te garanderen.
 
-#### 3. Exported Document Alerts
+#### 3. Geëxporteerde Document Waarschuwingen
 
-• Issue: Exported documents had alerts for costing elements even when the system was not set up for it.
+• Probleem: Geëxporteerde documenten hadden waarschuwingen voor kostenlementen zelfs wanneer het systeem er niet voor was ingesteld.
 
-• Resolution: Corrected to prevent unnecessary alerts, ensuring accurate document exports.
+• Oplossing: Gecorrigeerd om onnodige waarschuwingen te voorkomen, wat nauwkeurige documentexporten garandeert.
 
-#### 4. Advance Shipment EDI View
+#### 4. Advance Shipment EDI Weergave
 
-• Issue: Advance shipment EDI view showed IDs in the title.
+• Probleem: Advance shipment EDI-weergave toonde ID's in de titel.
 
-• Resolution: Titles now display correctly, improving data readability.
+• Oplossing: Titels worden nu correct weergegeven, wat de leesbaarheid van gegevens verbetert.
 
-#### 5. Calculation Errors in Split by Total Issue
+#### 5. Berekeningsfouten in Splitsen op Totaal Probleem
 
-• Issue: Calculation errors occurred when lines were split further.
+• Probleem: Berekeningsfouten traden op wanneer regels verder werden gesplitst.
 
-• Resolution: Fixed to ensure accurate calculations in all scenarios.
+• Oplossing: Opgelost om nauwkeurige berekeningen in alle scenario's te garanderen.
 
-#### 6. PO Screen Table Display
+#### 6. PO Scherm Tabel Weergave
 
-• Issue: No table was showing on the PO screen.
+• Probleem: Geen tabel werd getoond op het PO-scherm.
 
-• Resolution: Display issue resolved to ensure tables appear correctly.
+• Oplossing: Weergaveprobleem opgelost om ervoor te zorgen dat tabellen correct verschijnen.
 
-#### 7. Auto Export on Order Confirmation
+#### 7. Auto Export op Orderbevestiging
 
-• Issue: Auto export was not working.
+• Probleem: Auto export werkte niet.
 
-• Resolution: Functionality restored to ensure automatic exports operate smoothly.
+• Oplossing: Functionaliteit hersteld om ervoor te zorgen dat automatische exports soepel werken.
 
-#### 8. Mismatch Issue on PO
+#### 8. Mismatch Probleem op PO
 
-• Issue: Mismatch issue on PO showed despite everything being identical on the Delivery Note.
+• Probleem: Mismatch probleem op PO toonde ondanks dat alles identiek was op de Leveringsbon.
 
-• Resolution: Resolved to ensure accurate mismatch detection.
+• Oplossing: Opgelost om nauwkeurige mismatch detectie te garanderen.
 
-#### 9. Report Download Issues
+#### 9. Rapport Download Problemen
 
-• Issue: Reports were not downloading.
+• Probleem: Rapporten werden niet gedownload.
 
-• Resolution: Fixed to enable seamless report downloads.
+• Oplossing: Opgelost om naadloze rapport downloads mogelijk te maken.
 
-#### 10. Incorrect Total and Net Amounts
+#### 10. Onjuiste Totaal en Netto Bedragen
 
-• Issue: Total and Net amounts were showing incorrect values.
+• Probleem: Totaal en Netto bedragen toonden onjuiste waarden.
 
-• Resolution: Values corrected to ensure financial accuracy.
+• Oplossing: Waarden gecorrigeerd om financiële nauwkeurigheid te garanderen.
 
-#### 11. Invoice Date Format on Dashboard
+#### 11. Factuurdatum Formaat op Dashboard
 
-• Issue: Invoice Date column had wrong format values.
+• Probleem: Factuurdatum kolom had verkeerde formaatwaarden.
 
-• Resolution: Dates now display in the correct format, enhancing usability.
+• Oplossing: Data worden nu in het juiste formaat weergegeven, wat bruikbaarheid verbetert.
 
-#### 12. Workflow Delays at “Ready for Validation”
+#### 12. Workflow Vertragingen bij "Klaar voor Validatie"
 
-• Issue: Workflow delays occurred at “Ready for Validation” until feedback from Doc2flow.
+• Probleem: Workflow vertragingen traden op bij "Klaar voor Validatie" tot feedback van Doc2flow.
 
-• Resolution: Workflow timing improved for faster validation processes.
+• Oplossing: Workflow timing verbeterd voor snellere validatieprocessen.
 
-## Next Release Firework Juli 8th, 2024
+## Volgende Release Firework 8 juli 2024
 
-### Problem:
+### Probleem:
 
-The existing system lacks automated rules for accurately matching and processing invoice charges against purchase orders (POs). This manual process can lead to discrepancies, as illustrated in the screenshots, where invoice charges and POs need reconciliation for correct invoicing.
+Het bestaande systeem mist geautomatiseerde regels voor het nauwkeurig matchen en verwerken van factuurkosten tegen inkooporders (PO's). Dit handmatige proces kan tot discrepanties leiden, zoals geïllustreerd in de screenshots, waar factuurkosten en PO's reconciliatie nodig hebben voor correcte facturering.
 
-<div><figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.37.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-06-07 um 17.11.46.png" alt=""><figcaption><p>Rule Manager DocBits</p></figcaption></figure></div>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Bildschirmfoto%202024-06-07%20um%2017.11.37.png)
 
-### Solution:
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Bildschirmfoto%202024-06-07%20um%2017.11.46.png)
 
-With the new Rule Manager in DocBits, launching in July, you can automate this process:
+### Oplossing:
 
-#### 1. Create Rules:
+Met de nieuwe Rule Manager in DocBits, die in juli wordt gelanceerd, kunt u dit proces automatiseren:
 
-Define criteria (e.g., Quantity > PO Quantity) for invoice line items.
+#### 1. Regels Aanmaken:
 
-#### 2. Set Actions:
+Definieer criteria (bijv. Hoeveelheid > PO Hoeveelheid) voor factuurregel items.
 
-Map fields and actions to export data seamlessly to Infor.
+#### 2. Acties Instellen:
 
-#### 3. Test Rules:
+Breng velden en acties in kaart om gegevens naadloos te exporteren naar Infor.
 
-Validate rules with sample data to ensure accuracy.
+#### 3. Regels Testen:
 
-## Junebug Release Notes - June 10th, 2024
+Valideer regels met voorbeeldgegevens om nauwkeurigheid te garanderen.
 
-This update brings exciting new features and bug fixes to Junebug:
+## Junebug Release Notes - 10 juni 2024
 
-**New Features:**
+Deze update brengt spannende nieuwe functies en bugfixes naar Junebug:
 
-* **Automated Charge Extraction:** Junebug now automatically extracts and maps charges within your Docbit documents. This eliminates manual data entry and streamlines your workflow.
-* **Portal Export to Infor IDM:** The new Portal allows you to effortlessly export supplier documents directly to Infor IDM. This simplifies shipment processing and reduces manual intervention.
-* **Origin Identification (AI):** Junebug introduces a powerful AI feature that automatically learns the origin of documents. This saves you time and effort in document classification.
-*
+**Nieuwe Functies:**
 
-    <div><figure><img src="../../.gitbook/assets/POShipmentTable.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/ApprovalScreen2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/ApprovalScreen1.png" alt=""><figcaption></figcaption></figure></div>
+* **Geautomatiseerde Kosten Extractie:** Junebug extraheert en brengt nu automatisch kosten in kaart binnen uw Docbit-documenten. Dit elimineert handmatige gegevensinvoer en stroomlijnt uw workflow.
+* **Portal Export naar Infor IDM:** De nieuwe Portal stelt u in staat om leveranciersdocumenten moeiteloos direct naar Infor IDM te exporteren. Dit vereenvoudigt zendingsverwerking en vermindert handmatige interventie.
+* **Oorsprong Identificatie (AI):** Junebug introduceert een krachtige AI-functie die automatisch de oorsprong van documenten leert. Dit bespaart u tijd en moeite bij documentclassificatie.
 
-**Bug Fixes:**
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/POShipmentTable.png)
 
-* **QR Code Fix:** An issue that previously caused problems with QR code processing has been resolved.
-* **Non-EDI Document Handling:** Junebug now handles non-EDI documents more effectively.
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ApprovalScreen2.png)
 
-<figure><img src="../../.gitbook/assets/EDI810-Invoice.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ApprovalScreen1.png)
+
+**Bugfixes:**
+
+* **QR Code Fix:** Een probleem dat eerder problemen veroorzaakte met QR-codeverwerking is opgelost.
+* **Niet-EDI Document Afhandeling:** Junebug verwerkt niet-EDI documenten nu effectiever.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/EDI810-Invoice.png)
 
 Hotfix - 5 Juni [**Priority System**](../../end-user-and-partner-section/end-user-section/our-document-priority-system.md)
 
-## Next Release - Junebug Release 10th June 2024
+## Volgende Release - Junebug Release 10 juni 2024
 
-Sandbox Freeze - 3th June 2024
+Sandbox Freeze - 3 juni 2024
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 20.37.35.png" alt=""><figcaption></figcaption></figure>
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2020.37.35.png)
 
-In the upcoming release, a significant enhancement to the classification and extraction capabilities will be introduced, specifically aimed at table lines within documents. This new feature allows users to define whether a line in a table represents a charge. This functionality is particularly useful in detailed financial documents, such as invoices, where distinguishing between different types of transactions—such as charges, taxes, or fees—is crucial for accurate processing and record-keeping.
+In de komende release zal een belangrijke verbetering aan de classificatie- en extractiemogelijkheden worden geïntroduceerd, specifiek gericht op tabelregels binnen documenten. Deze nieuwe functie stelt gebruikers in staat om te definiëren of een regel in een tabel een kost vertegenwoordigt. Deze functionaliteit is bijzonder nuttig in gedetailleerde financiële documenten, zoals facturen, waar het onderscheid maken tussen verschillende soorten transacties—zoals kosten, belastingen of vergoedingen—cruciaal is voor nauwkeurige verwerking en administratie.
 
-**Key Points for Release Notes:**
+**Belangrijke Punten voor Release Notes:**
 
-* **Enhanced Table Line Classification**: Users can now specify if a particular line in a document table is a charge, improving the accuracy and granularity of data extraction.
+* **Verbeterde Tabel Regel Classificatie**: Gebruikers kunnen nu specificeren of een bepaalde regel in een documenttabel een kost is, wat de nauwkeurigheid en granulariteit van gegevensextractie verbetert.
 
-## Maypole Release 5.55.8.10 - ( 17th May )
+## Maypole Release 5.55.8.10 - (17 mei)
 
 ### Release Notes - Web App
 
-#### New Features:
+#### Nieuwe Functies:
 
-▪ Workflow Card Translation: Enhancements in the workflow, including card translation for better localization support.
+▪ Workflow Kaart Vertaling: Verbeteringen in de workflow, inclusief kaartvertaling voor betere lokalisatieondersteuning.
 
-▪ Email Import Logging: Added detailed logging for email imports to enhance troubleshooting and monitoring.
+▪ E-mail Import Logging: Gedetailleerde logging toegevoegd voor e-mail imports om troubleshooting en monitoring te verbeteren.
 
-▪ Broken Fuzzy Screen Fix: Resolved an issue with broken fuzzy screen display across various interfaces.
+▪ Broken Fuzzy Screen Fix: Een probleem opgelost met broken fuzzy screen weergave over verschillende interfaces.
 
-▪ Accounting Updates: Enhanced the accounting process by removing outdated accounting methods and integrating charges more efficiently.
+▪ Accounting Updates: Het accountingproces verbeterd door verouderde accountingmethoden te verwijderen en kosten efficiënter te integreren.
 
-#### Improvements:
+#### Verbeteringen:
 
-▪ Ruiz Workflow Enhancements: Fixed bugs related to workflow navigation, particularly involving hidden steps.
+▪ Ruiz Workflow Verbeteringen: Bugs opgelost met betrekking tot workflownavigatie, vooral met betrekking tot verborgen stappen.
 
-▪ User Interface Adjustments: Improved user interface elements such as cash discount terms under payment terms for better clarity and user experience.
+▪ Gebruikersinterface Aanpassingen: Gebruikersinterface-elementen verbeterd zoals contante kortingstermijnen onder betalingstermijnen voor betere duidelijkheid en gebruikerservaring.
 
-▪ Performance Enhancements: Various backend improvements to enhance system performance and stability.
+▪ Prestatieverbeteringen: Verschillende backend verbeteringen om systeemprestaties en stabiliteit te verbeteren.
 
-#### Bug Fixes:
+#### Bugfixes:
 
-▪ Approval Stamp Issue: Fixed critical issues surrounding the approval stamp process to ensure compliance and correct functionality.
+▪ Approval Stamp Issue: Kritieke problemen opgelost rondom het goedkeuringsstempelproces om naleving en correcte functionaliteit te garanderen.
 
-▪ Key Addition: Added necessary keys back to the system to ensure data integrity and system functionality.
+▪ Key Addition: Noodzakelijke sleutels terug aan het systeem toegevoegd om gegevensintegriteit en systeemfunctionaliteit te garanderen.
 
-▪ Master Data Field Adjustment: Addressed an issue in the master data field to align with user requirements.
+▪ Master Data Field Adjustment: Een probleem in het master data veld aangepakt om af te stemmen op gebruikersvereisten.
 
-#### Technical:
+#### Technisch:
 
-▪ Version Updates: Routine updates to various system components to align with current standards and technologies.
+▪ Versie Updates: Routineupdates aan verschillende systeemcomponenten om af te stemmen op huidige normen en technologieën.
 
-▪ Merge Activities: Numerous merges to integrate features, fixes, and enhancements from multiple development branches into the main branch.
+▪ Merge Activiteiten: Talrijke merges om functies, fixes en verbeteringen van meerdere ontwikkelingsbranches te integreren in de hoofdbranch.
 
 ### What's New - API
 
-▪ Cache Management Enhancements: Updated the get\_receive\_delivery\_cache to improve performance and reliability.
+▪ Cache Management Verbeteringen: De get\_receive\_delivery\_cache bijgewerkt om prestaties en betrouwbaarheid te verbeteren.
 
-▪ New Features for Sales Orders: Introduced a preview feature for sales orders, enhancing the visualization and management of order data.
+▪ Nieuwe Functies voor Verkooporders: Een voorbeeldfunctie geïntroduceerd voor verkooporders, wat visualisatie en beheer van ordergegevens verbetert.
 
-▪ Document Handling Improvements: Added automated test jobs for demotesting and sandbox environments to ensure robustness.
+▪ Document Afhandeling Verbeteringen: Geautomatiseerde testjobs toegevoegd voor demotesting en sandbox-omgevingen om robuustheid te garanderen.
 
-▪ Enhanced Cache Functionality: Added field\_id to further enhance the caching mechanisms.
+▪ Verbeterde Cache Functionaliteit: field\_id toegevoegd om cachingmechanismen verder te verbeteren.
 
-#### Fixes and Improvements
+#### Fixes en Verbeteringen
 
-▪ Office Email Import Adjustments: Made necessary adjustments to the Office Email Import feature to enhance functionality.
+▪ Office E-mail Import Aanpassingen: Noodzakelijke aanpassingen gemaakt aan de Office E-mail Import functie om functionaliteit te verbeteren.
 
-▪ Development Enhancements: Multiple merges from dev to main branches ensuring synchronization and stability across environments.
+▪ Ontwikkelingsverbeteringen: Meerdere merges van dev naar hoofdbranches om synchronisatie en stabiliteit over omgevingen te garanderen.
 
-#### Miscellaneous
+#### Diversen
 
-▪ Configuration Updates: Various updates to the configuration files improving the system setup and parameters.
+▪ Configuratie Updates: Verschillende updates aan de configuratiebestanden om systeemsetup en parameters te verbeteren.
 
 ### Release Notes - Workflow
 
-#### Enhancements:
+#### Verbeteringen:
 
-▪ Implemented a new workflow test that can now be enabled during import, allowing for more flexible testing scenarios.
+▪ Een nieuwe workflow test geïmplementeerd die nu kan worden ingeschakeld tijdens import, wat flexibelere testscenario's mogelijk maakt.
 
-▪ Enhanced the logging functionality for action cards, making debugging and monitoring more efficient.
+▪ De loggingfunctionaliteit voor actiekaarten verbeterd, wat debugging en monitoring efficiënter maakt.
 
-▪ Improved compatibility for field comparison cards with date and enum types, ensuring smoother comparisons and validations.
+▪ Verbeterde compatibiliteit voor veldvergelijkingskaarten met datum- en enum-types, wat soepelere vergelijkingen en validaties garandeert.
 
-▪ Updated the tax card and modified the return processes for action cards to streamline operations.
+▪ De belastingkaart bijgewerkt en de retourprocessen voor actiekaarten aangepast om bewerkingen te stroomlijnen.
 
 #### Fixes:
 
-▪ Addressed issues with the document status updates, ensuring they are accurately reflected in the system.
+▪ Problemen aangepakt met documentstatusupdates, zodat ze nauwkeurig worden weerspiegeld in het systeem.
 
-▪ Fixed the calculation for the comparison card involving unit price and quantity to correctly handle discrepancies.
+▪ De berekening voor de vergelijkingskaart met betrekking tot eenheidsprijs en hoeveelheid gefixeerd om discrepanties correct af te handelen.
 
-▪ Resolved multiple minor bugs and made stability improvements.
+▪ Meerdere kleine bugs opgelost en stabiliteitsverbeteringen aangebracht.
 
-#### Operational Changes:
+#### Operationele Wijzigingen:
 
-▪ Merged multiple development stages into the sandbox and stage branches, reflecting a significant integration of new features and fixes.
+▪ Meerdere ontwikkelingsfasen samengevoegd in de sandbox en stage branches, wat een aanzienlijke integratie van nieuwe functies en fixes weerspiegelt.
