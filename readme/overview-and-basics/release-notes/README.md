@@ -1,30 +1,29 @@
 # Informacje o wersji
 
-## Release Winter 10 grudnia 2025
+## Wydanie Zima 10 grudnia 2025
 
-### Usprawnienia DocBits:
+### Ulepszenia DocBits:
 
-* **Ulepszona Personalizacja Reguł Dopasowania Zamówień:**\
-  DocBits oferuje teraz szczegółową kontrolę nad regułami dopasowania zamówień zakupu. Możesz skonfigurować dokładnie, które kolumny powinny być dopasowane dla każdego typu dokumentu, zdefiniować tolerancje dla każdej kolumny i wybrać, czy każda reguła dotyczy dopasowania ręcznego, automatycznego czy obu. Te ulepszenia dają użytkownikom elastyczność w dostosowaniu procesu dopasowania do ich konkretnych potrzeb operacyjnych.
-*   **Wsparcie dla Wielu Kont Finansowych Dostawców:**\
-    DocBits obsługuje teraz wiele kont finansowych dla dostawców poprzez BOD RemitToPartyMaster z Infor. Dostępne jest nowe ustawienie konfiguracyjne do aktywacji tej funkcji.
+* **Ulepszona personalizacja reguł dopasowania zamówień:**\
+  DocBits zapewnia teraz bardziej szczegółową i konfigurowalną kontrolę nad regułami dopasowania zamówień zakupu. Administratorzy mogą precyzyjnie skonfigurować, które kolumny powinny być oceniane podczas procesu dopasowania dla każdego typu dokumentu, zapewniając, że brane są pod uwagę tylko najbardziej istotne pola. Ponadto tolerancje mogą być definiowane na poziomie kolumny, co pozwala na większą elastyczność w obsłudze drobnych rozbieżności. Każda reguła może być również skonfigurowana tak, aby dotyczyła dopasowania ręcznego, dopasowania automatycznego lub obu, dając zespołom możliwość dostosowania przepływu pracy dopasowania do ich dokładnych wymagań operacyjnych. Te ulepszenia znacząco poprawiają adaptowalność i precyzję procesu dopasowania zamówień zakupu.
+*   **Wsparcie dla wielu kont finansowych dostawców:**\
+    DocBits obsługuje teraz zarządzanie wieloma kontami finansowymi dla dostawców za pośrednictwem RemitToPartyMaster BOD dostarczonego przez Infor. To ulepszenie umożliwia organizacjom utrzymywanie kilku rekordów kont płatności dla jednego dostawcy, poprawiając elastyczność i dokładność przetwarzania płatności. Wprowadzono nowe ustawienie konfiguracyjne umożliwiające włączenie lub wyłączenie tej funkcji, pozwalając administratorom aktywować funkcjonalność w oparciu o ich potrzeby operacyjne.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
-*   **Dodanie Dostępu Użytkowników do Wyników Ekstrakcji OCR:**\
-    Przycisk Widok OCR na ekranie Walidacji Pól jest teraz dostępny dla wszystkich użytkowników z dostępem do walidacji, a nie tylko dla administratorów, umożliwiając wszystkim użytkownikom przeglądanie wyników ekstrakcji OCR i wyszukiwanie określonych treści w dokumentach.
+*   **Dodano dostęp użytkowników do wyników ekstrakcji OCR:**\
+    Przycisk **Widok OCR** na ekranie walidacji pól jest teraz dostępny dla wszystkich użytkowników, którzy mają dostęp do walidacji, zamiast być ograniczonym tylko do administratorów. Dzięki tej aktualizacji każdy autoryzowany użytkownik może bezpośrednio przeglądać wyniki ekstrakcji OCR, ułatwiając walidację dokładności danych i monitorowanie ogólnej wydajności OCR. To ulepszenie promuje większą przejrzystość i poprawia efektywność przepływu pracy walidacji.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
-* **Dynamiczne Renderowanie Kolumn na Ekranach Zatwierdzania:**\
-  Ulepszone widoki zatwierdzania, aby dynamicznie wyświetlać tylko kolumny skonfigurowane do porównania w preferencjach bazy danych każdej organizacji. Wcześniej kolumny takie jak Kod Jednostki i Obiecana Data Dostawy pojawiały się puste, gdy nie były skonfigurowane do porównania, powodując zamieszanie. Teraz widoki zatwierdzania pokazują tylko aktywnie porównywane pola. To zapewnia jaśniejsze, specyficzne dla organizacji ekrany zatwierdzania bez pustych lub nieistotnych kolumn.
-* **Pole Typ Zamówienia Dodane do Wyszukiwania Danych Podstawowych**:\
-  Lista nagłówków zamówień zakupu zawiera teraz kolumnę "Typ Zamówienia" (type\_code) w wyszukiwaniu danych podstawowych, zapewniając dodatkowe możliwości kategoryzacji.
-* **Ulepszenia Panelu z Niestandardowymi Filtrami:**\
-  Ulepszona funkcjonalność udostępniania panelu, umożliwiając użytkownikom, którym udostępniono panel, edycję filtrów panelu. Użytkownicy, którzy mają udostępnione panele, mogą teraz modyfikować filtry, aby uzyskać bardziej elastyczny i spersonalizowany widok.
-* **Konfigurowalne Prefiksy dla Kolumn Ekranu Zatwierdzania:**\
-  Dodano konfigurowalną opcję wyświetlania prefiksów przed kolumnami dokumentów na ekranach zatwierdzania. Prefiks można ustawić w konstruktorze układu, pozwalając użytkownikom wybrać, czy prefiksy się pojawiają i do jakich typów dokumentów się stosują.\
+* **Dynamiczne renderowanie kolumn na ekranach zatwierdzania:**\
+  Ulepszone widoki zatwierdzania, aby dynamicznie wyświetlać tylko kolumny skonfigurowane do porównania w preferencjach bazy danych każdej organizacji. Wcześniej kolumny takie jak Unit Code i Promised Delivery Date pojawiały się puste, gdy nie były skonfigurowane do porównania, powodując zamieszanie. Teraz widoki zatwierdzania pokazują tylko pola, które są aktywnie porównywane. Zapewnia to jaśniejsze, specyficzne dla organizacji ekrany zatwierdzania bez pustych lub nieistotnych kolumn.
+* **Pole typu zamówienia dodane do wyszukiwania danych głównych**:\
+  Lista nagłówków zamówień zakupu zawiera teraz kolumnę "Order Type" (type\_code) w wyszukiwaniu danych głównych, zapewniając dodatkowe możliwości kategoryzacji.
+* **Ulepszenia panelu filtrów niestandardowych:**\
+  Funkcjonalność udostępniania pulpitu została ulepszona, aby zapewnić większą elastyczność użytkownikom, którym udostępniono pulpit. Osoby, którym udostępniono pulpity, mogą teraz dostosowywać i edytować filtry pulpitu, umożliwiając im dostosowanie wyświetlanych informacji do ich konkretnych potrzeb. To ulepszenie wspiera bardziej spersonalizowane i interaktywne doświadczenie przeglądania, zapewniając, że użytkownicy mogą łatwo udoskonalać informacje o danych najbardziej istotne dla ich zadań.
+* **Konfigurowalne prefiksy dla kolumn ekranu zatwierdzania:**\
+  Wprowadzono nową konfigurowalną opcję wyświetlania prefiksów przed kolumnami dokumentów na ekranach zatwierdzania. Ta funkcja może być zarządzana bezpośrednio w konstruktorze układu, dając administratorom pełną kontrolę nad tym, czy prefiksy są wyświetlane i do jakich typów dokumentów mają zastosowanie. Włączając tę opcję, użytkownicy uzyskują jaśniejszy kontekst i lepszą czytelność podczas przeglądania dokumentów w procesie zatwierdzania.
 
-
-### Ogólne Usprawnienia
+### Ogólne ulepszenia
 
 * Ulepszone rejestrowanie błędów dla źle wyszkolonych tabel w ekstrakcji tabel.
 * Dodano limit udostępniania dla paneli do 10 użytkowników lub 5 grup, wraz z wyraźnym komunikatem o błędzie po osiągnięciu limitu.
