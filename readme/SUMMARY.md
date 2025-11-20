@@ -8,7 +8,7 @@
   * [DocBits Infor Cliente On Premise](overview-and-basics/architecture/docbits-infor-on-premise-customer.md)
   * [Certificaciones](overview-and-basics/architecture/certifications.md)
 * [Infraestructura de Infor](overview-and-basics/infor-infrastructure.md)
-* [Notas de versión](overview-and-basics/release-notes.md)
+* [Notas de versión](overview-and-basics/release-notes/README.md)
 * [FAQ](overview-and-basics/faq/README.md)
   * [Información General](overview-and-basics/faq/general-information.md)
   * [Procesamiento de Documentos](overview-and-basics/faq/document-processing/README.md)
