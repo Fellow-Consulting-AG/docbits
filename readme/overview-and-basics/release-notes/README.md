@@ -1,30 +1,29 @@
 # Note della versione
 
-## Release Winter 10 Dicembre 2025
+## Release Inverno 10 dicembre 2025
 
 ### Miglioramenti di DocBits:
 
-* **Personalizzazione Avanzata delle Regole di Corrispondenza Ordini:**\
-  DocBits offre ora un controllo granulare sulle regole di corrispondenza degli ordini di acquisto. È possibile configurare esattamente quali colonne devono corrispondere per ciascun tipo di documento, definire tolleranze per colonna e scegliere se ogni regola si applica alla corrispondenza manuale, automatica o entrambe. Questi miglioramenti offrono agli utenti la flessibilità di adattare il processo di corrispondenza alle proprie specifiche esigenze operative.
-*   **Supporto per Più Conti Finanziari dei Fornitori:**\
-    DocBits ora supporta più conti finanziari per i fornitori tramite il BOD RemitToPartyMaster di Infor. È disponibile una nuova impostazione di configurazione per attivare questa funzionalità.
+* **Personalizzazione avanzata delle regole di corrispondenza ordini:**\
+  DocBits ora fornisce un controllo più granulare e personalizzabile sulle regole di corrispondenza degli ordini di acquisto. Gli amministratori possono configurare con precisione quali colonne devono essere valutate durante il processo di corrispondenza per ogni tipo di documento, assicurando che vengano considerati solo i campi più rilevanti. Inoltre, le tolleranze possono essere definite a livello di colonna, consentendo una maggiore flessibilità nella gestione di piccole discrepanze. Ogni regola può anche essere configurata per applicarsi alla corrispondenza manuale, alla corrispondenza automatica o a entrambe, offrendo ai team la possibilità di adattare il flusso di lavoro di corrispondenza ai loro requisiti operativi esatti. Questi miglioramenti migliorano significativamente l'adattabilità e la precisione del processo di corrispondenza degli ordini di acquisto.
+*   **Supporto per più conti finanziari dei fornitori:**\
+    DocBits ora supporta la gestione di più conti finanziari per i fornitori tramite il RemitToPartyMaster BOD fornito da Infor. Questo miglioramento consente alle organizzazioni di mantenere più record di conti di rimessa per un singolo fornitore, migliorando la flessibilità e l'accuratezza nell'elaborazione dei pagamenti. È stata introdotta una nuova impostazione di configurazione per abilitare o disabilitare questa capacità, consentendo agli amministratori di attivare la funzionalità in base alle loro esigenze operative.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
-*   **Aggiungere l'Accesso Utente ai Risultati di Estrazione OCR:**\
-    Il pulsante Vista OCR nella schermata di Validazione Campo è ora accessibile a tutti gli utenti con accesso alla validazione, non solo agli amministratori, consentendo a tutti gli utenti di rivedere i risultati di estrazione OCR e cercare contenuti specifici nei documenti.
+*   **Aggiunto accesso utente ai risultati di estrazione OCR:**\
+    Il pulsante **Vista OCR** nella schermata di convalida dei campi è ora disponibile per tutti gli utenti che hanno accesso alla convalida, anziché essere limitato agli amministratori. Con questo aggiornamento, qualsiasi utente autorizzato può rivedere direttamente i risultati di estrazione OCR, facilitando la convalida dell'accuratezza dei dati e il monitoraggio delle prestazioni complessive dell'OCR. Questo miglioramento promuove una maggiore trasparenza e migliora l'efficienza del flusso di lavoro di convalida.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
-* **Rendering Dinamico delle Colonne nelle Schermate di Approvazione:**\
-  Visualizzazioni di approvazione migliorate per mostrare dinamicamente solo le colonne configurate per il confronto nelle preferenze del database di ciascuna organizzazione. In precedenza, colonne come Codice Unità e Data di Consegna Promessa apparivano vuote quando non erano configurate per il confronto, causando confusione. Ora, le visualizzazioni di approvazione mostrano solo i campi che vengono attivamente confrontati. Questo fornisce schermate di approvazione più chiare e specifiche per l'organizzazione senza colonne vuote o irrilevanti.
-* **Campo Tipo Ordine Aggiunto alla Ricerca dei Dati Anagrafici**:\
-  L'elenco delle intestazioni degli ordini di acquisto ora include una colonna "Tipo Ordine" (type\_code) nella ricerca dei dati anagrafici, fornendo capacità di categorizzazione aggiuntive.
-* **Miglioramenti al Dashboard dei Filtri Personalizzati:**\
-  Funzionalità di condivisione del dashboard migliorata consentendo agli utenti condivisi di modificare i filtri del dashboard. Gli utenti che hanno dashboard condivisi con loro ora possono modificare i filtri per una visualizzazione più flessibile e personalizzata.
-* **Prefissi Personalizzabili per le Colonne della Schermata di Approvazione:**\
-  Aggiunta un'opzione configurabile per visualizzare prefissi prima delle colonne dei documenti nelle schermate di approvazione. Il prefisso può essere impostato nel generatore di layout, consentendo agli utenti di scegliere se i prefissi appaiono e a quali tipi di documento si applicano.\
+* **Rendering dinamico delle colonne nelle schermate di approvazione:**\
+  Visualizzazioni di approvazione migliorate per visualizzare dinamicamente solo le colonne configurate per il confronto nelle preferenze del database di ciascuna organizzazione. In precedenza, colonne come Unit Code e Promised Delivery Date apparivano vuote quando non erano configurate per il confronto, causando confusione. Ora, le visualizzazioni di approvazione mostrano solo i campi che vengono attivamente confrontati. Ciò fornisce schermate di approvazione più chiare e specifiche per l'organizzazione senza colonne vuote o irrilevanti.
+* **Campo tipo ordine aggiunto alla ricerca dati anagrafici**:\
+  L'elenco di intestazione ordine di acquisto ora include una colonna "Order Type" (type\_code) nella ricerca dati anagrafici, fornendo capacità di categorizzazione aggiuntive.
+* **Miglioramenti al dashboard filtri personalizzati:**\
+  La funzionalità di condivisione del dashboard è stata migliorata per fornire maggiore flessibilità agli utenti condivisi. Le persone che hanno dashboard condivisi con loro ora possono regolare e modificare i filtri del dashboard, consentendo loro di personalizzare le informazioni visualizzate in base alle loro esigenze specifiche. Questo miglioramento supporta un'esperienza di visualizzazione più personalizzata e interattiva, assicurando che gli utenti possano facilmente perfezionare le informazioni sui dati più rilevanti per le loro attività.
+* **Prefissi personalizzabili per le colonne della schermata di approvazione:**\
+  È stata introdotta una nuova opzione configurabile per visualizzare prefissi prima delle colonne dei documenti nelle schermate di approvazione. Questa funzionalità può essere gestita direttamente all'interno del generatore di layout, dando agli amministratori il controllo completo sulla visualizzazione dei prefissi e sui tipi di documento a cui si applicano. Abilitando questa opzione, gli utenti ottengono un contesto più chiaro e una migliore leggibilità durante la revisione dei documenti durante il processo di approvazione.
 
-
-### Miglioramenti Generali
+### Miglioramenti generali
 
 * Migliorata la registrazione degli errori per le tabelle mal addestrate nell'estrazione delle tabelle.
 * Aggiunto un limite di condivisione per i dashboard fino a 10 utenti o 5 gruppi, insieme a un messaggio di errore chiaro quando viene raggiunto il limite.
