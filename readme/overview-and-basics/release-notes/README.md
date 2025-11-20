@@ -9,11 +9,11 @@
 *   **Soporte para Múltiples Cuentas Financieras de Proveedores:**\
     DocBits ahora admite múltiples cuentas financieras para proveedores a través del BOD RemitToPartyMaster de Infor. Está disponible una nueva configuración para activar esta función.
 
-    <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
 *   **Agregar Acceso de Usuario a Resultados de Extracción OCR:**\
     El botón Vista OCR en la pantalla de Validación de Campos ahora es accesible para todos los usuarios con acceso de validación, no solo para administradores, lo que permite a todos los usuarios revisar los resultados de extracción OCR y buscar contenido específico en los documentos.
 
-    <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
 * **Renderizado Dinámico de Columnas en Pantallas de Aprobación:**\
   Se mejoraron las vistas de aprobación para mostrar dinámicamente solo las columnas configuradas para comparación en las preferencias de base de datos de cada organización. Anteriormente, columnas como Código de Unidad y Fecha de Entrega Prometida aparecían vacías cuando no estaban configuradas para comparación, causando confusión. Ahora, las vistas de aprobación solo muestran campos que se están comparando activamente. Esto proporciona pantallas de aprobación más claras y específicas de la organización sin columnas vacías o irrelevantes.
 * **Campo Tipo de Pedido Agregado a la Búsqueda de Datos Maestros**:\
