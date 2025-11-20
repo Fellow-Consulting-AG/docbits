@@ -1,6 +1,54 @@
 # Note della versione
 
-## Release Autumn Summit 15 Ottobre 2025
+## Release Winter 10 Dicembre 2025
+
+### Miglioramenti di DocBits:
+
+* **Personalizzazione Avanzata delle Regole di Corrispondenza Ordini:**\
+  DocBits offre ora un controllo granulare sulle regole di corrispondenza degli ordini di acquisto. È possibile configurare esattamente quali colonne devono corrispondere per ciascun tipo di documento, definire tolleranze per colonna e scegliere se ogni regola si applica alla corrispondenza manuale, automatica o entrambe. Questi miglioramenti offrono agli utenti la flessibilità di adattare il processo di corrispondenza alle proprie specifiche esigenze operative.
+*   **Supporto per Più Conti Finanziari dei Fornitori:**\
+    DocBits ora supporta più conti finanziari per i fornitori tramite il BOD RemitToPartyMaster di Infor. È disponibile una nuova impostazione di configurazione per attivare questa funzionalità.
+
+    <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
+*   **Aggiungere l'Accesso Utente ai Risultati di Estrazione OCR:**\
+    Il pulsante Vista OCR nella schermata di Validazione Campo è ora accessibile a tutti gli utenti con accesso alla validazione, non solo agli amministratori, consentendo a tutti gli utenti di rivedere i risultati di estrazione OCR e cercare contenuti specifici nei documenti.
+
+    <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
+* **Rendering Dinamico delle Colonne nelle Schermate di Approvazione:**\
+  Visualizzazioni di approvazione migliorate per mostrare dinamicamente solo le colonne configurate per il confronto nelle preferenze del database di ciascuna organizzazione. In precedenza, colonne come Codice Unità e Data di Consegna Promessa apparivano vuote quando non erano configurate per il confronto, causando confusione. Ora, le visualizzazioni di approvazione mostrano solo i campi che vengono attivamente confrontati. Questo fornisce schermate di approvazione più chiare e specifiche per l'organizzazione senza colonne vuote o irrilevanti.
+* **Campo Tipo Ordine Aggiunto alla Ricerca dei Dati Anagrafici**:\
+  L'elenco delle intestazioni degli ordini di acquisto ora include una colonna "Tipo Ordine" (type\_code) nella ricerca dei dati anagrafici, fornendo capacità di categorizzazione aggiuntive.
+* **Miglioramenti al Dashboard dei Filtri Personalizzati:**\
+  Funzionalità di condivisione del dashboard migliorata consentendo agli utenti condivisi di modificare i filtri del dashboard. Gli utenti che hanno dashboard condivisi con loro ora possono modificare i filtri per una visualizzazione più flessibile e personalizzata.
+* **Prefissi Personalizzabili per le Colonne della Schermata di Approvazione:**\
+  Aggiunta un'opzione configurabile per visualizzare prefissi prima delle colonne dei documenti nelle schermate di approvazione. Il prefisso può essere impostato nel generatore di layout, consentendo agli utenti di scegliere se i prefissi appaiono e a quali tipi di documento si applicano.\
+
+
+### Miglioramenti Generali
+
+* Migliorata la registrazione degli errori per le tabelle mal addestrate nell'estrazione delle tabelle.
+* Aggiunto un limite di condivisione per i dashboard fino a 10 utenti o 5 gruppi, insieme a un messaggio di errore chiaro quando viene raggiunto il limite.
+* Migliorata la gestione degli errori per i dashboard personalizzati quando un utente tenta di creare un dashboard con un nome già esistente.
+
+### Correzioni di Bug:
+
+* Risolto un problema per cui le email sembravano inviate con successo dalla sezione Dettagli Fornitore ma non venivano consegnate ai destinatari.
+* Risolto un problema per cui i campi a discesa aggiunti alle schermate di approvazione/rifiuto non venivano visualizzati.
+* Risolto un problema per cui tutti i documenti esportati erano contrassegnati come ultimo aggiornamento dall'utente sbagliato.
+* Risolto un problema per cui le importazioni FTP non raccoglievano documenti.
+* Risolto un problema per cui i documenti mostravano lo stato "Flusso di lavoro in corso" ma non venivano eseguiti flussi di lavoro e il registro rimaneva vuoto.
+* Risolto un problema per cui utenti non correlati venivano assegnati ai documenti al momento dell'esportazione senza svolgere alcun lavoro su di essi.
+* Risolto un problema per cui utenti con autorizzazioni corrette non potevano rifiutare documenti assegnati e ricevevano errori.
+* Risolto un problema per cui le icone del flusso di documenti non venivano visualizzate per alcune organizzazioni.
+* Risolto un problema per cui appariva un popup durante il caricamento di documenti tramite trascinamento sul dashboard.
+* Risolto un problema per cui i flag E-TEXT venivano visualizzati come abilitati nell'interfaccia utente anche se la risposta API mostrava tutti i valori come falsi.
+* Risolto un problema per cui si verificava un errore durante il caricamento di documenti contenenti pagine vuote.
+* Risolto un problema per cui i collegamenti ipertestuali delle attività nelle notifiche email utilizzavano l'URL di approvazione v2 invece di v3.
+* Risolto un problema per cui la Ricerca dei Dati Anagrafici non visualizzava alcun fornitore quando era selezionata la sotto-organizzazione "Cross", impedendo agli utenti di visualizzare i dati dei fornitori inter-organizzativi.
+* Risolto un problema per cui i documenti caricati in Cross non venivano assegnati a un ID di sotto-organizzazione.
+* Risolto un problema per cui le importazioni di email in entrata fallivano per i mittenti con lettere maiuscole nei loro indirizzi email a causa del confronto email sensibile alle maiuscole.
+
+## Release Autumn Summit 22 Ottobre 2025
 
 ### Miglioramenti di DocBits:
 
