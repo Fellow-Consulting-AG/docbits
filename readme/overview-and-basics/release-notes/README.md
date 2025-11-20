@@ -9,11 +9,11 @@
 *   **Supporto per Più Conti Finanziari dei Fornitori:**\
     DocBits ora supporta più conti finanziari per i fornitori tramite il BOD RemitToPartyMaster di Infor. È disponibile una nuova impostazione di configurazione per attivare questa funzionalità.
 
-    <figure><img src="../../.gitbook/assets/release_notes_12_2025_1.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_1.png)
 *   **Aggiungere l'Accesso Utente ai Risultati di Estrazione OCR:**\
     Il pulsante Vista OCR nella schermata di Validazione Campo è ora accessibile a tutti gli utenti con accesso alla validazione, non solo agli amministratori, consentendo a tutti gli utenti di rivedere i risultati di estrazione OCR e cercare contenuti specifici nei documenti.
 
-    <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
 * **Rendering Dinamico delle Colonne nelle Schermate di Approvazione:**\
   Visualizzazioni di approvazione migliorate per mostrare dinamicamente solo le colonne configurate per il confronto nelle preferenze del database di ciascuna organizzazione. In precedenza, colonne come Codice Unità e Data di Consegna Promessa apparivano vuote quando non erano configurate per il confronto, causando confusione. Ora, le visualizzazioni di approvazione mostrano solo i campi che vengono attivamente confrontati. Questo fornisce schermate di approvazione più chiare e specifiche per l'organizzazione senza colonne vuote o irrilevanti.
 * **Campo Tipo Ordine Aggiunto alla Ricerca dei Dati Anagrafici**:\
