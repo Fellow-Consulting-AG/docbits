@@ -4,6 +4,8 @@
 
 ### DocBits enhancements:
 
+* **Enhanced PO-Matching Rule Customization:**\
+  DocBits now offers granular control over purchase order matching rules. You can configure exactly which columns should be matched for each document type, define tolerances per column, and choose whether each rule applies to manual matching, automatic matching, or both. These enhancements give users the flexibility to fine-tune the matching process to fit their specific operational needs.
 *   **Support for Multiple Supplier Financial Accounts:**\
     DocBits now supports multiple financial accounts for suppliers through the RemitToPartyMaster BOD from Infor. A new configuration setting is available to activate this feature.
 
