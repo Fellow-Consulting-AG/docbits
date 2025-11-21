@@ -1,11 +1,13 @@
 # Informacje o wersji
 
-## Wydanie Zima 10 grudnia 2025
+## **Wydanie Winter Summit 10 grudnia 2025**
 
 ### Ulepszenia DocBits:
 
-* **Ulepszona personalizacja reguł dopasowania zamówień:**\
-  DocBits zapewnia teraz bardziej szczegółową i konfigurowalną kontrolę nad regułami dopasowania zamówień zakupu. Administratorzy mogą precyzyjnie skonfigurować, które kolumny powinny być oceniane podczas procesu dopasowania dla każdego typu dokumentu, zapewniając, że brane są pod uwagę tylko najbardziej istotne pola. Ponadto tolerancje mogą być definiowane na poziomie kolumny, co pozwala na większą elastyczność w obsłudze drobnych rozbieżności. Każda reguła może być również skonfigurowana tak, aby dotyczyła dopasowania ręcznego, dopasowania automatycznego lub obu, dając zespołom możliwość dostosowania przepływu pracy dopasowania do ich dokładnych wymagań operacyjnych. Te ulepszenia znacząco poprawiają adaptowalność i precyzję procesu dopasowania zamówień zakupu.
+*   **Ulepszona personalizacja reguł dopasowania zamówień:**\
+    DocBits zapewnia teraz bardziej szczegółową i konfigurowalną kontrolę nad regułami dopasowania zamówień zakupu. Administratorzy mogą precyzyjnie skonfigurować, które kolumny powinny być oceniane podczas procesu dopasowania dla każdego typu dokumentu, zapewniając, że brane są pod uwagę tylko najbardziej istotne pola. Ponadto tolerancje mogą być definiowane na poziomie kolumny, co pozwala na większą elastyczność w obsłudze drobnych rozbieżności. Każda reguła może być również skonfigurowana tak, aby dotyczyła dopasowania ręcznego, dopasowania automatycznego lub obu, dając zespołom możliwość dostosowania przepływu pracy dopasowania do ich dokładnych wymagań operacyjnych. Te ulepszenia znacząco poprawiają adaptowalność i precyzję procesu dopasowania zamówień zakupu.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_3.png)
 *   **Wsparcie dla wielu kont finansowych dostawców:**\
     DocBits obsługuje teraz zarządzanie wieloma kontami finansowymi dla dostawców za pośrednictwem RemitToPartyMaster BOD dostarczonego przez Infor. To ulepszenie umożliwia organizacjom utrzymywanie kilku rekordów kont płatności dla jednego dostawcy, poprawiając elastyczność i dokładność przetwarzania płatności. Wprowadzono nowe ustawienie konfiguracyjne umożliwiające włączenie lub wyłączenie tej funkcji, pozwalając administratorom aktywować funkcjonalność w oparciu o ich potrzeby operacyjne.
 
@@ -15,9 +17,9 @@
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
 * **Dynamiczne renderowanie kolumn na ekranach zatwierdzania:**\
-  Ulepszone widoki zatwierdzania, aby dynamicznie wyświetlać tylko kolumny skonfigurowane do porównania w preferencjach bazy danych każdej organizacji. Wcześniej kolumny takie jak Unit Code i Promised Delivery Date pojawiały się puste, gdy nie były skonfigurowane do porównania, powodując zamieszanie. Teraz widoki zatwierdzania pokazują tylko pola, które są aktywnie porównywane. Zapewnia to jaśniejsze, specyficzne dla organizacji ekrany zatwierdzania bez pustych lub nieistotnych kolumn.
+  Ulepszone widoki zatwierdzania, aby dynamicznie wyświetlać tylko kolumny skonfigurowane do porównania w preferencjach bazy danych każdej organizacji. Wcześniej niektóre kolumny specyficzne dla organizacji pojawiały się puste, gdy nie były skonfigurowane do porównania, powodując zamieszanie. Teraz widoki zatwierdzania pokazują tylko pola, które są aktywnie porównywane. Zapewnia to jaśniejsze, specyficzne dla organizacji ekrany zatwierdzania bez pustych lub nieistotnych kolumn.
 * **Pole typu zamówienia dodane do wyszukiwania danych głównych**:\
-  Lista nagłówków zamówień zakupu zawiera teraz kolumnę "Order Type" (type\_code) w wyszukiwaniu danych głównych, zapewniając dodatkowe możliwości kategoryzacji.
+  Lista nagłówków zamówień zakupu zawiera teraz kolumnę "Order Type" w wyszukiwaniu danych głównych, zapewniając dodatkowe możliwości kategoryzacji.
 * **Ulepszenia panelu filtrów niestandardowych:**\
   Funkcjonalność udostępniania pulpitu została ulepszona, aby zapewnić większą elastyczność użytkownikom, którym udostępniono pulpit. Osoby, którym udostępniono pulpity, mogą teraz dostosowywać i edytować filtry pulpitu, umożliwiając im dostosowanie wyświetlanych informacji do ich konkretnych potrzeb. To ulepszenie wspiera bardziej spersonalizowane i interaktywne doświadczenie przeglądania, zapewniając, że użytkownicy mogą łatwo udoskonalać informacje o danych najbardziej istotne dla ich zadań.
 * **Konfigurowalne prefiksy dla kolumn ekranu zatwierdzania:**\
@@ -34,7 +36,6 @@
 * Naprawiono problem, w którym e-maile wydawały się być wysyłane pomyślnie z sekcji Szczegóły Dostawcy, ale nie były dostarczane do odbiorców.
 * Naprawiono problem, w którym pola rozwijane dodane do ekranów zatwierdzania/odrzucania nie były wyświetlane.
 * Naprawiono problem, w którym wszystkie eksportowane dokumenty były oznaczone jako ostatnio zaktualizowane przez niewłaściwego użytkownika.
-* Naprawiono problem, w którym importy FTP nie pobierały dokumentów.
 * Naprawiono problem, w którym dokumenty pokazywały status "Workflow w toku", ale nie wykonywały się żadne workflow, a dziennik pozostawał pusty.
 * Naprawiono problem, w którym niepowiązani użytkownicy byli przypisywani do dokumentów w momencie eksportu bez wykonywania jakiejkolwiek pracy nad nimi.
 * Naprawiono problem, w którym użytkownicy z poprawnymi uprawnieniami nie mogli odrzucić przypisanych dokumentów i otrzymywali błędy.
@@ -42,10 +43,8 @@
 * Naprawiono problem, w którym pojawiało się okienko pop-up podczas przesyłania dokumentów metodą przeciągnij i upuść na pulpit.
 * Naprawiono problem, w którym flagi E-TEXT były wyświetlane jako włączone w interfejsie użytkownika, mimo że odpowiedź API pokazywała wszystkie wartości jako fałszywe.
 * Naprawiono problem, w którym występował błąd podczas przesyłania dokumentów zawierających puste strony.
-* Naprawiono problem, w którym hiperłącza zadań w powiadomieniach e-mail używały adresu URL zatwierdzania v2 zamiast v3.
-* Naprawiono problem, w którym Wyszukiwanie Danych Podstawowych nie wyświetlało żadnych dostawców, gdy wybrana była podorganizacja "Cross", uniemożliwiając użytkownikom przeglądanie danych dostawców międzyorganizacyjnych.
-* Naprawiono problem, w którym dokumenty przesłane w Cross nie były przypisywane do identyfikatora podorganizacji.
-* Naprawiono problem, w którym importy przychodzących e-maili nie powiodły się dla nadawców z wielkimi literami w ich adresach e-mail z powodu porównania e-maili z rozróżnianiem wielkości liter.
+* Rozwiązano problem, w którym hiperłącza zadań w powiadomieniach e-mail nie przekierowywały użytkowników na właściwy ekran zatwierdzania.
+* Rozwiązano problem, w którym wybranie podorganizacji cross powodowało, że Wyszukiwanie Danych Głównych nie pokazywało żadnych dostawców. Użytkownicy mogą teraz poprawnie przeglądać dane dostawców międzyorganizacyjnych.
 
 ## Release Autumn Summit 22 października 2025
 
