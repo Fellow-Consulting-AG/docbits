@@ -1,11 +1,13 @@
 # Notes de version
 
-## Version Hiver 10 décembre 2025
+## **Version Winter Summit 10 décembre 2025**
 
 ### Améliorations de DocBits :
 
-* **Personnalisation améliorée des règles de rapprochement des commandes :**\
-  DocBits offre désormais un contrôle plus granulaire et personnalisable sur les règles de rapprochement des bons de commande. Les administrateurs peuvent configurer avec précision quelles colonnes doivent être évaluées pendant le processus de rapprochement pour chaque type de document, en s'assurant que seuls les champs les plus pertinents sont pris en compte. De plus, des tolérances peuvent être définies au niveau des colonnes, offrant une plus grande flexibilité lors du traitement des écarts mineurs. Chaque règle peut également être configurée pour s'appliquer au rapprochement manuel, au rapprochement automatique ou aux deux, donnant aux équipes la possibilité d'adapter le flux de travail de rapprochement à leurs exigences opérationnelles exactes. Ces améliorations améliorent considérablement l'adaptabilité et la précision du processus de rapprochement des bons de commande.
+*   **Personnalisation améliorée des règles de rapprochement des commandes :**\
+    DocBits offre désormais un contrôle plus granulaire et personnalisable sur les règles de rapprochement des bons de commande. Les administrateurs peuvent configurer avec précision quelles colonnes doivent être évaluées pendant le processus de rapprochement pour chaque type de document, en s'assurant que seuls les champs les plus pertinents sont pris en compte. De plus, des tolérances peuvent être définies au niveau des colonnes, offrant une plus grande flexibilité lors du traitement des écarts mineurs. Chaque règle peut également être configurée pour s'appliquer au rapprochement manuel, au rapprochement automatique ou aux deux, donnant aux équipes la possibilité d'adapter le flux de travail de rapprochement à leurs exigences opérationnelles exactes. Ces améliorations améliorent considérablement l'adaptabilité et la précision du processus de rapprochement des bons de commande.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_3.png)
 *   **Prise en charge de plusieurs comptes financiers fournisseurs :**\
     DocBits prend désormais en charge la gestion de plusieurs comptes financiers pour les fournisseurs via le RemitToPartyMaster BOD fourni par Infor. Cette amélioration permet aux organisations de maintenir plusieurs enregistrements de comptes de remise pour un seul fournisseur, améliorant la flexibilité et la précision du traitement des paiements. Un nouveau paramètre de configuration a été introduit pour activer ou désactiver cette capacité, permettant aux administrateurs d'activer la fonctionnalité en fonction de leurs besoins opérationnels.
 
@@ -15,9 +17,9 @@
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
 * **Rendu dynamique des colonnes dans les écrans d'approbation :**\
-  Vues d'approbation améliorées pour afficher dynamiquement uniquement les colonnes configurées pour la comparaison dans les préférences de base de données de chaque organisation. Auparavant, des colonnes telles que Unit Code et Promised Delivery Date apparaissaient vides lorsqu'elles n'étaient pas configurées pour la comparaison, causant de la confusion. Désormais, les vues d'approbation n'affichent que les champs qui sont activement comparés. Cela fournit des écrans d'approbation plus clairs et spécifiques à l'organisation sans colonnes vides ou non pertinentes.
+  Vues d'approbation améliorées pour afficher dynamiquement uniquement les colonnes configurées pour la comparaison dans les préférences de base de données de chaque organisation. Auparavant, certaines colonnes spécifiques à l'organisation apparaissaient vides lorsqu'elles n'étaient pas configurées pour la comparaison, causant de la confusion. Désormais, les vues d'approbation n'affichent que les champs qui sont activement comparés. Cela fournit des écrans d'approbation plus clairs et spécifiques à l'organisation sans colonnes vides ou non pertinentes.
 * **Champ Type de commande ajouté à la recherche de données de référence** :\
-  La liste d'en-tête de bon de commande inclut désormais une colonne "Order Type" (type\_code) dans la recherche de données de référence, offrant des capacités de catégorisation supplémentaires.
+  La liste d'en-tête de bon de commande inclut désormais une colonne "Type de commande" dans la recherche de données de référence, offrant des capacités de catégorisation supplémentaires.
 * **Améliorations du tableau de bord de filtres personnalisés :**\
   La fonctionnalité de partage de tableau de bord a été améliorée pour offrir une plus grande flexibilité aux utilisateurs partagés. Les personnes avec lesquelles des tableaux de bord sont partagés peuvent désormais ajuster et modifier les filtres du tableau de bord, leur permettant d'adapter les informations affichées à leurs besoins spécifiques. Cette amélioration prend en charge une expérience de visualisation plus personnalisée et interactive, garantissant que les utilisateurs peuvent facilement affiner les informations sur les données les plus pertinentes pour leurs tâches.
 * **Préfixes personnalisables pour les colonnes d'écran d'approbation :**\
@@ -34,7 +36,6 @@
 * Correction d'un problème où les e-mails semblaient envoyés avec succès depuis la section Détails du Fournisseur mais n'étaient pas livrés aux destinataires.
 * Correction d'un problème où les champs déroulants ajoutés aux écrans d'approbation/rejet ne s'affichaient pas.
 * Correction d'un problème où tous les documents exportés étaient marqués comme dernièrement mis à jour par le mauvais utilisateur.
-* Correction d'un problème où les importations FTP ne récupéraient pas les documents.
 * Correction d'un problème où les documents affichaient le statut "Flux de travail en cours" mais aucun flux de travail ne s'exécutait et le journal restait vide.
 * Correction d'un problème où des utilisateurs non concernés étaient assignés aux documents au moment de l'exportation sans avoir effectué de travail dessus.
 * Correction d'un problème où les utilisateurs avec les permissions correctes ne pouvaient pas rejeter les documents assignés et recevaient des erreurs.
@@ -42,10 +43,8 @@
 * Correction d'un problème où une fenêtre contextuelle apparaissait lors du téléchargement de documents par glisser-déposer sur le tableau de bord.
 * Correction d'un problème où les drapeaux E-TEXT s'affichaient comme activés dans l'interface utilisateur alors que la réponse de l'API montrait toutes les valeurs comme fausses.
 * Correction d'un problème où une erreur se produisait lors du téléchargement de documents contenant des pages vierges.
-* Correction d'un problème où les hyperliens de tâches dans les notifications par e-mail utilisaient l'URL d'approbation v2 au lieu de v3.
-* Correction d'un problème où la Recherche de Données de Base n'affichait aucun fournisseur lorsque la sous-organisation "Cross" était sélectionnée, empêchant les utilisateurs de voir les données de fournisseurs inter-organisationnelles.
-* Correction d'un problème où les documents téléchargés dans Cross n'étaient pas assignés à un identifiant de sous-organisation.
-* Correction d'un problème où les importations d'e-mails entrants échouaient pour les expéditeurs avec des lettres majuscules dans leurs adresses e-mail en raison d'une comparaison d'e-mails sensible à la casse.
+* Résolution d'un problème où les hyperliens de tâches dans les notifications par e-mail ne redirigaient pas les utilisateurs vers le bon écran d'approbation.
+* Résolution d'un problème où la sélection de la sous-organisation transversale empêchait la Recherche de Données de Base d'afficher les fournisseurs. Les utilisateurs peuvent désormais afficher correctement les données de fournisseurs inter-organisationnelles.
 
 ## Release Autumn Summit 22 octobre 2025
 
