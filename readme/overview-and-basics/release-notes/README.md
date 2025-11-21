@@ -1,11 +1,13 @@
 # Release-Notizen
 
-## Release Winter 10. Dezember 2025
+## **Release Winter Summit 10. Dezember 2025**
 
 ### DocBits-Verbesserungen:
 
-* **Erweiterte Anpassung der PO-Matching-Regeln:**\
-  DocBits bietet nun eine präzisere und anpassbarere Kontrolle über Bestellabgleichsregeln. Administratoren können genau festlegen, welche Spalten während des Abgleichsprozesses für jeden Dokumenttyp ausgewertet werden sollen, um sicherzustellen, dass nur die relevantesten Felder berücksichtigt werden. Zusätzlich können Toleranzen auf Spaltenebene definiert werden, was eine größere Flexibilität bei der Behandlung kleinerer Abweichungen ermöglicht. Jede Regel kann so konfiguriert werden, dass sie für manuellen Abgleich, automatischen Abgleich oder beides gilt, wodurch Teams die Möglichkeit erhalten, den Abgleichsworkflow genau an ihre betrieblichen Anforderungen anzupassen. Diese Verbesserungen erhöhen die Anpassungsfähigkeit und Präzision des Bestellabgleichsprozesses erheblich.
+*   **Erweiterte Anpassung der PO-Matching-Regeln:**\
+    DocBits bietet nun eine präzisere und anpassbarere Kontrolle über Bestellabgleichsregeln. Administratoren können genau festlegen, welche Spalten während des Abgleichsprozesses für jeden Dokumenttyp ausgewertet werden sollen, um sicherzustellen, dass nur die relevantesten Felder berücksichtigt werden. Zusätzlich können Toleranzen auf Spaltenebene definiert werden, was eine größere Flexibilität bei der Behandlung kleinerer Abweichungen ermöglicht. Jede Regel kann so konfiguriert werden, dass sie für manuellen Abgleich, automatischen Abgleich oder beides gilt, wodurch Teams die Möglichkeit erhalten, den Abgleichsworkflow genau an ihre betrieblichen Anforderungen anzupassen. Diese Verbesserungen erhöhen die Anpassungsfähigkeit und Präzision des Bestellabgleichsprozesses erheblich.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_3.png)
 *   **Unterstützung für mehrere Finanzkonten von Lieferanten:**\
     DocBits unterstützt nun die Verwaltung mehrerer Finanzkonten für Lieferanten über die von Infor bereitgestellte RemitToPartyMaster BOD. Diese Verbesserung ermöglicht es Organisationen, mehrere Zahlungsempfänger-Kontodatensätze für einen einzelnen Lieferanten zu verwalten, was die Flexibilität und Genauigkeit bei der Zahlungsabwicklung verbessert. Eine neue Konfigurationseinstellung wurde eingeführt, um diese Funktion zu aktivieren oder zu deaktivieren, sodass Administratoren die Funktion basierend auf ihren betrieblichen Anforderungen aktivieren können.
 
@@ -15,9 +17,9 @@
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
 * **Dynamisches Spalten-Rendering in Genehmigungsbildschirmen:**\
-  Verbesserte Genehmigungsansichten zur dynamischen Anzeige nur der Spalten, die für den Vergleich in den Datenbankeinstellungen jeder Organisation konfiguriert sind. Zuvor erschienen Spalten wie Unit Code und Promised Delivery Date leer, wenn sie nicht für den Vergleich konfiguriert waren, was zu Verwirrung führte. Jetzt zeigen Genehmigungsansichten nur Felder an, die aktiv verglichen werden. Dies bietet klarere, organisationsspezifische Genehmigungsbildschirme ohne leere oder irrelevante Spalten.
+  Verbesserte Genehmigungsansichten zur dynamischen Anzeige nur der Spalten, die für den Vergleich in den Datenbankeinstellungen jeder Organisation konfiguriert sind. Zuvor erschienen einige organisationsspezifische Spalten leer, wenn sie nicht für den Vergleich konfiguriert waren, was zu Verwirrung führte. Jetzt zeigen Genehmigungsansichten nur Felder an, die aktiv verglichen werden. Dies bietet klarere, organisationsspezifische Genehmigungsbildschirme ohne leere oder irrelevante Spalten.
 * **Bestelltypfeld zur Stammdatensuche hinzugefügt**:\
-  Die Bestellkopfliste enthält nun eine Spalte "Order Type" (type\_code) in der Stammdatensuche, die zusätzliche Kategorisierungsmöglichkeiten bietet.
+  Die Bestellkopfliste enthält nun eine Spalte "Bestelltyp" in der Stammdatensuche, die zusätzliche Kategorisierungsmöglichkeiten bietet.
 * **Verbesserungen am Dashboard für benutzerdefinierte Filter:**\
   Die Dashboard-Freigabefunktion wurde verbessert, um freigegebenen Benutzern mehr Flexibilität zu bieten. Personen, für die Dashboards freigegeben wurden, können jetzt die Dashboard-Filter anpassen und bearbeiten, sodass sie die angezeigten Informationen an ihre spezifischen Bedürfnisse anpassen können. Diese Verbesserung unterstützt ein personalisierteres und interaktiveres Betrachtungserlebnis und stellt sicher, dass Benutzer die für ihre Aufgaben relevantesten Dateneinblicke einfach verfeinern können.
 * **Anpassbare Präfixe für Genehmigungsbildschirmspalten:**\
@@ -34,7 +36,6 @@
 * Ein Problem wurde behoben, bei dem E-Mails erfolgreich aus dem Abschnitt Lieferantendetails gesendet zu werden schienen, aber nicht an Empfänger zugestellt wurden.
 * Ein Problem wurde behoben, bei dem Dropdown-Felder, die zu Genehmigungs-/Ablehnungsbildschirmen hinzugefügt wurden, nicht angezeigt wurden.
 * Ein Problem wurde behoben, bei dem alle exportierten Dokumente als zuletzt aktualisiert vom falschen Benutzer markiert wurden.
-* Ein Problem wurde behoben, bei dem FTP-Importe keine Dokumente abholten.
 * Ein Problem wurde behoben, bei dem Dokumente den Status "Workflow in Bearbeitung" anzeigten, aber keine Workflows ausgeführt wurden und das Protokoll leer blieb.
 * Ein Problem wurde behoben, bei dem nicht verwandte Benutzer Dokumenten zum Exportzeitpunkt zugewiesen wurden, ohne daran gearbeitet zu haben.
 * Ein Problem wurde behoben, bei dem Benutzer mit korrekten Berechtigungen zugewiesene Dokumente nicht ablehnen konnten und Fehler erhielten.
@@ -42,10 +43,8 @@
 * Ein Problem wurde behoben, bei dem ein Popup erschien, wenn Dokumente per Drag & Drop auf das Dashboard hochgeladen wurden.
 * Ein Problem wurde behoben, bei dem E-TEXT-Flags in der Benutzeroberfläche als aktiviert angezeigt wurden, obwohl die API-Antwort alle Werte als falsch anzeigte.
 * Ein Problem wurde behoben, bei dem ein Fehler auftrat, wenn Dokumente mit leeren Seiten hochgeladen wurden.
-* Ein Problem wurde behoben, bei dem Aufgaben-Hyperlinks in E-Mail-Benachrichtigungen die v2-Genehmigungs-URL anstelle von v3 verwendeten.
-* Ein Problem wurde behoben, bei dem die Stammdatenabfrage keine Lieferanten anzeigte, wenn die "Cross"-Unterorganisation ausgewählt war, wodurch Benutzer daran gehindert wurden, organisationsübergreifende Lieferantendaten anzuzeigen.
-* Ein Problem wurde behoben, bei dem in Cross hochgeladene Dokumente keiner Unterorganisations-ID zugewiesen wurden.
-* Ein Problem wurde behoben, bei dem eingehende E-Mail-Importe für Absender mit Großbuchstaben in ihren E-Mail-Adressen aufgrund groß-/kleinschreibungssensitiver E-Mail-Vergleiche fehlschlugen.
+* Ein Problem wurde behoben, bei dem Aufgaben-Hyperlinks in E-Mail-Benachrichtigungen Benutzer nicht zum richtigen Genehmigungsbildschirm weiterleiteten.
+* Ein Problem wurde behoben, bei dem die Auswahl der übergreifenden Unterorganisation dazu führte, dass die Stammdatenabfrage keine Lieferanten anzeigte. Benutzer können nun korrekt organisationsübergreifende Lieferantendaten anzeigen.
 
 ## Release Autumn Summit 22. Oktober 2025
 
