@@ -2,7 +2,7 @@
 
 ## Release Winter 10th December 2025
 
-### DocBits enhancements:
+### DocBits Enhancements:
 
 * **Enhanced PO-Matching Rule Customization:**\
   DocBits now provides more granular and customizable control over purchase order matching rules. Administrators can configure precisely which columns should be evaluated during the matching process for each document type, ensuring that only the most relevant fields are considered. In addition, tolerances can be defined at the column level, allowing for greater flexibility when handling minor discrepancies. Each rule can also be configured to apply to manual matching, automatic matching, or both, giving teams the ability to tailor the matching workflow to their exact operational requirements. These enhancements significantly improve the adaptability and precision of the purchase order matching process.
@@ -15,9 +15,9 @@
 
     <figure><img src="../../.gitbook/assets/release_notes_12_2025_2.png" alt=""><figcaption></figcaption></figure>
 * **Dynamic Column Rendering in Approval Screens:**\
-  Enhanced approval views to dynamically display only the columns configured for comparison in each organization’s database preferences. Previously, columns like Unit Code and Promised Delivery Date would appear empty when not configured for comparison, causing confusion. Now, approval views only show fields that are actively being compared. This provides clearer, organization-specific approval screens without empty or irrelevant columns.
+  Enhanced approval views to dynamically display only the columns configured for comparison in each organization’s database preferences. Previously, some of the organization specific columns would appear empty when not configured for comparison, causing confusion. Now, approval views only show fields that are actively being compared. This provides clearer, organization-specific approval screens without empty or irrelevant columns.
 * **Order Type Field Added to Master Data Lookup**:\
-  Purchase order header list now includes an "Order Type" (type\_code) column in master data lookup, providing additional categorization capabilities.
+  Purchase order header list now includes an "Order Type"  column in master data lookup, providing additional categorization capabilities.
 * **Custom Filter Dashboard Improvements:**\
   The dashboard sharing functionality has been enhanced to provide greater flexibility for shared users. Individuals who have dashboards shared with them can now adjust and edit the dashboard filters, enabling them to tailor the displayed information to their specific needs. This improvement supports a more personalized and interactive viewing experience, ensuring that users can easily refine the data insights most relevant to their tasks.
 * **Customizable Prefixes for Approval Screen Columns:**\
@@ -34,7 +34,6 @@
 * Fixed an issue where emails appeared to send successfully from the Supplier Details section but were not delivered to recipients.
 * Fixed an issue where Dropdown fields added to approval/rejection screens didn't display.
 * Fixed an issue where all exported documents were marked as last updated by wrong user.
-* Fixed an issue where FTP imports were not picking up documents.
 * Fixed an issue where documents showed "Workflow in Progress" status but no workflows executed and log stayed empty.
 * Fixed an issue where unrelated users were being assigned to documents at export time without performing any work on them.
 * Fixed an issue where users with correct permissions were unable to reject assigned documents and received errors.
@@ -42,10 +41,8 @@
 * Fixed an issue where a popup appeared when uploading documents with drag and drop to the dashboard.
 * Fixed an issue where E-TEXT flags were showing as enabled in the UI even though API response showed all values as false.
 * Fixed an issue where an error occurred when uploading documents containing blank pages.
-* Fixed an issue where task hyperlinks in email notifications were using the v2 approval URL instead of v3.
-* Fixed an issue where Master Data Lookup did not display any suppliers when "Cross" sub-org was selected, preventing users from viewing cross-organizational supplier data.
-* Fixed an issue where documents uploaded in Cross were not being assigned to a sub-org ID.
-* Fixed an issue where inbound email imports failed for senders with capital letters in their email addresses due to case-sensitive email comparison.
+* Resolved an issue where task hyperlinks in email notifications did not redirect users to the correct approval screen.
+* Resolved an issue where selecting the cross sub-organization caused the Master Data Lookup to show no suppliers. Users can now correctly view cross-organizational supplier data.
 
 ## Release Autumn Summit 22nd October 2025
 

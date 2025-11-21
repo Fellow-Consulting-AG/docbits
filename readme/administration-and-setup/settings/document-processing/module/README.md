@@ -22,7 +22,7 @@
 * **Dashboards v2**: An updated version of the dashboard interface, likely with improved user experience and additional features for enhanced usability.
 * [**SQL Direct access:** A direct access to the Database.](how-to-create-database-access-for-a-specific-organization-user/)
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02 (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
