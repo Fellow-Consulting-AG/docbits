@@ -1,11 +1,13 @@
 # Release Notes
 
-## Release Winter 10 december 2025
+## **Release Winter Summit 10 december 2025**
 
-### DocBits verbeteringen:
+### DocBits Verbeteringen:
 
-* **Verbeterde aanpassing van PO-matchingregels:**\
-  DocBits biedt nu meer gedetailleerde en aanpasbare controle over inkooporder-matchingregels. Beheerders kunnen precies configureren welke kolommen moeten worden geëvalueerd tijdens het matchingproces voor elk documenttype, waardoor ervoor wordt gezorgd dat alleen de meest relevante velden worden overwogen. Bovendien kunnen toleranties op kolomniveau worden gedefinieerd, wat meer flexibiliteit biedt bij het omgaan met kleine afwijkingen. Elke regel kan ook worden geconfigureerd om te worden toegepast op handmatige matching, automatische matching of beide, waardoor teams de mogelijkheid krijgen om de matchingworkflow af te stemmen op hun exacte operationele vereisten. Deze verbeteringen verbeteren de aanpasbaarheid en precisie van het inkooporder-matchingproces aanzienlijk.
+*   **Verbeterde aanpassing van PO-matchingregels:**\
+    DocBits biedt nu meer gedetailleerde en aanpasbare controle over inkooporder-matchingregels. Beheerders kunnen precies configureren welke kolommen moeten worden geëvalueerd tijdens het matchingproces voor elk documenttype, waardoor ervoor wordt gezorgd dat alleen de meest relevante velden worden overwogen. Bovendien kunnen toleranties op kolomniveau worden gedefinieerd, wat meer flexibiliteit biedt bij het omgaan met kleine afwijkingen. Elke regel kan ook worden geconfigureerd om te worden toegepast op handmatige matching, automatische matching of beide, waardoor teams de mogelijkheid krijgen om de matchingworkflow af te stemmen op hun exacte operationele vereisten. Deze verbeteringen verbeteren de aanpasbaarheid en precisie van het inkooporder-matchingproces aanzienlijk.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_3.png)
 *   **Ondersteuning voor meerdere financiële accounts van leveranciers:**\
     DocBits ondersteunt nu het beheren van meerdere financiële accounts voor leveranciers via de RemitToPartyMaster BOD die door Infor wordt geleverd. Deze verbetering stelt organisaties in staat om meerdere remit-to accountrecords voor een enkele leverancier bij te houden, wat de flexibiliteit en nauwkeurigheid bij betalingsverwerking verbetert. Er is een nieuwe configuratie-instelling geïntroduceerd om deze mogelijkheid in of uit te schakelen, waardoor beheerders de functie kunnen activeren op basis van hun operationele behoeften.
 
@@ -15,9 +17,9 @@
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/release_notes_12_2025_2.png)
 * **Dynamische kolomweergave in goedkeuringsschermen:**\
-  Verbeterde goedkeuringsweergaven om dynamisch alleen de kolommen weer te geven die zijn geconfigureerd voor vergelijking in de databasevoorkeuren van elke organisatie. Eerder verschenen kolommen zoals Unit Code en Promised Delivery Date leeg wanneer ze niet waren geconfigureerd voor vergelijking, wat verwarring veroorzaakte. Nu tonen goedkeuringsweergaven alleen velden die actief worden vergeleken. Dit biedt duidelijkere, organisatie-specifieke goedkeuringsschermen zonder lege of irrelevante kolommen.
+  Verbeterde goedkeuringsweergaven om dynamisch alleen de kolommen weer te geven die zijn geconfigureerd voor vergelijking in de databasevoorkeuren van elke organisatie. Eerder verschenen sommige organisatie-specifieke kolommen leeg wanneer ze niet waren geconfigureerd voor vergelijking, wat verwarring veroorzaakte. Nu tonen goedkeuringsweergaven alleen velden die actief worden vergeleken. Dit biedt duidelijkere, organisatie-specifieke goedkeuringsschermen zonder lege of irrelevante kolommen.
 * **Ordertypeveld toegevoegd aan masterdataopzoekfunctie**:\
-  De inkooporderkoplijst bevat nu een kolom "Order Type" (type\_code) in de masterdataopzoekfunctie, wat extra categorisatiemogelijkheden biedt.
+  De inkooporderkoplijst bevat nu een kolom "Order Type" in de masterdataopzoekfunctie, wat extra categorisatiemogelijkheden biedt.
 * **Verbeteringen aangepast filterdashboard:**\
   De dashboard-deelfunctionaliteit is verbeterd om meer flexibiliteit te bieden aan gedeelde gebruikers. Personen met wie dashboards worden gedeeld, kunnen nu de dashboardfilters aanpassen en bewerken, waardoor ze de weergegeven informatie kunnen afstemmen op hun specifieke behoeften. Deze verbetering ondersteunt een meer gepersonaliseerde en interactieve kijkervaring, zodat gebruikers gemakkelijk de data-inzichten kunnen verfijnen die het meest relevant zijn voor hun taken.
 * **Aanpasbare voorvoegsels voor goedkeuringsschermkolommen:**\
@@ -34,7 +36,6 @@
 * Een probleem opgelost waarbij e-mails succesvol leken te verzenden vanuit de Leveranciersdetails sectie maar niet werden afgeleverd bij ontvangers.
 * Een probleem opgelost waarbij Dropdown velden toegevoegd aan goedkeurings-/afwijzingsschermen niet werden weergegeven.
 * Een probleem opgelost waarbij alle geëxporteerde documenten werden gemarkeerd als laatst bijgewerkt door de verkeerde gebruiker.
-* Een probleem opgelost waarbij FTP imports geen documenten ophaalden.
 * Een probleem opgelost waarbij documenten "Workflow in Uitvoering" status toonden maar geen workflows werden uitgevoerd en het log leeg bleef.
 * Een probleem opgelost waarbij niet-gerelateerde gebruikers aan documenten werden toegewezen op het moment van export zonder enig werk aan hen te hebben verricht.
 * Een probleem opgelost waarbij gebruikers met de juiste rechten niet in staat waren toegewezen documenten af te wijzen en fouten ontvingen.
@@ -42,10 +43,8 @@
 * Een probleem opgelost waarbij een popup verscheen bij het uploaden van documenten met drag and drop naar het dashboard.
 * Een probleem opgelost waarbij E-TEXT vlaggen als ingeschakeld werden weergegeven in de UI ondanks dat de API response alle waarden als false toonde.
 * Een probleem opgelost waarbij een fout optrad bij het uploaden van documenten met lege pagina's.
-* Een probleem opgelost waarbij taak hyperlinks in e-mail notificaties de v2 goedkeurings URL gebruikten in plaats van v3.
-* Een probleem opgelost waarbij Master Data Lookup geen leveranciers weergaf wanneer "Cross" sub-org was geselecteerd, waardoor gebruikers geen cross-organisatorische leveranciersgegevens konden bekijken.
-* Een probleem opgelost waarbij documenten geüpload in Cross niet werden toegewezen aan een sub-org ID.
-* Een probleem opgelost waarbij inkomende e-mail imports faalden voor afzenders met hoofdletters in hun e-mailadressen vanwege hoofdlettergevoelige e-mail vergelijking.
+* Een probleem opgelost waarbij taak hyperlinks in e-mail notificaties gebruikers niet naar het juiste goedkeuringsscherm verwezen.
+* Een probleem opgelost waarbij het selecteren van de cross sub-organisatie ertoe leidde dat Master Data Lookup geen leveranciers weergaf. Gebruikers kunnen nu correct cross-organisatorische leveranciersgegevens bekijken.
 
 ## Release Autumn Summit 22 oktober 2025
 
