@@ -12,9 +12,11 @@ Pour un filtrage plus précis, cliquez sur l'icône de filtre située à droite 
 
 Les options de filtrage suivantes sont disponibles :
 
-* **Statut**: Filtrer par Statut de traitement (par ex., Ready for validation, Rejected).
-* **Assigné à**: Filtrer par l'utilisateur assigné au document.
-* **Assigné au groupe**: Filtrer par le groupe assigné au document.
+* **Statut**: Filtrer par statut de traitement (par ex., Ready for validation, Rejected).
+*   **Assigné à**: Filtrer par les utilisateurs assignés au document.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_9.png)
+* **Assigné au groupe**: Filtrer par les groupes assignés au document.
 * **Redémarrage nécessaire**: Filtrer les documents qui nécessitent un redémarrage.
 
 Cliquez sur **Appliquer** pour appliquer les filtres sélectionnés, ou **Effacer les filtres** pour les réinitialiser.
@@ -33,7 +35,7 @@ Pour filtrer les documents par date d'importation, utilisez le filtre temporel s
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_4.png)
 
-Vous pouvez également sélectionner une plage de dates personnalisée en cliquant sur **Personnalisé**, puis en spécifiant une **Date de début** et une **Date de fin**. Ensuite, cliquez sur **Appliquer** pour activer le filtre.
+Vous pouvez également sélectionner une plage de dates personnalisée en cliquant sur **Sur mesure**, puis en spécifiant une **Date de début** et une **Date de fin**. Ensuite, cliquez sur **Appliquer** pour activer le filtre.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_5.png)
 
