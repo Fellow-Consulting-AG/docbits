@@ -12,9 +12,11 @@ Aby skorzystać z bardziej precyzyjnego filtrowania, kliknij ikonę filtra po pr
 
 Dostępne są następujące opcje filtrowania:
 
-* **Status**: Filtrowanie według Statusu przetwarzania (np. Gotowe do walidacji, Odrzucone).
-* **Przypisany do**: Filtrowanie według użytkownika przypisanego do dokumentu.
-* **Przypisany do grupy**: Filtrowanie według grupy przypisanej do dokumentu.
+* **Status**: Filtrowanie według statusu przetwarzania (np. Gotowe do walidacji, Odrzucone).
+*   **Przypisany do**: Filtrowanie według użytkowników przypisanych do dokumentu.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_9.png)
+* **Przypisany do grupy**: Filtrowanie według grup przypisanych do dokumentu.
 * **Wymagane ponowne uruchomienie**: Filtrowanie dokumentów wymagających ponownego uruchomienia.
 
 Kliknij **Stosować**, aby zastosować wybrane filtry, lub **Wyczyść filtry**, aby je zresetować.
@@ -33,7 +35,7 @@ Aby filtrować dokumenty według daty importu, użyj filtra czasu po prawej stro
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_4.png)
 
-Możesz też wybrać niestandardowy zakres dat, klikając **Custom**, a następnie wskazując **Data rozpoczęcia** i **Data zakończenia**. Po tym kliknij **Stosować**, aby aktywować filtr.
+Możesz też wybrać niestandardowy zakres dat, klikając **Niestandardowy**, a następnie wskazując **Data rozpoczęcia** i **Data zakończenia**. Po tym kliknij **Stosować**, aby aktywować filtr.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_5.png)
 
