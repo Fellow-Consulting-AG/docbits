@@ -13,8 +13,10 @@ For more refined filtering, click the filter icon located on the right side of t
 The following filter options are available:
 
 * **Status**: Filter by processing status (e.g., Ready for validation, Rejected).
-* **Assigned To**: Filter by the user assigned to the document.
-* **Assigned to Group**: Filter by the group assigned to the document.
+*   **Assigned To**: Filter by the users assigned to the document.
+
+    <figure><img src="../../../.gitbook/assets/FilteringDocs_9.png" alt=""><figcaption></figcaption></figure>
+* **Assigned to Group**: Filter by the groups assigned to the document.
 * **Restart Required**: Filter for documents that require a restart.
 
 Click **Apply** to apply the selected filters, or **Clear Filters** to reset them.
