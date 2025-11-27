@@ -13,11 +13,13 @@ Per un filtraggio più raffinato, fai clic sull'icona del filtro situata sul lat
 Sono disponibili le seguenti opzioni di filtro:
 
 * **Stato**: Filtra per stato di elaborazione (ad es., Pronto per la convalida, Rifiutato).
-* **Assegnato a**: Filtra per l'utente a cui è assegnato il documento.
-* **Assegnato al gruppo**: Filtra per il gruppo assegnato al documento.
+*   **Assegnato a**: Filtra per gli utenti a cui è assegnato il documento.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_9.png)
+* **Assegnato al gruppo**: Filtra per i gruppi a cui è assegnato il documento.
 * **Riavvio richiesto**: Filtra i documenti che richiedono un riavvio.
 
-Fai clic su **Applicare** per applicare i filtri selezionati, oppure su **Cancella i filtri** per reimpostarli.
+Fai clic su **Applicare** per applicare i filtri selezionati, oppure su **Cancella filtri** per reimpostarli.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_3.png)
 
@@ -25,15 +27,15 @@ Fai clic su **Applicare** per applicare i filtri selezionati, oppure su **Cancel
 
 Per filtrare i documenti per data di importazione, usa il filtro temporale situato a destra della barra di ricerca. Puoi scegliere tra i seguenti intervalli di tempo preimpostati:
 
-* **30D**
-* **90D**
-* **180D**
-* **365D**
+* **30 Giorni**
+* **90 Giorni**
+* **180 Giorni**
+* **365 Giorni**
 * **Tutti**
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_4.png)
 
-Puoi anche selezionare un intervallo di date personalizzato facendo clic su **Custom**, quindi specificando una **Data di inizio** e una **Data di fine**. Dopo di che, fai clic su **Applicare** per attivare il filtro.
+Puoi anche selezionare un intervallo di date personalizzato facendo clic su **Personalizzato**, quindi specificando una **Data di inizio** e una **Data di fine**. Dopo di che, fai clic su **Applicare** per attivare il filtro.
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_5.png)
 
