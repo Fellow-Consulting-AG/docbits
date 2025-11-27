@@ -13,8 +13,10 @@ Für eine präzisere Filterung klicken Sie auf das Filtersymbol rechts neben der
 Die folgenden Filteroptionen sind verfügbar:
 
 * **Status**: Nach Verarbeitungsstatus filtern (z. B. Ready for validation, Rejected).
-* **Zugewiesen an**: Nach dem Benutzer filtern, dem das Dokument zugewiesen ist.
-* **Der Gruppe zugewiesen**: Nach der Gruppe filtern, der das Dokument zugewiesen ist.
+*   **Zugewiesen an**: Nach den Benutzern filtern, denen das Dokument zugewiesen ist.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_9.png)
+* **Der Gruppe zugewiesen**: Nach den Gruppen filtern, denen das Dokument zugewiesen ist.
 * **Neustart erforderlich**: Nach Dokumenten filtern, für die ein Neustart erforderlich ist.
 
 Klicken Sie auf **Anwenden**, um die ausgewählten Filter zu übernehmen, oder auf **Filter löschen**, um sie zurückzusetzen.
