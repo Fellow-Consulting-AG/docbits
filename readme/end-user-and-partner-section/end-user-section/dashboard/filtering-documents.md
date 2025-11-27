@@ -13,8 +13,10 @@ Voor verfijnder filteren klik je op het filterpictogram aan de rechterkant van d
 De volgende filteropties zijn beschikbaar:
 
 * **Status**: Filter op verwerkingsstatus (bijv. Ready for validation, Rejected).
-* **Toegewezen aan**: Filter op de gebruiker aan wie het document is toegewezen.
-* **Toegewezen aan groep**: Filter op de groep waaraan het document is toegewezen.
+*   **Toegewezen aan**: Filter op de gebruikers aan wie het document is toegewezen.
+
+    ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_9.png)
+* **Toegewezen aan groep**: Filter op de groepen waaraan het document is toegewezen.
 * **Opnieuw opstarten vereist**: Filter op documenten waarvoor een herstart vereist is.
 
 Klik op **Toepassen** om de geselecteerde filters toe te passen, of **Filters wissen** om ze te resetten.
