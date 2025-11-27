@@ -13,11 +13,11 @@ Para uma filtragem mais refinada, clique no ícone de filtro localizado no lado 
 As seguintes opções de filtro estão disponíveis:
 
 * **Status**: Filtrar por status de processamento (por exemplo, Pronto para validação, Rejeitado).
-*   **Assigned To**: Filtrar pelos usuários atribuídos ao documento.
+*   **Atribuído a**: Filtrar pelos usuários atribuídos ao documento.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/FilteringDocs_9.png)
-* **Assigned to Group**: Filtrar pelos grupos atribuídos ao documento.
-* **Restart Required**: Filtrar documentos que requerem reinicialização.
+* **Atribuído ao grupo**: Filtrar pelos grupos atribuídos ao documento.
+* **Reiniciar necessário**: Filtrar documentos que requerem reinicialização.
 
 Clique em **Aplicar** para aplicar os filtros selecionados, ou **Limpar filtros** para redefini-los.
 
