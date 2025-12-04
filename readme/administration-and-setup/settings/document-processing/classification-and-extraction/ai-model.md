@@ -2,7 +2,8 @@
 
 ## Panoramica
 
-L'impostazione del Modello AI consente di definire quale modello AI dovrebbe essere utilizzato per impostazione predefinita per **Estrazione della tabella AI** durante l'**Elaborazione dei documenti**. Puoi anche visualizzare il costo in token per ciascun modello e vedere quale modello è attualmente assegnato a ciascun fornitore.
+L'impostazione **Modello AI** consente di definire quale modello AI viene utilizzato per impostazione predefinita per l'**estrazione sul campo** e l'**estrazione della tabella** durante l'elaborazione dei documenti.\
+In questa sezione, puoi esaminare il costo in token per ciascun modello e vedere quale modello è attualmente assegnato a ciascun fornitore.
 
 ## Come Accedere
 
@@ -25,23 +26,28 @@ Puoi scegliere tra i seguenti modelli AI. Passa il mouse sull'icona informativa 
 
 ## Tabella di Assegnazione del Modello AI
 
-La tabella visualizza le impostazioni del modello AI per ciascun fornitore, inclusa la seguente informazione:
+Puoi anche configurare **modelli AI** specifici per fornitore direttamente nella schermata di **Convalida**, permettendoti di perfezionare l'accuratezza dell'estrazione per singoli fornitori.\
+\
+Per ulteriori informazioni, consulta la documentazione corrispondente [qui](../../../../end-user-and-partner-section/end-user-section/validation-screen/selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md).
 
-* **Id del fornitore** – L'identificatore unico del fornitore
-* **Modello AI** – Il modello AI attualmente assegnato al fornitore
-* **E-Text** Indica se la funzione E-Text è abilitata
-* **Azione** – Contiene l'opzione per eliminare l'entrata
+La tabella di assegnazione visualizza le impostazioni del modello AI per ciascun fornitore e include i seguenti dettagli:
+
+* **Supplier ID** – L'identificatore unico del fornitore
+* **AI Model** – Il modello AI attualmente assegnato al fornitore
+* **E-Text**: Indica se la funzione E-Text è abilitata
+* **Action** – Contiene l'opzione per eliminare l'entrata
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ai_model_3.png)
 
-### Elimina Entrata
+### Elimina Entrata – Ripristina Impostazioni Specifiche del Fornitore
 
 Per ripristinare l'impostazione del modello AI di un fornitore ai valori predefiniti:
 
-1.  Clicca sull'icona del cestino nella colonna **Azioni** accanto all'entrata del fornitore.
+1.  Clicca sull'icona del cestino nella colonna **Action** accanto all'entrata del fornitore.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ai_model_4.png)
-2.  Apparirà una finestra di conferma: conferma di voler eliminare l'entrata.
+2.  Apparirà una finestra di conferma—conferma di voler eliminare l'entrata.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ai_model_5.png)
-3. Una volta eliminato, il fornitore tornerà a utilizzare il modello AI predefinito se **Estrazione della tabella AI** è in uso.
+
+Una volta eliminato, il fornitore tornerà a utilizzare il **modello AI** predefinito per l'**estrazione sul campo** e l'**estrazione della tabella**.
