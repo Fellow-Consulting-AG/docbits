@@ -2,7 +2,8 @@
 
 ## Übersicht
 
-Die AI-Modell-Einstellung ermöglicht es Ihnen, festzulegen, welches AI-Modell standardmäßig für die **AI** **Tabellen-Extraktion** während der Verarbeitung von Dokumenten verwendet werden soll. Sie können auch die Token-Kosten für jedes Modell einsehen und sehen, welches Modell derzeit jedem Lieferanten zugewiesen ist.
+Die Einstellung **AI-Modell** ermöglicht es Ihnen zu definieren, welches AI-Modell standardmäßig für die **Feldextraktion** und **Tabelle Extraktion** während der Dokumentenverarbeitung verwendet wird.\
+In diesem Abschnitt können Sie die Token-Kosten für jedes Modell einsehen und sehen, welches Modell derzeit jedem Lieferanten zugewiesen ist.
 
 ## So greifen Sie zu
 
@@ -17,7 +18,7 @@ Die AI-Modell-Einstellung ermöglicht es Ihnen, festzulegen, welches AI-Modell s
 
 Sie können zwischen den folgenden AI-Modellen wählen. Fahren Sie mit der Maus über das Informationssymbol in der Benutzeroberfläche, um die Token-Kosten pro Dokument für das ausgewählte AI-Modell anzuzeigen:
 
-* **Full** – 2 Tokens pro Dokument
+* **Full** – 2 Token pro Dokument
 * **Fast** – 1 Token pro Dokument
 * **Turbo** – 1 Token pro Dokument
 
@@ -25,23 +26,28 @@ Sie können zwischen den folgenden AI-Modellen wählen. Fahren Sie mit der Maus 
 
 ## AI-Modell-Zuweisungstabelle
 
-Die Tabelle zeigt die AI-Modell-Einstellungen für jeden Lieferanten an, einschließlich der folgenden Informationen:
+Sie können lieferantenspezifische **AI-Modelle** auch direkt im **Validierung**-Bildschirm konfigurieren, wodurch Sie die Extraktionsgenauigkeit für einzelne Lieferanten feinabstimmen können.\
+\
+Weitere Informationen finden Sie in der entsprechenden Dokumentation [hier](../../../../end-user-and-partner-section/end-user-section/validation-screen/selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md).
 
-* **Lieferanten-ID** – Die eindeutige Kennung des Lieferanten
-* **AI-Modell** – Das derzeit dem Lieferanten zugewiesene AI-Modell
-* **E-Text** Gibt an, ob die E-Text-Funktion aktiviert ist
-* **Aktion** – Enthält die Option, den Eintrag zu löschen
+Die Zuweisungstabelle zeigt die AI-Modell-Einstellungen für jeden Lieferanten an und enthält die folgenden Details:
+
+* **Supplier ID** – Die eindeutige Kennung des Lieferanten
+* **AI Model** – Das derzeit dem Lieferanten zugewiesene AI-Modell
+* **E-Text**: Gibt an, ob die E-Text-Funktion aktiviert ist
+* **Action** – Enthält die Option zum Löschen des Eintrags
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ai_model_3.png)
 
-### Eintrag löschen
+### Eintrag löschen – Lieferantenspezifische Einstellungen zurücksetzen
 
 Um die AI-Modell-Einstellung eines Lieferanten auf die Standardeinstellung zurückzusetzen:
 
-1.  Klicken Sie auf das Mülleimer-Symbol in der **Aktionen**-Spalte neben dem Lieferanteneintrag.
+1.  Klicken Sie auf das Mülleimer-Symbol in der **Action**-Spalte neben dem Lieferanteneintrag.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ai_model_4.png)
 2.  Ein Bestätigungsdialog wird angezeigt – bestätigen Sie, dass Sie den Eintrag löschen möchten.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ai_model_5.png)
-3. Nach dem Löschen wird der Lieferant wieder auf das Standard-AI-Modell zurückgesetzt, wenn die **AI** **Tabellen-Extraktion** verwendet wird.
+
+Nach dem Löschen verwendet der Lieferant wieder das Standard-**AI-Modell** für die **Feldextraktion** und **Tabelle Extraktion**.
