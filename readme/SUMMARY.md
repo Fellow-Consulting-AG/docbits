@@ -47,6 +47,7 @@
   * [AI Tabel](end-user-and-partner-section/end-user-section/ai-table/README.md)
     * [AI Tabel Tags](end-user-and-partner-section/end-user-section/ai-table/ai-table-tags.md)
   * [Validatiescherm](end-user-and-partner-section/end-user-section/validation-screen/README.md)
+    * [Selecteren van een leveranciersspecifiek AI-model voor veld- en tabelextractie](end-user-and-partner-section/end-user-section/validation-screen/selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md)
     * [Automatische controles op het validatiescherm](end-user-and-partner-section/end-user-section/validation-screen/automatic-checks-on-the-validation-screen.md)
     * [Vage Gegevens](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [QR-codes](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
