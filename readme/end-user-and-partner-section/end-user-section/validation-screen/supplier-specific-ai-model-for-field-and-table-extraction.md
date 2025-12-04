@@ -1,4 +1,4 @@
-# Selezione di un modello di IA specifico per fornitore per l'estrazione di campi e tabelle
+# Modello di IA Specifico per Fornitore per l'Estrazione di Campi e Tabelle
 
 Nella sezione degli strumenti della **Schermata di validazione**, puoi scegliere il modello di IA utilizzato per l'**Estrazione dei campi** e l'**Estrazione delle tabelle**.\
 Il **modello di IA** selezionato viene applicato solo a tutti i documenti del fornitore corrente.

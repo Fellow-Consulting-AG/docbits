@@ -177,7 +177,7 @@ Lì troverai il flusso del documento
 * **Scopo:** Consente a DocBits di utilizzare e-text per tutti i documenti di un fornitore specifico se disponibile, migliorando l'accuratezza dell'estrazione.
 * **Caso d'Uso:** Migliora l'estrazione del testo sfruttando il testo incorporato invece dell'OCR, il che può portare a risultati più precisi per questo fornitore.
 
-### [Modello AI Basato sul Fornitore](selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md)
+### [Modello AI Basato sul Fornitore](supplier-specific-ai-model-for-field-and-table-extraction.md)
 
 * **Scopo:** Consente la selezione tra tre diversi modelli AI per ottimizzare i risultati di estrazione per un fornitore specifico.
 * **Caso d'Uso:** Garantisce una migliore accuratezza dell'estrazione scegliendo il modello AI più adatto per la struttura e il contenuto dei documenti di ciascun fornitore.

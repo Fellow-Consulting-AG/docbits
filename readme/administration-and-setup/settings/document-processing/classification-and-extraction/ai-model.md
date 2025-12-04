@@ -28,7 +28,7 @@ Puoi scegliere tra i seguenti modelli AI. Passa il mouse sull'icona informativa 
 
 Puoi anche configurare **modelli AI** specifici per fornitore direttamente nella schermata di **Convalida**, permettendoti di perfezionare l'accuratezza dell'estrazione per singoli fornitori.\
 \
-Per ulteriori informazioni, consulta la documentazione corrispondente [qui](../../../../end-user-and-partner-section/end-user-section/validation-screen/selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md).
+Per ulteriori informazioni, consulta la documentazione corrispondente [qui](../../../../end-user-and-partner-section/end-user-section/validation-screen/supplier-specific-ai-model-for-field-and-table-extraction.md).
 
 La tabella di assegnazione visualizza le impostazioni del modello AI per ciascun fornitore e include i seguenti dettagli:
 
