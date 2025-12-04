@@ -177,7 +177,7 @@ Vous y trouverez le flux du document
 * **Objectif :** Permet à DocBits d'utiliser le texte électronique pour tous les documents d'un fournisseur spécifique si disponible, améliorant ainsi la précision de l'extraction.
 * **Cas d'utilisation :** Améliore l'extraction de texte en tirant parti du texte intégré au lieu de l'OCR, ce qui peut conduire à des résultats plus précis pour ce fournisseur.
 
-### [Modèle AI Basé sur le Fournisseur](selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md)
+### [Modèle AI Basé sur le Fournisseur](supplier-specific-ai-model-for-field-and-table-extraction.md)
 
 * **Objectif :** Permet de choisir entre trois modèles AI différents pour optimiser les résultats d'extraction pour un fournisseur spécifique.
 * **Cas d'utilisation :** Assure une meilleure précision d'extraction en choisissant le modèle AI le plus adapté à la structure et au contenu des documents de chaque fournisseur.

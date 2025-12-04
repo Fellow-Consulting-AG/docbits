@@ -1,4 +1,4 @@
-# Sélection d'un modèle d'IA spécifique au fournisseur pour l'extraction de champs et de tableaux
+# Modèle d'IA Spécifique au Fournisseur pour l'Extraction de Champs et de Tableaux
 
 Dans la section des outils de l'**Écran de validation**, vous pouvez choisir le modèle d'IA utilisé pour l'**Extraction de champs** et l'**Extraction de tableaux**.\
 Le **modèle d'IA** sélectionné s'applique uniquement à tous les documents du fournisseur actuel.
