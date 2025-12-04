@@ -2,7 +2,8 @@
 
 ## Przegląd
 
-Ustawienie Modelu sztucznej inteligencji pozwala zdefiniować, który model AI powinien być używany domyślnie do **Ekstrakcji tabeli AI** podczas przetwarzania dokumentów. Możesz również zobaczyć koszt tokenów dla każdego modelu oraz sprawdzić, który model jest obecnie przypisany do każdego dostawcy.
+Ustawienie **Model sztucznej inteligencji** pozwala zdefiniować, który model AI jest używany domyślnie do **ekstrakcji pól** i **ekstrakcji tabeli** podczas przetwarzania dokumentów.\
+W tej sekcji możesz przejrzeć koszt tokenów dla każdego modelu oraz sprawdzić, który model jest obecnie przypisany do każdego dostawcy.
 
 ## Jak uzyskać dostęp
 
@@ -25,23 +26,28 @@ Możesz wybierać spośród następujących modeli AI. Najedź kursorem na ikon�
 
 ## Tabela przypisania Modelu sztucznej inteligencji
 
-Tabela wyświetla ustawienia modelu AI dla każdego dostawcy, w tym następujące informacje:
+Możesz również skonfigurować specyficzne dla dostawcy **modele AI** bezpośrednio na ekranie **Walidacja**, co pozwala dostosować dokładność ekstrakcji dla poszczególnych dostawców.\
+\
+Więcej informacji znajdziesz w odpowiedniej dokumentacji [tutaj](../../../../end-user-and-partner-section/end-user-section/validation-screen/selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md).
 
-* **Identyfikator dostawcy** – Unikalny identyfikator dostawcy
-* **Model AI** – Model AI obecnie przypisany do dostawcy
-* **E-Text** Wskazuje, czy funkcja E-Text jest włączona
-* **Działanie** – Zawiera opcję usunięcia wpisu
+Tabela przypisania wyświetla ustawienia modelu AI dla każdego dostawcy i zawiera następujące szczegóły:
+
+* **Supplier ID** – Unikalny identyfikator dostawcy
+* **AI Model** – Model AI obecnie przypisany do dostawcy
+* **E-Text**: Wskazuje, czy funkcja E-Text jest włączona
+* **Action** – Zawiera opcję usunięcia wpisu
 
 ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ai_model_3.png)
 
-### Usuń wpis
+### Usuń wpis – Zresetuj ustawienia specyficzne dla dostawcy
 
 Aby zresetować ustawienie modelu AI dostawcy do domyślnych:
 
-1.  Kliknij ikonę kosza w kolumnie **Działania** obok wpisu dostawcy.
+1.  Kliknij ikonę kosza w kolumnie **Action** obok wpisu dostawcy.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ai_model_4.png)
 2.  Pojawi się okno potwierdzenia—potwierdź, że chcesz usunąć wpis.
 
     ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/ai_model_5.png)
-3. Po usunięciu dostawca wróci do korzystania z domyślnego modelu AI, jeśli **Ekstrakcja tabeli AI** jest w użyciu.
+
+Po usunięciu dostawca wróci do korzystania z domyślnego **modelu AI** do **ekstrakcji pól** i **ekstrakcji tabeli**.
