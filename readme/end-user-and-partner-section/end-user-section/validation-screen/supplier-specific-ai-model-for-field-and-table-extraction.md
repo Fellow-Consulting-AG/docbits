@@ -1,4 +1,4 @@
-# Auswahl eines lieferantenspezifischen KI-Modells für Feld- und Tabellenextraktion
+# Lieferantenspezifisches KI-Modell für Feld- und Tabellenextraktion
 
 Im Werkzeugbereich des **Validierungsbildschirms** können Sie das KI-Modell für die **Feldextraktion** und **Tabellenextraktion** auswählen.\
 Das ausgewählte **KI-Modell** wird nur auf alle Dokumente des aktuellen Lieferanten angewendet.
