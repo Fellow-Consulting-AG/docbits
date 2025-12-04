@@ -47,6 +47,7 @@
   * [Tabella AI](end-user-and-partner-section/end-user-section/ai-table/README.md)
     * [Tag della tabella AI](end-user-and-partner-section/end-user-section/ai-table/ai-table-tags.md)
   * [Schermo di validazione](end-user-and-partner-section/end-user-section/validation-screen/README.md)
+    * [Seleção de um modelo de IA específico do fornecedor para extração de campos e tabelas](end-user-and-partner-section/end-user-section/validation-screen/selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md)
     * [Controlli automatici nella schermata di validazione](end-user-and-partner-section/end-user-section/validation-screen/automatic-checks-on-the-validation-screen.md)
     * [Dati Fuzzy](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [Codici QR](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
