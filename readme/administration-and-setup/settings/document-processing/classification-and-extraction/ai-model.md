@@ -28,7 +28,7 @@ Je kunt kiezen uit de volgende AI-modellen. Beweeg met de muis over het info-ico
 
 Je kunt ook leverancierspecifieke **AI-modellen** direct configureren in het **Validatie** scherm, waarmee je de extractienauwkeurigheid voor individuele leveranciers kunt verfijnen.\
 \
-Voor meer informatie, raadpleeg de bijbehorende documentatie [hier](../../../../end-user-and-partner-section/end-user-section/validation-screen/selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md).
+Voor meer informatie, raadpleeg de bijbehorende documentatie [hier](../../../../end-user-and-partner-section/end-user-section/validation-screen/supplier-specific-ai-model-for-field-and-table-extraction.md).
 
 De toewijzingstabel toont de AI-model instellingen voor elke leverancier en bevat de volgende details:
 

@@ -1,4 +1,4 @@
-# Selecteren van een leveranciersspecifiek AI-model voor veld- en tabelextractie
+# Leverancierspecifiek AI-model voor Veld- en Tabelextractie
 
 In de gereedschapssectie van het **Validatiescherm** kunt u het AI-model kiezen dat wordt gebruikt voor **Veldextractie** en **Tabelextractie**.\
 Het geselecteerde **AI-model** wordt alleen toegepast op alle documenten van de huidige leverancier.
