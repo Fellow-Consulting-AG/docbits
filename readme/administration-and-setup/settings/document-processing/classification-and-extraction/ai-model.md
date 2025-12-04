@@ -2,7 +2,8 @@
 
 ## Overview
 
-The AI Model setting allows you to define which AI model should be used by default for **AI** **table extraction** during document processing. You can also view the token cost for each model and see which model is currently assigned to each supplier.
+The **AI Model** setting allows you to define which AI model is used by default for **field extraction** and **table extraction** during document processing.\
+In this section, you can review the token cost for each model and see which model is currently assigned to each supplier.
 
 ## How to Access
 
@@ -38,10 +39,11 @@ The table displays the AI model settings for each supplier, including the follow
 
 To reset a supplier’s AI model setting to the default:
 
-1.  Click the trashcan icon in the **Actions** column next to the supplier entry.
+1.  Click the trashcan icon in the **Action** column next to the supplier entry.
 
     <figure><img src="../../../../.gitbook/assets/ai_model_4.png" alt=""><figcaption></figcaption></figure>
 2.  A confirmation dialog will appear—confirm that you want to delete the entry.
 
     <figure><img src="../../../../.gitbook/assets/ai_model_5.png" alt=""><figcaption></figcaption></figure>
-3. Once deleted, the supplier will revert to using the default AI model if **AI** **table extraction** is in use.
+
+Once deleted, the supplier will revert to using the default **AI model** for **field extraction** and **table extraction**.

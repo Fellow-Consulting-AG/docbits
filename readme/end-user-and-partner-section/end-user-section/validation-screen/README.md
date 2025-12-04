@@ -190,7 +190,7 @@ There you will find the flow of the document
 * **Purpose:** Enables DocBits to use e-text for all documents from a specific supplier if available, improving extraction accuracy.
 * **Use Case:** Enhances text extraction by leveraging embedded text instead of OCR, which can lead to more precise results for this supplier.
 
-### Supplier-Based AI Model
+### [Supplier-Based AI Model](selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md)
 
 * **Purpose:** Allows selection between three different AI models to optimize extraction results for a specific supplier.
 * **Use Case:** Ensures better extraction accuracy by choosing the most suitable AI model for each supplier’s document structure and content.
