@@ -177,7 +177,7 @@ Daar vindt u de flow van het document.
 * **Doel:** Stelt DocBits in staat om e-text te gebruiken voor alle documenten van een specifieke leverancier indien beschikbaar, wat de extractie-accuraatheid verbetert.
 * **Gebruikscase:** Verbetert de tekstextractie door gebruik te maken van ingebedde tekst in plaats van OCR, wat kan leiden tot nauwkeurigere resultaten voor deze leverancier.
 
-### Leverancier-gebaseerd AI Model
+### [Leverancier-gebaseerd AI Model](selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md)
 
 * **Doel:** Maakt selectie mogelijk tussen drie verschillende AI-modellen om de extractieresultaten voor een specifieke leverancier te optimaliseren.
 * **Gebruikscase:** Zorgt voor een betere extractie-accuraatheid door het meest geschikte AI-model te kiezen voor de documentstructuur en inhoud van elke leverancier.
