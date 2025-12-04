@@ -26,7 +26,10 @@ You can choose between the following AI models. Hover over the info icon in the 
 
 ## AI Model Assignment Table
 
-The table displays the AI model settings for each supplier, including the following information:
+You can also configure **supplier-specific AI models** directly in the **Validation** screen.\
+For more information, please refer to the corresponding documentation **here**.
+
+The assignment table displays the AI model settings for each supplier and includes the following details:
 
 * **Supplier ID** – The unique identifier of the supplier
 * **AI Model** – The AI model currently assigned to the supplier
@@ -35,7 +38,7 @@ The table displays the AI model settings for each supplier, including the follow
 
 <figure><img src="../../../../.gitbook/assets/ai_model_3.png" alt=""><figcaption></figcaption></figure>
 
-### Delete Entry
+### Delete Entry – Reset Supplier-Specific Settings
 
 To reset a supplier’s AI model setting to the default:
 
