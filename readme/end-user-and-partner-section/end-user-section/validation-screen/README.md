@@ -179,7 +179,7 @@ Dort finden Sie den Fluss des Dokuments
 * **Zweck:** Ermöglicht DocBits die Verwendung von E-Text für alle Dokumente eines bestimmten Lieferanten, wenn verfügbar, um die Extraktionsgenauigkeit zu verbessern.
 * **Anwendungsfall:** Verbessert die Textextraktion, indem eingebetteter Text anstelle von OCR genutzt wird, was zu präziseren Ergebnissen für diesen Lieferanten führen kann.
 
-### Lieferantenbasiertes KI-Modell
+### [Lieferantenbasiertes KI-Modell](selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md)
 
 * **Zweck:** Ermöglicht die Auswahl zwischen drei verschiedenen KI-Modellen, um die Extraktionsergebnisse für einen bestimmten Lieferanten zu optimieren.
 * **Anwendungsfall:** Stellt eine bessere Extraktionsgenauigkeit sicher, indem das am besten geeignete KI-Modell für die Dokumentenstruktur und den Inhalt jedes Lieferanten ausgewählt wird.
