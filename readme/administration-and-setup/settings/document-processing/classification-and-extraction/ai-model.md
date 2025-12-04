@@ -28,7 +28,7 @@ Puedes elegir entre los siguientes modelos de IA. Pasa el cursor sobre el icono 
 
 También puedes configurar **modelos de IA** específicos por proveedor directamente en la pantalla de **Validación**, lo que te permite ajustar la precisión de extracción para proveedores individuales.\
 \
-Para más información, consulta la documentación correspondiente [aquí](../../../../end-user-and-partner-section/end-user-section/validation-screen/selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md).
+Para más información, consulta la documentación correspondiente [aquí](../../../../end-user-and-partner-section/end-user-section/validation-screen/supplier-specific-ai-model-for-field-and-table-extraction.md).
 
 La tabla de asignación muestra la configuración del modelo de IA para cada proveedor e incluye los siguientes detalles:
 

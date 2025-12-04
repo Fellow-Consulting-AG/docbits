@@ -47,7 +47,7 @@
   * [Tabla AI](end-user-and-partner-section/end-user-section/ai-table/README.md)
     * [Etiquetas de la tabla AI](end-user-and-partner-section/end-user-section/ai-table/ai-table-tags.md)
   * [Pantalla de Validación](end-user-and-partner-section/end-user-section/validation-screen/README.md)
-    * [Selección de un modelo de IA específico de proveedor para extracción de campos y tablas](end-user-and-partner-section/end-user-section/validation-screen/selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md)
+    * [Modelo de IA Específico del Proveedor para Extracción de Campos y Tablas](end-user-and-partner-section/end-user-section/validation-screen/supplier-specific-ai-model-for-field-and-table-extraction.md)
     * [Comprobaciones Automáticas en la Pantalla de Validación](end-user-and-partner-section/end-user-section/validation-screen/automatic-checks-on-the-validation-screen.md)
     * [Datos Difusos](end-user-and-partner-section/end-user-section/validation-screen/fuzzy-data.md)
     * [Códigos QR](end-user-and-partner-section/end-user-section/validation-screen/qr-codes.md)
