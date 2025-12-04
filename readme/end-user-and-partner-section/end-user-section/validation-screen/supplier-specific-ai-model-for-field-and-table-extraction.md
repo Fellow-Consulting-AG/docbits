@@ -1,4 +1,4 @@
-# Seleção de um modelo de IA específico do fornecedor para extração de campos e tabelas
+# Modelo de IA Específico do Fornecedor para Extração de Campos e Tabelas
 
 Na seção de ferramentas da **Tela de validação**, você pode escolher o modelo de IA usado para **Extração de campos** e **Extração de tabelas**.\
 O **modelo de IA** selecionado é aplicado apenas a todos os documentos do fornecedor atual.

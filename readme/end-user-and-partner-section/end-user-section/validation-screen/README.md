@@ -175,7 +175,7 @@ Lá você encontrará o fluxo do documento
 * **Propósito:** Permite que o DocBits utilize e-text para todos os documentos de um fornecedor específico, se disponível, melhorando a precisão da extração.
 * **Caso de Uso:** Melhora a extração de texto aproveitando o texto incorporado em vez de OCR, o que pode levar a resultados mais precisos para este fornecedor.
 
-### [Modelo de IA Baseado no Fornecedor](selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md)
+### [Modelo de IA Baseado no Fornecedor](supplier-specific-ai-model-for-field-and-table-extraction.md)
 
 * **Propósito:** Permite a seleção entre três modelos de IA diferentes para otimizar os resultados de extração para um fornecedor específico.
 * **Caso de Uso:** Garante melhor precisão na extração ao escolher o modelo de IA mais adequado para a estrutura e conteúdo dos documentos de cada fornecedor.
