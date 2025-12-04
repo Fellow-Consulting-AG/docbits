@@ -175,7 +175,7 @@ Tam znajdziesz przepływ dokumentu
 * **Cel:** Umożliwia DocBits korzystanie z e-text dla wszystkich dokumentów od konkretnego dostawcy, jeśli jest dostępny, poprawiając dokładność ekstrakcji.
 * **Przykład użycia:** Zwiększa ekstrakcję tekstu, wykorzystując osadzone teksty zamiast OCR, co może prowadzić do dokładniejszych wyników dla tego dostawcy.
 
-### Model AI oparty na dostawcy
+### [Model AI oparty na dostawcy](selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md)
 
 * **Cel:** Umożliwia wybór pomiędzy trzema różnymi modelami AI w celu optymalizacji wyników ekstrakcji dla konkretnego dostawcy.
 * **Przykład użycia:** Zapewnia lepszą dokładność ekstrakcji, wybierając najbardziej odpowiedni model AI dla struktury dokumentu i treści każdego dostawcy.
