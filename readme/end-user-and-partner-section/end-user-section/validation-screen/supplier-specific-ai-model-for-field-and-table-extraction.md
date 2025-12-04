@@ -1,4 +1,4 @@
-# Wybór modelu AI specyficznego dla dostawcy do ekstrakcji pól i tabel
+# Model AI Specyficzny dla Dostawcy do Ekstrakcji Pól i Tabel
 
 W sekcji narzędzi **Ekranu Walidacji** możesz wybrać model AI używany do **Ekstrakcji Pól** i **Ekstrakcji Tabel**.\
 Wybrany **model AI** jest stosowany tylko do wszystkich dokumentów bieżącego dostawcy.
