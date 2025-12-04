@@ -28,7 +28,7 @@ You can choose between the following AI models. Hover over the info icon in the 
 
 You can also configure supplier-specific **AI models** directly in the **Validation screen**, allowing you to fine-tune extraction accuracy for individual suppliers.\
 \
-For more information, please refer to the corresponding documentation [here](../../../../end-user-and-partner-section/end-user-section/validation-screen/selecting-a-supplier-specific-ai-model-for-field-and-table-extraction.md).
+For more information, please refer to the corresponding documentation [here](../../../../end-user-and-partner-section/end-user-section/validation-screen/supplier-specific-ai-model-for-field-and-table-extraction.md).
 
 The assignment table displays the AI model settings for each supplier and includes the following details:
 
