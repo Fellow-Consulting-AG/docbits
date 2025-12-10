@@ -230,6 +230,7 @@
           * [Approval Stamp](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-stamp.md)
           * [Approval History](administration-and-setup/settings/global-settings/document-types/more-settings/approval/approval-history.md)
         * [Purchase Order](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/README.md)
+          * [Purchase Order Matching Rules](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md)
           * [PO Table in Layout Builder](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/po-table-in-layout-builder.md)
           * [Auto check for PO updates](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/auto-check-for-po-updates.md)
           * [Consumed PO Line Status](administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/consumed-po-line-status.md)
