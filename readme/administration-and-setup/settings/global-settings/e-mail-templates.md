@@ -7,8 +7,7 @@ Email Templates allow you to customize automated email notifications sent from D
 ## **Accessing Email Templates**
 
 1.  Navigate to:\
-    **Settings → Global Settings → Email Templates**\
-
+    **Settings → Global Settings → Email Templates**\\
 
     <figure><img src="../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. The dashboard displays all templates with:
@@ -17,7 +16,7 @@ Email Templates allow you to customize automated email notifications sent from D
    * **Last Modified** date
    * **Actions** (Edit or Delete).
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Creating a New Template**
 
@@ -27,8 +26,7 @@ Email Templates allow you to customize automated email notifications sent from D
 * Fill in the fields on the right:
   * **Name**: Template identifier (e.g., "Document Error").
   * **Subject**: Email subject line (e.g., "Action Required: Document Error").
-  *   **Document Type**: Select from the dropdown (e.g., "Invoice").\
-
+  *   **Document Type**: Select from the dropdown (e.g., "Invoice").\\
 
       <div align="center"><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -50,8 +48,7 @@ Email Templates allow you to customize automated email notifications sent from D
 
 ## **Sending a Test Email**
 
-1.  Open the template and click **Send Test**.\
-
+1.  Open the template and click **Send Test**.\\
 
     <figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. Enter:

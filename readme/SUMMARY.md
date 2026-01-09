@@ -321,6 +321,8 @@
   * [And](administration-and-setup/workflow/and/README.md)
     * [Compare with Purchase Order](administration-and-setup/workflow/and/compare-with-purchase-order/README.md)
       * [Combined Price of Quantity Difference](administration-and-setup/workflow/and/compare-with-purchase-order/combined-price-of-quantity-difference.md)
+      * [Promised delivery date for line items in table with promised delivery date](administration-and-setup/workflow/and/compare-with-purchase-order/promised-delivery-date-for-line-items-in-table-with-promised-delivery-date/README.md)
+        * [Key Concept: Tolerance Window](administration-and-setup/workflow/and/compare-with-purchase-order/promised-delivery-date-for-line-items-in-table-with-promised-delivery-date/key-concept-tolerance-window.md)
       * [Unit Price Combined with Fields](administration-and-setup/workflow/and/compare-with-purchase-order/unit-price-combined-with-fields.md)
       * [Promised Delivery Date on Purchase Order](administration-and-setup/workflow/and/compare-with-purchase-order/promised-delivery-date-on-purchase-order.md)
       * [Order Data in Order Confirmation](administration-and-setup/workflow/and/compare-with-purchase-order/order-data-in-order-confirmation.md)
