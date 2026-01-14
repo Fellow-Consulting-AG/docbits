@@ -1,26 +1,26 @@
-# Faktura zakupu - Eksport jednostkowej ceny zatwierdzenia 2
+# Faktura zakupu - 2. zatwierdzenie ceny jednostkowej eksport
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.59.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.59.02 (1).png" alt=""><figcaption></figcaption></figure>
 
-Ten tytuł wskazuje, że reguła jest ustawiona w celu zarządzania drugą fazą zatwierdzenia faktur zakupu, skupiając się na cenie jednostkowej, zapewniając zgodność z ustalonymi warunkami.
+Ten tytuł wskazuje, że reguła jest skonfigurowana do zarządzania drugą fazą zatwierdzania faktur zakupowych z naciskiem na cenę jednostkową, zapewniając jej zgodność z uzgodnionymi warunkami.
 
 #### Konfiguracja reguły:
 
-1. **Kiedy…**
-* **Typ dokumentu to Faktura**: Ta warunek zapewnia, że reguła jest aktywowana tylko dla dokumentów zidentyfikowanych jako faktury, co jest kluczowe dla dokładnego kierowania przepływem pracy.
-2. **I…**
-* **Status dokumentu to Oczekuje na drugie zatwierdzenie**: To określa, że faktura oczekuje na drugie zatwierdzenie. Ten etap często zapewnia dodatkowy nadzór, aby zapewnić dokładność przed sfinalizowaniem transakcji.
-* **Podtyp faktury to Równa się Faktura zakupu**: Ten warunek dodatkowo określa, że reguła dotyczy tylko faktur sklasyfikowanych specjalnie jako "Faktury zakupu", odróżniając je od innych typów faktur.
-* **Logika Cena jednostkowa w potwierdzeniu zamówienia Równa zamówieniu zakupu**: Ten warunek sprawdza, czy cena jednostkowa podana w potwierdzeniu zamówienia odpowiada cenie jednostkowej w zamówieniu zakupu. Zapewnia to, że przetwarzanie faktury przechodzi do przodu tylko wtedy, gdy istnieje spójność cenowa, co jest kluczowe dla budżetowania i raportowania finansowego.
+1. **Gdy…**
+   * **Typ dokumentu to Faktura**: Ten warunek zapewnia, że reguła jest aktywowana tylko dla dokumentów zidentyfikowanych jako faktury, co jest kluczowe dla dokładnego kierowania przepływem pracy.
+2. **Oraz…**
+   * **Status dokumentu to Oczekuje na drugie zatwierdzenie**: Określa to, że faktura oczekuje na drugie zatwierdzenie. Ten etap często zapewnia dodatkowy nadzór w celu zapewnienia dokładności przed sfinalizowaniem transakcji.
+   * **Pole dokumentu Podtyp faktury to Faktura zakupu**: Ten warunek dodatkowo określa, że reguła dotyczy tylko faktur skategoryzowanych jako „Faktury zakupu”, odróżniając je od innych rodzajów faktur.
+   * **Logika: Cena jednostkowa w potwierdzeniu zamówienia równa się zamówieniu zakupu**: Ten warunek sprawdza, czy cena jednostkowa wymieniona w potwierdzeniu zamówienia zgadza się z ceną jednostkową w zamówieniu zakupu. Zapewnia to, że przetwarzanie faktury posuwa się naprzód tylko wtedy, gdy ceny są spójne, co ma kluczowe znaczenie dla budżetowania i raportowania finansowego.
 
-#### Działanie (Wtedy…):
+#### Akcja (Wtedy…):
 
-* **Rozpocznij eksport**: Gdy faktura spełnia określone warunki (tj. ceny jednostkowe są zgodne między potwierdzeniem zamówienia a zamówieniem zakupu), uruchamiane jest działanie "Rozpocznij eksport". Prawdopodobnie obejmuje to eksport danych faktury do dalszego przetwarzania, być może do innego systemu finansowego lub w celach raportowania.
+* **Rozpocznij eksport**: Gdy faktura spełni określone warunki (tj. ceny jednostkowe zgadzają się między potwierdzeniem zamówienia a zamówieniem zakupu), uruchamiana jest akcja „Rozpocznij eksport”. Prawdopodobnie wiąże się to z eksportem danych faktury do dalszego przetwarzania, być może do innego systemu finansowego lub w celach raportowych.
 
 #### Cel tej reguły:
 
-* **Zapewnienie dokładności i spójności**: Poprzez weryfikację zgodności cen jednostkowych między potwierdzeniem zamówienia a zamówieniem zakupu, system pomaga utrzymać dokładność finansową i zapobiega nadpłacaniu lub niedopłacaniu.
-* **Usprawnienie przetwarzania finansowego**: Automatyzacja eksportu danych po potwierdzeniu cen redukuje ręczne operacje i przyspiesza cykl przetwarzania finansowego.
-* **Wzmocnienie zgodności i nadzoru**: Wymaganie drugiego zatwierdzenia w celu weryfikacji ceny dodaje dodatkową warstwę nadzoru, co jest istotne dla zgodności z politykami i kontrolami finansowymi.
+* **Zapewnienie dokładności i spójności**: Weryfikując zgodność cen jednostkowych między potwierdzeniem zamówienia a zamówieniem zakupu, system pomaga utrzymać dokładność finansową i zapobiega nadpłatom lub niedopłatom.
+* **Usprawnienie przetwarzania finansowego**: Automatyzacja eksportu danych po potwierdzeniu cen ogranicza ręczną obsługę i przyspiesza cykl przetwarzania finansowego.
+* **Zwiększenie zgodności i nadzoru**: Wymaganie drugiego zatwierdzenia w celu weryfikacji ceny dodaje dodatkową warstwę nadzoru, kluczową dla zgodności z polityką finansową i kontrolami.
 
-Ta reguła jest przykładem skutecznego wykorzystania automatyzacji przepływu pracy do zapewnienia precyzyjnego i efektywnego zarządzania dokumentami finansowymi w organizacji, zwłaszcza w kontekście dużych wolumenów transakcji, które wymagają skrupulatnej walidacji.
+Reguła ta jest przykładem tego, jak automatyzacja przepływu pracy może być skutecznie wykorzystywana do zapewnienia precyzyjnej i wydajnej obsługi dokumentów finansowych w organizacji, szczególnie w kontekście dużej liczby transakcji wymagających skrupulatnej walidacji.

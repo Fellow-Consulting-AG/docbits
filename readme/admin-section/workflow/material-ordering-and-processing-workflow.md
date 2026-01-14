@@ -1,47 +1,49 @@
 ---
 description: >-
-    Zapoznaj się z krokowym procesem zamawiania materiałów, odbierania towarów i przetwarzania faktur przy integracji INFOR ERP i DocBits. Skuteczne zarządzanie dostawcami i dokumentami w jednym miejscu.
+  Poznaj krok po kroku przepływ pracy przy zamawianiu materiałów, przyjmowaniu towarów i
+  przetwarzaniu faktur dzięki integracji systemów INFOR ERP i DocBits. Skuteczne zarządzanie dostawcami
+  i dokumentami w jednym miejscu.
 ---
 
-# Proces zamawiania i przetwarzania materiałów
+# Przepływ pracy zamawiania i przetwarzania materiałów
 
-Ten dokument przedstawia proces zamawiania materiałów od dostawców, odbierania towarów i przetwarzania faktur przy integracji między dostawcami, systemem INFOR ERP i DocBits do zarządzania dokumentami.
+Niniejszy dokument opisuje przepływ pracy związany z zamawianiem materiałów od dostawców, przyjmowaniem towarów i przetwarzaniem faktur przy integracji między dostawcami, systemem INFOR ERP i systemem DocBits do zarządzania dokumentami.
 
 ### Przegląd procesu
 
 1. **Zamawianie materiałów**
-* Zainicjuj zamówienie u dostawcy.
-* Wyślij zamówienie do dostawcy za pośrednictwem INFOR.
-2. **Potwierdzenie odbioru zamówienia**
-* Dostawca potwierdza odbiór zamówienia.
-* Utworzenie i wysłanie potwierdzenia zamówienia.
-3. **Odbiór towarów i kontrola**
-* Odbierz towary od dostawcy.
-* Zaksięguj odbiór towarów w INFOR i sprawdź zgodność z listą dostawy.
+   * Zainicjowanie zamówienia u dostawcy.
+   * Wysłanie zamówienia do dostawcy przez system INFOR.
+2. **Otrzymanie potwierdzenia zamówienia**
+   * Dostawca potwierdza otrzymanie zamówienia.
+   * Utworzenie i wysłanie potwierdzenia zamówienia.
+3. **Przyjęcie i kontrola towarów**
+   * Przyjęcie towarów od dostawcy.
+   * Zaksięgowanie przyjęcia towarów w systemie INFOR i sprawdzenie zgodności z dokumentem dostawy (WZ).
 4. **Przetwarzanie faktur**
-* Odbierz fakturę i prześlij do DocBits w celu przetworzenia.
-* Sprawdź i zweryfikuj szczegóły faktury z zamówieniem i potwierdzeniem odbioru towarów.
-5. **Ostatnie kroki**
-* Zarchiwizuj zamówienie i powiązane dokumenty w DocBits.
-* Zaktualizuj INFOR danymi transakcji do rozliczeń finansowych.
+   * Otrzymanie faktury i przesłanie jej do DocBits w celu przetworzenia.
+   * Sprawdzenie i weryfikacja danych faktury z zamówieniem i przyjęciem towarów.
+5. **Kroki końcowe**
+   * Archiwizacja zamówienia i powiązanych dokumentów w DocBits.
+   * Aktualizacja systemu INFOR o szczegóły transakcji dla potrzeb księgowości finansowej.
 
 ### Punkty decyzyjne i działania
 
 * **Czy otrzymane towary zgadzają się z zamówieniem?**
-* Tak: Przejdź do przetwarzania faktury.
-* Nie: Wymagana jest ręczna weryfikacja i aktualizacja.
-* **Czy faktura jest zgodna z otrzymanymi towarami i szczegółami zamówienia?**
-* Tak: Finalizuj transakcję i aktualizuj rekordy finansowe.
-* Nie: Konieczne są dalsze badania i korekty.
+  * Tak: Kontynuuj przetwarzanie faktury.
+  * Nie: Wymagana ręczna kontrola i aktualizacja.
+* **Czy faktura jest poprawna zgodnie z otrzymanymi towarami i danymi zamówienia?**
+  * Tak: Zakończ transakcję i zaktualizuj rekordy finansowe.
+  * Nie: Potrzebna dalsza analiza i korekty.
 
 ### Punkty integracji
 
-* **INFOR ERP**: Główny system do przetwarzania zamówień, odbioru towarów i rozliczeń finansowych.
+* **INFOR ERP**: Główny system do przetwarzania zamówień, przyjmowania towarów i księgowości finansowej.
 * **DocBits**: Zarządzanie dokumentami do przetwarzania i archiwizacji faktur oraz potwierdzeń zamówień.
 
 ### Uwagi
 
-* Upewnij się, że wszystkie dokumenty są zweryfikowane i zarchiwizowane w celu zachowania dokumentacji.
-* Różnice w szczegółach zamówienia lub faktury muszą być natychmiast rozwiązane, aby uniknąć opóźnień.
+* Upewnij się, że wszystkie dokumenty są zweryfikowane i zarchiwizowane w celu prowadzenia ewidencji.
+* Rozbieżności w danych zamówienia lub faktury muszą być niezwłocznie wyjaśniane, aby uniknąć opóźnień.
 
-<figure><img src="../../.gitbook/assets/embed.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/embed (1).svg" alt=""><figcaption></figcaption></figure>

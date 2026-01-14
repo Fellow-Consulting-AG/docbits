@@ -1,26 +1,26 @@
-# Faktura zakupu - Eksportowanie ilości zatwierdzenia 2.
+# Faktura zakupu - 2. zatwierdzenie ilości eksport
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 15.00.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 15.00.53 (1).png" alt=""><figcaption></figcaption></figure>
 
-Ten tytuł wskazuje, że reguła jest ustawiona w celu zarządzania drugą fazą zatwierdzenia faktur zakupu z naciskiem na szczegóły dotyczące ilości, zapewniając, że ilości na fakturze zgadzają się z tymi na oryginalnym zamówieniu zakupu.
+Ten tytuł wskazuje, że reguła jest skonfigurowana do zarządzania drugą fazą zatwierdzania faktur zakupowych z naciskiem na szczegóły dotyczące ilości, zapewniając, że ilości na fakturze zgadzają się z ilościami na oryginalnym zamówieniu zakupu.
 
 #### Konfiguracja reguły:
 
-1. **Kiedy…**
-* **Typ dokumentu to Faktura**: Ta warunek zapewnia, że reguła jest aktywowana tylko dla dokumentów zidentyfikowanych jako faktury, co jest kluczowe dla dokładnego kierowania przepływem pracy.
-2. **I…**
-* **Status dokumentu to Oczekuje na drugie zatwierdzenie**: Określa to, że faktura oczekuje obecnie na drugie zatwierdzenie. Ten etap często zapewnia dodatkowy nadzór, aby zapewnić dokładność przed sfinalizowaniem transakcji.
-* **Pole dokumentu Podtyp faktury to Równa się Fakturze zakupu**: Ten warunek dodatkowo określa, że reguła dotyczy tylko faktur sklasyfikowanych specjalnie jako "Faktury zakupu", odróżniając je od innych typów faktur.
-* **Logika Ilość w potwierdzeniu zamówienia Równa się zamówieniu zakupu**: Ten warunek sprawdza, czy ilość podana w potwierdzeniu zamówienia zgadza się z ilością w zamówieniu zakupu. Zapewnia to, że przetwarzanie faktury przechodzi do przodu tylko wtedy, gdy ilości są zgodne, co jest kluczowe dla zarządzania zapasami i dokładności finansowej.
+1. **Gdy…**
+   * **Typ dokumentu to Faktura**: Ten warunek zapewnia, że reguła jest aktywowana tylko dla dokumentów zidentyfikowanych jako faktury, co jest kluczowe dla dokładnego kierowania przepływem pracy.
+2. **Oraz…**
+   * **Status dokumentu to Oczekuje na drugie zatwierdzenie**: Określa to, że faktura oczekuje obecnie na drugie zatwierdzenie. Ten etap często zapewnia dodatkowy nadzór w celu zapewnienia dokładności przed sfinalizowaniem transakcji.
+   * **Pole dokumentu Podtyp faktury to Faktura zakupu**: Ten warunek dodatkowo określa, że reguła dotyczy tylko faktur skategoryzowanych jako „Faktury zakupu”, odróżniając je od innych rodzajów faktur.
+   * **Logika: Ilość w potwierdzeniu zamówienia równa się zamówieniu zakupu**: Ten warunek sprawdza, czy ilość wymieniona w potwierdzeniu zamówienia zgadza się z ilością w zamówieniu zakupu. Zapewnia to, że przetwarzanie faktury posuwa się naprzód tylko wtedy, gdy ilości są spójne, co ma kluczowe znaczenie dla zarządzania zapasami i dokładności finansowej.
 
-#### Działanie (Wtedy…):
+#### Akcja (Wtedy…):
 
-* **Rozpocznij eksport**: Gdy faktura spełnia określone warunki (tj. ilości zgadzają się między potwierdzeniem zamówienia a zamówieniem zakupu), uruchamiane jest działanie "Rozpocznij eksport". Prawdopodobnie obejmuje to eksportowanie danych faktury do dalszego przetwarzania, być może do innego systemu finansowego lub w celach raportowania.
+* **Rozpocznij eksport**: Gdy faktura spełni określone warunki (tj. ilości zgadzają się między potwierdzeniem zamówienia a zamówieniem zakupu), uruchamiana jest akcja „Rozpocznij eksport”. Prawdopodobnie wiąże się to z eksportem danych faktury do dalszego przetwarzania, być może do innego systemu finansowego lub w celach raportowych.
 
 #### Cel tej reguły:
 
-* **Zapewnienie dokładności i spójności**: Poprzez weryfikację, czy ilości zgadzają się między potwierdzeniem zamówienia a zamówieniem zakupu, system pomaga utrzymać dokładność zapasów i zapobiega rozbieżnościom, które mogłyby wpłynąć na raportowanie finansowe lub zarządzanie zapasami.
-* **Usprawnienie przetwarzania finansowego**: Automatyzacja eksportu danych po potwierdzeniu ilości redukuje ręczne operacje i przyspiesza cykl przetwarzania finansowego.
-* **Wzmocnienie zgodności i nadzoru**: Wymaganie drugiego zatwierdzenia w celu weryfikacji ilości dodaje dodatkową warstwę nadzoru, istotną dla zgodności z politykami finansowymi i kontrolami.
+* **Zapewnienie dokładności i spójności**: Weryfikując zgodność ilości między potwierdzeniem zamówienia a zamówieniem zakupu, system pomaga utrzymać dokładność inwentarza i zapobiega rozbieżnościom, które mogłyby wpłynąć na raportowanie finansowe lub zarządzanie zapasami.
+* **Usprawnienie przetwarzania finansowego**: Automatyzacja eksportu danych po potwierdzeniu ilości ogranicza ręczną obsługę i przyspiesza cykl przetwarzania finansowego.
+* **Zwiększenie zgodności i nadzoru**: Wymaganie drugiego zatwierdzenia w celu weryfikacji ilości dodaje dodatkową warstwę nadzoru, kluczową dla zgodności z polityką finansową i kontrolami.
 
-Ta reguła stanowi jasny przykład skutecznego wykorzystania automatyzacji przepływu pracy do zapewnienia precyzyjnego i efektywnego zarządzania dokumentami finansowymi w organizacji, zwłaszcza w kontekście procesów zakupowych, które obejmują duże ilości transakcji wymagających skrupulatnej walidacji.
+Reguła ta jest wyraźnym przykładem tego, jak automatyzacja przepływu pracy może być skutecznie wykorzystywana do zapewnienia precyzyjnej i wydajnej obsługi dokumentów finansowych w organizacji, szczególnie w kontekście procesów zakupowych, które obejmują duże ilości transakcji wymagających skrupulatnej walidacji.

@@ -1,28 +1,28 @@
-# Powyżej maksymalnej kwoty
+# Powyżej kwoty maksymalnej
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42 (1).png" alt=""><figcaption></figcaption></figure>
 
-Ten tytuł wskazuje, że reguła ta ma na celu zarządzanie przypadkami, w których całkowita kwota faktury przekracza maksymalną kwotę, którą zatwierdzający jest upoważniony obsłużyć.
+Ten tytuł wskazuje, że reguła jest przeznaczona do obsługi przypadków, w których suma faktury jest większa niż maksymalna kwota, do której zatwierdzania upoważniony jest zatwierdzający.
 
 #### Konfiguracja reguły:
 
-1. **Kiedy…**
-* **Typ dokumentu to Faktura**: Warunek ten zapewnia, że reguła dotyczy tylko faktur, co jest istotne dla poprawnego kierowania przepływem pracy.
-2. **I…**
-* **Status dokumentu to Oczekuje na zatwierdzenie**: Faktura musi znajdować się w statusie "Oczekuje na zatwierdzenie". Ten status jest kluczowy, aby zapewnić, że reguła jest stosowana do faktur, które są wciąż przetwarzane i nie zostały jeszcze sfinalizowane.
-* **Porównaj dwie pola: Całkowita kwota większa niż maksymalna kwota zatwierdzającego**: Ten warunek sprawdza, czy całkowita kwota faktury przekracza maksymalną kwotę, którą zatwierdzający ma prawo obsłużyć. To porównanie może również obejmować ustawienie tolerancji, pozwalającą na niewielkie różnice na podstawie wstępnie zdefiniowanych kryteriów.
+1. **Gdy…**
+   * **Typ dokumentu to Faktura**: Ten warunek zapewnia, że reguła ma zastosowanie tylko do faktur, co jest niezbędne do prawidłowego kierowania przepływem pracy.
+2. **Oraz…**
+   * **Status dokumentu to Oczekuje na zatwierdzenie**: Faktura musi znajdować się w statusie „Oczekiwanie na zatwierdzenie”. Ten status jest kluczowy, aby upewnić się, że reguła jest stosowana do faktur, które są nadal przetwarzane i nie zostały jeszcze sfinalizowane.
+   * **Porównaj dwa pola: Suma całkowita większa niż Maksymalna kwota zatwierdzającego**: Ten warunek sprawdza, czy całkowita kwota faktury przekracza maksymalną kwotę, którą dany zatwierdzający może obsłużyć. Porównanie to może również obejmować ustawienie tolerancji, pozwalające na niewielkie odchylenia na podstawie predefiniowanych kryteriów.
 
-#### Działanie (Wtedy…):
+#### Akcja (Wtedy…):
 
-* **Przypisz użytkownika z pola Następny Zatwierdzający, użyj użytkownika Użytkownik jako awaryjnego**: Jeśli faktura przekracza określoną maksymalną kwotę, automatycznie jest przypisywana do zatwierdzającego na wyższym poziomie, wskazanego przez pole 'Następny Zatwierdzający'. Jeśli to pole nie jest wypełnione lub określony użytkownik jest niedostępny, domyślnie używany jest inny użytkownik (prawdopodobnie administrator lub inny wyznaczony pracownik) jako awaryjny, aby zapewnić, że faktura zostanie zrewidowana bez opóźnień.
+* **Przypisz użytkownika z pola Zatwierdzający następnego poziomu, użyj użytkownika Użytkownik jako rezerwowego**: Jeśli faktura przekracza określoną kwotę maksymalną, jest ona automatycznie przypisywana do zatwierdzającego wyższego szczebla, wskazanego w polu „Zatwierdzający następnego poziomu”. Jeśli to pole nie jest wypełnione lub wskazany użytkownik jest niedostępny, używany jest użytkownik domyślny (prawdopodobnie administrator lub inny wyznaczony pracownik), aby zapewnić przegląd faktury bez opóźnień.
 
 #### Elementy interfejsu:
 
-* **Dodaj kartę**: Ta opcja pozwala dodać dodatkowe warunki lub działania do reguły, zapewniając elastyczność w rozwiązywaniu skomplikowanych scenariuszy.
+* **Dodaj kartę**: Ta opcja umożliwia dodanie dodatkowych warunków lub działań do reguły, zapewniając elastyczność w rozwiązywaniu złożonych scenariuszy.
 * **Zapisz**: Ten przycisk zapisuje konfigurację reguły w systemie.
 
 #### Cel tej reguły:
 
-Celem tej reguły jest zapewnienie, że faktury przekraczające określone progi finansowe są przeglądane przez zatwierdzających posiadających odpowiednie poziomy uprawnień. Pomaga to w utrzymaniu kontroli finansowej i nadzoru, zapewniając, że wydatki są przeglądane przez personel posiadający wymagane limity zatwierdzeń, co z kolei chroni organizację przed nieautoryzowanymi lub nieodpowiednimi wydatkami.
+Celem tej reguły jest zapewnienie, że faktury przekraczające określone progi finansowe są przeglądane przez zatwierdzających z odpowiednimi poziomami uprawnień. Pomaga to w utrzymaniu kontroli finansowej i nadzoru, zapewniając, że wydatki są sprawdzane przez personel z wymaganymi limitami zatwierdzeń, chroniąc w ten sposób organizację przed nieautoryzowanymi lub niewłaściwymi wydatkami.
 
-Ta reguła, podobnie jak poprzednia, pomaga zautomatyzować przepływ pracy, zmniejszając nakład pracy manualnej i zwiększając zgodność z politykami finansowymi organizacji. Jest to przykład skutecznego wykorzystania automatyzacji przepływu pracy do zarządzania złożonymi procesami finansowymi w firmie.
+Reguła ta, podobnie jak poprzednia, pomaga zautomatyzować przepływ pracy, redukując wysiłek ręczny i zwiększając zgodność z polityką finansową organizacji. Jest to przykład tego, jak automatyzacja przepływu pracy może być skutecznie wykorzystywana do zarządzania złożonymi procesami finansowymi w firmie.
