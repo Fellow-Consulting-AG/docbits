@@ -56,7 +56,7 @@
      * `C:/WatchDog/Processed`
    * <mark style="color:red;">**Nota:**</mark>**&#x20;É recomendável usar caminhos locais. Estes devem corresponder às pastas na Configuração do DocBits**
 2. **Baixar o WatchDog**
-   * Baixe a versão mais recente do `WatchDog.exe` de:[https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)
+   * Baixe a versão mais recente do `WatchDog.exe` de:[https://github.com/Fellow-Consulting-AG/WatchDog](https://github.com/Fellow-Consulting-AG/WatchDog)
    * Coloque o arquivo `WatchDog.exe` baixado em `C:/WatchDog`.
    * Coloque o arquivo `watchdog-config.json` baixado em `C:/WatchDog`.
    * Abra o `watchdog-config.json` e altere o **config\_path.**
