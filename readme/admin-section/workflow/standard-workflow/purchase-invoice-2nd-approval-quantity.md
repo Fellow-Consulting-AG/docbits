@@ -1,6 +1,6 @@
 # Fattura d'acquisto - Quantità di approvazione 2°
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.56.54.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval_invoice_4.png" alt="DocBits Approvazione Fattura 4"><figcaption></figcaption></figure>
 
 Questo titolo indica che la regola si riferisce specificamente alla gestione delle fatture d'acquisto durante una fase di approvazione secondaria, con un focus sulla verifica dell'accuratezza delle quantità elencate.
 

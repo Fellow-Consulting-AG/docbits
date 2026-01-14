@@ -104,13 +104,13 @@ Quindi:                    **Assegna documento a:**   Asad Usman Khan
 
 &#x20;                            **Cambia Stato in:**          Approvazione in Sospeso
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_2.png" alt="DocBits Approvazione 2"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/15 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_purchase_order_2.png" alt="DocBits Flusso di lavoro Acquisto Ordine 2"><figcaption></figcaption></figure>
 
 Ad esempio, se mancano informazioni specifiche o importanti da un documento, ma sono importanti e devono essere incluse per ulteriori elaborazioni, è possibile configurare il flusso di lavoro in modo che questi documenti vengano immediatamente inoltrati al compratore e a un sostituto.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_5.png" alt="DocBits Flusso di lavoro 5"><figcaption></figcaption></figure>
 
 **Test 9:**
 
@@ -120,11 +120,11 @@ Il Workflow con queste schede logiche è progettato per verificare automaticamen
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_permission.png" alt="DocBits Approvazione Permesso"><figcaption></figcaption></figure>
 
 </div>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_purchase_order_4.png" alt="DocBits Acquisto Ordine 4"><figcaption></figcaption></figure>
 
 **Scheda Logica: Quantità o Prezzo Unitario o Corrispondenza dello Sconto**
 
@@ -148,7 +148,7 @@ Questa scheda logica è fondamentale per garantire che i dettagli di una conferm
 
 Se si dispone di un calcolo diverso per sovrapprezzi, o li si ha solo su alcuni articoli, è possibile utilizzare le schede di calcolo tabellare generiche, alcune delle quali consentono anche di filtrare per espressioni regolari.
 
-<figure><img src="../../.gitbook/assets/19 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_table_invoice.png" alt="DocBits Tabella Fattura"><figcaption></figcaption></figure>
 
 Qui sopra è riportato un esempio di calcolo per MTZ con un filtro per numeri di articolo che iniziano con 01, 06, 9, 001 o 000.
 
@@ -156,7 +156,7 @@ Con una configurazione manuale è consigliabile suddividere i calcoli che dipend
 
 **Esegui Workflow**
 
-<figure><img src="../../.gitbook/assets/20 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_2.png" alt="DocBits Flusso di lavoro 2"><figcaption></figcaption></figure>
 
 Con questa scheda è possibile specificare il nome di un flusso di lavoro che deve essere eseguito dopo il flusso di lavoro corrente se le sue condizioni sono soddisfatte e dopo le schede then precedenti del flusso di lavoro corrente. Pur dando priorità ai flussi di lavoro eseguibili e attivi, consente anche di eseguire flussi di lavoro disattivati se il documento soddisfa le condizioni dei flussi di lavoro.
 ### **Aggiunta di sovrapprezzi calcolati in una colonna esistente** <a href="#pekg4i18rshn" id="pekg4i18rshn"></a>
@@ -169,6 +169,6 @@ Se si desidera aggiungere tutti i sovrapprezzi come uno sconto negativo nella co
 
 Dopo aver calcolato i sovrapprezzi, potresti voler notificare a un utente specifico di autorizzare la conferma dell'ordine. Per questo puoi utilizzare la carta di notifica
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_email.png" alt="DocBits Impostazioni E-mail"><figcaption></figcaption></figure>
 
 A seconda delle impostazioni, all'utente viene assegnato un nuovo compito in DocBits e facoltativamente una email per informarlo del suo nuovo compito.

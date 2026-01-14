@@ -13,8 +13,8 @@ Un flusso di lavoro può essere avviato con queste due carte. Qui puoi decidere 
 \
 
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_5.png" alt="DocBits Flusso di lavoro Acquisto Ordine 5"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_6.png" alt="DocBits Flusso di lavoro 6"><figcaption></figcaption></figure>
 
 Questa carta può anche essere utilizzata per specificare più tipi di documento che il flusso di lavoro dovrebbe influenzare.

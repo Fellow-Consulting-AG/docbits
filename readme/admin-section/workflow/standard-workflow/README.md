@@ -1,6 +1,6 @@
 # Flusso di Lavoro Standard
 
-<figure><img src="../../../.gitbook/assets/DocBits-APWorkflow-Gronbach.drawio (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_4.svg" alt="DocBits Flusso di lavoro Acquisto Ordine 4"><figcaption></figcaption></figure>
 
 #### Panoramica dei Componenti del Flusso di Lavoro:
 

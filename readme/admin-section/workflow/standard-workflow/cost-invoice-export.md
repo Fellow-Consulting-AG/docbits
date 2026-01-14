@@ -1,6 +1,6 @@
 # Fattura di Costo - Esportazione
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.53.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_4.png" alt="DocBits Acquisto Ordine Esporta 4"><figcaption></figcaption></figure>
 
 Questo titolo indica che la regola è configurata specificamente per gestire le fatture di costo e coinvolge un'azione di esportazione, eventualmente per scopi di reportistica, ulteriore elaborazione o integrazione con altri sistemi.
 

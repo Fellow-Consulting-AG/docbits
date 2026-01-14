@@ -1,6 +1,6 @@
 # Fattura di acquisto - Esportazione della quantità di approvazione 2
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 15.00.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_6.png" alt="DocBits Acquisto Ordine Esporta 6"><figcaption></figcaption></figure>
 
 Questo titolo indica che la regola è impostata per gestire la seconda fase di approvazione per le fatture di acquisto con un'enfasi sui dettagli della quantità, garantendo che le quantità sulla fattura corrispondano a quelle dell'ordine di acquisto originale.
 

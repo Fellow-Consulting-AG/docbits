@@ -10,17 +10,17 @@ Per modificare, disabilitare o eliminare le notifiche esistenti e adattarle ai c
 
 **Cerca l'elenco delle notifiche esistenti:** Nelle impostazioni delle notifiche troverai un elenco delle notifiche esistenti. Questo elenco mostra tutte le notifiche attualmente configurate.
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_approval.png" alt="DocBits Approvazione"><figcaption></figcaption></figure>
 
 **Modifica una notifica:** Per modificare una notifica esistente, trova la notifica nell'elenco e seleziona l'opzione di modifica. Questo ti consente di cambiare le impostazioni della notifica, come il tipo di documento, lo stato, gli eventi di attivazione o i destinatari.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="192"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_purchase_order_export_9.png" alt="DocBits Acquisto Ordine Esporta 9" width="192"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_error_approval.png" alt="DocBits Errore Approvazione" width="375"><figcaption></figcaption></figure>
 
 **Disattiva una notifica:** Se desideri disattivare temporaneamente una notifica, trova la notifica nell'elenco e seleziona l'opzione per disattivarla. Questo fermerà temporaneamente la notifica senza eliminarla, così potrai riattivarla in seguito se necessario.
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" width="116"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_purchase_order_7.png" alt="DocBits Flusso di lavoro Acquisto Ordine 7" width="116"><figcaption></figcaption></figure>
 
 **Elimina una notifica:** Per rimuovere permanentemente una notifica, trova la notifica nell'elenco e seleziona l'opzione di eliminazione. Questo rimuoverà completamente la notifica dal sistema e non potrà essere ripristinata.
 
@@ -30,6 +30,6 @@ Per modificare, disabilitare o eliminare le notifiche esistenti e adattarle ai c
 
 **Salva le modifiche:** Dopo aver apportato le modifiche, non dimenticare di salvarle affinché abbiano effetto.
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt="" width="150"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_settings_workflow_2.png" alt="DocBits Impostazioni Flusso di lavoro 2" width="150"><figcaption></figcaption></figure>
 
 Rivedendo e adattando regolarmente le impostazioni delle tue notifiche, puoi garantire che le tue notifiche soddisfino sempre le esigenze e i flussi di lavoro attuali. Questo aiuta a garantire una comunicazione efficiente e assicura che le persone giuste siano avvisate di eventi importanti in modo tempestivo.

@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_purchase_order_7.png" alt="DocBits Flusso di lavoro Acquisto Ordine 7"><figcaption></figcaption></figure>
 
 Questo workflow illustra le condizioni in base alle quali dovrebbe essere avviato un processo di esportazione. Garantisce che solo i documenti che soddisfano tutti i criteri specificati vengano elaborati per l'esportazione, migliorando l'integrità dei dati e l'allineamento alle regole aziendali.
 

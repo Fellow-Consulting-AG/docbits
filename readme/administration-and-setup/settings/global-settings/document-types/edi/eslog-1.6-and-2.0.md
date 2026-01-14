@@ -16,12 +16,12 @@ Entrambe le versioni di eSLOG sono abilitate per impostazione predefinita.
 *   Clicca su **E-Doc**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_docbits_image_5.png" alt="DocBits DocBits Immagine 5"><figcaption></figcaption></figure>
 * Apparirà un elenco di tutti gli e-doc disponibili.
 *   Individua la versione di eSLOG che desideri modificare.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_purchase_order_export_9.png" alt="DocBits Acquisto Ordine Esporta 9"><figcaption></figcaption></figure>
 
 ### **Configurazione della Trasformazione e del Percorso XML:**
 
@@ -62,8 +62,8 @@ La **Configurazione dei Percorsi di Estrazione** viene utilizzata per estrarre d
 5.  Il lato sinistro rappresenta il **DocBits field ID**, che può essere trovato in **Impostazioni → Impostazioni Globali → Tipi di Documento → Fattura → Campi**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_error_approval.png" alt="DocBits Errore Approvazione"><figcaption></figcaption></figure>
 
-    <figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_settings_workflow.png" alt="DocBits Impostazioni Flusso di lavoro"><figcaption></figcaption></figure>
 6. Il lato destro rappresenta il **percorso al campo** creato nella Trasformazione.
 7. Clicca su **Salva**.

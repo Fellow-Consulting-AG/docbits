@@ -1,6 +1,6 @@
 # Fattura d'acquisto - 2° Approvazione Prezzo Unitario
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.55.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval_invoice_3.png" alt="DocBits Approvazione Fattura 3"><figcaption></figcaption></figure>
 
 Questo titolo indica che la regola è impostata per gestire la seconda fase di approvazione di una fattura d'acquisto, con un focus specifico sulla convalida del prezzo unitario.
 

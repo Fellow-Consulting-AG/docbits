@@ -2,7 +2,7 @@
 
 Dal Dashboard, fare clic sull'icona Impostazioni avanzate come mostrato di seguito
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_workflow_2.png" alt="DocBits Impostazioni Flusso di lavoro 2"><figcaption></figcaption></figure>
 
 Verrà quindi visualizzato il seguente menu
 
@@ -16,6 +16,6 @@ Da questo menu, è possibile selezionare i nomi delle colonne e utilizzare le fr
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval.png" alt="DocBits Approvazione"><figcaption></figcaption></figure>
 
 </div>

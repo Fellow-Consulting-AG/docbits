@@ -1,6 +1,6 @@
 # Unit Price Combined with Fields
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.24.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_purchase_order_invoice_2.png" alt="DocBits Acquisto Ordine Fattura 2"><figcaption></figcaption></figure>
 
 Purpose: This Docbits card facilitates the detailed comparison of unit prices on invoices against those specified in the corresponding purchase orders. It enhances accuracy in financial reporting by ensuring adherence to agreed pricing.
 

@@ -1,6 +1,6 @@
 # Importo massimo superato
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice_2.png" alt="DocBits Fattura 2"><figcaption></figcaption></figure>
 
 Questo titolo indica che la regola è progettata per gestire i casi in cui l'importo totale della fattura è maggiore dell'importo massimo che un approvatore è autorizzato a gestire.
 

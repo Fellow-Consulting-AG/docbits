@@ -1,6 +1,6 @@
 # Prezzo unitario combinato con campi
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.24.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice_2.png" alt="DocBits Acquisto Ordine Fattura 2"><figcaption></figcaption></figure>
 
 Scopo: Questa scheda DocBits facilita il confronto dettagliato dei prezzi unitari sulle fatture rispetto a quelli specificati negli ordini di acquisto corrispondenti. Migliora l'accuratezza nella rendicontazione finanziaria garantendo il rispetto dei prezzi concordati.
 

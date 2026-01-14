@@ -1,6 +1,6 @@
 # Prezzo combinato della differenza di quantità
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.20.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice.png" alt="DocBits Acquisto Ordine Fattura"><figcaption></figcaption></figure>
 
 Scopo: Questa scheda DocBits è progettata per semplificare il processo di verifica delle fatture confrontando il prezzo totale calcolato dalla fattura con l'ordine di acquisto corrispondente.
 

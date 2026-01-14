@@ -1,6 +1,6 @@
 # Fornitore sulla Fattura
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_supplier_invoice.png" alt="DocBits Fornitore Fattura"><figcaption></figcaption></figure>
 
 #### **Scopo**
 

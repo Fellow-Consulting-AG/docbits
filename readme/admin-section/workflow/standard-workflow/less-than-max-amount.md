@@ -1,6 +1,6 @@
 # Importo inferiore al massimo
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.48.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice.png" alt="DocBits Fattura"><figcaption></figcaption></figure>
 
 Questo titolo suggerisce che la regola o la condizione in fase di configurazione è progettata per gestire le fatture in cui l'importo totale è inferiore o uguale a un importo massimo specificato.
 

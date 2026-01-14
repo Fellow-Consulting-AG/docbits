@@ -1,6 +1,6 @@
 # Data di Consegna Confermata
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_table_invoice_3.png" alt="DocBits Tabella Fattura 3"><figcaption></figcaption></figure>
 
 Scopo: Questa scheda di DocBits è progettata per garantire che le date di consegna confermate sulle fatture o sui documenti di spedizione siano allineate alle date di consegna accettate come specificato nella tabella di ricerca dei dati principali. Aiuta a gestire le aspettative e l'aderenza alle consegne programmate all'interno della catena di approvvigionamento.
 

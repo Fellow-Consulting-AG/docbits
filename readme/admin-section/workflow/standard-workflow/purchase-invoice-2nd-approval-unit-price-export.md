@@ -1,6 +1,6 @@
 # Fattura di acquisto - Esportazione del prezzo unitario di approvazione 2°
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.59.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_5.png" alt="DocBits Acquisto Ordine Esporta 5"><figcaption></figcaption></figure>
 
 Questo titolo indica che la regola è impostata per gestire la seconda fase di approvazione delle fatture di acquisto con un focus sul prezzo unitario, garantendo che corrisponda ai termini concordati.
 
