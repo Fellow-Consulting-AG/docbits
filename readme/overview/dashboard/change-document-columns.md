@@ -2,7 +2,7 @@
 
 Vom Dashboard aus klicken Sie auf das Symbol für erweiterte Einstellungen, wie unten dargestellt
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_workflow_2.png" alt="Einstellungen Workflow Dashboard Import Bestellung Übersicht"><figcaption></figcaption></figure>
 
 Es wird dann folgendes Menü angezeigt
 
@@ -16,6 +16,6 @@ Aus diesem Menü können Sie die Spaltennamen auswählen und die Pfeile verwende
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval.png" alt="Genehmigung Übersicht"><figcaption></figcaption></figure>
 
 </div>

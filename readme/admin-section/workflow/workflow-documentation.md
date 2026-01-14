@@ -126,9 +126,9 @@ Es ist auch möglich, den Status in den Workflow einzugeben, damit die zugewiese
 
 &#x20;                            **Status ändern zu:**          Ausstehende Genehmigung
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_2.png" alt="Genehmigung Übersicht"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/15 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_purchase_order_2.png" alt="Workflow Bestellung Import Übersicht"><figcaption></figcaption></figure>
 
 
 
@@ -136,7 +136,7 @@ Es ist auch möglich, den Status in den Workflow einzugeben, damit die zugewiese
 
 Wenn beispielsweise bestimmte oder wichtige Informationen in einem Dokument fehlen, aber wichtig sind und für die weitere Bearbeitung enthalten sein müssen, können Sie den Workflow so einrichten, dass diese Dokumente sofort an den Käufer und einen Vertreter weitergeleitet werden.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_5.png" alt="Workflow Übersicht"><figcaption></figcaption></figure>
 
 
 
@@ -148,11 +148,11 @@ Sie können diesen Dokumenten einen spezifischen Status geben oder sie einem bes
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_permission.png" alt="Genehmigung Berechtigung Übersicht"><figcaption></figcaption></figure>
 
 </div>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_purchase_order_4.png" alt="Bestellung Übersicht"><figcaption></figcaption></figure>
 
 **Logik-Karte: Menge oder Stückpreis oder Rabatt stimmen überein**
 
@@ -182,7 +182,7 @@ Diese Logikkarte ist entscheidend, um sicherzustellen, dass die Details einer Au
 
 Wenn Sie eine andere Berechnung für Zuschläge haben oder diese nur bei einigen Artikeln haben, können Sie die generischen Tabellenberechnungskarten verwenden, einige von ihnen ermöglichen auch das Filtern nach regulären Ausdrücken.
 
-<figure><img src="../../.gitbook/assets/19 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_table_invoice.png" alt="Tabelle Rechnung Übersicht"><figcaption></figcaption></figure>
 
 Oben ist ein Berechnungsbeispiel für MTZ mit einem Filter für Artikelnummern, die mit 01, 06, 9, 001 oder 000 beginnen.
 
@@ -192,7 +192,7 @@ Bei einer manuellen Einrichtung wird empfohlen, Berechnungen, die von neuen Spal
 
 **Workflow ausführen**
 
-<figure><img src="../../.gitbook/assets/20 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_2.png" alt="Workflow Übersicht"><figcaption></figcaption></figure>
 
 Mit dieser Karte können Sie den Namen eines Workflows angeben, der nach dem aktuellen Workflow ausgeführt werden soll, wenn seine Bedingungen erfüllt sind und nach den vorherigen "Dann"-Karten des aktuellen Workflows. Während es ausführbare, aktive Workflows priorisiert, ermöglicht es auch, deaktivierte Workflows auszuführen, wenn das Dokument die Bedingungen der Workflows erfüllt.
 ### **Hinzufügen von berechneten Zuschlägen in eine vorhandene Spalte** <a href="#pekg4i18rshn" id="pekg4i18rshn"></a>
@@ -205,6 +205,6 @@ Wenn Sie alle Zuschläge als negativen Rabatt in die Rabattspalte einfügen möc
 
 Nachdem Sie die Zuschläge berechnet haben, möchten Sie möglicherweise einen bestimmten Benutzer benachrichtigen, um die Auftragsbestätigung zu autorisieren. Hierfür können Sie die Benachrichtigungskarte verwenden.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_email.png" alt="Einstellungen E-Mail Import Bestellung Tabelle Übersicht"><figcaption></figcaption></figure>
 
 Je nach Einstellungen wird dem Benutzer eine neue Aufgabe in DocBits zugewiesen und optional eine E-Mail gesendet, um ihn über seine neue Aufgabe zu informieren.

@@ -4,13 +4,13 @@ Das Aktivieren oder Deaktivieren des Berechtigungssystems über den Schalter hat
 
 ## **Aktivieren des Berechtigungssystems:**
 
-<figure><img src="../../../../../.gitbook/assets/activation-permissions1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_permission.png" alt="Berechtigung Übersicht"><figcaption></figcaption></figure>
 
 * Wenn das Berechtigungssystem aktiviert ist, werden die Zugriffsberechtigungen für Benutzer und Gruppen angewendet.
 * Benutzern wird nur Zugriff auf die Ressourcen gewährt, auf die sie basierend auf den zugewiesenen Berechtigungen ausdrücklich zugreifen dürfen.
 * Administratoren können die Berechtigungen für einzelne Benutzer und Gruppen verwalten und sicherstellen, dass nur autorisierte Personen die Daten anzeigen oder bearbeiten können.
 
-<figure><img src="../../../../../.gitbook/assets/activation-permissions2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_permission_2.png" alt="Berechtigung Übersicht"><figcaption></figcaption></figure>
 
 ## Deaktivieren des Berechtigungssystems:
 

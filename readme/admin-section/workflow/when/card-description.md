@@ -8,8 +8,8 @@
 
 Ein Workflow kann mit diesen beiden Karten gestartet werden. Hier können Sie entscheiden, mit welchem Dokumententyp der Workflow beginnt oder ob er ausgewählte Dokumententypen nicht beeinflussen soll.
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_5.png" alt="Workflow Bestellung E-Mail Übersicht"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_6.png" alt="Workflow Übersicht"><figcaption></figcaption></figure>
 
 Diese Karte kann auch verwendet werden, um mehrere Dokumententypen anzugeben, die vom Workflow beeinflusst werden sollen.

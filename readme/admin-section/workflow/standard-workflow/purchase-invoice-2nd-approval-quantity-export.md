@@ -1,6 +1,6 @@
 # Kaufrechnung - 2. Genehmigungsmenge Export
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 15.00.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_6.png" alt="Bestellung Export Genehmigung Rechnung Übersicht"><figcaption></figcaption></figure>
 
 Dieser Titel zeigt an, dass die Regel eingerichtet ist, um die zweite Genehmigungsphase für Kaufrechnungen mit Schwerpunkt auf den Mengendetails zu verwalten und sicherzustellen, dass die Mengen auf der Rechnung mit denen auf der ursprünglichen Bestellung übereinstimmen.
 

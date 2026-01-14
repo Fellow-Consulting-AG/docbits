@@ -416,7 +416,7 @@ Wir haben erweiterte Caching-Strategien im gesamten System implementiert, um Dat
 
 IMAP-E-Mail-Einstellungen wurden so konfiguriert, um Benachrichtigungen über Importergebnisse automatisch zu senden. Erfolgreiche Importbenachrichtigungen bestätigen die erfolgreiche Verarbeitung von Dateien, während Fehlermeldungen die Dateinamen und spezifische Fehlerdetails für eine schnelle Fehlersuche enthalten.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_error_approval.png" alt="Fehler Genehmigung Rechnung Einstellungen E-Mail Import Bestellung Übersicht"><figcaption></figcaption></figure>
 
 ## Überarbeitung der Stammdatenabfrage
 

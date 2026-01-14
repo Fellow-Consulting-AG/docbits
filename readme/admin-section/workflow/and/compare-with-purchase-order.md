@@ -2,4 +2,4 @@
 
 
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_6.png" alt="Workflow Bestellung Genehmigung Übersicht"><figcaption></figcaption></figure>

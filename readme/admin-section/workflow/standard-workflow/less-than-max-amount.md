@@ -1,6 +1,6 @@
 # Weniger als maximale Menge
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.48.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice.png" alt="Rechnung Übersicht"><figcaption></figcaption></figure>
 
 Dieser Titel legt nahe, dass die festgelegte Regel oder Bedingung darauf ausgelegt ist, Rechnungen zu bearbeiten, bei denen der Gesamtbetrag weniger als oder gleich einer festgelegten maximalen Menge beträgt.
 

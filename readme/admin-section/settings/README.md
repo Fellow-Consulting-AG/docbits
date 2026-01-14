@@ -1,6 +1,6 @@
 # Einstellungen
 
-<figure><img src="../../.gitbook/assets/iScreen Shoter - Google Chrome - 250213143900.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_2.jpg" alt="Einstellungen Übersicht"><figcaption></figcaption></figure>
 
 1. &#x20;**Globale Einstellungen**:
    * **Firmeninformationen**: Grundlegende Details über das Unternehmen definieren und bearbeiten, wie Name, Adresse und andere Identifikatoren.

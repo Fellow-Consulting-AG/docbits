@@ -1,6 +1,6 @@
 # Cache Management
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_purchase_order_table.png" alt="Bestellung Tabelle Import Einstellungen Übersicht"><figcaption></figcaption></figure>
 
 In den **Cache-Verwaltungseinstellungen** können Sie das automatische Leeren für die folgenden Caches aktivieren:
 

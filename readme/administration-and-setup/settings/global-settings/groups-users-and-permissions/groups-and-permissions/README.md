@@ -1,6 +1,6 @@
 # Gruppen und Berechtigungen
 
-<figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_purchase_order_permission.png" alt="Bestellung Berechtigung Übersicht"><figcaption></figcaption></figure>
 
 **Komponenten des Abschnitts Gruppen und Berechtigungen**
 
@@ -19,4 +19,4 @@
   * **Erste Genehmigung:** Berechtigung, die erste Genehmigung des Dokuments durchzuführen.
   * **Zweite Genehmigung:** Berechtigung, eine sekundäre Genehmigung (falls zutreffend) durchzuführen.
 
-<figure><img src="../../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_approval_permission.png" alt="Genehmigung Berechtigung Übersicht"><figcaption></figcaption></figure>

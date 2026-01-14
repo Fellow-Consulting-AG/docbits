@@ -8,7 +8,7 @@ Im Abschnitt "Weitere Einstellungen" finden Sie verschiedene Optionen zu einzeln
 
 1.  Navigieren Sie zu **Einstellungen** → **Globale Einstellungen** → **Dokumenttypen**.
 
-    <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_1_de (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_purchase_order_settings.png" alt="Bestellung Einstellungen Übersicht"><figcaption></figcaption></figure>
 2.  Wählen Sie den gewünschten Dokumenttyp aus und klicken Sie auf **Weitere Einstellungen**.
 
     <figure><img src="../../../../../.gitbook/assets/Calculate_PO_unit_price_2_de.png" alt=""><figcaption></figcaption></figure>

@@ -1,6 +1,6 @@
 # Kaufrechnung - 2. Genehmigungseinheit Preis Export
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.59.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_5.png" alt="Bestellung Export Genehmigung Rechnung Übersicht"><figcaption></figcaption></figure>
 
 Dieser Titel zeigt an, dass die Regel eingerichtet ist, um die zweite Genehmigungsphase von Kaufrechnungen mit Schwerpunkt auf dem Stückpreis zu verwalten und sicherzustellen, dass er den vereinbarten Bedingungen entspricht.
 

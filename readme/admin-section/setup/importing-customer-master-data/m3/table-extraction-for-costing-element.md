@@ -1,6 +1,6 @@
 # Tabellenextraktion für Kostenelemente
 
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_settings_email.png" alt="Einstellungen E-Mail Import Bestellung Tabelle Übersicht"><figcaption></figcaption></figure>
 
 Um den Tabellenextraktion für Kostenelemente zu aktivieren, müssen Sie die m3costingelement-Tabelle in DocBits importieren.
 

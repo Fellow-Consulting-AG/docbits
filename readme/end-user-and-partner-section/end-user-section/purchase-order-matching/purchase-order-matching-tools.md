@@ -64,7 +64,7 @@ Klicken Sie auf diesen Button, um den Bestellnummer-Abgleich automatisch durchzu
 
 Klicken Sie auf diesen Button, um die abgeglichenen Bestellnummer-Positionen zu speichern.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_12 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_10.png" alt="Bestellung Export Übersicht"><figcaption></figcaption></figure>
 
 ## Daten synchronisieren
 
@@ -86,7 +86,7 @@ Klicken Sie auf **Exportieren**, um das Dokument nach Abschluss des PO-Abgleichp
 Wenn mehrere Exportoptionen verfügbar sind, wird standardmäßig die erste Option verwendet.\
 Um alle verfügbaren Exportoptionen anzuzeigen und auszuwählen, klicken Sie auf den kleinen Pfeil neben dem Exportieren-Button.
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_8_de (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_11.png" alt="Bestellung Export Übersicht"><figcaption></figcaption></figure>
 
 ## Automatischer Export, wenn PO zu 100% übereinstimmt
 
@@ -96,7 +96,7 @@ Wenn aktiviert, werden Dokumente automatisch abgeglichen und exportiert, wenn di
 
 ## Spalten der PO-Tabelle für die Organisation festlegen
 
-<figure><img src="../../../.gitbook/assets/po_tools_new_10_de (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_table_6.png" alt="Bestellung Tabelle Übersicht"><figcaption></figcaption></figure>
 
 Klicken Sie auf diesen Button, um ein Menü zu öffnen, in dem Sie die Sichtbarkeit der Spalten in der Bestellnummer-Tabelle verwalten können.\
 Verwenden Sie die Kontrollkästchen und Pfeiltasten, um Spalten zwischen den Abschnitten **Sichtbar** und **Ausgeblendet** zu verschieben.\

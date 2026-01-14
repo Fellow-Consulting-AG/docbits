@@ -24,7 +24,7 @@ Sie finden die **Anleitung zur Einrichtung von Kostenelementen** in **DocBits** 
 1. Gehen Sie zu **Einstellungen → Dokumentenverarbeitung → Klassifizierung und Extraktion → Tabellenextraktion**.
 2. Aktivieren Sie **Kostenelementextraktion**.
 
-<figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250211142310.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_docbits_image_15.jpg" alt="DocBits Bild"><figcaption></figcaption></figure>
 
 ### **Wie man die Klassifizierung festlegt oder ändert**
 

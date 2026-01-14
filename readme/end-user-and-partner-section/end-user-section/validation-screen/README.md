@@ -158,7 +158,7 @@ Skripte können in den Einstellungen unter Dokumenttypen erstellt werden; diese 
 
 ### **Weitere Einstellungen:**
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_settings.png" alt="Einstellungen Übersicht"><figcaption></figcaption></figure>
 
 ### **Dokumenten-Flow:**
 

@@ -22,7 +22,7 @@ Wenn aktiviert, ermöglicht diese Einstellung, Toleranzen für **Menge** und/ode
     * **Prozent:** Gibt eine prozentuale Toleranz an.
     * **Wert:** Gibt einen festen Betrag an, um den sich der Wert unterscheiden kann.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207110001.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_docbits_image_11.jpg" alt="DocBits Bild"><figcaption></figcaption></figure>
 
 #### **Beispielszenario:**
 
@@ -37,7 +37,7 @@ Wenn aktiviert, ermöglicht diese Einstellung, Toleranzen für **Menge** und/ode
   * Zeile 1 wird **nicht als Abweichung markiert**, da $4.80 innerhalb von 5% von $5.00 liegt.
   * Zeile 2 **wird als Abweichung markiert**, da $2.20 die erlaubte Abweichung von 5% von $2.00 überschreitet. Der Benutzer muss nun Maßnahmen ergreifen, bevor die Rechnung weiter bearbeitet werden kann.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207110056.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_invoice_settings.jpg" alt="Rechnung Einstellungen Übersicht"><figcaption></figcaption></figure>
 
 ### Einstellung zur Konfiguration zusätzlicher Bestelltoleranzeinstellungen
 
@@ -60,4 +60,4 @@ Wenn aktiviert, ermöglicht diese Einstellung, Toleranzen für **Fracht**, **Geb
     * **Prozent:** Die Toleranz wird als Prozentsatz definiert.
     * **Wert:** Die Toleranz wird als fester Betrag definiert.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207110204 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_docbits_image_12.jpg" alt="DocBits Bild"><figcaption></figcaption></figure>

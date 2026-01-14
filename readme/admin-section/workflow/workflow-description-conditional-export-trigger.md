@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_purchase_order_7.png" alt="Workflow Bestellung Export Genehmigung Übersicht"><figcaption></figcaption></figure>
 
 Dieser Workflow umreißt die Bedingungen, unter denen ein Exportprozess gestartet werden soll. Er stellt sicher, dass nur Dokumente, die alle festgelegten Kriterien erfüllen, für den Export verarbeitet werden, um die Datenintegrität und die Einhaltung der Geschäftsregeln zu verbessern.
 

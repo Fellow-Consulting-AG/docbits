@@ -1,6 +1,6 @@
 # Einkaufsrechnung - 2. Genehmigungsmenge
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.56.54.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval_invoice_4.png" alt="Genehmigung Rechnung Übersicht"><figcaption></figcaption></figure>
 
 Dieser Titel deutet darauf hin, dass die Regel speziell für die Bearbeitung von Einkaufsrechnungen während einer sekundären Genehmigungsphase gilt, wobei der Schwerpunkt auf der Überprüfung der Genauigkeit der aufgeführten Mengen liegt.
 

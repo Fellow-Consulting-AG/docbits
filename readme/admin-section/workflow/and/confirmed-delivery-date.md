@@ -1,6 +1,6 @@
 # Bestätigtes Lieferdatum
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_table_invoice_3.png" alt="Tabelle Rechnung Übersicht"><figcaption></figcaption></figure>
 
 Zweck: Diese DocBits-Karte ist darauf ausgelegt sicherzustellen, dass die bestätigten Liefertermine auf Rechnungen oder Versanddokumenten mit den akzeptierten Lieferterminen gemäß der Master-Daten-Lookup-Tabelle übereinstimmen. Sie hilft dabei, Erwartungen zu managen und die Einhaltung der geplanten Lieferungen innerhalb der Lieferkette sicherzustellen.
 

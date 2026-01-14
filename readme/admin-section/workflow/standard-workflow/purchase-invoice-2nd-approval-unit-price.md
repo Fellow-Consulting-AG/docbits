@@ -1,6 +1,6 @@
 # Kaufrechnung - 2. Genehmigungseinheit Preis
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.55.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval_invoice_3.png" alt="Genehmigung Rechnung Übersicht"><figcaption></figcaption></figure>
 
 Dieser Titel zeigt an, dass die Regel eingerichtet ist, um die zweite Genehmigungsphase einer Kaufrechnung zu verwalten, wobei ein spezieller Fokus auf der Validierung des Stückpreises liegt.
 

@@ -21,7 +21,7 @@ Beide eSLOG-Versionen sind standardmäßig aktiviert.
 *   Suchen Sie die eSLOG-Version, die Sie modifizieren möchten.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_purchase_order_supplier.png" alt="Bestellung Lieferant Rechnung Übersicht"><figcaption></figcaption></figure>
 
 ### **Transformation und XML-Pfadkonfiguration:**
 
@@ -62,8 +62,8 @@ Die **Konfiguration der Extraktionspfade** wird verwendet, um Daten zu extrahier
 5.  Die linke Seite repräsentiert die **DocBits-Feld-ID**, die Sie in **Einstellungen → Globale Einstellungen → Dokumenttypen → Rechnung → Felder** finden können.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/e-SLOG 1.6 und 2.0  (1).jpg" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_docbits_image_9.jpg" alt="DocBits Bild"><figcaption></figcaption></figure>
 
-    <figure><img src="../../../../../.gitbook/assets/e-SLOG 1.6 und 2.0 1 (1).jpg" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_docbits_image_10.jpg" alt="DocBits Bild"><figcaption></figcaption></figure>
 6. Die rechte Seite repräsentiert den **Pfad zum Feld**, das in der Transformation erstellt wurde.
 7. Klicken Sie auf **Speichern**.

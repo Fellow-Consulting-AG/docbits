@@ -2,7 +2,7 @@
 
 Im Bereich "Aufgabenverwaltung" unter dem Abschnitt "Protokolleinstellungen" erhalten Sie einen Überblick über alle Celery-Aufgaben, deren Intervalle, wann die Aufgabe zuletzt ausgeführt wurde und wann sie erneut ausgeführt wird. Darüber hinaus haben Sie auch die Möglichkeit, eine Aufgabe erneut auszuführen. Wenn Sie nach einer bestimmten Aufgabe suchen, können Sie die Suchleiste dafür verwenden.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_settings_workflow.png" alt="Einstellungen Workflow Dashboard Import Bestellung Export Übersicht"><figcaption></figcaption></figure>
 
 Sie haben die Möglichkeit, die Liste mithilfe der kleinen Pfeile neben dem Spaltennamen zu sortieren.&#x20;
 

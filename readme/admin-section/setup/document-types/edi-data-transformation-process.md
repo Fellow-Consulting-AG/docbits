@@ -16,7 +16,7 @@ visible: true
 
 ####
 
-<figure><img src="../../../.gitbook/assets/EDI (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_docbits_image_4.png" alt="DocBits Bild"><figcaption></figcaption></figure>
 
 #### Schritt 1: Struktur-Deskriptor
 

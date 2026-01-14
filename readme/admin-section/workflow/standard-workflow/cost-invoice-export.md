@@ -1,6 +1,6 @@
 # Kostenrechnung - Export
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.53.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_4.png" alt="Bestellung Export Rechnung Übersicht"><figcaption></figcaption></figure>
 
 Dieser Titel deutet darauf hin, dass die Regel speziell für das Management von Kostenrechnungen konfiguriert ist und eine Exportaktion beinhaltet, möglicherweise für Berichterstattung, weitere Verarbeitung oder Integration mit anderen Systemen.
 

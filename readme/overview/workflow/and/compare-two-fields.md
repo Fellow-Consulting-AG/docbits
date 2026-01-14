@@ -1,6 +1,6 @@
 # Compare two fields
 
-<figure><img src="../../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_docbits_image_6.png" alt="DocBits Bild"><figcaption></figcaption></figure>
 
 This Card is intended to compare whether the selected fields in a document are equal/not equal, greater than... or less than... .
 

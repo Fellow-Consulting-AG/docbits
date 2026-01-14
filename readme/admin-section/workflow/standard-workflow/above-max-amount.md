@@ -1,6 +1,6 @@
 # Über dem maximalen Betrag
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice_2.png" alt="Rechnung Übersicht"><figcaption></figcaption></figure>
 
 Dieser Titel deutet darauf hin, dass die Regel darauf ausgelegt ist, Fälle zu verwalten, in denen der Rechnungsbetrag größer ist als der maximale Betrag, den ein Genehmiger berechtigt ist zu bearbeiten.
 

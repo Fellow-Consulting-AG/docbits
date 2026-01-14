@@ -3,14 +3,14 @@
 **Übersicht**\
 Die Funktion **E-Mail-Vorlagen** ermöglicht es Administratoren, E-Mail-Kommunikation zu erstellen und anzupassen, die automatisch an Lieferanten gesendet wird. Eines der Schlüsselelemente, das in diesen Vorlagen verwendet wird, ist der **\{{magic\_link\}}**, der einen dynamischen Link enthält, der für jeden Empfänger individuell angepasst wird.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval_supplier.png" alt="Genehmigung Lieferant Einstellungen E-Mail Import Bestellung Tabelle Übersicht"><figcaption></figcaption></figure>
 
 **Was ist \{{magic\_link\}}?**\
 Der **\{{magic\_link\}}** ist ein Platzhalter, der beim Versenden der E-Mail automatisch durch eine eindeutige URL ersetzt wird. Diese URL leitet den Empfänger in der Regel dazu, eine Aktion abzuschließen, wie z. B. eine Registrierung, Genehmigung oder den Zugriff auf einen bestimmten Bereich des Lieferantenportals.
 
 **Bearbeiten von E-Mail-Vorlagen**
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_email.png" alt="E-Mail Übersicht"><figcaption></figcaption></figure>
 
 
 
@@ -24,7 +24,7 @@ Der **\{{magic\_link\}}** ist ein Platzhalter, der beim Versenden der E-Mail aut
    Der Editor ermöglicht es Ihnen, sowohl den HTML-Code als auch das visuelle Design der E-Mail zu bearbeiten.\
    Sie können über die bereitgestellten Registerkarten zwischen der visuellen Bearbeitung und dem Code-Editor wechseln.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_docbits_image_16.png" alt="DocBits Bild"><figcaption></figcaption></figure>
 
 ***
 

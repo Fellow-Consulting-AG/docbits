@@ -16,11 +16,11 @@ Alle Verbindungen zwischen den Komponenten sind durch branchenübliche Verschlü
 
 **On-Premise:**&#x20;
 
-<figure><img src="../.gitbook/assets/Operator  (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_docbits_image_7.png" alt="DocBits Bild"><figcaption></figcaption></figure>
 
 **Cloud:**&#x20;
 
-<figure><img src="../.gitbook/assets/Operator Cloud .png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_purchase_order_export_8.png" alt="Bestellung Export Übersicht"><figcaption></figcaption></figure>
 
 ## Datenexport nach Infor
 

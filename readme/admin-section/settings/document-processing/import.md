@@ -82,7 +82,7 @@ Sie können einen E-Mail-Import einrichten, der automatisch Dokumente aus Ihrem 
 
 1.  Um eine neue IMAP-Verbindung hinzuzufügen, klicken Sie auf die Schaltfläche **Hinzugefügt** im **E-Mail-Import**-Bereich.
 
-    <figure><img src="../../../.gitbook/assets/email_1_de (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/docbits_purchase_order_email.png" alt="Bestellung E-Mail Import Übersicht"><figcaption></figcaption></figure>
 2. Wählen Sie IMAP als Protokoll aus.
 3. Geben Sie Ihre E-Mail-Anmeldeinformationen in die vorgesehenen Felder ein. Das Feld API-Schlüssel wird automatisch ausgefüllt.
    * **Verschlüsselung:** Wählen Sie die Art der zu verwendenden Verschlüsselung — entweder **SSL** oder **TLS**.
@@ -120,7 +120,7 @@ Sie können auf die drei Punkte in der **Aktion**-Spalte klicken, um auf die fol
 
 1.  Um eine neue OAuth Office365-Verbindung hinzuzufügen, klicken Sie auf die Schaltfläche **Hinzugefügt** im **E-Mail-Import**-Bereich.
 
-    <figure><img src="../../../.gitbook/assets/email_1_de (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/docbits_purchase_order_email.png" alt="Bestellung E-Mail Import Übersicht"><figcaption></figcaption></figure>
 2.  Wählen Sie **OAuth Office365** als Protokoll aus und klicken Sie dann auf **Authentifizieren**.
 
     <figure><img src="../../../.gitbook/assets/email_3_de.png" alt=""><figcaption></figcaption></figure>

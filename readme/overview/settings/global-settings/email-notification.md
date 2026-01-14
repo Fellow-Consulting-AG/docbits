@@ -1,6 +1,6 @@
 # Email Notification
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_error_email.png" alt="Fehler E-Mail Import Bestellung Export Übersicht"><figcaption></figcaption></figure>
 
 **Die Konfiguration von E-Mail-Benachrichtigungen ist entscheidend.** E-Mail-Benachrichtigungen in DocBits können so konfiguriert werden, dass sie Benutzer über verschiedene dokumentenbezogene Ereignisse informieren, wie z. B.: Abschluss der Verarbeitung, Import- oder Exportfehler oder Anfragen zur Benutzerintervention. Dieses Tool ist wesentlich für die Aufrechterhaltung einer effektiven Kommunikation und operativen Kontinuität in dokumentenverarbeitenden Umgebungen. Hier sind einige Gründe, warum dies wichtig ist:
 

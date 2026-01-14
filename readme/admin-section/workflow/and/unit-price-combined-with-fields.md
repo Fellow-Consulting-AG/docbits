@@ -1,6 +1,6 @@
 # Einheitspreis kombiniert mit Feldern
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.24.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice_2.png" alt="Bestellung Rechnung Übersicht"><figcaption></figcaption></figure>
 
 Zweck: Diese DocBits-Karte erleichtert den detaillierten Vergleich von Einheitspreisen auf Rechnungen mit denen, die in den entsprechenden Bestellungen angegeben sind. Sie verbessert die Genauigkeit bei der finanziellen Berichterstattung, indem sie sicherstellt, dass die vereinbarten Preise eingehalten werden.
 
