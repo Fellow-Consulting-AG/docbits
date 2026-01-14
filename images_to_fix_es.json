@@ -1,0 +1,12 @@
+[
+  {
+    "original_path": "readme/.gitbook/assets/image (19).png",
+    "filename": "image (19).png",
+    "usages": [
+      "./readme/administration-and-setup/settings/global-settings/e-mail-templates.md"
+    ],
+    "contexts": {
+      "./readme/administration-and-setup/settings/global-settings/e-mail-templates.md": "* **Feldwerte** (optional; Platzhalter für Testdaten). \\\n     \\\n     ![](<../../../.gitbook/assets/image (19).png>)\n3. Überprüfen Sie die Test-E-Mail und passen Sie die Vorlage bei Bedarf an."
+    }
+  }
+]
