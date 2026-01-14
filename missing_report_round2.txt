@@ -1,0 +1,131 @@
+Fetching file list from source branch: main...
+Total documentation pages in 'main': 759
+
+--- Checking language: de ---
+  Pages present: 554
+  Missing pages: 418
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/document-sub-types.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/roadmap.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/facturx.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-1.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.3.md
+    ... and 408 more.
+
+--- Checking language: es ---
+  Pages present: 536
+  Missing pages: 416
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/README.md
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/sql-example.md
+    - readme/administration-and-setup/settings/global-settings/company-information/defining-app-color-in-company-settings.md
+    - readme/administration-and-setup/settings/global-settings/dashboard/page-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/activation.md
+    - readme/administration-and-setup/settings/global-settings/document-types/adding-editing-document-types.md
+    - readme/administration-and-setup/settings/global-settings/document-types/best-practice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/best-practices-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/configure-subtypes.md
+    - readme/administration-and-setup/settings/global-settings/document-types/creating-a-new-sub-type.md
+    ... and 406 more.
+
+--- Checking language: fr ---
+  Pages present: 544
+  Missing pages: 417
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/README.md
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/sql-example.md
+    - readme/administration-and-setup/settings/global-settings/dashboard/page-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/activation.md
+    - readme/administration-and-setup/settings/global-settings/document-types/adding-editing-document-types.md
+    - readme/administration-and-setup/settings/global-settings/document-types/best-practice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/best-practices-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/configure-subtypes.md
+    - readme/administration-and-setup/settings/global-settings/document-types/creating-a-new-sub-type.md
+    - readme/administration-and-setup/settings/global-settings/document-types/customization-options.md
+    ... and 407 more.
+
+--- Checking language: it ---
+  Pages present: 542
+  Missing pages: 418
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/README.md
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/sql-example.md
+    - readme/administration-and-setup/settings/global-settings/dashboard/README.md
+    - readme/administration-and-setup/settings/global-settings/dashboard/customizing-filters.md
+    - readme/administration-and-setup/settings/global-settings/dashboard/page-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/activation.md
+    - readme/administration-and-setup/settings/global-settings/document-types/adding-editing-document-types.md
+    - readme/administration-and-setup/settings/global-settings/document-types/best-practice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/best-practices-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/configure-subtypes.md
+    ... and 408 more.
+
+--- Checking language: pl ---
+  Pages present: 540
+  Missing pages: 444
+  Missing files list (top 10):
+    - readme/README (1).md
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/README.md
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/sql-example.md
+    - readme/administration-and-setup/settings/global-settings/dashboard/page-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/activation.md
+    - readme/administration-and-setup/settings/global-settings/document-types/adding-editing-document-types.md
+    - readme/administration-and-setup/settings/global-settings/document-types/best-practice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/best-practices-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/configure-subtypes.md
+    - readme/administration-and-setup/settings/global-settings/document-types/creating-a-new-sub-type.md
+    ... and 434 more.
+
+--- Checking language: pt ---
+  Pages present: 551
+  Missing pages: 444
+  Missing files list (top 10):
+    - readme/README (1).md
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/README.md
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/sql-example.md
+    - readme/administration-and-setup/settings/global-settings/dashboard/page-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/activation.md
+    - readme/administration-and-setup/settings/global-settings/document-types/adding-editing-document-types.md
+    - readme/administration-and-setup/settings/global-settings/document-types/best-practice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/best-practices-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/configure-subtypes.md
+    - readme/administration-and-setup/settings/global-settings/document-types/creating-a-new-sub-type.md
+    ... and 434 more.
+
+--- Checking language: nl ---
+  Pages present: 813
+  Missing pages: 68
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/document-processing/module/bar-code-qr-code-extraction/README.md
+    - readme/administration-and-setup/settings/document-processing/module/bar-code-qr-code-extraction/bar-code-extractions.md
+    - readme/administration-and-setup/settings/document-processing/module/bar-code-qr-code-extraction/swiss-qr-code.md
+    - readme/administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md
+    - readme/administration-and-setup/setup/document-types/fuzzy-data-configuration-with-list-of-values.md
+    - readme/administration-and-setup/setup/supplier-portal-old.md
+    - readme/administration-and-setup/workflow/and/compare-with-purchase-order/promised-delivery-date-for-line-items-in-table-with-promised-delivery-date/README.md
+    - readme/administration-and-setup/workflow/and/compare-with-purchase-order/promised-delivery-date-for-line-items-in-table-with-promised-delivery-date/key-concept-tolerance-window.md
+    - readme/administration-and-setup/workflow/changelog/2025-10-october.md
+    - readme/administration-and-setup/workflow/changelog/README.md
+    ... and 58 more.
+
+--- Checking language: tr ---
+  Pages present: 316
+  Missing pages: 623
+  Missing files list (top 10):
+    - readme/administration-and-setup/report-page.md
+    - readme/administration-and-setup/settings/README.md
+    - readme/administration-and-setup/settings/api-licenses.md
+    - readme/administration-and-setup/settings/cache-management.md
+    - readme/administration-and-setup/settings/document-processing/README.md
+    - readme/administration-and-setup/settings/document-processing/classification-and-extraction/README.md
+    - readme/administration-and-setup/settings/document-processing/classification-and-extraction/ai-model.md
+    - readme/administration-and-setup/settings/document-processing/classification-and-extraction/auto-extract-tax-code.md
+    - readme/administration-and-setup/settings/document-processing/classification-and-extraction/table-extraction-for-costing-element.md
+    - readme/administration-and-setup/settings/document-processing/decision-trees.md
+    ... and 613 more.
+
