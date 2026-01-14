@@ -39,13 +39,13 @@ Removing Field:
 
 <figure><img src="../../../.gitbook/assets/aef99180-f060-497c-bd98-02d44fdd9274 (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/266ad772-af8f-4aed-9cb7-c44aa8977cee (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/m3_export_mapping_field_names.png" alt="M3 Exporteren Toewijzing Field Names"><figcaption></figcaption></figure>
 
 * Similarly you can get field names for lines
 
 ### Header:
 
-<figure><img src="../../../.gitbook/assets/4599dd21-9d05-4a0c-8b41-1e343c063871 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/m3_export_mapping_header.png" alt="M3 Exporteren Toewijzing Koptekst"><figcaption></figcaption></figure>
 
 Fields List Property: StaticFields
 
