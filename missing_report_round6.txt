@@ -1,0 +1,96 @@
+--- de ---
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/using-the-template-preview.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/import-data-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/manage-training-data.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/testing-the-model.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/more-settings/README.md
+readme/administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md
+
+--- es ---
+readme/administration-and-setup/settings/global-settings/document-types/fields/best-practices-3.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/configuring-field-properties-1.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/new-fields-with-charges.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/setting-validation-and-match-score.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/troubleshooting-2.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/configuring-field-properties.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/save-and-apply-changes.md
+
+--- fr ---
+readme/administration-and-setup/settings/global-settings/document-types/fields/configuring-field-properties-1.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/new-fields-with-charges.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/setting-validation-and-match-score.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/troubleshooting-2.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/configuring-field-properties.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/save-and-apply-changes.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/troubleshooting.md
+
+--- it ---
+readme/administration-and-setup/settings/global-settings/document-types/fields/best-practices-3.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/configuring-field-properties-1.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/new-fields-with-charges.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/setting-validation-and-match-score.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/troubleshooting-2.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/configuring-field-properties.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/save-and-apply-changes.md
+
+--- pl ---
+readme/administration-and-setup/settings/global-settings/document-types/fields/best-practices-3.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/configuring-field-properties-1.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/new-fields-with-charges.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/setting-validation-and-match-score.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/troubleshooting-2.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/configuring-field-properties.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/save-and-apply-changes.md
+
+--- pt ---
+readme/administration-and-setup/settings/global-settings/document-types/fields/best-practices-3.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/configuring-field-properties-1.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/new-fields-with-charges.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/setting-validation-and-match-score.md
+readme/administration-and-setup/settings/global-settings/document-types/fields/troubleshooting-2.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/configuring-field-properties.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/save-and-apply-changes.md
+
+--- nl ---
+readme/advanced-functions-and-tools/sql-access/sql-access/documents.md
+readme/advanced-functions-and-tools/sql-access/sql-access/electronic-document-extraction-attributes.md
+readme/advanced-functions-and-tools/sql-access/sql-access/email-template.md
+readme/advanced-functions-and-tools/sql-access/sql-access/ephesoft-po-matching.md
+readme/advanced-functions-and-tools/sql-access/sql-access/fellow-kv-table-column-rule.md
+readme/advanced-functions-and-tools/sql-access/sql-access/field-validation-rules.md
+readme/advanced-functions-and-tools/sql-access/sql-access/field.md
+readme/advanced-functions-and-tools/sql-access/sql-access/ftp-import-configurations.md
+readme/advanced-functions-and-tools/sql-access/sql-access/group-cache.md
+readme/advanced-functions-and-tools/sql-access/sql-access/inbound-emails.md
+
+--- tr ---
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-11a-quantity-outside-tolerance-positive-rejected-unit-price-within-tolerance.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-11b-quantity-outside-tolerance-positive-rejected-unit-price-outside-tolerance-rejected.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-12-13-header-charge-charge-per-unit-within-tolerance.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-15-header-charge-charge-per-unit-outside-tolerance-rejected.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-4-5-quantity-within-tolerance-unit-price-outside-tolerance-approved.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-6-quantity-within-tolerance-unit-price-outside-negative-tolerance-rejected.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-7-quantity-within-tolerance-unit-price-outside-tolerance-positive-rejected.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-8a-9a-quantity-outside-tolerance-approved-unit-price-within-tolerance.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-8b-9b-quantity-outside-tolerance-approved-unit-price-outside-tolerance-approved.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/charge-per-unit-outside-tolerance-approved-1.md
+
