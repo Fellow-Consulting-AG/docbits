@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 readme/administration-and-setup/workflow/and/compare-with-purchase-order/confirmed-delivery-date.md
 readme/administration-and-setup/workflow/and/compare-with-purchase-order/in-order-confirmation-purchase-order.md
 readme/administration-and-setup/workflow/and/compare-with-purchase-order/item-id-on-purchase-order.md
@@ -18,3 +19,15 @@ readme/administration-and-setup/workflow/and/date-and-time/today.md
 readme/administration-and-setup/workflow/and/document-field/checkbox-is-checked.md
 readme/administration-and-setup/workflow/and/document-field/compare-field-with-tolerances.md
 readme/administration-and-setup/workflow/and/document-field/compare-two-fields-with-tolerance.md
+=======
+readme/administration-and-setup/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/testing-the-model.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/import-data-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/manage-training-data.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/testing-the-model.md
+>>>>>>> Stashed changes
