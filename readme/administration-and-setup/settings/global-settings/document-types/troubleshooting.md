@@ -1,122 +1,121 @@
-# Troubleshooting
+# Problemen oplossen
 
-## Troubleshooting document type configuration in DocBits can be complex because various factors can affect data recognition and extraction.&#x20;
+## Het oplossen van problemen met de configuratie van documenttypen in DocBits kan complex zijn omdat verschillende factoren de herkenning en extractie van gegevens kunnen beïnvloeden.
 
-### Here are some general troubleshooting tips that can help identify and resolve common issues:
+### Hier zijn enkele algemene tips voor het oplossen van problemen die kunnen helpen bij het identificeren en oplossen van veelvoorkomende problemen:
 
-### Check layout configuration&#x20;
+### Controleer de lay-outconfiguratie
 
-**Check consistency:**&#x20;
+**Controleer de consistentie:**
 
-* Make sure all documents of the type have a consistent layout. Variations in layout can affect recognition.
+* Zorg ervoor dat alle documenten van het type een consistente lay-out hebben. Variaties in lay-out kunnen de herkenning beïnvloeden.
 
-**Check zones and areas:**&#x20;
+**Controleer zones en gebieden:**
 
-* Check that the defined zones and areas are positioned correctly and cover the relevant information.
+* Controleer of de gedefinieerde zones en gebieden correct zijn gepositioneerd en de relevante informatie dekken.
 
-**Update templates:**&#x20;
+**Sjablonen bijwerken:**
 
-* If the layout of the documents changes, update the templates accordingly.
+* Als de lay-out van de documenten verandert, werk de sjablonen dan dienovereenkomstig bij.
 
-### Check field definitions and metadata&#x20;
+### Controleer velddefinities en metagegevens
 
-**Field names and data types:**&#x20;
+**Veldnamen en gegevenstypen:**
 
-* Make sure field names are correct and data types are properly defined.
+* Zorg ervoor dat veldnamen correct zijn en dat gegevenstypen goed zijn gedefinieerd.
 
-**Formatting guidelines:**&#x20;
+**Opmaakrichtlijnen:**
 
-* Check that the formatting guidelines for the fields are correct and match the actual data.
+* Controleer of de opmaakrichtlijnen voor de velden correct zijn en overeenkomen met de werkelijke gegevens.
 
-**Check required fields:**&#x20;
+**Controleer verplichte velden:**
 
-* Make sure all required fields are correctly recognized and filled in.
+* Zorg ervoor dat alle verplichte velden correct worden herkend en ingevuld.
 
-### Adjust regex patterns and extraction rules&#x20;
+### Regex-patronen en extractieregels aanpassen
 
-**Test regex patterns:**&#x20;
+**Regex-patronen testen:**
 
-* Use a regex tool to test the patterns and make sure they capture the desired data correctly.
+* Gebruik een regex-tool om de patronen te testen en zorg ervoor dat ze de gewenste gegevens correct vastleggen.
 
-**Increase specificity:**&#x20;
+**Specificiteit verhogen:**
 
-* Adjust the regex patterns to be more specific and avoid misinterpretation.
+* Pas de regex-patronen aan om specifieker te zijn en misinterpretaties te voorkomen.
 
-**Check anchor points:**&#x20;
+**Controleer ankerpunten:**
 
-* Make sure the anchor points for data extraction are set correctly. If the pattern is not working correctly, check if special characters or different formats need to be considered.
+* Zorg ervoor dat de ankerpunten voor gegevensextractie correct zijn ingesteld. Als het patroon niet goed werkt, controleer dan of er rekening moet worden gehouden met speciale tekens of verschillende formaten.
 
-### Adjust validation rules&#x20;
+### Validatieregels aanpassen
 
-**Analyze error messages:**&#x20;
+**Foutmeldingen analyseren:**
 
-* Examine the error messages and log files for evidence of incorrect validations.
+* Onderzoek de foutmeldingen en logbestanden op bewijs van onjuiste validaties.
 
-**Refine rules:**&#x20;
+**Regels verfijnen:**
 
-* Adjust the validation rules to make them more flexible or stricter if necessary.
+* Pas de validatieregels aan om ze indien nodig flexibeler of strenger te maken.
 
-**Multi-step validation:**&#x20;
+**Validatie in meerdere stappen:**
 
-* Implement additional validation steps to improve data quality.
+* Implementeer aanvullende validatiestappen om de gegevenskwaliteit te verbeteren.
 
-### Improve training data and models&#x20;
+### Trainingsgegevens en modellen verbeteren
 
-**Collect representative data:**&#x20;
+**Representatieve gegevens verzamelen:**
 
-* Make sure the training data covers a wide range of examples that reflect all possible variations.
+* Zorg ervoor dat de trainingsgegevens een breed scala aan voorbeelden dekken die alle mogelijke variaties weerspiegelen.
 
-**Retrain models:**&#x20;
+**Modellen hertrainen:**
 
-* Retrain the models regularly, especially when new document variants are added.
+* Hertrain de modellen regelmatig, vooral wanneer er nieuwe documentvarianten worden toegevoegd.
 
-**Feedback loops:**&#x20;
+**Feedbackloops:**
 
-* Use feedback loops to continuously improve the models.
+* Gebruik feedbackloops om de modellen continu te verbeteren.
 
-### Review automation workflows &#x20;
+### Automatiseringsworkflows beoordelen
 
-**Review workflow steps:**&#x20;
+**Workflowstappen beoordelen:**
 
-* Review each step in the workflow to ensure that the data is processed and routed correctly.
+* Bekijk elke stap in de workflow om er zeker van te zijn dat de gegevens correct worden verwerkt en gerouteerd.
 
-**Analyze logs:**&#x20;
+**Logs analyseren:**
 
-* Analyze the workflow logs to identify and resolve sources of errors.
+* Analyseer de workflowlogs om bronnen van fouten te identificeren en op te lossen.
 
-**Collect user feedback:**&#x20;
+**Gebruikersfeedback verzamelen:**
 
-* Ask users about their experiences and issues with the workflows to identify potential weak points.
+* Vraag gebruikers naar hun ervaringen en problemen met de workflows om mogelijke zwakke punten te identificeren.
 
-### Review user rights and access control&#x20;
+### Gebruikersrechten en toegangscontrole controleren
 
-**Review access rights:**&#x20;
+**Toegangsrechten controleren:**
 
-* Make sure the right users have access to the relevant document types and fields.
+* Zorg ervoor dat de juiste gebruikers toegang hebben tot de relevante documenttypen en velden.
 
-**Track changes:**&#x20;
+**Wijzigingen bijhouden:**
 
-* Check whether recent changes in access rights may have affected document processing.
+* Controleer of recente wijzigingen in toegangsrechten de documentverwerking kunnen hebben beïnvloed.
 
-**Regular review:**&#x20;
+**Regelmatige controle:**
 
-* Perform regular access rights reviews to ensure everything is configured correctly.
+* Voer regelmatig controles uit op toegangsrechten om er zeker van te zijn dat alles correct is geconfigureerd.
 
-### General troubleshooting tips&#x20;
+### Algemene tips voor het oplossen van problemen
 
-**Consult documentation:**&#x20;
+**Documentatie raadplegen:**
 
-* Use DocBits system documentation and support resources to find solutions to problems.
+* Gebruik de DocBits-systeemdocumentatie en ondersteuningsbronnen om oplossingen voor problemen te vinden.
 
-**Provide training:**&#x20;
+**Training geven:**
 
-* Make sure all users are adequately trained to avoid common errors.
+* Zorg ervoor dat alle gebruikers voldoende zijn opgeleid om veelvoorkomende fouten te voorkomen.
 
-**Updates and patches:**&#x20;
+**Updates en patches:**
 
-* Keep the system up to date by regularly applying updates and patches that contain bug fixes and improvements.
+* Houd het systeem up-to-date door regelmatig updates en patches te installeren die bugfixes en verbeteringen bevatten.
 
 
 
-Troubleshooting document type configuration requires a systematic approach and careful review of all aspects of the configuration. By applying the tips above, you can identify and fix common problems to improve the accuracy and efficiency of document processing in DocBits.
-
+Het oplossen van problemen met de configuratie van documenttypen vereist een systematische aanpak en een zorgvuldige beoordeling van alle aspecten van de configuratie. Door de bovenstaande tips toe te passen, kunt u veelvoorkomende problemen identificeren en oplossen om de nauwkeurigheid en efficiëntie van de documentverwerking in DocBits te verbeteren.

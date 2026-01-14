@@ -1,27 +1,27 @@
 ---
-description: Instructions for viewing, copying or regenerating the API key
+description: Instructies voor het bekijken, kopiëren of opnieuw genereren van de API-sleutel
 ---
 
-# API Key Management
+# API-sleutelbeheer
 
-API key management is an important aspect when it comes to the security of integrations and access to external services through APIs. Here are some steps to manage API keys and best practices for their security:
+API-sleutelbeheer is een belangrijk aspect als het gaat om de beveiliging van integraties en toegang tot externe diensten via API's. Hier zijn enkele stappen om API-sleutels te beheren en best practices voor hun beveiliging:
 
-**View and copy the API key:**
+**API-sleutel bekijken and kopiëren:**
 
-* Navigate to the API key settings in your DocBits account. Here you can find the API key, click "Copy" to copy the key.
+* Navigeer naar de API-sleutelinstellingen in uw DocBits-account. Hier vindt u de API-sleutel, klik op "Kopiëren" om de sleutel te kopiëren.
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 16.18.04.png" alt=""><figcaption></figcaption></figure>
 
-**Handling API keys with security in mind:**
+**API-sleutels veilig behandelen:**
 
-* Treat API keys like sensitive credentials and never share them with anyone. Store API keys securely and use encryption if you need to store them locally. Update API keys regularly to ensure security and minimize the risk of unauthorized access. Avoid using API keys in public repositories or unsecured environments as they could potentially be intercepted by attackers.
+* Behandel API-sleutels als gevoelige inloggegevens and deel ze nooit met iemand. Sla API-sleutels veilig op and gebruik versleuteling als u ze lokaal moet opslaan. Werk API-sleutels regelmatig bij om de beveiliging te waarborgen and het risico op ongeautoriseerde toegang te minimaliseren. Vermijd het gebruik van API-sleutels in openbare opslagplaatsen (repositories) of onbeveiligde omgevingen, omdat ze mogelijk door aanvallers kunnen worden onderschept.
 
-**Limit API key permissions:**
+**API-sleutelmachtigingen beperken:**
 
-* Give API keys only the permissions required for the specific integration or service. Avoid excessive permissions to minimize the risk of abuse. Regularly review API key permissions and remove unnecessary permissions when they are no longer needed.
+* Geef API-sleutels alleen de machtigingen die vereist zijn voor de specifieke integratie of dienst. Vermijd overmatige machtigingen om het risico op misbruik te minimaliseren. Controleer regelmatig de machtigingen van API-sleutels en verwijder onnodige machtigingen wanneer ze niet langer nodig zijn.
 
-**Logging and monitoring API calls:**
+**API-aanroepen loggen en monitoren:**
 
-* Implement logging and monitoring of API calls to detect suspicious activity or unusual patterns that could indicate potential security breaches. Respond quickly to suspicious activity and, if necessary, revoke affected API keys to minimize the risk of further damage.
+* Implementeer logging en monitoring van API-aanroepen om verdachte activiteiten of ongebruikelijke patronen te detecteren die kunnen duiden op mogelijke inbreuken op de beveiliging. Reageer snel op verdachte activiteiten en trek indien nodig de getroffen API-sleutels in om het risico op verdere schade te minimaliseren.
 
-By carefully managing and securing API keys, organizations can ensure that their integrations and access to external services via APIs are protected and the risk of unauthorized access is minimized.
+Door API-sleutels zorgvuldig te beheren en te beveiligen, kunnen organisaties ervoor zorgen dat hun integraties en toegang tot externe diensten via API's worden beschermd en dat het risico op ongeautoriseerde toegang tot een minimum wordt beperkt.

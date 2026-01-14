@@ -1,35 +1,35 @@
-# Identity Service Provider Configuration
+# Configuratie van identiteitsserviceprovider
 
-Configuring the Identity Service Provider (IdP) to integrate with DocBits requires a few specific steps.Here is a guide to doing that:
+Het configureren van de Identity Service Provider (IdP) om te integreren met DocBits vereist een paar specifieke stappen. Hier is een gids om dat te doen:
 
-<figure><img src="../../../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
-**Accessing the IdP configuration interface**
+**Toegang krijgen tot de IdP-configuratie-interface**
 
-* Log in to your Identity Service Provider (IdP) as an administrator.
-* Navigate to the settings or configuration interface dedicated to managing SAML integrations.
+* Log in op uw Identity Service Provider (IdP) als beheerder.
+* Navigeer naar de instellingen of configuratie-interface die is gewijd aan het beheren van SAML-integraties.
 
-**Entering the Tenant ID:**
+**De Tenant ID invoeren:**
 
-* Look for the section that allows configuration for new SAML integrations.
-* Enter the DocBits tenant ID. This ID identifies your Docbits account to the IdP and enables secure communication between the two systems.
+* Zoek naar het gedeelte dat configuratie voor nieuwe SAML-integraties mogelijk maakt.
+* Voer de DocBits Tenant ID in. Deze ID identificeert uw DocBits-account bij de IdP and maakt veilige communicatie tussen de twee systemen mogelijk.
 
-**Importing the required files:**
+**De vereiste bestanden importeren:**
 
-* DocBits usually requires downloading metadata or adding specific configuration details. Check your IdP's documentation to see what steps are required.
-* Download the DocBits metadata file or import it into your IdP's configuration menu. Alternatively, you can manually enter the required configuration details, depending on what your IdP supports.
+* DocBits vereist meestal het downloaden van metagegevens of het toevoegen van specifieke configuratiegegevens. Raadpleeg de documentatie van uw IdP om te zien welke stappen vereist zijn.
+* Download het DocBits-metagegevensbestand of importeer het in het configuratiemenu van uw IdP. Als alternatief kunt u de vereiste configuratiegegevens handmatig invoeren, afhankelijk van wat uw IdP ondersteunt.
 
-**Configure integration settings:**
+**Integratie-instellingen configureren:**
 
-* Make sure the integration settings, such as the SSO URL, Entity ID, and SAML certificate, are correct.
-* Check that the Single Log-Out (SLO) URL and other required parameters are configured correctly. These are critical for smooth authentication and logout via SAML.
+* Zorg ervoor dat de integratie-instellingen, zoals de SSO-URL, Entity ID and het SAML-certificaat, correct zijn.
+* Controleer of de Single Log-Out (SLO) URL and andere vereiste parameters correct zijn geconfigureerd. Deze zijn cruciaal voor een soepele authenticatie and afmelding via SAML.
 
-**Verify configuration:**
+**Configuratie verifiëren:**
 
-* Take time to make sure all information entered is correct and that there are no typos or misconfigurations.
-* Run tests to ensure that users can successfully log into Docbits via SAML and that Single Log-Out is working properly.
+* Neem de tijd om te controleren of alle ingevoerde informatie correct is and of er geen typefouten of onjuiste configuraties zijn.
+* Voer tests uit om er zeker van te zijn dat gebruikers succesvol kunnen inloggen op DocBits via SAML and dat Single Log-Out correct werkt.
 
-**Security considerations:**
+**Beveiligingsoverwegingen:**
 
-* Make sure all transferred files and configuration details are handled securely to avoid data leaks or unauthorized access.
-* Protect sensitive information such as SAML certificates and credentials from unauthorized access and store them in a safe location.
+* Zorg ervoor dat alle overgedragen bestanden and configuratiegegevens veilig worden behandeld om datalekken of ongeautoriseerde toegang te voorkomen.
+* Bescherm gevoelige informatie zoals SAML-certificaten and inloggegevens tegen ongeautoriseerde toegang and bewaar ze op een veilige locatie.

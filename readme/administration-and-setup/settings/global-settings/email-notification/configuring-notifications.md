@@ -1,61 +1,68 @@
-# Configuring Notifications
+# Meldingen configureren
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 08.56.36.png" alt=""><figcaption></figcaption></figure>
 
-#### To get to email notification settings, follow these steps:
+#### Volg deze stappen om naar de instellingen voor e-mailmeldingen te gaan:
 
-* Navigate to the Global Settings section in your user account or administration panel.
-* Look for the option for email notifications
-* Click the appropriate option to open email notification settings.
+* Navigeer naar het gedeelte Globale instellingen in uw gebruikersaccount of beheerpaneel.
+* Zoek naar de optie voor e-mailmeldingen.
+* Klik op de juiste optie om de instellingen voor e-mailmeldingen te openen.
 
-Within these settings you can then make the desired configurations to ensure you receive notifications according to your preferences. Remember to adjust the settings based on your needs and ensure they comply with your organization's privacy policy and security standards.
+Binnen deze instellingen kunt u vervolgens de gewenste configuraties maken om ervoor te zorgen dat u meldingen ontvangt volgens uw voorkeuren. Vergeet niet om de instellingen aan te passen op basis van uw behoeften en zorg ervoor dat ze voldoen aan het privacybeleid en de beveiligingsnormen van uw organisatie.
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.15.45.png" alt=""><figcaption></figcaption></figure>
 
-**Create new notification:**
+**Nieuwe melding maken:**
 
-* Click the button to add or create a new notification.
+* Klik op de knop om een nieuwe melding toe te voegen of te maken.
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 01.28.41.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (61).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### Key Features and Options
+#### Belangrijkste kenmerken en opties
 
-1. **Email Notification Configuration**:
+1. **Configuratie van e-mailmeldingen**:
 
-* **Name**: Enter the name here
-* The identifier for the notification, helping users recognize the purpose of the notification setting.
+* **Naam**: Voer hier de naam in.
+* De identificatie voor de melding, die gebruikers helpt het doel van de meldingsinstelling te herkennen.
 
-<figure><img src="../../../../.gitbook/assets/image (65).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (44) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-* **Document Type**: Select the document type you want to receive a notification for. This could be adding a new document, deleting a document, updating a document, or other relevant events.
-* Associates the notification with a specific document type, allowing for targeted alerts based on the document's processing cycle.
+* **Documenttype**: Selecteer het documenttype waarvoor u een melding wilt ontvangen. Dit kan het toevoegen van een nieuw document, het verwijderen van een document, het bijwerken van een document of andere relevante gebeurtenissen zijn.
+* Koppelt de melding aan een specifiek documenttype, waardoor gerichte waarschuwingen mogelijk zijn op basis van de verwerkingscyclus van het document.
 
-<figure><img src="../../../../.gitbook/assets/image (62).png" alt="" width="264"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (41) (1).png" alt="" width="264"><figcaption></figcaption></figure>
 
-* **Status**: Specify the status or condition that should trigger a notification when it changes. This could be a specific workflow status, an approval status, an error status, or any other relevant status.
+*   **E-mailsjabloon selecteren**: Kies een vooraf geconfigureerd sjabloon uit het vervolgkeuzemenu. Sjablonen kunnen worden gemaakt of gewijzigd in de [E-mailsjablooninstellingen](../../../../advanced-functions-and-tools/sql-access/sql-access/email-template.md).
 
-<figure><img src="../../../../.gitbook/assets/image (64).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (9) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+* **Status**: Geef de status of voorwaarde op die een melding moet activeren wanneer deze verandert. Dit kan een specifieke workflowstatus, een goedkeuringsstatus, een foutstatus of een andere relevante status zijn.
 
-* **Priority**: select the appropriate priority. For example, this could be "Low", "Medium" or "High".
-* Sets the urgency level of the notification, which can prioritize the email alert in the recipient's inbox.
+<figure><img src="../../../../.gitbook/assets/image (43) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (63).png" alt="" width="375"><figcaption></figcaption></figure>
+* **Prioriteit**: Selecteer de juiste prioriteit. Dit kan bijvoorbeeld "Laag", "Gemiddeld" of "Hoog" zijn.
+* Stelt het urgentieniveau van de melding in, wat de e-mailwaarschuwing prioriteit kan geven in de inbox van de ontvanger.
 
-* **Delay**: Enter the desired amount of time to specify the delay time before sending the notification. This could be done in minutes, hours or days depending on your system settings.
-* By configuring a delay time before sending the notification, users have enough time for any cancellations or corrections before the alert is issued. This can help prevent errors and improve user experience.
+<figure><img src="../../../../.gitbook/assets/image (42) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (66).png" alt="" width="375"><figcaption></figcaption></figure>
+* **Vertraging**: Voer de gewenste tijdsduur in om de vertragingstijd op te geven voordat de melding wordt verzonden. Dit kan in minuten, uren of dagen, afhankelijk van uw systeeminstellingen.
+* Door een vertragingstijd te configureren voordat de melding wordt verzonden, hebben gebruikers voldoende tijd voor eventuele annuleringen of correcties voordat de waarschuwing wordt afgegeven. Dit kan fouten helpen voorkomen en de gebruikerservaring verbeteren.
 
-* **Email Address**: Enter the email addresses of the recipients to whom the notification should be sent. Users can enter multiple email addresses to specify multiple recipients. This could mean that notifications are sent to specific email addresses based on the properties of the document in question or the user's role.
+<figure><img src="../../../../.gitbook/assets/image (45) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (67).png" alt="" width="375"><figcaption></figcaption></figure>
+* **Herhaaloptie:** U kunt ook een instelling inschakelen om **de melding met regelmatige tussenpozen te herhalen** totdat de documentstatus verandert. Dit zorgt ervoor dat belangrijke meldingen niet over het hoofd worden gezien en zichtbaar blijven totdat de vereiste actie is ondernomen.
 
-**Actionable Insights**:
+<figure><img src="../../../../.gitbook/assets/image (10) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-* **Send Email to Assigned User**: An optional setting that, when enabled, automatically sends notifications to the user assigned to the document, ensuring that the responsible party is always informed.
+* **E-mailadres**: Voer de e-mailadressen in van de ontvangers naar wie de melding moet worden verzonden. Gebruikers kunnen meerdere e-mailadressen invoeren om meerdere ontvangers op te geven. Dit kan betekenen dat meldingen naar specifieke e-mailadressen worden verzonden op basis van de eigenschappen van het betreffende document of de rol van de gebruiker.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.15.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-* **Save:** After entering all the required information, click "Save" button to save the notification settings.
+**Actiegerichte inzichten**:
+
+* **E-mail verzenden naar toegewezen gebruiker/groep**: Een optionele instelling die, indien ingeschakeld, automatisch meldingen verzendt naar de gebruiker die aan het document is toegewezen, zodat de verantwoordelijke partij altijd op de hoogte is.
+
+<figure><img src="../../../../.gitbook/assets/image (12) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+* **Opslaan:** Klik na het invoeren van alle vereiste informatie op de knop "Opslaan" om de meldingsinstellingen op te slaan.

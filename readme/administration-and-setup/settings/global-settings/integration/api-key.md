@@ -1,25 +1,25 @@
-# API Key
+# API-sleutel
 
 <figure><img src="https://lh7-us.googleusercontent.com/ulCymk1gu-de14qTaFfJwTEmAUp7DY000A40P3nTgRIb7pYXolCbh_GPJvRib5haIH75dPFewY5tJQ0xNbGP3wdSOgCxu7gdVBwlvxkHFcP_3HM3R15zuuBOZM2jEdFxlp2CpV1VDfktmLFSSw4BuLs" alt=""><figcaption></figcaption></figure>
 
-### API Key
+### API-sleutel
 
-* **Key:** This is the unique identifier used by external applications to access DocBits' API. It is crucial for authenticating requests made to DocBits from other software.
-* Actions such as view, regenerate, or copy the API key can be performed here, depending on the specific needs and security protocols.
+* **Sleutel:** Dit is de unieke identificatie die door externe applicaties wordt gebruikt om toegang te krijgen tot de API van DocBits. Het is cruciaal voor het authenticeren van verzoeken die vanuit andere software naar DocBits worden verzonden.
+* Acties zoals het bekijken, opnieuw genereren of kopiëren van de API-sleutel kunnen hier worden uitgevoerd, afhankelijk van de specifieke behoeften and beveiligingsprotocollen.
 
-### SSO (Single Sign-On) Service Provider Settings
+### Instellingen voor SSO (Single Sign-On) serviceprovider
 
-* **Entity ID:** This is the identifier for DocBits as a service provider in the SSO configuration. It uniquely identifies DocBits within the SSO framework.
-* **SLO (Single Logout) URL:** The URL to which SSO sessions are sent to log out simultaneously from all applications connected via SSO.
-* **SSO URL: The URL** used for initiating the single sign-on process.
-* Actions such as "Download Certificate" and "Download Metadata" are available for obtaining necessary security certificates and metadata information used in setting up and maintaining SSO integration.
+* **Entity ID:** Dit is de identificatie voor DocBits als serviceprovider in de SSO-configuratie. Het identificeert DocBits uniek binnen het SSO-framework.
+* **SLO (Single Logout) URL:** De URL waarnaar SSO-sessies worden verzonden om tegelijkertijd uit te loggen bij alle via SSO verbonden applicaties.
+* **SSO URL:** De URL die wordt gebruikt voor het initiëren van het single sign-on proces.
+* Acties zoals "Certificaat downloaden" and "Metagegevens downloaden" zijn beschikbaar voor het verkrijgen van de noodzakelijke beveiligingscertificaten and metagegevensinformatie die worden gebruikt bij het instellen and onderhouden van SSO-integratie.
 
 {% hint style="info" %}
-See Setup SSO
+Zie SSO instellen
 {% endhint %}
 
-### Identity Service Provider Settings
+### Instellingen voor identiteitsserviceprovider
 
-* Tenant ID: This might be used when DocBits integrates with cloud services that require a tenant identifier to manage data and access configurations specific to the company using Docbits.
-* Upload file: Allows the admin to upload configuration files or other necessary files that facilitate integration with an identity provider.
-* Configure: A button to apply or update the settings after making changes or uploading new configurations.
+* **Tenant ID:** Dit kan worden gebruikt wanneer DocBits integreert met clouddiensten die een tenant-identificatie vereisen om gegevens and toegangsconfiguraties te beheren die specifiek zijn voor het bedrijf dat DocBits gebruikt.
+* **Bestand uploaden:** Hiermee kan de beheerder configuratiebestanden of andere noodzakelijke bestanden uploaden die integratie met een identiteitsprovider vergemakkelijken.
+* **Configureren:** Een knop om de instellingen toe te passen of bij te werken na het aanbrengen van wijzigingen of het uploaden van nieuwe configuraties.

@@ -1,73 +1,73 @@
-# Editing and deleting columns
+# Kolommen bewerken en verwijderen
 
-Editing and deleting columns in a database table are important operations that must be performed carefully to ensure data integrity and consider potential impacts on application logic and reporting.
+Het bewerken en verwijderen van kolommen in een databasetabel zijn belangrijke bewerkingen die zorgvuldig moeten worden uitgevoerd om de gegevensintegriteit te waarborgen en rekening te houden met mogelijke gevolgen voor de applicatielogica en rapportage.
 
-<figure><img src="../../../../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
-**Here are detailed steps for both actions:**
+**Hier zijn gedetailleerde stappen voor beide acties:**
 
-## Editing a column:
+## Een kolom bewerken:
 
-<figure><img src="../../../../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
 
-**Change title:**
+**Titel wijzigen:**
 
-* Click on the title of the column you want to change, a window will open and you can change the title of the column.
+* Klik op de titel van de kolom die u wilt wijzigen, er wordt een venster geopend waarin u de titel van de kolom kunt wijzigen.
 
-**Requirement analysis:**
+**Vereistenanalyse:**
 
-* Identify the reason for editing the column. You may need to change the data type, add or remove constraints, or change the column name.
+* Identificeer de reden voor het bewerken van de kolom. Mogelijk moet u het gegevenstype wijzigen, beperkingen toevoegen of verwijderen, of de kolomnaam wijzigen.
 
-**Impact review:**
+**Impactbeoordeling:**
 
-* Before making any changes, review how they will affect existing data and application logic. For example, changes to the data type may cause data to be converted or lost.
+* Voordat u wijzigingen aanbrengt, moet u controleren hoe deze de bestaande gegevens en applicatielogica beïnvloeden. Wijzigingen in het gegevenstype kunnen er bijvoorbeeld toe leiden dat gegevens worden geconverteerd of verloren gaan.
 
-**Database backup:**
+**Database-back-up:**
 
-* Back up your database to ensure you have a working version to revert to in case of any problems.
+* Maak een back-up van uw database om er zeker van te zijn dat u een werkende versie heeft om op terug te vallen in geval van problemen.
 
-**Executing the SQL statement:**
+**Het SQL-statement uitvoeren:**
 
-* Use the ALTER TABLE SQL statement to make the desired changes to the column. The exact syntax depends on the database platform you are using and the changes you want to make.
+* Gebruik het ALTER TABLE SQL-statement om de gewenste wijzigingen aan de kolom aan te brengen. De exacte syntaxis hangt af van het databaseplatform dat u gebruikt en de wijzigingen die u wilt aanbrengen.
 
-**Data migration:**
+**Gegevensmigratie:**
 
-* If you change the data type of a column, you may need to perform data migration to convert existing data to the new format.
+* Als u het gegevenstype van een kolom wijzigt, moet u mogelijk een gegevensmigratie uitvoeren om bestaande gegevens naar het nieuwe formaat te converteren.
 
-**Testing and validating:**
+**Testen en valideren:**
 
-* After editing the column, thoroughly verify that your application is working properly and that the data is being stored and retrieved correctly.
+* Nadat u de kolom heeft bewerkt, moet u grondig controleren of uw applicatie goed werkt en of de gegevens correct worden opgeslagen en opgehaald.
 
-## Deleting a column:
+## Een kolom verwijderen:
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 13.39.00.png" alt=""><figcaption></figcaption></figure>
 
-**Requirement analysis:**
+**Vereistenanalyse:**
 
-* Make sure you understand the reasons for deleting the column. Is the column no longer relevant or are there other ways to consolidate it?
+* Zorg ervoor dat u de redenen voor het verwijderen van de kolom begrijpt. Is de kolom niet langer relevant of zijn er andere maniere om deze te consolideren?
 
-**Impact review:**
+**Impactbeoordeling:**
 
-* Analyze how deleting the column will affect existing data, application logic, and reporting. This may result in data loss or affect queries and reports.
+* Analyseer hoe het verwijderen van de kolom de bestaande gegevens, applicatielogica en rapportage zal beïnvloeden. Dit kan leiden tot gegevensverlies of gevolgen hebben voor query's en rapportages.
 
-**Database backup:**
+**Database-back-up:**
 
-* Make a full backup of your database to ensure you can restore in case of unexpected problems.
+* Maak een volledige back-up van uw database om er zeker van te zijn dat u deze kunt herstellen in geval van onverwachte problemen.
 
-**Executing the SQL statement:**
+**Het SQL-statement uitvoeren:**
 
-* Use the ALTER TABLE SQL statement to remove the column. The exact syntax varies by database platform.
+* Gebruik het ALTER TABLE SQL-statement om de kolom te verwijderen. De exacte syntaxis verschilt per databaseplatform.
 
-**Data migration (if required):**
+**Gegevensmigratie (indien nodig):**
 
-* If you have important data in the column you are deleting, you may need to perform a data migration to move that data to another location or delete it.
+* Als u belangrijke gegevens in de kolom heeft die u verwijdert, moet u mogelijk een gegevensmigratie uitvoeren om die gegevens naar een andere locatie te verplaatsen of ze te verwijderen.
 
-**Adjusting application logic:**
+**Applicatielogica aanpassen:**
 
-* Make sure your application logic is adjusted accordingly to ensure it no longer accesses the deleted column.
+* Zorg ervoor dat uw applicatielogica dienovereenkomstig wordt aangepast om ervoor te zorgen dat deze de verwijderde kolom niet langer benadert.
 
-**Testing and validating:**
+**Testen og valideren:**
 
-* Verify thoroughly that your application is working correctly and that all data and reporting functions are working as expected.
+* Controleer grondig of uw applicatie correct werkt en of alle gegevens- en rapportagefuncties naar verwachting werken.
 
-When editing or deleting columns, it is critical that you fully understand the impact of these actions and take appropriate precautions to maintain the integrity of your database and ensure that your application runs smoothly.
+Bij het bewerken of verwijderen van kolommen is het van cruciaal belang dat u de impact van deze acties volledig begrijpt en de juiste voorzorgsmaatregelen neemt om de integriteit van uw database te behouden en ervoor te zorgen dat uw applicatie soepel blijft werken.

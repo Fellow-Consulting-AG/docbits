@@ -1,20 +1,32 @@
-# Troubleshooting
+# Problemen oplossen
 
-These are some tips and additional delayed notification troubleshooting steps you can take to resolve delays in notification delivery:
+Dit zijn enkele tips en aanvullende stappen voor het oplossen van problemen met vertraagde meldingen die u kunt nemen om vertragingen in de levering van meldingen op te lossen:
 
-## Delayed notifications:
+## Vertraagde meldingen:
 
-* **Check network delays**:
-* Make sure the network over which notifications are sent is not congested or disrupted. Network problems such as packet loss or delays can affect email delivery.
-* **Email Queue Monitoring:**
-* Check the email server queue to determine whether notifications are being queued and sent properly. A large number of emails in the queue may indicate problems with the email server.
-* **SMTP configuration verification:**
-* Verify that the SMTP configuration is correct and that the email server is properly configured to send outgoing emails. Check the authentication settings and server address to ensure they are correct.
-* **Check firewalls and security settings:**
-* Check firewall settings and other security settings to ensure that the email server is properly configured to send outgoing email and that no ports used for email are blocked. Shipping is required.
-* **Server utilization check:**
-* Check the utilization of the server hosting the document management system to ensure that there are no resource bottlenecks that could affect the delivery of notifications.
+* **Controleer netwerkvertragingen**:
+* Zorg ervoor dat het netwerk waarover meldingen worden verzonden niet overbelast of verstoord is. Netwerkproblemen zoals pakketverlies of vertragingen kunnen de levering van e-mail beïnvloeden.
 
-By performing these additional checks, you can identify potential causes of delayed notifications and take appropriate action to optimize notification delivery and ensure users are informed in a timely manner.
 
-\\
+
+* **E-mailwachtrijbewaking:**
+* Controleer de wachtrij van de e-mailserver om te bepalen of meldingen correct in de wachtrij worden geplaatst and worden verzonden. Een groot aantal e-mails in de wachtrij kan duiden op problemen met de e-mailserver.
+
+
+
+* **Verificatie van SMTP-configuratie:**
+* Controleer of de SMTP-configuratie correct is en of de e-mailserver correct is geconfigureerd om uitgaande e-mails te verzenden. Controleer de authenticatie-instellingen en het serveradres om er zeker van te zijn dat ze correct zijn.
+
+
+
+* **Controleer firewalls en beveiligingsinstellingen:**
+* Controleer firewall-instellingen en andere beveiligingsinstellingen om er zeker van te zijn dat de e-mailserver correct is geconfigureerd om uitgaande e-mail te verzenden en dat er geen poorten die voor e-mail worden gebruikt, worden geblokkeerd.
+
+
+
+* **Controle van servergebruik:**
+* Controleer het gebruik van de server waarop het documentbeheersysteem wordt gehost om er zeker van te zijn dat er geen knelpunten in de middelen zijn die de levering van meldingen kunnen beïnvloeden.
+
+
+
+Door deze aanvullende controles uit te voeren, kunt u mogelijke oorzaken van vertraagde meldingen identificeren and passende maatregelen nemen om de levering van meldingen te optimaliseren and ervoor te zorgen dat gebruikers tijdig worden geïnformeerd.
