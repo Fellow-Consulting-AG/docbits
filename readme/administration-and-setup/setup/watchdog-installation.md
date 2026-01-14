@@ -70,7 +70,7 @@
    * <mark style="color:red;">**Note**</mark>**:  It is recommended to use local paths. These should match the folders in the DocBits Configuration**
 2. **Download WatchDog**
    * Download the latest version of `WatchDog.exe` from:\
-     [ ](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)[https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases](https://github.com/Fellow-Consulting-AG/ActualWatchdog/releases)
+     [https://github.com/Fellow-Consulting-AG/WatchDog](https://github.com/Fellow-Consulting-AG/WatchDog)
    * Place the downloaded `WatchDog.exe` file in `C:/WatchDog`.
    * Place the downloaded `watchdog-config.json` file in `C:/WatchDog`.
    * open the `watchdog-config.json.`  and change the **config\_path.**&#x20;
