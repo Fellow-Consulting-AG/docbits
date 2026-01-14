@@ -2,7 +2,7 @@
 
 W ustawieniu "Zarządzanie Zadaniami" w sekcji "Ustawienia Dziennika" otrzymasz przegląd wszystkich zadań celery, ich interwałów, kiedy zadanie było ostatnio uruchamiane oraz kiedy zostanie uruchomione ponownie. Dodatkowo będziesz miał również możliwość ponownego uruchomienia zadania. Jeśli szukasz konkretnego zadania, możesz skorzystać z paska wyszukiwania.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_settings_workflow.png" alt="DocBits Ustawienia Przepływ pracy"><figcaption></figcaption></figure>
 
 Masz możliwość sortowania listy za pomocą małych strzałek obok nazwy kolumny.&#x20;
 

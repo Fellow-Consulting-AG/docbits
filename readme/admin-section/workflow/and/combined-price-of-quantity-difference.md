@@ -1,6 +1,6 @@
 # Łączna cena różnicy ilości
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.20.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice.png" alt="DocBits Zakup Zamówienie Faktura"><figcaption></figcaption></figure>
 
 Cel: Ta karta DocBits została zaprojektowana w celu usprawnienia procesu weryfikacji faktur poprzez porównanie całkowitej obliczonej ceny z faktury z odpowiadającym zamówieniem zakupu.
 

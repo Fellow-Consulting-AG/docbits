@@ -1,6 +1,6 @@
 # Cena jednostkowa połączona z polami
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.24.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice_2.png" alt="DocBits Zakup Zamówienie Faktura 2"><figcaption></figcaption></figure>
 
 Cel: Ta karta DocBits ułatwia szczegółowe porównywanie cen jednostkowych na fakturach z tymi określonymi w odpowiadających zamówieniach zakupu. Zwiększa dokładność w raportowaniu finansowym, zapewniając przestrzeganie ustalonych cen.
 

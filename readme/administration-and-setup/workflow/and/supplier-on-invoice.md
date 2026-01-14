@@ -1,6 +1,6 @@
 # Supplier on Invoice
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_purchase_order_supplier.png" alt="DocBits Zakup Zamówienie Dostawca"><figcaption></figcaption></figure>
 
 #### **Purpose**
 

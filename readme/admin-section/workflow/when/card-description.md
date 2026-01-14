@@ -13,8 +13,8 @@ Z tymi dwiema kartami można rozpocząć pracę nad danym procesem. Tutaj można
 \
 
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_5.png" alt="DocBits Przepływ pracy Zakup Zamówienie 5"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_6.png" alt="DocBits Przepływ pracy 6"><figcaption></figcaption></figure>
 
 Ta karta może również służyć do określenia wielu typów dokumentów, na które ma wpływać proces.

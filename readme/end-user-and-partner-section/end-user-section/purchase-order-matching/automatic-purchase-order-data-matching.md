@@ -2,7 +2,7 @@
 
 Docbits to zaawansowany system zaprojektowany do automatycznego dopasowywania danych zamówień zakupu (PO) z nadchodzącymi dokumentami faktur. To narzędzie jest specjalnie zaprojektowane do efektywnego zarządzania i przetwarzania danych faktur w systemach ERP. Niniejsza dokumentacja wyjaśnia podstawy automatycznego dopasowywania za pomocą Docbits i definiuje specyficzne zasady wymagane do pomyślnego dopasowania.
 
-<figure><img src="../../../.gitbook/assets/Automatic Purchase Order Data Matching.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice_3.svg" alt="DocBits Zakup Zamówienie Faktura 3"><figcaption></figcaption></figure>
 
 ### **Podstawowe Zasady Automatycznego Dopasowywania w Docbits**
 

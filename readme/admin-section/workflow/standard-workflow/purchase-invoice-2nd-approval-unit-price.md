@@ -1,6 +1,6 @@
 # Faktura zakupu - 2. zatwierdzenie jednostkowej ceny
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.55.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval_invoice_3.png" alt="DocBits Zatwierdzenie Faktura 3"><figcaption></figcaption></figure>
 
 Ten tytuł wskazuje, że reguła jest ustawiona w celu zarządzania drugą fazą zatwierdzenia faktury zakupu, ze szczególnym uwzględnieniem walidacji jednostkowej ceny.
 

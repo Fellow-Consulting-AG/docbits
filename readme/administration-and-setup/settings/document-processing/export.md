@@ -29,7 +29,7 @@ Each row in the list shows:
 * **Export Method** – where the document will be sent (e.g., Infor, IDM, SFTP)
 * **Actions** – buttons to **edit, delete** or **activate/deactivate** the configuration
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_7.png" alt="DocBits Zakup Zamówienie Eksport 7"><figcaption></figcaption></figure>
 
 #### **Important Rules for Export Configuration**
 
@@ -85,7 +85,7 @@ To create a new export:
 
 <summary>SFTP</summary>
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_4.png" alt="DocBits Zakup Zamówienie 4"><figcaption></figcaption></figure>
 
 **Field Descriptions**
 
@@ -300,7 +300,7 @@ To create a new export:
 
 <summary>Infor IDM + LN </summary>
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_settings_email.png" alt="DocBits Ustawienia E-mail"><figcaption></figcaption></figure>
 
 #### **Field Descriptions**
 
@@ -332,7 +332,7 @@ To create a new export:
 
 <summary>Infor IDM + M3 </summary>
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_settings.png" alt="DocBits Ustawienia"><figcaption></figcaption></figure>
 
 #### **Field Descriptions**
 
@@ -363,7 +363,7 @@ To create a new export:
 
 <summary>Infor IDM + M3 (toml)</summary>
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_5.png" alt="DocBits Przepływ pracy Zakup Zamówienie 5"><figcaption></figcaption></figure>
 
 #### **Field Descriptions**
 

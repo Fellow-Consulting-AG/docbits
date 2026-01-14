@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_workflow.png" alt="DocBits Ustawienia Przepływ pracy"><figcaption></figcaption></figure>
 
 Ten proces roboczy określa warunki, w których powinien zostać uruchomiony proces eksportu. Zapewnia, że tylko dokumenty spełniające wszystkie określone kryteria są przetwarzane do eksportu, zwiększając integralność danych i zgodność z zasadami biznesowymi.
 

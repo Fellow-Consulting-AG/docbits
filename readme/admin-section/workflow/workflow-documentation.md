@@ -14,7 +14,7 @@ Możesz użyć tych przepływów (Test 1,2,3), aby automatycznie przypisać ró�
 
 Jeśli faktura lub inny dokument przekracza określoną łączną kwotę, która wymaga wcześniejszej weryfikacji i zatwierdzenia, te dokumenty można natychmiast przypisać do właściwej osoby.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_purchase_order_table.png" alt="DocBits Zakup Zamówienie Tabela"><figcaption></figcaption></figure>
 
 **Test 1:              Karta logiczna**
 
@@ -60,7 +60,7 @@ Dla łatwiejszego przeglądu tego, co powinno się stać z dokumentem, można us
 
 **Wtedy:**              **Zmień status na:**         Oczekuje na zatwierdzenie
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval.png" alt="DocBits Zatwierdzenie"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
@@ -72,7 +72,7 @@ I:                   **Przypisany jest:**                       Stefan Reppermun
 
 Wtedy:                 **Zmień status na:**           Oczekuje na drugie zatwierdzenie
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_workflow_2.png" alt="DocBits Ustawienia Przepływ pracy 2"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/10 (1).png>)
 
@@ -88,7 +88,7 @@ I:                      Docfield        **total\_amount**     jest      **Więks
 
 Wtedy:                    **Przypisz dokument do:**   Asad Usman Khan
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_table_invoice_3.png" alt="DocBits Tabela Faktura 3"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/13 (1).png>)
 
@@ -104,13 +104,13 @@ Jest także możliwe wprowadzenie statusu do przepływu pracy, dzięki czemu prz
 
 &#x20;                            **Zmień status na:**          Oczekuje na zatwierdzenie
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_2.png" alt="DocBits Zatwierdzenie 2"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/15 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_purchase_order_2.png" alt="DocBits Przepływ pracy Zakup Zamówienie 2"><figcaption></figcaption></figure>
 
 Na przykład, jeśli brakuje pewnych lub istotnych informacji w dokumencie, ale są one ważne i muszą być uwzględnione w dalszym przetwarzaniu, można skonfigurować przepływ pracy tak, aby te dokumenty były natychmiast przekazywane do kupującego i zastępcy.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_5.png" alt="DocBits Przepływ pracy 5"><figcaption></figcaption></figure>
 
 **Test 9:**
 
@@ -120,11 +120,11 @@ Możesz nadać tym dokumentom określony status lub przypisać je do konkretnego
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_permission.png" alt="DocBits Zatwierdzenie Uprawnienie"><figcaption></figcaption></figure>
 
 </div>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_purchase_order_4.png" alt="DocBits Zakup Zamówienie 4"><figcaption></figcaption></figure>
 
 **Karta logiczna: Ilość lub Cena jednostkowa lub Rabat pasują**
 
@@ -148,7 +148,7 @@ Ta karta logiczna jest kluczowa dla zapewnienia, że szczegóły potwierdzenia z
 
 Jeśli masz inną kalkulację dla dopłat lub masz je tylko dla niektórych pozycji, możesz użyć ogólnych kart kalkulacji tabelarycznych, niektóre z nich pozwalają także filtrować za pomocą wyrażeń regularnych.
 
-<figure><img src="../../.gitbook/assets/19 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_table_invoice.png" alt="DocBits Tabela Faktura"><figcaption></figcaption></figure>
 
 Powyżej znajduje się przykład kalkulacji dla MTZ z filtrem dla numerów pozycji rozpoczynających się od 01, 06, 9, 001 lub 000.
 
@@ -156,7 +156,7 @@ Przy ręcznej konfiguracji zaleca się podzielenie kalkulacji, które zależą o
 
 **Uruchom przepływ pracy**
 
-<figure><img src="../../.gitbook/assets/20 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_2.png" alt="DocBits Przepływ pracy 2"><figcaption></figcaption></figure>
 
 Z tą kartą można określić nazwę przepływu pracy, który ma zostać uruchomiony po bieżącym przepływie pracy, jeśli jego warunki są spełnione i po poprzednich kartach then bieżącego przepływu pracy. Chociaż priorytetem są uruchamialne, aktywne przepływy pracy, umożliwia również uruchomienie dezaktywowanych przepływów pracy, jeśli dokument spełnia warunki przepływów pracy.
 ### **Dodawanie obliczonych dopłat do istniejącej kolumny** <a href="#pekg4i18rshn" id="pekg4i18rshn"></a>
@@ -169,6 +169,6 @@ Jeśli chcesz dodać wszystkie dopłaty jako ujemne zniżki do kolumny zniżek, 
 
 Po obliczeniu dopłat możesz chcieć powiadomić określonego użytkownika o autoryzacji potwierdzenia zamówienia. W tym celu możesz skorzystać z karty powiadomień
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_email.png" alt="DocBits Ustawienia E-mail"><figcaption></figcaption></figure>
 
 W zależności od ustawień, użytkownik otrzymuje nowe zadanie w DocBits i opcjonalnie e-mail informujący go o nowym zadaniu.

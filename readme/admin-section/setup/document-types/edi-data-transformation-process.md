@@ -16,7 +16,7 @@ widoczny: true
 
 ####
 
-<figure><img src="../../../.gitbook/assets/EDI (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_docbits_image_4.png" alt="DocBits DocBits Obraz 4"><figcaption></figcaption></figure>
 
 #### Krok 1: Deskryptor Struktury
 
