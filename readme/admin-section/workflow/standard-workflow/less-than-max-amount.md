@@ -1,6 +1,6 @@
 # Poniżej kwoty maksymalnej
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.48.55 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice_less_than_max.png" alt="DocBits Faktura Less Than Max"><figcaption></figcaption></figure>
 
 Ten tytuł sugeruje, że konfigurowana reguła lub warunek jest przeznaczony do obsługi faktur, których całkowita kwota jest mniejsza lub równa określonej kwocie maksymalnej.
 
