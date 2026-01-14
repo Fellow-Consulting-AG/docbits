@@ -1,0 +1,23 @@
+# Seção do Usuário Final
+
+### Começando
+
+* **Login e Navegação:** Como acessar o Docbits e navegar pela interface.
+* **Configuração Inicial:** Configurando o Docbits para o primeiro uso.
+
+### Uso Diário
+
+* **Envio de Documentos:** Instruções para enviar documentos para o Docbits.
+* **Revisão e Aprovação de Documentos:**
+  * **Aprovando Pedidos:** Passos para revisar e aprovar formulários de pedido.
+  * **Processamento de Faturas:** Guia sobre como processar faturas recebidas para pagamento.
+
+### Gerenciando Documentos
+
+* **Pesquisa e Recuperação:** Como encontrar e acessar documentos dentro do Docbits.
+* **Editar e Atualizar:** Editando documentos e atualizando seu status.
+
+### Solução de Problemas
+
+* **Problemas Comuns:** Soluções para problemas frequentes encontrados pelos usuários.
+* [**Contato de Suporte**](overview/user-support.md)**:** Como entrar em contato com o suporte para obter assistência.
