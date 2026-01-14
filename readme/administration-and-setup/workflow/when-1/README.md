@@ -1,6 +1,6 @@
 # Quand
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 16.25.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_4.png" alt="DocBits Workflow 4"><figcaption></figcaption></figure>
 
 #### Comprendre le "Quand" dans les Configurations de Workflow
 

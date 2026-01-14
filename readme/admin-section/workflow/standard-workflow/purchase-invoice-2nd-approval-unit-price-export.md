@@ -1,6 +1,6 @@
 # Facture d'achat - Exportation du prix unitaire de la 2ème approbation
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.59.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_5.png" alt="DocBits Achat Commande Exporter 5"><figcaption></figcaption></figure>
 
 Ce titre indique que la règle est configurée pour gérer la deuxième phase d'approbation des factures d'achat en mettant l'accent sur le prix unitaire, en veillant à ce qu'il corresponde aux termes convenus.
 

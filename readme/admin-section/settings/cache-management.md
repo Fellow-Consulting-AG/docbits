@@ -1,6 +1,6 @@
 # Gestion du Cache
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_supplier_invoice.png" alt="DocBits Fournisseur Facture"><figcaption></figcaption></figure>
 
 Dans les paramètres de "Gestion du Cache", vous pourrez activer le nettoyage automatique pour le Cache de Livraison Reçue, le Cache de Commande d'Achat et le Cache de Tâches et Notifications.&#x20;
 

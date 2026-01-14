@@ -2,7 +2,7 @@
 
 À partir du tableau de bord, cliquez sur l'icône des Paramètres Avancés comme indiqué ci-dessous
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_workflow_2.png" alt="DocBits Paramètres Workflow 2"><figcaption></figcaption></figure>
 
 Le menu suivant s'affichera alors
 
@@ -16,6 +16,6 @@ Sélectionnez le bouton intitulé "Définir les colonnes du tableau de bord pour
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval.png" alt="DocBits Approbation"><figcaption></figcaption></figure>
 
 </div>

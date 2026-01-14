@@ -16,12 +16,12 @@ Les deux versions d'eSLOG sont activées par défaut.
 *   Cliquez sur **E-Doc**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_docbits_image_5.png" alt="DocBits DocBits Image 5"><figcaption></figcaption></figure>
 * Une liste de tous les e-docs disponibles apparaîtra.
 *   Localisez la version d'eSLOG que vous souhaitez modifier.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_supplier_invoice.png" alt="DocBits Fournisseur Facture"><figcaption></figcaption></figure>
 
 ### **Configuration de la Transformation et du Chemin XML :**
 
@@ -63,8 +63,8 @@ La **Configuration des Chemins d'Extraction** est utilisée pour extraire des do
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_error_approval.png" alt="DocBits Erreur Approbation"><figcaption></figcaption></figure>
 
-    <figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_settings_workflow.png" alt="DocBits Paramètres Workflow"><figcaption></figcaption></figure>
 6. Le côté droit représente le **chemin vers le champ** créé dans la Transformation.
 7. Cliquez sur **Enregistrer**.

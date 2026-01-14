@@ -1,6 +1,6 @@
 # Prix unitaire combiné avec des champs
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.24.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice_2.png" alt="DocBits Achat Commande Facture 2"><figcaption></figcaption></figure>
 
 Objectif : Cette carte DocBits facilite la comparaison détaillée des prix unitaires sur les factures par rapport à ceux spécifiés dans les bons de commande correspondants. Elle améliore la précision des rapports financiers en garantissant le respect des prix convenus.
 

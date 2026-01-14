@@ -1,6 +1,6 @@
 # Prix combiné de la différence de quantité
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.20.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice.png" alt="DocBits Achat Commande Facture"><figcaption></figcaption></figure>
 
 Objectif : Cette carte DocBits est conçue pour rationaliser le processus de vérification des factures en comparant le prix total calculé sur la facture avec la commande d'achat correspondante.
 

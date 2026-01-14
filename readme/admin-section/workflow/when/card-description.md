@@ -13,8 +13,8 @@ Un flux de travail peut être démarré avec ces deux cartes. Ici, vous pouvez d
 \
 
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_5.png" alt="DocBits Workflow Achat Commande 5"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_6.png" alt="DocBits Workflow 6"><figcaption></figcaption></figure>
 
 Cette carte peut également être utilisée pour spécifier plusieurs types de documents que le flux de travail devrait affecter.

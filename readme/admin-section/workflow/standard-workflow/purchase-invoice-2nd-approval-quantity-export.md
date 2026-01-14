@@ -1,6 +1,6 @@
 # Facture d'achat - Exportation de la quantité de 2e approbation
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 15.00.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_6.png" alt="DocBits Achat Commande Exporter 6"><figcaption></figcaption></figure>
 
 Ce titre indique que la règle est configurée pour gérer la deuxième phase d'approbation des factures d'achat en mettant l'accent sur les détails de quantité, en veillant à ce que les quantités sur la facture correspondent à celles de la commande d'achat d'origine.
 

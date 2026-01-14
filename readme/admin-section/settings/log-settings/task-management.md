@@ -4,7 +4,7 @@ Dans le paramètre "Gestion des tâches" sous la section "Paramètres de journal
 
 
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_settings_workflow.png" alt="DocBits Paramètres Workflow"><figcaption></figcaption></figure>
 
 Vous avez la possibilité de trier la liste en utilisant les petites flèches à côté du nom de la colonne.&#x20;
 

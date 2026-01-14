@@ -1,6 +1,6 @@
 # Au-dessus du montant maximum
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice_2.png" alt="DocBits Facture 2"><figcaption></figcaption></figure>
 
 Ce titre indique que la règle est conçue pour gérer les cas où le total de la facture est supérieur au montant maximum qu'un approbateur est autorisé à gérer.
 

@@ -1,6 +1,6 @@
 # Facture d'Achat - 2ème Approbation de Quantité
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.56.54.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval_invoice_4.png" alt="DocBits Approbation Facture 4"><figcaption></figcaption></figure>
 
 Ce titre indique que la règle concerne spécifiquement le traitement des factures d'achat lors d'une phase d'approbation secondaire, en mettant l'accent sur la vérification de l'exactitude des quantités répertoriées.
 

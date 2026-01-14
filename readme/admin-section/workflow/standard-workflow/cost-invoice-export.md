@@ -1,6 +1,6 @@
 # Facture de coût - Export
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.53.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_4.png" alt="DocBits Achat Commande Exporter 4"><figcaption></figcaption></figure>
 
 Ce titre indique que la règle est spécifiquement configurée pour gérer les factures de coût et implique une action d'exportation, peut-être pour des rapports, un traitement ultérieur ou une intégration avec d'autres systèmes.
 

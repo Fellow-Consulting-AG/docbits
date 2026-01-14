@@ -4,7 +4,7 @@ description: Moteur de Workflow DocBits
 
 # Workflow
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.42.57.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_3.png" alt="DocBits Workflow 3"><figcaption></figcaption></figure>
 
 ## Moteur de Workflow DocBits : Simplification de l'Automatisation des Processus
 

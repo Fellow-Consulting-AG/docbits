@@ -156,7 +156,7 @@ Les scripts peuvent être créés dans les paramètres sous Types de documents ;
 
 ### **Plus de paramètres:**
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_table_invoice_3.png" alt="DocBits Tableau Facture 3"><figcaption></figcaption></figure>
 
 ### **Flux de documents:**
 

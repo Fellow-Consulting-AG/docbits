@@ -1,6 +1,6 @@
 # Fournisseur sur la facture
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_supplier.png" alt="DocBits Achat Commande Fournisseur"><figcaption></figcaption></figure>
 
 #### **Objectif**
 
