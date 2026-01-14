@@ -1,6 +1,6 @@
 # Data de Entrega Confirmada
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_table_invoice_3.png" alt="DocBits Tabela Fatura 3"><figcaption></figcaption></figure>
 
 Propósito: Este cartão do DocBits foi projetado para garantir que as datas de entrega confirmadas em faturas ou documentos de envio estejam alinhadas com as datas de entrega aceitas conforme estipulado na tabela de consulta de dados mestres. Isso ajuda a gerenciar expectativas e aderência às entregas programadas dentro da cadeia de suprimentos.
 

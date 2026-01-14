@@ -2,7 +2,7 @@
 
 Docbits é um sistema avançado projetado para automatizar a correspondência de dados de pedidos de compra (POs) com documentos de fatura recebidos. Esta ferramenta é especificamente projetada para a gestão eficiente e processamento de dados de faturas dentro de sistemas ERP. Esta documentação explica os fundamentos da correspondência automática através do Docbits e define as regras específicas necessárias para uma correspondência bem-sucedida.
 
-<figure><img src="../../../.gitbook/assets/Automatic Purchase Order Data Matching.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice_3.svg" alt="DocBits Compra Pedido Fatura 3"><figcaption></figcaption></figure>
 
 ## **Princípios Fundamentais da Correspondência Automática no Docbits**
 

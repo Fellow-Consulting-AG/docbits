@@ -1,6 +1,6 @@
 # Fatura de Custo - Exportar
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.53.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_4.png" alt="DocBits Compra Pedido Exportar 4"><figcaption></figcaption></figure>
 
 Este título indica que a regra é configurada especificamente para gerenciar faturas de custo e envolve uma ação de exportação, possivelmente para relatórios, processamento adicional ou integração com outros sistemas.
 

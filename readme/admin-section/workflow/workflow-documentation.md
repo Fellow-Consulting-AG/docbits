@@ -104,13 +104,13 @@ Também é possível inserir o status no fluxo de trabalho, para que a pessoa at
 
 &#x20;                            **Alterar Status para:**          Aprovação Pendente
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_2.png" alt="DocBits Aprovação 2"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/15 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_purchase_order_2.png" alt="DocBits Fluxo de trabalho Compra Pedido 2"><figcaption></figcaption></figure>
 
 Por exemplo, se faltar informações específicas ou importantes em um documento, mas forem importantes e devem ser incluídas para processamento adicional, você pode configurar o fluxo de trabalho para que esses documentos sejam imediatamente encaminhados ao comprador e a um substituto.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_5.png" alt="DocBits Fluxo de trabalho 5"><figcaption></figcaption></figure>
 
 **Teste 9:**
 
@@ -120,11 +120,11 @@ Você pode atribuir a esses documentos um status específico ou atribuí-los a u
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_permission.png" alt="DocBits Aprovação Permissão"><figcaption></figcaption></figure>
 
 </div>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_purchase_order_4.png" alt="DocBits Compra Pedido 4"><figcaption></figcaption></figure>
 
 **Cartão Lógico: Quantidade ou Preço Unitário ou Desconto Correspondente**
 
@@ -148,7 +148,7 @@ Este cartão lógico é vital para garantir que os detalhes de uma confirmação
 
 Se você tiver um cálculo diferente para sobretaxas, ou apenas tiver em alguns itens, você pode usar os cartões de cálculo de tabela genéricos, alguns deles também permitem filtrar por expressões regulares.
 
-<figure><img src="../../.gitbook/assets/19 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_table_invoice.png" alt="DocBits Tabela Fatura"><figcaption></figcaption></figure>
 
 Acima está um exemplo de cálculo para MTZ com um filtro para números de item começando com 01, 06, 9, 001 ou 000.
 
@@ -156,7 +156,7 @@ Com uma configuração manual, é aconselhável dividir os cálculos que depende
 
 **Executar Fluxo de Trabalho**
 
-<figure><img src="../../.gitbook/assets/20 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_2.png" alt="DocBits Fluxo de trabalho 2"><figcaption></figcaption></figure>
 
 Com este cartão, você pode especificar o nome de um fluxo de trabalho que será executado após o fluxo de trabalho atual se suas condições forem atendidas e após os cartões then anteriores do fluxo de trabalho atual. Embora priorize fluxos de trabalho executáveis e ativos, também permite executar fluxos de trabalho desativados se o documento atender às condições dos fluxos de trabalho.
 ### **Adicionar sobretaxas calculadas em uma coluna existente** <a href="#pekg4i18rshn" id="pekg4i18rshn"></a>
@@ -169,6 +169,6 @@ Se você deseja adicionar todas as sobretaxas como um desconto negativo na colun
 
 Após calcular as sobretaxas, você pode querer notificar um usuário específico para autorizar a confirmação do pedido. Para isso, você pode usar o cartão de notificação.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_email.png" alt="DocBits Configurações E-mail"><figcaption></figcaption></figure>
 
 Dependendo das configurações, o usuário recebe atribuída uma nova tarefa no DocBits e, opcionalmente, um e-mail para notificá-lo de sua nova tarefa.

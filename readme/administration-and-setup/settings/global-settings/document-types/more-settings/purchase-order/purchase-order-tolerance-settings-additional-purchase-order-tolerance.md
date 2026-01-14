@@ -60,4 +60,4 @@ Quando ativada, esta configuração permite que você defina tolerâncias para *
     * **Porcentagem:** A tolerância é definida como uma porcentagem.
     * **Valor:** A tolerância é definida como um valor fixo.
 
-<figure><img src="../../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_docbits_image_5.png" alt="DocBits DocBits Imagem 5"><figcaption></figcaption></figure>

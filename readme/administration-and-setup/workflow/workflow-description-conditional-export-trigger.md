@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_settings_workflow.png" alt="DocBits Configurações Fluxo de trabalho"><figcaption></figcaption></figure>
 
 This workflow outlines the conditions under which an export process should be initiated. It ensures that only documents meeting all specified criteria are processed for export, enhancing data integrity and alignment with business rules.
 

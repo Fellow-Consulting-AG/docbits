@@ -1,6 +1,6 @@
 # Fatura de Compra - Exportação de Preço Unitário de 2ª Aprovação
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.59.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_5.png" alt="DocBits Compra Pedido Exportar 5"><figcaption></figcaption></figure>
 
 Este título indica que a regra está configurada para gerenciar a segunda fase de aprovação de faturas de compra com foco no preço unitário, garantindo que corresponda aos termos acordados.
 

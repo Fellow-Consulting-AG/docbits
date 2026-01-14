@@ -2,4 +2,4 @@
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_purchase_order_5.png" alt="DocBits Fluxo de trabalho Compra Pedido 5"><figcaption></figcaption></figure>

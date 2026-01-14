@@ -1,6 +1,6 @@
 # Menos que a Quantidade Máxima
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.48.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice.png" alt="DocBits Fatura"><figcaption></figcaption></figure>
 
 Este título sugere que a regra ou condição sendo configurada é projetada para lidar com faturas onde o valor total é menor ou igual a um valor máximo especificado.
 

@@ -1,6 +1,6 @@
 # Acima do Valor Máximo
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice_2.png" alt="DocBits Fatura 2"><figcaption></figcaption></figure>
 
 Este título indica que a regra é projetada para gerenciar casos em que o total da fatura é maior do que o valor máximo que um aprovador está autorizado a lidar.
 

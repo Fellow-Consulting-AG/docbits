@@ -1,6 +1,6 @@
 # Combined Price of Quantity Difference
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.20.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_purchase_order_invoice.png" alt="DocBits Compra Pedido Fatura"><figcaption></figcaption></figure>
 
 Purpose: This Docbits card is designed to streamline the verification process of invoices by comparing the total calculated price from the invoice against the corresponding purchase order.
 
