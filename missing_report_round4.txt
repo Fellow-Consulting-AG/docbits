@@ -1,0 +1,131 @@
+Fetching file list from source branch: main...
+Total documentation pages in 'main': 759
+
+--- Checking language: de ---
+  Pages present: 574
+  Missing pages: 398
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/setting-up-edi-templates.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/troubleshooting-5.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/using-the-xslt-editor.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/faktura.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/transformation-file-and-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/toml-export.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/standard-preview.md
+    ... and 388 more.
+
+--- Checking language: es ---
+  Pages present: 556
+  Missing pages: 396
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-3.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-cross-industry-invoice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/best-practices-6.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-810-invoice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-850-purchase-order-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-855-purchase-order-acknowledgement-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-856-advance-shipment-notice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-videos.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/previewing-edi-messages.md
+    ... and 386 more.
+
+--- Checking language: fr ---
+  Pages present: 564
+  Missing pages: 397
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-cross-industry-invoice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/best-practices-6.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-810-invoice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-850-purchase-order-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-855-purchase-order-acknowledgement-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-856-advance-shipment-notice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-videos.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/previewing-edi-messages.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/setting-up-edi-templates.md
+    ... and 387 more.
+
+--- Checking language: it ---
+  Pages present: 562
+  Missing pages: 398
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.3.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-3.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-cross-industry-invoice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/best-practices-6.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-810-invoice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-850-purchase-order-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-855-purchase-order-acknowledgement-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-856-advance-shipment-notice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-videos.md
+    ... and 388 more.
+
+--- Checking language: pl ---
+  Pages present: 560
+  Missing pages: 424
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-3.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-cross-industry-invoice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/best-practices-6.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-810-invoice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-850-purchase-order-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-855-purchase-order-acknowledgement-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-856-advance-shipment-notice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-videos.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/previewing-edi-messages.md
+    ... and 414 more.
+
+--- Checking language: pt ---
+  Pages present: 571
+  Missing pages: 424
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-3.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-cross-industry-invoice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/best-practices-6.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-810-invoice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-850-purchase-order-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-855-purchase-order-acknowledgement-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-856-advance-shipment-notice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-videos.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/previewing-edi-messages.md
+    ... and 414 more.
+
+--- Checking language: nl ---
+  Pages present: 833
+  Missing pages: 48
+  Missing files list (top 10):
+    - readme/advanced-functions-and-tools/sql-access/README.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/README.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/additional-charge-costing-element.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/api-credentials.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/auto-accounting.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/auto-test-document.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/batch-instance.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/chat-log.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/custom-classification-document.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/custom-classification-tag.md
+    ... and 38 more.
+
+--- Checking language: tr ---
+  Pages present: 344
+  Missing pages: 603
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/document-processing/module/README.md
+    - readme/administration-and-setup/settings/document-processing/module/annotation-mode.md
+    - readme/administration-and-setup/settings/document-processing/module/auto-export-if-po-matched-100.md
+    - readme/administration-and-setup/settings/document-processing/module/bar-code-qr-code-extraction/README.md
+    - readme/administration-and-setup/settings/document-processing/module/bar-code-qr-code-extraction/bar-code-extractions.md
+    - readme/administration-and-setup/settings/document-processing/module/bar-code-qr-code-extraction/swiss-qr-code.md
+    - readme/administration-and-setup/settings/document-processing/module/doc-scan.md
+    - readme/administration-and-setup/settings/document-processing/module/doc-script.md
+    - readme/administration-and-setup/settings/document-processing/module/export-dashboard-data.md
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/README.md
+    ... and 593 more.
+
