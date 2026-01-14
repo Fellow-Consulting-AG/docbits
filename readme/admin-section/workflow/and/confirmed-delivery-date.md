@@ -1,6 +1,6 @@
 # Onaylanmış Teslim Tarihi
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_table_invoice_3.png" alt="DocBits Tablo Fatura 3"><figcaption></figcaption></figure>
 
 Amaç: Bu Docbits kartı, faturalarda veya nakliye belgelerinde onaylanmış teslim tarihlerinin, ana veri arama tablosunda belirtilen kabul edilen teslim tarihleriyle uyumlu olup olmadığını sağlamak için tasarlanmıştır. Tedarik zinciri içinde planlanan teslimatlara yönelik beklentileri yönetmeye ve uyum sağlamaya yardımcı olur.
 

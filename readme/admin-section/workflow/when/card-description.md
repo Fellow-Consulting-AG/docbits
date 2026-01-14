@@ -13,8 +13,8 @@ Bu iki kart ile bir iş akışı başlatılabilir. Burada iş akışının hangi
 \
 
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_5.png" alt="DocBits İş akışı Satın alma Sipariş 5"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_6.png" alt="DocBits İş akışı 6"><figcaption></figcaption></figure>
 
 Bu kart ayrıca iş akışının etkilemesi gereken birden fazla belge türünü belirtmek için de kullanılabilir.

@@ -1,6 +1,6 @@
 # Maksimum Tutarın Altında
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.48.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice.png" alt="DocBits Fatura"><figcaption></figcaption></figure>
 
 Bu başlık, belirli bir maksimum tutara eşit veya daha az olan faturalarla başa çıkmak için belirlenen kuralın veya koşulun tasarlandığını önermektedir.
 

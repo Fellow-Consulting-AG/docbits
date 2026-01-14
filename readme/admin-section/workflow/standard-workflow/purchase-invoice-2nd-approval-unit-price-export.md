@@ -1,6 +1,6 @@
 # Satın Alma Faturası - 2. Onay Birimi Fiyatı Dışa Aktarımı
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.59.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_5.png" alt="DocBits Satın alma Sipariş Dışa aktar 5"><figcaption></figcaption></figure>
 
 Bu başlık, satın alma faturalarının ikinci onay aşamasını yönetmek için kuralların kurulduğunu ve birim fiyatına odaklandığını gösterir, böylece anlaşılan şartlarla eşleştiğinden emin olunur.
 

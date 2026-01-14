@@ -122,9 +122,9 @@ Ayrıca, belgeye durumu iş akışına girmek de mümkündür, böylece atanan k
 
 &#x20;                            **Durumu Değiştir:**          Onay Bekliyor
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_2.png" alt="DocBits Onay 2"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/15 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_purchase_order_2.png" alt="DocBits İş akışı Satın alma Sipariş 2"><figcaption></figcaption></figure>
 
 
 
@@ -132,7 +132,7 @@ Ayrıca, belgeye durumu iş akışına girmek de mümkündür, böylece atanan k
 
 Örneğin, bir belgeden belirli veya önemli bilgiler eksikse, ancak önemli ve işleme devam etmek için eklenmesi gerekiyorsa, bu belgelerin hemen alıcıya ve bir yedek (yerine) iletilmesi için iş akışını kurabilirsiniz.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_5.png" alt="DocBits İş akışı 5"><figcaption></figcaption></figure>
 
 
 
@@ -144,11 +144,11 @@ Bu belgelere belirli bir durum verebilir veya belirli bir çalışana atayabilir
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_permission.png" alt="DocBits Onay İzin"><figcaption></figcaption></figure>
 
 </div>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_purchase_order_4.png" alt="DocBits Satın alma Sipariş 4"><figcaption></figcaption></figure>
 
 **Mantık Kartı: Miktar veya Birim Fiyat veya İndirim Eşleşmesi**
 
@@ -178,7 +178,7 @@ Bu mantık kartı, sipariş onayındaki ayrıntıların orijinal satın alma sip
 
 Ek ücretler için farklı bir hesaplama yapmanız gerekiyorsa veya bunları yalnızca bazı öğelerde kullanıyorsanız, genel tablo hesaplama kartlarını kullanabilirsiniz, bazıları ayrıca düzenli ifadeler için filtreleme yapmanıza olanak tanır.
 
-<figure><img src="../../.gitbook/assets/19 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_table_invoice.png" alt="DocBits Tablo Fatura"><figcaption></figcaption></figure>
 
 Yukarıda, 01, 06, 9, 001 veya 000 ile başlayan öğe numaraları için bir filtre olan MTZ için bir hesaplama örneği bulunmaktadır.
 
@@ -188,7 +188,7 @@ Yeni sütunlara bağlı hesaplamaları manuel olarak yapılandırırken, bu hesa
 
 **İş Akışını Çalıştır**
 
-<figure><img src="../../.gitbook/assets/20 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_2.png" alt="DocBits İş akışı 2"><figcaption></figcaption></figure>
 
 Bu kart ile, mevcut iş akışının koşulları karşılandığında ve mevcut iş akışının önceki ardından kartlarından sonra çalıştırılacak bir iş akışının adını belirtebilirsiniz. Çalışabilir, etkin iş akışlarını önceliklendirirken, belge belirli iş akışlarının koşullarını karşılarsa devre dışı bırakılmış iş akışlarını da çalıştırmanıza olanak tanır.
 ### **Mevcut bir sütuna hesaplanmış ek ücretler eklemek** <a href="#pekg4i18rshn" id="pekg4i18rshn"></a>
@@ -201,6 +201,6 @@ Eğer tüm ek ücretleri indirim sütununa negatif bir indirim olarak eklemek is
 
 Ek ücretleri hesaplama işleminden sonra belirli bir kullanıcıyı sipariş onayını yetkilendirmesi için bilgilendirmek isteyebilirsiniz. Bunun için bildirim kartını kullanabilirsiniz
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_email.png" alt="DocBits Ayarlar E-posta"><figcaption></figcaption></figure>
 
 Ayarlarınıza bağlı olarak, kullanıcıya DocBits'te yeni bir görev atanır ve isteğe bağlı olarak yeni görevlerinden haberdar etmek için bir e-posta alırlar.

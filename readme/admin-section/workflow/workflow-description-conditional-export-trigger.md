@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_purchase_order_7.png" alt="DocBits İş akışı Satın alma Sipariş 7"><figcaption></figcaption></figure>
 
 Bu iş akışı, bir dışa aktarma işleminin ne zaman başlatılması gerektiği koşullarını belirler. Belirtilen tüm kriterleri karşılayan belgelerin yalnızca dışa aktarma işlemi için işlenmesini sağlar, veri bütünlüğünü artırır ve iş kurallarıyla uyumu sağlar.
 

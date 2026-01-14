@@ -1,6 +1,6 @@
 # Satın Alma Faturası - 2. Onay Miktarı
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.56.54.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval_invoice_4.png" alt="DocBits Onay Fatura 4"><figcaption></figcaption></figure>
 
 Bu başlık, kuralın özellikle ikincil onay aşamasında satın alma faturalarının işlenmesiyle ilgili olduğunu ve listelenen miktarların doğruluğunun doğrulanmasına odaklandığını belirtmektedir.
 

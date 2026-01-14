@@ -16,7 +16,7 @@ layout:
 
 ####
 
-<figure><img src="../../../.gitbook/assets/EDI (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_docbits_image_4.png" alt="DocBits DocBits Görüntü 4"><figcaption></figcaption></figure>
 
 #### Step 1: Structure Descriptor
 

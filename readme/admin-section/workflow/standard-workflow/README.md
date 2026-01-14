@@ -1,6 +1,6 @@
 # Standart İş Akışı
 
-<figure><img src="../../../.gitbook/assets/DocBits-APWorkflow-Gronbach.drawio (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_4.svg" alt="DocBits İş akışı Satın alma Sipariş 4"><figcaption></figcaption></figure>
 
 #### İş Akışı Bileşenlerinin Genel Bakışı:
 

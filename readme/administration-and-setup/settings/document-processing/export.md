@@ -29,7 +29,7 @@ Listedeki her satır şunları gösterir:
 * **Dışa Aktarma Yöntemi** – belgenin nereye gönderileceği (örneğin, Infor, IDM, SFTP)
 * **Eylemler** – yapılandırmayı **düzenlemek, silmek** veya **etkinleştirmek/devre dışı bırakmak** için düğmeler
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_7.png" alt="DocBits Satın alma Sipariş Dışa aktar 7"><figcaption></figcaption></figure>
 
 #### **Dışa Aktarma Yapılandırması için Önemli Kurallar**
 
@@ -85,7 +85,7 @@ Yeni bir dışa aktarma oluşturmak için:
 
 <summary>SFTP</summary>
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_4.png" alt="DocBits Satın alma Sipariş 4"><figcaption></figcaption></figure>
 
 **Alan Açıklamaları**
 
@@ -294,7 +294,7 @@ Yeni bir dışa aktarma oluşturmak için:
 
 <summary>Infor IDM + LN</summary>
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_settings_email.png" alt="DocBits Ayarlar E-posta"><figcaption></figcaption></figure>
 
 **Alan Açıklamaları**
 
@@ -324,7 +324,7 @@ Yeni bir dışa aktarma oluşturmak için:
 
 <summary>Infor IDM + M3</summary>
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_settings.png" alt="DocBits Ayarlar"><figcaption></figcaption></figure>
 
 **Alan Açıklamaları**
 
@@ -354,7 +354,7 @@ Yeni bir dışa aktarma oluşturmak için:
 
 <summary>Infor IDM + M3 (toml)</summary>
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_5.png" alt="DocBits İş akışı Satın alma Sipariş 5"><figcaption></figcaption></figure>
 
 **Alan Açıklamaları**
 

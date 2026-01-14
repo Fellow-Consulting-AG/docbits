@@ -1,6 +1,6 @@
 # Ne Zaman
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 16.25.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_4.png" alt="DocBits İş akışı 4"><figcaption></figcaption></figure>
 
 #### İş Akışı Yapılandırmalarındaki "Ne Zaman"ın Anlaşılması
 

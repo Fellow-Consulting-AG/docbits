@@ -1,6 +1,6 @@
 # Birim Fiyat Alanlarıyla Birleştirilmiş
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.24.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice_2.png" alt="DocBits Satın alma Sipariş Fatura 2"><figcaption></figcaption></figure>
 
 Amaç: Bu Docbits kartı, faturalardaki birim fiyatlarının ilgili satın alma siparişlerinde belirtilen fiyatlarla detaylı olarak karşılaştırılmasını kolaylaştırır. Anlaşılan fiyatlara uyumu sağlayarak finansal raporlamadaki doğruluğu artırır.
 

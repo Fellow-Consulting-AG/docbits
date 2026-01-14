@@ -2,7 +2,7 @@
 
 Panelden, aşağıda gösterildiği gibi Gelişmiş Ayarlar simgesine tıklayın
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_workflow_2.png" alt="DocBits Ayarlar İş akışı 2"><figcaption></figcaption></figure>
 
 Ardından aşağıdaki menü görüntülenecektir
 
@@ -16,6 +16,6 @@ Bu menüden sütun adlarını seçebilir ve istediğiniz sütunları eklemek ve 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval.png" alt="DocBits Onay"><figcaption></figcaption></figure>
 
 </div>

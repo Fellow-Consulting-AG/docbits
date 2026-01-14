@@ -1,6 +1,6 @@
 # Maksimum Tutarın Üzerinde
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice_2.png" alt="DocBits Fatura 2"><figcaption></figcaption></figure>
 
 Bu başlık, faturanın toplam tutarının onaylayıcının yetkilendirildiği maksimum tutardan büyük olduğu durumları yönetmek üzere tasarlanmış bir kuralı işaret eder.
 

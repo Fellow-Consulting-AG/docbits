@@ -1,6 +1,6 @@
 # Miktar Farkının Birleşik Fiyatı
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.20.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice.png" alt="DocBits Satın alma Sipariş Fatura"><figcaption></figcaption></figure>
 
 Amaç: Bu DocBits kartı, faturaların doğrulama sürecini hızlandırmak için tasarlanmış olup, faturadaki toplam hesaplanan fiyatı ilgili satın alma siparişiyle karşılaştırarak işlemi kolaylaştırmayı amaçlar.
 

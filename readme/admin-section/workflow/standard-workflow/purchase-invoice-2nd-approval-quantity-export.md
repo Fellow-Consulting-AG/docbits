@@ -1,6 +1,6 @@
 # Satın Alma Faturası - 2. Onay Miktarı İhracatı
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 15.00.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_6.png" alt="DocBits Satın alma Sipariş Dışa aktar 6"><figcaption></figcaption></figure>
 
 Bu başlık, satın alma faturaları için ikinci onay aşamasını yönetmek üzere kuralların oluşturulduğunu gösterir ve miktar detaylarına vurgu yapar, faturadaki miktarların orijinal satın alma siparişindeki miktarlarla eşleşmesini sağlar.
 

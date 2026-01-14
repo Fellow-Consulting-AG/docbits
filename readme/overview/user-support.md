@@ -4,9 +4,9 @@
 
 DocBits'i kullanırken herhangi bir zorlukla karşılaşırsanız veya sorularınız varsa, lütfen bu kullanıcı kılavuzuna başvurun veya yardım için destek ekibimize ulaşın. Taahhütümüz, tüm kullanıcılar için sorunsuz bir deneyim sunmaktadır. DocBits uygulamanızdaki destek düğmesine tıklayarak destek talebi oluşturabilirsiniz.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_purchase_order_supplier.png" alt="DocBits Satın alma Sipariş Tedarikçi"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_docbits_image_5.png" alt="DocBits DocBits Görüntü 5"><figcaption></figcaption></figure>
 
 Ayrıca bize FELLOPRO sayfamız üzerinden ulaşabilirsiniz:
 

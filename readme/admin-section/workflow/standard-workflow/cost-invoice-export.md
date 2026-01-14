@@ -1,6 +1,6 @@
 # Maliyet Faturası - Dışa Aktarım
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.53.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_export_4.png" alt="DocBits Satın alma Sipariş Dışa aktar 4"><figcaption></figcaption></figure>
 
 Bu başlık, kuralın özellikle maliyet faturalarını yönetmek için yapılandırıldığını ve dışa aktarma eylemini içerdiğini belirtir, muhtemelen raporlama, daha fazla işlem veya diğer sistemlerle entegrasyon için.
 

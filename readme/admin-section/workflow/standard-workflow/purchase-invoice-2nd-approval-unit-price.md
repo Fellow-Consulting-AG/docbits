@@ -1,6 +1,6 @@
 # Satın Alma Faturası - 2. Onay Birimi Fiyatı
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.55.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval_invoice_3.png" alt="DocBits Onay Fatura 3"><figcaption></figcaption></figure>
 
 Bu başlık, satın alma faturasının ikinci onay aşamasını yönetmek için kuralların oluşturulduğunu ve özellikle birim fiyatının doğrulanmasına odaklandığını göstermektedir.
 

@@ -1,22 +1,22 @@
 # Modül
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_purchase_order_3.png" alt="DocBits Satın alma Sipariş 3"><figcaption></figcaption></figure>
 
 * **Otomatik Muhasebe**: DocBits, satın alma siparişleri (PO'lar) ve diğer belgelerle ilişkili finansal işlemlerin işlenmesi sürecini kolaylaştıran otomatik muhasebe işlevselliği sunar.
 * **M3 Entegrasyonu**: M3 ile entegrasyon, DocBits ve M3 arasında gelişmiş belge yönetimi ve işleme için sorunsuz etkileşim sağlayan bir ERP yazılım çözümü ile entegrasyon sağlar.
 * **PO Kontrol Paneli**: Satın alma siparişlerini yönetmek ve izlemek için özel olarak tasarlanmış merkezi bir kontrol paneli, verimli izleme ve karar verme için içgörüler ve analitikler sağlar.
 * **Sevkiyat Siparişi Kontrol Paneli**: PO Kontrol Paneli'ne benzer şekilde, bu özellik sevkiyat siparişlerini yönetmeye ve izlemeye odaklanarak lojistik operasyonlarını kolaylaştırır.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.57.52.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_purchase_order_dashboard.png" alt="DocBits Satın alma Sipariş Gösterge Paneli"><figcaption></figcaption></figure>
 
 * **Kontrol Panelleri v2**: Güncellenmiş bir kontrol paneli arayüzü, muhtemelen gelişmiş kullanıcı deneyimi ve artırılmış kullanılabilirlik için ek özelliklerle.
 * **Gelişmiş Sevkiyat Kontrol Paneli**: Sevkiyatla ilgili faaliyetlerin gelişmiş izlenmesi ve yönetimi için özel bir kontrol paneli, daha derin içgörüler ve işlevsellikler sunar.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_purchase_order_dashboard_2.png" alt="DocBits Satın alma Sipariş Gösterge Paneli 2"><figcaption></figcaption></figure>
 
 * **Tedarikçi Portalı**: Tedarikçilere adanmış bir portal, sistemle etkileşimde bulunmalarını sağlayarak tedarik zincirinde iletişimi ve verimliliği artırır.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_purchase_order_3.png" alt="DocBits İş akışı Satın alma Sipariş 3"><figcaption></figcaption></figure>
 
 * **İş Akışı Oluşturucu**: DocBits içinde iş akışlarını oluşturup özelleştirmek için bir araç, kullanıcıların benzersiz iş gereksinimlerine göre belirli süreçleri tanımlamalarına ve belge işlemlerini otomatikleştirmelerine olanak tanır.
 * **Düzen Oluşturucu**: Kullanıcıların belgelerin düzenini ve özelleştirmesini tasarlamalarına olanak tanır, markalama ve kullanılabilirlik standartlarıyla uyum sağlar.

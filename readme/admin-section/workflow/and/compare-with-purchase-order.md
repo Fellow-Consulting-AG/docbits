@@ -2,4 +2,4 @@
 
 
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_6.png" alt="DocBits İş akışı Satın alma Sipariş 6"><figcaption></figcaption></figure>
