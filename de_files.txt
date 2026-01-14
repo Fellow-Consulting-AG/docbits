@@ -1,0 +1,10 @@
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/troubleshooting-1.md
+readme/administration-and-setup/settings/global-settings/document-types/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/using-actions.md
+readme/administration-and-setup/settings/global-settings/email-notification/best-practice.md
+readme/administration-and-setup/settings/global-settings/email-notification/configuring-notifications.md
+readme/administration-and-setup/settings/global-settings/email-notification/managing-notifications.md
+readme/administration-and-setup/settings/global-settings/email-notification/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/integration/api-calls-and-examples.md
+readme/administration-and-setup/settings/global-settings/integration/api-key-management.md
+readme/administration-and-setup/settings/global-settings/integration/api-key.md

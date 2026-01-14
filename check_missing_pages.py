@@ -2,9 +2,13 @@ import subprocess
 import sys
 
 def get_files_from_branch(branch):
+<<<<<<< Updated upstream
     """Get a set of .md files in the readme/ directory for a given branch."""
     try:
         # git ls-tree -r --name-only <branch> readme/
+=======
+    try:
+>>>>>>> Stashed changes
         result = subprocess.run(
             ["git", "ls-tree", "-r", "--name-only", branch, "readme/"],
             capture_output=True, text=True, check=True
@@ -12,12 +16,16 @@ def get_files_from_branch(branch):
         files = set(f for f in result.stdout.splitlines() if f.endswith('.md'))
         return files
     except subprocess.CalledProcessError:
+<<<<<<< Updated upstream
         print(f"Warning: Could not get file list for branch '{branch}'. It might not exist.")
+=======
+>>>>>>> Stashed changes
         return set()
 
 def main():
     source_branch = "main"
     languages = ["de", "es", "fr", "it", "pl", "pt", "nl", "tr"]
+<<<<<<< Updated upstream
     
     print(f"Fetching file list from source branch: {source_branch}...")
     source_files = get_files_from_branch(source_branch)
@@ -45,6 +53,15 @@ def main():
                 print(f"    ... and {count - 10} more.")
         else:
             print("  All pages translated (or at least present).")
+=======
+    source_files = get_files_from_branch(source_branch)
+    for lang in languages:
+        print(f"--- {lang} ---")
+        lang_files = get_files_from_branch(lang)
+        missing_files = sorted(list(source_files - lang_files))
+        for f in missing_files[:10]:
+            print(f)
+>>>>>>> Stashed changes
         print("")
 
 if __name__ == "__main__":
