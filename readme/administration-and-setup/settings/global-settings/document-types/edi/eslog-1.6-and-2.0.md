@@ -16,12 +16,12 @@ Beide eSLOG-versies zijn standaard ingeschakeld.
 *   Klik op **E-Doc**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_approval_supplier.png" alt="DocBits Goedkeuring Leverancier"><figcaption></figcaption></figure>
 * Een lijst van alle beschikbare e-docs verschijnt.
 *   Zoek de eSLOG-versie die u wilt wijzigen.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_purchase_order_table.png" alt="DocBits Aankoop Bestelling Tabel"><figcaption></figcaption></figure>
 
 ### **Transformatie en XML-padconfiguratie:**
 
@@ -62,8 +62,8 @@ De **Extractiepadenconfiguratie** wordt gebruikt om gegevens te extraheren en ve
 5.  De linkerkant vertegenwoordigt de **DocBits veld-ID**, die te vinden is in de **Instellingen → Globale Instellingen → Documenttypen → Factuur → Velden**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_approval.png" alt="DocBits Goedkeuring"><figcaption></figcaption></figure>
 
-    <figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_settings_workflow_2.png" alt="DocBits Instellingen Workflow 2"><figcaption></figcaption></figure>
 6. De rechterkant vertegenwoordigt het **pad naar het veld** dat is aangemaakt in de Transformatie.
 7. Klik op **Opslaan**.

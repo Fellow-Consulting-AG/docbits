@@ -1,6 +1,6 @@
 # Confirmed Delivery Date
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_docbits_image_5.png" alt="DocBits DocBits Afbeelding 5"><figcaption></figcaption></figure>
 
 Purpose: This Docbits card is designed to ensure that the confirmed delivery dates on invoices or shipping documents align with the accepted delivery dates as stipulated in the master data lookup table. It helps manage expectations and adherence to scheduled deliveries within the supply chain.
 

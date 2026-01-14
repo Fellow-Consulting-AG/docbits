@@ -2,7 +2,7 @@
 
 Docbits is een geavanceerd systeem dat is ontworpen om de afstemming van inkoopordergegevens (PO's) met binnenkomende factuurdocumenten te automatiseren. Deze tool is specifiek ontworpen voor efficiënt beheer en verwerking van factuurgegevens binnen ERP-systemen. Deze documentatie legt de basisprincipes van automatische afstemming via Docbits uit en definieert de specifieke regels die nodig zijn voor succesvolle afstemming.
 
-<figure><img src="../../../.gitbook/assets/Automatic Purchase Order Data Matching.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice_3.svg" alt="DocBits Aankoop Bestelling Factuur 3"><figcaption></figcaption></figure>
 
 ## **Fundamentele Principes van Automatische Afstemming in Docbits**
 

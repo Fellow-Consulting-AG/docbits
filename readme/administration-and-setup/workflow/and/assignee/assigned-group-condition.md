@@ -1,6 +1,6 @@
 # Assigned Group Condition
 
-<figure><img src="../../../../.gitbook/assets/image (15).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_purchase_order_export_7.png" alt="DocBits Aankoop Bestelling Exporteren 7" width="563"><figcaption></figcaption></figure>
 
 **Purpose:**
 

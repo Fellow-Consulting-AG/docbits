@@ -4,7 +4,7 @@ In de instelling "Taakbeheer" onder de sectie "Loginstellingen" krijg je een ove
 
 
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_permission.png" alt="DocBits Aankoop Bestelling Toestemming"><figcaption></figcaption></figure>
 
 Je hebt de optie om de lijst te sorteren met de kleine pijltjes naast de kolomnaam.
 

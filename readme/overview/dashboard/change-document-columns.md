@@ -2,7 +2,7 @@
 
 From the Dashboard, click on the Advanced Settings icon as shown below
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_workflow_2.png" alt="DocBits Instellingen Workflow 2"><figcaption></figcaption></figure>
 
 The following menu will then be displayed
 
@@ -16,7 +16,7 @@ From this menu, you can select the column names and use the arrows to add and re
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval.png" alt="DocBits Goedkeuring"><figcaption></figcaption></figure>
 
 </div>
 

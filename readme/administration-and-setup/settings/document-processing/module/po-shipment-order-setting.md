@@ -13,14 +13,14 @@ Om deze functie te activeren:
 3.  Schakel de optie **PO Verzendingsorder** in.\
 
 
-    <div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../../.gitbook/assets/docbits_docbits_image_5.png" alt="DocBits DocBits Afbeelding 5" width="563"><figcaption></figcaption></figure></div>
 
 ## **Waar het verschijnt**
 
 Eenmaal ingeschakeld, wordt de sectie PO Verzendingsorder zichtbaar in de interface Inkooporder Matching.\
 
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_settings_workflow.png" alt="DocBits Instellingen Workflow"><figcaption></figcaption></figure>
 
 ### **PO Verzendingsorder – Veldbeschrijvingen**
 
