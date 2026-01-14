@@ -20,7 +20,11 @@ def main():
         print(f"--- {lang} ---")
         lang_files = get_files_from_branch(lang)
         missing_files = sorted(list(source_files - lang_files))
+<<<<<<< Updated upstream
         for f in missing_files[:100]:
+=======
+        for f in missing_files[:10]:
+>>>>>>> Stashed changes
             print(f)
         print("")
 

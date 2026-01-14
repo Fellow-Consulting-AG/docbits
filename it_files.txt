@@ -1,0 +1,10 @@
+readme/administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/consumed-po-line-status.md
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/adding-a-new-column.md
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/best-practices-2.md
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/editing-and-deleting-columns.md
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/troubleshooting-1.md
+readme/administration-and-setup/settings/global-settings/document-types/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/using-actions.md
+readme/advanced-functions-and-tools/sql-access/sql-access/lookup-configuration.md
+readme/advanced-functions-and-tools/sql-access/sql-access/lookup-field-configuration.md

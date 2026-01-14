@@ -1,130 +1,130 @@
-# Lookup field configuration
+# Lookup-veldconfiguratie
 
-## Tabelle `public.lookup_field_configuration`
+## Tabel `public.lookup_field_configuration`
 
-### Spalten
+### Kolommen
 
-* `id`: internal
-* `org_id`: ID to organisation
-* `lookup_rec_id`: internal
-* `field_id`: internal
-* `lookup_field`: internal
-* `is_searchable`: boolean
-* `parent_field_id`: internal
-* `auto_trigger`: boolean
-* `created_by`: integer
-* `created_on`: timestamp with time zone
-* `last_modified_on`: timestamp with time zone
-* `is_deleted`: boolean
-* `deleted_on`: timestamp with time zone
-* `search_operator`: internal
-* `last_modified_by`: internal
-* `deleted_by`: internal
+* `id`: intern
+* `org_id`: ID naar organisatie
+* `lookup_rec_id`: intern
+* `field_id`: intern
+* `lookup_field`: intern
+* `is_searchable`: booleaans
+* `parent_field_id`: intern
+* `auto_trigger`: booleaans
+* `created_by`: geheel getal
+* `created_on`: tijdstempel met tijdzone
+* `last_modified_on`: tijdstempel met tijdzone
+* `is_deleted`: booleaans
+* `deleted_on`: tijdstempel met tijdzone
+* `search_operator`: intern
+* `last_modified_by`: intern
+* `deleted_by`: intern
 
-### Analyse & Beschreibung
+### Analyse & Beschrijving
 
-## Table Documentation: `public.lookup_field_configuration`
+## Tabeldocumentatie: `public.lookup_field_configuration`
 
-### Introduction
+### Inleiding
 
-The `public.lookup_field_configuration` table appears to be a configuration table used to define and manage lookup fields within an application. The table includes metadata about each field, such as its identifier, associated organization, searchability, and audit information. This table is likely part of a larger system for managing dynamic or user-defined fields, allowing for complex querying and configuration capabilities.
+De `public.lookup_field_configuration`-tabel lijkt een configuratietabel te zijn die wordt gebruikt om lookup-velden binnen een applicatie te definiëren en te beheren. De tabel bevat metagegevens over elk veld, zoals de identificatie, gekoppelde organisatie, doorzoekbaarheid en auditinformatie. Deze tabel maakt waarschijnlijk deel uit van een groter systeem voor het beheren van dynamische of door de gebruiker gedefinieerde velden, waardoor complexe zoek- en configuratiemogelijkheden mogelijk zijn.
 
-### Column Descriptions
+### Kolombeschrijvingen
 
 #### `id`
 
-* **Meaning**: The unique identifier for each record within the table.
-* **Role**: Primary Key.
-* **Typical Contents**: A UUID string that uniquely identifies each configuration entry.
+* **Betekenis**: De unieke identificatie voor elk record in de tabel.
+* **Rol**: Primaire sleutel.
+* **Typische inhoud**: Een UUID-tekenreeks die elke configuratie-invoer uniek identificeert.
 
 #### `org_id`
 
-* **Meaning**: The organization identifier that this configuration is associated with.
-* **Role**: Foreign Key.
-* **Typical Contents**: A UUID string representing the organization.
+* **Betekenis**: De organisatie-identificatie waaraan deze configuratie is gekoppeld.
+* **Rol**: Vreemde sleutel.
+* **Typische inhoud**: Een UUID-tekenreeks die de organisatie vertegenwoordigt.
 
 #### `lookup_rec_id`
 
-* **Meaning**: An identifier for the specific lookup record this configuration applies to.
-* **Role**: Foreign Key.
-* **Typical Contents**: A UUID string referencing a specific lookup record.
+* **Betekenis**: Een identificatie voor het specifieke lookup-record waarop deze configuratie van toepassing is.
+* **Rol**: Vreemde sleutel.
+* **Typische inhoud**: Een UUID-tekenreeks die verwijst naar een specifiek lookup-record.
 
 #### `field_id`
 
-* **Meaning**: The identifier of the field being configured.
-* **Role**: Foreign Key.
-* **Typical Contents**: A UUID string referencing a particular field.
+* **Betekenis**: De identificatie van het veld dat wordt geconfigureerd.
+* **Rol**: Vreemde sleutel.
+* **Typische inhoud**: Een UUID-tekenreeks die verwijst naar een bepaald veld.
 
 #### `lookup_field`
 
-* **Meaning**: The name or label of the field being configured.
-* **Role**: Descriptive Field.
-* **Typical Contents**: A string representing the field name, such as "address\_1" or "taxratefree".
+* **Betekenis**: De naam of het label van het veld dat wordt geconfigureerd.
+* **Rol**: Beschrijvend veld.
+* **Typische inhoud**: Een tekenreeks die de veldnaam vertegenwoordigt, zoals "address\_1" of "taxratefree".
 
 #### `is_searchable`
 
-* **Meaning**: Indicates whether the field can be included in search operations.
-* **Role**: Configuration Flag.
-* **Typical Contents**: A boolean value (`True` or `False`).
+* **Betekenis**: Geeft aan of het veld kan worden opgenomen in zoekopdrachten.
+* **Rol**: Configuratievlag.
+* **Typische inhoud**: Een booleaanse waarde (`True` of `False`).
 
 #### `parent_field_id`
 
-* **Meaning**: Identifier of the parent field, if applicable.
-* **Role**: Foreign Key.
-* **Typical Contents**: A UUID string or `None` if no parent field exists.
+* **Betekenis**: Identificatie van het bovenliggende veld, indien van toepassing.
+* **Rol**: Vreemde sleutel.
+* **Typische inhoud**: Een UUID-tekenreeks of `None` als er geen bovenliggend veld bestaat.
 
 #### `auto_trigger`
 
-* **Meaning**: Specifies if the field configuration should automatically trigger certain actions.
-* **Role**: Configuration Flag.
-* **Typical Contents**: A boolean value (`True` or `False`).
+* **Betekenis**: Specificeert of de veldconfiguratie automatisch bepaalde acties moet activeren.
+* **Rol**: Configuratievlag.
+* **Typische inhoud**: Een booleaanse waarde (`True` of `False`).
 
 #### `created_by`
 
-* **Meaning**: The identifier of the user who created the configuration entry.
-* **Role**: Audit Field.
-* **Typical Contents**: An integer representing the user ID.
+* **Betekenis**: De identificatie van de gebruiker die de configuratie-invoer heeft gemaakt.
+* **Rol**: Auditveld.
+* **Typische inhoud**: Een geheel getal dat de gebruikers-ID vertegenwoordigt.
 
 #### `created_on`
 
-* **Meaning**: The timestamp when the configuration entry was created.
-* **Role**: Audit Field.
-* **Typical Contents**: A timestamp with timezone information.
+* **Betekenis**: De tijdstempel wanneer de configuratie-invoer is gemaakt.
+* **Rol**: Auditveld.
+* **Typische inhoud**: Een tijdstempel met tijdzone-informatie.
 
 #### `last_modified_on`
 
-* **Meaning**: The timestamp of the most recent modification to the configuration entry.
-* **Role**: Audit Field.
-* **Typical Contents**: A timestamp with timezone information, or `None` if never modified.
+* **Betekenis**: De tijdstempel van de meest recente wijziging aan de configuratie-invoer.
+* **Rol**: Auditveld.
+* **Typische inhoud**: Een tijdstempel met tijdzone-informatie, of `None` indien nooit gewijzigd.
 
 #### `is_deleted`
 
-* **Meaning**: Indicates if the configuration entry has been marked as deleted.
-* **Role**: Soft Delete Flag.
-* **Typical Contents**: A boolean value (`True` or `False`).
+* **Betekenis**: Geeft aan of de configuratie-invoer als verwijderd is gemarkeerd.
+* **Rol**: Vlag voor zachte verwijdering (Soft Delete).
+* **Typische inhoud**: Een booleaanse waarde (`True` of `False`).
 
 #### `deleted_on`
 
-* **Meaning**: The timestamp when the configuration entry was marked as deleted.
-* **Role**: Audit Field.
-* **Typical Contents**: A timestamp with timezone information, or `None` if not deleted.
+* **Betekenis**: De tijdstempel wanneer de configuratie-invoer als verwijderd is gemarkeerd.
+* **Rol**: Auditveld.
+* **Typische inhoud**: Een tijdstempel met tijdzone-informatie, of `None` indien niet verwijderd.
 
 #### `search_operator`
 
-* **Meaning**: Defines the search operator used for the field.
-* **Role**: Configuration Field.
-* **Typical Contents**: A string such as "contains" indicating the type of search operation.
+* **Betekenis**: Definieert de zoekoperator die voor het veld wordt gebruikt.
+* **Rol**: Configuratieveld.
+* **Typische inhoud**: Een tekenreeks zoals "contains" die het type zoekbewerking aangeeft.
 
 #### `last_modified_by`
 
-* **Meaning**: Identifier of the user who last modified the configuration entry.
-* **Role**: Audit Field.
-* **Typical Contents**: A UUID string or `None` if never modified.
+* **Betekenis**: Identificatie van de gebruiker die de configuratie-invoer voor het laatst heeft gewijzigd.
+* **Rol**: Auditveld.
+* **Typische inhoud**: Een UUID-tekenreeks of `None` indien nooit gewijzigd.
 
 #### `deleted_by`
 
-* **Meaning**: Identifier of the user who marked the entry as deleted.
-* **Role**: Audit Field.
-* **Typical Contents**: A UUID string or `None` if not deleted.
+* **Betekenis**: Identificatie van de gebruiker die de invoer als verwijderd heeft gemarkeerd.
+* **Rol**: Auditveld.
+* **Typische inhoud**: Een UUID-tekenreeks of `None` indien niet verwijderd.
 
-This documentation provides a detailed view into the structure and purpose of each column in the `public.lookup_field_configuration` table, offering developers a comprehensive understanding of how lookup fields are configured and managed within the system.
+Deze documentatie biedt een gedetailleerd overzicht van de structuur en het doel van elke kolom in de `public.lookup_field_configuration`-tabel, en biedt ontwikkelaars een uitgebreid inzicht in hoe lookup-velden binnen het systeem worden geconfigureerd en beheerd.

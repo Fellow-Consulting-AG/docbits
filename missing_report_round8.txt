@@ -1,0 +1,96 @@
+--- de ---
+readme/administration-and-setup/settings/global-settings/integration/best-practices.md
+readme/administration-and-setup/settings/global-settings/integration/configuring-single-sign-on-sso/sso-configuration/README.md
+readme/administration-and-setup/settings/global-settings/integration/configuring-single-sign-on-sso/sso-configuration/azure-sso.md
+readme/administration-and-setup/settings/global-settings/integration/configuring-single-sign-on-sso/sso-configuration/v1.md
+readme/administration-and-setup/settings/global-settings/integration/configuring-single-sign-on-sso/sso-configuration/v2.md
+readme/administration-and-setup/settings/global-settings/integration/identity-service-provider-configuration.md
+readme/administration-and-setup/settings/global-settings/integration/troubleshooting-common-issues.md
+readme/administration-and-setup/settings/supplier-setting/supplier-layout.md
+readme/administration-and-setup/settings/supplier-setting/supplier-permissions.md
+readme/administration-and-setup/setup/document-types/README.md
+
+--- es ---
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/using-the-template-preview.md
+readme/administration-and-setup/settings/global-settings/document-types/regex/editing-and-saving-regex-patterns.md
+readme/administration-and-setup/settings/global-settings/document-types/regex/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/regex/troubleshooting-3.md
+readme/administration-and-setup/settings/global-settings/document-types/script/best-practices-5.md
+readme/administration-and-setup/settings/global-settings/document-types/script/creating-and-editing-scripts.md
+readme/administration-and-setup/settings/global-settings/document-types/script/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/script/script-activation-and-management.md
+readme/administration-and-setup/settings/global-settings/document-types/script/scripting-in-docbits/usd-as-default-currency.md
+
+--- fr ---
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/using-the-template-preview.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/import-data-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/manage-training-data.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/testing-the-model.md
+readme/administration-and-setup/settings/global-settings/document-types/regex/creating-a-regex-pattern.md
+readme/administration-and-setup/settings/global-settings/document-types/regex/editing-and-saving-regex-patterns.md
+readme/administration-and-setup/settings/global-settings/document-types/regex/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/regex/troubleshooting-3.md
+
+--- it ---
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/using-the-template-preview.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/import-data-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/manage-training-data.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/testing-the-model.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md
+
+--- pl ---
+readme/administration-and-setup/settings/global-settings/document-types/model-training/best-practices.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/import-data-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/manage-training-data.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/purpose-and-use-model-training.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/testing-the-model.md
+readme/administration-and-setup/settings/global-settings/document-types/model-training/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md
+readme/administration-and-setup/settings/global-settings/document-types/purpose-and-scope.md
+readme/administration-and-setup/settings/global-settings/document-types/regex/best-practices-4.md
+readme/administration-and-setup/settings/global-settings/document-types/regex/creating-a-regex-pattern.md
+
+--- pt ---
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/layout-manager/using-the-template-preview.md
+readme/administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/consumed-po-line-status.md
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/adding-a-new-column.md
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/best-practices-2.md
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/editing-and-deleting-columns.md
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/purpose-and-use.md
+readme/administration-and-setup/settings/global-settings/document-types/table-columns/troubleshooting-1.md
+readme/administration-and-setup/settings/global-settings/document-types/troubleshooting.md
+readme/administration-and-setup/settings/global-settings/document-types/using-actions.md
+
+--- nl ---
+readme/advanced-functions-and-tools/sql-access/sql-access/lookup-configuration.md
+readme/advanced-functions-and-tools/sql-access/sql-access/lookup-field-configuration.md
+readme/advanced-functions-and-tools/sql-access/sql-access/lookup-table.md
+readme/advanced-functions-and-tools/sql-access/sql-access/organisation-document-type.md
+readme/advanced-functions-and-tools/sql-access/sql-access/po-match-tolerance.md
+readme/advanced-functions-and-tools/sql-access/sql-access/preferences.md
+readme/advanced-functions-and-tools/sql-access/sql-access/public.document_log.md
+readme/advanced-functions-and-tools/sql-access/sql-access/purchase-order-line.md
+readme/advanced-functions-and-tools/sql-access/sql-access/receive-delivery-line.md
+readme/advanced-functions-and-tools/sql-access/sql-access/rest-api-lookup-configurations.md
+
+--- tr ---
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/charge-per-unit-outside-tolerance-approved.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/charge-per-unit-outside-tolerance-rejected-1.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/charge-per-unit-outside-tolerance-rejected.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/charge-per-unit-within-tolerance.md
+readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/tax-lines.md
+readme/administration-and-setup/settings/global-settings/README.md
+readme/administration-and-setup/settings/global-settings/company-information/README.md
+readme/administration-and-setup/settings/global-settings/company-information/company-preferences.md
+readme/administration-and-setup/settings/global-settings/company-information/defining-app-color-in-company-settings.md
+readme/administration-and-setup/settings/global-settings/dashboard/README.md
+

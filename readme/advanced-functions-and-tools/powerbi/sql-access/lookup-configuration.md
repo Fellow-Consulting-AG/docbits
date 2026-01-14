@@ -1,128 +1,128 @@
-# Lookup Configuration
+# Lookup-configuratie
 
-## Tabelle `public.lookup_configuration`
+## Tabel `public.lookup_configuration`
 
-### Spalten
+### Kolommen
 
-* `id`: internal
-* `org_id`: ID to organisation
-* `doc_type`: DOC Type
-* `lookup_dataset_name`: internal
-* `lookup_name`: internal
-* `conflict_handle`: internal
-* `created_by`: integer
-* `created_on`: timestamp with time zone
-* `last_modified_on`: timestamp with time zone
-* `is_deleted`: boolean
-* `deleted_on`: timestamp with time zone
-* `match_all`: boolean
-* `last_modified_by`: internal
-* `deleted_by`: internal
-* `context`: internal
-* `context_detail`: internal
+* `id`: intern
+* `org_id`: ID naar organisatie
+* `doc_type`: DOC-type
+* `lookup_dataset_name`: intern
+* `lookup_name`: intern
+* `conflict_handle`: intern
+* `created_by`: geheel getal
+* `created_on`: tijdstempel met tijdzone
+* `last_modified_on`: tijdstempel met tijdzone
+* `is_deleted`: booleaans
+* `deleted_on`: tijdstempel met tijdzone
+* `match_all`: booleaans
+* `last_modified_by`: intern
+* `deleted_by`: intern
+* `context`: intern
+* `context_detail`: intern
 
-### Analyse & Beschreibung
+### Analyse & Beschrijving
 
-## Technical Documentation for `public.lookup_configuration` Table
+## Technische documentatie voor `public.lookup_configuration` tabel
 
-### Introduction
+### Inleiding
 
-The `public.lookup_configuration` table is designed to store configuration settings for various data lookup operations within an organization. It includes information about the organization, the type of documents involved, and specific datasets and names used for lookups. The table also tracks the creation and modification of these configurations, as well as their current status (active or deleted).
+De `public.lookup_configuration`-tabel is ontworpen om configuratie-instellingen op te slaan voor verschillende gegevensopzoekbewerkingen binnen een organisatie. Het bevat informatie over de organisatie, het type documenten dat erbij betrokken is, en specifieke datasets en namen die voor lookups worden gebruikt. De tabel houdt ook de aanmaak en wijziging van deze configuraties bij, evenals hun huidige status (actief of verwijderd).
 
-### Column Descriptions
+### Kolombeschrijvingen
 
 #### id
 
-* **Meaning**: A unique identifier for each lookup configuration entry in the table.
-* **Role**: Primary key that uniquely identifies each row.
-* **Typical Contents**: UUID values, e.g., `'68454d10-e045-4d64-8dd3-774bcb5b6013'`.
+* **Betekenis**: Een unieke identificatie voor elke lookup-configuratie-invoer in de tabel.
+* **Rol**: Primaire sleutel die elke rij uniek identificeert.
+* **Typische inhoud**: UUID-waarden, bijv. `'68454d10-e045-4d64-8dd3-774bcb5b6013'`.
 
 #### org\_id
 
-* **Meaning**: Represents the organization associated with the lookup configuration.
-* **Role**: Foreign key, linking to an organization in another table.
-* **Typical Contents**: UUID values indicating organization identifiers, e.g., `'23f3d697-7411-4c95-981d-faf089d266be'`.
+* **Betekenis**: Vertegenwoordigt de organisatie die is gekoppeld aan de lookup-configuratie.
+* **Rol**: Vreemde sleutel, gekoppeld aan een organisatie in een andere tabel.
+* **Typische inhoud**: UUID-waarden die organisatie-identificaties aangeven, bijv. `'23f3d697-7411-4c95-981d-faf089d266be'`.
 
 #### doc\_type
 
-* **Meaning**: Specifies the type of document that the lookup configuration applies to.
-* **Role**: Descriptive field indicating the context of the configuration.
-* **Typical Contents**: Strings like `'MEDI_ORDER'`, `'INVOICE'`, etc.
+* **Betekenis**: Specificeert het type document waarop de lookup-configuratie van toepassing is.
+* **Rol**: Beschrijvend veld dat de context van de configuratie aangeeft.
+* **Typische inhoud**: Tekenreeksen zoals `'MEDI_ORDER'`, `'INVOICE'`, enz.
 
 #### lookup\_dataset\_name
 
-* **Meaning**: The name of the dataset used for performing lookups.
-* **Role**: Descriptive field used to identify datasets.
-* **Typical Contents**: Descriptive strings such as `'customer_tini'`, `'supplier'`.
+* **Betekenis**: De naam van de dataset die wordt gebruikt voor het uitvoeren van lookups.
+* **Rol**: Beschrijvend veld dat wordt gebruikt om datasets te identificeren.
+* **Typische inhoud**: Beschrijvende tekenreeksen zoals `'customer_tini'`, `'supplier'`.
 
 #### lookup\_name
 
-* **Meaning**: The specific name or alias used for the lookup operation.
-* **Role**: Descriptive field indicating the operational name.
-* **Typical Contents**: Strings like `'customer_tini'`, `'supplier (copy)'`.
+* **Betekenis**: De specifieke naam of alias die wordt gebruikt voor de lookup-bewerking.
+* **Rol**: Beschrijvend veld dat de operationele naam aangeeft.
+* **Typische inhoud**: Tekenreeksen zoals `'customer_tini'`, `'supplier (copy)'`.
 
 #### conflict\_handle
 
-* **Meaning**: Indicates the strategy to handle conflicts during lookups.
-* **Role**: Descriptive field for conflict resolution strategy.
-* **Typical Contents**: Values such as `'BEST_SCORE'`, `'RETURN_NONE'`.
+* **Betekenis**: Geeft de strategie aan om conflicten tijdens lookups af te handelen.
+* **Rol**: Beschrijvend veld voor strategie voor conflictoplossing.
+* **Typische inhoud**: Waarden zoals `'BEST_SCORE'`, `'RETURN_NONE'`.
 
 #### created\_by
 
-* **Meaning**: The ID of the user who created the lookup configuration.
-* **Role**: Technical field for tracking the creator of the entry.
-* **Typical Contents**: Integer values representing user IDs, e.g., `1`.
+* **Betekenis**: De ID van de gebruiker die de lookup-configuratie heeft gemaakt.
+* **Rol**: Technisch veld voor het volgen van de maker van de invoer.
+* **Typische inhoud**: Gehele getallen die gebruikers-ID's vertegenwoordigen, bijv. `1`.
 
 #### created\_on
 
-* **Meaning**: Timestamp when the lookup configuration was created.
-* **Role**: Technical field for tracking creation time.
-* **Typical Contents**: Timestamps, e.g., `2024-02-08 11:24:14 UTC`.
+* **Betekenis**: Tijdstempel wanneer de lookup-configuratie is gemaakt.
+* **Rol**: Technisch veld voor het volgen van de aanmaaktijd.
+* **Typische inhoud**: Tijdstempels, bijv. `2024-02-08 11:24:14 UTC`.
 
 #### last\_modified\_on
 
-* **Meaning**: Timestamp of the last modification made to the lookup configuration.
-* **Role**: Technical field for tracking the last update time.
-* **Typical Contents**: Timestamps, usually `None` if not modified.
+* **Betekenis**: Tijdstempel van de laatste wijziging die is aangebracht in de lookup-configuratie.
+* **Rol**: Technisch veld voor het volgen van de laatste updatetijd.
+* **Typische inhoud**: Tijdstempels, meestal `None` indien niet gewijzigd.
 
 #### is\_deleted
 
-* **Meaning**: Indicates whether the lookup configuration has been marked as deleted.
-* **Role**: Boolean field for status tracking.
-* **Typical Contents**: Boolean values, `False` for active entries.
+* **Betekenis**: Geeft aan of de lookup-configuratie als verwijderd is gemarkeerd.
+* **Rol**: Booleaans veld voor statusregistratie.
+* **Typische inhoud**: Booleaanse waarden, `False` voor actieve invoeren.
 
 #### deleted\_on
 
-* **Meaning**: Timestamp of when the lookup configuration was marked as deleted.
-* **Role**: Technical field for tracking deletion time.
-* **Typical Contents**: Often default to a placeholder date, e.g., `0002-01-01 11:00:00 UTC`.
+* **Betekenis**: Tijdstempel van wanneer de lookup-configuratie als verwijderd is gemarkeerd.
+* **Rol**: Technisch veld voor het volgen van de verwijderingstijd.
+* **Typische inhoud**: Vaak standaard een plaatshouderdatum, bijv. `0002-01-01 11:00:00 UTC`.
 
 #### match\_all
 
-* **Meaning**: Specifies if the lookup should match all conditions.
-* **Role**: Boolean field for configuration settings.
-* **Typical Contents**: Boolean values, typically `False`.
+* **Betekenis**: Specificeert of de lookup aan alle voorwaarden moet voldoen.
+* **Rol**: Booleaans veld voor configuratie-instellingen.
+* **Typische inhoud**: Booleaanse waarden, meestal `False`.
 
 #### last\_modified\_by
 
-* **Meaning**: The ID of the user who last modified the lookup configuration.
-* **Role**: Technical field for tracking the user who last updated the entry.
-* **Typical Contents**: UUID or identifier of the modifying user, often `None`.
+* **Betekenis**: De ID van de gebruiker die de lookup-configuratie voor het laatst heeft gewijzigd.
+* **Rol**: Technisch veld voor het volgen van de gebruiker die de invoer voor het laatst heeft bijgewerkt.
+* **Typische inhoud**: UUID of identificatie van de wijzigende gebruiker, vaak `None`.
 
 #### deleted\_by
 
-* **Meaning**: The ID of the user who marked the lookup configuration as deleted.
-* **Role**: Technical field for tracking the user responsible for deletion.
-* **Typical Contents**: UUID or identifier, often `None`.
+* **Betekenis**: De ID van de gebruiker die de lookup-configuratie als verwijderd heeft gemarkeerd.
+* **Rol**: Technisch veld voor het volgen van de gebruiker die verantwoordelijk is voor verwijdering.
+* **Typische inhoud**: UUID of identificatie, vaak `None`.
 
 #### context
 
-* **Meaning**: The context in which the lookup is applied, such as a section of a document.
-* **Role**: Descriptive field for operational context.
-* **Typical Contents**: Strings like `'header'`.
+* **Betekenis**: De context waarin de lookup wordt toegepast, zoals een sectie van een document.
+* **Rol**: Beschrijvend veld voor operationele context.
+* **Typische inhoud**: Tekenreeksen zoals `'header'`.
 
 #### context\_detail
 
-* **Meaning**: Additional details about the context for the lookup.
-* **Role**: Descriptive field for extended context information.
-* **Typical Contents**: Often `None`, used for additional context description.
+* **Betekenis**: Aanvullende details over de context voor de lookup.
+* **Rol**: Beschrijvend veld voor uitgebreide contextinformatie.
+* **Typische inhoud**: Vaak `None`, gebruikt voor aanvullende contextbeschrijving.

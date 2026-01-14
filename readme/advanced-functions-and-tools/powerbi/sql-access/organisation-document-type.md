@@ -1,108 +1,58 @@
-# Organisation document type
+# Organisatie Documenttype
 
-## Spalten
+## Tabel `public.organisation_document_type`
 
-* `id`: internal
-* `org_id`: ID to organisation
-* `document_type_id`: internal
-* `document_type_key`: internal
-* `document_locale`: internal
-* `classification_method`: internal
-* `is_active`: boolean
-* `extraction_type`: internal
-* `created_by`: integer
-* `created_on`: timestamp with time zone
-* `last_modified_on`: timestamp with time zone
-* `is_deleted`: boolean
-* `sub_org_id`: internal
+### Kolommen
 
-## Analyse & Beschreibung
+* `id`: intern
+* `document_type_id`: intern
+* `organisation_id`: intern
+* `created_on`: tijdstempel met tijdzone
+* `created_by`: intern
+* `is_active`: booleaans
 
-```markdown
-# Technical Documentation for Table `public.organisation_document_type`
+### Analyse & Beschrijving
 
-## Introduction
+## Technische documentatie voor `public.organisation_document_type` tabel
 
-The `public.organisation_document_type` table is designed to manage and store information about various document types associated with organizations. This includes details such as the document type key, locale, classification methods, and the status of the document type (active, deleted, etc.). It appears to serve as a mapping between organizations and the types of documents they utilize or manage, alongside metadata about these documents.
+### Inleiding
 
-## Column Descriptions
+De `public.organisation_document_type` tabel wordt gebruikt om de associatie tussen organisaties en documenttypen te beheren. Het definieert welke documenttypen beschikbaar en actief zijn voor specifieke organisaties binnen het systeem. Deze tabel is essentieel voor het configureren van documentspecificaties per organisatie.
 
-### id
-- **Meaning**: Unique identifier for each record in the table.
-- **Role**: Primary key.
-- **Typical Contents**: A UUID string that uniquely identifies a document type entry.
-- **Note**: Essential for distinguishing each record.
+### Kolombeschrijvingen
 
-### org_id
-- **Meaning**: Identifier for the organization related to the document type.
-- **Role**: Foreign key, likely referencing an organization table.
-- **Typical Contents**: A UUID string.
-- **Note**: Connects the document type to a specific organization.
+#### id
 
-### document_type_id
-- **Meaning**: Identifier for the document type.
-- **Role**: Foreign key, possibly linked to a document types reference table.
-- **Typical Contents**: A UUID string.
-- **Note**: Allows mapping to specific document types.
+* **Betekenis**: Een unieke identificatie voor de koppeling tussen organisatie en documenttype.
+* **Rol**: Primaire sleutel.
+* **Typische inhoud**: UUID-waarden, bijv. `'b2c3d4e5-f6a7-8901-2345-67890abcdef1'`.
 
-### document_type_key
-- **Meaning**: A key or code representing the document type.
-- **Role**: Descriptive field for document type classification.
-- **Typical Contents**: A string that acts as an identifier or label for the document type.
-- **Note**: Used to identify the document type in a human-readable form.
+#### document\_type\_id
 
-### document_locale
-- **Meaning**: Locale or language setting for the document type.
-- **Role**: Descriptive field for locale specification.
-- **Typical Contents**: A string, often 'auto', indicating automatic determination of locale.
-- **Note**: Useful for internationalization and localization purposes.
+* **Betekenis**: De identificatie van het documenttype.
+* **Rol**: Vreemde sleutel, verwijzend naar de documenttypen-tabel.
+* **Typische inhoud**: UUID-waarden die specifieke documenttypen vertegenwoordigen, zoals Factuur, Bestelling, enz.
 
-### classification_method
-- **Meaning**: Method used for classifying the document type.
-- **Role**: Descriptive field indicating how the document is classified.
-- **Typical Contents**: A string, often 'auto', suggesting automatic classification.
-- **Note**: Important for understanding the classification process.
+#### organisation\_id
 
-### is_active
-- **Meaning**: Status indicating if the document type is active.
-- **Role**: Boolean status field.
-- **Typical Contents**: `True` or `False`.
-- **Note**: Determines whether the document type is currently in use.
+* **Betekenis**: De identificatie van de organisatie.
+* **Rol**: Vreemde sleutel, verwijzend naar de organisatietabel.
+* **Typische inhoud**: UUID-waarden die de organisatie identificeren.
 
-### extraction_type
-- **Meaning**: Type of extraction method used for the document.
-- **Role**: Descriptive field for extraction process.
-- **Typical Contents**: Strings like 'FIX_COORDINATES', 'FLEX_COORDINATES', or `None`.
-- **Note**: Provides insight into how data is extracted from documents.
+#### created\_on
 
-### created_by
-- **Meaning**: Identifier for the user who created the record.
-- **Role**: Technical field for auditing purposes.
-- **Typical Contents**: An integer representing a user ID.
-- **Note**: Useful for tracking changes and accountability.
+* **Betekenis**: De datum en tijd waarop de koppeling is gemaakt.
+* **Rol**: Auditveld.
+* **Typische inhoud**: Tijdstempels met tijdzone, bijv. `2024-03-15 09:30:00 UTC`.
 
-### created_on
-- **Meaning**: Timestamp of when the record was created.
-- **Role**: Technical field for auditing purposes.
-- **Typical Contents**: A timestamp with time zone.
-- **Note**: Important for tracking the creation date and time of the record.
+#### created\_by
 
-### last_modified_on
-- **Meaning**: Timestamp of the last modification to the record.
-- **Role**: Technical field for auditing purposes.
-- **Typical Contents**: A timestamp with time zone.
-- **Note**: Useful for tracking updates and changes to the record.
+* **Betekenis**: De gebruiker die de koppeling heeft gemaakt.
+* **Rol**: Auditveld.
+* **Typische inhoud**: Gebruikers-ID of systeemidentificatie.
 
-### is_deleted
-- **Meaning**: Status indicating if the record has been marked as deleted.
-- **Role**: Boolean status field.
-- **Typical Contents**: `True` or `False`.
-- **Note**: Helps in implementing soft-delete functionality.
+#### is\_active
 
-### sub_org_id
-- **Meaning**: Identifier for a sub-organization related to the document type.
-- **Role**: Possible foreign key, adding hierarchical organization structure.
-- **Typical Contents**: A UUID string or `None`.
-- **Note**: Provides additional context for organization structure.
-
-```
+* **Betekenis**: Geeft aan of de koppeling tussen het documenttype en de organisatie momenteel actief is.
+* **Rol**: Statusvlag.
+* **Typische inhoud**: Booleaanse waarden (`True` of `False`).
