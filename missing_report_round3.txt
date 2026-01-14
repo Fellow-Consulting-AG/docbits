@@ -1,0 +1,131 @@
+Fetching file list from source branch: main...
+Total documentation pages in 'main': 759
+
+--- Checking language: de ---
+  Pages present: 564
+  Missing pages: 408
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-3.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-cross-industry-invoice.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/best-practices-6.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-810-invoice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-850-purchase-order-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-855-purchase-order-acknowledgement-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-mappings/edi-856-advance-shipment-notice-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/edi-videos.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/previewing-edi-messages.md
+    ... and 398 more.
+
+--- Checking language: es ---
+  Pages present: 546
+  Missing pages: 406
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/customization-options.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/roadmap.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/facturx.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-1.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.3.md
+    ... and 396 more.
+
+--- Checking language: fr ---
+  Pages present: 554
+  Missing pages: 407
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/roadmap.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/facturx.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-1.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.3.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-3.0.md
+    ... and 397 more.
+
+--- Checking language: it ---
+  Pages present: 552
+  Missing pages: 408
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/creating-a-new-sub-type.md
+    - readme/administration-and-setup/settings/global-settings/document-types/customization-options.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/roadmap.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/facturx.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-1.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.2.md
+    ... and 398 more.
+
+--- Checking language: pl ---
+  Pages present: 550
+  Missing pages: 434
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/customization-options.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/roadmap.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/facturx.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-1.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.3.md
+    ... and 424 more.
+
+--- Checking language: pt ---
+  Pages present: 561
+  Missing pages: 434
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/customization-options.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/currently-supported-e-invoice-standards/roadmap.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/facturx.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-1.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.0.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/e-invoice-examples/xrechnung-2.3.md
+    ... and 424 more.
+
+--- Checking language: nl ---
+  Pages present: 823
+  Missing pages: 58
+  Missing files list (top 10):
+    - readme/administration-and-setup/workflow/changelog/card-versioning.md
+    - readme/administration-and-setup/workflow/changelog/documentation-enhancements.md
+    - readme/administration-and-setup/workflow/patterns/README.md
+    - readme/administration-and-setup/workflow/patterns/api-integration-pattern.md
+    - readme/administration-and-setup/workflow/patterns/data-transformation-pattern.md
+    - readme/administration-and-setup/workflow/patterns/decision-logic-pattern.md
+    - readme/administration-and-setup/workflow/patterns/po-matching-pattern.md
+    - readme/administration-and-setup/workflow/patterns/task-management-pattern.md
+    - readme/advanced-functions-and-tools/powerbi/connect-via-read-only-database.md
+    - readme/advanced-functions-and-tools/powerbi/powerbi.md
+    ... and 48 more.
+
+--- Checking language: tr ---
+  Pages present: 334
+  Missing pages: 613
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/document-processing/documents-expiry.md
+    - readme/administration-and-setup/settings/document-processing/export.md
+    - readme/administration-and-setup/settings/document-processing/import/README.md
+    - readme/administration-and-setup/settings/document-processing/import/o365-tenant.md
+    - readme/administration-and-setup/settings/document-processing/import/test-email-import-and-handling-tests.md
+    - readme/administration-and-setup/settings/document-processing/import/test-file-import-1.md
+    - readme/administration-and-setup/settings/document-processing/import/test-ftp-import-connection.md
+    - readme/administration-and-setup/settings/document-processing/import/test-multi-email-import-and-handling-tests.md
+    - readme/administration-and-setup/settings/document-processing/list-of-values.md
+    - readme/administration-and-setup/settings/document-processing/master-data-lookup.md
+    ... and 603 more.
+
