@@ -1,6 +1,6 @@
 # Precio unitario combinado con campos
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.24.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice_2.png" alt="DocBits Compra Pedido Factura 2"><figcaption></figcaption></figure>
 
 Propósito: Esta tarjeta de DocBits facilita la comparación detallada de los precios unitarios en las facturas con los especificados en las órdenes de compra correspondientes. Mejora la precisión en los informes financieros al garantizar el cumplimiento de los precios acordados.
 

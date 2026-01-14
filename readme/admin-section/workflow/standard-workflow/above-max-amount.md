@@ -1,6 +1,6 @@
 # Por Encima del Monto Máximo
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_invoice_2.png" alt="DocBits Factura 2"><figcaption></figcaption></figure>
 
 Este título indica que la regla está diseñada para gestionar casos en los que el total de la factura es mayor que el monto máximo que un aprobador está autorizado a manejar.
 

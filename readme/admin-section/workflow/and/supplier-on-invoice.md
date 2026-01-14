@@ -1,6 +1,6 @@
 # Proveedor en la factura
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_supplier_invoice.png" alt="DocBits Proveedor Factura"><figcaption></figcaption></figure>
 
 #### **Propósito**
 

@@ -1,6 +1,6 @@
 # Precio combinado de la diferencia de cantidad
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-02 um 14.20.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_purchase_order_invoice.png" alt="DocBits Compra Pedido Factura"><figcaption></figcaption></figure>
 
 Propósito: Esta tarjeta de DocBits está diseñada para agilizar el proceso de verificación de facturas al comparar el precio total calculado de la factura con la orden de compra correspondiente.
 

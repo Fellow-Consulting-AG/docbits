@@ -2,7 +2,7 @@
 
 {% embed url="https://youtu.be/OmYbGG0ea0w?si=7okB6WP8kiKIZuec" %}
 
-<figure><img src="../../../.gitbook/assets/EDI (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_docbits_image_4.png" alt="DocBits DocBits Imagen 4"><figcaption></figcaption></figure>
 
 #### Paso 1: Descriptor de Estructura
 

@@ -126,9 +126,9 @@ También es posible ingresar el estado en el flujo de trabajo, para que la perso
 
 &#x20;                            **Cambiar Estado a:**          Aprobación Pendiente
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_2.png" alt="DocBits Aprobación 2"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/15 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_purchase_order_2.png" alt="DocBits Flujo de trabajo Compra Pedido 2"><figcaption></figcaption></figure>
 
 
 
@@ -136,7 +136,7 @@ También es posible ingresar el estado en el flujo de trabajo, para que la perso
 
 Por ejemplo, si falta cierta información importante en un documento, pero es importante y debe incluirse para su procesamiento posterior, puedes configurar el flujo de trabajo para que estos documentos se envíen de inmediato al comprador y a un sustituto.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_5.png" alt="DocBits Flujo de trabajo 5"><figcaption></figcaption></figure>
 
 
 
@@ -148,11 +148,11 @@ Puedes asignar a estos documentos un estado específico o asignarlos a un emplea
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval_permission.png" alt="DocBits Aprobación Permiso"><figcaption></figcaption></figure>
 
 </div>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_purchase_order_4.png" alt="DocBits Compra Pedido 4"><figcaption></figcaption></figure>
 
 **Tarjeta Lógica: Coincidencia de Cantidad o Precio Unitario o Descuento**
 
@@ -182,7 +182,7 @@ Esta tarjeta lógica es vital para garantizar que los detalles de una confirmaci
 
 Si tienes un cálculo diferente para recargos, o solo los tienes en algunos artículos, puedes utilizar las tarjetas de cálculo de tabla genéricas, algunas de ellas también permiten filtrar por expresiones regulares.
 
-<figure><img src="../../.gitbook/assets/19 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_table_invoice.png" alt="DocBits Tabla Factura"><figcaption></figcaption></figure>
 
 Arriba hay un ejemplo de cálculo para MTZ con un filtro para números de artículo que comienzan con 01, 06, 9, 001 o 000.
 
@@ -192,7 +192,7 @@ Con una configuración manual, se recomienda dividir los cálculos que dependen 
 
 **Ejecutar Flujo de Trabajo**
 
-<figure><img src="../../.gitbook/assets/20 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_2.png" alt="DocBits Flujo de trabajo 2"><figcaption></figcaption></figure>
 
 Con esta tarjeta, puedes especificar el nombre de un flujo de trabajo que se ejecutará después del flujo de trabajo actual si se cumplen sus condiciones y después de las tarjetas then anteriores del flujo de trabajo actual. Si bien prioriza los flujos de trabajo ejecutables y activos, también te permite ejecutar flujos de trabajo desactivados si el documento cumple las condiciones de los flujos de trabajo.
 ### **Agregar recargos calculados en una columna existente** <a href="#pekg4i18rshn" id="pekg4i18rshn"></a>
@@ -205,6 +205,6 @@ Si deseas agregar todos los recargos como un descuento negativo en la columna de
 
 Después de calcular los recargos, es posible que desees notificar a un usuario específico para autorizar la confirmación del pedido. Para esto, puedes utilizar la tarjeta de notificación.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_email.png" alt="DocBits Configuración Correo electrónico"><figcaption></figcaption></figure>
 
 Dependiendo de la configuración, al usuario se le asigna una nueva tarea en DocBits y opcionalmente se le envía un correo electrónico para notificarle sobre su nueva tarea.

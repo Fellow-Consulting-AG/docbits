@@ -13,8 +13,8 @@ Un flujo de trabajo puede iniciarse con estas dos tarjetas. Aquí puedes decidir
 \
 
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_5.png" alt="DocBits Flujo de trabajo Compra Pedido 5"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_6.png" alt="DocBits Flujo de trabajo 6"><figcaption></figcaption></figure>
 
 Esta tarjeta también se puede utilizar para especificar varios tipos de documento que el flujo de trabajo debe afectar.

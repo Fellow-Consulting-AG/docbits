@@ -31,7 +31,7 @@ Si la **Coincidencia Automática** está configurada en **Coincidir con el Recib
 
 Debería verse así:
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_table_invoice_3.png" alt="DocBits Tabla Factura 3"><figcaption></figcaption></figure>
 
 ## **Paso 4: Agregar el Archivo Actualizado de Vuelta a DocBits**
 

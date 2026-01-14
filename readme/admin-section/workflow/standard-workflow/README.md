@@ -1,6 +1,6 @@
 # Flujo de Trabajo Estándar
 
-<figure><img src="../../../.gitbook/assets/DocBits-APWorkflow-Gronbach.drawio (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_4.svg" alt="DocBits Flujo de trabajo Compra Pedido 4"><figcaption></figcaption></figure>
 
 #### Visión general de los componentes del flujo de trabajo:
 

@@ -24,7 +24,7 @@ Para habilitar esta función:
   *   La **tabla de PO** no será visible en la **Pantalla de Validación**.\
 
 
-      <figure><img src="../../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../../../../.gitbook/assets/docbits_purchase_order_supplier.png" alt="DocBits Compra Pedido Proveedor"><figcaption></figcaption></figure>
 
 **Cómo acceder al Constructor de Diseño**
 

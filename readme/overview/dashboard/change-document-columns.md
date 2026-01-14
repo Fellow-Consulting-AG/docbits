@@ -2,7 +2,7 @@
 
 Desde el Panel de control, haz clic en el icono de Configuración Avanzada como se muestra a continuación
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_workflow_2.png" alt="DocBits Configuración Flujo de trabajo 2"><figcaption></figcaption></figure>
 
 A continuación, se mostrará el siguiente menú
 
@@ -16,6 +16,6 @@ Desde este menú, puedes seleccionar los nombres de las columnas y utilizar las 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_approval.png" alt="DocBits Aprobación"><figcaption></figcaption></figure>
 
 </div>

@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_purchase_order_7.png" alt="DocBits Flujo de trabajo Compra Pedido 7"><figcaption></figcaption></figure>
 
 Este flujo de trabajo describe las condiciones bajo las cuales se debe iniciar un proceso de exportación. Asegura que solo los documentos que cumplen con todos los criterios especificados sean procesados para la exportación, mejorando la integridad de los datos y la alineación con las reglas comerciales.
 

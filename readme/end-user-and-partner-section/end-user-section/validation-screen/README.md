@@ -154,7 +154,7 @@ Los scripts se pueden crear en la configuración bajo Tipos de Documentos; esta 
 
 ### **Más configuraciones:**
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval.png" alt="DocBits Aprobación"><figcaption></figcaption></figure>
 
 ### **Flujo de Documento:**
 

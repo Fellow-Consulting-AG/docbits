@@ -16,12 +16,12 @@ Ambas versiones de eSLOG están habilitadas por defecto.
 *   Haz clic en **E-Doc**.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_supplier_invoice.png" alt="DocBits Proveedor Factura"><figcaption></figcaption></figure>
 * Aparecerá una lista de todos los e-docs disponibles.
 *   Localiza la versión de eSLOG que deseas modificar.\
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_docbits_image_5.png" alt="DocBits DocBits Imagen 5"><figcaption></figcaption></figure>
 
 ### **Configuración de Transformación y Ruta XML:**
 
@@ -63,8 +63,8 @@ La **Configuración de Rutas de Extracción** se utiliza para extraer datos y ll
     \
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_error_approval.png" alt="DocBits Error Aprobación"><figcaption></figcaption></figure>
 
-    <figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_settings_workflow.png" alt="DocBits Configuración Flujo de trabajo"><figcaption></figcaption></figure>
 6. El lado derecho representa la **ruta al campo** creado en la Transformación.
 7. Haz clic en **Guardar**.

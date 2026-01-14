@@ -1,6 +1,6 @@
 # Factura de Compra - 2da Aprobación Precio Unitario
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.55.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_approval_invoice_3.png" alt="DocBits Aprobación Factura 3"><figcaption></figcaption></figure>
 
 Este título indica que la regla está configurada para gestionar la segunda fase de aprobación de una factura de compra, con un enfoque específico en validar el precio unitario.
 

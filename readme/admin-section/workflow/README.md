@@ -4,7 +4,7 @@ description: Motor de flujo de trabajo de DocBits
 
 # Flujo de trabajo
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-03-12 um 19.42.57.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_3.png" alt="DocBits Flujo de trabajo 3"><figcaption></figcaption></figure>
 
 ## Motor de flujo de trabajo de DocBits: Simplificando la Automatización de Procesos
 
