@@ -1,0 +1,131 @@
+Fetching file list from source branch: main...
+Total documentation pages in 'main': 759
+
+--- Checking language: de ---
+  Pages present: 584
+  Missing pages: 388
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/fields/best-practices-3.md
+    - readme/administration-and-setup/settings/global-settings/document-types/fields/configuring-field-properties-1.md
+    - readme/administration-and-setup/settings/global-settings/document-types/fields/new-fields-with-charges.md
+    - readme/administration-and-setup/settings/global-settings/document-types/fields/purpose-and-use.md
+    - readme/administration-and-setup/settings/global-settings/document-types/fields/setting-validation-and-match-score.md
+    - readme/administration-and-setup/settings/global-settings/document-types/fields/troubleshooting-2.md
+    - readme/administration-and-setup/settings/global-settings/document-types/layout-manager/best-practices.md
+    - readme/administration-and-setup/settings/global-settings/document-types/layout-manager/configuring-field-properties.md
+    - readme/administration-and-setup/settings/global-settings/document-types/layout-manager/purpose-and-use.md
+    - readme/administration-and-setup/settings/global-settings/document-types/layout-manager/save-and-apply-changes.md
+    ... and 378 more.
+
+--- Checking language: es ---
+  Pages present: 566
+  Missing pages: 386
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/setting-up-edi-templates.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/troubleshooting-5.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/using-the-xslt-editor.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/faktura.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/transformation-file-and-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/toml-export.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/standard-preview.md
+    ... and 376 more.
+
+--- Checking language: fr ---
+  Pages present: 574
+  Missing pages: 387
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/troubleshooting-5.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/using-the-xslt-editor.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/faktura.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/transformation-file-and-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/toml-export.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/standard-preview.md
+    - readme/administration-and-setup/settings/global-settings/document-types/fields/best-practices-3.md
+    ... and 377 more.
+
+--- Checking language: it ---
+  Pages present: 572
+  Missing pages: 388
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/previewing-edi-messages.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/setting-up-edi-templates.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/troubleshooting-5.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/using-the-xslt-editor.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/faktura.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/transformation-file-and-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/toml-export.md
+    ... and 378 more.
+
+--- Checking language: pl ---
+  Pages present: 570
+  Missing pages: 414
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/setting-up-edi-templates.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/troubleshooting-5.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/using-the-xslt-editor.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/faktura.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/transformation-file-and-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/toml-export.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/standard-preview.md
+    ... and 404 more.
+
+--- Checking language: pt ---
+  Pages present: 581
+  Missing pages: 414
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/setting-up-edi-templates.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/troubleshooting-5.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/edi/using-the-xslt-editor.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/faktura.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/transformation-file-and-mapping.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/README.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/mapping-xrechnung-in-docbits/toml-export.md
+    - readme/administration-and-setup/settings/global-settings/document-types/edi/xrechnung/standard-preview.md
+    ... and 404 more.
+
+--- Checking language: nl ---
+  Pages present: 843
+  Missing pages: 38
+  Missing files list (top 10):
+    - readme/advanced-functions-and-tools/sql-access/sql-access/custom_classification_document_label.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/document-extracted-data.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/document-import-log.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/document-report.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/document-script-activation-status.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/document-status-alert.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/document-status-trigger.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/document-table-column.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/document-type-attributes.md
+    - readme/advanced-functions-and-tools/sql-access/sql-access/document-type.md
+    ... and 28 more.
+
+--- Checking language: tr ---
+  Pages present: 354
+  Missing pages: 593
+  Missing files list (top 10):
+    - readme/administration-and-setup/settings/document-processing/module/how-to-create-database-access-for-a-specific-organization-user/sql-example.md
+    - readme/administration-and-setup/settings/document-processing/module/idm-acl-updater.md
+    - readme/administration-and-setup/settings/document-processing/module/inbound-emails.md
+    - readme/administration-and-setup/settings/document-processing/module/po-shipment-order-setting.md
+    - readme/administration-and-setup/settings/document-processing/ocr-settings.md
+    - readme/administration-and-setup/settings/document-processing/rule-manager/README.md
+    - readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/README.md
+    - readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-1-2-3-quantity-and-unit-price-within-tolerance.md
+    - readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-10a-quantity-outside-tolerance-negative-rejected-unit-price-within-tolerance.md
+    - readme/administration-and-setup/settings/document-processing/rule-manager/transactionconfig-pro-template/case-10b-quantity-outside-tolerance-negative-rejected-unit-price-outside-tolerance-rejected.md
+    ... and 583 more.
+
