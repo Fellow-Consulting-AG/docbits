@@ -14,7 +14,7 @@ Sie können diese Workflows (Test 1,2,3) verwenden, um verschiedene Dokumente au
 
 Wenn eine Rechnung oder ein anderes Dokument einen bestimmten Gesamtbetrag überschreitet, der eine vorherige Überprüfung und Genehmigung erfordert, können diese Dokumente sofort der richtigen Person zugewiesen werden.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Export Sftp"><figcaption></figcaption></figure>
 
 **Test 1:              Logik-Karte**
 
@@ -70,7 +70,7 @@ Für einen einfacheren Überblick darüber, was mit einem Dokument geschehen sol
 
 **Dann:**              **Status ändern zu:**         Ausstehende Genehmigung
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Export Smb"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
