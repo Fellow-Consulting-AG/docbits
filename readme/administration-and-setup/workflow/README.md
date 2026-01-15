@@ -10,6 +10,9 @@ description: DocBits Workflow Engine
 
 ### Introdução
 
+{% embed url="https://youtu.be/YQC13wCqTJI" %}
+
+
 No campo da automação de processos, o Motor de Fluxo de Trabalho DocBits se destaca por sua abordagem direta e intuitiva. Este motor simplifica a criação e gestão de fluxos de trabalho através de uma estrutura clara e simples baseada em regras. O princípio fundamental por trás de seu design é a regra "Easy When-And-Then" (Fácil Quando-E-Então), que divide o processo de automação em três componentes fundamentais: Gatilho, Condição e Ação. Este guia explica como cada componente funciona dentro do sistema e como eles trabalham juntos para facilitar a automação perfeita.
 
 ### A Regra "Easy When-And-Then" Explicada
@@ -38,4 +41,3 @@ Ao reunir esses três componentes—Gatilho, Condição e Ação—o Motor de Fl
 ### Conclusão
 
 A regra "Easy When-And-Then" do Motor de Fluxo de Trabalho DocBits exemplifica o compromisso do motor em fornecer uma plataforma amigável ao usuário para automatizar processos. Esta regra direta, ao dividir a automação nos elementos essenciais de Gatilho, Condição e Ação, torna mais fácil para os usuários conceituar, criar e gerenciar fluxos de trabalho. Seja você novo na automação de fluxos de trabalho ou um profissional experiente, o Motor de Fluxo de Trabalho DocBits oferece uma ferramenta eficiente e acessível para aumentar a produtividade e otimizar as operações.
-
