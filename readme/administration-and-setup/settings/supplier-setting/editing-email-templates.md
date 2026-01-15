@@ -1,5 +1,9 @@
 # Modifica dei Modelli di Email
 
+
+{% embed url="https://youtu.be/R5IrCpiP__4" %}
+{% endembed %}
+
 #### Panoramica
 
 La funzionalità dei Modelli di Email consente agli amministratori di creare e personalizzare comunicazioni email che vengono inviate automaticamente ai fornitori. Uno degli elementi chiave utilizzati in questi modelli è il `{{magic_link}}`, che fornisce un link dinamico personalizzato per ciascun destinatario.

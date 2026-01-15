@@ -1,5 +1,9 @@
 # Modelli di E-Mail
 
+
+{% embed url="https://youtu.be/R5IrCpiP__4" %}
+{% endembed %}
+
 ## **Panoramica**
 
 I modelli di email ti consentono di personalizzare le notifiche email automatizzate inviate da DocBits. I modelli possono includere campi dinamici (ad es., `{{FieldID}}`), immagini e formattazione HTML.
