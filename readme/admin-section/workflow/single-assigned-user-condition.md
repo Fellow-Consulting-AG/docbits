@@ -1,4 +1,4 @@
-<figure><img src="../../../../.gitbook/assets/userlmn_77e991cee96598023f9a3ac7ad230e50 (1).png" alt="" width="552"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_single_assigned_user.png" alt="DocBits Single Assigned Usuario" width="552"><figcaption></figcaption></figure>
 
 **Amaç**
 

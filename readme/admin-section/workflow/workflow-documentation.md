@@ -14,7 +14,7 @@ Puedes utilizar estos flujos de trabajo (Test 1, 2, 3) para asignar automáticam
 
 Si una factura u otro documento supera cierta cantidad total que requiere revisión y aprobación previa, estos documentos pueden asignarse inmediatamente a la persona correcta.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Exportar Sftp"><figcaption></figcaption></figure>
 
 **Test 1:              Tarjeta Lógica**
 
@@ -70,7 +70,7 @@ Para tener una visión más clara de lo que debe suceder con un documento, puede
 
 **Entonces:**              **Cambiar Estado a:**         Aprobación Pendiente
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Exportar Smb"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
