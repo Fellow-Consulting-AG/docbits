@@ -1,5 +1,9 @@
 # Preferencias de la empresa
 
+
+{% embed url="https://youtu.be/TLmAHw3EXs4" 
+%}
+
 ## Resumen
 
 En las **Preferencias de la empresa**, puedes configurar ajustes clave de formato y notificación para la aplicación. Estos incluyen:
