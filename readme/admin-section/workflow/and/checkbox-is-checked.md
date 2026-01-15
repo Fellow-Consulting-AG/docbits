@@ -1,6 +1,6 @@
 # La case est cochée
 
-<figure><img src="../../../../.gitbook/assets/image (20) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_document_field.png" alt="Docbits Workflow Document Field" width="563"><figcaption></figcaption></figure>
 
 ## **Objet :**
 

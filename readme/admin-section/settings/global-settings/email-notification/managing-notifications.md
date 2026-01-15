@@ -24,7 +24,7 @@ Pour modifier, désactiver ou supprimer des notifications existantes et les adap
 
 **Supprimer une notification :** Pour supprimer définitivement une notification, trouvez la notification dans la liste et sélectionnez l'option de suppression. Cela supprimera complètement la notification du système et ne pourra pas être restauré.
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt="" width="106"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_change_status_pending_2.png" alt="Docbits Workflow Change Status Pending 2" width="106"><figcaption></figcaption></figure>
 
 **S'adapter aux Changements :** Passez en revue périodiquement vos paramètres de notification et ajustez-les si nécessaire pour refléter les changements dans les flux de traitement de documents ou les responsabilités des utilisateurs. Cela pourrait inclure la mise à jour des notifications en raison de nouveaux événements, de responsabilités modifiées ou d'autres changements organisationnels.
 
