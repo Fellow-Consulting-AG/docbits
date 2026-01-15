@@ -4,7 +4,7 @@
 
 ### Pflichtfeld (Required):
 
-<figure><img src="../../../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_configure_classification_rule.png" alt="Docbits Configure Classification Rule"><figcaption></figcaption></figure>
 
 Wenn ein Feld als Pflichtfeld markiert ist, bedeutet dies, dass dieses Feld ausgefüllt werden muss, bevor der Beleg gespeichert oder verarbeitet werden kann.
 
@@ -19,7 +19,7 @@ Wenn ein Feld als Pflichtfeld markiert ist, bedeutet dies, dass dieses Feld ausg
 
 ### Schreibgeschützt (Read Only):
 
-<figure><img src="../../../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_prediction_test.png" alt="Docbits Model Prediction Test"><figcaption></figcaption></figure>
 
 Wenn ein Feld als schreibgeschützt markiert ist, bedeutet dies, dass Benutzer den Inhalt dieses Feldes sehen, aber keine Änderungen daran vornehmen können.
 
@@ -33,7 +33,7 @@ Wenn ein Feld als schreibgeschützt markiert ist, bedeutet dies, dass Benutzer d
 
 ### Ausgeblendet (Hidden):
 
-<figure><img src="../../../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_classification_extraction_settings.png" alt="Docbits Classification Extraction Settings"><figcaption></figcaption></figure>
 
 Wenn ein Feld als "Ausgeblendet" markiert ist, bedeutet dies, dass das Feld in der Benutzeroberfläche ausgeblendet wird und Benutzer es nicht sehen oder darauf zugreifen können.
 
@@ -63,7 +63,7 @@ Wenn ein Feld für OCR konfiguriert ist, bedeutet dies, dass das System versucht
 
 ### Erzwungene Validierung (Forced validation):
 
-<figure><img src="../../../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_sql_alter_table_syntax.png" alt="Docbits Sql Alter Table Syntax"><figcaption></figcaption></figure>
 
 Konfigurieren Sie die Validierungsregeln entsprechend, z. B. numerische Grenzwerte, reguläre Ausdrücke oder Beziehungen zu anderen Feldern.
 
@@ -77,7 +77,7 @@ Konfigurieren Sie die Validierungsregeln entsprechend, z. B. numerische Grenzwer
 
 ### Übereinstimmungswert (Match Score):
 
-<figure><img src="../../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_new_column_steps.png" alt="Docbits Add New Column Steps"><figcaption></figcaption></figure>
 
 Durch den Vergleich von Eingabedaten mit Referenzdaten kann der Match Score dazu beitragen, die Genauigkeit und Gültigkeit der Daten zu bestätigen. Wenn der Match Score einen bestimmten Schwellenwert überschreitet, gilt die Übereinstimmung als erfolgreich.
 
@@ -90,6 +90,6 @@ Durch den Vergleich von Eingabedaten mit Referenzdaten kann der Match Score dazu
 
 * Der Match Score wird verwendet, um die Genauigkeit von Übereinstimmungen zwischen Eingabedaten und Referenzwerten zu bewerten. Wenn der erzielte Wert den festgelegten Schwellenwert überschreitet, gilt die Übereinstimmung als erfolgreich. Dies ist besonders nützlich für Felder, die eine Datenvalidierung oder einen Datenabgleich erfordern, wie z. B. Felder mit Name oder E-Mail-Adresse, z. B. bei der Überprüfung von Kundendaten.
 
-<figure><img src="../../../../../.gitbook/assets/image (117).png" alt="" width="258"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_column_requirements_analysis.png" alt="Docbits Column Requirements Analysis" width="258"><figcaption></figcaption></figure>
 
 Durch die sorgfältige Konfiguration dieser Feldeigenschaften können Sie die Belegverarbeitungs-Workflows optimieren und sicherstellen, dass Ihre Daten korrekt erfasst, geschützt und effizient verarbeitet werden.

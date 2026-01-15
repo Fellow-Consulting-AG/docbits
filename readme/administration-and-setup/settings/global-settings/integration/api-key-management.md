@@ -10,7 +10,7 @@ Die API-Schlüsselverwaltung ist ein wichtiger Aspekt, wenn es um die Sicherheit
 
 * Navigieren Sie zu den API-Schlüsseleinstellungen in Ihrem DocBits-Konto. Hier finden Sie den API-Schlüssel, klicken Sie auf "Kopieren", um den Schlüssel zu kopieren.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 16.18.04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_api_key_settings.png" alt="Docbits Api Key Settings"><figcaption></figcaption></figure>
 
 **Umgang mit API-Schlüsseln unter Berücksichtigung der Sicherheit:**
 

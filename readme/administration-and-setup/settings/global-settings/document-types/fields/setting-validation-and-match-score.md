@@ -6,7 +6,7 @@ Hier finden Sie Anweisungen zur Verwendung der Einstellungen "Erzwungene Validie
 
 ### Erzwungene Validierung (Force Validation):
 
-<figure><img src="../../../../../.gitbook/assets/image (118).png" alt="" width="151"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_choose_column_type.png" alt="Docbits Choose Column Type" width="151"><figcaption></figcaption></figure>
 
 Diese Einstellung ermöglicht es Ihnen, Regeln festzulegen, die prüfen, ob die eingegebenen Daten bestimmte Kriterien erfüllen.
 
@@ -18,7 +18,7 @@ Diese Einstellung ermöglicht es Ihnen, Regeln festzulegen, die prüfen, ob die 
 
 <figure><img src="../../../../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (119).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_decide_column_necessity.png" alt="Docbits Decide Column Necessity" width="375"><figcaption></figcaption></figure>
 
 **Auswirkung:**
 

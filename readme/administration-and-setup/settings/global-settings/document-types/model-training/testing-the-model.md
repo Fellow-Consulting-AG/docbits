@@ -29,7 +29,7 @@ Um das trainierte Modell zu testen und seine Genauigkeit und Betriebsbereitschaf
 
 * Vergleichen Sie die Vorhersagen des Modells mit den tatsächlichen Klassifizierungen der Testdaten. Berechnen Sie Metriken wie Genauigkeit (Accuracy), Präzision (Precision), Recall und F1-Score, um die Leistung des Modells zu bewerten. Diese Metriken geben Aufschluss darüber, wie gut das Modell die Belege klassifiziert hat und wie zuverlässig es ist.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 08.53.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_training_metrics.png" alt="Docbits Model Training Metrics"><figcaption></figcaption></figure>
 
 
 

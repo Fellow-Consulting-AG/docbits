@@ -7,13 +7,13 @@ Detaillierte Anweisungen zum Importieren von Beispielbelegen für das Training, 
 * **Vorbereiten der Beispielbelege:** Stellen Sie sicher, dass die Beispielbelege in einem unterstützten Format vorliegen, wie z. B. PDF, Word, Excel usw. Diese Belege sollten eine Vielzahl von Typen und Formaten abdecken, die im Produktivbetrieb des Belegverarbeitungssystems auftreten können.
 * **Navigieren zur Importfunktion:** Melden Sie sich im Administrationsbereich des Belegverarbeitungssystems an und navigieren Sie zu dem Bereich, in dem Sie neue Belege importieren können.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 20.00.03.png" alt=""><figcaption><p>Globale Einstellungen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_global_settings_import_nav.png" alt="Docbits Global Settings Import Nav"><figcaption><p>Globale Einstellungen</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 20.02.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_import_function_area.png" alt="Docbits Import Function Area"><figcaption></figcaption></figure>
 
 * **Auswählen der Option zum Importieren von Belegen:** Klicken Sie auf die Schaltfläche oder den Link zum Importieren von Belegen. Es kann eine Option wie "Importieren" geben.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 19.32.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_import_documents_button.png" alt="Docbits Import Documents Button"><figcaption></figcaption></figure>
 
 * **Betrags- & Datumsformat auswählen:**
 

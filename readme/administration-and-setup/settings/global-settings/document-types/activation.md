@@ -40,7 +40,7 @@
 * Wenn der Dokumenttyp derzeit aktiviert ist, zeigt der Schalter eine farbige oder "Ein"-Position an.&#x20;
 * Klicken Sie auf den Schalter, um den Dokumenttyp zu deaktivieren. Der Schalter ändert seine Position und Farbe, um die Deaktivierung anzuzeigen.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-27 um 14.16.06 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_deactivate_doc_type_switch.png" alt="Docbits Deactivate Doc Type Switch"><figcaption></figcaption></figure>
 
 
 

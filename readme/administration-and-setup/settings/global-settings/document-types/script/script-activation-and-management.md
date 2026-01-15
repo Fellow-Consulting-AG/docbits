@@ -13,7 +13,7 @@
 * Suchen Sie in der DocBits-Oberfläche nach der Option zur Verwaltung von Skripten.
 * Dies kann je nach Setup und Konfiguration von DocBits variieren.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 16.06.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_view_existing_scripts.png" alt="Docbits View Existing Scripts"><figcaption></figcaption></figure>
 
 **Anzeigen vorhandener Skripte:**
 
@@ -27,13 +27,13 @@
 * Um ein Skript zu aktivieren oder zu deaktivieren, suchen Sie das entsprechende Skript in der Liste und betätigen Sie den entsprechenden Schalter.
 * Stellen Sie sicher, dass Sie die Änderungen nach Ihrer Auswahl speichern.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 16.16.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_save_script_changes.png" alt="Docbits Save Script Changes"><figcaption></figcaption></figure>
 
 **Bearbeiten eines Skripts:**
 
 * Wenn Sie ein bestehendes Skript bearbeiten müssen, suchen Sie in der Skriptverwaltungsoberfläche nach der Schaltfläche zum Bearbeiten des Skripts.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 16.23.19.png" alt="" width="123"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_edit_script_icon.png" alt="Docbits Edit Script Icon" width="123"><figcaption></figcaption></figure>
 
 * Klicken Sie darauf, um den Editor zu öffnen, in dem Sie den Code des Skripts ändern können.
 * Nachdem Sie Ihre Änderungen vorgenommen haben, speichern Sie das Skript erneut.

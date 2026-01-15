@@ -8,7 +8,7 @@ Das Bearbeiten und Löschen von Spalten in einer Datenbanktabelle sind wichtige 
 
 ## Bearbeiten einer Spalte:
 
-<figure><img src="../../../../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_sso_config_params.png" alt="Docbits Sso Config Params"><figcaption></figcaption></figure>
 
 **Titel ändern:**
 
@@ -40,7 +40,7 @@ Das Bearbeiten und Löschen von Spalten in einer Datenbanktabelle sind wichtige 
 
 ## Löschen einer Spalte:
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 13.39.00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_delete_column_example.png" alt="Docbits Delete Column Example"><figcaption></figcaption></figure>
 
 **Anforderungsanalyse:**
 

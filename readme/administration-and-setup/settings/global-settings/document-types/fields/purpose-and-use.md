@@ -2,7 +2,7 @@
 
 ## Eine ordnungsgemäße Konfiguration der Felder in DocBits ist entscheidend, um sicherzustellen, dass Daten korrekt erfasst, verarbeitet und gespeichert werden können.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_train_model_action.png" alt="Docbits Train Model Action"><figcaption></figcaption></figure>
 
 **Hier sind einige Gründe, warum dies wichtig ist:**
 

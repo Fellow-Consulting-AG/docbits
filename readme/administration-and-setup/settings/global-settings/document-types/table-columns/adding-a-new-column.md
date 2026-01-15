@@ -2,9 +2,9 @@
 
 ## Das Hinzufügen einer neuen Spalte zu einer bestehenden Tabelle erfordert eine sorgfältige Planung und Ausführung, um sicherzustellen, dass die Datenintegrität gewahrt bleibt und die Anforderungen der Anwendung erfüllt werden.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 12.46.56.png" alt=""><figcaption><p>Einstellungen: Belegtypen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_table_columns_settings_nav.png" alt="Docbits Table Columns Settings Nav"><figcaption><p>Einstellungen: Belegtypen</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 12.49.21.png" alt=""><figcaption><p>Tabellenspalten</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_table_columns_view.png" alt="Docbits Table Columns View"><figcaption><p>Tabellenspalten</p></figcaption></figure>
 
 **Hier sind die detaillierten Schritte zum Hinzufügen einer neuen Spalte:**
 

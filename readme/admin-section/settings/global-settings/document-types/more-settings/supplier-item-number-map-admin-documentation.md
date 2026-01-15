@@ -4,7 +4,7 @@
 
 Als Administrator haben Sie die Möglichkeit, die Zuordnungen zwischen internen Artikelnummern und Lieferantenartikelnummern anzuzeigen und zu verwalten. Diese Funktion stellt sicher, dass Unstimmigkeiten zwischen Ihrem System und den Systemen Ihrer Lieferanten effizient behandelt werden. Sie können falsche Zuordnungen überprüfen, bearbeiten und löschen, um die Datenintegrität zu gewährleisten.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_supplier_item_map_admin_view.png" alt="Docbits Supplier Item Map Admin View"><figcaption></figcaption></figure>
 
 **Zugriff auf die Lieferantenartikelnummernkarte**
 

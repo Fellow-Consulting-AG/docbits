@@ -17,7 +17,7 @@
 * Wählen Sie die Vorlage aus, deren Layout Sie überprüfen möchten.
 * Dies kann eine bestehende Vorlage sein, an der Sie Änderungen vornehmen möchten, oder eine neue Vorlage, die Sie erstellen möchten.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-24 um 12.31.04.png" alt="" width="186"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_adjust.png" alt="Docbits Template Preview Adjust" width="186"><figcaption></figcaption></figure>
 
 #### Anpassen der Layouteinstellungen:
 

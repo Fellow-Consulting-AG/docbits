@@ -10,13 +10,13 @@ Zuerst müssen Sie die Skriptsprache auswählen, die Sie verwenden möchten. Doc
 
 Melden Sie sich bei DocBits an und navigieren Sie zur Skriptentwicklungsumgebung. Diese befindet sich im Administrationsbereich.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 15.19.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_dev_environment.png" alt="Docbits Script Dev Environment"><figcaption></figcaption></figure>
 
 **Erstellen Sie ein neues Skript:**
 
 Klicken Sie auf die Schaltfläche "+ Neu", um einen neuen Skripteditor zu öffnen.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 15.21.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_new_script_editor.png" alt="Docbits New Script Editor"><figcaption></figcaption></figure>
 
 **Skriptcode schreiben:**
 
@@ -64,7 +64,7 @@ Ein wichtiger Schritt ist die Zuordnung des Skripts zu den entsprechenden Belegt
 
 Nachdem Sie das Skript erstellt, getestet und zugeordnet haben, überprüfen Sie es erneut auf Fehler und Inkonsistenzen. Wenn alles in Ordnung ist, können Sie das Skript in der DocBits-Produktionsumgebung veröffentlichen.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 15.29.18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_publish_script_button.png" alt="Docbits Publish Script Button"><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
