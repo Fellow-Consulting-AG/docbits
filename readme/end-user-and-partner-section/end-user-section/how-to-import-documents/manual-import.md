@@ -2,6 +2,9 @@
 
 If you’re looking to import documents manually into DocBits, follow these simple steps:
 
+{% embed url="https://youtu.be/rJ2nuJh0Obw" %}
+{% endembed %}
+
 * Click on the Upload button on the DocBits Dashboard.
 * A window will appear where you can upload your documents via file browser or drag and drop. You can upload up to 10 documents at once.
 * To upload documents via file browser, click on the Upload Documents button and select the files you want to upload. Once you’ve selected the files, click on Confirm to start the upload process.
