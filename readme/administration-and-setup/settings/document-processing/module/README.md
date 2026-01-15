@@ -28,6 +28,12 @@
 
 * **Supplier Portal**: A portal within DocBits dedicated to suppliers, enabling them to interact and collaborate with the system, enhancing communication and efficiency in the supply chain.
 * **Workflow Builder**: A tool for creating and customizing workflows within DocBits, allowing users to define specific processes and automate document handling according to their unique business requirements.
+
+**Watch: Enabling Workflow Builder**
+
+
+{% embed url="https://youtu.be/YQC13wCqTJI" %}
+
 * **Run Workflows in Celery:** This feature lets you run workflows in Celery.
 * **Layout Builder**: Enables users to design and customize the layout of documents within DocBits, ensuring alignment with branding and usability standards.
 * **Inbound Emails:** This feature gives you the ability to handle your Inbound Emails.
