@@ -14,7 +14,7 @@ In generale, le sotto-organizzazioni consentono una gestione e un'organizzazione
 
 In Impostazioni, Impostazioni globali → Gruppi, Utenti e Permessi → Sotto-Organizzazioni come mostrato di seguito.
 
-<figure><img src="../../../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Impostazioni</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_validation_screen_annotations.png" alt="Docbits Validation Screen Annotations"><figcaption><p>Impostazioni</p></figcaption></figure>
 
 Verrai quindi portato a una pagina che appare simile a questa:\
 

@@ -25,27 +25,27 @@
 * Inserisci un nome per il nuovo tipo di documento (ad es. "Fattura", "Contratto", "Rapporto").
 * Aggiungi una descrizione che spieghi lo scopo e l'uso del tipo di documento.
 
-<figure><img src="../../../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_publish_button.png" alt="Docbits Script Publish Button"><figcaption></figcaption></figure>
 
 **Formato importo e data**
 
 * Inserisci il formato per l'importo e la data
 
-<figure><img src="../../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_management_nav.png" alt="Docbits Script Management Nav"><figcaption></figcaption></figure>
 
 **Importare Documenti di Esempio**
 
 * Carica documenti di esempio tramite trascinamento
 * Devono essere caricati almeno 10 documenti per l'addestramento
 
-<figure><img src="../../../../.gitbook/assets/image (159).png" alt=""><figcaption><p>Carica e Addestra</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_list_enable_disable.png" alt="Docbits Script List Enable Disable"><figcaption><p>Carica e Addestra</p></figcaption></figure>
 
 **Aggiungere Gruppi**
 
 * Clicca sul pulsante "Aggiungi" e inserisci il nome del gruppo.
 * Puoi anche clonare un tipo di documento esistente.
 
-<figure><img src="../../../../.gitbook/assets/image (160).png" alt="" width="375"><figcaption><p>Campi e Gruppi</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_save_changes_2.png" alt="Docbits Script Save Changes 2" width="375"><figcaption><p>Campi e Gruppi</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (163).png" alt="" width="279"><figcaption><p>Crea Nuovo Gruppo</p></figcaption></figure>
 
@@ -54,7 +54,7 @@
 * Aggiungi nuovi campi cliccando su "Aggiungi".
 * Inserisci il nome del campo (ad es. "Numero fattura", "Data", "Importo") e il tipo di dati (ad es. Testo, Numero, Data).
 
-<figure><img src="../../../../.gitbook/assets/image (161).png" alt="" width="375"><figcaption><p>Campi e Gruppi</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_test_environment.png" alt="Docbits Script Test Environment" width="375"><figcaption><p>Campi e Gruppi</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (162).png" alt="" width="278"><figcaption><p>Crea Nuovo Campo</p></figcaption></figure>
 
@@ -77,7 +77,7 @@
 
 * Clicca sul pulsante Modifica accanto al tipo di documento.
 
-<figure><img src="../../../../.gitbook/assets/image (167).png" alt=""><figcaption><p>Altre Impostazioni</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_elements_list.png" alt="Docbits Field Elements List"><figcaption><p>Altre Impostazioni</p></figcaption></figure>
 
 * Qui puoi effettuare ulteriori impostazioni per il tipo di documento, come il modello di design, se un documento deve essere approvato prima dell'esportazione e molti altri dettagli.
 

@@ -48,7 +48,7 @@ Quindi:               **Assegna documento a:**   James Edwards
 
 È anche possibile, se il documento non è assegnato a una singola persona, assegnarlo a un dipendente specifico fin dall'inizio.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_db_access_creation.png" alt="Docbits Db Access Creation" width="375"><figcaption></figcaption></figure>
 
 Per una panoramica più semplice di cosa dovrebbe accadere a un documento, è possibile impostare lo stato per i documenti in arrivo in questo flusso di lavoro. Questo flusso di lavoro consente di vedere immediatamente se c'è, ad esempio, un'approvazione in sospeso.
 

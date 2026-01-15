@@ -6,12 +6,12 @@
 
 **Abilitazione del sistema di permessi:**
 
-<figure><img src="../../../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_option.png" alt="Docbits Template Preview Option"><figcaption></figcaption></figure>
 
 * Quando il sistema di permessi è abilitato, vengono applicati i permessi di accesso per utenti e gruppi.
 * Gli utenti hanno accesso solo alle risorse a cui sono esplicitamente autorizzati ad accedere in base ai permessi assegnati.
 
-<figure><img src="../../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_realtime.png" alt="Docbits Template Preview Realtime"><figcaption></figcaption></figure>
 
 * Gli amministratori possono gestire i permessi per singoli utenti e gruppi e garantire che solo le persone autorizzate possano visualizzare o modificare i dati.
 
@@ -19,7 +19,7 @@
 
 ### Disattivazione del sistema di permessi:
 
-<figure><img src="../../../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_usage.png" alt="Docbits Template Preview Usage"><figcaption></figcaption></figure>
 
 * Quando il sistema di permessi è disabilitato, tutti i permessi di accesso vengono rimossi e gli utenti tipicamente hanno accesso illimitato a tutte le risorse.&#x20;
 * Questo può essere utile quando è necessaria una collaborazione aperta temporanea senza le restrizioni del controllo degli accessi.&#x20;

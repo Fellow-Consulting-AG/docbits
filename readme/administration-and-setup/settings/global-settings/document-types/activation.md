@@ -16,13 +16,13 @@
 
 * Accedi all'elenco dei tipi di documenti esistenti. Questo elenco mostra tutti i tipi di documenti definiti, sia attivi che inattivi.
 
-<figure><img src="../../../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_default_values.png" alt="Docbits Field Default Values"><figcaption></figcaption></figure>
 
 **Attivare o disattivare un tipo di documento Selezionare Tipo di Documento:**
 
 * Seleziona il tipo di documento che desideri abilitare o disabilitare.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_enable_historization.png" alt="Docbits Field Enable Historization"><figcaption></figcaption></figure>
 
 **Utilizzare la funzione di commutazione:**
 
@@ -33,7 +33,7 @@
 * Se il tipo di documento è attualmente disattivato, l'interruttore potrebbe mostrare una posizione grigia o spenta.&#x20;
 * Clicca sull'interruttore per attivare il tipo di documento. L'interruttore cambia posizione e colore per indicare l'attivazione.
 
-<figure><img src="../../../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_user_permissions.png" alt="Docbits Field User Permissions"><figcaption></figcaption></figure>
 
 **Disattivazione:**
 

@@ -16,7 +16,7 @@
 2. Sotto **Elaborazione Documenti**, trova e clicca sull'opzione **Modulo**.
    * Questo aprirà la pagina di configurazione del modulo pertinente dove potrai procedere con la creazione dell'utente per il database.
 
-<figure><img src="../../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_db_access_creation.png" alt="Docbits Db Access Creation"><figcaption></figcaption></figure>
 
 ### 4. Passaggi per Abilitare e Accedere all'Utente Documenti AI e Database: <a href="#id-4.-steps-to-enable-and-access-the-ai-document-and-database-user" id="id-4.-steps-to-enable-and-access-the-ai-document-and-database-user"></a>
 
