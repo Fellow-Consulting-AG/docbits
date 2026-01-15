@@ -2,8 +2,7 @@
 
 ## Panoramica
 
-{% embed url="https://youtu.be/TLmAHw3EXs4" 
-%}
+{% embed url="https://youtu.be/TLmAHw3EXs4" %}
 
 
 Nelle **Preferenze aziendali**, puoi configurare le impostazioni chiave di formattazione e notifica per l'applicazione. Queste includono:
