@@ -2,6 +2,9 @@
 
 ### **Przegląd**
 
+{% embed url="https://youtu.be/agxk8WQhtJA" %}
+
+
 Jako administrator masz możliwość przeglądania i zarządzania mapowaniami między wewnętrznymi numerami przedmiotów a numerami przedmiotów dostawcy. Ta funkcja zapewnia, że niezgodności między Twoim systemem a systemami dostawców są obsługiwane efektywnie. Możesz przeglądać, edytować i usuwać niepoprawne mapowania, aby utrzymać dokładność danych.
 
 **Dostęp do Mapy Numerów Przedmiotów Dostawcy**

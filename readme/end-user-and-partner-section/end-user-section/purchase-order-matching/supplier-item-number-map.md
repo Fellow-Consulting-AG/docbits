@@ -8,6 +8,9 @@ Ta funkcja pomaga zarządzać i uzgadniać numery przedmiotów pomiędzy Twoim s
 
 ## **Jak to działa**
 
+{% embed url="https://youtu.be/agxk8WQhtJA" %}
+
+
 1. **Ręczne dopasowanie:**
    * Za pierwszym razem, gdy napotkasz rozbieżność pomiędzy swoim numerem przedmiotu a numerem przedmiotu dostawcy, musisz dopasować je ręcznie.
    * Możesz to zrobić, wprowadzając poprawny numer przedmiotu dostawcy odpowiadający Twojemu wewnętrznemu numerowi przedmiotu.
