@@ -4,9 +4,9 @@ Pour modifier, désactiver ou supprimer des notifications existantes et les adap
 
 **Accédez aux paramètres de notification :** Allez dans les paramètres de votre système où vous pouvez gérer les notifications. Vous pouvez les trouver dans la section « Paramètres », « Paramètres globaux » puis sous « Notification par e-mail ».
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Exporter Sftp"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Exporter Smb"><figcaption></figcaption></figure>
 
 **Recherchez la liste des notifications existantes :** Dans les paramètres de notification, vous trouverez une liste des notifications existantes. Cette liste vous montre toutes les notifications qui sont actuellement configurées.
 
