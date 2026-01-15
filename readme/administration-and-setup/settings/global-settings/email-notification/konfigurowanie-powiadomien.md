@@ -1,5 +1,9 @@
 # Konfigurowanie powiadomień
 
+
+{% embed url="https://youtu.be/R5IrCpiP__4" %}
+{% endembed %}
+
 **Aby przejść do ustawień powiadomień e-mail, wykonaj następujące kroki:**
 
 * Przejdź do sekcji Ustawienia globalne w swoim koncie użytkownika lub panelu administracyjnym.

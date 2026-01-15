@@ -1,5 +1,9 @@
 # Szablony e-maili
 
+
+{% embed url="https://youtu.be/R5IrCpiP__4" %}
+{% endembed %}
+
 ## **Przegląd**
 
 Szablony e-maili pozwalają na dostosowanie automatycznych powiadomień e-mail wysyłanych z DocBits. Szablony mogą zawierać dynamiczne pola (np. `{{FieldID}}`), obrazy i formatowanie HTML.
