@@ -1,6 +1,6 @@
 # Kolumny tabeli
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.57.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_table_columns_overview.png" alt="Docbits Table Columns Overview"><figcaption></figcaption></figure>
 
 #### Przegląd
 
@@ -20,9 +20,9 @@ Interfejs Kolumn Tabel w Docbits służy do określenia kolumn, które pojawiaj�
 * **Dodaj nową kolumnę tabeli**: Otwiera okno dialogowe, w którym można zdefiniować nową kolumnę, w tym jej nazwę, czy jest wymagana, jej typ danych i tabelę, do której należy.
 * **Utwórz nową tabelę**: Pozwala na utworzenie nowej tabeli, definiując unikalną nazwę, która będzie używana do przechowywania danych związanych z określonym zestawem typów dokumentów.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_create_new_table.png" alt="Docbits Create New Table"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_table_columns_integrity.png" alt="Docbits Table Columns Integrity"><figcaption></figcaption></figure>
 
 Ta sekcja jest kluczowa dla utrzymania integralności strukturalnej i użyteczności danych w systemie Docbits, zapewniając, że dane wyodrębnione z dokumentów są przechowywane w dobrze zorganizowany i dostępny sposób.
 

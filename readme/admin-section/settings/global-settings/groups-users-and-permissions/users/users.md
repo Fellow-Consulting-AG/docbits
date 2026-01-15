@@ -4,7 +4,7 @@ Ustawienia użytkownika to obszar w systemie, w którym użytkownicy mogą dosto
 
 W większości organizacji tylko upoważnione osoby mają dostęp do ustawień użytkownika, zazwyczaj są to administratorzy lub administratorzy systemu. Dzieje się tak, ponieważ ustawienia mogą zawierać wrażliwe informacje, które mogłyby zagrozić bezpieczeństwu systemu, jeśli zostałyby zmienione przez osoby nieupoważnione. Administratorzy mogą zarządzać ustawieniami użytkowników, aby zapewnić ich zgodność z politykami i wymaganiami organizacyjnymi oraz aby zachować integralność systemu.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_user_search_bar.png" alt="Docbits User Search Bar"><figcaption></figcaption></figure>
 
 1. **Pasek wyszukiwania**: Umożliwia administratorom szybkie znajdowanie użytkowników poprzez wyszukiwanie ich imion lub innych szczegółów.
 2. **Lista użytkowników**: Wyświetla listę użytkowników z następującymi kolumnami:

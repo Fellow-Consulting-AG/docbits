@@ -1,6 +1,6 @@
 # Ustawienia
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.14.35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_global_overview.png" alt="Docbits Settings Global Overview"><figcaption></figcaption></figure>
 
 1. **Globalne Ustawienia**:
 * **Informacje o Firmie**: Zdefiniuj i edytuj podstawowe dane o firmie, takie jak nazwa, adres i inne identyfikatory.

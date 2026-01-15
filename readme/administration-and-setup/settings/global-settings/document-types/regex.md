@@ -1,6 +1,6 @@
 # Wyrażenia regularne
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.38.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_regex_management.png" alt="Docbits Regex Management"><figcaption></figcaption></figure>
 
 W DocBits ustawienia Regex pozwalają administratorom zdefiniować niestandardowe wzorce, które system używa do znajdowania i wyodrębniania danych z dokumentów. Ta funkcja jest szczególnie przydatna w sytuacjach, gdy dane muszą być wyodrębnione z nieustrukturyzowanego tekstu lub gdy dane podlegają przewidywalnemu formatowi, który można uchwycić za pomocą wzorców regex.
 
