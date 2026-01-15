@@ -25,7 +25,7 @@ Si aprirà questa finestra:
 
 <figure><img src="../../../../../.gitbook/assets/docbits_edit_group_name.png" alt="Docbits Edit Group Name"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_dashboard_columns_selection.png" alt="Docbits Dashboard Columns Selection"><figcaption></figcaption></figure>
 
 * **Abilita Gruppi e permessi:** Per rendere il gruppo visibile, "Gruppi e permessi" devono essere abilitati.
 
