@@ -2,6 +2,10 @@
 
 Questa guida ti guida nel collegamento del **Database in sola lettura di DocBits a Power BI Desktop** utilizzando il **driver ODBC PostgreSQL**. Copre l'installazione del driver, la configurazione ODBC, l'integrazione di Power BI e l'aggiornamento programmato.
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
+
 ### 1. Installare il driver ODBC PostgreSQL
 
 * Scarica l'ultimo driver ODBC PostgreSQL (**psqlODBC**) dal sito ufficiale:
