@@ -10,8 +10,8 @@ A workflow can be started with these two cards. Here you can decide with which d
 
 \\
 
-<figure><img src="../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_document_type_card.png" alt="DocBits Document Type Kaart"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_combined_price_card.png" alt="DocBits Combined Price Kaart"><figcaption></figcaption></figure>
 
 This card can also be used to specify multiple document types that the workflow should affect.

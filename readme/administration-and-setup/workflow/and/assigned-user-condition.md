@@ -1,6 +1,6 @@
 # Assigned User Condition
 
-<figure><img src="../../../../.gitbook/assets/userlmn_5e16e9b23626ec1211c753fec5333513 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_assigned_user_cond.png" alt="DocBits Assigned Gebruiker Cond"><figcaption></figcaption></figure>
 
 **Purpose**
 

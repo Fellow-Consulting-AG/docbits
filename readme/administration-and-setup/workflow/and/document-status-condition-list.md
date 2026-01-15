@@ -1,6 +1,6 @@
 # Document Status Condition List
 
-<figure><img src="../../../../.gitbook/assets/userlmn_e9d6da331deceed4f330358635d6b605 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_doc_status_list.png" alt="DocBits Doc Status Lijst"><figcaption></figcaption></figure>
 
 **Purpose**
 

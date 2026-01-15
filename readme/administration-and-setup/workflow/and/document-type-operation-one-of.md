@@ -1,6 +1,6 @@
 # Document Type Operation one of
 
-<figure><img src="../../../../.gitbook/assets/userlmn_14ab8ac5e693d9bbe68d178795d12a9f (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_doc_type_op_one_of.png" alt="DocBits Doc Type Op One Of"><figcaption></figcaption></figure>
 
 **Purpose**
 

@@ -88,7 +88,7 @@ And: Docfield **total\_amount** is **Greater than 500**
 
 Then: **Assign document to:** Asad Usman Khan
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Exporteren Sftp"><figcaption></figcaption></figure>
 
 ![](<../../../.gitbook/assets/13 (1).png>)
 
@@ -104,7 +104,7 @@ It is also possible to enter the status into the workflow, so the assigned perso
 
 **Change Status to:** Pending Approval
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Exporteren Smb"><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/docbits_workflow_purchase_order_2.png" alt="DocBits Workflow Aankoop Bestelling 2"><figcaption></figcaption></figure>
 
@@ -118,7 +118,7 @@ The Workflow with these logic cards is designed to automatically verify that the
 
 You can give these documents a specific status or assign them to a specific employee.
 
-<div align="center"><figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../../.gitbook/assets/docbits_export_ion_bod.png" alt="DocBits Exporteren Ion Bod"><figcaption></figcaption></figure></div>
 
 <figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 

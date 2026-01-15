@@ -37,7 +37,7 @@ Removing Field:
 
 * Available M3 fields can be checked by opening appropriate screen in M3.
 
-<figure><img src="../../../.gitbook/assets/aef99180-f060-497c-bd98-02d44fdd9274 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/m3_export_mapping_screen.png" alt="M3 Exporteren Toewijzing Scherm"><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/m3_export_mapping_field_names.png" alt="M3 Exporteren Toewijzing Field Names"><figcaption></figcaption></figure>
 
