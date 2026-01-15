@@ -1,5 +1,9 @@
 # Configuring Notifications
 
+
+{% embed url="https://youtu.be/R5IrCpiP__4" %}
+{% endembed %}
+
 (Conteúdo em inglês abaixo - Tradução pendente)
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 08.56.36.png" alt=""><figcaption></figcaption></figure>

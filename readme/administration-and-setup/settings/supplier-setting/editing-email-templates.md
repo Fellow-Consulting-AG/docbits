@@ -1,5 +1,9 @@
 # Edição de Modelos de Email
 
+
+{% embed url="https://youtu.be/R5IrCpiP__4" %}
+{% endembed %}
+
 #### Visão Geral
 
 O recurso de Modelos de Email permite que administradores criem e personalizem comunicações por email que são enviadas automaticamente para fornecedores. Um dos elementos-chave utilizados nesses modelos é o `{{magic_link}}`, que fornece um link dinâmico adaptado a cada destinatário.
