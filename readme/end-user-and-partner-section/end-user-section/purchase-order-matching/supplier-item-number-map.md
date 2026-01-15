@@ -8,6 +8,9 @@ Deze functie helpt je bij het beheren en reconciliëren van artikelnummers tusse
 
 ## **Hoe Het Werkt**
 
+{% embed url="https://youtu.be/agxk8WQhtJA" %}
+
+
 1. **Handmatige Matching:**
    * De eerste keer dat je een discrepantie tegenkomt tussen jouw artikelnummer en het artikelnummer van je leverancier, moet je ze handmatig matchen.
    * Dit kun je doen door het juiste leverancier artikelnummer in te voeren dat overeenkomt met jouw interne artikelnummer.
