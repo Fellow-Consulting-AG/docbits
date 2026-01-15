@@ -1,6 +1,6 @@
 # Faktura zakupu - 2. zatwierdzenie ilości
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.56.54 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_rule_purchase_invoice_quantity.png" alt="DocBits Reguła Zakup Faktura Quantity"><figcaption></figcaption></figure>
 
 Ten tytuł wskazuje, że reguła dotyczy konkretnie obsługi faktur zakupowych podczas wtórnej fazy zatwierdzania, z naciskiem na weryfikację dokładności podanych ilości.
 

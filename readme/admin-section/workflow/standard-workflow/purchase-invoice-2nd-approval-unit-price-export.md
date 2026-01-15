@@ -1,6 +1,6 @@
 # Faktura zakupu - 2. zatwierdzenie ceny jednostkowej eksport
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.59.02 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_rule_purchase_invoice_unit_price_export.png" alt="DocBits Reguła Zakup Faktura Unit Price Eksport"><figcaption></figcaption></figure>
 
 Ten tytuł wskazuje, że reguła jest skonfigurowana do zarządzania drugą fazą zatwierdzania faktur zakupowych z naciskiem na cenę jednostkową, zapewniając jej zgodność z uzgodnionymi warunkami.
 

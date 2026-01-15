@@ -1,6 +1,6 @@
 # Powyżej kwoty maksymalnej
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.51.42 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_rule_above_max.png" alt="DocBits Reguła Above Max"><figcaption></figcaption></figure>
 
 Ten tytuł wskazuje, że reguła jest przeznaczona do obsługi przypadków, w których suma faktury jest większa niż maksymalna kwota, do której zatwierdzania upoważniony jest zatwierdzający.
 

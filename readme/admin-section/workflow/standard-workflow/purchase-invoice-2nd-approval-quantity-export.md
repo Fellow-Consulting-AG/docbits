@@ -1,6 +1,6 @@
 # Faktura zakupu - 2. zatwierdzenie ilości eksport
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 15.00.53 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_rule_purchase_invoice_quantity_export.png" alt="DocBits Reguła Zakup Faktura Quantity Eksport"><figcaption></figcaption></figure>
 
 Ten tytuł wskazuje, że reguła jest skonfigurowana do zarządzania drugą fazą zatwierdzania faktur zakupowych z naciskiem na szczegóły dotyczące ilości, zapewniając, że ilości na fakturze zgadzają się z ilościami na oryginalnym zamówieniu zakupu.
 

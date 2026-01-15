@@ -1,6 +1,6 @@
 # Standardowy przepływ pracy
 
-<figure><img src="../../../.gitbook/assets/DocBits-APWorkflow-Gronbach.drawio (1) (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_standard_workflow_diagram_2.svg" alt="DocBits Standard Przepływ pracy Diagram 2"><figcaption></figcaption></figure>
 
 #### Przegląd komponentów przepływu pracy:
 

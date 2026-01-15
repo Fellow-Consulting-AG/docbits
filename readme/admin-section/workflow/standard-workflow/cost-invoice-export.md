@@ -1,6 +1,6 @@
 # Faktura kosztowa - Eksport
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-03 um 14.53.28 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_rule_cost_invoice.png" alt="DocBits Reguła Cost Faktura"><figcaption></figcaption></figure>
 
 Ten tytuł wskazuje, że reguła jest specjalnie skonfigurowana do zarządzania fakturami kosztowymi i obejmuje akcję eksportu, prawdopodobnie w celu raportowania, dalszego przetwarzania lub integracji z innymi systemami.
 

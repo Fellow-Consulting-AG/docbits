@@ -4,9 +4,9 @@ Aby edytować, wyłączyć lub usunąć istniejące powiadomienia i dostosować 
 
 **Przejdź do ustawień powiadomień:** Przejdź do ustawień swojego systemu, gdzie możesz zarządzać powiadomieniami. Możesz je znaleźć w sekcji „Ustawienia”, „Ustawienia globalne”, a następnie w „Powiadomieniach e-mail”.
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Eksport Sftp"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Eksport Smb"><figcaption></figcaption></figure>
 
 **Szukaj listy istniejących powiadomień:** W ustawieniach powiadomień znajdziesz listę istniejących powiadomień. Ta lista pokazuje wszystkie powiadomienia, które są obecnie skonfigurowane.
 

@@ -46,4 +46,4 @@ Niniejszy dokument opisuje przepływ pracy związany z zamawianiem materiałów 
 * Upewnij się, że wszystkie dokumenty są zweryfikowane i zarchiwizowane w celu prowadzenia ewidencji.
 * Rozbieżności w danych zamówienia lub faktury muszą być niezwłocznie wyjaśniane, aby uniknąć opóźnień.
 
-<figure><img src="../../.gitbook/assets/embed (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_material_workflow.svg" alt="DocBits Materiał Przepływ pracy"><figcaption></figcaption></figure>

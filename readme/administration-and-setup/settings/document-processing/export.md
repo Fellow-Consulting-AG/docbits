@@ -126,7 +126,7 @@ To create a new export:
 
 <summary>Infor Export to SFTP</summary>
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Eksport Sftp"><figcaption></figcaption></figure>
 
 **Field Descriptions**
 
@@ -158,7 +158,7 @@ To create a new export:
 
 <summary>SMB</summary>
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Eksport Smb"><figcaption></figcaption></figure>
 
 #### **Field Descriptions**
 
@@ -263,7 +263,7 @@ To create a new export:
 
 <summary>Infor IDM + ION BOD</summary>
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_export_ion_bod.png" alt="DocBits Eksport Ion Bod"><figcaption></figcaption></figure>
 
 #### **Field Descriptions**
 
