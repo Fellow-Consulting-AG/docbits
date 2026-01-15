@@ -4,26 +4,26 @@
 
 Exports to the document management system (IDM):
 
-<figure><img src="../../../../../../.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/facturx_extended_idm_export.png" alt="FacturX Extended IDM Export"><figcaption></figcaption></figure>
 
 Exported to Infor LN:
 
-<figure><img src="../../../../../../.gitbook/assets/image (364).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/facturx_extended_infor_ln_export.png" alt="FacturX Extended Infor LN Export"><figcaption></figcaption></figure>
 
 Exported to Infor M3:
 
-<figure><img src="../../../../../../.gitbook/assets/image (367).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/facturx_extended_infor_m3_export.png" alt="FacturX Extended Infor M3 Export"><figcaption></figcaption></figure>
 
 ### **Basic:**
 
 Exports to the document management system (IDM):
 
-<figure><img src="../../../../../../.gitbook/assets/image (363).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/facturx_basic_idm_export.png" alt="FacturX Basic IDM Export"><figcaption></figcaption></figure>
 
 Exported to Infor LN:
 
-<figure><img src="../../../../../../.gitbook/assets/image (365).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/facturx_basic_infor_ln_export.png" alt="FacturX Basic Infor LN Export"><figcaption></figcaption></figure>
 
 Exported to Infor M3:
 
-<figure><img src="../../../../../../.gitbook/assets/image (366).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/facturx_basic_infor_m3_export.png" alt="FacturX Basic Infor M3 Export"><figcaption></figcaption></figure>
