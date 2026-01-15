@@ -2,8 +2,7 @@
 
 Om uw instellingen te configureren, klikt u op het gebruikerspictogram in de linkerbenedenhoek van het scherm. Hier kunt u verschillende opties aanpassen:
 
-{% embed url="https://youtu.be/TLmAHw3EXs4" 
-%}
+{% embed url="https://youtu.be/TLmAHw3EXs4" %}
 
 
 <figure><img src="../../.gitbook/assets/user-config.png" alt=""><figcaption></figcaption></figure>
