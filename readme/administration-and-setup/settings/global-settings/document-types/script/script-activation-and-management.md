@@ -6,7 +6,7 @@
 
 * Öffnen Sie Ihren Webbrowser und melden Sie sich mit Ihren Zugangsdaten bei DocBits an.
 
-<figure><img src="../../../../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_match_score_setting.png" alt="Docbits Field Match Score Setting"><figcaption></figcaption></figure>
 
 **Navigieren zur Skriptverwaltung:**
 
@@ -20,7 +20,7 @@
 * Sobald Sie sich in der Skriptverwaltungsoberfläche befinden, sehen Sie eine Liste aller vorhandenen Skripte.
 * Hier können Sie durch die Liste scrollen, um das gewünschte Skript zu finden, das Sie aktivieren, deaktivieren oder bearbeiten möchten.
 
-<figure><img src="../../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_match_score_threshold.png" alt="Docbits Field Match Score Threshold"><figcaption></figcaption></figure>
 
 **Aktivieren oder Deaktivieren eines Skripts:**
 
