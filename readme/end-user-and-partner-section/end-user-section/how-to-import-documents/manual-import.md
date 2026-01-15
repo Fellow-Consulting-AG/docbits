@@ -2,6 +2,10 @@
 
 Se desideri importare documenti manualmente in DocBits, segui questi semplici passaggi:
 
+{% embed url="https://youtu.be/rJ2nuJh0Obw" %}
+{% endembed %}
+
+
 * Fai clic sul pulsante di caricamento sulla Dashboard di DocBits.
 * Comparirà una finestra in cui puoi caricare i tuoi documenti tramite il browser dei file o trascinandoli e rilasciandoli. Puoi caricare fino a 10 documenti alla volta.
 * Per caricare documenti tramite il browser dei file, fai clic sul pulsante Carica Documenti e seleziona i file che desideri caricare. Una volta selezionati i file, fai clic su Conferma per avviare il processo di caricamento.
