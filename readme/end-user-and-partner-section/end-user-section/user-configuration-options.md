@@ -2,8 +2,7 @@
 
 Um Ihre Einstellungen zu konfigurieren, klicken Sie auf das Benutzer-Icon in der unteren linken Ecke des Bildschirms. Hier können Sie mehrere Optionen anpassen:
 
-{% embed url="https://youtu.be/TLmAHw3EXs4" 
-%}
+{% embed url="https://youtu.be/TLmAHw3EXs4" %}
 
 
 <figure><img src="../../.gitbook/assets/user-config.png" alt=""><figcaption></figcaption></figure>
