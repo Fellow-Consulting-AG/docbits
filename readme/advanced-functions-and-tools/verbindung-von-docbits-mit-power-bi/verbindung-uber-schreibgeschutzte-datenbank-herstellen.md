@@ -2,6 +2,10 @@
 
 Dieser Leitfaden führt Sie durch das Verbinden der **schreibgeschützten Datenbank von DocBits mit Power BI Desktop** mithilfe des **PostgreSQL ODBC-Treibers**. Er umfasst die Treiberinstallation, die ODBC-Konfiguration, die Power BI-Integration und die geplante Aktualisierung.
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
+
 ### 1. Installieren des PostgreSQL ODBC-Treibers
 
 * Laden Sie den neuesten PostgreSQL ODBC-Treiber (**psqlODBC**) von der offiziellen Website herunter:

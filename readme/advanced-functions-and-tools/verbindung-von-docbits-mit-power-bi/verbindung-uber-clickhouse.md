@@ -2,6 +2,10 @@
 
 Wie man PowerBI konfiguriert
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
+
 Dieser Leitfaden führt Sie durch die Verbindung von **ClickHouse** mit **Power BI Desktop** unter Verwendung des **ODBC-Treibers**. Es umfasst die Treiberinstallation, die ODBC-Konfiguration, die Integration von Power BI und die Einrichtung der Datenaktualisierung.
 
 ### 1. Installieren des ClickHouse ODBC-Treibers
