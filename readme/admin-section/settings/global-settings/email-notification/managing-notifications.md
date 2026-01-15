@@ -24,7 +24,7 @@ Aby edytować, wyłączyć lub usunąć istniejące powiadomienia i dostosować 
 
 **Usuń powiadomienie:** Aby trwale usunąć powiadomienie, znajdź powiadomienie na liście i wybierz opcję usunięcia. To całkowicie usunie powiadomienie z systemu i nie można go przywrócić.
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt="" width="106"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_change_status_pending_2.png" alt="Docbits Workflow Change Status Pending 2" width="106"><figcaption></figcaption></figure>
 
 **Dostosuj do zmian:** Okresowo przeglądaj ustawienia powiadomień i dostosowuj je w razie potrzeby, aby odzwierciedlały zmiany w procesach przetwarzania dokumentów lub obowiązkach użytkowników. Może to obejmować aktualizację powiadomień z powodu nowych zdarzeń, zmienionych obowiązków lub innych zmian organizacyjnych.
 
