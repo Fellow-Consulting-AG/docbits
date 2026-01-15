@@ -25,7 +25,7 @@ Document subtypes in Docbits stellen gebruikers in staat om flexibeler en op maa
    * Bevat de naam van het sub-type en een set acties die erop kunnen worden uitgevoerd.
 2. **Acties**:
 
-<figure><img src="../../../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_subtype_actions_fields.png" alt="Docbits Subtype Actions Fields"><figcaption></figcaption></figure>
 
 * **Velden**: Configureer welke gegevensvelden zijn opgenomen in het sub-type en hoe ze worden beheerd.
 * **Bewerk Lay-out**: Wijzig de visuele lay-out voor hoe informatie wordt weergegeven en ingevoerd voor dit sub-type.

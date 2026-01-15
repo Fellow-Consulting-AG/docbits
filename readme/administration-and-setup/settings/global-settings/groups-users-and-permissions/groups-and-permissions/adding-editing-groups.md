@@ -8,16 +8,16 @@
 
 This window will open:
 
-<figure><img src="../../../../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_new_group_window.png" alt="Docbits New Group Window"><figcaption></figcaption></figure>
 
 * **Click the + New button:** If you want to add a new group, click the + New button to start the process of adding a new group.
 
-<figure><img src="../../../../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_new_group_form.png" alt="Docbits New Group Form"><figcaption></figcaption></figure>
 
 * **Fill out the table:** Provide the group name and a description of the group.
 * **Save the details:** Once you have filled in the group and description, click the "Save" button.
 
-<figure><img src="../../../../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_save_group_details.png" alt="Docbits Save Group Details"><figcaption></figcaption></figure>
 
 ## Editing Groups:
 
@@ -25,10 +25,10 @@ This window will open:
 
 <figure><img src="../../../../../.gitbook/assets/docbits_edit_group_name.png" alt="Docbits Edit Group Name"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_enable_groups_permissions_2.png" alt="Docbits Enable Groups Permissions 2"><figcaption></figcaption></figure>
 
 * **Enable Groups & permissions:** To make the group visible, "Groups & permissions" must be enabled.
 
-<figure><img src="../../../../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_enable_groups_permissions.png" alt="Docbits Enable Groups Permissions"><figcaption></figcaption></figure>
 
 * **Check the results:** After saving, review the results to make sure the group was successfully added, edited, or updated.

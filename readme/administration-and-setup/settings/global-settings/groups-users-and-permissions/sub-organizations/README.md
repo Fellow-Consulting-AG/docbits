@@ -14,10 +14,10 @@ Over het algemeen stellen suborganisaties in staat tot een effectievere beheer e
 
 Ga naar Instellingen, Globale Instellingen → Groepen, Gebruikers en Rechten → Suborganisaties zoals hieronder weergegeven.
 
-<figure><img src="../../../../../.gitbook/assets/image (77).png" alt=""><figcaption><p>Settings</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_sub_organizations_nav.png" alt="Docbits Sub Organizations Nav"><figcaption><p>Settings</p></figcaption></figure>
 
 U wordt vervolgens naar een pagina geleid die er ongeveer zo uitziet:
 
-<figure><img src="../../../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_sub_organizations_list.png" alt="Docbits Sub Organizations List"><figcaption></figcaption></figure>
 
 Hier vindt u uw eerder gemaakte suborganisaties, evenals waar u nieuwe suborganisaties kunt creëren.

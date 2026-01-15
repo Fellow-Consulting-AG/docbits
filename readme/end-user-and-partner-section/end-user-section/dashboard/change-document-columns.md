@@ -38,4 +38,4 @@ Voor elk documenttype zijn er verschillende velden die je kunt toevoegen:
 
 Selecteer de velden die je nodig hebt en klik op "Toevoegen aan zichtbare kolommen", ze zullen dan verschijnen in de kolominstellingen.
 
-<figure><img src="../../../.gitbook/assets/image (76).png" alt="" width="281"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_dashboard_columns_selection.png" alt="Docbits Dashboard Columns Selection" width="281"><figcaption></figcaption></figure>

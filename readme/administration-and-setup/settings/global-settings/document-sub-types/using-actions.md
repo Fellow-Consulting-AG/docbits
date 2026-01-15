@@ -8,7 +8,7 @@ Hier is een gids over hoe u de acties "Kopiëren" en "Verwijderen" op de juiste 
 * Selecteer het subtype dat u wilt kopiëren, klik op "Kopiëren" en voer indien nodig een nieuwe naam in voor het gekopieerde subtype.
 * Bevestig de actie en het systeem zal een kopie maken van het geselecteerde subtype met alle bestaande instellingen, velden, lay-outs en scripts.
 
-<figure><img src="../../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_subtype_copy_action.png" alt="Docbits Subtype Copy Action"><figcaption></figcaption></figure>
 
 ## Een subtype verwijderen:
 

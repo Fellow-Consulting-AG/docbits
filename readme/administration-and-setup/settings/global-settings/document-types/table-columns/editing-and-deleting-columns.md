@@ -2,7 +2,7 @@
 
 Het bewerken en verwijderen van kolommen in een databasetabel zijn belangrijke bewerkingen die zorgvuldig moeten worden uitgevoerd om de gegevensintegriteit te waarborgen en rekening te houden met mogelijke gevolgen voor de applicatielogica en rapportage.
 
-<figure><img src="../../../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_confirmation_dialog_generic.png" alt="Docbits Confirmation Dialog Generic"><figcaption></figcaption></figure>
 
 **Hier zijn gedetailleerde stappen voor beide acties:**
 
