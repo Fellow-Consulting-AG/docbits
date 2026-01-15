@@ -2,6 +2,9 @@
 
 ## **Übersicht**
 
+{% embed url="https://youtu.be/R5IrCpiP__4" %}
+{% endembed %}
+
 E-Mail-Vorlagen ermöglichen es Ihnen, automatisierte E-Mail-Benachrichtigungen anzupassen, die von DocBits gesendet werden. Vorlagen können dynamische Felder (z. B. `{{FieldID}}`), Bilder und HTML-Formatierung enthalten.
 
 ## **Zugriff auf E-Mail-Vorlagen**

@@ -10,6 +10,9 @@
 
 Innerhalb dieser Einstellungen können Sie dann die gewünschten Konfigurationen vornehmen, um sicherzustellen, dass Sie Benachrichtigungen nach Ihren Präferenzen erhalten. Denken Sie daran, die Einstellungen basierend auf Ihren Bedürfnissen anzupassen und sicherzustellen, dass sie den Datenschutzrichtlinien und Sicherheitsstandards Ihrer Organisation entsprechen.
 
+{% embed url="https://youtu.be/R5IrCpiP__4" %}
+{% endembed %}
+
 <figure><img src="../../../../.gitbook/assets/docbits_notification_config_nl.png" alt="Docbits Benachrichtigung Config Nl"><figcaption></figcaption></figure>
 
 **Neue Benachrichtigung erstellen:**
