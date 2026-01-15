@@ -40,7 +40,7 @@ Después de completar estos pasos, los detalles del usuario se actualizan correc
 
 * **Confirmación:** Se le pide que confirme la eliminación del usuario.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-17 um 09.10.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_remove_user_confirmation.png" alt="Docbits Remove User Confirmation"><figcaption></figcaption></figure>
 
 * **Notificación Opcional:** Puede enviar opcionalmente una notificación al usuario para informarle sobre la eliminación de su acceso.
 * **Revisar Tareas y Documentos:** Antes de eliminar al usuario, revise qué tareas o documentos están asignados al usuario. Mueva o transfiera la responsabilidad de esas tareas o documentos a otro usuario para asegurarse de que nada se pierda o quede sin terminar.

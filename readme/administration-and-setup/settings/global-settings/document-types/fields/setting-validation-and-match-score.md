@@ -6,7 +6,7 @@ Aquí hay instrucciones para usar la configuración de Validación Forzada y Val
 
 ### Validación forzada (Force Validation):
 
-<figure><img src="../../../../../.gitbook/assets/image (118).png" alt="" width="151"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_choose_column_type.png" alt="Docbits Choose Column Type" width="151"><figcaption></figcaption></figure>
 
 Esta configuración le permite establecer reglas que comprueban si los datos introducidos cumplen ciertos criterios.
 
@@ -18,7 +18,7 @@ Esta configuración le permite establecer reglas que comprueban si los datos int
 
 <figure><img src="../../../../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (119).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_decide_column_necessity.png" alt="Docbits Decide Column Necessity" width="375"><figcaption></figcaption></figure>
 
 **Impacto:**
 

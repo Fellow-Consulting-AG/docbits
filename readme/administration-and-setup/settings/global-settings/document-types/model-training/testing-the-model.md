@@ -29,7 +29,7 @@ Para probar el modelo entrenado y evaluar su precisión y preparación operativa
 
 * Compare las predicciones del modelo con las clasificaciones reales de los datos de prueba. Calcule métricas como exactitud, precisión, recuperación y puntuación F1 para evaluar el rendimiento del modelo. Estas métricas brindan información sobre qué tan bien el modelo clasificó los documentos y qué tan confiable es.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 08.53.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_training_metrics.png" alt="Docbits Model Training Metrics"><figcaption></figcaption></figure>
 
 
 

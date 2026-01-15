@@ -10,7 +10,7 @@
 * **Navegar:** Vaya a Configuración.
 * **Tipos de Documentos:** Busque la sección "Tipos de Documentos".
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 13.35.39 (1).png" alt=""><figcaption><p>Configuración</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_document_types_section.png" alt="Docbits Document Types Section"><figcaption><p>Configuración</p></figcaption></figure>
 
 ### Agregar un nuevo tipo de documento
 
@@ -18,7 +18,7 @@
 
 * Haga clic en el botón "+ Nuevo".
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-27 um 09.54.46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_new_document_type_basic_info.png" alt="Docbits New Document Type Basic Info"><figcaption></figcaption></figure>
 
 **Información básica:**
 

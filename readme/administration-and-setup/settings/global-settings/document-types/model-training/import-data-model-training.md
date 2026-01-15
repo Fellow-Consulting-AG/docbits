@@ -7,13 +7,13 @@ Proporcione instrucciones detalladas sobre cómo importar documentos de muestra 
 * **Prepare los documentos de muestra:** Asegúrese de que los documentos de muestra estén en un formato compatible, como PDF, Word, Excel, etc. Estos documentos deben cubrir una variedad de tipos y formatos que se pueden encontrar en las operaciones de producción del sistema de procesamiento de documentos.
 * **Navegue a la función de importación:** Inicie sesión en el área de administración del sistema de procesamiento de documentos y navegue hasta el área donde puede importar nuevos documentos.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 20.00.03.png" alt=""><figcaption><p>Configuración Global</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_global_settings_import_nav.png" alt="Docbits Global Settings Import Nav"><figcaption><p>Configuración Global</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 20.02.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_import_function_area.png" alt="Docbits Import Function Area"><figcaption></figcaption></figure>
 
 * **Seleccione la opción para importar documentos:** Haga clic en el botón o enlace para importar documentos. Puede haber una opción como "Importar".
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 19.32.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_import_documents_button.png" alt="Docbits Import Documents Button"><figcaption></figcaption></figure>
 
 * **Seleccione el formato de importe y fecha:**
 

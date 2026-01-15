@@ -4,7 +4,7 @@
 
 Como administrador, tienes la capacidad de ver y gestionar los mapeos entre los números de artículos internos y los números de artículos de los proveedores. Esta función asegura que las discrepancias entre tu sistema y los sistemas de tus proveedores se manejen de manera eficiente. Puedes revisar, editar y eliminar mapeos incorrectos para mantener la precisión de los datos.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_supplier_item_map_admin_view.png" alt="Docbits Supplier Item Map Admin View"><figcaption></figcaption></figure>
 
 **Accediendo al Mapa de Números de Artículos de Proveedores**
 
