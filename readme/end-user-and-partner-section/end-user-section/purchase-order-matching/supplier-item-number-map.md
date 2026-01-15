@@ -1,5 +1,7 @@
 # Correspondance des numéros d'article du fournisseur
 
+{% embed url="https://youtu.be/agxk8WQhtJA" %}
+
 ## **Vue d'ensemble**
 
 Cette fonctionnalité vous aide à gérer et à réconcilier les numéros d'article entre votre système et vos fournisseurs. Souvent, les numéros d'article que vous utilisez en interne peuvent ne pas correspondre aux numéros d'article utilisés par vos fournisseurs. Docbits facilite la gestion de ces divergences en créant une correspondance entre vos numéros d'article et ceux de vos fournisseurs.
