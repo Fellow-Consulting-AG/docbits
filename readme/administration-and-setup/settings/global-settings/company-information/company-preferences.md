@@ -1,5 +1,9 @@
 # Preferências da empresa
 
+
+{% embed url="https://youtu.be/TLmAHw3EXs4" 
+%}
+
 ## Visão Geral
 
 Nas **Preferências da empresa**, você pode configurar as principais configurações de formatação e notificação para o aplicativo. Isso inclui:
