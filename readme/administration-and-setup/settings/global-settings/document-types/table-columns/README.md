@@ -1,6 +1,6 @@
 # Tabelkolommen
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.57.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_table_columns_overview.png" alt="Docbits Table Columns Overview"><figcaption></figcaption></figure>
 
 ## **Overzicht**
 
@@ -20,8 +20,8 @@ De Tabelkolommen-interface in Docbits wordt gebruikt om de kolommen te specifice
    * **Nieuwe Tabelkolom Toevoegen**: Opent een dialoogvenster waarin je een nieuwe kolom kunt definiëren, inclusief de naam, of deze verplicht is, het gegevenstype en de tabel waartoe deze behoort.
    * **Nieuwe Tabel Maken**: Maakt het mogelijk om een nieuwe tabel te creëren, waarbij een unieke naam wordt gedefinieerd die zal worden gebruikt om gegevens op te slaan die verband houden met een specifieke set documenttypes.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_create_new_table.png" alt="Docbits Create New Table"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_table_columns_integrity.png" alt="Docbits Table Columns Integrity"><figcaption></figcaption></figure>
 
 Deze sectie is van vitaal belang voor het behouden van de structurele integriteit en bruikbaarheid van gegevens binnen het Docbits-systeem, en zorgt ervoor dat de gegevens die uit documenten zijn gehaald op een goed georganiseerde en toegankelijke manier worden opgeslagen.

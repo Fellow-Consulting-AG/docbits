@@ -110,7 +110,7 @@ It is also possible to enter the status into the workflow, so the assigned perso
 
 For example, if certain or important information is missing from a document, but is important and must be included for further processing, you can set up the workflow so that these documents are immediately forwarded to the buyer and a substitute (replacement).
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_test_9_replacement.png" alt="Docbits Workflow Test 9 Replacement"><figcaption></figcaption></figure>
 
 **Test 9:**
 

@@ -4,11 +4,11 @@
 
 ## Overzicht
 
-<div data-full-width="false"><figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 07.58.15.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/docbits_validation_screen_overview_nl.png" alt="Docbits Validation Screen Overview Nl"><figcaption></figcaption></figure></div>
 
 ### **Opslaan knop:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_save_button_nl.png" alt="Docbits Save Button Nl"><figcaption></figcaption></figure>
 
 * **Opslaan knop:**
   * **Doel:** Slaat de huidige staat van het document of script waar aan gewerkt wordt op.
@@ -16,9 +16,9 @@
 
 ### **Speciale regels toevoegen:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.41.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_add_special_rules.png" alt="Docbits Add Special Rules"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.42.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_add_script_rule.png" alt="Docbits Add Script Rule"><figcaption></figcaption></figure>
 
 * **Speciale regels toevoegen / Script in DocBits toevoegen:**
   * **Doel:** Stelt gebruikers in staat om specifieke regels of scripts te implementeren die aanpassen hoe documenten worden verwerkt.
@@ -30,7 +30,7 @@ Zie hier toevoegen [Script in DocBits](../../../administration-and-setup/setting
 
 ### **Vage velden:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_fuzzy_fields_nl.png" alt="Docbits Fuzzy Fields Nl"><figcaption></figcaption></figure>
 
 * **Vage velden:**
   * **Doel:** Helpt bij het identificeren en corrigeren van velden waar de gegevens mogelijk niet perfect overeenkomen, maar dicht genoeg zijn.
@@ -38,7 +38,7 @@ Zie hier toevoegen [Script in DocBits](../../../administration-and-setup/setting
 
 ### **Verplichte velden:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_mandatory_fields.png" alt="Docbits Mandatory Fields"><figcaption></figcaption></figure>
 
 Er zijn velden die vereist zijn voor verdere bewerking, deze kunnen in de instellingen worden bewerkt.
 
@@ -58,17 +58,17 @@ Gebruik de tooltips om te achterhalen of:
 
 ### **Vergrootglas:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_magnifying_glass_tool.png" alt="Docbits Magnifying Glass Tool" width="118"><figcaption></figcaption></figure>
 
 * **Vergrootglas:**
   * **Doel:** Biedt een ingezoomd overzicht van een geselecteerd gebied van het document.
   * **Gebruiksscenario:** Helpt bij het onderzoeken van fijne details of kleine tekst in documenten, waardoor de nauwkeurigheid bij gegevensinvoer of -beoordeling wordt gewaarborgd.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.03.46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_open_new_window_usage.png" alt="Docbits Open New Window Usage"><figcaption></figcaption></figure>
 
 ### **Open nieuw venster:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.26.png" alt="" width="130"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_open_new_window_tool.png" alt="Docbits Open New Window Tool" width="130"><figcaption></figcaption></figure>
 
 * **Open nieuw venster:**
   * **Doel:** Opent een nieuw venster voor zij-aan-zij documentvergelijking of multitasking.
@@ -76,17 +76,17 @@ Gebruik de tooltips om te achterhalen of:
 
 ### **Sneltoetsen:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.42.png" alt="" width="145"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_shortcuts_tool.png" alt="Docbits Shortcuts Tool" width="145"><figcaption></figcaption></figure>
 
 * **Sneltoetsen:**
   * **Doel:** Stelt gebruikers in staat om acties snel uit te voeren met behulp van toetsencombinaties.
   * **Gebruiksscenario:** Verhoogt de snelheid en efficiëntie in documentnavigatie en -verwerking door de afhankelijkheid van muisnavigatie te minimaliseren.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt="" width="239"><figcaption><p>Keyboard</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_shortcuts_usage.png" alt="Docbits Shortcuts Usage" width="239"><figcaption><p>Keyboard</p></figcaption></figure>
 
 ### **Taken:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.00.png" alt="" width="55"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_tasks_tool.png" alt="Docbits Tasks Tool" width="55"><figcaption></figcaption></figure>
 
 Om interne informatie te delen, kunt u taken aanmaken en deze toewijzen aan een specifieke werknemer of groep binnen het bedrijf.
 
@@ -94,11 +94,11 @@ Om interne informatie te delen, kunt u taken aanmaken en deze toewijzen aan een 
   * **Doel:** Stelt gebruikers in staat om taken te creëren die verband houden met documenten en deze aan teamleden toe te wijzen.
   * **Gebruiksscenario:** Vergemakkelijkt samenwerking en taakbeheer binnen teams, zodat iedereen op de hoogte is van zijn verantwoordelijkheden.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.21.27.png" alt="" width="218"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_annotation_mode_usage.png" alt="Docbits Annotation Mode Usage" width="218"><figcaption></figcaption></figure>
 
 ### **Annotatiemodus:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.21.png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_annotation_mode_tool.png" alt="Docbits Annotation Mode Tool" width="187"><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
@@ -110,7 +110,7 @@ U kunt annotaties op een document achterlaten. Dit kan nuttig zijn om informatie
 
 ### **Samenvoegen:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_merge_tool.png" alt="Docbits Merge Tool" width="60"><figcaption></figcaption></figure>
 
 Documenten kunnen hier worden samengevoegd, bijvoorbeeld als een pagina van een factuur ontbrak, kunnen deze pagina's later op deze manier worden samengevoegd zonder dat het hele document hoeft te worden verwijderd of opnieuw geüpload.
 
@@ -120,7 +120,7 @@ Documenten kunnen hier worden samengevoegd, bijvoorbeeld als een pagina van een 
 
 ### **OCR-weergave:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.00.png" alt="" width="77"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_ocr_view_tool.png" alt="Docbits Ocr View Tool" width="77"><figcaption></figcaption></figure>
 
 In de OCR-weergave wordt de tekst automatisch gefilterd uit het document. Dit wordt gebruikt om relevante kenmerken te herkennen, zoals de postcode, contractnummer, factuurnummer en de sortering van een document.
 
@@ -128,11 +128,11 @@ In de OCR-weergave wordt de tekst automatisch gefilterd uit het document. Dit wo
   * **Doel:** Herkent automatisch tekst binnen documenten met behulp van Optical Character Recognition-technologie.
   * **Gebruiksscenario:** Vereenvoudigt het proces van het digitaliseren van gedrukte of handgeschreven teksten, waardoor ze doorzoekbaar en bewerkbaar worden.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_ocr_usage.png" alt="Docbits Ocr Usage"><figcaption><p>OCR</p></figcaption></figure>
 
 ### **Ticket aanmaken:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_create_ticket_tool.png" alt="Docbits Create Ticket Tool" width="97"><figcaption></figcaption></figure>
 
 In tegenstelling tot taken die intern binnen het bedrijf worden doorgegeven, is dit ondersteuningsticket belangrijk om ons te informeren en onmiddellijk een ticket aan te maken in geval van fouten en/of discrepanties. Dit maakt het proces veel gemakkelijker omdat u de bug onmiddellijk met het bijbehorende document kunt verzenden. Er is ook de optie om prioriteit in te stellen, een screenshot van het document te maken of er een te uploaden.
 
@@ -140,11 +140,11 @@ In tegenstelling tot taken die intern binnen het bedrijf worden doorgegeven, is 
   * **Doel:** Stelt gebruikers in staat om problemen of discrepanties te melden door een ondersteuningsticket aan te maken.
   * **Gebruiksscenario:** Essentieel voor een snelle oplossing van problemen en bugs, wat helpt om de integriteit en soepele werking van het systeem te behouden.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_script_logs_usage.png" alt="Docbits Script Logs Usage" width="237"><figcaption></figcaption></figure>
 
 ### **Document scriptlogs:**
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_script_logs_tool.png" alt="Docbits Script Logs Tool" width="160"><figcaption></figcaption></figure>
 
 Scripts kunnen worden aangemaakt in de instellingen onder Documenttypes; deze informatie wordt hier vervolgens weergegeven.
 

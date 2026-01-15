@@ -1,6 +1,6 @@
 # Document Field Comparison
 
-<figure><img src="../../../../.gitbook/assets/userlmn_7d5c06ce63181faee30b7bc6903e4d7b (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_doc_field_comparison.png" alt="Docbits Workflow Doc Field Comparison"><figcaption></figcaption></figure>
 
 **Purpose**
 

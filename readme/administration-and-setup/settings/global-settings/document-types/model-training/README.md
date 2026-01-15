@@ -1,6 +1,6 @@
 # Modeltraining
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.07.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_training_overview.png" alt="Docbits Model Training Overview"><figcaption></figcaption></figure>
 
 ## **Overzicht**
 

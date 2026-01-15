@@ -1,6 +1,6 @@
 # Checkbox Field Condition
 
-<figure><img src="../../../../.gitbook/assets/userlmn_b689c7ce31284b4635be85f674a90917 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_checkbox_condition.png" alt="Docbits Workflow Checkbox Condition"><figcaption></figcaption></figure>
 
 **Purpose**
 

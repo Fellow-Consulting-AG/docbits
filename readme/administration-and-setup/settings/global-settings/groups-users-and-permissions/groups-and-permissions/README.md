@@ -1,6 +1,6 @@
 # Groepen en Machtigingen
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_groups_permissions_overview.png" alt="Docbits Groups Permissions Overview"><figcaption></figcaption></figure>
 
 ## Componenten van de Sectie Groepen en Machtigingen
 
@@ -16,4 +16,4 @@
      * **Eerste Goedkeuring**: Machtiging om de initiële goedkeuring van het document uit te voeren.
      * **Tweede Goedkeuring**: Machtiging om een secundaire goedkeuring uit te voeren (indien van toepassing).
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_second_approval_permission.png" alt="Docbits Second Approval Permission"><figcaption></figcaption></figure>

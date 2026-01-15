@@ -1,6 +1,6 @@
 # Instellingen
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.14.35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_global_overview.png" alt="Docbits Settings Global Overview"><figcaption></figcaption></figure>
 
 1. **Globale Instellingen**:
    * **Bedrijfsinformatie**: Definieer en bewerk basisgegevens over het bedrijf, zoals naam, adres en andere identificatoren.

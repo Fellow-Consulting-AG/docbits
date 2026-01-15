@@ -4,7 +4,7 @@ Gebruikersinstellingen is een gebied in een systeem waar gebruikers persoonlijke
 
 In de meeste organisaties hebben alleen geautoriseerde personen toegang tot gebruikersinstellingen, meestal beheerders of systeembeheerders. Dit komt omdat de instellingen gevoelige informatie kunnen bevatten die de beveiliging van het systeem in gevaar kan brengen als deze door ongeautoriseerde personen worden gewijzigd. Beheerders kunnen gebruikersinstellingen beheren om ervoor te zorgen dat ze voldoen aan de beleidslijnen en vereisten van de organisatie en dat de integriteit van het systeem behouden blijft.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_user_search_bar.png" alt="Docbits User Search Bar"><figcaption></figcaption></figure>
 
 1. **Zoekbalk**: Hiermee kunnen beheerders snel gebruikers vinden door naar hun namen of andere details te zoeken.
 2. **Gebruikerslijst**: Toont een lijst van gebruikers met de volgende kolommen:

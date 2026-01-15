@@ -10,13 +10,13 @@
 
 Binnen deze instellingen kunt u vervolgens de gewenste configuraties maken om ervoor te zorgen dat u meldingen ontvangt volgens uw voorkeuren. Vergeet niet om de instellingen aan te passen op basis van uw behoeften en zorg ervoor dat ze voldoen aan het privacybeleid en de beveiligingsnormen van uw organisatie.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.15.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_notification_config_nl.png" alt="Docbits Melding Config Nl"><figcaption></figcaption></figure>
 
 **Nieuwe melding maken:**
 
 * Klik op de knop om een nieuwe melding toe te voegen of te maken.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 01.28.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_notification_add_new.png" alt="Docbits Melding Add New"><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 

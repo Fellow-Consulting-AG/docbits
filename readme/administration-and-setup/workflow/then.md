@@ -16,7 +16,7 @@
 * **Start Export:** Initiates the export process for a document.
 * **Reject the Document:** Marks a document as rejected.
 
-<figure><img src="../../../.gitbook/assets/then2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_action_reject_document.png" alt="Docbits Action Reject Document"><figcaption></figcaption></figure>
 
 ### **3. Status Actions:**
 

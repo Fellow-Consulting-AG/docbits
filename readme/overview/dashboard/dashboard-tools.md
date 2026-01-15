@@ -9,5 +9,5 @@ To the right of the search bar, you will find other dashboard tools.
 * Analytics: This provides you with further insight about the documents you have uploaded to DocBits.
 * Upload: More information on this topic in the next section.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_dashboard_upload_button.png" alt="Docbits Dashboard Upload Button"><figcaption></figcaption></figure>
 

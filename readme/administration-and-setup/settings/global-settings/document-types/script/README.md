@@ -1,6 +1,6 @@
 # Script
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.43.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_overview.png" alt="Docbits Script Overview"><figcaption></figcaption></figure>
 
 ## **Overzicht**
 
@@ -17,4 +17,4 @@ Scripts in Docbits zijn doorgaans geschreven in een scripttaal die door het syst
    * Biedt een interface waar scripts kunnen worden geschreven en bewerkt. De editor ondersteunt doorgaans syntaxisaccentuering, foutaccentuering en andere functies om te helpen bij de ontwikkeling van scripts.
    * **Voorbeeldscript**: Scripts kunnen bewerkingen bevatten zoals het doorlopen van factuurregels om totalen te valideren of om invoer te verwijderen die niet aan bepaalde criteria voldoet.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.43.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_example.png" alt="Docbits Script Example"><figcaption></figcaption></figure>

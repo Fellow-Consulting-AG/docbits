@@ -1,6 +1,6 @@
 # SQL Access
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-04-12 um 20.57.21.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_sql_access_overview.png" alt="Docbits Sql Access Overview"><figcaption></figcaption></figure>
 
 ## Overview
 

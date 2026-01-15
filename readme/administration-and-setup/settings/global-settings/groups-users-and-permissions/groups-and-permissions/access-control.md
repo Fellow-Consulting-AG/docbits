@@ -65,4 +65,4 @@ Het toegangscontrolepaneel stelt de beheerder in staat om gebruikersgroepen en h
      * **Goedkeuring:** Wijzigingen moeten worden goedgekeurd door bevoegde gebruikers of de beheerder.
      * **Geen**: Er zijn geen specifieke machtigingen van toepassing op het veld.
 
-<figure><img src="../../../../../.gitbook/assets/Access-Control2_nl (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_access_control_none_nl.png" alt="Docbits Access Control None Nl"><figcaption></figcaption></figure>
