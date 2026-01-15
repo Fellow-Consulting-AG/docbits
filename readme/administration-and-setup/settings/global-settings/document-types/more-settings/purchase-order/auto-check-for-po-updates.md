@@ -6,7 +6,7 @@ Ir a **Ajuste** → **Ajuste General** → **Tipos de Documentos** → **Más Co
 
 Activa el botón para habilitar esta configuración.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207110303.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_po_auto_check_settings.jpg" alt="DocBits Po Auto Verificación Configuración"><figcaption></figcaption></figure>
 
 
 

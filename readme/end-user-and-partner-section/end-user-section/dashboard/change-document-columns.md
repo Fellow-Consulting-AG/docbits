@@ -6,7 +6,7 @@ hidden: true
 
 Desde el Panel de control, haz clic en el icono de Configuración Avanzada como se muestra a continuación:
 
-<figure><img src="../../../.gitbook/assets/change-document-colums1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_dashboard_advanced_settings_icon.png" alt="DocBits Tablero Avanzado Configuración Icon"><figcaption></figcaption></figure>
 
 El siguiente menú se mostrará:
 

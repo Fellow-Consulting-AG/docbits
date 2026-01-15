@@ -22,7 +22,7 @@ Cuando está habilitada, esta Ajuste permite definir tolerancias para **Cantidad
     * **Porcentaje:** Indica una tolerancia porcentual.
     * **Valor:** Indica un monto fijo por el cual el valor puede diferir.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207110354.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_po_tolerance_value_fixed.jpg" alt="DocBits Po Tolerancia Valor Fijo"><figcaption></figcaption></figure>
 
 
 
@@ -39,7 +39,7 @@ Cuando está habilitada, esta Ajuste permite definir tolerancias para **Cantidad
   * La Línea 1 **no se marca** como un desajuste porque $4.80 está dentro del 5% de $5.00.
   * La Línea 2 **se marca** como un desajuste porque $2.20 excede la desviación permitida del 5% de $2.00. El usuario ahora debe tomar medidas para resolver el desajuste antes de que la factura pueda ser procesada.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207110533.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_po_tolerance_mismatch_example.jpg" alt="DocBits Po Tolerancia Desajuste Ejemplo"><figcaption></figcaption></figure>
 
 ### **Ajuste** para configurar la **Ajuste** Adicional de Tolerancia de Órdenes de Compra
 
@@ -62,5 +62,5 @@ Cuando está habilitada, esta Ajuste permite definir tolerancias para **Flete**,
     * **Porcentaje:** La tolerancia se define como un porcentaje.
     * **Valor:** La tolerancia se define como un monto fijo.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207110411.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_po_tolerance_settings.jpg" alt="DocBits Po Tolerancia Configuración"><figcaption></figcaption></figure>
 
