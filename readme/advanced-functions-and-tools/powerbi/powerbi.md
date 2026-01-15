@@ -6,6 +6,9 @@ description: How to configure PowerBI
 
 This guide walks you through connecting **ClickHouse** to **Power BI Desktop** using the **ODBC driver**. It covers driver installation, ODBC configuration, Power BI integration, and setting up data refresh.
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
 #### 1. Install the ClickHouse ODBC Driver
 
 * Download the latest **ClickHouse ODBC Driver** from:
