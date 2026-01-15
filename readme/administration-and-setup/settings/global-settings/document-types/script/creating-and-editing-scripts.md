@@ -10,13 +10,13 @@ Primeiro, você precisa escolher a linguagem de script que deseja usar. O DocBit
 
 Faça login no DocBits e navegue até o ambiente de desenvolvimento de script. Ele fica na área de administração.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 15.19.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_dev_environment.png" alt="Docbits Script Dev Environment"><figcaption></figcaption></figure>
 
 **Crie un novo script:**
 
 Clique no botão "+ Novo" para abrir um novo editor de script.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 15.21.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_new_script_editor.png" alt="Docbits New Script Editor"><figcaption></figcaption></figure>
 
 **Escreva o código:**
 
@@ -64,7 +64,7 @@ Uma etapa importante é mapear o script para os tipos de documento apropriados. 
 
 Depois de criar, testar e mapear o script, verifique-o novamente em busca de erros e inconsistências. Se tudo estiver OK, você poderá publicar o script no ambiente de produção do DocBits.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 15.29.18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_publish_script_button.png" alt="Docbits Publish Script Button"><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 

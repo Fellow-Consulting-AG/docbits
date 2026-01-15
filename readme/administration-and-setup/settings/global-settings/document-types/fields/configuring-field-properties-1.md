@@ -4,7 +4,7 @@
 
 ### Obrigatório (Required):
 
-<figure><img src="../../../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_configure_classification_rule.png" alt="Docbits Configure Classification Rule"><figcaption></figcaption></figure>
 
 Se um campo estiver marcado como Obrigatório, significa que este campo deve ser preenchido antes que o documento possa ser salvo ou processado.
 
@@ -19,7 +19,7 @@ Se um campo estiver marcado como Obrigatório, significa que este campo deve ser
 
 ### Somente Leitura (Read Only):
 
-<figure><img src="../../../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_prediction_test.png" alt="Docbits Model Prediction Test"><figcaption></figcaption></figure>
 
 Se um campo estiver marcado como Somente Leitura, significa que os usuários podem ver o conteúdo deste campo, mas não podem fazer nenhuma alteração nele.
 
@@ -33,7 +33,7 @@ Se um campo estiver marcado como Somente Leitura, significa que os usuários pod
 
 ### Oculto (Hidden):
 
-<figure><img src="../../../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_classification_extraction_settings.png" alt="Docbits Classification Extraction Settings"><figcaption></figcaption></figure>
 
 Se um campo estiver marcado como "Oculto", significa que o campo ficará escondido na interface do usuário e os usuários não poderão vê-lo nem acessá-lo.
 
@@ -63,7 +63,7 @@ Se um campo estiver configurado para OCR, significa que o sistema tentará extra
 
 ### Validação forçada (Forced validation):
 
-<figure><img src="../../../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_sql_alter_table_syntax.png" alt="Docbits Sql Alter Table Syntax"><figcaption></figcaption></figure>
 
 Configure as regras de validação adequadamente, como limites numéricos, expressões regulares ou relações com outros campos.
 
@@ -77,7 +77,7 @@ Configure as regras de validação adequadamente, como limites numéricos, expre
 
 ### Pontuação de Correspondência (Match Score):
 
-<figure><img src="../../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_new_column_steps.png" alt="Docbits Add New Column Steps"><figcaption></figcaption></figure>
 
 Ao comparar os dados de entrada com os dados de referência, o Match Score pode ajudar a confirmar a precisão e a validade dos dados. Se o Match Score exceder um determinado limite, a correspondência é considerada bem-sucedida.
 
@@ -90,6 +90,6 @@ Ao comparar os dados de entrada com os dados de referência, o Match Score pode 
 
 * O Match Score é usado para avaliar a precisão das correspondências entre os dados de entrada e os valores de referência. Se a pontuação obtida exceder o limite definido, a correspondência é considerada bem-sucedida. Isso é especialmente útil para campos que exigem validação de dados ou correspondência de dados, como campos com nome, endereço de e-mail, etc. por exemplo, ao verificar dados de clientes.
 
-<figure><img src="../../../../../.gitbook/assets/image (117).png" alt="" width="258"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_column_requirements_analysis.png" alt="Docbits Column Requirements Analysis" width="258"><figcaption></figcaption></figure>
 
 Ao configurar cuidadosamente essas propriedades de campo, você pode otimizar os fluxos de trabalho de processamento de documentos e garantir que seus dados sejam capturados corretamente, protegidos e processados com eficiência.

@@ -2,7 +2,7 @@
 
 ## A configuração adequada dos campos no DocBits é fundamental para garantir que os dados possam ser capturados, processados e armazenados corretamente.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_train_model_action.png" alt="Docbits Train Model Action"><figcaption></figcaption></figure>
 
 **Aqui estão algumas razões pelas quais isso é importante:**
 

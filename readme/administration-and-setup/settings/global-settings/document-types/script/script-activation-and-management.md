@@ -13,7 +13,7 @@
 * Procure a opção para gerenciar scripts na interface do DocBits.
 * Isso pode variar dependendo da sua instalação e configuração do DocBits.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 16.06.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_view_existing_scripts.png" alt="Docbits View Existing Scripts"><figcaption></figcaption></figure>
 
 **Visualizando scripts existentes:**
 
@@ -27,13 +27,13 @@
 * Para ativar ou desativar um script, encontre o script relevante na lista e ative ou desative o script.
 * Certifique-se de salvar as alterações após fazer suas seleções.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 16.16.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_save_script_changes.png" alt="Docbits Save Script Changes"><figcaption></figcaption></figure>
 
 **Editando um script:**
 
 * Se você precisar editar um script existente, procure o botão na interface de gerenciamento de scripts que permite editar o script.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 16.23.19.png" alt="" width="123"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_edit_script_icon.png" alt="Docbits Edit Script Icon" width="123"><figcaption></figcaption></figure>
 
 * Clique nele para abrir o editor onde você pode modificar o código do script.
 * Após fazer suas alterações, salve o script novamente.

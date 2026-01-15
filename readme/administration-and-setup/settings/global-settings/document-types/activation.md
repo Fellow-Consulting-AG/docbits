@@ -40,7 +40,7 @@
 * Se o tipo de documento estiver atualmente ativado, o interruptor mostra uma posição colorida ou ligada.&#x20;
 * Clique no interruptor para desativar o tipo de documento. O interruptor muda sua posição e cor para indicar a desativação.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-27 um 14.16.06 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_deactivate_doc_type_switch.png" alt="Docbits Deactivate Doc Type Switch"><figcaption></figcaption></figure>
 
 
 

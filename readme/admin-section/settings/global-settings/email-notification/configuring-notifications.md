@@ -1,6 +1,6 @@
 # Configurando Notificações
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 08.56.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_email_notification_settings_access.png" alt="Docbits Email Melding Settings Access"><figcaption></figcaption></figure>
 
 #### Para acessar as configurações de notificações por e-mail, siga estes passos:
 

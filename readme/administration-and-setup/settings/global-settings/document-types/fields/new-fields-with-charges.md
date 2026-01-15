@@ -17,11 +17,11 @@
 
 <div>
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-06-07 um 17.00.52.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_field_with_charges_1.png" alt="Docbits Add Field With Charges 1"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-06-07 um 17.01.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_field_with_charges_2.png" alt="Docbits Add Field With Charges 2"><figcaption></figcaption></figure>
 
 </div>
 

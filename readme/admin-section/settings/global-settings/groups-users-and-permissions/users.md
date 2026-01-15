@@ -19,11 +19,11 @@ Na maioria das organizações, apenas pessoas autorizadas têm acesso às config
 * **Acessar Gerenciamento de Usuários:** Navegue até Configurações - Configurações Globais - Grupos, Usuário e Permissões - Usuário, onde você pode adicionar novos usuários.&#x20;
 * **Adicionar novo usuário:** Nas configurações do usuário, clique em “Adicionar usuário”
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_new_user_button.png" alt="Docbits Add New User Button"><figcaption></figcaption></figure>
 
 * **Preenchendo o formulário:** Um formulário aparecerá onde você pode inserir as informações do novo usuário. As informações típicas incluem:
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_new_user_form.png" alt="Docbits New User Form" width="375"><figcaption></figcaption></figure>
 
 * **Nome de Usuário:** Nome único para o usuário usado para fazer login.&#x20;
 * **Nome e Sobrenome:** Nome do usuário.&#x20;

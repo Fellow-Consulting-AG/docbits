@@ -4,11 +4,11 @@
 
 *   **Navegue até a área de Configurações:** Faça login no DocBits como administrador e navegue até a área de Gerenciamento de Tipos de Documentos.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 09.02.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_document_type_settings_nav.png" alt="Docbits Document Type Settings Nav"><figcaption></figcaption></figure>
 
 *   **Selecione a opção para adicionar um subtipo:** Clique no botão "+ Novo" para adicionar um novo subtipo.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 09.04.46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_add_subtype_button.png" alt="Docbits Add Subtype Button"><figcaption></figcaption></figure>
 
 *   **Nomeie o subtipo:** Insira um nome descritivo para o novo subtipo. Esse nome deve descrever claramente o objetivo do subtipo para que os usuários possam entender facilmente que tipo de documentos ele representa.
 

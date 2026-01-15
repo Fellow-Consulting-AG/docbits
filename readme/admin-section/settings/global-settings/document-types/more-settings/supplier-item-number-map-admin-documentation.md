@@ -4,7 +4,7 @@
 
 Como administrador, você tem a capacidade de visualizar e gerenciar os mapeamentos entre os números de itens internos e os números de itens dos fornecedores. Este recurso garante que as discrepâncias entre seu sistema e os sistemas de seus fornecedores sejam tratadas de forma eficiente. Você pode revisar, editar e excluir mapeamentos incorretos para manter a precisão dos dados.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_supplier_item_map_admin_view.png" alt="Docbits Supplier Item Map Admin View"><figcaption></figcaption></figure>
 
 **Acessando o Mapa de Números de Itens do Fornecedor**
 

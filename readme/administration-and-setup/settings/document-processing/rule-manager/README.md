@@ -171,7 +171,7 @@ Defines specific actions to take when a discrepancy is detected:
 
 ### Screenshot 1: Rule Management Interface
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.20.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_manager_interface.png" alt="Docbits Rule Manager Interface"><figcaption></figcaption></figure>
 
 This screenshot shows the Rule Management interface where administrators can view and manage all conflict resolution rules. Key elements include:
 
@@ -183,7 +183,7 @@ This screenshot shows the Rule Management interface where administrators can vie
 
 ### Screenshot 2: Detailed Rule Editing
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.21.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_editing_detail.png" alt="Docbits Rule Editing Detail"><figcaption></figcaption></figure>
 
 his screenshot illustrates the detailed view of a specific rule being edited. Key elements include:
 

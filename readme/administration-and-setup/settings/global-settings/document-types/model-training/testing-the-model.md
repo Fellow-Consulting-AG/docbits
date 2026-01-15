@@ -29,7 +29,7 @@ Para testar o modelo treinado e avaliar sua precisão e prontidão operacional, 
 
 * Compare as previsões do modelo com as classificações reais dos dados de teste. Calcule métricas como exatidão, precisão, recall e pontuação F1 para avaliar o desempenho do modelo. Essas métricas fornecem informações sobre o quão bem o modelo classificou os documentos e o quão confiável ele é.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 08.53.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_training_metrics.png" alt="Docbits Model Training Metrics"><figcaption></figcaption></figure>
 
 
 

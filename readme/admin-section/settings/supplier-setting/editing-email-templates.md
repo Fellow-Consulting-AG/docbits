@@ -4,7 +4,7 @@
 
 O recurso de Modelos de Email permite que administradores criem e personalizem comunicações por email que são enviadas automaticamente para fornecedores. Um dos elementos-chave utilizados nesses modelos é o `{{magic_link}}`, que fornece um link dinâmico adaptado a cada destinatário.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.33.35.png" alt="Portal do Fornecedor - Modelo de Email"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_email_template_magic_link.png" alt="Docbits Email Template Magic Link"><figcaption></figcaption></figure>
 
 #### O que é `{{magic_link}}`?
 
@@ -12,7 +12,7 @@ O `{{magic_link}}` é um espaço reservado que é substituído dinamicamente por
 
 ### Edição de Modelos de Email
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.35.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_email_template_editor_access.png" alt="Docbits Email Template Editor Access"><figcaption></figcaption></figure>
 
 #### Acessando o Editor de Modelos de Email
 
@@ -24,7 +24,7 @@ O `{{magic_link}}` é um espaço reservado que é substituído dinamicamente por
    * O editor permite que você modifique tanto o código HTML quanto o design visual do email.
    * Você pode alternar entre edição visual e edição de código usando as abas fornecidas.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.36.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_email_template_visual_code_toggle.png" alt="Docbits Email Template Visual Code Toggle"><figcaption></figcaption></figure>
 
 #### Definindo `{{magic_link}}` como um Link
 
