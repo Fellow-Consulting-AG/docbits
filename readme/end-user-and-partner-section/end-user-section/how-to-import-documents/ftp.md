@@ -17,11 +17,11 @@ Requirements
 
 From the Dashboard, open Settings and navigate to Import. Under FTP Import, select to add a new configuration.
 
-<figure><img src="../../../.gitbook/assets/ftp1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ftp1.png" alt="Add New FTP Configuration"><figcaption></figcaption></figure>
 
 Enter SFTP credentials in the given spaces and select save (The API Key field will automatically be filled with the API Key of the environment you are working on).
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ftp_import_configuration_form.png" alt="FTP Import Configuration Form"><figcaption></figcaption></figure>
 
 Once you have entered all the necessary details of your SFTP, click SAVE.
 
@@ -36,4 +36,4 @@ Once you have entered all the necessary details of your SFTP, click SAVE.
 3. **Save Changes**
    * Click the **Save** button to apply the changes.
 
-<figure><img src="../../../.gitbook/assets/ftp_3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ftp_file_archiving_settings.png" alt="FTP File Archiving Settings"><figcaption></figcaption></figure>

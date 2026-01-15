@@ -10,7 +10,7 @@
 
 * **Select column names:** Review the column names of your table and decide which tags to add.
 
-<figure><img src="../../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ai_table_tag_selection.png" alt="Select AI Table Tag"><figcaption></figcaption></figure>
 
 **Step 2:** Press "Apply" button&#x20;
 
@@ -22,7 +22,7 @@
 
 * **Add tag:** The selected tag will be added to the table as an additional column next to the corresponding column.
 
-<figure><img src="../../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ai_table_tag_added.png" alt="AI Table Tag Added"><figcaption></figcaption></figure>
 
 **Step 4:** Save or Delete Tag&#x20;
 
@@ -31,7 +31,7 @@
 
 ### Here is a detailed explanation of each column and the possible tags:
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-31 um 12.12.16.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ai_table_tags_overview.png" alt="Overview of AI Table Tags" width="375"><figcaption></figcaption></figure>
 
 ### **Position:**
 
@@ -156,4 +156,3 @@
 
 
 With this structure and tags, the table is more clearly defined and the information can be better categorized and processed.
-
