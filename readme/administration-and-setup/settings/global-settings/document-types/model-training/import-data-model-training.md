@@ -17,7 +17,7 @@ Forneça instruções detalhadas sobre como importar documentos de amostra para 
 
 * **Selecione o formato de valor e data:**
 
-<figure><img src="../../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_manage_users_button.png" alt="Docbits Manage Users Button"><figcaption></figcaption></figure>
 
 **Formato de Valor:**
 
@@ -44,13 +44,13 @@ O formato de data também varia por região, com diferentes países tendo conven
 * **Configure os tipos e subtipos de documentos (se necessário):** Se o seu sistema suportar diferentes tipos ou subtipos de documentos, atribua o tipo apropriado a cada documento importado. Isso ajudará o sistema a categorizar e processar os documentos corretamente.
 * **Inicie o processo de importação:** Confirme a seleção dos documentos e inicie o processo de importação. Dependendo do tamanho e do número de documentos, esse processo pode levar algum tempo.
 
-<figure><img src="../../../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_user_settings_menu.png" alt="Docbits User Settings Menu"><figcaption></figcaption></figure>
 
 * **Verifique o status da importação:** Verifique o status do processo de importação para garantir que todos os documentos foram importados com sucesso. Certifique-se de que nenhum erro ocorreu e que os documentos foram processados corretamente.
 * **Treine o modelo:** Após a importação dos documentos, use-os para treinar o modelo do sistema de processamento de documentos. Realize o treinamento de acordo com as instruções do sistema para garantir que ele possa processar os dados de amostra de forma eficaz.
 
-<figure><img src="../../../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_user_role_edit.png" alt="Docbits User Role Edit"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (88).png" alt="" width="284"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_select_user_list.png" alt="Docbits Select User List" width="284"><figcaption></figcaption></figure>
 
 Ao adicionar regularmente documentos de amostra para treinamento, você pode garantir que seu sistema de processamento de documentos esteja sempre atualizado e forneça um processamento preciso e eficiente.

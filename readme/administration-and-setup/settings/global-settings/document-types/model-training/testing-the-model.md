@@ -17,13 +17,13 @@ Para testar o modelo treinado e avaliar sua precisão e prontidão operacional, 
 * Execute os testes de classificação nos dados de teste preparados.
 * Alimente o modelo com os dados de teste e deixe que ele faça previsões para classificar os documentos.
 
-<figure><img src="../../../../../.gitbook/assets/image (91).png" alt="" width="375"><figcaption><p>Configuração</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_remove_user_access.png" alt="Docbits Remove User Access" width="375"><figcaption><p>Configuração</p></figcaption></figure>
 
 * Adicione uma nova regra de classificação ou edite uma existente.
 
-<figure><img src="../../../../../.gitbook/assets/image (92).png" alt=""><figcaption><p>Configurações: Classificação e Extração</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_confirm_user_removal.png" alt="Docbits Confirm User Removal"><figcaption><p>Configurações: Classificação e Extração</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (90).png" alt="" width="276"><figcaption><p>Configurar Regra de Classificação</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_save_user_changes.png" alt="Docbits Save User Changes" width="276"><figcaption><p>Configurar Regra de Classificação</p></figcaption></figure>
 
 **Avaliação da precisão do modelo:**
 
