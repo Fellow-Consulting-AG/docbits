@@ -161,7 +161,7 @@ Bir tutarsızlık algılandığında gerçekleştirilecek belirli eylemleri tan�
 
 ### Ekran Görüntüsü 1: Kural Yönetimi Arayüzü
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.20.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_manager_interface.png" alt="Docbits Rule Manager Interface"><figcaption></figcaption></figure>
 
 Bu ekran görüntüsü, yöneticilerin tüm çakışma çözümleme kurallarını görüntüleyebileceği ve yönetebileceği Kural Yönetimi arayüzünü gösterir. Temel öğeler şunlardır:
 
@@ -173,7 +173,7 @@ Bu ekran görüntüsü, yöneticilerin tüm çakışma çözümleme kuralların�
 
 ### Ekran Görüntüsü 2: Ayrıntılı Kural Düzenleme
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.21.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_editing_detail.png" alt="Docbits Rule Editing Detail"><figcaption></figcaption></figure>
 
 Bu ekran görüntüsü, düzenlenen belirli bir kuralın ayrıntılı görünümünü göstermektedir. Temel öğeler şunlardır:
 
