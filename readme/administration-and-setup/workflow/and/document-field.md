@@ -1,5 +1,5 @@
 # Document Field
 
-<figure><img src="../../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_document_field.png" alt="Docbits Workflow Document Field"><figcaption></figcaption></figure>
 
 ##

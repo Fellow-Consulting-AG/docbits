@@ -1,6 +1,6 @@
 # Compare two fields
 
-<figure><img src="../../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_compare_two_fields.png" alt="Docbits Workflow Compare Two Fields"><figcaption></figcaption></figure>
 
 This Card is intended to compare whether the selected fields in a document are equal/not equal, greater than... or less than... .
 

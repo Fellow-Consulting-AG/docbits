@@ -48,7 +48,7 @@ Then: **Assign document to:** James Edwards
 
 It is also possible, if the document is not assigned to a single person, to assign it to a specific employee from the start.
 
-<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_assign_employee_start.png" alt="Docbits Workflow Assign Employee Start" width="375"><figcaption></figcaption></figure>
 
 For an easier overview of what should happen to a document, you can set the status for incoming documents in this workflow. This workflow makes it possible to immediately see whether there is, for example, a pending approval.
 
@@ -72,7 +72,7 @@ And: **Assignee is:** Stefan Reppermund
 
 Then: **Change Status to:** Pending Second Approval
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_change_status_pending_2.png" alt="Docbits Workflow Change Status Pending 2"><figcaption></figcaption></figure>
 
 ![](<../../../.gitbook/assets/10 (1).png>)
 
@@ -120,7 +120,7 @@ You can give these documents a specific status or assign them to a specific empl
 
 <div align="center"><figure><img src="../../../.gitbook/assets/docbits_export_ion_bod.png" alt="DocBits Exporteren Ion Bod"><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_workflow_logic_card_3.png" alt="Docbits Workflow Logic Card 3"><figcaption></figcaption></figure>
 
 **Logic Card: Quantity or Unit Price or Discount Match**
 
@@ -165,6 +165,6 @@ If you want to add all surcharges as a negative discount into the discount colum
 
 After calculating the surcharges you might want to notify a specific user to authorize the order confirmation. For this you can use the notification card
 
-<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_notification_card_2.png" alt="Docbits Melding Card 2"><figcaption></figcaption></figure>
 
 Depending on settings, the user gets assigned a new task in DocBits and optionally an email to notify them of their new task.
