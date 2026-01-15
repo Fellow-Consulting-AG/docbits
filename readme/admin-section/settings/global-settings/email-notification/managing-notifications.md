@@ -4,9 +4,9 @@ Para editar, desativar ou excluir notificações existentes e adaptá-las às mu
 
 **Navegue até as configurações de notificações:** Vá para as configurações do seu sistema onde você pode gerenciar notificações. Você pode encontrá-las na seção “Configurações”, “Configurações Globais” e depois em “Notificação por Email”.
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Exportar Sftp"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Exportar Smb"><figcaption></figcaption></figure>
 
 **Procure a lista de notificações existentes:** Nas configurações de notificações, você encontrará uma lista de notificações existentes. Esta lista mostra todas as notificações que estão atualmente configuradas.
 

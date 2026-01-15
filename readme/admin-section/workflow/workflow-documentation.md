@@ -14,7 +14,7 @@ Você pode usar esses fluxos de trabalho (Teste 1, 2, 3) para atribuir automatic
 
 Se uma fatura ou outro documento exceder um determinado valor total que requer revisão e aprovação prévia, esses documentos podem ser imediatamente atribuídos à pessoa correta.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Exportar Sftp"><figcaption></figcaption></figure>
 
 **Teste 1:              Cartão Lógico**
 
@@ -60,7 +60,7 @@ Para uma visão mais fácil do que deve acontecer com um documento, você pode d
 
 **Então:**              **Alterar Status para:**         Aprovação Pendente
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Exportar Smb"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
