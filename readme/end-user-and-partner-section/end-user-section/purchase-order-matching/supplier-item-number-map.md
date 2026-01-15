@@ -8,6 +8,9 @@ This feature helps you manage and reconcile item numbers between your system and
 
 ## **How It Works**
 
+{% embed url="https://youtu.be/agxk8WQhtJA" %}
+
+
 1. **Manual Matching:**
    * The first time you encounter a discrepancy between your item number and your supplier's item number, you need to match them manually.
    * You can do this by entering the correct supplier item number corresponding to your internal item number.
