@@ -4,7 +4,7 @@ Les paramètres utilisateur sont une zone dans un système où les utilisateurs 
 
 Dans la plupart des organisations, seules les personnes autorisées ont accès aux paramètres utilisateur, généralement des administrateurs ou des administrateurs système. Cela est dû au fait que les paramètres peuvent contenir des informations sensibles qui pourraient compromettre la sécurité du système si elles étaient modifiées par des personnes non autorisées. Les administrateurs sont en mesure de gérer les paramètres utilisateur pour s'assurer qu'ils respectent les politiques et exigences organisationnelles et que l'intégrité du système est maintenue.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_user_search_bar.png" alt="Docbits User Search Bar"><figcaption></figcaption></figure>
 
 1. **Barre de recherche** : Permet aux administrateurs de trouver rapidement des utilisateurs en recherchant leurs noms ou d'autres détails.
 2. **Liste des utilisateurs** : Affiche une liste d'utilisateurs avec les colonnes suivantes :

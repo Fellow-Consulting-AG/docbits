@@ -1,6 +1,6 @@
 # Colonnes de Tableau
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.57.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_table_columns_overview.png" alt="Docbits Table Columns Overview"><figcaption></figcaption></figure>
 
 #### Aperçu
 
@@ -20,9 +20,9 @@ L'interface des Colonnes de Tableau dans Docbits est utilisée pour spécifier l
 * **Ajouter une Nouvelle Colonne de Table**: Ouvre une boîte de dialogue où vous pouvez définir une nouvelle colonne, y compris son nom, si elle est requise, son type de données et la table à laquelle elle appartient.
 * **Créer une Nouvelle Table**: Permet la création d'une nouvelle table, en définissant un nom unique qui sera utilisé pour stocker des données liées à un ensemble spécifique de types de documents.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_create_new_table.png" alt="Docbits Create New Table"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_table_columns_integrity.png" alt="Docbits Table Columns Integrity"><figcaption></figcaption></figure>
 
 Cette section est essentielle pour maintenir l'intégrité structurelle et la facilité d'utilisation des données dans le système Docbits, en veillant à ce que les données extraites des documents soient stockées de manière bien organisée et accessible.
 

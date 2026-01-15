@@ -1,6 +1,6 @@
 # Regex
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.38.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_regex_management.png" alt="Docbits Regex Management"><figcaption></figcaption></figure>
 
 Dans Docbits, les paramètres Regex permettent aux administrateurs de définir des modèles personnalisés que le système utilise pour trouver et extraire des données à partir de documents. Cette fonctionnalité est particulièrement utile dans les situations où les données doivent être extraites à partir de texte non structuré ou lorsque les données suivent un format prévisible qui peut être capturé à l'aide de modèles regex.
 

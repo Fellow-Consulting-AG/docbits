@@ -2,7 +2,7 @@
 
 <div data-full-width="false">
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 07.58.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_validation_screen_overview_nl.png" alt="Docbits Validation Screen Overview Nl"><figcaption></figcaption></figure>
 
 </div>
 
@@ -12,37 +12,37 @@
 
 **Ajouter des règles spéciales :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.41.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_add_special_rules.png" alt="Docbits Add Special Rules"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.42.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_add_script_rule.png" alt="Docbits Add Script Rule"><figcaption></figcaption></figure>
 
 **Champs flous :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_fuzzy_fields_nl.png" alt="Docbits Fuzzy Fields Nl"><figcaption></figcaption></figure>
 
 **Loupe :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_magnifying_glass_tool.png" alt="Docbits Magnifying Glass Tool" width="118"><figcaption></figcaption></figure>
 
 **Ouvrir une nouvelle fenêtre :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.26.png" alt="" width="130"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_open_new_window_tool.png" alt="Docbits Open New Window Tool" width="130"><figcaption></figcaption></figure>
 
 **Raccourcis clavier :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.42.png" alt="" width="145"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_shortcuts_tool.png" alt="Docbits Shortcuts Tool" width="145"><figcaption></figcaption></figure>
 
 **Tâches :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.00.png" alt="" width="55"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_tasks_tool.png" alt="Docbits Tasks Tool" width="55"><figcaption></figcaption></figure>
 
 Pour partager des informations internes, vous pouvez créer des tâches et les attribuer à un employé spécifique ou à un groupe au sein de l'entreprise.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.21.27.png" alt="" width="218"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_annotation_mode_usage.png" alt="Docbits Annotation Mode Usage" width="218"><figcaption></figcaption></figure>
 
 **Mode annotation :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.21.png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_annotation_mode_tool.png" alt="Docbits Annotation Mode Tool" width="187"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
@@ -52,7 +52,7 @@ Vous pouvez laisser des annotations sur un document. Cela peut être utile pour 
 
 **Fusionner :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_merge_tool.png" alt="Docbits Merge Tool" width="60"><figcaption></figcaption></figure>
 
 Les documents peuvent être fusionnés ici, par exemple si une page d'une facture manquait, ces pages peuvent être fusionnées ultérieurement de cette manière sans que le document entier doive être supprimé ou ré-uploadé.
 
@@ -60,7 +60,7 @@ Les documents peuvent être fusionnés ici, par exemple si une page d'une factur
 
 **Vue OCR :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.00.png" alt="" width="77"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_ocr_view_tool.png" alt="Docbits Ocr View Tool" width="77"><figcaption></figcaption></figure>
 
 Dans la vue OCR, le texte est automatiquement extrait du document. Cela est utilisé pour reconnaître des éléments pertinents, tels que le code postal, le numéro de contrat, le numéro de facture et le tri d'un document.
 
@@ -68,15 +68,15 @@ Dans la vue OCR, le texte est automatiquement extrait du document. Cela est util
 
 **Créer un ticket :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_create_ticket_tool.png" alt="Docbits Create Ticket Tool" width="97"><figcaption></figcaption></figure>
 
 Contrairement aux tâches qui sont transmises en interne au sein de l'entreprise, ce ticket de support est important pour nous notifier et créer immédiatement un ticket en cas d'erreurs et/ou de divergences. Cela facilite grandement le processus car vous pouvez envoyer immédiatement le bug avec le document approprié. Il est également possible de définir la priorité, de prendre une capture d'écran du document ou d'en télécharger une.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_script_logs_usage.png" alt="Docbits Script Logs Usage" width="237"><figcaption></figcaption></figure>
 
 **Journaux de script de document :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_script_logs_tool.png" alt="Docbits Script Logs Tool" width="160"><figcaption></figcaption></figure>
 
 Des scripts peuvent être créés dans les paramètres sous Types de document ; ces informations seront ensuite affichées ici.
 
@@ -108,7 +108,7 @@ Des scripts peuvent être créés dans les paramètres sous Types de document ; 
 
 **Champs obligatoires :**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_mandatory_fields.png" alt="Docbits Mandatory Fields"><figcaption></figcaption></figure>
 
 Il y a des champs qui sont nécessaires pour une édition ultérieure, ceux-ci peuvent être modifiés dans les paramètres.
 

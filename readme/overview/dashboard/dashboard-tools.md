@@ -9,4 +9,4 @@
 * Analytique : Cela vous fournit des informations supplémentaires sur les documents que vous avez téléchargés sur DocBits.
 * Télécharger : Plus d'informations sur ce sujet dans la section suivante.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_dashboard_upload_button.png" alt="Docbits Dashboard Upload Button"><figcaption></figcaption></figure>

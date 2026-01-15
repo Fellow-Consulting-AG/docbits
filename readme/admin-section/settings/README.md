@@ -1,6 +1,6 @@
 # Paramètres
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.14.35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_settings_global_overview.png" alt="Docbits Settings Global Overview"><figcaption></figcaption></figure>
 
 1. **Paramètres Globaux**:
 * **Informations sur l'entreprise**: Définir et éditer les détails de base sur l'entreprise, tels que le nom, l'adresse et d'autres identifiants.
