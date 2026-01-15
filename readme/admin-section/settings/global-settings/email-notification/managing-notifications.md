@@ -24,7 +24,7 @@ Para editar, desactivar o eliminar notificaciones existentes y adaptarlas a los 
 
 **Eliminar una notificación:** Para eliminar permanentemente una notificación, encuentra la notificación en la lista y selecciona la opción de eliminar. Esto eliminará completamente la notificación del sistema y no podrá ser restaurada.
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt="" width="106"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_change_status_pending_2.png" alt="Docbits Workflow Change Status Pending 2" width="106"><figcaption></figcaption></figure>
 
 **Adaptarse a los Cambios:** Revisa periódicamente la configuración de tus notificaciones y ajusta según sea necesario para reflejar cambios en los flujos de trabajo de procesamiento de documentos o responsabilidades de los usuarios. Esto podría incluir la actualización de notificaciones debido a nuevos eventos, responsabilidades cambiadas u otros cambios organizacionales.
 
