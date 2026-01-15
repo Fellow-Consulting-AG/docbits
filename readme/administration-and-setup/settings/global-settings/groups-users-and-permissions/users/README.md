@@ -4,7 +4,7 @@ User Settings is an area in a system where users can adjust personal preferences
 
 In most organizations, only authorized people have access to user settings, usually administrators or system administrators. This is because the settings may contain sensitive information that could compromise the security of the system if changed by unauthorized persons. Administrators are able to manage user settings to ensure that they comply with organizational policies and requirements and that the integrity of the system is maintained.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_user_search_bar.png" alt="Docbits User Search Bar"><figcaption></figcaption></figure>
 
 1. **Search Bar**: Allows administrators to quickly find users by searching for their names or other details.
 2. **User List**: Displays a list of users with the following columns:

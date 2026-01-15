@@ -9,4 +9,4 @@ A destra della barra di ricerca, troverai altri strumenti del cruscotto.
 * Analisi: Questo ti fornisce ulteriori dettagli sui documenti che hai caricato su DocBits.
 * Carica: Ulteriori informazioni su questo argomento nella sezione successiva.
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-07 um 22.00.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_dashboard_upload_button.png" alt="Docbits Dashboard Upload Button"><figcaption></figcaption></figure>

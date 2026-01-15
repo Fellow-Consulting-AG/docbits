@@ -2,7 +2,7 @@
 
 ## Versione 8.5.2024
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 13.41.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_version_control.png" alt="Docbits Workflow Version Control"><figcaption></figcaption></figure>
 
 1. **Controllo delle Versioni**: Ogni scheda può avere più versioni, ognuna rappresentante un diverso insieme di condizioni o azioni. Questo ti permette di sperimentare o regolare le regole senza influenzare il flusso di lavoro attivo.
 2. **Aggiornamenti Continui**: Quando hai bisogno di aggiornare una regola o condizione a causa di cambiamenti nei requisiti di elaborazione dei documenti, puoi creare una nuova versione della scheda. Questo approccio garantisce che le modifiche siano deliberate e testate prima di sostituire la versione attuale. Riduce al minimo gli errori e le possibili interruzioni nell'elaborazione dei documenti.

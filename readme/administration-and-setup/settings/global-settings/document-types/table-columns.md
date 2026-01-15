@@ -1,6 +1,6 @@
 # Colonne della Tabella
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.57.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_table_columns_overview.png" alt="Docbits Table Columns Overview"><figcaption></figcaption></figure>
 
 #### Panoramica
 
@@ -20,9 +20,9 @@ L'interfaccia delle Colonne della Tabella in Docbits viene utilizzata per specif
 * **Aggiungi Nuova Colonna di Tabella**: Apre una finestra di dialogo in cui è possibile definire una nuova colonna, inclusi il suo nome, se è obbligatoria, il suo tipo di dati e la tabella a cui appartiene.
 * **Crea Nuova Tabella**: Consente la creazione di una nuova tabella, definendo un nome univoco che verrà utilizzato per memorizzare dati relativi a un insieme specifico di tipi di documento.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_create_new_table.png" alt="Docbits Create New Table"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_table_columns_integrity.png" alt="Docbits Table Columns Integrity"><figcaption></figcaption></figure>
 
 Questa sezione è fondamentale per mantenere l'integrità strutturale e l'usabilità dei dati all'interno del sistema Docbits, garantendo che i dati estratti dai documenti siano memorizzati in modo ben organizzato e accessibile.
 

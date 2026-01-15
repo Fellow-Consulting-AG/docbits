@@ -1,6 +1,6 @@
 # Espressioni regolari
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.38.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_regex_management.png" alt="Docbits Regex Management"><figcaption></figcaption></figure>
 
 In DocBits, le impostazioni Regex consentono agli amministratori di definire modelli personalizzati che il sistema utilizza per trovare ed estrarre dati dai documenti. Questa funzionalità è particolarmente utile in situazioni in cui è necessario estrarre dati da testi non strutturati o quando i dati seguono un formato prevedibile che può essere catturato utilizzando modelli regex.
 

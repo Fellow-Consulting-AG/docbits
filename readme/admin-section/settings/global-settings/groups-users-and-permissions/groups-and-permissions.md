@@ -1,6 +1,6 @@
 # Gruppi e Autorizzazioni
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_groups_permissions_overview.png" alt="Docbits Groups Permissions Overview"><figcaption></figcaption></figure>
 
 #### Componenti della Sezione Gruppi e Autorizzazioni
 
@@ -19,4 +19,4 @@
 
 
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_second_approval_permission.png" alt="Docbits Second Approval Permission"><figcaption></figcaption></figure>

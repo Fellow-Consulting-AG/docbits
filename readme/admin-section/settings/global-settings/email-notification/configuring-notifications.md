@@ -12,7 +12,7 @@
 
 All'interno di queste impostazioni puoi quindi effettuare le configurazioni desiderate per assicurarti di ricevere notifiche secondo le tue preferenze. Ricorda di regolare le impostazioni in base alle tue esigenze e di assicurarti che siano conformi alla politica sulla privacy e agli standard di sicurezza della tua organizzazione.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.15.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_notification_config_nl.png" alt="Docbits Notifica Config Nl"><figcaption></figcaption></figure>
 
 
 
@@ -20,7 +20,7 @@ All'interno di queste impostazioni puoi quindi effettuare le configurazioni desi
 
 * Clicca il pulsante per aggiungere o creare una nuova notifica.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 01.28.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_notification_add_new.png" alt="Docbits Notifica Add New"><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (40).png" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -1,6 +1,6 @@
 # Informazioni sulla Società
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.18.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_company_info_name.png" alt="Docbits Company Info Name"><figcaption></figcaption></figure>
 
 1. **Nome della Società**: Il nome legale della società come registrato.
 2. **Via + Numero**: L'indirizzo fisico dell'ufficio principale o della sede della società.

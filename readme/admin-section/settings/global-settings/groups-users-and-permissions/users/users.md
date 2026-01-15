@@ -4,7 +4,7 @@ Le Impostazioni Utente sono un'area in un sistema dove gli utenti possono regola
 
 Nella maggior parte delle organizzazioni, solo le persone autorizzate hanno accesso alle impostazioni utente, di solito amministratori o amministratori di sistema. Questo perché le impostazioni possono contenere informazioni sensibili che potrebbero compromettere la sicurezza del sistema se modificate da persone non autorizzate. Gli amministratori sono in grado di gestire le impostazioni utente per garantire che siano conformi alle politiche e ai requisiti organizzativi e che l'integrità del sistema sia mantenuta.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_user_search_bar.png" alt="Docbits User Search Bar"><figcaption></figcaption></figure>
 
 1. **Barra di Ricerca**: Consente agli amministratori di trovare rapidamente gli utenti cercando i loro nomi o altri dettagli.
 2. **Elenco Utenti**: Mostra un elenco di utenti con le seguenti colonne:

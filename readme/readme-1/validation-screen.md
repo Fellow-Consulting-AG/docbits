@@ -4,7 +4,7 @@
 
 <div data-full-width="false">
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 07.58.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_validation_screen_overview_nl.png" alt="Docbits Validation Screen Overview Nl"><figcaption></figcaption></figure>
 
 </div>
 
@@ -18,9 +18,9 @@
 
 ### **Aggiungi Regole speciali:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.41.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_add_special_rules.png" alt="Docbits Add Special Rules"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.42.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_add_script_rule.png" alt="Docbits Add Script Rule"><figcaption></figcaption></figure>
 
 * **Aggiungi Regole Speciali / Aggiungi Script in DocBits:**
 * **Scopo:** Consente agli utenti di implementare regole o script specifici che personalizzano il modo in cui i documenti vengono elaborati.
@@ -32,7 +32,7 @@ Vedi qui add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
 
 ### **Campi Fuzzy:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.46.38 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_fuzzy_fields_nl.png" alt="Docbits Fuzzy Fields Nl"><figcaption></figcaption></figure>
 
 *   **Campi Fuzzy:**
 
@@ -41,17 +41,17 @@ Vedi qui add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
 
 ### **Lente d'ingrandimento:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.00.49.png" alt="" width="118"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_magnifying_glass_tool.png" alt="Docbits Magnifying Glass Tool" width="118"><figcaption></figcaption></figure>
 
 * **Lente d'Ingrandimento (Magnify Glass):**
 * **Scopo:** Fornisce una vista ingrandita di un'area selezionata del documento.
 * **Caso d'uso:** Aiuta nell'esaminare dettagli o testi piccoli nei documenti, garantendo precisione nell'inserimento o revisione dei dati.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.03.46.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_open_new_window_usage.png" alt="Docbits Open New Window Usage"><figcaption></figcaption></figure>
 
 ### **Apri nuova finestra:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.26.png" alt="" width="130"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_open_new_window_tool.png" alt="Docbits Open New Window Tool" width="130"><figcaption></figcaption></figure>
 
 * **Apri Nuova Finestra:**
 * **Scopo:** Apre una nuova finestra per confrontare i documenti affiancati o multitasking.
@@ -59,17 +59,17 @@ Vedi qui add[ Script in DocBits](../admin-section/setup/scripting-in-docbits/)
 
 ### **Scorciatoie da tastiera:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.01.42.png" alt="" width="145"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_shortcuts_tool.png" alt="Docbits Shortcuts Tool" width="145"><figcaption></figcaption></figure>
 
 1. **Scorciatoie da Tastiera:**
 * **Scopo:** Consente agli utenti di eseguire azioni rapidamente utilizzando combinazioni di tasti.
 * **Caso d'uso:** Migliora la velocità e l'efficienza nella navigazione e nell'elaborazione dei documenti riducendo al minimo la dipendenza dalla navigazione del mouse.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.05.39.png" alt=""><figcaption><p>Tastiera </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_shortcuts_usage.png" alt="Docbits Shortcuts Usage"><figcaption><p>Tastiera </p></figcaption></figure>
 
 ### **Compiti:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.00.png" alt="" width="55"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_tasks_tool.png" alt="Docbits Tasks Tool" width="55"><figcaption></figcaption></figure>
 
 Per condividere informazioni interne, è possibile creare compiti e assegnarli a un dipendente o a un gruppo specifico all'interno dell'azienda.
 
@@ -77,11 +77,11 @@ Per condividere informazioni interne, è possibile creare compiti e assegnarli a
 * **Scopo:** Consente agli utenti di creare compiti relativi ai documenti e assegnarli ai membri del team.
 * **Caso d'uso:** Agevola la collaborazione e la gestione dei compiti all'interno dei team, garantendo che tutti conoscano le proprie responsabilità.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 11.21.27.png" alt="" width="218"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_annotation_mode_usage.png" alt="Docbits Annotation Mode Usage" width="218"><figcaption></figcaption></figure>
 
 ### **Modalità di annotazione:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.21.png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_annotation_mode_tool.png" alt="Docbits Annotation Mode Tool" width="187"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
@@ -93,7 +93,7 @@ Per condividere informazioni interne, è possibile creare compiti e assegnarli a
 
 ### **Unisci:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.33.png" alt="" width="60"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_merge_tool.png" alt="Docbits Merge Tool" width="60"><figcaption></figcaption></figure>
 
 I documenti possono essere uniti qui, ad esempio se mancava una pagina di una fattura, queste pagine possono essere unite successivamente in questo modo senza che l'intero documento debba essere eliminato o ricaricato.
 
@@ -103,7 +103,7 @@ I documenti possono essere uniti qui, ad esempio se mancava una pagina di una fa
 
 ### **Visualizzazione OCR:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.00.png" alt="" width="77"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_ocr_view_tool.png" alt="Docbits Ocr View Tool" width="77"><figcaption></figcaption></figure>
 
 Nella visualizzazione OCR, il testo viene filtrato automaticamente dal documento. Questo viene utilizzato per riconoscere caratteristiche rilevanti, come il codice postale, il numero di contratto, il numero di fattura e la classificazione di un documento.
 
@@ -111,11 +111,11 @@ Nella visualizzazione OCR, il testo viene filtrato automaticamente dal documento
 * **Scopo:** Riconosce automaticamente il testo all'interno dei documenti utilizzando la tecnologia di riconoscimento ottico dei caratteri.
 * **Caso d'uso:** Ottimizza il processo di digitalizzazione di testi stampati o scritti a mano, rendendoli cercabili e modificabili.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 14.07.25.png" alt=""><figcaption><p>OCR</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_ocr_usage.png" alt="Docbits Ocr Usage"><figcaption><p>OCR</p></figcaption></figure>
 
 ### **Crea ticket:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.24.png" alt="" width="97"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_create_ticket_tool.png" alt="Docbits Create Ticket Tool" width="97"><figcaption></figcaption></figure>
 
 A differenza dei compiti che vengono passati internamente all'azienda, questo ticket di supporto è importante per notificarci e creare immediatamente un ticket in caso di errori e/o discrepanze. Questo semplifica notevolmente il processo perché è possibile inviare immediatamente il bug con il documento appropriato. Vi è anche la possibilità di impostare la priorità, fare uno screenshot del documento o caricarne uno.
 
@@ -123,10 +123,10 @@ A differenza dei compiti che vengono passati internamente all'azienda, questo ti
 * **Scopo:** Consente agli utenti di segnalare problemi o discrepanze creando un ticket di supporto.
 * **Caso d'uso:** Essenziale per una rapida risoluzione dei problemi e dei bug, contribuendo a mantenere l'integrità e il corretto funzionamento del sistema.
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 10.45.07.png" alt="" width="237"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_script_logs_usage.png" alt="Docbits Script Logs Usage" width="237"><figcaption></figcaption></figure>
 ### **Registri script documento:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.03.34.png" alt="" width="160"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_script_logs_tool.png" alt="Docbits Script Logs Tool" width="160"><figcaption></figcaption></figure>
 
 Gli script possono essere creati nelle impostazioni sotto Tipi di Documento; queste informazioni verranno poi visualizzate qui.
 
@@ -172,7 +172,7 @@ Qui troverai il flusso del documento
 
 ### **Campi obbligatori:**
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.41.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_mandatory_fields.png" alt="Docbits Mandatory Fields"><figcaption></figcaption></figure>
 
 Ci sono campi che sono necessari per ulteriori modifiche, questi possono essere modificati nelle impostazioni.
 
