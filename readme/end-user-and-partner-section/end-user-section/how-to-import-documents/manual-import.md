@@ -2,6 +2,10 @@
 
 Si deseas importar documentos manualmente en DocBits, sigue estos sencillos pasos:
 
+{% embed url="https://youtu.be/rJ2nuJh0Obw" %}
+{% endembed %}
+
+
 * Haz clic en el botón de Subir en el Panel de Control de DocBits.
 * Aparecerá una ventana donde puedes subir tus documentos a través del explorador de archivos o arrastrándolos y soltándolos. Puedes subir hasta 10 documentos a la vez.
 * Para subir documentos a través del explorador de archivos, haz clic en el botón Subir Documentos y selecciona los archivos que deseas subir. Una vez seleccionados los archivos, haz clic en Confirmar para iniciar el proceso de carga.
