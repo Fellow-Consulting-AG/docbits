@@ -2,8 +2,7 @@
 
 Para configurar tus ajustes, haz clic en el Icono de Usuario ubicado en la esquina inferior izquierda de la pantalla. Aquí puedes personalizar varias opciones:
 
-{% embed url="https://youtu.be/TLmAHw3EXs4" 
-%}
+{% embed url="https://youtu.be/TLmAHw3EXs4" %}
 
 
 <figure><img src="../../.gitbook/assets/user-config.png" alt=""><figcaption></figcaption></figure>

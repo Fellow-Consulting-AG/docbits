@@ -1,8 +1,7 @@
 # Preferencias de la empresa
 
 
-{% embed url="https://youtu.be/TLmAHw3EXs4" 
-%}
+{% embed url="https://youtu.be/TLmAHw3EXs4" %}
 
 ## Resumen
 
