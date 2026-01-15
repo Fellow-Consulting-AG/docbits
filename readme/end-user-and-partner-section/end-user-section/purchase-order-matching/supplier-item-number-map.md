@@ -8,6 +8,9 @@ Questa funzionalità ti aiuta a gestire e riconciliare i numeri degli articoli t
 
 ## **Come Funziona**
 
+{% embed url="https://youtu.be/agxk8WQhtJA" %}
+
+
 1. **Corrispondenza Manuale:**
    * La prima volta che incontri una discrepanza tra il tuo numero di articolo e il numero di articolo del tuo fornitore, devi abbinarli manualmente.
    * Puoi farlo inserendo il corretto numero di articolo del fornitore corrispondente al tuo numero di articolo interno.
