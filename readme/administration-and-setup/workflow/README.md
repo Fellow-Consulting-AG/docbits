@@ -10,6 +10,9 @@ description: Moteur de workflow DocBits
 
 ### Introduction
 
+{% embed url="https://youtu.be/YQC13wCqTJI" %}
+
+
 Dans le domaine de l'automatisation des processus, le moteur de workflow DocBits se distingue par son approche simple et intuitive. Ce moteur simplifie la création et la gestion des workflows grâce à une structure basée sur des règles claires et simples. Le principe fondamental de sa conception est la règle "Quand-Et-Alors facile", qui décompose le processus d'automatisation en trois composants fondamentaux : Déclencheur, Condition et Action. Ce guide explique comment chaque composant fonctionne au sein du système et comment ils collaborent pour faciliter une automatisation fluide.
 
 ### La règle "Quand-Et-Alors facile" expliquée
@@ -38,4 +41,3 @@ En assemblant ces trois composants—Déclencheur, Condition et Action—le mote
 ### Conclusion
 
 La règle "Quand-Et-Alors facile" du moteur de workflow DocBits illustre l'engagement du moteur à fournir une plateforme conviviale pour l'automatisation des processus. Cette règle simple, en décomposant l'automatisation en éléments essentiels de Déclencheur, Condition et Action, facilite la conceptualisation, la création et la gestion des workflows pour les utilisateurs. Que vous soyez novice en matière d'automatisation de workflows ou un professionnel expérimenté, le moteur de workflow DocBits offre un outil efficace et accessible pour améliorer la productivité et rationaliser les opérations.
-
