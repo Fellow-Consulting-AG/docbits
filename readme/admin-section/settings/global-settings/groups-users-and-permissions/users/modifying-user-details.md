@@ -40,7 +40,7 @@ Po zakończeniu tych kroków szczegóły użytkownika zostaną pomyślnie zaktua
 
 * **Potwierdzenie:** Zostaniesz poproszony o potwierdzenie usunięcia użytkownika.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-17 um 09.10.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_remove_user_confirmation.png" alt="Docbits Remove User Confirmation"><figcaption></figcaption></figure>
 
 * **Opcjonalne powiadomienie:** Możesz opcjonalnie wysłać powiadomienie do użytkownika, aby poinformować go o usunięciu jego dostępu.
 * **Przejrzyj zadania i dokumenty:** Przed usunięciem użytkownika przejrzyj, jakie zadania lub dokumenty są przypisane do użytkownika. Przenieś lub przekaż odpowiedzialność za te zadania lub dokumenty innemu użytkownikowi, aby upewnić się, że nic nie zostanie zgubione ani niedokończone.

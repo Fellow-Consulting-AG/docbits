@@ -19,11 +19,11 @@ W większości organizacji tylko upoważnione osoby mają dostęp do ustawień u
 * **Dostęp do zarządzania użytkownikami:** Przejdź do Ustawienia - Ustawienia globalne - Grupy, Użytkownik i Uprawnienia - Użytkownik, gdzie możesz dodać nowych użytkowników.&#x20;
 * **Dodaj nowego użytkownika:** W ustawieniach użytkownika kliknij „Dodaj użytkownika”
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_new_user_button.png" alt="Docbits Add New User Button"><figcaption></figcaption></figure>
 
 * **Wypełnianie formularza:** Pojawi się formularz, w którym możesz wprowadzić informacje dla nowego użytkownika. Typowe informacje obejmują:
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_new_user_form.png" alt="Docbits New User Form" width="375"><figcaption></figcaption></figure>
 
 * **Nazwa użytkownika:** Unikalna nazwa dla użytkownika używana do logowania.&#x20;
 * **Imię i nazwisko:** Imię użytkownika.&#x20;

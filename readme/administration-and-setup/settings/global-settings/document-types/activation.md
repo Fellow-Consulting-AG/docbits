@@ -40,7 +40,7 @@
 * Jeśli typ dokumentu jest obecnie włączony, przełącznik pokazuje pozycję kolorową lub włączoną.&#x20;
 * Kliknij przełącznik, aby dezaktywować typ dokumentu. Przełącznik zmienia pozycję i kolor, wskazując dezaktywację.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-27 um 14.16.06 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_deactivate_doc_type_switch.png" alt="Docbits Deactivate Doc Type Switch"><figcaption></figcaption></figure>
 
 
 

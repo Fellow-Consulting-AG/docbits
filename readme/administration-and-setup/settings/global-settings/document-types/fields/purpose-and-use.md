@@ -2,7 +2,7 @@
 
 ## Właściwa konfiguracja pól w DocBits ma kluczowe znaczenie dla zapewnienia poprawnego przechwytywania, przetwarzania i przechowywania danych.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_train_model_action.png" alt="Docbits Train Model Action"><figcaption></figcaption></figure>
 
 **Oto kilka powodów, dla których jest to ważne:**
 

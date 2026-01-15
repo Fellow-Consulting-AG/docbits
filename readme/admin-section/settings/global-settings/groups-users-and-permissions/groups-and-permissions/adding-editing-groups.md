@@ -4,7 +4,7 @@
 
 * **Przejdź do Ustawień Grupy:** Zaloguj się na swoje konto administratora i przejdź do Ustawień Grupy w panelu administracyjnym.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-17 um 11.13.12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_group_settings_overview.png" alt="Docbits Group Settings Overview"><figcaption></figcaption></figure>
 
 To okno zostanie otwarte:
 
@@ -23,7 +23,7 @@ To okno zostanie otwarte:
 
 * **Edytuj Grupy:** Aby edytować grupy, kliknij "edytuj", tutaj możesz zmienić nazwę grupy.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-17 um 11.37.51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_edit_group_name.png" alt="Docbits Edit Group Name"><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 

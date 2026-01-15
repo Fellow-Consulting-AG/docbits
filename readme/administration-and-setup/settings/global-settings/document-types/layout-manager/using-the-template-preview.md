@@ -17,7 +17,7 @@
 * Wybierz szablon, którego układ chcesz sprawdzić.
 * Może to być istniejący szablon, w którym chcesz wprowadzić zmiany, lub nowy szablon, który chcesz utworzyć.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-24 um 12.31.04.png" alt="" width="186"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_adjust.png" alt="Docbits Template Preview Adjust" width="186"><figcaption></figcaption></figure>
 
 #### Dostosowywanie ustawień układu:
 

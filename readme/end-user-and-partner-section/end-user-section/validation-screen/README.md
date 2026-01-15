@@ -154,7 +154,7 @@ Skrypty można tworzyć w ustawieniach w sekcji Typy dokumentów; te informacje 
 
 ### **Więcej ustawień:**
 
-<figure><img src="../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250310173928.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_validation_screen_more_settings_menu.jpg" alt="Docbits Validation Screen More Settings Menu"><figcaption></figcaption></figure>
 
 ### **Przepływ dokumentu:**
 

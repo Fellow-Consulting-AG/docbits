@@ -4,7 +4,7 @@
 
 Jako administrator masz możliwość przeglądania i zarządzania mapowaniami między wewnętrznymi numerami przedmiotów a numerami przedmiotów dostawcy. Ta funkcja zapewnia, że niezgodności między Twoim systemem a systemami dostawców są obsługiwane efektywnie. Możesz przeglądać, edytować i usuwać niepoprawne mapowania, aby utrzymać dokładność danych.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_supplier_item_map_admin_view.png" alt="Docbits Supplier Item Map Admin View"><figcaption></figcaption></figure>
 
 **Dostęp do Mapy Numerów Przedmiotów Dostawcy**
 
@@ -44,7 +44,7 @@ Jako administrator masz możliwość przeglądania i zarządzania mapowaniami mi
 
 Jako administrator masz możliwość przeglądania i zarządzania mapowaniami między wewnętrznymi numerami przedmiotów a numerami przedmiotów dostawcy. Ta funkcja zapewnia, że niezgodności między Twoim systemem a systemami dostawców są obsługiwane efektywnie. Możesz przeglądać, edytować i usuwać niepoprawne mapowania, aby utrzymać dokładność danych.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_supplier_item_map_admin_view.png" alt="Docbits Supplier Item Map Admin View"><figcaption></figcaption></figure>
 
 **Dostęp do Mapy Numerów Przedmiotów Dostawcy**
 
@@ -84,7 +84,7 @@ Jako administrator masz możliwość przeglądania i zarządzania mapowaniami mi
 
 Jako administrator masz możliwość przeglądania i zarządzania mapowaniami między wewnętrznymi numerami przedmiotów a numerami przedmiotów dostawcy. Ta funkcja zapewnia, że niezgodności między Twoim systemem a systemami dostawców są obsługiwane efektywnie. Możesz przeglądać, edytować i usuwać niepoprawne mapowania, aby utrzymać dokładność danych.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_supplier_item_map_admin_view.png" alt="Docbits Supplier Item Map Admin View"><figcaption></figcaption></figure>
 
 **Dostęp do Mapy Numerów Przedmiotów Dostawcy**
 
@@ -124,7 +124,7 @@ Jako administrator masz możliwość przeglądania i zarządzania mapowaniami mi
 
 Jako administrator masz możliwość przeglądania i zarządzania mapowaniami między wewnętrznymi numerami przedmiotów a numerami przedmiotów dostawcy. Ta funkcja zapewnia, że niezgodności między Twoim systemem a systemami dostawców są obsługiwane efektywnie. Możesz przeglądać, edytować i usuwać niepoprawne mapowania, aby utrzymać dokładność danych.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_supplier_item_map_admin_view.png" alt="Docbits Supplier Item Map Admin View"><figcaption></figcaption></figure>
 
 **Dostęp do Mapy Numerów Przedmiotów Dostawcy**
 

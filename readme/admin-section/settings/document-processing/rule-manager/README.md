@@ -171,7 +171,7 @@ Definiuje konkretne działania do podjęcia, gdy wykryta zostanie rozbieżność
 
 ### Zrzut Ekranu 1: Interfejs Zarządzania Regułami
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.20.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_manager_interface.png" alt="Docbits Rule Manager Interface"><figcaption></figcaption></figure>
 
 Ten zrzut ekranu pokazuje interfejs Zarządzania Regułami, w którym administratorzy mogą przeglądać i zarządzać wszystkimi zasadami rozwiązywania konfliktów. Kluczowe elementy to:
 
@@ -183,7 +183,7 @@ Ten zrzut ekranu pokazuje interfejs Zarządzania Regułami, w którym administra
 
 ### Zrzut Ekranu 2: Szczegółowa Edycja Reguły
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.21.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_editing_detail.png" alt="Docbits Rule Editing Detail"><figcaption></figcaption></figure>
 
 Ten zrzut ekranu ilustruje szczegółowy widok konkretnej edytowanej zasady. Kluczowe elementy to:
 

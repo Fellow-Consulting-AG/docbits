@@ -1,6 +1,6 @@
 # Powiadomienie e-mail
 
-<figure><img src="../../../../.gitbook/assets/E-Mail Notifications.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_email_notifications_header.png" alt="Docbits Email Notifications Header"><figcaption></figcaption></figure>
 
 Konfiguracja powiadomień e-mail jest kluczowa. Powiadomienia e-mail w DocBits można skonfigurować, aby informować użytkowników o różnych zdarzeniach związanych z dokumentami, takich jak: zakończenie przetwarzania, błędy importu lub eksportu, czy prośby o interwencję użytkownika. To narzędzie jest niezbędne do utrzymania skutecznej komunikacji i ciągłości operacyjnej w środowiskach przetwarzania dokumentów. Oto kilka powodów, dla których to jest ważne:
 

@@ -4,7 +4,7 @@
 
 Funkcja szablonów e-maili pozwala administratorom na tworzenie i dostosowywanie komunikacji e-mailowej, która jest automatycznie wysyłana do dostawców. Jednym z kluczowych elementów używanych w tych szablonach jest `{{magic_link}}`, który zapewnia dynamiczny link dostosowany do każdego odbiorcy.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.33.35.png" alt="Portal dostawcy - Szablon e-maila"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_email_template_magic_link.png" alt="Docbits Email Template Magic Link"><figcaption></figcaption></figure>
 
 #### Czym jest `{{magic_link}}`?
 
@@ -12,7 +12,7 @@ Funkcja szablonów e-maili pozwala administratorom na tworzenie i dostosowywanie
 
 ### Edytowanie szablonów e-maili
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.35.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_email_template_editor_access.png" alt="Docbits Email Template Editor Access"><figcaption></figcaption></figure>
 
 #### Uzyskiwanie dostępu do edytora szablonów e-maili
 
@@ -24,7 +24,7 @@ Funkcja szablonów e-maili pozwala administratorom na tworzenie i dostosowywanie
    * Edytor pozwala na modyfikację zarówno kodu HTML, jak i wizualnego wyglądu e-maila.
    * Możesz przełączać się między edytowaniem wizualnym a edytowaniem kodu, korzystając z dostępnych zakładek.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.36.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_email_template_visual_code_toggle.png" alt="Docbits Email Template Visual Code Toggle"><figcaption></figcaption></figure>
 
 #### Definiowanie `{{magic_link}}` jako linku
 
