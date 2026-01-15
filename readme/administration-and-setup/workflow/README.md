@@ -8,6 +8,9 @@ description: DocBits Workflow Engine
 
 ## DocBits Workflow Engine: Simplifying Process Automation
 
+{% embed url="https://youtu.be/YQC13wCqTJI" %}
+
+
 ### Introduction
 
 In the realm of process automation, the DocBits Workflow Engine stands out for its straightforward and intuitive approach. This engine streamlines the creation and management of workflows through a clear and simple rule-based structure. The core principle behind its design is the "Easy When-And-Then" rule, which breaks down the automation process into three fundamental components: Trigger, Condition, and Action. This guide explains how each component functions within the system and how they work together to facilitate seamless automation.
