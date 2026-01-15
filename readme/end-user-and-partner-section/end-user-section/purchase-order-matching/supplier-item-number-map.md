@@ -8,6 +8,9 @@ Este recurso ajuda você a gerenciar e reconciliar números de itens entre seu s
 
 ## **Como Funciona**
 
+{% embed url="https://youtu.be/agxk8WQhtJA" %}
+
+
 1. **Correspondência Manual:**
    * A primeira vez que você encontrar uma discrepância entre seu número de item e o número de item do seu fornecedor, você precisará correspondê-los manualmente.
    * Você pode fazer isso inserindo o número de item do fornecedor correto correspondente ao seu número de item interno.
