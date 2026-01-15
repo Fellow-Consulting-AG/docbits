@@ -1,6 +1,6 @@
 # Grupos y Permisos
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_groups_permissions_overview.png" alt="Docbits Groups Permissions Overview"><figcaption></figcaption></figure>
 
 #### Componentes de la Sección de Grupos y Permisos
 
@@ -17,4 +17,4 @@
   - **Primera Aprobación**: Permiso para realizar la aprobación inicial del documento.
   - **Segunda Aprobación**: Permiso para realizar un segundo nivel de aprobación (si corresponde).
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_second_approval_permission.png" alt="Docbits Second Approval Permission"><figcaption></figcaption></figure>

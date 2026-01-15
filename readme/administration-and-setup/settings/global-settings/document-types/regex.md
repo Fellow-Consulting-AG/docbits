@@ -1,6 +1,6 @@
 # Expresiones Regulares
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.38.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_regex_management.png" alt="Docbits Regex Management"><figcaption></figcaption></figure>
 
 En DocBits, la configuración de Expresiones Regulares permite a los administradores definir patrones personalizados que el sistema utiliza para encontrar y extraer datos de documentos. Esta función es especialmente útil en situaciones donde es necesario extraer datos de texto no estructurado o cuando los datos siguen un formato predecible que puede ser capturado utilizando patrones de regex.
 

@@ -4,7 +4,7 @@ La Configuración de Usuario es un área en un sistema donde los usuarios pueden
 
 En la mayoría de las organizaciones, solo las personas autorizadas tienen acceso a la configuración de usuario, generalmente administradores o administradores del sistema. Esto se debe a que las configuraciones pueden contener información sensible que podría comprometer la seguridad del sistema si son modificadas por personas no autorizadas. Los administradores pueden gestionar la configuración de usuario para asegurar que cumpla con las políticas y requisitos organizacionales y que se mantenga la integridad del sistema.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_user_search_bar.png" alt="Docbits User Search Bar"><figcaption></figcaption></figure>
 
 1. **Barra de Búsqueda**: Permite a los administradores encontrar rápidamente usuarios buscando sus nombres u otros detalles.
 2. **Lista de Usuarios**: Muestra una lista de usuarios con las siguientes columnas:
