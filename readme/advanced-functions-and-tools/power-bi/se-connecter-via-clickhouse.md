@@ -2,6 +2,10 @@
 
 Ce guide vous explique comment connecter **ClickHouse** à **Power BI Desktop** en utilisant le **pilote ODBC**. Il couvre l'installation du pilote, la configuration ODBC, l'intégration de Power BI et la configuration de l'actualisation des données.
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
+
 ### 1. Installer le pilote ODBC ClickHouse
 
 * Téléchargez le dernier **pilote ODBC ClickHouse** depuis :
