@@ -17,7 +17,7 @@ Proporcione instrucciones detalladas sobre cómo importar documentos de muestra 
 
 * **Seleccione el formato de importe y fecha:**
 
-<figure><img src="../../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_manage_users_button.png" alt="Docbits Manage Users Button"><figcaption></figcaption></figure>
 
 **Formato de Importe:**
 
@@ -44,13 +44,13 @@ Es importante tener en cuenta el formato específico para evitar malentendidos, 
 * **Configure los tipos y subtipos de documentos (si es necesario):** Si su sistema admite diferentes tipos o subtipos de documentos, asigne el tipo apropiado a cada documento importado. Esto ayudará al sistema a categorizar y procesar los documentos correctamente.
 * **Inicie el proceso de importación:** Confirme la selección de los documentos e inicie el proceso de importación. Dependiendo del tamaño y la cantidad de documentos, este proceso puede tardar algún tiempo.
 
-<figure><img src="../../../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_user_settings_menu.png" alt="Docbits User Settings Menu"><figcaption></figcaption></figure>
 
 * **Verifique el estado de la importación:** Verifique el estado del proceso de importación para asegurarse de que todos los documentos se importaron correctamente. Asegúrese de que no ocurrieron errores y que los documentos se procesaron correctamente.
 * **Entrene el modelo:** Después de importar los documentos, utilícelos para entrenar el modelo del sistema de procesamiento de documentos. Realice el entrenamiento de acuerdo con las instrucciones del sistema para asegurarse de que pueda procesar los datos de muestra de manera efectiva.
 
-<figure><img src="../../../../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_user_role_edit.png" alt="Docbits User Role Edit"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (88).png" alt="" width="284"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_select_user_list.png" alt="Docbits Select User List" width="284"><figcaption></figcaption></figure>
 
 Al agregar regularmente documentos de muestra para entrenamiento, puede asegurarse de que su sistema de procesamiento de documentos esté siempre actualizado y proporcione un procesamiento preciso y eficiente.

@@ -22,7 +22,7 @@ DocBits destaca en la adaptación de los diseños de los documentos de acuerdo c
 * Personalizar Campos: Adapte el diseño añadiendo o eliminando campos. Por ejemplo, incluya ‘City Tax’ para un diseño de EE. UU.
 * Aplicar y Probar: Una vez personalizado, aplique el diseño a sus documentos y pruébelo para asegurar la precisión.
 
-<figure><img src="../../../.gitbook/assets/napkin-selection (3).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_layout_customization_diagram.svg" alt="Docbits Layout Customization Diagram"><figcaption></figcaption></figure>
 
 ## **Consejos para una personalización efectiva**
 
