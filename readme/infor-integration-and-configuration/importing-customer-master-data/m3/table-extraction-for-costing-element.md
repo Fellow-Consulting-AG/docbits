@@ -1,6 +1,6 @@
 # Estrazione della tabella per l'elemento di costo
 
-<figure><img src="../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250211150549.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_m3_costing_element_table_it.jpg" alt="Docbits M3 Costing Element Table It"><figcaption></figcaption></figure>
 
 Per attivare l'estrazione della tabella per l'elemento di costo, dovrai importare la tabella m3costingelement in DocBits.
 

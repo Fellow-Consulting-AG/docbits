@@ -6,7 +6,7 @@
 
 ## In sede
 
-<figure><img src="../../.gitbook/assets/architecture2 (1).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_architecture_diagram_on_premise.avif" alt="Docbits Architecture Diagram On Premise"><figcaption></figcaption></figure>
 
 Doc**Bits** si integra perfettamente con Infor LN/M3 attraverso l'API ION, ION Desk e i BOD standard di Infor. La nostra integrazione API ci consente di esportare dati in Infor e di eseguire la validazione dei dati master in Doc**Bits**.
 
