@@ -171,7 +171,7 @@ Definisce azioni specifiche da intraprendere quando viene rilevata una discrepan
 
 ### Screenshot 1: Interfaccia di Gestione delle Regole
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.20.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_manager_interface.png" alt="Docbits Rule Manager Interface"><figcaption></figcaption></figure>
 
 Questo screenshot mostra l'interfaccia di Gestione delle Regole dove gli amministratori possono visualizzare e gestire tutte le regole di risoluzione dei conflitti. Gli elementi chiave includono:
 
@@ -183,7 +183,7 @@ Questo screenshot mostra l'interfaccia di Gestione delle Regole dove gli amminis
 
 ### Screenshot 2: Modifica Dettagliata della Regola
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.21.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_editing_detail.png" alt="Docbits Rule Editing Detail"><figcaption></figcaption></figure>
 
 Questo screenshot illustra la vista dettagliata di una specifica regola in fase di modifica. Gli elementi chiave includono:
 

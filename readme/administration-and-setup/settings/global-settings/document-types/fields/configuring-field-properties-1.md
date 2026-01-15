@@ -4,7 +4,7 @@
 
 ### Obbligatorio (Required):
 
-<figure><img src="../../../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_configure_classification_rule.png" alt="Docbits Configure Classification Rule"><figcaption></figcaption></figure>
 
 Se un campo è contrassegnato come Obbligatorio, significa che questo campo deve essere compilato prima che il documento possa essere salvato o elaborato.
 
@@ -19,7 +19,7 @@ Se un campo è contrassegnato come Obbligatorio, significa che questo campo deve
 
 ### Sola lettura (Read Only):
 
-<figure><img src="../../../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_prediction_test.png" alt="Docbits Model Prediction Test"><figcaption></figcaption></figure>
 
 Se un campo è contrassegnato come Sola lettura, significa che gli utenti possono visualizzare il contenuto di questo campo, ma non possono apportarvi modifiche.
 
@@ -33,7 +33,7 @@ Se un campo è contrassegnato come Sola lettura, significa che gli utenti posson
 
 ### Nascosto (Hidden):
 
-<figure><img src="../../../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_classification_extraction_settings.png" alt="Docbits Classification Extraction Settings"><figcaption></figcaption></figure>
 
 Se un campo è contrassegnato come "Nascosto", significa che il campo verrà nascosto nell'interfaccia utente e gli utenti non potranno vederlo né accedervi.
 
@@ -63,7 +63,7 @@ Se un campo è configurato per l'OCR, significa che il sistema tenterà di estra
 
 ### Convalida forzata (Forced validation):
 
-<figure><img src="../../../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_sql_alter_table_syntax.png" alt="Docbits Sql Alter Table Syntax"><figcaption></figcaption></figure>
 
 Configurare di conseguenza le regole di convalida, come limiti numerici, espressioni regolari o relazioni con altri campi.
 
@@ -77,7 +77,7 @@ Configurare di conseguenza le regole di convalida, come limiti numerici, espress
 
 ### Punteggio di corrispondenza (Match Score):
 
-<figure><img src="../../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_new_column_steps.png" alt="Docbits Add New Column Steps"><figcaption></figcaption></figure>
 
 Confrontando i dati di input con i dati di riferimento, il Match Score può aiutare a confermare l'accuratezza e la validità dei dati. Se il Match Score supera una certa soglia, la corrispondenza è considerata riuscita.
 
@@ -90,6 +90,6 @@ Confrontando i dati di input con i dati di riferimento, il Match Score può aiut
 
 * Il Match Score viene utilizzato per valutare l'accuratezza delle corrispondenze tra i dati di input e i valori di riferimento. Se il punteggio ottenuto supera la soglia impostata, la corrispondenza è considerata riuscita. Ciò è particolarmente utile per i campi che richiedono la convalida dei dati o la corrispondenza dei dati, come i campi con un nome, un indirizzo e-mail, ecc. ad esempio, durante il controllo dei dati dei clienti.
 
-<figure><img src="../../../../../.gitbook/assets/image (117).png" alt="" width="258"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_column_requirements_analysis.png" alt="Docbits Column Requirements Analysis" width="258"><figcaption></figcaption></figure>
 
 Configurando attentamente queste proprietà del campo, è possibile ottimizzare i flussi di lavoro di elaborazione dei documenti e garantire che i dati vengano acquisiti correttamente, protetti ed elaborati in modo efficiente.

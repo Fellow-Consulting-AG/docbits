@@ -4,7 +4,7 @@
 
 Come amministratore, hai la possibilità di visualizzare e gestire le mappature tra i numeri di articolo interni e i numeri di articolo dei fornitori. Questa funzionalità garantisce che le discrepanze tra il tuo sistema e i sistemi dei tuoi fornitori siano gestite in modo efficiente. Puoi rivedere, modificare ed eliminare mappature errate per mantenere l'accuratezza dei dati.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_supplier_item_map_admin_view.png" alt="Docbits Supplier Item Map Admin View"><figcaption></figcaption></figure>
 
 **Accesso alla Mappa dei Numeri di Articolo Fornitore**
 

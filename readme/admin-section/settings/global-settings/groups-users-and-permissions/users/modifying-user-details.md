@@ -40,7 +40,7 @@ Dopo aver completato questi passaggi, i dettagli dell'utente sono stati aggiorna
 
 * **Conferma:** Ti verrà chiesto di confermare la rimozione dell'utente.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-17 um 09.10.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_remove_user_confirmation.png" alt="Docbits Remove User Confirmation"><figcaption></figcaption></figure>
 
 * **Notifica Opzionale:** Puoi inviare opzionalmente una notifica all'utente per informarlo della rimozione del suo accesso.
 * **Rivedi Compiti e Documenti:** Prima di rimuovere l'utente, rivedi quali compiti o documenti sono assegnati all'utente. Sposta o trasferisci la responsabilità per quei compiti o documenti a un altro utente per assicurarti che nulla venga perso o lasciato incompleto.

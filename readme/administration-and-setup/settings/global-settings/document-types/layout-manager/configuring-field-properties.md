@@ -8,11 +8,11 @@
 
 * Iniziare selezionando il tipo di campo corretto per i propri dati.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-24 um 11.06.36.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_properties_type.png" alt="Docbits Field Properties Type" width="375"><figcaption></figcaption></figure>
 
 * Dipende dal tipo di informazioni che il campo conterrà.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-24 um 11.06.56.png" alt="" width="139"><figcaption><p>Proprietà</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_properties_panel.png" alt="Docbits Field Properties Panel" width="139"><figcaption><p>Proprietà</p></figcaption></figure>
 
 * I possibili tipi di campo includono testo, numero, data, menu a discesa, casella di controllo, ecc.
 

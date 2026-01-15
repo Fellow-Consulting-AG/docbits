@@ -1,6 +1,6 @@
 # Notifica Email
 
-<figure><img src="../../../../.gitbook/assets/E-Mail Notifications.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_email_notifications_header.png" alt="Docbits Email Notifications Header"><figcaption></figcaption></figure>
 
 Configurare le notifiche email è fondamentale. Le notifiche email in DocBits possono essere configurate per informare gli utenti su vari eventi legati ai documenti, come: completamento del processo, errori di importazione o esportazione, o richieste di intervento da parte degli utenti. Questo strumento è essenziale per mantenere una comunicazione efficace e la continuità operativa negli ambienti di elaborazione dei documenti. Ecco alcune ragioni per cui questo è importante:
 
