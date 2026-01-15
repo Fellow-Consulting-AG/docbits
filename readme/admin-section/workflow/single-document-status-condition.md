@@ -1,6 +1,6 @@
 # Singola condizione stato documento
 
-<figure><img src="../../../../.gitbook/assets/userlmn_928e514bc0e2aa775894e4ec5f992bd9 (1).png" alt="" width="528"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_single_doc_status.png" alt="DocBits Single Doc Stato" width="528"><figcaption></figcaption></figure>
 
 **Scopo**
 

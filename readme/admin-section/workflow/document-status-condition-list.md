@@ -1,6 +1,6 @@
 # Elenco condizioni stato documento
 
-<figure><img src="../../../../.gitbook/assets/userlmn_e9d6da331deceed4f330358635d6b605 (1).png" alt="" width="521"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_doc_status_list.png" alt="DocBits Doc Stato Elenco" width="521"><figcaption></figcaption></figure>
 
 **Scopo**
 

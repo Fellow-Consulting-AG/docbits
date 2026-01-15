@@ -14,7 +14,7 @@ Creare un nuovo Workflow: Fare clic su + AGGIUNGI WORKFLOW
 
 Se una fattura o un altro documento supera un certo importo totale che richiede una revisione e un'approvazione preventiva, questi documenti possono essere immediatamente assegnati alla persona corretta.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Esporta Sftp"><figcaption></figcaption></figure>
 
 **Test 1:              Scheda Logica**
 
@@ -60,7 +60,7 @@ Per una panoramica più semplice di cosa dovrebbe accadere a un documento, è po
 
 **Quindi:**              **Cambia Stato in:**         Approvazione in Sospeso
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Esporta Smb"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/8 (1).png>)
 

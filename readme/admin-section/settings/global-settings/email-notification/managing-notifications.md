@@ -4,9 +4,9 @@ Per modificare, disabilitare o eliminare le notifiche esistenti e adattarle ai c
 
 **Naviga nelle impostazioni delle notifiche:** Vai alle impostazioni del tuo sistema dove puoi gestire le notifiche. Puoi trovare queste nella sezione “Impostazioni”, “Impostazioni Globali” e poi sotto “Notifica via Email”.
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Esporta Sftp"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Esporta Smb"><figcaption></figcaption></figure>
 
 **Cerca l'elenco delle notifiche esistenti:** Nelle impostazioni delle notifiche troverai un elenco delle notifiche esistenti. Questo elenco mostra tutte le notifiche attualmente configurate.
 

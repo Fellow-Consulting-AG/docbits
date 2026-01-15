@@ -1,6 +1,6 @@
 # Tipo di documento
 
-<figure><img src="../../../../.gitbook/assets/image (16) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_document_type_card.png" alt="DocBits Document Tipo Scheda" width="563"><figcaption></figcaption></figure>
 
 ## Scopo:
 
