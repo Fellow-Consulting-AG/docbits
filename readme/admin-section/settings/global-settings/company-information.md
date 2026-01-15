@@ -1,6 +1,6 @@
 # Şirket Bilgileri
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.18.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_company_info_name.png" alt="Docbits Company Info Name"><figcaption></figcaption></figure>
 
 1. **Şirket Adı**: Kayıtlı olan şirketin yasal adı.
 2. **Cadde + Numara**: Şirketin ana ofisinin veya genel merkezinin fiziksel adresi.

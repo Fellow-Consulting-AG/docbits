@@ -1,6 +1,6 @@
 # Belge Süresi Sonu
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_documents_expiry_settings.png" alt="Docbits Documents Expiry Settings"><figcaption></figcaption></figure>
 
 "BELGE İŞLEME" bölümü altındaki "Belge Süresi Sonu" ayarında, sisteminizdeki belgeler için otomatik silme programlarını yapılandırabilirsiniz. Bu özellik, veri saklama politikalarını yönetmek ve belge depolama ile ilgili yasal veya kurumsal standartlara uyumu sağlamak için özellikle yararlıdır.
 
@@ -11,4 +11,4 @@
 
 Her iki ayar da belgelerin sisteminizde süresiz olarak tutulmamasını sağlayarak gereksiz depolama kullanımını önlemeye ve belge işleme iş akışını düzenli tutmaya yardımcı olur. Bu ayarlar, belge saklama konusunda belirli düzenleyici gerekliliklere uyması gereken kuruluşlar için hayati önem taşır.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_documents_retention_policy.png" alt="Docbits Documents Retention Policy"><figcaption></figcaption></figure>

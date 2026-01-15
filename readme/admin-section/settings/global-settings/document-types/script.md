@@ -1,6 +1,6 @@
 # Script
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.43.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_overview.png" alt="Docbits Script Overview"><figcaption></figcaption></figure>
 
 #### Genel Bakış
 
@@ -17,6 +17,6 @@ DocBits'teki betikler genellikle sistem Python tarafından desteklenen bir betik
 * Betiklerin yazılabileceği ve düzenlenebileceği bir arayüz sağlar. Düzenleyici genellikle sözdizimi vurgulama, hata vurgulama ve betik geliştirmede yardımcı olacak diğer özellikleri destekler.
 * **Örnek Betik**: Betikler, fatura satırlarında döngü yaparak toplamları doğrulamak veya belirli kriterleri karşılamayan girişleri kaldırmak gibi işlemleri içerebilir.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.43.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_example.png" alt="Docbits Script Example"><figcaption></figcaption></figure>
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2498" %}

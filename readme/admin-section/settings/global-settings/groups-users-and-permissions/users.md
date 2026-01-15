@@ -1,6 +1,6 @@
 # Kullanıcılar
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_user_search_bar.png" alt="Docbits User Search Bar"><figcaption></figcaption></figure>
 
 1. **Arama Çubuğu**: Yöneticilere kullanıcıları hızlıca bulmalarını sağlar, isimlerine veya diğer detaylara göre arama yapabilirler.
 2. **Kullanıcı Listesi**: Aşağıdaki sütunları içeren bir kullanıcı listesini gösterir:

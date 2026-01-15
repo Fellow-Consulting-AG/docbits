@@ -1,6 +1,6 @@
 # Belgelerin Son Kullanma Tarihi
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_documents_expiry_settings.png" alt="Docbits Documents Expiry Settings"><figcaption></figcaption></figure>
 
 "Belgelerin Son Kullanma Tarihi" ayarı, "BELGE İŞLEME" bölümü altında, sistemdeki belgeleriniz için otomatik silme zamanlamalarını yapılandırmanızı sağlar. Bu özellik, veri saklama politikalarını yönetmek ve belge depolama konusunda yasal veya kurumsal standartlara uyumu sağlamak için özellikle faydalıdır.
 
@@ -11,4 +11,4 @@
 
 Her iki ayar da belgelerin sisteminizde süresiz olarak tutulmadığından emin olur, gereksiz depolama kullanımını önlemeye yardımcı olur ve belge işleme iş akışını düzensizlikten korur. Bu ayarlar, belge saklama konusunda belirli düzenleyici gereksinimlere uymak zorunda olan kuruluşlar için hayati öneme sahiptir.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.27.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_documents_retention_policy.png" alt="Docbits Documents Retention Policy"><figcaption></figcaption></figure>

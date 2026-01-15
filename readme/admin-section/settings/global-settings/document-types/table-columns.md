@@ -1,6 +1,6 @@
 # Tablo Sütunları
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.57.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_table_columns_overview.png" alt="Docbits Table Columns Overview"><figcaption></figcaption></figure>
 
 #### Genel Bakış
 
@@ -20,9 +20,9 @@ Docbits'teki Tablo Sütunları arayüzü, her belge türü için veri tabloları
 * **Yeni Tablo Sütunu Ekle**: Adını, zorunlu olup olmadığını, veri türünü ve ait olduğu tabloyu tanımlayabileceğiniz bir iletişim kutusunu açar.
 * **Yeni Tablo Oluştur**: Belirli bir belge türüyle ilişkili verileri depolamak için kullanılacak benzersiz bir adı tanımlayarak yeni bir tablo oluşturmayı sağlar.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_create_new_table.png" alt="Docbits Create New Table"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.58.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_table_columns_integrity.png" alt="Docbits Table Columns Integrity"><figcaption></figcaption></figure>
 
 Bu bölüm, Docbits sistemi içinde belgelerden çıkarılan verilerin düzenli ve erişilebilir bir şekilde depolanmasını sağlayarak verilerin yapısal bütünlüğünü ve kullanılabilirliğini korumak için hayati öneme sahiptir.
 

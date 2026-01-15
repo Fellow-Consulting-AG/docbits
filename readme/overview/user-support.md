@@ -12,6 +12,6 @@ Ayrıca bize FELLOPRO sayfamız üzerinden ulaşabilirsiniz:
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-07 um 16.50.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_support_ticket_creation.png" alt="Docbits Support Ticket Creation"><figcaption></figcaption></figure>
 
 Doğrulama Ekranı'nda doğrudan bir destek talebi oluşturabilir ve sorunun ekran görüntüsünü ekleyebilirsiniz.

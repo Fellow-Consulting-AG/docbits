@@ -1,6 +1,6 @@
 # Gruplar ve İzinler
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_groups_permissions_overview.png" alt="Docbits Groups Permissions Overview"><figcaption></figcaption></figure>
 
 #### Gruplar ve İzinler Bölümünün Bileşenleri
 
@@ -19,6 +19,6 @@
 
 
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_second_approval_permission.png" alt="Docbits Second Approval Permission"><figcaption></figcaption></figure>
 
 {% @jira/embed url="https://fellowpro.atlassian.net/browse/DOCB-2486" %}
