@@ -4,7 +4,7 @@
 
 ### Omitir Validación de Tablas:
 
-<figure><img src="../../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_layout_manager_save_changes.png" alt="Docbits Layout Manager Save Changes"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -16,7 +16,7 @@
 
 ### Detección de Documentos Duplicados
 
-<figure><img src="../../../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_duplicate_doc_detection.png" alt="Docbits Duplicate Doc Detection"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -28,7 +28,7 @@
 
 ### Diseño en Formulario de Revisión:
 
-<figure><img src="../../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_description.png" alt="Docbits Doc Type Description"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -38,7 +38,7 @@
 
 * Útil para tener en cuenta comentarios visuales y anotaciones durante la revisión y realizar cambios de diseño en tiempo real. Esto mejora la eficiencia del proceso de revisión y permite que diseñadores y revisores trabajen más estrechamente juntos.
 
-<figure><img src="../../../../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_amount_date_format.png" alt="Docbits Doc Type Amount Date Format"><figcaption></figcaption></figure>
 
 ### Diseño de Formulario de Rechazo:
 
@@ -50,11 +50,11 @@
 
 * Útil para tener en cuenta comentarios visuales y anotaciones mientras se realizan cambios de diseño en tiempo real. Esto mejora la eficiencia del proceso de revisión y permite que diseñadores y revisores trabajen más estrechamente juntos.
 
-<figure><img src="../../../../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_design_template_setting.png" alt="Docbits Design Template Setting"><figcaption></figcaption></figure>
 
 ### Plantilla de Diseño:
 
-<figure><img src="../../../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_upload_train.png" alt="Docbits Doc Type Upload Train"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -64,11 +64,11 @@
 
 * Facilita la creación de documentos consistentes y profesionales. Las empresas pueden crear sus propias plantillas de diseño que sigan las pautas de marca y estándares de formato, aumentando la eficiencia y mejorando la apariencia de los documentos.
 
-<figure><img src="../../../../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_create_field.png" alt="Docbits Doc Type Create Field"><figcaption></figcaption></figure>
 
 ### Exportar a IDM (Gestión de Documentos de Información):
 
-<figure><img src="../../../../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_clone_option.png" alt="Docbits Doc Type Clone Option"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -80,7 +80,7 @@
 
 ### Aprobación:
 
-<figure><img src="../../../../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_finish_creation.png" alt="Docbits Doc Type Finish Creation"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -92,11 +92,11 @@
 
 **Formulario de Aprobación de Diseño:**
 
-<figure><img src="../../../../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_edit_layout.png" alt="Docbits Doc Type Edit Layout"><figcaption></figcaption></figure>
 
 **Formulario de Aprobación de Diseño v2:**
 
-<figure><img src="../../../../../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_edit_button.png" alt="Docbits Doc Type Edit Button"><figcaption></figcaption></figure>
 
 **Formulario de Segunda Aprobación de Diseño:**
 
@@ -114,7 +114,7 @@
 
 ### Tabla de OC en Constructor de Diseño:
 
-<figure><img src="../../../../../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_create_group.png" alt="Docbits Doc Type Create Group"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -126,7 +126,7 @@
 
 ### Exportar líneas de OC no coincidentes:
 
-<figure><img src="../../../../../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_edit_existing.png" alt="Docbits Doc Type Edit Existing"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -138,7 +138,7 @@
 
 ### Configuraciones de Tolerancia de OC:
 
-<figure><img src="../../../../../.gitbook/assets/image (186).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_more_settings.png" alt="Docbits Doc Type More Settings"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -149,11 +149,11 @@
 * Determina cuánto desvío del pedido es aceptable sin requerir aprobación adicional.&#x20;
 * Esto incluye desviaciones de precio o cantidad. Esta configuración ayuda a agilizar el proceso de aprobación y evitar retrasos innecesarios.
 
-<figure><img src="../../../../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_list_activation.png" alt="Docbits Doc Type List Activation"><figcaption></figcaption></figure>
 
 ### Configuraciones Adicionales de Tolerancia de OC:
 
-<figure><img src="../../../../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_toggle_switch.png" alt="Docbits Doc Type Toggle Switch"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -163,11 +163,11 @@
 
 * Puedes establecer parámetros y condiciones adicionales para órdenes de compra, como términos de entrega, términos de pago específicos. Esto facilita el control preciso y la personalización de los procesos de órdenes de compra, mejorando así la eficiencia y precisión en las compras.
 
-<figure><img src="../../../../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_select_toggle.png" alt="Docbits Doc Type Select Toggle"><figcaption></figcaption></figure>
 
 ### Exportación Alternativa de Documentos:
 
-<figure><img src="../../../../../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_alternative_export.png" alt="Docbits Doc Type Alternative Export"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -177,11 +177,11 @@
 
 * Puedes especificar en qué formatos (por ejemplo, PDF, DOCX, XML) o a través de qué canales (por ejemplo, correo electrónico, almacenamiento en la nube) se deben exportar los documentos. Esto aumenta la flexibilidad y permite que los documentos se exporten de acuerdo con los requisitos de diferentes destinatarios o sistemas.
 
-<figure><img src="../../../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_export_formats.png" alt="Docbits Doc Type Export Formats"><figcaption></figcaption></figure>
 
 ### Desactivar Estados de OC:
 
-<figure><img src="../../../../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_disable_statuses.png" alt="Docbits Doc Type Disable Statuses"><figcaption></figcaption></figure>
 
 **Propósito:**
 
@@ -192,7 +192,7 @@
 * Las empresas pueden especificar qué estados deben ser desactivados en ciertas situaciones para evitar que las órdenes sean editadas o modificadas incorrectamente. Esto es útil para asegurar la integridad y consistencia del proceso de órdenes de compra.
 * Por ejemplo, una orden que ya ha sido aprobada y liberada para entrega no podría ser procesada o cancelada.
 
-<figure><img src="../../../../../.gitbook/assets/image (199).png" alt="" width="244"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_controlled_workflows.png" alt="Docbits Doc Type Controlled Workflows" width="244"><figcaption></figcaption></figure>
 
 ### Importancia para flujos de trabajo controlados
 

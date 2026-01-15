@@ -6,12 +6,12 @@
 
 **Habilitar el sistema de permisos:**
 
-<figure><img src="../../../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_option.png" alt="Docbits Template Preview Option"><figcaption></figcaption></figure>
 
 * Cuando el sistema de permisos está habilitado, se aplican los permisos de acceso para usuarios y grupos.
 * A los usuarios solo se les concede acceso a los recursos a los que están explícitamente autorizados a acceder según los permisos asignados.
 
-<figure><img src="../../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_realtime.png" alt="Docbits Template Preview Realtime"><figcaption></figcaption></figure>
 
 * Los administradores pueden gestionar los permisos para usuarios y grupos individuales y asegurarse de que solo las personas autorizadas puedan ver o editar los datos.
 
@@ -19,7 +19,7 @@
 
 ### Desactivando el sistema de permisos:
 
-<figure><img src="../../../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_usage.png" alt="Docbits Template Preview Usage"><figcaption></figcaption></figure>
 
 * Cuando el sistema de permisos está deshabilitado, se eliminan todos los permisos de acceso y los usuarios generalmente tienen acceso sin restricciones a todos los recursos.&#x20;
 * Esto puede ser útil cuando se requiere colaboración abierta temporalmente sin las restricciones del control de acceso.&#x20;

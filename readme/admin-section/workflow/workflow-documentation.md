@@ -52,7 +52,7 @@ Entonces:               **Asignar documento a:**   James Edwards
 
 También es posible, si el documento no se asigna a una sola persona, asignarlo a un empleado específico desde el principio.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_db_access_creation.png" alt="Docbits Db Access Creation" width="375"><figcaption></figcaption></figure>
 
 
 

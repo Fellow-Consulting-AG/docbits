@@ -22,7 +22,7 @@ Esta página de configuración se utiliza para definir y gestionar las reglas qu
 
 3.  Luego vaya a la sección Orden de Compra y haga clic en el botón (PO match server side) después de eso haga clic en Configurar Reglas de Coincidencia de OC
 
-    <figure><img src="../../../../../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/docbits_field_validation_formatting.png" alt="Docbits Field Validation Formatting"><figcaption></figcaption></figure>
 
 ***
 
@@ -101,4 +101,4 @@ El conjunto de reglas definido gobierna directamente la eficiencia y la integrid
 
 Para editar las reglas de Coincidencia de OC, la versión predeterminada se puede clonar haciendo clic en **"Configurar Versionado"** y utilizando la opción **"Clonar como Borrador"** de las opciones de tarjeta disponibles
 
-<figure><img src="../../../../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_doc_type_export_formats.png" alt="Docbits Doc Type Export Formats"><figcaption></figcaption></figure>
