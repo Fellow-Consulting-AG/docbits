@@ -2,8 +2,7 @@
 
 Para configurar suas preferências, clique no Ícone do Usuário localizado no canto inferior esquerdo da tela. Aqui você pode personalizar várias opções:
 
-{% embed url="https://youtu.be/TLmAHw3EXs4" 
-%}
+{% embed url="https://youtu.be/TLmAHw3EXs4" %}
 
 
 <figure><img src="../../.gitbook/assets/docbits_user_config_icon.png" alt="Docbits User Config Icon"><figcaption></figcaption></figure>
