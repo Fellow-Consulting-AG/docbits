@@ -1,6 +1,6 @@
 # Metoda przyjmowania towarów
 
-<figure><img src="../../../../.gitbook/assets/image (47).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_item_receiving.png" alt="Docbits Workflow Item Receiving" width="563"><figcaption></figcaption></figure>
 
 ## **Cel:**
 

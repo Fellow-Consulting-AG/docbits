@@ -8,16 +8,16 @@
 
 <figure><img src="../../../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_dashboard.png" alt="Docbits Scan Doc Dashboard"><figcaption></figcaption></figure>
 
 * **Auto Accounting**: DocBits offers automated accounting functionality, streamlining the process of handling financial transactions associated with purchase orders (POs) and other documents.
 
-<figure><img src="../../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_download.png" alt="Docbits Scan Doc Download"><figcaption></figcaption></figure>
 
 * **Advance Shipment Dashboard**: A specialized dashboard for advanced monitoring and management of shipment-related activities, offering deeper insights and functionalities.
 * **Invoice Dashboard:** A specialized dashboard for advanced monitoring and management of invoices-related activities, offering deeper insights and functionalities.
 
-<figure><img src="../../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_install.png" alt="Docbits Scan Doc Install"><figcaption></figcaption></figure>
 
 * **Dashboards v2**: An updated version of the dashboard interface, likely with improved user experience and additional features for enhanced usability.
 * [**SQL Direct access:** A direct access to the Database.](how-to-create-database-access-for-a-specific-organization-user/)

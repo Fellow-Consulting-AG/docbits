@@ -1,6 +1,6 @@
 # Porównaj wartości w tabeli
 
-<figure><img src="../../../../.gitbook/assets/image (48).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_support_button_2.png" alt="Docbits Support Button 2" width="563"><figcaption></figcaption></figure>
 
 ## **Cel:**
 

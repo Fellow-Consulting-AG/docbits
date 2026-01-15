@@ -6,12 +6,12 @@
 
 **Włączenie systemu uprawnień:**
 
-<figure><img src="../../../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_option.png" alt="Docbits Template Preview Option"><figcaption></figcaption></figure>
 
 * Gdy system uprawnień jest włączony, stosowane są uprawnienia dostępu dla użytkowników i grup.
 * Użytkownicy mają dostęp tylko do zasobów, do których mają wyraźne uprawnienia na podstawie przypisanych uprawnień.
 
-<figure><img src="../../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_realtime.png" alt="Docbits Template Preview Realtime"><figcaption></figcaption></figure>
 
 * Administratorzy mogą zarządzać uprawnieniami dla poszczególnych użytkowników i grup oraz zapewnić, że tylko upoważnione osoby mogą przeglądać lub edytować dane.
 
@@ -19,7 +19,7 @@
 
 ### Dezaktywacja systemu uprawnień:
 
-<figure><img src="../../../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_usage.png" alt="Docbits Template Preview Usage"><figcaption></figcaption></figure>
 
 * Gdy system uprawnień jest wyłączony, wszystkie uprawnienia dostępu są usuwane, a użytkownicy zazwyczaj mają nieograniczony dostęp do wszystkich zasobów.&#x20;
 * Może to być przydatne, gdy tymczasowo wymagana jest otwarta współpraca bez ograniczeń kontroli dostępu.&#x20;

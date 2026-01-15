@@ -48,7 +48,7 @@ Wtedy:               **Przypisz dokument do:**   James Edwards
 
 Jest także możliwe, jeśli dokument nie jest przypisany do jednej osoby, przypisać go od razu do konkretnego pracownika.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_db_access_creation.png" alt="Docbits Db Access Creation" width="375"><figcaption></figcaption></figure>
 
 Dla łatwiejszego przeglądu tego, co powinno się stać z dokumentem, można ustawić status dla przychodzących dokumentów w tym przepływie pracy. Ten przepływ pracy pozwala natychmiast zobaczyć, czy na przykład istnieje oczekiwanie na zatwierdzenie.
 

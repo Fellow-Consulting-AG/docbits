@@ -4,13 +4,13 @@
 
 ### Oto wyjaśnienie, jak korzystać z podglądu szablonu:
 
-<figure><img src="../../../../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_python_example_2.png" alt="Docbits Script Python Example 2"><figcaption></figcaption></figure>
 
 #### Otwieranie podglądu szablonu:
 
 * Opcję Podgląd szablonu można zazwyczaj znaleźć w interfejsie edytora szablonów.
 
-<figure><img src="../../../../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_example_2.png" alt="Docbits Script Example 2"><figcaption></figcaption></figure>
 
 #### Wybór szablonu:
 
@@ -23,7 +23,7 @@
 
 * Zmień ustawienia układu według potrzeb. Może to obejmować dodawanie, usuwanie lub dostosowywanie grup, pól, kolumn, wierszy, czcionek itp.
 
-<figure><img src="../../../../../.gitbook/assets/image (155).png" alt="" width="271"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_save_name.png" alt="Docbits Script Save Name" width="271"><figcaption></figcaption></figure>
 
 #### Podgląd w czasie rzeczywistym:
 

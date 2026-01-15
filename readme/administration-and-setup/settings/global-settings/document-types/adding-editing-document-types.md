@@ -25,27 +25,27 @@
 * Wprowadź nazwę nowego typu dokumentu (np. "Faktura", "Umowa", "Raport").
 * Dodaj opis wyjaśniający cel i zastosowanie typu dokumentu.
 
-<figure><img src="../../../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_publish_button.png" alt="Docbits Script Publish Button"><figcaption></figcaption></figure>
 
 **Format kwoty i daty**
 
 * Wprowadź format kwoty i daty
 
-<figure><img src="../../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_management_nav.png" alt="Docbits Script Management Nav"><figcaption></figcaption></figure>
 
 **Importuj Przykładowe Dokumenty**
 
 * Prześlij przykładowe dokumenty metodą przeciągnij i upuść
 * Do szkolenia należy przesłać co najmniej 10 dokumentów
 
-<figure><img src="../../../../.gitbook/assets/image (159).png" alt=""><figcaption><p>Prześlij i Szkol</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_list_enable_disable.png" alt="Docbits Script List Enable Disable"><figcaption><p>Prześlij i Szkol</p></figcaption></figure>
 
 **Dodaj Grupy**
 
 * Kliknij przycisk "Dodaj" i wprowadź nazwę grupy.
 * Możesz również sklonować istniejący typ dokumentu.
 
-<figure><img src="../../../../.gitbook/assets/image (160).png" alt="" width="375"><figcaption><p>Pola i Grupy</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_save_changes_2.png" alt="Docbits Script Save Changes 2" width="375"><figcaption><p>Pola i Grupy</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (163).png" alt="" width="279"><figcaption><p>Utwórz Nową Grupę</p></figcaption></figure>
 
@@ -54,7 +54,7 @@
 * Dodaj nowe pola, klikając "Dodaj".
 * Wprowadź nazwę pola (np. "Numer faktury", "Data", "Kwota") i typ danych (np. Tekst, Liczba, Data).
 
-<figure><img src="../../../../.gitbook/assets/image (161).png" alt="" width="375"><figcaption><p>Pola i Grupy</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_test_environment.png" alt="Docbits Script Test Environment" width="375"><figcaption><p>Pola i Grupy</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (162).png" alt="" width="278"><figcaption><p>Utwórz Nowe Pole</p></figcaption></figure>
 
@@ -77,7 +77,7 @@
 
 * Kliknij przycisk Edytuj obok typu dokumentu.
 
-<figure><img src="../../../../.gitbook/assets/image (167).png" alt=""><figcaption><p>Więcej Ustawień</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_elements_list.png" alt="Docbits Field Elements List"><figcaption><p>Więcej Ustawień</p></figcaption></figure>
 
 * Tutaj możesz wprowadzić dalsze ustawienia dla typu dokumentu, takie jak szablon projektu, czy dokument musi zostać zatwierdzony przed eksportem i wiele innych szczegółów.
 

@@ -16,13 +16,13 @@
 
 * Uzyskaj dostęp do listy istniejących typów dokumentów. Ta lista pokazuje wszystkie zdefiniowane typy dokumentów, zarówno aktywne, jak i nieaktywne.
 
-<figure><img src="../../../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_default_values.png" alt="Docbits Field Default Values"><figcaption></figcaption></figure>
 
 **Aktywacja lub dezaktywacja typu dokumentu Wybierz Typ Dokumentu:**
 
 * Wybierz typ dokumentu, który chcesz włączyć lub wyłączyć.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_enable_historization.png" alt="Docbits Field Enable Historization"><figcaption></figcaption></figure>
 
 **Użyj funkcji przełączania:**
 
@@ -33,7 +33,7 @@
 * Jeśli typ dokumentu jest obecnie wyłączony, przełącznik może pokazywać pozycję szarą lub wyłączoną.&#x20;
 * Kliknij przełącznik, aby aktywować typ dokumentu. Przełącznik zmienia pozycję i kolor, wskazując aktywację.
 
-<figure><img src="../../../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_user_permissions.png" alt="Docbits Field User Permissions"><figcaption></figcaption></figure>
 
 **Dezaktywacja:**
 

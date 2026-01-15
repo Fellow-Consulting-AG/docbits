@@ -4,7 +4,7 @@
 
 ### Pomiń walidację tabeli:
 
-<figure><img src="../../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_layout_manager_save_changes.png" alt="Docbits Layout Manager Save Changes"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -16,7 +16,7 @@
 
 ### Wykrywanie zduplikowanych dokumentów
 
-<figure><img src="../../../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_duplicate_doc_detection.png" alt="Docbits Duplicate Doc Detection"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -28,7 +28,7 @@
 
 ### Projekt w formularzu przeglądu:
 
-<figure><img src="../../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_description.png" alt="Docbits Doc Type Description"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -38,7 +38,7 @@
 
 * Przydatne do uwzględniania wizualnych opinii i adnotacji podczas przeglądu oraz wprowadzania zmian w projekcie w czasie rzeczywistym. To poprawia efektywność procesu przeglądu i pozwala projektantom i recenzentom ściślej współpracować.
 
-<figure><img src="../../../../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_amount_date_format.png" alt="Docbits Doc Type Amount Date Format"><figcaption></figcaption></figure>
 
 ### Formularz odrzucenia projektu:
 
@@ -50,11 +50,11 @@
 
 * Przydatne do uwzględniania wizualnych opinii i adnotacji podczas wprowadzania zmian w projekcie w czasie rzeczywistym. To poprawia efektywność procesu przeglądu i pozwala projektantom i recenzentom ściślej współpracować.
 
-<figure><img src="../../../../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_design_template_setting.png" alt="Docbits Design Template Setting"><figcaption></figcaption></figure>
 
 ### Szablon projektu:
 
-<figure><img src="../../../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_upload_train.png" alt="Docbits Doc Type Upload Train"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -64,11 +64,11 @@
 
 * Ułatwia tworzenie spójnych i profesjonalnych dokumentów. Firmy mogą tworzyć własne szablony projektów, które przestrzegają wytycznych dotyczących marki i standardów formatowania, zwiększając efektywność i poprawiając wygląd dokumentów.
 
-<figure><img src="../../../../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_create_field.png" alt="Docbits Doc Type Create Field"><figcaption></figcaption></figure>
 
 ### Eksport do IDM (Zarządzanie Dokumentami Informacyjnymi):
 
-<figure><img src="../../../../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_clone_option.png" alt="Docbits Doc Type Clone Option"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -80,7 +80,7 @@
 
 ### Zatwierdzenie:
 
-<figure><img src="../../../../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_finish_creation.png" alt="Docbits Doc Type Finish Creation"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -92,11 +92,11 @@
 
 **Formularz zatwierdzenia projektu:**
 
-<figure><img src="../../../../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_edit_layout.png" alt="Docbits Doc Type Edit Layout"><figcaption></figcaption></figure>
 
 **Formularz zatwierdzenia projektu v2:**
 
-<figure><img src="../../../../../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_edit_button.png" alt="Docbits Doc Type Edit Button"><figcaption></figcaption></figure>
 
 **Formularz drugiego zatwierdzenia projektu:**
 
@@ -114,7 +114,7 @@
 
 ### Tabela zamówienia zakupu w kreatorze układów:
 
-<figure><img src="../../../../../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_create_group.png" alt="Docbits Doc Type Create Group"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -126,7 +126,7 @@
 
 ### Eksport niezgodnych linii zamówienia zakupu:
 
-<figure><img src="../../../../../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_edit_existing.png" alt="Docbits Doc Type Edit Existing"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -138,7 +138,7 @@
 
 ### Ustawienia tolerancji zamówienia zakupu:
 
-<figure><img src="../../../../../.gitbook/assets/image (186).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_more_settings.png" alt="Docbits Doc Type More Settings"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -149,11 +149,11 @@
 * Określa, jak duże odchylenie od zamówienia jest akceptowalne bez konieczności dodatkowego zatwierdzenia.&#x20;
 * Obejmuje to odchylenia cenowe lub ilościowe. To ustawienie pomaga uprościć proces zatwierdzania i unikać niepotrzebnych opóźnień.
 
-<figure><img src="../../../../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_list_activation.png" alt="Docbits Doc Type List Activation"><figcaption></figcaption></figure>
 
 ### Dodatkowe ustawienia tolerancji zamówienia zakupu:
 
-<figure><img src="../../../../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_toggle_switch.png" alt="Docbits Doc Type Toggle Switch"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -163,11 +163,11 @@
 
 * Możesz ustawić dodatkowe parametry i warunki dla zamówień zakupu, takie jak warunki dostawy, specyficzne warunki płatności. To ułatwia precyzyjną kontrolę i dostosowanie procesów zamówień zakupu, poprawiając efektywność i dokładność w zakupach.
 
-<figure><img src="../../../../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_select_toggle.png" alt="Docbits Doc Type Select Toggle"><figcaption></figcaption></figure>
 
 ### Alternatywny eksport dokumentów:
 
-<figure><img src="../../../../../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_alternative_export.png" alt="Docbits Doc Type Alternative Export"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -177,11 +177,11 @@
 
 * Możesz określić, w jakich formatach (np. PDF, DOCX, XML) lub za pomocą jakich kanałów (np. e-mail, chmura) dokumenty powinny być eksportowane. To zwiększa elastyczność i pozwala na eksport dokumentów zgodnie z wymaganiami różnych odbiorców lub systemów.
 
-<figure><img src="../../../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_export_formats.png" alt="Docbits Doc Type Export Formats"><figcaption></figcaption></figure>
 
 ### Wyłącz statusy zamówienia zakupu:
 
-<figure><img src="../../../../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_disable_statuses.png" alt="Docbits Doc Type Disable Statuses"><figcaption></figcaption></figure>
 
 **Cel:**
 
@@ -192,7 +192,7 @@
 * Firmy mogą określić, które statusy powinny być wyłączone w określonych sytuacjach, aby zapobiec edytowaniu lub niewłaściwemu modyfikowaniu zamówień. To jest przydatne, aby zapewnić integralność i spójność procesu zamówień zakupu.
 * Na przykład zamówienie, które zostało już zatwierdzone i wydane do dostawy, nie mogłoby być już przetwarzane ani anulowane.
 
-<figure><img src="../../../../../.gitbook/assets/image (199).png" alt="" width="244"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_controlled_workflows.png" alt="Docbits Doc Type Controlled Workflows" width="244"><figcaption></figcaption></figure>
 
 ### Znaczenie dla kontrolowanych przepływów pracy
 

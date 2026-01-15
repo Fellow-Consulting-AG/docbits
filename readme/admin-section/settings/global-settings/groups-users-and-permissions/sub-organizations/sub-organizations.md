@@ -14,7 +14,7 @@ Ogólnie rzecz biorąc, podorganizacje umożliwiają skuteczniejsze zarządzanie
 
 W Ustawieniach, Ustawienia globalne → Grupy, Użytkownicy i Uprawnienia → Podorganizacje, jak pokazano poniżej.
 
-<figure><img src="../../../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Ustawienia</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_validation_screen_annotations.png" alt="Docbits Validation Screen Annotations"><figcaption><p>Ustawienia</p></figcaption></figure>
 
 Zostaniesz następnie przeniesiony na stronę, która wygląda podobnie do tej:\
 
