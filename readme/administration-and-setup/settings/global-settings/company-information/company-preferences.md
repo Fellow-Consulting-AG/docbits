@@ -2,6 +2,10 @@
 
 ## Przegląd
 
+{% embed url="https://youtu.be/TLmAHw3EXs4" 
+%}
+
+
 W **Preferencjach firmy** możesz skonfigurować kluczowe ustawienia formatowania i powiadomień dla aplikacji. Należą do nich:
 
 * Wybór **wzoru daty**, który będzie używany w całej aplikacji
