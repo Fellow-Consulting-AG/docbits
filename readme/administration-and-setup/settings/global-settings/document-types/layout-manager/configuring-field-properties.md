@@ -8,11 +8,11 @@
 
 * Start by selecting the right field type for your data.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-24 um 11.06.36.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_properties_type.png" alt="Docbits Field Properties Type" width="375"><figcaption></figcaption></figure>
 
 * This depends on what type of information the field will contain.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-24 um 11.06.56.png" alt="" width="139"><figcaption><p>Properties</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_properties_panel.png" alt="Docbits Field Properties Panel" width="139"><figcaption><p>Properties</p></figcaption></figure>
 
 * Possible field types include text, number, date, drop-down menu, checkbox, etc.
 

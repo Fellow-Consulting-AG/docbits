@@ -1,6 +1,6 @@
 # Documenttypes
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-24 um 22.39.42.png" alt="Document Types"><figcaption><p>Document Types Screenshot </p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_document_types_overview_screenshot.png" alt="Docbits Document Types Overview Screenshot"><figcaption><p>Document Types Screenshot </p></figcaption></figure>
 
 ## **Overzicht**
 

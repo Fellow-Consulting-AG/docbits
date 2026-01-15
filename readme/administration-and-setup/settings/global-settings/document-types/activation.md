@@ -40,7 +40,7 @@
 * If the document type is currently activated, the switch shows a colored or on position.&#x20;
 * Click the switch to deactivate the document type. The switch changes its position and color to indicate deactivation.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-27 um 14.16.06 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_deactivate_doc_type_switch.png" alt="Docbits Deactivate Doc Type Switch"><figcaption></figcaption></figure>
 
 
 

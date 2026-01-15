@@ -17,7 +17,7 @@
 * Select the template whose layout you want to check.
 * This can be an existing template you want to make changes to or a new template you want to create.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-24 um 12.31.04.png" alt="" width="186"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_adjust.png" alt="Docbits Template Preview Adjust" width="186"><figcaption></figcaption></figure>
 
 #### Adjusting the layout settings:
 

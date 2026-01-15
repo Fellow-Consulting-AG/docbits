@@ -156,7 +156,7 @@ Scripts kunnen worden aangemaakt in de instellingen onder Documenttypes; deze in
 
 ### **Meer instellingen:**
 
-<figure><img src="../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250310173928.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_validation_screen_more_settings_menu.jpg" alt="Docbits Validation Screen More Settings Menu"><figcaption></figcaption></figure>
 
 ### **Documentflow:**
 

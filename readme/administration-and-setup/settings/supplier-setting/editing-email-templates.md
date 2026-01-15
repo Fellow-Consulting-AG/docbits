@@ -4,7 +4,7 @@
 
 De functie E-mail Sjablonen stelt beheerders in staat om e-mailcommunicatie te maken en aan te passen die automatisch naar leveranciers wordt gestuurd. Een van de belangrijkste elementen die in deze sjablonen worden gebruikt, is de `{{magic_link}}`, die een dynamische link biedt die is afgestemd op elke ontvanger.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.33.35.png" alt="Supplier Portal - Email Template"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_email_template_magic_link.png" alt="Docbits Email Template Magic Link"><figcaption></figcaption></figure>
 
 **Wat is `{{magic_link}}`?**
 
@@ -12,7 +12,7 @@ De `{{magic_link}}` is een tijdelijke aanduiding die dynamisch wordt vervangen d
 
 ## E-mail Sjablonen Bewerken
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.35.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_email_template_editor_access.png" alt="Docbits Email Template Editor Access"><figcaption></figcaption></figure>
 
 **Toegang tot de E-mail Sjabloon Editor**
 
@@ -24,7 +24,7 @@ De `{{magic_link}}` is een tijdelijke aanduiding die dynamisch wordt vervangen d
    * De editor stelt je in staat om zowel de HTML-code als het visuele ontwerp van de e-mail aan te passen.
    * Je kunt schakelen tussen visuele bewerking en codebewerking met behulp van de beschikbare tabbladen.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-08-25 um 12.36.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_email_template_visual_code_toggle.png" alt="Docbits Email Template Visual Code Toggle"><figcaption></figcaption></figure>
 
 **`{{magic_link}}` als een Link Definiëren**
 

@@ -10,7 +10,7 @@ API-sleutelbeheer is een belangrijk aspect als het gaat om de beveiliging van in
 
 * Navigeer naar de API-sleutelinstellingen in uw DocBits-account. Hier vindt u de API-sleutel, klik op "Kopiëren" om de sleutel te kopiëren.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 16.18.04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_api_key_settings.png" alt="Docbits Api Key Settings"><figcaption></figcaption></figure>
 
 **API-sleutels veilig behandelen:**
 

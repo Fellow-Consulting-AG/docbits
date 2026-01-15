@@ -7,17 +7,17 @@ Provide detailed instructions on how to import sample documents for training, in
 * **Prepare the sample documents:** Make sure the sample documents are in a supported format, such as PDF, Word, Excel, etc. These documents should cover a variety of types and formats that may be encountered in production operations of the document processing system.
 * **Navigate to the import function:** Log in to the administration area of ​​the document processing system and navigate to the area where you can import new documents.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 20.00.03.png" alt=""><figcaption><p>Global Settings</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_global_settings_import_nav.png" alt="Docbits Global Settings Import Nav"><figcaption><p>Global Settings</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 20.02.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_import_function_area.png" alt="Docbits Import Function Area"><figcaption></figcaption></figure>
 
 * **Select the option to import documents:** Click the button or link to import documents. There may be an option such as "Import".
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 19.32.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_import_documents_button.png" alt="Docbits Import Documents Button"><figcaption></figcaption></figure>
 
 * **Select amount & date format:**
 
-<figure><img src="../../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_import_amount_date_format.png" alt="Docbits Import Amount Date Format"><figcaption></figcaption></figure>
 
 **Amount Format:**
 
@@ -39,18 +39,18 @@ It is important to note the specific format to avoid misunderstandings, especial
 
 * **Select the sample documents:** Select the sample documents you want to import. This can be done by uploading the files from your local computer or by selecting documents from an already connected location.
 
-<figure><img src="../../../../../.gitbook/assets/image (106) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_import_select_samples.png" alt="Docbits Import Select Samples"><figcaption></figcaption></figure>
 
 * **Configure the document types and subtypes (if required):** If your system supports different document types or subtypes, assign the appropriate type to each imported document. This will help the system to categorize and process the documents correctly.
 * **Start the import process:** Confirm the selection of documents and start the import process. Depending on the size and number of documents, this process may take some time.
 
-<figure><img src="../../../../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_import_start_process.png" alt="Docbits Import Start Process"><figcaption></figcaption></figure>
 
 * **Check the import status:** Check the status of the import process to make sure that all documents were imported successfully. Make sure that no errors occurred and that the documents were processed correctly.
 * **Train the model:** After the documents are imported, use them to train the document processing system model. Perform training according to the system's instructions to make sure it can process the sample data effectively.
 
-<figure><img src="../../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_train_model_action.png" alt="Docbits Train Model Action"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (109).png" alt="" width="284"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_training_continuous.png" alt="Docbits Model Training Continuous" width="284"><figcaption></figcaption></figure>
 
 By regularly adding sample documents for training, you can ensure that your document processing system is always up to date and provides accurate and efficient processing.

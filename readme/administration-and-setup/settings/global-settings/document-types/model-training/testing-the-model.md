@@ -13,19 +13,19 @@ To test the trained model and evaluate its accuracy and operational readiness, y
 * Run the classification tests on the prepared test data.
 * Feed the test data into the model and let the model make predictions for classifying the documents.
 
-<figure><img src="../../../../../.gitbook/assets/image (112).png" alt="" width="375"><figcaption><p>Setting</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_prediction_test.png" alt="Docbits Model Prediction Test" width="375"><figcaption><p>Setting</p></figcaption></figure>
 
 * Add a new one or edit an existing classification rule.
 
-<figure><img src="../../../../../.gitbook/assets/image (113).png" alt=""><figcaption><p>Settings: Classification and Extraction</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_classification_extraction_settings.png" alt="Docbits Classification Extraction Settings"><figcaption><p>Settings: Classification and Extraction</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (111).png" alt="" width="276"><figcaption><p>Configure classification Rule</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_configure_classification_rule.png" alt="Docbits Configure Classification Rule" width="276"><figcaption><p>Configure classification Rule</p></figcaption></figure>
 
 **Evaluating the model accuracy:**
 
 * Compare the model's predictions with the actual classifications of the test data. Calculate metrics such as accuracy, precision, recall, and F1 score to evaluate the model's performance. These metrics provide insight into how well the model classified the documents and how reliable it is.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 08.53.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_training_metrics.png" alt="Docbits Model Training Metrics"><figcaption></figcaption></figure>
 
 **Analyze errors:**
 

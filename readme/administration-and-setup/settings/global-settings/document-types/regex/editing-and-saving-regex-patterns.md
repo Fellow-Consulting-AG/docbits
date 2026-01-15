@@ -4,9 +4,9 @@
 
 **To edit existing regex patterns and ensure the changes work as expected without breaking existing functionality, you can follow the guide below:**
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 12.46.56 (1).png" alt=""><figcaption><p>Settings: Document Type</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_regex_edit_settings.png" alt="Docbits Regex Edit Settings"><figcaption><p>Settings: Document Type</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 14.18.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_regex_pattern_analysis.png" alt="Docbits Regex Pattern Analysis"><figcaption></figcaption></figure>
 
 **Analyze the existing pattern:**
 

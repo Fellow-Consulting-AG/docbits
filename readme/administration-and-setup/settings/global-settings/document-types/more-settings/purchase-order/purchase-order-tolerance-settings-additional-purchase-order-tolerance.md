@@ -22,7 +22,7 @@ Wanneer ingeschakeld, stelt deze instelling je in staat om toleranties voor **Ho
     * **Percentage:** Geeft een percentage tolerantie aan.
     * **Waarde:** Geeft een vast bedrag aan waar het bedrag van kan afwijken.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207103448 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_po_tolerance_value_fixed_example.jpg" alt="Docbits Po Tolerance Value Fixed Example"><figcaption></figcaption></figure>
 
 #### **Voorbeeldscenario:**
 
@@ -37,7 +37,7 @@ Wanneer ingeschakeld, stelt deze instelling je in staat om toleranties voor **Ho
   * Regel 1 is **niet gemarkeerd** als een mismatch omdat $4.80 binnen 5% van $5.00 ligt.
   * Regel 2 **is gemarkeerd** als een mismatch omdat $2.20 de toegestane 5% afwijking van $2.00 overschrijdt. De gebruiker moet nu actie ondernemen om de mismatch op te lossen voordat de factuur verder kan worden verwerkt.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207103729.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_po_tolerance_mismatch_example_2.jpg" alt="Docbits Po Tolerance Mismatch Example 2"><figcaption></figcaption></figure>
 
 ### Instelling om Extra Aankooporder Tolerantie-instellingen te configureren
 
@@ -60,5 +60,5 @@ Wanneer ingeschakeld, stelt deze instelling je in staat om toleranties voor **Vr
     * **Percentage:** De tolerantie wordt gedefinieerd als een percentage.
     * **Waarde:** De tolerantie wordt gedefinieerd als een vast bedrag.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207103618.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_po_tolerance_value_fixed_def.jpg" alt="Docbits Po Tolerance Value Fixed Def"><figcaption></figcaption></figure>
 

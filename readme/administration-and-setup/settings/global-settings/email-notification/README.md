@@ -1,6 +1,6 @@
 # E-mailmelding
 
-<figure><img src="../../../../.gitbook/assets/E-Mail Notifications.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_email_notifications_header.png" alt="Docbits Email Notifications Header"><figcaption></figcaption></figure>
 
 Het configureren van e-mailmeldingen is cruciaal. E-mailmeldingen in DocBits kunnen worden geconfigureerd om gebruikers te informeren over verschillende documentgerelateerde gebeurtenissen, zoals: Voltooiing van verwerking, import- of exportfouten, of verzoeken om gebruikersinterventie. Deze tool is essentieel voor het handhaven van effectieve communicatie en operationele continuïteit in documentverwerkingsomgevingen. Hier zijn enkele redenen waarom dit belangrijk is:
 

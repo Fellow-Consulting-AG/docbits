@@ -4,7 +4,7 @@
 
 Ga naar **Instellingen** → **Algemene Instellingen** → **Documenttypen** → **Meer Instellingen** → **Aankooporder Sectie** → **Automatische Controle op PO-updates** Zet de knop om deze instelling in te schakelen.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207104507.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_po_auto_check_updates_settings.jpg" alt="Docbits Po Auto Check Updates Settings"><figcaption></figcaption></figure>
 
 #### Hoe Het Werkt
 

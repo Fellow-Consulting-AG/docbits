@@ -4,7 +4,7 @@
 
 Deze functie helpt je bij het beheren en reconciliëren van artikelnummers tussen je systeem en je leveranciers. Vaak komen de artikelnummers die je intern gebruikt niet overeen met de artikelnummers die je leveranciers gebruiken. Docbits maakt het gemakkelijker om deze discrepanties te beheren door een mapping te creëren tussen jouw artikelnummers en die van je leveranciers.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_supplier_item_map_user_view.png" alt="Docbits Supplier Item Map User View"><figcaption></figcaption></figure>
 
 ## **Hoe Het Werkt**
 

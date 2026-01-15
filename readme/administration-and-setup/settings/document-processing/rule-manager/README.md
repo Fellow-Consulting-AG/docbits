@@ -161,7 +161,7 @@ Definieert specifieke acties die moeten worden ondernomen wanneer een discrepant
 
 ### Screenshot 1: Regelbeheerinterface
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.20.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_manager_interface.png" alt="Docbits Rule Manager Interface"><figcaption></figcaption></figure>
 
 Deze screenshot toont de Regelbeheerinterface waar beheerders alle regels voor geschillenbeslechting kunnen bekijken en beheren. Belangrijke elementen zijn:
 
@@ -173,7 +173,7 @@ Deze screenshot toont de Regelbeheerinterface waar beheerders alle regels voor g
 
 ### Screenshot 2: Gedetailleerde Regelbewerking
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.21.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_editing_detail.png" alt="Docbits Rule Editing Detail"><figcaption></figcaption></figure>
 
 Deze screenshot illustreert het gedetailleerde overzicht van een specifieke regel die wordt bewerkt. Belangrijke elementen zijn:
 

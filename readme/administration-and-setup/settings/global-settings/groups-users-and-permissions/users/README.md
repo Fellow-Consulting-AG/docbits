@@ -19,11 +19,11 @@ In de meeste organisaties hebben alleen geautoriseerde personen toegang tot gebr
 * **Toegang tot gebruikersbeheer:** Navigeer naar Instellingen - Globale instellingen - Groepen, Gebruiker en Machtigingen - Gebruiker, waar je nieuwe gebruikers kunt toevoegen.
 * **Nieuwe gebruiker toevoegen:** Klik in de gebruikersinstellingen op “Voeg gebruiker toe”
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_new_user_button.png" alt="Docbits Add New User Button"><figcaption></figcaption></figure>
 
 * **Vul het formulier in:** Er verschijnt een formulier waarin je de informatie voor de nieuwe gebruiker kunt invoeren. Typische informatie omvat:
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_new_user_form.png" alt="Docbits New User Form" width="375"><figcaption></figcaption></figure>
 
 * **Gebruikersnaam:** Unieke naam voor de gebruiker die wordt gebruikt om in te loggen.
 * **Voornaam en Achternaam:** Naam van de gebruiker.

@@ -12,7 +12,7 @@ Impact voor Klanten: Zorgt ervoor dat DocBits voldoet aan de hoogste normen voor
 
 ## 2. SOC 1 (Service Organization Control 1)
 
-<figure><img src="../../.gitbook/assets/certifications2 (1).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_certifications_soc1.avif" alt="Docbits Certifications Soc1"><figcaption></figcaption></figure>
 
 SOC 1-rapporten zijn ontworpen voor organisaties die de effectiviteit van interne controles over financiële rapportage moeten aantonen. Het is bijzonder relevant voor dienstverleners die invloed hebben op de financiële rapportage van hun klanten.
 

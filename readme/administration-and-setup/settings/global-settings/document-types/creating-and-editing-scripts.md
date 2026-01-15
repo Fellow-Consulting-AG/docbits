@@ -10,13 +10,13 @@ First, you need to choose the scripting language you want to use. DocBits typica
 
 Log in to DocBits and navigate to the script development environment. This is in the administration area.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 15.19.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_dev_environment.png" alt="Docbits Script Dev Environment"><figcaption></figcaption></figure>
 
 **Create a new script:**&#x20;
 
 Click the "+ New" button to open a new script editor.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 15.21.58.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_new_script_editor.png" alt="Docbits New Script Editor"><figcaption></figcaption></figure>
 
 **Write the code:**&#x20;
 
@@ -64,7 +64,7 @@ An important step is mapping the script to the appropriate document types. This 
 
 After you have created, tested and mapped the script, check it again for errors and inconsistencies. If everything is OK, you can publish the script to the DocBits production environment.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-23 um 15.29.18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_publish_script_button.png" alt="Docbits Publish Script Button"><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 

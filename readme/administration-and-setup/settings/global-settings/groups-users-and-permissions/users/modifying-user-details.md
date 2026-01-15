@@ -36,7 +36,7 @@ After completing these steps, the user details are successfully updated and the 
 
 * **Confirmation:** You are asked to confirm the user’s removal.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-17 um 09.10.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_remove_user_confirmation.png" alt="Docbits Remove User Confirmation"><figcaption></figcaption></figure>
 
 * **Optional Notification:** You can optionally send a notification to the user to inform them of the removal of their access.
 * **Review Tasks and Documents:** Before removing the user, review what tasks or documents are assigned to the user. Move or transfer responsibility for those tasks or documents to another user to make sure nothing gets lost or left unfinished.

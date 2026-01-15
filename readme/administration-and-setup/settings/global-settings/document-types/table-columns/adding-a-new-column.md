@@ -2,32 +2,32 @@
 
 ## Adding a new column to an existing table requires careful planning and execution to ensure that data integrity is maintained and application requirements are met.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 12.46.56.png" alt=""><figcaption><p>Settings: Document Types</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_table_columns_settings_nav.png" alt="Docbits Table Columns Settings Nav"><figcaption><p>Settings: Document Types</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-22 um 12.49.21.png" alt=""><figcaption><p>Table Columns</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_table_columns_view.png" alt="Docbits Table Columns View"><figcaption><p>Table Columns</p></figcaption></figure>
 
 **Here are detailed steps to add a new column:**
 
-<figure><img src="../../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_new_column_steps.png" alt="Docbits Add New Column Steps"><figcaption></figcaption></figure>
 
 **Requirements analysis:**
 
 * Review your application's requirements and identify the purpose of the new column. What type of data will be stored? How will this column be used in the application?
 
-<figure><img src="../../../../../.gitbook/assets/image (117).png" alt="" width="375"><figcaption><p>Add new table column</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_column_requirements_analysis.png" alt="Docbits Column Requirements Analysis" width="375"><figcaption><p>Add new table column</p></figcaption></figure>
 
 **Choosing the right column type:**
 
 * Choose the most appropriate column type based on the data that will be stored in the column. This can be AMOUNT for amount, STRING for strings, DATE for dates, etc.
 * Choosing the right column type is important to ensure data integrity and use storage space efficiently.
 
-<figure><img src="../../../../../.gitbook/assets/image (118).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_choose_column_type.png" alt="Docbits Choose Column Type" width="375"><figcaption></figcaption></figure>
 
 **Choosing the right table:**
 
 * To select the correct column type in a particular table, such as the invoice table, it is important to consider the specific requirements of the data to be stored in that table.
 
-<figure><img src="../../../../../.gitbook/assets/image (119).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_decide_column_necessity.png" alt="Docbits Decide Column Necessity" width="375"><figcaption></figcaption></figure>
 
 **Deciding on column necessity:**
 
@@ -42,7 +42,7 @@
 
 *   Use the ALTER TABLE SQL statement to add the new column. The exact syntax depends on the database platform you are using, but in general the SQL statement looks like this:
 
-    <figure><img src="../../../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_sql_alter_table_syntax.png" alt="Docbits Sql Alter Table Syntax"><figcaption></figcaption></figure>
 
     Replace table\_name with the name of your table, new\_column\_name with the name of the new column, and data\_type with the column type you selected. The \[NOT NULL] keyword indicates whether the column is mandatory.
 
