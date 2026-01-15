@@ -8,6 +8,9 @@ description: DocBits Workflow Engine
 
 ## Motore di Workflow DocBits: Semplificazione dell'Automazione dei Processi
 
+{% embed url="https://youtu.be/YQC13wCqTJI" %}
+
+
 ### Introduzione
 
 Nel campo dell'automazione dei processi, il Motore di Workflow DocBits si distingue per il suo approccio semplice e intuitivo. Questo motore semplifica la creazione e la gestione dei flussi di lavoro attraverso una struttura chiara e semplice basata su regole. Il principio fondamentale alla base del suo design è la regola "Easy When-And-Then" (Facile Quando-E-Allora), che scompone il processo di automazione in tre componenti fondamentali: Trigger, Condizione e Azione. Questa guida spiega come funziona ciascun componente all'interno del sistema e come lavorano insieme per facilitare un'automazione senza soluzione di continuità.
@@ -38,4 +41,3 @@ Assemblando questi tre componenti—Trigger, Condizione e Azione—il Motore di 
 ### Conclusione
 
 La regola "Easy When-And-Then" del Motore di Workflow DocBits esemplifica l'impegno del motore nel fornire una piattaforma user-friendly per l'automazione dei processi. Questa regola semplice, scomponendo l'automazione negli elementi essenziali di Trigger, Condizione e Azione, rende più facile per gli utenti concettualizzare, creare e gestire i flussi di lavoro. Che tu sia nuovo nell'automazione dei flussi di lavoro o un professionista esperto, il Motore di Workflow DocBits offre uno strumento efficiente e accessibile per migliorare la produttività e semplificare le operazioni.
-
