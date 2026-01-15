@@ -4,13 +4,13 @@
 
 ### Here's an explanation of how you can use the Template Preview:
 
-<figure><img src="../../../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_usage.png" alt="Docbits Template Preview Usage"><figcaption></figcaption></figure>
 
 #### Opening the Template Preview:
 
 * You can usually find the Template Preview option in the template editor interface.
 
-<figure><img src="../../../../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_option.png" alt="Docbits Template Preview Option"><figcaption></figcaption></figure>
 
 #### Selecting the template:
 
@@ -23,7 +23,7 @@
 
 * Change the layout settings as needed. This can include adding, removing or adjusting groups, fields, columns, rows, fonts, etc.
 
-<figure><img src="../../../../../.gitbook/assets/image (176).png" alt="" width="271"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_template_preview_realtime.png" alt="Docbits Template Preview Realtime" width="271"><figcaption></figcaption></figure>
 
 #### Real-time preview:
 

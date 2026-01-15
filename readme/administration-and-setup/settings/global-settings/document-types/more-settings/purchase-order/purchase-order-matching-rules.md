@@ -22,7 +22,7 @@ Deze configuratiepagina wordt gebruikt om de regels te definiëren en te beheren
 
 3.  Ga vervolgens naar de Sectie Inkooporder en Klik op de Knop (PO match server side) en daarna op Configureer PO Matching Regels
 
-    <figure><img src="../../../../../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/docbits_field_validation_formatting.png" alt="Docbits Field Validation Formatting"><figcaption></figcaption></figure>
 
 ***
 
@@ -101,4 +101,4 @@ De gedefinieerde regelset regelt direct de efficiëntie en integriteit van de PO
 
 Om de PO Matching regels te bewerken, kan de standaardversie worden gekloond door te klikken op **"Versiebeheer Configureren"** en de optie **"Klonen als Concept"** te gebruiken van de beschikbare kaartopties
 
-<figure><img src="../../../../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_doc_type_export_formats.png" alt="Docbits Doc Type Export Formats"><figcaption></figcaption></figure>

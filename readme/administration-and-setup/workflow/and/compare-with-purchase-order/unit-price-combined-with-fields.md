@@ -1,6 +1,6 @@
 # Unit Price Combined with Fields
 
-<figure><img src="../../../../.gitbook/assets/image (27).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_change_status_pending.png" alt="Docbits Workflow Change Status Pending" width="563"><figcaption></figcaption></figure>
 
 ## **Purpose:**
 

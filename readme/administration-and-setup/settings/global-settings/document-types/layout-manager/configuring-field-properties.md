@@ -16,31 +16,31 @@
 
 * Possible field types include text, number, date, drop-down menu, checkbox, etc.
 
-<figure><img src="../../../../../.gitbook/assets/image (167).png" alt="" width="241"><figcaption><p>Elements</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_elements_list.png" alt="Docbits Field Elements List" width="241"><figcaption><p>Elements</p></figcaption></figure>
 
 #### Set validation and formatting:
 
 * Set validation rules to ensure that the data entered meets the expected criteria.
 * This may include checking for certain string patterns, numeric limits, date formats, or other conditions.
 
-<figure><img src="../../../../../.gitbook/assets/image (168).png" alt="" width="236"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_validation_formatting.png" alt="Docbits Field Validation Formatting" width="236"><figcaption></figcaption></figure>
 
 #### Define default values:
 
 * If certain fields typically have a default value, you can set that as the default value.
 * This makes data entry easier because users don't have to enter the same value every time.
 
-<figure><img src="../../../../../.gitbook/assets/image (169).png" alt="" width="224"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_default_values.png" alt="Docbits Field Default Values" width="224"><figcaption></figcaption></figure>
 
 #### Set user permissions:
 
 * Determine which user groups should have access to the field and what type of access rights they have.
 
-<figure><img src="../../../../../.gitbook/assets/image (171).png" alt=""><figcaption><p>Settings: Groups and Permissions</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_user_permissions.png" alt="Docbits Field User Permissions"><figcaption><p>Settings: Groups and Permissions</p></figcaption></figure>
 
 * This can include read, write, or edit rights.
 
-<figure><img src="../../../../../.gitbook/assets/image (172).png" alt=""><figcaption><p>View Permissions</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_view_permissions.png" alt="Docbits Field View Permissions"><figcaption><p>View Permissions</p></figcaption></figure>
 
 #### Link to other data:
 
@@ -52,7 +52,7 @@
 * Determine under what conditions a field should be visible or hidden.
 * This can be useful for dynamically adapting the user interface based on certain data or user actions.
 
-<figure><img src="../../../../../.gitbook/assets/image (170).png" alt=""><figcaption><p>Setting Fields</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_enable_historization.png" alt="Docbits Field Enable Historization"><figcaption><p>Setting Fields</p></figcaption></figure>
 
 #### Enable historization:
 

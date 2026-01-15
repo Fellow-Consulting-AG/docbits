@@ -1,6 +1,6 @@
 # Continue with a chance
 
-<figure><img src="../../../../.gitbook/assets/image (49).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_fellowpro_contact.png" alt="Docbits Fellowpro Contact" width="563"><figcaption></figcaption></figure>
 
 ## **Purpose:**
 

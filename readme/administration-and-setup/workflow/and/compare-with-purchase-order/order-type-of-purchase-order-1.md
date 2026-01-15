@@ -4,7 +4,7 @@ hidden: true
 
 # Order Type of Purchase Order
 
-<figure><img src="../../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_workflow_order_type.png" alt="Docbits Workflow Order Type"><figcaption></figcaption></figure>
 
 ## **Purpose**:
 

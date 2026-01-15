@@ -17,11 +17,11 @@ Voer de volgende stappen uit om SAML SSO toe te voegen in Azure AD:
 
 * Klik op `+ New application`
 
-<figure><img src="../../../../../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_azure_sso_new_app.png" alt="Docbits Azure Sso New App"><figcaption></figcaption></figure>
 
 * Klik op `+ Create your own application`
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/docbits_azure_sso_create_own_app.png" alt="Docbits Azure Sso Create Own App"><figcaption></figcaption></figure></div>
 
 * Voer een naam in voor uw applicatie. Behoud de overige standaardselecties.
 

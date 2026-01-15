@@ -16,13 +16,13 @@
 
 * Access the list of existing document types. This list shows all defined document types, both active and inactive.
 
-<figure><img src="../../../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_doc_type_list_activation.png" alt="Docbits Doc Type List Activation"><figcaption></figcaption></figure>
 
 **Activating or deactivating a document type Select Document Type:**
 
 * Select the document type you want to enable or disable.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_doc_type_select_toggle.png" alt="Docbits Doc Type Select Toggle"><figcaption></figcaption></figure>
 
 **Use the toggle function:**
 
@@ -33,7 +33,7 @@
 * If the document type is currently deactivated, the switch may show a gray or off position.&#x20;
 * Click the switch to activate the document type. The switch changes its position and color to indicate activation.
 
-<figure><img src="../../../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_doc_type_toggle_switch.png" alt="Docbits Doc Type Toggle Switch"><figcaption></figcaption></figure>
 
 **Deactivation:**
 

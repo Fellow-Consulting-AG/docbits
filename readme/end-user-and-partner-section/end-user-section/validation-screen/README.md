@@ -100,7 +100,7 @@ Om interne informatie te delen, kunt u taken aanmaken en deze toewijzen aan een 
 
 <figure><img src="../../../.gitbook/assets/docbits_annotation_mode_tool.png" alt="Docbits Annotation Mode Tool" width="187"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_validation_screen_annotations.png" alt="Docbits Validation Screen Annotations"><figcaption></figcaption></figure>
 
 U kunt annotaties op een document achterlaten. Dit kan nuttig zijn om informatie achter te laten voor andere gebruikers die dit document verder bewerken.
 
@@ -152,7 +152,7 @@ Scripts kunnen worden aangemaakt in de instellingen onder Documenttypes; deze in
   * **Doel:** Toont logs die verband houden met scripts die zijn geïmplementeerd voor verschillende documenttypes.
   * **Gebruiksscenario:** Nuttig voor het volgen en debuggen van scriptacties op documenten, wat gebruikers helpt de geautomatiseerde processen te begrijpen en eventuele problemen te corrigeren.
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_validation_screen_debug.png" alt="Docbits Validation Screen Debug"><figcaption></figcaption></figure>
 
 ### **Meer instellingen:**
 

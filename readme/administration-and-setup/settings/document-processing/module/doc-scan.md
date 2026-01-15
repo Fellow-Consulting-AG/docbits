@@ -8,17 +8,17 @@ description: Doc Scan offers very easy Document creation via your local Scanner.
 
 Click Scan Document on the DocBits Dashboard
 
-<figure><img src="../../../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_dashboard.png" alt="Docbits Scan Doc Dashboard"><figcaption></figcaption></figure>
 
 As your scanner is not installed yet, you’ll get the following message
 
-<figure><img src="../../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_download.png" alt="Docbits Scan Doc Download"><figcaption></figcaption></figure>
 
 Depending on which operating system you use, press the appropriate button to download.
 
 Open the installation file and you will see the following
 
-<figure><img src="../../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_install.png" alt="Docbits Scan Doc Install"><figcaption></figcaption></figure>
 
 Click on `Continue`, accept the Software License Agreement with `Agree` and continue to install the software.
 
@@ -26,23 +26,23 @@ Installing this software requires 33,6 MB of space. You can change the install l
 
 As soon as the following screen is displayed you’re almost done.
 
-<figure><img src="../../../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_installed.png" alt="Docbits Scan Doc Installed"><figcaption></figcaption></figure>
 
 Open web browser to test if the app works by entering: https://local.polydocs.io:12500/ If you see this message on the screen, you must first configure some settings in your FritzBox network settings if you are using one.
 
-<figure><img src="../../../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_browser_test.png" alt="Docbits Scan Doc Browser Test"><figcaption></figcaption></figure>
 
 When you see this screen you are ready to click on DocBits.
 
-<figure><img src="../../../../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_ready.png" alt="Docbits Scan Doc Ready"><figcaption></figcaption></figure>
 
 You will be redirected to the DocBits login page where you can enter your credentials to access your dashboard.
 
-<figure><img src="../../../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_login.png" alt="Docbits Scan Doc Login"><figcaption></figcaption></figure>
 
 All you have to do now is activate Doc Scan in the settings under Modules.
 
-<figure><img src="../../../../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_scan_doc_activate_module.png" alt="Docbits Scan Doc Activate Module"><figcaption></figcaption></figure>
 
 ### FritzBox network settings
 

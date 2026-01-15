@@ -17,11 +17,11 @@ Perform the following steps to add SAML SSO in Azure AD:
 
 * Click \`+ New application
 
-<figure><img src="../../../../../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_azure_sso_new_app_2.png" alt="Docbits Azure Sso New App 2"><figcaption></figcaption></figure>
 
 * Click \`+ Create your own application\`
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/docbits_azure_sso_create_own_app_2.png" alt="Docbits Azure Sso Create Own App 2"><figcaption></figcaption></figure></div>
 
 * Enter a name for your application. Keep the remaining default selections.
 
@@ -49,7 +49,7 @@ Next, assign users or groups to the SSO configuration.
 
 ![](https://docbits.com/wp-content/uploads/2023/09/DocBits_Azure_8.png)
 
-<div align="left"><figure><img src="../../../../../../.gitbook/assets/image (243) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../../.gitbook/assets/docbits_azure_sso_groups.png" alt="Docbits Azure Sso Groups"><figcaption></figcaption></figure></div>
 
 * Go to the \`Groups\` view list and find the assigned groups.
 

@@ -16,7 +16,7 @@
 2. Under **Document Processing**, find and click on the **Module** option.
    * This will open the relevant module configuration page where you can proceed with creation of user for database.
 
-<figure><img src="../../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_db_access_creation.png" alt="Docbits Db Access Creation"><figcaption></figcaption></figure>
 
 ### 4. Steps to Enable and Access the AI Document and Database User: <a href="#id-4.-steps-to-enable-and-access-the-ai-document-and-database-user" id="id-4.-steps-to-enable-and-access-the-ai-document-and-database-user"></a>
 

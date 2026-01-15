@@ -4,7 +4,7 @@
 
 ### Skip Table Validation:
 
-<figure><img src="../../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_layout_manager_save_changes.png" alt="Docbits Layout Manager Save Changes"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -16,7 +16,7 @@
 
 ### Duplicate Document Detection
 
-<figure><img src="../../../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_duplicate_doc_detection.png" alt="Docbits Duplicate Doc Detection"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -28,7 +28,7 @@
 
 ### Design in Review Form:
 
-<figure><img src="../../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_description.png" alt="Docbits Doc Type Description"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -38,7 +38,7 @@
 
 * Useful for taking visual feedback and annotations into account during review and making design changes in real time. This improves the efficiency of the review process and allows designers and reviewers to work more closely together.
 
-<figure><img src="../../../../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_amount_date_format.png" alt="Docbits Doc Type Amount Date Format"><figcaption></figcaption></figure>
 
 ### Design Reject Form:
 
@@ -52,11 +52,11 @@
 
 
 
-<figure><img src="../../../../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_design_template_setting.png" alt="Docbits Design Template Setting"><figcaption></figcaption></figure>
 
 ### Design Template:
 
-<figure><img src="../../../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_upload_train.png" alt="Docbits Doc Type Upload Train"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -66,11 +66,11 @@
 
 * Makes it easier to create consistent and professional documents. Companies can create their own design templates that follow brand guidelines and formatting standards, increasing efficiency and improving the appearance of the documents.
 
-<figure><img src="../../../../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_create_field.png" alt="Docbits Doc Type Create Field"><figcaption></figcaption></figure>
 
 ### Export to IDM (Information Document Management):
 
-<figure><img src="../../../../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_clone_option.png" alt="Docbits Doc Type Clone Option"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -82,7 +82,7 @@
 
 ### Approval:
 
-<figure><img src="../../../../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_finish_creation.png" alt="Docbits Doc Type Finish Creation"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -94,11 +94,11 @@
 
 **Design Approval Form:**
 
-<figure><img src="../../../../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_edit_layout.png" alt="Docbits Doc Type Edit Layout"><figcaption></figcaption></figure>
 
 **Design Approval Form v2:**
 
-<figure><img src="../../../../../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_edit_button.png" alt="Docbits Doc Type Edit Button"><figcaption></figcaption></figure>
 
 **Design Second Approval form:**
 
@@ -116,7 +116,7 @@
 
 ### PO Table in Layout Builder:
 
-<figure><img src="../../../../../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_create_group.png" alt="Docbits Doc Type Create Group"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -128,7 +128,7 @@
 
 ### Purchase Order&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_purchase_order_purpose.png" alt="Docbits Purchase Order Purpose"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -140,7 +140,7 @@
 
 ### Export not matched PO lines:
 
-<figure><img src="../../../../../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_edit_existing.png" alt="Docbits Doc Type Edit Existing"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -152,7 +152,7 @@
 
 ### PO Tolerance Settings:
 
-<figure><img src="../../../../../.gitbook/assets/image (186).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_more_settings.png" alt="Docbits Doc Type More Settings"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -163,11 +163,11 @@
 * Determines how much deviation from the order is acceptable without requiring additional approval.&#x20;
 * This include price or quantity deviations. This setting helps streamline the approval process and avoid unnecessary delays.
 
-<figure><img src="../../../../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_list_activation.png" alt="Docbits Doc Type List Activation"><figcaption></figcaption></figure>
 
 ### Additional PO Tolerance Settings:
 
-<figure><img src="../../../../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_toggle_switch.png" alt="Docbits Doc Type Toggle Switch"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -177,11 +177,11 @@
 
 * You can set additional parameters and conditions for purchase orders, such as delivery terms, specific payment terms. This facilitates precise control and customization of the purchase order processes, thereby improving efficiency and accuracy in purchasing.
 
-<figure><img src="../../../../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_select_toggle.png" alt="Docbits Doc Type Select Toggle"><figcaption></figcaption></figure>
 
 ### Document Alternative Export:
 
-<figure><img src="../../../../../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_alternative_export.png" alt="Docbits Doc Type Alternative Export"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -191,11 +191,11 @@
 
 * You can specify in which formats (e.g. PDF, DOCX, XML) or via which channels (e.g. email, cloud storage) documents should be exported. This increases flexibility and allows documents to be exported according to the requirements of different recipients or systems.
 
-<figure><img src="../../../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_export_formats.png" alt="Docbits Doc Type Export Formats"><figcaption></figcaption></figure>
 
 ### PO Disable Statuses:
 
-<figure><img src="../../../../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_disable_statuses.png" alt="Docbits Doc Type Disable Statuses"><figcaption></figcaption></figure>
 
 **Purpose:**
 
@@ -206,7 +206,7 @@
 * Companies can specify which statuses should be disabled in certain situations to prevent orders from being edited or modified incorrectly. This is useful to ensure the integrity and consistency of the purchase order process.
 * For example, an order that has already been approved and released for delivery could no longer be processed or cancelled.
 
-<figure><img src="../../../../../.gitbook/assets/image (199).png" alt="" width="244"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_doc_type_controlled_workflows.png" alt="Docbits Doc Type Controlled Workflows" width="244"><figcaption></figcaption></figure>
 
 ### Importance for controlled workflows
 

@@ -6,7 +6,7 @@
 
 * Open your web browser and log into DocBits with your credentials.
 
-<figure><img src="../../../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_management_nav.png" alt="Docbits Script Management Nav"><figcaption></figcaption></figure>
 
 **Navigate to Script Management:**
 
@@ -20,7 +20,7 @@
 * Once you are in the script management interface, you will see a list of all existing scripts.
 * Here you can scroll through the list to find the desired script you want to enable, disable or edit.
 
-<figure><img src="../../../../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_list_enable_disable.png" alt="Docbits Script List Enable Disable"><figcaption></figcaption></figure>
 
 **Enabling or disabling a script:**
 
@@ -38,14 +38,14 @@
 * Click it to open the editor where you can modify the script's code.
 * After making your changes, save the script again.
 
-<figure><img src="../../../../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_save_changes_2.png" alt="Docbits Script Save Changes 2"><figcaption></figcaption></figure>
 
 **Review and test:**
 
 * Before making changes to a script, carefully review the existing code and consider what impact your changes might have.
 * Test the script in a test environment to make sure it works as expected.
 
-<figure><img src="../../../../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_test_environment.png" alt="Docbits Script Test Environment"><figcaption></figcaption></figure>
 
 **Documentation:**
 
