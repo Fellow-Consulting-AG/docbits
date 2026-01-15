@@ -22,7 +22,7 @@ Esta página de configuração é usada para definir e gerenciar as regras que d
 
 3.  Em seguida, vá para a seção Pedido de Compra e clique no botão (PO match server side) e depois clique em Configurar Regras de Correspondência de PO
 
-    <figure><img src="../../../../../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/docbits_field_validation_formatting.png" alt="Docbits Field Validation Formatting"><figcaption></figcaption></figure>
 
 ***
 
@@ -101,4 +101,4 @@ O conjunto de regras definido governa diretamente a eficiência e a integridade 
 
 Para editar as regras de correspondência de PO, a versão padrão pode ser clonada clicando em **"Configurar Versionamento"** e usando a opção **"Clonar como Rascunho"** das opções de cartões disponíveis
 
-<figure><img src="../../../../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_doc_type_export_formats.png" alt="Docbits Doc Type Export Formats"><figcaption></figcaption></figure>

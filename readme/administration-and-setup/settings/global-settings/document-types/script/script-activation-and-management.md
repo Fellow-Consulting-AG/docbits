@@ -38,14 +38,14 @@
 * Clique nele para abrir o editor onde você pode modificar o código do script.
 * Após fazer suas alterações, salve o script novamente.
 
-<figure><img src="../../../../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_force_validation_setting.png" alt="Docbits Force Validation Setting"><figcaption></figcaption></figure>
 
 **Revisão e teste:**
 
 * Antes de fazer alterações em um script, revise cuidadosamente o código existente e considere o impacto que suas alterações podem ter.
 * Teste o script em um ambiente de teste para garantir que ele funcione conforme o esperado.
 
-<figure><img src="../../../../../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_validation_rules_example.png" alt="Docbits Validation Rules Example"><figcaption></figcaption></figure>
 
 **Documentação:**
 

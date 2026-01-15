@@ -14,7 +14,7 @@ No geral, suborganizações possibilitam uma gestão e organização mais eficaz
 
 Em Configurações, Configurações Globais → Grupos, Usuários e Permissões → Suborganizações, conforme mostrado abaixo.
 
-<figure><img src="../../../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Configurações</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_validation_screen_annotations.png" alt="Docbits Validation Screen Annotations"><figcaption><p>Configurações</p></figcaption></figure>
 
 Você será levado a uma página que se parece com esta:\
 
