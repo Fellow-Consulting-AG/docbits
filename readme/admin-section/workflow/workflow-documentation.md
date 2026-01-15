@@ -52,7 +52,7 @@ Dann:               **Dokument zuweisen an:**   James Edwards
 
 Es ist auch möglich, wenn das Dokument nicht einer einzelnen Person zugewiesen ist, es von Anfang an einem bestimmten Mitarbeiter zuzuweisen.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_db_access_creation.png" alt="Docbits Db Access Creation" width="375"><figcaption></figcaption></figure>
 
 
 

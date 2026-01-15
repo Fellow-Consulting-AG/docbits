@@ -4,13 +4,13 @@
 
 ### Hier ist eine Erklärung, wie Sie die Vorlagenvorschau verwenden können:
 
-<figure><img src="../../../../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_python_example_2.png" alt="Docbits Script Python Example 2"><figcaption></figcaption></figure>
 
 #### Öffnen der Vorlagenvorschau:
 
 * Normalerweise finden Sie die Option "Vorlagenvorschau" in der Benutzeroberfläche des Vorlagen-Editors.
 
-<figure><img src="../../../../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_example_2.png" alt="Docbits Script Example 2"><figcaption></figcaption></figure>
 
 #### Auswahl der Vorlage:
 
@@ -23,7 +23,7 @@
 
 * Ändern Sie die Layouteinstellungen nach Bedarf. Dies kann das Hinzufügen, Entfernen oder Anpassen von Gruppen, Feldern, Spalten, Zeilen, Schriftarten usw. beinhalten.
 
-<figure><img src="../../../../../.gitbook/assets/image (155).png" alt="" width="271"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_save_name.png" alt="Docbits Script Save Name" width="271"><figcaption></figcaption></figure>
 
 #### Echtzeit-Vorschau:
 

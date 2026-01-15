@@ -16,13 +16,13 @@
 
 * Greifen Sie auf die Liste der vorhandenen Dokumenttypen zu. Diese Liste zeigt alle definierten Dokumenttypen an, sowohl aktive als auch inaktive.
 
-<figure><img src="../../../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_default_values.png" alt="Docbits Field Default Values"><figcaption></figcaption></figure>
 
 **Aktivieren oder Deaktivieren eines Dokumenttyps Dokumenttyp auswählen:**
 
 * Wählen Sie den Dokumenttyp aus, den Sie aktivieren oder deaktivieren möchten.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_enable_historization.png" alt="Docbits Field Enable Historization"><figcaption></figcaption></figure>
 
 **Verwenden der Umschaltfunktion:**
 
@@ -33,7 +33,7 @@
 * Wenn der Dokumenttyp derzeit deaktiviert ist, zeigt der Schalter möglicherweise eine graue oder "Aus"-Position an.&#x20;
 * Klicken Sie auf den Schalter, um den Dokumenttyp zu aktivieren. Der Schalter ändert seine Position und Farbe, um die Aktivierung anzuzeigen.
 
-<figure><img src="../../../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_user_permissions.png" alt="Docbits Field User Permissions"><figcaption></figcaption></figure>
 
 **Deaktivierung:**
 

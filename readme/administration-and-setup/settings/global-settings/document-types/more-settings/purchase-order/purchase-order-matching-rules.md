@@ -22,7 +22,7 @@ Diese Konfigurationsseite dient dazu, die Regeln zu definieren und zu verwalten,
 
 3.  Gehen Sie dann zum Abschnitt Bestellung und klicken Sie auf die Schaltfläche (PO match serverseitig) und danach auf Regeln für den Bestellabgleich konfigurieren.
 
-    <figure><img src="../../../../../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/docbits_field_validation_formatting.png" alt="Docbits Field Validation Formatting"><figcaption></figcaption></figure>
 
 ***
 
@@ -101,4 +101,4 @@ Das definierte Regelwerk steuert direkt die Effizienz und Integrität des Workfl
 
 Um die PO-Abgleichsregeln zu bearbeiten, kann die Standardversion geklont werden, indem Sie auf **"Versionierung konfigurieren"** klicken und die Option **"Als Entwurf klonen"** aus den verfügbaren Kartenoptionen verwenden.
 
-<figure><img src="../../../../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_doc_type_export_formats.png" alt="Docbits Doc Type Export Formats"><figcaption></figcaption></figure>

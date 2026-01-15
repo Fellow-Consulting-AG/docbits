@@ -25,27 +25,27 @@
 * Geben Sie einen Namen für den neuen Dokumenttyp ein (z. B. "Rechnung", "Vertrag", "Bericht").
 * Fügen Sie eine Beschreibung hinzu, die den Zweck und die Verwendung des Dokumenttyps erklärt.
 
-<figure><img src="../../../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_publish_button.png" alt="Docbits Script Publish Button"><figcaption></figcaption></figure>
 
 **Betrag- und Datumsformat**
 
 * Geben Sie das Format für Betrag und Datum ein.
 
-<figure><img src="../../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_management_nav.png" alt="Docbits Script Management Nav"><figcaption></figcaption></figure>
 
 **Beispieldokumente importieren**
 
 * Laden Sie Beispieldokumente per Drag & Drop hoch.
 * Für das Training müssen mindestens 10 Dokumente hochgeladen werden.
 
-<figure><img src="../../../../.gitbook/assets/image (159).png" alt=""><figcaption><p>Hochladen & Trainieren</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_list_enable_disable.png" alt="Docbits Script List Enable Disable"><figcaption><p>Hochladen & Trainieren</p></figcaption></figure>
 
 **Gruppen hinzufügen**
 
 * Klicken Sie auf die Schaltfläche "Hinzufügen" und geben Sie den Gruppennamen ein.
 * Sie können auch einen vorhandenen Dokumenttyp klonen.
 
-<figure><img src="../../../../.gitbook/assets/image (160).png" alt="" width="375"><figcaption><p>Felder & Gruppen</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_save_changes_2.png" alt="Docbits Script Save Changes 2" width="375"><figcaption><p>Felder & Gruppen</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (163).png" alt="" width="279"><figcaption><p>Neue Gruppe erstellen</p></figcaption></figure>
 
@@ -54,7 +54,7 @@
 * Fügen Sie neue Felder hinzu, indem Sie auf "Hinzufügen" klicken.
 * Geben Sie den Namen des Feldes (z. B. "Rechnungsnummer", "Datum", "Betrag") und den Datentyp (z. B. Text, Zahl, Datum) ein.
 
-<figure><img src="../../../../.gitbook/assets/image (161).png" alt="" width="375"><figcaption><p>Felder & Gruppen</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_test_environment.png" alt="Docbits Script Test Environment" width="375"><figcaption><p>Felder & Gruppen</p></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (162).png" alt="" width="278"><figcaption><p>Neues Feld erstellen</p></figcaption></figure>
 
@@ -77,7 +77,7 @@
 
 * Klicken Sie auf die Schaltfläche Bearbeiten neben dem Dokumenttyp.
 
-<figure><img src="../../../../.gitbook/assets/image (167).png" alt=""><figcaption><p>Mehr Einstellungen</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_elements_list.png" alt="Docbits Field Elements List"><figcaption><p>Mehr Einstellungen</p></figcaption></figure>
 
 * Hier können Sie weitere Einstellungen für den Dokumenttyp vornehmen, z. B. Designvorlage, ob ein Dokument vor dem Export genehmigt werden muss und viele andere Details.
 

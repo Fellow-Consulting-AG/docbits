@@ -16,7 +16,7 @@
 2. Klicken Sie unter **Dokumentenverarbeitung** auf die Option **Modul**.
    * Dies öffnet die entsprechende Modulkonfigurationsseite, auf der Sie mit der Erstellung des Datenbankbenutzers fortfahren können.
 
-<figure><img src="../../../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_db_access_creation.png" alt="Docbits Db Access Creation"><figcaption></figcaption></figure>
 
 ### 4. Schritte zum Aktivieren und Zugreifen auf den KI-Dokumenten- und Datenbankbenutzer: <a href="#id-4.-steps-to-enable-and-access-the-ai-document-and-database-user" id="id-4.-steps-to-enable-and-access-the-ai-document-and-database-user"></a>
 
