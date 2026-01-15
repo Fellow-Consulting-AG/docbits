@@ -1,5 +1,9 @@
 ---
 description: Hoe PowerBI te configureren
+
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
 ---
 
 # Verbinden via ClickHouse

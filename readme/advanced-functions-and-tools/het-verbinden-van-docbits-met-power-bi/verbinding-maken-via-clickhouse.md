@@ -2,6 +2,10 @@
 
 Deze handleiding leidt u door het verbinden van **ClickHouse** met **Power BI Desktop** met behulp van de **ODBC-stuurprogramma**. Het behandelt stuurprogramma-installatie, ODBC-configuratie, Power BI-integratie en het instellen van gegevensverversing.
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
+
 ### 1. Installeer de ClickHouse ODBC-stuurprogramma
 
 * Download de nieuwste **ClickHouse ODBC-stuurprogramma** van:

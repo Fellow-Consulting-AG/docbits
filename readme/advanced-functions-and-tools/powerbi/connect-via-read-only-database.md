@@ -2,6 +2,10 @@
 
 Deze gids begeleidt u bij het verbinden van **DocBits' Alleen-Lezen Database met Power BI Desktop** met behulp van de **PostgreSQL ODBC-driver**. Het behandelt driverinstallatie, ODBC-configuratie, Power BI-integratie en geplande vernieuwing.
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
+
 #### 1. Installeer de PostgreSQL ODBC-driver
 
 * Download de nieuwste PostgreSQL ODBC-driver (**psqlODBC**) van de officiële site:

@@ -1,5 +1,9 @@
 ---
 description: How to configure PowerBI
+
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
 ---
 
 # PowerBI

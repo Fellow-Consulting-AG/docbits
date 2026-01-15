@@ -2,6 +2,10 @@
 
 Deze handleiding leidt u door het verbinden van de **Alleen-lezen Database van DocBits met Power BI Desktop** met behulp van de **PostgreSQL ODBC-stuurprogramma**. Het behandelt stuurprogramma-installatie, ODBC-configuratie, Power BI-integratie en geplande vernieuwing.
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
+
 ### 1. Installeer de PostgreSQL ODBC-stuurprogramma
 
 * Download het nieuwste PostgreSQL ODBC-stuurprogramma (**psqlODBC**) van de officiële site:
