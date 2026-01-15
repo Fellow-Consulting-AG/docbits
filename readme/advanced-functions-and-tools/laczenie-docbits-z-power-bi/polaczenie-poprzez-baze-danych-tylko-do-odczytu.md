@@ -2,6 +2,10 @@
 
 Ten przewodnik prowadzi Cię przez połączenie **Bazy danych tylko do odczytu DocBits z programem Power BI Desktop** przy użyciu sterownika **PostgreSQL ODBC**. Obejmuje instalację sterownika, konfigurację ODBC, integrację z Power BI oraz zaplanowane odświeżanie.
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
+
 ### 1. Instalacja sterownika PostgreSQL ODBC
 
 * Pobierz najnowszy sterownik PostgreSQL ODBC (**psqlODBC**) ze strony oficjalnej:

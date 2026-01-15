@@ -2,6 +2,10 @@
 
 Możesz połączyć dane DocBits z Power BI na dwa różne sposoby. Prawidłowa metoda zależy od tego, jak chcesz używać danych.
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
+
 ## Kiedy używać której metody połączenia:
 
 * **Metoda 1: Połącz za pomocą ClickHouse**

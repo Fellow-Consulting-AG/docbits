@@ -2,6 +2,10 @@
 
 Ten przewodnik prowadzi Cię przez połączenie **ClickHouse** z **Power BI Desktop** za pomocą sterownika **ODBC**. Obejmuje instalację sterownika, konfigurację ODBC, integrację z Power BI oraz ustawienie odświeżania danych.
 
+{% embed url="https://youtu.be/O1MtuXf_R_M" %}
+{% endembed %}
+
+
 ### 1. Zainstaluj sterownik ClickHouse ODBC
 
 * Pobierz najnowszy **sterownik ClickHouse ODBC** z:
