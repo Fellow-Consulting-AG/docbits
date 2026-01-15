@@ -2,6 +2,10 @@
 
 ## Overview
 
+{% embed url="https://youtu.be/TLmAHw3EXs4" 
+%}
+
+
 In the **Company Preferences**, you can configure key formatting and notification settings for the application. These include:
 
 * Choosing the **date pattern** to be used throughout the application
@@ -71,4 +75,3 @@ Click **Refresh to Close** in the dialog window. **DocBits** will reload and ope
 After toggling the setting on or off, click the **Save** button in the bottom-right corner to apply your changes.
 
 <figure><img src="../../../../.gitbook/assets/company_preferences_5.png" alt=""><figcaption></figcaption></figure>
-

@@ -2,6 +2,10 @@
 
 To configure your settings, click on the User Icon located in the bottom-left corner of the screen. Here you can customize several options:
 
+{% embed url="https://youtu.be/TLmAHw3EXs4" 
+%}
+
+
 <figure><img src="../../.gitbook/assets/User-Config.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="308"><figcaption></figcaption></figure>
