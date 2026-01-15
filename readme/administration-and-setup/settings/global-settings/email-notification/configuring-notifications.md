@@ -13,6 +13,10 @@
 
 Within these settings you can then make the desired configurations to ensure you receive notifications according to your preferences. Remember to adjust the settings based on your needs and ensure they comply with your organization's privacy policy and security standards.
 
+{% embed url="https://youtu.be/R5IrCpiP__4" %}
+{% endembed %}
+
+
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.15.45.png" alt=""><figcaption></figcaption></figure>
 
 **Create new notification:**
