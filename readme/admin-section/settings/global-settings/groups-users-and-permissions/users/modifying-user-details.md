@@ -40,7 +40,7 @@ Après avoir complété ces étapes, les détails de l'utilisateur sont mis à j
 
 * **Confirmation :** Vous êtes invité à confirmer la suppression de l'utilisateur.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-17 um 09.10.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_remove_user_confirmation.png" alt="Docbits Remove User Confirmation"><figcaption></figcaption></figure>
 
 * **Notification optionnelle :** Vous pouvez envoyer une notification à l'utilisateur pour l'informer de la suppression de son accès.
 * **Examiner les tâches et documents :** Avant de supprimer l'utilisateur, examinez les tâches ou documents qui lui sont assignés. Déplacez ou transférez la responsabilité de ces tâches ou documents à un autre utilisateur pour vous assurer que rien ne soit perdu ou laissé inachevé.

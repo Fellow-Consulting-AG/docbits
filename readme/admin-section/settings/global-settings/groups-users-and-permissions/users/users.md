@@ -19,11 +19,11 @@ Dans la plupart des organisations, seules les personnes autorisées ont accès a
 * **Accéder à la gestion des utilisateurs :** Naviguez vers Paramètres - Paramètres globaux - Groupes, Utilisateur et Permissions - Utilisateur, où vous pouvez ajouter de nouveaux utilisateurs.&#x20;
 * **Ajouter un nouvel utilisateur :** Dans les paramètres utilisateur, cliquez sur « Ajouter un utilisateur »
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_new_user_button.png" alt="Docbits Add New User Button"><figcaption></figcaption></figure>
 
 * **Remplir le formulaire :** Un formulaire apparaîtra où vous pourrez entrer les informations pour le nouvel utilisateur. Les informations typiques incluent :
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_new_user_form.png" alt="Docbits New User Form" width="375"><figcaption></figcaption></figure>
 
 * **Nom d'utilisateur :** Nom unique pour l'utilisateur utilisé pour se connecter.&#x20;
 * **Prénom et Nom de famille :** Nom de l'utilisateur.&#x20;

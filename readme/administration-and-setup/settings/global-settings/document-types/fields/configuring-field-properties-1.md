@@ -4,7 +4,7 @@
 
 ### Obligatoire (Required) :
 
-<figure><img src="../../../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_configure_classification_rule.png" alt="Docbits Configure Classification Rule"><figcaption></figcaption></figure>
 
 Si un champ est marqué comme Obligatoire, cela signifie que ce champ doit être rempli avant que le document ne puisse être enregistré ou traité.
 
@@ -19,7 +19,7 @@ Si un champ est marqué comme Obligatoire, cela signifie que ce champ doit être
 
 ### Lecture seule (Read Only) :
 
-<figure><img src="../../../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_model_prediction_test.png" alt="Docbits Model Prediction Test"><figcaption></figcaption></figure>
 
 Si un champ est marqué comme Lecture seule, cela signifie que les utilisateurs peuvent voir le contenu de ce champ, mais ne peuvent y apporter aucune modification.
 
@@ -33,7 +33,7 @@ Si un champ est marqué comme Lecture seule, cela signifie que les utilisateurs 
 
 ### Masqué (Hidden) :
 
-<figure><img src="../../../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_classification_extraction_settings.png" alt="Docbits Classification Extraction Settings"><figcaption></figcaption></figure>
 
 Si un champ est marqué comme "Masqué", cela signifie que le champ sera caché dans l'interface utilisateur et que les utilisateurs ne pourront ni le voir ni y accéder.
 
@@ -63,7 +63,7 @@ Si un champ est configuré pour l'OCR, cela signifie que le système tentera d'e
 
 ### Validation forcée (Forced validation) :
 
-<figure><img src="../../../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_sql_alter_table_syntax.png" alt="Docbits Sql Alter Table Syntax"><figcaption></figcaption></figure>
 
 Configurez les règles de validation en conséquence, telles que les limites numériques, les expressions régulières ou les relations avec d'autres champs.
 
@@ -77,7 +77,7 @@ Configurez les règles de validation en conséquence, telles que les limites num
 
 ### Score de correspondance (Match Score) :
 
-<figure><img src="../../../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_new_column_steps.png" alt="Docbits Add New Column Steps"><figcaption></figcaption></figure>
 
 En comparant les données saisies avec des données de référence, le score de correspondance peut aider à confirmer l'exactitude et la validité des données. Si le score de correspondance dépasse un certain seuil, la correspondance est considérée comme réussie.
 
@@ -90,6 +90,6 @@ En comparant les données saisies avec des données de référence, le score de 
 
 * Le score de correspondance est utilisé pour évaluer l'exactitude des correspondances entre les données saisies et les valeurs de référence. Si le score obtenu dépasse le seuil fixé, la correspondance est considérée comme réussie. Ceci est particulièrement utile pour les champs qui nécessitent une validation de données ou un appariement de données, tels que les champs contenant un nom, une adresse e-mail, etc. par exemple, lors de la vérification des données clients.
 
-<figure><img src="../../../../../.gitbook/assets/image (117).png" alt="" width="258"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_column_requirements_analysis.png" alt="Docbits Column Requirements Analysis" width="258"><figcaption></figcaption></figure>
 
 En configurant soigneusement ces propriétés de champ, vous pouvez optimiser les flux de travail de traitement de documents et vous assurer que vos données sont correctement saisies, protégées et traitées efficacement.

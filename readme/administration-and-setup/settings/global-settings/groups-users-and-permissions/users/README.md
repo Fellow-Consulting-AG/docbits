@@ -19,11 +19,11 @@ In most organizations, only authorized people have access to user settings, usua
 * **Access User Management:** Navigate to Settings - Global Settings - Groups, User and Permissions - User, where you can add new users.
 * **Add new user:** In the user settings, click on “Add user”
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.29.13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_add_new_user_button.png" alt="Docbits Add New User Button"><figcaption></figcaption></figure>
 
 * **Filling out the form:** A form will appear where you can enter the information for the new user. Typical information includes:
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-16 um 21.39.56.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_new_user_form.png" alt="Docbits New User Form" width="375"><figcaption></figcaption></figure>
 
 * **Username:** Unique name for the user used to log in.
 * **First Name and Last Name:** Name of the user.

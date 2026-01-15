@@ -171,7 +171,7 @@ Définit des actions spécifiques à entreprendre lorsqu'une divergence est dét
 
 ### Capture d'Écran 1 : Interface de Gestion des Règles
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.20.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_manager_interface.png" alt="Docbits Rule Manager Interface"><figcaption></figcaption></figure>
 
 Cette capture d'écran montre l'interface de Gestion des Règles où les administrateurs peuvent voir et gérer toutes les règles de résolution des conflits. Les éléments clés incluent :
 
@@ -183,7 +183,7 @@ Cette capture d'écran montre l'interface de Gestion des Règles où les adminis
 
 ### Capture d'Écran 2 : Édition Détailée de Règle
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.21.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_rule_editing_detail.png" alt="Docbits Rule Editing Detail"><figcaption></figcaption></figure>
 
 Cette capture d'écran illustre la vue détaillée d'une règle spécifique en cours d'édition. Les éléments clés incluent :
 

@@ -1,6 +1,6 @@
 # Notification par e-mail
 
-<figure><img src="../../../../.gitbook/assets/E-Mail Notifications.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_email_notifications_header.png" alt="Docbits Email Notifications Header"><figcaption></figcaption></figure>
 
 Configurer les notifications par e-mail est essentiel. Les notifications par e-mail dans DocBits peuvent être configurées pour informer les utilisateurs de divers événements liés aux documents, tels que : la fin du traitement, les erreurs d'importation ou d'exportation, ou les demandes d'intervention des utilisateurs. Cet outil est essentiel pour maintenir une communication efficace et la continuité opérationnelle dans les environnements de traitement de documents. Voici quelques raisons pour lesquelles cela est important :
 

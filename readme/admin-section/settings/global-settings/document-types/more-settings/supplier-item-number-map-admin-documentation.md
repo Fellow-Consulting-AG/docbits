@@ -4,7 +4,7 @@
 
 En tant qu'administrateur, vous avez la possibilité de visualiser et de gérer les correspondances entre les numéros d'article internes et les numéros d'article des fournisseurs. Cette fonctionnalité garantit que les écarts entre votre système et ceux de vos fournisseurs sont traités efficacement. Vous pouvez examiner, modifier et supprimer les correspondances incorrectes pour maintenir l'exactitude des données.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 13.24.17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_supplier_item_map_admin_view.png" alt="Docbits Supplier Item Map Admin View"><figcaption></figcaption></figure>
 
 **Accéder à la Carte des Numéros d'Article Fournisseur**
 

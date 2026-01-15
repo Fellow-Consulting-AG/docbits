@@ -8,11 +8,11 @@
 
 * Commencez par sélectionner le type de champ approprié pour vos données.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-24 um 11.06.36.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_properties_type.png" alt="Docbits Field Properties Type" width="375"><figcaption></figcaption></figure>
 
 * Cela dépend du type d'informations que le champ contiendra.
 
-<figure><img src="../../../../../.gitbook/assets/Bildschirmfoto 2024-05-24 um 11.06.56.png" alt="" width="139"><figcaption><p>Propriétés</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_field_properties_panel.png" alt="Docbits Field Properties Panel" width="139"><figcaption><p>Propriétés</p></figcaption></figure>
 
 * Les types de champs possibles incluent le texte, le nombre, la date, le menu déroulant, la case à cocher, etc.
 
