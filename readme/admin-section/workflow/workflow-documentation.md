@@ -52,7 +52,7 @@ O Zaman:               **Belgeyi Ata:**   James Edwards
 
 Ayrıca, belgeyi tek bir kişiye atamıyorsanız, başlangıçta belgeyi belirli bir çalışana atamak da mümkündür.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_db_access_creation.png" alt="Docbits Db Access Creation" width="375"><figcaption></figcaption></figure>
 
 
 
