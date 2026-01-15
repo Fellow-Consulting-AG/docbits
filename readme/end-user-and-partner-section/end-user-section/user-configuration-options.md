@@ -2,6 +2,10 @@
 
 Per configurare le tue impostazioni, fai clic sull'icona dell'utente situata nell'angolo in basso a sinistra dello schermo. Qui puoi personalizzare diverse opzioni:
 
+{% embed url="https://youtu.be/TLmAHw3EXs4" 
+%}
+
+
 <figure><img src="../../.gitbook/assets/user-config.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/user_config_options_2.png" alt="" width="308"><figcaption></figcaption></figure>
