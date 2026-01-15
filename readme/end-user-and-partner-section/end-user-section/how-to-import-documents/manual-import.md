@@ -2,6 +2,10 @@
 
 Se você deseja importar documentos manualmente para o DocBits, siga estes passos simples:
 
+{% embed url="https://youtu.be/rJ2nuJh0Obw" %}
+{% endembed %}
+
+
 * Clique no botão Upload no Painel do DocBits.
 * Uma janela aparecerá onde você pode enviar seus documentos via navegador de arquivos ou arrastar e soltar. Você pode enviar até 10 documentos de uma vez.
 * Para enviar documentos via navegador de arquivos, clique no botão Upload Documents e selecione os arquivos que deseja enviar. Depois de selecionar os arquivos, clique em Confirmar para iniciar o processo de upload.
