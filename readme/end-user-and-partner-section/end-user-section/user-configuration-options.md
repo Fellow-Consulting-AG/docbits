@@ -2,7 +2,7 @@
 
 Para configurar suas preferências, clique no Ícone do Usuário localizado no canto inferior esquerdo da tela. Aqui você pode personalizar várias opções:
 
-<figure><img src="../../.gitbook/assets/user-config (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_user_config_icon.png" alt="Docbits User Config Icon"><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/user_config_options_2.png" alt="" width="308"><figcaption></figcaption></figure>
 
