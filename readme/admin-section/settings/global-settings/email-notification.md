@@ -1,6 +1,6 @@
 # E-Mail-Benachrichtigung
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.15.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_notification_config_nl.png" alt="Docbits Benachrichtigung Config Nl"><figcaption></figcaption></figure>
 
 E-Mail-Benachrichtigungen in Docbits können konfiguriert werden, um Benutzer über verschiedene dokumentenbezogene Ereignisse zu informieren, wie z.B. Abschluss der Verarbeitung, Fehler bei Import oder Export oder Anforderungen für Benutzereingriffe. Dieses Tool ist entscheidend für die Aufrechterhaltung einer effektiven Kommunikation und operativen Kontinuität in Umgebungen zur Dokumentenverarbeitung.
 

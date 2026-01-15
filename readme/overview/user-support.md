@@ -12,6 +12,6 @@ Sie können uns auch über unsere FELLOPRO-Seite kontaktieren:
 
 {% embed url="https://fellowpro.com/de/fellow/kontakt-fellowpro-ag/" %}
 
-<figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-07 um 16.50.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/docbits_support_ticket_creation.png" alt="Docbits Support Ticket Creation"><figcaption></figcaption></figure>
 
 Im Validierungsbildschirm können Sie direkt ein Ticket erstellen und einen Screenshot des Problems hinzufügen.

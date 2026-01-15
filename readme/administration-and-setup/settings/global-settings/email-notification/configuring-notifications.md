@@ -10,13 +10,13 @@
 
 Innerhalb dieser Einstellungen können Sie dann die gewünschten Konfigurationen vornehmen, um sicherzustellen, dass Sie Benachrichtigungen nach Ihren Präferenzen erhalten. Denken Sie daran, die Einstellungen basierend auf Ihren Bedürfnissen anzupassen und sicherzustellen, dass sie den Datenschutzrichtlinien und Sicherheitsstandards Ihrer Organisation entsprechen.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.15.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_notification_config_nl.png" alt="Docbits Benachrichtigung Config Nl"><figcaption></figcaption></figure>
 
 **Neue Benachrichtigung erstellen:**
 
 * Klicken Sie auf die Schaltfläche, um eine neue Benachrichtigung hinzuzufügen oder zu erstellen.
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-15 um 01.28.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_notification_add_new.png" alt="Docbits Benachrichtigung Add New"><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 

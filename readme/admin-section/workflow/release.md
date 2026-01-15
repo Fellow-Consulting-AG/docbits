@@ -2,7 +2,7 @@
 
 ## Version 8.5.2024
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 13.41.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_version_control.png" alt="Docbits Workflow Version Control"><figcaption></figcaption></figure>
 
 1. **Versionskontrolle**: Jede Karte kann mehrere Versionen haben, die jeweils einen anderen Satz von Bedingungen oder Aktionen darstellen. Dies ermöglicht es Ihnen, mit Regeln zu experimentieren oder anzupassen, ohne den aktuell aktiven Workflow zu beeinflussen.
 2. **Nahtlose Upgrades**: Wenn Sie eine Regel oder Bedingung aufgrund von Änderungen in Ihren Dokumentenverarbeitungsanforderungen aktualisieren müssen, können Sie eine neue Version der Karte erstellen. Dieser Ansatz stellt sicher, dass Änderungen absichtlich und getestet sind, bevor sie die aktuelle Version ersetzen. Es minimiert Fehler und potenzielle Störungen in Ihrer Dokumentenverarbeitung.

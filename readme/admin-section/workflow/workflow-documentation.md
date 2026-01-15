@@ -84,7 +84,7 @@ Und:                   **Zuständiger ist:**                       Stefan Repper
 
 Dann:                 **Status ändern zu:**           Ausstehende zweite Genehmigung
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_test_9_replacement.png" alt="Docbits Workflow Test 9 Replacement"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/10 (1).png>)
 

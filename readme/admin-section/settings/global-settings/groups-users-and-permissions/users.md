@@ -1,6 +1,6 @@
 # Benutzer
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.21.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_user_search_bar.png" alt="Docbits User Search Bar"><figcaption></figcaption></figure>
 
 1. **Suchleiste**: Ermöglicht Administratoren, Benutzer schnell zu finden, indem sie nach deren Namen oder anderen Details suchen.
 2. **Benutzerliste**: Zeigt eine Liste von Benutzern mit den folgenden Spalten an:

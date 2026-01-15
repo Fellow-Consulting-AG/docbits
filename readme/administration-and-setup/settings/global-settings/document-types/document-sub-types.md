@@ -2,7 +2,7 @@
 
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-21 um 10.16.14.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.54.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_document_sub_types_overview.png" alt="Docbits Document Sub Types Overview"><figcaption></figcaption></figure>
 
 #### Übersicht
 
