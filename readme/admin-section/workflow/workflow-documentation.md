@@ -14,7 +14,7 @@ Bu iş akışlarını (Test 1,2,3) kullanarak çeşitli belgeleri doğru çalı�
 
 Fatura veya diğer belgeler belirli bir toplam tutarı aştığında ve önceden incelenip onaylanması gerektiğinde, bu belgeler doğru kişiye hemen atanabilir.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Dışa aktar Sftp"><figcaption></figcaption></figure>
 
 **Test 1:              Mantık Kartı**
 
@@ -68,7 +68,7 @@ Bir belgenin ne olması gerektiğini daha kolay anlamak için bu iş akışında
 
 **O Zaman:**              **Durumu Değiştir:**         Onay Bekliyor
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Dışa aktar Smb"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/8 (1).png>)
 

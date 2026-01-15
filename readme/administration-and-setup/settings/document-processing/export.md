@@ -125,7 +125,7 @@ Yeni bir dışa aktarma oluşturmak için:
 
 <summary>SFTP'ye Infor Dışa Aktarımı</summary>
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_export_sftp.png" alt="DocBits Dışa aktar Sftp"><figcaption></figcaption></figure>
 
 **Alan Açıklamaları**
 
@@ -156,7 +156,7 @@ Yeni bir dışa aktarma oluşturmak için:
 
 <summary>SMB</summary>
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_export_smb.png" alt="DocBits Dışa aktar Smb"><figcaption></figcaption></figure>
 
 **Alan Açıklamaları**
 
@@ -258,7 +258,7 @@ Yeni bir dışa aktarma oluşturmak için:
 
 <summary>Infor IDM + ION BOD</summary>
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_export_ion_bod.png" alt="DocBits Dışa aktar Ion Bod"><figcaption></figcaption></figure>
 
 **Alan Açıklamaları**
 
