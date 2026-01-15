@@ -6,7 +6,7 @@ hidden: true
 
 ## Version Control Principles
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 13.41.53.png" alt=""><figcaption>Workflow Version Control System</figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_version_control.png" alt="Docbits Workflow Version Control"><figcaption>Workflow Version Control System</figcaption></figure>
 
 ### Version 8.5.2024 - Core Versioning Features
 

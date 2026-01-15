@@ -2,7 +2,7 @@
 
 ## Versão 8.5.2024
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 13.41.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_workflow_version_control.png" alt="Docbits Workflow Version Control"><figcaption></figcaption></figure>
 
 1. **Controle de Versão**: Cada cartão pode ter várias versões, cada uma representando um conjunto diferente de condições ou ações. Isso permite que você experimente ou ajuste as regras sem afetar o fluxo de trabalho atualmente ativo.
 2. **Atualizações Sem Interrupções**: Quando você precisa atualizar uma regra ou condição devido a mudanças em seus requisitos de processamento de documentos, você pode criar uma nova versão do cartão. Essa abordagem garante que quaisquer modificações sejam deliberadas e testadas antes de substituir a versão atual. Isso minimiza erros e possíveis interrupções no processamento de seus documentos.

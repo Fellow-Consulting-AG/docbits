@@ -1,6 +1,6 @@
 # Expressão Regular
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.38.59.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_regex_management.png" alt="Docbits Regex Management"><figcaption></figcaption></figure>
 
 No DocBits, as configurações de Regex permitem que os administradores definam padrões personalizados que o sistema usa para encontrar e extrair dados de documentos. Este recurso é especialmente útil em situações em que os dados precisam ser extraídos de texto não estruturado ou quando os dados seguem um formato previsível que pode ser capturado usando padrões de regex.
 
