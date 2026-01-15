@@ -16,7 +16,7 @@
 2. Sous **Traitement des Documents**, trouvez et cliquez sur l'option **Module**.
    * Cela ouvrira la page de configuration du module pertinent où vous pourrez procéder à la création de l'utilisateur pour la base de données.
 
-<figure><img src="../../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_db_access_creation.png" alt="Docbits Db Access Creation"><figcaption></figcaption></figure>
 
 ### 4. Étapes pour Activer et Accéder à l'Utilisateur de Documents IA et de Base de Données : <a href="#id-4.-steps-to-enable-and-access-the-ai-document-and-database-user" id="id-4.-steps-to-enable-and-access-the-ai-document-and-database-user"></a>
 

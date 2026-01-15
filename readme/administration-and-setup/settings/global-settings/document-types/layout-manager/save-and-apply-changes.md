@@ -9,7 +9,7 @@
 * Après avoir effectué les personnalisations souhaitées dans le Layout Manager, recherchez le bouton "Enregistrer" pour sauvegarder les modifications.
 * Cliquez sur ce bouton pour enregistrer vos modifications dans le Layout Manager. Cela sauvegarde vos personnalisations de mise en page et garantit qu'elles sont disponibles pour les sessions d'édition futures.
 
-<figure><img src="../../../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_mapping_doc_type.png" alt="Docbits Script Mapping Doc Type"><figcaption></figcaption></figure>
 
 #### Application des modifications au flux de traitement des documents :
 

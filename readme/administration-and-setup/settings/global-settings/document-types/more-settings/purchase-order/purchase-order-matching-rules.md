@@ -22,7 +22,7 @@ Cette page de configuration est utilisée pour définir et gérer les règles qu
 
 3.  Allez ensuite à la section Bon de commande et cliquez sur le bouton (PO match server side) puis cliquez sur Configurer les règles de correspondance de BC
 
-    <figure><img src="../../../../../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../../.gitbook/assets/docbits_field_validation_formatting.png" alt="Docbits Field Validation Formatting"><figcaption></figcaption></figure>
 
 ***
 
@@ -101,4 +101,4 @@ L'ensemble de règles défini régit directement l'efficacité et l'intégrité 
 
 Afin de modifier les règles de correspondance de BC, la version par défaut peut être clonée en cliquant sur **"Configurer la version"** et en utilisant l'option **"Cloner comme brouillon"** parmi les options de carte disponibles
 
-<figure><img src="../../../../../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_doc_type_export_formats.png" alt="Docbits Doc Type Export Formats"><figcaption></figcaption></figure>

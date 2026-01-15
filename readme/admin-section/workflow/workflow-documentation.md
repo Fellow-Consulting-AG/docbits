@@ -48,7 +48,7 @@ Alors:               **Attribuer le document à :**   James Edwards
 
 Il est également possible, si le document n'est pas attribué à une seule personne, de l'attribuer à un employé spécifique dès le départ.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docbits_db_access_creation.png" alt="Docbits Db Access Creation" width="375"><figcaption></figcaption></figure>
 
 Pour une meilleure vue d'ensemble de ce qui doit arriver à un document, vous pouvez définir le statut des documents entrants dans ce flux de travail. Ce flux de travail permet de voir immédiatement s'il y a, par exemple, une approbation en attente.
 

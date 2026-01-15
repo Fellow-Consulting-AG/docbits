@@ -8,16 +8,16 @@
 
 Cette fenêtre s'ouvrira :
 
-<figure><img src="../../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_dashboard_columns_add_field.png" alt="Docbits Dashboard Columns Add Field"><figcaption></figcaption></figure>
 
 * **Cliquez sur le bouton + Nouveau :** Si vous souhaitez ajouter un nouveau groupe, cliquez sur le bouton + Nouveau pour commencer le processus d'ajout d'un nouveau groupe.
 
-<figure><img src="../../../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_dashboard_columns_select_doctype.png" alt="Docbits Dashboard Columns Select Doctype"><figcaption></figcaption></figure>
 
 * **Remplissez le tableau :** Fournissez le nom du groupe et une description du groupe.
 * **Enregistrez les détails :** Une fois que vous avez rempli le nom du groupe et la description, cliquez sur le bouton "Enregistrer".
 
-<figure><img src="../../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_dashboard_columns_select_doctype_2.png" alt="Docbits Dashboard Columns Select Doctype 2"><figcaption></figcaption></figure>
 
 ## Modification des Groupes :
 
@@ -29,6 +29,6 @@ Cette fenêtre s'ouvrira :
 
 * **Activer les Groupes & permissions :** Pour rendre le groupe visible, "Groupes & permissions" doit être activé.
 
-<figure><img src="../../../../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_dashboard_columns_add_visible.png" alt="Docbits Dashboard Columns Add Visible"><figcaption></figcaption></figure>
 
 * **Vérifiez les résultats :** Après avoir enregistré, examinez les résultats pour vous assurer que le groupe a été ajouté, modifié ou mis à jour avec succès.

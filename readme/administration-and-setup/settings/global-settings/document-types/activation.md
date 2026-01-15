@@ -16,13 +16,13 @@
 
 * Accédez à la liste des types de documents existants. Cette liste montre tous les types de documents définis, à la fois actifs et inactifs.
 
-<figure><img src="../../../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_default_values.png" alt="Docbits Field Default Values"><figcaption></figcaption></figure>
 
 **Activer ou désactiver un type de document Sélectionner le Type de Document :**
 
 * Sélectionnez le type de document que vous souhaitez activer ou désactiver.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_enable_historization.png" alt="Docbits Field Enable Historization"><figcaption></figcaption></figure>
 
 **Utiliser la fonction de basculement :**
 
@@ -33,7 +33,7 @@
 * Si le type de document est actuellement désactivé, l'interrupteur peut montrer une position grise ou éteinte.&#x20;
 * Cliquez sur l'interrupteur pour activer le type de document. L'interrupteur change de position et de couleur pour indiquer l'activation.
 
-<figure><img src="../../../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_user_permissions.png" alt="Docbits Field User Permissions"><figcaption></figcaption></figure>
 
 **Désactivation :**
 

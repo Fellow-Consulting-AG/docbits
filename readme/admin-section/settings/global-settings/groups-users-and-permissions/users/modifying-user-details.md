@@ -16,7 +16,7 @@
 
 
 
-    <figure><img src="../../../../../.gitbook/assets/image (68).png" alt="" width="300"><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_validation_screen_ticket.png" alt="Docbits Validation Screen Ticket" width="300"><figcaption></figcaption></figure>
 * **Enregistrer les modifications :** Passez en revue les modifications que vous avez apportées et cliquez sur Enregistrer pour sauvegarder les nouveaux détails de l'utilisateur.
 
 <figure><img src="../../../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
@@ -36,7 +36,7 @@ Après avoir complété ces étapes, les détails de l'utilisateur sont mis à j
 
 * **Supprimer l'accès :** Cliquez sur "supprimer" pour retirer l'utilisateur.
 
-<figure><img src="../../../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_dashboard_columns_drag.png" alt="Docbits Dashboard Columns Drag"><figcaption></figcaption></figure>
 
 * **Confirmation :** Vous êtes invité à confirmer la suppression de l'utilisateur.
 

@@ -14,7 +14,7 @@ Dans l'ensemble, les sous-organisations permettent une gestion et une organisati
 
 Dans Paramètres, Paramètres globaux → Groupes, Utilisateurs et Autorisations → Sous-Organisations comme montré ci-dessous.
 
-<figure><img src="../../../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Paramètres</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_validation_screen_annotations.png" alt="Docbits Validation Screen Annotations"><figcaption><p>Paramètres</p></figcaption></figure>
 
 Vous serez ensuite dirigé vers une page qui ressemble à ceci :\
 
