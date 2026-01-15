@@ -8,6 +8,9 @@ Esta función te ayuda a gestionar y conciliar los números de artículo entre t
 
 ## **Cómo Funciona**
 
+{% embed url="https://youtu.be/agxk8WQhtJA" %}
+
+
 1. **Emparejamiento Manual:**
    * La primera vez que encuentres una discrepancia entre tu número de artículo y el número de artículo de tu proveedor, necesitas emparejarlos manualmente.
    * Puedes hacerlo ingresando el número de artículo del proveedor correcto correspondiente a tu número de artículo interno.

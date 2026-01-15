@@ -1,5 +1,8 @@
 # Mapa de Números de Artículos de Proveedores - Documentación para Administradores
 
+
+{% embed url="https://youtu.be/agxk8WQhtJA" %}
+
 ### **Descripción General**
 
 Como administrador, tienes la capacidad de ver y gestionar los mapeos entre los números de artículos internos y los números de artículos de los proveedores. Esta función asegura que las discrepancias entre tu sistema y los sistemas de tus proveedores se manejen de manera eficiente. Puedes revisar, editar y eliminar mapeos incorrectos para mantener la precisión de los datos.
