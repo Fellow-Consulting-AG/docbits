@@ -22,7 +22,7 @@ Lorsqu'il est activé, ce paramètre vous permet de définir des tolérances pou
     * **Pourcentage :** Indique une tolérance en pourcentage.
     * **Valeur :** Indique un montant fixe par lequel la valeur peut différer.
 
-<figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207095826.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/docbits_po_tolerance_value_fixed_fr.jpg" alt="Docbits Po Tolerance Value Fixed Fr"><figcaption></figcaption></figure>
 
 **Scénario d'exemple :**
 
@@ -37,7 +37,7 @@ Lorsqu'il est activé, ce paramètre vous permet de définir des tolérances pou
   * La ligne 1 **n'est pas signalée** comme un désaccord car 4,80 $ est dans les 5 % de 5,00 $.
   * La ligne 2 **est signalée** comme un désaccord car 2,20 $ dépasse la déviation autorisée de 5 % par rapport à 2,00 $. L'utilisateur doit maintenant prendre des mesures pour résoudre le désaccord avant que la facture puisse être traitée davantage.
 
-<div align="center"><figure><img src="../../../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250207100107.jpg" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../../../../../.gitbook/assets/docbits_po_tolerance_mismatch_example_fr.jpg" alt="Docbits Po Tolerance Mismatch Example Fr"><figcaption></figcaption></figure></div>
 
 ### Paramètre pour configurer les paramètres de tolérance de commande d'achat supplémentaires
 

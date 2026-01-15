@@ -1,6 +1,6 @@
 # Extraction de tableaux pour le calcul des coûts
 
-<figure><img src="../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250211145712.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/docbits_m3_costing_element_table_fr.jpg" alt="Docbits M3 Costing Element Table Fr"><figcaption></figcaption></figure>
 
 Pour activer l'extraction de tableau pour l'élément de coût, vous devrez importer le tableau m3costingelement dans DocBits.
 
