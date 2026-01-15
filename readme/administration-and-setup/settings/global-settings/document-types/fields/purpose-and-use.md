@@ -2,7 +2,7 @@
 
 ## Proper configuration of fields in DocBits is critical to ensure that data can be captured, processed and stored correctly.
 
-<figure><img src="../../../../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_script_python_example.png" alt="Docbits Script Python Example"><figcaption></figcaption></figure>
 
 **Here are some reasons why this is important:**
 

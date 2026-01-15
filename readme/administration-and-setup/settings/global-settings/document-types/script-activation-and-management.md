@@ -6,7 +6,7 @@
 
 * Open your web browser and log into DocBits with your credentials.
 
-<figure><img src="../../../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_match_score_setting.png" alt="Docbits Field Match Score Setting"><figcaption></figcaption></figure>
 
 **Navigate to Script Management:**&#x20;
 
@@ -20,7 +20,7 @@
 * Once you are in the script management interface, you will see a list of all existing scripts.&#x20;
 * Here you can scroll through the list to find the desired script you want to enable, disable or edit.
 
-<figure><img src="../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_match_score_threshold.png" alt="Docbits Field Match Score Threshold"><figcaption></figcaption></figure>
 
 **Enabling or disabling a script:**&#x20;
 

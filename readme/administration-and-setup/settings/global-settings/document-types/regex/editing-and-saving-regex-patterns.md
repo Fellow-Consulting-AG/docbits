@@ -29,7 +29,7 @@
 
     Customer number Invoice number Invoice date P32180 613976 05/13/2019
 
-<figure><img src="../../../../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_regex_customer_invoice_example.png" alt="Docbits Regex Customer Invoice Example"><figcaption></figcaption></figure>
 
 **Document the changes:**
 
@@ -65,6 +65,6 @@
 
 * Once you are sure that the changes are successful and work as expected, save the updated regex pattern to your code base or configuration files to ensure they are available for future use.
 
-<figure><img src="../../../../../.gitbook/assets/image (130).png" alt=""><figcaption><p>Save Changes</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_regex_save_changes.png" alt="Docbits Regex Save Changes"><figcaption><p>Save Changes</p></figcaption></figure>
 
 By following these steps and carefully testing changes to regex patterns, you can ensure that your regex pattern continues to work correctly while meeting new requirements.

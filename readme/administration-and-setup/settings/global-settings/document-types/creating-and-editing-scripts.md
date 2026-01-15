@@ -26,7 +26,7 @@ For example, if you are using Python, your script might look like this:
 
 ## 1. Example script in Python
 
-<figure><img src="../../../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_script_python_example.png" alt="Docbits Script Python Example"><figcaption></figcaption></figure>
 
 ## Function to clean patient names
 
@@ -40,25 +40,25 @@ if **name** == "**main**": patient\_name = " john doe " cleaned\_name = clean\_p
 
 ## 2. Example script
 
-<figure><img src="../../../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_required_setting.png" alt="Docbits Field Required Setting"><figcaption></figcaption></figure>
 
 **Test the script:**&#x20;
 
 Check the code for errors and test it in a test environment. Make sure the script produces the expected results and works correctly.
 
-<figure><img src="../../../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_readonly_setting.png" alt="Docbits Field Readonly Setting"><figcaption></figcaption></figure>
 
 **Save the script:**&#x20;
 
 Save the script in DocBits and give it a meaningful name that describes the purpose of the script.
 
-<figure><img src="../../../../.gitbook/assets/image (134).png" alt="" width="84"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_hidden_setting.png" alt="Docbits Field Hidden Setting" width="84"><figcaption></figcaption></figure>
 
 **Mapping the script to document types:**&#x20;
 
 An important step is mapping the script to the appropriate document types. This determines when and how the script is applied. This can usually be done through a configuration interface in DocBits, where you can assign the script to a specific document type and specify under which conditions it should be applied.
 
-<figure><img src="../../../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_ocr_setting.png" alt="Docbits Field Ocr Setting"><figcaption></figcaption></figure>
 
 **Review and publish:**&#x20;
 
@@ -66,7 +66,7 @@ After you have created, tested and mapped the script, check it again for errors 
 
 <figure><img src="../../../../.gitbook/assets/docbits_publish_script_button.png" alt="Docbits Publish Script Button"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/docbits_field_forced_validation_setting.png" alt="Docbits Field Forced Validation Setting"><figcaption></figcaption></figure>
 
 Through these steps, you can successfully create, test and implement a new script in DocBits to automate processes and improve the efficiency of medical documentation.
 
