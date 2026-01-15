@@ -17,13 +17,13 @@ Um das trainierte Modell zu testen und seine Genauigkeit und Betriebsbereitschaf
 * Führen Sie die Klassifizierungstests mit den vorbereiteten Testdaten durch.
 * Speisen Sie die Testdaten in das Modell ein und lassen Sie das Modell Vorhersagen zur Klassifizierung der Belege treffen.
 
-<figure><img src="../../../../../.gitbook/assets/image (91).png" alt="" width="375"><figcaption><p>Einstellungen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_remove_user_access.png" alt="Docbits Remove User Access" width="375"><figcaption><p>Einstellungen</p></figcaption></figure>
 
 * Fügen Sie eine neue Klassifizierungsregel hinzu oder bearbeiten Sie eine bestehende.
 
-<figure><img src="../../../../../.gitbook/assets/image (92).png" alt=""><figcaption><p>Einstellungen: Klassifizierung und Extraktion</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_confirm_user_removal.png" alt="Docbits Confirm User Removal"><figcaption><p>Einstellungen: Klassifizierung und Extraktion</p></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (90).png" alt="" width="276"><figcaption><p>Klassifizierungsregel konfigurieren</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_save_user_changes.png" alt="Docbits Save User Changes" width="276"><figcaption><p>Klassifizierungsregel konfigurieren</p></figcaption></figure>
 
 **Bewerten der Modellgenauigkeit:**
 

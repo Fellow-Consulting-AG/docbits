@@ -2,7 +2,7 @@
 
 Das Bearbeiten und Löschen von Spalten in einer Datenbanktabelle sind wichtige Operationen, die sorgfältig durchgeführt werden müssen, um die Datenintegrität zu gewährleisten und potenzielle Auswirkungen auf die Anwendungslogik und die Berichterstattung zu berücksichtigen.
 
-<figure><img src="../../../../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_confirmation_dialog_generic.png" alt="Docbits Confirmation Dialog Generic"><figcaption></figcaption></figure>
 
 **Hier sind die detaillierten Schritte für beide Aktionen:**
 

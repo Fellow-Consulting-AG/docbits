@@ -8,26 +8,26 @@
 
 **Hier sind die detaillierten Schritte zum Hinzufügen einer neuen Spalte:**
 
-<figure><img src="../../../../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_save_group_details.png" alt="Docbits Save Group Details"><figcaption></figcaption></figure>
 
 **Anforderungsanalyse:**
 
 * Überprüfen Sie die Anforderungen Ihrer Anwendung und identifizieren Sie den Zweck der neuen Spalte. Welche Art von Daten wird gespeichert? Wie wird diese Spalte in der Anwendung verwendet?
 
-<figure><img src="../../../../../.gitbook/assets/image (96).png" alt="" width="375"><figcaption><p>Neue Tabellenspalte hinzufügen</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_enable_groups_permissions.png" alt="Docbits Enable Groups Permissions" width="375"><figcaption><p>Neue Tabellenspalte hinzufügen</p></figcaption></figure>
 
 **Wahl des richtigen Spaltentyps:**
 
 * Wählen Sie den am besten geeigneten Spaltentyp basierend auf den Daten, die in der Spalte gespeichert werden sollen. Dies kann AMOUNT für Beträge, STRING für Zeichenfolgen, DATE für Daten usw. sein.
 * Die Wahl des richtigen Spaltentyps ist wichtig, um die Datenintegrität sicherzustellen und den Speicherplatz effizient zu nutzen.
 
-<figure><img src="../../../../../.gitbook/assets/image (97).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_enable_groups_permissions_2.png" alt="Docbits Enable Groups Permissions 2" width="375"><figcaption></figcaption></figure>
 
 **Wahl der richtigen Tabelle:**
 
 * Um den korrekten Spaltentyp in einer bestimmten Tabelle, wie z. B. der Rechnungstabelle, auszuwählen, ist es wichtig, die spezifischen Anforderungen der in dieser Tabelle zu speichernden Daten zu berücksichtigen.
 
-<figure><img src="../../../../../.gitbook/assets/image (98).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/docbits_subtype_actions_fields.png" alt="Docbits Subtype Actions Fields" width="375"><figcaption></figcaption></figure>
 
 
 
@@ -48,7 +48,7 @@
 
 *   Verwenden Sie die SQL-Anweisung ALTER TABLE, um die neue Spalte hinzuzufügen. Die genaue Syntax hängt von der verwendeten Datenbankplattform ab, aber im Allgemeinen sieht die SQL-Anweisung so aus:
 
-    <figure><img src="../../../../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/docbits_new_group_form.png" alt="Docbits New Group Form"><figcaption></figcaption></figure>
 
     Ersetzen Sie table_name durch den Namen Ihrer Tabelle, new_column_name durch den Namen der neuen Spalte und data_type durch den von Ihnen gewählten Spaltentyp. Das Schlüsselwort [NOT NULL] gibt an, ob die Spalte obligatorisch ist.
 
