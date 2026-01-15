@@ -4,7 +4,7 @@
 
 Fuzzy Data fields allow users to populate related fields based on approximate matches from master data. These fields are identified by a **blue icon** next to them.
 
-<figure><img src="../../../.gitbook/assets/image (452).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/fuzzy_data_field_icon.png" alt="Fuzzy Data Field Icon"><figcaption></figcaption></figure>
 
 ### **Functionality**
 
@@ -19,10 +19,10 @@ Fuzzy Data fields allow users to populate related fields based on approximate ma
 #### **Using Fuzzy Data Fields**
 
 1. **Selecting a Purchase Order**
-   *   Clicking the **blue icon** next to the Purchase Order field opens a **selection window**.\
+   *   Clicking the **blue icon** next to the Purchase Order field opens a **selection window**.
 
 
-       <figure><img src="../../../.gitbook/assets/image (453).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/fuzzy_data_selection_window.png" alt="Fuzzy Data Selection Window"><figcaption></figcaption></figure>
    * This window contains a table with all purchase orders from the **master data lookup table**.
    * Enabling the **"Display all columns"** option shows additional details.
    * Select a **Purchase Order** and click **Proceed**:

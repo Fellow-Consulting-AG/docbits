@@ -96,24 +96,24 @@ To share internal information, you can create tasks and assign them to a specifi
 
 ### Approval History
 
-<figure><img src="../../../.gitbook/assets/image (19) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/approval_history_button.png" alt="Approval History Button"><figcaption></figcaption></figure>
 
 **Note:** The approval history must be activated before it can be displayed here.
 
 **Approval History:**
 
-* **Purpose**:\
+* **Purpose**:
   Displays document approval history in field validation, with red indicating rejected and the app's color indicating approved.
-* **Use Case**:\
+* **Use Case**:
   Useful for organizations that require a transparent record of approval actions during field validation.
 
-<figure><img src="../../../.gitbook/assets/image (20) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/approval_history_list_view.png" alt="Approval History List View"><figcaption></figcaption></figure>
 
 ### **Annotation mode:**
 
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-10 um 09.02.21.png" alt="" width="187"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/annotation_mode_example.png" alt="Annotation Mode Example"><figcaption></figcaption></figure>
 
 You can leave annotations on a document. This can be helpful to leave information for other users who further edit this document.
 
@@ -165,11 +165,11 @@ Scripts can be created in the settings under Document Types; this information wi
   * **Purpose:** Displays logs related to scripts that have been implemented for different document types.
   * **Use Case:** Useful for tracking and debugging script actions on documents, helping users understand the automated processes and correct any issues.
 
-<figure><img src="../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/document_script_logs_view.png" alt="Document Script Logs View"><figcaption></figcaption></figure>
 
 ### **More settings:**
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/more_settings_menu_icon.png" alt="More Settings Menu Icon"><figcaption></figcaption></figure>
 
 ### **Document Flow:**
 
