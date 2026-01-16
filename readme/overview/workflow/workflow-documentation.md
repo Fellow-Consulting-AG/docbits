@@ -6,11 +6,11 @@ To keep an overview, you can give the workflows different headings so that you c
 
 Create a new Workflow: Click on + ADD WORKFLOW
 
-![](<../../../.gitbook/assets/0 (1).png>)
+![](<../../../.gitbook/assets/workflow_add_button.png>)
 
 You can use these workflows (Test 1,2,3) to automatically assign various documents to the right employee in the company.
 
-![](<../../../.gitbook/assets/1 (1).png>)
+![](<../../../.gitbook/assets/workflow_list_overview.png>)
 
 If an invoice or other document exceeds a certain total amount that requires prior review and approval, these documents can be immediately assigned to the correct person.
 

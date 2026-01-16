@@ -6,11 +6,11 @@ To keep an overview, you can give the workflows different headings so that you c
 
 Create a new Workflow: Click on + ADD WORKFLOW
 
-![](<../../.gitbook/assets/0 (1).png>)
+![](<../../.gitbook/assets/workflow_add_button.png>)
 
 You can use these workflows (Test 1,2,3) to automatically assign various documents to the right employee in the company.
 
-![](<../../.gitbook/assets/1 (1).png>)
+![](<../../.gitbook/assets/workflow_list_overview.png>)
 
 If an invoice or other document exceeds a certain total amount that requires prior review and approval, these documents can be immediately assigned to the correct person.
 
@@ -48,7 +48,7 @@ Then: **Assign document to:** James Edwards
 
 It is also possible, if the document is not assigned to a single person, to assign it to a specific employee from the start.
 
-<figure><img src="../../.gitbook/assets/workflow_assign_to_employee.png" alt="Workflow Assign to Employee" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/workflow_assign_to_employee_start.png" alt="Workflow Assign to Employee Start" width="375"><figcaption></figcaption></figure>
 
 For an easier overview of what should happen to a document, you can set the status for incoming documents in this workflow. This workflow makes it possible to immediately see whether there is, for example, a pending approval.
 
@@ -60,7 +60,7 @@ For an easier overview of what should happen to a document, you can set the stat
 
 **Then:** **Change Status to:** Pending Approval
 
-<figure><img src="../../.gitbook/assets/workflow_test4_delivery_note.png" alt="Workflow Test 4 Delivery Note"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/workflow_test4_delivery_note_status.png" alt="Workflow Test 4 Delivery Note Status"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
@@ -72,7 +72,7 @@ And: **Assignee is:** Stefan Reppermund
 
 Then: **Change Status to:** Pending Second Approval
 
-<figure><img src="../../.gitbook/assets/workflow_test5_invoice_approval.png" alt="Workflow Test 5 Invoice Approval"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/workflow_test5_invoice_approval_status.png" alt="Workflow Test 5 Invoice Approval Status"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/10 (1).png>)
 
@@ -88,7 +88,7 @@ And: Docfield **total\_amount** is **Greater than 500**
 
 Then: **Assign document to:** Asad Usman Khan
 
-<figure><img src="../../.gitbook/assets/workflow_test6_total_amount.png" alt="Workflow Test 6 Total Amount"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/workflow_test6_total_amount_assign.png" alt="Workflow Test 6 Total Amount Assign"><figcaption></figcaption></figure>
 
 ![](<../../.gitbook/assets/13 (1).png>)
 
@@ -118,9 +118,9 @@ The Workflow with these logic cards is designed to automatically verify that the
 
 You can give these documents a specific status or assign them to a specific employee.
 
-<div align="center"><figure><img src="../../.gitbook/assets/workflow_test9_overview.png" alt="Workflow Test 9 Overview"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/workflow_test9_match_check_overview.png" alt="Workflow Test 9 Match Check Overview"><figcaption></figcaption></figure></div>
 
-<figure><img src="../../.gitbook/assets/workflow_test9_match_check.png" alt="Workflow Test 9 Match Check"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/workflow_test9_match_check_detail.png" alt="Workflow Test 9 Match Check Detail"><figcaption></figcaption></figure>
 
 **Logic Card: Quantity or Unit Price or Discount Match**
 
@@ -165,6 +165,6 @@ If you want to add all surcharges as a negative discount into the discount colum
 
 After calculating the surcharges you might want to notify a specific user to authorize the order confirmation. For this you can use the notification card
 
-<figure><img src="../../.gitbook/assets/workflow_notification_card.png" alt="Workflow Notification Card"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/workflow_notification_card_overview.png" alt="Workflow Notification Card"><figcaption></figcaption></figure>
 
 Depending on settings, the user gets assigned a new task in DocBits and optionally an email to notify them of their new task.
