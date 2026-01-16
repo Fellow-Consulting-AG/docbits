@@ -1,13 +1,11 @@
 # Rule Manager
 
-\
-
 
 This document provides an in-depth explanation of the conflict resolution rules used in the DocBits invoicing system. These rules are designed to automatically handle discrepancies between invoice details and purchase order (PO) data, ensuring accurate financial reconciliation. The system applies these rules to process invoice lines, charges, and taxes, and generates appropriate adjustments or notes when necessary.
 
 ## Structure of the Rules
 
-### &#x20;1. Metadata
+### 1. Metadata
 
 • version: Identifies the version of the mapping file.
 
@@ -17,9 +15,9 @@ This document provides an in-depth explanation of the conflict resolution rules 
 
 • description: A brief description of the file’s purpose.
 
-• created\_at & updated\_at: Timestamps for when the file was created and last updated.
+• created_at & updated_at: Timestamps for when the file was created and last updated.
 
-### &#x20;2. Export Configuration
+### 2. Export Configuration
 
 The export configuration section defines the mapping between the data fields in the system and the corresponding fields in the export files.
 
@@ -43,7 +41,7 @@ These rules handle discrepancies between invoice data and the corresponding PO d
 
 • Name: The rule’s descriptive name, indicating the type of discrepancy it addresses.
 
-• Section: Indicates which part of the invoice (e.g., receipt\_lines, line\_charges) the rule applies to.
+• Section: Indicates which part of the invoice (e.g., receipt_lines, line_charges) the rule applies to.
 
 • Active: Boolean value (true or false) indicating if the rule is currently active.
 
@@ -71,8 +69,6 @@ These operators define how the actual invoice values are compared to the expecte
 
 • outside tolerance
 
-\
-
 
 ### Approval Status
 
@@ -84,14 +80,11 @@ Indicates whether a discrepancy is approved or not:
 
 • any
 
-\
-
 
 ### Action Types
 
 Defines specific actions to take when a discrepancy is detected:
 
-\
 • receipt line
 
 • cost line
@@ -120,14 +113,11 @@ Defines specific actions to take when a discrepancy is detected:
 
 • credit note tax line
 
-\
-
 
 ### Rule Examples
 
 #### [Case 1, 2, 3: Quantity and Unit Price Within Tolerance](transactionconfig-pro-template/case-1-2-3-quantity-and-unit-price-within-tolerance.md)
 
-\
 • Purpose: Handles scenarios where both the quantity and unit price on the invoice are within the accepted tolerance limits compared to the PO.
 
 • Action: The system accepts the invoice values and calculates the total amount.
@@ -140,15 +130,13 @@ Defines specific actions to take when a discrepancy is detected:
 
 • Action: The system adjusts the unit price to match the PO and applies any necessary line charges.
 
-\
 
 
-#### [Case 6: Quantity Within Tolerance, Unit Price Outside Negative Tolerance (Rejected)](transactionconfig-pro-template/case-6-quantity-within-tolerance-unit-price-outside-negative-tolerance-rejected.md)&#x20;
+#### [Case 6: Quantity Within Tolerance, Unit Price Outside Negative Tolerance (Rejected)](transactionconfig-pro-template/case-6-quantity-within-tolerance-unit-price-outside-negative-tolerance-rejected.md)
 
 • Purpose: Deals with cases where the unit price is less than expected and outside the tolerance range, leading to rejection.
 
 • Action: The system adjusts the unit price to match the PO, generates a credit note for the difference, and applies header charges as needed.
-
 
 
 ### Handling Charges and Taxes
@@ -171,7 +159,7 @@ Defines specific actions to take when a discrepancy is detected:
 
 ### Screenshot 1: Rule Management Interface
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.20.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rule_management_interface.png" alt="Rule Management Interface"><figcaption></figcaption></figure>
 
 This screenshot shows the Rule Management interface where administrators can view and manage all conflict resolution rules. Key elements include:
 
@@ -183,7 +171,7 @@ This screenshot shows the Rule Management interface where administrators can vie
 
 ### Screenshot 2: Detailed Rule Editing
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-08-02 um 17.21.06.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rule_detailed_editing.png" alt="Detailed Rule Editing"><figcaption></figcaption></figure>
 
 his screenshot illustrates the detailed view of a specific rule being edited. Key elements include:
 

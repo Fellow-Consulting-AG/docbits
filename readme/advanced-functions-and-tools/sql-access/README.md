@@ -1,6 +1,6 @@
 # SQL Access
 
-<figure><img src="../../.gitbook/assets/Bildschirmfoto 2024-04-12 um 20.57.21.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sql_direct_access_settings.png" alt="SQL Direct Access Settings"><figcaption></figcaption></figure>
 
 ## Overview
 
