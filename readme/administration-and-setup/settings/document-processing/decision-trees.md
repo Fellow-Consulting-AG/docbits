@@ -34,11 +34,11 @@ The Decision Tree Designer allows you to configure rules that govern how decisio
 
 This decision tree evaluates the **Total Amount** field and assigns it to different groups based on predefined conditions. Each rule compares the total amount against a specific value, and based on which condition is true, the corresponding **Group** is returned.
 
-<figure><img src="../../../.gitbook/assets/image (335) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/decision_tree_example_total_amount.png" alt="Decision Tree Example Total Amount"><figcaption></figcaption></figure>
 
 This decision tree evaluates two key conditions to determine which group should be assigned: **Total Amount** and **Warehouse Status**. The tree uses thresholds based on the total amount to define which group is returned, with the additional distinction of whether the warehouse is designated as "Warehouse Main," "Warehouse Sub," or "Not Warehouse Main."
 
-<figure><img src="../../../.gitbook/assets/image (338).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/decision_tree_example_warehouse_status.png" alt="Decision Tree Example Warehouse Status"><figcaption></figcaption></figure>
 
 Each rule is evaluated sequentially.
 
@@ -54,11 +54,11 @@ Ensures that only a single rule is matched. If multiple rules are matched, the d
 
 | Rule | Condition            | Return Group |
 | ---- | -------------------- | ------------ |
-| 1    | Total Amount <= 1000 | GROUP\_1     |
-| 2    | Total Amount <= 2000 | GROUP\_2     |
-| 3    | Total Amount <= 5000 | GROUP\_5     |
-| 4    | Total Amount <= 4000 | GROUP\_4     |
-| 5    | Total Amount <= 3000 | GROUP\_3     |
+| 1    | Total Amount <= 1000 | GROUP_1     |
+| 2    | Total Amount <= 2000 | GROUP_2     |
+| 3    | Total Amount <= 5000 | GROUP_5     |
+| 4    | Total Amount <= 4000 | GROUP_4     |
+| 5    | Total Amount <= 3000 | GROUP_3     |
 
 If the total amount is **1500**, the rules evaluated will be:
 
@@ -78,16 +78,16 @@ The first matching rule is applied, and no further rules are evaluated.
 
 | Rule | Condition            | Return Group |
 | ---- | -------------------- | ------------ |
-| 1    | Total Amount <= 1000 | GROUP\_1     |
-| 2    | Total Amount <= 2000 | GROUP\_2     |
-| 3    | Total Amount <= 5000 | GROUP\_5     |
-| 4    | Total Amount <= 4000 | GROUP\_4     |
-| 5    | Total Amount <= 3000 | GROUP\_3     |
+| 1    | Total Amount <= 1000 | GROUP_1     |
+| 2    | Total Amount <= 2000 | GROUP_2     |
+| 3    | Total Amount <= 5000 | GROUP_5     |
+| 4    | Total Amount <= 4000 | GROUP_4     |
+| 5    | Total Amount <= 3000 | GROUP_3     |
 
 If the total amount is **1500**, the rules evaluated will be:
 
 * **Rule 1**: Total Amount <= 1000 (does not match)
-* **Rule 2**: Total Amount <= 2000 (matches) → The decision tree stops evaluating further rules and applies **GROUP\_2**.
+* **Rule 2**: Total Amount <= 2000 (matches) → The decision tree stops evaluating further rules and applies **GROUP_2**.
 
 ### **3. Priority Policy**
 
@@ -105,7 +105,7 @@ If the total amount is **1500**, the rules evaluated will be:
 * **Rule 4**: Total Amount <= 4000 (matches)
 * **Rule 5**: Total Amount <= 5000 (matches)
 
-Since the priority is applied in the order **5, 4, 3, 2, 1**, the highest priority matching rule will be **Rule 5** (**GROUP\_5**). The decision tree will return **GROUP\_5** because **Rule 5** has the highest priority (priority 1).
+Since the priority is applied in the order **5, 4, 3, 2, 1**, the highest priority matching rule will be **Rule 5** (**GROUP_5**). The decision tree will return **GROUP_5** because **Rule 5** has the highest priority (priority 1).
 
 ### **4. Collect (sum) Policy**
 
@@ -176,11 +176,11 @@ This policy applies rules in the order they appear in the decision tree and retu
 
 | Rule | Condition            | Return Group |
 | ---- | -------------------- | ------------ |
-| 1    | Total Amount <= 1000 | GROUP\_1     |
-| 2    | Total Amount <= 2000 | GROUP\_2     |
-| 3    | Total Amount <= 3000 | GROUP\_3     |
-| 4    | Total Amount <= 4000 | GROUP\_4     |
-| 5    | Total Amount <= 5000 | GROUP\_5     |
+| 1    | Total Amount <= 1000 | GROUP_1     |
+| 2    | Total Amount <= 2000 | GROUP_2     |
+| 3    | Total Amount <= 3000 | GROUP_3     |
+| 4    | Total Amount <= 4000 | GROUP_4     |
+| 5    | Total Amount <= 5000 | GROUP_5     |
 
 Given that the input value is **Total Amount = 3500**, the evaluation of the rules would be:
 
@@ -192,11 +192,11 @@ Given that the input value is **Total Amount = 3500**, the evaluation of the rul
 
 Under **Rule Order**, the tree will process the rules in the order they are listed. So, the matching rules will be:
 
-* **Rule 3**: GROUP\_3
-* **Rule 4**: GROUP\_4
-* **Rule 5**: GROUP\_5
+* **Rule 3**: GROUP_3
+* **Rule 4**: GROUP_4
+* **Rule 5**: GROUP_5
 
-**Result**: **GROUP\_3**, **GROUP\_4**, **GROUP\_5**
+**Result**: **GROUP_3**, **GROUP_4**, **GROUP_5**
 
 ### **7. Any Policy**
 
@@ -206,11 +206,11 @@ Multiple rules can be true, but the result of those rules must be the same.
 
 | Rule | Condition            | Return Group |
 | ---- | -------------------- | ------------ |
-| 1    | Total Amount <= 1000 | GROUP\_1     |
-| 2    | Total Amount <= 2000 | GROUP\_2     |
-| 3    | Total Amount <= 3000 | GROUP\_3     |
-| 4    | Total Amount <= 4000 | GROUP\_4     |
-| 5    | Total Amount <= 5000 | GROUP\_5     |
+| 1    | Total Amount <= 1000 | GROUP_1     |
+| 2    | Total Amount <= 2000 | GROUP_2     |
+| 3    | Total Amount <= 3000 | GROUP_3     |
+| 4    | Total Amount <= 4000 | GROUP_4     |
+| 5    | Total Amount <= 5000 | GROUP_5     |
 
 If the total amount is **2500**, the rules evaluated will be:
 
@@ -230,22 +230,22 @@ Chooses the result of the rule that is adjacent to the first rule that is true.
 
 | Rule | Condition            | Return Group |
 | ---- | -------------------- | ------------ |
-| 1    | Total Amount <= 1000 | GROUP\_1     |
-| 2    | Total Amount <= 2000 | GROUP\_2     |
-| 3    | Total Amount <= 3000 | GROUP\_3     |
-| 4    | Total Amount <= 4000 | GROUP\_4     |
-| 5    | Total Amount <= 5000 | GROUP\_5     |
+| 1    | Total Amount <= 1000 | GROUP_1     |
+| 2    | Total Amount <= 2000 | GROUP_2     |
+| 3    | Total Amount <= 3000 | GROUP_3     |
+| 4    | Total Amount <= 4000 | GROUP_4     |
+| 5    | Total Amount <= 5000 | GROUP_5     |
 
 If the total amount is **1500**, the rules evaluated will be:
 
 * **Rule 1**: Total Amount <= 1000 (does not match)
 * **Rule 2**: Total Amount <= 2000 (matches)
 
-Since **Rule 2** is the first rule that matches, **First & Adjacent** would apply the result of **Rule 3**: **GROUP\_3**.
+Since **Rule 2** is the first rule that matches, **First & Adjacent** would apply the result of **Rule 3**: **GROUP_3**.
 
 ## **Testing the Decision Tree**
 
-**Overview:**\
+**Overview:**
 The decision tree designer includes a test feature to validate the logic of the configured rules. This feature allows users to test the decision tree by providing specific input values for the selected fields.
 
 **Steps to Use the Test Feature:**
@@ -254,23 +254,23 @@ The decision tree designer includes a test feature to validate the logic of the 
 
     * In the decision tree designer, find the **Test** button.
 
-    <figure><img src="../../../.gitbook/assets/image (344).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/decision_tree_test_button.png" alt="Decision Tree Test Button" width="563"><figcaption></figcaption></figure>
 2.  **Open the Test Popup:**
 
     * Click the **Test** button.
     * A popup window will appear, providing input fields corresponding to the criteria used in the decision tree.
 
-    <figure><img src="../../../.gitbook/assets/image (339).png" alt="" width="421"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/decision_tree_test_popup.png" alt="Decision Tree Test Popup" width="421"><figcaption></figcaption></figure>
 3. **Provide Input Values:**
    *   Enter values into the input fields to simulate a real-world scenario.
 
-       <figure><img src="../../../.gitbook/assets/image (341).png" alt="" width="428"><figcaption></figcaption></figure>
+       <figure><img src="../../../.gitbook/assets/decision_tree_test_input.png" alt="Decision Tree Test Input" width="428"><figcaption></figcaption></figure>
 4.  **Evaluate the Results:**
 
     * After entering the inputs, the tree processes them based on the chosen policy.
     * The system highlights the rule(s) that match the provided inputs.
 
-    <figure><img src="../../../.gitbook/assets/image (342).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/decision_tree_test_result.png" alt="Decision Tree Test Result" width="563"><figcaption></figcaption></figure>
 5. **Review Feedback for No Match:**
    * If no rule is highlighted, the system will display feedback explaining why no rule matched.
    * Use this feedback to adjust inputs or review the tree's configuration for potential issues.
