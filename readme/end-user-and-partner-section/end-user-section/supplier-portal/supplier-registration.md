@@ -1,7 +1,6 @@
 # Supplier Registration
 
-1. You will receive an invitation with a link via E-mail to begin the registration process. Please click on “Go to Registration,” submit the required information, and accept the terms and conditions to get started.\
-   ![](<../../../.gitbook/assets/image (51).png>)![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+1. You will receive an invitation with a link via E-mail to begin the registration process. Please click on “Go to Registration,” submit the required information, and accept the terms and conditions to get started.\n   ![](<../../../.gitbook/assets/supplier_registration_email_invitation.png>)![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 2.  **Supplier Details**
 
     Please verify that the Supplier name is correct. This is a critical detail for identity and legal purposes that cannot be changed. Please provide all applicable information including the required fields. When completed, click on “Next” to continue to the Address Data section. To save your progress and continue later, click on “Save.”\
@@ -37,8 +36,6 @@
 
 
     <figure><img src="../../../.gitbook/assets/docbits_supplier_reg_confirmation.png" alt="Docbits Supplier Reg Confirmation"><figcaption></figcaption></figure>
-9.  Please check your E-mail for a confirmation that you have completed the registration process.\
-
+9.  Please check your E-mail for a confirmation that you have completed the registration process.\n
 
     <figure><img src="../../../.gitbook/assets/docbits_supplier_reg_preview.png" alt="Docbits Supplier Reg Preview"><figcaption></figcaption></figure>
-
