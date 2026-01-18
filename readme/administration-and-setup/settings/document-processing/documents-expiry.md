@@ -1,6 +1,6 @@
 # Documents Expiry
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/document_expiry_settings_overview.png" alt="Document Expiry Settings Overview"><figcaption></figcaption></figure>
 
 In the "Documents Expiry" setting under the "DOCUMENT PROCESSING" section, you can configure the automatic deletion schedules for your documents within the system. This feature is particularly useful for managing data retention policies and ensuring compliance with legal or organizational standards regarding document storage.
 
@@ -11,7 +11,4 @@ Here’s what each setting does:
 
 Both settings ensure that documents are not kept indefinitely on your system, helping to avoid unnecessary storage use and keeping the document processing workflow clutter-free. These settings are vital for organizations needing to adhere to specific regulatory requirements about document retention.
 
-<figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.29.27.png" alt=""><figcaption></figcaption></figure>
-
-
-
+<figure><img src="../../../.gitbook/assets/document_expiry_options.png" alt="Document Expiry Options"><figcaption></figcaption></figure>

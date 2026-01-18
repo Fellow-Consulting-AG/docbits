@@ -16,7 +16,7 @@
 2. Under **Document Processing**, find and click on the **Module** option.
    * This will open the relevant module configuration page where you can proceed with creation of user for database.
 
-<figure><img src="../../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/module_settings_overview_db_access.png" alt="Module Settings Overview DB Access"><figcaption></figcaption></figure>
 
 ### 4. Steps to Enable and Access the AI Document and Database User: <a href="#id-4.-steps-to-enable-and-access-the-ai-document-and-database-user" id="id-4.-steps-to-enable-and-access-the-ai-document-and-database-user"></a>
 
@@ -25,42 +25,37 @@
      * **AI Document Warehouse**: Toggle this to enable access to AI-related features.
      * **DB Access**: Toggle this to grant database access to user.
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/ai_warehouse_db_access_toggles.png" alt="AI Warehouse DB Access Toggles"><figcaption></figcaption></figure>
 
 2. **Database Credentials**:
    * The dashboard provides the following database connection details:
-     * **Username**: A unique username is displayed&#x20;
+     * **Username**: A unique username is displayed
      * **Password**: Ensure the password is securely stored or copied.
-     * **Database**: Is the name of the Database&#x20;
-     * **Host**: Host Name&#x20;
-     * **Port**:  Is the Port&#x20;
+     * **Database**: Is the name of the Database
+     * **Host**: Host Name
+     * **Port**:  Is the Port
      * **SSL Mode:** The connection requires `sslmode=require` for secure communication.
 3. **Copying Credentials**:
    * Use the copy icons next to each field to quickly copy the credentials for use in your database client or application.
-4. **Connection via DBeaver:**
+4. **Connection via DBeaver**:
    *   Connect via Host
 
        * choose PostgreSQL
 
-       <figure><img src="../../../../../.gitbook/assets/image (2) (1) (1) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../../.gitbook/assets/dbeaver_select_postgresql.png" alt="DBeaver Select PostgreSQL"><figcaption></figcaption></figure>
 
-       * Fill in the required information&#x20;
+       * Fill in the required information
 
-       <figure><img src="../../../../../.gitbook/assets/image (4) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../../.gitbook/assets/dbeaver_connection_settings.png" alt="DBeaver Connection Settings"><figcaption></figcaption></figure>
 
        * change to the SSL tab and check Use SSL. Move down to SSL mode and select require
 
-       <figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../../.gitbook/assets/dbeaver_ssl_settings.png" alt="DBeaver SSL Settings"><figcaption></figcaption></figure>
    *   Connect via URL
 
-       * Fill in the required information:\
-         \- replace Host with the provided host information\
-         \- replace Port with the provided port information\
-         \- replace Database with the provided database information\
-         \- for Username select the provided username information\
-         \- for Password select the provided password information
+       * Fill in the required information:\n         - replace Host with the provided host information\n         - replace Port with the provided port information\n         - replace Database with the provided database information\n         - for Username select the provided username information\n         - for Password select the provided password information
 
-       <figure><img src="../../../../../.gitbook/assets/image (5) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../../../../../.gitbook/assets/dbeaver_url_connection_settings.png" alt="DBeaver URL Connection Settings"><figcaption></figcaption></figure>
 5. **Test the Connection**:
    * Click the **"Test Connection"** button to ensure the credentials and connection details are correct.
    * If the test is successful, proceed to connect.
