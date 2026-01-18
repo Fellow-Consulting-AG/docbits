@@ -14,11 +14,11 @@ Overall, suborganizations enable more effective management and organization of u
 
 In Settings, Global Settings → Groups, Users and Permissions → Sub-Organizations as shown below.
 
-<figure><img src="../../../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>Settings</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/sub_organizations_menu_access.png" alt="Sub-Organizations Menu Access"><figcaption><p>Settings</p></figcaption></figure>
 
-You will then be taken to a page that looks similar to this:\\
+You will then be taken to a page that looks similar to this:\
 
-<figure><img src="../../../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/sub_organizations_list_overview.png" alt="Sub-Organizations List Overview"><figcaption></figcaption></figure>
 
 This is where you will find your previously created sub-organizations, as well as where you can create new sub-organizations.
 
@@ -26,7 +26,7 @@ This is where you will find your previously created sub-organizations, as well a
 
 ### Cross Sub-Organisations Access
 
-**Overview:**\
+**Overview:**
 For organizations with multiple sub-organizations enabled, DocBits introduces the **Cross Sub-Organisations** feature. This enhancement allows users to manage documents across all sub-organizations under a single umbrella. **Both administrative and non-administrative users** can now access and view documents from every sub-organization without the need to switch between them individually.
 
 **Benefits:**
@@ -45,5 +45,4 @@ For organizations with multiple sub-organizations enabled, DocBits introduces th
    * Return to the top-right corner of the dashboard.
    * Deselect the **Cross** option to return to viewing a single sub-organization.
 
-<figure><img src="../../../../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../../../../.gitbook/assets/cross_sub_organizations_toggle.png" alt="Cross Sub-Organizations Toggle"><figcaption></figcaption></figure>
