@@ -1,30 +1,30 @@
 # Module
 
-<figure><img src="../../../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/modules_settings_overview.png" alt="Modules Settings Overview"><figcaption></figcaption></figure>
 
 * **M3 Integration**: Integration with M3, an ERP software solution, allowing seamless interaction between DocBits and M3 for enhanced document management and processing.
 * **PO Dashboard**: A centralized dashboard within DocBits specifically designed to manage and monitor purchase orders, providing insights and analytics for efficient tracking and decision-making.
 * **Shipment Order Dashboard**: Similar to the PO Dashboard, this feature focuses on managing and monitoring shipment orders, facilitating smooth logistics operations.
 
-<figure><img src="../../../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/modules_po_dashboard_toggle.png" alt="PO Dashboard Toggle"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/modules_shipment_order_dashboard_toggle.png" alt="Shipment Order Dashboard Toggle"><figcaption></figcaption></figure>
 
 * **Auto Accounting**: DocBits offers automated accounting functionality, streamlining the process of handling financial transactions associated with purchase orders (POs) and other documents.
 
-<figure><img src="../../../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/modules_auto_accounting_toggle.png" alt="Auto Accounting Toggle"><figcaption></figcaption></figure>
 
 * **Advance Shipment Dashboard**: A specialized dashboard for advanced monitoring and management of shipment-related activities, offering deeper insights and functionalities.
 * **Invoice Dashboard:** A specialized dashboard for advanced monitoring and management of invoices-related activities, offering deeper insights and functionalities.
 
-<figure><img src="../../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/modules_advance_shipment_dashboard_toggle.png" alt="Advance Shipment Dashboard Toggle"><figcaption></figcaption></figure>
 
 * **Dashboards v2**: An updated version of the dashboard interface, likely with improved user experience and additional features for enhanced usability.
 * [**SQL Direct access:** A direct access to the Database.](how-to-create-database-access-for-a-specific-organization-user/)
 
-<figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-04 um 15.58.02 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/modules_dashboards_v2_sql_access.png" alt="Dashboards v2 and SQL Access"><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/modules_supplier_portal_workflow_builder.png" alt="Supplier Portal and Workflow Builder"><figcaption></figcaption></figure>
 
 * **Supplier Portal**: A portal within DocBits dedicated to suppliers, enabling them to interact and collaborate with the system, enhancing communication and efficiency in the supply chain.
 * **Workflow Builder**: A tool for creating and customizing workflows within DocBits, allowing users to define specific processes and automate document handling according to their unique business requirements.

@@ -16,8 +16,7 @@ This guide walks you through connecting **DocBits’ Read-Only Database to Power
 * Open **ODBC Data Source Administrator (64-bit)** via Control Panel or Windows Search.
 * Go to the **System DSN** tab and click **Add**.
 * Select **PostgreSQL Unicode(x64)** driver from the list and click **Finish**.
-* Fill in the required fields with credentials from:\
-  **DocBits → Settings → Document Processing → Module → AI Dashboard → Read-Only DB Access**
+* Fill in the required fields with credentials from:\n  **DocBits → Settings → Document Processing → Module → AI Dashboard → Read-Only DB Access**
 
 <figure><img src="../../.gitbook/assets/connect_read_only_4.png" alt=""><figcaption></figcaption></figure>
 
@@ -36,7 +35,7 @@ This guide walks you through connecting **DocBits’ Read-Only Database to Power
 * Open **Power BI Desktop**.
 *   Select **Get Data** → **ODBC** → **Connect**.
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2025-05-19 163621.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/powerbi_get_data_odbc.png" alt="Power BI Get Data ODBC"><figcaption></figcaption></figure>
 * From the DSN list, select your configured source (e.g., `Sandbox-Read_Only`).
 
 <figure><img src="../../.gitbook/assets/connect_read_only_3.png" alt=""><figcaption></figcaption></figure>
@@ -77,4 +76,4 @@ This guide walks you through connecting **DocBits’ Read-Only Database to Power
 
 #### 7. Example Dashboards & Data Views&#x20;
 
-<div><figure><img src="../../.gitbook/assets/Screenshot 2025-05-13 at 12.23.07.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot 2025-05-13 at 12.23.17.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot 2025-05-13 at 12.23.26.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Screenshot 2025-05-13 at 12.23.34.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/powerbi_dashboard_example_1.png" alt="Power BI Dashboard Example 1"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/powerbi_dashboard_example_2.png" alt="Power BI Dashboard Example 2"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/powerbi_dashboard_example_3.png" alt="Power BI Dashboard Example 3"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/powerbi_dashboard_example_4.png" alt="Power BI Dashboard Example 4"><figcaption></figcaption></figure></div>
