@@ -21,9 +21,7 @@ To enable the DocBits Operator, follow these steps:
 
 ## Accessing the Interface
 
-*   Once the feature is enabled, open the **DocBits Operator** from the main navigation menu.
-
-    <figure><img src="../../.gitbook/assets/docbits_operator_menu_item.png" alt="DocBits Operator Menu Item"><figcaption></figcaption></figure>
+* Once the feature is enabled, open the **DocBits Operator** from the main navigation menu.
 
 ### **1. Prompt Input**
 
@@ -31,9 +29,7 @@ At the bottom of the screen, there is an input field labeled _“Enter your prom
 
 Next to the input field are several control buttons:
 
-* **Prompt Variables** – Opens a popup where you can enter key-value pairs used in the prompt.
-  Variables are written using curly braces, like `{invoice_number}` or `{url}`.
-  These values apply only to the current prompt in the input field.
+* **Prompt Variables** – Opens a popup where you can enter key-value pairs used in the prompt. Variables are written using curly braces, like `{invoice_number}` or `{url}`. These values apply only to the current prompt in the input field.
 * **Save Prompt** – Saves the current prompt. Choose to save it as either:
   * **Organization Prompt** – Editable within your organization; includes both the prompt and defined variable values.
   * **Global Prompt** – Shared across all tenants; includes only the prompt and variable placeholders (no values are saved).
@@ -43,16 +39,11 @@ For detailed guidance on how to write effective prompts—including syntax, vari
 
 ### **2. Sidebar Navigation**
 
-Use the top-left icon to open or close the sidebar.
-The sidebar shows saved prompts, organized in two categories:
-
-<div align="left"><figure><img src="../../.gitbook/assets/docbits_operator_sidebar_navigation.png" alt="DocBits Operator Sidebar Navigation" width="370"><figcaption></figcaption></figure></div>
+Use the top-left icon to open or close the sidebar. The sidebar shows saved prompts, organized in two categories:
 
 * **Organization Prompts**: Editable and reusable within your organization.
 * **Global Prompts**: Shared across all tenants. These cannot store variables and cannot be edited or deleted.
-  *   A global prompt is still editable and deletable by the **organization that created it**, where it appears under Organization Prompts.
-
-      <div align="left"><figure><img src="../../.gitbook/assets/docbits_operator_global_prompts.png" alt="DocBits Operator Global Prompts" width="357"><figcaption></figcaption></figure></div>
+  * A global prompt is still editable and deletable by the **organization that created it**, where it appears under Organization Prompts.
 * **Search Functionality:** a search bar at the top of the sidebar allows users to quickly find saved prompts by name or keyword.
 * **Icon Reference:** Each saved prompt has a set of action icons
   * **Arrow** – Start the prompt
@@ -67,13 +58,9 @@ Clicking the **Save Prompt** button opens a popup where you can save the current
 
 #### **Save Prompt Popup Fields**
 
-* **Prompt Name:**
-  Enter a name to identify the prompt.
-* **Save Prompt Publicly (Checkbox):**
-  When checked, the prompt will be saved as a **Global Prompt**.
-  Global Prompts are shared across all tenants and cannot store variable **values** (only variable **names**).
-* **Edit Variables:**
-  Opens the [**Prompt Variables Popup**](prompt-writing-guide.md#prompt-variables-popup) to review or adjust variable definitions before saving.
+* **Prompt Name:** Enter a name to identify the prompt.
+* **Save Prompt Publicly (Checkbox):** When checked, the prompt will be saved as a **Global Prompt**. Global Prompts are shared across all tenants and cannot store variable **values** (only variable **names**).
+* **Edit Variables:** Opens the [**Prompt Variables Popup**](prompt-writing-guide.md#prompt-variables-popup) to review or adjust variable definitions before saving.
 
 **Actions**
 
@@ -84,27 +71,16 @@ Clicking the **Save Prompt** button opens a popup where you can save the current
 
 When a prompt is running, users have several control options to manage or intervene in the execution process:
 
-* **Pause Prompt:**
-  Temporarily halts the current execution. Useful if you want to observe the current state or prepare the system for the next steps.
-  ![](<../../.gitbook/assets/image (5).png>)
-* **Resume Prompt:**
-  Continues execution from the point where it was paused.
-  ![](<../../.gitbook/assets/image (3).png>)
-* **Cancel Prompt:**
-  Stops the execution entirely and resets the session. This is helpful if the prompt needs to be aborted or restarted due to incorrect behavior or changes in input.
-  ![](<../../.gitbook/assets/image (4).png>)
-* **Take Control:**
-  Allows the user to manually intervene by interacting directly with the system.
-  This is useful if the operator gets stuck or misinterprets a step.
-  Taking control **automatically pauses** the prompt and switches to manual mode until you choose to resume or cancel.
+* **Pause Prompt:** Temporarily halts the current execution. Useful if you want to observe the current state or prepare the system for the next steps.&#x20;
+* **Resume Prompt:** Continues execution from the point where it was paused. ![](<../../.gitbook/assets/image (3).png>)
+* **Cancel Prompt:** Stops the execution entirely and resets the session. This is helpful if the prompt needs to be aborted or restarted due to incorrect behavior or changes in input.&#x20;
+* **Take Control:** Allows the user to manually intervene by interacting directly with the system. This is useful if the operator gets stuck or misinterprets a step. Taking control **automatically pauses** the prompt and switches to manual mode until you choose to resume or cancel.
 
 ### 5. Operator Detail View
 
-Once a prompt is started, an additional button becomes available that allows users to switch to a **detailed execution view**.
-![](<../../.gitbook/assets/Detailed view .jpg>)
+Once a prompt is started, an additional button becomes available that allows users to switch to a **detailed execution view**. ![](<../../.gitbook/assets/Detailed view .jpg>)
 
-* **Open Detail View:**
-  This button takes you to a dedicated view that shows, step-by-step, what the operator is doing in real time.
+* **Open Detail View:** This button takes you to a dedicated view that shows, step-by-step, what the operator is doing in real time.
 
 In the detail view, users can:
 

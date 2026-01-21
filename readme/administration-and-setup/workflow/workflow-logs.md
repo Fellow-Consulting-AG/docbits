@@ -12,8 +12,7 @@ To access workflow logs:
 2. Click the **Actions menu** (three-dot icon) next to the desired document.
 3. Select **Workflow Logs** from the menu.
    * <mark style="color:red;">**Note**</mark>: The Workflow feature must be enabled to access this option.
-4.  A **side panel** opens showing a summary of executed workflows.\
-
+4.  A **side panel** opens showing a summary of executed workflows.\\
 
     <div align="left"><figure><img src="../../.gitbook/assets/image (8).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
@@ -42,7 +41,7 @@ Each row in the table represents one workflow execution and includes:
 
 Clicking the **arrow** on the left of each row expands the **workflow detail view**.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (9).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/workflow_test9_match_check_overview.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### **Workflow Detail View**
 
@@ -58,10 +57,9 @@ Each condition line shows:
 
 * **Green check**: Condition was met.
 * **Orange dash**: Condition was not met.
-* &#x20;**Red cross**: Condition failed **due to an error**
+* **Red cross**: Condition failed **due to an error**
 
 ### **Important Behavior Note**
 
-If a condition in a workflow is **not met**, the system **stops evaluating any further workflow cards** within that workflow. This behavior prevents unnecessary processing \
+If a condition in a workflow is **not met**, the system **stops evaluating any further workflow cards** within that workflow. This behavior prevents unnecessary processing\
 As a visual indicator, the card that **did not meet its condition** is shown in **gray**, and all **subsequent cards** in the same workflow will also appear **gray**, indicating that they were **not executed**.
-

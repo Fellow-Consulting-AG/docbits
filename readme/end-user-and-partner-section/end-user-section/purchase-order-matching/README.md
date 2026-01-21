@@ -83,7 +83,7 @@ If your matching process is based on the **Received Delivery Open Quantity** att
 
 To match a purchase order line item with a line item extracted from the document, you have three options:
 
-1. **Drag and Drop**\n   Drag the desired purchase order line item and drop it onto the corresponding line item in the extracted table.
+1. **Drag and Drop**\n Drag the desired purchase order line item and drop it onto the corresponding line item in the extracted table.
 2. **Right-Click and Connect**
    * Right-click the purchase order line item you want to match and select **Select for match**.
    * Then, right-click the corresponding line item in the extracted table and select **Connect**.
@@ -107,11 +107,11 @@ The Purchase Order Matching process matches only specific columns. The list belo
 
 ### Quantity
 
-You have three options for matching the quantity. 
+You have three options for matching the quantity.&#x20;
 
-* Quantity 
+* Quantity&#x20;
 * Received Quantity
-* Received Delivery Open Quantity 
+* Received Delivery Open Quantity&#x20;
 
 You can set this option in **Settings → Global Settings → Document Types → More Settings → Purchase Order Section → Purchase Order**
 
@@ -130,8 +130,6 @@ This section provides a visual overview of how much has been delivered and invoi
 <div align="left"><figure><img src="../../../.gitbook/assets/PO-Shipment-Order-1.jpg" alt=""><figcaption></figcaption></figure></div>
 
 More details can be found on the [**PO Shipment Order Setting**](../../../administration-and-setup/settings/document-processing/module/po-shipment-order-setting.md) page.
-
-
 
 ## Accept Tolerances
 
@@ -188,9 +186,9 @@ This feature is particularly useful for scenarios where details are split across
 
 Lines will be considered a match if the following aggregated conditions are met:
 
-* **Unit Price**:\n  The average unit price of the multiple lines is calculated and compared against the unit price in the opposite table.
-* **Quantity**:\n  The sum of the quantities across the matched lines must match the quantity in the opposite table.
-* **Additional Requirements**:\n  Any additional [matching criteria](./#which-columns-are-being-matched) must also be satisfied.
+* **Unit Price**:\n The average unit price of the multiple lines is calculated and compared against the unit price in the opposite table.
+* **Quantity**:\n The sum of the quantities across the matched lines must match the quantity in the opposite table.
+* **Additional Requirements**:\n Any additional [matching criteria](./#which-columns-are-being-matched) must also be satisfied.
 
 If a single line item is matched to multiple lines, you can view detailed information by clicking the plus (+) icon next to the respective line item.
 
@@ -199,8 +197,6 @@ This expands the view to show all matched entries, helping you verify and manage
 <figure><img src="../../../.gitbook/assets/po_match_19.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/po_match_18.png" alt=""><figcaption></figcaption></figure>
-
-
 
 ## Remove PO Connections
 

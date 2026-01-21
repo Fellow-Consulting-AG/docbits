@@ -13,10 +13,7 @@ To enable the Bar-Code / QR Code Extraction feature, follow these steps:
    * Select **Document Processing** and then choose **Module**.
 2. **Enable the Feature**:
    * Scroll down to locate the **Bar-Code / QR Code Extraction** option.
-   *   Toggle the slider to enable Bar-Code / QR Code Extraction.
-       
-
-       <figure><img src="../../../../../../.gitbook/assets/barcode_qr_code_extraction_toggle.png" alt="Barcode and QR Code Extraction Toggle"><figcaption></figcaption></figure>
+   * Toggle the slider to enable Bar-Code / QR Code Extraction.
 
 ## **Supported Code Types**
 

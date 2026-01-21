@@ -6,13 +6,11 @@ This setting enhances the **Purchase Order Matching** screen by applying color c
 
 ## Where to Activate
 
-1. Go to: **Settings** → **Global Settings** → **Document Type**&#x20;
-2.  Select the desired document type and click on **More Settings**.\
-
+1. Go to: **Settings** → **Global Settings** → **Document Type**
+2.  Select the desired document type and click on **More Settings**.\\
 
     <figure><img src="../../../../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
-3.  In the **Purchase Order** section, navigate to the **Update Document Purchase Order Status** option.\
-
+3.  In the **Purchase Order** section, navigate to the **Update Document Purchase Order Status** option.\\
 
     <figure><img src="../../../../../../.gitbook/assets/image (469).png" alt=""><figcaption></figcaption></figure>
 
@@ -26,9 +24,7 @@ This setting enhances the **Purchase Order Matching** screen by applying color c
     <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (472).png" alt="" width="563"><figcaption></figcaption></figure></div>
 *   **Yellow** – The PO line is **partially matched**; there is still quantity available for matching.
 
-    <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (471).png" alt="" width="563"><figcaption></figcaption></figure></div>
-*   **Pink** – The PO line is **fully matched**; no remaining quantity is available for further matching.\
-
+    <div align="left"><figure><img src="../../../../../../.gitbook/assets/consumed_po_line_status.png" alt="" width="563"><figcaption></figcaption></figure></div>
+*   **Pink** – The PO line is **fully matched**; no remaining quantity is available for further matching.\\
 
     <div align="left"><figure><img src="../../../../../../.gitbook/assets/image (473).png" alt="" width="563"><figcaption></figcaption></figure></div>
-

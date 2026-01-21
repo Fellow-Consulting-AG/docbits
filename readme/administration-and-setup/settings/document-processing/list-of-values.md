@@ -33,7 +33,7 @@ To delete a list, click the trash can icon next to the corresponding list.
 
 <mark style="color:red;">**Note**</mark>: The list will be deleted immediately. Lists marked with the [**Standard**](list-of-values.md#system-defined-lists-and-rows) tag cannot be deleted.
 
-## How to Add, Edit, or Remove Values from an Existing List&#x20;
+## How to Add, Edit, or Remove Values from an Existing List
 
 You can manage values in an existing **List of Values** using one of the following methods:
 
@@ -74,6 +74,9 @@ For example, if **EUR** is your primary **value**, you can add EURO and € as *
     <figure><img src="../../../.gitbook/assets/list_of_values_11.png" alt=""><figcaption></figcaption></figure>
 
 ### Import Values from a CSV File
+
+<mark style="color:red;">**Note:**</mark> When importing a CSV file, only the following columns are processed: **Value**, **Sub-Organization**, **Synonyms**, **Language**, and **Label**.\
+Any additional columns included in the CSV file are **ignored** during the import.
 
 To add multiple values at once via CSV import:
 
