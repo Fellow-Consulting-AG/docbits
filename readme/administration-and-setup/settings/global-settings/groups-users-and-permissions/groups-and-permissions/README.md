@@ -1,5 +1,9 @@
 # Grupos y Permisos
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 **Componentes de la Sección de Grupos y Permisos**
 
 1. **Activar/Desactivar Grupos y Permisos**: Un interruptor que permite al administrador del sistema habilitar o deshabilitar el uso de grupos y permisos en toda la plataforma. Cuando se desactiva, el sistema puede recurrir a un modelo de control de acceso menos granular.

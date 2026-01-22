@@ -1,5 +1,9 @@
 # Agregar/Editar Grupos
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 ### Para agregar un nuevo grupo o cambiar los permisos de un grupo existente, puedes hacer lo siguiente:
 
 * **Navegar a la Configuración del Grupo:** Inicia sesión en tu cuenta de administrador y ve a la Configuración del Grupo en el panel de administración.

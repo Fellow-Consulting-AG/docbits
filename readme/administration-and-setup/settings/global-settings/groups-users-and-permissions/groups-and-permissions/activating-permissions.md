@@ -1,5 +1,9 @@
 # Activando Permisos
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 Habilitar o deshabilitar el sistema de permisos usando el interruptor tiene varios efectos en la funcionalidad de DocBits.
 
 ## **Habilitando el sistema de permisos:**
