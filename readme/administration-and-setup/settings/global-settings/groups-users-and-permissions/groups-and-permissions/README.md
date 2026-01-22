@@ -1,5 +1,9 @@
 # Grupy i Uprawnienia
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 **Składniki Sekcji Grup i Uprawnień**
 
 1. **Włącz/Wyłącz Grupy i Uprawnienia**: Przełącznik, który pozwala administratorowi systemu włączać lub wyłączać korzystanie z grup i uprawnień w całej platformie. Po wyłączeniu system może przejść domyślnie do mniej szczegółowego modelu kontroli dostępu.

@@ -1,5 +1,9 @@
 # Aktywacja uprawnień
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 Włączenie lub wyłączenie systemu uprawnień za pomocą przełącznika ma różne skutki dla funkcjonalności w DocBits.
 
 ## **Włączenie systemu uprawnień:**
