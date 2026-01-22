@@ -1,5 +1,9 @@
 # Activating Permissions
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 Enabling or disabling the permission system using the switch has various effects on the functionality in DocBits.
 
 ## **Enabling the permission system:**
