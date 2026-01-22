@@ -2,6 +2,10 @@
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2009.43.25.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://youtu.be/n8NpWWIjmlA" %}
+DocBits Document Scripts Explained: Automate Custom Logic in Your Document Workflow
+{% endembed %}
+
 #### Aperçu
 
 Les scripts dans Docbits sont généralement écrits dans un langage de script pris en charge par le système Python. Ils sont déclenchés pendant le flux de traitement des documents pour appliquer une logique métier complexe ou garantir l'intégrité et l'exactitude des données avant que les données ne soient traitées ou stockées davantage.
