@@ -2,7 +2,8 @@
 
 Wenn Sie Dokumente manuell in DocBits importieren möchten, befolgen Sie diese einfachen Schritte:
 
-{% embed url="https://youtu.be/rJ2nuJh0Obw" %}
+{% embed url="https://youtu.be/5_11Q0JbeaU" %}
+DocBits Import Tutorial: Upload Documents, Drag & Drop + Manual vs Automatic Classification
 {% endembed %}
 
 * Klicken Sie auf die Schaltfläche "Hochladen" im DocBits-Dashboard.
