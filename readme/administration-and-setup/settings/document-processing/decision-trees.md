@@ -1,5 +1,9 @@
 # Decision Trees
 
+{% embed url="https://youtu.be/omFWSkSjlL0" %}
+How to Create a Decision Tree in DocBits (Conditions, Policies, Testing & Export)
+{% endembed %}
+
 ## Overview
 
 Decision Trees are a powerful feature that allows for the automated routing and decision-making process based on predefined rules. This feature is especially useful in complex environments where various conditions need to be evaluated to determine the correct course of action, such as assigning prices, determining quantities, or routing documents.
