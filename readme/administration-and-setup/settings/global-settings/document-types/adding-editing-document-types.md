@@ -1,5 +1,9 @@
 # Adding/Editing Document Types
 
+{% embed url="https://youtu.be/pFz_6tvNlU4" %}
+DocBits Document Types Explained: Create, Configure & Assign Processing Settings
+{% endembed %}
+
 ## Adding or editing document types in DocBits involves several steps. These steps include defining layouts, fields and extraction rules.
 
 ### Here is a detailed guide:
