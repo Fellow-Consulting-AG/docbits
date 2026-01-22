@@ -1,5 +1,9 @@
 # Normes de Facturation Électronique Actuellement Prises en Charge
 
+{% embed url="https://youtu.be/li8KjWO18eU" %}
+DocBits E-Invoice Tutorial: Process XRechnung & ZUGFeRD/Factur-X, Validate Data & Automate Workflows
+{% endembed %}
+
 ## Formats Pris en Charge
 
 DocBits prend en charge les formats de facturation électronique suivants :

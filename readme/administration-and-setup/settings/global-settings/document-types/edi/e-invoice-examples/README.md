@@ -1,5 +1,9 @@
 # Exemples de Factures Électroniques
 
+{% embed url="https://youtu.be/li8KjWO18eU" %}
+DocBits E-Invoice Tutorial: Process XRechnung & ZUGFeRD/Factur-X, Validate Data & Automate Workflows
+{% endembed %}
+
 **XRechnung UBL 1.2 :**
 
 * Fichier exemple :
