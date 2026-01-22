@@ -2,9 +2,9 @@
 
 Si vous souhaitez importer des documents manuellement dans DocBits, suivez ces étapes simples :
 
-{% embed url="https://youtu.be/rJ2nuJh0Obw" %}
+{% embed url="https://youtu.be/5_11Q0JbeaU" %}
+DocBits Import Tutorial: Upload Documents, Drag & Drop + Manual vs Automatic Classification
 {% endembed %}
-
 
 * Cliquez sur le bouton Importer sur le tableau de bord de DocBits.
 * Une fenêtre apparaîtra où vous pourrez importer vos documents via le navigateur de fichiers ou par glisser-déposer. Vous pouvez importer jusqu'à 10 documents à la fois.
