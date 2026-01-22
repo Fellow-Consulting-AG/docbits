@@ -113,6 +113,10 @@ To share internal information, you can create tasks and assign them to a specifi
 
 <figure><img src="../../../.gitbook/assets/annotation_mode_example.png" alt="Annotation Mode Example"><figcaption></figcaption></figure>
 
+{% embed url="https://youtu.be/ay0gGtwlqRE" %}
+DocBits Annotation Mode Tutorial: Add Notes in Validation & Download With/Without Annotations
+{% endembed %}
+
 You can leave annotations on a document. This can be helpful to leave information for other users who further edit this document.
 
 * **Annotation Mode:**
