@@ -1,5 +1,9 @@
 # Berechtigungen aktivieren
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 Das Aktivieren oder Deaktivieren des Berechtigungssystems über den Schalter hat verschiedene Auswirkungen auf die Funktionalität in DocBits.
 
 ## **Aktivieren des Berechtigungssystems:**

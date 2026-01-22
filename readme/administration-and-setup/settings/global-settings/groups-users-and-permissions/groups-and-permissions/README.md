@@ -1,5 +1,9 @@
 # Gruppen und Berechtigungen
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 <figure><img src="../../../../../.gitbook/assets/docbits_purchase_order_permission.png" alt="Bestellung Berechtigung Übersicht"><figcaption></figcaption></figure>
 
 **Komponenten des Abschnitts Gruppen und Berechtigungen**
