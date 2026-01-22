@@ -100,6 +100,10 @@ Aby udostępnić informacje wewnętrzne, możesz tworzyć zadania i przypisywać
 
 <figure><img src="../../../.gitbook/assets/validation_screen15.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://youtu.be/ay0gGtwlqRE" %}
+DocBits Annotation Mode Tutorial: Add Notes in Validation & Download With/Without Annotations
+{% endembed %}
+
 Możesz zostawić adnotacje na dokumencie. Może to być pomocne, aby zostawić informacje dla innych użytkowników, którzy będą dalej edytować ten dokument.
 
 * **Tryb adnotacji:**
