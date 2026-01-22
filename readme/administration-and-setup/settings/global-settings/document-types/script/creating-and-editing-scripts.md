@@ -1,5 +1,9 @@
 # Creating and Editing Scripts
 
+{% embed url="https://youtu.be/n8NpWWIjmlA" %}
+DocBits Document Scripts Explained: Automate Custom Logic in Your Document Workflow
+{% endembed %}
+
 ## To create a new script in DocBits, follow these detailed instructions:
 
 **Choose the scripting language:**
