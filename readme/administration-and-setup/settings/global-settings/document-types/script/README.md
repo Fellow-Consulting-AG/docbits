@@ -2,6 +2,10 @@
 
 <figure><img src="../../../../../.gitbook/assets/Bildschirmfoto%202024-05-08%20um%2009.43.25.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://youtu.be/n8NpWWIjmlA" %}
+DocBits Document Scripts Explained: Automate Custom Logic in Your Document Workflow
+{% endembed %}
+
 #### Przegląd
 
 Skrypty w Docbits są zazwyczaj pisane w języku skryptowym obsługiwanym przez system Python. Są one uruchamiane podczas przetwarzania dokumentu, aby zastosować złożoną logikę biznesową lub zapewnić integralność i dokładność danych przed dalszym przetwarzaniem lub przechowywaniem.
