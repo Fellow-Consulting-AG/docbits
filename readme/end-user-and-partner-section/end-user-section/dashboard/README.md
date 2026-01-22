@@ -7,3 +7,7 @@ Após fazer login com suas credenciais, você será redirecionado para a página
 
 
 {% embed url="https://www.youtube.com/watch?v=n5s5cQPncUY" %}
+
+{% embed url="https://youtu.be/ay0gGtwlqRE" %}
+DocBits Annotation Mode Tutorial: Add Notes in Validation & Download With/Without Annotations
+{% endembed %}

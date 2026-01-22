@@ -96,11 +96,15 @@ Para compartilhar informações internas, você pode criar tarefas e atribuí-la
 
 ### **Modo de Anotação:**
 
-<figure><img src="../../../.gitbook/assets/validation_screen14.png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen_annotation_mode.png" alt="Annotation Mode Button" width="187"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/validation_screen15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/annotation_mode_example.png" alt="Annotation Mode Example"><figcaption></figcaption></figure>
 
-Você pode deixar anotações em um documento. Isso pode ser útil para deixar informações para outros usuários que irão editar este documento posteriormente.
+{% embed url="https://youtu.be/ay0gGtwlqRE" %}
+DocBits Annotation Mode Tutorial: Add Notes in Validation & Download With/Without Annotations
+{% endembed %}
+
+You can leave annotations on a document. This can be helpful to leave information for other users who further edit this document.
 
 * **Modo de Anotação:**
   * **Propósito:** Permite que os usuários deixem notas ou anotações diretamente no documento.
