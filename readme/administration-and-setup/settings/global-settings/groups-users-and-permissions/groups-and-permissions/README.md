@@ -1,5 +1,9 @@
 # Groupes et Autorisations
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 **Composants de la Section Groupes et Autorisations**
 
 1. **Activer/Désactiver les Groupes et Autorisations** : Un interrupteur qui permet à l'administrateur système d'activer ou de désactiver l'utilisation des groupes et des autorisations sur la plateforme. Lorsqu'il est désactivé, le système peut revenir à un modèle de contrôle d'accès moins granulaire.

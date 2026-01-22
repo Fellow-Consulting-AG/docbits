@@ -1,5 +1,9 @@
 # Activation des autorisations
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 L'activation ou la désactivation du système d'autorisations à l'aide de l'interrupteur a divers effets sur la fonctionnalité dans DocBits.
 
 ## Activation du système d'autorisations:
