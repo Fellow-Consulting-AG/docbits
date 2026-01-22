@@ -2,9 +2,9 @@
 
 Jeśli chcesz ręcznie importować dokumenty do DocBits, postępuj zgodnie z tymi prostymi krokami:
 
-{% embed url="https://youtu.be/rJ2nuJh0Obw" %}
+{% embed url="https://youtu.be/5_11Q0JbeaU" %}
+DocBits Import Tutorial: Upload Documents, Drag & Drop + Manual vs Automatic Classification
 {% endembed %}
-
 
 * Kliknij przycisk Prześlij na pulpicie nawigacyjnym DocBits.
 * Pojawi się okno, w którym możesz przesłać swoje dokumenty za pomocą przeglądarki plików lub metodą przeciągnij i upuść. Możesz przesłać do 10 dokumentów jednocześnie.
