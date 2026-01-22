@@ -98,11 +98,15 @@ Per condividere informazioni interne, puoi creare compiti e assegnarli a un dipe
 
 ### **Modalità annotazione:**
 
-<figure><img src="../../../.gitbook/assets/validation_screen14.png" alt="" width="187"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/validation_screen_annotation_mode.png" alt="Annotation Mode Button" width="187"><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/validation_screen15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/annotation_mode_example.png" alt="Annotation Mode Example"><figcaption></figcaption></figure>
 
-Puoi lasciare annotazioni su un documento. Questo può essere utile per lasciare informazioni per altri utenti che modificheranno ulteriormente questo documento.
+{% embed url="https://youtu.be/ay0gGtwlqRE" %}
+DocBits Annotation Mode Tutorial: Add Notes in Validation & Download With/Without Annotations
+{% endembed %}
+
+You can leave annotations on a document. This can be helpful to leave information for other users who further edit this document.
 
 * **Modalità Annotazione:**
   * **Scopo:** Consente agli utenti di lasciare note o annotazioni direttamente sul documento.
