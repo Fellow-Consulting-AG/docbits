@@ -1,5 +1,9 @@
 # ZUGFeRD 1.0, 2.1 et 2.3
 
+{% embed url="https://youtu.be/AxrHNEmmXtg" %}
+DocBits E-Invoice Tutorial: Process XRechnung / ZUGFeRD (Factur-X), Validate Data & Automate Workflows
+{% endembed %}
+
 ## **Versions prises en charge de ZUGFeRD**
 
 Les versions actuellement prises en charge de ZUGFeRD sont :
