@@ -1,5 +1,9 @@
 # Creating and Editing Scripts
 
+{% embed url="https://youtu.be/n8NpWWIjmlA" %}
+DocBits Document Scripts Explained: Automate Custom Logic in Your Document Workflow
+{% endembed %}
+
 (Contenuto inglese qui sotto - Traduzione in sospeso)
 
 
