@@ -1,5 +1,9 @@
 # Estándares de Factura Electrónica Actualmente Compatibles
 
+{% embed url="https://youtu.be/li8KjWO18eU" %}
+DocBits E-Invoice Tutorial: Process XRechnung & ZUGFeRD/Factur-X, Validate Data & Automate Workflows
+{% endembed %}
+
 ## Formatos Compatibles
 
 DocBits admite los siguientes formatos de facturación electrónica:
