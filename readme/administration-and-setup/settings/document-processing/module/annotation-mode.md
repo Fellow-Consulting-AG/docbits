@@ -1,69 +1,69 @@
-# Annotation Mode
+# Anmerkungsmodus
 
-## Overview
+## Überblick
 
-The **Annotation Mode** setting allows users to create and manage annotations directly on the PDF. If a document contains annotations, they will be included when **exporting to IDM**.
+Die Einstellung **Anmerkungsmodus** ermöglicht es Benutzern, Anmerkungen direkt auf dem PDF zu erstellen und zu verwalten. Wenn ein Dokument Anmerkungen enthält, werden diese beim **Export nach IDM** einbezogen.
 
-## Location
+## Standort
 
-You can find this setting under: **Settings → Document Processing → Module → Document Type → Annotation Mode**
+Sie finden diese Einstellung unter: **Einstellungen → Dokumentenverarbeitung → Module → Dokumententyp → Anmerkungsmodus**
 
 <figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224104758.jpg" alt=""><figcaption></figcaption></figure>
 
-## How to Use Annotation Mode
+{% embed url="https://youtu.be/ay0gGtwlqRE" %}
+DocBits Document Processing: Dokumente markieren & Kommentare hinzufügen (Annotation Mode)
+{% endembed %}
 
-### 1. Enabling Annotation Mode
+## Verwendung des Anmerkungsmodus
 
-* Navigate to the **Validation Screen**.
-* Click on the **speech bubble** icon on the right to enter Annotation Mode.
+### 1. Aktivieren des Anmerkungsmodus
+
+* Navigieren Sie zum **Validierungsbildschirm**.
+* Klicken Sie auf das **Sprechblasen-Symbol** auf der rechten Seite, um den Anmerkungsmodus zu aktivieren.
 
 <div align="center"><figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224105047.jpg" alt=""><figcaption></figcaption></figure></div>
 
-### 2. Creating an Annotation
+### 2. Erstellen einer Anmerkung
 
-* Select an area on the PDF where you want to place an annotation.
-* Click the **pen** icon to write text.
-* Click the **document** icon to save the annotation.
-* Click the **trash can** icon to delete the annotation.
+* Wählen Sie einen Bereich auf dem PDF aus, in dem Sie eine Anmerkung platzieren möchten.
+* Klicken Sie auf das **Stift-Symbol**, um Text zu schreiben.
+* Klicken Sie auf das **Dokument-Symbol**, um die Anmerkung zu speichern.
+* Klicken Sie auf das **Papierkorb-Symbol**, um die Anmerkung zu löschen.
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224105556.jpg" alt=""><figcaption></figcaption></figure></div>
 
-*   Customize the text using:
-
-    * **Size** adjustment
-    * **Bold**
-    * _**Italic**_
-    * <mark style="color:purple;">**Color**</mark>
-    * **Font selection**
+* Passen Sie den Text an mit:
+    * **Größenanpassung**
+    * **Fett**
+    * _**Kursiv**_
+    * <mark style="color:purple;">**Farbe**</mark>
+    * **Schriftauswahl**
 
     <div align="left"><figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224105351.jpg" alt=""><figcaption></figcaption></figure></div>
 
-### 3. Managing Annotations
+### 3. Verwalten von Anmerkungen
 
-* **Move an annotation** by clicking and holding the left mouse button.
-* **Create multiple annotations** within the same document.
-* **Annotations are only visible** when Annotation Mode is enabled.
-* Annotations **will be included** when exporting the document to **IDM.**
-* If a document contains annotations, the **speech bubble icon** will display a small **exclamation mark** to indicate their presence.
+* **Verschieben Sie eine Anmerkung**, indem Sie die linke Maustaste gedrückt halten.
+* **Erstellen Sie mehrere Anmerkungen** innerhalb desselben Dokuments.
+* **Anmerkungen sind nur sichtbar**, wenn der Anmerkungsmodus aktiviert ist.
+* Anmerkungen **werden beim Export** des Dokuments nach **IDM einbezogen.**
+* Wenn ein Dokument Anmerkungen enthält, zeigt das **Sprechblasen-Symbol** ein kleines **Ausrufezeichen** an.
 
 <figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224105935.jpg" alt=""><figcaption></figcaption></figure>
 
 *
 
-<mark style="color:red;">**Note:**</mark> Annotations can also be viewed, added, and modified directly within the **Approval Screen**, allowing users to make necessary adjustments during the approval process.
+<mark style="color:red;">**Hinweis:**</mark> Anmerkungen können auch direkt im **Genehmigungsbildschirm** angezeigt, hinzugefügt und geändert werden, sodass Benutzer während des Genehmigungsprozesses notwendige Anpassungen vornehmen können.
 
-### 4. Downloading PDFs with or without Annotations
+### 4. PDFs mit oder ohne Anmerkungen herunterladen
 
-* If a document has annotations, you can choose to download the PDF either with or without the annotations.
-* To do this, go to the **Dashboard**.
-* Click on the **three dots** in the **Action** column.
-* Select one of the two available download options:
-  * **Download with Annotations**
-  * **Download without Annotations**
+* Wenn ein Dokument Anmerkungen hat, können Sie wählen, ob Sie das PDF mit oder ohne Anmerkungen herunterladen möchten.
+* Gehen Sie dazu zum **Dashboard**.
+* Klicken Sie auf die **drei Punkte** in der Spalte **Aktion**.
+* Wählen Sie eine der beiden verfügbaren Download-Optionen:
+  * **Download mit Anmerkungen**
+  * **Download ohne Anmerkungen**
 
 <figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224115302.jpg" alt=""><figcaption></figcaption></figure>
 
-By enabling and using Annotation Mode, users can efficiently add, edit, and manage annotations directly on PDFs, enhancing document collaboration and review.
-
-
-
+Durch das Aktivieren und Verwenden des Anmerkungsmodus können Benutzer effizient Anmerkungen direkt auf PDFs hinzufügen, bearbeiten und verwalten, was die Zusammenarbeit und Überprüfung von Dokumenten verbessert.

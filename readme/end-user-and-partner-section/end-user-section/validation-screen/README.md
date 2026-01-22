@@ -104,6 +104,10 @@ Um interne Informationen zu teilen, können Sie Aufgaben erstellen und sie einem
 
 <figure><img src="../../../.gitbook/assets/validation_screen15.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://youtu.be/ay0gGtwlqRE" %}
+DocBits Annotation Mode erklärt: Dokumente direkt im Validation Screen annotieren
+{% endembed %}
+
 Sie können Anmerkungen zu einem Dokument hinterlassen. Dies kann hilfreich sein, um Informationen für andere Benutzer zu hinterlassen, die dieses Dokument weiter bearbeiten.
 
 * **Anmerkungsmodus:**

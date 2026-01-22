@@ -8,4 +8,8 @@ Nachdem Sie sich mit Ihren Anmeldedaten angemeldet haben, werden Sie zur Startse
 
 <figure><img src="../../.gitbook/assets/dashboard.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://youtu.be/ay0gGtwlqRE" %}
+So nutzt du Annotation Mode in DocBits (Setup + Download mit/ohne Notizen)
+{% endembed %}
+
 {% embed url="https://www.youtube.com/watch?v=2-7oiNhbHKM" %}
