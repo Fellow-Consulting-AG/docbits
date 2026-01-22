@@ -10,6 +10,10 @@ You can find this setting under: **Settings → Document Processing → Module �
 
 <figure><img src="../../../../.gitbook/assets/iScreen Shoter - Google Chrome - 250224104758.jpg" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://youtu.be/ay0gGtwlqRE" %}
+DocBits Annotation Mode Tutorial: Add Notes in Validation & Download With/Without Annotations
+{% endembed %}
+
 ## How to Use Annotation Mode
 
 ### 1. Enabling Annotation Mode

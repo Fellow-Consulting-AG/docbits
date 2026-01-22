@@ -5,3 +5,7 @@ Después de iniciar sesión con tus credenciales, serás redirigido a la página
 <figure><img src="../../../.gitbook/assets/docbits_dashboard_overview.png" alt="DocBits Tablero Visión general"><figcaption></figcaption></figure>
 
 {% embed url="https://www.youtube.com/watch?v=n5s5cQPncUY" %}
+
+{% embed url="https://youtu.be/ay0gGtwlqRE" %}
+DocBits Annotation Mode Tutorial: Add Notes in Validation & Download With/Without Annotations
+{% endembed %}
