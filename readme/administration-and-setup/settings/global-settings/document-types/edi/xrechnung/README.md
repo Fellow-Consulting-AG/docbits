@@ -1,5 +1,9 @@
 # XRechnung
 
+{% embed url="https://youtu.be/AxrHNEmmXtg" %}
+DocBits E-Invoice Tutorial: Process XRechnung / ZUGFeRD (Factur-X), Validate Data & Automate Workflows
+{% endembed %}
+
 ## Przegląd
 
 W panelu administracyjnym XRechnung spotkasz następujące kluczowe komponenty:
