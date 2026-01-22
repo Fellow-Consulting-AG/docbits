@@ -1,5 +1,9 @@
 # Padrões de Fatura Eletrônica Atualmente Suportados
 
+{% embed url="https://youtu.be/li8KjWO18eU" %}
+DocBits E-Invoice Tutorial: Process XRechnung & ZUGFeRD/Factur-X, Validate Data & Automate Workflows
+{% endembed %}
+
 ## Formatos Suportados
 
 DocBits suporta os seguintes formatos de faturamento eletrônico:
