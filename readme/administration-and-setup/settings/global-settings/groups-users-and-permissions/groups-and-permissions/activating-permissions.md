@@ -1,5 +1,9 @@
 # Attivazione dei Permessi
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 Abilitare o disabilitare il sistema di permessi utilizzando l'interruttore ha vari effetti sulla funzionalità in DocBits.
 
 ### **Abilitazione del sistema di permessi:**

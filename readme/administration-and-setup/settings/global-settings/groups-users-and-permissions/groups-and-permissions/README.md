@@ -1,5 +1,9 @@
 # Gruppi e Autorizzazioni
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Groups & Permissions Tutorial: Set User Roles, Access Rights & Secure Your Workspace
+{% endembed %}
+
 **Componenti della Sezione Gruppi e Autorizzazioni**
 
 1. **Attiva/Disattiva Gruppi e Autorizzazioni**: Un'interruttore che consente all'amministratore di sistema di abilitare o disabilitare l'uso di gruppi e autorizzazioni su tutta la piattaforma. Quando disattivato, il sistema potrebbe utilizzare un modello di controllo degli accessi meno dettagliato.
