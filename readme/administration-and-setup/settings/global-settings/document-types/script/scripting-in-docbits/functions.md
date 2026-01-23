@@ -175,7 +175,7 @@ if purchase_order:
 
 #### Parametri:
 
-<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome del campo da impostare</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome dell'attributo da impostare</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Il valore da impostare per l'attributo</td></tr></tbody></table>
+<table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrizione</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>I dati del documento contenenti informazioni sui campi</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome del campo da impostare</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Il nome dell'attributo da impostare. L'elenco degli attributi supportati è disponibile <a href="functions.md#attributi-supportati">qui</a>.</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Il valore da impostare per l'attributo</td></tr></tbody></table>
 
 ### **is\_supplier\_valid()**
 
