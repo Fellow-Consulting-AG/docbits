@@ -179,7 +179,7 @@
       * [Modello AI](administration-and-setup/settings/document-processing/classification-and-extraction/ai-model.md)
     * [Ricerca dei dati master](administration-and-setup/settings/document-processing/master-data-lookup.md)
     * [Elenco dei valori](administration-and-setup/settings/document-processing/list-of-values.md)
-    * [Esportazione](administration-and-setup/settings/document-processing/export.md)
+    * [Exportação](administration-and-setup/settings/document-processing/export.md)
     * [Moduli](administration-and-setup/settings/document-processing/module/README.md)
       * [Modalità Annotazione](administration-and-setup/settings/document-processing/module/annotation-mode.md)
       * [Email in entrata](administration-and-setup/settings/document-processing/module/inbound-emails.md)
