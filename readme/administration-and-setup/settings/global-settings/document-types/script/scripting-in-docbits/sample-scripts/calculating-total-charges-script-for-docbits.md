@@ -1,16 +1,16 @@
-# Calculating Total Charges Script for Docbits
+# Script de Calcul des Frais Totaux pour Docbits
 
 ### Introduction
 
-This document provides a detailed guide on the "Calculating Total Charges" script within the Docbits platform. The script is designed to automatically calculate the total amount charged on an invoice by summing up various individual charges. This automation enhances accuracy and efficiency in document processing.
+Ce document fournit un guide détaillé sur le script "Calculating Total Charges" au sein de la plateforme Docbits. Le script est conçu pour calculer automatiquement le montant total facturé sur une facture en additionnant divers frais individuels. Cette automatisation améliore la précision et l'efficacité du traitement des documents.
 
-### Objective
+### Objectif
 
-The aim of this script is to streamline the calculation process for total charges on invoices. By automatically adding up specified charges, such as base charges, taxes, and additional fees, the script ensures that the total charges reflected on each invoice are accurate and comprehensive.
+L'objectif de ce script est de rationaliser le processus de calcul des frais totaux sur les factures. En additionnant automatiquement les frais spécifiés, tels que les frais de base, les taxes et les frais supplémentaires, le script garantit que les frais totaux reflétés sur chaque facture sont précis et complets.
 
-### Script Details
+### Détails du Script
 
-#### Code Implementation
+#### Implémentation du Code
 
 ```python
 # Initialize variables to store the values of individual charges
@@ -34,3 +34,5 @@ if 'total_charges' not in fields_dict:
 else:
     set_field_value(fields_dict, 'total_charges', formatted_total)
 ```
+
+
