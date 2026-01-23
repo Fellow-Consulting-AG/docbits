@@ -91,7 +91,7 @@ if not currency:
 
 #### Parameters:
 
-<table><thead><tr><th width="140">Name</th><th width="133">Type</th><th>Description</th></tr></thead><tbody><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>str</code></td><td>The document data containing field information</td></tr><tr><td>value (optional)</td><td><code>any</code></td><td>The initial value for the field <br>Default is <code>""</code></td></tr></tbody></table>
+<table><thead><tr><th width="140">Name</th><th width="133">Type</th><th>Description</th></tr></thead><tbody><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>str</code></td><td>The document data containing field information</td></tr><tr><td>value (optional)</td><td><code>any</code></td><td>The initial value for the field<br>Default is <code>""</code></td></tr></tbody></table>
 
 #### Returns:
 
@@ -158,7 +158,7 @@ if not document_date:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to mark as invalid</td></tr><tr><td>message<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The validation message for the field</td></tr><tr><td>code (optional)</td><td><code>string</code></td><td><p>Error code for the validation </p><p>Default is <code>None</code></p></td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to mark as invalid</td></tr><tr><td>message<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The validation message for the field</td></tr><tr><td>code (optional)</td><td><code>string</code></td><td><p>Error code for the validation</p><p>Default is <code>None</code></p></td></tr></tbody></table>
 
 ### **set\_field\_attribute()**
 
@@ -175,7 +175,7 @@ if purchase_order:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the attribute to set</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>The value to set for the attribute</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the field to set</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the attribute to set. List of supported attributes can be found <a href="functions.md#supported-attributes">here</a>.</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>The value to set for the attribute</td></tr></tbody></table>
 
 ### **is\_supplier\_valid()**
 
@@ -237,7 +237,7 @@ reverse_charge_to_check = get_lov_values(org_id, 'Kosten', return_type="list_of_
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The key of the required  List Of Values </td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr><tr><td>language_code<br>(optional)</td><td><code>string</code></td><td>This parameter sets the language in which the values will be returned. It accepts language codes, such as "en" for English or "fr" for French.<br>Default is <code>""</code></td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>org_id<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>key<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The key of the required List Of Values</td></tr><tr><td>return_type (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'list_of_objects'</code></td></tr><tr><td>sub_org_id (optional)</td><td><code>string</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>None</code></td></tr><tr><td>language_code<br>(optional)</td><td><code>string</code></td><td>This parameter sets the language in which the values will be returned. It accepts language codes, such as "en" for English or "fr" for French.<br>Default is <code>""</code></td></tr></tbody></table>
 
 #### Returns:
 
@@ -256,7 +256,7 @@ formatted_value = format_decimal_to_locale(
 
 #### Parameters:
 
-<table><thead><tr><th width="208">Name</th><th width="187">Type</th><th>Description</th></tr></thead><tbody><tr><td>value<mark style="color:red;">*</mark></td><td><code>float, decimal.Decimal, str</code> </td><td>The ID of the organization to which the document belongs</td></tr><tr><td>to_locale (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'en_US.UTF-8'</code></td></tr><tr><td>max_decimal_places (optional)</td><td><code>int</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>4</code></td></tr><tr><td>min_decimal_places (optional)</td><td><code>int</code></td><td>The minimum of decimal places which should be considered<br>Default is <code>2</code></td></tr></tbody></table>
+<table><thead><tr><th width="208">Name</th><th width="187">Type</th><th>Description</th></tr></thead><tbody><tr><td>value<mark style="color:red;">*</mark></td><td><code>float, decimal.Decimal, str</code></td><td>The ID of the organization to which the document belongs</td></tr><tr><td>to_locale (optional)</td><td><code>string</code></td><td>The type in which the data should be returned<br>Default is <code>'en_US.UTF-8'</code></td></tr><tr><td>max_decimal_places (optional)</td><td><code>int</code></td><td>Optional sub-organization ID for filtering<br>Default is <code>4</code></td></tr><tr><td>min_decimal_places (optional)</td><td><code>int</code></td><td>The minimum of decimal places which should be considered<br>Default is <code>2</code></td></tr></tbody></table>
 
 * value: The value which should be formatted.
 * to\_locale (optional): The format in which the value gets transformed.
@@ -365,7 +365,7 @@ user_name = str(get_user_by_email(email)
 
 ### **add\_table\_column()**
 
-Adds a column to the specified  table.
+Adds a column to the specified table.
 
 ```python
 table = tables_dict.get("ORDER_CONFIRMATION_TABLE")
@@ -376,7 +376,7 @@ if table:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>table<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The table where the column should be added</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>default_value (optional)</td><td><code>any</code></td><td><p>The initial value for the field </p><p>Default is <code>None</code></p></td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>table<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The table where the column should be added</td></tr><tr><td>col_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>The name of the column</td></tr><tr><td>default_value (optional)</td><td><code>any</code></td><td><p>The initial value for the field</p><p>Default is <code>None</code></p></td></tr></tbody></table>
 
 ### **get\_column\_value()**
 
@@ -469,7 +469,7 @@ restore_tables(document_data)
 
 ### **remove\_rows\_from\_table()**
 
-Removes rows from the specified table.&#x20;
+Removes rows from the specified table.
 
 ```python
 count = 1
@@ -495,7 +495,40 @@ remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)
 
 <table><thead><tr><th width="173">Name</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>The document data containing field information</td></tr><tr><td>line_number<mark style="color:red;">*</mark></td><td><code>int</code></td><td>The number of the line which should not be removed</td></tr></tbody></table>
 
+## Supported Attributes
 
+### Core Field Attributes
+
+| Attribute           | Type   | Description                                |
+| ------------------- | ------ | ------------------------------------------ |
+| `value`             | any    | The raw field value                        |
+| `formatted_value`   | string | Display-formatted value                    |
+| `content`           | string | Original extracted content                 |
+| `is_required`       | bool   | Whether field is mandatory                 |
+| `is_valid`          | bool   | Validation status                          |
+| `is_validated`      | bool   | Whether field has been validated by user   |
+| `force_validation`  | bool   | Force user to validate this field          |
+| `highlight_field`   | bool   | Highlight field in UI                      |
+| `extraction_method` | string | How value was extracted (e.g., `"SCRIPT"`) |
+
+### Validation Attributes
+
+| Attribute               | Type   | Description                                                 |
+| ----------------------- | ------ | ----------------------------------------------------------- |
+| `validation_message`    | string | Error message shown to user                                 |
+| `validation_code`       | string | Error code (e.g., `"FORCED_VALIDATION"`, `"INVALID_VALUE"`) |
+| `invalidated_by_script` | bool   | Marks field as invalidated by script                        |
+
+### Extraction/OCR Attributes
+
+| Attribute           | Type   | Description                          |
+| ------------------- | ------ | ------------------------------------ |
+| `coords`            | object | Bounding box coordinates on document |
+| `confidence`        | float  | OCR/extraction confidence score      |
+| `score`             | float  | Match/validation score               |
+| `score_description` | string | Description of the score             |
+| `page`              | int    | Page number where field was found    |
+| `rule`              | string | Extraction rule that was applied     |
 
 ## Python Built-in Functions
 
