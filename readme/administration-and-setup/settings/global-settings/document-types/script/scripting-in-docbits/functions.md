@@ -175,7 +175,7 @@ if purchase_order:
 
 #### Parameter:
 
-<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des zu setzenden Feldes</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des Attributs, das gesetzt werden soll</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Der Wert, der für das Attribut gesetzt werden soll</td></tr></tbody></table>
+<table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des zu setzenden Feldes</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Der Name des Attributs, das gesetzt werden soll. Eine Liste der unterstützten Attribute finden Sie <a href="functions.md#unterstutzte-attribute">hier</a>.</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Der Wert, der für das Attribut gesetzt werden soll</td></tr></tbody></table>
 
 ### **is\_supplier\_valid()**
 
