@@ -47,8 +47,7 @@ However, it is possible to have:
 
 To create a new export:
 
-1. Click on the **“New”** button.
-   ![](<../../../.gitbook/assets/export_create_new_button.png>)
+1. Click on the **“New”** button. ![](../../../.gitbook/assets/export_create_new_button.png)
 2. Select the **Export Type** you want to configure (e.g., Infor, IDM, SFTP).
 3. Fill in the required fields based on the export type.
 4. Save the configuration.
@@ -65,17 +64,12 @@ To create a new export:
 
 **Field Descriptions**
 
-* **Title**
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_
-  A dropdown with all available sub-organizations.
+* **Title** The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_ A dropdown with all available sub-organizations.
   * If left empty: applies to the main organization.
   * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**
-  Dropdown listing all available document types.
-  This determines which type of document this export configuration applies to.
-* **Export URL**
-  The destination URL where the document should be exported.
+* **Document Type** Dropdown listing all available document types. This determines which type of document this export configuration applies to.
+* **Export URL** The destination URL where the document should be exported.
 
 </details>
 
@@ -89,33 +83,33 @@ To create a new export:
 
 **Field Descriptions**
 
-* **Title**
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_
-  A dropdown with all available sub-organizations.
+* **Title** The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_ A dropdown with all available sub-organizations.
   * If left empty: applies to the main organization.
   * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**
-  Dropdown listing all available document types.
-  This determines which type of document this export configuration applies to.
-* **Username**
-  The username used to authenticate against the SFTP server.
-* **Password**
-  The corresponding password for the SFTP account. Ensure the account has write access to the specified folder.
-* **Server URL**
-  The hostname or IP address of the target SFTP server.
-* **Port**
-  The port used to connect to the SFTP server.
-* **Folder**
-  The path on the SFTP server where documents should be uploaded (e.g., `/incoming/invoices/`).
-  Must exist and be writable.
+* **Document Type** Dropdown listing all available document types. This determines which type of document this export configuration applies to.
+* **Username** The username used to authenticate against the SFTP server.
+* **Password** The corresponding password for the SFTP account. Ensure the account has write access to the specified folder.
+* **Server URL** The hostname or IP address of the target SFTP server.
+* **Port** The port used to connect to the SFTP server.
+* **Folder** The path on the SFTP server where documents should be uploaded (e.g., `/incoming/invoices/`). Must exist and be writable.
 *   **XSLT File (Optional)**
 
     The **XSLT file** allows for transformation of the default DocBits export format.
 
-    * **When to use:**
-      Only if the receiving system requires a different structure or specific formatting that differs from the DocBits default.
+    * **When to use:** Only if the receiving system requires a different structure or specific formatting that differs from the DocBits default.
     * **Leave it empty** if the default export format meets the requirements.
+
+
+
+**Advanced Settings:**
+
+* **Filename Export Mode** Specifies whether the exported file retains its original filename or is renamed using the DocBits document ID.
+* **Include Document History** When enabled, the exported file will include the document history based on the logs available on the dashboard.
+
+<figure><img src="../../../.gitbook/assets/export_sftp_2.png" alt="" width="316"><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/export_sftp_3.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -129,24 +123,14 @@ To create a new export:
 
 **Field Descriptions**
 
-* **Title**
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_
-  A dropdown with all available sub-organizations.
+* **Title** The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_ A dropdown with all available sub-organizations.
   * If left empty: applies to the main organization.
   * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**
-  Dropdown listing all available document types.
-  This determines which type of document this export configuration applies to.
-* **IDM Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-* **BOD Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
-* **Folder**
-  The path on the SFTP server where documents should be uploaded (e.g., `/incoming/invoices/`).
-  Must exist and be writable.
+* **Document Type** Dropdown listing all available document types. This determines which type of document this export configuration applies to.
+* **IDM Mapping File** Select a mapping file from the file manager. [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+* **BOD Mapping File** Select a mapping file from the file manager. [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
+* **Folder** The path on the SFTP server where documents should be uploaded (e.g., `/incoming/invoices/`). Must exist and be writable.
 
 </details>
 
@@ -160,32 +144,21 @@ To create a new export:
 
 **Field Descriptions**
 
-* **Title**
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_
-  A dropdown with all available sub-organizations.
+* **Title** The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_ A dropdown with all available sub-organizations.
   * If left empty: applies to the main organization.
   * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**
-  Dropdown listing all available document types.
-  This determines which type of document this export configuration applies to.
-* **Username**
-  The username used to connect to the SMB share.
-* **Password**
-  The corresponding password for SMB authentication.
-* **Server URL**
-  The address of the SMB server.
-* **Port**
-  Port number used to access the SMB share.
-* **Folder**
-  The folder path within the SMB share where documents should be saved(e.g., `/incoming/invoices/`).
-  Must exist and be writable.
+* **Document Type** Dropdown listing all available document types. This determines which type of document this export configuration applies to.
+* **Username** The username used to connect to the SMB share.
+* **Password** The corresponding password for SMB authentication.
+* **Server URL** The address of the SMB server.
+* **Port** Port number used to access the SMB share.
+* **Folder** The folder path within the SMB share where documents should be saved(e.g., `/incoming/invoices/`). Must exist and be writable.
 *   **JPL Mapping File (Optional)**
 
     The **JPL file** is used to define a transformation of the exported data before it is written to the SMB share.
 
-    * **When to use:**
-      Only when the exported document data needs to be adjusted to match external formatting or system expectations.
+    * **When to use:** Only when the exported document data needs to be adjusted to match external formatting or system expectations.
     * **Leave it empty** if no transformation is necessary.
 
 </details>
@@ -200,22 +173,14 @@ To create a new export:
 
 **Field Descriptions**
 
-* **Title**
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_
-  A dropdown with all available sub-organizations.
+* **Title** The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_ A dropdown with all available sub-organizations.
   * If left empty: applies to the main organization.
   * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**
-  Dropdown listing all available document types.
-  This determines which type of document this export configuration applies to.
-* **ION Mapping File**
-  Select a mapping file from the file manager.
-* **IDM Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-* **Cloud / On-Prem Toggle**
-  A switch to indicate the Infor deployment type:
+* **Document Type** Dropdown listing all available document types. This determines which type of document this export configuration applies to.
+* **ION Mapping File** Select a mapping file from the file manager.
+* **IDM Mapping File** Select a mapping file from the file manager. [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+* **Cloud / On-Prem Toggle** A switch to indicate the Infor deployment type:
   * **Cloud**: Select this if Infor CloudSuite customer.
   * **On-Prem**: Select this if Infor is self-hosted.
 
@@ -231,22 +196,14 @@ To create a new export:
 
 **Field Descriptions**
 
-* **Title**
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_
-  A dropdown with all available sub-organizations.
+* **Title** The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_ A dropdown with all available sub-organizations.
   * If left empty: applies to the main organization.
   * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**
-  Dropdown listing all available document types.
-  This determines which type of document this export configuration applies to.
-* **ION Mapping File**
-  Select a mapping file from the file manager.
-* **BOD Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
-* **Cloud / On-Prem Toggle**
-  A switch to indicate the Infor deployment type:
+* **Document Type** Dropdown listing all available document types. This determines which type of document this export configuration applies to.
+* **ION Mapping File** Select a mapping file from the file manager.
+* **BOD Mapping File** Select a mapping file from the file manager. [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
+* **Cloud / On-Prem Toggle** A switch to indicate the Infor deployment type:
   * **Cloud**: Select this if Infor CloudSuite customer.
   * **On-Prem**: Select this if Infor is self-hosted.
 
@@ -262,25 +219,15 @@ To create a new export:
 
 **Field Descriptions**
 
-* **Title**
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_
-  A dropdown with all available sub-organizations.
+* **Title** The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_ A dropdown with all available sub-organizations.
   * If left empty: applies to the main organization.
   * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**
-  Dropdown listing all available document types.
-  This determines which type of document this export configuration applies to.
-* **ION Mapping File**
-  Select a mapping file from the file manager.
-* **IDM Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-* **BOD Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
-* **Cloud / On-Prem Toggle**
-  A switch to indicate the Infor deployment type:
+* **Document Type** Dropdown listing all available document types. This determines which type of document this export configuration applies to.
+* **ION Mapping File** Select a mapping file from the file manager.
+* **IDM Mapping File** Select a mapping file from the file manager. [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+* **BOD Mapping File** Select a mapping file from the file manager. [Need help creating one? View the BOD Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-a-bod-mapping-file.md)
+* **Cloud / On-Prem Toggle** A switch to indicate the Infor deployment type:
   * **Cloud**: Select this if Infor CloudSuite customer.
   * **On-Prem**: Select this if Infor is self-hosted.
 
@@ -298,23 +245,14 @@ To create a new export:
 
 **Field Descriptions**
 
-* **Title**
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_
-  A dropdown with all available sub-organizations.
+* **Title** The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_ A dropdown with all available sub-organizations.
   * If left empty: applies to the main organization.
   * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**
-  Dropdown listing all available document types.
-  This determines which type of document this export configuration applies to.
-* **ION Mapping File**
-  Select a mapping file from the file manager.
-* **IDM Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-* **LN Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the LN Mapping Example](../../../infor-integration-and-configuration/exporting-to-infor/ln/example-export-ln/)
+* **Document Type** Dropdown listing all available document types. This determines which type of document this export configuration applies to.
+* **ION Mapping File** Select a mapping file from the file manager.
+* **IDM Mapping File** Select a mapping file from the file manager. [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+* **LN Mapping File** Select a mapping file from the file manager. [Need help creating one? View the LN Mapping Example](../../../infor-integration-and-configuration/exporting-to-infor/ln/example-export-ln/)
 
 </details>
 
@@ -328,23 +266,14 @@ To create a new export:
 
 **Field Descriptions**
 
-* **Title**
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_
-  A dropdown with all available sub-organizations.
+* **Title** The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_ A dropdown with all available sub-organizations.
   * If left empty: applies to the main organization.
   * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**
-  Dropdown listing all available document types.
-  This determines which type of document this export configuration applies to.
-* **ION Mapping File**
-  Select a mapping file from the file manager.
-* **IDM Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-* **M3 Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the M3 Mapping Example](../../../infor-integration-and-configuration/exporting-to-infor/m3/example-export-m3.md)
+* **Document Type** Dropdown listing all available document types. This determines which type of document this export configuration applies to.
+* **ION Mapping File** Select a mapping file from the file manager.
+* **IDM Mapping File** Select a mapping file from the file manager. [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+* **M3 Mapping File** Select a mapping file from the file manager. [Need help creating one? View the M3 Mapping Example](../../../infor-integration-and-configuration/exporting-to-infor/m3/example-export-m3.md)
 
 </details>
 
@@ -358,22 +287,13 @@ To create a new export:
 
 **Field Descriptions**
 
-* **Title**
-  The name of the export configuration. This will appear in the export list.
-* **Sub-Organization** _(optional)_
-  A dropdown with all available sub-organizations.
+* **Title** The name of the export configuration. This will appear in the export list.
+* **Sub-Organization** _(optional)_ A dropdown with all available sub-organizations.
   * If left empty: applies to the main organization.
   * If selected: the export will only apply to the chosen sub-organization.
-* **Document Type**
-  Dropdown listing all available document types.
-  This determines which type of document this export configuration applies to.
-* **ION Mapping File**
-  Select a mapping file from the file manager.
-* **IDM Mapping File**
-  Select a mapping file from the file manager.
-  [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
-* **M3 toml Mapping File**
-  Select a mapping file from the file manager or use the select Toml option to use a toml created with the rule manager.
-  [Need help creating one? View the Rule Manager Guide](rule-manager/)
+* **Document Type** Dropdown listing all available document types. This determines which type of document this export configuration applies to.
+* **ION Mapping File** Select a mapping file from the file manager.
+* **IDM Mapping File** Select a mapping file from the file manager. [Need help creating one? View the IDM Mapping Guide](../../../infor-integration-and-configuration/exporting-to-infor/creating-an-idm-mapping-file.md)
+* **M3 toml Mapping File** Select a mapping file from the file manager or use the select Toml option to use a toml created with the rule manager. [Need help creating one? View the Rule Manager Guide](rule-manager/)
 
 </details>
