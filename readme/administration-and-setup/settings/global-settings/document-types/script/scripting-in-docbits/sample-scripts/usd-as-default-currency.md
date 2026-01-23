@@ -1,16 +1,16 @@
 ---
-description: Ein Skript, das USD als Standardwährung festlegt und prüft, ob diese gültig ist oder nicht
+description: Ein Skript, das USD als Standardwährung festlegt und prüft, ob sie gültig ist oder nicht
 ---
 
 # USD als Standardwährung
 
-### Übersicht
+### Überblick
 
-Das Skript ist darauf ausgelegt, USD (US-Dollar) als Standardwährung für eine Anwendung oder ein System festzulegen, um sicherzustellen, dass alle Geldwerte in USD angezeigt und verarbeitet werden, sofern nichts anderes angegeben ist.
+Das Skript ist darauf ausgelegt, USD (US-Dollar) als Standardwährung für eine Anwendung oder ein System festzulegen, um sicherzustellen, dass alle Geldbeträge in USD angezeigt und verarbeitet werden, sofern nicht anders angegeben.
 
-### Zielsetzung
+### Ziel
 
-Das Hauptziel dieses Skripts besteht darin, das Währungsfeld automatisch mit USD zu füllen und zu prüfen, ob es gültig ist oder nicht.
+Das Hauptziel dieses Skripts ist es, das Währungsfeld automatisch mit USD zu füllen und zu prüfen, ob es gültig ist oder nicht.
 
 ### Skript-Implementierung
 
@@ -25,12 +25,12 @@ if not currency:
         fields_dict['currency'] = new_field
         document_json['fields'].append(new_field)
     set_field_value(document_data, "currency", "USD")
-    
+
 elif currency == "USD US Dollar" or currency == "U.S. Dollars":
     set_field_value(document_data, "currency", "USD")
-    
+
 if currency != "USD" and currency != "EUR" and currency != "GBP" and currency != "CAD" and currency != "AUD" and currency != "CHF":
-    set_field_as_invalid(document_data, "currency", "Währung ist nicht gültig")
+    set_field_as_invalid(document_data, "currency", "Currency is not valid")
 else:
     set_field_attribute(document_data, "currency", "is_valid", True)
     set_field_attribute(document_data, "currency", "validation_message","")
