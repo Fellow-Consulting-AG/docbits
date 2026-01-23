@@ -495,6 +495,41 @@ remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)
 
 <table><thead><tr><th width="173">Nome</th><th width="176">Tipo</th><th>Descrição</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Os dados do documento contendo informações do campo</td></tr><tr><td>line_number<mark style="color:red;">*</mark></td><td><code>int</code></td><td>O número da linha que não deve ser removida</td></tr></tbody></table>
 
+## Atributos Suportados
+
+### Atributos de Campo Principal
+
+| Atributo            | Tipo   | Descrição                                                  |
+| ------------------- | ------ | ---------------------------------------------------------- |
+| `value`             | any    | O valor bruto do campo                                     |
+| `formatted_value`   | string | Valor formatado para exibição                              |
+| `content`           | string | Conteúdo extraído original                                 |
+| `is_required`       | bool   | Se o campo é obrigatório                                   |
+| `is_valid`          | bool   | Status de validação                                        |
+| `is_validated`      | bool   | Se o campo foi validado pelo usuário                       |
+| `force_validation`  | bool   | Forçar o usuário a validar este campo                      |
+| `highlight_field`   | bool   | Destacar o campo na interface do usuário                   |
+| `extraction_method` | string | Como o valor foi extraído (por exemplo, `"SCRIPT"`)        |
+
+### Atributos de Validação
+
+| Atributo                | Tipo   | Descrição                                                              |
+| ----------------------- | ------ | ---------------------------------------------------------------------- |
+| `validation_message`    | string | Mensagem de erro exibida ao usuário                                    |
+| `validation_code`       | string | Código de erro (por exemplo, `"FORCED_VALIDATION"`, `"INVALID_VALUE"`) |
+| `invalidated_by_script` | bool   | Marca o campo como invalidado por um script                            |
+
+### Atributos de Extração/OCR
+
+| Atributo            | Tipo   | Descrição                                              |
+| ------------------- | ------ | ------------------------------------------------------ |
+| `coords`            | object | Coordenadas da caixa delimitadora no documento         |
+| `confidence`        | float  | Pontuação de confiança de OCR/extração                 |
+| `score`             | float  | Pontuação de correspondência/validação                 |
+| `score_description` | string | Descrição da pontuação                                 |
+| `page`              | int    | Número da página onde o campo foi encontrado           |
+| `rule`              | string | Regra de extração que foi aplicada                     |
+
 ## Funções Internas do Python
 
 Você também pode utilizar algumas das funções internas do python:
