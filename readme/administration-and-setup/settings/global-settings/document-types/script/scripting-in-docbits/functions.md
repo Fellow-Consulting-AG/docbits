@@ -175,7 +175,7 @@ if purchase_order:
 
 #### Parametry:
 
-<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa pola do ustawienia</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa atrybutu do ustawienia</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Wartość do ustawienia dla atrybutu</td></tr></tbody></table>
+<table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa pola do ustawienia</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Nazwa atrybutu do ustawienia. Lista obsługiwanych atrybutów jest dostępna <a href="functions.md#obslugiwane-atrybuty">tutaj</a>.</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>Wartość do ustawienia dla atrybutu</td></tr></tbody></table>
 
 ### **is\_supplier\_valid()**
 
