@@ -495,6 +495,41 @@ remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)
 
 <table><thead><tr><th width="173">Naam</th><th width="176">Type</th><th>Beschrijving</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>De documentgegevens met veldinformatie</td></tr><tr><td>line_number<mark style="color:red;">*</mark></td><td><code>int</code></td><td>Het nummer van de regel die niet moet worden verwijderd</td></tr></tbody></table>
 
+## Ondersteunde Attributen
+
+### Kernveld Attributen
+
+| Attribuut           | Type   | Beschrijving                                               |
+| ------------------- | ------ | ---------------------------------------------------------- |
+| `value`             | any    | De ruwe veldwaarde                                         |
+| `formatted_value`   | string | Weergave-geformatteerde waarde                             |
+| `content`           | string | Oorspronkelijk geëxtraheerde inhoud                        |
+| `is_required`       | bool   | Of het veld verplicht is                                   |
+| `is_valid`          | bool   | Validatiestatus                                            |
+| `is_validated`      | bool   | Of het veld door de gebruiker is gevalideerd               |
+| `force_validation`  | bool   | Forceer de gebruiker om dit veld te valideren              |
+| `highlight_field`   | bool   | Markeer het veld in de gebruikersinterface                 |
+| `extraction_method` | string | Hoe de waarde is geëxtraheerd (bijv. `"SCRIPT"`)           |
+
+### Validatie Attributen
+
+| Attribuut               | Type   | Beschrijving                                                             |
+| ----------------------- | ------ | ------------------------------------------------------------------------ |
+| `validation_message`    | string | Foutmelding die aan de gebruiker wordt getoond                           |
+| `validation_code`       | string | Foutcode (bijv. `"FORCED_VALIDATION"`, `"INVALID_VALUE"`)                |
+| `invalidated_by_script` | bool   | Markeert het veld als ongeldig gemaakt door een script                   |
+
+### Extractie/OCR Attributen
+
+| Attribuut           | Type   | Beschrijving                                             |
+| ------------------- | ------ | -------------------------------------------------------- |
+| `coords`            | object | Omsluitende kadercoördinaten op het document             |
+| `confidence`        | float  | OCR/extractie betrouwbaarheidsscore                      |
+| `score`             | float  | Overeenkomst/validatiescore                              |
+| `score_description` | string | Beschrijving van de score                                |
+| `page`              | int    | Paginanummer waar het veld is gevonden                   |
+| `rule`              | string | Extractieregel die is toegepast                          |
+
 ## Python Ingebouwde Functies
 
 Je kunt ook enkele van de ingebouwde Python-functies gebruiken:
