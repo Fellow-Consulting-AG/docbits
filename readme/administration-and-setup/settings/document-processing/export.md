@@ -47,7 +47,7 @@ Cependant, il est possible d'avoir :
 
 Pour créer une nouvelle exportation :
 
-1. Cliquez sur le bouton **« Nouveau »**. ![](../../../.gitbook/assets/export_create_new_button.png)
+1. Cliquez sur le bouton **« Nouveau »**. ![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/export_create_new_button.png)
 2. Sélectionnez le **Type d'exportation** que vous souhaitez configurer (par exemple, Infor, IDM, SFTP).
 3. Remplissez les champs requis en fonction du type d'exportation.
 4. Enregistrez la configuration.
