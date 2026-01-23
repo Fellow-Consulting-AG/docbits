@@ -175,7 +175,7 @@ if purchase_order:
 
 #### Parameters:
 
-<table><thead><tr><th width="173">Naam</th><th width="176">Type</th><th>Beschrijving</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>De documentgegevens met veldinformatie</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>De naam van het in te stellen veld</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>De naam van het in te stellen attribuut</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>De waarde die voor het attribuut moet worden ingesteld</td></tr></tbody></table>
+<table><thead><tr><th width="173">Naam</th><th width="176">Type</th><th>Beschrijving</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>De documentgegevens met veldinformatie</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>De naam van het in te stellen veld</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>De naam van het in te stellen attribuut. De lijst met ondersteunde attributen is <a href="functions.md#ondersteunde-attributen">hier</a> te vinden.</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>De waarde die voor het attribuut moet worden ingesteld</td></tr></tbody></table>
 
 ### **is\_supplier\_valid()**
 
