@@ -1,16 +1,16 @@
-# Generating Extended Invoice Numbers Script for Docbits
+# Script per la Generazione di Numeri di Fattura Estesi per Docbits
 
-### Overview
+### Panoramica
 
-This guide focuses on automating the creation of extended invoice numbers in Docbits, a crucial feature for improving invoice management and tracking. The "Generating Extended Invoice Numbers" script concatenates various document identifiers, such as invoice ID and purchase order number, to create a comprehensive and unique identifier for each invoice.
+Questa guida si concentra sull'automazione della creazione di numeri di fattura estesi in Docbits, una funzionalità cruciale per migliorare la gestione e il tracciamento delle fatture. Lo script "Generating Extended Invoice Numbers" concatena vari identificatori di documenti, come l'ID fattura e il numero dell'ordine di acquisto, per creare un identificatore completo e univoco per ogni fattura.
 
-### Objective
+### Obiettivo
 
-The primary goal of this script is to automate the generation of extended invoice numbers, facilitating easier tracking and management of invoices by combining multiple identifiers into a single, unique number.
+L'obiettivo principale di questo script è automatizzare la generazione di numeri di fattura estesi, facilitando il tracciamento e la gestione delle fatture combinando più identificatori in un unico numero univoco.
 
-### Script Implementation
+### Implementazione dello Script
 
-#### Code Snippet
+#### Frammento di Codice
 
 ```python
 # Retrieve the values of invoice ID and purchase order number from the document
@@ -29,3 +29,5 @@ if extended_number:
     else:
         set_field_value(fields_dict, 'invoice_extended_number', extended_number)
 ```
+
+
