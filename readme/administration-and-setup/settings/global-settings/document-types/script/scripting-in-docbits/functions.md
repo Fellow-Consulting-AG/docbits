@@ -175,7 +175,7 @@ if purchase_order:
 
 #### Paramètres :
 
-<table><thead><tr><th width="173">Nom</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Les données du document contenant des informations sur les champs</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Le nom du champ à définir</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Le nom de l'attribut à définir</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>La valeur à définir pour l'attribut</td></tr></tbody></table>
+<table><thead><tr><th width="173">Nom</th><th width="176">Type</th><th>Description</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Les données du document contenant des informations sur les champs</td></tr><tr><td>field_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Le nom du champ à définir</td></tr><tr><td>attribute_name<mark style="color:red;">*</mark></td><td><code>string</code></td><td>Le nom de l'attribut à définir. La liste des attributs supportés se trouve <a href="functions.md#attributs-supportes">ici</a>.</td></tr><tr><td>value<mark style="color:red;">*</mark></td><td><code>any</code></td><td>La valeur à définir pour l'attribut</td></tr></tbody></table>
 
 ### **is\_supplier\_valid()**
 
