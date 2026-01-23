@@ -1,22 +1,20 @@
-(Treść w języku angielskim poniżej - Tłumaczenie w toku)
-
 ---
-description: A script that sets USD as the default currency and checks if its valid or not
+description: Skrypt ustawiający USD jako domyślną walutę i sprawdzający jej poprawność
 ---
 
-# USD as Default Currency
+# USD jako Domyślna Waluta
 
-### Overview
+### Przegląd
 
-The script is designed to set USD (United States Dollar) as the default currency for an application or system, ensuring that all monetary values are displayed and processed in USD unless specified otherwise.
+Skrypt został zaprojektowany w celu ustawienia USD (Dolar Amerykański) jako domyślnej waluty dla aplikacji lub systemu, zapewniając, że wszystkie wartości pieniężne są wyświetlane i przetwarzane w USD, chyba że określono inaczej.
 
-### Objective
+### Cel
 
-The primary goal of this script is to automatically fill the currency field with USD and check if it is valid or not.
+Głównym celem tego skryptu jest automatyczne wypełnienie pola waluty wartością USD oraz sprawdzenie, czy jest ona poprawna.
 
-### Script Implementation
+### Implementacja Skryptu
 
-#### Code Snippet
+#### Fragment Kodu
 
 ```
 // currency = get_field_value(document_data, 'currency', None)
@@ -27,10 +25,10 @@ if not currency:
         fields_dict['currency'] = new_field
         document_json['fields'].append(new_field)
     set_field_value(document_data, "currency", "USD")
-    
+
 elif currency == "USD US Dollar" or currency == "U.S. Dollars":
     set_field_value(document_data, "currency", "USD")
-    
+
 if currency != "USD" and currency != "EUR" and currency != "GBP" and currency != "CAD" and currency != "AUD" and currency != "CHF":
     set_field_as_invalid(document_data, "currency", "Currency is not valid")
 else:
