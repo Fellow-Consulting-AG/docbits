@@ -495,6 +495,41 @@ remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)
 
 <table><thead><tr><th width="173">Name</th><th width="176">Typ</th><th>Beschreibung</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Die Dokumentdaten, die Feldinformationen enthalten</td></tr><tr><td>line_number<mark style="color:red;">*</mark></td><td><code>int</code></td><td>Die Nummer der Zeile, die nicht entfernt werden soll</td></tr></tbody></table>
 
+## Unterstützte Attribute
+
+### Kernfeld-Attribute
+
+| Attribut            | Typ    | Beschreibung                                         |
+| ------------------- | ------ | ---------------------------------------------------- |
+| `value`             | any    | Der Rohwert des Feldes                               |
+| `formatted_value`   | string | Anzeigeformatierter Wert                             |
+| `content`           | string | Ursprünglich extrahierter Inhalt                     |
+| `is_required`       | bool   | Ob das Feld obligatorisch ist                        |
+| `is_valid`          | bool   | Validierungsstatus                                   |
+| `is_validated`      | bool   | Ob das Feld vom Benutzer validiert wurde             |
+| `force_validation`  | bool   | Benutzer zwingen, dieses Feld zu validieren          |
+| `highlight_field`   | bool   | Feld in der Benutzeroberfläche hervorheben           |
+| `extraction_method` | string | Wie der Wert extrahiert wurde (z.B. `"SCRIPT"`)      |
+
+### Validierungsattribute
+
+| Attribut                | Typ    | Beschreibung                                                           |
+| ----------------------- | ------ | ---------------------------------------------------------------------- |
+| `validation_message`    | string | Fehlermeldung, die dem Benutzer angezeigt wird                         |
+| `validation_code`       | string | Fehlercode (z.B. `"FORCED_VALIDATION"`, `"INVALID_VALUE"`)             |
+| `invalidated_by_script` | bool   | Markiert das Feld als durch ein Skript ungültig gemacht                |
+
+### Extraktions-/OCR-Attribute
+
+| Attribut            | Typ    | Beschreibung                                         |
+| ------------------- | ------ | ---------------------------------------------------- |
+| `coords`            | object | Begrenzungsrahmen-Koordinaten auf dem Dokument       |
+| `confidence`        | float  | OCR-/Extraktions-Konfidenzwert                       |
+| `score`             | float  | Übereinstimmungs-/Validierungswert                   |
+| `score_description` | string | Beschreibung des Scores                              |
+| `page`              | int    | Seitennummer, auf der das Feld gefunden wurde        |
+| `rule`              | string | Angewandte Extraktionsregel                          |
+
 ## Python Eingebaute Funktionen
 
 Sie können auch einige der eingebauten Python-Funktionen nutzen:
