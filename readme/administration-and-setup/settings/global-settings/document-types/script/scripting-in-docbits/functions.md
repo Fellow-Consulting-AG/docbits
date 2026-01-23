@@ -495,6 +495,41 @@ remove_rows_from_table(document_data,"INVOICE_TABLE",count,start)
 
 <table><thead><tr><th width="173">Nazwa</th><th width="176">Typ</th><th>Opis</th></tr></thead><tbody><tr><td>document_data<mark style="color:red;">*</mark></td><td><code>dictionary</code></td><td>Dane dokumentu zawierające informacje o polach</td></tr><tr><td>line_number<mark style="color:red;">*</mark></td><td><code>int</code></td><td>Numer linii, która nie powinna zostać usunięta</td></tr></tbody></table>
 
+## Obsługiwane atrybuty
+
+### Podstawowe atrybuty pola
+
+| Atrybut             | Typ    | Opis                                                       |
+| ------------------- | ------ | ---------------------------------------------------------- |
+| `value`             | any    | Surowa wartość pola                                        |
+| `formatted_value`   | string | Wartość sformatowana do wyświetlenia                       |
+| `content`           | string | Oryginalna wyekstrahowana zawartość                        |
+| `is_required`       | bool   | Czy pole jest obowiązkowe                                  |
+| `is_valid`          | bool   | Status walidacji                                           |
+| `is_validated`      | bool   | Czy pole zostało zwalidowane przez użytkownika             |
+| `force_validation`  | bool   | Wymuś na użytkowniku walidację tego pola                   |
+| `highlight_field`   | bool   | Podświetl pole w interfejsie użytkownika                   |
+| `extraction_method` | string | Jak wartość została wyekstrahowana (np. `"SCRIPT"`)        |
+
+### Atrybuty walidacji
+
+| Atrybut                 | Typ    | Opis                                                               |
+| ----------------------- | ------ | ------------------------------------------------------------------ |
+| `validation_message`    | string | Komunikat błędu wyświetlany użytkownikowi                          |
+| `validation_code`       | string | Kod błędu (np. `"FORCED_VALIDATION"`, `"INVALID_VALUE"`)           |
+| `invalidated_by_script` | bool   | Oznacza pole jako unieważnione przez skrypt                        |
+
+### Atrybuty ekstrakcji/OCR
+
+| Atrybut             | Typ    | Opis                                                       |
+| ------------------- | ------ | ---------------------------------------------------------- |
+| `coords`            | object | Współrzędne ramki ograniczającej na dokumencie             |
+| `confidence`        | float  | Wynik pewności OCR/ekstrakcji                              |
+| `score`             | float  | Wynik dopasowania/walidacji                                |
+| `score_description` | string | Opis wyniku                                                |
+| `page`              | int    | Numer strony, na której znaleziono pole                    |
+| `rule`              | string | Zastosowana reguła ekstrakcji                              |
+
 ## Wbudowane funkcje Pythona
 
 Możesz również wykorzystać niektóre wbudowane funkcje Pythona:
