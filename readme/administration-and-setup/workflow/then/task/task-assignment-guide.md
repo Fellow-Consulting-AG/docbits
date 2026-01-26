@@ -1,12 +1,20 @@
-# Task Assignment & Creation Cards - Complete Guide
+# Task Assignment Guide
 
-**Covers:** 12 task-related cards
+{% embed url="https://youtu.be/MZoDMibM-7E" %}
+DocBits Tasks & Notifications Tutorial: Assign Work, Track Status & Handle Workflow Tasks
+{% endembed %}
 
----
+In this video, you’ll learn how Tasks & Notifications work in DocBits and how they help teams stay on top of follow-ups, assignments, and important document updates.
+
+**What you’ll learn:**
+*   What Tasks & Notifications are used for (follow-ups, assignments, updates)
+*   What changes when the feature is enabled (dedicated task management view)
+*   How tasks can be assigned to users or user groups
+*   How to manage tasks: update status, add descriptions, reassign, and close tasks
+*   How workflow-generated tasks are created automatically and appear in the dashboard based on standard handling rules
 
 ## Overview
-
-Task cards create work assignments for team members. When an invoice needs approval, you can automatically create a task and assign it to the right person.
+Tasks are the primary way to assign work to users in DocFlow. A task represents a unit of work that needs to be completed, such as "Approve Invoice", "Review Discrepancy", or "Contact Supplier".
 
 ---
 
