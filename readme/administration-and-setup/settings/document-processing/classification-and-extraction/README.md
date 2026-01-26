@@ -56,6 +56,20 @@ In the **Amount Formatting** section, you have two options:
 
 ## Table Extraction
 
+{% embed url="https://youtu.be/LFw-JXqYWzw" %}
+DocBits Tables Explained: AI Table Extraction vs Standard Extraction (When to Use Which)
+{% endembed %}
+
+In this video, we compare two ways to process tables in DocBits: AI-based table extraction and standard (non-AI) extraction. You’ll learn what the differences are, when each method performs best, and how to choose the right approach for your document types.
+
+**What you’ll learn:**
+*   What AI table extraction does (pattern recognition, flexible layouts)
+*   What standard table extraction does (structured, more controlled behavior)
+*   Pros & cons: accuracy vs consistency, speed, and maintainability
+*   When AI is best (varying layouts, noisy scans, supplier differences)
+*   When standard extraction is best (stable templates, strict control, predictable output)
+*   Practical tips to improve table results and reduce mismatches
+
 You can extract tables from documents by enabling either **Table Extraction** or **AI Table Extraction**. A trained table—whether AI-based or manual—will always be linked to a specific supplier.
 
 **Table Extraction:** Activates manual **table extraction**. Tables must be trained manually.\
