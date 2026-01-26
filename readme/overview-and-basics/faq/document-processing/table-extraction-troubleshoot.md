@@ -1,5 +1,9 @@
 # Resolução de Problemas de Extração de Tabelas
 
+{% embed url="https://youtu.be/5XqEP-5fq6M" %}
+DocBits OCR & E-Text Explained: OCR View, Debug Mode, Quality Settings, Deskew & Header Extraction
+{% endembed %}
+
 ## **Passo 1: Abrir Visualização OCR para Resultados de Extração Ruins**
 
 Se os resultados do treinamento de extração de tabelas não estiverem bons:

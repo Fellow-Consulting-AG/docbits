@@ -1,5 +1,9 @@
 # Texto Ausente na Extração de OCR
 
+{% embed url="https://youtu.be/5XqEP-5fq6M" %}
+DocBits OCR & E-Text Explained: OCR View, Debug Mode, Quality Settings, Deskew & Header Extraction
+{% endembed %}
+
 ## **Problema**
 
 Em alguns casos, o texto pode parecer estar ausente na **Visualização OCR**, o que impede que seja extraído usando o recurso de extração.
