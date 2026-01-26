@@ -1,5 +1,19 @@
 # Layout Builder
 
+{% embed url="https://youtu.be/LKsTFJ1JzJE" %}
+DocBits Layout Builder Tutorial: Create Custom Document Layouts for Faster, Cleaner Validation
+{% endembed %}
+
+In this video, you’ll learn how to use the Layout Builder in DocBits to create custom layouts for your documents. Layouts help you organize fields in a clear structure, speed up validation, and make document review easier for your team.
+
+**What you’ll learn:**
+*   What Layout Builder is and when to use it
+*   Where to find it in DocBits Settings
+*   How to create a new layout and choose the right Document Type
+*   How to place and arrange fields/sections for a better validation experience
+*   Tips to keep layouts consistent across teams and document variations
+*   How to save and apply the layout in your workflow
+
 ## **Accessing the Layout Builder**
 
 First of all, ensure that the Layout Builder feature is activated. This can be done by navigating to Settings → Document Processing → Module → Document Type and ensure that the Layout Builder slider is set too active as shown below.

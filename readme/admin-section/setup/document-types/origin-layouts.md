@@ -1,5 +1,9 @@
 # Layouts de Origem
 
+{% embed url="https://youtu.be/LKsTFJ1JzJE" %}
+DocBits Layout Builder Tutorial: Create Custom Document Layouts for Faster, Cleaner Validation
+{% endembed %}
+
 DocBits se destaca na adaptação de layouts de documentos de acordo com suas origens geográficas, enquanto padroniza elementos como formatos de moeda com base nas configurações do navegador do usuário. Vamos explorar como você pode aproveitar o Construtor de Layout para personalizar layouts para diferentes origens, como os EUA e a Alemanha.
 
 ![](https://lh7-us.googleusercontent.com/rr9bPdkGQgve8ITitxayt\_hDnYqjys1Hm2ctCdWP82gupRNk2G2QAoIMf-REcmOdqiNrzFFyDd2E0qx6dj\_BpnH8X6gqxJvINXkTFB4RIBriSpwbEHHE7hSXoH2UOnaoQNB97\_UfZYreaXg6TszHors)
