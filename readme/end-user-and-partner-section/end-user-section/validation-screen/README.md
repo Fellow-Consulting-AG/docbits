@@ -6,6 +6,18 @@
 
 <figure><img src="../../../.gitbook/assets/validation_screen1.png" alt=""><figcaption></figcaption></figure>
 
+### Origem do Documento (Document Origin)
+
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Origin Setting Explained: Country Standards for Dates & Number Formats
+{% endembed %}
+
+Na Tela de Validação, você pode selecionar a Origem do documento no topo da tela. Com base na sua escolha, o DocBits aplica automaticamente os padrões regionais para:
+*   **Formatos de data**
+*   **Separadores numéricos** (vírgula vs ponto)
+
+Quando você altera a origem, o documento será reiniciado para reaplicar a formatação e garantir que as regras regionais corretas sejam usadas.
+
 ### **Botão Salvar:**
 
 <figure><img src="../../../.gitbook/assets/validation_screen2.png" alt=""><figcaption></figcaption></figure>

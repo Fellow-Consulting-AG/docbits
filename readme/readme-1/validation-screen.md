@@ -8,6 +8,18 @@
 
 </div>
 
+### Document Origin
+
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Origin Setting Explained: Country Standards for Dates & Number Formats
+{% endembed %}
+
+In the Validation Screen, you can select the document’s Origin at the top of the screen. Based on your choice, DocBits automatically applies the regional standards for:
+*   **Date formats**
+*   **Number separators** (comma vs dot)
+
+When you change the origin, the document will restart to reapply formatting and ensure the correct regional rules are used.
+
 ## **Botão Salvar:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (2).png" alt=""><figcaption></figcaption></figure>
