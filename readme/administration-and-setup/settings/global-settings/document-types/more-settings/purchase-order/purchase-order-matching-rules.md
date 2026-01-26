@@ -1,5 +1,9 @@
 # Regras de Correspondência de Pedido de Compra
 
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
 ## Introdução: Pedidos de Compra e Gerenciamento de Regras de PO
 
 A Correspondência de Pedido de Compra (PO) é um processo crítico para garantir a consistência entre os Pedidos de Compra (POs) e as faturas de entrada correspondentes ou recebimentos de mercadorias. Um conjunto robusto de regras é essencial para alcançar uma alta taxa de correspondência automática, prevenir fraudes e garantir pagamentos corretos.

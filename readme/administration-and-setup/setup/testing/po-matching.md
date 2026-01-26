@@ -1,5 +1,9 @@
 # PO Matching
 
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
 When it comes to testing your PO Matching configuration, you will need to create a Purchase order in LN/M3 in order to check whether INFOR is synced with DocBits.&#x20;
 
 ## Creating a Purchase Order in INFOR

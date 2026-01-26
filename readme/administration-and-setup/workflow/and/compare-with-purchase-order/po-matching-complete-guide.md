@@ -20,6 +20,25 @@
 
 ## Understanding PO Matching
 
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
+In this video, you’ll learn how PO Matching works end-to-end, including the key settings that control matching behavior and how to resolve mismatches quickly.
+
+**What you’ll learn:**
+*   What PO Matching is and why it matters for invoice accuracy
+*   How to configure tolerances (allowed differences) for quantities, unit prices, freight, charges, and tax
+*   The 3 quantity-based matching modes:
+    *   Ordered Quantity (compare to ordered amount)
+    *   Received Quantity (compare to received amount)
+    *   Received Delivery Open Quantity (received minus previously matched quantities)
+*   How automatic matching works (item numbers, quantities, unit prices, etc.)
+*   How to manually match lines using drag & drop
+*   How to interpret match status with color indicators:
+    *   Green = full match
+    *   Orange = mismatch (hover to see tooltip details like quantity/unit price/item number mismatch)
+
 When you receive an invoice, it should match the Purchase Order (PO) placed earlier. PO matching cards automatically check if invoice data matches PO data.
 
 **The Big Picture:**
