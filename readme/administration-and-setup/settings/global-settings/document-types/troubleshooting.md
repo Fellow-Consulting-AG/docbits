@@ -1,5 +1,9 @@
 # Troubleshooting
 
+{% embed url="https://youtu.be/fQUIrp-qz9c" %}
+DocBits Support Ticket Tutorial: Report Bugs, Attach Files & Get Help Faster
+{% endembed %}
+
 (Contenido en inglés abajo - Traducción pendiente)
 
 
