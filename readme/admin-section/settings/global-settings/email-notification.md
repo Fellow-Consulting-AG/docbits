@@ -1,5 +1,9 @@
 # E-posta Bildirimi
 
+{% embed url="https://youtu.be/MZoDMibM-7E" %}
+DocBits Tasks & Notifications Tutorial: Assign Work, Track Status & Handle Workflow Tasks
+{% endembed %}
+
 <figure><img src="../../../.gitbook/assets/docbits_notification_config_nl.png" alt="Docbits Bildirim Config Nl"><figcaption></figcaption></figure>
 
 DocBits'teki e-posta bildirimleri, belgeyle ilgili çeşitli olaylar hakkında kullanıcıları uyarmanızı sağlayacak şekilde yapılandırılabilir. Bu olaylar arasında işleme tamamlanması, içe veya dışa aktarma sırasında hatalar veya kullanıcı müdahalesi gerekliliği yer alabilir. Bu araç, belge işleme ortamlarında etkili iletişimi ve operasyonel sürekliliği sürdürmek için esastır.
