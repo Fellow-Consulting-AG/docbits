@@ -1,10 +1,8 @@
 # Utwórz zgłoszenie
 
-To narzędzie jest dostępne dla Ciebie na ekranie walidacji, w przypadku wystąpienia jakiegoś problemu podczas walidacji Twojego dokumentu w DocBits.
-
-Ta funkcja znajduje się w menu powyżej obszaru podglądu dokumentu, jak poniżej
-
-![](https://lh7-us.googleusercontent.com/wgH8UDoDmtxAwaFoO3NUQM9NIQyINnNenBFMe4b_mKfnx7LrJA_8dPbKLoTNvHhHNyznEyy2JDLzoOHW39n1GnTIoBIUgUTCvMVKMPGMYJrFTU6JnqFxjc67j-idDupjbGfMqEwoSgrBPt3mvor1Tds)
+{% embed url="https://youtu.be/fQUIrp-qz9c" %}
+DocBits Support Ticket Tutorial: Report Bugs, Attach Files & Get Help Faster
+{% endembed %}
 
 Po kliknięciu zostanie wyświetlony następujący formularz zgłoszenia.
 
