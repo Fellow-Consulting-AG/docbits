@@ -1,5 +1,9 @@
 # Dopasowanie zamówień (PO Matching)
 
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
 Gdy przychodzi czas na przetestowanie konfiguracji dopasowania zamówień (PO Matching), będziesz musiał/a utworzyć zamówienie zakupu w LN/M3, aby sprawdzić, czy INFOR jest zsynchronizowany z DocBits.&#x20;
 
 ## Tworzenie zamówienia zakupu w INFOR
