@@ -1,5 +1,9 @@
 # Email Obaveštenje
 
+{% embed url="https://youtu.be/MZoDMibM-7E" %}
+DocBits Tasks & Notifications Tutorial: Assign Work, Track Status & Handle Workflow Tasks
+{% endembed %}
+
 <figure><img src="../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 10.15.45.png" alt=""><figcaption></figcaption></figure>
 
 Email obaveštenja u DocBits-u mogu se konfigurisati kako bi obavestila korisnike o različitim događajima vezanim za dokumente, kao što su završetak obrade, greške prilikom uvoza ili izvoza, ili zahtevi za korisničko mešanje. Ovaj alat je ključan za održavanje efikasne komunikacije i operativne kontinuiteta u okruženjima obrade dokumenata.
