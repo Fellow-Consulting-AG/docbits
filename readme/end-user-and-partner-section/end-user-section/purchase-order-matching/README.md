@@ -1,5 +1,9 @@
 # Schermata di Abbinamento Ordini di Acquisto
 
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
 ## Panoramica
 
 Nella schermata di **Abbinamento Ordini di Acquisto**, puoi confrontare gli articoli estratti dal tuo documento con quelli memorizzati nel sistema **Infor**, utilizzando il numero dell'ordine di acquisto come riferimento.
