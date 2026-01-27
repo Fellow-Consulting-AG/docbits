@@ -1,5 +1,13 @@
 # Pantalla de Coincidencia de Órdenes de Compra
 
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
+## Descripción general
+
+En la pantalla de **Coincidencia de Órdenes de Compra**, puedes comparar los artículos de línea extraídos de tu documento con aquellos almacenados en el **sistema Infor**, utilizando el número de orden de compra como referencia.
+
 ## Descripción general
 
 En la pantalla de **Coincidencia de Órdenes de Compra**, puedes comparar los artículos de línea extraídos de tu documento con aquellos almacenados en el **sistema Infor**, utilizando el número de orden de compra como referencia.

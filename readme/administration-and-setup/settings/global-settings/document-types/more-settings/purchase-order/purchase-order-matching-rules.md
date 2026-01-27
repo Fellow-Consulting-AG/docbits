@@ -1,6 +1,8 @@
 # Reglas de Coincidencia de Órdenes de Compra
 
-## Introducción: Órdenes de Compra y Gestión de Reglas de OC
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
 
 La coincidencia de órdenes de compra (OC) es un proceso crítico para garantizar la coherencia entre las órdenes de compra (OC) y las facturas entrantes o recibos de mercancías correspondientes. Un conjunto robusto de reglas es esencial para lograr una alta tasa de coincidencia automática, prevenir el fraude y asegurar pagos correctos.
 
