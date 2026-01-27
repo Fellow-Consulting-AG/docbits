@@ -1,5 +1,9 @@
 # Provera podudaranja narudžbenica (PO Matching)
 
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
 Kada je u pitanju testiranje konfiguracije podudaranja narudžbenica (PO Matching), moraćete da kreirate narudžbenicu u LN/M3 kako biste proverili da li je INFOR sinhronizovan sa DocBits-om. 
 
 ## Kreiranje narudžbenice u INFOR-u
