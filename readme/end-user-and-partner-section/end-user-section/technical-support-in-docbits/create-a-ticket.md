@@ -1,10 +1,8 @@
 # Maak een ticket aan
 
-Dit is een hulpmiddel dat voor u beschikbaar is op het validatiescherm, voor het geval er een probleem optreedt bij het valideren van uw document in DocBits.
-
-Deze functie bevindt zich in het menu boven het documentvoorbeeldgebied, zoals hieronder
-
-![](https://lh7-us.googleusercontent.com/wgH8UDoDmtxAwaFoO3NUQM9NIQyINnNenBFMe4b_mKfnx7LrJA_8dPbKLoTNvHhHNyznEyy2JDLzoOHW39n1GnTIoBIUgUTCvMVKMPGMYJrFTU6JnqFxjc67j-idDupjbGfMqEwoSgrBPt3mvor1Tds)
+{% embed url="https://youtu.be/fQUIrp-qz9c" %}
+DocBits Support Ticket Tutorial: Report Bugs, Attach Files & Get Help Faster
+{% endembed %}
 
 Zodra u erop klikt, wordt het volgende ticketformulier aan u getoond.
 

@@ -1,5 +1,9 @@
 # Problemen oplossen
 
+{% embed url="https://youtu.be/fQUIrp-qz9c" %}
+DocBits Support Ticket Tutorial: Report Bugs, Attach Files & Get Help Faster
+{% endembed %}
+
 ## Het oplossen van problemen met de configuratie van documenttypen in DocBits kan complex zijn omdat verschillende factoren de herkenning en extractie van gegevens kunnen beïnvloeden.
 
 ### Hier zijn enkele algemene tips voor het oplossen van problemen die kunnen helpen bij het identificeren en oplossen van veelvoorkomende problemen:

@@ -1,6 +1,10 @@
 # Gebruikersondersteuning
 
-### Gebruikersondersteuning
+{% embed url="https://youtu.be/fQUIrp-qz9c" %}
+DocBits Support Ticket Tutorial: Report Bugs, Attach Files & Get Help Faster
+{% endembed %}
+
+### Gebruikersondersteuning <a href="#ikpwh4qbrq82" id="ikpwh4qbrq82"></a>
 
 Als u problemen ondervindt of vragen heeft bij het gebruik van DocBits, raadpleeg dan deze gebruikershandleiding of neem contact op met ons ondersteuningsteam voor hulp. Onze toewijding ligt in het bieden van een naadloze ervaring voor alle gebruikers. Klik eenvoudig op de ondersteuningsknop in uw DocBits-app en u kunt een ondersteuningsverzoek aanmaken.
 
