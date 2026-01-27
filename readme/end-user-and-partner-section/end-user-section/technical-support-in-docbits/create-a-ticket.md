@@ -1,5 +1,11 @@
 # Crea un ticket
 
+{% embed url="https://youtu.be/fQUIrp-qz9c" %}
+DocBits Support Ticket Tutorial: Report Bugs, Attach Files & Get Help Faster
+{% endembed %}
+
+Questo è uno strumento disponibile per te, nella schermata di convalida, nel caso si verifichi qualche tipo di problema durante la convalida del tuo documento in DocBits.
+
 Questo è uno strumento disponibile per te, nella schermata di convalida, nel caso si verifichi qualche tipo di problema durante la convalida del tuo documento in DocBits.
 
 Questa funzionalità si trova nel menu sopra l'area di anteprima del documento, come mostrato di seguito
