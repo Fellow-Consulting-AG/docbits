@@ -1,6 +1,10 @@
 # Regeln für den Bestellabgleich
 
-## Einführung: Bestellung und PO-Regelverwaltung
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
+## Einleitung: Bestellungen und Verwaltung von Bestellregeln
 
 Der Abgleich von Bestellungen (Purchase Order, PO) ist ein kritischer Prozess, um die Konsistenz zwischen Bestellungen und entsprechenden eingehenden Rechnungen oder Wareneingängen sicherzustellen. Ein robustes Regelwerk ist unerlässlich, um eine hohe Rate an automatischen Abgleichen zu erreichen, Betrug zu verhindern und korrekte Zahlungen sicherzustellen.
 

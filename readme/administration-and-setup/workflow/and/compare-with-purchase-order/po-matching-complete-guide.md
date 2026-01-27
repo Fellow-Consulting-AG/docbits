@@ -1,5 +1,9 @@
 # Purchase Order (PO) Matching Cards - Complete Guide
 
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
 **Status:** Covers 15 PO comparison cards with detailed calculations
 
 ---
