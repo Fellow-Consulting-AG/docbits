@@ -1,5 +1,9 @@
 # Fehlerbehebung
 
+{% embed url="https://youtu.be/fQUIrp-qz9c" %}
+DocBits Support Ticket Tutorial: Report Bugs, Attach Files & Get Help Faster
+{% endembed %}
+
 ## Die Fehlerbehebung bei der Konfiguration von Belegtypen in DocBits kann komplex sein, da verschiedene Faktoren die Datenerkennung und -extraktion beeinflussen können.
 
 ### Hier sind einige allgemeine Tipps zur Fehlerbehebung, die helfen können, häufige Probleme zu identifizieren und zu lösen:

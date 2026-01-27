@@ -1,6 +1,10 @@
-# Benutzersupport
+# Benutzer-Support
 
-### Benutzerunterstützung <a href="#ikpwh4qbrq82" id="ikpwh4qbrq82"></a>
+{% embed url="https://youtu.be/fQUIrp-qz9c" %}
+DocBits Support Ticket Tutorial: Report Bugs, Attach Files & Get Help Faster
+{% endembed %}
+
+### Benutzer-Support <a href="#ikpwh4qbrq82" id="ikpwh4qbrq82"></a>
 
 Sollten Sie beim Verwenden von DocBits auf Herausforderungen stoßen oder Fragen haben, konsultieren Sie bitte dieses Benutzerhandbuch oder wenden Sie sich an unser Support-Team um Hilfe. Unser Engagement besteht darin, allen Benutzern ein reibungsloses Erlebnis zu bieten. Klicken Sie einfach auf die Support-Schaltfläche in Ihrer DocBits-App und Sie können ein Support-Ticket erstellen.
 

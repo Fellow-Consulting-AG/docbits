@@ -1,6 +1,10 @@
 # Ticket erstellen
 
-Dies ist ein Tool, das Ihnen auf dem Validierungsbildschirm zur Verfügung steht, falls beim Validieren Ihres Dokuments in DocBits ein Problem auftritt.
+{% embed url="https://youtu.be/fQUIrp-qz9c" %}
+DocBits Support Ticket Tutorial: Report Bugs, Attach Files & Get Help Faster
+{% endembed %}
+
+Dies ist ein Werkzeug, das Ihnen auf dem Validierungsbildschirm zur Verfügung steht, falls beim Validieren Ihres Dokuments in DocBits irgendein Problem auftritt.
 
 Diese Funktion befindet sich im Menü über dem Dokumentenvorschaubereich, wie unten dargestellt
 
