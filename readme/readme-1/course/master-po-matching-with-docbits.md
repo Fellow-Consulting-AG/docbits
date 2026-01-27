@@ -1,5 +1,9 @@
 # DocBits ile Usta PO Eşleştirmesi
 
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
 Bu videoda, Doc**Bits** ile PO eşleştirmesi sırasında profesyonelce nasıl farklılıklarla başa çıkılacağını keşfedin. Sayılar uyuşmadığında ne yapılacağı adım adım size rehberlik ediyoruz. Tecrübeli bir ERP yöneticisi veya hedefi finans muhasebecisi olun, farklılıkları verimli ve güvenli bir şekilde nasıl yöneteceğinizi öğreneceksiniz.
 
 
