@@ -1,6 +1,10 @@
-# Inkooporder Matching Regels
+# PO Matching Regels
 
-## Introductie: Inkooporders en PO Regelbeheer
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
+## Introductie: Inkooporders en Beheer van PO Regels
 
 Inkooporder (PO) Matching is een kritiek proces om consistentie te garanderen tussen Inkooporders (PO's) en bijbehorende inkomende facturen of goederenontvangsten. Een robuuste set regels is essentieel om een hoog percentage automatische matching te bereiken, fraude te voorkomen en correcte betalingen te garanderen.
 
