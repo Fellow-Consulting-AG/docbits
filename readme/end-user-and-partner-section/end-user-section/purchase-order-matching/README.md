@@ -1,5 +1,9 @@
 # Écran de Correspondance des Bons de Commande
 
+{% embed url="https://youtu.be/qR-lrSaj4Ug" %}
+DocBits PO Matching Tutorial: Auto/Manual Line Matching, Tolerances & Mismatch Indicators
+{% endembed %}
+
 ## Aperçu
 
 Dans l'écran de **Correspondance des Bons de Commande**, vous pouvez comparer les lignes extraites de votre document avec celles stockées dans le **système Infor**, en utilisant le numéro de bon de commande comme référence.
