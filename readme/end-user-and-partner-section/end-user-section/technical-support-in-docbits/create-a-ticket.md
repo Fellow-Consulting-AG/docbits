@@ -1,5 +1,10 @@
 # Créer un ticket
 
+{% embed url="https://youtu.be/fQUIrp-qz9c" %}
+DocBits Support Ticket Tutorial: Report Bugs, Attach Files & Get Help Faster
+{% endembed %}
+
+
 Il s'agit d'un outil disponible pour vous, sur l'écran de validation, en cas de problème lors de la validation de votre document dans DocBits.
 
 Cette fonctionnalité se trouve dans le menu au-dessus de la zone d'aperçu du document, comme ci-dessous
