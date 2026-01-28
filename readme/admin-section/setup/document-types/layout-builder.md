@@ -1,5 +1,9 @@
 # Costruttore di layout
 
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Layout Builder Tutorial: Create Custom Document Layouts for Faster, Cleaner Validation
+{% endembed %}
+
 ## **Accesso al costruttore di layout**
 
 Innanzitutto, assicurati che la funzionalità del costruttore di layout sia attivata. Questo può essere fatto navigando su Impostazioni → Elaborazione documenti → Modulo → Tipo di documento e assicurati che il cursore del costruttore di layout sia impostato su attivo come mostrato di seguito.
