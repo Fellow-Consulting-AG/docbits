@@ -1,5 +1,9 @@
 # Constructor de Diseño
 
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Layout Builder Tutorial: Create Custom Document Layouts for Faster, Cleaner Validation
+{% endembed %}
+
 ## **Accediendo al Constructor de Diseño**
 
 En primer lugar, asegúrate de que la función del Constructor de Diseño esté activada. Esto se puede hacer navegando a Configuración → Procesamiento de Documentos → Módulo → Tipo de Documento y asegurándote de que el control deslizante del Constructor de Diseño esté activado como se muestra a continuación.
