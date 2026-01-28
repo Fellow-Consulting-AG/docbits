@@ -1,5 +1,9 @@
 # Grupe i Dozvole
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Admin Guide: Managing Users, Groups & Permissions (Full Walkthrough)
+{% endembed %}
+
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.26.22.png" alt=""><figcaption></figcaption></figure>
 
 #### Komponente Odeljka Grupe i Dozvole
