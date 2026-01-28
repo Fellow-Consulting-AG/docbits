@@ -1,5 +1,9 @@
 # OCR Ayarları
 
+{% embed url="https://youtu.be/5XqEP-5fq6M" %}
+DocBits OCR & E-Text Explained: Settings, Quality & Header Extraction
+{% endembed %}
+
 ## Genel Bakış
 
 **OCR (Optik Karakter Tanıma)** ayarlarında, belge işleme sırasında OCR'nin nasıl uygulanacağını yapılandırabilirsiniz. Bu, gerekli minimum kaliteyi belirtmeyi, gömülü metnin (e-text) kullanılıp kullanılmayacağını seçmeyi, OCR sürümünü seçmeyi ve daha fazlasını içerir. Bu sayfa, mevcut tüm ayarların ayrıntılı bir açıklamasını sağlar.
