@@ -1,5 +1,9 @@
 # Documenttypes
 
+{% embed url="https://youtu.be/pFz_6tvNlU4" %}
+DocBits Admin Guide: Adding, Editing & Configuring Document Types (Full Walkthrough)
+{% endembed %}
+
 <figure><img src="../../../../.gitbook/assets/docbits_document_types_overview_screenshot.png" alt="Docbits Document Types Overview Screenshot"><figcaption><p>Document Types Screenshot </p></figcaption></figure>
 
 ## **Overzicht**
