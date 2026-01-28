@@ -1,5 +1,9 @@
 # Layout Builder
 
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Layout Builder Tutorial: Create Custom Document Layouts for Faster, Cleaner Validation
+{% endembed %}
+
 ## **Zugriff auf den Layout Builder**
 
 Stellen Sie zunächst sicher, dass die Funktion Layout Builder aktiviert ist. Dies kann erreicht werden, indem Sie zu Einstellungen → Dokumentenverarbeitung → Modul → Dokumententyp navigieren und sicherstellen, dass der Schieberegler für den Layout Builder auf aktiv gesetzt ist, wie unten gezeigt.

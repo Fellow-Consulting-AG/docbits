@@ -1,5 +1,9 @@
 # Layout Builder
 
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Layout Builder Tutorial: Create Custom Document Layouts for Faster, Cleaner Validation
+{% endembed %}
+
 (English content below - Translation pending)
 
 ## **Accessing the Layout Builder**
