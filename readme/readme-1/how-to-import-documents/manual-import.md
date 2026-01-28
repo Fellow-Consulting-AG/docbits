@@ -2,6 +2,10 @@
 
 Ako želite da ručno uvezete dokumente u DocBits, pratite ove jednostavne korake:
 
+{% embed url="https://youtu.be/5_11Q0JbeaU" %}
+DocBits Import Tutorial: Upload Documents, Drag & Drop + Manual vs Automatic Classification
+{% endembed %}
+
 * Kliknite na dugme za otpremanje na kontrolnoj tabli DocBits.
 * Pojaviće se prozor gde možete otpremiti svoje dokumente putem pregledača datoteka ili prevlačenjem i ispuštanjem. Možete otpremiti do 10 dokumenata odjednom.
 * Da biste otpremili dokumente putem pregledača datoteka, kliknite na dugme Otpremi dokumente i izaberite datoteke koje želite da otpremite. Kada izaberete datoteke, kliknite na Potvrdi da biste započeli proces otpremanja.
