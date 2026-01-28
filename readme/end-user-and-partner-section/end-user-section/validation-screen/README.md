@@ -6,6 +6,12 @@
 
 <div data-full-width="false"><figure><img src="../../../.gitbook/assets/validation_screen_overview.png" alt="Validation Screen Overview"><figcaption></figcaption></figure></div>
 
+### Document Origin
+
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Origin Setting Explained: Country Standards for Dates & Number Formats
+{% endembed %}
+
 ## **Save Button:**
 
 <figure><img src="../../../.gitbook/assets/validation_screen_save_button.png" alt="Save Button"><figcaption></figcaption></figure>
