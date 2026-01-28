@@ -1,5 +1,9 @@
 # OCR-Einstellungen
 
+{% embed url="https://youtu.be/5XqEP-5fq6M" %}
+DocBits OCR & E-Text Explained: Settings, Quality & Header Extraction
+{% endembed %}
+
 ## Übersicht
 
 In den **OCR (Optische Zeichenerkennung)**-Einstellungen können Sie konfigurieren, wie OCR während der Verarbeitung von Dokumenten angewendet wird. Dazu gehört die Festlegung der erforderlichen Mindestqualität, die Auswahl, ob eingebetteter Text (E-Text) verwendet werden soll, die Auswahl der OCR-Version und mehr. Diese Seite bietet eine detaillierte Erklärung aller verfügbaren Einstellungen.
