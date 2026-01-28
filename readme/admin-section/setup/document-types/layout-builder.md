@@ -1,5 +1,9 @@
 # Constructeur de mise en page
 
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Layout Builder Tutorial: Create Custom Document Layouts for Faster, Cleaner Validation
+{% endembed %}
+
 ## **Accès au constructeur de mise en page**
 
 Tout d'abord, assurez-vous que la fonctionnalité du constructeur de mise en page est activée. Cela peut être fait en accédant à Paramètres → Traitement de document → Module → Type de document et assurez-vous que le curseur du constructeur de mise en page est réglé sur actif comme indiqué ci-dessous.
