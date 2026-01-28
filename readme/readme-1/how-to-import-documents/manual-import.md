@@ -2,6 +2,10 @@
 
 Eğer belgeleri DocBits'e manuel olarak aktarmak istiyorsanız, aşağıdaki basit adımları izleyin:
 
+{% embed url="https://youtu.be/5_11Q0JbeaU" %}
+DocBits Import Tutorial: Upload Documents, Drag & Drop + Manual vs Automatic Classification
+{% endembed %}
+
 * DocBits Kontrol Paneli'nde Yükle düğmesine tıklayın.
 * Bir pencere açılacak ve belgelerinizi dosya tarayıcısı aracılığıyla yükleyebileceğiniz veya sürükle ve bırak yöntemiyle yükleyebileceğiniz bir alan göreceksiniz. Aynı anda en fazla 10 belge yükleyebilirsiniz.
 * Belgeleri dosya tarayıcısı aracılığıyla yüklemek için, Yükleme Belgeleri düğmesine tıklayın ve yüklemek istediğiniz dosyaları seçin. Dosyaları seçtikten sonra, yüklemeyi başlatmak için Onayla düğmesine tıklayın.
