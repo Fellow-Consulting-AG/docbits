@@ -1,5 +1,9 @@
 # E-Invoice examples
 
+{% embed url="https://youtu.be/li8KjWO18eU" %}
+DocBits EDI Configuration Guide: Structure Descriptors, Transformation & Extraction Paths
+{% endembed %}
+
 **XRechnung UBL 1.2:**
 
 * Example file:

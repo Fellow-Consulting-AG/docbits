@@ -1,5 +1,9 @@
 # Currently Supported E-Invoice Standards
 
+{% embed url="https://youtu.be/li8KjWO18eU" %}
+DocBits EDI Configuration Guide: Structure Descriptors, Transformation & Extraction Paths
+{% endembed %}
+
 ## Supported Formats
 
 DocBits supports the following e-invoicing formats:
