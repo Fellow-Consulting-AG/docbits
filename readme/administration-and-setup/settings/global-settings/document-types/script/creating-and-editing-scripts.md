@@ -1,5 +1,9 @@
 # Creating and Editing Scripts
 
+{% embed url="https://youtu.be/n8NpWWIjmlA" %}
+DocBits Scripting Guide: Automate Workflows with Python Code
+{% endembed %}
+
 ## To create a new script in DocBits, follow these detailed instructions:
 
 **Choose the scripting language:**

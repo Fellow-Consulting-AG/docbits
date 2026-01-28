@@ -1,5 +1,9 @@
 # Script
 
+{% embed url="https://youtu.be/n8NpWWIjmlA" %}
+DocBits Scripting Guide: Automate Workflows with Python Code
+{% endembed %}
+
 <figure><img src="../../../../../.gitbook/assets/docbits_script_overview.png" alt="Docbits Script Overview"><figcaption></figcaption></figure>
 
 ## **Overzicht**
