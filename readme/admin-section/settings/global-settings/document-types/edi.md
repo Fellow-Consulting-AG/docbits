@@ -1,5 +1,9 @@
 # EDI
 
+{% embed url="https://youtu.be/li8KjWO18eU" %}
+DocBits EDI Configuration Guide: Structure Descriptors, Transformation & Extraction Paths
+{% endembed %}
+
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 09.49.21.png" alt=""><figcaption></figcaption></figure>
 
 #### Pregled
