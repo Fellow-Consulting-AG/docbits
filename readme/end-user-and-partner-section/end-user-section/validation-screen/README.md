@@ -6,6 +6,12 @@
 
 <div data-full-width="false"><figure><img src="../../../.gitbook/assets/docbits_validation_screen_overview_nl.png" alt="Docbits Validation Screen Overview Nl"><figcaption></figcaption></figure></div>
 
+### Document Oorsprong (Document Origin)
+
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Origin Setting Explained: Country Standards for Dates & Number Formats
+{% endembed %}
+
 ### **Opslaan knop:**
 
 <figure><img src="../../../.gitbook/assets/docbits_save_button_nl.png" alt="Docbits Save Button Nl"><figcaption></figcaption></figure>
