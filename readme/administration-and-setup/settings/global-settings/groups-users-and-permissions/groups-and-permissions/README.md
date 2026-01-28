@@ -1,5 +1,9 @@
 # Groepen en Machtigingen
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Admin Guide: Managing Users, Groups & Permissions (Full Walkthrough)
+{% endembed %}
+
 <figure><img src="../../../../../.gitbook/assets/docbits_groups_permissions_overview.png" alt="Docbits Groups Permissions Overview"><figcaption></figcaption></figure>
 
 ## Componenten van de Sectie Groepen en Machtigingen

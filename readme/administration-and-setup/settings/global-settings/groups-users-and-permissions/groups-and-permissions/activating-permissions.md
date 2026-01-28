@@ -1,5 +1,9 @@
 # Machtigingen activeren
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Admin Guide: Managing Users, Groups & Permissions (Full Walkthrough)
+{% endembed %}
+
 Het in- of uitschakelen van het machtigingssysteem met de schakelaar heeft verschillende effecten op de functionaliteit in DocBits.
 
 ## **Het machtigingssysteem inschakelen:**
