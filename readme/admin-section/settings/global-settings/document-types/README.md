@@ -1,5 +1,9 @@
 # Tipovi dokumenata
 
+{% embed url="https://youtu.be/pFz_6tvNlU4" %}
+DocBits Admin Guide: Adding, Editing & Configuring Document Types (Full Walkthrough)
+{% endembed %}
+
 <figure><img src="../../../../.gitbook/assets/Bildschirmfoto 2024-05-08 um 08.44.19.png" alt=""><figcaption></figcaption></figure>
 
 #### Pregled
