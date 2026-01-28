@@ -1,5 +1,9 @@
 # Mises en page d'origine
 
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Origin Setting Explained: Country Standards for Dates & Number Formats
+{% endembed %}
+
 DocBits excelle dans l'adaptation des mises en page de documents en fonction de leurs origines géographiques tout en standardisant des éléments tels que les formats de devises en fonction des paramètres du navigateur de l'utilisateur. Découvrons comment vous pouvez tirer parti du Constructeur de mises en page pour personnaliser les mises en page pour différentes origines, telles que les États-Unis et l'Allemagne.
 
 ![](https://lh7-us.googleusercontent.com/rr9bPdkGQgve8ITitxayt\_hDnYqjys1Hm2ctCdWP82gupRNk2G2QAoIMf-REcmOdqiNrzFFyDd2E0qx6dj\_BpnH8X6gqxJvINXkTFB4RIBriSpwbEHHE7hSXoH2UOnaoQNB97\_UfZYreaXg6TszHors)
