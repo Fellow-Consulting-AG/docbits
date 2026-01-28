@@ -1,5 +1,9 @@
 # Layout di origine
 
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Origin Setting Explained: Country Standards for Dates & Number Formats
+{% endembed %}
+
 DocBits eccelle nell'adattare i layout dei documenti in base alle loro origini geografiche, standardizzando elementi come i formati di valuta in base alle impostazioni del browser dell'utente. Esploriamo come puoi sfruttare il Layout Builder per personalizzare i layout per diverse origini, come gli Stati Uniti e la Germania.
 
 ![](https://lh7-us.googleusercontent.com/rr9bPdkGQgve8ITitxayt\_hDnYqjys1Hm2ctCdWP82gupRNk2G2QAoIMf-REcmOdqiNrzFFyDd2E0qx6dj\_BpnH8X6gqxJvINXkTFB4RIBriSpwbEHHE7hSXoH2UOnaoQNB97\_UfZYreaXg6TszHors)
