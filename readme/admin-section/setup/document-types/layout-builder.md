@@ -1,5 +1,9 @@
 # Düzen Oluşturucu
 
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Layout Builder Tutorial: Create Custom Document Layouts for Faster, Cleaner Validation
+{% endembed %}
+
 ## **Düzen Oluşturucuya Erişim**
 
 İlk olarak, Düzen Oluşturucu özelliğinin etkinleştirildiğinden emin olun. Bunun için Ayarlar → Belge İşleme → Modül → Belge Türü'ne giderek, Düzen Oluşturucu kaydırıcısının aşağıdaki gibi etkin olarak ayarlandığından emin olun.
