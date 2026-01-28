@@ -1,5 +1,9 @@
 # Gruplar ve İzinler
 
+{% embed url="https://youtu.be/xE4RQnbOMug" %}
+DocBits Admin Guide: Managing Users, Groups & Permissions (Full Walkthrough)
+{% endembed %}
+
 <figure><img src="../../../../.gitbook/assets/docbits_groups_permissions_overview.png" alt="Docbits Groups Permissions Overview"><figcaption></figcaption></figure>
 
 #### Gruplar ve İzinler Bölümünün Bileşenleri
