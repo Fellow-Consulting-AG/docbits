@@ -8,6 +8,12 @@
 
 </div>
 
+### Belge Kökeni (Document Origin)
+
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Origin Setting Explained: Country Standards for Dates & Number Formats
+{% endembed %}
+
 ## **Kaydet Düğmesi:**
 
 <figure><img src="../.gitbook/assets/Bildschirmfoto 2024-05-10 um 08.40.49 (2).png" alt=""><figcaption></figcaption></figure>

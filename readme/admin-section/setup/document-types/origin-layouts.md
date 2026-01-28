@@ -1,5 +1,9 @@
 # Köken Düzenleri
 
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+DocBits Origin Setting Explained: Country Standards for Dates & Number Formats
+{% endembed %}
+
 DocBits, belge düzenlerini coğrafi kökenlerine göre uyarlamada başarılıdır ve kullanıcı tarayıcı ayarlarına dayanarak para birimi formatları gibi unsurları standartlaştırır. Layout Builder'ı nasıl kullanabileceğinizi keşfedin ve ABD ve Almanya gibi farklı kökenler için düzenleri özelleştirebilirsiniz.
 
 ![](https://lh7-us.googleusercontent.com/rr9bPdkGQgve8ITitxayt\_hDnYqjys1Hm2ctCdWP82gupRNk2G2QAoIMf-REcmOdqiNrzFFyDd2E0qx6dj\_BpnH8X6gqxJvINXkTFB4RIBriSpwbEHHE7hSXoH2UOnaoQNB97\_UfZYreaXg6TszHors)
