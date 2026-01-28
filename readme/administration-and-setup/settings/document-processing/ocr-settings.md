@@ -1,5 +1,9 @@
 # OCR-instellingen
 
+{% embed url="https://youtu.be/5XqEP-5fq6M" %}
+DocBits OCR & E-Text Explained: Settings, Quality & Header Extraction
+{% endembed %}
+
 ## Overzicht
 
 In de **OCR (Optische Karakterherkenning)** instellingen kun je configureren hoe OCR wordt toegepast tijdens documentverwerking. Dit omvat het specificeren van de minimaal vereiste kwaliteit, het kiezen of je ingebedde tekst (e-tekst) wilt gebruiken, het selecteren van de OCR-versie, en meer. Deze pagina biedt een gedetailleerde uitleg van alle beschikbare instellingen.
