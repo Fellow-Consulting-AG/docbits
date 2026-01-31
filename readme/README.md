@@ -4,6 +4,8 @@
 
 Willkommen bei **DocBits**, Ihrer umfassenden Quelle für Dokumentationsstrategien und Einblicke. Bei DocBits sind wir bestrebt, klare, prägnante und aktuelle Dokumentationsressourcen für [Endbenutzer](readme-1/), [Administratoren](admin-section/settings/) und [Partner](partner-section/) bereitzustellen.
 
+Offizielle Dokumentation: [doc.docbits.com](https://doc.docbits.com)
+
 {% embed url="https://app.arcade.software/share/JqTpGV34UBKmI0iAumoX" %}
 
 
