@@ -199,6 +199,7 @@
         * [EDI 856 (Advance Shipment Notice) Mapping](administration-and-setup/settings/global-settings/document-types/edi/edi-856-advance-shipment-notice-mapping.md)
         * [Peppol BIS Billing 3.0](administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0.md)
         * [ZUGFeRD 1.0, 2.1 en 2.3](administration-and-setup/settings/global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md)
+        * [ZUGFeRD + Swiss QR Code Veldtoewijzing](administration-and-setup/settings/global-settings/document-types/edi/zugferd-and-swiss-qr-merge.md)
         * [eSLOG 1.6 en 2.0](administration-and-setup/settings/global-settings/document-types/edi/eslog-1.6-and-2.0.md)
       * [Meer Instellingen](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
         * [Best practices](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
