@@ -123,23 +123,3 @@ Ejecutar migraciones con:
 alembic upgrade head
 ```
 
-### Verificación
-
-Después de actualizar, verifique que el soporte ZUGFeRD 1.0 esté activo:
-
-```sql
-SELECT attribute_name, LENGTH(value) as value_length
-FROM electronic_document_extraction_attributes eda
-JOIN electronic_document_extraction_attribute_values edav ON edav.attribute_id = eda.id
-WHERE eda.electronic_document_type = 'ZUGFERD 1.0'
-  AND eda.org_id = '00000000-0000-0000-0000-000000000000'
-  AND eda.is_deleted = false;
-```
-
-Salida esperada:
-
-| attribute_name | value_length |
-| :--- | :--- |
-| TRANSFORMATION | 21058 |
-| EXTRACTION_PATHS | 2879 |
-| PREVIEW | 2777 |
