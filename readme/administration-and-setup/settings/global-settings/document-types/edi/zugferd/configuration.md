@@ -1,4 +1,4 @@
-# ZUGFeRD 1.0, 2.1 and 2.3
+# ZUGFeRD Configuration
 
 {% embed url="https://youtu.be/AxrHNEmmXtg" %}
 DocBits E-Invoice Tutorial: Process XRechnung / ZUGFeRD (Factur-X), Validate Data & Automate Workflows
@@ -6,11 +6,14 @@ DocBits E-Invoice Tutorial: Process XRechnung / ZUGFeRD (Factur-X), Validate Dat
 
 ## **Supported Versions of ZUGFeRD**
 
-Currently supported versions of ZUGFeRD are:
+DocBits supports all major versions of ZUGFeRD, including:
 
 * **1.0**
+* **2.0**
 * **2.1** (compliant with FACTUR-X 1.0.05)
+* **2.2**
 * **2.3** (compliant with FACTUR-X 1.07.2)
+* **2.3.2**
 
 #### Standard Activation and Modification
 
