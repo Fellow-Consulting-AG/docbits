@@ -7,7 +7,7 @@ Bei der Verarbeitung von PDF-Rechnungen, die sowohl ZUGFeRD XML-Daten als auch e
 ## Wie es funktioniert
 
 1. **ZUGFeRD XML Extraktion** - DocBits extrahiert zuerst Felder aus dem eingebetteten ZUGFeRD XML
-2. **Swiss QR Code Erkennung** - Der barcode-service erkennt und parst Swiss QR Codes
+2. **Swiss QR Code Erkennung** - Der barcode erkennt und parst Swiss QR Codes
 3. **Smart Merge** - Leere Felder werden mit Swiss QR Daten gefüllt (Felder mit Werten bleiben erhalten)
 4. **Audit Trail** - Die vollständigen QR Code Daten werden in `qr_code_data` zur Überprüfung gespeichert
 
@@ -101,13 +101,13 @@ Bei der Verarbeitung von PDF-Rechnungen, die sowohl ZUGFeRD XML-Daten als auch e
 
 ## Versionsanforderung
 
-Diese Funktion erfordert **doc2-api Version 10.95.6** und **barcode-service Version 1.0.5** oder höher.
+Diese Funktion erfordert **api Version 10.95.6** und **barcode Version 1.0.5** oder höher.
 
-### Komponentenversionen (Dev Umgebung)
+### Komponentenversionen (Umgebung)
 
 | Komponente | Version | Beschreibung |
 | :--- | :--- | :--- |
-| `doc2-api` | 10.95.6 | Kern-API mit ZUGFeRD 1.0 Extraktionsunterstützung |
-| `barcode-service` | 1.0.5 | Swiss QR Code Erkennung und Parsing |
-| `auth-service` | 1.48.8 | Authentifizierungsdienst |
+| `api` | 10.95.6 | Kern-API mit ZUGFeRD 1.0 Extraktionsunterstützung |
+| `barcode` | 1.0.5 | Swiss QR Code Erkennung und Parsing |
+| `Auth` | 1.48.8 | Authentifizierungsdienst |
 
