@@ -101,13 +101,13 @@ When processing PDF invoices that contain both ZUGFeRD XML data and a Swiss QR C
 
 ## Version Requirement
 
-This feature requires **doc2-api version 10.95.6** and **barcode-service version 1.0.5** or higher.
+This feature requires **api version 10.95.6** and **barcode version 1.0.5** or higher.
 
-### Component Versions (Dev Environment)
+### Component Versions (Environment)
 
 | Component | Version | Description |
 | :--- | :--- | :--- |
-| `doc2-api` | 10.95.6 | Core API with ZUGFeRD 1.0 extraction support |
-| `barcode-service` | 1.0.5 | Swiss QR Code detection and parsing |
-| `auth-service` | 1.48.8 | Authentication service |
+| `api` | 10.95.6 | Core API with ZUGFeRD 1.0 extraction support |
+| `barcode` | 1.0.5 | Swiss QR Code detection and parsing |
+| `Auth` | 1.48.8 | Authentication service |
 
