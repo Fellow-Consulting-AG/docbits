@@ -222,6 +222,7 @@
           * [Transformation file and Mapping](administration-and-setup/settings/global-settings/document-types/edi/peppol-bis-billing-3.0/transformation-file-and-mapping.md)
         * [Faktura](administration-and-setup/settings/global-settings/document-types/edi/faktura.md)
         * [ZUGFeRD 1.0, 2.1 and 2.3](administration-and-setup/settings/global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md)
+        * [ZUGFeRD + Swiss QR Code Field Mapping](administration-and-setup/settings/global-settings/document-types/edi/zugferd-and-swiss-qr-merge.md)
         * [eSLOG 1.6 and 2.0](administration-and-setup/settings/global-settings/document-types/edi/eslog-1.6-and-2.0.md)
       * [More Settings](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
         * [Best practices](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
