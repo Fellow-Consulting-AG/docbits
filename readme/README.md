@@ -6,7 +6,11 @@ Welkom bij DocBits, uw uitgebreide bron voor documentatiestrategieën en inzicht
 
 **DocBits met Workflow**
 
-DocBits van FELLOWPRO AG is een geavanceerde intelligente documentverwerkingsoplossing (IDP) die is ontworpen om het verwerken van bedrijfsdocumenten te optimaliseren en te automatiseren. Hieronder vindt u een overzicht van de unieke kenmerken en voordelen:
+DocBits van FELLOWPRO AG is een geavanceerde intelligente documentverwerkingsoplossing (IDP) die is ontworpen om het verwerken van bedrijfsdocumenten te optimaliseren en te automatiseren. 
+
+Officiële documentatie: [doc.docbits.com](https://doc.docbits.com)
+
+Hieronder vindt u een overzicht van de unieke kenmerken en voordelen:
 
 **Belangrijkste kenmerken**
 
