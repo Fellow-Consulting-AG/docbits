@@ -124,6 +124,7 @@
           * [Guía de Archivo de Vista Previa EDI](administration-and-setup/settings/global-settings/document-types/edi/edi/edi-preview-file-guide.md)
           * [Guía de Archivos de Rutas de Extracción EDI](administration-and-setup/settings/global-settings/document-types/edi/edi/edi-extraction-paths-file-guide.md)
         * [ZUGFeRD 1.0, 2.1 y 2.3](administration-and-setup/settings/global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md)
+        * [Mapeo de campos ZUGFeRD + Swiss QR Code](administration-and-setup/settings/global-settings/document-types/edi/zugferd-and-swiss-qr-merge.md)
         * [eSLOG 1.6 y 2.0](administration-and-setup/settings/global-settings/document-types/edi/eslog-1.6-and-2.0.md)
       * [Más ajustes](administration-and-setup/settings/global-settings/document-types/more-settings/README.md)
         * [Mejores prácticas](administration-and-setup/settings/global-settings/document-types/more-settings/best-practices.md)
