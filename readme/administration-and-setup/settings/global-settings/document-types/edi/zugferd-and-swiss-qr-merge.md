@@ -7,7 +7,7 @@ ZUGFeRD XML verilerini ve Swiss QR Code'u içeren PDF faturaları işlenirken, D
 ## Nasıl Çalışır
 
 1. **ZUGFeRD XML Çıkarma** - DocBits önce gömülü ZUGFeRD XML'den alanları çıkarır
-2. **Swiss QR Code Algılama** - barcode-service, Swiss QR kodlarını algılar ve ayrıştırır
+2. **Swiss QR Code Algılama** - barcode, Swiss QR kodlarını algılar ve ayrıştırır
 3. **Akıllı Birleştirme (Smart Merge)** - Boş alanlar Swiss QR verileriyle doldurulur (değeri olan alanlar korunur)
 4. **Denetim İzi (Audit Trail)** - Doğrulama için tam QR kodu verileri `qr_code_data` içinde saklanır
 
@@ -101,13 +101,13 @@ ZUGFeRD XML verilerini ve Swiss QR Code'u içeren PDF faturaları işlenirken, D
 
 ## Sürüm Gereksinimi
 
-Bu özellik **doc2-api sürüm 10.95.6** ve **barcode-service sürüm 1.0.5** veya daha üstünü gerektirir.
+Bu özellik **api sürüm 10.95.6** ve **barcode sürüm 1.0.5** veya daha üstünü gerektirir.
 
-### Bileşen Sürümleri (Dev Ortamı)
+### Bileşen Sürümleri (Ortamı)
 
 | Bileşen | Sürüm | Açıklama |
 | :--- | :--- | :--- |
-| `doc2-api` | 10.95.6 | ZUGFeRD 1.0 çıkarma destekli çekirdek API |
-| `barcode-service` | 1.0.5 | Swiss QR Code algılama ve ayrıştırma |
-| `auth-service` | 1.48.8 | Kimlik doğrulama hizmeti |
+| `api` | 10.95.6 | ZUGFeRD 1.0 çıkarma destekli çekirdek API |
+| `barcode` | 1.0.5 | Swiss QR Code algılama ve ayrıştırma |
+| `Auth` | 1.48.8 | Kimlik doğrulama hizmeti |
 
