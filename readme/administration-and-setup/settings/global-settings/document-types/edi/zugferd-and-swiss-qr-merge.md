@@ -111,15 +111,3 @@ Bu özellik **doc2-api sürüm 10.95.6** ve **barcode-service sürüm 1.0.5** ve
 | `barcode-service` | 1.0.5 | Swiss QR Code algılama ve ayrıştırma |
 | `auth-service` | 1.48.8 | Kimlik doğrulama hizmeti |
 
-### Geçiş (Migration) Gerekli
-
-ZUGFeRD 1.0 desteği, aşağıdaki Alembic geçişinin uygulanmasını gerektirir:
-
-*   `g2h3i4j5k6l7_add_zugferd_1_0_attribute_values.py` - ZUGFeRD 1.0 için TRANSFORMATION, EXTRACTION_PATHS ve PREVIEW değerlerini ekler
-
-Geçişleri şu komutla çalıştırın:
-
-```bash
-alembic upgrade head
-```
-
