@@ -111,15 +111,3 @@ Deze functie vereist **doc2-api versie 10.95.6** en **barcode-service versie 1.0
 | `barcode-service` | 1.0.5 | Swiss QR Code detectie en parsing |
 | `auth-service` | 1.48.8 | Authenticatieservice |
 
-### Migratie vereist
-
-De ZUGFeRD 1.0-ondersteuning vereist dat de volgende Alembic-migratie wordt toegepast:
-
-*   `g2h3i4j5k6l7_add_zugferd_1_0_attribute_values.py` - Voegt TRANSFORMATION, EXTRACTION_PATHS en PREVIEW waarden toe voor ZUGFeRD 1.0
-
-Voer migraties uit met:
-
-```bash
-alembic upgrade head
-```
-
