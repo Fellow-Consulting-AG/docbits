@@ -24,7 +24,7 @@ DocBits zeichnet sich durch die Anpassung von Dokumentlayouts entsprechend ihrer
 * Felder anpassen: Passen Sie das Layout an, indem Sie Felder hinzufügen oder entfernen. Fügen Sie beispielsweise 'City Tax' für ein US-Layout hinzu.
 * Anwenden und testen: Nach der Anpassung wenden Sie das Layout auf Ihre Dokumente an und testen Sie es, um die Genauigkeit sicherzustellen.
 
-![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/origin_layout_2.png)
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/origin_layout_2.svg)
 
 ## **Tipps für effektive Anpassung**
 
