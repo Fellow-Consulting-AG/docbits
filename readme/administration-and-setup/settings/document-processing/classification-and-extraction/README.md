@@ -82,7 +82,7 @@ This setting is explained in detail [here](ai-model.md).
 
 **Process Unsupported ZUGFeRD PDF:** If enabled, unsupported **ZUGFeRD** versions will be processed as standard PDFs, and the embedded XML will be ignored.
 
-The list of supported **ZUGFeRD** versions can be found [here](../../global-settings/document-types/edi/zugferd-1.0-2.1-and-2.3.md).
+The list of supported **ZUGFeRD** versions can be found [here](/broken/pages/8K0sCf7DODWOYn6l3cO7).
 
 ## **Classification Rules**
 
