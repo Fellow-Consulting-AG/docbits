@@ -232,7 +232,7 @@
   * [Tipos de Documentos](administration-and-setup/setup/document-types/README.md)
     * [Proceso de Transformación de Datos EDI](administration-and-setup/setup/document-types/edi-data-transformation-process.md)
     * [Constructor de Diseño](administration-and-setup/setup/document-types/layout-builder.md)
-    * [Diseños de Origen](administration-and-setup/setup/document-types/origin-layouts.md)
+    * [Origin Layouts](administration-and-setup/setup/document-types/origin-layouts.md)
     * [Gestor de Regex](administration-and-setup/setup/document-types/regex-manager.md)
     * [Configuración de Datos Difusos con Datos Maestros](administration-and-setup/setup/document-types/fuzzy-data-configuration-with-master-data.md)
   * [Capacitación de documentos](administration-and-setup/setup/document-training/README.md)

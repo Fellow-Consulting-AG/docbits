@@ -1,27 +1,45 @@
 # Origin Layouts
 
-DocBits excels in adapting document layouts according to their geographical origins while standardizing elements like currency formats based on user browser settings. Let’s explore how you can leverage the Layout Builder to customize layouts for different origins, such as the U.S. and Germany.
+{% embed url="https://youtu.be/-m45XGiIeig" %}
+Configuración de Origin en DocBits explicada: Estándares de país para formatos de fecha y número
+{% endembed %}
 
-![](https://lh7-us.googleusercontent.com/rr9bPdkGQgve8ITitxayt\_hDnYqjys1Hm2ctCdWP82gupRNk2G2QAoIMf-REcmOdqiNrzFFyDd2E0qx6dj\_BpnH8X6gqxJvINXkTFB4RIBriSpwbEHHE7hSXoH2UOnaoQNB97\_UfZYreaXg6TszHors)
+DocBits se destaca en adaptar diseños de documentos según sus orígenes geográficos mientras estandariza elementos como formatos de moneda basándose en la configuración del navegador del usuario. Exploremos cómo puede aprovechar el Layout Builder para personalizar diseños para diferentes orígenes, como EE.UU. y Alemania.
 
-## **Understanding Origin-Based Customization**
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/origin_layout_1.png)
 
-* Currency and Format Standardization: Regardless of the original document’s currency or format, DocBits converts these elements into a standardized ISO format on the server, in line with the user’s browser settings.
-* Geographical Layout Customization: The system allows customization of document layouts based on their geographical origin. This means you can define specific fields and formats for documents from different countries.
+## **Entendiendo la personalización basada en origen**
 
-## **Example: U.S. vs. Germany Layouts**
+* Estandarización de moneda y formato: Independientemente de la moneda o formato original del documento, DocBits convierte estos elementos a un formato ISO estandarizado en el servidor, de acuerdo con la configuración del navegador del usuario.
+* Personalización de diseño geográfico: El sistema permite la personalización de diseños de documentos basándose en su origen geográfico. Esto significa que puede definir campos y formatos específicos para documentos de diferentes países.
 
-* U.S. Layout: For a U.S. invoice, you might include fields for city tax, aligning with the common tax structure in the U.S.
-* Germany Layout: In contrast, a German invoice layout may omit the city tax field, as it’s not a standard charge in Germany.
+## **Ejemplo: Diseños de EE.UU. vs. Alemania**
 
-## **Using the Layout Builder**
+* Diseño de EE.UU.: Para una factura estadounidense, podría incluir campos para el impuesto de ciudad (city tax), alineándose con la estructura fiscal común en EE.UU.
+* Diseño de Alemania: En contraste, un diseño de factura alemana puede omitir el campo de impuesto de ciudad, ya que no es un cargo estándar en Alemania.
 
-* Select Origin Layout: In the Layout Builder, choose the base layout corresponding to the document’s origin.
-* Customize Fields: Adapt the layout by adding or removing fields. For instance, include ‘City Tax’ for a U.S. layout.
-* Apply and Test: Once customized, apply the layout to your documents and test to ensure accuracy.
+## **Usando el Layout Builder**
 
-## **Tips for Effective Customization**
+* Seleccionar Origin Layout: En el Layout Builder, elija el diseño base correspondiente al origen del documento.
+* Personalizar campos: Adapte el diseño agregando o eliminando campos. Por ejemplo, incluya 'City Tax' para un diseño de EE.UU.
+* Aplicar y probar: Una vez personalizado, aplique el diseño a sus documentos y pruebe para asegurar la precisión.
 
-* Understand Regional Differences: Familiarize yourself with the tax and format nuances of different regions.
-* Consistent Updates: Regularly update your layouts to reflect any changes in regional regulations.
-* User Feedback: Utilize feedback from users in different regions to refine layouts further.
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/origin_layout_2.svg)
+
+## **Consejos para una personalización efectiva**
+
+* Entender las diferencias regionales: Familiarícese con los matices fiscales y de formato de diferentes regiones.
+* Actualizaciones consistentes: Actualice regularmente sus diseños para reflejar cualquier cambio en las regulaciones regionales.
+* Comentarios de usuarios: Utilice los comentarios de usuarios en diferentes regiones para refinar aún más los diseños.
+
+## Aplicar diseño predeterminado a múltiples Origins
+
+Cuando desee aplicar el diseño predeterminado a múltiples orígenes, presione **Aplicar diseño predeterminado a Origins**.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/origin_layout_3.png)
+
+Aparecerá un popup donde puede seleccionar los orígenes a los que desea aplicar el diseño predeterminado. Puede usar **Seleccionar todo** o **Deseleccionar todo** para gestionar rápidamente su selección. El popup muestra el número de orígenes actualmente seleccionados.
+
+![](https://raw.githubusercontent.com/Fellow-Consulting-AG/docbits/refs/heads/main/readme/.gitbook/assets/origin_layout_4.png)
+
+Después de hacer su selección, haga clic en **Aplicar a Origins**. Un mensaje de éxito confirmará que los orígenes fueron actualizados.
