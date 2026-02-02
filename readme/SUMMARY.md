@@ -247,7 +247,7 @@
   * [Typy Dokumentów](administration-and-setup/setup/document-types/README.md)
     * [Proces Transformacji Danych EDI](administration-and-setup/setup/document-types/edi-data-transformation-process.md)
     * [Konstruktor Układów](administration-and-setup/setup/document-types/layout-builder.md)
-    * [Layouty Pochodzenia](administration-and-setup/setup/document-types/origin-layouts.md)
+    * [Origin Layouts](administration-and-setup/setup/document-types/origin-layouts.md)
     * [Menedżer Wyrażeń Regularnych](administration-and-setup/setup/document-types/regex-manager.md)
     * [Konfiguracja danych rozmytych z danymi głównymi](administration-and-setup/setup/document-types/fuzzy-data-configuration-with-master-data.md)
   * [Szkolenie dokumentów](administration-and-setup/setup/document-training/README.md)
