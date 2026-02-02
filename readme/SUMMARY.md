@@ -253,7 +253,7 @@
   * [Dokumenttypen](setup/document-types/README.md)
     * [EDI-Datentransformationsprozess](setup/document-types/edi-data-transformation-process.md)
     * [Layout-Builder](setup/document-types/layout-builder.md)
-    * [Ursprüngliche Layouts](setup/document-types/origin-layouts.md)
+    * [Origin Layouts](setup/document-types/origin-layouts.md)
     * [Regex-Manager](setup/document-types/regex-manager.md)
     * [Fuzzy Data Konfiguration mit Masterdaten](administration-and-setup/setup/document-types/fuzzy-data-configuration-with-master-data.md)
   * [Dokumenten Training](administration-and-setup/setup/document-training/README.md)
