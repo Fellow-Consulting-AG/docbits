@@ -2,54 +2,7 @@
 
 ## Configuring WatchDog in DocBits
 
-1. **Access WatchDog Settings**
-   * Navigate to **Settings → Document Processing → WatchDog**.
-2.  **Folder Settings**
-
-    * Define the paths where WatchDog finds and processes documents.
-    * The folder paths should match those created during installation:
-      * `C:/WatchDog/Read`
-      * `C:/WatchDog/Processed`
-
-    <div data-full-width="true"><figure><img src="../../.gitbook/assets/watchdog_folder_settings.png" alt="WatchDog Folder Settings"><figcaption></figcaption></figure></div>
-
-    * <mark style="color:red;">**Note**</mark>**: It is recommended to use local paths. These should match the folders in the DocBits Installation**
-3. **General Settings**
-   *   Select the document types to process by checking the corresponding checkboxes
-
-       <figure><img src="../../.gitbook/assets/watchdog_general_settings_doctypes.png" alt="WatchDog General Settings - Document Types"><figcaption></figcaption></figure>
-   * **Barcode Divider:** When turned on enables the barcode dividing.
-   * **DocBits Operator:** When enabled opens a chrome browser in the background for the DocBits Operator.
-   *   **Export destination:** Sets the export destination.&#x20;
-
-       * **Infor:** Documnets get exported to Infor.
-       * **Enaoi Export:** Documents get exported to a defined folder that can be configured below.&#x20;
-
-       <figure><img src="../../.gitbook/assets/watchdog_export_destination_settings.png" alt="WatchDog Export Destination Settings"><figcaption></figcaption></figure>
-
-       * <mark style="color:red;">**Note:**</mark> **For XSLT configuration, please consult your project manager.**
-4. **Export Configurations**
-   * Displays all configured exports for **on-premise processing**.
-   *   Shows the timestamp of the **last successful connection** for each configuration.
-
-       <figure><img src="../../.gitbook/assets/watchdog_export_configurations_list.png" alt="WatchDog Export Configurations List"><figcaption></figcaption></figure>
-5.  **bod\_mapping Configuration (Optional)**
-
-    * <mark style="color:red;">**Required Fields:**</mark> Before adding custom metadata mappings, you **must** define the following two values:
-      * **`file_name`**&#x20;
-      * **`pdf_path`**&#x20;
-    * Click **Add Row** to define metadata mappings.
-
-    <figure><img src="../../.gitbook/assets/watchdog_bod_mapping_config.png" alt="WatchDog BOD Mapping Configuration"><figcaption></figcaption></figure>
-
-    * **Value:** Specifies the field name for the metadata.
-    * **Path:** The XPath expression pointing to the XML data that should be assigned to the field.
-    * **Trashcan Icon:** Used to delete a secific row.
-6. **Download the Configuration**&#x20;
-   * Save the configuration&#x20;
-   *   Download the configuration
-
-       <figure><img src="../../.gitbook/assets/watchdog_download_configuration.png" alt="Download WatchDog Configuration"><figcaption></figcaption></figure>
+For detailed configuration instructions, please refer to the [WatchDog Configuration](watchdog-configuration.md) page.
 
 ## WatchDog Installation Guide
 
