@@ -1,4 +1,4 @@
-# WatchDog Installation
+# WatchDog Installation V1
 
 ## Configuring WatchDog in DocBits
 
