@@ -52,3 +52,5 @@ readme/setup/importing-customer-master-data/m3/.DS_Store
 readme/setup/scripting-in-docbits/.DS_Store
 readme/setup/testing/.DS_Store
 readme/setup/testing/auto-accounting/.DS_Store
+.DS_Store
+.venv

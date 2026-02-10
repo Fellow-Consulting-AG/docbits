@@ -476,6 +476,7 @@
   * [Supplier Portal](administration-and-setup/setup/supplier-portal/README.md)
     * [Supplier Registration](administration-and-setup/setup/supplier-portal/supplier-registration.md)
   * [WatchDog Installation](administration-and-setup/setup/watchdog-installation.md)
+  * [WatchDog Configuration](administration-and-setup/setup/watchdog-configuration.md)
 * [Report Page](administration-and-setup/report-page.md)
 
 ## Infor Integration and Configuration
