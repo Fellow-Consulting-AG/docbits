@@ -20,6 +20,7 @@
     * [FTP](overview/how-to-import-documents/ftp.md)
     * [Manual Import](overview/how-to-import-documents/manual-import.md)
     * [Watchdog](overview/how-to-import-documents/watchdog.md)
+    * [WatchDog Yapılandırması V2](overview/how-to-import-documents/watchdog-v2-configuration.md)
     * [Webhook](overview/how-to-import-documents/webhook.md)
     * [Email](overview/how-to-import-documents/email/README.md)
       * [IMAP](overview/how-to-import-documents/email/imap.md)
