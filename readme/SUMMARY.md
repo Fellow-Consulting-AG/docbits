@@ -271,6 +271,7 @@
   * [Lieferanten-Portal](administration-and-setup/setup/supplier-portal/README.md)
     * [Lieferantenregistrierung](administration-and-setup/setup/supplier-portal/supplier-registration.md)
   * [WatchDog Installation](administration-and-setup/setup/watchdog-installation.md)
+  * [WatchDog Konfiguration V2](administration-and-setup/setup/watchdog-v2-configuration.md)
   * [SSO-Konfiguration](setup/sso-configuration.md)
 * [Berichtsseite](administration-and-setup/report-page.md)
 
