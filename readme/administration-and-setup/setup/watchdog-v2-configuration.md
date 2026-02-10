@@ -10,7 +10,11 @@ Access the WatchDog settings from the DocBits settings menu.
 
 ## 2. Folder Settings
 
-Configure the input and output directories for WatchDog. Ensure these paths match the directories created during the installation process.
+Configure the file pathways for importing and exporting documents. These paths must be reachable from the Windows environment where the WatchDog service is installed.
+
+*   **Watch Folder:** The directory where WatchDog monitors for new documents to import.
+*   **Success Folder:** The directory where documents are moved after a successful import.
+*   **Export Folder:** The directory where processed export files (XML/PDF) are written.
 
 <figure><img src="../../.gitbook/assets/watchdog_v2_02.png" alt="WatchDog Folder Settings"><figcaption></figcaption></figure>
 
