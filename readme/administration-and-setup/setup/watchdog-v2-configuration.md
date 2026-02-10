@@ -20,7 +20,10 @@ Configure the file pathways for importing and exporting documents. These paths m
 
 ## 3. General Settings
 
-Configure general settings such as document types and other processing options.
+Select the **Document Types** you want WatchDog to process (e.g., `INVOICE`, `DELIVERY_NOTE`).
+
+*   **Barcode Divider:** Enable this to automatically split documents based on barcodes.
+*   **DocBits Operator:** Enable this to allow WatchDog to perform browser automation tasks.
 
 <figure><img src="../../.gitbook/assets/watchdog_v2_03.png" alt="WatchDog General Settings"><figcaption></figcaption></figure>
 
