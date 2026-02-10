@@ -39,11 +39,11 @@ View and manage specific export configurations.
 
 <figure><img src="../../.gitbook/assets/watchdog_v2_05.png" alt="WatchDog Export Configuration Details"><figcaption></figcaption></figure>
 
-## 6. BOD Mapping Configuration
+## 6. XSLT Templates
 
-Configure the BOD mapping for integration with Infor.
+Manage the XSLT transformation templates used for XML exports. Here you can upload and edit templates that define the structure of the exported data.
 
-<figure><img src="../../.gitbook/assets/watchdog_v2_06.png" alt="WatchDog BOD Mapping"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/watchdog_v2_06.png" alt="XSLT Templates"><figcaption></figcaption></figure>
 
 ## 7. Download Configuration
 
