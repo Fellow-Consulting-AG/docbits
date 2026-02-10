@@ -65,3 +65,7 @@ In the above menu you will have the following options for automatic starting:
 * Select Automatic, the service will start on boot
 * Automatic (Delayed Start), this will wait 2 minutes after boot to start the service
 
+## Further Resources
+
+* [WatchDog Installation](../../administration-and-setup/setup/watchdog-installation.md)
+* [WatchDog V2 Configuration](../../administration-and-setup/setup/watchdog-v2-configuration.md)
