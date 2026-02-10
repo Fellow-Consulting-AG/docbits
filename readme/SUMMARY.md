@@ -251,6 +251,7 @@
   * [Panel de proveedores](administration-and-setup/setup/supplier-portal/README.md)
     * [Registro de Proveedores](administration-and-setup/setup/supplier-portal/supplier-registration.md)
   * [Instalación de WatchDog](administration-and-setup/setup/watchdog-installation.md)
+  * [Configuración de WatchDog V2](administration-and-setup/setup/watchdog-v2-configuration.md)
 * [Página de Informe](administration-and-setup/report-page.md)
 
 ## Integración y configuración de Infor <a href="#infor-integration-and-configuration" id="infor-integration-and-configuration"></a>
