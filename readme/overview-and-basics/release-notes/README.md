@@ -1,6 +1,6 @@
 # Notes de version
 
-> **Dernière version de correctifs :** [Hotfixes 12–25 août 2026](incremental-updates-12-25-august-2026.md) : les changements de la mise à niveau de production du 25 août 2026, de l'isolation renforcée entre organisations à la classification des avoirs dans les factures électroniques. Toutes les pages de correctifs figurent dans la navigation sous Notes de version.
+> **Dernière version de correctif urgent :** [Correctifs 8 septembre 2026](incremental-updates-8-september-2026.md) : correspondance des bons de commande — la correspondance est conservée après sauvegarde, la correspondance s’exécute à nouveau lors de la sauvegarde, l’écran indique pourquoi il n’y a pas de correspondance, prix unitaire du bon de commande à partir du montant net. Précédent : [Correctifs 12–25 août 2026](incremental-updates-12-25-august-2026.md). Toutes les pages de correctifs urgents sont listées dans la navigation sous Notes de version.
 
 ## **Release R1.0 23/24 mai 2026**
 

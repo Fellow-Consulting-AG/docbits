@@ -104,6 +104,39 @@ Pour faire correspondre une ligne de bon de commande avec une ligne extraite du 
 
 Vous pouvez également sélectionner **plusieurs lignes de bon de commande** et les faire correspondre à une **ligne unique** dans le tableau extrait. Pour plus de détails, cliquez [ici](./#correspondances-multiples).
 
+## Pourquoi n’y a-t-il pas de correspondance ?
+
+Lorsqu’un document n’est pas apparié, l’écran affiche **une phrase au-dessus de la zone de la commande d’achat** qui indique la raison, et ce qu’il faut faire :
+
+| Message                                                        | Signification et étape suivante                                                                                                                                               |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aucun numéro de commande d’achat                               | Le document ne contient pas de numéro de commande d’achat. Saisissez-le dans le champ d’en-tête et enregistrez — l’appariement est relancé lors de l’enregistrement.          |
+| Aucune commande d’achat trouvée dans l’ERP pour …             | Le numéro sur le document n’existe pas dans l’ERP. Vérifiez le numéro et enregistrez.                                                                                        |
+| … n’a pas encore été recherché                                 | Le numéro est arrivé après le traitement (par exemple depuis les données de base). Enregistrez le document ou cliquez sur **Appariement automatique**.                       |
+| … est chargé mais non connecté                                 | Les lignes de la commande d’achat sont affichées mais rien n’est encore apparié. Cliquez sur **Appariement automatique** ou connectez les lignes manuellement.               |
+| … a été trouvé, mais aucune ligne de commande ne correspond    | Chaque ligne a échoué aux règles d’appariement. Ouvrez l’**historique d’appariement** pour voir sur quelle colonne, puis appariez manuellement ou corrigez le document.       |
+| Le document ne contient pas de lignes                          | Rien à apparier ; vérifiez l’extraction du tableau.                                                                                                                          |
+| Le tableau des lignes ne contient aucune colonne de commande d’achat mappée | Quantité, prix unitaire et numéro d’article ne sont pas mappés pour ce tableau. Mappez-les dans les paramètres du tableau.                                                  |
+| La commande d’achat ne contient plus de lignes ouvertes       | Chaque ligne de la commande est déjà consommée ou désactivée (voir [État des lignes de commande consommées](./#consumed-po-line-status) et [États de désactivation](./#disable-statuses)). |
+
+Sous la phrase, l’écran liste les candidats qui ont été **mis de côté**, par exemple _« Ignoré : 2900233285 de la colonne des lignes est le numéro de facture, pas une commande d’achat »_ ou _« … est exclu par la configuration »_. Le message disparaît une fois le document apparié.
+
+{% hint style="info" %}
+**L’appariement est relancé lors de l’enregistrement.** Si le numéro de commande d’achat change, ou s’il n’a jamais été recherché auparavant, l’enregistrement effectue l’appariement du document. Un appariement existant n’est jamais remplacé par un enregistrement — et les lignes que vous avez supprimées manuellement restent supprimées.
+{% endhint %}
+
+**Si un appariement ne peut pas être enregistré**, l’écran n’indique pas « enregistré » : il restaure l’appariement à l’écran, marque le document comme non enregistré et affiche la raison pour laquelle le serveur l’a rejeté — par exemple _« L’appariement de la commande d’achat n’a pas pu être enregistré : la règle de transformation "…" a reconstruit le tableau »_. Les administrateurs voient un lien vers la règle en question. Demandez à un administrateur d’ajuster la [règle de transformation](../../../administration-and-setup/settings/global-settings/document-types/transformation-rules.md) ou les [règles d’appariement](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md).
+
+## Historique d’appariement
+
+Le bouton **Historique d’appariement** (icône horloge dans la barre d’outils de la commande d’achat ; nécessite la permission Analytics) ouvre une relecture en lecture seule de la manière dont le dernier appariement a été décidé :
+
+* les **règles de transformation** qui ont été exécutées avant l’appariement, et si l’une d’elles a rejeté un appariement,
+* les **étapes et règles d’appariement** qui ont été testées — en vert lorsqu’un appariement a été trouvé, en rouge lorsqu’une règle n’a rien trouvé, en gris lorsqu’une règle a été ignorée par sa condition d’activation (l’infobulle explique pourquoi),
+* pour une règle échouée, la **colonne comparée** avec la valeur sur le document et la valeur sur la commande d’achat.
+
+Ouvrir et lire l’historique ne déclenche ni appariement ni export. Les administrateurs trouvent la même relecture, avec un champ d’ID de document, à côté du diagramme du jeu de règles dans les paramètres de commande d’achat du type de document.
+
 ## Quelles colonnes sont correspondantes ?
 
 Le processus de Correspondance des Bons de Commande ne correspond qu'à des colonnes spécifiques. La liste ci-dessous décrit quelles colonnes sont correspondantes, si disponibles. Si aucune [tolérance](./#accepter-les-tolerances) n'est définie, les colonnes ne correspondront que si elles sont une correspondance exacte (100%).
