@@ -32,7 +32,7 @@ If you are not sure what the new address for a page is, or you just want to jump
 
 * **Sitemap.** The [Sitemap](sitemap.md) page lists every page in DocBits, grouped by area, with a search box and filters. Open it from the sidebar, or from Global Quick Search by choosing **View all results**.
 * **Global Quick Search.** Press <kbd>Cmd</kbd> + <kbd>K</kbd> on a Mac or <kbd>Ctrl</kbd> + <kbd>K</kbd> on Windows from anywhere in DocBits, then type the name of what you are looking for. See [Global Quick Search](global-quick-search.md) for details.
-* **The page-not-found screen.** If you type or paste only the first part of an address — for example `/documents` or `/analytics` — without the rest, DocBits shows a page-not-found screen listing every page that lives under that address. It works like an index for that group of pages, and it has the same search box as Global Quick Search, so you can search from there too.
+* **The page-not-found screen.** If you type or paste only the first part of an address — for example `/settings` or `/analytics` — without the rest, DocBits shows a page-not-found screen with a section called **Pages under** that address. It lists every page that lives under that address, grouped by area, with a short description of each. Click a page to open it. Pages that belong to a specific document, such as a document's validation or approval screen, are listed too but marked **Opens from a document**, because they need a document to open. You only see pages you are allowed to open; pages for modules your organisation has not switched on, or that need administrator rights you do not have, are not shown. The screen also has the same search box as Global Quick Search, so you can search from there too.
 
 ## Old and new addresses
 
