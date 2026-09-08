@@ -104,6 +104,39 @@ Per abbinare un articolo di un ordine di acquisto con un articolo estratto dal d
 
 Puoi anche selezionare **più righe di ordine di acquisto** e abbinarle a una **singola riga** nella tabella estratta. Per ulteriori dettagli, fai clic [qui](./#abbinamenti-multipli).
 
+## Perché non c'è corrispondenza?
+
+Quando un documento non viene abbinato, lo schermo mostra **una frase sopra l'area dell'ordine di acquisto** che indica il motivo e cosa fare a riguardo:
+
+| Messaggio                                                      | Significato e passo successivo                                                                                                                                               |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nessun numero d'ordine di acquisto                             | Il documento non ha un numero d'ordine di acquisto. Inseriscilo nel campo intestazione e salva — l'abbinamento viene eseguito di nuovo al salvataggio.                       |
+| Nessun ordine di acquisto trovato nell'ERP per …               | Il numero sul documento non esiste nell'ERP. Controlla il numero e salva.                                                                                                    |
+| … non è stato ancora cercato                                   | Il numero è arrivato dopo l'elaborazione (ad esempio dai dati master). Salva il documento o clicca su **Auto Match**.                                                        |
+| … è caricato ma non collegato                                  | Le righe dell'ordine di acquisto sono a schermo ma nulla è ancora abbinato. Clicca su **Auto Match** o collega le righe manualmente.                                         |
+| … è stato trovato, ma nessuna delle righe dell'ordine corrisponde | Ogni riga non ha superato le regole di abbinamento. Apri la **cronologia dell'abbinamento** per vedere su quale colonna, quindi abbina manualmente o correggi il documento.    |
+| Il documento non ha righe di dettaglio                         | Nulla da abbinare; controlla l'estrazione della tabella.                                                                                                                     |
+| La tabella delle righe di dettaglio non ha colonne ordine di acquisto mappate | Quantità, prezzo unitario e numero articolo non sono mappati per questa tabella. Mappali nelle impostazioni della tabella.                                                  |
+| L'ordine di acquisto non ha righe aperte rimanenti            | Ogni riga dell'ordine è già stata consumata o disabilitata (vedi [Stato riga ordine consumata](./#consumed-po-line-status) e [Stati di disabilitazione](./#disable-statuses)). |
+
+Sotto la frase lo schermo elenca i candidati che sono stati **messi da parte**, per esempio _"Ignorato: 2900233285 dalla colonna delle righe di dettaglio è il numero della fattura, non un ordine di acquisto"_ oppure _"… è escluso dalla configurazione"_. Il messaggio scompare una volta che il documento è abbinato.
+
+{% hint style="info" %}
+**L'abbinamento viene eseguito di nuovo quando salvi.** Se il numero d'ordine di acquisto cambia, o non è mai stato cercato prima, il salvataggio stesso abbina il documento. Un abbinamento esistente non viene mai sostituito da un salvataggio — e le righe che hai rimosso manualmente restano rimosse.
+{% endhint %}
+
+**Se un abbinamento non può essere salvato**, lo schermo non riporta "salvato": ripristina l'abbinamento a schermo, segna il documento come non salvato e mostra il motivo per cui il server lo ha scartato — per esempio _"L'abbinamento PO non è stato salvato: la regola di trasformazione "…" ha ricostruito la tabella"_. Gli amministratori vedono un link alla regola in questione. Chiedi a un amministratore di modificare la [regola di trasformazione](../../../administration-and-setup/settings/global-settings/document-types/transformation-rules.md) o le [regole di abbinamento](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md).
+
+## Cronologia dell'abbinamento
+
+Il pulsante **Cronologia dell'abbinamento** (icona orologio nella barra degli strumenti dell'ordine di acquisto; richiede il permesso Analytics) apre una riproduzione in sola lettura di come è stato deciso l'ultimo abbinamento:
+
+* le **regole di trasformazione** eseguite prima dell'abbinamento, e se una di esse ha scartato un abbinamento,
+* le **fasi e regole di abbinamento** provate — verde dove è stato trovato un abbinamento, rosso dove una regola non ha trovato nulla, grigio dove una regola è stata saltata dalla sua condizione di attivazione (il tooltip spiega il motivo),
+* per una regola fallita, la **colonna confrontata** con il valore sul documento e il valore sull'ordine di acquisto.
+
+Aprire e riprodurre la cronologia non attiva né l'abbinamento né l'esportazione. Gli amministratori trovano la stessa riproduzione, con un input ID documento, accanto al diagramma del set di regole nelle impostazioni dell'ordine di acquisto del tipo di documento.
+
 ## Quali colonne vengono abbinate?
 
 Il processo di Abbinamento Ordini di Acquisto abbina solo colonne specifiche. L'elenco qui sotto delinea quali colonne vengono abbinate, se disponibili. Se non viene impostata alcuna [tolleranza](./#accetta-tolleranze), le colonne verranno abbinate solo se sono un abbinamento esatto (100%).

@@ -1,6 +1,6 @@
 # Note della versione
 
-> **Ultima versione di hotfix:** [Hotfixes 12–25 agosto 2026](incremental-updates-12-25-august-2026.md): le modifiche dell'aggiornamento di produzione del 25 agosto 2026, dall'isolamento più rigoroso tra organizzazioni alla classificazione delle note di credito nelle fatture elettroniche. Tutte le pagine di hotfix sono nella navigazione sotto Note della versione.
+> **Ultima release hotfix:** [Hotfixes 8 settembre 2026](incremental-updates-8-september-2026.md): abbinamento ordini di acquisto — l'abbinamento persiste dopo il salvataggio, l'abbinamento viene eseguito nuovamente al salvataggio, lo schermo indica perché non c'è abbinamento, prezzo unitario PO dall'importo netto. Precedente: [Hotfixes 12–25 agosto 2026](incremental-updates-12-25-august-2026.md). Tutte le pagine degli hotfix sono elencate nella navigazione sotto Note di rilascio.
 
 ## **Release R1.0 23/24 maggio 2026**
 
