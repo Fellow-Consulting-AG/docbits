@@ -247,6 +247,7 @@
           * [🇧🇷 BRAZIL NFC-E](administration-and-setup/settings/global-settings/document-types/edi/supported-electronic-documents/brazil-nfce.md)
           * [🇧🇷 BRAZIL CT-E](administration-and-setup/settings/global-settings/document-types/edi/supported-electronic-documents/brazil-cte.md)
           * [🇧🇷 BRAZIL NFS-E](administration-and-setup/settings/global-settings/document-types/edi/supported-electronic-documents/brazil-nfse.md)
+      * [Transformationsregeln](administration-and-setup/settings/global-settings/document-types/transformation-rules.md)
       * [Weitere Einstellungen](admin-section/settings/global-settings/document-types/more-settings/README.md)
         * [Best Practices](admin-section/settings/global-settings/document-types/more-settings/best-practices.md)
         * [Fehlerbehebung](administration-and-setup/settings/global-settings/document-types/more-settings/troubleshooting.md)
