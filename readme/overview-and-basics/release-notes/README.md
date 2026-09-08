@@ -1,6 +1,6 @@
 # Informacje o wersji
 
-> **Najnowsze wydanie hotfix:** [Aktualizacje — 12–25 sierpnia 2026](incremental-updates-12-25-august-2026.md): zmiany z aktualizacji produkcyjnej 25 sierpnia 2026 — od ściślejszej izolacji między organizacjami po rozpoznawanie faktur korygujących w e-fakturach. Wszystkie strony hotfix znajdują się w nawigacji w sekcji Informacje o wersji.
+> **Najnowsza wersja hotfix:** [Hotfixy 8 września 2026](incremental-updates-8-september-2026.md): dopasowanie zamówienia zakupu — dopasowanie przetrwa zapis, dopasowanie uruchamia się ponownie przy zapisie, ekran informuje, dlaczego nie ma dopasowania, cena jednostkowa PO z kwoty netto. Poprzednie: [Hotfixy 12–25 sierpnia 2026](incremental-updates-12-25-august-2026.md). Wszystkie strony hotfixów są wymienione w nawigacji pod Notatkami o wydaniu.
 
 ## **Release R1.0 23/24 maja 2026**
 

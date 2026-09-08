@@ -100,6 +100,39 @@ Aby dopasować pozycję zamówienia zakupu z pozycją wyodrębnioną z dokumentu
 
 Możesz również wybrać **wiele linii zamówienia zakupu** i dopasować je do **jednej linii** w wyodrębnionej tabeli. Aby uzyskać więcej szczegółów, kliknij [tutaj](./#wiele-dopasowan).
 
+## Dlaczego nie ma dopasowania?
+
+Gdy dokument nie zostanie dopasowany, na ekranie pojawia się **jedno zdanie nad obszarem zamówienia zakupu**, które podaje powód oraz co należy zrobić:
+
+| Komunikat                                                     | Znaczenie i kolejny krok                                                                                                                                                     |
+| ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Brak numeru zamówienia                                        | Dokument nie zawiera numeru zamówienia. Wprowadź go w polu nagłówka i zapisz — dopasowanie zostanie ponownie uruchomione po zapisie.                                          |
+| Nie znaleziono zamówienia w ERP dla …                         | Numer na dokumencie nie istnieje w ERP. Sprawdź numer i zapisz.                                                                                                              |
+| … nie został jeszcze wyszukany                                | Numer pojawił się po przetworzeniu (na przykład z danych podstawowych). Zapisz dokument lub kliknij **Auto Dopasuj**.                                                        |
+| … jest załadowany, ale nie połączony                          | Pozycje zamówienia są widoczne na ekranie, ale nic jeszcze nie jest dopasowane. Kliknij **Auto Dopasuj** lub połącz pozycje ręcznie.                                         |
+| Znaleziono …, ale żadna z pozycji zamówienia nie pasuje      | Każda pozycja nie spełniła reguł dopasowania. Otwórz **historię dopasowań**, aby zobaczyć, na której kolumnie, następnie dopasuj ręcznie lub popraw dokument.               |
+| Dokument nie zawiera pozycji liniowych                        | Brak danych do dopasowania; sprawdź ekstrakcję tabeli.                                                                                                                      |
+| Tabela pozycji liniowych nie ma zmapowanych kolumn zamówienia | Ilość, cena jednostkowa i numer pozycji nie są zmapowane dla tej tabeli. Zmapuj je w ustawieniach tabeli.                                                                   |
+| Zamówienie nie ma już otwartych pozycji                      | Każda pozycja zamówienia jest już wykorzystana lub wyłączona (zobacz [Status wykorzystanej pozycji zamówienia](./#consumed-po-line-status) oraz [Statusy wyłączenia](./#disable-statuses)). |
+
+Poniżej zdania ekran wyświetla kandydatów, którzy zostali **odłożeni na bok**, na przykład _"Ignorowano: 2900233285 z kolumny pozycji liniowej to numer faktury, a nie numer zamówienia"_ lub _"… jest wykluczony przez konfigurację"_. Komunikat znika po dopasowaniu dokumentu.
+
+{% hint style="info" %}
+**Dopasowanie jest ponownie uruchamiane po zapisie.** Jeśli numer zamówienia zmieni się lub nigdy wcześniej nie był wyszukiwany, sam zapis dopasowuje dokument. Istniejące dopasowanie nigdy nie jest zastępowane przez zapis — a pozycje usunięte ręcznie pozostają usunięte.
+{% endhint %}
+
+**Jeśli dopasowanie nie może zostać zapisane**, ekran nie wyświetla komunikatu "zapisano": przywraca dopasowanie na ekranie, oznacza dokument jako niezapisany i pokazuje, dlaczego serwer je odrzucił — na przykład _"Dopasowanie zamówienia nie mogło zostać zapisane: reguła transformacji "…" przebudowała tabelę"_. Administratorzy widzą link do danej reguły. Poproś administratora o dostosowanie [reguły transformacji](../../../administration-and-setup/settings/global-settings/document-types/transformation-rules.md) lub [reguł dopasowania](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md).
+
+## Historia dopasowań
+
+Przycisk **Historia dopasowań** (ikona zegara na pasku narzędzi zamówienia zakupu; wymaga uprawnienia Analytics) otwiera tylko do odczytu powtórkę, jak podjęto ostatnią decyzję o dopasowaniu:
+
+* **reguły transformacji**, które zostały uruchomione przed dopasowaniem, oraz czy któraś z nich odrzuciła dopasowanie,
+* etapy i reguły dopasowania, które zostały wypróbowane — na zielono tam, gdzie znaleziono dopasowanie, na czerwono tam, gdzie reguła nic nie znalazła, na szaro tam, gdzie reguła została pominięta przez warunek aktywacji (podpowiedź wyjaśnia dlaczego),
+* dla nieudanej reguły, **porównywana kolumna** z wartością na dokumencie i wartością w zamówieniu.
+
+Otwarcie i odtworzenie historii nie uruchamia ani dopasowania, ani eksportu. Administratorzy znajdą tę samą powtórkę, z możliwością wprowadzenia ID dokumentu, obok diagramu zestawu reguł w ustawieniach zamówienia zakupu typu dokumentu.
+
 ## Które kolumny są dopasowywane?
 
 Proces dopasowywania zamówień zakupu dopasowuje tylko określone kolumny. Poniższa lista przedstawia, które kolumny są dopasowywane, jeśli są dostępne. Jeśli nie ustawiono żadnej [tolerancji](./#akceptuj-tolerancje), kolumny będą dopasowywane tylko w przypadku dokładnego (100%) dopasowania.
