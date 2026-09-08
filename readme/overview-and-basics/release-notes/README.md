@@ -1,6 +1,6 @@
 # Notas de versão
 
-> **Última versão de hotfixes:** [Atualizações — 12–25 de agosto de 2026](incremental-updates-12-25-august-2026.md): o que mudou na atualização de produção de 25 de agosto de 2026, desde o isolamento mais rigoroso entre organizações até à classificação de notas de crédito nas faturas eletrónicas. Todas as páginas de hotfixes estão na navegação, em Notas de versão.
+> **Última versão de hotfix:** [Hotfixes 8 de setembro de 2026](incremental-updates-8-september-2026.md): correspondência de pedido de compra — a correspondência permanece após salvar, a correspondência é executada novamente ao salvar, a tela informa por que não há correspondência, preço unitário do PO a partir do valor líquido. Anterior: [Hotfixes 12–25 de agosto de 2026](incremental-updates-12-25-august-2026.md). Todas as páginas de hotfix estão listadas na navegação em Notas de Versão.
 
 ## **Release R1.0 23/24 de maio de 2026**
 

@@ -100,6 +100,39 @@ Para corresponder um item de linha de ordem de compra com um item de linha extra
 
 Você também pode selecionar **várias linhas de ordem de compra** e correspondê-las a uma **única linha** na tabela extraída. Para mais detalhes, clique [aqui](./#correspondencias-multiplas).
 
+## Por que não há correspondência?
+
+Quando um documento não é correspondido, a tela mostra **uma frase acima da área do pedido de compra** que indica o motivo e o que fazer a respeito:
+
+| Mensagem                                                       | Significado e próximo passo                                                                                                                                                   |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nenhum número de pedido de compra                              | O documento não possui número de pedido de compra. Insira-o no campo do cabeçalho e salve — a correspondência será executada novamente ao salvar.                            |
+| Nenhum pedido de compra foi encontrado no ERP para …          | O número no documento não existe no ERP. Verifique o número e salve.                                                                                                         |
+| … ainda não foi consultado                                     | O número chegou após o processamento (por exemplo, a partir dos dados mestres). Salve o documento ou clique em **Auto Match**.                                               |
+| … está carregado mas não conectado                             | As linhas do pedido de compra estão na tela, mas nada foi correspondido ainda. Clique em **Auto Match** ou conecte as linhas manualmente.                                    |
+| … foi encontrado, mas nenhuma das linhas do pedido de compra corresponde | Todas as linhas falharam nas regras de correspondência. Abra o **histórico de correspondência** para ver em qual coluna, depois faça a correspondência manualmente ou corrija o documento. |
+| O documento não possui itens de linha                          | Nada para corresponder; verifique a extração da tabela.                                                                                                                      |
+| A tabela de itens de linha não possui colunas de pedido de compra mapeadas | Quantidade, preço unitário e número do item não estão mapeados para esta tabela. Mapeie-os nas configurações da tabela.                                                      |
+| O pedido de compra não possui linhas abertas restantes        | Todas as linhas do pedido já foram consumidas ou desativadas (veja [Status da Linha de PO Consumida](./#consumed-po-line-status) e [Status de Desativação](./#disable-statuses)). |
+
+Abaixo da frase, a tela lista candidatos que foram **reservados**, por exemplo _"Ignorado: 2900233285 da coluna de itens de linha é o número da fatura, não um pedido de compra"_ ou _"… está excluído pela configuração"_. A mensagem desaparece assim que o documento é correspondido.
+
+{% hint style="info" %}
+**A correspondência é executada novamente quando você salva.** Se o número do pedido de compra mudar, ou se ele nunca foi consultado antes, o próprio ato de salvar corresponde o documento. Uma correspondência existente nunca é substituída por um salvamento — e linhas removidas manualmente permanecem removidas.
+{% endhint %}
+
+**Se uma correspondência não puder ser salva**, a tela não informa "salvo": ela restaura a correspondência na tela, marca o documento como não salvo e mostra por que o servidor a rejeitou — por exemplo _"A correspondência do PO não pôde ser salva: a regra de transformação "…" reconstruiu a tabela"_. Os administradores veem um link para a regra em questão. Peça a um administrador para ajustar a [regra de transformação](../../../administration-and-setup/settings/global-settings/document-types/transformation-rules.md) ou as [regras de correspondência](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md).
+
+## Histórico de correspondência
+
+O botão **Histórico de correspondência** (ícone de relógio na barra de ferramentas do pedido de compra; requer permissão de Analytics) abre uma reprodução somente leitura de como a última correspondência foi decidida:
+
+* as **regras de transformação** que foram executadas antes da correspondência, e se alguma delas descartou uma correspondência,
+* as **etapas e regras** de correspondência que foram tentadas — verde onde uma correspondência foi encontrada, vermelho onde uma regra não encontrou nada, cinza onde uma regra foi ignorada pela condição de ativação (a dica explica o motivo),
+* para uma regra que falhou, a **coluna comparada** com o valor no documento e o valor no pedido de compra.
+
+Abrir e reproduzir o histórico não aciona correspondência nem exportação. Administradores encontram a mesma reprodução, com um campo para ID do documento, ao lado do diagrama do conjunto de regras nas configurações do tipo de documento para pedido de compra.
+
 ## Quais colunas estão sendo correspondidas?
 
 O processo de Correspondência de Ordem de Compra corresponde apenas a colunas específicas. A lista abaixo descreve quais colunas são correspondidas, se disponíveis. Se nenhuma [tolerância](./#aceitar-tolerancias) estiver definida, as colunas só corresponderão se forem uma correspondência exata (100%).
