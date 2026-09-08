@@ -1,6 +1,6 @@
 # Notas de versión
 
-> **Última versión de hotfixes:** [Actualizaciones — 12–25 de agosto de 2026](incremental-updates-12-25-august-2026.md): los cambios de la actualización de producción del 25 de agosto de 2026, desde un aislamiento más estricto entre organizaciones hasta la clasificación de notas de crédito en facturas electrónicas. Todas las páginas de hotfixes están en la navegación, bajo Notas de versión.
+> **Última versión de hotfix:** [Hotfixes 8 de septiembre de 2026](incremental-updates-8-september-2026.md): coincidencia de órdenes de compra — la coincidencia se mantiene después de guardar, la coincidencia se ejecuta nuevamente al guardar, la pantalla indica por qué no hay coincidencia, precio unitario de la OC a partir del importe neto. Anterior: [Hotfixes 12–25 de agosto de 2026](incremental-updates-12-25-august-2026.md). Todas las páginas de hotfix están listadas en la navegación bajo Notas de la versión.
 
 ## **Release R1.0 23/24 de mayo de 2026**
 

@@ -91,6 +91,39 @@ Si tu proceso de coincidencia se basa en el atributo **Entrega recibida Cantidad
 
 ![](https://docs.docbits.com/~gitbook/image?url=https%3A%2F%2F578966019-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FT2n2w4uDCJvv7CJ5zrdk%252Fuploads%252FcceZaArRjBdKpI5r5u1v%252Fpo_tools_new_7.png%3Falt%3Dmedia%26token%3D49e25f09-de07-42b7-ab3d-a43a35e567c5\&width=768\&dpr=4\&quality=100\&sign=c6e75393\&sv=2)
 
+## ¿Por qué no hay coincidencia?
+
+Cuando un documento no coincide, la pantalla muestra **una frase encima del área de la orden de compra** que indica la razón y qué hacer al respecto:
+
+| Mensaje                                                        | Significado y siguiente paso                                                                                                                                                  |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| No purchase order number                                       | El documento no tiene número de orden de compra. Introdúcelo en el campo del encabezado y guarda — la coincidencia se ejecuta nuevamente al guardar.                         |
+| No purchase order was found in the ERP for …                   | El número en el documento no existe en el ERP. Verifica el número y guarda.                                                                                                  |
+| … has not been looked up yet                                   | El número llegó después del procesamiento (por ejemplo, desde datos maestros). Guarda el documento o haz clic en **Auto Match**.                                             |
+| … is loaded but not connected                                  | Las líneas de la orden de compra están en pantalla pero aún no hay coincidencias. Haz clic en **Auto Match** o conecta las líneas manualmente.                               |
+| … was found, but none of the purchase order lines match        | Cada línea falló en las reglas de coincidencia. Abre el **historial de coincidencias** para ver en qué columna, luego haz la coincidencia manualmente o corrige el documento. |
+| The document has no line items                                 | No hay nada con qué hacer la coincidencia; verifica la extracción de la tabla.                                                                                                |
+| The line-item table has no purchase order columns mapped       | Cantidad, precio unitario y número de artículo no están mapeados para esta tabla. Mapealos en la configuración de la tabla.                                                |
+| The purchase order has no open lines left                      | Cada línea de la orden ya está consumida o deshabilitada (ver [Estado de línea de OC consumida](./#consumed-po-line-status) y [Estados deshabilitados](./#disable-statuses)). |
+
+Debajo de la frase, la pantalla lista candidatos que fueron **apartados**, por ejemplo _"Ignorado: 2900233285 de la columna de línea de artículo es el número de factura, no una orden de compra"_ o _"… está excluido por configuración"_. El mensaje desaparece una vez que el documento coincide.
+
+{% hint style="info" %}
+**La coincidencia se ejecuta nuevamente cuando guardas.** Si el número de orden de compra cambia, o nunca se buscó antes, el guardado en sí hace la coincidencia del documento. Una coincidencia existente nunca es reemplazada por un guardado — y las líneas que eliminaste manualmente permanecen eliminadas.
+{% endhint %}
+
+**Si no se puede guardar una coincidencia**, la pantalla no muestra "guardado": restaura la coincidencia en pantalla, marca el documento como no guardado y muestra por qué el servidor la rechazó — por ejemplo _"No se pudo guardar la coincidencia de la OC: la regla de transformación "…" reconstruyó la tabla"_. Los administradores ven un enlace a la regla en cuestión. Pide a un administrador que ajuste la [regla de transformación](../../../administration-and-setup/settings/global-settings/document-types/transformation-rules.md) o las [reglas de coincidencia](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md).
+
+## Historial de coincidencias
+
+El botón **Historial de coincidencias** (icono de reloj en la barra de herramientas de la orden de compra; requiere el permiso de Analytics) abre una reproducción de solo lectura de cómo se decidió la última coincidencia:
+
+* las **reglas de transformación** que se ejecutaron antes de la coincidencia, y si alguna descartó una coincidencia,
+* las **etapas y reglas** de coincidencia que se intentaron — en verde donde se encontró una coincidencia, rojo donde una regla no encontró nada, gris donde una regla fue omitida por su condición de activación (el tooltip indica por qué),
+* para una regla fallida, la **columna comparada** con el valor en el documento y el valor en la orden de compra.
+
+Abrir y reproducir el historial no activa ni la coincidencia ni la exportación. Los administradores encuentran la misma reproducción, con un campo para el ID del documento, junto al diagrama del conjunto de reglas en la configuración de orden de compra del tipo de documento.
+
 ## ¿Cómo hacer coincidencias?
 
 Para hacer coincidir un artículo de línea de orden de compra con un artículo de línea extraído del documento, tienes tres opciones:
