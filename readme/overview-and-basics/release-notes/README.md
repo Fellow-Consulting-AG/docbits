@@ -1,6 +1,6 @@
 # Release Notes
 
-> **Latest hotfix release:** [Hotfixes 12–25 August 2026](incremental-updates-12-25-august-2026.md): what changed in the 25 August 2026 production upgrade, from stricter organisation isolation to credit-note classification for e-invoices. All hotfix pages are listed in the navigation under Release Notes.
+> **Latest hotfix release:** [Hotfixes 8 September 2026](incremental-updates-8-september-2026.md): purchase order matching — the match survives saving, matching runs again on save, the screen says why there is no match, PO unit price from the net amount. Previous: [Hotfixes 12–25 August 2026](incremental-updates-12-25-august-2026.md). All hotfix pages are listed in the navigation under Release Notes.
 
 ## **Release R1.0 13/14 June 2026**
 
