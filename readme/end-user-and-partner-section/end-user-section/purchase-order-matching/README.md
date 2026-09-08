@@ -100,6 +100,39 @@ Om een inkooporder lijnitem te matchen met een lijnitem die uit het document is 
 
 Je kunt ook **meerdere inkooporderlijnen** selecteren en deze matchen met een **enkele lijn** in de geëxtraheerde tabel. Voor meer details, klik [hier](./#meerdere-matches).
 
+## Waarom is er geen match?
+
+Wanneer een document niet wordt gematcht, toont het scherm **één zin boven het inkooporderveld** die de reden noemt en wat eraan te doen:
+
+| Bericht                                                        | Betekenis en volgende stap                                                                                                                                                   |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Geen inkoopordernummer                                         | Het document heeft geen inkoopordernummer. Voer dit in het kopveld in en sla op — het matchen wordt opnieuw uitgevoerd bij het opslaan.                                      |
+| Geen inkooporder gevonden in het ERP voor …                    | Het nummer op het document bestaat niet in het ERP. Controleer het nummer en sla op.                                                                                          |
+| … is nog niet opgezocht                                        | Het nummer kwam binnen na verwerking (bijvoorbeeld uit stamgegevens). Sla het document op of klik op **Auto Match**.                                                          |
+| … is geladen maar niet verbonden                               | De inkooporderregels staan op het scherm, maar er is nog niets gematcht. Klik op **Auto Match** of verbind de regels handmatig.                                              |
+| … is gevonden, maar geen van de inkooporderregels komt overeen | Elke regel voldeed niet aan de matchregels. Open de **matchgeschiedenis** om te zien op welke kolom, match dan handmatig of corrigeer het document.                         |
+| Het document heeft geen regelitems                             | Niets om tegen te matchen; controleer de tabelextractie.                                                                                                                     |
+| De regelitemtabel heeft geen inkooporderkolommen toegewezen   | Hoeveelheid, eenheidsprijs en artikelnummer zijn niet toegewezen voor deze tabel. Wijs ze toe in de tabelinstellingen.                                                      |
+| De inkooporder heeft geen openstaande regels meer             | Elke regel van de order is al verbruikt of uitgeschakeld (zie [Consumed PO Line Status](./#consumed-po-line-status) en [Disable statuses](./#disable-statuses)).             |
+
+Onder de zin toont het scherm kandidaten die **opzij zijn gezet**, bijvoorbeeld _"Genegeerd: 2900233285 uit de regelitemkolom is het factuurnummer, geen inkooporder"_ of _"… is uitgesloten door configuratie"_. Het bericht verdwijnt zodra het document gematcht is.
+
+{% hint style="info" %}
+**Matchen wordt opnieuw uitgevoerd wanneer u opslaat.** Als het inkoopordernummer verandert, of het nog nooit eerder is opgezocht, matcht het opslaan het document zelf. Een bestaande match wordt nooit vervangen door een opslag — en regels die u handmatig hebt verwijderd, blijven verwijderd.
+{% endhint %}
+
+**Als een match niet kan worden opgeslagen**, meldt het scherm niet "opgeslagen": het herstelt de match op het scherm, markeert het document als niet opgeslagen en toont waarom de server het heeft afgewezen — bijvoorbeeld _"De PO-match kon niet worden opgeslagen: de transformatieregel "…" heeft de tabel opnieuw opgebouwd"_. Beheerders zien een link naar de betreffende regel. Vraag een beheerder om de [transformatieregel](../../../administration-and-setup/settings/global-settings/document-types/transformation-rules.md) of de [matchregels](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md) aan te passen.
+
+## Matchgeschiedenis
+
+De knop **Matchgeschiedenis** (klokpictogram in de inkooporderwerkbalk; vereist de Analytics-permissie) opent een alleen-lezen weergave van hoe de laatste match is bepaald:
+
+* de **transformatieregels** die werden uitgevoerd vóór het matchen, en of een daarvan een match heeft afgewezen,
+* de matchende **fasen en regels** die zijn geprobeerd — groen waar een match werd gevonden, rood waar een regel niets vond, grijs waar een regel werd overgeslagen door de activatievoorwaarde (de tooltip geeft de reden),
+* bij een mislukte regel de **vergeleken kolom** met de waarde op het document en de waarde op de inkooporder.
+
+Het openen en afspelen van de geschiedenis triggert geen matchen of export. Beheerders vinden dezelfde weergave, met een invoerveld voor document-ID, naast het regelsetdiagram in de inkooporderinstellingen van het documenttype.
+
 ## Welke kolommen worden gematcht?
 
 Het Inkooporder Matching proces matcht alleen specifieke kolommen. De onderstaande lijst geeft aan welke kolommen worden gematcht, indien beschikbaar. Als er geen [tolerantie](./#accepteer-toleranties) is ingesteld, worden de kolommen alleen gematcht als ze een exacte (100%) match zijn.

@@ -1,6 +1,6 @@
 # Release Notes
 
-> **Nieuwste hotfix-release:** [Updates — 12–25 augustus 2026](incremental-updates-12-25-august-2026.md): wat er is veranderd met de productie-upgrade van 25 augustus 2026 — van striktere scheiding tussen organisaties tot creditnota-herkenning bij e-facturen. Alle hotfix-pagina's staan in de navigatie onder Release-opmerkingen.
+> **Laatste hotfix release:** [Hotfixes 8 september 2026](incremental-updates-8-september-2026.md): inkooporder matching — de match blijft behouden na opslaan, matching wordt opnieuw uitgevoerd bij opslaan, het scherm geeft aan waarom er geen match is, PO eenheidsprijs gebaseerd op het netto bedrag. Eerder: [Hotfixes 12–25 augustus 2026](incremental-updates-12-25-august-2026.md). Alle hotfix-pagina's staan vermeld in de navigatie onder Release Notes.
 
 ## **Release R1.0 23/24 mei 2026**
 
