@@ -95,6 +95,39 @@ Um eine Bestellposition mit einer aus dem Dokument extrahierten Position abzugle
 
 Sie können auch **mehrere Bestellpositionen** auswählen und sie einer **einzelnen Position** in der extrahierten Tabelle zuordnen. Weitere Einzelheiten finden Sie [hier](./#multi-matches).
 
+## Warum gibt es keine Übereinstimmung?
+
+Wenn ein Dokument nicht zugeordnet wird, zeigt der Bildschirm **einen Satz über dem Bestellbereich** an, der den Grund nennt und was zu tun ist:
+
+| Nachricht                                                      | Bedeutung und nächster Schritt                                                                                                                                               |
+| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Keine Bestellnummer                                            | Das Dokument enthält keine Bestellnummer. Geben Sie diese im Kopfbereich ein und speichern Sie — die Zuordnung wird beim Speichern erneut ausgeführt.                         |
+| Keine Bestellung im ERP für … gefunden                         | Die Nummer auf dem Dokument existiert nicht im ERP. Überprüfen Sie die Nummer und speichern Sie.                                                                              |
+| … wurde noch nicht abgefragt                                   | Die Nummer ist nach der Verarbeitung eingetroffen (z. B. aus Stammdaten). Speichern Sie das Dokument oder klicken Sie auf **Auto Match**.                                    |
+| … ist geladen, aber nicht verbunden                            | Die Bestellpositionen sind auf dem Bildschirm, aber noch nichts ist zugeordnet. Klicken Sie auf **Auto Match** oder verbinden Sie die Positionen manuell.                   |
+| … wurde gefunden, aber keine der Bestellpositionen passt      | Jede Position hat die Zuordnungsregeln nicht bestanden. Öffnen Sie die **Matching-Historie**, um zu sehen, in welcher Spalte, und ordnen Sie manuell zu oder korrigieren Sie das Dokument. |
+| Das Dokument enthält keine Positionen                          | Nichts zum Zuordnen; überprüfen Sie die Tabellenerkennung.                                                                                                                   |
+| Die Positions-Tabelle hat keine Bestellspalten zugeordnet     | Menge, Einzelpreis und Artikelnummer sind für diese Tabelle nicht zugeordnet. Ordnen Sie sie in den Tabelleneinstellungen zu.                                               |
+| Die Bestellung hat keine offenen Positionen mehr              | Jede Position der Bestellung ist bereits verbraucht oder deaktiviert (siehe [Status verbrauchter Bestellpositionen](./#consumed-po-line-status) und [Deaktivierungsstatus](./#disable-statuses)). |
+
+Unter dem Satz listet der Bildschirm Kandidaten auf, die **beiseitegelegt** wurden, zum Beispiel _"Ignoriert: 2900233285 aus der Positionsspalte ist die Rechnungsnummer, keine Bestellnummer"_ oder _"… ist durch Konfiguration ausgeschlossen"_. Die Meldung verschwindet, sobald das Dokument zugeordnet ist.
+
+{% hint style="info" %}
+**Die Zuordnung wird beim Speichern erneut ausgeführt.** Wenn sich die Bestellnummer ändert oder sie zuvor nie abgefragt wurde, erfolgt die Zuordnung beim Speichern. Eine bestehende Zuordnung wird durch das Speichern nie überschrieben — und manuell entfernte Positionen bleiben entfernt.
+{% endhint %}
+
+**Wenn eine Zuordnung nicht gespeichert werden kann**, meldet der Bildschirm nicht „gespeichert“: Er stellt die Zuordnung auf dem Bildschirm wieder her, markiert das Dokument als ungespeichert und zeigt an, warum der Server sie verworfen hat — zum Beispiel _"Die PO-Zuordnung konnte nicht gespeichert werden: die Transformationsregel „…“ hat die Tabelle neu aufgebaut"_. Administratoren sehen einen Link zur betreffenden Regel. Bitten Sie einen Administrator, die [Transformationsregel](../../../administration-and-setup/settings/global-settings/document-types/transformation-rules.md) oder die [Zuordnungsregeln](../../../administration-and-setup/settings/global-settings/document-types/more-settings/purchase-order/purchase-order-matching-rules.md) anzupassen.
+
+## Matching-Historie
+
+Die Schaltfläche **Matching-Historie** (Uhr-Symbol in der Bestell-Symbolleiste; erfordert die Analytics-Berechtigung) öffnet eine schreibgeschützte Wiedergabe, wie die letzte Zuordnung entschieden wurde:
+
+* die **Transformationsregeln**, die vor der Zuordnung ausgeführt wurden, und ob eine davon eine Zuordnung verworfen hat,
+* die Zuordnungs-**Phasen und Regeln**, die versucht wurden — grün, wo eine Zuordnung gefunden wurde, rot, wo eine Regel nichts fand, grau, wo eine Regel durch ihre Aktivierungsbedingung übersprungen wurde (der Tooltip erklärt warum),
+* bei einer fehlgeschlagenen Regel die **verglichene Spalte** mit dem Wert im Dokument und dem Wert in der Bestellung.
+
+Das Öffnen und Abspielen der Historie löst weder eine Zuordnung noch einen Export aus. Administratoren finden dieselbe Wiedergabe mit einer Dokument-ID-Eingabe neben dem Regelwerksdiagramm in den Bestelleinstellungen des Dokumententyps.
+
 ## Welche Spalten werden abgeglichen?
 
 Beim Bestellabgleich werden nur bestimmte Spalten abgeglichen. Die folgende Liste zeigt, welche Spalten abgeglichen werden, sofern verfügbar. Wenn keine [Toleranz](./#accept-tolerances) festgelegt ist, werden die Spalten nur dann als Übereinstimmung gewertet, wenn sie exakt (zu 100 %) übereinstimmen.

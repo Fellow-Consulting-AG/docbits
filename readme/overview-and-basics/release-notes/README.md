@@ -1,6 +1,6 @@
 # Release-Notizen
 
-> **Neueste Hotfix-Version:** [Hotfixes 12.–25. August 2026](incremental-updates-12-25-august-2026.md): Was sich mit dem Produktions-Upgrade vom 25. August 2026 geändert hat, von strengerer Trennung zwischen Organisationen bis zur Gutschrift-Erkennung bei E-Rechnungen. Alle Hotfix-Seiten finden Sie in der Navigation unter Release-Notizen.
+> **Neueste Hotfix-Version:** [Hotfixes 8. September 2026](incremental-updates-8-september-2026.md): Bestellabgleich — der Abgleich bleibt nach dem Speichern erhalten, der Abgleich wird beim Speichern erneut ausgeführt, der Bildschirm zeigt an, warum kein Abgleich stattfindet, Bestell-Einheitspreis aus dem Nettobetrag. Vorherige: [Hotfixes 12.–25. August 2026](incremental-updates-12-25-august-2026.md). Alle Hotfix-Seiten sind in der Navigation unter Versionshinweise aufgeführt.
 
 ## **Release R1.0 23./24. Mai 2026**
 
